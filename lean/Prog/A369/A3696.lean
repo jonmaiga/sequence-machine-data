@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -65,7 +66,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -90,12 +90,15 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A369600: Expansion of (1/x) * Series_Reversion( x * (1/(1+x)^3 - x^3) ).
@@ -601,6 +604,12 @@ namespace A369610
 /-- `A338361(n+1)-Δ[n²]` -/
 def P8163556247408927594.Spec : Prop :=
   ∀ n, P8163556247408927594.a n = A369610 (n + 1)
+
+theorem P8163556247408927594.correct : P8163556247408927594.Spec := by
+  intro n
+  simp only [A369610, Nat.add_sub_cancel, A369610.P8163556247408927594.f1, A369610.P8163556247408927594.a, A369610.P10507155967084453302.a, A014689, A014689.P3456970834266250440.a, A079952, A079952.P4380485692026145180.f1, A079952.P4380485692026145180.a, A338361, A338361.P5965664958947979086.f1, A338361.P5965664958947979086.a, A006093, A006093.P2906174024863549003.a, A055679, A055679.P10795285082955514772.f2, A055679.P10795285082955514772.f1, A055679.P10795285082955514772.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A230980, A230980.P7768329975809437652.f2, A230980.P7768329975809437652.f1, A230980.P7768329975809437652.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A369610
 
@@ -2534,7 +2543,7 @@ end A369642.P13799781440601265669
 /-!
 # A369643: a(n) = 1 if n' / gcd(n,n') is a multiple of 3, otherwise 0. Here n' stands for the arithmetic derivative of n, A003415.
 
-The programs for A369643, the canonical program `A369643.P13743877449333020422` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369643 has offset 1).
+The programs for A369643, the canonical program `A369643.P13743877449333020422` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369643 has offset 1).
 
 The definition of A369643 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A083345, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2543,7 +2552,7 @@ The definition of A369643 is `conditional`: the Lean definition is an OEIS formu
 
 `A079978(A083345(n+1))`
 
-The canonical program, it is in `Seq.B009.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A369643
@@ -3992,7 +4001,7 @@ end A369654.P7133631852106957172
 /-!
 # A369655: a(n) = 1 if n' is odd and also n'' is odd, otherwise 0, where n' stands for the arithmetic derivative, A003415.
 
-The programs for A369655, the canonical program `A369655.P9734755882445867410` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369655 has offset 0).
+The programs for A369655, the canonical program `A369655.P9734755882445867410` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369655 has offset 0).
 
 The definition of A369655 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003415, A165560, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4001,7 +4010,7 @@ The definition of A369655 is `conditional`: the Lean definition is an OEIS formu
 
 `A165560(n)*A165560(A003415(n))`
 
-The canonical program, it is in `Seq.B009.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A369655
@@ -6185,7 +6194,7 @@ end A369662.P2508136083252309173
 /-!
 # A369663: Numbers k of the form 4m+3, whose arithmetic derivative k' is of the form 4u+2, and k' has an even number of prime factors.
 
-The programs for A369663, the canonical program `A369663.P9662238559183058676` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369663 has offset 1).
+The programs for A369663, the canonical program `A369663.P9662238559183058676` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369663 has offset 1).
 
 The definition of A369663 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1184 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6194,7 +6203,7 @@ The definition of A369663 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A359163(n+1), A369661(n+1)]`
 
-The canonical program, it is in `Seq.B009.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A369663
@@ -8786,6 +8795,39 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A369692.P14045730134773672803
+
+/-! ## A369692.P15034276625759227342
+
+`record[gcd(A114327(n), A381475(n+1))]`
+-/
+
+namespace A369692.P15034276625759227342
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A114327 n) (A381475 (n + 1))
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A369692.P15034276625759227342
+
+/-! ## A369692.P14858142849833792898
+
+`A032548(n+1)*A381475(A001844(n))`
+-/
+
+namespace A369692.P14858142849833792898
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032548 (n + 1) * A381475 (A001844 n).toNat
+
+end
+
+end A369692.P14858142849833792898
 
 /-!
 # A369694: Expansion of (1/x) * Series_Reversion( x * ((1-x)^3-x^2) ).

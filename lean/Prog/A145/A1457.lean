@@ -1752,7 +1752,7 @@ end A145713.P2076403279066560461
 /-!
 # A145714: a(n) = ceiling(sqrt(2*A145701(n))).
 
-The programs for A145714, the canonical program `A145714.P7947912181771072227` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145714 has offset 1).
+The programs for A145714, the canonical program `A145714.P7947912181771072227` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145714 has offset 1).
 
 The definition of A145714 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A145701, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1761,7 +1761,7 @@ The definition of A145714 is `conditional`: the Lean definition is an OEIS formu
 
 `ceil(sqrt(2*A145701(n+1)))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A145714

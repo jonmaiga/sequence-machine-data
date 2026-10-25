@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -54,17 +55,18 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -81,7 +83,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -92,6 +93,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A216021: a(n) = modlg(n^n, 2^n), where modlg is the function defined in A215894: modlg(a,b) = floor(a / b^floor(logb(a))), logb is the logarithm base b.
@@ -7240,7 +7245,7 @@ end A216094.P7433975515762204619
 /-!
 # A216095: a(n) = 2^n mod 10000.
 
-The programs for A216095, the canonical program `A216095.P3929612690830080144` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216095 has offset 0).
+The programs for A216095, the canonical program `A216095.P3929612690830080144` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216095 has offset 0).
 
 The definition of A216095 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 132 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7249,7 +7254,7 @@ The definition of A216095 is `conjectured`: the Lean definition is a formula tha
 
 `A000079(n)%A078267(A115267(2*(n+2)))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A216095
@@ -7604,6 +7609,12 @@ namespace A216098
 def P8700475103264831245.Spec : Prop :=
   ∀ n, P8700475103264831245.a n = A216098 (n + 1)
 
+theorem P8700475103264831245.correct : P8700475103264831245.Spec := by
+  intro n
+  simp only [A216098, Nat.add_sub_cancel, A216098.P8700475103264831245.f1, A216098.P8700475103264831245.a, A216098.P11989965352199446682.f1, A216098.P11989965352199446682.a, A065091, A065091.P6971844946592549357.a, A073273, A073273.P7261420191492107144.a, A073274, A073274.P9123969946531876833.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A028310, A028310.P18130301328277559831.a, A089038, A089038.P1158643592573954498.a, A098090, A098090.P13715726592348268082.a, A113935, A113935.P5086893406653941242.a, A161720, A161720.P8614735749128950071.a, A024675, A024675.P1773648843625354992.a, A052147, A052147.P6151996953021184291.f1, A052147.P6151996953021184291.a, A089192, A089192.P5097066678155882464.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A216098
 
 /-! ## A216098.P207195659807785703
@@ -7831,6 +7842,12 @@ namespace A216098
 /-- `p?[A000040(n+2)-A073274(n+1)]` -/
 def P11622267785738022550.Spec : Prop :=
   ∀ n, P11622267785738022550.a n = A216098 (n + 1)
+
+theorem P11622267785738022550.correct : P11622267785738022550.Spec := by
+  intro n
+  simp only [A216098, Nat.add_sub_cancel, A216098.P11622267785738022550.f1, A216098.P11622267785738022550.a, A216098.P11989965352199446682.f1, A216098.P11989965352199446682.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A073273, A073273.P7261420191492107144.a, A073274, A073274.P9123969946531876833.a, A028310, A028310.P18130301328277559831.a, A089038, A089038.P1158643592573954498.a, A098090, A098090.P13715726592348268082.a, A113935, A113935.P5086893406653941242.a, A161720, A161720.P8614735749128950071.a, A024675, A024675.P1773648843625354992.a, A052147, A052147.P6151996953021184291.f1, A052147.P6151996953021184291.a, A089192, A089192.P5097066678155882464.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A216098
 

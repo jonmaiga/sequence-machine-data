@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -59,14 +60,12 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -98,6 +97,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A238501: Primes p for which x! + (p-1)!/x!==0 (mod p) has only three solutions 1<=x<=p-2.
@@ -2211,6 +2214,12 @@ namespace A238527
 def P18426246953156207743.Spec : Prop :=
   ∀ n, P18426246953156207743.a n = A238527 (n + 1)
 
+theorem P18426246953156207743.correct : P18426246953156207743.Spec := by
+  intro n
+  simp only [A238527, Nat.add_sub_cancel, A238527.P18426246953156207743.f1, A238527.P18426246953156207743.a, A238527.P10086126541978314139.f1, A238527.P10086126541978314139.a, A001414, A001414.P8293929508439252105.f1, A001414.P8293929508439252105.a, A238525, A238525.P9528007354923680125.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A238527
 
 /-!
@@ -3157,6 +3166,29 @@ def P639577929245498524.Spec : Prop :=
 
 end A238531
 
+/-! ## A238531.P10975372671686056781
+
+`C(n, 2)+2-C(2, 2*n)`
+-/
+
+namespace A238531.P10975372671686056781
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.choose n 2 + 2 : ℤ) - (Nat.choose 2 (2 * n) : ℤ)
+
+end
+
+end A238531.P10975372671686056781
+
+namespace A238531
+
+/-- `C(n, 2)+2-C(2, 2*n)` -/
+def P10975372671686056781.Spec : Prop :=
+  ∀ n, P10975372671686056781.a n = A238531 n
+
+end A238531
+
 /-! ## A238531.P3771528839387447148
 
 `abs(∑[n-1]+3%(2*n+1))`
@@ -3382,32 +3414,6 @@ def P13853368230608883899.Spec : Prop :=
 
 end A238531
 
-/-! ## A238531.P8403813055138067962
-
-`∑[n]-(A000045(C(2, n+1))+n-2)`
--/
-
-namespace A238531.P8403813055138067962
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) - (A000045 (Nat.choose 2 (n + 1)) + ((n : ℤ) - 2))
-
-end
-
-end A238531.P8403813055138067962
-
-namespace A238531
-
-/-- `∑[n]-(A000045(C(2, n+1))+n-2)` -/
-def P8403813055138067962.Spec : Prop :=
-  ∀ n, P8403813055138067962.a n = A238531 n
-
-end A238531
-
 /-!
 # A238532: Number of distinct factorial numbers congruent to -1 (mod n).
 
@@ -3492,7 +3498,7 @@ end A238532.P51920013283773299
 /-!
 # A238533: Number of solutions to gcd(x^2 + y^2 + z^2 + t^2 + h^2, n) = 1 with x,y,z,t,h in [0,n-1].
 
-The programs for A238533, the canonical program `A238533.P17719701383286130883` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238533 has offset 1).
+The programs for A238533, the canonical program `A238533.P17719701383286130883` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238533 has offset 1).
 
 The definition of A238533 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3501,7 +3507,7 @@ The definition of A238533 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)*A189393(n+1)`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A238533
@@ -3559,6 +3565,12 @@ namespace A238533
 /-- `(n+1)²*A053191(n+1)` -/
 def P17172839525314667335.Spec : Prop :=
   ∀ n, P17172839525314667335.a n = A238533 (n + 1)
+
+theorem P17172839525314667335.correct : P17172839525314667335.Spec := by
+  intro n
+  simp only [A238533, Nat.add_sub_cancel, A238533.P17172839525314667335.a, A238533.P17719701383286130883.a, A053191, A053191.P16359264019256189161.a, A189393, A189393.P13947967965399185248.a, A000010, A000010.P4673923239450215316.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A238533
 

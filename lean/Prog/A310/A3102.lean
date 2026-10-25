@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -58,7 +59,6 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
@@ -98,6 +98,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A310200: Coordination sequence Gal.6.44.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
@@ -3817,6 +3821,12 @@ namespace A310252
 /-- `A008574(n)+A250120(n)-A315213(n)` -/
 def P10394149841431286463.Spec : Prop :=
   ∀ n, P10394149841431286463.a n = A310252 n
+
+theorem P10394149841431286463.correct : P10394149841431286463.Spec := by
+  intro n
+  simp only [A310252, Nat.add_sub_cancel, A310252.P10394149841431286463.a, A310252.P16435605649831598924.a, A008574, A008574.P1300280032690682112.a, A250120, A250120.P17005803601232239086.a, A313568, A313568.P10572576497162449502.f1, A313568.P10572576497162449502.a, A315213, A315213.P4408684047996262783.a, A315373, A315373.P10372235657626568569.a, A022144, A022144.P16676713181441761724.a, A047486, A047486.P6506762595393263252.a, A244895, A244895.P7331689240937634665.a, A313660, A313660.P5112024612694540974.f1, A313660.P5112024612694540974.a, A011858, A011858.P16234308487928340219.a, A237420, A237420.P18309215415516619502.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A310252
 

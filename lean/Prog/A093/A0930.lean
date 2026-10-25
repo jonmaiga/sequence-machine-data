@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -54,6 +55,7 @@ import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -93,6 +95,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A093000: Least k such that Sum_{r=n+1..k} r >= n!.
@@ -1512,7 +1518,7 @@ end A093011.P12875752979686133488
 
 The programs for A093012, the canonical program `A093012.P299501084987032336` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A093012 has offset 1).
 
-The definition of A093012 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000720, A091968, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A093012 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A091968, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A093012.P299501084987032336
@@ -1783,7 +1789,7 @@ end A093012
 /-!
 # A093013: Numbers n such that 10*n-3 and 10*n+3 are both primes.
 
-The programs for A093013, the canonical program `A093013.P11698118702598108032` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A093013 has offset 1).
+The programs for A093013, the canonical program `A093013.P11698118702598108032` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A093013 has offset 1).
 
 The definition of A093013 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A091992, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1792,7 +1798,7 @@ The definition of A093013 is `conditional`: the Lean definition is an OEIS formu
 
 `A091992(n+1)/2`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A093013
@@ -5380,6 +5386,12 @@ namespace A093033
 /-- `Δ[n*A004767(n)*n²-A000217(n)]` -/
 def P5350293687038549735.Spec : Prop :=
   ∀ n, P5350293687038549735.a n = A093033 (n + 1)
+
+theorem P5350293687038549735.correct : P5350293687038549735.Spec := by
+  intro n
+  simp only [A093033, Nat.add_sub_cancel, A093033.P5350293687038549735.f1, A093033.P5350293687038549735.a, A093033.P14950655495627761375.a, A000217, A000217.P10269402890581615239.a, A004767, A004767.P13352534504447192883.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A093033
 
@@ -10840,21 +10852,6 @@ end
 
 end A093053.P4683238776529613778
 
-/-! ## A093053.P15856412140799033737
-
-`A023443(ceil(sqrt(A037716(n+1))))`
--/
-
-namespace A093053.P15856412140799033737
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023443 ⌈Real.sqrt (A037716 (n + 1) : ℝ)⌉.toNat
-
-end
-
-end A093053.P15856412140799033737
-
 /-!
 # A093057: Triangle T(j,k) read by rows, where T(j,k) = number of matrix elements remaining at fixed position in the in-situ transposition of a rectangular j X k matrix (singleton cycles).
 
@@ -11393,6 +11390,12 @@ namespace A093061
 def P13052769131476674485.Spec : Prop :=
   ∀ n, (P13052769131476674485.a n : ℤ) = A093061 (n + 1)
 
+theorem P13052769131476674485.correct : P13052769131476674485.Spec := by
+  intro n
+  simp only [A093061, Nat.add_sub_cancel, A093061.P13052769131476674485.f1, A093061.P13052769131476674485.a, A093061.P7921048065262857130.a, A082909, A082909.P666252728659787957.f1, A082909.P666252728659787957.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A093061
 
 /-! ## A093061.P11523451991064126886
@@ -11545,6 +11548,12 @@ namespace A093061
 /-- `6*∑{d}[n+1, A010882(#)-1]` -/
 def P7020104679416607081.Spec : Prop :=
   ∀ n, P7020104679416607081.a n = A093061 (n + 1)
+
+theorem P7020104679416607081.correct : P7020104679416607081.Spec := by
+  intro n
+  simp only [A093061, Nat.add_sub_cancel, A093061.P7020104679416607081.f1, A093061.P7020104679416607081.a, A093061.P7921048065262857130.a, A010882, A010882.P12866504876025852019.a, A082909, A082909.P666252728659787957.f1, A082909.P666252728659787957.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A093061
 

@@ -27,6 +27,7 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
+import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
@@ -36,7 +37,7 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B009.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -707,6 +708,29 @@ def P9408258601865330702.Spec : Prop :=
 
 end A155212
 
+/-! ## A155212.P8099799922825446518
+
+`C(n+3, 2)+n-1+n`
+-/
+
+namespace A155212.P8099799922825446518
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.choose (n + 3) 2 : ℤ) + ((n : ℤ) - 1) + (n : ℤ)
+
+end
+
+end A155212.P8099799922825446518
+
+namespace A155212
+
+/-- `C(n+3, 2)+n-1+n` -/
+def P8099799922825446518.Spec : Prop :=
+  ∀ n, P8099799922825446518.a n = A155212 n
+
+end A155212
+
 /-! ## A155212.P5207528262152836167
 
 `Δ[C(n+1, 3)+2*n²]`
@@ -785,29 +809,6 @@ def P10392652779277424643.Spec : Prop :=
 
 end A155212
 
-/-! ## A155212.P6214224919238641706
-
-`floor((n+2)²-(C(n, 2)+ϕ))`
--/
-
-namespace A155212.P6214224919238641706
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊((n + 2) ^ 2 : ℝ) - ((Nat.choose n 2 : ℝ) + Real.goldenRatio)⌋
-
-end
-
-end A155212.P6214224919238641706
-
-namespace A155212
-
-/-- `floor((n+2)²-(C(n, 2)+ϕ))` -/
-def P6214224919238641706.Spec : Prop :=
-  ∀ n, P6214224919238641706.a n = A155212 n
-
-end A155212
-
 /-! ## A155212.P17083625341158378065
 
 `∑[2*a(n-2)-n]` with `a(0)=2, a(1)=5, a(2)=6`
@@ -831,29 +832,6 @@ namespace A155212
 /-- `∑[2*a(n-2)-n]` -/
 def P17083625341158378065.Spec : Prop :=
   ∀ n, P17083625341158378065.a n = A155212 n
-
-end A155212
-
-/-! ## A155212.P7736837496199799576
-
-`abs(1-(C(n+3, 2)+2*n))`
--/
-
-namespace A155212.P7736837496199799576
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |1 - (Nat.choose (n + 3) 2 + 2 * n : ℤ)|
-
-end
-
-end A155212.P7736837496199799576
-
-namespace A155212
-
-/-- `abs(1-(C(n+3, 2)+2*n))` -/
-def P7736837496199799576.Spec : Prop :=
-  ∀ n, P7736837496199799576.a n = A155212 n
 
 end A155212
 
@@ -935,38 +913,12 @@ def P14756796432305574517.Spec : Prop :=
 
 end A155212
 
-/-! ## A155212.P16798443769806753905
-
-`∑[4/2-(1-a(n-1))]` with `a(0)=2, a(1)=5`
--/
-
-namespace A155212.P16798443769806753905
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.rec [2, 5] fun n f1 =>
-  (4 : ℚ) / 2 - (1 - f1 (n - 1))
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A155212.P16798443769806753905
-
-namespace A155212
-
-/-- `∑[4/2-(1-a(n-1))]` -/
-def P16798443769806753905.Spec : Prop :=
-  ∀ n, P16798443769806753905.a n = (A155212 n : ℚ)
-
-end A155212
-
 /-!
 # A155213: a(n) = floor(prime(n)/9).
 
 The programs for A155213, the canonical program `A155213.P12581193989716260727` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155213 has offset 1).
 
-The definition of A155213 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A038194, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A155213 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A155213.P12581193989716260727

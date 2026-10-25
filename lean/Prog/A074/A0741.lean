@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -50,7 +51,7 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -60,7 +61,6 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -87,6 +87,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A074100: Cubes using only digits 1, 2, 3, 5 and 7.
@@ -1503,26 +1507,26 @@ def P1860947791900473950.Spec : Prop :=
 
 end A074117
 
-/-! ## A074117.P15669527707981885431
+/-! ## A074117.P4368422262864440870
 
-`A027313(A169919(n))`
+`A001019(n)*A007947(A000244(n))`
 -/
 
-namespace A074117.P15669527707981885431
+namespace A074117.P4368422262864440870
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027313 (A169919 n).toNat
+  A001019 n * A007947 (A000244 n).toNat
 
 end
 
-end A074117.P15669527707981885431
+end A074117.P4368422262864440870
 
 namespace A074117
 
-/-- `A027313(A169919(n))` -/
-def P15669527707981885431.Spec : Prop :=
-  ∀ n, P15669527707981885431.a n = A074117 (n + 1)
+/-- `A001019(n)*A007947(A000244(n))` -/
+def P4368422262864440870.Spec : Prop :=
+  ∀ n, P4368422262864440870.a n = A074117 (n + 1)
 
 end A074117
 
@@ -1868,23 +1872,23 @@ end A074124.P463936994834562898
 The programs for A074126, there is no canonical definition to state claims against.
 -/
 
-/-! ## A074126.P4858667857698740942
+/-! ## A074126.P138320063349081299
 
-`Δ[A022447(A074125(n+1))]`
+`Δ[A022447(A074125(1+n))]`
 -/
 
-namespace A074126.P4858667857698740942
+namespace A074126.P138320063349081299
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022447 (A074125 (n + 1)).toNat
+  A022447 (A074125 (1 + n)).toNat
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (n + 1) - f1 n
 
 end
 
-end A074126.P4858667857698740942
+end A074126.P138320063349081299
 
 /-!
 # A074127: Group the composite numbers so that the sum of the n-th group is a multiple of the n-th prime: (4), (6), (8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 22), (24, 25), (26, 27, 28, 30, 32), (33, 34, ...), ... Sequence gives the group sum divided by n-th prime for the n-th group.
@@ -3682,6 +3686,12 @@ namespace A074147
 /-- `A116941(n)+1` -/
 def P15147608282300508069.Spec : Prop :=
   ∀ n, P15147608282300508069.a n = A074147 (n + 1)
+
+theorem P15147608282300508069.correct : P15147608282300508069.Spec := by
+  intro n
+  simp only [A074147, Nat.add_sub_cancel, A074147.P15147608282300508069.a, A074147.P16699189592433911745.a, A002024, A002024.P11700297927830783882.a, A116941, A116941.P12886605417078057976.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A074147
 

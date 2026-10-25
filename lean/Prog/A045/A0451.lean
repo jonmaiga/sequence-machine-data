@@ -49,7 +49,6 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.Opaque.C000
@@ -12795,7 +12794,7 @@ end A045191
 /-!
 # A045192: Numbers whose base-5 representation contains exactly one 0 and one 3.
 
-The programs for A045192, the canonical program `A045192.P4043128430338068210` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045192 has offset 1).
+The programs for A045192, the canonical program `A045192.P4043128430338068210` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045192 has offset 1).
 
 The definition of A045192 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4036 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12954,7 +12953,7 @@ end A045192
 
 `∩[A023734(n+1), A039009(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A045192

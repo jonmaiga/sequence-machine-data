@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C006
 import Seq.B000.C007
@@ -56,6 +57,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A396400: Numbers k for which A395994(k)/k sets a new record.
@@ -411,6 +416,12 @@ namespace A396409
 /-- `A007814(n+1)-A397100(n)` -/
 def P7869203277249282943.Spec : Prop :=
   ∀ n, P7869203277249282943.a n = A396409 n
+
+theorem P7869203277249282943.correct : P7869203277249282943.Spec := by
+  intro n
+  simp only [A396409, Nat.add_sub_cancel, A396409.P7869203277249282943.a, A396409.P16372428509261204668.a, A007814, A007814.P13537437864234730737.a, A025480, A025480.P15873863116418380882.a, A326730, A326730.P12598629395687838766.a, A397100, A397100.P2153576112342565242.a, A000120, A000120.P2816527436160941581.a, A001511, A001511.P17146462531039486101.a, A006519, A006519.P10435570611646570274.a, A029931, A029931.P9873769426762813119.a, A005187, A005187.P3874015513960485494.a, A029930, A029930.P3707852897458008637.a, A171977, A171977.P14092944863121073856.a, A038712, A038712.P3404197303190209645.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A396409
 
@@ -906,6 +917,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A396433.P1713318907506069392
+
+/-! ## A396433.P3124570287441649131
+
+`A181937(n)*A396447(A141214(n))`
+-/
+
+namespace A396433.P3124570287441649131
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A181937 n * A396447 (A141214 n).toNat
+
+end
+
+end A396433.P3124570287441649131
 
 /-!
 # A396434: Expansion of (F_2(x)/x)^(1/3), where F_k(x) is the k-th iteration of x*G4(x)^3 with G4(x) = 1 + x*G4(x)^4.

@@ -46,11 +46,11 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -7846,7 +7846,7 @@ end A237880.P1498577432402157869
 
 The programs for A237881, the canonical program `A237881.P9527050307391810079` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237881 has offset 1).
 
-The definition of A237881 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001043, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A237881 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A237881.P9527050307391810079
@@ -8291,7 +8291,7 @@ end A237881
 /-!
 # A237882: Numbers k such that LR0(k) > LR1(k), where LR0(k) = A087117(k) is the length of the longest run of zeros in the binary representation of k, LR1(k) = A038374(k) is the length of the longest run of ones.
 
-The programs for A237882, the canonical program `A237882.P9717676700873481569` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237882 has offset 1).
+The programs for A237882, the canonical program `A237882.P9717676700873481569` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237882 has offset 1).
 
 The definition of A237882 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8300,7 +8300,7 @@ The definition of A237882 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A330036(n), 2*A087117(n)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A237882

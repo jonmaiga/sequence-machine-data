@@ -42,17 +42,18 @@ import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
-import Seq.B011.C001
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -381,20 +382,20 @@ end
 
 end A381606.P9821866707953975469
 
-/-! ## A381606.P2166956604790364409
+/-! ## A381606.P16976083589972957926
 
-`A385512(n)+A121373(A142270(3*n+5))`
+`A385512(n)+A151933(A111381(n+1))`
 -/
 
-namespace A381606.P2166956604790364409
+namespace A381606.P16976083589972957926
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A385512 n + A121373 (A142270 (3 * n + 5)).toNat
+  A385512 n + A151933 (A111381 (n + 1)).toNat
 
 end
 
-end A381606.P2166956604790364409
+end A381606.P16976083589972957926
 
 /-!
 # A381607: For any nonnegative integer n with ternary expansion Sum_{k >= 0} t_k * 3^k, a(n) = Sum_{k >= 0} t_k * A000045(2*k + 2).
@@ -981,20 +982,23 @@ end A381614
 The programs for A381615, there is no canonical definition to state claims against.
 -/
 
-/-! ## A381615.P18190147634137999198
+/-! ## A381615.P917363341713339312
 
-`A112996(A009922(n))`
+`∑{d}[A304708(n^3+3), #]`
 -/
 
-namespace A381615.P18190147634137999198
+namespace A381615.P917363341713339312
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A112996 (A009922 n).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A304708 (n ^ 3 + 3)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f1 n).natAbs, d
 
 end
 
-end A381615.P18190147634137999198
+end A381615.P917363341713339312
 
 /-!
 # A381617: A sequence constructed by greedily sampling the zeta distribution for parameter value 2 to minimize discrepancy.

@@ -55,6 +55,7 @@ import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -558,6 +559,12 @@ namespace A317404
 def P10103489839806611130.Spec : Prop :=
   ∀ n, P10103489839806611130.a n = A317404 n
 
+theorem P10103489839806611130.correct : P10103489839806611130.Spec := by
+  intro n
+  simp only [A317404, Nat.add_sub_cancel, A317404.P10103489839806611130.a, A317404.P15895309766879522071.a, A016777, A016777.P9931792138852554157.a, A048477, A048477.P4668765606070532470.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A317404
 
 /-! ## A317404.P2728952837138805146
@@ -580,6 +587,12 @@ namespace A317404
 /-- `A066524(n)+2*A066524(n)` -/
 def P2728952837138805146.Spec : Prop :=
   ∀ n, P2728952837138805146.a n = A317404 n
+
+theorem P2728952837138805146.correct : P2728952837138805146.Spec := by
+  intro n
+  simp only [A317404, Nat.add_sub_cancel, A317404.P2728952837138805146.a, A317404.P15895309766879522071.a, A066524, A066524.P7942145865934771605.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A317404
 
@@ -604,6 +617,12 @@ namespace A317404
 def P5876472056028749503.Spec : Prop :=
   ∀ n, P5876472056028749503.a n = A317404 n
 
+theorem P5876472056028749503.correct : P5876472056028749503.Spec := by
+  intro n
+  simp only [A317404, Nat.add_sub_cancel, A317404.P5876472056028749503.a, A317404.P15895309766879522071.a, A000225, A000225.P6535533121115206393.a, A016777, A016777.P9931792138852554157.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A317404
 
 /-! ## A317404.P1190781173814849796
@@ -626,6 +645,12 @@ namespace A317404
 /-- `A000079(n)*A008585(n)-A008585(n)` -/
 def P1190781173814849796.Spec : Prop :=
   ∀ n, P1190781173814849796.a n = A317404 n
+
+theorem P1190781173814849796.correct : P1190781173814849796.Spec := by
+  intro n
+  simp only [A317404, Nat.add_sub_cancel, A317404.P1190781173814849796.a, A317404.P15895309766879522071.a, A000079, A000079.P10855139691139572931.a, A008585, A008585.P13732812384316341435.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A317404
 
@@ -719,6 +744,12 @@ namespace A317404
 def P12349173275166470661.Spec : Prop :=
   ∀ n, P12349173275166470661.a n = (A317404 n : ℚ)
 
+theorem P12349173275166470661.correct : P12349173275166470661.Spec := by
+  intro n
+  simp only [A317404, Nat.add_sub_cancel, A317404.P12349173275166470661.a, A317404.P15895309766879522071.a, A000225, A000225.P6535533121115206393.a, A008588, A008588.P12386450284809463491.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A317404
 
 /-! ## A317404.P8446222689771183489
@@ -741,6 +772,12 @@ namespace A317404
 /-- `A036290(n)-A178759(n)` -/
 def P8446222689771183489.Spec : Prop :=
   ∀ n, P8446222689771183489.a n = A317404 n
+
+theorem P8446222689771183489.correct : P8446222689771183489.Spec := by
+  intro n
+  simp only [A317404, Nat.add_sub_cancel, A317404.P8446222689771183489.a, A317404.P15895309766879522071.a, A036290, A036290.P13464595081009669665.a, A178759, A178759.P8288006381962297201.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A317404
 
@@ -1262,7 +1299,7 @@ end A317406.P181808378807767025
 /-!
 # A317407: The "OOPS" numbers -- numbers with ones in all odd-numbered positions of the binary representation of n.
 
-The programs for A317407, the canonical program `A317407.P2584308412122888384` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317407 has offset 1).
+The programs for A317407, the canonical program `A317407.P2584308412122888384` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317407 has offset 1).
 
 The definition of A317407 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 445 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1271,7 +1308,7 @@ The definition of A317407 is `conjectured`: the Lean definition is a formula tha
 
 `record[A258746(n+1)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A317407

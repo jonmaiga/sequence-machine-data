@@ -49,7 +49,6 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -57,7 +56,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C001
-import Seq.B008.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -5257,7 +5256,7 @@ end A205673.P645432652221591489
 /-!
 # A205674: Prime(A202560(n)), the n-th number s(k) such that 3 divides s(k)-s(j) for some j
 
-The programs for A205674, the canonical program `A205674.P5002100609961987848` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205674 has offset 1).
+The programs for A205674, the canonical program `A205674.P5002100609961987848` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205674 has offset 1).
 
 The definition of A205674 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5266,7 +5265,7 @@ The definition of A205674 is `conjectured`: the Lean definition is a formula tha
 
 `A000040(A205547(n+1))`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A205674
@@ -6463,7 +6462,7 @@ end A205679.P17439093210242202721
 /-!
 # A205680: Prime(A205678(n)), the n-th number s(j) such that 4 divides s(k)-s(j), where the pairs (k,j) are given by A205677 and A205678.
 
-The programs for A205680, the canonical program `A205680.P15285534464945859236` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205680 has offset 1).
+The programs for A205680, the canonical program `A205680.P15285534464945859236` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205680 has offset 1).
 
 The definition of A205680 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6472,7 +6471,7 @@ The definition of A205680 is `conjectured`: the Lean definition is a formula tha
 
 `A000040(A205678(n+1))`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A205680
@@ -8457,7 +8456,7 @@ end A205691.P4114401420447872814
 /-!
 # A205692: The number j such that 6 divides prime(k)-prime(j), where k(n)=A205691(n).
 
-The programs for A205692, the canonical program `A205692.P12020917738335032980` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205692 has offset 1).
+The programs for A205692, the canonical program `A205692.P12020917738335032980` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205692 has offset 1).
 
 The definition of A205692 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5478 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8820,7 +8819,7 @@ end A205692
 
 `A002260(A205690(n+1))`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A205692

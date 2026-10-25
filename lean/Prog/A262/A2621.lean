@@ -576,23 +576,23 @@ end A262105.P12124546427422538072
 The programs for A262106, there is no canonical definition to state claims against.
 -/
 
-/-! ## A262106.P15298574401905164320
+/-! ## A262106.P15631903970962560091
 
-`A262109(∑[n+1])`
+`A262109(∑[1+n])`
 -/
 
-namespace A262106.P15298574401905164320
+namespace A262106.P15631903970962560091
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+  1 + n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A262109 (∑ j ∈ Finset.range (n + 1), f1 j)
 
 end
 
-end A262106.P15298574401905164320
+end A262106.P15631903970962560091
 
 /-! ## A262106.P8127827477373035877
 
@@ -636,23 +636,23 @@ end A262106.P6485105853132033663
 The programs for A262107, there is no canonical definition to state claims against.
 -/
 
-/-! ## A262107.P11333288932480156228
+/-! ## A262107.P13704606035752701066
 
-`A262109(∑[n+2])`
+`A262109(∑[2+n])`
 -/
 
-namespace A262107.P11333288932480156228
+namespace A262107.P13704606035752701066
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 2
+  2 + n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A262109 (∑ j ∈ Finset.range (n + 1), f1 j)
 
 end
 
-end A262107.P11333288932480156228
+end A262107.P13704606035752701066
 
 /-! ## A262107.P12902217522314276027
 
@@ -8040,7 +8040,7 @@ end A262184
 
 The programs for A262186, the canonical program `A262186.P7927414774880988309` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262186 has offset 1).
 
-The definition of A262186 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A030078, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A262186 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A262186.P7927414774880988309
@@ -8083,6 +8083,12 @@ namespace A262186
 def P12099734911770622448.Spec : Prop :=
   ∀ n, P12099734911770622448.a n = A262186 (n + 1)
 
+theorem P12099734911770622448.correct : P12099734911770622448.Spec := by
+  intro n
+  simp only [A262186, Nat.add_sub_cancel, A262186.P12099734911770622448.a, A262186.P7927414774880988309.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A000578, A000578.P12162961755414704816.a, A030078, A030078.P13819432151207990454.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A262186
 
 /-! ## A262186.P1215988071289616561
@@ -8105,6 +8111,12 @@ namespace A262186
 /-- `A135178(n+1)-(A001248(n+1)+A000578(n+1))` -/
 def P1215988071289616561.Spec : Prop :=
   ∀ n, P1215988071289616561.a n = A262186 (n + 1)
+
+theorem P1215988071289616561.correct : P1215988071289616561.Spec := by
+  intro n
+  simp only [A262186, Nat.add_sub_cancel, A262186.P1215988071289616561.a, A262186.P7927414774880988309.a, A000578, A000578.P12162961755414704816.a, A001248, A001248.P16278241061688229202.a, A030078, A030078.P13819432151207990454.a, A135178, A135178.P2117100385622879640.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A262186
 

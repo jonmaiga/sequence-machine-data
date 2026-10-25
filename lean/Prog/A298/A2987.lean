@@ -3342,6 +3342,30 @@ end
 
 end A298746.P8959718450203327363
 
+/-! ## A298746.P7497982945878201593
+
+`lt[Δ[A051724(n)], A293298(2*n+3)]`
+-/
+
+namespace A298746.P7497982945878201593
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051724 n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f2 (n + 1) - f2 n
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A293298 (2 * n + 3)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f3 j) n
+
+end
+
+end A298746.P7497982945878201593
+
 /-!
 # A298747: If n = 2^(2*m+1)+j, 0 <= j < 3*2^(2*m+1), then a(n) = 2^(3*m)+j.
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -85,10 +86,14 @@ import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
 
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+
 /-!
 # A381201: a(n) is the product of the elements of the set of bases and exponents in the prime factorization of n.
 
-The programs for A381201, the canonical program `A381201.P5285966615949982565` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381201 has offset 1).
+The programs for A381201, the canonical program `A381201.P5285966615949982565` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381201 has offset 1).
 
 The definition of A381201 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 129 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -97,7 +102,7 @@ The definition of A381201 is `conjectured`: the Lean definition is a formula tha
 
 `A156061(A181819(n+1)*A328878(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A381201
@@ -2146,6 +2151,12 @@ namespace A381232
 def P9744434417742903890.Spec : Prop :=
   ∀ n, P9744434417742903890.a n = A381232 n
 
+theorem P9744434417742903890.correct : P9744434417742903890.Spec := by
+  intro n
+  simp only [A381232, Nat.add_sub_cancel, A381232.P9744434417742903890.a, A381232.P8771641921475039308.a, A196199, A196199.P3919230471390252242.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A381232
 
 /-! ## A381232.P5503921103221560048
@@ -2191,6 +2202,12 @@ namespace A381232
 /-- `(A020703(n+1)-(n+1))/2` -/
 def P2282291640271968482.Spec : Prop :=
   ∀ n, P2282291640271968482.a n = (A381232 n : ℚ)
+
+theorem P2282291640271968482.correct : P2282291640271968482.Spec := by
+  intro n
+  simp only [A381232, Nat.add_sub_cancel, A381232.P2282291640271968482.a, A381232.P8771641921475039308.a, A020703, A020703.P16958220774647362096.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A381232
 
@@ -2951,20 +2968,20 @@ end A381243.P17130785208735768521
 The programs for A381244, there is no canonical definition to state claims against.
 -/
 
-/-! ## A381244.P9994095263440914797
+/-! ## A381244.P18185170658791621429
 
-`n*A066186(a(n-1))` with `a(0)=1`
+`A066186(a(n-1))*n` with `a(0)=1`
 -/
 
-namespace A381244.P9994095263440914797
+namespace A381244.P18185170658791621429
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  (n : ℤ) * A066186 (a (n - 1)).toNat
+  A066186 (a (n - 1)).toNat * (n : ℤ)
 
 end
 
-end A381244.P9994095263440914797
+end A381244.P18185170658791621429
 
 /-!
 # A381246: Largest value in trajectory of n under the juggler map of A380891.

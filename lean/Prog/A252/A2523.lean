@@ -31,11 +31,13 @@ import Seq.B003.C002
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -6340,23 +6342,23 @@ end A252376.P13112598715427545423
 The programs for A252377, there is no canonical definition to state claims against.
 -/
 
-/-! ## A252377.P18250388725073307282
+/-! ## A252377.P13257011105464898045
 
-`A252384(∑[n+1])`
+`A252384(∑[1+n])`
 -/
 
-namespace A252377.P18250388725073307282
+namespace A252377.P13257011105464898045
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+  1 + n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A252384 (∑ j ∈ Finset.range (n + 1), f1 j)
 
 end
 
-end A252377.P18250388725073307282
+end A252377.P13257011105464898045
 
 /-! ## A252377.P3437174804569795628
 

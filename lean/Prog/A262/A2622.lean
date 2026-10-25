@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -61,7 +62,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -69,6 +69,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -97,6 +98,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A262200: Number of compositions of n such that the maximal distance between two identical parts equals five.
@@ -1924,7 +1929,7 @@ end A262214.P9534652148734667020
 
 The programs for A262221, the canonical program `A262221.P9616285065150363173` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262221 has offset 0).
 
-The definition of A262221 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A262221 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `25*n*(n+1)/2+1` (program `A262221.P9898472340897822759`, by `A262221.P9898472340897822759.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A262221.P9898472340897822759
@@ -1949,6 +1954,12 @@ namespace A262221
 /-- `25*n*(n+1)/2+1` -/
 def P9898472340897822759.Spec : Prop :=
   ∀ n, P9898472340897822759.a n = (A262221 n : ℚ)
+
+theorem P9898472340897822759.correct : P9898472340897822759.Spec := by
+  intro n
+  simp only [A262221, Nat.add_sub_cancel, A262221.P9898472340897822759.a, A262221.P9616285065150363173.a, A034856, A034856.P1676305901281367657.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A262221
 
@@ -2139,6 +2150,12 @@ namespace A262221
 /-- `(A001545(n)-2)/2` -/
 def P17476481954258124701.Spec : Prop :=
   ∀ n, P17476481954258124701.a n = (A262221 n : ℚ)
+
+theorem P17476481954258124701.correct : P17476481954258124701.Spec := by
+  intro n
+  simp only [A262221, Nat.add_sub_cancel, A262221.P17476481954258124701.a, A262221.P9616285065150363173.a, A001545, A001545.P4596200827424455748.a, A034856, A034856.P1676305901281367657.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A262221
 
@@ -3300,6 +3317,12 @@ namespace A262232
 def P1014796683572182538.Spec : Prop :=
   ∀ n, P1014796683572182538.a n = A262232 n
 
+theorem P1014796683572182538.correct : P1014796683572182538.Spec := by
+  intro n
+  simp only [A262232, Nat.add_sub_cancel, A262232.P1014796683572182538.a, A262232.P26849987353357547.a, A004526, A004526.P10084182425416171735.a, A008619, A008619.P16053834178911111118.a, A052823, A052823.P12858488528447412848.a, A008965, A008965.P16924218572130557635.a, A028310, A028310.P18130301328277559831.a, A000031, A000031.P16543801865445953573.f1, A000031.P16543801865445953573.a, A059966, A059966.P5188141675617584754.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A262232
 
 /-! ## A262232.P14706430590075657931
@@ -4309,7 +4332,7 @@ end A262244.P1378377256625860265
 
 The programs for A262247, the canonical program `A262247.P16416893810568802159` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262247 has offset 1).
 
-The definition of A262247 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A262247 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A262247.P16416893810568802159

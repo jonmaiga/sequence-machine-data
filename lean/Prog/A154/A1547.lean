@@ -85,6 +85,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
 
@@ -1964,7 +1965,7 @@ end A154728
 /-!
 # A154729: Products of three distinct primes of the form 6*k + 1.
 
-The programs for A154729, the canonical program `A154729.P14889584261807949482` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154729 has offset 1).
+The programs for A154729, the canonical program `A154729.P14889584261807949482` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154729 has offset 1).
 
 The definition of A154729 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2014 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2003,7 +2004,7 @@ end A154729
 
 `∩[A157347(n+1), A373590(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A154729

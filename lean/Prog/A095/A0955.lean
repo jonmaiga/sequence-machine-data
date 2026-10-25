@@ -19,11 +19,12 @@ import Seq.B000.C034
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B002.C001
+import Seq.B003.C000
 import Seq.B004.C000
-import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -43,6 +44,7 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -2162,20 +2164,20 @@ end
 
 end A095573.P6999459422159183632
 
-/-! ## A095573.P6017579704289684187
+/-! ## A095573.P3450681895492729352
 
-`A232740(A095569(n+3))+A095571(n)`
+`A095569(n)+A091787(A000984(n+2))`
 -/
 
-namespace A095573.P6017579704289684187
+namespace A095573.P3450681895492729352
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A232740 (A095569 (n + 3)).toNat + A095571 n
+  A095569 n + A091787 (A000984 (n + 2)).toNat
 
 end
 
-end A095573.P6017579704289684187
+end A095573.P3450681895492729352
 
 /-!
 # A095575: a(n) = 91 written in base 15 - n.

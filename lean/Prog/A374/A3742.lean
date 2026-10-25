@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
@@ -93,6 +94,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A374200: a(n) is the minimum value of A347381 that it obtains among the unitary divisors of n larger than 1, where A347381 is the distance from n to the nearest common ancestor of n and sigma(n) in the Doudna-tree (A005940). By convention a(1) = 0.
@@ -1503,6 +1508,12 @@ namespace A374216
 def P10659783082342634077.Spec : Prop :=
   ∀ n, P10659783082342634077.a n = A374216 (n + 2)
 
+theorem P10659783082342634077.correct : P10659783082342634077.Spec := by
+  intro n
+  simp only [A374216, Nat.add_sub_cancel, A374216.P10659783082342634077.a, A374216.P3301399781499645410.a, A001414, A001414.P8293929508439252105.f1, A001414.P8293929508439252105.a, A007814, A007814.P13537437864234730737.a, A036288, A036288.P5869837535348566754.f1, A036288.P5869837535348566754.a, A001511, A001511.P17146462531039486101.a, A006519, A006519.P10435570611646570274.a, A171977, A171977.P14092944863121073856.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A374216
 
 /-! ## A374216.P3671578281401324744
@@ -1667,6 +1678,12 @@ namespace A374217
 /-- `A007949(A036288(n+2)-1)` -/
 def P14816742345029033273.Spec : Prop :=
   ∀ n, P14816742345029033273.a n = A374217 (n + 2)
+
+theorem P14816742345029033273.correct : P14816742345029033273.Spec := by
+  intro n
+  simp only [A374217, Nat.add_sub_cancel, A374217.P14816742345029033273.a, A374217.P12233700844342352105.a, A001414, A001414.P8293929508439252105.f1, A001414.P8293929508439252105.a, A007949, A007949.P16509802526550351827.a, A036288, A036288.P5869837535348566754.f1, A036288.P5869837535348566754.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A374217
 

@@ -44,6 +44,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -51,11 +52,10 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -3239,7 +3239,7 @@ end A342533.P15443144610151667394
 /-!
 # A342534: a(n) = Sum_{k=1..n} phi(gcd(k, n))^2.
 
-The programs for A342534, the canonical program `A342534.P15358775689638602389` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342534 has offset 1).
+The programs for A342534, the canonical program `A342534.P15358775689638602389` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342534 has offset 1).
 
 The definition of A342534 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3248,7 +3248,7 @@ The definition of A342534 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A007431(#)*A029939((n+1)/#)]`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A342534
@@ -3318,7 +3318,7 @@ end A342534
 /-!
 # A342535: a(n) = Sum_{k=1..n} phi(gcd(k, n))^3.
 
-The programs for A342535, the canonical program `A342535.P1287221588278345036` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342535 has offset 1).
+The programs for A342535, the canonical program `A342535.P1287221588278345036` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342535 has offset 1).
 
 The definition of A342535 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3327,7 +3327,7 @@ The definition of A342535 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A007431(#)*A338997((n+1)/#)]`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A342535
@@ -5380,6 +5380,12 @@ namespace A342573
 /-- `(n+1)*A091868(n)` -/
 def P3840387573407414393.Spec : Prop :=
   ∀ n, P3840387573407414393.a n = A342573 (n + 1)
+
+theorem P3840387573407414393.correct : P3840387573407414393.Spec := by
+  intro n
+  simp only [A342573, Nat.add_sub_cancel, A342573.P3840387573407414393.a, A342573.P11895055850012896166.a, A091868, A091868.P5525084501402041512.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A342573
 

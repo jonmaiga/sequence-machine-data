@@ -67,7 +67,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -1949,6 +1948,21 @@ end
 
 end A369312.P14366213196222933092
 
+/-! ## A369312.P10021364111735583264
+
+`A010766(n+1)-A179775(A222313(n+1))`
+-/
+
+namespace A369312.P10021364111735583264
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010766 (n + 1) - A179775 (A222313 (n + 1)).toNat
+
+end
+
+end A369312.P10021364111735583264
+
 /-! ## A369312.P8771800808737124201
 
 `A010766(n+1)-A257680(A299264(n+1))`
@@ -1993,21 +2007,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A369312.P2662249844673824150
-
-/-! ## A369312.P3136562765650590846
-
-`A010766(n+1)-A030308(A245732(n))`
--/
-
-namespace A369312.P3136562765650590846
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010766 (n + 1) - A030308 (A245732 n).toNat
-
-end
-
-end A369312.P3136562765650590846
 
 /-!
 # A369314: Number of chiral pairs of polyominoes composed of n triangular cells of the hyperbolic regular tiling with Schläfli symbol {3,oo}.

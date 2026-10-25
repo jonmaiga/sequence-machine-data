@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -34,7 +35,6 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
@@ -55,14 +55,12 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -90,6 +88,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A370302: Least number of vertices of a graph that contains an induced cycle of length k_i + 3 for i = 1, 2, ..., where n = 2^k_1 + 2^k_2 + ... is the binary expansion of n.
@@ -2207,6 +2209,27 @@ end
 end A370340.P645150485497945651
 
 /-!
+# A370343: Expansion of g.f. A(x) satisfying 1 - Sum_{n>=1} (x^n - 3*A(x))^n = Product_{k>=1} (1 - x^(2*k)) * (1 + x^k - 3*A(x))^2 / (1 + x^(2*k) - 3*A(x))^2.
+
+The programs for A370343, there is no canonical definition to state claims against.
+-/
+
+/-! ## A370343.P7388966160502753725
+
+`A392662(A392645(n)/A392650(n+1))`
+-/
+
+namespace A370343.P7388966160502753725
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392662 (SequenceMachineLib.roundAway ((A392645 n : ℚ) / (A392650 (n + 1) : ℚ))).toNat
+
+end
+
+end A370343.P7388966160502753725
+
+/-!
 # A370345: Expansion of g.f. A(x) satisfying 1 - 2*Sum_{n>=1} Product_{k=1..n} (x^(2*k-1) - 2*A(x)) = Product_{k>=1} (1 - x^(2*k)) * (1 + x^k - 2*A(x))^2 / (1 + x^(2*k) - 2*A(x))^2.
 
 The programs for A370345, there is no canonical definition to state claims against.
@@ -2685,6 +2708,12 @@ namespace A370349
 /-- `A014125(2*n)` -/
 def P963751713898526353.Spec : Prop :=
   ∀ n, P963751713898526353.a n = A370349 n
+
+theorem P963751713898526353.correct : P963751713898526353.Spec := by
+  intro n
+  simp only [A370349, Nat.add_sub_cancel, A370349.P963751713898526353.a, A370349.P7129333881566646392.a, A014125, A014125.P12104461457447797973.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A370349
 
@@ -3437,6 +3466,27 @@ end
 
 end A370360.P4471124287199432774
 
+/-! ## A370360.P17137207807145671771
+
+`record[∑{e}[2*n, #+1]!]`
+-/
+
+namespace A370360.P17137207807145671771
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.factorial (∑ p ∈ Nat.primeFactors (f2 n), (Nat.factorization (f2 n) p + 1))
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A370360.P17137207807145671771
+
 /-!
 # A370362: Numbers k such that any two consecutive decimal digits of k^2 differ by 1 after arranging the digits in decreasing order.
 
@@ -3895,6 +3945,12 @@ namespace A370369
 /-- `A014145(n)+A000142(n+1)` -/
 def P10863409221909461070.Spec : Prop :=
   ∀ n, P10863409221909461070.a n = A370369 (n + 1)
+
+theorem P10863409221909461070.correct : P10863409221909461070.Spec := by
+  intro n
+  simp only [A370369, Nat.add_sub_cancel, A370369.P10863409221909461070.a, A370369.P10592005557351599252.a, A000142, A000142.P3272619076580183195.a, A014145, A014145.P14975082609931435986.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A370369
 

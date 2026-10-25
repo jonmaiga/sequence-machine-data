@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -67,6 +68,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -96,6 +98,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A276300: Number of 3 X n 0..2 arrays with no element equal to any value at offset (-2,-1) (-1,1) or (0,-1) and new values introduced in order 0..2.
@@ -8102,7 +8108,7 @@ end A276377.P7754535417849454697
 /-!
 # A276378: Numbers k such that 6*k is squarefree.
 
-The programs for A276378, the canonical program `A276378.P5512391112950635308` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276378 has offset 1).
+The programs for A276378, the canonical program `A276378.P5512391112950635308` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276378 has offset 1).
 
 The definition of A276378 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8111,7 +8117,7 @@ The definition of A276378 is `conjectured`: the Lean definition is a formula tha
 
 `2*A097702(n+1)+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A276378
@@ -11239,6 +11245,12 @@ namespace A276397
 /-- `A003589(n)-2` -/
 def P10784274864852481345.Spec : Prop :=
   ∀ n, P10784274864852481345.a n = A276397 n
+
+theorem P10784274864852481345.correct : P10784274864852481345.Spec := by
+  intro n
+  simp only [A276397, Nat.add_sub_cancel, A276397.P10784274864852481345.a, A276397.P8421453054304162173.a, A003589, A003589.P17999501955238363741.a, A188590, A188590.P3711629956380345104.f1, A188590.P3711629956380345104.a, A080081, A080081.P2894289496035499761.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A276397
 

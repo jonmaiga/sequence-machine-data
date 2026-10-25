@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -60,7 +61,6 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -90,6 +90,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A164400: Number of binary strings of length n with no substrings equal to 0001 or 1100.
@@ -1797,6 +1801,12 @@ namespace A164412
 def P3500626189389507838.Spec : Prop :=
   ∀ n, P3500626189389507838.a n = A164412 (n + 4)
 
+theorem P3500626189389507838.correct : P3500626189389507838.Spec := by
+  intro n
+  simp only [A164412, Nat.add_sub_cancel, A164412.P3500626189389507838.a, A164412.P16406330314494169784.a, A094103, A094103.P14918747936923867159.a, A266339, A266339.P169478171867598227.a, A000007, A000007.P6599383543502402472.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A164412
 
 /-! ## A164412.P16101084138071241280
@@ -2313,6 +2323,12 @@ namespace A164416
 /-- `A164391(n+4)+A164391(n)/A057428(2*n+3)` -/
 def P4708232581370061338.Spec : Prop :=
   ∀ n, P4708232581370061338.a n = (A164416 (n + 4) : ℚ)
+
+theorem P4708232581370061338.correct : P4708232581370061338.Spec := by
+  intro n
+  simp only [A164416, Nat.add_sub_cancel, A164416.P4708232581370061338.a, A164416.P2577009813336469056.a, A057428, A057428.P2999489532230392221.a, A164391, A164391.P9179662373154407567.f1, A164391.P9179662373154407567.a, A057427, A057427.P3058147525557661423.a, A123908, A123908.P16285672426418962766.a, A000007, A000007.P6599383543502402472.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A164416
 

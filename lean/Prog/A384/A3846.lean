@@ -44,14 +44,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -2738,7 +2735,7 @@ end A384654.P920519866050167043
 /-!
 # A384655: a(n) = Sum_{k=1..n} A051903(gcd(n,k)).
 
-The programs for A384655, the canonical program `A384655.P11515566326129581330` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384655 has offset 1).
+The programs for A384655, the canonical program `A384655.P11515566326129581330` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384655 has offset 1).
 
 The definition of A384655 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2747,7 +2744,7 @@ The definition of A384655 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000010(#)*A051903((n+1)/#)]`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A384655
@@ -2808,6 +2805,29 @@ def P6100220025482182398.Spec : Prop :=
 
 end A384655
 
+/-! ## A384655.P10673091372539518898
+
+`A326065(n+1)-A326072(A161198(2*n))`
+-/
+
+namespace A384655.P10673091372539518898
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326065 (n + 1) - A326072 (A161198 (2 * n)).toNat
+
+end
+
+end A384655.P10673091372539518898
+
+namespace A384655
+
+/-- `A326065(n+1)-A326072(A161198(2*n))` -/
+def P10673091372539518898.Spec : Prop :=
+  ∀ n, P10673091372539518898.a n = A384655 (n + 1)
+
+end A384655
+
 /-! ## A384655.P5495684184204243821
 
 `A263787(A000055(n))+A006022(n+1)`
@@ -2828,29 +2848,6 @@ namespace A384655
 /-- `A263787(A000055(n))+A006022(n+1)` -/
 def P5495684184204243821.Spec : Prop :=
   ∀ n, P5495684184204243821.a n = A384655 (n + 1)
-
-end A384655
-
-/-! ## A384655.P16794620111958541866
-
-`or(A006022(n+1), A048820(A389530(n+1)))`
--/
-
-namespace A384655.P16794620111958541866
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A006022 (n + 1)) (A048820 (A389530 (n + 1)).toNat)
-
-end
-
-end A384655.P16794620111958541866
-
-namespace A384655
-
-/-- `or(A006022(n+1), A048820(A389530(n+1)))` -/
-def P16794620111958541866.Spec : Prop :=
-  ∀ n, P16794620111958541866.a n = A384655 (n + 1)
 
 end A384655
 
@@ -3323,7 +3320,7 @@ end A384664.P14041216459181877307
 /-!
 # A384667: Characteristic function of powers of squarefree numbers (A072774).
 
-The programs for A384667, the canonical program `A384667.P10362112052039593468` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384667 has offset 1).
+The programs for A384667, the canonical program `A384667.P10362112052039593468` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384667 has offset 1).
 
 The definition of A384667 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3470,7 +3467,7 @@ end A384667
 
 `A354353(n+1)+A010055(n+1)`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A384667

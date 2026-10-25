@@ -61,10 +61,9 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C001
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -92,6 +91,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -4243,7 +4243,7 @@ end A165446.P6976060498464562974
 /-!
 # A165447: T(n,k) = n^4 - 2*k^2*n^2 + k^4 = A120070(n, k)^2.
 
-The programs for A165447, the canonical program `A165447.P1997826371557217924` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165447 has offset 2).
+The programs for A165447, the canonical program `A165447.P1997826371557217924` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165447 has offset 2).
 
 The definition of A165447 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4252,7 +4252,7 @@ The definition of A165447 is `conjectured`: the Lean definition is a formula tha
 
 `A120070(n+2)²`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A165447
@@ -4612,6 +4612,12 @@ namespace A165447
 /-- `(A055461(n+1)+2*A003991(n+1))²` -/
 def P5791060388798762318.Spec : Prop :=
   ∀ n, P5791060388798762318.a n = A165447 (n + 2)
+
+theorem P5791060388798762318.correct : P5791060388798762318.Spec := by
+  intro n
+  simp only [A165447, Nat.add_sub_cancel, A165447.P5791060388798762318.a, A165447.P1997826371557217924.a, A003991, A003991.P14084851459366035567.a, A055461, A055461.P3025188043753293136.a, A120070, A120070.P8418683465396432844.a, A002260, A002260.P769748059679640451.a, A004736, A004736.P10337537277358081527.a, A063929, A063929.P8531949189101213059.a, A000217, A000217.P10269402890581615239.a, A002024, A002024.P11700297927830783882.a, A002262, A002262.P12129691700837801527.a, A057944, A057944.P16851463738746886639.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A165447
 

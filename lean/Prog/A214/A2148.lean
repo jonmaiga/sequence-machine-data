@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -93,6 +94,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A214801: Number of solid standard Young tableaux of shape [[2*n,n],[n]].
@@ -5994,6 +5999,12 @@ namespace A214848
 def P8890091896133327702.Spec : Prop :=
   ∀ n, P8890091896133327702.a n = A214848 n
 
+theorem P8890091896133327702.correct : P8890091896133327702.Spec := by
+  intro n
+  simp only [A214848, Nat.add_sub_cancel, A214848.P8890091896133327702.a, A214848.P11097878260776207900.a, A022846, A022846.P4153130235843517023.a, A241575, A241575.P5643789270522155057.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A214848
 
 /-!
@@ -8796,6 +8807,12 @@ namespace A214864
 def P9798326016580503200.Spec : Prop :=
   ∀ n, P9798326016580503200.a n = A214864 (n + 1)
 
+theorem P9798326016580503200.correct : P9798326016580503200.Spec := by
+  intro n
+  simp only [A214864, Nat.add_sub_cancel, A214864.P9798326016580503200.a, A214864.P2996553395437960178.a, A016825, A016825.P4712696052905976233.a, A073760, A073760.P16575364427158424751.a, A216178, A216178.P12459799256159705798.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A214864
 
 /-!
@@ -11532,75 +11549,6 @@ namespace A214887
 /-- `7^round(ϕ^n/sqrt(5))` -/
 def P1047228413036721682.Spec : Prop :=
   ∀ n, P1047228413036721682.a n = (A214887 n : ℚ)
-
-end A214887
-
-/-! ## A214887.P8671905772943735623
-
-`a(n-1)²/a(n-3)` with `a(0)=1, a(1)=7, a(2)=7`
--/
-
-namespace A214887.P8671905772943735623
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.rec [1, 7, 7] fun n a =>
-  a (n - 1) ^ 2 / a (n - 3)
-
-end
-
-end A214887.P8671905772943735623
-
-namespace A214887
-
-/-- `a(n-1)²/a(n-3)` -/
-def P8671905772943735623.Spec : Prop :=
-  ∀ n, P8671905772943735623.a n = (A214887 n : ℚ)
-
-end A214887
-
-/-! ## A214887.P9606973224434922093
-
-`a(n-1)/a(n-2)^(-1)` with `a(0)=1, a(1)=7`
--/
-
-namespace A214887.P9606973224434922093
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.rec [1, 7] fun n a =>
-  a (n - 1) / a (n - 2) ^ (-1 : ℤ)
-
-end
-
-end A214887.P9606973224434922093
-
-namespace A214887
-
-/-- `a(n-1)/a(n-2)^(-1)` -/
-def P9606973224434922093.Spec : Prop :=
-  ∀ n, P9606973224434922093.a n = (A214887 n : ℚ)
-
-end A214887
-
-/-! ## A214887.P5677950026757232130
-
-`or(1, 7^A000045(n))`
--/
-
-namespace A214887.P5677950026757232130
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 1 (SequenceMachineLib.roundAway ((7 : ℚ) ^ (A000045 n : ℤ)))
-
-end
-
-end A214887.P5677950026757232130
-
-namespace A214887
-
-/-- `or(1, 7^A000045(n))` -/
-def P5677950026757232130.Spec : Prop :=
-  ∀ n, P5677950026757232130.a n = A214887 n
 
 end A214887
 

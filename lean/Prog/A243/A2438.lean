@@ -60,7 +60,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -3993,6 +3992,12 @@ namespace A243866
 def P339753489701864702.Spec : Prop :=
   ∀ n, P339753489701864702.a n = A243866 (n + 1)
 
+theorem P339753489701864702.correct : P339753489701864702.Spec := by
+  intro n
+  simp only [A243866, Nat.add_sub_cancel, A243866.P339753489701864702.a, A243866.P720417055199170297.a, A002262, A002262.P12129691700837801527.a, A008619, A008619.P16053834178911111118.a, A115514, A115514.P8808865076358654155.a, A143902, A143902.P5916339437029833280.a, A334922, A334922.P17964154798392453556.a, A057944, A057944.P16851463738746886639.a, A059036, A059036.P10984433159116004346.a, A099375, A099375.P13700148065993022910.a, A000217, A000217.P10269402890581615239.a, A003056, A003056.P5318256527314048597.a, A003991, A003991.P14084851459366035567.a, A004736, A004736.P10337537277358081527.a, A002024, A002024.P11700297927830783882.a, A002260, A002260.P769748059679640451.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A243866
 
 /-! ## A243866.P3229534087417737176
@@ -5587,7 +5592,7 @@ end A243886.P621276619981719765
 
 The programs for A243887, the canonical program `A243887.P5598863365777822828` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243887 has offset 1).
 
-The definition of A243887 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A216244, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A243887 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A243887.P5598863365777822828

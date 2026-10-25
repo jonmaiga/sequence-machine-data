@@ -50,6 +50,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -62,7 +63,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -3958,7 +3958,7 @@ end A179544.P12211314113483482573
 
 The programs for A179545, the canonical program `A179545.P2130774823130393985` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179545 has offset 1).
 
-The definition of A179545 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A179545 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A179545.P2130774823130393985
@@ -7006,6 +7006,29 @@ namespace A179571
 /-- `((n+1)²+3*(n+1)-6)/2+2^(n+5)` -/
 def P12330536610019077264.Spec : Prop :=
   ∀ n, P12330536610019077264.a n = (A179571 (n + 1) : ℚ)
+
+end A179571
+
+/-! ## A179571.P7794573985487499897
+
+`A062866((n+3)²+4)`
+-/
+
+namespace A179571.P7794573985487499897
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A062866 ((n + 3) ^ 2 + 4)
+
+end
+
+end A179571.P7794573985487499897
+
+namespace A179571
+
+/-- `A062866((n+3)²+4)` -/
+def P7794573985487499897.Spec : Prop :=
+  ∀ n, P7794573985487499897.a n = A179571 (n + 1)
 
 end A179571
 

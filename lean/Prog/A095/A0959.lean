@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -85,7 +86,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -98,6 +98,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A095900: a(n) = A004001(10^n).
@@ -4118,6 +4122,26 @@ namespace A095932
 /-- `(2^(1+2*(n+1))-(1/2*(3-sqrt(5)))^(n+1)-(1/2*(3+sqrt(5)))^(n+1))/5` -/
 def P16483315812194381712.Spec : Prop :=
   ∀ n, P16483315812194381712.a n = (A095932 (n + 1) : ℝ)
+
+theorem P16483315812194381712.correct : P16483315812194381712.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 =>
+      simp [A095932, Nat.add_sub_cancel, A095932.P16483315812194381712.a, A095932.P11172297204211635418.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+    | m + 3 =>
+      have h1 := ih (m + 2) (by omega)
+      have h2 := ih (m + 1) (by omega)
+      have h3 := ih m (by omega)
+      simp only [A095932, Nat.add_sub_cancel, A095932.P16483315812194381712.a, A095932.P11172297204211635418.a, SequenceMachineLib.memo_apply] at h1 h2 h3 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 3 - 1 = m + 2 by omega, show m + 3 - 2 = m + 1 by omega, show m + 3 - 3 = m by omega, show m + 2 < m + 3 by omega, show m + 1 < m + 3 by omega, show m < m + 3 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 ⊢
+      rw [← h1, ← h2, ← h3]
+      first | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A095932
 
@@ -11148,23 +11172,20 @@ end
 
 end A095986.P5430450732887420954
 
-/-! ## A095986.P6996712507564751347
+/-! ## A095986.P6710244296244665972
 
-`A103631(∑{e}[A220477(3*n+2), #]+n)`
+`A152905(n)-A095076(floor(2^(n-1)))`
 -/
 
-namespace A095986.P6996712507564751347
+namespace A095986.P6710244296244665972
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A220477 (3 * n + 2)
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A103631 (∑ p ∈ Nat.primeFactors (f1 n).natAbs, Nat.factorization (f1 n).natAbs p + n)
+  A152905 n - A095076 ⌊(2 : ℚ) ^ ((n : ℤ) - 1 : ℤ)⌋.toNat
 
 end
 
-end A095986.P6996712507564751347
+end A095986.P6710244296244665972
 
 /-!
 # A095987: a(n) = gcd(n!!, (n-1)!!) where n!! = A006882.

@@ -1955,7 +1955,7 @@ end A181604
 /-!
 # A181605: Twin primes ending in 7.
 
-The programs for A181605, the canonical program `A181605.P1127411244904129407` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181605 has offset 1).
+The programs for A181605, the canonical program `A181605.P1127411244904129407` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181605 has offset 1).
 
 The definition of A181605 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1964,7 +1964,7 @@ The definition of A181605 is `conjectured`: the Lean definition is a formula tha
 
 `A282323(n%(a(n-1)+val(n, 3)))` with `a(0)=7`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A181605
@@ -3779,6 +3779,12 @@ namespace A181617
 def P12652973067352898784.Spec : Prop :=
   ∀ n, P12652973067352898784.a n = A181617 (n + 1)
 
+theorem P12652973067352898784.correct : P12652973067352898784.Spec := by
+  intro n
+  simp only [A181617, Nat.add_sub_cancel, A181617.P12652973067352898784.f1, A181617.P12652973067352898784.a, A181617.P16189160245016811923.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A181617
 
 /-! ## A181617.P5254463602145305686
@@ -4004,6 +4010,12 @@ namespace A181617
 def P5650469729367852937.Spec : Prop :=
   ∀ n, P5650469729367852937.a n = (A181617 (n + 1) : ℚ)
 
+theorem P5650469729367852937.correct : P5650469729367852937.Spec := by
+  intro n
+  simp only [A181617, Nat.add_sub_cancel, A181617.P5650469729367852937.f1, A181617.P5650469729367852937.a, A181617.P16189160245016811923.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A181617
 
 /-! ## A181617.P15012356447723745849
@@ -4072,6 +4084,12 @@ namespace A181617
 /-- `-((n+1)*(n-C(2*n+1, 2)))` -/
 def P15539089442198928829.Spec : Prop :=
   ∀ n, P15539089442198928829.a n = A181617 (n + 1)
+
+theorem P15539089442198928829.correct : P15539089442198928829.Spec := by
+  intro n
+  simp only [A181617, Nat.add_sub_cancel, A181617.P15539089442198928829.a, A181617.P16189160245016811923.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A181617
 
@@ -4145,6 +4163,12 @@ namespace A181618
 /-- `3*(A000244(n)-A002426(n+1))` -/
 def P7192088703349081413.Spec : Prop :=
   ∀ n, P7192088703349081413.a n = A181618 (n + 1)
+
+theorem P7192088703349081413.correct : P7192088703349081413.Spec := by
+  intro n
+  simp only [A181618, Nat.add_sub_cancel, A181618.P7192088703349081413.a, A181618.P11863935237551342240.a, A000244, A000244.P17162167222172810417.a, A002426, A002426.P18316219981098248731.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A181618
 
@@ -6622,7 +6646,7 @@ end A181649.P14765076630568306307
 /-!
 # A181650: Inverse of number triangle A070909.
 
-The programs for A181650, the canonical program `A181650.P7495452160807174074` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181650 has offset 0).
+The programs for A181650, the canonical program `A181650.P7495452160807174074` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181650 has offset 0).
 
 The definition of A181650 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6657,7 +6681,7 @@ end A181650
 
 `A070909(n)*A141679(n+1)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A181650

@@ -53,7 +53,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -658,7 +658,7 @@ end A320512.P4528154740037960213
 /-!
 # A320514: Numbers k such that sigma(sigma(k)) < 2*k + 1.
 
-The programs for A320514, the canonical program `A320514.P1932751579605928193` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320514 has offset 1).
+The programs for A320514, the canonical program `A320514.P1932751579605928193` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320514 has offset 1).
 
 The definition of A320514 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 495 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -667,7 +667,7 @@ The definition of A320514 is `conjectured`: the Lean definition is a formula tha
 
 `lt[∑{d}[∑{d}[n, #], #], A001969(n+1)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A320514
@@ -2887,7 +2887,7 @@ end A320527
 /-!
 # A320528: Number of chiral pairs of color patterns (set partitions) in a row of length n using exactly 5 colors (subsets).
 
-The programs for A320528, the canonical program `A320528.P16363146703979691685` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320528 has offset 1).
+The programs for A320528, the canonical program `A320528.P16363146703979691685` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320528 has offset 1).
 
 The definition of A320528 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056329, A304975, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2896,7 +2896,7 @@ The definition of A320528 is `conditional`: the Lean definition is an OEIS formu
 
 `A056329(n+1)-A304975(n+1)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A320528
@@ -7959,20 +7959,20 @@ end
 
 end A320586.P10723495424488348918
 
-/-! ## A320586.P5983959585598785071
+/-! ## A320586.P15826041750305420062
 
-`A001608(3*n+3)-A109395(A004171(n))`
+`A001608(3*n+3)-A007978(A025012(n))`
 -/
 
-namespace A320586.P5983959585598785071
+namespace A320586.P15826041750305420062
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001608 (3 * n + 3) - A109395 (A004171 n).toNat
+  A001608 (3 * n + 3) - A007978 (A025012 n).toNat
 
 end
 
-end A320586.P5983959585598785071
+end A320586.P15826041750305420062
 
 /-!
 # A320588: Derangements of {1,2,...,n} (n >= 2) in lexicographic order.

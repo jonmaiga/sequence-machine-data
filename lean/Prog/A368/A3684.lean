@@ -38,7 +38,6 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -1740,6 +1739,27 @@ end
 
 end A368459.P1255194974437205029
 
+/-! ## A368459.P8488205086214664034
+
+`lt[A048300(n), A018783(n)²]`
+-/
+
+namespace A368459.P8488205086214664034
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A048300 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A018783 n ^ 2
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A368459.P8488205086214664034
+
 /-! ## A368459.P10810221156085696899
 
 `lt[A074458(n), A078898(n)²]`
@@ -1866,27 +1886,6 @@ end
 
 end A368459.P6007432040255204342
 
-/-! ## A368459.P15644425879592224390
-
-`lt[A053669(n+1)², A210442(n)]`
--/
-
-namespace A368459.P15644425879592224390
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053669 (n + 1) ^ 2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A210442 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A368459.P15644425879592224390
-
 /-!
 # A368461: a(n) is the number of unlabeled planar modular lattices on n nodes.
 
@@ -1952,6 +1951,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A368461.P6383775521214424324
+
+/-! ## A368461.P7507909978433613468
+
+`A178780(A349279(n+2))+A110334(n)`
+-/
+
+namespace A368461.P7507909978433613468
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A178780 (A349279 (n + 2)).toNat + A110334 n
+
+end
+
+end A368461.P7507909978433613468
 
 /-!
 # A368463: Parity of the iterates of the Christmas tree pattern map (A367508), read by rows.

@@ -53,12 +53,14 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -73,6 +75,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -3528,7 +3531,7 @@ end A201146
 /-!
 # A201147: Numbers m such that m, m-1 and m-2 are 1,2,3-almost primes respectively.
 
-The programs for A201147, the canonical program `A201147.P7622297176965063272` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201147 has offset 1).
+The programs for A201147, the canonical program `A201147.P7622297176965063272` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201147 has offset 1).
 
 The definition of A201147 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 638 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3567,7 +3570,7 @@ end A201147
 
 `∩[A063642(n+1), A065966(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A201147
@@ -4524,7 +4527,7 @@ end A201155.P7076852038695547296
 /-!
 # A201156: Row sums of triangle A201146.
 
-The programs for A201156, the canonical program `A201156.P12740422447403239301` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201156 has offset 1).
+The programs for A201156, the canonical program `A201156.P12740422447403239301` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201156 has offset 1).
 
 The definition of A201156 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 250 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4668,7 +4671,7 @@ end A201156
 
 `a(n-1)*A014963(A057723(n+1))+1` with `a(0)=1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A201156

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -64,15 +65,13 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -99,6 +98,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A296902: Numbers whose base-16 digits d(m), d(m-1), ..., d(0) have #(pits) < #(peaks); see Comments.
@@ -711,6 +714,12 @@ namespace A296910
 /-- `A008579(n)-A237420(n)` -/
 def P11332271027423574307.Spec : Prop :=
   ∀ n, P11332271027423574307.a n = A296910 n
+
+theorem P11332271027423574307.correct : P11332271027423574307.Spec := by
+  intro n
+  simp only [A296910, Nat.add_sub_cancel, A296910.P11332271027423574307.a, A296910.P15115940855877380852.a, A008579, A008579.P11123826267800694639.a, A237420, A237420.P18309215415516619502.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A296910
 
@@ -12386,6 +12395,12 @@ namespace A296966
 /-- `(n+1)*(A076984(n+1)-1)` -/
 def P16694339420233570831.Spec : Prop :=
   ∀ n, P16694339420233570831.a n = A296966 (n + 1)
+
+theorem P16694339420233570831.correct : P16694339420233570831.Spec := by
+  intro n
+  simp only [A296966, Nat.add_sub_cancel, A296966.P16694339420233570831.a, A296966.P18250778610313653592.a, A023645, A023645.P17827093049504393277.f1, A023645.P17827093049504393277.a, A076984, A076984.P13104546406193990713.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A296966
 

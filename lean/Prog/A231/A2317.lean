@@ -54,7 +54,9 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -977,6 +979,12 @@ namespace A231711
 /-- `lt[A340793(n+1), n+1]+1` -/
 def P13623980699611334526.Spec : Prop :=
   ∀ n, (P13623980699611334526.a n : ℤ) = A231711 (n + 1)
+
+theorem P13623980699611334526.correct : P13623980699611334526.Spec := by
+  intro n
+  simp only [A231711, Nat.add_sub_cancel, A231711.P13623980699611334526.f1, A231711.P13623980699611334526.f2, A231711.P13623980699611334526.a, A231711.P16047213515376347188.f3, A231711.P16047213515376347188.f2, A231711.P16047213515376347188.f1, A231711.P16047213515376347188.f4, A231711.P16047213515376347188.a, A340793, A340793.P1700930985006359286.f1, A340793.P1700930985006359286.f2, A340793.P1700930985006359286.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A231711
 
@@ -4141,7 +4149,7 @@ end A231753.P9983113350866077236
 /-!
 # A231754: Products of distinct primes congruent to 1 modulo 4 (A002144).
 
-The programs for A231754, the canonical program `A231754.P1945507588168497190` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231754 has offset 1).
+The programs for A231754, the canonical program `A231754.P1945507588168497190` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231754 has offset 1).
 
 The definition of A231754 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7751 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4332,7 +4340,7 @@ end A231754
 
 `filter[A057653(n+1), A359377(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A231754

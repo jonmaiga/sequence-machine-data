@@ -21,6 +21,7 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -1272,7 +1273,7 @@ end A246009.P10559915362606805276
 
 The programs for A246010, the canonical program `A246010.P11055632082061828004` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246010 has offset 1).
 
-The definition of A246010 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A246010 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A246010.P11055632082061828004
@@ -4065,7 +4066,7 @@ end A246028
 /-!
 # A246029: a(n) = Product_{i in row n of A245562} prime(i).
 
-The programs for A246029, the canonical program `A246029.P17934479731839839263` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246029 has offset 0).
+The programs for A246029, the canonical program `A246029.P17934479731839839263` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246029 has offset 0).
 
 The definition of A246029 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005940, A181819, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4074,7 +4075,7 @@ The definition of A246029 is `conditional`: the Lean definition is an OEIS formu
 
 `A181819(A005940(1+n))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A246029
@@ -13112,6 +13113,27 @@ end
 
 end A246094.P2663684283263075570
 
+/-! ## A246094.P15456575302526970927
+
+`lt[A147666(n), log2(A017765(n))]`
+-/
+
+namespace A246094.P15456575302526970927
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A147666 n
+
+def f2 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  Real.logb 2 (A017765 n : ℝ)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℝ) < f2 j) n
+
+end
+
+end A246094.P15456575302526970927
+
 /-! ## A246094.P12576062955851988606
 
 `lt[∑[A003056(n+1)], A301682(n)]`
@@ -13135,27 +13157,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A246094.P12576062955851988606
-
-/-! ## A246094.P18007659580235827427
-
-`lt[A359683(lcm(3, n)/3), A095952(3*n+1)]`
--/
-
-namespace A246094.P18007659580235827427
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A359683 (SequenceMachineLib.roundAway ((Nat.lcm 3 n : ℚ) / 3)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A095952 (3 * n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A246094.P18007659580235827427
 
 /-!
 # A246095: Paradigm shift sequence for (3,5) production scheme with replacement.

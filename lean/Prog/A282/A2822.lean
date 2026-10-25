@@ -46,9 +46,11 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -57,6 +59,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -67,6 +70,7 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -1936,32 +1940,6 @@ def P17306908745360253801.Spec : Prop :=
 
 end A282234
 
-/-! ## A282234.P8636186319277688916
-
-`A007932(∑[a(n-1)-(1-a(n-2))]-n)` with `a(0)=1, a(1)=1, a(2)=2`
--/
-
-namespace A282234.P8636186319277688916
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [1, 1, 2] fun n f1 =>
-  f1 (n - 1) - (1 - f1 (n - 2))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007932 (∑ j ∈ Finset.range (n + 1), f1 j - (n : ℤ)).toNat
-
-end
-
-end A282234.P8636186319277688916
-
-namespace A282234
-
-/-- `A007932(∑[a(n-1)-(1-a(n-2))]-n)` -/
-def P8636186319277688916.Spec : Prop :=
-  ∀ n, P8636186319277688916.a n = A282234 (n + 1)
-
-end A282234
-
 /-!
 # A282235: a(n) = Fibonacci(n) represented in bijective base-4 numeration.
 
@@ -2036,24 +2014,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A282235.P12372963960347716897
-
-/-! ## A282235.P10491819988268460621
-
-`A084544(A016095(∑[n]))`
--/
-
-namespace A282235.P10491819988268460621
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A084544 (A016095 (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
-
-end
-
-end A282235.P10491819988268460621
 
 /-!
 # A282236: a(n) = Fibonacci(n) represented in bijective base-5 numeration.
@@ -2157,32 +2117,6 @@ namespace A282236
 /-- `A084545(∑[a(n-1)+a(n-2)])` -/
 def P13537424584084498731.Spec : Prop :=
   ∀ n, P13537424584084498731.a n = A282236 (n + 1)
-
-end A282236
-
-/-! ## A282236.P8069171094966333566
-
-`A084545(∑[2-(4/2-a(n-1)-a(n-2))])` with `a(0)=1, a(1)=0, a(2)=1`
--/
-
-namespace A282236.P8069171094966333566
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.rec [1, 0, 1] fun n f1 =>
-  2 - ((4 : ℚ) / 2 - f1 (n - 1) - f1 (n - 2))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A084545 (SequenceMachineLib.roundAway (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
-
-end
-
-end A282236.P8069171094966333566
-
-namespace A282236
-
-/-- `A084545(∑[2-(4/2-a(n-1)-a(n-2))])` -/
-def P8069171094966333566.Spec : Prop :=
-  ∀ n, P8069171094966333566.a n = A282236 (n + 1)
 
 end A282236
 
@@ -2291,36 +2225,10 @@ def P221904273935557941.Spec : Prop :=
 
 end A282237
 
-/-! ## A282237.P8602190639919897960
-
-`A057436(∑[2-(4/2-a(n-1)-a(n-2))])` with `a(0)=1, a(1)=0, a(2)=1`
--/
-
-namespace A282237.P8602190639919897960
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.rec [1, 0, 1] fun n f1 =>
-  2 - ((4 : ℚ) / 2 - f1 (n - 1) - f1 (n - 2))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057436 (SequenceMachineLib.roundAway (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
-
-end
-
-end A282237.P8602190639919897960
-
-namespace A282237
-
-/-- `A057436(∑[2-(4/2-a(n-1)-a(n-2))])` -/
-def P8602190639919897960.Spec : Prop :=
-  ∀ n, P8602190639919897960.a n = A282237 (n + 1)
-
-end A282237
-
 /-!
 # A282238: a(n) = Fibonacci(n) represented in bijective base-7 numeration.
 
-The programs for A282238, the canonical program `A282238.P12994779080358154349` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282238 has offset 1).
+The programs for A282238, the canonical program `A282238.P12994779080358154349` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282238 has offset 1).
 
 The definition of A282238 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A214677, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2329,7 +2237,7 @@ The definition of A282238 is `conditional`: the Lean definition is an OEIS formu
 
 `A214677(A000045(n+1))`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A282238
@@ -2419,32 +2327,6 @@ namespace A282238
 /-- `A214677(∑[a(n-1)+a(n-2)])` -/
 def P1125141496228825821.Spec : Prop :=
   ∀ n, P1125141496228825821.a n = A282238 (n + 1)
-
-end A282238
-
-/-! ## A282238.P12118361190106715241
-
-`A214677(∑[2-(4/2-a(n-1)-a(n-2))])` with `a(0)=1, a(1)=0, a(2)=1`
--/
-
-namespace A282238.P12118361190106715241
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.rec [1, 0, 1] fun n f1 =>
-  2 - ((4 : ℚ) / 2 - f1 (n - 1) - f1 (n - 2))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214677 (SequenceMachineLib.roundAway (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
-
-end
-
-end A282238.P12118361190106715241
-
-namespace A282238
-
-/-- `A214677(∑[2-(4/2-a(n-1)-a(n-2))])` -/
-def P12118361190106715241.Spec : Prop :=
-  ∀ n, P12118361190106715241.a n = A282238 (n + 1)
 
 end A282238
 
@@ -2553,32 +2435,6 @@ def P16803970575398512789.Spec : Prop :=
 
 end A282239
 
-/-! ## A282239.P10849318127241431771
-
-`A214678(∑[2-(4/2-a(n-1)-a(n-2))])` with `a(0)=1, a(1)=0, a(2)=1`
--/
-
-namespace A282239.P10849318127241431771
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.rec [1, 0, 1] fun n f1 =>
-  2 - ((4 : ℚ) / 2 - f1 (n - 1) - f1 (n - 2))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A214678 (SequenceMachineLib.roundAway (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
-
-end
-
-end A282239.P10849318127241431771
-
-namespace A282239
-
-/-- `A214678(∑[2-(4/2-a(n-1)-a(n-2))])` -/
-def P10849318127241431771.Spec : Prop :=
-  ∀ n, P10849318127241431771.a n = A282239 (n + 1)
-
-end A282239
-
 /-!
 # A282240: a(n) = Fibonacci(n) represented in bijective base-9 numeration.
 
@@ -2681,32 +2537,6 @@ namespace A282240
 /-- `A052382(∑[round(ϕ*a(n-1))])` -/
 def P12123112276665974558.Spec : Prop :=
   ∀ n, P12123112276665974558.a n = A282240 (n + 1)
-
-end A282240
-
-/-! ## A282240.P12244744919422764438
-
-`A052382(Δ[a(n-1)+a(n-2)])` with `a(0)=1, a(1)=2`
--/
-
-namespace A282240.P12244744919422764438
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.rec [1, 2] fun n f1 =>
-  f1 (n - 1) + f1 (n - 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052382 ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat
-
-end
-
-end A282240.P12244744919422764438
-
-namespace A282240
-
-/-- `A052382(Δ[a(n-1)+a(n-2)])` -/
-def P12244744919422764438.Spec : Prop :=
-  ∀ n, P12244744919422764438.a n = A282240 (n + 1)
 
 end A282240
 
@@ -5991,6 +5821,21 @@ end
 
 end A282288.P1530306683936548596
 
+/-! ## A282288.P9259780806618456630
+
+`C(A162347(C(A048340(n), n)), n)`
+-/
+
+namespace A282288.P9259780806618456630
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (A162347 (Nat.choose (A048340 n).toNat n)).toNat n
+
+end
+
+end A282288.P9259780806618456630
+
 /-! ## A282288.P18061898981377409700
 
 `A010935(n)%∑[A010935(n+4)]`
@@ -6008,21 +5853,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A282288.P18061898981377409700
-
-/-! ## A282288.P13269756058176805947
-
-`A010935(lcm(n, A319137(2*n+3)))`
--/
-
-namespace A282288.P13269756058176805947
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010935 (Int.lcm (n : ℤ) (A319137 (2 * n + 3)))
-
-end
-
-end A282288.P13269756058176805947
 
 /-!
 # A282291: Lexicographically earliest sequence of distinct terms such that every pair of consecutive terms contains a term that is a unitary divisor of the other term.

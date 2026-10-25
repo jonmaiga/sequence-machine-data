@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -43,12 +44,12 @@ import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -71,7 +72,11 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C021
-import Seq.Opaque.C022
+import Seq.Opaque.C023
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A254200: Number of length n 1..(4+2) arrays with no leading or trailing partial sum equal to a prime.
@@ -5285,6 +5290,12 @@ namespace A254282
 /-- `A000244(n)*A097188(n)` -/
 def P15307290535833018573.Spec : Prop :=
   ∀ n, P15307290535833018573.a n = A254282 n
+
+theorem P15307290535833018573.correct : P15307290535833018573.Spec := by
+  intro n
+  simp only [A254282, Nat.add_sub_cancel, A254282.P15307290535833018573.a, A254282.P10242504731374827750.a, A000244, A000244.P17162167222172810417.a, A025748, A025748.P12390695211921138720.a, A097188, A097188.P11448230231202733973.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A254282
 

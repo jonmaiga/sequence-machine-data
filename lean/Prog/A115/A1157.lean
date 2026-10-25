@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
@@ -65,6 +66,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -78,6 +80,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -90,6 +93,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A115700: Squares whose digit reversal is the product of 2 palindromes greater than 1.
@@ -1670,6 +1677,12 @@ namespace A115716
 def P16120832584488569782.Spec : Prop :=
   ∀ n, P16120832584488569782.a n = A115716 n
 
+theorem P16120832584488569782.correct : P16120832584488569782.Spec := by
+  intro n
+  simp only [A115716, Nat.add_sub_cancel, A115716.P16120832584488569782.a, A115716.P15483547809295924347.a, A007583, A007583.P12280822276545964020.a, A014701, A014701.P12214863752987612616.a, A091090, A091090.P18330635638829780680.a, A000120, A000120.P2816527436160941581.a, A056792, A056792.P13266386025487519892.a, A070939, A070939.P14677302147902843740.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A115716
 
 /-! ## A115716.P5897744845228438581
@@ -2649,7 +2662,7 @@ end A115729.P1054850593627995056
 
 The programs for A115730, the canonical program `A115730.P18108402953925044374` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115730 has offset 0).
 
-The definition of A115730 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A115730 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-3)+A001654(n-1)` (program `A115730.P18108402953925044374`, by `A115730.P18108402953925044374.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A115730.P18108402953925044374
@@ -3498,6 +3511,12 @@ namespace A115733
 /-- `A065855(p?[A115732(n+1)])+1` -/
 def P11366580320634770541.Spec : Prop :=
   ∀ n, P11366580320634770541.a n = A115733 (n + 1)
+
+theorem P11366580320634770541.correct : P11366580320634770541.Spec := by
+  intro n
+  simp only [A115733, Nat.add_sub_cancel, A115733.P11366580320634770541.f1, A115733.P11366580320634770541.a, A115733.P11332342252543868068.f1, A115733.P11332342252543868068.a, A062298, A062298.P8226643735375377344.a, A065855, A065855.P16805213270251966039.a, A115732, A115732.P15439679274567884474.f2, A115732.P15439679274567884474.f1, A115732.P15439679274567884474.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A000720, A000720.P1755771944745605250.f2, A000720.P1755771944745605250.f1, A000720.P1755771944745605250.a, A112997, A112997.P3713856926934514710.a, A007504, A007504.P16529107901788736493.f1, A007504.P16529107901788736493.a, A182986, A182986.P2625431067462217415.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A115733
 

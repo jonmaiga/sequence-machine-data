@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -82,6 +83,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A232800: Denominators written by antidiagonals of interleaved A063524(n) and A002427(n)/A006955(n).
@@ -1043,6 +1048,12 @@ namespace A232806
 def P12370570735899941003.Spec : Prop :=
   ∀ n, P12370570735899941003.a n = A232806 n
 
+theorem P12370570735899941003.correct : P12370570735899941003.Spec := by
+  intro n
+  simp only [A232806, Nat.add_sub_cancel, A232806.P12370570735899941003.a, A232806.P16277909643424588756.a, A002065, A002065.P3667177517846498653.a, A166105, A166105.P9440066960198392468.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A232806
 
 /-! ## A232806.P7140835289426640241
@@ -1065,6 +1076,12 @@ namespace A232806
 /-- `A002065(n)+A166105(n)` -/
 def P7140835289426640241.Spec : Prop :=
   ∀ n, P7140835289426640241.a n = A232806 n
+
+theorem P7140835289426640241.correct : P7140835289426640241.Spec := by
+  intro n
+  simp only [A232806, Nat.add_sub_cancel, A232806.P7140835289426640241.a, A232806.P16277909643424588756.a, A002065, A002065.P3667177517846498653.a, A166105, A166105.P9440066960198392468.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A232806
 

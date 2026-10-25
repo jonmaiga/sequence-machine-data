@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -39,7 +40,6 @@ import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B003.C000
@@ -50,6 +50,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -57,7 +58,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -89,6 +89,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A191800: G.f. satisfies: A(x) = Sum_{n>=0} x^n*A(x)^(2*n^2).
@@ -2404,6 +2408,27 @@ end
 
 end A191847.P8391609565182502324
 
+/-! ## A191847.P9995233363084677455
+
+`lt[A308427(A005253(n)+1), A221649(n+3)]`
+-/
+
+namespace A191847.P9995233363084677455
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A308427 (A005253 n + 1).toNat
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A221649 (n + 3)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A191847.P9995233363084677455
+
 /-! ## A191847.P18425278813298622288
 
 `lt[A008705(n+1), A163300(A132636(n+1)+1)]`
@@ -2424,27 +2449,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A191847.P18425278813298622288
-
-/-! ## A191847.P3972094846568490183
-
-`lt[A075167(n+1), A235354(A062312(3*n+2))]`
--/
-
-namespace A191847.P3972094846568490183
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A075167 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A235354 (A062312 (3 * n + 2)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A191847.P3972094846568490183
 
 /-!
 # A191849: Ordered nonnegative differences c*f-d*g, where f and g are positive Fibonacci numbers (A000045), and {c,d}={2,3}.
@@ -5081,6 +5085,27 @@ end
 
 end A191882.P5800675784763989730
 
+/-! ## A191882.P11455464431317775686
+
+`lt[A000203(n+1), A336844(A396510(2*(n+1)))]`
+-/
+
+namespace A191882.P11455464431317775686
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000203 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A336844 (A396510 (2 * (n + 1))).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A191882.P11455464431317775686
+
 /-!
 # A191884: Ordered sequence of nonnegative differences f-5*g, where f and g are positive Fibonacci numbers (A000045).
 
@@ -6400,6 +6425,12 @@ namespace A191899
 /-- `A191903(n*(n+2))` -/
 def P14399301058207482152.Spec : Prop :=
   ∀ n, P14399301058207482152.a n = A191899 n
+
+theorem P14399301058207482152.correct : P14399301058207482152.Spec := by
+  intro n
+  simp only [A191899, Nat.add_sub_cancel, A191899.P14399301058207482152.a, A191899.P12754929775591864237.a, A191903, A191903.P5998615871764801794.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A191899
 

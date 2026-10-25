@@ -9483,14 +9483,14 @@ noncomputable section
 
 /-- A111597: Lah numbers: a(n) = n!*binomial(n-1,6)/7!.
 
-Offset 7, canonical program `A111597.P6236241491048501046`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 7, canonical program `A111597.P6236241491048501046`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+7)!*C(n+6, 6)/7!` (program `A111597.P4864289179646805148`, by `A111597.P4864289179646805148.correct`). Lean does not check the parsing of the name. -/
 def A111597 (n : ℕ) : ℤ :=
   (A111597.P6236241491048501046.a (n - 7) : ℤ)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A111597.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+7)!*C(n+6, 6)/7!` (program `A111597.P4864289179646805148`, by `A111597.P4864289179646805148.correct`). Lean does not check the parsing of the name. -/
+def A111597.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A111598.P16000678129907683012
 
@@ -9511,14 +9511,14 @@ noncomputable section
 
 /-- A111598: Lah numbers: a(n) = n!*binomial(n-1,7)/8!.
 
-Offset 8, canonical program `A111598.P16000678129907683012`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 8, canonical program `A111598.P16000678129907683012`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+8)!*C(n+7, 7)/8!` (program `A111598.P6642946689192018462`, by `A111598.P6642946689192018462.correct`). Lean does not check the parsing of the name. -/
 def A111598 (n : ℕ) : ℤ :=
   (A111598.P16000678129907683012.a (n - 8) : ℤ)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A111598.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+8)!*C(n+7, 7)/8!` (program `A111598.P6642946689192018462`, by `A111598.P6642946689192018462.correct`). Lean does not check the parsing of the name. -/
+def A111598.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A111599.P889593453866567226
 

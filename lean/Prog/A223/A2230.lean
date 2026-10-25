@@ -44,7 +44,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -5378,27 +5377,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A223081.P17490203421725075903
-
-/-!
-# A223082: Number of n-digit numbers N with distinct digits such that N divides the reversal of N.
-
-The programs for A223082, there is no canonical definition to state claims against.
--/
-
-/-! ## A223082.P7257177796752623424
-
-`a(2%n)` with `a(0)=9, a(1)=0, a(2)=0, a(3)=2, a(4)=1`
--/
-
-namespace A223082.P7257177796752623424
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [9, 0, 0, 2, 1] fun n a =>
-  a (2 % n)
-
-end
-
-end A223082.P7257177796752623424
 
 /-!
 # A223083: Trajectory of 64 under the map n-> A006369(n).

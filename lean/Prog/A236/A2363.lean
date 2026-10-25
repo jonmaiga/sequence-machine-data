@@ -63,11 +63,9 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -5844,6 +5842,29 @@ def P12302338414641534565.Spec : Prop :=
 
 end A236348
 
+/-! ## A236348.P14142054145487934603
+
+`floor(n-1/(1-2*(n-a(n-1))))` with `a(0)=1`
+-/
+
+namespace A236348.P14142054145487934603
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  ⌊(n : ℚ) - 1 / (1 - 2 * ((n : ℤ) - a (n - 1)) : ℚ)⌋
+
+end
+
+end A236348.P14142054145487934603
+
+namespace A236348
+
+/-- `floor(n-1/(1-2*(n-a(n-1))))` -/
+def P14142054145487934603.Spec : Prop :=
+  ∀ n, P14142054145487934603.a n = A236348 n
+
+end A236348
+
 /-! ## A236348.P13504102226029459615
 
 `A136289(n)%(n+2)`
@@ -5933,29 +5954,6 @@ namespace A236348
 /-- `A330396(A061347(n+1)+n)` -/
 def P16103737771053423652.Spec : Prop :=
   ∀ n, P16103737771053423652.a n = A236348 n
-
-end A236348
-
-/-! ## A236348.P11836417284431527017
-
-`A224334(n+1)%A228949(n+2)`
--/
-
-namespace A236348.P11836417284431527017
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A224334 (n + 1)) (A228949 (n + 2))
-
-end
-
-end A236348.P11836417284431527017
-
-namespace A236348
-
-/-- `A224334(n+1)%A228949(n+2)` -/
-def P11836417284431527017.Spec : Prop :=
-  ∀ n, P11836417284431527017.a n = A236348 n
 
 end A236348
 

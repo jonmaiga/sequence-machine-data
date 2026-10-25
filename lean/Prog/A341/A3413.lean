@@ -56,7 +56,6 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
@@ -281,6 +280,12 @@ namespace A341300
 /-- `A001048(n+1)+A001048(n+3)+n` -/
 def P5303050012315548773.Spec : Prop :=
   ∀ n, P5303050012315548773.a n = A341300 (n + 3)
+
+theorem P5303050012315548773.correct : P5303050012315548773.Spec := by
+  intro n
+  simp only [A341300, Nat.add_sub_cancel, A341300.P5303050012315548773.a, A341300.P12079153826153095339.a, A001048, A001048.P17874306345601623766.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A341300
 
@@ -3168,7 +3173,7 @@ end A341323.P11254525054832423660
 /-!
 # A341329: Numbers k such that k^2 is the sum of m nonzero squares for all 1 <= m <= k^2 - 14.
 
-The programs for A341329, the canonical program `A341329.P7455525614794179210` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341329 has offset 1).
+The programs for A341329, the canonical program `A341329.P7455525614794179210` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341329 has offset 1).
 
 The definition of A341329 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6463 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3338,7 +3343,7 @@ end A341329
 
 `∩[A009003(n+1), A161992(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A341329

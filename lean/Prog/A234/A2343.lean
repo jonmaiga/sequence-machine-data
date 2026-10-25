@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -87,6 +88,10 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A234300: Number of unit squares, aligned with a Cartesian grid, partially encircled along the edge of the first quadrant of a circle centered at the origin ordered by increasing radius.
@@ -400,6 +405,12 @@ namespace A234306
 /-- `n-A069930(n+1)` -/
 def P15081593166713513687.Spec : Prop :=
   ∀ n, P15081593166713513687.a n = A234306 (n + 1)
+
+theorem P15081593166713513687.correct : P15081593166713513687.Spec := by
+  intro n
+  simp only [A234306, Nat.add_sub_cancel, A234306.P15081593166713513687.a, A234306.P8708475813081284006.a, A066660, A066660.P17487963968517902439.a, A069930, A069930.P13025091485286396037.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A069283, A069283.P13755877573305704475.f1, A069283.P13755877573305704475.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A234306
 
@@ -1367,7 +1378,7 @@ end A234316.P16906414511728655360
 
 The programs for A234317, the canonical program `A234317.P7470704803388070308` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234317 has offset 1).
 
-The definition of A234317 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000720, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A234317 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A234317.P7470704803388070308
@@ -3890,21 +3901,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A234368.P15914290687120138255
-
-/-! ## A234368.P4969364510473711848
-
-`A127757(A000045(n+1))`
--/
-
-namespace A234368.P4969364510473711848
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A127757 (A000045 (n + 1)).toNat
-
-end
-
-end A234368.P4969364510473711848
 
 /-!
 # A234369: Floor(AGM(1, triangular(n))), where AGM denotes the arithmetic-geometric mean.

@@ -42,12 +42,13 @@ import Seq.B002.C006
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
-import Seq.B004.C001
+import Seq.B004.C002
+import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
-import Seq.B011.C001
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -59,7 +60,6 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -140,20 +140,20 @@ end A391101.P16276782251006234488
 The programs for A391102, there is no canonical definition to state claims against.
 -/
 
-/-! ## A391102.P9028696173412772108
+/-! ## A391102.P10111588072937311968
 
-`A194177(A392431(n))+A005232(n)`
+`A377137(A076035(n)+A051366(n))`
 -/
 
-namespace A391102.P9028696173412772108
+namespace A391102.P10111588072937311968
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A194177 (A392431 n).toNat + A005232 n
+  A377137 (A076035 n + A051366 n).toNat
 
 end
 
-end A391102.P9028696173412772108
+end A391102.P10111588072937311968
 
 /-!
 # A391103: Expansion of g^3/(1 - x^3*g), where g = 1+x*g^4 is the g.f. of A002293.
@@ -3542,7 +3542,7 @@ end A391183
 /-!
 # A391184: The number of divisors of n that are of the form x^2 + 2*y^2 (A002479).
 
-The programs for A391184, the canonical program `A391184.P7621874213617609093` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391184 has offset 1).
+The programs for A391184, the canonical program `A391184.P7621874213617609093` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391184 has offset 1).
 
 The definition of A391184 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3551,7 +3551,7 @@ The definition of A391184 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A391183(#)]`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A391184
@@ -3661,7 +3661,7 @@ end A391184
 /-!
 # A391185: The sum of the divisors of n that are of the form x^2 + 2*y^2 (A002479).
 
-The programs for A391185, the canonical program `A391185.P10323156669665891004` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391185 has offset 1).
+The programs for A391185, the canonical program `A391185.P10323156669665891004` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391185 has offset 1).
 
 The definition of A391185 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3670,7 +3670,7 @@ The definition of A391185 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A391183(#)]`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A391185
@@ -3862,21 +3862,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A391187.P14783170243092817805
-
-/-! ## A391187.P9486786691837537941
-
-`gcd(A000265(n+1), A157954(A157954(3*n+5)))`
--/
-
-namespace A391187.P9486786691837537941
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A000265 (n + 1)) (A157954 (A157954 (3 * n + 5)).toNat)
-
-end
-
-end A391187.P9486786691837537941
 
 /-!
 # A391191: Irregular triangle read by rows: T(n,k) is the number of free polyaboloes (or polytans) with n cells of which 2*k share a hypotenuse in pairs (making up k squares), 0 <= k <= n/2.

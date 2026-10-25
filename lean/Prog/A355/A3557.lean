@@ -48,6 +48,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
@@ -59,7 +60,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
@@ -2479,7 +2479,7 @@ end A355742.P15396095381468600511
 /-!
 # A355743: Numbers whose prime indices are all prime-powers.
 
-The programs for A355743, the canonical program `A355743.P16103552336498318608` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355743 has offset 1).
+The programs for A355743, the canonical program `A355743.P16103552336498318608` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355743 has offset 1).
 
 The definition of A355743 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1410 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2488,7 +2488,7 @@ The definition of A355743 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A355741(n+1)]+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A355743
@@ -3175,7 +3175,7 @@ end A355749.P15910738847674441242
 
 The programs for A355750, the canonical program `A355750.P5981996292456239035` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355750 has offset 1).
 
-The definition of A355750 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A099777, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A355750 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A355750.P14131073200133915973

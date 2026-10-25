@@ -31,8 +31,9 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B013.C000
@@ -57,7 +58,6 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -705,20 +705,20 @@ end A396055.P8222211826582583429
 The programs for A396056, there is no canonical definition to state claims against.
 -/
 
-/-! ## A396056.P4260356643558612140
+/-! ## A396056.P13937867026090581958
 
-`A056239(A000079(n))+A046101(n+1)`
+`A046101(n+1)+A001222(A000079(n))`
 -/
 
-namespace A396056.P4260356643558612140
+namespace A396056.P13937867026090581958
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056239 (A000079 n).toNat + A046101 (n + 1)
+  A046101 (n + 1) + A001222 (A000079 n).toNat
 
 end
 
-end A396056.P4260356643558612140
+end A396056.P13937867026090581958
 
 /-! ## A396056.P12142743374112529405
 

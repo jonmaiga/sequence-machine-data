@@ -61,9 +61,7 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -6145,6 +6143,21 @@ end
 
 end A227267.P1489365881638293026
 
+/-! ## A227267.P13114303802271553065
+
+`A227269(A145018(n+4))+A025444(n)`
+-/
+
+namespace A227267.P13114303802271553065
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A227269 (A145018 (n + 4)).toNat + A025444 n
+
+end
+
+end A227267.P13114303802271553065
+
 /-! ## A227267.P10219701377327469976
 
 `A007318(C(n, 2))*A227269(A167614(n+2)+1)`
@@ -6174,21 +6187,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A227267.P18433831326008986909
-
-/-! ## A227267.P14169721695919469688
-
-`A000041(C(2, n+2))*A227269(A167614(n+2)+1)`
--/
-
-namespace A227267.P14169721695919469688
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000041 (Nat.choose 2 (n + 2)) * A227269 (A167614 (n + 2) + 1).toNat
-
-end
-
-end A227267.P14169721695919469688
 
 /-!
 # A227268: Number of nX5 0,1 arrays indicating 2X2 subblocks of some larger (n+1)X6 binary array having a sum of three or less, with rows and columns of the latter in lexicographically nondecreasing order.

@@ -3099,6 +3099,12 @@ namespace A321123
 def P15786183115677060382.Spec : Prop :=
   ∀ n, P15786183115677060382.a n = (A321123 n : ℚ)
 
+theorem P15786183115677060382.correct : P15786183115677060382.Spec := by
+  intro n
+  simp only [A321123, Nat.add_sub_cancel, A321123.P15786183115677060382.a, A321123.P14839465274714158412.a, A000051, A000051.P14067217022188782580.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A321123
 
 /-! ## A321123.P5439503892710058746
@@ -3144,6 +3150,12 @@ namespace A321123
 /-- `(A002522(2*n+1)+A000079(n+1))/2` -/
 def P17671361425161276044.Spec : Prop :=
   ∀ n, P17671361425161276044.a n = (A321123 n : ℚ)
+
+theorem P17671361425161276044.correct : P17671361425161276044.Spec := by
+  intro n
+  simp only [A321123, Nat.add_sub_cancel, A321123.P17671361425161276044.a, A321123.P14839465274714158412.a, A000079, A000079.P10855139691139572931.a, A002522, A002522.P3778392011853271743.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A321123
 
@@ -6382,7 +6394,7 @@ end A321165.P2340057568207491029
 /-!
 # A321167: The e-unitary Euler function: a(1) = 1, a(n) = Product uphi(e(i)) for n = Product p(i)^e(i), where uphi is the unitary totient function (A047994).
 
-The programs for A321167, the canonical program `A321167.P10161724176455158981` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321167 has offset 1).
+The programs for A321167, the canonical program `A321167.P10161724176455158981` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321167 has offset 1).
 
 The definition of A321167 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6391,7 +6403,7 @@ The definition of A321167 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[n+1, A047994(#)]`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A321167
@@ -7894,6 +7906,12 @@ namespace A321180
 def P16832386149694831107.Spec : Prop :=
   ∀ n, P16832386149694831107.a n = (A321180 n : ℚ)
 
+theorem P16832386149694831107.correct : P16832386149694831107.Spec := by
+  intro n
+  simp only [A321180, Nat.add_sub_cancel, A321180.P16832386149694831107.a, A321180.P9288936456031094822.a, A303302, A303302.P13329260813835793330.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A321180
 
 /-! ## A321180.P9749019658845038590
@@ -7917,6 +7935,12 @@ namespace A321180
 def P9749019658845038590.Spec : Prop :=
   ∀ n, P9749019658845038590.a n = (A321180 n : ℚ)
 
+theorem P9749019658845038590.correct : P9749019658845038590.Spec := by
+  intro n
+  simp only [A321180, Nat.add_sub_cancel, A321180.P9749019658845038590.a, A321180.P9288936456031094822.a, A158586, A158586.P14210663653100296572.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A321180
 
 /-! ## A321180.P9868388667170060285
@@ -7939,6 +7963,12 @@ namespace A321180
 /-- `(A158732(n)-5)/4` -/
 def P9868388667170060285.Spec : Prop :=
   ∀ n, P9868388667170060285.a n = (A321180 n : ℚ)
+
+theorem P9868388667170060285.correct : P9868388667170060285.Spec := by
+  intro n
+  simp only [A321180, Nat.add_sub_cancel, A321180.P9868388667170060285.a, A321180.P9288936456031094822.a, A158732, A158732.P7104617364013209010.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A321180
 

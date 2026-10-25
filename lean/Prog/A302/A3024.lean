@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -63,7 +64,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -99,6 +99,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A302401: Total domination number of the n X n king graph.
@@ -3836,6 +3840,21 @@ end
 
 end A302427.P11780604400408076439
 
+/-! ## A302427.P965575380190181722
+
+`A303197(n+1)-A037903(A022173(n))`
+-/
+
+namespace A302427.P965575380190181722
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A303197 (n + 1) - A037903 (A022173 n).toNat
+
+end
+
+end A302427.P965575380190181722
+
 /-! ## A302427.P18131747539488071157
 
 `A302635(n+1)+A276167(A331278(n)²)`
@@ -3850,21 +3869,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A302427.P18131747539488071157
-
-/-! ## A302427.P18011340878596360692
-
-`A303197(n+1)-A014374(A318045(n+1))`
--/
-
-namespace A302427.P18011340878596360692
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303197 (n + 1) - A014374 (A318045 (n + 1)).toNat
-
-end
-
-end A302427.P18011340878596360692
 
 /-!
 # A302428: Number of 3 X n 0..1 arrays with every element equal to 0, 1, 3 or 5 horizontally, diagonally or antidiagonally adjacent elements, with upper left element zero.
@@ -9466,7 +9470,7 @@ end A302490.P4418974752408423235
 
 The programs for A302491, the canonical program `A302491.P7760389659930367120` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302491 has offset 1).
 
-The definition of A302491 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A005117, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A302491 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005117, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A302491.P7760389659930367120
@@ -10099,7 +10103,7 @@ end A302492.P14778144522240347233
 
 The programs for A302493, the canonical program `A302493.P13750760026098076296` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302493 has offset 1).
 
-The definition of A302493 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A000961, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A302493 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000961, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A302493.P13750760026098076296
@@ -10424,6 +10428,12 @@ namespace A302493
 /-- `A000040(A181062(n+1)+1)` -/
 def P10249840008690416390.Spec : Prop :=
   ∀ n, P10249840008690416390.a n = A302493 (n + 1)
+
+theorem P10249840008690416390.correct : P10249840008690416390.Spec := by
+  intro n
+  simp only [A302493, Nat.add_sub_cancel, A302493.P10249840008690416390.a, A302493.P13750760026098076296.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A000961, A000961.P15008477845107890738.f1, A000961.P15008477845107890738.f2, A000961.P15008477845107890738.a, A181062, A181062.P6529548857799504333.a, A000079, A000079.P10855139691139572931.a, A061345, A061345.P12671314331313567408.f1, A061345.P12671314331313567408.a, A081061, A081061.P11142281922485975947.f1, A081061.P11142281922485975947.a, A374134, A374134.P15663071369572716484.f1, A374134.P15663071369572716484.a, A073491, A073491.P6445803315451258056.f1, A073491.P6445803315451258056.f2, A073491.P6445803315451258056.a, A340363, A340363.P15438000431600784952.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A302493
 

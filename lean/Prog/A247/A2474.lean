@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -49,15 +50,13 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B008.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -89,6 +88,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A247400: Number of length n+4 0..4 arrays with no disjoint pairs in any consecutive five terms having the same sum.
@@ -7612,6 +7615,12 @@ namespace A247485
 /-- `(A362570(n+1)+1)/2` -/
 def P8061322325123814228.Spec : Prop :=
   ∀ n, P8061322325123814228.a n = (A247485 (n + 1) : ℚ)
+
+theorem P8061322325123814228.correct : P8061322325123814228.Spec := by
+  intro n
+  simp only [A247485, Nat.add_sub_cancel, A247485.P8061322325123814228.a, A247485.P2928913063424222719.f1, A247485.P2928913063424222719.a, A362570, A362570.P15557334788396659153.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A247485
 

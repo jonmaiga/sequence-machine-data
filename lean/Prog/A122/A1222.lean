@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -52,7 +53,6 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -89,6 +89,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A122200: Signature permutations of RIBS-transformations of non-recursive Catalan automorphisms in table A089840.
@@ -2151,7 +2155,7 @@ end A122219
 
 The programs for A122220, the canonical program `A122220.P15811966447984658883` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122220 has offset 1).
 
-The definition of A122220 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001248, A030516, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A122220 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A122220.P2253805808393519045
@@ -4073,6 +4077,12 @@ namespace A122247
 def P10649339284452623042.Spec : Prop :=
   ∀ n, P10649339284452623042.a n = A122247 n
 
+theorem P10649339284452623042.correct : P10649339284452623042.Spec := by
+  intro n
+  simp only [A122247, Nat.add_sub_cancel, A122247.P10649339284452623042.f2, A122247.P10649339284452623042.f1, A122247.P10649339284452623042.a, A122247.P764438229139541202.f3, A122247.P764438229139541202.f2, A122247.P764438229139541202.f1, A122247.P764438229139541202.a, A093049, A093049.P290101172290153267.f1, A093049.P290101172290153267.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A122247
 
 /-! ## A122247.P16193966383854895988
@@ -5481,7 +5491,7 @@ end A122254.P765295291945901869
 /-!
 # A122255: Characteristic function of numbers with 3-smooth Euler's totient (A000010).
 
-The programs for A122255, the canonical program `A122255.P582623873584825635` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122255 has offset 1).
+The programs for A122255, the canonical program `A122255.P582623873584825635` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122255 has offset 1).
 
 The definition of A122255 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A065333, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5490,7 +5500,7 @@ The definition of A122255 is `conditional`: the Lean definition is an OEIS formu
 
 `A065333(A000010(n+1))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A122255
@@ -5964,7 +5974,7 @@ end A122255
 /-!
 # A122256: Number of numbers <= n with 3-smooth Euler's totient (A000010).
 
-The programs for A122256, the canonical program `A122256.P3316348703661489538` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122256 has offset 1).
+The programs for A122256, the canonical program `A122256.P3316348703661489538` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122256 has offset 1).
 
 The definition of A122256 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5973,7 +5983,7 @@ The definition of A122256 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A122255(n+1)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A122256
@@ -6098,7 +6108,7 @@ end A122256
 /-!
 # A122257: Characteristic function of Pierpont primes (A005109).
 
-The programs for A122257, the canonical program `A122257.P4437493794124437711` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122257 has offset 1).
+The programs for A122257, the canonical program `A122257.P4437493794124437711` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122257 has offset 1).
 
 The definition of A122257 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6215,7 +6225,7 @@ end A122257
 
 `A010051(n+1)*A122255(n+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A122257
@@ -6596,7 +6606,7 @@ end A122257
 /-!
 # A122258: Number of Pierpont primes <= n.
 
-The programs for A122258, the canonical program `A122258.P2851884273537307678` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122258 has offset 1).
+The programs for A122258, the canonical program `A122258.P2851884273537307678` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122258 has offset 1).
 
 The definition of A122258 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6605,7 +6615,7 @@ The definition of A122258 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A122257(n+1)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A122258
@@ -7656,7 +7666,7 @@ end A122260
 /-!
 # A122261: Characteristic function of numbers having only factors that are Pierpont primes.
 
-The programs for A122261, the canonical program `A122261.P6538206010001195725` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122261 has offset 1).
+The programs for A122261, the canonical program `A122261.P6538206010001195725` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122261 has offset 1).
 
 The definition of A122261 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7665,7 +7675,7 @@ The definition of A122261 is `conjectured`: the Lean definition is a formula tha
 
 `A122255(∏{p}[n+1, #])`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A122261

@@ -56,7 +56,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -2851,7 +2850,7 @@ end A358038
 /-!
 # A358039: a(n) is the Euler totient function phi applied to the n-th cubefree number.
 
-The programs for A358039, the canonical program `A358039.P2500782259090983351` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358039 has offset 1).
+The programs for A358039, the canonical program `A358039.P2500782259090983351` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358039 has offset 1).
 
 The definition of A358039 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A004709, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2860,7 +2859,7 @@ The definition of A358039 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A004709(n+1))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A358039
@@ -3285,7 +3284,7 @@ end A358039
 
 The programs for A358040, the canonical program `A358040.P3658536414461284730` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358040 has offset 1).
 
-The definition of A358040 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A004709, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A358040 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004709, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A358040.P3658536414461284730
@@ -6870,6 +6869,12 @@ namespace A358089
 /-- `Δ[eq[1, A355447(n+1)]]` -/
 def P8432890669638257922.Spec : Prop :=
   ∀ n, P8432890669638257922.a n = A358089 (n + 1)
+
+theorem P8432890669638257922.correct : P8432890669638257922.Spec := by
+  intro n
+  simp only [A358089, Nat.add_sub_cancel, A358089.P8432890669638257922.f2, A358089.P8432890669638257922.f3, A358089.P8432890669638257922.f1, A358089.P8432890669638257922.a, A358089.P6226920074506255654.f1, A358089.P6226920074506255654.a, A126706, A126706.P11121898802900401573.f1, A126706.P11121898802900401573.f2, A126706.P11121898802900401573.a, A355447, A355447.P2177856951054736842.a, A008966, A008966.P884693903657889754.a, A010055, A010055.P13747394931985969733.f1, A010055.P13747394931985969733.a, A013928, A013928.P12891540521727461604.f2, A013928.P12891540521727461604.f1, A013928.P12891540521727461604.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A358089
 

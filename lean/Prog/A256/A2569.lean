@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -91,6 +92,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A256900: Number of (n+2)X(4+2) 0..1 arrays with every 3X3 subblock sum of the two medians of the central row and column plus the two sums of the diagonal and antidiagonal nondecreasing horizontally and vertically.
@@ -3227,7 +3232,7 @@ end A256953.P7401117539118400637
 
 The programs for A256956, the canonical program `A256956.P5934166374789852245` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256956 has offset 1).
 
-The definition of A256956 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000720, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A256956 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A256956.P5934166374789852245
@@ -5174,35 +5179,20 @@ end
 
 end A256969.P8789845953706779052
 
-/-! ## A256969.P5283223120058154435
+/-! ## A256969.P8797471535223461001
 
-`A005579(n)%(18*a(n-1))` with `a(0)=1`
+`A005579(n)+round(1/3^n)`
 -/
 
-namespace A256969.P5283223120058154435
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  Int.tmod (A005579 n) (18 * a (n - 1))
-
-end
-
-end A256969.P5283223120058154435
-
-/-! ## A256969.P17213664802778841655
-
-`A005579(n)+A000007(n)`
--/
-
-namespace A256969.P17213664802778841655
+namespace A256969.P8797471535223461001
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005579 n + A000007 n
+  A005579 n + SequenceMachineLib.roundAway (1 / (3 ^ n : ℚ))
 
 end
 
-end A256969.P17213664802778841655
+end A256969.P8797471535223461001
 
 /-! ## A256969.P13747758551975014806
 
@@ -5233,6 +5223,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A256969.P1773509640702632614
+
+/-! ## A256969.P10774649950812653002
+
+`gcd(round(A027337(n)/3^n), A005579(n))`
+-/
+
+namespace A256969.P10774649950812653002
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (SequenceMachineLib.roundAway ((A027337 n : ℚ) / (3 ^ n : ℚ))) (A005579 n)
+
+end
+
+end A256969.P10774649950812653002
 
 /-!
 # A256970: Smallest prime divisor of 4*n^2+1.
@@ -6632,6 +6637,12 @@ namespace A256992
 /-- `A256991(n+1)+A079559(n+1)` -/
 def P4133648005285831698.Spec : Prop :=
   ∀ n, P4133648005285831698.a n = A256992 (n + 1)
+
+theorem P4133648005285831698.correct : P4133648005285831698.Spec := by
+  intro n
+  simp only [A256992, Nat.add_sub_cancel, A256992.P4133648005285831698.a, A256992.P2364808251290263884.a, A079559, A079559.P6833565121082423031.a, A213714, A213714.P736048023233046129.a, A234017, A234017.P14444333569528327869.a, A256991, A256991.P15627668895340715446.a, A043545, A043545.P6199121594405564387.a, A046699, A046699.P9378092664418736944.a, A053644, A053644.P1707366427427647095.a, A234016, A234016.P16847082992809600842.a, A036987, A036987.P1789601236562705309.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A256992
 

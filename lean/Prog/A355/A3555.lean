@@ -1,8 +1,8 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -48,11 +48,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -84,6 +84,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A355501: Expansion of e.g.f. exp(3 * x * exp(x)).
@@ -612,21 +616,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A355512.P11954958772666203823
-
-/-! ## A355512.P3388729578785588876
-
-`A005664(n)+A020914(A005664(n))-A059841(n)`
--/
-
-namespace A355512.P3388729578785588876
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005664 n + (A020914 (A005664 n).toNat - A059841 n)
-
-end
-
-end A355512.P3388729578785588876
 
 /-!
 # A355514: Sum of numerator and denominator in a rational approximation j/k of q = log(2)/log(3), such that q - j/k is a new minimum, i.e., q is approximated from below.
@@ -5558,6 +5547,12 @@ namespace A355582
 def P15336962289989679711.Spec : Prop :=
   ∀ n, P15336962289989679711.a n = A355582 (n + 1)
 
+theorem P15336962289989679711.correct : P15336962289989679711.Spec := by
+  intro n
+  simp only [A355582, Nat.add_sub_cancel, A355582.P15336962289989679711.a, A355582.P2103007522092691824.a, A006519, A006519.P10435570611646570274.a, A038500, A038500.P18314557775098268376.a, A060904, A060904.P2539972540385605862.a, A065331, A065331.P8774004989157438008.a, A112765, A112765.P4892120039852414895.a, A171977, A171977.P14092944863121073856.a, A038712, A038712.P3404197303190209645.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A355582
 
 /-! ## A355582.P3301328985273997174
@@ -6515,6 +6510,12 @@ namespace A355584
 /-- `A000203(A060904(n+1)*A065331(n+1))` -/
 def P17028041293957664169.Spec : Prop :=
   ∀ n, P17028041293957664169.a n = A355584 (n + 1)
+
+theorem P17028041293957664169.correct : P17028041293957664169.Spec := by
+  intro n
+  simp only [A355584, Nat.add_sub_cancel, A355584.P17028041293957664169.a, A355584.P17753018622683635004.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A060904, A060904.P2539972540385605862.a, A065331, A065331.P8774004989157438008.a, A355582, A355582.P2103007522092691824.a, A006519, A006519.P10435570611646570274.a, A038500, A038500.P18314557775098268376.a, A112765, A112765.P4892120039852414895.a, A171977, A171977.P14092944863121073856.a, A038712, A038712.P3404197303190209645.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A355584
 

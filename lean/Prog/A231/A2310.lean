@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -55,11 +56,9 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B014.C000
@@ -88,6 +87,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A231000: Number of years after which a date can fall on the same day of the week, in the Julian calendar.
@@ -8535,6 +8538,12 @@ namespace A231086
 def P1273754508778842782.Spec : Prop :=
   ∀ n, P1273754508778842782.a n = (A231086 (n + 1) : ℚ)
 
+theorem P1273754508778842782.correct : P1273754508778842782.Spec := by
+  intro n
+  simp only [A231086, Nat.add_sub_cancel, A231086.P1273754508778842782.f1, A231086.P1273754508778842782.f2, A231086.P1273754508778842782.a, A231086.P15220536245985747541.f1, A231086.P15220536245985747541.f2, A231086.P15220536245985747541.a, A005101, A005101.P6705997063366613997.f1, A005101.P6705997063366613997.f2, A005101.P6705997063366613997.a, A125115, A125115.P9586527931005899637.a, A224907, A224907.P17184024121669876912.a, A082551, A082551.P4316828637772613674.f1, A082551.P4316828637772613674.f2, A082551.P4316828637772613674.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A231086
 
 /-! ## A231086.P11402248218420423528
@@ -9129,6 +9138,12 @@ namespace A231089
 def P2894909292158345102.Spec : Prop :=
   ∀ n, P2894909292158345102.a n = A231089 (n + 1)
 
+theorem P2894909292158345102.correct : P2894909292158345102.Spec := by
+  intro n
+  simp only [A231089, Nat.add_sub_cancel, A231089.P2894909292158345102.f1, A231089.P2894909292158345102.a, A231089.P5698171417465960839.f1, A231089.P5698171417465960839.f2, A231089.P5698171417465960839.a, A016777, A016777.P9931792138852554157.a, A033999, A033999.P17703899380244199787.a, A231088, A231088.P9425386829451350861.f1, A231088.P9425386829451350861.f2, A231088.P9425386829451350861.a, A343303, A343303.P7519863497709517625.f1, A343303.P7519863497709517625.a, A231086, A231086.P15220536245985747541.f1, A231086.P15220536245985747541.f2, A231086.P15220536245985747541.a, A005101, A005101.P6705997063366613997.f1, A005101.P6705997063366613997.f2, A005101.P6705997063366613997.a, A125115, A125115.P9586527931005899637.a, A082551, A082551.P4316828637772613674.f1, A082551.P4316828637772613674.f2, A082551.P4316828637772613674.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A231089
 
 /-! ## A231089.P17661740153546114548
@@ -9699,7 +9714,7 @@ end A231093.P17567148604987427799
 /-!
 # A231099: Primes expressible as phi(sigma(n)) + sigma(phi(n)), in order of their occurrence.
 
-The programs for A231099, the canonical program `A231099.P2171262129548700046` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231099 has offset 1).
+The programs for A231099, the canonical program `A231099.P2171262129548700046` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231099 has offset 1).
 
 The definition of A231099 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 269 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9708,7 +9723,7 @@ The definition of A231099 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A000010(A000203(n+1))+A295302(n+1)+1+n]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A231099

@@ -55,6 +55,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -63,7 +64,6 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -80,7 +80,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -778,6 +777,12 @@ namespace A321003
 /-- `A000079(n+1)*A008776(n)-A000079(n)` -/
 def P16518436203896247880.Spec : Prop :=
   ∀ n, P16518436203896247880.a n = A321003 n
+
+theorem P16518436203896247880.correct : P16518436203896247880.Spec := by
+  intro n
+  simp only [A321003, Nat.add_sub_cancel, A321003.P16518436203896247880.a, A321003.P3620131858223082450.a, A000079, A000079.P10855139691139572931.a, A008776, A008776.P11088121667404015999.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A321003
 
@@ -1669,6 +1674,12 @@ namespace A321014
 def P14734571737289157776.Spec : Prop :=
   ∀ n, P14734571737289157776.a n = A321014 (n + 1)
 
+theorem P14734571737289157776.correct : P14734571737289157776.Spec := by
+  intro n
+  simp only [A321014, Nat.add_sub_cancel, A321014.P14734571737289157776.a, A321014.P94764346860813121.f1, A321014.P94764346860813121.a, A096737, A096737.P12937358250781418513.f1, A096737.P12937358250781418513.a, A361000, A361000.P4616030779628208533.f1, A361000.P4616030779628208533.f2, A361000.P4616030779628208533.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A321014
 
 /-! ## A321014.P2362457693802140456
@@ -1816,7 +1827,7 @@ end A321015
 /-!
 # A321016: Triangle read by rows: number of partitions of n into distinct and consecutive parts with largest part k (n >= 1, 1 <= k <= n).
 
-The programs for A321016, the canonical program `A321016.P11941317684383710991` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321016 has offset 1).
+The programs for A321016, the canonical program `A321016.P11941317684383710991` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321016 has offset 1).
 
 The definition of A321016 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 120 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1825,7 +1836,7 @@ The definition of A321016 is `conjectured`: the Lean definition is a formula tha
 
 `char[A002024(n+1)-A080956(A049777(n+1))]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A321016
@@ -3773,7 +3784,7 @@ end A321022.P5112505817168185157
 /-!
 # A321024: Let j be one of the prime factors of k. Sequence lists numbers k such that the prime before j is a prime factor of k+1.
 
-The programs for A321024, the canonical program `A321024.P9737378660482103548` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321024 has offset 1).
+The programs for A321024, the canonical program `A321024.P9737378660482103548` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321024 has offset 1).
 
 The definition of A321024 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2859 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3811,7 +3822,7 @@ end A321024
 
 `lt[1, gcd(A253885(n)+1, A004277(n))]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A321024
@@ -4299,7 +4310,7 @@ end A321031.P11290417405448152150
 /-!
 # A321032: Number of words of length 3n such that all letters of the binary alphabet occur at least once and are introduced in ascending order and which can be built by repeatedly inserting triples into the initially empty word.
 
-The programs for A321032, the canonical program `A321032.P17473703788572947665` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321032 has offset 2).
+The programs for A321032, the canonical program `A321032.P17473703788572947665` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321032 has offset 2).
 
 The definition of A321032 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 123 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4308,7 +4319,7 @@ The definition of A321032 is `conjectured`: the Lean definition is a formula tha
 
 `A047099(n+2)-1`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A321032

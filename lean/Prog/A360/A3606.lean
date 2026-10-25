@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -48,6 +49,7 @@ import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -63,6 +65,7 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -89,6 +92,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A360600: Inverse permutation to A360599.
@@ -1063,6 +1070,12 @@ namespace A360610
 def P12083179634771128911.Spec : Prop :=
   ∀ n, P12083179634771128911.a n = A360610 (n + 1)
 
+theorem P12083179634771128911.correct : P12083179634771128911.Spec := by
+  intro n
+  simp only [A360610, Nat.add_sub_cancel, A360610.P12083179634771128911.a, A360610.P9311282744771957275.f1, A360610.P9311282744771957275.a, A048158, A048158.P5985551271054969895.a, A074909, A074909.P6707642907239843837.f1, A074909.P6707642907239843837.a, A234575, A234575.P18192962525391776132.a, A002262, A002262.P12129691700837801527.a, A010054, A010054.P18347828677204923252.a, A010766, A010766.P13358049683493517902.f1, A010766.P13358049683493517902.a, A051127, A051127.P6714805154847763680.a, A122797, A122797.P12059737121592676741.a, A001614, A001614.P13713740041851423204.a, A005369, A005369.P10796159359873341658.a, A025581, A025581.P420762180635059694.a, A057944, A057944.P16851463738746886639.a, A000217, A000217.P10269402890581615239.a, A003056, A003056.P5318256527314048597.a, A004736, A004736.P10337537277358081527.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A360610
 
 /-! ## A360610.P14645618083336040652
@@ -1108,6 +1121,12 @@ namespace A360610
 /-- `(A234575(n+1)-A048158(n+1))*A010766(n+1)` -/
 def P11999437379627161300.Spec : Prop :=
   ∀ n, P11999437379627161300.a n = A360610 (n + 1)
+
+theorem P11999437379627161300.correct : P11999437379627161300.Spec := by
+  intro n
+  simp only [A360610, Nat.add_sub_cancel, A360610.P11999437379627161300.a, A360610.P9311282744771957275.f1, A360610.P9311282744771957275.a, A010766, A010766.P13358049683493517902.f1, A010766.P13358049683493517902.a, A048158, A048158.P5985551271054969895.a, A074909, A074909.P6707642907239843837.f1, A074909.P6707642907239843837.a, A234575, A234575.P18192962525391776132.a, A002262, A002262.P12129691700837801527.a, A010054, A010054.P18347828677204923252.a, A051127, A051127.P6714805154847763680.a, A122797, A122797.P12059737121592676741.a, A001614, A001614.P13713740041851423204.a, A005369, A005369.P10796159359873341658.a, A025581, A025581.P420762180635059694.a, A057944, A057944.P16851463738746886639.a, A000217, A000217.P10269402890581615239.a, A003056, A003056.P5318256527314048597.a, A004736, A004736.P10337537277358081527.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A360610
 
@@ -1157,6 +1176,12 @@ namespace A360610
 /-- `A010766(n+1)*A010766(n+1)*A057427(n+1)` -/
 def P8363463303191362683.Spec : Prop :=
   ∀ n, P8363463303191362683.a n = A360610 (n + 1)
+
+theorem P8363463303191362683.correct : P8363463303191362683.Spec := by
+  intro n
+  simp only [A360610, Nat.add_sub_cancel, A360610.P8363463303191362683.a, A360610.P9311282744771957275.f1, A360610.P9311282744771957275.a, A010766, A010766.P13358049683493517902.f1, A010766.P13358049683493517902.a, A057427, A057427.P3058147525557661423.a, A074909, A074909.P6707642907239843837.f1, A074909.P6707642907239843837.a, A000007, A000007.P6599383543502402472.a, A002262, A002262.P12129691700837801527.a, A010054, A010054.P18347828677204923252.a, A005369, A005369.P10796159359873341658.a, A057944, A057944.P16851463738746886639.a, A000217, A000217.P10269402890581615239.a, A003056, A003056.P5318256527314048597.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A360610
 
@@ -6777,6 +6802,12 @@ namespace A360692
 def P14631975372681565229.Spec : Prop :=
   ∀ n, P14631975372681565229.a n = A360692 n
 
+theorem P14631975372681565229.correct : P14631975372681565229.Spec := by
+  intro n
+  simp only [A360692, Nat.add_sub_cancel, A360692.P14631975372681565229.a, A360692.P11101891494698958030.a, A025480, A025480.P15873863116418380882.a, A043545, A043545.P6199121594405564387.a, A101279, A101279.P13195292340329059168.a, A006519, A006519.P10435570611646570274.a, A036987, A036987.P1789601236562705309.a, A171977, A171977.P14092944863121073856.a, A038712, A038712.P3404197303190209645.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A360692
 
 /-! ## A360692.P8578155281490283193
@@ -7277,20 +7308,20 @@ end A360695.P12454760380992761767
 The programs for A360696, there is no canonical definition to state claims against.
 -/
 
-/-! ## A360696.P837909188431752153
+/-! ## A360696.P4076684291883063506
 
-`A098464(n*a(n-1))` with `a(0)=1`
+`A098464(a(n-1)*n)` with `a(0)=1`
 -/
 
-namespace A360696.P837909188431752153
+namespace A360696.P4076684291883063506
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A098464 ((n : ℤ) * a (n - 1)).toNat
+  A098464 (a (n - 1) * (n : ℤ)).toNat
 
 end
 
-end A360696.P837909188431752153
+end A360696.P4076684291883063506
 
 /-! ## A360696.P15145737513004659138
 

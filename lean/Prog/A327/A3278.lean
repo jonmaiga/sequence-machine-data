@@ -69,7 +69,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -2357,7 +2356,7 @@ end A327828.P17493491903221882492
 /-!
 # A327829: Squarefree numbers with a prime number of prime factors.
 
-The programs for A327829, the canonical program `A327829.P6390908241327507115` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327829 has offset 1).
+The programs for A327829, the canonical program `A327829.P6390908241327507115` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327829 has offset 1).
 
 The definition of A327829 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6930 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2444,7 +2443,7 @@ end A327829
 
 `∩[A000469(n+1), A063989(n+1)]`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A327829
@@ -6946,7 +6945,7 @@ end A327865
 /-!
 # A327866: a(n) = 1 if arithmetic derivative of n is square, 0 otherwise. Cf. A003415.
 
-The programs for A327866, the canonical program `A327866.P12650850147369526583` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327866 has offset 0).
+The programs for A327866, the canonical program `A327866.P12650850147369526583` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327866 has offset 0).
 
 The definition of A327866 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003415, A010052, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6955,7 +6954,7 @@ The definition of A327866 is `conditional`: the Lean definition is an OEIS formu
 
 `A010052(A003415(n))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A327866

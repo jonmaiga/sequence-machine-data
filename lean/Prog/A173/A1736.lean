@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -55,6 +56,7 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -89,7 +91,12 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A173600: Numbers k such that lambda(k) = tau(k).
@@ -4763,6 +4770,12 @@ namespace A173657
 /-- `(A001550(n)²-1)/A007689(n)` -/
 def P4348803663626938404.Spec : Prop :=
   ∀ n, P4348803663626938404.a n = (A173657 n : ℚ)
+
+theorem P4348803663626938404.correct : P4348803663626938404.Spec := by
+  intro n
+  simp only [A173657, Nat.add_sub_cancel, A173657.P4348803663626938404.a, A173657.P5542724409868621389.a, A001550, A001550.P5500954164040164324.a, A007689, A007689.P5844437503402331617.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A173657
 

@@ -12056,6 +12056,32 @@ def P4652417986834860066.Spec : Prop :=
 
 end A047522
 
+/-! ## A047522.P5024729777908252639
+
+`record[gcd(n, and(5, n+1))]`
+-/
+
+namespace A047522.P5024729777908252639
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.gcd n (Nat.land 5 (n + 1))
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A047522.P5024729777908252639
+
+namespace A047522
+
+/-- `record[gcd(n, and(5, n+1))]` -/
+def P5024729777908252639.Spec : Prop :=
+  ∀ n, (P5024729777908252639.a n : ℤ) = A047522 (n + 1)
+
+end A047522
+
 /-! ## A047522.P5061669613330410472
 
 `Δ[or(1, n²)+n²]`
@@ -12328,35 +12354,6 @@ namespace A047522
 /-- `eq[5, xor(n+1, n+6)]` -/
 def P182775905882640658.Spec : Prop :=
   ∀ n, (P182775905882640658.a n : ℤ) = A047522 (n + 1)
-
-end A047522
-
-/-! ## A047522.P12877115066588709391
-
-`∑[∑[ogf((1+6x+x^2)/(1+x))]]`
--/
-
-namespace A047522.P12877115066588709391
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [1, 6, 1] [1, 1] n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A047522.P12877115066588709391
-
-namespace A047522
-
-/-- `∑[∑[ogf((1+6x+x^2)/(1+x))]]` -/
-def P12877115066588709391.Spec : Prop :=
-  ∀ n, P12877115066588709391.a n = A047522 (n + 1)
 
 end A047522
 
@@ -20491,6 +20488,29 @@ def P13074690769007368874.Spec : Prop :=
 
 end A047538
 
+/-! ## A047538.P11081403796960000666
+
+`xor(2*n, ((n+2)^3)%4)`
+-/
+
+namespace A047538.P11081403796960000666
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.xor (2 * n) ((n + 2) ^ 3 % 4)
+
+end
+
+end A047538.P11081403796960000666
+
+namespace A047538
+
+/-- `xor(2*n, ((n+2)^3)%4)` -/
+def P11081403796960000666.Spec : Prop :=
+  ∀ n, (P11081403796960000666.a n : ℤ) = A047538 (n + 1)
+
+end A047538
+
 /-! ## A047538.P11535602093757167863
 
 `ogf((x+2x^2+x^3)/(1-2x+2x^2-2x^3+x^4))`
@@ -20617,36 +20637,6 @@ namespace A047538
 /-- `∪[A008574(n), A047523(n+1)]` -/
 def P563456558127885976.Spec : Prop :=
   ∀ n, (P563456558127885976.a n : ℤ) = A047538 (n + 1)
-
-end A047538
-
-/-! ## A047538.P14709809868421208646
-
-`∪[A008586(n), A047522(n+1)]`
--/
-
-namespace A047538.P14709809868421208646
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008586 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047522 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A047538.P14709809868421208646
-
-namespace A047538
-
-/-- `∪[A008586(n), A047522(n+1)]` -/
-def P14709809868421208646.Spec : Prop :=
-  ∀ n, (P14709809868421208646.a n : ℤ) = A047538 (n + 1)
 
 end A047538
 
@@ -24682,6 +24672,31 @@ def P17304828696510024570.Spec : Prop :=
 
 end A047546
 
+/-! ## A047546.P2826444343638801627
+
+`floor(a(n-1)-(a(n-1)%2-n)%4)` with `a(0)=2`
+
+`floor` is left out, it is the identity on integers.
+-/
+
+namespace A047546.P2826444343638801627
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [2] fun n a =>
+  a (n - 1) - Int.tmod (Int.tmod (a (n - 1)) 2 - (n : ℤ)) 4
+
+end
+
+end A047546.P2826444343638801627
+
+namespace A047546
+
+/-- `floor(a(n-1)-(a(n-1)%2-n)%4)` -/
+def P2826444343638801627.Spec : Prop :=
+  ∀ n, P2826444343638801627.a n = A047546 (n + 1)
+
+end A047546
+
 /-! ## A047546.P563852881379928318
 
 `or(2*n, A328943(n))`
@@ -24702,29 +24717,6 @@ namespace A047546
 /-- `or(2*n, A328943(n))` -/
 def P563852881379928318.Spec : Prop :=
   ∀ n, P563852881379928318.a n = A047546 (n + 1)
-
-end A047546
-
-/-! ## A047546.P13848216572042086688
-
-`or(2*n, A047596(n+1))`
--/
-
-namespace A047546.P13848216572042086688
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (2 * n : ℤ) (A047596 (n + 1))
-
-end
-
-end A047546.P13848216572042086688
-
-namespace A047546
-
-/-- `or(2*n, A047596(n+1))` -/
-def P13848216572042086688.Spec : Prop :=
-  ∀ n, P13848216572042086688.a n = A047546 (n + 1)
 
 end A047546
 

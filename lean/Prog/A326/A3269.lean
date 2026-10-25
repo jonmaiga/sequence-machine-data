@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -49,6 +50,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -62,6 +64,7 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -87,6 +90,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A326900: Number of set-systems on n vertices that are closed under union and intersection.
@@ -2062,6 +2069,12 @@ namespace A326925
 def P3781919814282333430.Spec : Prop :=
   ∀ n, P3781919814282333430.a n = A326925 (n + 1)
 
+theorem P3781919814282333430.correct : P3781919814282333430.Spec := by
+  intro n
+  simp only [A326925, Nat.add_sub_cancel, A326925.P3781919814282333430.a, A326925.P262717898238461765.a, A094441, A094441.P3669008604322146488.a, A094442, A094442.P2673208053571215716.a, A132148, A132148.P3285758219306203646.a, A171731, A171731.P6855340763383197574.a, A000045, A000045.P11838749114346432762.a, A007318, A007318.P302227728145965961.a, A025581, A025581.P420762180635059694.a, A094443, A094443.P15865139998827493558.a, A104762, A104762.P17027989488132899519.a, A004736, A004736.P10337537277358081527.a, A099375, A099375.P13700148065993022910.a, A123231, A123231.P9037956020649098209.a, A259525, A259525.P15603515225238104540.f1, A259525.P15603515225238104540.a, A000217, A000217.P10269402890581615239.a, A002024, A002024.P11700297927830783882.a, A003056, A003056.P5318256527314048597.a, A074909, A074909.P6707642907239843837.f1, A074909.P6707642907239843837.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A326925
 
 /-! ## A326925.P8253354076789168723
@@ -2802,7 +2815,7 @@ end A326935.P8204184014515399347
 /-!
 # A326937: Dirichlet g.f.: (2^s - 1) / (zeta(s-1) * (2^s - 2)).
 
-The programs for A326937, the canonical program `A326937.P5410755675634869574` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326937 has offset 1).
+The programs for A326937, the canonical program `A326937.P5410755675634869574` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326937 has offset 1).
 
 The definition of A326937 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A055615, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2811,7 +2824,7 @@ The definition of A326937 is `conditional`: the Lean definition is an OEIS formu
 
 `A055615(n+1)/A006519(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A326937
@@ -3271,7 +3284,7 @@ end A326937
 /-!
 # A326938: Dirichlet g.f.: 1 / (zeta(s) * zeta(s-1) * (1 - 2^(-s))).
 
-The programs for A326938, the canonical program `A326938.P12021867718184340090` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326938 has offset 1).
+The programs for A326938, the canonical program `A326938.P12021867718184340090` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326938 has offset 1).
 
 The definition of A326938 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3280,7 +3293,7 @@ The definition of A326938 is `conjectured`: the Lean definition is a formula tha
 
 `A000034(n)*A327278(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A326938
@@ -6843,7 +6856,7 @@ end A326986.P7582950625550816158
 /-!
 # A326987: Number of nonpowers of 2 dividing n.
 
-The programs for A326987, the canonical program `A326987.P399885579470220940` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326987 has offset 1).
+The programs for A326987, the canonical program `A326987.P399885579470220940` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326987 has offset 1).
 
 The definition of A326987 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6898,7 +6911,7 @@ end A326987
 
 `(A001227(n+1)-1)*A001511(n+1)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A326987
@@ -7563,6 +7576,12 @@ namespace A326988
 def P6864795946406564353.Spec : Prop :=
   ∀ n, P6864795946406564353.a n = A326988 (n + 1)
 
+theorem P6864795946406564353.correct : P6864795946406564353.Spec := by
+  intro n
+  simp only [A326988, Nat.add_sub_cancel, A326988.P6864795946406564353.a, A326988.P10350462572344602994.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A038712, A038712.P3404197303190209645.a, A088580, A088580.P3089093194242277422.a, A171977, A171977.P14092944863121073856.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A326988
 
 /-! ## A326988.P11088278694598979310
@@ -7631,6 +7650,12 @@ namespace A326988
 /-- `A000203(n+1)+1-A171977(n+1)` -/
 def P3833064666540215259.Spec : Prop :=
   ∀ n, P3833064666540215259.a n = A326988 (n + 1)
+
+theorem P3833064666540215259.correct : P3833064666540215259.Spec := by
+  intro n
+  simp only [A326988, Nat.add_sub_cancel, A326988.P3833064666540215259.a, A326988.P10350462572344602994.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A038712, A038712.P3404197303190209645.a, A171977, A171977.P14092944863121073856.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A326988
 

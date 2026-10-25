@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -92,9 +93,12 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A229900: G.f. satisfies: A(x) = x*exp( Sum_{n>=1} A(Lucas(n)*x^n) / n ).
@@ -1054,6 +1058,12 @@ namespace A229912
 def P17789482139793882535.Spec : Prop :=
   ∀ n, P17789482139793882535.a n = A229912 n
 
+theorem P17789482139793882535.correct : P17789482139793882535.Spec := by
+  intro n
+  simp only [A229912, Nat.add_sub_cancel, A229912.P17789482139793882535.a, A229912.P4073503391704194822.a, A000045, A000045.P11838749114346432762.a, A007598, A007598.P9940810952435345628.a, A175395, A175395.P17598903217825691316.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A229912
 
 /-! ## A229912.P2879096204795068424
@@ -1168,6 +1178,12 @@ namespace A229912
 /-- `A382609(n)-A001588(n)` -/
 def P16544247937066521601.Spec : Prop :=
   ∀ n, P16544247937066521601.a n = A229912 n
+
+theorem P16544247937066521601.correct : P16544247937066521601.Spec := by
+  intro n
+  simp only [A229912, Nat.add_sub_cancel, A229912.P16544247937066521601.a, A229912.P4073503391704194822.a, A000045, A000045.P11838749114346432762.a, A001588, A001588.P17789746109592414280.a, A007598, A007598.P9940810952435345628.a, A382609, A382609.P2195616595347439028.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A229912
 
@@ -4199,7 +4215,7 @@ end A229947
 
 The programs for A229949, the canonical program `A229949.P12190683132002036541` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229949 has offset 1).
 
-The definition of A229949 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A229949 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A229949.P12190683132002036541

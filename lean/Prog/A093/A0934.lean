@@ -48,11 +48,11 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -83,7 +83,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2773,6 +2773,12 @@ namespace A093445
 /-- `A384125(n+1)+A128141(n+1)` -/
 def P8020972377856806290.Spec : Prop :=
   ∀ n, P8020972377856806290.a n = A093445 (n + 1)
+
+theorem P8020972377856806290.correct : P8020972377856806290.Spec := by
+  intro n
+  simp only [A093445, Nat.add_sub_cancel, A093445.P8020972377856806290.a, A093445.P508633320961369722.a, A002411, A002411.P3000284336972342338.a, A025581, A025581.P420762180635059694.a, A128141, A128141.P68200204376407770.a, A384125, A384125.P14964655347719937837.a, A004736, A004736.P10337537277358081527.a, A059036, A059036.P10984433159116004346.a, A101321, A101321.P11435036558127374472.a, A000217, A000217.P10269402890581615239.a, A002024, A002024.P11700297927830783882.a, A003991, A003991.P14084851459366035567.a, A062707, A062707.P7585015757933557598.a, A002260, A002260.P769748059679640451.a, A002262, A002262.P12129691700837801527.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A093445
 

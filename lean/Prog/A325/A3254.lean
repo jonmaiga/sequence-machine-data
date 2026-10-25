@@ -60,7 +60,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -82,6 +81,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -336,7 +336,7 @@ end A325400.P512992328030365992
 /-!
 # A325401: minflip(n) = min(n, r(n)) where r(n) is the binary reverse of n.
 
-The programs for A325401, the canonical program `A325401.P9378557464177393728` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325401 has offset 0).
+The programs for A325401, the canonical program `A325401.P9378557464177393728` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325401 has offset 0).
 
 The definition of A325401 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -414,7 +414,7 @@ end A325401
 
 `(A055944(n)-abs(A055945(n)))/2`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A325401
@@ -588,6 +588,12 @@ namespace A325402
 def P252170816551638256.Spec : Prop :=
   ∀ n, P252170816551638256.a n = A325402 n
 
+theorem P252170816551638256.correct : P252170816551638256.Spec := by
+  intro n
+  simp only [A325402, Nat.add_sub_cancel, A325402.P252170816551638256.a, A325402.P10132391026070939766.a, A030101, A030101.P16184294017372777612.a, A055944, A055944.P9824612390251619605.a, A325401, A325401.P9378557464177393728.a, A055945, A055945.P5963763732554067333.a, A038572, A038572.P9289042872142352092.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A325402
 
 /-! ## A325402.P18308678399310983421
@@ -610,6 +616,12 @@ namespace A325402
 /-- `2*n-A055945(n)-A325401(n)` -/
 def P18308678399310983421.Spec : Prop :=
   ∀ n, P18308678399310983421.a n = A325402 n
+
+theorem P18308678399310983421.correct : P18308678399310983421.Spec := by
+  intro n
+  simp only [A325402, Nat.add_sub_cancel, A325402.P18308678399310983421.a, A325402.P10132391026070939766.a, A055944, A055944.P9824612390251619605.a, A055945, A055945.P5963763732554067333.a, A325401, A325401.P9378557464177393728.a, A030101, A030101.P16184294017372777612.a, A038572, A038572.P9289042872142352092.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A325402
 
@@ -4599,7 +4611,7 @@ end A325436.P16978607938983267802
 /-!
 # A325437: Final digit of primes of the form k^2 + 1.
 
-The programs for A325437, the canonical program `A325437.P15815788262768055512` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325437 has offset 1).
+The programs for A325437, the canonical program `A325437.P15815788262768055512` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325437 has offset 1).
 
 The definition of A325437 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4608,7 +4620,7 @@ The definition of A325437 is `conjectured`: the Lean definition is a formula tha
 
 `A002496(n+1)%10`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A325437
@@ -4822,7 +4834,7 @@ end A325437
 /-!
 # A325438: Indices of primes of the form k^2 + 1 ending in 1.
 
-The programs for A325438, the canonical program `A325438.P1688981022104594762` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325438 has offset 1).
+The programs for A325438, the canonical program `A325438.P1688981022104594762` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325438 has offset 1).
 
 The definition of A325438 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3366 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4831,7 +4843,7 @@ The definition of A325438 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A325437(n+1)]+1`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A325438
@@ -5023,7 +5035,7 @@ end A325438
 /-!
 # A325439: Indices of primes of the form k^2 + 1 ending in 7.
 
-The programs for A325439, the canonical program `A325439.P483323475764833444` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325439 has offset 1).
+The programs for A325439, the canonical program `A325439.P483323475764833444` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325439 has offset 1).
 
 The definition of A325439 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6632 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5032,7 +5044,7 @@ The definition of A325439 is `conjectured`: the Lean definition is a formula tha
 
 `eq[7, A325437(n+1)]+1`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A325439

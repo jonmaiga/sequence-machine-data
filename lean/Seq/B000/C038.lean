@@ -14598,14 +14598,14 @@ noncomputable section
 
 /-- A370627: a(n) = 2^(n - 1)*((-1)^(n + 1) + 7*2^n)/3 = 2^(n - 1)*A062092(n).
 
-Offset 0, canonical program `A370627.P11802343042202960112`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 0, canonical program `A370627.P11802343042202960112`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^(n-1)*((-1)^(n+1)+7*2^n)/3` (program `A370627.P16416424301248898331`, by `A370627.P16416424301248898331.correct`). Lean does not check the parsing of the name. -/
 def A370627 (n : ℕ) : ℤ :=
   (A370627.P11802343042202960112.a n : ℤ)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A370627.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^(n-1)*((-1)^(n+1)+7*2^n)/3` (program `A370627.P16416424301248898331`, by `A370627.P16416424301248898331.correct`). Lean does not check the parsing of the name. -/
+def A370627.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A370649.P9233916880484194882
 
@@ -15018,14 +15018,14 @@ noncomputable section
 
 /-- A371193: a(n) = 2^(4*n-4)*(2^n-1).
 
-Offset 0, canonical program `A371193.P16807310514170765857`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 0, canonical program `A371193.P16807310514170765857`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^(4*n-4)*(2^n-1)` (program `A371193.P16132567020786419494`, by `A371193.P16132567020786419494.correct`). Lean does not check the parsing of the name. -/
 def A371193 (n : ℕ) : ℤ :=
   A371193.P16807310514170765857.a n
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A371193.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^(4*n-4)*(2^n-1)` (program `A371193.P16132567020786419494`, by `A371193.P16132567020786419494.correct`). Lean does not check the parsing of the name. -/
+def A371193.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A371355.P4954341584235417044
 
@@ -21836,14 +21836,14 @@ noncomputable section
 
 /-- A381791: a(n) = 2*(4 + 17*2^(n-1)).
 
-Offset 0, canonical program `A381791.P11675514674717285752`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 0, canonical program `A381791.P11675514674717285752`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*(4+17*2^(n-1))` (program `A381791.P5511982356487483628`, by `A381791.P5511982356487483628.correct`). Lean does not check the parsing of the name. -/
 def A381791 (n : ℕ) : ℤ :=
   A381791.P11675514674717285752.a n
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A381791.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*(4+17*2^(n-1))` (program `A381791.P5511982356487483628`, by `A381791.P5511982356487483628.correct`). Lean does not check the parsing of the name. -/
+def A381791.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A381816.P15677550989472384551
 

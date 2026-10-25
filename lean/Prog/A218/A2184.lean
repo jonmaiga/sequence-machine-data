@@ -54,13 +54,14 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3656,6 +3657,12 @@ namespace A218447
 def P8615882704632248761.Spec : Prop :=
   ∀ n, P8615882704632248761.a n = A218447 n
 
+theorem P8615882704632248761.correct : P8615882704632248761.Spec := by
+  intro n
+  simp only [A218447, Nat.add_sub_cancel, A218447.P8615882704632248761.f1, A218447.P8615882704632248761.a, A218447.P6360476239130993311.f2, A218447.P6360476239130993311.f1, A218447.P6360476239130993311.a, A001899, A001899.P11284131779432279770.f1, A001899.P11284131779432279770.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A218447
 
 /-! ## A218447.P871284579610803008
@@ -3993,6 +4000,21 @@ end
 
 end A218451.P9999372347058728612
 
+/-! ## A218451.P1932847606313096346
+
+`A011557(n)-A321476(A006882(n+1))`
+-/
+
+namespace A218451.P1932847606313096346
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A011557 n - A321476 (A006882 (n + 1)).toNat
+
+end
+
+end A218451.P1932847606313096346
+
 /-!
 # A218459: a(n) is the smallest positive integer d such that prime(n) = x^2 + dy^2 has a solution (x,y) in integers.
 
@@ -4091,7 +4113,7 @@ end A218459.P9836232964629760356
 
 The programs for A218460, the canonical program `A218460.P14858959770545242725` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218460 has offset 1).
 
-The definition of A218460 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A001223, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A218460 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001223, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A218460.P14858959770545242725
@@ -4495,7 +4517,7 @@ end A218460
 
 The programs for A218461, the canonical program `A218461.P9982432580826872899` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218461 has offset 1).
 
-The definition of A218461 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A006450, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A218461 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A218461.P9982432580826872899

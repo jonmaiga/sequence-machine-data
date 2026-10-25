@@ -52,7 +52,7 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -87,6 +87,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A377300: G.f.: Sum_{k>=1} k * x^(k*(7*k - 7 + 2)/2) / (1 - x^k).
@@ -4355,26 +4356,23 @@ end A377386.P9124986552876624663
 The programs for A377387, there is no canonical definition to state claims against.
 -/
 
-/-! ## A377387.P16724371709908733552
+/-! ## A377387.P7440774320206405958
 
-`∑[∑[A191983(2*n!)]]`
+`A045917(∑[9^n]+1)`
 -/
 
-namespace A377387.P16724371709908733552
+namespace A377387.P7440774320206405958
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A191983 (2 * Nat.factorial n)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  9 ^ n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
+  A045917 (∑ j ∈ Finset.range (n + 1), f1 j + 1)
 
 end
 
-end A377387.P16724371709908733552
+end A377387.P7440774320206405958
 
 /-!
 # A377388: Infinite sequence of integers a(1), a(2), ... such that for any n > 0, a(n) is as small as possible (in absolute value) and the means of consecutive terms are all distinct; in case of a tie, preference is given to the positive value.

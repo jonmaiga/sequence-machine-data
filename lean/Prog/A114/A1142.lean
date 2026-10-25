@@ -1381,6 +1381,12 @@ namespace A114209
 def P7683584646741928772.Spec : Prop :=
   ∀ n, P7683584646741928772.a n = A114209 (n + 1)
 
+theorem P7683584646741928772.correct : P7683584646741928772.Spec := by
+  intro n
+  simp only [A114209, Nat.add_sub_cancel, A114209.P7683584646741928772.a, A114209.P14366745749335692388.a, A114210, A114210.P14163795220227250827.a, A124093, A124093.P13548339268058248860.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A114209
 
 /-! ## A114209.P12996128677908199703
@@ -3937,6 +3943,12 @@ namespace A114219
 /-- `abs(2-A002260(n+2))` -/
 def P14668463480086242398.Spec : Prop :=
   ∀ n, P14668463480086242398.a n = A114219 n
+
+theorem P14668463480086242398.correct : P14668463480086242398.Spec := by
+  intro n
+  simp only [A114219, Nat.add_sub_cancel, A114219.P14668463480086242398.a, A114219.P10639804880516663625.a, A002260, A002260.P769748059679640451.a, A048151, A048151.P9376271394073974320.a, A002262, A002262.P12129691700837801527.a, A057944, A057944.P16851463738746886639.a, A000217, A000217.P10269402890581615239.a, A003056, A003056.P5318256527314048597.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A114219
 

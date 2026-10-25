@@ -1139,7 +1139,7 @@ end A118620.P11779549812807790865
 
 The programs for A118623, the canonical program `A118623.P9012952356885345567` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118623 has offset 0).
 
-The definition of A118623 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A118623 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A118623.P9012952356885345567
@@ -3083,6 +3083,12 @@ namespace A118648
 /-- `Δ[A175164(n)]-A003269(n+8)` -/
 def P16465766913086628783.Spec : Prop :=
   ∀ n, P16465766913086628783.a n = A118648 (n + 4)
+
+theorem P16465766913086628783.correct : P16465766913086628783.Spec := by
+  intro n
+  simp only [A118648, Nat.add_sub_cancel, A118648.P16465766913086628783.f1, A118648.P16465766913086628783.a, A118648.P15042325621871813191.a, A003269, A003269.P4495864576817426483.a, A020707, A020707.P16024998955381595964.a, A175164, A175164.P8473928831672684715.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A118648
 
@@ -7193,7 +7199,7 @@ end A118683.P9457999061379546655
 /-!
 # A118684: Numbers k for which the Mertens function M(k) (A002321) is 1.
 
-The programs for A118684, the canonical program `A118684.P5148410373885334086` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118684 has offset 1).
+The programs for A118684, the canonical program `A118684.P5148410373885334086` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118684 has offset 1).
 
 The definition of A118684 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 963 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7202,7 +7208,7 @@ The definition of A118684 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A008683(n)+a(n-1)]` with `a(0)=0`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A118684

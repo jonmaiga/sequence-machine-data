@@ -68,7 +68,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -1062,7 +1061,7 @@ end A325616.P17069388955378835780
 /-!
 # A325617: Multinomial coefficient of the prime signature of n!.
 
-The programs for A325617, the canonical program `A325617.P5965648772748734260` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325617 has offset 0).
+The programs for A325617, the canonical program `A325617.P5965648772748734260` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325617 has offset 0).
 
 The definition of A325617 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A181819, A318762, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1071,7 +1070,7 @@ The definition of A325617 is `conditional`: the Lean definition is an OEIS formu
 
 `A318762(A181819(n!))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A325617

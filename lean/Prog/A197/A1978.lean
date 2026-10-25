@@ -5,6 +5,7 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
@@ -44,7 +45,7 @@ import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -56,6 +57,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -1082,7 +1084,7 @@ end A197862.P15714278091371869057
 
 The programs for A197863, the canonical program `A197863.P618205374624486698` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197863 has offset 1).
 
-The definition of A197863 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A055231, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A197863 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A197863.P618205374624486698
@@ -4935,20 +4937,20 @@ end A197897.P16065114089897990820
 The programs for A197898, there is no canonical definition to state claims against.
 -/
 
-/-! ## A197898.P16780264937281616122
+/-! ## A197898.P18371207178424006344
 
-`A227821(n+2)-A210717(A260594(2*(n+2)))`
+`A061579(A219344(n)+A033999(n))`
 -/
 
-namespace A197898.P16780264937281616122
+namespace A197898.P18371207178424006344
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A227821 (n + 2) - A210717 (A260594 (2 * (n + 2))).toNat
+  A061579 (A219344 n + A033999 n).toNat
 
 end
 
-end A197898.P16780264937281616122
+end A197898.P18371207178424006344
 
 /-!
 # A197899: Number of nXnXn 0..6 triangular arrays with each element x equal to the number its neighbors equal to 6,5,0,0,2,0,2 for x=0,1,2,3,4,5,6.

@@ -49,16 +49,15 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -3271,7 +3270,7 @@ end A302242
 /-!
 # A302243: Total weight of the n-th twice-odd-factored multiset partition.
 
-The programs for A302243, the canonical program `A302243.P14933239355494242855` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302243 has offset 0).
+The programs for A302243, the canonical program `A302243.P14933239355494242855` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302243 has offset 0).
 
 The definition of A302243 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A302242, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3280,7 +3279,7 @@ The definition of A302243 is `conditional`: the Lean definition is an OEIS formu
 
 `A302242(2*n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A302243
@@ -4106,7 +4105,7 @@ end A302252.P3692819901090801537
 /-!
 # A302253: Positions of 3 in A190436.
 
-The programs for A302253, the canonical program `A302253.P10939319436702998548` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302253 has offset 1).
+The programs for A302253, the canonical program `A302253.P10939319436702998548` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302253 has offset 1).
 
 The definition of A302253 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4132,13 +4131,19 @@ namespace A302253
 def P11094254977585851769.Spec : Prop :=
   ∀ n, P11094254977585851769.a n = A302253 (n + 1)
 
+theorem P11094254977585851769.correct : P11094254977585851769.Spec := by
+  intro n
+  simp only [A302253, Nat.add_sub_cancel, A302253.P11094254977585851769.a, A302253.P10939319436702998548.a, A140398, A140398.P5444328004615797917.f1, A140398.P5444328004615797917.f2, A140398.P5444328004615797917.a, A190432, A190432.P422911984236821990.a, A190435, A190435.P4495769777369891294.f1, A190435.P4495769777369891294.a, A184659, A184659.P18094353049432743810.a, A327174, A327174.P2217078710281402132.a, A096270, A096270.P13790899221262938555.f1, A096270.P13790899221262938555.a, A187944, A187944.P14993375886949776411.a, A005614, A005614.P5927283876123815402.a, A123740, A123740.P12817292357351340269.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A302253
 
 /-! ## A302253.P10939319436702998548
 
 `A140398(n+1)+2*A190435(n+1)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A302253
@@ -4173,6 +4178,12 @@ namespace A302253
 /-- `2*A190432(n+1)-A140398(n+1)` -/
 def P8358437668059648759.Spec : Prop :=
   ∀ n, P8358437668059648759.a n = A302253 (n + 1)
+
+theorem P8358437668059648759.correct : P8358437668059648759.Spec := by
+  intro n
+  simp only [A302253, Nat.add_sub_cancel, A302253.P8358437668059648759.a, A302253.P10939319436702998548.a, A140398, A140398.P5444328004615797917.f1, A140398.P5444328004615797917.f2, A140398.P5444328004615797917.a, A190432, A190432.P422911984236821990.a, A190435, A190435.P4495769777369891294.f1, A190435.P4495769777369891294.a, A184659, A184659.P18094353049432743810.a, A327174, A327174.P2217078710281402132.a, A096270, A096270.P13790899221262938555.f1, A096270.P13790899221262938555.a, A187944, A187944.P14993375886949776411.a, A005614, A005614.P5927283876123815402.a, A123740, A123740.P12817292357351340269.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A302253
 

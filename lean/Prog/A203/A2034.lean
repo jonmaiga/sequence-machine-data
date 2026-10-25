@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -49,10 +50,11 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -77,6 +79,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A203400: Partial sums of A050935.
@@ -5957,6 +5963,12 @@ namespace A203468
 /-- `eq[A010054(n)+1, A325334(n)]` -/
 def P10603953343080675917.Spec : Prop :=
   ∀ n, (P10603953343080675917.a n : ℤ) = A203468 (n + 1)
+
+theorem P10603953343080675917.correct : P10603953343080675917.Spec := by
+  intro n
+  simp only [A203468, Nat.add_sub_cancel, A203468.P10603953343080675917.f1, A203468.P10603953343080675917.f2, A203468.P10603953343080675917.a, A203468.P281610576651752722.f1, A203468.P281610576651752722.f2, A203468.P281610576651752722.a, A010054, A010054.P18347828677204923252.a, A035214, A035214.P16301326444238280714.a, A325334, A325334.P3560407124782299478.a, A005369, A005369.P10796159359873341658.a, A007862, A007862.P13725744150973773245.f1, A007862.P13725744150973773245.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A203468
 

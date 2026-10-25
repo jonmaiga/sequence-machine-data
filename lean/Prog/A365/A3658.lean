@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -59,10 +60,9 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -92,6 +92,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A365800: Dirichlet inverse of the characteristic function of triangular numbers (A010054).
@@ -381,7 +385,7 @@ end A365804.P6384521089424676595
 /-!
 # A365805: a(n) = largest exponent m for which a representation of the form A163511(n) = k^m exists (for some k). a(0) = 0 by convention.
 
-The programs for A365805, the canonical program `A365805.P12560475463864652643` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365805 has offset 0).
+The programs for A365805, the canonical program `A365805.P12560475463864652643` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365805 has offset 0).
 
 The definition of A365805 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A052409, A163511, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -390,7 +394,7 @@ The definition of A365805 is `conditional`: the Lean definition is an OEIS formu
 
 `A052409(A163511(n))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A365805
@@ -1611,6 +1615,12 @@ namespace A365809
 /-- `A052499(n)+A380358(n+1)+A052499(n)` -/
 def P6637214760591171816.Spec : Prop :=
   ∀ n, P6637214760591171816.a n = A365809 (n + 1)
+
+theorem P6637214760591171816.correct : P6637214760591171816.Spec := by
+  intro n
+  simp only [A365809, Nat.add_sub_cancel, A365809.P6637214760591171816.a, A365809.P17161418660075754806.a, A052499, A052499.P2273861346135896458.a, A247648, A247648.P7622667877464504082.a, A380358, A380358.P12352273004702923892.a, A003754, A003754.P7281650019262553655.a, A365808, A365808.P18059643760552441775.f1, A365808.P18059643760552441775.f2, A365808.P18059643760552441775.a, A365807, A365807.P7768995048888628650.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A365809
 
@@ -3628,6 +3638,27 @@ end
 end A365832.P5700245491429255817
 
 /-!
+# A365834: a(n) is the first number k with n prime divisors such that, if m is the next number with n prime divisors, k + m and k - m also have n prime divisors. In each case the divisors are counted with multiplicity.
+
+The programs for A365834, there is no canonical definition to state claims against.
+-/
+
+/-! ## A365834.P15367922697116737436
+
+`A321513(A279065(n)+A106349(n+1))`
+-/
+
+namespace A365834.P15367922697116737436
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A321513 (A279065 n + A106349 (n + 1)).toNat
+
+end
+
+end A365834.P15367922697116737436
+
+/-!
 # A365835: For each cell of a polyomino let b be the number of cells that are in the same row or in the same column (including itself). Cells beyond gaps do not count. a(n) is the sum of the b values of all cells of all free polyominoes with n cells.
 
 The programs for A365835, there is no canonical definition to state claims against.
@@ -4881,7 +4912,7 @@ end A365864
 /-!
 # A365865: Starts of runs of 3 consecutive integers that are divisible by the square of their least prime factor.
 
-The programs for A365865, the canonical program `A365865.P7129990262128482870` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365865 has offset 1).
+The programs for A365865, the canonical program `A365865.P7129990262128482870` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365865 has offset 1).
 
 The definition of A365865 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 544 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4890,7 +4921,7 @@ The definition of A365865 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A365864(n+1)-1, A365864(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A365865
@@ -5092,7 +5123,7 @@ end A365867.P940375257540653210
 /-!
 # A365869: Numbers whose exponent of least prime factor in their prime factorization is even.
 
-The programs for A365869, the canonical program `A365869.P17856574011700522370` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365869 has offset 1).
+The programs for A365869, the canonical program `A365869.P17856574011700522370` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365869 has offset 1).
 
 The definition of A365869 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2297 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5159,7 +5190,7 @@ end A365869
 
 `lt[2, A014963(A067029(n+1)+1)]+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A365869
@@ -6755,6 +6786,21 @@ end
 
 end A365894.P13080408059887643612
 
+/-! ## A365894.P14151197469138181323
+
+`A110654(A365913(n)%A161370(n))`
+-/
+
+namespace A365894.P14151197469138181323
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A110654 (Int.tmod (A365913 n) (A161370 n)).toNat
+
+end
+
+end A365894.P14151197469138181323
+
 /-! ## A365894.P17911071242829673269
 
 `A110654(A342255(n+1)*A365913(n))`
@@ -6784,21 +6830,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A365894.P14707596370120317505
-
-/-! ## A365894.P17741626752140451750
-
-`A110654(A365913(n)+A356982(2*n+3))`
--/
-
-namespace A365894.P17741626752140451750
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110654 (A365913 n + A356982 (2 * n + 3)).toNat
-
-end
-
-end A365894.P17741626752140451750
 
 /-!
 # A365895: Expansion of e.g.f. exp( Sum_{k>=0} x^(5*k+4) / (5*k+4)! ).

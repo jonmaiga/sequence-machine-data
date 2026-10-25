@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -50,9 +51,8 @@ import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
@@ -83,6 +83,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A299401: Number of primitive weird numbers (PWN) of the form 2^n*p*q*r, where p,q,r are odd primes.
@@ -1280,6 +1284,12 @@ namespace A299412
 /-- `(A110654(n)+n)*A117748(n+1)` -/
 def P4630225037951131817.Spec : Prop :=
   ∀ n, P4630225037951131817.a n = A299412 n
+
+theorem P4630225037951131817.correct : P4630225037951131817.Spec := by
+  intro n
+  simp only [A299412, Nat.add_sub_cancel, A299412.P4630225037951131817.a, A299412.P10505866840362390154.a, A007494, A007494.P3893619610466939533.a, A110654, A110654.P360289776162656549.a, A117748, A117748.P6377356464748108115.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A299412
 
@@ -6225,6 +6235,12 @@ namespace A299480
 def P10109204496696116513.Spec : Prop :=
   ∀ n, P10109204496696116513.a n = A299480 (n + 1)
 
+theorem P10109204496696116513.correct : P10109204496696116513.Spec := by
+  intro n
+  simp only [A299480, Nat.add_sub_cancel, A299480.P10109204496696116513.f1, A299480.P10109204496696116513.a, A299480.P14776688201908958445.f1, A299480.P14776688201908958445.a, A000035, A000035.P2023072528413494694.a, A008619, A008619.P16053834178911111118.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A299480
 
 /-! ## A299480.P1208223068205422225
@@ -6499,26 +6515,24 @@ end
 
 end A299482.P356010101560044869
 
-/-! ## A299482.P11361920985268665242
+/-! ## A299482.P163010099546749213
 
-`lt[A299472(n+1), A007633(n+1)%3]+1`
+`comp[A240542(n+1)%A007918(n+1)]`
 -/
 
-namespace A299482.P11361920985268665242
+namespace A299482.P163010099546749213
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A299472 (n + 1)
+  Int.tmod (A240542 (n + 1)) (A007918 (n + 1))
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A007633 (n + 1)) 3
-
+open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n + 1
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A299482.P11361920985268665242
+end A299482.P163010099546749213
 
 /-!
 # A299483: Irregular triangle read by rows in which row n lists the odd divisors of n in increasing order together with the even divisors of n in decreasing order.

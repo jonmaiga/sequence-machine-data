@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -88,6 +89,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A291100: Number of maximal irredundant sets in the n-ladder graph.
@@ -4988,16 +4993,16 @@ end A291165.P4850842957997135805
 The programs for A291166, there is no canonical definition to state claims against.
 -/
 
-/-! ## A291166.P12645991050686438123
+/-! ## A291166.P9129052171484485113
 
-`comp[A337666(n+1)]`
+`comp[A337666(1+n)]`
 -/
 
-namespace A291166.P12645991050686438123
+namespace A291166.P9129052171484485113
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A337666 (n + 1)
+  A337666 (1 + n)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -5005,7 +5010,7 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 
 end
 
-end A291166.P12645991050686438123
+end A291166.P9129052171484485113
 
 /-! ## A291166.P9196501320810331139
 
@@ -7787,6 +7792,12 @@ namespace A291196
 def P6520332086564913815.Spec : Prop :=
   ∀ n, P6520332086564913815.a n = A291196 (n + 1)
 
+theorem P6520332086564913815.correct : P6520332086564913815.Spec := by
+  intro n
+  simp only [A291196, Nat.add_sub_cancel, A291196.P6520332086564913815.f3, A291196.P6520332086564913815.f2, A291196.P6520332086564913815.f1, A291196.P6520332086564913815.a, A291196.P12246191278883837724.f2, A291196.P12246191278883837724.f1, A291196.P12246191278883837724.a, A066643, A066643.P17762996301981300215.a, A338020, A338020.P8864971632284096299.a, A022844, A022844.P11976428228251050705.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A291196
 
 /-! ## A291196.P17480795659458114587
@@ -7847,6 +7858,12 @@ namespace A291196
 /-- `Δ[Δ[A066643(n+1)-A066643(n+2)]]` -/
 def P2203354440048462944.Spec : Prop :=
   ∀ n, P2203354440048462944.a n = A291196 (n + 1)
+
+theorem P2203354440048462944.correct : P2203354440048462944.Spec := by
+  intro n
+  simp only [A291196, Nat.add_sub_cancel, A291196.P2203354440048462944.f2, A291196.P2203354440048462944.f1, A291196.P2203354440048462944.a, A291196.P12246191278883837724.f2, A291196.P12246191278883837724.f1, A291196.P12246191278883837724.a, A066643, A066643.P17762996301981300215.a, A338020, A338020.P8864971632284096299.a, A022844, A022844.P11976428228251050705.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A291196
 

@@ -15888,14 +15888,14 @@ noncomputable section
 
 /-- A189890: a(n) = (n^3 - 2*n^2 + 3*n + 2)/2.
 
-Offset 0, canonical program `A189890.P16624331401325566475`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 0, canonical program `A189890.P16624331401325566475`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^3-2*n²+3*n+2)/2` (program `A189890.P7640817159123899542`, by `A189890.P7640817159123899542.correct`). Lean does not check the parsing of the name. -/
 def A189890 (n : ℕ) : ℤ :=
   (A189890.P16624331401325566475.a n : ℤ)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A189890.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n^3-2*n²+3*n+2)/2` (program `A189890.P7640817159123899542`, by `A189890.P7640817159123899542.correct`). Lean does not check the parsing of the name. -/
+def A189890.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A189926.P16140492852500832957
 

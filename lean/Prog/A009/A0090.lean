@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -77,10 +78,14 @@ import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
 
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+
 /-!
 # A009000: Ordered hypotenuse numbers (squares are sums of 2 distinct nonzero squares).
 
-The programs for A009000, the canonical program `A009000.P4505653467235074305` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009000 has offset 1).
+The programs for A009000, the canonical program `A009000.P4505653467235074305` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009000 has offset 1).
 
 The definition of A009000 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -89,7 +94,7 @@ The definition of A009000 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A224921(n+1)+n]-n`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A009000
@@ -939,6 +944,12 @@ namespace A009003
 /-- `A072592(n+1)/2` -/
 def P9985698889491308477.Spec : Prop :=
   ∀ n, P9985698889491308477.a n = (A009003 (n + 1) : ℚ)
+
+theorem P9985698889491308477.correct : P9985698889491308477.Spec := by
+  intro n
+  simp only [A009003, Nat.add_sub_cancel, A009003.P9985698889491308477.a, A009003.P4153996351455582682.f1, A009003.P4153996351455582682.a, A004144, A004144.P17382156593889680767.a, A072592, A072592.P12540866148401735071.a, A081324, A081324.P12063373289040437378.f1, A081324.P12063373289040437378.f2, A081324.P12063373289040437378.a, A063014, A063014.P2435970929241132637.a, A000161, A000161.P12733227588245460575.f1, A000161.P12733227588245460575.f2, A000161.P12733227588245460575.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A009003
 

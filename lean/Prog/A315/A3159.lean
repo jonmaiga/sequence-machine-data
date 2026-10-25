@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -48,12 +49,12 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B009.C000
@@ -86,6 +87,11 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A315901: Coordination sequence Gal.6.175.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
@@ -2467,6 +2473,12 @@ namespace A315943
 def P1669165624291815175.Spec : Prop :=
   ∀ n, P1669165624291815175.a n = A315943 n
 
+theorem P1669165624291815175.correct : P1669165624291815175.Spec := by
+  intro n
+  simp only [A315943, Nat.add_sub_cancel, A315943.P1669165624291815175.a, A315943.P3704534385650621552.a, A087509, A087509.P16726383197486069853.a, A301682, A301682.P268542884370986644.a, A315847, A315847.P3242230208927172562.a, A008486, A008486.P11623131867527198563.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A315943
 
 /-! ## A315943.P5447667572076537352
@@ -3169,6 +3181,12 @@ namespace A315959
 /-- `A004525(A315828(n))+A008588(n)/2` -/
 def P15600493092868414437.Spec : Prop :=
   ∀ n, P15600493092868414437.a n = (A315959 n : ℚ)
+
+theorem P15600493092868414437.correct : P15600493092868414437.Spec := by
+  intro n
+  simp only [A315959, Nat.add_sub_cancel, A315959.P15600493092868414437.a, A315959.P3345584257071925561.a, A004525, A004525.P4158271949796742323.a, A008588, A008588.P12386450284809463491.a, A315828, A315828.P14903365613760459994.a, A008486, A008486.P11623131867527198563.a, A250120, A250120.P17005803601232239086.a, A310252, A310252.P16435605649831598924.a, A008574, A008574.P1300280032690682112.a, A022144, A022144.P16676713181441761724.a, A047486, A047486.P6506762595393263252.a, A244895, A244895.P7331689240937634665.a, A313568, A313568.P10572576497162449502.f1, A313568.P10572576497162449502.a, A315373, A315373.P10372235657626568569.a, A313660, A313660.P5112024612694540974.f1, A313660.P5112024612694540974.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A315959
 

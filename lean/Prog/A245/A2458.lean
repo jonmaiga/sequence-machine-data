@@ -52,6 +52,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -466,6 +467,12 @@ namespace A245804
 /-- `Δ[A001117(n)]` -/
 def P11542384562105250471.Spec : Prop :=
   ∀ n, P11542384562105250471.a n = A245804 n
+
+theorem P11542384562105250471.correct : P11542384562105250471.Spec := by
+  intro n
+  simp only [A245804, Nat.add_sub_cancel, A245804.P11542384562105250471.f1, A245804.P11542384562105250471.a, A245804.P12793058916236791245.a, A001117, A001117.P5586515972310678558.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A245804
 
@@ -6316,6 +6323,21 @@ end
 
 end A245862.P9494906134759444919
 
+/-! ## A245862.P11931066264102662318
+
+`C(A000984(n), A352598(n+1)^3)`
+-/
+
+namespace A245862.P11931066264102662318
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (A000984 n).toNat (A352598 (n + 1) ^ 3).toNat
+
+end
+
+end A245862.P11931066264102662318
+
 /-! ## A245862.P754317367539262228
 
 `A000027(C(2*n, n))*A185329(n)`
@@ -6330,21 +6352,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A245862.P754317367539262228
-
-/-! ## A245862.P16821010935429402443
-
-`C(and(A335757(A303489(n+3))-1, 2*n), n)`
--/
-
-namespace A245862.P16821010935429402443
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (Int.land (A335757 (A303489 (n + 3)).toNat - 1) (2 * n : ℤ)).toNat n
-
-end
-
-end A245862.P16821010935429402443
 
 /-!
 # A245863: Number of preferential arrangements of n labeled elements such that the minimal number of elements per rank equals 10.

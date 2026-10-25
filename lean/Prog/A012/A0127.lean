@@ -24,10 +24,10 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C005
+import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B005.C000
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -1471,6 +1471,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012765.P5936481527608158435
+
+/-! ## A012765.P10290637874986588513
+
+`A155518(n)%A334255(n)+1`
+-/
+
+namespace A012765.P10290637874986588513
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A155518 n) (A334255 n) + 1
+
+end
+
+end A012765.P10290637874986588513
 
 /-!
 # A012766: sin(cosh(x)*arcsin(x))=x+3/3!*x^3-15/5!*x^5-1029/7!*x^7-46239/9!*x^9...

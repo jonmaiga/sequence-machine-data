@@ -43,6 +43,7 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -620,6 +621,29 @@ def P6694555631331342605.Spec : Prop :=
 
 end A195605
 
+/-! ## A195605.P14045584804282226276
+
+`abs(or(1, (n+2)*(2*n+1))-(n+1))`
+-/
+
+namespace A195605.P14045584804282226276
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |(Nat.lor 1 ((n + 2) * (2 * n + 1)) : ℤ) - (n + 1 : ℤ)|
+
+end
+
+end A195605.P14045584804282226276
+
+namespace A195605
+
+/-- `abs(or(1, (n+2)*(2*n+1))-(n+1))` -/
+def P14045584804282226276.Spec : Prop :=
+  ∀ n, P14045584804282226276.a n = A195605 n
+
+end A195605
+
 /-! ## A195605.P11201822058910109997
 
 `(2*n+1)*(2*n+1-a(n-1)/(2*n+1))` with `a(0)=2`
@@ -795,36 +819,6 @@ def P10909011566609691208.Spec : Prop :=
 
 end A195605
 
-/-! ## A195605.P6521181591902424604
-
-`∩[A161580(n+1), A213037(n)]`
--/
-
-namespace A195605.P6521181591902424604
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161580 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A213037 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A195605.P6521181591902424604
-
-namespace A195605
-
-/-- `∩[A161580(n+1), A213037(n)]` -/
-def P6521181591902424604.Spec : Prop :=
-  ∀ n, (P6521181591902424604.a n : ℤ) = A195605 n
-
-end A195605
-
 /-!
 # A195607: Numerator of floor(Phi*10^n)/10^n, where phi = (sqrt(5) + 1)/2 = A001622 is the Golden Ratio.
 
@@ -855,7 +849,7 @@ end A195607.P16954188421507902716
 /-!
 # A195608: Numbers n such that Sum_{i=1..n} A(i) = A(n)*A(n+1)/4, where A(n) = A001969(n).
 
-The programs for A195608, the canonical program `A195608.P1474095549682633673` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195608 has offset 1).
+The programs for A195608, the canonical program `A195608.P1474095549682633673` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195608 has offset 1).
 
 The definition of A195608 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -864,7 +858,7 @@ The definition of A195608 is `conjectured`: the Lean definition is a formula tha
 
 `record[(n+1)*A228495(A228495(n)+1+n)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A195608

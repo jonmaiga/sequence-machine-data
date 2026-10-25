@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -47,6 +48,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -66,7 +68,6 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
-import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
@@ -79,6 +80,11 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
+import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A200123: Decimal expansion of greatest x satisfying 2*x^2 - 3*cos(x) = 2*sin(x).
@@ -263,6 +269,12 @@ namespace A200139
 /-- `2*A038207(n)-A209149(n+1)` -/
 def P12795973915595653307.Spec : Prop :=
   ∀ n, P12795973915595653307.a n = A200139 n
+
+theorem P12795973915595653307.correct : P12795973915595653307.Spec := by
+  intro n
+  simp only [A200139, Nat.add_sub_cancel, A200139.P12795973915595653307.a, A200139.P8566556275138631539.a, A038207, A038207.P11934492983446443774.a, A135226, A135226.P11438623629144137933.a, A155038, A155038.P358977146080396517.a, A209149, A209149.P3458088456185272143.a, A007318, A007318.P302227728145965961.a, A029655, A029655.P14912270738703485013.a, A056943, A056943.P2657344456391598982.a, A130321, A130321.P6740187654358347306.a, A152568, A152568.P4268834110349744832.f1, A152568.P4268834110349744832.a, A000079, A000079.P10855139691139572931.a, A004736, A004736.P10337537277358081527.a, A025581, A025581.P420762180635059694.a, A034008, A034008.P7593150546580332811.a, A259525, A259525.P15603515225238104540.f1, A259525.P15603515225238104540.a, A325191, A325191.P1948114789834443761.a, A000217, A000217.P10269402890581615239.a, A002024, A002024.P11700297927830783882.a, A003056, A003056.P5318256527314048597.a, A010054, A010054.P18347828677204923252.a, A074909, A074909.P6707642907239843837.f1, A074909.P6707642907239843837.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A200139
 

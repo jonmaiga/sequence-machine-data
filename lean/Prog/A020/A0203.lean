@@ -50,6 +50,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -57,7 +58,7 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
+import Seq.Opaque.C022
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -575,6 +576,12 @@ namespace A020330
 def P11282829334626511007.Spec : Prop :=
   ∀ n, P11282829334626511007.a n = A020330 (n + 1)
 
+theorem P11282829334626511007.correct : P11282829334626511007.Spec := by
+  intro n
+  simp only [A020330, Nat.add_sub_cancel, A020330.P11282829334626511007.a, A020330.P7025260452739219137.a, A004755, A004755.P18071614157387427853.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A020330
 
 /-! ## A020330.P463511255966584761
@@ -643,6 +650,12 @@ namespace A020330
 /-- `(n+1)*(A206332(n+1)-(n-1))` -/
 def P4858305465504189139.Spec : Prop :=
   ∀ n, P4858305465504189139.a n = A020330 (n + 1)
+
+theorem P4858305465504189139.correct : P4858305465504189139.Spec := by
+  intro n
+  simp only [A020330, Nat.add_sub_cancel, A020330.P4858305465504189139.a, A020330.P7025260452739219137.a, A206332, A206332.P9847070516523007032.a, A004755, A004755.P18071614157387427853.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A020330
 

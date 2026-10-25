@@ -1463,6 +1463,21 @@ end
 
 end A364722.P13417116090319346415
 
+/-! ## A364722.P5995593919312818703
+
+`A066207(A333634(n+1)%A365342(3*n+4))`
+-/
+
+namespace A364722.P5995593919312818703
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066207 (Int.tmod (A333634 (n + 1)) (A365342 (3 * n + 4))).toNat
+
+end
+
+end A364722.P5995593919312818703
+
 /-!
 # A364723: G.f. A(x) satisfies A(x) = 1 + x*A(x) / (1 - x*A(x)^4).
 

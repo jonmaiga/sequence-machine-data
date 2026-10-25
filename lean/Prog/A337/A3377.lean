@@ -58,6 +58,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
@@ -3704,6 +3705,12 @@ namespace A337759
 def P13414454768481373631.Spec : Prop :=
   ∀ n, (P13414454768481373631.a n : ℤ) = A337759 (n + 1)
 
+theorem P13414454768481373631.correct : P13414454768481373631.Spec := by
+  intro n
+  simp only [A337759, Nat.add_sub_cancel, A337759.P13414454768481373631.f1, A337759.P13414454768481373631.f2, A337759.P13414454768481373631.a, A337759.P3966808247695577426.a, A161992, A161992.P10031527527583126831.f1, A161992.P10031527527583126831.f2, A161992.P10031527527583126831.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A337759
 
 /-! ## A337759.P11771798587633712479
@@ -3761,6 +3768,12 @@ namespace A337759
 /-- `lt[5*and(n, -n), n]^2` -/
 def P10414021795774662836.Spec : Prop :=
   ∀ n, (P10414021795774662836.a n : ℤ) = A337759 (n + 1)
+
+theorem P10414021795774662836.correct : P10414021795774662836.Spec := by
+  intro n
+  simp only [A337759, Nat.add_sub_cancel, A337759.P10414021795774662836.f1, A337759.P10414021795774662836.f2, A337759.P10414021795774662836.a, A337759.P3966808247695577426.a, A161992, A161992.P10031527527583126831.f1, A161992.P10031527527583126831.f2, A161992.P10031527527583126831.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A337759
 
@@ -5862,7 +5875,7 @@ end A337787.P5343741018508912644
 
 The programs for A337788, the canonical program `A337788.P1769067686899839551` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337788 has offset 1).
 
-The definition of A337788 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000720, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A337788 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A337788.P1769067686899839551
@@ -5927,6 +5940,12 @@ namespace A337788
 /-- `1-A337978(n+1)+n` -/
 def P3352701098199621023.Spec : Prop :=
   ∀ n, P3352701098199621023.a n = A337788 (n + 1)
+
+theorem P3352701098199621023.correct : P3352701098199621023.Spec := by
+  intro n
+  simp only [A337788, Nat.add_sub_cancel, A337788.P3352701098199621023.a, A337788.P1769067686899839551.a, A000720, A000720.P1755771944745605250.f2, A000720.P1755771944745605250.f1, A000720.P1755771944745605250.a, A337978, A337978.P4898846273095540524.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A337788
 

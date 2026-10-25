@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
@@ -46,7 +47,6 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -60,7 +60,6 @@ import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
-import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
@@ -75,6 +74,10 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A234700: Number of (n+1) X (4+1) 0..7 arrays with every 2 X 2 subblock having its diagonal sum differing from its antidiagonal sum by 5 (constant-stress 1 X 1 tilings).
@@ -433,20 +436,20 @@ end
 
 end A234705.P2389026499050484096
 
-/-! ## A234705.P13180832927230395962
+/-! ## A234705.P10381616518311858323
 
-`A234712(A000124(n))+A000007(2*(n+2))`
+`A234712(A000124(n))+A230915(n+1)`
 -/
 
-namespace A234705.P13180832927230395962
+namespace A234705.P10381616518311858323
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A234712 (A000124 n).toNat + A000007 (2 * (n + 2))
+  A234712 (A000124 n).toNat + A230915 (n + 1)
 
 end
 
-end A234705.P13180832927230395962
+end A234705.P10381616518311858323
 
 /-!
 # A234706: Number of (n+1) X (2+1) 0..7 arrays with every 2 X 2 subblock having its diagonal sum differing from its antidiagonal sum by 6 (constant-stress 1 X 1 tilings).
@@ -3532,6 +3535,12 @@ namespace A234740
 /-- `∑[A001248(n+1)²²*A030078(n+1)]` -/
 def P5417224639518741201.Spec : Prop :=
   ∀ n, P5417224639518741201.a n = A234740 (n + 1)
+
+theorem P5417224639518741201.correct : P5417224639518741201.Spec := by
+  intro n
+  simp only [A234740, Nat.add_sub_cancel, A234740.P5417224639518741201.f1, A234740.P5417224639518741201.a, A234740.P13025832871094759849.f1, A234740.P13025832871094759849.a, A001248, A001248.P16278241061688229202.a, A030078, A030078.P13819432151207990454.a, A079395, A079395.P17956439094879696764.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A234740
 
@@ -7696,6 +7705,12 @@ namespace A234787
 def P13215027715257195236.Spec : Prop :=
   ∀ n, P13215027715257195236.a n = A234787 (n + 1)
 
+theorem P13215027715257195236.correct : P13215027715257195236.Spec := by
+  intro n
+  simp only [A234787, Nat.add_sub_cancel, A234787.P13215027715257195236.a, A234787.P12738621845368663249.a, A033583, A033583.P12285480609414282410.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A234787
 
 /-! ## A234787.P11002148035257394427
@@ -7718,6 +7733,12 @@ namespace A234787
 /-- `A017271((n+1)²)` -/
 def P11002148035257394427.Spec : Prop :=
   ∀ n, P11002148035257394427.a n = A234787 (n + 1)
+
+theorem P11002148035257394427.correct : P11002148035257394427.Spec := by
+  intro n
+  simp only [A234787, Nat.add_sub_cancel, A234787.P11002148035257394427.a, A234787.P12738621845368663249.a, A017271, A017271.P16549421429603654595.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A234787
 
@@ -7764,6 +7785,12 @@ namespace A234787
 /-- `A016851(2*(n+1)²)` -/
 def P2204882736420102649.Spec : Prop :=
   ∀ n, P2204882736420102649.a n = A234787 (n + 1)
+
+theorem P2204882736420102649.correct : P2204882736420102649.Spec := by
+  intro n
+  simp only [A234787, Nat.add_sub_cancel, A234787.P2204882736420102649.a, A234787.P12738621845368663249.a, A016851, A016851.P6768670708261062492.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A234787
 

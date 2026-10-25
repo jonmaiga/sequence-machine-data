@@ -50,8 +50,8 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -62,9 +62,9 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -609,7 +609,7 @@ end A289317.P10871052168258540978
 /-!
 # A289320: a(n) = A289310(n)^2 + A289311(n)^2.
 
-The programs for A289320, the canonical program `A289320.P2991685240031938222` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289320 has offset 1).
+The programs for A289320, the canonical program `A289320.P2991685240031938222` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289320 has offset 1).
 
 The definition of A289320 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -643,7 +643,7 @@ end A289320
 
 `∏{d}[n+1, A120007(#)²+1]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A289320
@@ -1118,7 +1118,7 @@ end A289322
 /-!
 # A289323: Number of twos minus number of ones in the first 2^n entries of the Kolakoski sequence, A000002.
 
-The programs for A289323, the canonical program `A289323.P568056266206430904` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289323 has offset 0).
+The programs for A289323, the canonical program `A289323.P568056266206430904` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289323 has offset 0).
 
 The definition of A289323 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A289322, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1127,7 +1127,7 @@ The definition of A289323 is `conditional`: the Lean definition is an OEIS formu
 
 `2^n-2*A289322(n)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A289323
@@ -1351,7 +1351,7 @@ end A289335.P10190898455642419883
 /-!
 # A289336: a(n) = numerator of (sigma(n) / phi(n)).
 
-The programs for A289336, the canonical program `A289336.P13059549218811230367` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289336 has offset 1).
+The programs for A289336, the canonical program `A289336.P13059549218811230367` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289336 has offset 1).
 
 The definition of A289336 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1441,7 +1441,7 @@ end A289336
 
 `Δ[A160664(n)]/A009223(n+1)`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A289336
@@ -2352,6 +2352,27 @@ end A289350.P13024083516197639284
 The programs for A289351, there is no canonical definition to state claims against.
 -/
 
+/-! ## A289351.P11700041564289424552
+
+`eq[A342845(n), A342845(A347689(n))]`
+-/
+
+namespace A289351.P11700041564289424552
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342845 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342845 (A347689 n).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A289351.P11700041564289424552
+
 /-! ## A289351.P632325244722457083
 
 `lt[A065031(n), 12]`
@@ -2435,27 +2456,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A289351.P5198774898517651113
-
-/-! ## A289351.P10578660716122716681
-
-`lt[A086066(A308003(n)), 5]`
--/
-
-namespace A289351.P10578660716122716681
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A086066 (A308003 n).toNat
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n
-
-end
-
-end A289351.P10578660716122716681
 
 /-!
 # A289353: Primes p such that (p,p+4) is a pair of cousin primes and p == 7 (mod 10).

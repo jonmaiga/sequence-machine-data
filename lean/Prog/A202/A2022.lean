@@ -57,7 +57,6 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -71,7 +70,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -98,7 +96,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -7713,6 +7710,28 @@ end
 
 end A202274.P15004452645974738806
 
+/-! ## A202274.P16143044805314775804
+
+`∪[A000079(n), A006880(A003336(n+1))]`
+-/
+
+namespace A202274.P16143044805314775804
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000079 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006880 (A003336 (n + 1)).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A202274.P16143044805314775804
+
 /-! ## A202274.P14825624846648141147
 
 `A332223(∪[A000040(n+1), A371125(n)])`
@@ -7734,24 +7753,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A202274.P14825624846648141147
-
-/-! ## A202274.P3941769846637337875
-
-`record[A332223(A379721(n+1))]`
--/
-
-namespace A202274.P3941769846637337875
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332223 (A379721 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A202274.P3941769846637337875
 
 /-!
 # A202275: Differences between A074753 (number of integers k such that sigma(k) <= n) and A202276 (number of integers k <= n such that sigma(x) = k has no solution); sigma = A000203.
@@ -8432,93 +8433,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A202277.P13727927103271401015
-
-/-!
-# A202278: Right-truncatable Fibonacci numbers: every prefix is Fibonacci number.
-
-The programs for A202278, there is no canonical definition to state claims against.
--/
-
-/-! ## A202278.P5510059695753119011
-
-`ogf((x+x^2)/(1-x-x^2))`
--/
-
-namespace A202278.P5510059695753119011
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.ogf [0, 1, 1] [1, -1, -1] n
-
-end
-
-end A202278.P5510059695753119011
-
-/-! ## A202278.P8814160686407918900
-
-`round(ϕ*a(n-1))` with `a(0)=0, a(1)=1`
--/
-
-namespace A202278.P8814160686407918900
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1] fun n a =>
-  SequenceMachineLib.roundAway (Real.goldenRatio * (a (n - 1) : ℝ))
-
-end
-
-end A202278.P8814160686407918900
-
-/-! ## A202278.P9735441372610560004
-
-`Δ[ceil(ϕ*a(n-1))]` with `a(0)=1, a(1)=1`
--/
-
-namespace A202278.P9735441372610560004
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n f1 =>
-  ⌈Real.goldenRatio * (f1 (n - 1) : ℝ)⌉
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A202278.P9735441372610560004
-
-/-! ## A202278.P8507684091411123904
-
-`Δ[floor(ϕ*a(n-1))]` with `a(0)=3, a(1)=3`
--/
-
-namespace A202278.P8507684091411123904
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [3, 3] fun n f1 =>
-  ⌊Real.goldenRatio * (f1 (n - 1) : ℝ)⌋
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A202278.P8507684091411123904
-
-/-! ## A202278.P9628242547129547810
-
-`round(a(n-1)/(ϕ-1))` with `a(0)=0, a(1)=1`
--/
-
-namespace A202278.P9628242547129547810
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1] fun n a =>
-  SequenceMachineLib.roundAway ((a (n - 1) : ℝ) / (Real.goldenRatio - 1))
-
-end
-
-end A202278.P9628242547129547810
 
 /-!
 # A202281: Record (maximal) gaps between prime decuplets (p+0,2,6,8,12,18,20,26,30,32).

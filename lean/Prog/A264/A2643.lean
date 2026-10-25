@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -80,6 +81,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A264300: Number of (1+1) X (n+1) arrays of permutations of 0..n*2+1 with each element having directed index change 0,1 0,-2 1,0 or -1,0.
@@ -3353,6 +3358,12 @@ namespace A264357
 /-- `A135855(n)-A110813(n)` -/
 def P14336978254426367774.Spec : Prop :=
   ∀ n, P14336978254426367774.a n = A264357 (n + 1)
+
+theorem P14336978254426367774.correct : P14336978254426367774.Spec := by
+  intro n
+  simp only [A264357, Nat.add_sub_cancel, A264357.P14336978254426367774.a, A264357.P4841253329854367094.a, A110813, A110813.P12087588426013829952.a, A131085, A131085.P15158434548820626258.a, A135855, A135855.P16850139679087986239.a, A051597, A051597.P4383731425265306086.a, A104712, A104712.P8393777965278521263.a, A135278, A135278.P10862305414900331449.a, A214292, A214292.P4475227448882697213.f1, A214292.P4475227448882697213.a, A014410, A014410.P12420516935091573692.a, A014430, A014430.P11701806938926061192.a, A014473, A014473.P9301799580602651200.a, A074909, A074909.P6707642907239843837.f1, A074909.P6707642907239843837.a, A168577, A168577.P14364464542492817144.a, A002024, A002024.P11700297927830783882.a, A002262, A002262.P12129691700837801527.a, A003057, A003057.P16308936517940939054.a, A004736, A004736.P10337537277358081527.a, A007318, A007318.P302227728145965961.a, A010054, A010054.P18347828677204923252.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A264357
 

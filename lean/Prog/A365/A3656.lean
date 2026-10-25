@@ -3327,6 +3327,58 @@ def P7865394903837248973.Spec : Prop :=
 
 end A365645
 
+/-! ## A365645.P7985844891639735169
+
+`round(and(10^n, -2)/9)*∑[n]`
+-/
+
+namespace A365645.P7985844891639735169
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway ((Int.land (10 ^ n : ℤ) (-2) : ℚ) / 9) * ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)
+
+end
+
+end A365645.P7985844891639735169
+
+namespace A365645
+
+/-- `round(and(10^n, -2)/9)*∑[n]` -/
+def P7985844891639735169.Spec : Prop :=
+  ∀ n, P7985844891639735169.a n = A365645 n
+
+end A365645
+
+/-! ## A365645.P2802967494557207259
+
+`∑[A118759(n)]*A002275(n)`
+-/
+
+namespace A365645.P2802967494557207259
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A118759 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (∑ j ∈ Finset.range (n + 1), f1 j) * A002275 n
+
+end
+
+end A365645.P2802967494557207259
+
+namespace A365645
+
+/-- `∑[A118759(n)]*A002275(n)` -/
+def P2802967494557207259.Spec : Prop :=
+  ∀ n, P2802967494557207259.a n = A365645 n
+
+end A365645
+
 /-! ## A365645.P18185635070003109963
 
 `abs((A047855(n)-1)*A000217(n))`

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -16,6 +17,7 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C030
@@ -61,7 +63,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -91,6 +92,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A360501: Number of edges added at n-th generation of hexagonal graph constructed in first quadrant (see Comments for precise definition).
@@ -4000,6 +4005,32 @@ end
 
 end A360550.P1767267618404899655
 
+/-! ## A360550.P14973405092810359721
+
+`comp[∪[A155018(n), A325700(n+1)]]`
+-/
+
+namespace A360550.P14973405092810359721
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A155018 n
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325700 (n + 1)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f2 j = (x : ℤ)) ∨ ∃ j, f3 j = (x : ℤ)) n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
+
+end
+
+end A360550.P14973405092810359721
+
 /-! ## A360550.P14926329656299700633
 
 `∪[A000977(n+1), A326621(n+1)]`
@@ -4153,28 +4184,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A360550.P7336261784107943721
-
-/-! ## A360550.P9336763001785222392
-
-`∪[A326621(n+1), A357685(n+1)]`
--/
-
-namespace A360550.P9336763001785222392
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326621 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A357685 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A360550.P9336763001785222392
 
 /-!
 # A360551: Numbers > 1 whose distinct prime indices have non-integer median.
@@ -5362,6 +5371,12 @@ namespace A360559
 /-- `∑[A006530(n+1)*A033999(n)]` -/
 def P5122896934789991822.Spec : Prop :=
   ∀ n, P5122896934789991822.a n = A360559 (n + 1)
+
+theorem P5122896934789991822.correct : P5122896934789991822.Spec := by
+  intro n
+  simp only [A360559, Nat.add_sub_cancel, A360559.P5122896934789991822.f1, A360559.P5122896934789991822.a, A360559.P9633687527114646811.f1, A360559.P9633687527114646811.a, A006530, A006530.P13372528560459906635.a, A033999, A033999.P17703899380244199787.a, A070229, A070229.P5792893597916963980.a, A028815, A028815.P810525423351225743.a, A061395, A061395.P8431317036300486107.a, A008578, A008578.P3639467937083264764.a, A029837, A029837.P1050578713049589.a, A087207, A087207.P12536008426233777954.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A360559
 

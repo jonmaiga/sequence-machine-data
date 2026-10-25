@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C004
@@ -32,7 +33,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
@@ -48,7 +48,6 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
-import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
@@ -57,12 +56,17 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A395801: a(n) = Sum_{k=0..n} binomial(n+2*k,3*k) * (binomial(n+3*k,k) - binomial(n+3*k,k-1)).
@@ -433,6 +437,29 @@ theorem P11063103629399214891.correct : P11063103629399214891.Spec := by
 
 end A395817
 
+/-! ## A395817.P9699199925478657791
+
+`A007092(n+1)%A270415(n+1)`
+-/
+
+namespace A395817.P9699199925478657791
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A007092 (n + 1)) (A270415 (n + 1))
+
+end
+
+end A395817.P9699199925478657791
+
+namespace A395817
+
+/-- `A007092(n+1)%A270415(n+1)` -/
+def P9699199925478657791.Spec : Prop :=
+  ∀ n, P9699199925478657791.a n = A395817 (n + 1)
+
+end A395817
+
 /-! ## A395817.P5411677894979908930
 
 `A007092(A102677(A032917(n+1))+n+1)`
@@ -453,29 +480,6 @@ namespace A395817
 /-- `A007092(A102677(A032917(n+1))+n+1)` -/
 def P5411677894979908930.Spec : Prop :=
   ∀ n, P5411677894979908930.a n = A395817 (n + 1)
-
-end A395817
-
-/-! ## A395817.P6134812411581607516
-
-`A007092(n+1)%A272115(A001106(n+4))`
--/
-
-namespace A395817.P6134812411581607516
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A007092 (n + 1)) (A272115 (A001106 (n + 4)).toNat)
-
-end
-
-end A395817.P6134812411581607516
-
-namespace A395817
-
-/-- `A007092(n+1)%A272115(A001106(n+4))` -/
-def P6134812411581607516.Spec : Prop :=
-  ∀ n, P6134812411581607516.a n = A395817 (n + 1)
 
 end A395817
 
@@ -711,6 +715,12 @@ namespace A395831
 /-- `8^n-A395829(n)` -/
 def P8969502115493771492.Spec : Prop :=
   ∀ n, P8969502115493771492.a n = A395831 n
+
+theorem P8969502115493771492.correct : P8969502115493771492.Spec := by
+  intro n
+  simp only [A395831, Nat.add_sub_cancel, A395831.P8969502115493771492.a, A395831.P4522594969490723447.a, A395829, A395829.P11120994273887423255.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A395831
 
@@ -1070,6 +1080,56 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A395841.P7228612362143643145
+
+/-!
+# A395850: Divisors of the order of the Lyons group, |Ly| = 51765179004000000.
+
+The programs for A395850, there is no canonical definition to state claims against.
+-/
+
+/-! ## A395850.P13754112518236062458
+
+`∪[A051038(n+1), A299970(A382000(n+1))]`
+-/
+
+namespace A395850.P13754112518236062458
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051038 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A299970 (A382000 (n + 1)).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A395850.P13754112518236062458
+
+/-! ## A395850.P4163630231710091369
+
+`∪[A051038(n+1), A114994(A330467(3*n))]`
+-/
+
+namespace A395850.P4163630231710091369
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A051038 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114994 (A330467 (3 * n)).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A395850.P4163630231710091369
 
 /-!
 # A395852: Divisors of the order of the Tits group, |T| = 17971200.

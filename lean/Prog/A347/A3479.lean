@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -91,6 +92,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A347902: a(n) = a(n-1) + a(n-3) + a(n-4) with initial values a(0) = 8, a(1)=5, a(2) = 13, a(3) = 30.
@@ -607,6 +612,12 @@ namespace A347912
 /-- `∑[A055087(n)+1]` -/
 def P13726006402416956841.Spec : Prop :=
   ∀ n, P13726006402416956841.a n = A347912 (n + 1)
+
+theorem P13726006402416956841.correct : P13726006402416956841.Spec := by
+  intro n
+  simp only [A347912, Nat.add_sub_cancel, A347912.P13726006402416956841.f1, A347912.P13726006402416956841.a, A347912.P8634845992585817048.f1, A347912.P8634845992585817048.a, A055087, A055087.P17964067358640094815.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A347912
 
@@ -3154,6 +3165,12 @@ namespace A347950
 def P4015354946641102555.Spec : Prop :=
   ∀ n, P4015354946641102555.a n = A347950 (n + 1)
 
+theorem P4015354946641102555.correct : P4015354946641102555.Spec := by
+  intro n
+  simp only [A347950, Nat.add_sub_cancel, A347950.P4015354946641102555.a, A347950.P18371532176146364720.f1, A347950.P18371532176146364720.a, A100345, A100345.P10218068871368461112.a, A348327, A348327.P11076907261933524591.a, A004247, A004247.P14233945955703425283.a, A069011, A069011.P9337676359071489470.a, A002262, A002262.P12129691700837801527.a, A003056, A003056.P5318256527314048597.a, A025581, A025581.P420762180635059694.a, A004736, A004736.P10337537277358081527.a, A057944, A057944.P16851463738746886639.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A347950
 
 /-! ## A347950.P9386632426189382692
@@ -3176,6 +3193,12 @@ namespace A347950
 /-- `A348364(n+1)-1` -/
 def P9386632426189382692.Spec : Prop :=
   ∀ n, P9386632426189382692.a n = A347950 (n + 1)
+
+theorem P9386632426189382692.correct : P9386632426189382692.Spec := by
+  intro n
+  simp only [A347950, Nat.add_sub_cancel, A347950.P9386632426189382692.a, A347950.P18371532176146364720.f1, A347950.P18371532176146364720.a, A100345, A100345.P10218068871368461112.a, A348364, A348364.P5163504315235711716.a, A004247, A004247.P14233945955703425283.a, A069011, A069011.P9337676359071489470.a, A002262, A002262.P12129691700837801527.a, A003056, A003056.P5318256527314048597.a, A025581, A025581.P420762180635059694.a, A004736, A004736.P10337537277358081527.a, A057944, A057944.P16851463738746886639.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A347950
 
@@ -3964,7 +3987,7 @@ end A347955
 /-!
 # A347956: Dirichlet convolution of A003602 with A069359.
 
-The programs for A347956, the canonical program `A347956.P15411644417781313120` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347956 has offset 1).
+The programs for A347956, the canonical program `A347956.P15411644417781313120` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347956 has offset 1).
 
 The definition of A347956 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4077,7 +4100,7 @@ end A347956
 
 `∑{d}[n+1, A347134(#)*A349373((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A347956

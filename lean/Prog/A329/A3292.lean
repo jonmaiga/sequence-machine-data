@@ -54,7 +54,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -88,6 +87,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A329200: The ghost iteration (A): add or subtract the number formed by absolute differences of digits (A040115), according to parity (even or odd).
@@ -2047,7 +2047,7 @@ end A329241.P9613651425961694782
 /-!
 # A329242: a(n) = Pi(8,3)(n) + Pi(8,5)(n) + Pi(8,7)(n) - 3*Pi(8,1)(n), where Pi(a,b)(x) denotes the number of primes in the arithmetic progression a*k + b less than or equal to x.
 
-The programs for A329242, the canonical program `A329242.P1185710204891356265` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329242 has offset 1).
+The programs for A329242, the canonical program `A329242.P1185710204891356265` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329242 has offset 1).
 
 The definition of A329242 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2167,7 +2167,7 @@ end A329242
 
 `A033270(n+1)-4*A071839(n+1)`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A329242
@@ -2277,7 +2277,7 @@ end A329242
 /-!
 # A329243: a(n) = Pi(8,3)(prime(n)) + Pi(8,5)(prime(n)) + Pi(8,7)(prime(n)) - 3*Pi(8,1)(prime(n)), where Pi(a,b)(x) denotes the number of primes in the arithmetic progression a*k + b less than or equal to x.
 
-The programs for A329243, the canonical program `A329243.P9180453080884109219` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329243 has offset 1).
+The programs for A329243, the canonical program `A329243.P9180453080884109219` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329243 has offset 1).
 
 The definition of A329243 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2286,7 +2286,7 @@ The definition of A329243 is `conjectured`: the Lean definition is a formula tha
 
 `A038698(n+1)+A321861(n+1)+A320858(n+1)`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A329243
@@ -4558,7 +4558,7 @@ end A329272.P14195134529302486792
 /-!
 # A329273: a(1)=1. If n is prime, a(n)=0; if not, a(n) = (the smallest prime number greater than n) minus (the largest prime number smaller than n) minus 1.
 
-The programs for A329273, the canonical program `A329273.P5366949048814216937` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329273 has offset 1).
+The programs for A329273, the canonical program `A329273.P5366949048814216937` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329273 has offset 1).
 
 The definition of A329273 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4820,7 +4820,7 @@ end A329273
 
 `A008347(A166597(n))%A014076(A013632(n))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A329273
@@ -4965,6 +4965,21 @@ end A329275.P6898385326651465745
 
 The programs for A329276, there is no canonical definition to state claims against.
 -/
+
+/-! ## A329276.P18282233184821013148
+
+`A343756(n)+A044941(A001550(n))`
+-/
+
+namespace A329276.P18282233184821013148
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A343756 n + A044941 (A001550 n).toNat
+
+end
+
+end A329276.P18282233184821013148
 
 /-! ## A329276.P8940466634333691471
 

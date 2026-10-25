@@ -19,9 +19,9 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B003.C000
 import Seq.B004.C001
-import Seq.B005.C000
 import Seq.B006.C001
 import Seq.B010.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -90,75 +90,6 @@ namespace A010100
 /-- `10^round(ϕ^n/sqrt(5))` -/
 def P5100624126729593491.Spec : Prop :=
   ∀ n, P5100624126729593491.a n = (A010100 n : ℚ)
-
-end A010100
-
-/-! ## A010100.P17602773730168048979
-
-`a(n-1)/a(n-2)^(-1)` with `a(0)=1, a(1)=10`
--/
-
-namespace A010100.P17602773730168048979
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.rec [1, 10] fun n a =>
-  a (n - 1) / a (n - 2) ^ (-1 : ℤ)
-
-end
-
-end A010100.P17602773730168048979
-
-namespace A010100
-
-/-- `a(n-1)/a(n-2)^(-1)` -/
-def P17602773730168048979.Spec : Prop :=
-  ∀ n, P17602773730168048979.a n = (A010100 n : ℚ)
-
-end A010100
-
-/-! ## A010100.P13286566312331460614
-
-`A121389(n)+1`
--/
-
-namespace A010100.P13286566312331460614
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A121389 n + 1
-
-end
-
-end A010100.P13286566312331460614
-
-namespace A010100
-
-/-- `A121389(n)+1` -/
-def P13286566312331460614.Spec : Prop :=
-  ∀ n, P13286566312331460614.a n = A010100 n
-
-end A010100
-
-/-! ## A010100.P9270204254470053208
-
-`floor(10^(A001611(n)-1))`
--/
-
-namespace A010100.P9270204254470053208
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(10 : ℚ) ^ (A001611 n - 1 : ℤ)⌋
-
-end
-
-end A010100.P9270204254470053208
-
-namespace A010100
-
-/-- `floor(10^(A001611(n)-1))` -/
-def P9270204254470053208.Spec : Prop :=
-  ∀ n, P9270204254470053208.a n = A010100 n
 
 end A010100
 
@@ -1630,7 +1561,7 @@ end A010169
 /-!
 # A010177: Continued fraction for sqrt(112).
 
-The programs for A010177, the canonical program `A010177.P5098866238992721641` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010177 has offset 0).
+The programs for A010177, the canonical program `A010177.P5098866238992721641` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A010177 has offset 0).
 
 The definition of A010177 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1639,7 +1570,7 @@ The definition of A010177 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-6)` with `a(0)=10, a(1)=1, a(2)=1, a(3)=2, a(4)=1, a(5)=1, a(6)=20`
 
-The canonical program, it is in `Seq.B000.C001`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A010177

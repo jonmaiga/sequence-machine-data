@@ -57,7 +57,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -89,6 +89,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -5300,6 +5301,12 @@ namespace A259751
 def P16143518466990791613.Spec : Prop :=
   ∀ n, P16143518466990791613.a n = A259751 (n + 1)
 
+theorem P16143518466990791613.correct : P16143518466990791613.Spec := by
+  intro n
+  simp only [A259751, Nat.add_sub_cancel, A259751.P16143518466990791613.a, A259751.P14043662995474397611.a, A087445, A087445.P15689331082767495636.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A259751
 
 /-! ## A259751.P11280463933326371408
@@ -6278,6 +6285,32 @@ def P17719737993996115358.Spec : Prop :=
 
 end A259755
 
+/-! ## A259755.P190099179312517205
+
+`record[4*(2*n+1)/gcd(n+2, 2*n+1)]`
+-/
+
+namespace A259755.P190099179312517205
+noncomputable section
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (4 * (2 * n + 1) : ℚ) / (Nat.gcd (n + 2) (2 * n + 1) : ℚ)
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A259755.P190099179312517205
+
+namespace A259755
+
+/-- `record[4*(2*n+1)/gcd(n+2, 2*n+1)]` -/
+def P190099179312517205.Spec : Prop :=
+  ∀ n, P190099179312517205.a n = (A259755 (n + 1) : ℚ)
+
+end A259755
+
 /-! ## A259755.P15680669407191383231
 
 `∑[4*A382713(n)]`
@@ -6400,28 +6433,11 @@ namespace A259755
 def P1615071520365494385.Spec : Prop :=
   ∀ n, P1615071520365494385.a n = A259755 (n + 1)
 
-end A259755
-
-/-! ## A259755.P16876424857516023722
-
-`A322490(n+1)+2*n+1`
--/
-
-namespace A259755.P16876424857516023722
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322490 (n + 1) + (2 * n + 1 : ℤ)
-
-end
-
-end A259755.P16876424857516023722
-
-namespace A259755
-
-/-- `A322490(n+1)+2*n+1` -/
-def P16876424857516023722.Spec : Prop :=
-  ∀ n, P16876424857516023722.a n = A259755 (n + 1)
+theorem P1615071520365494385.correct : P1615071520365494385.Spec := by
+  intro n
+  simp only [A259755, Nat.add_sub_cancel, A259755.P1615071520365494385.a, A259755.P4631213340866640928.a, A306279, A306279.P15417631850282334460.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A259755
 

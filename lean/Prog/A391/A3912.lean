@@ -51,13 +51,10 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
-import Seq.B007.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -74,6 +71,7 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -2788,6 +2786,21 @@ end
 
 end A391246.P10415046410368132937
 
+/-! ## A391246.P2018851967795859381
+
+`A003059(A325567(n+1)%A125243(n+5))`
+-/
+
+namespace A391246.P2018851967795859381
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003059 (Int.tmod (A325567 (n + 1)) (A125243 (n + 5))).toNat
+
+end
+
+end A391246.P2018851967795859381
+
 /-! ## A391246.P36047237503950592
 
 `A060128(A063509(n+1))`
@@ -2802,21 +2815,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A391246.P36047237503950592
-
-/-! ## A391246.P873730261276753288
-
-`A322794(A231716(n+1))`
--/
-
-namespace A391246.P873730261276753288
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322794 (A231716 (n + 1)).toNat
-
-end
-
-end A391246.P873730261276753288
 
 /-!
 # A391247: Numbers k such that there are no divisor pair (d, k/d) with 1 < d <= k/d for which k = A048720(k/d, A065621(d)).
@@ -3746,6 +3744,12 @@ namespace A391263
 def P6198638937357430639.Spec : Prop :=
   ∀ n, P6198638937357430639.a n = A391263 (n + 2)
 
+theorem P6198638937357430639.correct : P6198638937357430639.Spec := by
+  intro n
+  simp only [A391263, Nat.add_sub_cancel, A391263.P6198638937357430639.a, A391263.P17886300817763852613.a, A004146, A004146.P7346826017881566823.a, A005248, A005248.P3255906601217542815.a, A000032, A000032.P8352177345629330861.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A391263
 
 /-! ## A391263.P9973616392868215924
@@ -3863,6 +3867,12 @@ namespace A391263
 /-- `2*(A005592(n+1)-2)` -/
 def P16321844555560326351.Spec : Prop :=
   ∀ n, P16321844555560326351.a n = A391263 (n + 2)
+
+theorem P16321844555560326351.correct : P16321844555560326351.Spec := by
+  intro n
+  simp only [A391263, Nat.add_sub_cancel, A391263.P16321844555560326351.a, A391263.P17886300817763852613.a, A004146, A004146.P7346826017881566823.a, A005592, A005592.P14150685278040946245.a, A000032, A000032.P8352177345629330861.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A391263
 

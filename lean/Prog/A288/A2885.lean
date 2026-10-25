@@ -61,7 +61,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
@@ -6300,7 +6299,7 @@ end A288563.P5001160401129422468
 /-!
 # A288566: Partial sums of A087207.
 
-The programs for A288566, the canonical program `A288566.P93477700096519531` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288566 has offset 1).
+The programs for A288566, the canonical program `A288566.P93477700096519531` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288566 has offset 1).
 
 The definition of A288566 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2238 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6309,7 +6308,7 @@ The definition of A288566 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A087207(n+1)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A288566
@@ -7977,7 +7976,7 @@ end A288574.P13422483606301728228
 /-!
 # A288575: Partial sums of A104324.
 
-The programs for A288575, the canonical program `A288575.P17818525623741595510` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288575 has offset 0).
+The programs for A288575, the canonical program `A288575.P17818525623741595510` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288575 has offset 0).
 
 The definition of A288575 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8012,7 +8011,7 @@ end A288575
 
 `∑[A213911(n)+A007895(n)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A288575

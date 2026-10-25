@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -58,14 +59,13 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -95,6 +95,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A333200: Rectangular array read by antidiagonals: row n shows the primes p(k) such that p(k) = p(k-1) + 2n, with 2 prefixed to row 1.
@@ -1119,7 +1123,7 @@ end A333213.P16265411199740956159
 /-!
 # A333214: Positions of adjacent unequal terms in the sequence of differences between primes.
 
-The programs for A333214, the canonical program `A333214.P10257277763201580754` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333214 has offset 1).
+The programs for A333214, the canonical program `A333214.P10257277763201580754` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333214 has offset 1).
 
 The definition of A333214 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9551 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1154,7 +1158,7 @@ end A333214
 
 `filter[A319702(2*n+1), A131695(#)]`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A333214
@@ -2733,20 +2737,20 @@ end
 
 end A333226.P2576091956960629504
 
-/-! ## A333226.P8933940858228786645
+/-! ## A333226.P2253145969517681344
 
-`A284559(A038558(n+1))`
+`A284559(A038558(1+n))`
 -/
 
-namespace A333226.P8933940858228786645
+namespace A333226.P2253145969517681344
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A284559 (A038558 (n + 1)).toNat
+  A284559 (A038558 (1 + n)).toNat
 
 end
 
-end A333226.P8933940858228786645
+end A333226.P2253145969517681344
 
 /-! ## A333226.P8141788566665340892
 
@@ -3819,6 +3823,12 @@ namespace A333231
 def P17038033669102973499.Spec : Prop :=
   ∀ n, (P17038033669102973499.a n : ℤ) = A333231 (n + 1)
 
+theorem P17038033669102973499.correct : P17038033669102973499.Spec := by
+  intro n
+  simp only [A333231, Nat.add_sub_cancel, A333231.P17038033669102973499.f1, A333231.P17038033669102973499.f2, A333231.P17038033669102973499.a, A333231.P6834028189182866023.a, A036263, A036263.P14888342997651084870.a, A046868, A046868.P12771719425983285755.f1, A046868.P12771719425983285755.f2, A046868.P12771719425983285755.a, A001223, A001223.P5083310856331133973.a, A046933, A046933.P9479947770746769512.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A333231
 
 /-! ## A333231.P7530542190900758960
@@ -4704,16 +4714,16 @@ end A333238.P3731727543696489989
 /-!
 # A333242: Prime numbers with an odd number of steps in their prime index chain.
 
-The programs for A333242, the canonical program `A333242.P7039414772818827549` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333242 has offset 1).
+The programs for A333242, the canonical program `A333242.P7039414772818827549` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333242 has offset 1).
 
-The definition of A333242 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000720, A262275, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A333242 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A262275, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A333242.P7039414772818827549
 
 `A000720(A262275(n+1))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A333242
@@ -9936,7 +9946,7 @@ end A333291.P5842415393443687416
 /-!
 # A333293: a(n) = Sum_{k=1..n-1} k^2*phi(k) + n^2*phi(n)/2, where phi = A000010.
 
-The programs for A333293, the canonical program `A333293.P15015957038887528182` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333293 has offset 2).
+The programs for A333293, the canonical program `A333293.P15015957038887528182` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333293 has offset 2).
 
 The definition of A333293 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9945,7 +9955,7 @@ The definition of A333293 is `conjectured`: the Lean definition is a formula tha
 
 `(A319087(n+1)+A319087(n+2))/2`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A333293

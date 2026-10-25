@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -63,6 +64,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -90,6 +92,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A108400: a(n) = Product_{k = 0..n} (2^k * k!).
@@ -551,6 +557,12 @@ namespace A108404
 /-- `A163064(n)-A162772(n)` -/
 def P15510969090090899458.Spec : Prop :=
   ∀ n, P15510969090090899458.a n = A108404 n
+
+theorem P15510969090090899458.correct : P15510969090090899458.Spec := by
+  intro n
+  simp only [A108404, Nat.add_sub_cancel, A108404.P15510969090090899458.a, A108404.P9114071790083834879.a, A162772, A162772.P324308446947990405.a, A163064, A163064.P16938046952969685604.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A108404
 
@@ -2324,6 +2336,12 @@ namespace A108415
 /-- `3-A107599(n+2)` -/
 def P4729534709691167735.Spec : Prop :=
   ∀ n, P4729534709691167735.a n = A108415 (n + 2)
+
+theorem P4729534709691167735.correct : P4729534709691167735.Spec := by
+  intro n
+  simp only [A108415, Nat.add_sub_cancel, A108415.P4729534709691167735.a, A108415.P14242309755812235254.a, A079054, A079054.P1655160976094069587.a, A107599, A107599.P7799038033738361722.a, A073274, A073274.P9123969946531876833.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A073273, A073273.P7261420191492107144.a, A028310, A028310.P18130301328277559831.a, A089038, A089038.P1158643592573954498.a, A098090, A098090.P13715726592348268082.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A108415
 
@@ -9800,20 +9818,20 @@ end
 
 end A108497.P15514882391057745325
 
-/-! ## A108497.P17272894790586337879
+/-! ## A108497.P9865374755376435511
 
-`and(A305392(n+1), A359362(A157154(n)))`
+`and(A087062(n+1), A191922(A108625(n)))`
 -/
 
-namespace A108497.P17272894790586337879
+namespace A108497.P9865374755376435511
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A305392 (n + 1)) (A359362 (A157154 n).toNat)
+  Int.land (A087062 (n + 1)) (A191922 (A108625 n).toNat)
 
 end
 
-end A108497.P17272894790586337879
+end A108497.P9865374755376435511
 
 /-!
 # A108498: Triangle read by rows: T(n,k) = sum_i{1<=i<=n} k^i mod n, showing 1<=k<=n.

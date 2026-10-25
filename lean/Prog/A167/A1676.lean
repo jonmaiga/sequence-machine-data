@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -96,6 +97,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A167601: G.f.: 1/(1-3*x-40*x^2-192*x^3).
@@ -495,6 +500,12 @@ namespace A167607
 /-- `2*(p?[A175221(n+1)]-2)` -/
 def P7460214749202044178.Spec : Prop :=
   ∀ n, P7460214749202044178.a n = A167607 (n + 1)
+
+theorem P7460214749202044178.correct : P7460214749202044178.Spec := by
+  intro n
+  simp only [A167607, Nat.add_sub_cancel, A167607.P7460214749202044178.f1, A167607.P7460214749202044178.a, A167607.P13390879685489196630.f1, A167607.P13390879685489196630.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A175221, A175221.P11607856886314794758.a, A052147, A052147.P6151996953021184291.f1, A052147.P6151996953021184291.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A167607
 
@@ -4120,6 +4131,12 @@ namespace A167623
 /-- `A000578(n+1)%A000040(n+1)²` -/
 def P6103452445239545846.Spec : Prop :=
   ∀ n, P6103452445239545846.a n = A167623 (n + 1)
+
+theorem P6103452445239545846.correct : P6103452445239545846.Spec := by
+  intro n
+  simp only [A167623, Nat.add_sub_cancel, A167623.P6103452445239545846.a, A167623.P17572008884092007140.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A000578, A000578.P12162961755414704816.a, A001248, A001248.P16278241061688229202.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A167623
 

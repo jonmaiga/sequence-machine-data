@@ -62,7 +62,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -2603,6 +2602,12 @@ namespace A123522
 def P6564422899869427525.Spec : Prop :=
   ∀ n, P6564422899869427525.a n = (A123522 n : ℚ)
 
+theorem P6564422899869427525.correct : P6564422899869427525.Spec := by
+  intro n
+  simp only [A123522, Nat.add_sub_cancel, A123522.P6564422899869427525.a, A123522.P9968052775971892971.a, A086573, A086573.P12459450006111940125.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A123522
 
 /-! ## A123522.P1860564854034779008
@@ -2625,6 +2630,12 @@ namespace A123522
 /-- `(A086575(n)+4*n)/4` -/
 def P1860564854034779008.Spec : Prop :=
   ∀ n, P1860564854034779008.a n = (A123522 n : ℚ)
+
+theorem P1860564854034779008.correct : P1860564854034779008.Spec := by
+  intro n
+  simp only [A123522, Nat.add_sub_cancel, A123522.P1860564854034779008.a, A123522.P9968052775971892971.a, A086575, A086575.P2017417620639071348.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A123522
 
@@ -5352,6 +5363,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A123546.P2576745842901044100
+
+/-! ## A123546.P13456021725357773210
+
+`A123545(abs(A059667(n+1)%2-n)+1)`
+-/
+
+namespace A123546.P13456021725357773210
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A123545 (|Int.tmod (A059667 (n + 1)) 2 - (n : ℤ)| + 1).toNat
+
+end
+
+end A123546.P13456021725357773210
 
 /-! ## A123546.P17892299056497917959
 
@@ -8638,7 +8664,7 @@ end A123574.P4544576748417886383
 /-!
 # A123575: The Kruskal-Macaulay function L_3(n).
 
-The programs for A123575, the canonical program `A123575.P4742146334013980851` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123575 has offset 0).
+The programs for A123575, the canonical program `A123575.P4742146334013980851` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123575 has offset 0).
 
 The definition of A123575 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8647,7 +8673,7 @@ The definition of A123575 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A056558(abs(1-n))]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A123575

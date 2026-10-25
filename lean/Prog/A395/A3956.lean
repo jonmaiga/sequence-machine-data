@@ -7,7 +7,6 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C035
 import Seq.B000.C039
@@ -21,13 +20,14 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C000
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C002
-import Seq.B007.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -36,7 +36,6 @@ import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
-import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C009
 import Seq.Opaque.C010
@@ -736,20 +735,20 @@ end
 
 end A395632.P3486604555287414963
 
-/-! ## A395632.P14920839168183433354
+/-! ## A395632.P14964459704214071517
 
-`A229764(A024156(n+3)^A181796(n+1))`
+`A019536(n+1)%A124767(A000322(n))`
 -/
 
-namespace A395632.P14920839168183433354
+namespace A395632.P14964459704214071517
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A229764 (SequenceMachineLib.roundAway ((A024156 (n + 3) : ℚ) ^ (A181796 (n + 1) : ℤ))).toNat
+  Int.tmod (A019536 (n + 1)) (A124767 (A000322 n).toNat)
 
 end
 
-end A395632.P14920839168183433354
+end A395632.P14964459704214071517
 
 /-!
 # A395633: a(n) = number of triples (x, y, z) such that 2*x^2 + y*z = n, where x, y, z are positive integers satisfying y < x < z.

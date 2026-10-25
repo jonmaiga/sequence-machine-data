@@ -48,7 +48,6 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -6391,7 +6390,7 @@ end A247073.P6250135915111209240
 /-!
 # A247074: a(n) = phi(n)/(Product_{primes p dividing n } gcd(p - 1, n - 1)).
 
-The programs for A247074, the canonical program `A247074.P11215480859319137546` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247074 has offset 1).
+The programs for A247074, the canonical program `A247074.P11215480859319137546` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247074 has offset 1).
 
 The definition of A247074 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6472,7 +6471,7 @@ end A247074
 
 `(A109606(n+1)+1)/A063994(n+1)`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A247074

@@ -65,11 +65,11 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -1550,6 +1550,25 @@ namespace A077412
 /-- `((8+3*sqrt(7))^(n+1)-(8-3*sqrt(7))^(n+1))/(6*sqrt(7))` -/
 def P859243975131580965.Spec : Prop :=
   ∀ n, P859243975131580965.a n = (A077412 n : ℝ)
+
+theorem P859243975131580965.correct : P859243975131580965.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A077412, Nat.add_sub_cancel, A077412.P859243975131580965.a, A077412.P12560134607077167080.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A077412, Nat.add_sub_cancel, A077412.P859243975131580965.a, A077412.P12560134607077167080.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A077412
 
@@ -3781,7 +3800,7 @@ end A077417
 
 The programs for A077418, the canonical program `A077418.P7081460192770050012` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077418 has offset 1).
 
-The definition of A077418 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A077418 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A077418.P7081460192770050012
@@ -4642,6 +4661,25 @@ namespace A077422
 /-- `((11+2*sqrt(30))^n+(11-2*sqrt(30))^n)/2` -/
 def P3444554968053855404.Spec : Prop :=
   ∀ n, P3444554968053855404.a n = (A077422 n : ℝ)
+
+theorem P3444554968053855404.correct : P3444554968053855404.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A077422, Nat.add_sub_cancel, A077422.P3444554968053855404.a, A077422.P190014747257137210.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A077422, Nat.add_sub_cancel, A077422.P3444554968053855404.a, A077422.P190014747257137210.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A077422
 
@@ -6635,6 +6673,12 @@ namespace A077429
 /-- `A004216(n+1)+A000520(n+1)` -/
 def P13063096598627772318.Spec : Prop :=
   ∀ n, P13063096598627772318.a n = A077429 (n + 1)
+
+theorem P13063096598627772318.correct : P13063096598627772318.Spec := by
+  intro n
+  simp only [A077429, Nat.add_sub_cancel, A077429.P13063096598627772318.a, A077429.P5554938724611329357.f1, A077429.P5554938724611329357.a, A000520, A000520.P740625616792287926.a, A004216, A004216.P11701108540860389608.a, A007318, A007318.P302227728145965961.a, A055642, A055642.P4465932992276854035.f1, A055642.P4465932992276854035.a, A259525, A259525.P15603515225238104540.f1, A259525.P15603515225238104540.a, A003056, A003056.P5318256527314048597.a, A074909, A074909.P6707642907239843837.f1, A074909.P6707642907239843837.a, A002262, A002262.P12129691700837801527.a, A010054, A010054.P18347828677204923252.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A077429
 
@@ -10990,6 +11034,25 @@ namespace A077445
 def P8277152936715778935.Spec : Prop :=
   ∀ n, P8277152936715778935.a n = (A077445 (n + 1) : ℝ)
 
+theorem P8277152936715778935.correct : P8277152936715778935.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A077445, Nat.add_sub_cancel, A077445.P8277152936715778935.a, A077445.P2800442376569899426.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A077445, Nat.add_sub_cancel, A077445.P8277152936715778935.a, A077445.P2800442376569899426.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A077445
 
 /-! ## A077445.P5621653191918301081
@@ -12099,6 +12162,12 @@ namespace A077447
 /-- `A133325(n+1)-A077443(n+1)` -/
 def P13909202681508468936.Spec : Prop :=
   ∀ n, P13909202681508468936.a n = A077447 (n + 1)
+
+theorem P13909202681508468936.correct : P13909202681508468936.Spec := by
+  intro n
+  simp only [A077447, Nat.add_sub_cancel, A077447.P13909202681508468936.a, A077447.P9636244619073163294.a, A077443, A077443.P9244369192480918975.a, A133325, A133325.P15127350892995211202.a, A124124, A124124.P2045263938805169186.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A077447
 
@@ -15884,7 +15953,7 @@ end A077479
 /-!
 # A077480: Total number of prime factors of numbers m with bigomega(m) == 0 modulo omega(m) (counted with repetition).
 
-The programs for A077480, the canonical program `A077480.P421012863486371594` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077480 has offset 1).
+The programs for A077480, the canonical program `A077480.P421012863486371594` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077480 has offset 1).
 
 The definition of A077480 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6905 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16011,7 +16080,7 @@ end A077480
 
 `A001222(eq[A070012(n+2), A070014(n+2)]+2)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A077480
@@ -16078,7 +16147,7 @@ end A077480
 /-!
 # A077481: Quotient A077480(n) / A077479(n).
 
-The programs for A077481, the canonical program `A077481.P7431961850676343439` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077481 has offset 1).
+The programs for A077481, the canonical program `A077481.P7431961850676343439` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077481 has offset 1).
 
 The definition of A077481 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A077479, A077480, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -16087,7 +16156,7 @@ The definition of A077481 is `conditional`: the Lean definition is an OEIS formu
 
 `A077480(n+1)/A077479(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A077481

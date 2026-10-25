@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -44,13 +45,14 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -69,6 +71,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -81,6 +84,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A282300: Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 453", based on the 5-celled von Neumann neighborhood.
@@ -1702,6 +1709,12 @@ namespace A282321
 def P207002839373263560.Spec : Prop :=
   ∀ n, P207002839373263560.a n = A282321 (n + 1)
 
+theorem P207002839373263560.correct : P207002839373263560.Spec := by
+  intro n
+  simp only [A282321, Nat.add_sub_cancel, A282321.P207002839373263560.a, A282321.P10473487783987751182.f1, A282321.P10473487783987751182.f2, A282321.P10473487783987751182.a, A001359, A001359.P8865495035699438537.a, A030430, A030430.P15047301384318659499.a, A282322, A282322.P3045035046457869279.a, A024912, A024912.P17686755528931629700.a, A077800, A077800.P16009445446139691322.a, A081759, A081759.P335554766721588986.a, A096281, A096281.P9870488552655544131.a, A008619, A008619.P16053834178911111118.a, A014574, A014574.P4587706211531852143.a, A024894, A024894.P2872051670384874786.f1, A024894.P2872051670384874786.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A282321
 
 /-! ## A282321.P12939529368255408431
@@ -2254,7 +2267,7 @@ end A282321
 /-!
 # A282322: Greater of twin primes congruent to 13 (mod 30).
 
-The programs for A282322, the canonical program `A282322.P3045035046457869279` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282322 has offset 1).
+The programs for A282322, the canonical program `A282322.P3045035046457869279` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282322 has offset 1).
 
 The definition of A282322 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2263,7 +2276,7 @@ The definition of A282322 is `conjectured`: the Lean definition is a formula tha
 
 `A282321(n+1)+2`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A282322
@@ -4043,7 +4056,7 @@ end A282325.P5298961370497396318
 /-!
 # A282326: Greater of twin primes congruent to 1 (mod 30).
 
-The programs for A282326, the canonical program `A282326.P5010439827126536252` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282326 has offset 1).
+The programs for A282326, the canonical program `A282326.P5010439827126536252` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282326 has offset 1).
 
 The definition of A282326 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4052,7 +4065,7 @@ The definition of A282326 is `conjectured`: the Lean definition is a formula tha
 
 `A060229(n+1)+2`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A282326

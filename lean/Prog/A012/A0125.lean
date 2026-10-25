@@ -15,6 +15,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C003
+import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B005.C000
@@ -39,12 +40,14 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A012501: cos(cos(x)*arctan(x))=1-1/2!*x^2+21/4!*x^4-645/6!*x^6+34153/8!*x^8...

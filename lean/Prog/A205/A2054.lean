@@ -2642,20 +2642,20 @@ end A205438.P2250543852746999191
 The programs for A205442, there is no canonical definition to state claims against.
 -/
 
-/-! ## A205442.P4684640806134080915
+/-! ## A205442.P6190995542080868664
 
-`A002024(A205441(n+1))+1`
+`A002024(A205441(1+n))+1`
 -/
 
-namespace A205442.P4684640806134080915
+namespace A205442.P6190995542080868664
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002024 (A205441 (n + 1)).toNat + 1
+  A002024 (A205441 (1 + n)).toNat + 1
 
 end
 
-end A205442.P4684640806134080915
+end A205442.P6190995542080868664
 
 /-! ## A205442.P12925813271603875912
 

@@ -62,13 +62,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -3034,6 +3032,12 @@ namespace A141317
 def P9539363859724458322.Spec : Prop :=
   ∀ n, P9539363859724458322.a n = A141317 n
 
+theorem P9539363859724458322.correct : P9539363859724458322.Spec := by
+  intro n
+  simp only [A141317, Nat.add_sub_cancel, A141317.P9539363859724458322.a, A141317.P6107136016160513922.a, A000244, A000244.P17162167222172810417.a, A010684, A010684.P14019262024924378744.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A141317
 
 /-! ## A141317.P6107136016160513922
@@ -4364,6 +4368,12 @@ namespace A141326
 def P9734924795049200497.Spec : Prop :=
   ∀ n, P9734924795049200497.a n = A141326 (n + 1)
 
+theorem P9734924795049200497.correct : P9734924795049200497.Spec := by
+  intro n
+  simp only [A141326, Nat.add_sub_cancel, A141326.P9734924795049200497.a, A141326.P3945186453744683596.a, A008585, A008585.P13732812384316341435.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A141326
 
 /-! ## A141326.P8465117006832333534
@@ -4387,6 +4397,12 @@ namespace A141326
 def P8465117006832333534.Spec : Prop :=
   ∀ n, P8465117006832333534.a n = A141326 (n + 1)
 
+theorem P8465117006832333534.correct : P8465117006832333534.Spec := by
+  intro n
+  simp only [A141326, Nat.add_sub_cancel, A141326.P8465117006832333534.a, A141326.P3945186453744683596.a, A003215, A003215.P5851317289441473820.a, A004538, A004538.P10298653278695798692.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A141326
 
 /-! ## A141326.P2931255312380268435
@@ -4409,6 +4425,12 @@ namespace A141326
 /-- `A033581(n+1)+A003215(n)*A028896(n+1)` -/
 def P2931255312380268435.Spec : Prop :=
   ∀ n, P2931255312380268435.a n = A141326 (n + 1)
+
+theorem P2931255312380268435.correct : P2931255312380268435.Spec := by
+  intro n
+  simp only [A141326, Nat.add_sub_cancel, A141326.P2931255312380268435.a, A141326.P3945186453744683596.a, A003215, A003215.P5851317289441473820.a, A028896, A028896.P3776891904721443318.a, A033581, A033581.P13583599227635646969.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A141326
 
@@ -7887,6 +7909,12 @@ namespace A141351
 /-- `A000108(n)-A057428(n)` -/
 def P1859760395278322231.Spec : Prop :=
   ∀ n, P1859760395278322231.a n = A141351 n
+
+theorem P1859760395278322231.correct : P1859760395278322231.Spec := by
+  intro n
+  simp only [A141351, Nat.add_sub_cancel, A141351.P1859760395278322231.a, A141351.P15521239837132020654.a, A000108, A000108.P17551949696095299361.a, A057427, A057427.P3058147525557661423.a, A057428, A057428.P2999489532230392221.a, A000007, A000007.P6599383543502402472.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A141351
 
@@ -12045,7 +12073,7 @@ end A141387
 /-!
 # A141388: Triangle T(n, k) = ( k*(n-k+1) )^3 - 2^(n-1), read by rows.
 
-The programs for A141388, the canonical program `A141388.P760566885152609055` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141388 has offset 1).
+The programs for A141388, the canonical program `A141388.P760566885152609055` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141388 has offset 1).
 
 The definition of A141388 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12054,7 +12082,7 @@ The definition of A141388 is `conjectured`: the Lean definition is a formula tha
 
 `A098360(n+1)-A137688(n)`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A141388

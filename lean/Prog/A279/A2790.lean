@@ -54,10 +54,10 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -65,6 +65,7 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -3628,6 +3629,30 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A279038.P11317010767507003606
+
+/-!
+# A279039: Odd numbers n such that 2^n == 1 (mod sigma(n)).
+
+The programs for A279039, there is no canonical definition to state claims against.
+-/
+
+/-! ## A279039.P16080582446629653235
+
+`record[A278836(n+1)^(A278836(n+1)%2)]`
+-/
+
+namespace A279039.P16080582446629653235
+noncomputable section
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A278836 (n + 1) : ℚ) ^ (Int.tmod (A278836 (n + 1)) 2 : ℤ)
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A279039.P16080582446629653235
 
 /-!
 # A279040: Even numbers 2k such that the smallest prime p satisfying p+q=2k (q prime) is greater than or equal to sqrt(k).
@@ -8034,7 +8059,7 @@ end A279080
 
 The programs for A279081, the canonical program `A279081.P11202189863760932497` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279081 has offset 1).
 
-The definition of A279081 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A279081 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A279081.P11202189863760932497
@@ -9146,20 +9171,20 @@ end A279098.P18317186406969993381
 The programs for A279099, there is no canonical definition to state claims against.
 -/
 
-/-! ## A279099.P12076520315615414501
+/-! ## A279099.P11742236818908457358
 
-`A000720(A297891(n+1))`
+`A000720(A297891(1+n))`
 -/
 
-namespace A279099.P12076520315615414501
+namespace A279099.P11742236818908457358
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000720 (A297891 (n + 1)).toNat
+  A000720 (A297891 (1 + n)).toNat
 
 end
 
-end A279099.P12076520315615414501
+end A279099.P11742236818908457358
 
 /-! ## A279099.P12809806839731212781
 

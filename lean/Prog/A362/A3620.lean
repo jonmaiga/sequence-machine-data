@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -59,11 +60,9 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -94,6 +93,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A362001: Numbers k such that the digits of k^2 are a subsequence of the digits of 2^k.
@@ -812,7 +815,7 @@ end A362020.P5215645727444517219
 /-!
 # A362021: a(n) = Sum_{k=1..n} (-1)^(n-k) * k * mu(k), where mu(k) is the Moebius function.
 
-The programs for A362021, the canonical program `A362021.P6297100833742267610` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362021 has offset 1).
+The programs for A362021, the canonical program `A362021.P6297100833742267610` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362021 has offset 1).
 
 The definition of A362021 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -847,7 +850,7 @@ end A362021
 
 `A055615(n+1)-a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A362021
@@ -3808,7 +3811,7 @@ end A362058.P4533812416561006901
 
 The programs for A362059, the canonical program `A362059.P13964323751538108829` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362059 has offset 1).
 
-The definition of A362059 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006218, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A362059 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A362059.P13964323751538108829
@@ -4313,6 +4316,12 @@ namespace A362059
 /-- `A211275(n+1)+A181972(n+1)` -/
 def P16328607242074603553.Spec : Prop :=
   ∀ n, P16328607242074603553.a n = A362059 (n + 1)
+
+theorem P16328607242074603553.correct : P16328607242074603553.Spec := by
+  intro n
+  simp only [A362059, Nat.add_sub_cancel, A362059.P16328607242074603553.a, A362059.P13964323751538108829.a, A006218, A006218.P9218434490128439557.a, A181972, A181972.P14820601943036584193.f2, A181972.P14820601943036584193.f1, A181972.P14820601943036584193.a, A211275, A211275.P17918795795607819298.a, A000005, A000005.P16091521709108585461.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A362059
 

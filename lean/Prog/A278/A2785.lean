@@ -3655,7 +3655,7 @@ end A278524.P269308159939741441
 /-!
 # A278525: Filtering sequence (related to prime factorization): a(n) = A046523(A241916(n)).
 
-The programs for A278525, the canonical program `A278525.P17158944752646965372` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278525 has offset 1).
+The programs for A278525, the canonical program `A278525.P17158944752646965372` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278525 has offset 1).
 
 The definition of A278525 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3689,7 +3689,7 @@ end A278525
 
 `A046523(2*(n+1)/A111089(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A278525
@@ -4747,7 +4747,7 @@ end A278530.P15518817720799577406
 /-!
 # A278531: a(n) = A046523(A163511(n)).
 
-The programs for A278531, the canonical program `A278531.P1651706380382309493` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278531 has offset 0).
+The programs for A278531, the canonical program `A278531.P1651706380382309493` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278531 has offset 0).
 
 The definition of A278531 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A046523, A163511, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4756,7 +4756,7 @@ The definition of A278531 is `conditional`: the Lean definition is an OEIS formu
 
 `A046523(A163511(n))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A278531
@@ -5324,7 +5324,7 @@ end A278532.P10461854721790185901
 /-!
 # A278533: a(n) = A046523(A253563(n)).
 
-The programs for A278533, the canonical program `A278533.P16229309658360955677` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278533 has offset 0).
+The programs for A278533, the canonical program `A278533.P16229309658360955677` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278533 has offset 0).
 
 The definition of A278533 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A046523, A253563, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5333,7 +5333,7 @@ The definition of A278533 is `conditional`: the Lean definition is an OEIS formu
 
 `A046523(A253563(n))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A278533
@@ -5840,7 +5840,7 @@ end A278534.P1135856367052392782
 /-!
 # A278535: a(n) = A046523(A253565(n)).
 
-The programs for A278535, the canonical program `A278535.P5731312989351838873` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278535 has offset 0).
+The programs for A278535, the canonical program `A278535.P5731312989351838873` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278535 has offset 0).
 
 The definition of A278535 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A046523, A253565, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5849,7 +5849,7 @@ The definition of A278535 is `conditional`: the Lean definition is an OEIS formu
 
 `A046523(A253565(n))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A278535
@@ -6656,7 +6656,7 @@ end A278540.P12502934325704247668
 /-!
 # A278541: a(n) = A046523(A209636(n)).
 
-The programs for A278541, the canonical program `A278541.P12391541813226285379` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278541 has offset 0).
+The programs for A278541, the canonical program `A278541.P12391541813226285379` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278541 has offset 0).
 
 The definition of A278541 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 512 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6690,7 +6690,7 @@ end A278541
 
 `A278542(A006068(n))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A278541

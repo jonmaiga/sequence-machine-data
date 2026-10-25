@@ -59,6 +59,7 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -67,6 +68,7 @@ import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -1294,6 +1296,25 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A113220.P13789150372064931884
+
+/-! ## A113220.P5775624928076583421
+
+`xor(n, char[A004053(n+2)])`
+-/
+
+namespace A113220.P5775624928076583421
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004053 (n + 2)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.xor n (if ∃ j, f1 j = (n : ℤ) then 1 else 0)
+
+end
+
+end A113220.P5775624928076583421
 
 /-! ## A113220.P18210907367992824875
 

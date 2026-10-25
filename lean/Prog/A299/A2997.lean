@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -86,6 +87,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A299700: Squarefree part of 1!*2!*3!*...*n!: The product of factorials one through n divided by its largest square divisor.
@@ -5100,6 +5105,12 @@ namespace A299763
 def P10405990618130354087.Spec : Prop :=
   ∀ n, P10405990618130354087.a n = (A299763 (n + 1) : ℚ)
 
+theorem P10405990618130354087.correct : P10405990618130354087.Spec := by
+  intro n
+  simp only [A299763, Nat.add_sub_cancel, A299763.P10405990618130354087.a, A299763.P9872008477996207838.a, A182986, A182986.P2625431067462217415.a, A372054, A372054.P363222448260310864.a, A054541, A054541.P347795157194570387.a, A046930, A046930.P1162450832993365803.f1, A046930.P1162450832993365803.a, A011974, A011974.P2665693327137284562.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A299763
 
 /-! ## A299763.P17827557520122267220
@@ -7931,7 +7942,7 @@ end A299794.P9226756687823668569
 
 The programs for A299795, the canonical program `A299795.P4529790232242310538` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299795 has offset 1).
 
-The definition of A299795 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A299795 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A299795.P4529790232242310538

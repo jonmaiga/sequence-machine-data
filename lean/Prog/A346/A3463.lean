@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -59,11 +60,11 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
@@ -96,6 +97,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A346300: Positions of words in A076478 in which #0's > #1's.
@@ -1283,6 +1288,12 @@ namespace A346302
 /-- `A020735(n+1)-A079882(n)` -/
 def P3049406641891634801.Spec : Prop :=
   ∀ n, P3049406641891634801.a n = A346302 (n + 1)
+
+theorem P3049406641891634801.correct : P3049406641891634801.Spec := by
+  intro n
+  simp only [A346302, Nat.add_sub_cancel, A346302.P3049406641891634801.a, A346302.P10648476138040848442.a, A020735, A020735.P10040868782378236279.a, A079882, A079882.P12778706361266125530.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A346302
 
@@ -7487,55 +7498,55 @@ def P8476089741931852572.Spec : Prop :=
 
 end A346375
 
-/-! ## A346375.P7423152558925753621
+/-! ## A346375.P11763676615205640316
 
-`∑[A111074(2^(n+1))]`
+`∑[A000217(A052548(n))]`
 -/
 
-namespace A346375.P7423152558925753621
+namespace A346375.P11763676615205640316
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A111074 (2 ^ (n + 1))
+  A000217 (A052548 n).toNat
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A346375.P7423152558925753621
+end A346375.P11763676615205640316
 
 namespace A346375
 
-/-- `∑[A111074(2^(n+1))]` -/
-def P7423152558925753621.Spec : Prop :=
-  ∀ n, P7423152558925753621.a n = A346375 n
+/-- `∑[A000217(A052548(n))]` -/
+def P11763676615205640316.Spec : Prop :=
+  ∀ n, P11763676615205640316.a n = A346375 n
 
 end A346375
 
-/-! ## A346375.P15281976888897052263
+/-! ## A346375.P11055180646658015317
 
-`∑[A072735(a(n-1))]` with `a(0)=6`
+`∑[A000217(A000051(n)+1)]`
 -/
 
-namespace A346375.P15281976888897052263
+namespace A346375.P11055180646658015317
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [6] fun n f1 =>
-  A072735 (f1 (n - 1)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000217 (A000051 n + 1).toNat
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A346375.P15281976888897052263
+end A346375.P11055180646658015317
 
 namespace A346375
 
-/-- `∑[A072735(a(n-1))]` -/
-def P15281976888897052263.Spec : Prop :=
-  ∀ n, P15281976888897052263.a n = A346375 n
+/-- `∑[A000217(A000051(n)+1)]` -/
+def P11055180646658015317.Spec : Prop :=
+  ∀ n, P11055180646658015317.a n = A346375 n
 
 end A346375
 
@@ -7609,6 +7620,12 @@ namespace A346376
 /-- `A346514(2*n)/16` -/
 def P1971632251769626426.Spec : Prop :=
   ∀ n, P1971632251769626426.a n = (A346376 n : ℚ)
+
+theorem P1971632251769626426.correct : P1971632251769626426.Spec := by
+  intro n
+  simp only [A346376, Nat.add_sub_cancel, A346376.P1971632251769626426.a, A346376.P13938062219412248412.a, A346514, A346514.P8672318407264149710.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A346376
 

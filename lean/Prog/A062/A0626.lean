@@ -42,9 +42,8 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -798,7 +797,7 @@ end A062619.P14660485610129290083
 /-!
 # A062624: Number of integers less than A000108(n) relatively prime to A000108(n).
 
-The programs for A062624, the canonical program `A062624.P14204432833030423673` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062624 has offset 0).
+The programs for A062624, the canonical program `A062624.P14204432833030423673` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062624 has offset 0).
 
 The definition of A062624 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -807,7 +806,7 @@ The definition of A062624 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A000108(n))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A062624

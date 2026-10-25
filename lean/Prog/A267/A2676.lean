@@ -63,9 +63,9 @@ import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -268,27 +268,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A267601.P6737654990360968752
-
-/-!
-# A267602: Number of unlabeled, connected graphs on n vertices that are prime and have no induced subgraph isomorphic to a bull, a P5 or a P5-bar.
-
-The programs for A267602, there is no canonical definition to state claims against.
--/
-
-/-! ## A267602.P12113998720004984174
-
-`a(n-2)` with `a(0)=0, a(1)=0, a(2)=0, a(3)=1, a(4)=1, a(5)=2, a(6)=0`
--/
-
-namespace A267602.P12113998720004984174
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [0, 0, 0, 1, 1, 2, 0] fun n a =>
-  a (n - 2)
-
-end
-
-end A267602.P12113998720004984174
 
 /-!
 # A267603: Primes that are squares (mod 95).

@@ -45,7 +45,6 @@ import Seq.B002.C002
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -55,10 +54,10 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -665,6 +664,25 @@ end
 
 end A386807.P4313999320003882578
 
+/-! ## A386807.P14980021465926966110
+
+`A019425(A327343(n+1))+comp[2^n-33]`
+-/
+
+namespace A386807.P14980021465926966110
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (2 ^ n : ℤ) - 33
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A019425 (A327343 (n + 1)).toNat + (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ)
+
+end
+
+end A386807.P14980021465926966110
+
 /-! ## A386807.P11260762753153530800
 
 `A123068(n+1)+1`
@@ -724,21 +742,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A386807.P17182673967643340263
-
-/-! ## A386807.P17388781711071304879
-
-`A204166(A301094(n))`
--/
-
-namespace A386807.P17388781711071304879
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A204166 (A301094 n).toNat
-
-end
-
-end A386807.P17388781711071304879
 
 /-!
 # A386808: 
@@ -1168,7 +1171,7 @@ end A386821.P2633903745232972045
 /-!
 # A386822: Irregular table T(n,k) = Product_{j = 1..k} prime(j)^(n-j+1), n >= 0, k = 1..n.
 
-The programs for A386822, the canonical program `A386822.P5436816925973816835` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386822 has offset 0).
+The programs for A386822, the canonical program `A386822.P5436816925973816835` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386822 has offset 0).
 
 The definition of A386822 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 107 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1177,7 +1180,7 @@ The definition of A386822 is `conjectured`: the Lean definition is a formula tha
 
 `A362227(A023758(n+1))`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A386822
@@ -1296,7 +1299,7 @@ end A386822
 /-!
 # A386825: Triangle read by rows: T(n,k) = 3^(n-k)*C(2*n,n-k).
 
-The programs for A386825, the canonical program `A386825.P13800824448105910529` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386825 has offset 0).
+The programs for A386825, the canonical program `A386825.P13800824448105910529` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386825 has offset 0).
 
 The definition of A386825 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4465 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1305,7 +1308,7 @@ The definition of A386825 is `conjectured`: the Lean definition is a formula tha
 
 `A094527(n)*A140303(n)`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A386825
@@ -4003,6 +4006,21 @@ end
 
 end A386891.P6976668961972579013
 
+/-! ## A386891.P12748154610832883952
+
+`A093150(A351884(n))/A209301(A297314(n+1))`
+-/
+
+namespace A386891.P12748154610832883952
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A093150 (A351884 n).toNat : ℚ) / (A209301 (A297314 (n + 1)).toNat : ℚ)
+
+end
+
+end A386891.P12748154610832883952
+
 /-! ## A386891.P11547334211257722912
 
 `A060502(A291929(n)^4)+A025457(A097333(n))`
@@ -4017,21 +4035,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A386891.P11547334211257722912
-
-/-! ## A386891.P17648179029239504140
-
-`A276134(A291929(n)^4)+A025457(A097333(n))`
--/
-
-namespace A386891.P17648179029239504140
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A276134 (A291929 n ^ 4).toNat + A025457 (A097333 n).toNat
-
-end
-
-end A386891.P17648179029239504140
 
 /-!
 # A386894: Markoff numbers that are powers of one odd prime or twice powers of one odd prime.

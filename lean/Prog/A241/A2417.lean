@@ -5192,6 +5192,21 @@ end
 
 end A241769.P15646495159418461544
 
+/-! ## A241769.P11283590934725563719
+
+`A325111(A371587(3*n+1)+A133263(n))`
+-/
+
+namespace A241769.P11283590934725563719
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325111 (A371587 (3 * n + 1) + A133263 n).toNat
+
+end
+
+end A241769.P11283590934725563719
+
 /-! ## A241769.P11028863343134444130
 
 `A033183(A249474(n))`
@@ -5224,24 +5239,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A241769.P6853961238749138481
-
-/-! ## A241769.P4112938249428764083
-
-`∑[A336879(A211520(n)!)]`
--/
-
-namespace A241769.P4112938249428764083
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A336879 (Nat.factorial (A211520 n).toNat)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A241769.P4112938249428764083
 
 /-!
 # A241770: Number of simple connected graphs with n nodes and exactly 4 articulation points (cutpoints).
@@ -6966,7 +6963,7 @@ end A241785.P15086131341487286992
 /-!
 # A241787: Triangular numbers which have one or more occurrences of exactly four different digits.
 
-The programs for A241787, the canonical program `A241787.P16146905243210860616` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241787 has offset 1).
+The programs for A241787, the canonical program `A241787.P16146905243210860616` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241787 has offset 1).
 
 The definition of A241787 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1511 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6975,7 +6972,7 @@ The definition of A241787 is `conjectured`: the Lean definition is a formula tha
 
 `A000217(eq[4, A118668(n)])`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A241787
@@ -7075,6 +7072,12 @@ namespace A241787
 def P16156230142224022411.Spec : Prop :=
   ∀ n, P16156230142224022411.a n = (A241787 (n + 1) : ℚ)
 
+theorem P16156230142224022411.correct : P16156230142224022411.Spec := by
+  intro n
+  simp only [A241787, Nat.add_sub_cancel, A241787.P16156230142224022411.f1, A241787.P16156230142224022411.f2, A241787.P16156230142224022411.a, A241787.P16146905243210860616.f1, A241787.P16146905243210860616.f2, A241787.P16146905243210860616.a, A000217, A000217.P10269402890581615239.a, A002378, A002378.P6342434596694243671.a, A118668, A118668.P12338032722953581586.f1, A118668.P12338032722953581586.a, A043537, A043537.P5563663715344268017.f2, A043537.P5563663715344268017.f1, A043537.P5563663715344268017.a, A318442, A318442.P15306764883021255507.a, A318320, A318320.P3093360369618625706.a, A318326, A318326.P16485873540069210944.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A241787
 
 /-! ## A241787.P8871819516201091610
@@ -7139,7 +7142,7 @@ end A241787
 /-!
 # A241788: Triangular numbers which have one or more occurrences of exactly five different digits.
 
-The programs for A241788, the canonical program `A241788.P3599826419977953969` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241788 has offset 1).
+The programs for A241788, the canonical program `A241788.P3599826419977953969` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241788 has offset 1).
 
 The definition of A241788 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7148,7 +7151,7 @@ The definition of A241788 is `conjectured`: the Lean definition is a formula tha
 
 `A000217(eq[5, A118668(n)])`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A241788
@@ -7253,7 +7256,7 @@ end A241788
 /-!
 # A241789: Triangular numbers which have one or more occurrences of exactly six different digits.
 
-The programs for A241789, the canonical program `A241789.P11600652055916222523` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241789 has offset 1).
+The programs for A241789, the canonical program `A241789.P11600652055916222523` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241789 has offset 1).
 
 The definition of A241789 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2500 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7262,7 +7265,7 @@ The definition of A241789 is `conjectured`: the Lean definition is a formula tha
 
 `A000217(eq[6, A118668(n)])`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A241789
@@ -7280,7 +7283,7 @@ end A241789
 /-!
 # A241790: Triangular numbers which have one or more occurrences of exactly seven different digits.
 
-The programs for A241790, the canonical program `A241790.P16074744630349264971` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241790 has offset 1).
+The programs for A241790, the canonical program `A241790.P16074744630349264971` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241790 has offset 1).
 
 The definition of A241790 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1124 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7289,7 +7292,7 @@ The definition of A241790 is `conjectured`: the Lean definition is a formula tha
 
 `A000217(eq[7, A118668(n)])`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A241790

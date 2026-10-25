@@ -62,7 +62,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -1424,6 +1423,21 @@ end
 
 end A309916.P14489415143523589330
 
+/-! ## A309916.P8584649874559594369
+
+`A387328(A187829(n+1)+3)`
+-/
+
+namespace A309916.P8584649874559594369
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A387328 (A187829 (n + 1) + 3).toNat
+
+end
+
+end A309916.P8584649874559594369
+
 /-! ## A309916.P10842146308233388521
 
 `A052335(n+4)%A093047(n+1)`
@@ -1468,24 +1482,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A309916.P15329874302269498093
-
-/-! ## A309916.P9425612257007479345
-
-`A052335(n+4)+A000122(∑[n*C(n+3, 2)+1]+2)`
--/
-
-namespace A309916.P9425612257007479345
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n * Nat.choose (n + 3) 2 + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052335 (n + 4) + A000122 (∑ j ∈ Finset.range (n + 1), f1 j + 2)
-
-end
-
-end A309916.P9425612257007479345
 
 /-!
 # A309917: a(n) = N^(1/4) * log(N) / sqrt(log(log(N))) rounded to nearest integer, with N=10^n. Related to operation count of the deterministic factorization of an integer N using an improved Pollard-Strassen method.

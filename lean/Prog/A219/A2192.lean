@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -89,6 +90,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A219200: Number of partitions of n into 6 distinct primes.
@@ -503,7 +508,7 @@ end A219204.P16567268086886872362
 
 The programs for A219205, the canonical program `A219205.P207959306587260918` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219205 has offset 0).
 
-The definition of A219205 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A219205 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^(n-1)*(3^n-1)` (program `A219205.P4294908918251166056`, by `A219205.P4294908918251166056.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A219205.P4294908918251166056
@@ -528,6 +533,24 @@ namespace A219205
 /-- `3^(n-1)*(3^n-1)` -/
 def P4294908918251166056.Spec : Prop :=
   ∀ n, P4294908918251166056.a n = (A219205 n : ℚ)
+
+theorem P4294908918251166056.correct : P4294908918251166056.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A219205, Nat.add_sub_cancel, A219205.P4294908918251166056.a, A219205.P207959306587260918.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A219205, Nat.add_sub_cancel, A219205.P4294908918251166056.a, A219205.P207959306587260918.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1)
 
 end A219205
 
@@ -1464,6 +1487,12 @@ namespace A219207
 /-- `A007318(n)*A219206(n)` -/
 def P5206171407310489641.Spec : Prop :=
   ∀ n, P5206171407310489641.a n = A219207 n
+
+theorem P5206171407310489641.correct : P5206171407310489641.Spec := by
+  intro n
+  simp only [A219207, Nat.add_sub_cancel, A219207.P5206171407310489641.a, A219207.P12490393207679744017.a, A007318, A007318.P302227728145965961.a, A008459, A008459.P3220700038138124146.a, A102480, A102480.P6644944660085184188.a, A219206, A219206.P10901169306540035016.a, A002262, A002262.P12129691700837801527.a, A259525, A259525.P15603515225238104540.f1, A259525.P15603515225238104540.a, A003056, A003056.P5318256527314048597.a, A057944, A057944.P16851463738746886639.a, A074909, A074909.P6707642907239843837.f1, A074909.P6707642907239843837.a, A000217, A000217.P10269402890581615239.a, A010054, A010054.P18347828677204923252.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A219207
 
@@ -3014,35 +3043,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A219227.P611711752976764890
-
-/-! ## A219227.P12093143259701967076
-
-`comp[2*∑{digits}[n, #]*∑[char[1]+1+n]]`
--/
-
-namespace A219227.P12093143259701967076
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f4 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-open Classical in
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (if ∃ j, f4 j = n then 1 else 0) + 1 + n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * ((SequenceMachineLib.digits10 (f2 n)).map fun (x : ℕ) => x).sum * (∑ j ∈ Finset.range (n + 1), f3 j)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
-
-end
-
-end A219227.P12093143259701967076
 
 /-!
 # A219229: G.f.: exp( Sum_{n>=1} x^n/n * Product_{k>=1} (1 + x^(n*k)*(1 + x^n)^k) ).

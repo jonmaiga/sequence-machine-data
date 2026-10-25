@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -54,10 +55,10 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -94,6 +95,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A032801: Number of unordered sets a, b, c, d of distinct integers from 1..n such that a+b+c+d = 0 (mod n).
@@ -1351,6 +1356,12 @@ namespace A032806
 def P484249580612749693.Spec : Prop :=
   ∀ n, P484249580612749693.a n = (A032806 (n + 1) : ℚ)
 
+theorem P484249580612749693.correct : P484249580612749693.Spec := by
+  intro n
+  simp only [A032806, Nat.add_sub_cancel, A032806.P484249580612749693.a, A032806.P6530555208973634118.a, A032830, A032830.P14599917088282478471.a, A032927, A032927.P16396062760344607680.f1, A032927.P16396062760344607680.a, A147993, A147993.P9268513682852722789.a, A010673, A010673.P14010432101562150871.a, A065033, A065033.P13150710762287634520.a, A135517, A135517.P346222672956229891.a, A091090, A091090.P18330635638829780680.a, A000120, A000120.P2816527436160941581.a, A070939, A070939.P14677302147902843740.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A032806
 
 /-! ## A032806.P6999107343886832504
@@ -1373,6 +1384,12 @@ namespace A032806
 /-- `3*A032927(n+1)-A032913(n+1)` -/
 def P6999107343886832504.Spec : Prop :=
   ∀ n, P6999107343886832504.a n = A032806 (n + 1)
+
+theorem P6999107343886832504.correct : P6999107343886832504.Spec := by
+  intro n
+  simp only [A032806, Nat.add_sub_cancel, A032806.P6999107343886832504.a, A032806.P6530555208973634118.a, A032913, A032913.P14296521150570778594.a, A032927, A032927.P16396062760344607680.f1, A032927.P16396062760344607680.a, A147993, A147993.P9268513682852722789.a, A010673, A010673.P14010432101562150871.a, A065033, A065033.P13150710762287634520.a, A135517, A135517.P346222672956229891.a, A091090, A091090.P18330635638829780680.a, A000120, A000120.P2816527436160941581.a, A070939, A070939.P14677302147902843740.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A032806
 
@@ -3323,6 +3340,12 @@ namespace A032818
 def P16854104233901744281.Spec : Prop :=
   ∀ n, P16854104233901744281.a n = A032818 (n + 1)
 
+theorem P16854104233901744281.correct : P16854104233901744281.Spec := by
+  intro n
+  simp only [A032818, Nat.add_sub_cancel, A032818.P16854104233901744281.a, A032818.P11687481509006464414.a, A032806, A032806.P6530555208973634118.a, A032830, A032830.P14599917088282478471.a, A032927, A032927.P16396062760344607680.f1, A032927.P16396062760344607680.a, A135517, A135517.P346222672956229891.a, A147993, A147993.P9268513682852722789.a, A010673, A010673.P14010432101562150871.a, A065033, A065033.P13150710762287634520.a, A091090, A091090.P18330635638829780680.a, A000120, A000120.P2816527436160941581.a, A070939, A070939.P14677302147902843740.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A032818
 
 /-! ## A032818.P11687481509006464414
@@ -5189,6 +5212,12 @@ namespace A032830
 /-- `4*A032927(n+1)-A032818(n+1)` -/
 def P5354883503928142270.Spec : Prop :=
   ∀ n, P5354883503928142270.a n = A032830 (n + 1)
+
+theorem P5354883503928142270.correct : P5354883503928142270.Spec := by
+  intro n
+  simp only [A032830, Nat.add_sub_cancel, A032830.P5354883503928142270.a, A032830.P14599917088282478471.a, A032806, A032806.P6530555208973634118.a, A032818, A032818.P11687481509006464414.a, A032927, A032927.P16396062760344607680.f1, A032927.P16396062760344607680.a, A135517, A135517.P346222672956229891.a, A147993, A147993.P9268513682852722789.a, A010673, A010673.P14010432101562150871.a, A065033, A065033.P13150710762287634520.a, A091090, A091090.P18330635638829780680.a, A000120, A000120.P2816527436160941581.a, A070939, A070939.P14677302147902843740.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A032830
 
@@ -7431,7 +7460,7 @@ end A032848.P479366805325654508
 /-!
 # A032849: Numbers whose base-2 representation Sum_{i=0..m} d(i)*2^i has d(m) <= d(m-1) >= d(m-2) <= ...
 
-The programs for A032849, the canonical program `A032849.P8157283972770785231` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032849 has offset 1).
+The programs for A032849, the canonical program `A032849.P8157283972770785231` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032849 has offset 1).
 
 The definition of A032849 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1130 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7440,7 +7469,7 @@ The definition of A032849 is `conjectured`: the Lean definition is a formula tha
 
 `A038572(or(1, A160530(n+1)))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A032849
@@ -8310,6 +8339,27 @@ end A032856.P13145097995905000749
 
 The programs for A032857, there is no canonical definition to state claims against.
 -/
+
+/-! ## A032857.P16545025134319777945
+
+`eq[1, A211992(A213217(n+1))]+1`
+-/
+
+namespace A032857.P16545025134319777945
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A211992 (A213217 (n + 1)).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1
+
+end
+
+end A032857.P16545025134319777945
 
 /-! ## A032857.P9503605712422120125
 
@@ -9618,6 +9668,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A032869.P5382992088132052470
+
+/-! ## A032869.P11099419183761740667
+
+`lt[A395925(A030105(n)), A395925(n+2)]`
+-/
+
+namespace A032869.P11099419183761740667
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A395925 (A030105 n).toNat
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A395925 (n + 2)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A032869.P11099419183761740667
 
 /-!
 # A032870: Numbers whose base-7 representation Sum_{i=0..m} d(i)*7^i has d(m) >= d(m-1) <= d(m-2) >= ...

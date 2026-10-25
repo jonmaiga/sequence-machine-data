@@ -15,7 +15,6 @@ import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C036
@@ -32,8 +31,10 @@ import Seq.B002.C000
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C001
+import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C001
 import Seq.B008.C001
@@ -48,6 +49,7 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -92,6 +94,21 @@ end A396600.P8944289067799115218
 The programs for A396607, there is no canonical definition to state claims against.
 -/
 
+/-! ## A396607.P16844045200373185344
+
+`A359906(a(n-2))^(n+2)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=3`
+-/
+
+namespace A396607.P16844045200373185344
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1, 2, 3] fun n a =>
+  A359906 (a (n - 2)).toNat ^ (n + 2)
+
+end
+
+end A396607.P16844045200373185344
+
 /-! ## A396607.P2005972686014333359
 
 `A178133(A083184(n+1))`
@@ -106,27 +123,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A396607.P2005972686014333359
-
-/-! ## A396607.P6556282339304376658
-
-`eq[A030103(n), A031235(n)]`
--/
-
-namespace A396607.P6556282339304376658
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A030103 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A031235 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A396607.P6556282339304376658
 
 /-!
 # A396614: a(n) is the number of 4-ary sequences of length n with characteristic value 2.
@@ -1738,26 +1734,26 @@ end
 
 end A396685.P8320231387750400431
 
-/-! ## A396685.P4680396433012110562
+/-! ## A396685.P12999569349515440281
 
-`lt[A001897(n)-A120881(A186390(n+1)+1), n]`
+`lt[A002445(n), A022290(A038714(3*n))]`
 -/
 
-namespace A396685.P4680396433012110562
+namespace A396685.P12999569349515440281
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001897 n - A120881 (A186390 (n + 1) + 1).toNat
+  A002445 n
 
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A022290 (A038714 (3 * n)).toNat
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
 
 end
 
-end A396685.P4680396433012110562
+end A396685.P12999569349515440281
 
 /-!
 # A396686: a(n) = floor(2*log_2(n)) + 2.

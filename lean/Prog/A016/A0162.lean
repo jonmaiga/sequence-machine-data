@@ -48,11 +48,11 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C001
-import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -12704,6 +12704,21 @@ end
 
 end A016266.P12229888332567393095
 
+/-! ## A016266.P4126562154514891705
+
+`A010815(C(A345439(n), 10))`
+-/
+
+namespace A016266.P4126562154514891705
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010815 (Nat.choose (A345439 n).toNat 10)
+
+end
+
+end A016266.P4126562154514891705
+
 /-! ## A016266.P13753079076538281784
 
 `A000007(C(A230980(n), 12))`
@@ -12830,27 +12845,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A016266.P2342539074919359415
-
-/-! ## A016266.P5084034163835508687
-
-`A010060(∏[Δ[A304678(n+1)]])`
--/
-
-namespace A016266.P5084034163835508687
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A304678 (n + 1)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010060 (∏ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A016266.P5084034163835508687
 
 /-!
 # A016267: Expansion of 1/((1-x)(1-10x)(1-12x)).
@@ -13307,6 +13301,12 @@ namespace A016269
 /-- `A038721(n+1)/2` -/
 def P17341592646157514165.Spec : Prop :=
   ∀ n, P17341592646157514165.a n = (A016269 n : ℚ)
+
+theorem P17341592646157514165.correct : P17341592646157514165.Spec := by
+  intro n
+  simp only [A016269, Nat.add_sub_cancel, A016269.P17341592646157514165.a, A016269.P629723056826128420.a, A038721, A038721.P7529972670454928615.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A016269
 

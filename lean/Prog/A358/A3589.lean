@@ -1830,6 +1830,21 @@ end
 
 end A358965.P15535982445572481303
 
+/-! ## A358965.P16095279865960705634
+
+`A183094(A247012(n+1)+1)+A006013(n)`
+-/
+
+namespace A358965.P16095279865960705634
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A183094 (A247012 (n + 1) + 1).toNat + A006013 n
+
+end
+
+end A358965.P16095279865960705634
+
 /-!
 # A358970: Nonnegative numbers m such that if 2^k appears in the binary expansion of m, then k+1 divides m.
 
@@ -2797,7 +2812,7 @@ end A358987.P6160531269998640803
 /-!
 # A358988: Oblong numbers which are products of four distinct primes.
 
-The programs for A358988, the canonical program `A358988.P13199037608609698996` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358988 has offset 1).
+The programs for A358988, the canonical program `A358988.P13199037608609698996` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358988 has offset 1).
 
 The definition of A358988 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 878 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2806,7 +2821,7 @@ The definition of A358988 is `conjectured`: the Lean definition is a formula tha
 
 `record[lcm(2, A128896(n+3))]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A358988

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -63,9 +64,10 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C001
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -93,6 +95,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A227402: Number of unimodal functions f:[n]->[n^2].
@@ -866,6 +872,12 @@ namespace A227415
 /-- `Δ[A128882(n)]%(A128882(n)+1)` -/
 def P5089951530474174971.Spec : Prop :=
   ∀ n, P5089951530474174971.a n = A227415 n
+
+theorem P5089951530474174971.correct : P5089951530474174971.Spec := by
+  intro n
+  simp only [A227415, Nat.add_sub_cancel, A227415.P5089951530474174971.f1, A227415.P5089951530474174971.a, A227415.P15776540425176152285.f1, A227415.P15776540425176152285.a, A006882, A006882.P4505634677935663530.a, A128882, A128882.P10026494431697835336.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A227415
 
@@ -2101,6 +2113,12 @@ namespace A227428
 /-- `n+1-A062296(n)-A206424(n)` -/
 def P2026988094214198038.Spec : Prop :=
   ∀ n, P2026988094214198038.a n = A227428 n
+
+theorem P2026988094214198038.correct : P2026988094214198038.Spec := by
+  intro n
+  simp only [A227428, Nat.add_sub_cancel, A227428.P2026988094214198038.a, A227428.P16365958953958314226.a, A006047, A006047.P4068788115409844993.a, A062296, A062296.P12059922108062415392.a, A206424, A206424.P17237868033879064005.a, A109168, A109168.P7922441834976635510.a, A140472, A140472.P15813874920454231005.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A227428
 
@@ -4986,7 +5004,7 @@ end A227470.P16614335226881298892
 
 The programs for A227471, the canonical program `A227471.P1173354223507232729` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227471 has offset 1).
 
-The definition of A227471 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A023512, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A227471 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A227471.P1173354223507232729

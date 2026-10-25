@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -43,11 +44,14 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -76,6 +80,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A222000: Number of n X n arrays with each row a permutation of 1..n having at least as many downsteps as the preceding row, with rows in lexicographically nonincreasing order.
@@ -470,6 +478,12 @@ namespace A222001
 def P17847550482684240866.Spec : Prop :=
   ∀ n, P17847550482684240866.a n = A222001 (n + 1)
 
+theorem P17847550482684240866.correct : P17847550482684240866.Spec := by
+  intro n
+  simp only [A222001, Nat.add_sub_cancel, A222001.P17847550482684240866.f2, A222001.P17847550482684240866.f1, A222001.P17847550482684240866.a, A222001.P3078309820610259511.a, A353232, A353232.P8029843242093899343.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A222001
 
 /-! ## A222001.P3668139103055095397
@@ -495,6 +509,12 @@ namespace A222001
 /-- `Δ[A000332(n+4)+2*n]` -/
 def P3668139103055095397.Spec : Prop :=
   ∀ n, P3668139103055095397.a n = A222001 (n + 1)
+
+theorem P3668139103055095397.correct : P3668139103055095397.Spec := by
+  intro n
+  simp only [A222001, Nat.add_sub_cancel, A222001.P3668139103055095397.f1, A222001.P3668139103055095397.a, A222001.P3078309820610259511.a, A000332, A000332.P5946310388023661265.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A222001
 

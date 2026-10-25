@@ -45,15 +45,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -2013,6 +2009,24 @@ end A385369.P17421110636960856637
 The programs for A385371, there is no canonical definition to state claims against.
 -/
 
+/-! ## A385371.P13451957312223171879
+
+`∏[abs(1-2*n)]-A003415(A296406(n))`
+-/
+
+namespace A385371.P13451957312223171879
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |1 - (2 * n : ℤ)|
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∏ j ∈ Finset.range (n + 1), f1 j - A003415 (A296406 n).toNat
+
+end
+
+end A385371.P13451957312223171879
+
 /-! ## A385371.P7892047907713004982
 
 `A074286(A196555(n)+A004074(n+1))`
@@ -2898,7 +2912,7 @@ end A385392.P2875469479794678213
 /-!
 # A385393: a(n) = (Sum_{k=0..n} (binomial(n, k) mod 4)) / 2^bitcount(n).
 
-The programs for A385393, the canonical program `A385393.P12160656990847827648` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385393 has offset 0).
+The programs for A385393, the canonical program `A385393.P12160656990847827648` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385393 has offset 0).
 
 The definition of A385393 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A384715, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2907,7 +2921,7 @@ The definition of A385393 is `conditional`: the Lean definition is an OEIS formu
 
 `A384715(n)/A001316(n)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A385393

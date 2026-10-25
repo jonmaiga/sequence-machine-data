@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -50,13 +51,12 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -78,9 +78,12 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A220200: Number of nX4 arrays of the minimum value of corresponding elements and their horizontal, vertical or diagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..3 nX4 array.
@@ -1683,7 +1686,7 @@ end A220217.P1510677187554560360
 /-!
 # A220218: Numbers where all exponents in its prime factorization are one less than a prime.
 
-The programs for A220218, the canonical program `A220218.P17141423938851254412` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220218 has offset 1).
+The programs for A220218, the canonical program `A220218.P17141423938851254412` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A220218 has offset 1).
 
 The definition of A220218 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8796 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1750,7 +1753,7 @@ end A220218
 
 `eq[A001221(n+1), A058061(n+1)]+1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A220218
@@ -2882,6 +2885,12 @@ namespace A220236
 def P17168966385004516330.Spec : Prop :=
   ∀ n, P17168966385004516330.a n = A220236 (n + 1)
 
+theorem P17168966385004516330.correct : P17168966385004516330.Spec := by
+  intro n
+  simp only [A220236, Nat.add_sub_cancel, A220236.P17168966385004516330.a, A220236.P293150788813200794.a, A000051, A000051.P14067217022188782580.a, A000225, A000225.P6535533121115206393.a, A007283, A007283.P7218590649391847614.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A220236
 
 /-! ## A220236.P801625272944299639
@@ -2904,6 +2913,12 @@ namespace A220236
 /-- `(A020714(n+1)-A000225(n+1))*A000225(n+1)` -/
 def P801625272944299639.Spec : Prop :=
   ∀ n, P801625272944299639.a n = A220236 (n + 1)
+
+theorem P801625272944299639.correct : P801625272944299639.Spec := by
+  intro n
+  simp only [A220236, Nat.add_sub_cancel, A220236.P801625272944299639.a, A220236.P293150788813200794.a, A000225, A000225.P6535533121115206393.a, A020714, A020714.P4672987561035728998.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A220236
 
@@ -2928,6 +2943,12 @@ namespace A220236
 def P5676664086856732250.Spec : Prop :=
   ∀ n, P5676664086856732250.a n = A220236 (n + 1)
 
+theorem P5676664086856732250.correct : P5676664086856732250.Spec := by
+  intro n
+  simp only [A220236, Nat.add_sub_cancel, A220236.P5676664086856732250.a, A220236.P293150788813200794.a, A000225, A000225.P6535533121115206393.a, A086225, A086225.P10155150668756747458.a, A176448, A176448.P14409493927522167505.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A220236
 
 /-! ## A220236.P923655892184989110
@@ -2950,6 +2971,12 @@ namespace A220236
 /-- `(A159741(n+1)-A172252(n+1))*A000225(n+1)` -/
 def P923655892184989110.Spec : Prop :=
   ∀ n, P923655892184989110.a n = A220236 (n + 1)
+
+theorem P923655892184989110.correct : P923655892184989110.Spec := by
+  intro n
+  simp only [A220236, Nat.add_sub_cancel, A220236.P923655892184989110.a, A220236.P293150788813200794.a, A000225, A000225.P6535533121115206393.a, A159741, A159741.P12178551765370653186.a, A172252, A172252.P507886656103785375.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A220236
 

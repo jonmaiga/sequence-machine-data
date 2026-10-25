@@ -43,7 +43,6 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
@@ -6384,20 +6383,20 @@ end
 
 end A043464.P9321187555946902190
 
-/-! ## A043464.P17901988855313929477
+/-! ## A043464.P16443106624821476959
 
-`A037477(lcm(A008313(n), A043432(n+1)))`
+`A037477(lcm(2, A043432(n+1)))`
 -/
 
-namespace A043464.P17901988855313929477
+namespace A043464.P16443106624821476959
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037477 (Int.lcm (A008313 n) (A043432 (n + 1)))
+  A037477 (Int.lcm 2 (A043432 (n + 1)))
 
 end
 
-end A043464.P17901988855313929477
+end A043464.P16443106624821476959
 
 /-! ## A043464.P2167878948133593518
 

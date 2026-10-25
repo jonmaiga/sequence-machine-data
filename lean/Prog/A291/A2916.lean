@@ -50,6 +50,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -58,13 +59,13 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
+import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
@@ -1916,6 +1917,12 @@ namespace A291632
 /-- `A018191(n)-A047974(n)` -/
 def P7525544287999559095.Spec : Prop :=
   ∀ n, P7525544287999559095.a n = A291632 n
+
+theorem P7525544287999559095.correct : P7525544287999559095.Spec := by
+  intro n
+  simp only [A291632, Nat.add_sub_cancel, A291632.P7525544287999559095.a, A291632.P11985089398796829925.a, A018191, A018191.P5198761685577893535.a, A047974, A047974.P8522746012414370247.a, A122832, A122832.P6114513081760311562.a, A161680, A161680.P17206074215489759881.a, A007318, A007318.P302227728145965961.a, A025581, A025581.P420762180635059694.a, A004736, A004736.P10337537277358081527.a, A259525, A259525.P15603515225238104540.f1, A259525.P15603515225238104540.a, A000217, A000217.P10269402890581615239.a, A002024, A002024.P11700297927830783882.a, A003056, A003056.P5318256527314048597.a, A074909, A074909.P6707642907239843837.f1, A074909.P6707642907239843837.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A291632
 
@@ -7040,7 +7047,7 @@ end A291685.P13618853184650989124
 /-!
 # A291686: Numbers whose prime indices other than 1 are distinct prime numbers.
 
-The programs for A291686, the canonical program `A291686.P6064042284927362278` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291686 has offset 1).
+The programs for A291686, the canonical program `A291686.P6064042284927362278` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291686 has offset 1).
 
 The definition of A291686 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7049,7 +7056,7 @@ The definition of A291686 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A005087(n+1), A302242(n+1)]+1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A291686
@@ -7654,6 +7661,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A291691.P17781533162270882554
+
+/-! ## A291691.P1681673255521212756
+
+`A087634(n+1)+A000122(A262029(3*n+4))`
+-/
+
+namespace A291691.P1681673255521212756
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A087634 (n + 1) + A000122 (A262029 (3 * n + 4)).toNat
+
+end
+
+end A291691.P1681673255521212756
 
 /-!
 # A291693: Expansion of Product_{k>=1} (1 + x^q(k)), where q(k) = [x^k] Product_{k>=1} (1 + x^k).

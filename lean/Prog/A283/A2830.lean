@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -52,15 +53,16 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -90,6 +92,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A283000: Expansion of chi(-x)^2 * chi(x^3)^2 * chi(-x^4) / chi(x^6) in powers of x where chi() is a Ramanujan theta function.
@@ -2119,6 +2125,12 @@ namespace A283025
 def P9906981844124624161.Spec : Prop :=
   ∀ n, P9906981844124624161.a n = A283025 (n + 1)
 
+theorem P9906981844124624161.correct : P9906981844124624161.Spec := by
+  intro n
+  simp only [A283025, Nat.add_sub_cancel, A283025.P9906981844124624161.f1, A283025.P9906981844124624161.a, A283025.P6503046752952569404.a, A005185, A005185.P15523785795587217945.a, A076268, A076268.P1633902473855064170.f1, A076268.P1633902473855064170.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A283025
 
 /-! ## A283025.P9025597217817384659
@@ -2170,6 +2182,12 @@ namespace A283025
 /-- `∑[A004001(n+1)-A284019(n+1)]%(n+1)` -/
 def P17017514446777613243.Spec : Prop :=
   ∀ n, P17017514446777613243.a n = A283025 (n + 1)
+
+theorem P17017514446777613243.correct : P17017514446777613243.Spec := by
+  intro n
+  simp only [A283025, Nat.add_sub_cancel, A283025.P17017514446777613243.f1, A283025.P17017514446777613243.a, A283025.P6503046752952569404.a, A004001, A004001.P15027099775036681873.a, A076268, A076268.P1633902473855064170.f1, A076268.P1633902473855064170.a, A284019, A284019.P8425388726725023330.a, A005185, A005185.P15523785795587217945.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A283025
 
@@ -5846,6 +5864,12 @@ namespace A283070
 def P13067367452635937634.Spec : Prop :=
   ∀ n, P13067367452635937634.a n = A283070 n
 
+theorem P13067367452635937634.correct : P13067367452635937634.Spec := by
+  intro n
+  simp only [A283070, Nat.add_sub_cancel, A283070.P13067367452635937634.a, A283070.P730277057158743359.a, A052539, A052539.P3422248518252475595.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A283070
 
 /-! ## A283070.P2944010475439498964
@@ -6258,6 +6282,12 @@ namespace A283070
 def P3409725956369206386.Spec : Prop :=
   ∀ n, P3409725956369206386.a n = A283070 n
 
+theorem P3409725956369206386.correct : P3409725956369206386.Spec := by
+  intro n
+  simp only [A283070, Nat.add_sub_cancel, A283070.P3409725956369206386.a, A283070.P730277057158743359.a, A000302, A000302.P5166485833484575275.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A283070
 
 /-! ## A283070.P18136536248457719029
@@ -6595,6 +6625,12 @@ namespace A283078
 def P6902777749297667243.Spec : Prop :=
   ∀ n, P6902777749297667243.a n = A283078 (n + 1)
 
+theorem P6902777749297667243.correct : P6902777749297667243.Spec := by
+  intro n
+  simp only [A283078, Nat.add_sub_cancel, A283078.P6902777749297667243.a, A283078.P17181704227828323299.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A088580, A088580.P3089093194242277422.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A283078
 
 /-! ## A283078.P14630840537303673527
@@ -6767,6 +6803,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A283080.P6642137035770584955
+
+/-! ## A283080.P6512846511022024430
+
+`A185544(A283082(n)+A283082(n))`
+-/
+
+namespace A283080.P6512846511022024430
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A185544 (A283082 n + A283082 n).toNat
+
+end
+
+end A283080.P6512846511022024430
 
 /-!
 # A283082: Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 573", based on the 5-celled von Neumann neighborhood.

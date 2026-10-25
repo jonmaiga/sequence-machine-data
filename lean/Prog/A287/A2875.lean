@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -46,6 +47,7 @@ import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -53,6 +55,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -77,6 +80,10 @@ import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A287500: Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 291", based on the 5-celled von Neumann neighborhood.
@@ -3814,6 +3821,12 @@ namespace A287528
 def P7839080916621321687.Spec : Prop :=
   ∀ n, P7839080916621321687.a n = A287528 (n + 1)
 
+theorem P7839080916621321687.correct : P7839080916621321687.Spec := by
+  intro n
+  simp only [A287528, Nat.add_sub_cancel, A287528.P7839080916621321687.a, A287528.P8977328754307273010.a, A189632, A189632.P15931714177452615149.a, A189668, A189668.P16396119617420465884.a, A287529, A287529.P12551350988628766671.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A287528
 
 /-! ## A287528.P1275935855571211443
@@ -4049,6 +4062,12 @@ namespace A287529
 /-- `A189634(n+1)+A287528(n+1)²-2` -/
 def P5654879408042970987.Spec : Prop :=
   ∀ n, P5654879408042970987.a n = A287529 (n + 1)
+
+theorem P5654879408042970987.correct : P5654879408042970987.Spec := by
+  intro n
+  simp only [A287529, Nat.add_sub_cancel, A287529.P5654879408042970987.a, A287529.P12551350988628766671.a, A189634, A189634.P909356562777891474.a, A287528, A287528.P8977328754307273010.a, A189632, A189632.P15931714177452615149.a, A189668, A189668.P16396119617420465884.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A287529
 
@@ -6344,7 +6363,7 @@ end A287552
 /-!
 # A287553: Positions of 1 in A053839.
 
-The programs for A287553, the canonical program `A287553.P11148344650868308369` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287553 has offset 1).
+The programs for A287553, the canonical program `A287553.P11148344650868308369` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287553 has offset 1).
 
 The definition of A287553 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6353,7 +6372,7 @@ The definition of A287553 is `conjectured`: the Lean definition is a formula tha
 
 `-xor(2, -A287555(n+1))`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A287553

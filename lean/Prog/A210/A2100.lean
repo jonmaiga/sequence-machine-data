@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -49,7 +50,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -85,7 +86,11 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C024
+import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A210000: Number of unimodular 2 X 2 matrices having all terms in {0,1,...,n}.
@@ -1267,6 +1272,12 @@ namespace A210021
 def P11671672159513984371.Spec : Prop :=
   ∀ n, P11671672159513984371.a n = A210021 n
 
+theorem P11671672159513984371.correct : P11671672159513984371.Spec := by
+  intro n
+  simp only [A210021, Nat.add_sub_cancel, A210021.P11671672159513984371.a, A210021.P1607339052362857866.a, A276785, A276785.P5311190698958443462.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A210021
 
 /-! ## A210021.P17468580240026967275
@@ -1312,6 +1323,12 @@ namespace A210021
 /-- `A000051(n)-(A276785(n)+1)` -/
 def P891659382613815906.Spec : Prop :=
   ∀ n, P891659382613815906.a n = A210021 n
+
+theorem P891659382613815906.correct : P891659382613815906.Spec := by
+  intro n
+  simp only [A210021, Nat.add_sub_cancel, A210021.P891659382613815906.a, A210021.P1607339052362857866.a, A000051, A000051.P14067217022188782580.a, A276785, A276785.P5311190698958443462.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A210021
 

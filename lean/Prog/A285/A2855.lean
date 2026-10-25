@@ -51,6 +51,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -1516,7 +1517,7 @@ end A285507
 /-!
 # A285508: Numbers with exactly three prime factors, not all distinct.
 
-The programs for A285508, the canonical program `A285508.P10690134456776123429` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A285508 has offset 1).
+The programs for A285508, the canonical program `A285508.P10690134456776123429` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A285508 has offset 1).
 
 The definition of A285508 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1555,7 +1556,7 @@ end A285508
 
 `∪[A030078(n+1), A054753(n+1)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A285508

@@ -58,7 +58,6 @@ import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -3488,8 +3487,29 @@ end A358352.P2214972812369199422
 /-!
 # A358353: Numbers that are not of the form m + (sum of digits of m) + (product of digits of m) for any m.
 
-The programs for A358353, there is no canonical definition to state claims against.
+The programs for A358353, the canonical program `A358353.P8300378893416696419` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358353 has offset 1).
+
+The definition of A358353 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1874 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A358353.P8300378893416696419
+
+`eq[char[A161351(n+1)], A000038(n)]`
+
+The canonical program, it is in `Seq.B003.C004`.
+-/
+
+namespace A358353
+
+/-- `eq[char[A161351(n+1)], A000038(n)]` -/
+def P8300378893416696419.Spec : Prop :=
+  ∀ n, (P8300378893416696419.a n : ℤ) = A358353 (n + 1)
+
+theorem P8300378893416696419.correct : P8300378893416696419.Spec := by
+  intro n
+  simp only [A358353, Nat.add_sub_cancel]
+
+end A358353
 
 /-! ## A358353.P7074027360544024857
 
@@ -3512,6 +3532,14 @@ end
 
 end A358353.P7074027360544024857
 
+namespace A358353
+
+/-- `eq[0, A358351(n+1)]+1` -/
+def P7074027360544024857.Spec : Prop :=
+  ∀ n, (P7074027360544024857.a n : ℤ) = A358353 (n + 1)
+
+end A358353
+
 /-! ## A358353.P12675389052718665882
 
 `lt[A358351(n+1), A006519(2*n+3)]+1`
@@ -3532,6 +3560,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A358353.P12675389052718665882
+
+namespace A358353
+
+/-- `lt[A358351(n+1), A006519(2*n+3)]+1` -/
+def P12675389052718665882.Spec : Prop :=
+  ∀ n, (P12675389052718665882.a n : ℤ) = A358353 (n + 1)
+
+end A358353
 
 /-! ## A358353.P8286717008952026996
 
@@ -3554,6 +3590,14 @@ end
 
 end A358353.P8286717008952026996
 
+namespace A358353
+
+/-- `lt[A358351(A028310(n)), A057427(n)]` -/
+def P8286717008952026996.Spec : Prop :=
+  ∀ n, (P8286717008952026996.a n : ℤ) = A358353 (n + 1)
+
+end A358353
+
 /-! ## A358353.P13049747773760127310
 
 `eq[A011739(n), A025858(n)]`
@@ -3575,26 +3619,13 @@ end
 
 end A358353.P13049747773760127310
 
-/-! ## A358353.P5758454595353748714
+namespace A358353
 
-`eq[A025858(n), A235044(n)]`
--/
+/-- `eq[A011739(n), A025858(n)]` -/
+def P13049747773760127310.Spec : Prop :=
+  ∀ n, (P13049747773760127310.a n : ℤ) = A358353 (n + 1)
 
-namespace A358353.P5758454595353748714
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025858 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A235044 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A358353.P5758454595353748714
+end A358353
 
 /-!
 # A358359: a(n) = number of occurrences of n in A128440; i.e., as a number [k*r^m], where r = golden ratio = (1+sqrt(5))/2, k and m are positive integers, and [ ] = floor.
@@ -5217,20 +5248,24 @@ end
 
 end A358372.P8387713245675890895
 
-/-! ## A358372.P5942209795033458465
+/-! ## A358372.P15306437506708239283
 
-`dr(A323665(2*n+1))`
+`dr(A323665(comp[2*n]))`
 -/
 
-namespace A358372.P5942209795033458465
+namespace A358372.P15306437506708239283
 noncomputable section
 
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.digitalRoot (A323665 (2 * n + 1))
+  SequenceMachineLib.digitalRoot (A323665 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n))
 
 end
 
-end A358372.P5942209795033458465
+end A358372.P15306437506708239283
 
 /-! ## A358372.P14846679889783541788
 

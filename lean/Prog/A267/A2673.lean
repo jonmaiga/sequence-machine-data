@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -55,10 +56,8 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
@@ -77,6 +76,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -87,6 +87,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A267300: Earliest positive increasing sequence having no 5-term subsequence with constant second differences.
@@ -7457,6 +7461,12 @@ namespace A267368
 def P6750118309468205859.Spec : Prop :=
   ∀ n, P6750118309468205859.a n = A267368 n
 
+theorem P6750118309468205859.correct : P6750118309468205859.Spec := by
+  intro n
+  simp only [A267368, Nat.add_sub_cancel, A267368.P6750118309468205859.a, A267368.P9350065740926405642.f1, A267368.P9350065740926405642.a, A071051, A071051.P15402444930345305541.a, A267369, A267369.P3092922467413671371.a, A036987, A036987.P1789601236562705309.a, A117973, A117973.P11230116199213534894.a, A001316, A001316.P6850078358198232129.a, A000120, A000120.P2816527436160941581.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A267368
 
 /-! ## A267368.P6096263833748438444
@@ -7508,6 +7518,12 @@ namespace A267368
 /-- `A005563(n)+1-A267369(n)` -/
 def P14823693015647247003.Spec : Prop :=
   ∀ n, P14823693015647247003.a n = A267368 n
+
+theorem P14823693015647247003.correct : P14823693015647247003.Spec := by
+  intro n
+  simp only [A267368, Nat.add_sub_cancel, A267368.P14823693015647247003.a, A267368.P9350065740926405642.f1, A267368.P9350065740926405642.a, A005563, A005563.P13300161655551567421.a, A071051, A071051.P15402444930345305541.a, A267369, A267369.P3092922467413671371.a, A036987, A036987.P1789601236562705309.a, A117973, A117973.P11230116199213534894.a, A001316, A001316.P6850078358198232129.a, A000120, A000120.P2816527436160941581.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A267368
 

@@ -35,6 +35,7 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
@@ -48,15 +49,14 @@ import Seq.B003.C001
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
-import Seq.B007.C000
-import Seq.B007.C002
+import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
@@ -161,6 +161,29 @@ def P1224358752922325987.Spec : Prop :=
 
 end A390800
 
+/-! ## A390800.P166344252453897179
+
+`A114999(A133263(n)-A001221(n+1))`
+-/
+
+namespace A390800.P166344252453897179
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A114999 (A133263 n - A001221 (n + 1)).toNat
+
+end
+
+end A390800.P166344252453897179
+
+namespace A390800
+
+/-- `A114999(A133263(n)-A001221(n+1))` -/
+def P166344252453897179.Spec : Prop :=
+  ∀ n, P166344252453897179.a n = A390800 (n + 1)
+
+end A390800
+
 /-! ## A390800.P867341390646203326
 
 `A000217(A031218(n+1)%A004023(n+1))`
@@ -184,33 +207,10 @@ def P867341390646203326.Spec : Prop :=
 
 end A390800
 
-/-! ## A390800.P6401024340857135084
-
-`A000217(A385199(n+1)%A127424(3*(n+1)))`
--/
-
-namespace A390800.P6401024340857135084
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000217 (Int.tmod (A385199 (n + 1)) (A127424 (3 * (n + 1)))).toNat
-
-end
-
-end A390800.P6401024340857135084
-
-namespace A390800
-
-/-- `A000217(A385199(n+1)%A127424(3*(n+1)))` -/
-def P6401024340857135084.Spec : Prop :=
-  ∀ n, P6401024340857135084.a n = A390800 (n + 1)
-
-end A390800
-
 /-!
 # A390801: The sum of the integers k from 1 to n such that gcd(n, k) is prime.
 
-The programs for A390801, the canonical program `A390801.P2099821867161505700` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390801 has offset 1).
+The programs for A390801, the canonical program `A390801.P2099821867161505700` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390801 has offset 1).
 
 The definition of A390801 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010051, A117494, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -219,7 +219,7 @@ The definition of A390801 is `conditional`: the Lean definition is an OEIS formu
 
 `(A010051(n+1)+1)*(n+1)*A117494(n+1)/2`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A390801
@@ -1711,6 +1711,24 @@ end
 
 end A390815.P10026108397120708685
 
+/-! ## A390815.P1483307190608933195
+
+`A020639(∑{d}[A325436(n+1), #])`
+-/
+
+namespace A390815.P1483307190608933195
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325436 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A020639 (∑ d ∈ Nat.divisors (f1 n).natAbs, d)
+
+end
+
+end A390815.P1483307190608933195
+
 /-! ## A390815.P6226526655833960064
 
 `A355934(A325436(n+1))`
@@ -1792,20 +1810,20 @@ end
 
 end A390816.P619242626902217973
 
-/-! ## A390816.P2525240196336345610
+/-! ## A390816.P8906031156566086700
 
-`A075680(A000079(n))%A006339(n)`
+`A075680(A000079(n))%A004009(n)`
 -/
 
-namespace A390816.P2525240196336345610
+namespace A390816.P8906031156566086700
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A075680 (A000079 n).toNat) (A006339 n)
+  Int.tmod (A075680 (A000079 n).toNat) (A004009 n)
 
 end
 
-end A390816.P2525240196336345610
+end A390816.P8906031156566086700
 
 /-!
 # A390817: Number of tripling steps to reach 1 in the 3x+1 (Collatz) problem starting with the n-th Mersenne prime.
@@ -2559,6 +2577,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A390842.P3057198036392543211
+
+/-!
+# A390843: 5-valuation of Product_{1 <= k <= n} (prime(k) + 1) / (prime(k+1) - prime(k)).
+
+The programs for A390843, there is no canonical definition to state claims against.
+-/
+
+/-! ## A390843.P12498181628268778222
+
+`A185715(A008578(n+1))%A335126(2*(n+1))`
+-/
+
+namespace A390843.P12498181628268778222
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A185715 (A008578 (n + 1)).toNat) (A335126 (2 * (n + 1)))
+
+end
+
+end A390843.P12498181628268778222
 
 /-!
 # A390850: a(n) = Sum_{k=0..n} (-1)^k * binomial(n+k-1,n-k) * Fibonacci(k+1).
@@ -3342,6 +3381,30 @@ end A390857.P11370149906823621082
 The programs for A390858, there is no canonical definition to state claims against.
 -/
 
+/-! ## A390858.P1032345828113171618
+
+`∑[∑[∑[A390857(n)]]]`
+-/
+
+namespace A390858.P1032345828113171618
+noncomputable section
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A390857 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f3 j
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A390858.P1032345828113171618
+
 /-! ## A390858.P13564630230370693681
 
 `A048575(n)-A390855(n)`
@@ -3714,6 +3777,24 @@ end
 
 end A390863.P14618555526098594648
 
+/-! ## A390863.P15198331769819957006
+
+`A390867(n+1)%Δ[A359692(n+1)]`
+-/
+
+namespace A390863.P15198331769819957006
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A359692 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A390867 (n + 1)) (f1 (n + 1) - f1 n)
+
+end
+
+end A390863.P15198331769819957006
+
 /-! ## A390863.P3264674295589422995
 
 `A390867(n+1)+A390568(floor(2^(n-1)))`
@@ -3743,21 +3824,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A390863.P12757966069602267148
-
-/-! ## A390863.P13615522254350507973
-
-`A295660(A007283(n))*A390867(n+1)`
--/
-
-namespace A390863.P13615522254350507973
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A295660 (A007283 n).toNat * A390867 (n + 1)
-
-end
-
-end A390863.P13615522254350507973
 
 /-!
 # A390864: The number of integers k from 1 to n such that gcd(n, k) is a noninfinitary divisor of n.

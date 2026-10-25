@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -56,10 +57,9 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
-import Seq.B009.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -89,6 +89,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A381900: Sequence where k is appended after every (2^(k-1))*k occurrences of 1, with multiple values following a 1 listed in order.
@@ -483,20 +487,20 @@ end A381910.P13423661001778597476
 The programs for A381911, there is no canonical definition to state claims against.
 -/
 
-/-! ## A381911.P17764305083651970777
+/-! ## A381911.P17735971672371663730
 
-`A218469(A083420(n))`
+`A091005(n)+A064413(A364592(n))`
 -/
 
-namespace A381911.P17764305083651970777
+namespace A381911.P17735971672371663730
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A218469 (A083420 n).toNat
+  A091005 n + A064413 (A364592 n).toNat
 
 end
 
-end A381911.P17764305083651970777
+end A381911.P17735971672371663730
 
 /-!
 # A381912: Expansion of (1/x) * Series_Reversion( x * (1-x)^2 / B(x) ), where B(x) is the g.f. of A001764.
@@ -806,7 +810,7 @@ end A381919.P10921249292361183009
 /-!
 # A381920: Hexagonal numbers that are products of exactly four distinct primes.
 
-The programs for A381920, the canonical program `A381920.P15799259453814782413` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381920 has offset 1).
+The programs for A381920, the canonical program `A381920.P15799259453814782413` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381920 has offset 1).
 
 The definition of A381920 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 604 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -815,7 +819,7 @@ The definition of A381920 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A333771(n+1), A000384(n)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A381920
@@ -1631,6 +1635,12 @@ namespace A381936
 /-- `A225202(n+1)-A007436(n+1)` -/
 def P1022055012834064411.Spec : Prop :=
   ∀ n, P1022055012834064411.a n = A381936 (n + 1)
+
+theorem P1022055012834064411.correct : P1022055012834064411.Spec := by
+  intro n
+  simp only [A381936, Nat.add_sub_cancel, A381936.P1022055012834064411.a, A381936.P11903548099924584653.f1, A381936.P11903548099924584653.a, A007427, A007427.P16346481250890679101.f1, A007427.P16346481250890679101.a, A007436, A007436.P13094445126418984546.f1, A007436.P13094445126418984546.a, A108046, A108046.P11021715180848033602.f1, A108046.P11021715180848033602.a, A225202, A225202.P13080212404416054348.a, A000045, A000045.P11838749114346432762.a, A007435, A007435.P9180709624338983869.a, A245282, A245282.P6452615831386113322.f1, A245282.P6452615831386113322.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A381936
 
@@ -3688,7 +3698,7 @@ end A381959.P15904101509759246820
 /-!
 # A381960: Centered heptagonal numbers which are semiprime.
 
-The programs for A381960, the canonical program `A381960.P9260665079646800432` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381960 has offset 1).
+The programs for A381960, the canonical program `A381960.P9260665079646800432` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381960 has offset 1).
 
 The definition of A381960 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3697,7 +3707,7 @@ The definition of A381960 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A069099(n+1), A186525(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A381960

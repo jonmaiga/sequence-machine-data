@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -90,6 +91,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A229800: 
@@ -7629,6 +7634,12 @@ namespace A229882
 /-- `(A295243(n+1)-A007674(n+1))*A007674(n+1)` -/
 def P6300633500391862432.Spec : Prop :=
   ∀ n, P6300633500391862432.a n = A229882 (n + 1)
+
+theorem P6300633500391862432.correct : P6300633500391862432.Spec := by
+  intro n
+  simp only [A229882, Nat.add_sub_cancel, A229882.P6300633500391862432.a, A229882.P2075050429214835395.a, A007674, A007674.P4121978718907005715.f1, A007674.P4121978718907005715.f2, A007674.P4121978718907005715.a, A295243, A295243.P15372038022055432916.a, A087049, A087049.P15788393958415365993.f1, A087049.P15788393958415365993.a, A105570, A105570.P6688953478002029428.f1, A105570.P6688953478002029428.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A229882
 

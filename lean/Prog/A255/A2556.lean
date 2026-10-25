@@ -9379,6 +9379,12 @@ namespace A255670
 def P12771891640223871366.Spec : Prop :=
   ∀ n, P12771891640223871366.a n = A255670 (n + 1)
 
+theorem P12771891640223871366.correct : P12771891640223871366.Spec := by
+  intro n
+  simp only [A255670, Nat.add_sub_cancel, A255670.P12771891640223871366.a, A255670.P14046333864495007464.a, A000201, A000201.P2935798382643029248.a, A035612, A035612.P7106491847305260424.a, A255671, A255671.P11613518622091459689.a, A022340, A022340.P3334581410869230776.a, A003714, A003714.P565032106299634425.a, A022342, A022342.P1190268710273068250.a, A003849, A003849.P15070805603138295355.a, A193564, A193564.P10859496068576138660.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A255670
 
 /-! ## A255670.P14046333864495007464
@@ -10008,7 +10014,7 @@ end A255673.P15240365725764046903
 /-!
 # A255675: Least integer k such that the n-th prime of form m^2+1 divides the composite number k^2+1.
 
-The programs for A255675, the canonical program `A255675.P391171638114962295` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255675 has offset 1).
+The programs for A255675, the canonical program `A255675.P391171638114962295` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255675 has offset 1).
 
 The definition of A255675 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1007 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10040,7 +10046,7 @@ end A255675
 
 `A121326(n%a(n-1))-A005574(n+1)` with `a(0)=3`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A255675
@@ -10847,6 +10853,12 @@ namespace A255683
 /-- `A000120(n+1)*A000225(A000523(n+1)+1)` -/
 def P9218389086106969577.Spec : Prop :=
   ∀ n, P9218389086106969577.a n = A255683 (n + 1)
+
+theorem P9218389086106969577.correct : P9218389086106969577.Spec := by
+  intro n
+  simp only [A255683, Nat.add_sub_cancel, A255683.P9218389086106969577.a, A255683.P1316510834808175680.a, A000120, A000120.P2816527436160941581.a, A000225, A000225.P6535533121115206393.a, A000523, A000523.P3314682526375882520.a, A000918, A000918.P14329454465793069288.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A255683
 

@@ -55,10 +55,11 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -1828,7 +1829,7 @@ end A125720.P18401383951843309909
 
 The programs for A125721, the canonical program `A125721.P13273067158620434452` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125721 has offset 0).
 
-The definition of A125721 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A027423, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A125721 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A125721.P13273067158620434452
@@ -4333,20 +4334,20 @@ end
 
 end A125750.P13359736247076434734
 
-/-! ## A125750.P2962776999104223878
+/-! ## A125750.P11070760707485153106
 
-`2*A125714(n+1)-A130534(n)`
+`2*A125714(1+n)-A130534(n)`
 -/
 
-namespace A125750.P2962776999104223878
+namespace A125750.P11070760707485153106
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * A125714 (n + 1) - A130534 n
+  2 * A125714 (1 + n) - A130534 n
 
 end
 
-end A125750.P2962776999104223878
+end A125750.P11070760707485153106
 
 /-! ## A125750.P6015418142372013025
 
@@ -5278,27 +5279,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A125762.P7320037688490817524
-
-/-!
-# A125763: Numbers k such that k^2 is a term of A120329.
-
-The programs for A125763, there is no canonical definition to state claims against.
--/
-
-/-! ## A125763.P3146476690139560926
-
-`a(n-1)` with `a(0)=1, a(1)=2, a(2)=3, a(3)=20, a(4)=103`
--/
-
-namespace A125763.P3146476690139560926
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 2, 3, 20, 103] fun n a =>
-  a (n - 1)
-
-end
-
-end A125763.P3146476690139560926
 
 /-!
 # A125764: Array of partial sums of rows of array in A086271, read by antidiagonals.

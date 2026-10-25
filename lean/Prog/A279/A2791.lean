@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -55,6 +56,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B010.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -77,11 +79,14 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A279100: a(n) = Sum_{k=0..n} ceiling(phi^k), where phi is the golden ratio (A001622).
@@ -6333,6 +6338,12 @@ namespace A279169
 /-- `A118015(2*n)` -/
 def P7845418219708011493.Spec : Prop :=
   ∀ n, P7845418219708011493.a n = A279169 n
+
+theorem P7845418219708011493.correct : P7845418219708011493.Spec := by
+  intro n
+  simp only [A279169, Nat.add_sub_cancel, A279169.P7845418219708011493.a, A279169.P11329106078503727627.a, A118015, A118015.P9136959961094046936.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A279169
 

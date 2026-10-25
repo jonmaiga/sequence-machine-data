@@ -90,6 +90,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -1652,6 +1653,12 @@ namespace A274824
 /-- `(A025581(n)+1)*A245093(n+1)` -/
 def P1565439694275175603.Spec : Prop :=
   ∀ n, P1565439694275175603.a n = A274824 (n + 1)
+
+theorem P1565439694275175603.correct : P1565439694275175603.Spec := by
+  intro n
+  simp only [A274824, Nat.add_sub_cancel, A274824.P1565439694275175603.a, A274824.P3690629462728526552.a, A004736, A004736.P10337537277358081527.a, A025581, A025581.P420762180635059694.a, A245093, A245093.P1980232344723571166.f1, A245093.P1980232344723571166.a, A000217, A000217.P10269402890581615239.a, A002024, A002024.P11700297927830783882.a, A002260, A002260.P769748059679640451.a, A002262, A002262.P12129691700837801527.a, A057944, A057944.P16851463738746886639.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A274824
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -68,8 +69,8 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -95,6 +96,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A033600: Coordination sequence T2 for Zeolite Code CFI.
@@ -3074,6 +3079,12 @@ namespace A033638
 /-- `1+floor(n²/4)` -/
 def P12205945644349206478.Spec : Prop :=
   ∀ n, P12205945644349206478.a n = A033638 n
+
+theorem P12205945644349206478.correct : P12205945644349206478.Spec := by
+  intro n
+  simp only [A033638, Nat.add_sub_cancel, A033638.P12205945644349206478.a, A033638.P14460038369392948833.a, A002620, A002620.P9002536657626793813.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A033638
 
@@ -6147,6 +6158,12 @@ namespace A033669
 def P6019919206607817847.Spec : Prop :=
   ∀ n, P6019919206607817847.a n = A033669 n
 
+theorem P6019919206607817847.correct : P6019919206607817847.Spec := by
+  intro n
+  simp only [A033669, Nat.add_sub_cancel, A033669.P6019919206607817847.a, A033669.P8372327217254903753.a, A037251, A037251.P2363510451119139966.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A033669
 
 /-! ## A033669.P12518373183907154751
@@ -8306,6 +8323,12 @@ namespace A033685
 /-- `A217219(n)/2` -/
 def P7650385957746693717.Spec : Prop :=
   ∀ n, P7650385957746693717.a n = (A033685 n : ℚ)
+
+theorem P7650385957746693717.correct : P7650385957746693717.Spec := by
+  intro n
+  simp only [A033685, Nat.add_sub_cancel, A033685.P7650385957746693717.a, A033685.P5820918837906960133.a, A045833, A045833.P12838744438603727675.f1, A045833.P12838744438603727675.a, A217219, A217219.P6754064516663132838.a, A091684, A091684.P4172566819234303247.a, A102283, A102283.P18218274576938374007.a, A011655, A011655.P6146775691868591852.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A033685
 

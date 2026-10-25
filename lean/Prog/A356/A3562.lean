@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
@@ -55,12 +56,12 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -95,6 +96,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A356200: Number of edge covers in the n-gear graph.
@@ -574,6 +579,12 @@ namespace A356217
 /-- `A190511(floor(ϕ*(n+1)))+1` -/
 def P8516692820414237025.Spec : Prop :=
   ∀ n, P8516692820414237025.a n = A356217 (n + 1)
+
+theorem P8516692820414237025.correct : P8516692820414237025.Spec := by
+  intro n
+  simp only [A356217, Nat.add_sub_cancel, A356217.P8516692820414237025.a, A356217.P6257912872114200972.a, A000201, A000201.P2935798382643029248.a, A022839, A022839.P1029373569643495419.a, A190511, A190511.P10122857199414912232.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A356217
 
@@ -1326,23 +1337,23 @@ end A356220
 The programs for A356221, there is no canonical definition to state claims against.
 -/
 
-/-! ## A356221.P16695610173330584324
+/-! ## A356221.P11166444411447384458
 
-`A174349(∑[n+2])`
+`A174349(∑[2+n])`
 -/
 
-namespace A356221.P16695610173330584324
+namespace A356221.P11166444411447384458
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 2
+  2 + n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A174349 (∑ j ∈ Finset.range (n + 1), f1 j)
 
 end
 
-end A356221.P16695610173330584324
+end A356221.P11166444411447384458
 
 /-! ## A356221.P5268011756958891307
 
@@ -4344,6 +4355,12 @@ namespace A356248
 def P14509938561562264436.Spec : Prop :=
   ∀ n, P14509938561562264436.a n = A356248 n
 
+theorem P14509938561562264436.correct : P14509938561562264436.Spec := by
+  intro n
+  simp only [A356248, Nat.add_sub_cancel, A356248.P14509938561562264436.a, A356248.P4382023687688512763.a, A289813, A289813.P9011554254818249259.a, A289814, A289814.P11371932108795153936.a, A289831, A289831.P1355285298190598776.a, A004488, A004488.P15486159278781190577.a, A168237, A168237.P12346762420407185560.a, A300222, A300222.P16406266268068730929.a, A005836, A005836.P12367569128854000442.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A356248
 
 /-! ## A356248.P12275057644561535509
@@ -4412,6 +4429,12 @@ namespace A356248
 /-- `A289814(n)+1-A328749(n)` -/
 def P12546354370849366679.Spec : Prop :=
   ∀ n, P12546354370849366679.a n = A356248 n
+
+theorem P12546354370849366679.correct : P12546354370849366679.Spec := by
+  intro n
+  simp only [A356248, Nat.add_sub_cancel, A356248.P12546354370849366679.a, A356248.P4382023687688512763.a, A289813, A289813.P9011554254818249259.a, A289814, A289814.P11371932108795153936.a, A328749, A328749.P17846108739945119774.a, A004488, A004488.P15486159278781190577.a, A168237, A168237.P12346762420407185560.a, A300222, A300222.P16406266268068730929.a, A005836, A005836.P12367569128854000442.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A356248
 

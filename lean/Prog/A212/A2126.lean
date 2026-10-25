@@ -4250,6 +4250,12 @@ namespace A212656
 def P710285179632511154.Spec : Prop :=
   ∀ n, P710285179632511154.a n = (A212656 n : ℚ)
 
+theorem P710285179632511154.correct : P710285179632511154.Spec := by
+  intro n
+  simp only [A212656, Nat.add_sub_cancel, A212656.P710285179632511154.a, A212656.P2315777106201839583.a, A033583, A033583.P12285480609414282410.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A212656
 
 /-! ## A212656.P14318390925722910015
@@ -4272,6 +4278,12 @@ namespace A212656
 /-- `(A064761(n)+3)/3` -/
 def P14318390925722910015.Spec : Prop :=
   ∀ n, P14318390925722910015.a n = (A212656 n : ℚ)
+
+theorem P14318390925722910015.correct : P14318390925722910015.Spec := by
+  intro n
+  simp only [A212656, Nat.add_sub_cancel, A212656.P14318390925722910015.a, A212656.P2315777106201839583.a, A064761, A064761.P5984238371699821623.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A212656
 
@@ -4296,6 +4308,12 @@ namespace A212656
 def P15601258135773568116.Spec : Prop :=
   ∀ n, P15601258135773568116.a n = (A212656 n : ℚ)
 
+theorem P15601258135773568116.correct : P15601258135773568116.Spec := by
+  intro n
+  simp only [A212656, Nat.add_sub_cancel, A212656.P15601258135773568116.a, A212656.P2315777106201839583.a, A158493, A158493.P15053320901918141336.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A212656
 
 /-! ## A212656.P8738312036767132415
@@ -4319,6 +4337,12 @@ namespace A212656
 def P8738312036767132415.Spec : Prop :=
   ∀ n, P8738312036767132415.a n = (A212656 n : ℚ)
 
+theorem P8738312036767132415.correct : P8738312036767132415.Spec := by
+  intro n
+  simp only [A212656, Nat.add_sub_cancel, A212656.P8738312036767132415.a, A212656.P2315777106201839583.a, A061722, A061722.P13309740242087995941.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A212656
 
 /-! ## A212656.P10016983956074973193
@@ -4341,6 +4365,12 @@ namespace A212656
 /-- `(n*A008592(n)+2)/2` -/
 def P10016983956074973193.Spec : Prop :=
   ∀ n, P10016983956074973193.a n = (A212656 n : ℚ)
+
+theorem P10016983956074973193.correct : P10016983956074973193.Spec := by
+  intro n
+  simp only [A212656, Nat.add_sub_cancel, A212656.P10016983956074973193.a, A212656.P2315777106201839583.a, A008592, A008592.P4981059802862696142.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A212656
 
@@ -4967,7 +4997,7 @@ end A212665.P61105270520011648
 /-!
 # A212666: Numbers such that the greatest prime divisor is less than the product of the other distinct prime divisors.
 
-The programs for A212666, the canonical program `A212666.P6478584111494388376` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212666 has offset 1).
+The programs for A212666, the canonical program `A212666.P6478584111494388376` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212666 has offset 1).
 
 The definition of A212666 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8484 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4976,7 +5006,7 @@ The definition of A212666 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A006530(n+1)², A007947(n+1)]+1`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A212666
@@ -5756,7 +5786,7 @@ end A212670
 /-!
 # A212671: A001037(n)!.
 
-The programs for A212671, the canonical program `A212671.P4871280416965862351` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212671 has offset 0).
+The programs for A212671, the canonical program `A212671.P4871280416965862351` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212671 has offset 0).
 
 The definition of A212671 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001037, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5765,7 +5795,7 @@ The definition of A212671 is `conditional`: the Lean definition is an OEIS formu
 
 `A001037(n)!`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A212671
@@ -9211,6 +9241,32 @@ def P11741809176545125133.Spec : Prop :=
 
 end A212684
 
+/-! ## A212684.P618380047065642497
+
+`Δ[A212714(n)]-n`
+-/
+
+namespace A212684.P618380047065642497
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A212714 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n - (n : ℤ)
+
+end
+
+end A212684.P618380047065642497
+
+namespace A212684
+
+/-- `Δ[A212714(n)]-n` -/
+def P618380047065642497.Spec : Prop :=
+  ∀ n, P618380047065642497.a n = A212684 n
+
+end A212684
+
 /-!
 # A212685: Number of (w,x,y,z) with all terms in {1,...,n} and |w-x|=w+|y-z|.
 
@@ -10373,6 +10429,12 @@ namespace A212687
 def P15451047116455397453.Spec : Prop :=
   ∀ n, P15451047116455397453.a n = A212687 n
 
+theorem P15451047116455397453.correct : P15451047116455397453.Spec := by
+  intro n
+  simp only [A212687, Nat.add_sub_cancel, A212687.P15451047116455397453.a, A212687.P13544540666538065801.a, A212688, A212688.P5874699807576936125.f1, A212688.P5874699807576936125.a, A212689, A212689.P12151621685584583542.a, A212690, A212690.P220314655135149710.a, A008794, A008794.P14341677963132167525.a, A131479, A131479.P2960064825643267612.a, A212714, A212714.P1515048965482107800.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A212687
 
 /-! ## A212687.P13273374856627189427
@@ -10587,6 +10649,12 @@ namespace A212687
 def P5674365691420035556.Spec : Prop :=
   ∀ n, P5674365691420035556.a n = A212687 n
 
+theorem P5674365691420035556.correct : P5674365691420035556.Spec := by
+  intro n
+  simp only [A212687, Nat.add_sub_cancel, A212687.P5674365691420035556.a, A212687.P13544540666538065801.a, A077043, A077043.P527302642051147366.a, A212688, A212688.P5874699807576936125.f1, A212688.P5874699807576936125.a, A212689, A212689.P12151621685584583542.a, A002620, A002620.P9002536657626793813.a, A008794, A008794.P14341677963132167525.a, A131479, A131479.P2960064825643267612.a, A212714, A212714.P1515048965482107800.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A212687
 
 /-!
@@ -10617,6 +10685,12 @@ namespace A212688
 /-- `n²²-A212687(n)` -/
 def P9530969350383239056.Spec : Prop :=
   ∀ n, P9530969350383239056.a n = A212688 n
+
+theorem P9530969350383239056.correct : P9530969350383239056.Spec := by
+  intro n
+  simp only [A212688, Nat.add_sub_cancel, A212688.P9530969350383239056.a, A212688.P5874699807576936125.f1, A212688.P5874699807576936125.a, A008794, A008794.P14341677963132167525.a, A212687, A212687.P13544540666538065801.a, A212714, A212714.P1515048965482107800.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A212688
 
@@ -10663,6 +10737,12 @@ namespace A212688
 /-- `A131479(n)-A212689(n)` -/
 def P7005333116693158026.Spec : Prop :=
   ∀ n, P7005333116693158026.a n = A212688 n
+
+theorem P7005333116693158026.correct : P7005333116693158026.Spec := by
+  intro n
+  simp only [A212688, Nat.add_sub_cancel, A212688.P7005333116693158026.a, A212688.P5874699807576936125.f1, A212688.P5874699807576936125.a, A008794, A008794.P14341677963132167525.a, A131479, A131479.P2960064825643267612.a, A212689, A212689.P12151621685584583542.a, A212714, A212714.P1515048965482107800.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A212688
 
@@ -10827,6 +10907,12 @@ namespace A212688
 def P11720224206207820985.Spec : Prop :=
   ∀ n, P11720224206207820985.a n = A212688 n
 
+theorem P11720224206207820985.correct : P11720224206207820985.Spec := by
+  intro n
+  simp only [A212688, Nat.add_sub_cancel, A212688.P11720224206207820985.a, A212688.P5874699807576936125.f1, A212688.P5874699807576936125.a, A002620, A002620.P9002536657626793813.a, A008794, A008794.P14341677963132167525.a, A212689, A212689.P12151621685584583542.a, A212714, A212714.P1515048965482107800.a, A131479, A131479.P2960064825643267612.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A212688
 
 /-!
@@ -10857,6 +10943,12 @@ namespace A212689
 /-- `n²²-A212690(n)` -/
 def P8702678087669054757.Spec : Prop :=
   ∀ n, P8702678087669054757.a n = A212689 n
+
+theorem P8702678087669054757.correct : P8702678087669054757.Spec := by
+  intro n
+  simp only [A212689, Nat.add_sub_cancel, A212689.P8702678087669054757.a, A212689.P12151621685584583542.a, A131479, A131479.P2960064825643267612.a, A212688, A212688.P5874699807576936125.f1, A212688.P5874699807576936125.a, A212690, A212690.P220314655135149710.a, A008794, A008794.P14341677963132167525.a, A212714, A212714.P1515048965482107800.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A212689
 
@@ -11189,6 +11281,12 @@ namespace A212690
 def P4384669085367236971.Spec : Prop :=
   ∀ n, P4384669085367236971.a n = A212690 n
 
+theorem P4384669085367236971.correct : P4384669085367236971.Spec := by
+  intro n
+  simp only [A212690, Nat.add_sub_cancel, A212690.P4384669085367236971.a, A212690.P220314655135149710.a, A212687, A212687.P13544540666538065801.a, A212688, A212688.P5874699807576936125.f1, A212688.P5874699807576936125.a, A212689, A212689.P12151621685584583542.a, A008794, A008794.P14341677963132167525.a, A131479, A131479.P2960064825643267612.a, A212714, A212714.P1515048965482107800.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A212690
 
 /-! ## A212690.P4722636529671957834
@@ -11257,6 +11355,12 @@ namespace A212690
 /-- `A212688(n)+A077043(n²)` -/
 def P4636556424331884418.Spec : Prop :=
   ∀ n, P4636556424331884418.a n = A212690 n
+
+theorem P4636556424331884418.correct : P4636556424331884418.Spec := by
+  intro n
+  simp only [A212690, Nat.add_sub_cancel, A212690.P4636556424331884418.a, A212690.P220314655135149710.a, A077043, A077043.P527302642051147366.a, A212688, A212688.P5874699807576936125.f1, A212688.P5874699807576936125.a, A212689, A212689.P12151621685584583542.a, A002620, A002620.P9002536657626793813.a, A008794, A008794.P14341677963132167525.a, A131479, A131479.P2960064825643267612.a, A212714, A212714.P1515048965482107800.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A212690
 
@@ -12395,6 +12499,12 @@ namespace A212697
 def P7659158626219777077.Spec : Prop :=
   ∀ n, P7659158626219777077.a n = A212697 (n + 1)
 
+theorem P7659158626219777077.correct : P7659158626219777077.Spec := by
+  intro n
+  simp only [A212697, Nat.add_sub_cancel, A212697.P7659158626219777077.a, A212697.P17163374785619925015.a, A124647, A124647.P15241135769168499352.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A212697
 
 /-! ## A212697.P3894052024397821262
@@ -12535,6 +12645,12 @@ namespace A212697
 /-- `(n+1)*A048473(n)+n+1` -/
 def P5565812102654144902.Spec : Prop :=
   ∀ n, P5565812102654144902.a n = A212697 (n + 1)
+
+theorem P5565812102654144902.correct : P5565812102654144902.Spec := by
+  intro n
+  simp only [A212697, Nat.add_sub_cancel, A212697.P5565812102654144902.a, A212697.P17163374785619925015.a, A048473, A048473.P18137977496735268190.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A212697
 

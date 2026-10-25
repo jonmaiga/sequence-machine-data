@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -61,6 +62,7 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -90,6 +92,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A285400: Start with a single cell at coordinates (0, 0, 0), then iteratively subdivide the grid into 3 X 3 X 3 cells and remove the cells whose sum of modulo 2 coordinates is 0 or 3; a(n) is the number of cells after n iterations.
@@ -1778,6 +1784,21 @@ end A285406
 The programs for A285407, there is no canonical definition to state claims against.
 -/
 
+/-! ## A285407.P523084543648647970
+
+`A079955(n)-A082784(A264774(n))`
+-/
+
+namespace A285407.P523084543648647970
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A079955 n - A082784 (A264774 n).toNat
+
+end
+
+end A285407.P523084543648647970
+
 /-! ## A285407.P14445745713017770472
 
 `Δ[A004526(A003056(A182908(n+1)))]`
@@ -2048,6 +2069,21 @@ end
 
 end A285411.P9284757924410167530
 
+/-! ## A285411.P7732903304928162328
+
+`A079944(A265060(n+1)-A054055(n))`
+-/
+
+namespace A285411.P7732903304928162328
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A079944 (A265060 (n + 1) - A054055 n).toNat
+
+end
+
+end A285411.P7732903304928162328
+
 /-! ## A285411.P13653024104918811563
 
 `A327256(and(A007304(n+1), A192272(n+1)))`
@@ -2062,21 +2098,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A285411.P13653024104918811563
-
-/-! ## A285411.P8907998521185427546
-
-`A064990(4*A029747(n+3))`
--/
-
-namespace A285411.P8907998521185427546
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064990 (4 * A029747 (n + 3)).toNat
-
-end
-
-end A285411.P8907998521185427546
 
 /-!
 # A285412: Positions of 0 in A285411; complement of A285413.
@@ -4891,6 +4912,27 @@ end
 
 end A285426.P14275791257141988303
 
+/-! ## A285426.P9601139389082577734
+
+`lt[A191455(3*(n+1)), A371230(A002260(n+1))]`
+-/
+
+namespace A285426.P9601139389082577734
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A191455 (3 * (n + 1))
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371230 (A002260 (n + 1)).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A285426.P9601139389082577734
+
 /-! ## A285426.P8722910229634920060
 
 `comp[A285356(A055396(n+4)+1)%(n+1)]`
@@ -5638,6 +5680,12 @@ namespace A285430
 /-- `A080428(n+1)-2` -/
 def P5412493939870213262.Spec : Prop :=
   ∀ n, P5412493939870213262.a n = A285430 (n + 1)
+
+theorem P5412493939870213262.correct : P5412493939870213262.Spec := by
+  intro n
+  simp only [A285430, Nat.add_sub_cancel, A285430.P5412493939870213262.a, A285430.P12724991769825989304.f1, A285430.P12724991769825989304.a, A026363, A026363.P14993341173863048355.a, A080428, A080428.P12675734554739294677.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A285430
 

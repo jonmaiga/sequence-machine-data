@@ -34,12 +34,11 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C002
-import Seq.B006.C002
-import Seq.B007.C001
+import Seq.B006.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -342,7 +341,7 @@ end A197502.P1423800969763592012
 /-!
 # A197504: 1 together with the odd numbers m >= 3 for which phi(2*m)/2 = phi(m)/2 is odd, where phi = A000010 (Euler's totient).
 
-The programs for A197504, the canonical program `A197504.P12641478260192142009` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197504 has offset 1).
+The programs for A197504, the canonical program `A197504.P12641478260192142009` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197504 has offset 1).
 
 The definition of A197504 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9996 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -374,7 +373,7 @@ end A197504
 
 `record[lcm(2, A332555(n+1))/2]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A197504

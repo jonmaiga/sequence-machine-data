@@ -1170,27 +1170,6 @@ end A111705.P1988339915848825362
 The programs for A111706, there is no canonical definition to state claims against.
 -/
 
-/-! ## A111706.P9054076472876668003
-
-`∑[gcd(11, ∑[2^n])]`
--/
-
-namespace A111706.P9054076472876668003
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 ^ n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.gcd 11 (∑ j ∈ Finset.range (n + 1), f2 j)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A111706.P9054076472876668003
-
 /-! ## A111706.P16975406954242342060
 
 `∑[11^val(n+1, 10)]`
@@ -10232,6 +10211,26 @@ namespace A111766
 /-- `(6*(-1)^(n+1)+(3-2*sqrt(2))^(n+1)+(3+2*sqrt(2))^(n+1))/8` -/
 def P17483265231956845283.Spec : Prop :=
   ∀ n, P17483265231956845283.a n = (A111766 (n + 1) : ℝ)
+
+theorem P17483265231956845283.correct : P17483265231956845283.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 =>
+      simp [A111766, Nat.add_sub_cancel, A111766.P17483265231956845283.a, A111766.P9077835371574536354.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+    | m + 3 =>
+      have h1 := ih (m + 2) (by omega)
+      have h2 := ih (m + 1) (by omega)
+      have h3 := ih m (by omega)
+      simp only [A111766, Nat.add_sub_cancel, A111766.P17483265231956845283.a, A111766.P9077835371574536354.a, SequenceMachineLib.memo_apply] at h1 h2 h3 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 3 - 1 = m + 2 by omega, show m + 3 - 2 = m + 1 by omega, show m + 3 - 3 = m by omega, show m + 2 < m + 3 by omega, show m + 1 < m + 3 by omega, show m < m + 3 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 ⊢
+      rw [← h1, ← h2, ← h3]
+      first | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A111766
 

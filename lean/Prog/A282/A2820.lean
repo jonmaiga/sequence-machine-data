@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -86,6 +87,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A282001: a(n) is the smallest prime p such that there is a multiplicative subgroup H of Z/pZ, of odd size and of index 2n, such that for any two cosets H1 and H2 of H, H1 + H2 contains all of (Z/pZ)\0.
@@ -5025,6 +5030,12 @@ namespace A282039
 def P2240742883068106973.Spec : Prop :=
   ∀ n, P2240742883068106973.a n = A282039 (n + 1)
 
+theorem P2240742883068106973.correct : P2240742883068106973.Spec := by
+  intro n
+  simp only [A282039, Nat.add_sub_cancel, A282039.P2240742883068106973.a, A282039.P14747219083662801215.f1, A282039.P14747219083662801215.a, A007522, A007522.P292576302828348404.f1, A007522.P292576302828348404.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A282039
 
 /-! ## A282039.P8394124743979831068
@@ -7384,6 +7395,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A282074.P7381236196973203583
+
+/-! ## A282074.P1318504644872631786
+
+`A282325(n)%A367902(n+2)`
+-/
+
+namespace A282074.P1318504644872631786
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A282325 n) (A367902 (n + 2))
+
+end
+
+end A282074.P1318504644872631786
 
 /-!
 # A282075: Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 421", based on the 5-celled von Neumann neighborhood.
@@ -10346,6 +10372,12 @@ namespace A282097
 /-- `A282154(n)/24` -/
 def P7322864499107093005.Spec : Prop :=
   ∀ n, P7322864499107093005.a n = (A282097 n : ℚ)
+
+theorem P7322864499107093005.correct : P7322864499107093005.Spec := by
+  intro n
+  simp only [A282097, Nat.add_sub_cancel, A282097.P7322864499107093005.a, A282097.P9978893990536554872.f1, A282097.P9978893990536554872.a, A282154, A282154.P723453364652554422.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A282097
 

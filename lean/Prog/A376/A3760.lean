@@ -41,7 +41,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B007.C002
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
@@ -845,6 +845,21 @@ end
 
 end A376014.P16160174169309550785
 
+/-! ## A376014.P6294664872508114089
+
+`(n+1)*A349056(A355303(n+1))`
+-/
+
+namespace A376014.P6294664872508114089
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) * A349056 (A355303 (n + 1)).toNat
+
+end
+
+end A376014.P6294664872508114089
+
 /-! ## A376014.P2692022844315048690
 
 `(n+1)*A096993(A000110(n))`
@@ -889,21 +904,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A376014.P9115656730938675512
-
-/-! ## A376014.P3405412622208761396
-
-`(n+1)*A358333(A080213(n+1))`
--/
-
-namespace A376014.P3405412622208761396
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * A358333 (A080213 (n + 1)).toNat
-
-end
-
-end A376014.P3405412622208761396
 
 /-!
 # A376015: a(n) = Sum_{d|n} d^n * binomial(n/d,d).
@@ -961,6 +961,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A376016.P7182439307568827503
+
+/-! ## A376016.P16686243530587486512
+
+`(n+1)*A264401(A112919(3*n+7))`
+-/
+
+namespace A376016.P16686243530587486512
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℤ) * A264401 (A112919 (3 * n + 7)).toNat
+
+end
+
+end A376016.P16686243530587486512
 
 /-! ## A376016.P3656332959762384615
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -47,7 +48,6 @@ import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
@@ -79,6 +79,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A230900: a(n) = 2^Lucas(n).
@@ -6935,6 +6939,12 @@ namespace A230980
 def P10556817943671509490.Spec : Prop :=
   ∀ n, P10556817943671509490.a n = A230980 n
 
+theorem P10556817943671509490.correct : P10556817943671509490.Spec := by
+  intro n
+  simp only [A230980, Nat.add_sub_cancel, A230980.P10556817943671509490.a, A230980.P7768329975809437652.f2, A230980.P7768329975809437652.f1, A230980.P7768329975809437652.a, A095117, A095117.P12920599782158258117.f2, A095117.P12920599782158258117.f1, A095117.P12920599782158258117.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A230980
 
 /-! ## A230980.P15932389589172201717
@@ -7166,6 +7176,12 @@ namespace A230980
 /-- `∑[n-A113638(n)]` -/
 def P11092444543356229765.Spec : Prop :=
   ∀ n, P11092444543356229765.a n = A230980 n
+
+theorem P11092444543356229765.correct : P11092444543356229765.Spec := by
+  intro n
+  simp only [A230980, Nat.add_sub_cancel, A230980.P11092444543356229765.f1, A230980.P11092444543356229765.a, A230980.P7768329975809437652.f2, A230980.P7768329975809437652.f1, A230980.P7768329975809437652.a, A113638, A113638.P15518003784063987187.f1, A113638.P15518003784063987187.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A230980
 

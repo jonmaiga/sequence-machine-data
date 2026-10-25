@@ -41,7 +41,6 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -49,13 +48,10 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -275,7 +271,7 @@ end A385205.P6654163777174408602
 /-!
 # A385212: a(n) = n^(mu(n)^2), where mu is the Möbius function (A008683).
 
-The programs for A385212, the canonical program `A385212.P9842174822720494087` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385212 has offset 1).
+The programs for A385212, the canonical program `A385212.P9842174822720494087` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385212 has offset 1).
 
 The definition of A385212 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A055615, A107078, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -284,7 +280,7 @@ The definition of A385212 is `conditional`: the Lean definition is an OEIS formu
 
 `abs(A055615(n+1))+A107078(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A385212
@@ -3633,20 +3629,20 @@ end
 
 end A385270.P10930967545974867720
 
-/-! ## A385270.P16966402646715816023
+/-! ## A385270.P8926229279104130218
 
-`A211827(n)-A164734(A374663(n+1))`
+`floor(A036234(A002295(n)+1)/2)`
 -/
 
-namespace A385270.P16966402646715816023
+namespace A385270.P8926229279104130218
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A211827 n - A164734 (A374663 (n + 1)).toNat
+  ⌊(A036234 (A002295 n + 1).toNat : ℚ) / 2⌋
 
 end
 
-end A385270.P16966402646715816023
+end A385270.P8926229279104130218
 
 /-!
 # A385272: Number of face-connected components of phyllic disphenoidal cells in the phyllic disphenoidal honeycomb up to translation, rotation, and reflection of the honeycomb.
@@ -4677,6 +4673,27 @@ end
 
 end A385295.P13933189602949635861
 
+/-! ## A385295.P14857266784134658430
+
+`lt[A030567(A347689(n)), 1]`
+-/
+
+namespace A385295.P14857266784134658430
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A030567 (A347689 n).toNat
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n
+
+end
+
+end A385295.P14857266784134658430
+
 /-! ## A385295.P1052548346037059548
 
 `lt[A374516(A151949(n)), 2]`
@@ -4715,24 +4732,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A385295.P18330254885186214933
-
-/-! ## A385295.P11973445422060513173
-
-`record[A139281(A059717(n))]`
--/
-
-namespace A385295.P11973445422060513173
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A139281 (A059717 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A385295.P11973445422060513173
 
 /-!
 # A385296: Numbers whose digits all belong to the same residue class mod 7.

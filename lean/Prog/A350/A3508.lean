@@ -85,6 +85,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2495,6 +2496,12 @@ namespace A350847
 /-- `A344616(n+1)-A350941(n)` -/
 def P15473192601729912900.Spec : Prop :=
   ∀ n, P15473192601729912900.a n = A350847 (n + 1)
+
+theorem P15473192601729912900.correct : P15473192601729912900.Spec := by
+  intro n
+  simp only [A350847, Nat.add_sub_cancel, A350847.P15473192601729912900.a, A350847.P6937331175885194980.a, A122111, A122111.P18124015185857335041.a, A257992, A257992.P14262373692572386717.a, A344616, A344616.P9154132711565358048.a, A350941, A350941.P4525697528803141176.a, A001222, A001222.P11318177267732088261.a, A064989, A064989.P13349672914146769936.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, A257991, A257991.P9003885035180655311.f1, A257991.P9003885035180655311.a, A000720, A000720.P1755771944745605250.f2, A000720.P1755771944745605250.f1, A000720.P1755771944745605250.a, A008578, A008578.P3639467937083264764.a, A014963, A014963.P5975177236000282614.a, A052126, A052126.P1944428405920482243.a, A061395, A061395.P8431317036300486107.a, A006530, A006530.P13372528560459906635.a, A029837, A029837.P1050578713049589.a, A087207, A087207.P12536008426233777954.a, A158611, A158611.P9275629407611603775.a, A166140, A166140.P17649384582351937107.f1, A166140.P17649384582351937107.a, A166142, A166142.P10122674445425206392.f1, A166142.P10122674445425206392.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A350847
 
@@ -5266,20 +5273,20 @@ end
 
 end A350892.P2409532752160711392
 
-/-! ## A350892.P13781226647251916049
+/-! ## A350892.P4815248727015511485
 
-`A179076(A000032(n))`
+`ceil(sqrt(sqrt(A386581(n))))`
 -/
 
-namespace A350892.P13781226647251916049
+namespace A350892.P4815248727015511485
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A179076 (A000032 n).toNat
+  ⌈Real.sqrt (Real.sqrt (A386581 n : ℝ))⌉
 
 end
 
-end A350892.P13781226647251916049
+end A350892.P4815248727015511485
 
 /-!
 # A350893: Number of partitions of n such that (smallest part) = 2*(number of parts).

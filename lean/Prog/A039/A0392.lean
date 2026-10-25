@@ -3668,6 +3668,27 @@ end
 
 end A039245.P9843147239432361403
 
+/-! ## A039245.P13574462529368658955
+
+`lt[A039814(3*n+2), A182475(A013620(n))-10]`
+-/
+
+namespace A039245.P13574462529368658955
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039814 (3 * n + 2)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182475 (A013620 n).toNat - 10
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A039245.P13574462529368658955
+
 /-!
 # A039246: Numbers whose base-12 representation has the same number of 3's and 11's.
 
@@ -3764,6 +3785,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039246.P16634821123968725829
+
+/-! ## A039246.P2534501617622640965
+
+`lt[A063725(n+2), A290785(A394052(3*(n+1)))]`
+-/
+
+namespace A039246.P2534501617622640965
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A063725 (n + 2)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A290785 (A394052 (3 * (n + 1))).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A039246.P2534501617622640965
 
 /-!
 # A039247: Numbers whose base-12 representation has the same number of 4's and 5's.
@@ -8373,7 +8415,7 @@ end A039284.P13713271436178364387
 /-!
 # A039285: Numbers whose base-5 representation has the same nonzero number of 0's and 3's.
 
-The programs for A039285, the canonical program `A039285.P4990860470344623038` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039285 has offset 1).
+The programs for A039285, the canonical program `A039285.P4990860470344623038` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039285 has offset 1).
 
 The definition of A039285 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3096 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8382,7 +8424,7 @@ The definition of A039285 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A039009(n+1), A382415(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A039285

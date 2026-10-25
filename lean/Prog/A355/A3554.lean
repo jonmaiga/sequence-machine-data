@@ -56,15 +56,18 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -4650,7 +4653,7 @@ end A355449
 /-!
 # A355450: a(n) = 1 if n is odd and phi(x) = n^2 + 1 has no solutions, otherwise 0.
 
-The programs for A355450, the canonical program `A355450.P7145778670325853768` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355450 has offset 1).
+The programs for A355450, the canonical program `A355450.P7145778670325853768` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355450 has offset 1).
 
 The definition of A355450 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A355451, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4659,7 +4662,7 @@ The definition of A355450 is `conditional`: the Lean definition is an OEIS formu
 
 `A355451(1+(n+1)²)`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B006.C002`.
 -/
 
 namespace A355450
@@ -5114,7 +5117,7 @@ end A355450
 /-!
 # A355451: a(n) = 1 if n is even and phi(x) = n has no solutions, otherwise 0.
 
-The programs for A355451, the canonical program `A355451.P3968050885105735617` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355451 has offset 1).
+The programs for A355451, the canonical program `A355451.P3968050885105735617` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355451 has offset 1).
 
 The definition of A355451 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A264739, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5123,7 +5126,7 @@ The definition of A355451 is `conditional`: the Lean definition is an OEIS formu
 
 `A059841(n+1)*(1-A264739(n+1))`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A355451

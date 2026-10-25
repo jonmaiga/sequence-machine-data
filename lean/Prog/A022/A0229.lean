@@ -7920,7 +7920,7 @@ end A022997
 
 The programs for A022998, the canonical program `A022998.P12220843300282308948` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A022998 has offset 0).
 
-The definition of A022998 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A022998 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A022998.anchor (n : ℕ) : A022998 n = ((if Even n then 2 * n else n : ℕ) : ℤ)` in `Proof.A022.A022998`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A022998.P12220843300282308948
@@ -8031,6 +8031,12 @@ namespace A022998
 /-- `A000034(n+1)*n` -/
 def P2016934583760290958.Spec : Prop :=
   ∀ n, P2016934583760290958.a n = A022998 n
+
+theorem P2016934583760290958.correct : P2016934583760290958.Spec := by
+  intro n
+  simp only [A022998, Nat.add_sub_cancel, A022998.P2016934583760290958.a, A022998.P12220843300282308948.a, A000034, A000034.P10773112074177680709.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A022998
 

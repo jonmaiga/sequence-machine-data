@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -55,11 +56,12 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -86,6 +88,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A307900: Number of functions constructed from n instances of variable x using operators + (add), * (multiply), and parentheses.
@@ -1152,6 +1158,12 @@ namespace A307912
 /-- `A077150(n+1)+A016035(n+1)` -/
 def P7739785113710211543.Spec : Prop :=
   ∀ n, P7739785113710211543.a n = A307912 (n + 1)
+
+theorem P7739785113710211543.correct : P7739785113710211543.Spec := by
+  intro n
+  simp only [A307912, Nat.add_sub_cancel, A307912.P7739785113710211543.a, A307912.P17749538653944289286.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, A060715, A060715.P10581007485109841961.f1, A060715.P10581007485109841961.a, A077150, A077150.P1728988973550887610.a, A010051, A010051.P15078252821583414300.a, A099801, A099801.P5638060238408130792.f1, A099801.P5638060238408130792.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A101808, A101808.P11599829099457824818.f2, A101808.P11599829099457824818.f1, A101808.P11599829099457824818.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A307912
 
@@ -5012,6 +5024,12 @@ namespace A307989
 /-- `n+1-A035250(n+1)` -/
 def P9420988974038816448.Spec : Prop :=
   ∀ n, P9420988974038816448.a n = A307989 (n + 1)
+
+theorem P9420988974038816448.correct : P9420988974038816448.Spec := by
+  intro n
+  simp only [A307989, Nat.add_sub_cancel, A307989.P9420988974038816448.a, A307989.P2573378976177465253.f1, A307989.P2573378976177465253.a, A035250, A035250.P17429527738898511012.a, A095117, A095117.P12920599782158258117.f2, A095117.P12920599782158258117.f1, A095117.P12920599782158258117.a, A101264, A101264.P18132826973570150985.a, A057427, A057427.P3058147525557661423.a, A085090, A085090.P7648760271981686645.f1, A085090.P7648760271981686645.a, A000007, A000007.P6599383543502402472.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A307989
 

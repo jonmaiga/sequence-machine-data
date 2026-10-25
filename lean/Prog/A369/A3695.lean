@@ -57,7 +57,6 @@ import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -453,6 +452,24 @@ end
 
 end A369519.P14251865568854876322
 
+/-! ## A369519.P10488311308766610187
+
+`∑[A131799(n)^(A396402(3*(n+1))%2)]`
+-/
+
+namespace A369519.P10488311308766610187
+noncomputable section
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A131799 n : ℚ) ^ (Int.tmod (A396402 (3 * (n + 1))) 2 : ℤ)
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A369519.P10488311308766610187
+
 /-! ## A369519.P582199309648306879
 
 `∑[A000194(A131799(n)²)]`
@@ -488,24 +505,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A369519.P2822450511385134317
-
-/-! ## A369519.P7959713565633590594
-
-`∑[A319330(A131832(n+1))+A131799(n)]`
--/
-
-namespace A369519.P7959713565633590594
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319330 (A131832 (n + 1)).toNat + A131799 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A369519.P7959713565633590594
 
 /-!
 # A369520: Expansion of Product_{k>=1} 1/((1 - x^(k^2))*(1 - x^k)).
@@ -678,6 +677,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A369524.P6202305321615842231
+
+/-! ## A369524.P8064310011658377331
+
+`A035317(n+1)%A284869(A106442(n+4))`
+-/
+
+namespace A369524.P8064310011658377331
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A035317 (n + 1)) (A284869 (A106442 (n + 4)).toNat)
+
+end
+
+end A369524.P8064310011658377331
 
 /-!
 # A369525: Expansion of (1/x) * Series_Reversion( x / (1+x+x^4/(1+x)) ).

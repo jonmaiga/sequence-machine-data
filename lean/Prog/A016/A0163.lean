@@ -45,7 +45,6 @@ import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B008.C000
-import Seq.B010.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -118,6 +117,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A016300.P8890885307054077974
+
+/-! ## A016300.P7589932272518750381
+
+`A010893(C(A235043(n), 4))`
+-/
+
+namespace A016300.P7589932272518750381
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010893 (Nat.choose (A235043 n).toNat 4 + 13)
+
+end
+
+end A016300.P7589932272518750381
 
 /-! ## A016300.P17140911704165028924
 
@@ -232,21 +246,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A016300.P9290728473057350667
-
-/-! ## A016300.P1593270155248836001
-
-`A351653(A087739(n+1))^A006352(n)`
--/
-
-namespace A016300.P1593270155248836001
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A351653 (A087739 (n + 1)).toNat : ℚ) ^ (A006352 n : ℤ)
-
-end
-
-end A016300.P1593270155248836001
 
 /-!
 # A016301: Expansion of 1/((1-2*x)*(1-5*x)*(1-11*x)).
@@ -2512,7 +2511,7 @@ end A016316
 /-!
 # A016317: Expansion of 1/((1-2x)(1-8x)(1-10x)).
 
-The programs for A016317, the canonical program `A016317.P16055473397431174586` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016317 has offset 0).
+The programs for A016317, the canonical program `A016317.P16055473397431174586` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016317 has offset 0).
 
 The definition of A016317 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2562,7 +2561,7 @@ end A016317
 
 `18*a(n-1)-80*a(n-2)+2^n` with `a(0)=1, a(1)=20`
 
-The canonical program, it is in `Seq.B000.C002`.
+The canonical program, it is in `Seq.B000.C003`.
 -/
 
 namespace A016317
@@ -3130,6 +3129,24 @@ namespace A016321
 /-- `2^(n-1)/7-9^(n+2)/7+25*10^n/2` -/
 def P18331442580705757049.Spec : Prop :=
   ∀ n, P18331442580705757049.a n = (A016321 n : ℚ)
+
+theorem P18331442580705757049.correct : P18331442580705757049.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A016321, Nat.add_sub_cancel, A016321.P18331442580705757049.a, A016321.P17024988515808372344.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A016321, Nat.add_sub_cancel, A016321.P18331442580705757049.a, A016321.P17024988515808372344.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1)
 
 end A016321
 

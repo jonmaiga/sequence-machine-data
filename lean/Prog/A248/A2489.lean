@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -44,7 +45,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
@@ -54,6 +55,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -81,6 +83,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A248900: Number of permutations of [n] avoiding patterns 2431 and 54321.
@@ -1748,6 +1754,12 @@ namespace A248917
 def P15433329267539631573.Spec : Prop :=
   ∀ n, P15433329267539631573.a n = (A248917 n : ℚ)
 
+theorem P15433329267539631573.correct : P15433329267539631573.Spec := by
+  intro n
+  simp only [A248917, Nat.add_sub_cancel, A248917.P15433329267539631573.a, A248917.P11121051063052159615.a, A000079, A000079.P10855139691139572931.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A248917
 
 /-! ## A248917.P1557473846693909503
@@ -1994,6 +2006,12 @@ namespace A248924
 /-- `A181983(n)+A000032(n)` -/
 def P16836813762889711818.Spec : Prop :=
   ∀ n, P16836813762889711818.a n = A248924 n
+
+theorem P16836813762889711818.correct : P16836813762889711818.Spec := by
+  intro n
+  simp only [A248924, Nat.add_sub_cancel, A248924.P16836813762889711818.a, A248924.P995822908973052193.a, A000032, A000032.P8352177345629330861.a, A181983, A181983.P3699358180015306672.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A248924
 
@@ -2588,6 +2606,12 @@ namespace A248928
 /-- `(A027709(n+1)-A027434(n+1))*A027434(n+1)` -/
 def P14196322122955277842.Spec : Prop :=
   ∀ n, P14196322122955277842.a n = A248928 n
+
+theorem P14196322122955277842.correct : P14196322122955277842.Spec := by
+  intro n
+  simp only [A248928, Nat.add_sub_cancel, A248928.P14196322122955277842.a, A248928.P6547511480324052605.a, A027434, A027434.P12538987724617011991.a, A027709, A027709.P11339494392271686754.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A248928
 
@@ -3577,7 +3601,7 @@ end A248956.P2444834321860002108
 
 The programs for A248957, the canonical program `A248957.P4310709929373967986` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248957 has offset 0).
 
-The definition of A248957 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007053, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A248957 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A248957.P4310709929373967986

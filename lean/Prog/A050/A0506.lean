@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -64,7 +65,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -91,6 +91,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A050600: Recursion counts for summation table A003056 with formula a(y,0) = y, a(y,x) = a((y XOR x),2*(y AND x)).
@@ -1220,6 +1224,12 @@ namespace A050604
 def P7829304538927031110.Spec : Prop :=
   ∀ n, P7829304538927031110.a n = A050604 n
 
+theorem P7829304538927031110.correct : P7829304538927031110.Spec := by
+  intro n
+  simp only [A050604, Nat.add_sub_cancel, A050604.P7829304538927031110.a, A050604.P4753870057173286659.f1, A050604.P4753870057173286659.a, A050606, A050606.P9529595328761019641.f1, A050606.P9529595328761019641.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A050604
 
 /-! ## A050604.P5125029952110079097
@@ -2140,6 +2150,12 @@ namespace A050606
 /-- `A050604(n)-1` -/
 def P337024528582145491.Spec : Prop :=
   ∀ n, P337024528582145491.a n = A050606 n
+
+theorem P337024528582145491.correct : P337024528582145491.Spec := by
+  intro n
+  simp only [A050606, Nat.add_sub_cancel, A050606.P337024528582145491.a, A050606.P9529595328761019641.f1, A050606.P9529595328761019641.a, A050604, A050604.P4753870057173286659.f1, A050604.P4753870057173286659.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A050606
 
@@ -4333,6 +4349,12 @@ namespace A050615
 /-- `a(A002265(2*n))*A050613(2*n)` -/
 def P13729575732347487909.Spec : Prop :=
   ∀ n, P13729575732347487909.a n = A050615 n
+
+theorem P13729575732347487909.correct : P13729575732347487909.Spec := by
+  intro n
+  simp only [A050615, Nat.add_sub_cancel, A050615.P13729575732347487909.a, A050615.P3198622266931088097.a, A002265, A002265.P2157561802369677908.a, A004526, A004526.P10084182425416171735.a, A050613, A050613.P13423793685532721928.a, A050614, A050614.P3798663840407021647.a, A075149, A075149.P18175513624776809686.a, A000032, A000032.P8352177345629330861.a, A051656, A051656.P2766928477570760941.a, A050611, A050611.P12224551982442702682.a, A050612, A050612.P13319731661089577793.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A050615
 

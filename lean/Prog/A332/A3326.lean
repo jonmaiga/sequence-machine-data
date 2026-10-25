@@ -61,7 +61,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B009.C000
@@ -3844,7 +3843,7 @@ end A332657.P11245774336833551846
 /-!
 # A332658: a(n) = Sum_{k=1..n} mu(gcd(n, k)) * lcm(n, k) / gcd(n, k).
 
-The programs for A332658, the canonical program `A332658.P8837612117912986795` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332658 has offset 1).
+The programs for A332658, the canonical program `A332658.P8837612117912986795` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332658 has offset 1).
 
 The definition of A332658 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3853,7 +3852,7 @@ The definition of A332658 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A007427(#)*A056789((n+1)/#)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A332658
@@ -6793,7 +6792,7 @@ end A332682
 /-!
 # A332683: a(n) = Sum_{k=1..n, gcd(n, k) = 1} ceiling(n/k).
 
-The programs for A332683, the canonical program `A332683.P11173983188310399264` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332683 has offset 1).
+The programs for A332683, the canonical program `A332683.P11173983188310399264` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332683 has offset 1).
 
 The definition of A332683 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6946,7 +6945,7 @@ end A332683
 
 `∑{d}[n+1, A055615(#)*A333465((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A332683

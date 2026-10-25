@@ -60,13 +60,11 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -574,6 +572,12 @@ namespace A365206
 def P4940107492957488050.Spec : Prop :=
   ∀ n, P4940107492957488050.a n = (A365206 (n + 1) : ℚ)
 
+theorem P4940107492957488050.correct : P4940107492957488050.Spec := by
+  intro n
+  simp only [A365206, Nat.add_sub_cancel, A365206.P4940107492957488050.a, A365206.P12264015237008943708.a, A082044, A082044.P12148917754316249360.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A365206
 
 /-! ## A365206.P11251328272492701177
@@ -695,6 +699,12 @@ namespace A365206
 def P17682526499352593689.Spec : Prop :=
   ∀ n, P17682526499352593689.a n = A365206 (n + 1)
 
+theorem P17682526499352593689.correct : P17682526499352593689.Spec := by
+  intro n
+  simp only [A365206, Nat.add_sub_cancel, A365206.P17682526499352593689.a, A365206.P12264015237008943708.a, A056220, A056220.P5045014962229294692.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A365206
 
 /-!
@@ -702,7 +712,7 @@ end A365206
 
 The programs for A365207, the canonical program `A365207.P8652609855473738591` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365207 has offset 1).
 
-The definition of A365207 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A000265, A034444, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A365207 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000265, A034444, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A365207.P8652609855473738591
@@ -1193,7 +1203,7 @@ end A365207
 
 The programs for A365208, the canonical program `A365208.P1092856368353075175` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365208 has offset 1).
 
-The definition of A365208 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A034444, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A365208 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034444, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A365208.P1092856368353075175
@@ -1489,7 +1499,7 @@ end A365209
 
 The programs for A365210, the canonical program `A365210.P7966765262049614878` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365210 has offset 1).
 
-The definition of A365210 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A034444, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A365210 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034444, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A365210.P7966765262049614878
@@ -1848,7 +1858,7 @@ end A365213.P5931982859780275665
 /-!
 # A365216: Maximal k such that there exists a k-arc on the projective plane over GF(q), where q = A246655(n) is the n-th prime power > 1.
 
-The programs for A365216, the canonical program `A365216.P10045536079749454059` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365216 has offset 1).
+The programs for A365216, the canonical program `A365216.P10045536079749454059` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365216 has offset 1).
 
 The definition of A365216 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1857,7 +1867,7 @@ The definition of A365216 is `conjectured`: the Lean definition is a formula tha
 
 `or(1, A246655(n+1))+1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A365216
@@ -2051,6 +2061,21 @@ end A365221.P8633168436708528374
 The programs for A365225, there is no canonical definition to state claims against.
 -/
 
+/-! ## A365225.P6053400506738512427
+
+`A005185(A276358(n+1)-n)`
+-/
+
+namespace A365225.P6053400506738512427
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005185 (A276358 (n + 1) - (n : ℤ)).toNat
+
+end
+
+end A365225.P6053400506738512427
+
 /-! ## A365225.P6642020841264394890
 
 `A152467(A382190(n))+A080014(n)`
@@ -2065,21 +2090,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A365225.P6642020841264394890
-
-/-! ## A365225.P2690272026867145923
-
-`A156253(A189845(n))+A007818(A117399(n+1))`
--/
-
-namespace A365225.P2690272026867145923
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A156253 (A189845 n).toNat + A007818 (A117399 (n + 1)).toNat
-
-end
-
-end A365225.P2690272026867145923
 
 /-!
 # A365226: G.f. satisfies A(x) = 1 + x*A(x)^5 / (1 + x*A(x)^6).
@@ -2102,20 +2112,20 @@ end
 
 end A365226.P16848399367312988822
 
-/-! ## A365226.P4087302600477035985
+/-! ## A365226.P6689235461235069207
 
-`A088004(or(A000110(n), A355291(n)))`
+`A002265(A005060(n))+A000110(n)`
 -/
 
-namespace A365226.P4087302600477035985
+namespace A365226.P6689235461235069207
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A088004 (Int.lor (A000110 n) (A355291 n)).toNat
+  A002265 (A005060 n).toNat + A000110 n
 
 end
 
-end A365226.P4087302600477035985
+end A365226.P6689235461235069207
 
 /-!
 # A365229: Sum over all k of 1/k! times the number of permutations of [n] for which the difference between the longest and the shortest cycle length is k.

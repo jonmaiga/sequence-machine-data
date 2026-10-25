@@ -40,10 +40,12 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B003.C000
 import Seq.B003.C002
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -52,6 +54,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -5088,6 +5091,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A237050.P9957955048495130333
+
+/-! ## A237050.P12054960452227455015
+
+`A363486(A120250(n+1))%A055642(n)`
+-/
+
+namespace A237050.P12054960452227455015
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A363486 (A120250 (n + 1)).toNat) (A055642 n)
+
+end
+
+end A237050.P12054960452227455015
 
 /-! ## A237050.P5542162790622449455
 

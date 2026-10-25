@@ -50,12 +50,12 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
@@ -762,6 +762,12 @@ namespace A114805
 def P13682299586043863454.Spec : Prop :=
   ∀ n, P13682299586043863454.a n = A114805 n
 
+theorem P13682299586043863454.correct : P13682299586043863454.Spec := by
+  intro n
+  simp only [A114805, Nat.add_sub_cancel, A114805.P13682299586043863454.f1, A114805.P13682299586043863454.a, A114805.P5482013149527747366.f1, A114805.P5482013149527747366.a, A085157, A085157.P6075407064572541314.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A114805
 
 /-! ## A114805.P15443924889546481373
@@ -981,7 +987,7 @@ end A114806
 /-!
 # A114810: Number of complex, weakly primitive Dirichlet characters modulo n.
 
-The programs for A114810, the canonical program `A114810.P3387844851624277263` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114810 has offset 1).
+The programs for A114810, the canonical program `A114810.P3387844851624277263` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114810 has offset 1).
 
 The definition of A114810 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -990,7 +996,7 @@ The definition of A114810 is `conjectured`: the Lean definition is a formula tha
 
 `A000010((n+1)/∏{p}[n+1, #])*∏{p}[n+1, #-1]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A114810
@@ -5963,6 +5969,12 @@ namespace A114870
 def P3088117562215374855.Spec : Prop :=
   ∀ n, P3088117562215374855.a n = A114870 n
 
+theorem P3088117562215374855.correct : P3088117562215374855.Spec := by
+  intro n
+  simp only [A114870, Nat.add_sub_cancel, A114870.P3088117562215374855.a, A114870.P5398482328974684213.a, A002627, A002627.P17737737289086489454.a, A193657, A193657.P433001986972353019.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A114870
 
 /-! ## A114870.P12048752990767655524
@@ -6065,6 +6077,12 @@ namespace A114870
 def P919574233919934497.Spec : Prop :=
   ∀ n, P919574233919934497.a n = A114870 n
 
+theorem P919574233919934497.correct : P919574233919934497.Spec := by
+  intro n
+  simp only [A114870, Nat.add_sub_cancel, A114870.P919574233919934497.a, A114870.P5398482328974684213.a, A000142, A000142.P3272619076580183195.a, A002627, A002627.P17737737289086489454.a, A193657, A193657.P433001986972353019.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A114870
 
 /-! ## A114870.P17666726227238381521
@@ -6096,7 +6114,7 @@ end A114870
 /-!
 # A114871: Numbers of the form (p-1)p^k (where p is a prime and k>=0) in ascending order.
 
-The programs for A114871, the canonical program `A114871.P5701746807057101` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114871 has offset 1).
+The programs for A114871, the canonical program `A114871.P5701746807057101` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114871 has offset 1).
 
 The definition of A114871 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5198 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6105,7 +6123,7 @@ The definition of A114871 is `conjectured`: the Lean definition is a formula tha
 
 `lt[acot(1), A134269(n+1)]+1`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A114871

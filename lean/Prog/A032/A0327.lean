@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -88,6 +89,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A032701: Exactly 5 digits from {1,2,3,4,5,6,7,8,9} can precede a(n) to form a lucky number.
@@ -5878,6 +5883,12 @@ namespace A032780
 def P15341751101842558333.Spec : Prop :=
   ∀ n, P15341751101842558333.a n = A032780 n
 
+theorem P15341751101842558333.correct : P15341751101842558333.Spec := by
+  intro n
+  simp only [A032780, Nat.add_sub_cancel, A032780.P15341751101842558333.a, A032780.P17499519224611612847.a, A028557, A028557.P14629390258788046737.a, A104677, A104677.P121708351852665836.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A032780
 
 /-! ## A032780.P8313730044402913330
@@ -5926,6 +5937,12 @@ namespace A032780
 /-- `A162668(n+5)*A162668(n)` -/
 def P2142370360037731299.Spec : Prop :=
   ∀ n, P2142370360037731299.a n = A032780 n
+
+theorem P2142370360037731299.correct : P2142370360037731299.Spec := by
+  intro n
+  simp only [A032780, Nat.add_sub_cancel, A032780.P2142370360037731299.a, A032780.P17499519224611612847.a, A162668, A162668.P8323676352970519687.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A032780
 

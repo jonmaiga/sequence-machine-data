@@ -51,12 +51,13 @@ import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -161,6 +162,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A397207.P566377464081832298
+
+/-!
+# A397208: a(n) is the number of primes q < p = prime(n) such that (p + q)/4 is prime.
+
+The programs for A397208, there is no canonical definition to state claims against.
+-/
+
+/-! ## A397208.P13514593596706737402
+
+`A005091(A018935(n+1)*A059340(n+2))`
+-/
+
+namespace A397208.P13514593596706737402
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005091 (A018935 (n + 1) * A059340 (n + 2)).toNat
+
+end
+
+end A397208.P13514593596706737402
 
 /-!
 # A397213: G.f. A(x) satisfies (1-2*x)*A(x) + A(x^4) = x.

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -46,11 +47,12 @@ import Seq.B003.C001
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -85,6 +87,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A362300: a(n) = n! * Sum_{k=0..floor(n/3)} (n/3)^k * binomial(n-2*k,k)/(n-2*k)!.
@@ -1223,6 +1229,12 @@ namespace A362316
 def P8713133223234353304.Spec : Prop :=
   ∀ n, P8713133223234353304.a n = A362316 n
 
+theorem P8713133223234353304.correct : P8713133223234353304.Spec := by
+  intro n
+  simp only [A362316, Nat.add_sub_cancel, A362316.P8713133223234353304.a, A362316.P6035728552831684486.a, A146528, A146528.P13692325072109288007.a, A178674, A178674.P4081505136580915789.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A362316
 
 /-!
@@ -2296,7 +2308,7 @@ end A362333.P715461125519261931
 /-!
 # A362334: a(n) = A000010(n) + A000010(n+2), where A000010 is the Euler phi-function.
 
-The programs for A362334, the canonical program `A362334.P13106116435762041529` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362334 has offset 1).
+The programs for A362334, the canonical program `A362334.P13106116435762041529` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362334 has offset 1).
 
 The definition of A362334 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2305,7 +2317,7 @@ The definition of A362334 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(n+1)+A000010(n+3)`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A362334
@@ -2508,6 +2520,12 @@ namespace A362334
 /-- `A109606(n+1)+A039649(n+3)` -/
 def P3527959840677383778.Spec : Prop :=
   ∀ n, P3527959840677383778.a n = A362334 (n + 1)
+
+theorem P3527959840677383778.correct : P3527959840677383778.Spec := by
+  intro n
+  simp only [A362334, Nat.add_sub_cancel, A362334.P3527959840677383778.a, A362334.P13106116435762041529.a, A000010, A000010.P4673923239450215316.a, A039649, A039649.P16717312505280968063.a, A109606, A109606.P2415810041766612210.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P2666504972441551157.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A362334
 
@@ -4238,38 +4256,35 @@ end
 
 end A362362.P16733737820233953003
 
-/-! ## A362362.P13673117500581483818
+/-! ## A362362.P17503913487835587230
 
-`A105515(∑[floor(5^n/9)]+1)+1`
+`A057427(n+3)*A134431(A000292(n))`
 -/
 
-namespace A362362.P13673117500581483818
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(5 ^ n : ℚ) / 9⌋
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A105515 (∑ j ∈ Finset.range (n + 1), f1 j + 1).toNat + 1
-
-end
-
-end A362362.P13673117500581483818
-
-/-! ## A362362.P9680325281857801035
-
-`A357306(A165799(n))`
--/
-
-namespace A362362.P9680325281857801035
+namespace A362362.P17503913487835587230
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A357306 (A165799 n).toNat
+  A057427 (n + 3) * A134431 (A000292 n).toNat
 
 end
 
-end A362362.P9680325281857801035
+end A362362.P17503913487835587230
+
+/-! ## A362362.P4579402986388097176
+
+`A134431(A000292(n))%A000670(n+2)`
+-/
+
+namespace A362362.P4579402986388097176
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A134431 (A000292 n).toNat) (A000670 (n + 2))
+
+end
+
+end A362362.P4579402986388097176
 
 /-!
 # A362363: Arm number of the base spiral in A362249 which visits large spiral point n there.
@@ -5282,7 +5297,7 @@ end A362374
 
 The programs for A362375, the canonical program `A362375.P18320752346947795211` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362375 has offset 1).
 
-The definition of A362375 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007947, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A362375 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A362375.P18320752346947795211

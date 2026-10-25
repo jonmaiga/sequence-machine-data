@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -51,8 +52,8 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C001
 import Seq.B010.C000
-import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -79,6 +80,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A392500: Numbers k > 1 whose largest proper divisor cannot be written as a sum of their other nontrivial divisors.
@@ -2800,6 +2805,12 @@ namespace A392564
 def P17368897213197086591.Spec : Prop :=
   ∀ n, P17368897213197086591.a n = A392564 (n + 1)
 
+theorem P17368897213197086591.correct : P17368897213197086591.Spec := by
+  intro n
+  simp only [A392564, Nat.add_sub_cancel, A392564.P17368897213197086591.a, A392564.P9319350472348829098.a, A332785, A332785.P15938896357927830426.f1, A332785.P15938896357927830426.f2, A332785.P15938896357927830426.a, A389947, A389947.P9755762612582178396.a, A326186, A326186.P460460233906349811.a, A057521, A057521.P7284310941140114823.a, A003557, A003557.P6364735403900941810.a, A064549, A064549.P18019400484953624932.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A392564
 
 /-! ## A392564.P17941279434130860272
@@ -4816,6 +4827,12 @@ namespace A392597
 /-- `A268354(n+1)*A355582(n+1)` -/
 def P14921501313272981308.Spec : Prop :=
   ∀ n, P14921501313272981308.a n = A392597 (n + 1)
+
+theorem P14921501313272981308.correct : P14921501313272981308.Spec := by
+  intro n
+  simp only [A392597, Nat.add_sub_cancel, A392597.P14921501313272981308.a, A392597.P12125127422441468717.a, A006519, A006519.P10435570611646570274.a, A038500, A038500.P18314557775098268376.a, A060904, A060904.P2539972540385605862.a, A268354, A268354.P8951824794683086161.a, A355582, A355582.P2103007522092691824.a, A112765, A112765.P4892120039852414895.a, A171977, A171977.P14092944863121073856.a, A214411, A214411.P333833577955200913.a, A038712, A038712.P3404197303190209645.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A392597
 

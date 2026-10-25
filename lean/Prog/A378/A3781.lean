@@ -39,6 +39,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -1824,6 +1825,12 @@ namespace A378123
 def P5774972436789557136.Spec : Prop :=
   ∀ n, P5774972436789557136.a n = A378123 (n + 1)
 
+theorem P5774972436789557136.correct : P5774972436789557136.Spec := by
+  intro n
+  simp only [A378123, Nat.add_sub_cancel, A378123.P5774972436789557136.a, A378123.P719144829619954669.a, A001221, A001221.P10258181745752134128.a, A071148, A071148.P13630786703162267389.a, A237589, A237589.P15064465826932885110.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A007504, A007504.P16529107901788736493.f1, A007504.P16529107901788736493.a, A014284, A014284.P16560659510973334811.a, A059841, A059841.P2666504972441551157.a, A182986, A182986.P2625431067462217415.a, A054541, A054541.P347795157194570387.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A378123
 
 /-! ## A378123.P13055781827137597618
@@ -1869,6 +1876,12 @@ namespace A378123
 /-- `A001221(A101301(n+2)+n)` -/
 def P14802736552733156352.Spec : Prop :=
   ∀ n, P14802736552733156352.a n = A378123 (n + 1)
+
+theorem P14802736552733156352.correct : P14802736552733156352.Spec := by
+  intro n
+  simp only [A378123, Nat.add_sub_cancel, A378123.P14802736552733156352.a, A378123.P719144829619954669.a, A001221, A001221.P10258181745752134128.a, A071148, A071148.P13630786703162267389.a, A101301, A101301.P12618163721935666644.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A007504, A007504.P16529107901788736493.f1, A007504.P16529107901788736493.a, A059841, A059841.P2666504972441551157.a, A182986, A182986.P2625431067462217415.a, A054541, A054541.P347795157194570387.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A378123
 
@@ -3551,6 +3564,24 @@ end A378168.P16935332066793533316
 The programs for A378170, there is no canonical definition to state claims against.
 -/
 
+/-! ## A378170.P2887603865936516317
+
+`record[A046800(A061287(n))+1]`
+-/
+
+namespace A378170.P2887603865936516317
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A046800 (A061287 n).toNat + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A378170.P2887603865936516317
+
 /-! ## A378170.P15080357816225805186
 
 `eq[A025430(n), A355688(n+1)]`
@@ -3605,47 +3636,20 @@ end
 
 end A378170.P7739592732311820229
 
-/-! ## A378170.P319650664043279636
+/-! ## A378170.P1536561574755383921
 
-`lt[A259604(A171057(n+1)), A072124(n+1)]`
+`A005117(n+1)+A003056(A241467(n+1))`
 -/
 
-namespace A378170.P319650664043279636
+namespace A378170.P1536561574755383921
 noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A259604 (A171057 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072124 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A378170.P319650664043279636
-
-/-! ## A378170.P9555465552912187755
-
-`A256450(lt[A306143(n+1), A001223(n+2)])`
--/
-
-namespace A378170.P9555465552912187755
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A306143 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001223 (n + 2)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A256450 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
+  A005117 (n + 1) + A003056 (A241467 (n + 1)).toNat
 
 end
 
-end A378170.P9555465552912187755
+end A378170.P1536561574755383921
 
 /-!
 # A378171: Number of subsets of the first n positive cubes whose sum is a positive cube.
@@ -3896,6 +3900,21 @@ end
 
 end A378178.P2723178253204608692
 
+/-! ## A378178.P8142313066129038310
+
+`A334731(n+1)%A318360(A334741(n))`
+-/
+
+namespace A378178.P8142313066129038310
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A334731 (n + 1)) (A318360 (A334741 n).toNat)
+
+end
+
+end A378178.P8142313066129038310
+
 /-! ## A378178.P12311577601545466164
 
 `A036234(A090906(n+1))%A119348(n+1)`
@@ -3925,21 +3944,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A378178.P368002955842273687
-
-/-! ## A378178.P1492552263348398087
-
-`A182160(3*n+5)%A000045(A060715(n+3))`
--/
-
-namespace A378178.P1492552263348398087
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A182160 (3 * n + 5)) (A000045 (A060715 (n + 3)).toNat)
-
-end
-
-end A378178.P1492552263348398087
 
 /-!
 # A378180: Irregular triangle where row n lists m such that rad(m) | n and bigomega(m) < bigomega(n), where rad = A007947 and bigomega = A001222.

@@ -50,7 +50,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -61,7 +60,6 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C013
@@ -2157,6 +2155,27 @@ end
 
 end A377265.P12142826276498173866
 
+/-! ## A377265.P7058487621594142874
+
+`eq[A261794(n), A268643(2*n)]`
+-/
+
+namespace A377265.P7058487621594142874
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A261794 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A268643 (2 * n)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A377265.P7058487621594142874
+
 /-! ## A377265.P9130293973557767700
 
 `eq[A268643(n)+1, A268643(2*n)]`
@@ -2436,21 +2455,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A377270.P6812753931420376676
-
-/-! ## A377270.P11873957332426285537
-
-`A380910(n)-A343747(A372055(n+1))`
--/
-
-namespace A377270.P11873957332426285537
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A380910 n - A343747 (A372055 (n + 1)).toNat
-
-end
-
-end A377270.P11873957332426285537
 
 /-!
 # A377271: Numbers k such that k and k+1 are both terms in A377209.
@@ -3492,7 +3496,7 @@ end A377288.P4341577569417646167
 /-!
 # A377289: Difference between prime(n) and the previous prime-power (exclusive).
 
-The programs for A377289, the canonical program `A377289.P15347818859736990215` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377289 has offset 1).
+The programs for A377289, the canonical program `A377289.P15347818859736990215` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377289 has offset 1).
 
 The definition of A377289 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3501,7 +3505,7 @@ The definition of A377289 is `conjectured`: the Lean definition is a formula tha
 
 `A000040(n+1)-A065514(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A377289

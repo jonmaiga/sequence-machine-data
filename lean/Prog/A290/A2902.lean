@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -61,7 +62,6 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -95,6 +95,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A290201: Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 777", based on the 5-celled von Neumann neighborhood.
@@ -1633,7 +1637,7 @@ end A290229.P12436683803840165410
 /-!
 # A290230: Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 771", based on the 5-celled von Neumann neighborhood.
 
-The programs for A290230, the canonical program `A290230.P10636525088049313073` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290230 has offset 0).
+The programs for A290230, the canonical program `A290230.P10636525088049313073` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290230 has offset 0).
 
 The definition of A290230 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1642,7 +1646,7 @@ The definition of A290230 is `conjectured`: the Lean definition is a formula tha
 
 `or(A051049(n), A288811(n))`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A290230
@@ -6586,6 +6590,12 @@ namespace A290257
 def P10135680866892501581.Spec : Prop :=
   ∀ n, P10135680866892501581.a n = A290257 (n + 1)
 
+theorem P10135680866892501581.correct : P10135680866892501581.Spec := by
+  intro n
+  simp only [A290257, Nat.add_sub_cancel, A290257.P10135680866892501581.a, A290257.P10947685291748395.a, A000038, A000038.P13734959004655594922.a, A037870, A037870.P14091972107261335065.f1, A037870.P14091972107261335065.a, A000007, A000007.P6599383543502402472.a, A001316, A001316.P6850078358198232129.a, A000120, A000120.P2816527436160941581.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A290257
 
 /-! ## A290257.P10623156191000436594
@@ -6832,6 +6842,12 @@ namespace A290258
 def P5671066728169980799.Spec : Prop :=
   ∀ n, P5671066728169980799.a n = A290258 (n + 2)
 
+theorem P5671066728169980799.correct : P5671066728169980799.Spec := by
+  intro n
+  simp only [A290258, Nat.add_sub_cancel, A290258.P5671066728169980799.a, A290258.P9500743634387484747.a, A048297, A048297.P13500270705688942977.a, A277335, A277335.P13601565206693033398.a, A003714, A003714.P565032106299634425.a, A003849, A003849.P15070805603138295355.a, A193564, A193564.P10859496068576138660.a, A026242, A026242.P14627616473925988182.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A290258
 
 /-! ## A290258.P2632746469302259468
@@ -6900,6 +6916,12 @@ namespace A290258
 /-- `A022341(n+1)-(A003714(n+1)+1)` -/
 def P12677949442065853386.Spec : Prop :=
   ∀ n, P12677949442065853386.a n = A290258 (n + 2)
+
+theorem P12677949442065853386.correct : P12677949442065853386.Spec := by
+  intro n
+  simp only [A290258, Nat.add_sub_cancel, A290258.P12677949442065853386.a, A290258.P9500743634387484747.a, A003714, A003714.P565032106299634425.a, A022341, A022341.P2847779761458071812.a, A277335, A277335.P13601565206693033398.a, A003849, A003849.P15070805603138295355.a, A193564, A193564.P10859496068576138660.a, A026242, A026242.P14627616473925988182.a, A002251, A002251.P8899938186717577679.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A290258
 
@@ -10031,7 +10053,7 @@ end A290287.P10959210329422985229
 /-!
 # A290288: Sum of the differences of the larger and smaller parts in the partitions of 2n into two parts with the larger part prime.
 
-The programs for A290288, the canonical program `A290288.P7015897065372757057` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290288 has offset 1).
+The programs for A290288, the canonical program `A290288.P7015897065372757057` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290288 has offset 1).
 
 The definition of A290288 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10158,7 +10180,7 @@ end A290288
 
 `A294487(2*(n+1))-A368058(2*(n+1))`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A290288

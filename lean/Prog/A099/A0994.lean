@@ -64,7 +64,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -258,24 +257,6 @@ end
 
 end A099401.P515835566794884918
 
-/-! ## A099401.P13936896371758365549
-
-`A034057(A036355(∑[n]))`
--/
-
-namespace A099401.P13936896371758365549
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034057 (A036355 (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
-
-end
-
-end A099401.P13936896371758365549
-
 /-!
 # A099405: Decimal part of 1/a(n) starts with Fibonacci(n) (leading zeros excluded).
 
@@ -347,21 +328,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A099405.P8924462141050620477
-
-/-! ## A099405.P796175992122487037
-
-`A095156(A000071(n+1)+1)`
--/
-
-namespace A099405.P796175992122487037
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A095156 (A000071 (n + 1) + 1).toNat
-
-end
-
-end A099405.P796175992122487037
 
 /-!
 # A099406: Decimal part of 1/a(n) starts with the n-th prime (leading zeros excluded).
@@ -541,6 +507,12 @@ namespace A099407
 /-- `A201498(n+1)-3` -/
 def P656174602649638202.Spec : Prop :=
   ∀ n, P656174602649638202.a n = A099407 (n + 1)
+
+theorem P656174602649638202.correct : P656174602649638202.Spec := by
+  intro n
+  simp only [A099407, Nat.add_sub_cancel, A099407.P656174602649638202.a, A099407.P8033397410898991072.a, A037165, A037165.P11474511069064839000.a, A201498, A201498.P15700971035858144036.a, A001043, A001043.P18269783162673735460.a, A006094, A006094.P10257567645245129766.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A099407
 

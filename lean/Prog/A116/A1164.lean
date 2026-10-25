@@ -55,6 +55,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -8473,20 +8474,20 @@ end
 
 end A116457.P3515660834314713845
 
-/-! ## A116457.P17405108171837547500
+/-! ## A116457.P1598515858683444851
 
-`A000040((a(n-1)+3)/2)` with `a(0)=1`
+`A000040((3+a(n-1))/2)` with `a(0)=1`
 -/
 
-namespace A116457.P17405108171837547500
+namespace A116457.P1598515858683444851
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A000040 (SequenceMachineLib.roundAway ((a (n - 1) + 3 : ℚ) / 2)).toNat
+  A000040 (SequenceMachineLib.roundAway ((3 + a (n - 1) : ℚ) / 2)).toNat
 
 end
 
-end A116457.P17405108171837547500
+end A116457.P1598515858683444851
 
 /-!
 # A116461: 
@@ -10292,6 +10293,12 @@ namespace A116472
 /-- `A000149(2*n)` -/
 def P7498311393884880590.Spec : Prop :=
   ∀ n, P7498311393884880590.a n = A116472 n
+
+theorem P7498311393884880590.correct : P7498311393884880590.Spec := by
+  intro n
+  simp only [A116472, Nat.add_sub_cancel, A116472.P7498311393884880590.a, A116472.P10029381722133850653.a, A000149, A000149.P348263657615241890.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A116472
 

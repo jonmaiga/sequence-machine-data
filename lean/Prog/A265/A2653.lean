@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -96,6 +97,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A265310: Least positive k such that the product of divisors of n (A007955) divides k!.
@@ -534,6 +539,12 @@ namespace A265316
 /-- `A348636(n+1)-1` -/
 def P1740742034263137719.Spec : Prop :=
   ∀ n, P1740742034263137719.a n = A265316 (n + 1)
+
+theorem P1740742034263137719.correct : P1740742034263137719.Spec := by
+  intro n
+  simp only [A265316, Nat.add_sub_cancel, A265316.P1740742034263137719.a, A265316.P6661828198078736164.a, A261691, A261691.P10247400380290130395.a, A348636, A348636.P17645639586115979662.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A265316
 
@@ -1442,7 +1453,7 @@ end A265324.P14137608737933881277
 
 The programs for A265326, the canonical program `A265326.P14016085815446765591` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265326 has offset 1).
 
-The definition of A265326 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A055945, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A265326 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A055945, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A265326.P15707601103284523230
@@ -3236,6 +3247,12 @@ namespace A265333
 /-- `A084558(n)-A084558(A008619(n)-1)` -/
 def P8949351526734604930.Spec : Prop :=
   ∀ n, P8949351526734604930.a n = A265333 n
+
+theorem P8949351526734604930.correct : P8949351526734604930.Spec := by
+  intro n
+  simp only [A265333, Nat.add_sub_cancel, A265333.P8949351526734604930.a, A265333.P11142459361382241526.a, A004526, A004526.P10084182425416171735.a, A008619, A008619.P16053834178911111118.a, A084558, A084558.P8374569854218058976.a, A090529, A090529.P4680555822996673914.f1, A090529.P4680555822996673914.a, A316341, A316341.P9571797849802737273.a, A012245, A012245.P11587607485183547821.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A265333
 

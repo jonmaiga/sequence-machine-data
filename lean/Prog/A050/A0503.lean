@@ -42,14 +42,15 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -9257,7 +9258,7 @@ end A050383.P9006459658863732126
 /-!
 # A050384: Nonprimes such that n and phi(n) are relatively prime.
 
-The programs for A050384, the canonical program `A050384.P14843473006350326744` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050384 has offset 1).
+The programs for A050384, the canonical program `A050384.P14843473006350326744` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050384 has offset 1).
 
 The definition of A050384 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6488 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9266,7 +9267,7 @@ The definition of A050384 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A003277(n+1), A005171(#)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A050384

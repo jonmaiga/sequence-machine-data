@@ -62,6 +62,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -77,6 +78,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -84,7 +86,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
@@ -2789,7 +2790,7 @@ end A186030
 /-!
 # A186031: Number of Dyck paths of semilength n with a valley (DU) spanning the midpoint.
 
-The programs for A186031, the canonical program `A186031.P15911966878136021821` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186031 has offset 1).
+The programs for A186031, the canonical program `A186031.P15911966878136021821` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186031 has offset 1).
 
 The definition of A186031 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 173 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2798,7 +2799,7 @@ The definition of A186031 is `conjectured`: the Lean definition is a formula tha
 
 `A000108(n)-A126120(n)²`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A186031
@@ -2971,6 +2972,12 @@ namespace A186031
 /-- `A120304(n)+2-A126120(n)²` -/
 def P8669580394436694817.Spec : Prop :=
   ∀ n, P8669580394436694817.a n = A186031 (n + 1)
+
+theorem P8669580394436694817.correct : P8669580394436694817.Spec := by
+  intro n
+  simp only [A186031, Nat.add_sub_cancel, A186031.P8669580394436694817.a, A186031.P15911966878136021821.a, A000108, A000108.P17551949696095299361.a, A120304, A120304.P16195813583233364787.a, A126120, A126120.P11676298334808492124.a, A097331, A097331.P4426990625459901142.a, A208355, A208355.P6360215552861429744.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A186031
 
@@ -9293,7 +9300,7 @@ end A186098
 /-!
 # A186099: Sum of divisors of n congruent to 1 or 5 mod 6.
 
-The programs for A186099, the canonical program `A186099.P16380765776800973491` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186099 has offset 1).
+The programs for A186099, the canonical program `A186099.P16380765776800973491` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186099 has offset 1).
 
 The definition of A186099 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A284098, A284104, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9302,7 +9309,7 @@ The definition of A186099 is `conditional`: the Lean definition is an OEIS formu
 
 `A284098(n+1)+A284104(n+1)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A186099

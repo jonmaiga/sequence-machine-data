@@ -65,10 +65,8 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -96,6 +94,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A383700: Coefficient of x^2 in expansion of (x+1) * (x+5) * ... * (x+4*n-3).
@@ -4692,7 +4691,7 @@ end A383762
 /-!
 # A383763: The sum of unitary divisors of n that are exponentially squarefree numbers.
 
-The programs for A383763, the canonical program `A383763.P993383120488087921` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383763 has offset 1).
+The programs for A383763, the canonical program `A383763.P993383120488087921` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383763 has offset 1).
 
 The definition of A383763 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4701,7 +4700,7 @@ The definition of A383763 is `conjectured`: the Lean definition is a formula tha
 
 `A034448(A383764(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A383763
@@ -4811,7 +4810,7 @@ end A383763
 /-!
 # A383764: The largest unitary divisor of n that is an exponentially squarefree number.
 
-The programs for A383764, the canonical program `A383764.P4000777454404002987` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383764 has offset 1).
+The programs for A383764, the canonical program `A383764.P4000777454404002987` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383764 has offset 1).
 
 The definition of A383764 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4820,7 +4819,7 @@ The definition of A383764 is `conjectured`: the Lean definition is a formula tha
 
 `A071974((n+1)*A365683(n+1))`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A383764
@@ -5155,6 +5154,21 @@ end
 
 end A383768.P6939329569610142397
 
+/-! ## A383768.P12703827678512136128
+
+`A179382(A000051(n))*A318649(n+1)`
+-/
+
+namespace A383768.P12703827678512136128
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A179382 (A000051 n).toNat * A318649 (n + 1)
+
+end
+
+end A383768.P12703827678512136128
+
 /-! ## A383768.P11676056797990183770
 
 `A001511(A364956(2*n+3))*A318649(n+1)`
@@ -5169,21 +5183,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A383768.P11676056797990183770
-
-/-! ## A383768.P5218383537547537560
-
-`A007814(A308709(2*n+3))*A318649(n+1)`
--/
-
-namespace A383768.P5218383537547537560
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007814 (A308709 (2 * n + 3)).toNat * A318649 (n + 1)
-
-end
-
-end A383768.P5218383537547537560
 
 /-!
 # A383769: Denominators of the sequence whose Dirichlet convolution with itself yields cubes (A000578).
@@ -5820,7 +5819,7 @@ end A383782.P2517604689626428669
 /-!
 # A383783: a(n) = Sum_{k=1..2^n} mu(k) * (floor(2^n/k)^4 - floor((2^n-1)/k)^4).
 
-The programs for A383783, the canonical program `A383783.P9434858666287389407` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383783 has offset 0).
+The programs for A383783, the canonical program `A383783.P9434858666287389407` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383783 has offset 0).
 
 The definition of A383783 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A344597, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5829,7 +5828,7 @@ The definition of A383783 is `conditional`: the Lean definition is an OEIS formu
 
 `A344597(2^n)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A383783
@@ -5942,7 +5941,7 @@ end A383783
 /-!
 # A383784: Norms of vectors in any regular planar tiling (square or A2 lattice).
 
-The programs for A383784, the canonical program `A383784.P16897109203414652711` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383784 has offset 1).
+The programs for A383784, the canonical program `A383784.P16897109203414652711` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383784 has offset 1).
 
 The definition of A383784 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6011,7 +6010,7 @@ end A383784
 
 `∪[A001481(n+1), A003136(n+1)]`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A383784
@@ -6116,7 +6115,7 @@ end A383784
 /-!
 # A383785: Numbers not occurring as norms of vectors in any regular planar lattice.
 
-The programs for A383785, the canonical program `A383785.P9174165813630133873` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383785 has offset 1).
+The programs for A383785, the canonical program `A383785.P9174165813630133873` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383785 has offset 1).
 
 The definition of A383785 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6125,7 +6124,7 @@ The definition of A383785 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A383784(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A383785

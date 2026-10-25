@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -51,6 +52,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -60,7 +62,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -90,6 +91,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A354502: Squarefree semiprimes p*q such that (p*q+1+p-q)/2 and (p*q+1+q-p)/2 are prime.
@@ -3019,20 +3024,20 @@ end
 
 end A354551.P4369805129424986141
 
-/-! ## A354551.P1019635575059797764
+/-! ## A354551.P12274849558280148611
 
-`A143567(n)%A143586(3*(n+1))`
+`A143567(A146558(2*n+5)+n)`
 -/
 
-namespace A354551.P1019635575059797764
+namespace A354551.P12274849558280148611
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A143567 n) (A143586 (3 * (n + 1)))
+  A143567 (A146558 (2 * n + 5) + (n : ℤ)).toNat
 
 end
 
-end A354551.P1019635575059797764
+end A354551.P12274849558280148611
 
 /-!
 # A354553: Expansion of e.g.f. exp( x * exp(x^3) ).
@@ -4966,6 +4971,12 @@ namespace A354591
 def P3745032754734920146.Spec : Prop :=
   ∀ n, P3745032754734920146.a n = A354591 (n + 1)
 
+theorem P3745032754734920146.correct : P3745032754734920146.Spec := by
+  intro n
+  simp only [A354591, Nat.add_sub_cancel, A354591.P3745032754734920146.a, A354591.P12612111734364662311.f1, A354591.P12612111734364662311.f2, A354591.P12612111734364662311.a, A080671, A080671.P899898028490012440.f1, A080671.P899898028490012440.f2, A080671.P899898028490012440.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A354591
 
 /-! ## A354591.P15938849049412525048
@@ -5188,6 +5199,12 @@ namespace A354594
 /-- `(A354595(n)+n²)/2` -/
 def P6837306088644511725.Spec : Prop :=
   ∀ n, P6837306088644511725.a n = (A354594 n : ℚ)
+
+theorem P6837306088644511725.correct : P6837306088644511725.Spec := by
+  intro n
+  simp only [A354594, Nat.add_sub_cancel, A354594.P6837306088644511725.a, A354594.P10636411748254944208.a, A354595, A354595.P10643430001123028850.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A354594
 

@@ -52,6 +52,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -1424,7 +1425,7 @@ end A139403
 /-!
 # A139404: Numbers k such that 24*k + 5 and 24*k + 7 are twin primes.
 
-The programs for A139404, the canonical program `A139404.P3972116341465074720` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139404 has offset 1).
+The programs for A139404, the canonical program `A139404.P3972116341465074720` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139404 has offset 1).
 
 The definition of A139404 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1433,7 +1434,7 @@ The definition of A139404 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A205172(n+1)/24)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A139404
@@ -5539,6 +5540,12 @@ namespace A139464
 def P11675265818422181898.Spec : Prop :=
   ∀ n, P11675265818422181898.a n = A139464 (n + 1)
 
+theorem P11675265818422181898.correct : P11675265818422181898.Spec := by
+  intro n
+  simp only [A139464, Nat.add_sub_cancel, A139464.P11675265818422181898.a, A139464.P471009658587092014.a, A000142, A000142.P3272619076580183195.a, A005408, A005408.P17437947328870227736.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A139464
 
 /-! ## A139464.P3639356624247629575
@@ -6913,6 +6920,54 @@ def P11083826526929925512.Spec : Prop :=
 
 end A139482
 
+/-! ## A139482.P17033348510528640084
+
+`floor(a(n-1)-3*(1-n))` with `a(0)=1, a(1)=2`
+
+`floor` is left out, it is the identity on integers.
+-/
+
+namespace A139482.P17033348510528640084
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 2] fun n a =>
+  a (n - 1) - 3 * (1 - (n : ℤ))
+
+end
+
+end A139482.P17033348510528640084
+
+namespace A139482
+
+/-- `floor(a(n-1)-3*(1-n))` -/
+def P17033348510528640084.Spec : Prop :=
+  ∀ n, P17033348510528640084.a n = A139482 (n + 1)
+
+end A139482
+
+/-! ## A139482.P14777275572020894273
+
+`3*(n-(3-a(n-1))/3)` with `a(0)=1, a(1)=2`
+-/
+
+namespace A139482.P14777275572020894273
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [1, 2] fun n a =>
+  3 * ((n : ℚ) - (3 - a (n - 1)) / 3)
+
+end
+
+end A139482.P14777275572020894273
+
+namespace A139482
+
+/-- `3*(n-(3-a(n-1))/3)` -/
+def P14777275572020894273.Spec : Prop :=
+  ∀ n, P14777275572020894273.a n = (A139482 (n + 1) : ℚ)
+
+end A139482
+
 /-! ## A139482.P7537546077148230349
 
 `Δ[round(sqrt(n²+1))+3*C(n, 3)+n]`
@@ -7141,55 +7196,6 @@ namespace A139482
 /-- `∑[A267528(A267528(2*n)-n)]` -/
 def P17938580725984697985.Spec : Prop :=
   ∀ n, P17938580725984697985.a n = A139482 (n + 1)
-
-end A139482
-
-/-! ## A139482.P8183788641620884511
-
-`record[abs(A128504(n))-n]`
--/
-
-namespace A139482.P8183788641620884511
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A128504 n| - (n : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A139482.P8183788641620884511
-
-namespace A139482
-
-/-- `record[abs(A128504(n))-n]` -/
-def P8183788641620884511.Spec : Prop :=
-  ∀ n, P8183788641620884511.a n = A139482 (n + 1)
-
-end A139482
-
-/-! ## A139482.P4814645543261755609
-
-`A001651(A386480(n))`
--/
-
-namespace A139482.P4814645543261755609
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001651 (A386480 n).toNat
-
-end
-
-end A139482.P4814645543261755609
-
-namespace A139482
-
-/-- `A001651(A386480(n))` -/
-def P4814645543261755609.Spec : Prop :=
-  ∀ n, P4814645543261755609.a n = A139482 (n + 1)
 
 end A139482
 

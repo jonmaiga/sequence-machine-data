@@ -7346,6 +7346,29 @@ def P14569899325508932628.Spec : Prop :=
 
 end A046748
 
+/-! ## A046748.P4418941375066823393
+
+`4*a(n-1)+A002420(n)+a(n-1)` with `a(0)=1`
+-/
+
+namespace A046748.P4418941375066823393
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  4 * a (n - 1) + A002420 n + a (n - 1)
+
+end
+
+end A046748.P4418941375066823393
+
+namespace A046748
+
+/-- `4*a(n-1)+A002420(n)+a(n-1)` -/
+def P4418941375066823393.Spec : Prop :=
+  ∀ n, P4418941375066823393.a n = A046748 n
+
+end A046748
+
 /-! ## A046748.P12880061892133905599
 
 `3*(3*n-2)*a(n-1)/n-10*(2*n-3)*a(n-2)/n` with `a(0)=1, a(1)=3`
@@ -12552,7 +12575,7 @@ end A046797.P8681836155262795024
 
 The programs for A046798, the canonical program `A046798.P7458873546335195562` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A046798 has offset 0).
 
-The definition of A046798 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A046798 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A046798.P7458873546335195562

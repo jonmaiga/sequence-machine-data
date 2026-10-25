@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -32,7 +33,6 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -47,6 +47,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -88,6 +89,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A357000: Number of non-isomorphic cyclic Haar graphs on 2*n nodes.
@@ -2485,6 +2490,12 @@ namespace A357042
 def P14280752804805956153.Spec : Prop :=
   ∀ n, P14280752804805956153.a n = (A357042 (n + 1) : ℚ)
 
+theorem P14280752804805956153.correct : P14280752804805956153.Spec := by
+  intro n
+  simp only [A357042, Nat.add_sub_cancel, A357042.P14280752804805956153.a, A357042.P16654905826093811588.a, A000027, A000027.P10331202704469894836.a, A000384, A000384.P5392390561999168282.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A357042
 
 /-! ## A357042.P4605560448953481399
@@ -2507,6 +2518,12 @@ namespace A357042
 /-- `2*A000583(n+1)-A015237(n+1)` -/
 def P4605560448953481399.Spec : Prop :=
   ∀ n, P4605560448953481399.a n = A357042 (n + 1)
+
+theorem P4605560448953481399.correct : P4605560448953481399.Spec := by
+  intro n
+  simp only [A357042, Nat.add_sub_cancel, A357042.P4605560448953481399.a, A357042.P16654905826093811588.a, A000583, A000583.P14547500281748394449.a, A015237, A015237.P2392393478135424708.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A357042
 
@@ -2681,6 +2698,12 @@ namespace A357042
 def P16835329568135196382.Spec : Prop :=
   ∀ n, P16835329568135196382.a n = A357042 (n + 1)
 
+theorem P16835329568135196382.correct : P16835329568135196382.Spec := by
+  intro n
+  simp only [A357042, Nat.add_sub_cancel, A357042.P16835329568135196382.a, A357042.P16654905826093811588.a, A243201, A243201.P1770549597896343998.a, A002061, A002061.P13016590216674735232.a, A003215, A003215.P5851317289441473820.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A357042
 
 /-! ## A357042.P388283700919764636
@@ -2730,6 +2753,12 @@ namespace A357042
 def P13252632635418551007.Spec : Prop :=
   ∀ n, P13252632635418551007.a n = A357042 (n + 1)
 
+theorem P13252632635418551007.correct : P13252632635418551007.Spec := by
+  intro n
+  simp only [A357042, Nat.add_sub_cancel, A357042.P13252632635418551007.a, A357042.P16654905826093811588.a, A035287, A035287.P16843695516421463004.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A357042
 
 /-! ## A357042.P4860081412981500477
@@ -2752,6 +2781,12 @@ namespace A357042
 /-- `A099721(n)+A008514(n)` -/
 def P4860081412981500477.Spec : Prop :=
   ∀ n, P4860081412981500477.a n = A357042 (n + 1)
+
+theorem P4860081412981500477.correct : P4860081412981500477.Spec := by
+  intro n
+  simp only [A357042, Nat.add_sub_cancel, A357042.P4860081412981500477.a, A357042.P16654905826093811588.a, A008514, A008514.P8515702522567387291.a, A099721, A099721.P13421266014638133477.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A357042
 
@@ -2798,6 +2833,12 @@ namespace A357042
 /-- `A237516(n+1)+A048395(n)` -/
 def P3045362450779164003.Spec : Prop :=
   ∀ n, P3045362450779164003.a n = A357042 (n + 1)
+
+theorem P3045362450779164003.correct : P3045362450779164003.Spec := by
+  intro n
+  simp only [A357042, Nat.add_sub_cancel, A357042.P3045362450779164003.a, A357042.P16654905826093811588.a, A048395, A048395.P3571630861933578872.a, A237516, A237516.P16074374390928351392.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A357042
 
@@ -2868,6 +2909,12 @@ namespace A357042
 def P15945426828118475802.Spec : Prop :=
   ∀ n, P15945426828118475802.a n = A357042 (n + 1)
 
+theorem P15945426828118475802.correct : P15945426828118475802.Spec := by
+  intro n
+  simp only [A357042, Nat.add_sub_cancel, A357042.P15945426828118475802.a, A357042.P16654905826093811588.a, A005915, A005915.P10778017196570457320.a, A055112, A055112.P15553195109781773626.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A357042
 
 /-! ## A357042.P13047508443078579612
@@ -2890,6 +2937,12 @@ namespace A357042
 /-- `A008514(n)+n²*A005408(n)` -/
 def P13047508443078579612.Spec : Prop :=
   ∀ n, P13047508443078579612.a n = A357042 (n + 1)
+
+theorem P13047508443078579612.correct : P13047508443078579612.Spec := by
+  intro n
+  simp only [A357042, Nat.add_sub_cancel, A357042.P13047508443078579612.a, A357042.P16654905826093811588.a, A005408, A005408.P17437947328870227736.a, A008514, A008514.P8515702522567387291.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A357042
 
@@ -3006,6 +3059,21 @@ end A357045.P16522846917633771602
 The programs for A357048, there is no canonical definition to state claims against.
 -/
 
+/-! ## A357048.P17063463376818560507
+
+`or(A003314(n+1), A359590(A303058(n)))`
+-/
+
+namespace A357048.P17063463376818560507
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor (A003314 (n + 1)) (A359590 (A303058 n).toNat)
+
+end
+
+end A357048.P17063463376818560507
+
 /-! ## A357048.P4529682591196996477
 
 `or(A003314(n+1), A079559(A128166(2*n+1)))`
@@ -3074,21 +3142,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A357048.P1557899355212363701
-
-/-! ## A357048.P3924762388906860889
-
-`A123753(n)-A293162(A056263(n+1))`
--/
-
-namespace A357048.P3924762388906860889
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123753 n - A293162 (A056263 (n + 1)).toNat
-
-end
-
-end A357048.P3924762388906860889
 
 /-!
 # A357050: Number of ways A005101(n)+1 can be written as sum of a subset of the proper divisors of A005101(n), the n-th abundant number.

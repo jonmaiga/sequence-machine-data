@@ -54,7 +54,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
@@ -390,6 +389,12 @@ namespace A231303
 def P13443410329338544032.Spec : Prop :=
   ∀ n, P13443410329338544032.a n = (A231303 n : ℚ)
 
+theorem P13443410329338544032.correct : P13443410329338544032.Spec := by
+  intro n
+  simp only [A231303, Nat.add_sub_cancel, A231303.P13443410329338544032.a, A231303.P965024635069111883.a, A000292, A000292.P18322089543142633594.a, A000389, A000389.P15450220129395289428.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A231303
 
 /-! ## A231303.P965024635069111883
@@ -431,6 +436,12 @@ namespace A231303
 /-- `12*A000579(n+4)+A000332(n+3)-(12*A000579(n+3)+A000332(n+2))` -/
 def P8717875428940223557.Spec : Prop :=
   ∀ n, P8717875428940223557.a n = A231303 n
+
+theorem P8717875428940223557.correct : P8717875428940223557.Spec := by
+  intro n
+  simp only [A231303, Nat.add_sub_cancel, A231303.P8717875428940223557.a, A231303.P965024635069111883.a, A000292, A000292.P18322089543142633594.a, A000332, A000332.P5946310388023661265.a, A000389, A000389.P15450220129395289428.a, A000579, A000579.P13663713855180125612.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A231303
 
@@ -736,6 +747,12 @@ namespace A231303
 /-- `2*A024166(n)-A000292(n)` -/
 def P3763783772554981290.Spec : Prop :=
   ∀ n, P3763783772554981290.a n = A231303 n
+
+theorem P3763783772554981290.correct : P3763783772554981290.Spec := by
+  intro n
+  simp only [A231303, Nat.add_sub_cancel, A231303.P3763783772554981290.a, A231303.P965024635069111883.a, A000292, A000292.P18322089543142633594.a, A000389, A000389.P15450220129395289428.a, A024166, A024166.P6072422221111961718.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A231303
 
@@ -9032,7 +9049,7 @@ end A231381.P4795078795413937819
 /-!
 # A231383: Primes p such that p + 3*k is also prime, where p is k-th prime.
 
-The programs for A231383, the canonical program `A231383.P7583573279337602058` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231383 has offset 1).
+The programs for A231383, the canonical program `A231383.P7583573279337602058` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231383 has offset 1).
 
 The definition of A231383 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1432 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9041,7 +9058,7 @@ The definition of A231383 is `conjectured`: the Lean definition is a formula tha
 
 `A000040(A076298(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A231383

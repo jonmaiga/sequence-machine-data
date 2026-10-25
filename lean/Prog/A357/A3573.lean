@@ -2161,20 +2161,20 @@ end
 
 end A357368.P18069965085243948034
 
-/-! ## A357368.P7157978183143413484
+/-! ## A357368.P2902743810987547750
 
-`A220399(n)%A220402(A344725(n+5))`
+`A220399(n)-A250002(A142589(n))`
 -/
 
-namespace A357368.P7157978183143413484
+namespace A357368.P2902743810987547750
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A220399 n) (A220402 (A344725 (n + 5)).toNat)
+  A220399 n - A250002 (A142589 n).toNat
 
 end
 
-end A357368.P7157978183143413484
+end A357368.P2902743810987547750
 
 /-!
 # A357370: Positions of 0's in A355917.
@@ -2542,6 +2542,21 @@ end A357372
 The programs for A357374, there is no canonical definition to state claims against.
 -/
 
+/-! ## A357374.P180125263542505530
+
+`A333381(A353318(n+3)*A353337(n+1))`
+-/
+
+namespace A357374.P180125263542505530
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333381 (A353318 (n + 3) * A353337 (n + 1)).toNat
+
+end
+
+end A357374.P180125263542505530
+
 /-! ## A357374.P11961825479490147503
 
 `A373832(lcm(A001222(2*(n+1)), A103585(3*n+2)))`
@@ -2601,21 +2616,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A357374.P1429909697419081110
-
-/-! ## A357374.P14626585591032967973
-
-`A353337(n+1)+A025469(A341606(3*n+4))`
--/
-
-namespace A357374.P14626585591032967973
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A353337 (n + 1) + A025469 (A341606 (3 * n + 4)).toNat
-
-end
-
-end A357374.P14626585591032967973
 
 /-!
 # A357375: Number of ordered factorizations of n into numbers > 1 with an even number of distinct prime divisors.

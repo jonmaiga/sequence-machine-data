@@ -61,7 +61,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -2613,6 +2612,21 @@ end
 
 end A238827.P4412405940891823478
 
+/-! ## A238827.P9605649074678283986
+
+`floor(A319768(n)/(3*floor((n+1)*ϕ)+2*n))`
+-/
+
+namespace A238827.P9605649074678283986
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(A319768 n : ℚ) / (3 * ⌊(n + 1 : ℝ) * Real.goldenRatio⌋ + (2 * n : ℤ) : ℚ)⌋
+
+end
+
+end A238827.P9605649074678283986
+
 /-! ## A238827.P4862249071045365061
 
 `A117172(A068041(n))`
@@ -2642,21 +2656,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A238827.P18121972956495847034
-
-/-! ## A238827.P13269603133685640025
-
-`A123576(A361223(n+1))`
--/
-
-namespace A238827.P13269603133685640025
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123576 (A361223 (n + 1)).toNat
-
-end
-
-end A238827.P13269603133685640025
 
 /-!
 # A238828: a(0)=0; thereafter a(n) = A238824(n-1)+A238825(n).
@@ -7718,7 +7717,7 @@ end A238897.P9605681074914534112
 /-!
 # A238898: Least number m such that lcm(1,2,3,...,m) = lcm(n,n+1,n+2,...,m).
 
-The programs for A238898, the canonical program `A238898.P6484849418121387212` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238898 has offset 1).
+The programs for A238898, the canonical program `A238898.P6484849418121387212` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238898 has offset 1).
 
 The definition of A238898 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7727,7 +7726,7 @@ The definition of A238898 is `conjectured`: the Lean definition is a formula tha
 
 `(2-A000007(n))*A031218(A028310(n))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A238898

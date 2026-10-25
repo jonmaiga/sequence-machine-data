@@ -49,15 +49,17 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -74,6 +76,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -677,26 +680,20 @@ end
 
 end A282906.P2804691363847204015
 
-/-! ## A282906.P8304493641588168261
+/-! ## A282906.P2291073127814552578
 
-`A029197(eq[A029180(n), A029187(n)])`
+`A023416(A286965(n)+A114800(n))`
 -/
 
-namespace A282906.P8304493641588168261
+namespace A282906.P2291073127814552578
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029180 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029187 n
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029197 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n)
+  A023416 (A286965 n + A114800 n).toNat
 
 end
 
-end A282906.P8304493641588168261
+end A282906.P2291073127814552578
 
 /-!
 # A282907: Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 525", based on the 5-celled von Neumann neighborhood.

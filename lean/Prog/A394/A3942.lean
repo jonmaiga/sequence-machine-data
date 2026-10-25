@@ -24,6 +24,7 @@ import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C034
@@ -52,7 +53,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
@@ -62,7 +62,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -403,6 +402,45 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A394205.P9388856588949023435
+
+/-!
+# A394209: Number of primes p such that 3^(n-1) <= p < 3^n.
+
+The programs for A394209, there is no canonical definition to state claims against.
+-/
+
+/-! ## A394209.P14413814358518916974
+
+`Δ[A000720(A104081(n))]`
+-/
+
+namespace A394209.P14413814358518916974
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000720 (A104081 n).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A394209.P14413814358518916974
+
+/-! ## A394209.P6097821754508098962
+
+`A074990(A000244(n))-A240348(n)`
+-/
+
+namespace A394209.P6097821754508098962
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A074990 (A000244 n).toNat - A240348 n
+
+end
+
+end A394209.P6097821754508098962
 
 /-!
 # A394212: Difference set of Mian-Chowla sequence in order of appearance.
@@ -2533,6 +2571,12 @@ namespace A394266
 /-- `A295934(n+1)-A373565(n)` -/
 def P12810698775825567746.Spec : Prop :=
   ∀ n, P12810698775825567746.a n = A394266 (n + 1)
+
+theorem P12810698775825567746.correct : P12810698775825567746.Spec := by
+  intro n
+  simp only [A394266, Nat.add_sub_cancel, A394266.P12810698775825567746.a, A394266.P11615888605151437702.f1, A394266.P11615888605151437702.a, A189176, A189176.P2914353405765729826.a, A295934, A295934.P14483957444416556349.a, A373565, A373565.P16782235386161217431.a, A000108, A000108.P17551949696095299361.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A394266
 

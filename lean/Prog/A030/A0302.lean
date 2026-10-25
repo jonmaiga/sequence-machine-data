@@ -2586,7 +2586,7 @@ end A030228.P12030436681254589478
 /-!
 # A030229: Numbers that are the product of an even number of distinct primes.
 
-The programs for A030229, the canonical program `A030229.P6582361202127341849` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A030229 has offset 1).
+The programs for A030229, the canonical program `A030229.P6582361202127341849` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A030229 has offset 1).
 
 The definition of A030229 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2618,7 +2618,7 @@ end A030229
 
 `record[A080304(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A030229
@@ -6368,6 +6368,12 @@ namespace A030267
 /-- `A027991(n+1)+A001654(n)` -/
 def P15464231480156402637.Spec : Prop :=
   ∀ n, P15464231480156402637.a n = A030267 (n + 1)
+
+theorem P15464231480156402637.correct : P15464231480156402637.Spec := by
+  intro n
+  simp only [A030267, Nat.add_sub_cancel, A030267.P15464231480156402637.a, A030267.P5738118166235282641.a, A001654, A001654.P2587154079132953885.a, A027991, A027991.P5048975300542147764.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A030267
 

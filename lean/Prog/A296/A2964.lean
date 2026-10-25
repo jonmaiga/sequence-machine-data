@@ -28,11 +28,12 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B009.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -47,7 +48,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -1572,7 +1572,7 @@ end A296441.P18369977015551325371
 /-!
 # A296442: Initial digit of n-th Mersenne number.
 
-The programs for A296442, the canonical program `A296442.P15214103420429711918` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296442 has offset 1).
+The programs for A296442, the canonical program `A296442.P15214103420429711918` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296442 has offset 1).
 
 The definition of A296442 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9592 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1581,7 +1581,7 @@ The definition of A296442 is `conjectured`: the Lean definition is a formula tha
 
 `A008952(A000040(n+1))-A019590(n+1)`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A296442

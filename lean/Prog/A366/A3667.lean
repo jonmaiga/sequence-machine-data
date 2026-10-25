@@ -45,6 +45,7 @@ import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -60,7 +61,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -965,7 +965,7 @@ end A366715
 /-!
 # A366716: a(n) = phi(12^n+1), where phi is Euler's totient function (A000010).
 
-The programs for A366716, the canonical program `A366716.P7239533415179572660` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366716 has offset 0).
+The programs for A366716, the canonical program `A366716.P7239533415179572660` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366716 has offset 0).
 
 The definition of A366716 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -974,7 +974,7 @@ The definition of A366716 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A178248(n))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A366716
@@ -1538,7 +1538,7 @@ end A366724.P2012601444259784829
 /-!
 # A366725: Sum of odd indices of distinct prime factors of n.
 
-The programs for A366725, the canonical program `A366725.P17918233649770589852` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366725 has offset 1).
+The programs for A366725, the canonical program `A366725.P17918233649770589852` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366725 has offset 1).
 
 The definition of A366725 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1593,7 +1593,7 @@ end A366725
 
 `A056239(A351517(n+1))`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A366725
@@ -3532,7 +3532,7 @@ end A366758
 /-!
 # A366759: a(n) = phi(n!-1), where phi is Euler's totient function (A000010).
 
-The programs for A366759, the canonical program `A366759.P15869912079136289307` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366759 has offset 2).
+The programs for A366759, the canonical program `A366759.P15869912079136289307` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366759 has offset 2).
 
 The definition of A366759 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3541,7 +3541,7 @@ The definition of A366759 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A033312(n+2))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A366759
@@ -3611,7 +3611,7 @@ end A366759
 /-!
 # A366760: a(n) = phi(n!+1), where phi is Euler's totient function (A000010).
 
-The programs for A366760, the canonical program `A366760.P5989951023419071794` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366760 has offset 0).
+The programs for A366760, the canonical program `A366760.P5989951023419071794` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366760 has offset 0).
 
 The definition of A366760 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3620,7 +3620,7 @@ The definition of A366760 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A038507(n))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A366760
@@ -5141,7 +5141,7 @@ end A366769.P12421180180331387086
 /-!
 # A366770: Number of prime factors of A001045(n) (Jacobsthal numbers) (counted with multiplicity).
 
-The programs for A366770, the canonical program `A366770.P1227995836965108018` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366770 has offset 1).
+The programs for A366770, the canonical program `A366770.P1227995836965108018` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366770 has offset 1).
 
 The definition of A366770 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5150,7 +5150,7 @@ The definition of A366770 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(A001045(n+1))`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A366770
@@ -5265,7 +5265,7 @@ end A366770
 
 The programs for A366771, the canonical program `A366771.P6017539246711155575` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366771 has offset 1).
 
-The definition of A366771 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A366771 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A366771.P6017539246711155575
@@ -5525,7 +5525,7 @@ end A366772
 /-!
 # A366773: a(n) = A000010(A001045(n)).
 
-The programs for A366773, the canonical program `A366773.P9585367470475040452` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366773 has offset 1).
+The programs for A366773, the canonical program `A366773.P9585367470475040452` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366773 has offset 1).
 
 The definition of A366773 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5534,7 +5534,7 @@ The definition of A366773 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A001045(n+1))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A366773
@@ -5797,6 +5797,21 @@ end
 
 end A366777.P2065155548910622945
 
+/-! ## A366777.P2599362282337373238
+
+`A353229(n)%A099293(n+1)`
+-/
+
+namespace A366777.P2599362282337373238
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A353229 n) (A099293 (n + 1))
+
+end
+
+end A366777.P2599362282337373238
+
 /-! ## A366777.P12804711563553193233
 
 `A353229(n)+A010815(A384599(n))`
@@ -5811,21 +5826,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A366777.P12804711563553193233
-
-/-! ## A366777.P8601768150316464596
-
-`A353229(n)-A000007(A000129(n))`
--/
-
-namespace A366777.P8601768150316464596
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A353229 n - A000007 (A000129 n).toNat
-
-end
-
-end A366777.P8601768150316464596
 
 /-!
 # A366779: a(n) = lambda(lambda(lambda(n))), where lambda(n) is the Carmichael lambda function (A002322).
@@ -6012,7 +6012,7 @@ end A366780
 /-!
 # A366781: Number of prime divisors of A000073(n) (tribonacci numbers) (counted with multiplicity).
 
-The programs for A366781, the canonical program `A366781.P9316855949199447890` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366781 has offset 2).
+The programs for A366781, the canonical program `A366781.P9316855949199447890` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366781 has offset 2).
 
 The definition of A366781 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6021,7 +6021,7 @@ The definition of A366781 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(A000073(n+2))`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A366781
@@ -6154,7 +6154,7 @@ end A366781
 
 The programs for A366782, the canonical program `A366782.P11732756249166605759` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366782 has offset 2).
 
-The definition of A366782 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A366782 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A366782.P11732756249166605759
@@ -6257,26 +6257,29 @@ def P10998825209813434420.Spec : Prop :=
 
 end A366782
 
-/-! ## A366782.P549300639465836798
+/-! ## A366782.P17482435161132477204
 
-`A320111(A135491(n))`
+`A000005(abs(∑[A078042(n)]))`
 -/
 
-namespace A366782.P549300639465836798
+namespace A366782.P17482435161132477204
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A078042 n
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320111 (A135491 n).toNat
+  A000005 |∑ j ∈ Finset.range (n + 1), f1 j|.toNat
 
 end
 
-end A366782.P549300639465836798
+end A366782.P17482435161132477204
 
 namespace A366782
 
-/-- `A320111(A135491(n))` -/
-def P549300639465836798.Spec : Prop :=
-  ∀ n, P549300639465836798.a n = A366782 (n + 2)
+/-- `A000005(abs(∑[A078042(n)]))` -/
+def P17482435161132477204.Spec : Prop :=
+  ∀ n, P17482435161132477204.a n = A366782 (n + 2)
 
 end A366782
 
@@ -6423,7 +6426,7 @@ end A366783
 /-!
 # A366784: Sum of even indices of distinct prime factors of n divided by 2.
 
-The programs for A366784, the canonical program `A366784.P4948638015337007277` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366784 has offset 1).
+The programs for A366784, the canonical program `A366784.P4948638015337007277` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366784 has offset 1).
 
 The definition of A366784 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A066328, A366725, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6432,7 +6435,7 @@ The definition of A366784 is `conditional`: the Lean definition is an OEIS formu
 
 `(A066328(n+1)-A366725(n+1))/2`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A366784
@@ -6659,7 +6662,7 @@ end A366784
 /-!
 # A366785: Greatest common divisor of the number of prime factors (counted with multiplicity, A001222) and the greatest prime index (A061395) of n.
 
-The programs for A366785, the canonical program `A366785.P721477122274016102` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366785 has offset 1).
+The programs for A366785, the canonical program `A366785.P721477122274016102` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366785 has offset 1).
 
 The definition of A366785 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A061395, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6668,7 +6671,7 @@ The definition of A366785 is `conditional`: the Lean definition is an OEIS formu
 
 `gcd(A001222(n+1), A061395(n+1))`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A366785
@@ -7110,7 +7113,7 @@ end A366786.P5471223728706937247
 /-!
 # A366787: a(n) = A366789(A163511(n)).
 
-The programs for A366787, the canonical program `A366787.P16012177667745458763` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366787 has offset 0).
+The programs for A366787, the canonical program `A366787.P16012177667745458763` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366787 has offset 0).
 
 The definition of A366787 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A163511, A366789, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7119,7 +7122,7 @@ The definition of A366787 is `conditional`: the Lean definition is an OEIS formu
 
 `A366789(A163511(n))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A366787
@@ -7251,7 +7254,7 @@ end A366788.P11695912589907119071
 /-!
 # A366789: Fully multiplicative with a(p) = oddpart(primepi(p)).
 
-The programs for A366789, the canonical program `A366789.P13497469237350801223` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366789 has offset 1).
+The programs for A366789, the canonical program `A366789.P13497469237350801223` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366789 has offset 1).
 
 The definition of A366789 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000265, A003963, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7260,7 +7263,7 @@ The definition of A366789 is `conditional`: the Lean definition is an OEIS formu
 
 `A000265(A003963(n+1))`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A366789
@@ -7520,7 +7523,7 @@ end A366790.P16888310956858965134
 /-!
 # A366793: Binary encoding of the ones in the balanced ternary representation of Per Nørgård's "infinity sequence".
 
-The programs for A366793, the canonical program `A366793.P4094261639517123747` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366793 has offset 0).
+The programs for A366793, the canonical program `A366793.P4094261639517123747` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366793 has offset 0).
 
 The definition of A366793 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A289813, A323909, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7529,7 +7532,7 @@ The definition of A366793 is `conditional`: the Lean definition is an OEIS formu
 
 `A289813(A323909(n))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A366793
@@ -7639,7 +7642,7 @@ end A366793
 /-!
 # A366794: Binary encoding of the twos (-1's) in the balanced ternary representation of Per Nørgård's "infinity sequence".
 
-The programs for A366794, the canonical program `A366794.P13602922640503946286` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366794 has offset 0).
+The programs for A366794, the canonical program `A366794.P13602922640503946286` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366794 has offset 0).
 
 The definition of A366794 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A289814, A323909, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7648,7 +7651,7 @@ The definition of A366794 is `conditional`: the Lean definition is an OEIS formu
 
 `A289814(A323909(n))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A366794
@@ -7758,16 +7761,16 @@ end A366794
 /-!
 # A366795: a(n) = A344695(A005940(1+n)), where A344695(n) = gcd(psi(n), sigma(n)), and A005940 is the Doudna sequence.
 
-The programs for A366795, the canonical program `A366795.P7121921865006446826` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366795 has offset 0).
+The programs for A366795, the canonical program `A366795.P7121921865006446826` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366795 has offset 0).
 
-The definition of A366795 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005940, A344695, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A366795 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005940, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A366795.P7121921865006446826
 
 `A344695(A005940(1+n))`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A366795

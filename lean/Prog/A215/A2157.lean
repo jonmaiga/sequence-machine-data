@@ -2265,23 +2265,23 @@ end
 
 end A215718.P1915961925629138120
 
-/-! ## A215718.P4667686000623893612
+/-! ## A215718.P8177921468139649146
 
-`A060727(A122287(∑[n]))`
+`A060727(A122204(∑[n]))`
 -/
 
-namespace A215718.P4667686000623893612
+namespace A215718.P8177921468139649146
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060727 (A122287 (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
+  A060727 (A122204 (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
 
 end
 
-end A215718.P4667686000623893612
+end A215718.P8177921468139649146
 
 /-!
 # A215720: The number of functions f:{1,2,...,n}->{1,2,...,n}, endofunctions, such that exactly one nonrecurrent element is mapped into each recurrent element.
@@ -4237,21 +4237,6 @@ end
 
 end A215754.P6202499685235880388
 
-/-! ## A215754.P7349015510039050813
-
-`A027750(A111088(n)+A001541(n))`
--/
-
-namespace A215754.P7349015510039050813
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027750 (A111088 n + A001541 n).toNat
-
-end
-
-end A215754.P7349015510039050813
-
 /-!
 # A215755: Denominators of the continued fraction convergents of log_10(7).
 
@@ -4272,27 +4257,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A215755.P449235414656251131
-
-/-!
-# A215756: Denominators of the continued fraction convergents of log_10(11).
-
-The programs for A215756, there is no canonical definition to state claims against.
--/
-
-/-! ## A215756.P10887919071353654768
-
-`A329697(A060311(2*n))+A007900(n)`
--/
-
-namespace A215756.P10887919071353654768
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A329697 (A060311 (2 * n)).toNat + A007900 n
-
-end
-
-end A215756.P10887919071353654768
 
 /-!
 # A215758: Numerators of the continued fraction convergents of log_10(6).
@@ -4321,21 +4285,6 @@ end
 
 end A215758.P6260365434731408854
 
-/-! ## A215758.P3838994729370146224
-
-`A300435(A046879(n+1))+n`
--/
-
-namespace A215758.P3838994729370146224
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A300435 (A046879 (n + 1)).toNat + (n : ℤ)
-
-end
-
-end A215758.P3838994729370146224
-
 /-!
 # A215759: Numerators of the continued fraction convergents of log_10(7).
 
@@ -4356,21 +4305,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A215759.P26516001870729581
-
-/-! ## A215759.P16318738474243922260
-
-`A046827(C(A270831(n+1), A025049(n)))`
--/
-
-namespace A215759.P16318738474243922260
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046827 (Nat.choose (A270831 (n + 1)).toNat (A025049 n).toNat)
-
-end
-
-end A215759.P16318738474243922260
 
 /-!
 # A215761: Numbers m with property that 36m+11 is prime.

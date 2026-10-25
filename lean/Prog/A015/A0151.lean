@@ -11,6 +11,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -52,7 +53,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -1564,6 +1564,21 @@ end
 
 end A015120.P9636039829047586879
 
+/-! ## A015120.P8420189789268325635
+
+`A086299(n²)*a(n-1)` with `a(0)=1`
+-/
+
+namespace A015120.P8420189789268325635
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A086299 (n ^ 2) * a (n - 1)
+
+end
+
+end A015120.P8420189789268325635
+
 /-! ## A015120.P8793917500583048897
 
 `A019590(∑[A341022(n)])`
@@ -1840,6 +1855,21 @@ end
 
 end A015122.P5870024684335481484
 
+/-! ## A015122.P6618845696739333572
+
+`A003415(A069681(n+1))*A015668(n)`
+-/
+
+namespace A015122.P6618845696739333572
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003415 (A069681 (n + 1)).toNat * A015668 n
+
+end
+
+end A015122.P6618845696739333572
+
 /-! ## A015122.P2070557846230380677
 
 `A016202(A171596(n))`
@@ -1869,21 +1899,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015122.P6932995022554216230
-
-/-! ## A015122.P15211078822258247373
-
-`A015248(n)%A157439(n)`
--/
-
-namespace A015122.P15211078822258247373
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A015248 n) (A157439 n)
-
-end
-
-end A015122.P15211078822258247373
 
 /-!
 # A015123: Triangle of q-binomial coefficients for q=-10.
@@ -5786,6 +5801,21 @@ end
 
 end A015175.P12071894579641724469
 
+/-! ## A015175.P11219839138973429876
+
+`A003415(A069681(n+1))*A015615(n)`
+-/
+
+namespace A015175.P11219839138973429876
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003415 (A069681 (n + 1)).toNat * A015615 n
+
+end
+
+end A015175.P11219839138973429876
+
 /-! ## A015175.P352937214036507402
 
 `A015751(lt[A136252(n+4), A283477(n+2)])`
@@ -6119,6 +6149,21 @@ end A015179.P809931123706767121
 The programs for A015182, there is no canonical definition to state claims against.
 -/
 
+/-! ## A015182.P16946052910514719977
+
+`A016100(n)-A016124(A174159(n+1))`
+-/
+
+namespace A015182.P16946052910514719977
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016100 n - A016124 (A174159 (n + 1)).toNat
+
+end
+
+end A015182.P16946052910514719977
+
 /-! ## A015182.P14376877684713863247
 
 `A016010(A004917(n+1))`
@@ -6184,27 +6229,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015182.P4412244462941898166
-
-/-! ## A015182.P4108373121974189322
-
-`A049347(lt[A248982(n+1), A051062(3*n+1)])`
--/
-
-namespace A015182.P4108373121974189322
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A248982 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051062 (3 * n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049347 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A015182.P4108373121974189322
 
 /-!
 # A015186: Inverse of 1177th cyclotomic polynomial.

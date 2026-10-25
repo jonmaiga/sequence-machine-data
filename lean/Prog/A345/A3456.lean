@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -35,6 +36,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
@@ -71,6 +73,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A345600: Numbers that are the sum of ten fourth powers in seven or more ways.
@@ -1071,20 +1077,20 @@ end
 
 end A345621.P11139056629468002507
 
-/-! ## A345621.P9055822258982622297
+/-! ## A345621.P2495778202293197205
 
-`A057427(A268527(n+1))*A346339(n+1)`
+`A346339(n+1)+A000007(A053818(n+1))`
 -/
 
-namespace A345621.P9055822258982622297
+namespace A345621.P2495778202293197205
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057427 (A268527 (n + 1)).toNat * A346339 (n + 1)
+  A346339 (n + 1) + A000007 (A053818 (n + 1)).toNat
 
 end
 
-end A345621.P9055822258982622297
+end A345621.P2495778202293197205
 
 /-!
 # A345622: Numbers that are the sum of nine fifth powers in five or more ways.
@@ -3635,6 +3641,12 @@ namespace A345668
 def P16894583978657818364.Spec : Prop :=
   ∀ n, P16894583978657818364.a n = A345668 (n + 3)
 
+theorem P16894583978657818364.correct : P16894583978657818364.Spec := by
+  intro n
+  simp only [A345668, Nat.add_sub_cancel, A345668.P16894583978657818364.a, A345668.P4398126403795898940.a, A175851, A175851.P13592010490707745070.a, A175856, A175856.P13215807738889420678.a, A061007, A061007.P1649170130193805129.f1, A061007.P1649170130193805129.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A345668
 
 /-! ## A345668.P7062992770101986649
@@ -3778,6 +3790,12 @@ namespace A345668
 /-- `1-2*A064722(n+2)+n` -/
 def P15963689721799306242.Spec : Prop :=
   ∀ n, P15963689721799306242.a n = A345668 (n + 3)
+
+theorem P15963689721799306242.correct : P15963689721799306242.Spec := by
+  intro n
+  simp only [A345668, Nat.add_sub_cancel, A345668.P15963689721799306242.a, A345668.P4398126403795898940.a, A064722, A064722.P17255395012520951887.a, A175856, A175856.P13215807738889420678.a, A175851, A175851.P13592010490707745070.a, A061007, A061007.P1649170130193805129.f1, A061007.P1649170130193805129.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A345668
 
@@ -4284,6 +4302,12 @@ namespace A345674
 /-- `A039649(n+1)-(A046144(n+1)+1)` -/
 def P14240800004245888360.Spec : Prop :=
   ∀ n, P14240800004245888360.a n = A345674 (n + 1)
+
+theorem P14240800004245888360.correct : P14240800004245888360.Spec := by
+  intro n
+  simp only [A345674, Nat.add_sub_cancel, A345674.P14240800004245888360.a, A345674.P823125279381487032.a, A000010, A000010.P4673923239450215316.a, A039649, A039649.P16717312505280968063.a, A046144, A046144.P10723392011678918045.a, A003557, A003557.P6364735403900941810.a, A046072, A046072.P3486266862875082890.f1, A046072.P3486266862875082890.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A060594, A060594.P2818484457649056228.f1, A060594.P2818484457649056228.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P2666504972441551157.a, A114643, A114643.P3385208476335884825.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A345674
 

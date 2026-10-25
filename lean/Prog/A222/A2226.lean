@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -52,6 +53,7 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -79,6 +81,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A222600: Least number k such that the difference between the number of halving and tripling steps in the Collatz (3x+1) iteration is n.
@@ -1720,6 +1726,12 @@ namespace A222621
 /-- `A085528(n)²` -/
 def P9501992750824885052.Spec : Prop :=
   ∀ n, P9501992750824885052.a n = A222621 (n + 1)
+
+theorem P9501992750824885052.correct : P9501992750824885052.Spec := by
+  intro n
+  simp only [A222621, Nat.add_sub_cancel, A222621.P9501992750824885052.a, A222621.P4354624679629263207.a, A085528, A085528.P13012219599689472192.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A222621
 
@@ -4678,6 +4690,12 @@ namespace A222655
 def P17413878264415575095.Spec : Prop :=
   ∀ n, P17413878264415575095.a n = A222655 n
 
+theorem P17413878264415575095.correct : P17413878264415575095.Spec := by
+  intro n
+  simp only [A222655, Nat.add_sub_cancel, A222655.P17413878264415575095.a, A222655.P14478892799853313748.a, A141046, A141046.P17031355750207900223.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A222655
 
 /-! ## A222655.P16883157948438418686
@@ -4700,6 +4718,12 @@ namespace A222655
 /-- `A057781(2*n)` -/
 def P16883157948438418686.Spec : Prop :=
   ∀ n, P16883157948438418686.a n = A222655 n
+
+theorem P16883157948438418686.correct : P16883157948438418686.Spec := by
+  intro n
+  simp only [A222655, Nat.add_sub_cancel, A222655.P16883157948438418686.a, A222655.P14478892799853313748.a, A057781, A057781.P5803759320674587886.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A222655
 
@@ -4724,6 +4748,12 @@ namespace A222655
 def P16907683444298148118.Spec : Prop :=
   ∀ n, P16907683444298148118.a n = A222655 n
 
+theorem P16907683444298148118.correct : P16907683444298148118.Spec := by
+  intro n
+  simp only [A222655, Nat.add_sub_cancel, A222655.P16907683444298148118.a, A222655.P14478892799853313748.a, A002522, A002522.P3778392011853271743.a, A160457, A160457.P13231799295759563819.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A222655
 
 /-! ## A222655.P8956863600802901419
@@ -4747,6 +4777,12 @@ namespace A222655
 def P8956863600802901419.Spec : Prop :=
   ∀ n, P8956863600802901419.a n = A222655 n
 
+theorem P8956863600802901419.correct : P8956863600802901419.Spec := by
+  intro n
+  simp only [A222655, Nat.add_sub_cancel, A222655.P8956863600802901419.a, A222655.P14478892799853313748.a, A108100, A108100.P3833022910287010970.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A222655
 
 /-! ## A222655.P1069922154579037232
@@ -4769,6 +4805,12 @@ namespace A222655
 /-- `4*A053755(n²)` -/
 def P1069922154579037232.Spec : Prop :=
   ∀ n, P1069922154579037232.a n = A222655 n
+
+theorem P1069922154579037232.correct : P1069922154579037232.Spec := by
+  intro n
+  simp only [A222655, Nat.add_sub_cancel, A222655.P1069922154579037232.a, A222655.P14478892799853313748.a, A053755, A053755.P11748163540145338459.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A222655
 
@@ -5323,28 +5365,29 @@ def P11107301433233941960.Spec : Prop :=
 
 end A222657
 
-/-! ## A222657.P6908210526424931646
+/-! ## A222657.P14313792602307045846
 
-`floor(a(n-1)-(1-a(n-2)%4))` with `a(0)=1, a(1)=3`
-
-`floor` is left out, it is the identity on integers.
+`∑[(3-a(n-3))*a(n-3)]` with `a(0)=1, a(1)=2, a(2)=0`
 -/
 
-namespace A222657.P6908210526424931646
+namespace A222657.P14313792602307045846
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 3] fun n a =>
-  a (n - 1) - (1 - Int.tmod (a (n - 2)) 4)
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [1, 2, 0] fun n f1 =>
+  (3 - f1 (n - 3)) * f1 (n - 3)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A222657.P6908210526424931646
+end A222657.P14313792602307045846
 
 namespace A222657
 
-/-- `floor(a(n-1)-(1-a(n-2)%4))` -/
-def P6908210526424931646.Spec : Prop :=
-  ∀ n, P6908210526424931646.a n = A222657 n
+/-- `∑[(3-a(n-3))*a(n-3)]` -/
+def P14313792602307045846.Spec : Prop :=
+  ∀ n, P14313792602307045846.a n = A222657 n
 
 end A222657
 
@@ -5972,23 +6015,23 @@ end A222666.P8418008890502171093
 The programs for A222667, there is no canonical definition to state claims against.
 -/
 
-/-! ## A222667.P14617045550326174998
+/-! ## A222667.P11617509462986109459
 
-`A222673(∑[n+1]+2)`
+`A222673(2+∑[n+1])`
 -/
 
-namespace A222667.P14617045550326174998
+namespace A222667.P11617509462986109459
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n + 1
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A222673 (∑ j ∈ Finset.range (n + 1), f1 j + 2)
+  A222673 (2 + ∑ j ∈ Finset.range (n + 1), f1 j)
 
 end
 
-end A222667.P14617045550326174998
+end A222667.P11617509462986109459
 
 /-! ## A222667.P9249911559238977540
 

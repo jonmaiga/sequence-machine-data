@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -91,6 +92,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A371100: Array A read by upward antidiagonals in which the entry A(n,k) in row n and column k is defined by A(n, k) = 4^n*(6*k - 3 - 2*(-1)^n) + (4^n - 1)/3, n,k >= 1.
@@ -1999,6 +2004,21 @@ end A371132.P15878304236159953628
 The programs for A371138, there is no canonical definition to state claims against.
 -/
 
+/-! ## A371138.P6229576139633538211
+
+`A027746(A207557(n))*A351492(n)`
+-/
+
+namespace A371138.P6229576139633538211
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A027746 (A207557 n).toNat * A351492 n
+
+end
+
+end A371138.P6229576139633538211
+
 /-! ## A371138.P15852796830706416205
 
 `lcm(A007121(n), A195097(A124400(n)))`
@@ -2440,7 +2460,7 @@ end A371148.P16411114432481074384
 /-!
 # A371149: Let n = Product_{j=1..k} p_j^e_j and gpf(n)! = Product_{j=1..k} p_j^f_j, where p_j = A000040(j) is the j-th prime and p_k = gpf(n) = A006530(n) is the greatest prime factor of n. a(n) is the denominator of the maximum of e_j/f_j.
 
-The programs for A371149, the canonical program `A371149.P8047170178604340507` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371149 has offset 2).
+The programs for A371149, the canonical program `A371149.P8047170178604340507` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371149 has offset 2).
 
 The definition of A371149 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 158 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2518,7 +2538,7 @@ end A371149
 
 `A025474(6*A357605(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A371149
@@ -5869,7 +5889,7 @@ end A371190.P14564624967714560118
 
 The programs for A371193, the canonical program `A371193.P16807310514170765857` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371193 has offset 0).
 
-The definition of A371193 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A371193 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^(4*n-4)*(2^n-1)` (program `A371193.P16132567020786419494`, by `A371193.P16132567020786419494.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A371193.P16132567020786419494
@@ -5894,6 +5914,24 @@ namespace A371193
 /-- `2^(4*n-4)*(2^n-1)` -/
 def P16132567020786419494.Spec : Prop :=
   ∀ n, P16132567020786419494.a n = (A371193 n : ℚ)
+
+theorem P16132567020786419494.correct : P16132567020786419494.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A371193, Nat.add_sub_cancel, A371193.P16132567020786419494.a, A371193.P16807310514170765857.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A371193, Nat.add_sub_cancel, A371193.P16132567020786419494.a, A371193.P16807310514170765857.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1)
 
 end A371193
 

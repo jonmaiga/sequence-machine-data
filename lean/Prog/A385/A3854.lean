@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -49,7 +50,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B014.C000
@@ -78,6 +78,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A385400: a(n) is the number of free polyominoids that have faces aligned to precisely 3 planes.
@@ -1085,7 +1089,7 @@ end A385433.P9921897813779720404
 /-!
 # A385434: Triangle of Gaussian binomial coefficients (or q-binomial coefficients) [n,k] for q = 2, reduced mod 3.
 
-The programs for A385434, the canonical program `A385434.P12615426485299971603` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385434 has offset 0).
+The programs for A385434, the canonical program `A385434.P12615426485299971603` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385434 has offset 0).
 
 The definition of A385434 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1117,7 +1121,7 @@ end A385434
 
 `A051159(n)%3`
 
-The canonical program, it is in `Seq.B009.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A385434
@@ -1640,6 +1644,12 @@ namespace A385435
 def P14206848718662087562.Spec : Prop :=
   ∀ n, P14206848718662087562.a n = A385435 n
 
+theorem P14206848718662087562.correct : P14206848718662087562.Spec := by
+  intro n
+  simp only [A385435, Nat.add_sub_cancel, A385435.P14206848718662087562.a, A385435.P8381468024742294352.a, A004526, A004526.P10084182425416171735.a, A032766, A032766.P1975864606945388751.a, A051638, A051638.P12166677434659216956.a, A006047, A006047.P4068788115409844993.a, A062756, A062756.P1690328074711592095.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A385435
 
 /-! ## A385435.P14884269021466483831
@@ -2044,6 +2054,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A385446.P12093944751721253933
+
+/-! ## A385446.P14546438284058511372
+
+`A297109(A001157(2*(n+1)))+A094214(n)`
+-/
+
+namespace A385446.P14546438284058511372
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A297109 (A001157 (2 * (n + 1))).toNat + A094214 n
+
+end
+
+end A385446.P14546438284058511372
 
 /-!
 # A385454: Difference of the largest and smallest semiperimeters of an integral rectangle with area n.
@@ -3763,6 +3788,56 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A385489.P4298777442396420990
+
+/-!
+# A385492: Numbers y such that there exists an integer 0 < x < y such that x^sigma(x) * y^sigma(y) = (x*y)^(x+y).
+
+The programs for A385492, there is no canonical definition to state claims against.
+-/
+
+/-! ## A385492.P16929121783638904784
+
+`∪[A000040(n+1), A038550(A289568(n))]`
+-/
+
+namespace A385492.P16929121783638904784
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A038550 (A289568 n).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A385492.P16929121783638904784
+
+/-! ## A385492.P17667360222726282580
+
+`∪[A000040(n+1), A344616(A128593(3*n+4))]`
+-/
+
+namespace A385492.P17667360222726282580
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344616 (A128593 (3 * n + 4)).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A385492.P17667360222726282580
 
 /-!
 # A385494: Total number of 1's in the decimal digits of the divisors of n.

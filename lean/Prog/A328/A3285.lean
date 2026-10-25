@@ -53,15 +53,12 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -4891,7 +4888,7 @@ end A328567
 /-!
 # A328568: Irregular triangle read by rows; for n >= 0, the n-th row corresponds to the elements of the set {(n-k) XOR k, k = 0..n}, in ascending order (where XOR denotes the bitwise XOR operator).
 
-The programs for A328568, the canonical program `A328568.P3353613045222164027` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328568 has offset 0).
+The programs for A328568, the canonical program `A328568.P3353613045222164027` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328568 has offset 0).
 
 The definition of A328568 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1259 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4900,7 +4897,7 @@ The definition of A328568 is `conjectured`: the Lean definition is a formula tha
 
 `A003987(eq[n, A286099(n)])`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A328568
@@ -6828,6 +6825,21 @@ end A328575.P12601393978605496414
 The programs for A328577, there is no canonical definition to state claims against.
 -/
 
+/-! ## A328577.P4468669806959970145
+
+`A003963(A328842(n)+A300402(2*n+3))`
+-/
+
+namespace A328577.P4468669806959970145
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003963 (A328842 n + A300402 (2 * n + 3)).toNat
+
+end
+
+end A328577.P4468669806959970145
+
 /-! ## A328577.P6075662797608909232
 
 `A000195((n+7)*A328572(n))`
@@ -6891,21 +6903,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A328577.P16411924803959037429
-
-/-! ## A328577.P10993304583979614999
-
-`A125173(A328572(n))+A001222(2*A006530(n+1))`
--/
-
-namespace A328577.P10993304583979614999
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A125173 (A328572 n).toNat + A001222 (2 * A006530 (n + 1)).toNat
-
-end
-
-end A328577.P10993304583979614999
 
 /-!
 # A328578: Index of the least prime not dividing A276086(A276086(n)): a(n) = A257993(A276087(n)).

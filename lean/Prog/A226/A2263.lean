@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -58,11 +59,11 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -78,7 +79,6 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -94,6 +94,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A226300: a(n) = A182107(4n).
@@ -1552,6 +1556,12 @@ namespace A226314
 def P4965807051413021201.Spec : Prop :=
   ∀ n, P4965807051413021201.a n = A226314 (n + 1)
 
+theorem P4965807051413021201.correct : P4965807051413021201.Spec := by
+  intro n
+  simp only [A226314, Nat.add_sub_cancel, A226314.P4965807051413021201.a, A226314.P17792487929510332212.a, A002024, A002024.P11700297927830783882.a, A054531, A054531.P17853687530783938553.a, A164306, A164306.P6745105614264887961.f3, A164306.P6745105614264887961.f2, A164306.P6745105614264887961.f1, A164306.P6745105614264887961.a, A167192, A167192.P15421347857005560229.a, A050873, A050873.P9978690137907043901.a, A051173, A051173.P15389408228656621901.f1, A051173.P15389408228656621901.a, A002260, A002260.P769748059679640451.a, A010054, A010054.P18347828677204923252.a, A002262, A002262.P12129691700837801527.a, A005369, A005369.P10796159359873341658.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A226314
 
 /-! ## A226314.P8874801565892108602
@@ -2458,7 +2468,7 @@ end A226322.P12825825702067465577
 /-!
 # A226323: Number of ordered pairs (i,j) with |i| * |j| <= n and gcd(i,j) <= 1.
 
-The programs for A226323, the canonical program `A226323.P8599648680778542413` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226323 has offset 0).
+The programs for A226323, the canonical program `A226323.P8599648680778542413` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226323 has offset 0).
 
 The definition of A226323 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2600,7 +2610,7 @@ end A226323
 
 `A017077(∑[A007875(n+1)]-A007875(n+1))`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A226323
@@ -4963,6 +4973,12 @@ namespace A226355
 def P2950065781230198154.Spec : Prop :=
   ∀ n, P2950065781230198154.a n = A226355 n
 
+theorem P2950065781230198154.correct : P2950065781230198154.Spec := by
+  intro n
+  simp only [A226355, Nat.add_sub_cancel, A226355.P2950065781230198154.a, A226355.P11003096191181495319.f2, A226355.P11003096191181495319.f1, A226355.P11003096191181495319.a, A270543, A270543.P5734163756768148192.a, A270544, A270544.P6791323703914777716.a, A060831, A060831.P8526254986242244020.a, A001227, A001227.P17291574635237243988.f1, A001227.P17291574635237243988.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A226355
 
 /-! ## A226355.P8760079770607967556
@@ -7301,7 +7317,7 @@ end A226384
 /-!
 # A226385: Numbers n such that rad(phi(n)) > phi(rad(n)), where rad(n) is the squarefree kernel of n, and phi is Euler's totient function.
 
-The programs for A226385, the canonical program `A226385.P8581291142238122846` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226385 has offset 1).
+The programs for A226385, the canonical program `A226385.P8581291142238122846` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226385 has offset 1).
 
 The definition of A226385 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2444 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7310,7 +7326,7 @@ The definition of A226385 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A336551(A000010(n+1)), A336551(n+1)]+1`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A226385
@@ -7426,7 +7442,7 @@ end A226385
 /-!
 # A226386: Numbers n such that rad(phi(n)) < phi(rad(n)), where rad(n) is the squarefree kernel of n, and phi is Euler's totient function.
 
-The programs for A226386, the canonical program `A226386.P1965072438224400353` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226386 has offset 1).
+The programs for A226386, the canonical program `A226386.P1965072438224400353` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226386 has offset 1).
 
 The definition of A226386 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7435,7 +7451,7 @@ The definition of A226386 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A080400(n+1), A173557(n+1)]+1`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A226386

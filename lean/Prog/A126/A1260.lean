@@ -5727,7 +5727,7 @@ end A126063
 /-!
 # A126064: Triangle read by rows, obtained by multiplying columns of triangle in A094587 by 1,2,4,8,16,... respectively.
 
-The programs for A126064, the canonical program `A126064.P1560116210223187894` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A126064 has offset 0).
+The programs for A126064, the canonical program `A126064.P1560116210223187894` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A126064 has offset 0).
 
 The definition of A126064 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2485 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5782,7 +5782,7 @@ end A126064
 
 `A059268(n)*A094587(n)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A126064
@@ -7473,6 +7473,12 @@ namespace A126080
 def P15000791938676525792.Spec : Prop :=
   ∀ n, P15000791938676525792.a n = A126080 (n + 1)
 
+theorem P15000791938676525792.correct : P15000791938676525792.Spec := by
+  intro n
+  simp only [A126080, Nat.add_sub_cancel, A126080.P15000791938676525792.a, A126080.P8574941834857366715.a, A001221, A001221.P10258181745752134128.a, A003557, A003557.P6364735403900941810.a, A008472, A008472.P6567490011312877583.f1, A008472.P6567490011312877583.a, A055631, A055631.P8885936990558110793.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A059841, A059841.P2666504972441551157.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A126080
 
 /-! ## A126080.P10938946673805639733
@@ -9016,7 +9022,7 @@ end A126095
 /-!
 # A126096: Primes that are the arithmetic mean of four successive primes.
 
-The programs for A126096, the canonical program `A126096.P4702891818207861137` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A126096 has offset 1).
+The programs for A126096, the canonical program `A126096.P4702891818207861137` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A126096 has offset 1).
 
 The definition of A126096 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 552 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9025,7 +9031,7 @@ The definition of A126096 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A102655(n+1)]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A126096

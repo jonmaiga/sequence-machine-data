@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -34,9 +35,9 @@ import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C002
+import Seq.B007.C001
 import Seq.B009.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -55,12 +56,17 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A395300: Sum of numbers k < n such that rad(k) | n but k does not divide n, where rad = A007947.
@@ -101,7 +107,7 @@ end A395300.P7772855914299179649
 /-!
 # A395301: a(n) = tau(n) - omega(n) + Sum_{p|n, p prime} gcd(p,n/p).
 
-The programs for A395301, the canonical program `A395301.P11832353311031738574` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395301 has offset 1).
+The programs for A395301, the canonical program `A395301.P11832353311031738574` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395301 has offset 1).
 
 The definition of A395301 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A033273, A345266, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -110,7 +116,7 @@ The definition of A395301 is `conditional`: the Lean definition is an OEIS formu
 
 `A033273(n+1)+A345266(n+1)`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A395301
@@ -145,6 +151,12 @@ namespace A395301
 /-- `A000005(n+1)+A345266(n+1)-A001221(n+1)` -/
 def P13526377194841282050.Spec : Prop :=
   ∀ n, P13526377194841282050.a n = A395301 (n + 1)
+
+theorem P13526377194841282050.correct : P13526377194841282050.Spec := by
+  intro n
+  simp only [A395301, Nat.add_sub_cancel, A395301.P13526377194841282050.a, A395301.P11832353311031738574.a, A000005, A000005.P16091521709108585461.a, A001221, A001221.P10258181745752134128.a, A033273, A033273.P18420659424697249895.a, A345266, A345266.P10002656146987510819.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A056169, A056169.P17430176249366647977.a, A059841, A059841.P2666504972441551157.a, A063958, A063958.P8283110959988242133.a, A008472, A008472.P6567490011312877583.f1, A008472.P6567490011312877583.a, A055231, A055231.P8962300905713718501.a, A063956, A063956.P13509344762830228615.f2, A063956.P13509344762830228615.f4, A063956.P13509344762830228615.f3, A063956.P13509344762830228615.f1, A063956.P13509344762830228615.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A071773, A071773.P10459083202328690793.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A395301
 
@@ -1765,20 +1777,20 @@ end
 
 end A395361.P15967659784882052299
 
-/-! ## A395361.P5065201122530292924
+/-! ## A395361.P9407374991353061942
 
-`A000045(n)%A328792(A357644(n))`
+`A000045(n)%A006063(A019565(n))`
 -/
 
-namespace A395361.P5065201122530292924
+namespace A395361.P9407374991353061942
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A000045 n) (A328792 (A357644 n).toNat)
+  Int.tmod (A000045 n) (A006063 (A019565 n).toNat)
 
 end
 
-end A395361.P5065201122530292924
+end A395361.P9407374991353061942
 
 /-!
 # A395362: Walk along the hexagonal spiral, with its cells numbered starting at 0. Begin with no knights. If the square you are at is not attacked by an existing knight, place a knight there, otherwise leave it empty. The sequence lists the squares occupied by the knights.
@@ -2198,6 +2210,12 @@ namespace A395396
 def P5963499201413584339.Spec : Prop :=
   ∀ n, P5963499201413584339.a n = A395396 n
 
+theorem P5963499201413584339.correct : P5963499201413584339.Spec := by
+  intro n
+  simp only [A395396, Nat.add_sub_cancel, A395396.P5963499201413584339.a, A395396.P11751672268797446085.a, A000035, A000035.P2023072528413494694.a, A201686, A201686.P5560453005708353295.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A395396
 
 /-! ## A395396.P16467251618907001618
@@ -2243,6 +2261,12 @@ namespace A395396
 /-- `A051920(n)-A176059(n)` -/
 def P4761424403776155548.Spec : Prop :=
   ∀ n, P4761424403776155548.a n = A395396 n
+
+theorem P4761424403776155548.correct : P4761424403776155548.Spec := by
+  intro n
+  simp only [A395396, Nat.add_sub_cancel, A395396.P4761424403776155548.a, A395396.P11751672268797446085.a, A051920, A051920.P2707849764288868979.a, A176059, A176059.P3242393250982034900.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A395396
 

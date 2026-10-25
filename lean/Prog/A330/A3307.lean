@@ -66,10 +66,10 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -1938,6 +1938,12 @@ namespace A330714
 def P14285621730590953198.Spec : Prop :=
   ∀ n, P14285621730590953198.a n = A330714 n
 
+theorem P14285621730590953198.correct : P14285621730590953198.Spec := by
+  intro n
+  simp only [A330714, Nat.add_sub_cancel, A330714.P14285621730590953198.a, A330714.P2325719650532797238.a, A004526, A004526.P10084182425416171735.a, A131851, A131851.P1942102588328150094.a, A131852, A131852.P12166633739623928702.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A330714
 
 /-! ## A330714.P13655202588310246081
@@ -2775,7 +2781,7 @@ end A330722.P16346287483816736905
 /-!
 # A330724: Sum of prime factors (with multiplicity) of the n-th composite number coprime to 6.
 
-The programs for A330724, the canonical program `A330724.P16993520120125291857` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330724 has offset 1).
+The programs for A330724, the canonical program `A330724.P16993520120125291857` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330724 has offset 1).
 
 The definition of A330724 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001414, A038509, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2784,7 +2790,7 @@ The definition of A330724 is `conditional`: the Lean definition is an OEIS formu
 
 `A001414(A038509(n+1))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A330724
@@ -5915,6 +5921,25 @@ namespace A330767
 def P9989962564738758719.Spec : Prop :=
   ∀ n, P9989962564738758719.a n = (A330767 n : ℝ)
 
+theorem P9989962564738758719.correct : P9989962564738758719.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A330767, Nat.add_sub_cancel, A330767.P9989962564738758719.a, A330767.P398428908081696896.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A330767, Nat.add_sub_cancel, A330767.P9989962564738758719.a, A330767.P398428908081696896.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A330767
 
 /-! ## A330767.P11570471293763145899
@@ -8104,6 +8129,12 @@ namespace A330796
 /-- `A103457(n)-A129703(n)` -/
 def P6485694195482839873.Spec : Prop :=
   ∀ n, P6485694195482839873.a n = A330796 n
+
+theorem P6485694195482839873.correct : P6485694195482839873.Spec := by
+  intro n
+  simp only [A330796, Nat.add_sub_cancel, A330796.P6485694195482839873.a, A330796.P18057890760178704825.a, A005773, A005773.P2300326801340372225.a, A103457, A103457.P18126289584890092929.a, A129703, A129703.P4207746341817496301.a, A057427, A057427.P3058147525557661423.a, A000007, A000007.P6599383543502402472.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A330796
 

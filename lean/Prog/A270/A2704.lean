@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -54,6 +55,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -66,6 +68,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -95,6 +98,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A270402: Denominators of r-Egyptian fraction expansion for e - 2, where r(k) = 1/Fibonacci(k+1).
@@ -2388,6 +2395,12 @@ namespace A270432
 def P5598723359859374239.Spec : Prop :=
   ∀ n, P5598723359859374239.a n = A270432 (n + 1)
 
+theorem P5598723359859374239.correct : P5598723359859374239.Spec := by
+  intro n
+  simp only [A270432, Nat.add_sub_cancel, A270432.P5598723359859374239.a, A270432.P16128433384081149087.f2, A270432.P16128433384081149087.f1, A270432.P16128433384081149087.a, A270430, A270430.P7402745598073727974.f1, A270430.P7402745598073727974.f2, A270430.P7402745598073727974.a, A270433, A270433.P15401219787460768616.a, A011655, A011655.P6146775691868591852.a, A246260, A246260.P15139320144047363680.a, A000035, A000035.P2023072528413494694.a, A048673, A048673.P16342935298832955059.a, A045965, A045965.P3274931299755745232.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A270432
 
 /-! ## A270432.P16128433384081149087
@@ -2429,6 +2442,12 @@ namespace A270432
 /-- `(A270434(n+1)+n+1)/2` -/
 def P5541196367969075660.Spec : Prop :=
   ∀ n, P5541196367969075660.a n = (A270432 (n + 1) : ℚ)
+
+theorem P5541196367969075660.correct : P5541196367969075660.Spec := by
+  intro n
+  simp only [A270432, Nat.add_sub_cancel, A270432.P5541196367969075660.a, A270432.P16128433384081149087.f2, A270432.P16128433384081149087.f1, A270432.P16128433384081149087.a, A270430, A270430.P7402745598073727974.f1, A270430.P7402745598073727974.f2, A270430.P7402745598073727974.a, A270434, A270434.P10423559976014811217.a, A011655, A011655.P6146775691868591852.a, A246260, A246260.P15139320144047363680.a, A270433, A270433.P15401219787460768616.a, A000035, A000035.P2023072528413494694.a, A048673, A048673.P16342935298832955059.a, A045965, A045965.P3274931299755745232.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A270432
 
@@ -2562,6 +2581,12 @@ namespace A270433
 /-- `(n+1-A270434(n+1))/2` -/
 def P8096286106597250337.Spec : Prop :=
   ∀ n, P8096286106597250337.a n = (A270433 (n + 1) : ℚ)
+
+theorem P8096286106597250337.correct : P8096286106597250337.Spec := by
+  intro n
+  simp only [A270433, Nat.add_sub_cancel, A270433.P8096286106597250337.a, A270433.P15401219787460768616.a, A270432, A270432.P16128433384081149087.f2, A270432.P16128433384081149087.f1, A270432.P16128433384081149087.a, A270434, A270434.P10423559976014811217.a, A270430, A270430.P7402745598073727974.f1, A270430.P7402745598073727974.f2, A270430.P7402745598073727974.a, A011655, A011655.P6146775691868591852.a, A246260, A246260.P15139320144047363680.a, A000035, A000035.P2023072528413494694.a, A048673, A048673.P16342935298832955059.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A270433
 
@@ -3531,6 +3556,12 @@ namespace A270440
 def P18280434964624670733.Spec : Prop :=
   ∀ n, P18280434964624670733.a n = A270440 n
 
+theorem P18280434964624670733.correct : P18280434964624670733.Spec := by
+  intro n
+  simp only [A270440, Nat.add_sub_cancel, A270440.P18280434964624670733.a, A270440.P8383876616977072034.a, A000984, A000984.P7946844122574426130.a, A028329, A028329.P2723209719397665586.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A270440
 
 /-! ## A270440.P8663842143045937061
@@ -3576,6 +3607,12 @@ namespace A270440
 /-- `round(sqrt(2*C(2*n, n)))+1` -/
 def P6539970072168743383.Spec : Prop :=
   ∀ n, P6539970072168743383.a n = A270440 n
+
+theorem P6539970072168743383.correct : P6539970072168743383.Spec := by
+  intro n
+  simp only [A270440, Nat.add_sub_cancel, A270440.P6539970072168743383.a, A270440.P8383876616977072034.a, A028329, A028329.P2723209719397665586.a, A000984, A000984.P7946844122574426130.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A270440
 

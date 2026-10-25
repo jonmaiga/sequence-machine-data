@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -50,7 +51,7 @@ import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
+import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
@@ -59,6 +60,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -84,6 +86,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A231400: Number of (4+1)X(n+1) 0..2 arrays with no element unequal to a strict majority of its horizontal, diagonal and antidiagonal neighbors, with values 0..2 introduced in row major order.
@@ -2413,6 +2419,12 @@ namespace A231431
 /-- `A298879(n+1)²` -/
 def P1987383285637851734.Spec : Prop :=
   ∀ n, P1987383285637851734.a n = A231431 (n + 1)
+
+theorem P1987383285637851734.correct : P1987383285637851734.Spec := by
+  intro n
+  simp only [A231431, Nat.add_sub_cancel, A231431.P1987383285637851734.a, A231431.P17689174645925923634.f1, A231431.P17689174645925923634.f2, A231431.P17689174645925923634.a, A228039, A228039.P4227557278893953699.a, A298879, A298879.P12503287432390370405.f1, A298879.P12503287432390370405.f2, A298879.P12503287432390370405.a, A010060, A010060.P3080921269106500717.a, A000035, A000035.P2023072528413494694.a, A000120, A000120.P2816527436160941581.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A231431
 

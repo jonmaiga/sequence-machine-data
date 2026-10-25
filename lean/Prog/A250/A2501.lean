@@ -6885,6 +6885,12 @@ namespace A250162
 def P10635817475206117514.Spec : Prop :=
   ∀ n, P10635817475206117514.a n = A250162 (n + 1)
 
+theorem P10635817475206117514.correct : P10635817475206117514.Spec := by
+  intro n
+  simp only [A250162, Nat.add_sub_cancel, A250162.P10635817475206117514.a, A250162.P15960870572849341801.a, A069993, A069993.P10904131476634752855.a, A247620, A247620.P3501996909612434225.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A250162
 
 /-! ## A250162.P5621919856491481217

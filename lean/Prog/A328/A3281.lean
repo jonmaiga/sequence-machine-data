@@ -64,7 +64,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -208,7 +207,7 @@ end A328100.P3342697428029586349
 /-!
 # A328101: Column immediately right of the middle column of rule-30 1-D cellular automaton, when started from a lone 1 cell.
 
-The programs for A328101, the canonical program `A328101.P6975989960955687215` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328101 has offset 1).
+The programs for A328101, the canonical program `A328101.P6975989960955687215` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328101 has offset 1).
 
 The definition of A328101 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A265281, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -217,7 +216,7 @@ The definition of A328101 is `conditional`: the Lean definition is an OEIS formu
 
 `A000035(floor(A265281(n+1)/2^(n+2)))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A328101
@@ -825,7 +824,7 @@ end A328102.P3096915590996025357
 /-!
 # A328103: Bitwise XOR of trajectories of rule 30 and rule 124, when both are started from a lone 1 cell: a(n) = A110240(n) XOR A267357(n).
 
-The programs for A328103, the canonical program `A328103.P14408953863942436734` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328103 has offset 0).
+The programs for A328103, the canonical program `A328103.P14408953863942436734` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328103 has offset 0).
 
 The definition of A328103 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A110240, A267357, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -834,7 +833,7 @@ The definition of A328103 is `conditional`: the Lean definition is an OEIS formu
 
 `xor(A110240(n), A267357(n))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A328103
@@ -2879,6 +2878,21 @@ end A328133.P9799654577757374541
 The programs for A328135, there is no canonical definition to state claims against.
 -/
 
+/-! ## A328135.P6831482593509362467
+
+`A102376(A102376(n))*A321147(n+1)`
+-/
+
+namespace A328135.P6831482593509362467
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A102376 (A102376 n).toNat * A321147 (n + 1)
+
+end
+
+end A328135.P6831482593509362467
+
 /-! ## A328135.P699757418821083537
 
 `lcm(A290205(n), A321147(n+1))`
@@ -2938,21 +2952,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A328135.P17330543371424277227
-
-/-! ## A328135.P97605883598893191
-
-`A383699(n+1)+A322379(3*n+1)`
--/
-
-namespace A328135.P97605883598893191
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A383699 (n + 1) + A322379 (3 * n + 1)
-
-end
-
-end A328135.P97605883598893191
 
 /-!
 # A328136: Primitive exponential abundant numbers: the powerful terms of A129575.
@@ -5636,7 +5635,7 @@ end A328159.P5056848409871120756
 /-!
 # A328160: Terms k of A112998 such that k+2 is nonsquarefree.
 
-The programs for A328160, the canonical program `A328160.P15930249408114745958` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328160 has offset 1).
+The programs for A328160, the canonical program `A328160.P15930249408114745958` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328160 has offset 1).
 
 The definition of A328160 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 213 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6211,7 +6210,7 @@ end A328160
 
 `p?[2*A276305(n+1)-1]`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A328160

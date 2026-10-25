@@ -77,7 +77,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -1939,7 +1938,7 @@ end A034015.P2593314502249222916
 /-!
 # A034017: Numbers that are primitively represented by x^2 + xy + y^2.
 
-The programs for A034017, the canonical program `A034017.P9523659926337494725` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034017 has offset 1).
+The programs for A034017, the canonical program `A034017.P9523659926337494725` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034017 has offset 1).
 
 The definition of A034017 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1948,7 +1947,7 @@ The definition of A034017 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A034021(n+1), A045897(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A034017
@@ -8389,7 +8388,7 @@ end A034043.P8844546172433309518
 /-!
 # A034044: Numbers that are primitively but not imprimitively represented by x^2+y^2+z^2.
 
-The programs for A034044, the canonical program `A034044.P6265599758687673652` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034044 has offset 1).
+The programs for A034044, the canonical program `A034044.P6265599758687673652` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034044 has offset 1).
 
 The definition of A034044 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8104 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8502,7 +8501,7 @@ end A034044
 
 `filter[A047449(n+1), A353627(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A034044
@@ -10518,6 +10517,12 @@ namespace A034050
 def P8885736897268425867.Spec : Prop :=
   ∀ n, P8885736897268425867.a n = (A034050 (n + 1) : ℚ)
 
+theorem P8885736897268425867.correct : P8885736897268425867.Spec := by
+  intro n
+  simp only [A034050, Nat.add_sub_cancel, A034050.P8885736897268425867.a, A034050.P15289769784533318971.a, A131664, A131664.P12941882996310743922.a, A199985, A199985.P15200555582612975294.a, A199986, A199986.P499890319884036768.f1, A199986.P499890319884036768.a, A061579, A061579.P7462537595056690109.a, A071762, A071762.P10622872981181749292.a, A279891, A279891.P15168887197681408912.a, A287468, A287468.P8608159567382229639.a, A002275, A002275.P11331712682657475845.a, A003056, A003056.P5318256527314048597.a, A010054, A010054.P18347828677204923252.a, A025581, A025581.P420762180635059694.a, A004736, A004736.P10337537277358081527.a, A005369, A005369.P10796159359873341658.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A034050
 
 /-! ## A034050.P17512157500889258887
@@ -10587,6 +10592,12 @@ namespace A034050
 def P6056184245454230427.Spec : Prop :=
   ∀ n, P6056184245454230427.a n = A034050 (n + 1)
 
+theorem P6056184245454230427.correct : P6056184245454230427.Spec := by
+  intro n
+  simp only [A034050, Nat.add_sub_cancel, A034050.P6056184245454230427.a, A034050.P15289769784533318971.a, A034054, A034054.P15306153571953073182.a, A131664, A131664.P12941882996310743922.a, A199985, A199985.P15200555582612975294.a, A199986, A199986.P499890319884036768.f1, A199986.P499890319884036768.a, A061579, A061579.P7462537595056690109.a, A071762, A071762.P10622872981181749292.a, A279891, A279891.P15168887197681408912.a, A287468, A287468.P8608159567382229639.a, A002275, A002275.P11331712682657475845.a, A003056, A003056.P5318256527314048597.a, A010054, A010054.P18347828677204923252.a, A025581, A025581.P420762180635059694.a, A004736, A004736.P10337537277358081527.a, A005369, A005369.P10796159359873341658.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A034050
 
 /-! ## A034050.P17654368582199932546
@@ -10609,6 +10620,12 @@ namespace A034050
 /-- `2*A199985(n+1)-A034054(n+1)` -/
 def P17654368582199932546.Spec : Prop :=
   ∀ n, P17654368582199932546.a n = A034050 (n + 1)
+
+theorem P17654368582199932546.correct : P17654368582199932546.Spec := by
+  intro n
+  simp only [A034050, Nat.add_sub_cancel, A034050.P17654368582199932546.a, A034050.P15289769784533318971.a, A034054, A034054.P15306153571953073182.a, A131664, A131664.P12941882996310743922.a, A199985, A199985.P15200555582612975294.a, A199986, A199986.P499890319884036768.f1, A199986.P499890319884036768.a, A061579, A061579.P7462537595056690109.a, A071762, A071762.P10622872981181749292.a, A279891, A279891.P15168887197681408912.a, A287468, A287468.P8608159567382229639.a, A002275, A002275.P11331712682657475845.a, A003056, A003056.P5318256527314048597.a, A010054, A010054.P18347828677204923252.a, A025581, A025581.P420762180635059694.a, A004736, A004736.P10337537277358081527.a, A005369, A005369.P10796159359873341658.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A034050
 

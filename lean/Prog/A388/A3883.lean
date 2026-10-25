@@ -4,12 +4,12 @@ import Seq.B000.C008
 import Seq.B000.C023
 import Seq.B000.C032
 import Seq.B001.C003
+import Seq.B004.C003
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C002
 import Seq.B008.C001
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.B013.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C004

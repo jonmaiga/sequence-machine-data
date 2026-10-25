@@ -11,6 +11,7 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -50,6 +51,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B008.C000
@@ -587,6 +589,12 @@ namespace A193005
 /-- `A193041(n)-A000071(n+1)` -/
 def P15257187311389929585.Spec : Prop :=
   ∀ n, P15257187311389929585.a n = A193005 n
+
+theorem P15257187311389929585.correct : P15257187311389929585.Spec := by
+  intro n
+  simp only [A193005, Nat.add_sub_cancel, A193005.P15257187311389929585.a, A193005.P18273417435065265651.a, A000071, A000071.P14715820033649062238.a, A193041, A193041.P11284727698982766000.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A193005
 
@@ -4772,6 +4780,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A193058.P10649294579966927442
+
+/-! ## A193058.P9802622603453630150
+
+`A069905(A000040(n+1))+A003074(A105484(n+4))+1`
+-/
+
+namespace A193058.P9802622603453630150
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A069905 (A000040 (n + 1)).toNat + (A003074 (A105484 (n + 4)).toNat + 1)
+
+end
+
+end A193058.P9802622603453630150
 
 /-!
 # A193059: Number of size n nonnegative integer arrays with new values introduced in increasing order from 0, and no 4 consecutive elements totalling n or more.

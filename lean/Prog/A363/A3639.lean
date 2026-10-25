@@ -52,13 +52,11 @@ import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -822,6 +820,24 @@ end
 
 end A363913.P17240244985861115950
 
+/-! ## A363913.P3870311245317525112
+
+`A005836(or(∑{d}[n, 2^#], A000122(n))+1)`
+-/
+
+namespace A363913.P3870311245317525112
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005836 (Int.lor ((∑ d ∈ Nat.divisors (f1 n), 2 ^ d : ℕ) : ℤ) (A000122 n) + 1).toNat
+
+end
+
+end A363913.P3870311245317525112
+
 /-! ## A363913.P1406566731464589364
 
 `A175070(A000244(n))+A000244(n)`
@@ -851,24 +867,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A363913.P11676833802015049887
-
-/-! ## A363913.P11730507784152778781
-
-`A008486(∑{d}[n, 3^(#-1)])`
--/
-
-namespace A363913.P11730507784152778781
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008486 (SequenceMachineLib.roundAway (∑ d ∈ Nat.divisors (f1 n), (3 : ℚ) ^ ((d : ℤ) - 1 : ℤ))).toNat
-
-end
-
-end A363913.P11730507784152778781
 
 /-!
 # A363914: The Moebius triangle read by rows. Inverse matrix of the divisibility triangle A113704.
@@ -1089,7 +1087,7 @@ end A363916.P3813692465071577726
 /-!
 # A363917: a(n) = Product_{p in Factors(n)} mult(p) * n^mult(p) / p, where Factors(n) is the integer factorization of n and mult(p) the multiplicity of the prime factor p.
 
-The programs for A363917, the canonical program `A363917.P8803550997163744915` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363917 has offset 1).
+The programs for A363917, the canonical program `A363917.P8803550997163744915` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363917 has offset 1).
 
 The definition of A363917 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005361, A363923, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1098,7 +1096,7 @@ The definition of A363917 is `conditional`: the Lean definition is an OEIS formu
 
 `A363923(n+1)*A005361(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A363917
@@ -1423,7 +1421,7 @@ end A363918.P9211326134716182290
 /-!
 # A363919: a(n) = n^excess(n), where excess(n) = A046660(n).
 
-The programs for A363919, the canonical program `A363919.P4187681008665275197` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363919 has offset 1).
+The programs for A363919, the canonical program `A363919.P4187681008665275197` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363919 has offset 1).
 
 The definition of A363919 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A205959, A363923, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1455,7 +1453,7 @@ end A363919
 
 `A363923(n+1)/A205959(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A363919
@@ -1894,7 +1892,7 @@ end A363921.P5064654334774258202
 
 The programs for A363923, the canonical program `A363923.P14110834689060908784` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363923 has offset 1).
 
-The definition of A363923 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A007947, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A363923 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A363923.P14110834689060908784
@@ -2892,6 +2890,21 @@ end
 
 end A363933.P10873323805661772421
 
+/-! ## A363933.P13713315435834307200
+
+`A008616(12*floor(A106606(n)/2))`
+-/
+
+namespace A363933.P13713315435834307200
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008616 (12 * ⌊(A106606 n : ℚ) / 2⌋).toNat
+
+end
+
+end A363933.P13713315435834307200
+
 /-! ## A363933.P11500756196521893127
 
 `A085089(A006125(n))`
@@ -2906,21 +2919,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A363933.P11500756196521893127
-
-/-! ## A363933.P4989621898595717636
-
-`A023190(A148858(n))`
--/
-
-namespace A363933.P4989621898595717636
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023190 (A148858 n).toNat
-
-end
-
-end A363933.P4989621898595717636
 
 /-!
 # A363936: Number of Frobenius partitions of 2n wherein the number of columns plus the weight on the top row is strictly less than the weight on the bottom row.
@@ -3537,20 +3535,20 @@ end
 
 end A363946.P15327731826828872986
 
-/-! ## A363946.P4221920099564313980
+/-! ## A363946.P3429143388406326378
 
-`and(A000040(A154120(n+4)), A048993(n))`
+`xor(A344612(n), A372174(A365673(n)))`
 -/
 
-namespace A363946.P4221920099564313980
+namespace A363946.P3429143388406326378
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A000040 (A154120 (n + 4)).toNat) (A048993 n)
+  Int.xor (A344612 n) (A372174 (A365673 n).toNat)
 
 end
 
-end A363946.P4221920099564313980
+end A363946.P3429143388406326378
 
 /-!
 # A363947: Number of integer partitions of n with mean < 3/2.

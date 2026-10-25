@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -40,6 +41,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -52,7 +54,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -82,6 +83,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A362700: Expansion of e.g.f. 1/(1 + LambertW(-x * exp(x^2/2))).
@@ -296,7 +301,7 @@ end A362704.P16027294492153069877
 /-!
 # A362707: a(n) = Sum_{d|n, phi(d)|sigma(d)} (n-d).
 
-The programs for A362707, the canonical program `A362707.P3299096256826437275` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362707 has offset 1).
+The programs for A362707, the canonical program `A362707.P3299096256826437275` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362707 has offset 1).
 
 The definition of A362707 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A351112, A351113, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -305,7 +310,7 @@ The definition of A362707 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+1)*A351112(n+1)-A351113(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A362707
@@ -340,6 +345,12 @@ namespace A362707
 /-- `A386622(n+1)-A386589(n+1)` -/
 def P9832996964805476475.Spec : Prop :=
   ∀ n, P9832996964805476475.a n = A362707 (n + 1)
+
+theorem P9832996964805476475.correct : P9832996964805476475.Spec := by
+  intro n
+  simp only [A362707, Nat.add_sub_cancel, A362707.P9832996964805476475.a, A362707.P3299096256826437275.a, A351112, A351112.P18121164159424966537.f1, A351112.P18121164159424966537.a, A351113, A351113.P14871538275720612314.f1, A351113.P14871538275720612314.a, A386589, A386589.P14364682863583384821.a, A386622, A386622.P1574536080220516373.a, A000005, A000005.P16091521709108585461.a, A351114, A351114.P13024542866936842174.a, A386591, A386591.P14499915022508730926.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A063524, A063524.P5631347671191003537.a, A289412, A289412.P16736095440430260150.a, A000007, A000007.P6599383543502402472.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A009223, A009223.P16138447125390320102.a, A062354, A062354.P13583053230066252770.f1, A062354.P13583053230066252770.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A362707
 
@@ -505,6 +516,12 @@ namespace A362712
 /-- `(3-n)²²²*A007531(n)` -/
 def P15837829559616361825.Spec : Prop :=
   ∀ n, P15837829559616361825.a n = A362712 n
+
+theorem P15837829559616361825.correct : P15837829559616361825.Spec := by
+  intro n
+  simp only [A362712, Nat.add_sub_cancel, A362712.P15837829559616361825.a, A362712.P8244155926508418268.a, A007531, A007531.P15538264737483534371.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A362712
 
@@ -781,6 +798,12 @@ namespace A362718
 def P18318665760145779398.Spec : Prop :=
   ∀ n, P18318665760145779398.a n = A362718 n
 
+theorem P18318665760145779398.correct : P18318665760145779398.Spec := by
+  intro n
+  simp only [A362718, Nat.add_sub_cancel, A362718.P18318665760145779398.a, A362718.P6767903697936617572.a, A001464, A001464.P11249083225092603948.a, A033999, A033999.P17703899380244199787.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A362718
 
 /-! ## A362718.P1430288740973050193
@@ -803,6 +826,12 @@ namespace A362718
 /-- `A001464(2*n)*A062157(n+1)` -/
 def P1430288740973050193.Spec : Prop :=
   ∀ n, P1430288740973050193.a n = A362718 n
+
+theorem P1430288740973050193.correct : P1430288740973050193.Spec := by
+  intro n
+  simp only [A362718, Nat.add_sub_cancel, A362718.P1430288740973050193.a, A362718.P6767903697936617572.a, A001464, A001464.P11249083225092603948.a, A062157, A062157.P13834877263571195293.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A362718
 
@@ -1922,6 +1951,12 @@ namespace A362751
 /-- `(A000225(n+1)+A000032(n+1))²` -/
 def P10549933389731886592.Spec : Prop :=
   ∀ n, P10549933389731886592.a n = A362751 (n + 1)
+
+theorem P10549933389731886592.correct : P10549933389731886592.Spec := by
+  intro n
+  simp only [A362751, Nat.add_sub_cancel, A362751.P10549933389731886592.a, A362751.P2430546139976229584.a, A000032, A000032.P8352177345629330861.a, A000225, A000225.P6535533121115206393.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A362751
 

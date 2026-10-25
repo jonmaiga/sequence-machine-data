@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -46,11 +47,11 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
+import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -77,6 +78,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A153500: First 3 terms coincide with A152756. For n>3, a(n) is the palindromic number formed from concatenation of 1, 0, A147759(n-3), 0, A147759(n-3), 0 and 1.
@@ -1146,6 +1151,12 @@ namespace A153511
 def P696099514827410838.Spec : Prop :=
   ∀ n, (P696099514827410838.a n : ℤ) = A153511 n
 
+theorem P696099514827410838.correct : P696099514827410838.Spec := by
+  intro n
+  simp only [A153511, Nat.add_sub_cancel, A153511.P696099514827410838.a, A153511.P12346412399723121567.a, A051189, A051189.P16387431370213277791.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A153511
 
 /-! ## A153511.P12346412399723121567
@@ -1919,27 +1930,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A153521.P13670480402038418853
-
-/-!
-# A153522: Number of planar n X n X n binary triangular grids with no more than 2 ones in any 2 X 2 X 2 subtriangle.
-
-The programs for A153522, there is no canonical definition to state claims against.
--/
-
-/-! ## A153522.P13208925593622278050
-
-`A125973(6*a(n-1)-1)` with `a(0)=1`
--/
-
-namespace A153522.P13208925593622278050
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A125973 (6 * a (n - 1) - 1).toNat
-
-end
-
-end A153522.P13208925593622278050
 
 /-!
 # A153523: Number of planar n X n X n binary triangular grids with no more than 2 ones in any 3 X 3 X 3 subtriangle.
@@ -5145,7 +5135,7 @@ end A153591.P9379911003952253539
 
 The programs for A153593, the canonical program `A153593.P2268420670504911175` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153593 has offset 1).
 
-The definition of A153593 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A153593 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `((9+sqrt(2))^(n+1)-(9-sqrt(2))^(n+1))/(2*sqrt(2))` (program `A153593.P6395140150421206394`, by `A153593.P6395140150421206394.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A153593.P2268420670504911175
@@ -5189,6 +5179,25 @@ namespace A153593
 /-- `((9+sqrt(2))^(n+1)-(9-sqrt(2))^(n+1))/(2*sqrt(2))` -/
 def P6395140150421206394.Spec : Prop :=
   ∀ n, P6395140150421206394.a n = (A153593 (n + 1) : ℝ)
+
+theorem P6395140150421206394.correct : P6395140150421206394.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A153593, Nat.add_sub_cancel, A153593.P6395140150421206394.a, A153593.P2268420670504911175.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A153593, Nat.add_sub_cancel, A153593.P6395140150421206394.a, A153593.P2268420670504911175.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A153593
 
@@ -5735,7 +5744,7 @@ end A153596
 
 The programs for A153597, the canonical program `A153597.P12282363260150880066` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153597 has offset 1).
 
-The definition of A153597 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A153597 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `((6+sqrt(3))^(n+1)-(6-sqrt(3))^(n+1))/(2*sqrt(3))` (program `A153597.P6359106190260565609`, by `A153597.P6359106190260565609.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A153597.P12282363260150880066
@@ -5779,6 +5788,25 @@ namespace A153597
 /-- `((6+sqrt(3))^(n+1)-(6-sqrt(3))^(n+1))/(2*sqrt(3))` -/
 def P6359106190260565609.Spec : Prop :=
   ∀ n, P6359106190260565609.a n = (A153597 (n + 1) : ℝ)
+
+theorem P6359106190260565609.correct : P6359106190260565609.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A153597, Nat.add_sub_cancel, A153597.P6359106190260565609.a, A153597.P12282363260150880066.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A153597, Nat.add_sub_cancel, A153597.P6359106190260565609.a, A153597.P12282363260150880066.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A153597
 
@@ -5908,7 +5936,7 @@ end A153597
 
 The programs for A153598, the canonical program `A153598.P3381881755261846917` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153598 has offset 1).
 
-The definition of A153598 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A153598 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `((7+sqrt(3))^(n+1)-(7-sqrt(3))^(n+1))/(2*sqrt(3))` (program `A153598.P9951960917005742450`, by `A153598.P9951960917005742450.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A153598.P3381881755261846917
@@ -5952,6 +5980,25 @@ namespace A153598
 /-- `((7+sqrt(3))^(n+1)-(7-sqrt(3))^(n+1))/(2*sqrt(3))` -/
 def P9951960917005742450.Spec : Prop :=
   ∀ n, P9951960917005742450.a n = (A153598 (n + 1) : ℝ)
+
+theorem P9951960917005742450.correct : P9951960917005742450.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A153598, Nat.add_sub_cancel, A153598.P9951960917005742450.a, A153598.P3381881755261846917.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A153598, Nat.add_sub_cancel, A153598.P9951960917005742450.a, A153598.P3381881755261846917.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A153598
 

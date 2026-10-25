@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -46,9 +47,7 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -83,6 +82,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A040100: Primes p such that x^4 = 2 has no solution mod p.
@@ -5745,7 +5748,7 @@ end A040163
 
 The programs for A040164, the canonical program `A040164.P3745061718925245902` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040164 has offset 1).
 
-The definition of A040164 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A040163, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A040164 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A040163, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A040164.P3745061718925245902
@@ -6101,6 +6104,12 @@ namespace A040164
 /-- `A040163(A006093(n+1)+1)` -/
 def P9008182567182707346.Spec : Prop :=
   ∀ n, P9008182567182707346.a n = A040164 (n + 1)
+
+theorem P9008182567182707346.correct : P9008182567182707346.Spec := by
+  intro n
+  simp only [A040164, Nat.add_sub_cancel, A040164.P9008182567182707346.a, A040164.P3745061718925245902.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A006093, A006093.P2906174024863549003.a, A040163, A040163.P12253691999876221957.a, A000030, A000030.P4990867543733972260.a, A010879, A010879.P10561743211919002802.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A040164
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -46,6 +47,7 @@ import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -54,11 +56,9 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -85,6 +85,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A374700: Triangle read by rows where T(n,k) is the number of integer compositions of n whose leaders of strictly increasing runs sum to k.
@@ -1668,6 +1672,12 @@ namespace A374730
 def P1716144620821827346.Spec : Prop :=
   ∀ n, P1716144620821827346.a n = A374730 n
 
+theorem P1716144620821827346.correct : P1716144620821827346.Spec := by
+  intro n
+  simp only [A374730, Nat.add_sub_cancel, A374730.P1716144620821827346.a, A374730.P15477775403620783569.a, A070939, A070939.P14677302147902843740.a, A161680, A161680.P17206074215489759881.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A374730
 
 /-! ## A374730.P17867892756926482039
@@ -2954,6 +2964,12 @@ namespace A374749
 /-- `A057428(n+1)+A015445(n+1)` -/
 def P5687225679957901410.Spec : Prop :=
   ∀ n, P5687225679957901410.a n = A374749 (n + 1)
+
+theorem P5687225679957901410.correct : P5687225679957901410.Spec := by
+  intro n
+  simp only [A374749, Nat.add_sub_cancel, A374749.P5687225679957901410.a, A374749.P9126795584612520576.a, A015445, A015445.P17561431580129353232.a, A057428, A057428.P2999489532230392221.a, A057427, A057427.P3058147525557661423.a, A000007, A000007.P6599383543502402472.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A374749
 

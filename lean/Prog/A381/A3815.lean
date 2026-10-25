@@ -61,7 +61,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -906,6 +905,12 @@ namespace A381517
 /-- `A365606(n+1)-4` -/
 def P17804250060985731627.Spec : Prop :=
   ∀ n, P17804250060985731627.a n = A381517 n
+
+theorem P17804250060985731627.correct : P17804250060985731627.Spec := by
+  intro n
+  simp only [A381517, Nat.add_sub_cancel, A381517.P17804250060985731627.a, A381517.P15118458078056138431.a, A365606, A365606.P601564546117692872.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A381517
 
@@ -4035,6 +4040,12 @@ namespace A381588
 def P7915171453528941526.Spec : Prop :=
   ∀ n, P7915171453528941526.a n = A381588 (n + 1)
 
+theorem P7915171453528941526.correct : P7915171453528941526.Spec := by
+  intro n
+  simp only [A381588, Nat.add_sub_cancel, A381588.P7915171453528941526.a, A381588.P6316090729294100752.a, A005361, A005361.P4811270261471152635.f1, A005361.P4811270261471152635.a, A083346, A083346.P12627612333518549643.a, A183094, A183094.P2300528291682876645.a, A085731, A085731.P17818604226734037125.a, A003415, A003415.P9326043729983995739.f1, A003415.P9326043729983995739.a, A300251, A300251.P13750012435361977920.f1, A300251.P13750012435361977920.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A381588
 
 /-! ## A381588.P283196892052698389
@@ -4596,6 +4607,21 @@ end A381595.P16966928742744151768
 The programs for A381596, there is no canonical definition to state claims against.
 -/
 
+/-! ## A381596.P11386512354690424780
+
+`A045536(A227248(n+1))%A086520(n+2)`
+-/
+
+namespace A381596.P11386512354690424780
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A045536 (A227248 (n + 1)).toNat) (A086520 (n + 2))
+
+end
+
+end A381596.P11386512354690424780
+
 /-! ## A381596.P3353927367858750353
 
 `A139352(A164405(n))`
@@ -4655,21 +4681,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A381596.P14233906397794484368
-
-/-! ## A381596.P12764673909536858078
-
-`A119995(A171458(n))`
--/
-
-namespace A381596.P12764673909536858078
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A119995 (A171458 n).toNat
-
-end
-
-end A381596.P12764673909536858078
 
 /-!
 # A381597: Lexicographically earliest sequence of positive integers such that for any t and k, with k>=1, where t = a(n) = a(n+k) = a(n+2*k), only one occurrence of k, for a given t, appears anywhere in the sequence.

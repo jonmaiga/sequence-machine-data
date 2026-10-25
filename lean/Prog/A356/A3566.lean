@@ -46,14 +46,15 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
-import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
@@ -223,6 +224,21 @@ end
 
 end A356606.P5099532222985767546
 
+/-! ## A356606.P17398953198734417845
+
+`A364916(C(n+1, 2))-A356607(n)`
+-/
+
+namespace A356606.P17398953198734417845
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364916 (Nat.choose (n + 1) 2) - A356607 n
+
+end
+
+end A356606.P17398953198734417845
+
 /-! ## A356606.P15111313105806039427
 
 `A234323(A255047(n+4)-A028310(3*n))`
@@ -267,24 +283,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A356606.P4068635468548148316
-
-/-! ## A356606.P13796961925633122481
-
-`A320655(∑[A007618(n+1)²])`
--/
-
-namespace A356606.P13796961925633122481
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007618 (n + 1) ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320655 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A356606.P13796961925633122481
 
 /-!
 # A356607: Number of strict integer partitions of n with at least one neighborless part.
@@ -2901,6 +2899,12 @@ namespace A356644
 def P4605154912167612545.Spec : Prop :=
   ∀ n, P4605154912167612545.a n = A356644 (n + 1)
 
+theorem P4605154912167612545.correct : P4605154912167612545.Spec := by
+  intro n
+  simp only [A356644, Nat.add_sub_cancel, A356644.P4605154912167612545.a, A356644.P10888177438195276063.a, A286182, A286182.P18040158897190895158.a, A286183, A286183.P16536639819314678559.a, A356830, A356830.P9176712600671338645.a, A000129, A000129.P3563729298025900801.a, A002203, A002203.P17775519618444720850.a, A007574, A007574.P1354935611169580180.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A356644
 
 /-! ## A356644.P8652739606692968686
@@ -2923,6 +2927,12 @@ namespace A356644
 /-- `A286185(n+1)+A356829(n+1)-A286183(n+1)` -/
 def P8652739606692968686.Spec : Prop :=
   ∀ n, P8652739606692968686.a n = A356644 (n + 1)
+
+theorem P8652739606692968686.correct : P8652739606692968686.Spec := by
+  intro n
+  simp only [A356644, Nat.add_sub_cancel, A356644.P8652739606692968686.a, A356644.P10888177438195276063.a, A286183, A286183.P16536639819314678559.a, A286185, A286185.P1744816653617601400.a, A356829, A356829.P17230402961984168518.a, A007574, A007574.P1354935611169580180.a, A286182, A286182.P18040158897190895158.a, A000129, A000129.P3563729298025900801.a, A002203, A002203.P17775519618444720850.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A356644
 

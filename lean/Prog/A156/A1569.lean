@@ -97,7 +97,7 @@ set_option linter.unreachableTactic false
 /-!
 # A156900: a(n) = the smallest prime power >= the n-th positive squarefree integer.
 
-The programs for A156900, the canonical program `A156900.P15113045615155499423` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156900 has offset 1).
+The programs for A156900, the canonical program `A156900.P15113045615155499423` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156900 has offset 1).
 
 The definition of A156900 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6083 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -106,7 +106,7 @@ The definition of A156900 is `conjectured`: the Lean definition is a formula tha
 
 `A000015(record[∏{p}[n, #]])`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A156900

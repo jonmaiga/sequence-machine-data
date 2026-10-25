@@ -50,12 +50,12 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -7864,7 +7864,7 @@ end A302055.P2367728811274916791
 /-!
 # A302056: Numbers k such that the coefficient of x^k in the expansion of Product_{j>=1} (1 - x^j)^4 is zero.
 
-The programs for A302056, the canonical program `A302056.P1047659896841164977` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302056 has offset 1).
+The programs for A302056, the canonical program `A302056.P1047659896841164977` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302056 has offset 1).
 
 The definition of A302056 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4167 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7931,7 +7931,7 @@ end A302056
 
 `eq[0, A097195(n)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A302056
@@ -11121,7 +11121,7 @@ end A302086.P9769799195753182695
 /-!
 # A302087: Numbers k such that k^2+1 and (k+6)^2+1 are both prime.
 
-The programs for A302087, the canonical program `A302087.P18273818907020710396` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302087 has offset 1).
+The programs for A302087, the canonical program `A302087.P18273818907020710396` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302087 has offset 1).
 
 The definition of A302087 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1385 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11130,7 +11130,7 @@ The definition of A302087 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A005574(n+1), ∑[A214516(n+4)]]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A302087

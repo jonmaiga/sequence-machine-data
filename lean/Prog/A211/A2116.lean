@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -60,7 +61,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -91,6 +91,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A211602: Number of binary increasing trees with n nodes and "min-path" of length 3.
@@ -1169,6 +1173,12 @@ namespace A211613
 /-- `A172229(n+1)-A060354(n)` -/
 def P6226263964212269213.Spec : Prop :=
   ∀ n, P6226263964212269213.a n = A211613 n
+
+theorem P6226263964212269213.correct : P6226263964212269213.Spec := by
+  intro n
+  simp only [A211613, Nat.add_sub_cancel, A211613.P6226263964212269213.a, A211613.P8741136128969728567.a, A060354, A060354.P5541652509067826457.a, A172229, A172229.P6406971379391401100.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A211613
 
@@ -2594,6 +2604,12 @@ namespace A211621
 def P5148293935072697619.Spec : Prop :=
   ∀ n, P5148293935072697619.a n = A211621 n
 
+theorem P5148293935072697619.correct : P5148293935072697619.Spec := by
+  intro n
+  simp only [A211621, Nat.add_sub_cancel, A211621.P5148293935072697619.a, A211621.P9938191828697601469.a, A110654, A110654.P360289776162656549.a, A211628, A211628.P10410439621426040313.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A211621
 
 /-! ## A211621.P16261095931984398457
@@ -3931,6 +3947,12 @@ namespace A211634
 def P6770516284892365204.Spec : Prop :=
   ∀ n, P6770516284892365204.a n = A211634 n
 
+theorem P6770516284892365204.correct : P6770516284892365204.Spec := by
+  intro n
+  simp only [A211634, Nat.add_sub_cancel, A211634.P6770516284892365204.a, A211634.P6971356143893170071.a, A028310, A028310.P18130301328277559831.a, A063468, A063468.P15347473074005438293.f1, A063468.P15347473074005438293.a, A211635, A211635.P5977809779673859879.a, A211637, A211637.P14278206662972809609.a, A000265, A000265.P2772582252347773295.a, A092147, A092147.P10469589743159074619.a, A211636, A211636.P2652783068528798878.f1, A211636.P2652783068528798878.a, A003602, A003602.P7612175048291952394.a, A036698, A036698.P3152835247264100802.a, A256452, A256452.P9976460767317744789.a, A014200, A014200.P16970295702573526038.a, A046080, A046080.P16111352627053334427.a, A110963, A110963.P3344771894533151408.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A211634
 
 /-! ## A211634.P10687377471703321122
@@ -4047,7 +4069,7 @@ end A211634
 /-!
 # A211635: Number of ordered triples (w,x,y) with all terms in {1,...,n} and w^2
 
-The programs for A211635, the canonical program `A211635.P5977809779673859879` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211635 has offset 0).
+The programs for A211635, the canonical program `A211635.P5977809779673859879` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211635 has offset 0).
 
 The definition of A211635 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 924 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4056,7 +4078,7 @@ The definition of A211635 is `conjectured`: the Lean definition is a formula tha
 
 `n^3-A211636(n)`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A211635
@@ -4186,6 +4208,12 @@ namespace A211635
 /-- `A211634(n)+A211637(n)-A211636(n)` -/
 def P8319159545094422294.Spec : Prop :=
   ∀ n, P8319159545094422294.a n = A211635 n
+
+theorem P8319159545094422294.correct : P8319159545094422294.Spec := by
+  intro n
+  simp only [A211635, Nat.add_sub_cancel, A211635.P8319159545094422294.a, A211635.P5977809779673859879.a, A211634, A211634.P6971356143893170071.a, A211636, A211636.P2652783068528798878.f1, A211636.P2652783068528798878.a, A211637, A211637.P14278206662972809609.a, A028310, A028310.P18130301328277559831.a, A036698, A036698.P3152835247264100802.a, A063468, A063468.P15347473074005438293.f1, A063468.P15347473074005438293.a, A000265, A000265.P2772582252347773295.a, A014200, A014200.P16970295702573526038.a, A092147, A092147.P10469589743159074619.a, A003602, A003602.P7612175048291952394.a, A014198, A014198.P2354480518814049901.a, A256452, A256452.P9976460767317744789.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A211635
 
@@ -4438,6 +4466,12 @@ namespace A211636
 /-- `∑[A000603(n)-Δ[n²]]` -/
 def P12159595367273851979.Spec : Prop :=
   ∀ n, P12159595367273851979.a n = A211636 n
+
+theorem P12159595367273851979.correct : P12159595367273851979.Spec := by
+  intro n
+  simp only [A211636, Nat.add_sub_cancel, A211636.P12159595367273851979.f2, A211636.P12159595367273851979.f1, A211636.P12159595367273851979.a, A211636.P2652783068528798878.f1, A211636.P2652783068528798878.a, A000603, A000603.P17854986445594045637.a, A036698, A036698.P3152835247264100802.a, A014200, A014200.P16970295702573526038.a, A014198, A014198.P2354480518814049901.a, A105673, A105673.P14538287794614071707.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A211636
 
@@ -4751,6 +4785,12 @@ namespace A211636
 def P13071566829691966072.Spec : Prop :=
   ∀ n, P13071566829691966072.a n = A211636 n
 
+theorem P13071566829691966072.correct : P13071566829691966072.Spec := by
+  intro n
+  simp only [A211636, Nat.add_sub_cancel, A211636.P13071566829691966072.a, A211636.P2652783068528798878.f1, A211636.P2652783068528798878.a, A036698, A036698.P3152835247264100802.a, A211635, A211635.P5977809779673859879.a, A014200, A014200.P16970295702573526038.a, A014198, A014198.P2354480518814049901.a, A105673, A105673.P14538287794614071707.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A211636
 
 /-! ## A211636.P15113930601185189690
@@ -4831,7 +4871,7 @@ end A211636
 /-!
 # A211637: Number of ordered triples (w,x,y) with all terms in {1,...,n} and w^2>x^2+y^2.
 
-The programs for A211637, the canonical program `A211637.P14278206662972809609` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211637 has offset 0).
+The programs for A211637, the canonical program `A211637.P14278206662972809609` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211637 has offset 0).
 
 The definition of A211637 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 958 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5097,7 +5137,7 @@ end A211637
 
 `n^3-A211634(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A211637
@@ -10568,6 +10608,24 @@ end
 
 end A211694.P4258090218694189565
 
+/-! ## A211694.P15917454706294544253
+
+`A198627(abs(1-∑[n])+1)`
+-/
+
+namespace A211694.P15917454706294544253
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A198627 (|1 - ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)| + 1).toNat
+
+end
+
+end A211694.P15917454706294544253
+
 /-! ## A211694.P11893787999402554641
 
 `A198654(A000038(n)+∑[n])`
@@ -10585,24 +10643,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A211694.P11893787999402554641
-
-/-! ## A211694.P11615012094532248684
-
-`A198669(A000038(n)+∑[n])`
--/
-
-namespace A211694.P11615012094532248684
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A198669 (A000038 n + ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)).toNat
-
-end
-
-end A211694.P11615012094532248684
 
 /-!
 # A211695: Number of nonnegative integer arrays of length n+2*3-2 with new values introduced in order 0 upwards and every value appearing only in runs of at least 3.

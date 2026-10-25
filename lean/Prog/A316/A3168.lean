@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -64,7 +65,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -72,7 +72,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -100,6 +99,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A316800: Number of nX7 0..1 arrays with every element unequal to 2, 3, 5, 6, 7 or 8 king-move adjacent elements, with upper left element zero.
@@ -2772,6 +2775,12 @@ namespace A316824
 def P2601174728373296350.Spec : Prop :=
   ∀ n, P2601174728373296350.a n = A316824 n
 
+theorem P2601174728373296350.correct : P2601174728373296350.Spec := by
+  intro n
+  simp only [A316824, Nat.add_sub_cancel, A316824.P2601174728373296350.a, A316824.P14787056752320120660.a, A002264, A002264.P5647656940077635922.a, A105220, A105220.P13322071171121659733.a, A316829, A316829.P17960446126874706026.a, A088917, A088917.P10709094076665346594.a, A001850, A001850.P8225243896153059034.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A316824
 
 /-! ## A316824.P9552313137974792028
@@ -3282,7 +3291,7 @@ end A316825
 /-!
 # A316826: Image of 3 under repeated application of the morphism 3 -> 3,2, 2 -> 1,0,2,0,1,2, 1 -> 1,0,1,2, 0 -> 0,2.
 
-The programs for A316826, the canonical program `A316826.P16423883963804976449` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316826 has offset 0).
+The programs for A316826, the canonical program `A316826.P16423883963804976449` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316826 has offset 0).
 
 The definition of A316826 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3314,7 +3323,7 @@ end A316826
 
 `A029884(n-2)+a(n-1)` with `a(0)=3, a(1)=2`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A316826
@@ -4011,6 +4020,12 @@ namespace A316829
 /-- `A105220(n)-1` -/
 def P4220238857314597671.Spec : Prop :=
   ∀ n, P4220238857314597671.a n = A316829 n
+
+theorem P4220238857314597671.correct : P4220238857314597671.Spec := by
+  intro n
+  simp only [A316829, Nat.add_sub_cancel, A316829.P4220238857314597671.a, A316829.P17960446126874706026.a, A088917, A088917.P10709094076665346594.a, A105220, A105220.P13322071171121659733.a, A001850, A001850.P8225243896153059034.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A316829
 
@@ -6685,7 +6700,7 @@ end A316845
 /-!
 # A316846: Column 1 of table A316842.
 
-The programs for A316846, the canonical program `A316846.P7827768282836125072` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316846 has offset 1).
+The programs for A316846, the canonical program `A316846.P7827768282836125072` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316846 has offset 1).
 
 The definition of A316846 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6717,7 +6732,7 @@ end A316846
 
 `∑[char[A123324(n+1)]]+1`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A316846

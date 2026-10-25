@@ -58,7 +58,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -673,6 +672,12 @@ namespace A381705
 /-- `(A176805(n+1)+2)/3` -/
 def P13894059865035002450.Spec : Prop :=
   ∀ n, P13894059865035002450.a n = (A381705 (n + 1) : ℚ)
+
+theorem P13894059865035002450.correct : P13894059865035002450.Spec := by
+  intro n
+  simp only [A381705, Nat.add_sub_cancel, A381705.P13894059865035002450.a, A381705.P4111808280753758285.a, A176805, A176805.P17224655801162528754.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A381705
 
@@ -1651,6 +1656,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A381730.P14081462403423903152
+
+/-! ## A381730.P9643584114860960810
+
+`A032548(n+1)*A381474(A001844(n))`
+-/
+
+namespace A381730.P9643584114860960810
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A032548 (n + 1) * A381474 (A001844 n).toNat
+
+end
+
+end A381730.P9643584114860960810
 
 /-!
 # A381731: a(n) is the least number k with squarefree neighbors such that the number of non-unitary divisors of k (A048105) is equal to n, or 0 if no such k exists.
@@ -4606,7 +4626,7 @@ end A381790
 
 The programs for A381791, the canonical program `A381791.P11675514674717285752` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381791 has offset 0).
 
-The definition of A381791 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A381791 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*(4+17*2^(n-1))` (program `A381791.P5511982356487483628`, by `A381791.P5511982356487483628.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A381791.P5511982356487483628
@@ -4631,6 +4651,24 @@ namespace A381791
 /-- `2*(4+17*2^(n-1))` -/
 def P5511982356487483628.Spec : Prop :=
   ∀ n, P5511982356487483628.a n = (A381791 n : ℚ)
+
+theorem P5511982356487483628.correct : P5511982356487483628.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A381791, Nat.add_sub_cancel, A381791.P5511982356487483628.a, A381791.P11675514674717285752.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A381791, Nat.add_sub_cancel, A381791.P5511982356487483628.a, A381791.P11675514674717285752.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1)
 
 end A381791
 
@@ -5225,6 +5263,21 @@ end
 
 end A381798.P11271047983739659968
 
+/-! ## A381798.P13255714002023351315
+
+`A083895(A182988(n))+A000005(n+1)`
+-/
+
+namespace A381798.P13255714002023351315
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083895 (A182988 n).toNat + A000005 (n + 1)
+
+end
+
+end A381798.P13255714002023351315
+
 /-! ## A381798.P9008687021844812900
 
 `A086016(A301554(n))+A000005(n+1)`
@@ -5239,21 +5292,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A381798.P9008687021844812900
-
-/-! ## A381798.P11310218302396667324
-
-`or(A000005(n+1), A322838(A084061(n)))`
--/
-
-namespace A381798.P11310218302396667324
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A000005 (n + 1)) (A322838 (A084061 n).toNat)
-
-end
-
-end A381798.P11310218302396667324
 
 /-!
 # A381799: Irregular triangle read by rows, where row n is a list of residues of powers of prime factors of n (mod n).

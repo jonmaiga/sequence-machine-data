@@ -63,7 +63,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -900,6 +899,12 @@ namespace A284507
 /-- `A026368(n+1)-2*(n+1)` -/
 def P1628486952625724238.Spec : Prop :=
   ∀ n, P1628486952625724238.a n = A284507 (n + 1)
+
+theorem P1628486952625724238.correct : P1628486952625724238.Spec := by
+  intro n
+  simp only [A284507, Nat.add_sub_cancel, A284507.P1628486952625724238.a, A284507.P12069901503054785212.a, A026367, A026367.P15574987113732587765.a, A026368, A026368.P5295631279945250445.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A284507
 
@@ -8640,7 +8645,7 @@ end A284564.P8814417105609161455
 /-!
 # A284565: Bisection of A000360.
 
-The programs for A284565, the canonical program `A284565.P9570140672652545483` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A284565 has offset 0).
+The programs for A284565, the canonical program `A284565.P9570140672652545483` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A284565 has offset 0).
 
 The definition of A284565 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8649,7 +8654,7 @@ The definition of A284565 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000360(2*n)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A284565
@@ -9526,6 +9531,12 @@ namespace A284566
 def P10285629282716247497.Spec : Prop :=
   ∀ n, P10285629282716247497.a n = A284566 n
 
+theorem P10285629282716247497.correct : P10285629282716247497.Spec := by
+  intro n
+  simp only [A284566, Nat.add_sub_cancel, A284566.P10285629282716247497.a, A284566.P9813088326680274494.a, A002487, A002487.P6236436194084017932.a, A284556, A284556.P13375523094989058147.a, A284565, A284565.P9570140672652545483.a, A000120, A000120.P2816527436160941581.a, A000360, A000360.P16123140622544761321.a, A102283, A102283.P18218274576938374007.a, A168081, A168081.P16359451533663323532.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A284566
 
 /-! ## A284566.P769236987699898424
@@ -10019,7 +10030,7 @@ end A284569.P8016327802111312017
 
 The programs for A284570, the canonical program `A284570.P5019316116985626707` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A284570 has offset 1).
 
-The definition of A284570 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A284570 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000005((n+2)²)-A000005((n+1)²)` (program `A284570.P5019316116985626707`, by `A284570.P5019316116985626707.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A284570.P15453039180278878652
@@ -12148,7 +12159,7 @@ end A284581.P17682050216591243202
 /-!
 # A284582: a(n) = gcd(A227349(n), A227350(n)).
 
-The programs for A284582, the canonical program `A284582.P6281179122535758750` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A284582 has offset 0).
+The programs for A284582, the canonical program `A284582.P6281179122535758750` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A284582 has offset 0).
 
 The definition of A284582 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A227349, A227350, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -12157,7 +12168,7 @@ The definition of A284582 is `conditional`: the Lean definition is an OEIS formu
 
 `gcd(A227349(n), A227350(n))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A284582
@@ -12267,7 +12278,7 @@ end A284582
 /-!
 # A284583: a(n) = lcm(A227349(n), A227350(n)).
 
-The programs for A284583, the canonical program `A284583.P9978048678655332143` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A284583 has offset 0).
+The programs for A284583, the canonical program `A284583.P9978048678655332143` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A284583 has offset 0).
 
 The definition of A284583 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A227349, A227350, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -12276,7 +12287,7 @@ The definition of A284583 is `conditional`: the Lean definition is an OEIS formu
 
 `lcm(A227349(n), A227350(n))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A284583

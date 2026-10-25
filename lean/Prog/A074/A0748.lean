@@ -1704,7 +1704,7 @@ end A074816
 /-!
 # A074819: Numbers k such that mu(k)+mu(k+1) = 0.
 
-The programs for A074819, the canonical program `A074819.P5930104584530314437` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074819 has offset 1).
+The programs for A074819, the canonical program `A074819.P5930104584530314437` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074819 has offset 1).
 
 The definition of A074819 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1713,7 +1713,7 @@ The definition of A074819 is `conjectured`: the Lean definition is a formula tha
 
 `eq[-A008683(n+2), A008683(n+1)]+1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A074819
@@ -1847,7 +1847,7 @@ end A074819
 /-!
 # A074820: Numbers k such that mu(k) = mu(k+2), where mu is the Möbius function (A008683).
 
-The programs for A074820, the canonical program `A074820.P13650440751212995516` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074820 has offset 1).
+The programs for A074820, the canonical program `A074820.P13650440751212995516` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074820 has offset 1).
 
 The definition of A074820 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1856,7 +1856,7 @@ The definition of A074820 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A008683(n+1), A008683(n+3)]+1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A074820
@@ -6638,7 +6638,7 @@ end A074843
 /-!
 # A074845: Numbers k such that S(k) = largest difference between consecutive divisors of k (ordered by size), where S(k) is the Kempner function (A002034).
 
-The programs for A074845, the canonical program `A074845.P14330215240908241597` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074845 has offset 1).
+The programs for A074845, the canonical program `A074845.P14330215240908241597` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074845 has offset 1).
 
 The definition of A074845 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6677,7 +6677,7 @@ end A074845
 
 `∪[A073582(n+1), A194593(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A074845

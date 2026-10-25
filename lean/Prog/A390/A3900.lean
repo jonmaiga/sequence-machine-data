@@ -160,6 +160,27 @@ end
 end A390002.P12405109442830396408
 
 /-!
+# A390005: Perfect squares which are the product of four distinct factorials.
+
+The programs for A390005, there is no canonical definition to state claims against.
+-/
+
+/-! ## A390005.P15500975803050747169
+
+`A227652(A060069(n)+A030124(n+1))`
+-/
+
+namespace A390005.P15500975803050747169
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A227652 (A060069 n + A030124 (n + 1)).toNat
+
+end
+
+end A390005.P15500975803050747169
+
+/-!
 # A390007: a(n) is the least possible difference between the areas of the largest and smallest rectangles in a 3 element set of distinct integer sided rectangles filling an n X n square.
 
 The programs for A390007, there is no canonical definition to state claims against.
@@ -1426,6 +1447,29 @@ def P18431912424920761164.Spec : Prop :=
 theorem P18431912424920761164.correct : P18431912424920761164.Spec := by
   intro n
   simp only [A390035]
+
+end A390035
+
+/-! ## A390035.P9034688824444508450
+
+`A017847(A020725(3*(n+1))+10)`
+-/
+
+namespace A390035.P9034688824444508450
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A017847 (A020725 (3 * (n + 1)) + 10).toNat
+
+end
+
+end A390035.P9034688824444508450
+
+namespace A390035
+
+/-- `A017847(A020725(3*(n+1))+10)` -/
+def P9034688824444508450.Spec : Prop :=
+  ∀ n, P9034688824444508450.a n = A390035 n
 
 end A390035
 

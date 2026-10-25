@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -50,8 +51,10 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -88,6 +91,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A307300: Array read by antidiagonals: Sprague-Grundy values for the game NimHof with rules [1,0], [2,2], [0,1].
@@ -4447,7 +4454,7 @@ end A307353.P4114355559822491580
 /-!
 # A307354: a(n) = Sum_{0<=i<=j<=n} (-1)^(i+j) * (i+j)!/(i!*j!).
 
-The programs for A307354, the canonical program `A307354.P6583539778900423417` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307354 has offset 0).
+The programs for A307354, the canonical program `A307354.P6583539778900423417` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307354 has offset 0).
 
 The definition of A307354 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006134, A120305, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4456,7 +4463,7 @@ The definition of A307354 is `conditional`: the Lean definition is an OEIS formu
 
 `(A006134(n)+A120305(n))/2`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A307354
@@ -7184,6 +7191,12 @@ namespace A307390
 /-- `A109274(n+1)+1` -/
 def P11892936238457079545.Spec : Prop :=
   ∀ n, P11892936238457079545.a n = A307390 (n + 1)
+
+theorem P11892936238457079545.correct : P11892936238457079545.Spec := by
+  intro n
+  simp only [A307390, Nat.add_sub_cancel, A307390.P11892936238457079545.a, A307390.P18238865326360100197.f1, A307390.P18238865326360100197.f2, A307390.P18238865326360100197.a, A007528, A007528.P3292322913023880558.f1, A007528.P3292322913023880558.a, A068497, A068497.P16499874508488581460.f2, A068497.P16499874508488581460.f3, A068497.P16499874508488581460.f1, A068497.P16499874508488581460.a, A109274, A109274.P11602195938365358574.a, A175851, A175851.P13592010490707745070.a, A061007, A061007.P1649170130193805129.f1, A061007.P1649170130193805129.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A307390
 

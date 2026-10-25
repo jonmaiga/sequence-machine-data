@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -52,7 +53,7 @@ import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B009.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -81,6 +82,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A218500: 8th iteration of the hyperbinomial transform on the sequence of 1's.
@@ -508,6 +513,12 @@ namespace A218503
 /-- `A069779(n)+A027445(n)*A069779(n)` -/
 def P18061416749785177808.Spec : Prop :=
   ∀ n, P18061416749785177808.a n = A218503 n
+
+theorem P18061416749785177808.correct : P18061416749785177808.Spec := by
+  intro n
+  simp only [A218503, Nat.add_sub_cancel, A218503.P18061416749785177808.a, A218503.P11395741053979960510.a, A027445, A027445.P2062535294747488403.a, A069779, A069779.P16547002669838579975.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A218503
 
@@ -3117,6 +3128,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A218536.P9846354368713441645
+
+/-! ## A218536.P4788859324705178236
+
+`record[A144270(A016777(n))]²`
+-/
+
+namespace A218536.P4788859324705178236
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A144270 (A016777 n).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n) ^ 2
+
+end
+
+end A218536.P4788859324705178236
 
 /-!
 # A218539: Numbers that are equal to the sum of the uniform platonic polyhedral (figurate) numbers (tetrahedral, cubic, octahedral, dodecahedral, or icosahedral) on each of their digits.

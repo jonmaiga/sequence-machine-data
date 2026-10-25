@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -56,7 +57,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -87,6 +87,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A116303: n times n+5 gives the concatenation of two numbers m and m+2.
@@ -2767,20 +2771,20 @@ end
 
 end A116365.P3727491033176131451
 
-/-! ## A116365.P12889430296839589785
+/-! ## A116365.P9095395041129397792
 
-`A328335(A347547(n))-A257639(n+1)`
+`A360247(A000070(n))-A212218(n)`
 -/
 
-namespace A116365.P12889430296839589785
+namespace A116365.P9095395041129397792
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A328335 (A347547 (n + 10)).toNat - A257639 (n + 1)
+  A360247 (A000070 n).toNat - A212218 n
 
 end
 
-end A116365.P12889430296839589785
+end A116365.P9095395041129397792
 
 /-!
 # A116366: Triangle read by rows: even numbers as sums of two odd primes.
@@ -3249,7 +3253,7 @@ end A116366
 
 The programs for A116367, the canonical program `A116367.P6155131737747558776` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116367 has offset 1).
 
-The definition of A116367 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A007504, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A116367 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007504, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A116367.P6155131737747558776
@@ -3454,6 +3458,12 @@ namespace A116367
 def P15103779859625628581.Spec : Prop :=
   ∀ n, P15103779859625628581.a n = A116367 (n + 1)
 
+theorem P15103779859625628581.correct : P15103779859625628581.Spec := by
+  intro n
+  simp only [A116367, Nat.add_sub_cancel, A116367.P15103779859625628581.a, A116367.P6155131737747558776.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A007504, A007504.P16529107901788736493.f1, A007504.P16529107901788736493.a, A033286, A033286.P2794343547372572705.a, A182986, A182986.P2625431067462217415.a, A054541, A054541.P347795157194570387.a, A046930, A046930.P1162450832993365803.f1, A046930.P1162450832993365803.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A116367
 
 /-! ## A116367.P17975039012494430411
@@ -3513,7 +3523,7 @@ end A116367
 
 The programs for A116368, the canonical program `A116368.P4128061207012300454` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116368 has offset 1).
 
-The definition of A116368 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A116368 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A116368.P4128061207012300454
@@ -5208,6 +5218,12 @@ namespace A116384
 def P2741840369547336497.Spec : Prop :=
   ∀ n, P2741840369547336497.a n = A116384 n
 
+theorem P2741840369547336497.correct : P2741840369547336497.Spec := by
+  intro n
+  simp only [A116384, Nat.add_sub_cancel, A116384.P2741840369547336497.a, A116384.P5047349765898739039.a, A027306, A027306.P2966041652703629727.a, A226881, A226881.P11275722064909766115.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A116384
 
 /-! ## A116384.P8797461785538391579
@@ -5625,6 +5641,12 @@ namespace A116385
 /-- `A026023(n)-A001405(n+1)` -/
 def P4730482088740577996.Spec : Prop :=
   ∀ n, P4730482088740577996.a n = A116385 n
+
+theorem P4730482088740577996.correct : P4730482088740577996.Spec := by
+  intro n
+  simp only [A116385, Nat.add_sub_cancel, A116385.P4730482088740577996.a, A116385.P5361191380306114926.a, A001405, A001405.P5205018418992951678.a, A026023, A026023.P18349130492113411666.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A116385
 

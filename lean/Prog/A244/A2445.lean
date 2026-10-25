@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -88,6 +89,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A244501: Number of ways to place 3 points on an n X n X n triangular grid so that no pair of them has distance sqrt(3).
@@ -3172,6 +3177,12 @@ namespace A244525
 def P15626835105647653483.Spec : Prop :=
   ∀ n, P15626835105647653483.a n = A244525 n
 
+theorem P15626835105647653483.correct : P15626835105647653483.Spec := by
+  intro n
+  simp only [A244525, Nat.add_sub_cancel, A244525.P15626835105647653483.a, A244525.P10571466511866612896.a, A023531, A023531.P13036811505051547859.a, A033999, A033999.P17703899380244199787.a, A214263, A214263.P14358253122449274088.a, A010054, A010054.P18347828677204923252.a, A005369, A005369.P10796159359873341658.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A244525
 
 /-! ## A244525.P2163048658535152269
@@ -3454,6 +3465,12 @@ namespace A244525
 def P17446959692424888624.Spec : Prop :=
   ∀ n, P17446959692424888624.a n = A244525 n
 
+theorem P17446959692424888624.correct : P17446959692424888624.Spec := by
+  intro n
+  simp only [A244525, Nat.add_sub_cancel, A244525.P17446959692424888624.a, A244525.P10571466511866612896.a, A010054, A010054.P18347828677204923252.a, A033999, A033999.P17703899380244199787.a, A214263, A214263.P14358253122449274088.a, A005369, A005369.P10796159359873341658.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A244525
 
 /-! ## A244525.P18435607120464876805
@@ -3499,6 +3516,12 @@ namespace A244525
 /-- `A010054(2*n+1)*A062157(n+1)` -/
 def P3236926243911377153.Spec : Prop :=
   ∀ n, P3236926243911377153.a n = A244525 n
+
+theorem P3236926243911377153.correct : P3236926243911377153.Spec := by
+  intro n
+  simp only [A244525, Nat.add_sub_cancel, A244525.P3236926243911377153.a, A244525.P10571466511866612896.a, A010054, A010054.P18347828677204923252.a, A062157, A062157.P13834877263571195293.a, A214263, A214263.P14358253122449274088.a, A005369, A005369.P10796159359873341658.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A244525
 
@@ -7270,24 +7293,6 @@ end
 
 end A244558.P7670160812596578766
 
-/-! ## A244558.P585759458676303915
-
-`A048385(A037027(∑[n]))`
--/
-
-namespace A244558.P585759458676303915
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048385 (A037027 (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
-
-end
-
-end A244558.P585759458676303915
-
 /-!
 # A244559: Numbers obtained by concatenating the squares of the digits of n!.
 
@@ -8079,7 +8084,7 @@ end A244575.P2627985871355876688
 
 The programs for A244576, the canonical program `A244576.P4626810035088509024` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244576 has offset 1).
 
-The definition of A244576 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A244049, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A244576 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A244049, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A244576.P4626810035088509024
@@ -8478,7 +8483,7 @@ end A244576
 
 The programs for A244578, the canonical program `A244578.P4846969564591678736` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244578 has offset 1).
 
-The definition of A244578 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A153485, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A244578 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A153485, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A244578.P4846969564591678736
@@ -9200,7 +9205,7 @@ end A244581.P11708066535143893433
 
 The programs for A244583, the canonical program `A244583.P1388980908316134735` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244583 has offset 1).
 
-The definition of A244583 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A244583 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A244583.P14161524600935060148

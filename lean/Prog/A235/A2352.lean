@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -53,10 +54,10 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -84,6 +85,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A235201: Self-inverse and multiplicative permutation of integers: a(0)=0, a(1)=1, a(2)=2, a(3)=4 and a(4)=3, a(p_i) = p_{a(i)} for primes with index i > 2, and for composites > 4, a(u * v) = a(u) * a(v) for u, v > 0.
@@ -1885,6 +1890,12 @@ namespace A235224
 /-- `A328620(n)+A267263(n)` -/
 def P18262729726919493959.Spec : Prop :=
   ∀ n, P18262729726919493959.a n = A235224 n
+
+theorem P18262729726919493959.correct : P18262729726919493959.Spec := by
+  intro n
+  simp only [A235224, Nat.add_sub_cancel, A235224.P18262729726919493959.a, A235224.P9540919302901513135.f2, A235224.P9540919302901513135.f1, A235224.P9540919302901513135.a, A267263, A267263.P541567630172199219.a, A300951, A300951.P16227161527495429065.a, A328620, A328620.P17305493884034460707.a, A014963, A014963.P5975177236000282614.a, A260187, A260187.P12900667191599328450.a, A166140, A166140.P17649384582351937107.f1, A166140.P17649384582351937107.a, A166142, A166142.P10122674445425206392.f1, A166142.P10122674445425206392.a, A260188, A260188.P5872051986536960582.a, A080304, A080304.P9910366703239988167.a, A105561, A105561.P9613495167303290584.f1, A105561.P9613495167303290584.f2, A105561.P9613495167303290584.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A235224
 

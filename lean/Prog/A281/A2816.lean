@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -55,8 +56,9 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -92,6 +94,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A281600: Number of n X 3 0..2 arrays with no element equal to more than one of its horizontal, diagonal or antidiagonal neighbors and with new values introduced in order 0 sequentially upwards.
@@ -4654,6 +4660,12 @@ namespace A281664
 /-- `p?[a(n-1)+4]-1` -/
 def P6513066070708375042.Spec : Prop :=
   ∀ n, P6513066070708375042.a n = A281664 (n + 1)
+
+theorem P6513066070708375042.correct : P6513066070708375042.Spec := by
+  intro n
+  simp only [A281664, Nat.add_sub_cancel, A281664.P6513066070708375042.f1, A281664.P6513066070708375042.a, A281664.P3503266122031613119.a, A045326, A045326.P2711126991283549166.f1, A045326.P2711126991283549166.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A281664
 

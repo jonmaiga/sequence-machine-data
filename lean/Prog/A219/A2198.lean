@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -44,9 +45,9 @@ import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
@@ -78,6 +79,11 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A219800: Number of n X 6 arrays of the minimum value of corresponding elements and their horizontal, vertical, diagonal or antidiagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..3 n X 6 array.
@@ -2374,6 +2380,12 @@ namespace A219839
 def P2119758539708314856.Spec : Prop :=
   ∀ n, P2119758539708314856.a n = A219839 (n + 1)
 
+theorem P2119758539708314856.correct : P2119758539708314856.Spec := by
+  intro n
+  simp only [A219839, Nat.add_sub_cancel, A219839.P2119758539708314856.a, A219839.P1850322905401694183.a, A055034, A055034.P626743345724303552.a, A065033, A065033.P13150710762287634520.a, A176095, A176095.P15886254613354820992.a, A053158, A053158.P12394903761097819487.a, A051953, A051953.P12093122754958550118.a, A003557, A003557.P6364735403900941810.a, A318305, A318305.P17845263951644339002.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A219839
 
 /-! ## A219839.P378384145636513014
@@ -2904,6 +2916,12 @@ namespace A219843
 /-- `A000079(n+1)-(A001317(n)+1)` -/
 def P5867705604504111101.Spec : Prop :=
   ∀ n, P5867705604504111101.a n = A219843 n
+
+theorem P5867705604504111101.correct : P5867705604504111101.Spec := by
+  intro n
+  simp only [A219843, Nat.add_sub_cancel, A219843.P5867705604504111101.a, A219843.P18379057056590791838.a, A000079, A000079.P10855139691139572931.a, A000225, A000225.P6535533121115206393.a, A001317, A001317.P8261653114070389448.a, A048724, A048724.P638821554898421701.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A219843
 

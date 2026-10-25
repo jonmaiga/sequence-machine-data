@@ -60,7 +60,6 @@ import Seq.B007.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -506,6 +505,12 @@ namespace A390411
 /-- `∑[C(4*n+1, n)]` -/
 def P6829325759346721935.Spec : Prop :=
   ∀ n, (P6829325759346721935.a n : ℤ) = A390411 n
+
+theorem P6829325759346721935.correct : P6829325759346721935.Spec := by
+  intro n
+  simp only [A390411, Nat.add_sub_cancel, A390411.P6829325759346721935.f1, A390411.P6829325759346721935.a, A390411.P2957758563450737005.f1, A390411.P2957758563450737005.a, A052203, A052203.P16183877862599356469.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A390411
 
@@ -1225,6 +1230,12 @@ namespace A390430
 /-- `A056239(n+1)+A056239(n+1)-A390990(n+1)` -/
 def P153005838386100998.Spec : Prop :=
   ∀ n, P153005838386100998.a n = A390430 (n + 1)
+
+theorem P153005838386100998.correct : P153005838386100998.Spec := by
+  intro n
+  simp only [A390430, Nat.add_sub_cancel, A390430.P153005838386100998.a, A390430.P10162283032244462444.a, A056239, A056239.P11316688788989965672.a, A061395, A061395.P8431317036300486107.a, A243055, A243055.P2464886309294058059.a, A390990, A390990.P11391089079633860080.a, A029837, A029837.P1050578713049589.a, A087207, A087207.P12536008426233777954.a, A117371, A117371.P12406732587805932156.a, A156552, A156552.P4268073137713085227.a, A161511, A161511.P16266007976091900386.a, A297155, A297155.P1611206963555320167.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A048896, A048896.P6461019053085857547.a, A079067, A079067.P15788458216202685682.a, A252464, A252464.P11274602121942962009.a, A297113, A297113.P441289280190658386.a, A348717, A348717.P703712104273003584.a, A046660, A046660.P3614759855976580945.a, A048881, A048881.P16567064232951496228.a, A080791, A080791.P6131873509789506769.a, A122111, A122111.P18124015185857335041.a, A243074, A243074.P6910029884229255604.a, A252736, A252736.P2865412191134230649.f1, A252736.P2865412191134230649.a, A297108, A297108.P15990807296291497671.a, A364557, A364557.P16113127302810243144.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A390430
 
@@ -4340,6 +4351,24 @@ end A390495.P898790289707911254
 The programs for A390496, there is no canonical definition to state claims against.
 -/
 
+/-! ## A390496.P3948545784209068835
+
+`A027750(∑[A384222(n+1)])`
+-/
+
+namespace A390496.P3948545784209068835
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A384222 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A027750 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
+
+end
+
+end A390496.P3948545784209068835
+
 /-! ## A390496.P11226556077981790590
 
 `A177040(A226023(n))`
@@ -4399,21 +4428,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A390496.P3484729049350388061
-
-/-! ## A390496.P11808682795708625932
-
-`A185679(A139213(n)*A340385(2*n+1))`
--/
-
-namespace A390496.P11808682795708625932
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185679 (A139213 n * A340385 (2 * n + 1)).toNat
-
-end
-
-end A390496.P11808682795708625932
 
 /-!
 # A390497: a(n) is the least prime that starts a sequence of two or more consecutive primes whose sum is A050936(n).

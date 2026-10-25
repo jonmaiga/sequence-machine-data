@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
@@ -33,16 +34,13 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -76,6 +74,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A057200: Numbers k such that 2^k + 17 is prime.
@@ -370,6 +372,12 @@ namespace A057211
 /-- `1-A057212(n+1)` -/
 def P17446103450616215704.Spec : Prop :=
   ∀ n, P17446103450616215704.a n = A057211 (n + 1)
+
+theorem P17446103450616215704.correct : P17446103450616215704.Spec := by
+  intro n
+  simp only [A057211, Nat.add_sub_cancel, A057211.P17446103450616215704.a, A057211.P13662060525465798747.a, A000035, A000035.P2023072528413494694.a, A002024, A002024.P11700297927830783882.a, A057212, A057212.P15780615681694366480.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A057211
 
@@ -1452,6 +1460,12 @@ namespace A057212
 /-- `A201208(n+1)-1` -/
 def P18128311801696358988.Spec : Prop :=
   ∀ n, P18128311801696358988.a n = A057212 (n + 1)
+
+theorem P18128311801696358988.correct : P18128311801696358988.Spec := by
+  intro n
+  simp only [A057212, Nat.add_sub_cancel, A057212.P18128311801696358988.a, A057212.P15780615681694366480.a, A057211, A057211.P13662060525465798747.a, A201208, A201208.P11775252334027749297.a, A000035, A000035.P2023072528413494694.a, A002024, A002024.P11700297927830783882.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A057212
 

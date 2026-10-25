@@ -904,6 +904,12 @@ namespace A067611
 def P10871225646937252355.Spec : Prop :=
   ∀ n, P10871225646937252355.a n = (A067611 (n + 1) : ℚ)
 
+theorem P10871225646937252355.correct : P10871225646937252355.Spec := by
+  intro n
+  simp only [A067611, Nat.add_sub_cancel, A067611.P10871225646937252355.a, A067611.P11907712872118763159.f1, A067611.P11907712872118763159.f2, A067611.P11907712872118763159.a, A054775, A054775.P16087756340691914254.a, A283265, A283265.P16513607417697021488.a, A129950, A129950.P15295767996041627134.a, A010051, A010051.P15078252821583414300.a, A164292, A164292.P14089630238313038939.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A169609, A169609.P8986089567113568057.a, A193056, A193056.P6449544040074946363.a, A353464, A353464.P7528674575556997429.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A067611
 
 /-! ## A067611.P4550204174907478962
@@ -6083,7 +6089,7 @@ end A067661.P17539845471363327051
 /-!
 # A067662: Numbers n such that n^2 + 1 and n^4 + 1 are primes.
 
-The programs for A067662, the canonical program `A067662.P12223604919515675796` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067662 has offset 1).
+The programs for A067662, the canonical program `A067662.P12223604919515675796` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067662 has offset 1).
 
 The definition of A067662 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1223 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6092,7 +6098,7 @@ The definition of A067662 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A000068(n+1), A005574(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A067662
@@ -8639,6 +8645,12 @@ namespace A067692
 /-- `A119616(n+1)+A001157(n+1)` -/
 def P1183380516883964053.Spec : Prop :=
   ∀ n, P1183380516883964053.a n = A067692 (n + 1)
+
+theorem P1183380516883964053.correct : P1183380516883964053.Spec := by
+  intro n
+  simp only [A067692, Nat.add_sub_cancel, A067692.P1183380516883964053.a, A067692.P5856251294692584807.f1, A067692.P5856251294692584807.a, A001157, A001157.P6892814788348726787.a, A034676, A034676.P6152504972780352585.f1, A034676.P6152504972780352585.a, A060872, A060872.P4140804828554997717.a, A119616, A119616.P6525625346191770503.a, A035316, A035316.P17845884678165723091.f1, A035316.P17845884678165723091.a, A038548, A038548.P12593795823109361725.a, A254520, A254520.P14622412056457031035.a, A000005, A000005.P16091521709108585461.a, A037213, A037213.P7544062464691828526.a, A056924, A056924.P8846060015044098494.a, A063659, A063659.P17976112420004081821.a, A000196, A000196.P15434771586934192083.a, A010052, A010052.P917763524850441347.f1, A010052.P917763524850441347.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A063658, A063658.P15417569516115138274.f1, A063658.P15417569516115138274.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A067692
 

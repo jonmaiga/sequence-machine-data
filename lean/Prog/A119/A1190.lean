@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -42,12 +43,10 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B008.C001
-import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
@@ -74,6 +73,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A119000: Minimal determinant of real n X n symmetric (+1,-1) matrices.
@@ -681,6 +684,12 @@ namespace A119012
 /-- `Δ[A114515(n+1)]-A114590(n)` -/
 def P14020801061669688532.Spec : Prop :=
   ∀ n, P14020801061669688532.a n = A119012 (n + 1)
+
+theorem P14020801061669688532.correct : P14020801061669688532.Spec := by
+  intro n
+  simp only [A119012, Nat.add_sub_cancel, A119012.P14020801061669688532.f1, A119012.P14020801061669688532.a, A119012.P17349838365231914682.a, A114495, A114495.P3391984248548370264.f1, A114495.P3391984248548370264.a, A114515, A114515.P8369440402788739489.a, A114590, A114590.P10090074978158621732.a, A000957, A000957.P17024256012114130201.a, A014301, A014301.P18515033819834153.a, A026641, A026641.P1352791935542625718.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A119012
 

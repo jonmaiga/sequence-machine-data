@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -47,6 +48,7 @@ import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
@@ -81,7 +83,12 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A045500: Fifth-from-right diagonal of triangle A121207.
@@ -2917,6 +2924,12 @@ namespace A045531
 def P9137617020262043168.Spec : Prop :=
   ∀ n, P9137617020262043168.a n = (A045531 (n + 1) : ℚ)
 
+theorem P9137617020262043168.correct : P9137617020262043168.Spec := by
+  intro n
+  simp only [A045531, Nat.add_sub_cancel, A045531.P9137617020262043168.a, A045531.P981671504222336034.a, A152170, A152170.P555791724256594392.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A045531
 
 /-! ## A045531.P3548640428344872017
@@ -2970,7 +2983,7 @@ end A045531
 
 The programs for A045532, the canonical program `A045532.P6946035463198391959` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045532 has offset 1).
 
-The definition of A045532 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A004216, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A045532 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004216, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A045532.P6946035463198391959
@@ -4843,6 +4856,12 @@ namespace A045543
 /-- `(A045622(n+1)+A045530(n))/2` -/
 def P13662274502864291116.Spec : Prop :=
   ∀ n, P13662274502864291116.a n = (A045543 n : ℚ)
+
+theorem P13662274502864291116.correct : P13662274502864291116.Spec := by
+  intro n
+  simp only [A045543, Nat.add_sub_cancel, A045543.P13662274502864291116.a, A045543.P14061756675038654160.a, A045530, A045530.P17029138342740245618.a, A045622, A045622.P11433442131743350876.a, A020922, A020922.P2919906005093826801.a, A045505, A045505.P5522859928649509268.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A045543
 

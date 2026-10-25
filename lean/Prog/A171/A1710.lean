@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -46,7 +47,8 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C002
+import Seq.B004.C001
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -80,6 +82,10 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A171000: Irreducible Boolean polynomials written as binary vectors.
@@ -13693,6 +13699,12 @@ namespace A171070
 def P9756894020646644334.Spec : Prop :=
   ∀ n, P9756894020646644334.a n = A171070 (n + 1)
 
+theorem P9756894020646644334.correct : P9756894020646644334.Spec := by
+  intro n
+  simp only [A171070, Nat.add_sub_cancel, A171070.P9756894020646644334.a, A171070.P13316125912663666615.f1, A171070.P13316125912663666615.a, A036796, A036796.P3277589454516055024.a, A062879, A062879.P8862703960269035905.a, A178482, A178482.P3084981656249753860.f1, A178482.P3084981656249753860.a, A004275, A004275.P5432371984586133349.a, A169986, A169986.P10622536737824008834.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A171070
 
 /-! ## A171070.P3784263570376696083
@@ -13716,6 +13728,12 @@ namespace A171070
 def P3784263570376696083.Spec : Prop :=
   ∀ n, P3784263570376696083.a n = A171070 (n + 1)
 
+theorem P3784263570376696083.correct : P3784263570376696083.Spec := by
+  intro n
+  simp only [A171070, Nat.add_sub_cancel, A171070.P3784263570376696083.a, A171070.P13316125912663666615.f1, A171070.P13316125912663666615.a, A036795, A036795.P10115071211355073936.a, A062877, A062877.P13716015760311910933.a, A178482, A178482.P3084981656249753860.f1, A178482.P3084981656249753860.a, A004275, A004275.P5432371984586133349.a, A036796, A036796.P3277589454516055024.a, A062879, A062879.P8862703960269035905.a, A169986, A169986.P10622536737824008834.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A171070
 
 /-! ## A171070.P13656336013248588630
@@ -13738,6 +13756,12 @@ namespace A171070
 /-- `A062879(n+1)+A062877(n)+1` -/
 def P13656336013248588630.Spec : Prop :=
   ∀ n, P13656336013248588630.a n = A171070 (n + 1)
+
+theorem P13656336013248588630.correct : P13656336013248588630.Spec := by
+  intro n
+  simp only [A171070, Nat.add_sub_cancel, A171070.P13656336013248588630.a, A171070.P13316125912663666615.f1, A171070.P13316125912663666615.a, A062877, A062877.P13716015760311910933.a, A062879, A062879.P8862703960269035905.a, A178482, A178482.P3084981656249753860.f1, A178482.P3084981656249753860.a, A004275, A004275.P5432371984586133349.a, A036796, A036796.P3277589454516055024.a, A169986, A169986.P10622536737824008834.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A171070
 
@@ -16562,7 +16586,7 @@ end A171092.P10832688750513586056
 /-!
 # A171096: Solutions to the equation M(n) = -1 (M = Mertens's function A002321).
 
-The programs for A171096, the canonical program `A171096.P5276553587431167090` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171096 has offset 1).
+The programs for A171096, the canonical program `A171096.P5276553587431167090` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171096 has offset 1).
 
 The definition of A171096 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1211 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16571,7 +16595,7 @@ The definition of A171096 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A008683(n)+a(n-1)]` with `a(0)=1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A171096
@@ -17117,7 +17141,7 @@ end A171096
 /-!
 # A171097: Solutions to the equation M(n) = -2 (M = Mertens's function A002321).
 
-The programs for A171097, the canonical program `A171097.P12779293416577231278` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171097 has offset 1).
+The programs for A171097, the canonical program `A171097.P12779293416577231278` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171097 has offset 1).
 
 The definition of A171097 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1262 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -17126,7 +17150,7 @@ The definition of A171097 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A008683(n)+a(n-1)]` with `a(0)=2`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A171097
@@ -17495,7 +17519,7 @@ end A171097
 /-!
 # A171098: Solutions to the equation M(n) = -3 (M = Mertens's function A002321).
 
-The programs for A171098, the canonical program `A171098.P4885253993403503157` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171098 has offset 1).
+The programs for A171098, the canonical program `A171098.P4885253993403503157` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171098 has offset 1).
 
 The definition of A171098 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1164 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -17504,7 +17528,7 @@ The definition of A171098 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A008683(n)+a(n-1)]` with `a(0)=3`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A171098

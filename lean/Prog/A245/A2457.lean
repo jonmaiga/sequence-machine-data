@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -56,7 +57,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -92,6 +92,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A245701: Permutation of natural numbers: a(1) = 1, a(A014580(n)) = 2*a(n), a(A091242(n)) = 2*a(n)+1, where A014580(n) = binary code for n-th irreducible polynomial over GF(2), A091242(n) = binary code for n-th reducible polynomial over GF(2).
@@ -6187,6 +6191,24 @@ end A245759.P10707703467849554999
 The programs for A245760, there is no canonical definition to state claims against.
 -/
 
+/-! ## A245760.P1245864868402419939
+
+`A275806(∑[A052369(n+1)-A307372(2*n+5)])`
+-/
+
+namespace A245760.P1245864868402419939
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A052369 (n + 1) - A307372 (2 * n + 5)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A275806 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
+
+end
+
+end A245760.P1245864868402419939
+
 /-! ## A245760.P6286863935762860730
 
 `A008676(A140485(n+1)-A330015(3*n))`
@@ -7147,7 +7169,7 @@ end A245768.P5699874609450621584
 /-!
 # A245769: a(n) = Sum_{k=0..n} C(n, k)*C(n+k, k)/(2k-1), where C(n, k) denotes the binomial coefficient n!/(k!*(n-k)!).
 
-The programs for A245769, the canonical program `A245769.P9071487461412164535` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245769 has offset 0).
+The programs for A245769, the canonical program `A245769.P9071487461412164535` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245769 has offset 0).
 
 The definition of A245769 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 136 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7156,7 +7178,7 @@ The definition of A245769 is `conjectured`: the Lean definition is a formula tha
 
 `1-∑[∑[2*A085403(n)]]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A245769
@@ -7311,6 +7333,12 @@ namespace A245773
 def P3110960034894421940.Spec : Prop :=
   ∀ n, P3110960034894421940.a n = A245773 (n + 1)
 
+theorem P3110960034894421940.correct : P3110960034894421940.Spec := by
+  intro n
+  simp only [A245773, Nat.add_sub_cancel, A245773.P3110960034894421940.a, A245773.P11491610189230660149.a, A001001, A001001.P14221911591443847044.f1, A001001.P14221911591443847044.a, A064987, A064987.P15308919020374608347.a, A245484, A245484.P7320759544988298613.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A009194, A009194.P8274270202395757303.a, A009242, A009242.P11355656019912241994.a, A017665, A017665.P1720905539505039507.f1, A017665.P1720905539505039507.a, A017666, A017666.P11271370801176685649.f1, A017666.P11271370801176685649.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A245773
 
 /-! ## A245773.P6126296788962973239
@@ -7333,6 +7361,12 @@ namespace A245773
 /-- `A001001(n+1)-2*A245484(n+1)` -/
 def P6126296788962973239.Spec : Prop :=
   ∀ n, P6126296788962973239.a n = A245773 (n + 1)
+
+theorem P6126296788962973239.correct : P6126296788962973239.Spec := by
+  intro n
+  simp only [A245773, Nat.add_sub_cancel, A245773.P6126296788962973239.a, A245773.P11491610189230660149.a, A001001, A001001.P14221911591443847044.f1, A001001.P14221911591443847044.a, A064987, A064987.P15308919020374608347.a, A245484, A245484.P7320759544988298613.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A009194, A009194.P8274270202395757303.a, A009242, A009242.P11355656019912241994.a, A017665, A017665.P1720905539505039507.f1, A017665.P1720905539505039507.a, A017666, A017666.P11271370801176685649.f1, A017666.P11271370801176685649.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A245773
 

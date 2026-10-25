@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -86,6 +87,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A358800: Number of (undirected) paths in the grid graph P_4 X P_n.
@@ -5717,6 +5722,12 @@ namespace A358877
 /-- `A010766(n+1)*A360610(n+1)` -/
 def P8326776393426815461.Spec : Prop :=
   ∀ n, P8326776393426815461.a n = A358877 (n + 1)
+
+theorem P8326776393426815461.correct : P8326776393426815461.Spec := by
+  intro n
+  simp only [A358877, Nat.add_sub_cancel, A358877.P8326776393426815461.a, A358877.P15176719959387656287.f1, A358877.P15176719959387656287.a, A010766, A010766.P13358049683493517902.f1, A010766.P13358049683493517902.a, A074909, A074909.P6707642907239843837.f1, A074909.P6707642907239843837.a, A360610, A360610.P9311282744771957275.f1, A360610.P9311282744771957275.a, A002262, A002262.P12129691700837801527.a, A010054, A010054.P18347828677204923252.a, A005369, A005369.P10796159359873341658.a, A057944, A057944.P16851463738746886639.a, A000217, A000217.P10269402890581615239.a, A003056, A003056.P5318256527314048597.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A358877
 

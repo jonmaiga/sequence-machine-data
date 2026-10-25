@@ -45,6 +45,7 @@ import Seq.B006.C002
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -58,6 +59,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -459,20 +461,20 @@ end
 
 end A013311.P18390701323752278348
 
-/-! ## A013311.P4412429835848049497
+/-! ## A013311.P7621830312672038794
 
-`A052273(A268830(n)+A005329(n))`
+`A159786(A000129(n))+A000301(n)`
 -/
 
-namespace A013311.P4412429835848049497
+namespace A013311.P7621830312672038794
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052273 (A268830 n + A005329 n).toNat
+  A159786 (A000129 n).toNat + A000301 n
 
 end
 
-end A013311.P4412429835848049497
+end A013311.P7621830312672038794
 
 /-!
 # A013312: tan(exp(x)-cos(x)) = x + 2/2!*x^2 + 3/3!*x^3 + 24/4!*x^4 + 157/5!*x^5...

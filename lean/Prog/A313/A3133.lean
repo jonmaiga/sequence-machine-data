@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -45,6 +46,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
@@ -55,7 +57,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -82,6 +83,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A313301: Coordination sequence Gal.5.80.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
@@ -1178,6 +1183,12 @@ namespace A313321
 /-- `(A310546(n)+A008579(n))/2` -/
 def P13427990419573423685.Spec : Prop :=
   ∀ n, P13427990419573423685.a n = (A313321 n : ℚ)
+
+theorem P13427990419573423685.correct : P13427990419573423685.Spec := by
+  intro n
+  simp only [A313321, Nat.add_sub_cancel, A313321.P13427990419573423685.a, A313321.P15623248568632964517.a, A008579, A008579.P11123826267800694639.a, A310546, A310546.P18242339710196559366.a, A237420, A237420.P18309215415516619502.a, A296910, A296910.P15115940855877380852.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A313321
 
@@ -2797,6 +2808,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A313348.P5152432509529074561
+
+/-! ## A313348.P3515093071187361492
+
+`A002822(2*(n+1))-A296658(A076928(n+1))`
+-/
+
+namespace A313348.P3515093071187361492
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002822 (2 * (n + 1)) - A296658 (A076928 (n + 1)).toNat
+
+end
+
+end A313348.P3515093071187361492
 
 /-! ## A313348.P8415260959866628441
 

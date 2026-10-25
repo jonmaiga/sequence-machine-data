@@ -52,10 +52,8 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -1854,32 +1852,32 @@ def P6522653268291556295.Spec : Prop :=
 
 end A190209
 
-/-! ## A190209.P17138356189492716396
+/-! ## A190209.P9775403963129497538
 
-`lt[A301676(n), A160278(2*(n+1))]+1`
+`lt[A036987(2*(n+2)), A190207(n+1)]+1`
 -/
 
-namespace A190209.P17138356189492716396
+namespace A190209.P9775403963129497538
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A301676 n
+  A036987 (2 * (n + 2))
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A160278 (2 * (n + 1))
+  A190207 (n + 1)
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   SequenceMachineLib.nth (fun j => f1 j < f2 j) n + 1
 
 end
 
-end A190209.P17138356189492716396
+end A190209.P9775403963129497538
 
 namespace A190209
 
-/-- `lt[A301676(n), A160278(2*(n+1))]+1` -/
-def P17138356189492716396.Spec : Prop :=
-  ∀ n, (P17138356189492716396.a n : ℤ) = A190209 (n + 1)
+/-- `lt[A036987(2*(n+2)), A190207(n+1)]+1` -/
+def P9775403963129497538.Spec : Prop :=
+  ∀ n, (P9775403963129497538.a n : ℤ) = A190209 (n + 1)
 
 end A190209
 
@@ -3143,7 +3141,7 @@ end A190221.P11457943309450997867
 /-!
 # A190222: Noncomposite numbers all of whose decimal digits are noncomposite numbers (1,2,3,5,7).
 
-The programs for A190222, the canonical program `A190222.P6549821447653687319` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190222 has offset 1).
+The programs for A190222, the canonical program `A190222.P6549821447653687319` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190222 has offset 1).
 
 The definition of A190222 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1358 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3152,7 +3150,7 @@ The definition of A190222 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A001742(n+1), A160337(n+1)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A190222
@@ -9531,7 +9529,7 @@ end A190247
 /-!
 # A190248: a(n) = [nu+nv+nw]-[nu]-[nv]-[nw], where u=(1+sqrt(5))/2, v=u^2, w=u^3, []=floor.
 
-The programs for A190248, the canonical program `A190248.P6919742512996183991` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190248 has offset 1).
+The programs for A190248, the canonical program `A190248.P6919742512996183991` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190248 has offset 1).
 
 The definition of A190248 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9586,7 +9584,7 @@ end A190248
 
 `A004938(n+1)-A003623(n+1)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A190248
@@ -12426,7 +12424,7 @@ end A190275.P7520758166869941676
 /-!
 # A190276: Numbers k such that tau(2k-1) = tau(2k+1) where tau(k) = A000005(k).
 
-The programs for A190276, the canonical program `A190276.P1290073502243581009` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190276 has offset 1).
+The programs for A190276, the canonical program `A190276.P1290073502243581009` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190276 has offset 1).
 
 The definition of A190276 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A066692, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -12435,7 +12433,7 @@ The definition of A190276 is `conditional`: the Lean definition is an OEIS formu
 
 `(A066692(n+1)+1)/2`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A190276

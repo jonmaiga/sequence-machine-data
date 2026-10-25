@@ -76,6 +76,7 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -159,7 +160,7 @@ end A260902.P16863256108495150647
 /-!
 # A260905: Totients of the Blum integers.
 
-The programs for A260905, the canonical program `A260905.P13307699566017813333` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260905 has offset 1).
+The programs for A260905, the canonical program `A260905.P13307699566017813333` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260905 has offset 1).
 
 The definition of A260905 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A195758, A195759, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -168,7 +169,7 @@ The definition of A260905 is `conditional`: the Lean definition is an OEIS formu
 
 `(A195758(n+1)-1)*(A195759(n+1)-1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A260905
@@ -4071,6 +4072,12 @@ namespace A260955
 def P8936970301069258461.Spec : Prop :=
   ∀ n, P8936970301069258461.a n = A260955 n
 
+theorem P8936970301069258461.correct : P8936970301069258461.Spec := by
+  intro n
+  simp only [A260955, Nat.add_sub_cancel, A260955.P8936970301069258461.a, A260955.P4305537005508239230.a, A016754, A016754.P2987865549988322084.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A260955
 
 /-! ## A260955.P13606855834621140955
@@ -4269,6 +4276,12 @@ namespace A260955
 /-- `Δ[6*C(2*n+1, 3)]` -/
 def P12206900418529541829.Spec : Prop :=
   ∀ n, P12206900418529541829.a n = A260955 n
+
+theorem P12206900418529541829.correct : P12206900418529541829.Spec := by
+  intro n
+  simp only [A260955, Nat.add_sub_cancel, A260955.P12206900418529541829.f1, A260955.P12206900418529541829.a, A260955.P4305537005508239230.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A260955
 

@@ -17,6 +17,7 @@ import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B003.C000
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -26,7 +27,6 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -326,20 +326,20 @@ end
 
 end A395712.P11331539015064104682
 
-/-! ## A395712.P195765348898760278
+/-! ## A395712.P16723651314172191432
 
-`A238617(A339656(n)+A022559(n))`
+`A390485(n)+A089866(A001906(n))`
 -/
 
-namespace A395712.P195765348898760278
+namespace A395712.P16723651314172191432
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A238617 (A339656 n + A022559 n).toNat
+  A390485 n + A089866 (A001906 n).toNat
 
 end
 
-end A395712.P195765348898760278
+end A395712.P16723651314172191432
 
 /-!
 # A395715: Number of relations on an n-set that are reflexive and transitive, but not symmetric.

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -59,10 +60,10 @@ import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -94,6 +95,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A225600: Toothpick sequence related to integer partitions (see Comments lines for definition).
@@ -1370,29 +1375,6 @@ namespace A225609
 /-- `A061377(A000027(n+1))%A015473(n+1)` -/
 def P1358896955404386881.Spec : Prop :=
   ∀ n, P1358896955404386881.a n = A225609 n
-
-end A225609
-
-/-! ## A225609.P6124279947641948877
-
-`A061377(n+1)%A015473(A000005(2^n))`
--/
-
-namespace A225609.P6124279947641948877
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A061377 (n + 1)) (A015473 (A000005 (2 ^ n)).toNat)
-
-end
-
-end A225609.P6124279947641948877
-
-namespace A225609
-
-/-- `A061377(n+1)%A015473(A000005(2^n))` -/
-def P6124279947641948877.Spec : Prop :=
-  ∀ n, P6124279947641948877.a n = A225609 n
 
 end A225609
 
@@ -7116,6 +7098,12 @@ namespace A225658
 /-- `A052560(n+2)+A001048(n+1)` -/
 def P16815580110931709638.Spec : Prop :=
   ∀ n, P16815580110931709638.a n = A225658 n
+
+theorem P16815580110931709638.correct : P16815580110931709638.Spec := by
+  intro n
+  simp only [A225658, Nat.add_sub_cancel, A225658.P16815580110931709638.a, A225658.P9836252400510583743.a, A001048, A001048.P17874306345601623766.a, A052560, A052560.P16127495256931462694.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A225658
 

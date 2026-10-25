@@ -60,7 +60,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -82,6 +81,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -2899,6 +2899,12 @@ namespace A074605
 def P13292953974598594064.Spec : Prop :=
   ∀ n, P13292953974598594064.a n = (A074605 n : ℚ)
 
+theorem P13292953974598594064.correct : P13292953974598594064.Spec := by
+  intro n
+  simp only [A074605, Nat.add_sub_cancel, A074605.P13292953974598594064.f1, A074605.P13292953974598594064.a, A074605.P9191075828594097155.a, A002250, A002250.P15900526212734195691.a, A024036, A024036.P9245189437657330470.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A074605
 
 /-! ## A074605.P10728103775031358325
@@ -3279,6 +3285,12 @@ namespace A074606
 /-- `(A020729(n)+A008776(n))/2` -/
 def P537931439377253548.Spec : Prop :=
   ∀ n, P537931439377253548.a n = (A074606 n : ℚ)
+
+theorem P537931439377253548.correct : P537931439377253548.Spec := by
+  intro n
+  simp only [A074606, Nat.add_sub_cancel, A074606.P537931439377253548.a, A074606.P17107400510171925079.a, A008776, A008776.P11088121667404015999.a, A020729, A020729.P10295770726716872561.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A074606
 
@@ -7153,6 +7165,12 @@ namespace A074616
 /-- `(A135167(n)+A135166(n))/2` -/
 def P5098986612660930173.Spec : Prop :=
   ∀ n, P5098986612660930173.a n = (A074616 n : ℚ)
+
+theorem P5098986612660930173.correct : P5098986612660930173.Spec := by
+  intro n
+  simp only [A074616, Nat.add_sub_cancel, A074616.P5098986612660930173.a, A074616.P1217150069312467191.a, A135166, A135166.P6805597353140494519.a, A135167, A135167.P2904130348192986132.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A074616
 
@@ -16658,20 +16676,20 @@ end
 
 end A074689.P2522514719968458420
 
-/-! ## A074689.P10281674049237180226
+/-! ## A074689.P7311681649244588310
 
-`A001221(A000079(n))*A122331(n)`
+`A130372(A074680(n)%A183019(2*n+1))`
 -/
 
-namespace A074689.P10281674049237180226
+namespace A074689.P7311681649244588310
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001221 (A000079 n).toNat * A122331 n
+  A130372 (Int.tmod (A074680 n) (A183019 (2 * n + 1))).toNat
 
 end
 
-end A074689.P10281674049237180226
+end A074689.P7311681649244588310
 
 /-!
 # A074690: Permutation of natural numbers induced by the Catalan bijection gmA074690! acting on the parenthesizations encoded by A014486/A063171.

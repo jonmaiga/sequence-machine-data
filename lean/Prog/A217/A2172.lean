@@ -56,7 +56,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -89,7 +88,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
@@ -2083,6 +2081,12 @@ namespace A217219
 /-- `2*A033685(n)` -/
 def P726974964582754512.Spec : Prop :=
   ∀ n, P726974964582754512.a n = A217219 n
+
+theorem P726974964582754512.correct : P726974964582754512.Spec := by
+  intro n
+  simp only [A217219, Nat.add_sub_cancel, A217219.P726974964582754512.a, A217219.P6754064516663132838.a, A033685, A033685.P5820918837906960133.a, A045833, A045833.P12838744438603727675.f1, A045833.P12838744438603727675.a, A091684, A091684.P4172566819234303247.a, A102283, A102283.P18218274576938374007.a, A011655, A011655.P6146775691868591852.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A217219
 

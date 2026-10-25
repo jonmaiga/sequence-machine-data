@@ -792,31 +792,6 @@ end
 end A322009.P3410311980944048667
 
 /-!
-# A322011: Number of distinct chromatic symmetric functions of spanning hypergraphs (or antichain covers) on n vertices.
-
-The programs for A322011, there is no canonical definition to state claims against.
--/
-
-/-! ## A322011.P12105392874746877204
-
-`(char[4]+n)*n!+1`
--/
-
-namespace A322011.P12105392874746877204
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = n then 1 else 0) + n) * Nat.factorial n + 1
-
-end
-
-end A322011.P12105392874746877204
-
-/-!
 # A322012: Number of s-positive simple labeled graphs with n vertices.
 
 The programs for A322012, there is no canonical definition to state claims against.
@@ -1452,6 +1427,12 @@ namespace A322015
 def P16604690552186646100.Spec : Prop :=
   ∀ n, P16604690552186646100.a n = A322015 n
 
+theorem P16604690552186646100.correct : P16604690552186646100.Spec := by
+  intro n
+  simp only [A322015, Nat.add_sub_cancel, A322015.P16604690552186646100.a, A322015.P15707370486887507958.a, A014577, A014577.P18150949447596937918.a, A014707, A014707.P14309168736324698614.f1, A014707.P14309168736324698614.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A322015
 
 /-! ## A322015.P49184259872856612
@@ -1735,6 +1716,12 @@ namespace A322016
 /-- `(1-A089013(n))*(n-1)` -/
 def P3170636583435006034.Spec : Prop :=
   ∀ n, P3170636583435006034.a n = A322016 n
+
+theorem P3170636583435006034.correct : P3170636583435006034.Spec := by
+  intro n
+  simp only [A322016, Nat.add_sub_cancel, A322016.P3170636583435006034.a, A322016.P2278703337151116336.a, A082410, A082410.P13304981050769810358.a, A089013, A089013.P17718779328250139218.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A322016
 
@@ -2942,7 +2929,7 @@ end A322025.P2878960794627918956
 /-!
 # A322026: Lexicographically earliest infinite sequence such that a(i) = a(j) => A007814(i) = A007814(j) and A007949(i) = A007949(j), for all i, j, where A007814 and A007949 give the 2- and 3-adic valuations of n.
 
-The programs for A322026, the canonical program `A322026.P9939505646475219061` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A322026 has offset 1).
+The programs for A322026, the canonical program `A322026.P9939505646475219061` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A322026 has offset 1).
 
 The definition of A322026 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A071521, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2951,7 +2938,7 @@ The definition of A322026 is `conditional`: the Lean definition is an OEIS formu
 
 `A071521(A065331(n+1))`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A322026
@@ -8654,7 +8641,7 @@ end A322079.P1162931412655795120
 /-!
 # A322080: Square array A(n,k), n >= 1, k >= 0, read by antidiagonals: A(n,k) = Sum_{p|n, p prime} p^k.
 
-The programs for A322080, the canonical program `A322080.P8227606125856028005` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A322080 has offset 1).
+The programs for A322080, the canonical program `A322080.P8227606125856028005` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A322080 has offset 1).
 
 The definition of A322080 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4678 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8663,7 +8650,7 @@ The definition of A322080 is `conjectured`: the Lean definition is a formula tha
 
 `∑{p}[A002260(n+1), #^A025581(n)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A322080

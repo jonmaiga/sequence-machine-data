@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -50,6 +51,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
@@ -84,6 +86,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A381401: a(n) is the number of (possibly non-distinct) prime elements in the multiset of bases and exponents in the prime factorization of n.
@@ -890,6 +896,12 @@ namespace A381424
 def P8234766570436704379.Spec : Prop :=
   ∀ n, P8234766570436704379.a n = A381424 n
 
+theorem P8234766570436704379.correct : P8234766570436704379.Spec := by
+  intro n
+  simp only [A381424, Nat.add_sub_cancel, A381424.P8234766570436704379.a, A381424.P8520062412915218701.a, A085473, A085473.P10681717492594671342.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A381424
 
 /-! ## A381424.P18320946574268284759
@@ -935,6 +947,12 @@ namespace A381424
 /-- `A169711(2*n+1)/(2*n+1)` -/
 def P17707388063377897060.Spec : Prop :=
   ∀ n, P17707388063377897060.a n = (A381424 n : ℚ)
+
+theorem P17707388063377897060.correct : P17707388063377897060.Spec := by
+  intro n
+  simp only [A381424, Nat.add_sub_cancel, A381424.P17707388063377897060.a, A381424.P8520062412915218701.a, A169711, A169711.P3852952923090487921.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A381424
 
@@ -1367,20 +1385,35 @@ end A381427.P2545275472957590002
 The programs for A381428, there is no canonical definition to state claims against.
 -/
 
-/-! ## A381428.P17978141881182527961
+/-! ## A381428.P16741271432854922175
 
-`A333958(n+1)+A000027(A390611(n))`
+`A257687(n)+A000027(A390611(n))`
 -/
 
-namespace A381428.P17978141881182527961
+namespace A381428.P16741271432854922175
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333958 (n + 1) + A000027 (A390611 n).toNat
+  A257687 n + A000027 (A390611 n).toNat
 
 end
 
-end A381428.P17978141881182527961
+end A381428.P16741271432854922175
+
+/-! ## A381428.P14736568498340619908
+
+`A000027(xor(A257687(n), A390611(n)))`
+-/
+
+namespace A381428.P14736568498340619908
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000027 (Int.xor (A257687 n) (A390611 n)).toNat
+
+end
+
+end A381428.P14736568498340619908
 
 /-!
 # A381429: E.g.f. A(x) satisfies A(x) = 1/( 1 - sinh(x) * A(x)^3 ).
@@ -3847,6 +3880,12 @@ namespace A381483
 def P636001935873970845.Spec : Prop :=
   ∀ n, P636001935873970845.a n = A381483 n
 
+theorem P636001935873970845.correct : P636001935873970845.Spec := by
+  intro n
+  simp only [A381483, Nat.add_sub_cancel, A381483.P636001935873970845.a, A381483.P13239247248519645367.a, A000108, A000108.P17551949696095299361.a, A382114, A382114.P18285456847627497086.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A381483
 
 /-! ## A381483.P2813121439239889488
@@ -3893,6 +3932,12 @@ namespace A381483
 def P6121553141651131077.Spec : Prop :=
   ∀ n, P6121553141651131077.a n = A381483 n
 
+theorem P6121553141651131077.correct : P6121553141651131077.Spec := by
+  intro n
+  simp only [A381483, Nat.add_sub_cancel, A381483.P6121553141651131077.a, A381483.P13239247248519645367.a, A000108, A000108.P17551949696095299361.a, A383957, A383957.P8900195989436403223.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A381483
 
 /-! ## A381483.P16970648936032548405
@@ -3915,6 +3960,12 @@ namespace A381483
 /-- `(A383957(n)-A382114(n))*A382114(n)` -/
 def P16970648936032548405.Spec : Prop :=
   ∀ n, P16970648936032548405.a n = A381483 n
+
+theorem P16970648936032548405.correct : P16970648936032548405.Spec := by
+  intro n
+  simp only [A381483, Nat.add_sub_cancel, A381483.P16970648936032548405.a, A381483.P13239247248519645367.a, A000108, A000108.P17551949696095299361.a, A382114, A382114.P18285456847627497086.a, A383957, A383957.P8900195989436403223.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A381483
 

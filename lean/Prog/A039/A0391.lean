@@ -87,6 +87,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A039100: Numbers whose base-9 representation has the same number of 3's and 7's.
@@ -281,26 +282,24 @@ end
 
 end A039101.P951479356856705557
 
-/-! ## A039101.P8064376130502471096
+/-! ## A039101.P12581499235652357500
 
-`eq[1, A057521(A299268(2*(n+2)))]`
+`comp[-A267482(A017257(n))]`
 -/
 
-namespace A039101.P8064376130502471096
+namespace A039101.P12581499235652357500
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  -A267482 (A017257 n).toNat
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057521 (A299268 (2 * (n + 2))).toNat
-
+open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A039101.P8064376130502471096
+end A039101.P12581499235652357500
 
 /-!
 # A039103: Numbers whose base-9 representation has the same number of 4's and 6's.
@@ -13011,6 +13010,27 @@ end
 
 end A039160.P5267221495838712567
 
+/-! ## A039160.P9242378360132164882
+
+`lt[A123124(A020483(n)), A160272(n)]`
+-/
+
+namespace A039160.P9242378360132164882
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A123124 (A020483 n).toNat
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A160272 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A039160.P9242378360132164882
+
 /-! ## A039160.P14262575503040622027
 
 `lt[A123927(A241008(n+1)), A010880(2*n+1)]`
@@ -13046,21 +13066,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039160.P16762822878354969254
-
-/-! ## A039160.P601823262077883845
-
-`A000194(A331385(2*n)+A005448(n+1))`
--/
-
-namespace A039160.P601823262077883845
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000194 (A331385 (2 * n) + A005448 (n + 1)).toNat
-
-end
-
-end A039160.P601823262077883845
 
 /-!
 # A039162: Numbers whose base-11 representation has the same number of 0's and 7's.

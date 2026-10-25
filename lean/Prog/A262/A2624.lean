@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -55,16 +56,18 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -92,10 +95,14 @@ import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
 
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+
 /-!
 # A262401: In prime factorization of n: replace each factor with its largest decimal digit.
 
-The programs for A262401, the canonical program `A262401.P16396674940563330838` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262401 has offset 1).
+The programs for A262401, the canonical program `A262401.P16396674940563330838` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262401 has offset 1).
 
 The definition of A262401 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -104,7 +111,7 @@ The definition of A262401 is `conjectured`: the Lean definition is a formula tha
 
 `∏{d}[n+1, A054055(A014963(#))]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A262401
@@ -671,7 +678,7 @@ end A262405.P14445046487039799060
 /-!
 # A262406: Squarefree k such that phi(k) is a perfect square.
 
-The programs for A262406, the canonical program `A262406.P13591506646915870537` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262406 has offset 1).
+The programs for A262406, the canonical program `A262406.P13591506646915870537` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262406 has offset 1).
 
 The definition of A262406 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3694 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -680,7 +687,7 @@ The definition of A262406 is `conjectured`: the Lean definition is a formula tha
 
 `record[∏{p}[A039770(n+1), #]]`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A262406
@@ -3877,6 +3884,12 @@ namespace A262439
 /-- `∑[n+1]-A065855(∑[n+1]+1)` -/
 def P4693308753152938980.Spec : Prop :=
   ∀ n, P4693308753152938980.a n = A262439 (n + 1)
+
+theorem P4693308753152938980.correct : P4693308753152938980.Spec := by
+  intro n
+  simp only [A262439, Nat.add_sub_cancel, A262439.P4693308753152938980.f1, A262439.P4693308753152938980.f2, A262439.P4693308753152938980.a, A262439.P16832177270364139549.f1, A262439.P16832177270364139549.a, A000720, A000720.P1755771944745605250.f2, A000720.P1755771944745605250.f1, A000720.P1755771944745605250.a, A065855, A065855.P16805213270251966039.a, A062298, A062298.P8226643735375377344.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A262439
 

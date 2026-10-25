@@ -41,10 +41,11 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C002
+import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B010.C000
@@ -490,7 +491,7 @@ end A200519.P5573500332571000613
 /-!
 # A200521: Numbers n such that omega(n)=4 but bigomega(n)>4, i.e., having exactly 4 distinct prime factors, but at least one of these with multiplicity > 1.
 
-The programs for A200521, the canonical program `A200521.P7808327898163543035` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200521 has offset 1).
+The programs for A200521, the canonical program `A200521.P7808327898163543035` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200521 has offset 1).
 
 The definition of A200521 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3066 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -637,7 +638,7 @@ end A200521
 
 `∩[A036116(n+1), A102562(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A200521

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -53,14 +54,12 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -89,6 +88,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A308600: Number of (not necessarily maximal) cliques in the n X n antelope graph.
@@ -3169,6 +3172,12 @@ namespace A308655
 def P8840624372416061983.Spec : Prop :=
   ∀ n, P8840624372416061983.a n = A308655 (n + 1)
 
+theorem P8840624372416061983.correct : P8840624372416061983.Spec := by
+  intro n
+  simp only [A308655, Nat.add_sub_cancel, A308655.P8840624372416061983.f1, A308655.P8840624372416061983.a, A308655.P3064422645470108956.f1, A308655.P3064422645470108956.a, A001223, A001223.P5083310856331133973.a, A046933, A046933.P9479947770746769512.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A308655
 
 /-! ## A308655.P3064422645470108956
@@ -3213,6 +3222,12 @@ namespace A308655
 /-- `∑[A001223(n+1)*A033999(n)]` -/
 def P10062340196633190729.Spec : Prop :=
   ∀ n, P10062340196633190729.a n = A308655 (n + 1)
+
+theorem P10062340196633190729.correct : P10062340196633190729.Spec := by
+  intro n
+  simp only [A308655, Nat.add_sub_cancel, A308655.P10062340196633190729.f1, A308655.P10062340196633190729.a, A308655.P3064422645470108956.f1, A308655.P3064422645470108956.a, A001223, A001223.P5083310856331133973.a, A033999, A033999.P17703899380244199787.a, A046933, A046933.P9479947770746769512.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A308655
 
@@ -3271,6 +3286,12 @@ namespace A308655
 /-- `∑[Δ[A000040(n+1)]*A033999(n)]` -/
 def P13792430651214392154.Spec : Prop :=
   ∀ n, P13792430651214392154.a n = A308655 (n + 1)
+
+theorem P13792430651214392154.correct : P13792430651214392154.Spec := by
+  intro n
+  simp only [A308655, Nat.add_sub_cancel, A308655.P13792430651214392154.f2, A308655.P13792430651214392154.f1, A308655.P13792430651214392154.a, A308655.P3064422645470108956.f1, A308655.P3064422645470108956.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A033999, A033999.P17703899380244199787.a, A046933, A046933.P9479947770746769512.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A308655
 
@@ -3554,7 +3575,7 @@ end A308662.P4142906320711246118
 /-!
 # A308663: Partial sums of A097805.
 
-The programs for A308663, the canonical program `A308663.P15674035364685402174` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308663 has offset 0).
+The programs for A308663, the canonical program `A308663.P15674035364685402174` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308663 has offset 0).
 
 The definition of A308663 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3612,7 +3633,7 @@ end A308663
 
 `A163866(n)+1-a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A308663

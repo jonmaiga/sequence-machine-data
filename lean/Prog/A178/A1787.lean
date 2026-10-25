@@ -59,6 +59,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -72,7 +73,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -998,6 +998,32 @@ namespace A178710
 /-- `floor((8*4^(n+1)-14*(n+1)-8)/42)` -/
 def P2062877208271701051.Spec : Prop :=
   ∀ n, P2062877208271701051.a n = A178710 (n + 1)
+
+end A178710
+
+/-! ## A178710.P15425012233761508517
+
+`∑[floor((a(n-1)+4^n)/2)]` with `a(0)=0`
+-/
+
+namespace A178710.P15425012233761508517
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [0] fun n f1 =>
+  ⌊(f1 (n - 1) + (4 ^ n : ℤ) : ℚ) / 2⌋
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A178710.P15425012233761508517
+
+namespace A178710
+
+/-- `∑[floor((a(n-1)+4^n)/2)]` -/
+def P15425012233761508517.Spec : Prop :=
+  ∀ n, P15425012233761508517.a n = A178710 (n + 1)
 
 end A178710
 
@@ -5737,7 +5763,7 @@ end A178739
 /-!
 # A178740: Product of the 5th power of a prime (A050997) and a different prime (p^5*q).
 
-The programs for A178740, the canonical program `A178740.P18099758227574977995` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178740 has offset 1).
+The programs for A178740, the canonical program `A178740.P18099758227574977995` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178740 has offset 1).
 
 The definition of A178740 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5746,7 +5772,7 @@ The definition of A178740 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A079712(n+1), A082294(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A178740
@@ -8551,20 +8577,20 @@ end A178753.P16438466288650833355
 The programs for A178754, there is no canonical definition to state claims against.
 -/
 
-/-! ## A178754.P823237483031203710
+/-! ## A178754.P8973008137082777033
 
-`xor(n+1, floor(log2(n+1)))`
+`xor(1+n, floor(log2(n+1)))`
 -/
 
-namespace A178754.P823237483031203710
+namespace A178754.P8973008137082777033
 noncomputable section
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.xor (n + 1) (Nat.log 2 (n + 1))
+  Nat.xor (1 + n) (Nat.log 2 (n + 1))
 
 end
 
-end A178754.P823237483031203710
+end A178754.P8973008137082777033
 
 /-! ## A178754.P13602073925687333046
 
@@ -9067,6 +9093,12 @@ namespace A178759
 /-- `A036290(n)-A317404(n)` -/
 def P10151272791428987805.Spec : Prop :=
   ∀ n, P10151272791428987805.a n = A178759 n
+
+theorem P10151272791428987805.correct : P10151272791428987805.Spec := by
+  intro n
+  simp only [A178759, Nat.add_sub_cancel, A178759.P10151272791428987805.a, A178759.P8288006381962297201.a, A036290, A036290.P13464595081009669665.a, A317404, A317404.P15895309766879522071.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A178759
 

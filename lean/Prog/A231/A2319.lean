@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -41,7 +42,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -76,7 +77,12 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A231900: Omit the 1s from first differences of A084663.
@@ -234,20 +240,20 @@ end
 
 end A231901.P14747284662233816209
 
-/-! ## A231901.P6287054239753704643
+/-! ## A231901.P461672002757087005
 
-`A172133(n+1)+n`
+`A172133(1+n)+n`
 -/
 
-namespace A231901.P6287054239753704643
+namespace A231901.P461672002757087005
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A172133 (n + 1) + (n : ℤ)
+  A172133 (1 + n) + (n : ℤ)
 
 end
 
-end A231901.P6287054239753704643
+end A231901.P461672002757087005
 
 /-! ## A231901.P6979635923179686617
 
@@ -1009,7 +1015,7 @@ end A231916.P15634776362981340808
 
 The programs for A231919, the canonical program `A231919.P14365543587404789061` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231919 has offset 1).
 
-The definition of A231919 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A231919 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A231919.P14365543587404789061
@@ -2655,6 +2661,12 @@ namespace A231946
 /-- `∑[(A129283(n+1)-(n+1))^3]` -/
 def P7598400985994220180.Spec : Prop :=
   ∀ n, P7598400985994220180.a n = A231946 (n + 1)
+
+theorem P7598400985994220180.correct : P7598400985994220180.Spec := by
+  intro n
+  simp only [A231946, Nat.add_sub_cancel, A231946.P7598400985994220180.f1, A231946.P7598400985994220180.a, A231946.P13868030303102611269.f1, A231946.P13868030303102611269.a, A003415, A003415.P9326043729983995739.f1, A003415.P9326043729983995739.a, A129283, A129283.P3962818557550655141.a, A300251, A300251.P13750012435361977920.f1, A300251.P13750012435361977920.a, A007427, A007427.P16346481250890679101.f1, A007427.P16346481250890679101.a, A319684, A319684.P10446271486458079777.f1, A319684.P10446271486458079777.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A349394, A349394.P210516795435731064.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A231946
 

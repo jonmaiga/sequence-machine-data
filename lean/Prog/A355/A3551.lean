@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -43,7 +44,6 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -55,7 +55,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -82,6 +81,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A355100: E.g.f. A(x) satisfies A(x) = 1 + 2 * x * A(exp(x) - 1).
@@ -1341,7 +1344,7 @@ end A355138.P1840124184809535280
 
 The programs for A355140, the canonical program `A355140.P14893836911162377731` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355140 has offset 1).
 
-The definition of A355140 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A355140 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A355140.P14893836911162377731
@@ -1386,6 +1389,12 @@ namespace A355140
 /-- `round((n+1)/∏{e}[n+1, #+1])` -/
 def P1485181131064160105.Spec : Prop :=
   ∀ n, P1485181131064160105.a n = A355140 (n + 1)
+
+theorem P1485181131064160105.correct : P1485181131064160105.Spec := by
+  intro n
+  simp only [A355140, Nat.add_sub_cancel, A355140.P1485181131064160105.f1, A355140.P1485181131064160105.a, A355140.P14893836911162377731.a, A000005, A000005.P16091521709108585461.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A355140
 

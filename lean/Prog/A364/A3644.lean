@@ -57,14 +57,12 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -3781,6 +3779,72 @@ end
 
 end A364461.P2258215286455375806
 
+/-! ## A364461.P2212032641440218710
+
+`∪[A299702(n+1), A353438(A096788(n+1))]`
+-/
+
+namespace A364461.P2212032641440218710
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A299702 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A353438 (A096788 (n + 1)).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A364461.P2212032641440218710
+
+/-! ## A364461.P9040046107909648371
+
+`∪[A299702(n+1), A353438(A009188(3*n+1))]`
+-/
+
+namespace A364461.P9040046107909648371
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A299702 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A353438 (A009188 (3 * n + 1)).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A364461.P9040046107909648371
+
+/-! ## A364461.P17746248431313161986
+
+`∪[A249243(A125007(2*(n+2))), A299702(n+1)]`
+-/
+
+namespace A364461.P17746248431313161986
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A249243 (A125007 (2 * (n + 2))).toNat
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A299702 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A364461.P17746248431313161986
+
 /-! ## A364461.P4035538128876138002
 
 `lt[A141056(n), A118462(A028896(n))]`
@@ -6321,7 +6385,7 @@ end A364498.P7861855452833619672
 /-!
 # A364499: a(n) = A005940(n) - n.
 
-The programs for A364499, the canonical program `A364499.P16700739225751135008` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364499 has offset 1).
+The programs for A364499, the canonical program `A364499.P16700739225751135008` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364499 has offset 1).
 
 The definition of A364499 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005940, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6330,7 +6394,7 @@ The definition of A364499 is `conditional`: the Lean definition is an OEIS formu
 
 `A005940(n+1)-(n+1)`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A364499

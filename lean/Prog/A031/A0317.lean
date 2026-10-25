@@ -40,7 +40,7 @@ import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B009.C000
@@ -1670,6 +1670,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A031726.P10220577602091886587
+
+/-! ## A031726.P17904720279652729610
+
+`A008606(A008606((n+1)²))+n+1`
+-/
+
+namespace A031726.P17904720279652729610
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008606 (A008606 ((n + 1) ^ 2)).toNat + (n + 1 : ℤ)
+
+end
+
+end A031726.P17904720279652729610
 
 /-!
 # A031727: Numbers k such that the least term in the periodic part of the continued fraction for sqrt(k) is 49.

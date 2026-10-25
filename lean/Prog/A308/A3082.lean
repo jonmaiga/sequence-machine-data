@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -94,6 +95,11 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A308200: The tribonacci representation of a(n) is obtained by appending 0,0,0 to the tribonacci representation of n (cf. A278038).
@@ -123,6 +129,12 @@ namespace A308200
 /-- `A278041(n)-3` -/
 def P16763233676377746913.Spec : Prop :=
   ∀ n, P16763233676377746913.a n = A308200 n
+
+theorem P16763233676377746913.correct : P16763233676377746913.Spec := by
+  intro n
+  simp only [A308200, Nat.add_sub_cancel, A308200.P16763233676377746913.a, A308200.P11353778696816616322.a, A275925, A275925.P1014596103965212206.a, A278041, A278041.P13470193706674634785.a, A003146, A003146.P4319550854608353230.a, A003796, A003796.P430726989961333611.f1, A003796.P430726989961333611.f2, A003796.P430726989961333611.a, A056974, A056974.P14269005406388105579.a, A014082, A014082.P16446960074050354385.a, A035327, A035327.P258997810375859489.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A308200
 
@@ -169,6 +181,12 @@ namespace A308200
 /-- `A003146(n+1)-4` -/
 def P407028865104835232.Spec : Prop :=
   ∀ n, P407028865104835232.a n = A308200 n
+
+theorem P407028865104835232.correct : P407028865104835232.Spec := by
+  intro n
+  simp only [A308200, Nat.add_sub_cancel, A308200.P407028865104835232.a, A308200.P11353778696816616322.a, A003146, A003146.P4319550854608353230.a, A275925, A275925.P1014596103965212206.a, A003796, A003796.P430726989961333611.f1, A003796.P430726989961333611.f2, A003796.P430726989961333611.a, A056974, A056974.P14269005406388105579.a, A014082, A014082.P16446960074050354385.a, A035327, A035327.P258997810375859489.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A308200
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -50,7 +51,6 @@ import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -78,6 +78,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A371300: Triangle read by rows: Riordan array (1/(1 - x), (1 + x)/(1 - x - x^2)).
@@ -1070,6 +1074,32 @@ theorem P4954341584235417044.correct : P4954341584235417044.Spec := by
 
 end A371355
 
+/-! ## A371355.P8084261716394023062
+
+`round(sqrt(∑[n%2]))`
+-/
+
+namespace A371355.P8084261716394023062
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n % 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway (Real.sqrt ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℝ))
+
+end
+
+end A371355.P8084261716394023062
+
+namespace A371355
+
+/-- `round(sqrt(∑[n%2]))` -/
+def P8084261716394023062.Spec : Prop :=
+  ∀ n, P8084261716394023062.a n = A371355 (n + 1)
+
+end A371355
+
 /-! ## A371355.P9291854395557800300
 
 `∑[char[xor(1, ∑[4*n])]]`
@@ -1547,29 +1577,6 @@ namespace A371355
 /-- `round(sqrt(A004526(n+1)))` -/
 def P11236226578083650520.Spec : Prop :=
   ∀ n, P11236226578083650520.a n = A371355 (n + 1)
-
-end A371355
-
-/-! ## A371355.P85959885344355112
-
-`round(sqrt(A123108(n+1)))`
--/
-
-namespace A371355.P85959885344355112
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway (Real.sqrt (A123108 (n + 1) : ℝ))
-
-end
-
-end A371355.P85959885344355112
-
-namespace A371355
-
-/-- `round(sqrt(A123108(n+1)))` -/
-def P85959885344355112.Spec : Prop :=
-  ∀ n, P85959885344355112.a n = A371355 (n + 1)
 
 end A371355
 
@@ -3139,6 +3146,12 @@ namespace A371388
 def P11595969549885262334.Spec : Prop :=
   ∀ n, P11595969549885262334.a n = A371388 (n + 1)
 
+theorem P11595969549885262334.correct : P11595969549885262334.Spec := by
+  intro n
+  simp only [A371388, Nat.add_sub_cancel, A371388.P11595969549885262334.a, A371388.P12283048043086054537.a, A050140, A050140.P425220450931223841.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A371388
 
 /-! ## A371388.P2321869611518588435
@@ -3162,6 +3175,12 @@ namespace A371388
 def P2321869611518588435.Spec : Prop :=
   ∀ n, P2321869611518588435.a n = A371388 (n + 1)
 
+theorem P2321869611518588435.correct : P2321869611518588435.Spec := by
+  intro n
+  simp only [A371388, Nat.add_sub_cancel, A371388.P2321869611518588435.a, A371388.P12283048043086054537.a, A284625, A284625.P40886296300427175.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A371388
 
 /-! ## A371388.P1211277397652015998
@@ -3184,6 +3203,12 @@ namespace A371388
 /-- `(n+1)*(A075317(n+1)-n)` -/
 def P1211277397652015998.Spec : Prop :=
   ∀ n, P1211277397652015998.a n = A371388 (n + 1)
+
+theorem P1211277397652015998.correct : P1211277397652015998.Spec := by
+  intro n
+  simp only [A371388, Nat.add_sub_cancel, A371388.P1211277397652015998.a, A371388.P12283048043086054537.a, A075317, A075317.P11695724334803457321.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A371388
 

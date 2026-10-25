@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -57,7 +58,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -66,7 +66,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -94,6 +93,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A346700: Sum of the even bisection (even-indexed parts) of the integer partition with Heinz number n.
@@ -165,6 +168,12 @@ namespace A346700
 /-- `A346699(n+1)-A344616(n+1)` -/
 def P3931347100155277776.Spec : Prop :=
   ∀ n, P3931347100155277776.a n = A346700 (n + 1)
+
+theorem P3931347100155277776.correct : P3931347100155277776.Spec := by
+  intro n
+  simp only [A346700, Nat.add_sub_cancel, A346700.P3931347100155277776.a, A346700.P4096194174196843212.a, A056239, A056239.P11316688788989965672.a, A329888, A329888.P17015609551114416596.a, A344616, A344616.P9154132711565358048.a, A346699, A346699.P1782263105001668285.a, A052126, A052126.P1944428405920482243.a, A122111, A122111.P18124015185857335041.a, A156552, A156552.P4268073137713085227.a, A161511, A161511.P16266007976091900386.a, A257991, A257991.P9003885035180655311.f1, A257991.P9003885035180655311.a, A000720, A000720.P1755771944745605250.f2, A000720.P1755771944745605250.f1, A000720.P1755771944745605250.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A006530, A006530.P13372528560459906635.a, A014963, A014963.P5975177236000282614.a, A048896, A048896.P6461019053085857547.a, A064989, A064989.P13349672914146769936.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, A008578, A008578.P3639467937083264764.a, A048881, A048881.P16567064232951496228.a, A061395, A061395.P8431317036300486107.a, A070229, A070229.P5792893597916963980.a, A166140, A166140.P17649384582351937107.f1, A166140.P17649384582351937107.a, A166142, A166142.P10122674445425206392.f1, A166142.P10122674445425206392.a, A364557, A364557.P16113127302810243144.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A346700
 
@@ -1826,6 +1835,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A346724.P3333418612061470173
+
+/-! ## A346724.P3413176244469096942
+
+`A158948(A000217(2*n+3))*A346725(n+1)`
+-/
+
+namespace A346724.P3413176244469096942
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A158948 (A000217 (2 * n + 3)).toNat * A346725 (n + 1)
+
+end
+
+end A346724.P3413176244469096942
 
 /-! ## A346724.P14248638236968074949
 
@@ -3997,6 +4021,12 @@ namespace A346758
 def P10491598223783506206.Spec : Prop :=
   ∀ n, P10491598223783506206.a n = A346758 (n + 1)
 
+theorem P10491598223783506206.correct : P10491598223783506206.Spec := by
+  intro n
+  simp only [A346758, Nat.add_sub_cancel, A346758.P10491598223783506206.a, A346758.P5593687607366056961.f1, A346758.P5593687607366056961.f2, A346758.P5593687607366056961.a, A007438, A007438.P10356689231106603491.a, A123323, A123323.P8887875192151149646.a, A000010, A000010.P4673923239450215316.a, A007434, A007434.P3432859153295839493.a, A001615, A001615.P12078511981713404634.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A346758
 
 /-! ## A346758.P12034090882321925658
@@ -4443,7 +4473,7 @@ end A346759
 /-!
 # A346760: a(n) = Sum_{d|n} mu(n/d) * binomial(d,3).
 
-The programs for A346760, the canonical program `A346760.P5222044433833628232` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A346760 has offset 1).
+The programs for A346760, the canonical program `A346760.P5222044433833628232` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A346760 has offset 1).
 
 The definition of A346760 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A007434, A059376, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4452,7 +4482,7 @@ The definition of A346760 is `conditional`: the Lean definition is an OEIS formu
 
 `(A059376(n+1)-3*A007434(n+1)+2*A000010(n+1))/6`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A346760
@@ -4918,7 +4948,7 @@ end A346760
 /-!
 # A346761: a(n) = Sum_{d|n} mu(n/d) * binomial(d,4).
 
-The programs for A346761, the canonical program `A346761.P16965742112610444180` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A346761 has offset 1).
+The programs for A346761, the canonical program `A346761.P16965742112610444180` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A346761 has offset 1).
 
 The definition of A346761 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A007434, A059376, A059377, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4927,7 +4957,7 @@ The definition of A346761 is `conditional`: the Lean definition is an OEIS formu
 
 `(A059377(n+1)-6*A059376(n+1)+11*A007434(n+1)-6*A000010(n+1))/24`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A346761

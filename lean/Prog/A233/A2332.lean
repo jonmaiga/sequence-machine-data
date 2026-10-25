@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -70,6 +71,7 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -96,6 +98,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A233200: Number of n X 6 0..7 arrays with no element x(i,j) adjacent to itself or value 7-x(i,j) horizontally, antidiagonally or vertically, top left element zero, and 1 appearing before 2 3 4 5 and 6, 2 appearing before 3 4 and 5, and 3 appearing before 4 in row major order (unlabelled 8-colorings with no clashing color pairs).
@@ -7009,6 +7015,12 @@ namespace A233279
 def P13303159874827720143.Spec : Prop :=
   ∀ n, P13303159874827720143.a n = A233279 n
 
+theorem P13303159874827720143.correct : P13303159874827720143.Spec := by
+  intro n
+  simp only [A233279, Nat.add_sub_cancel, A233279.P13303159874827720143.a, A233279.P10877154597455539139.a, A006068, A006068.P16534033749009019403.a, A038558, A038558.P636742692231698886.a, A053644, A053644.P1707366427427647095.a, A063946, A063946.P14831572246508618093.a, A010060, A010060.P3080921269106500717.a, A265263, A265263.P13560857298709796040.a, A377404, A377404.P15784403255783113757.a, A000035, A000035.P2023072528413494694.a, A000120, A000120.P2816527436160941581.a, A066194, A066194.P17197319264784136366.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A233279
 
 /-! ## A233279.P15350885639292355204
@@ -8574,6 +8586,12 @@ namespace A233285
 /-- `A233286(n+1)+1` -/
 def P7542126282886383589.Spec : Prop :=
   ∀ n, P7542126282886383589.a n = A233285 (n + 1)
+
+theorem P7542126282886383589.correct : P7542126282886383589.Spec := by
+  intro n
+  simp only [A233285, Nat.add_sub_cancel, A233285.P7542126282886383589.a, A233285.P7127810014733158196.a, A000045, A000045.P11838749114346432762.a, A055881, A055881.P16218723346386416985.f1, A055881.P16218723346386416985.a, A233286, A233286.P14086924426959048452.a, A012245, A012245.P11587607485183547821.a, A048764, A048764.P13822497594214245123.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A233285
 

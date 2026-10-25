@@ -22,7 +22,6 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -55,12 +54,12 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -2568,6 +2567,21 @@ end
 
 end A331933.P12866203847140628615
 
+/-! ## A331933.P11671740437906906718
+
+`A354912(or(A000045(n), A125999(2*n)))`
+-/
+
+namespace A331933.P11671740437906906718
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354912 (Int.lor (A000045 n) (A125999 (2 * n))).toNat
+
+end
+
+end A331933.P11671740437906906718
+
 /-! ## A331933.P7672385907206860326
 
 `A354912(or(A088534(2*n), A107358(n)))`
@@ -2597,21 +2611,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A331933.P4166118029285148775
-
-/-! ## A331933.P10079978258837783331
-
-`A122156(A294811(n+1))`
--/
-
-namespace A331933.P10079978258837783331
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122156 (A294811 (n + 1)).toNat
-
-end
-
-end A331933.P10079978258837783331
 
 /-!
 # A331934: Number of semi-lone-child-avoiding rooted trees with n unlabeled vertices.
@@ -7374,6 +7373,24 @@ end
 
 end A331989.P11531342723514896408
 
+/-! ## A331989.P3326200811771204495
+
+`∑[A185126(A212389(n))]`
+-/
+
+namespace A331989.P3326200811771204495
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A185126 (A212389 n).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A331989.P3326200811771204495
+
 /-! ## A331989.P8411455809910117602
 
 `record[∑[A053119(A005134(n))]]`
@@ -7409,27 +7426,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A331989.P14150403652289529429
-
-/-! ## A331989.P240170128640024241
-
-`lt[A049708(A249817(n+4)), A201271(3*(n+1))]`
--/
-
-namespace A331989.P240170128640024241
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049708 (A249817 (n + 4)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A201271 (3 * (n + 1))
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A331989.P240170128640024241
 
 /-!
 # A331990: Balanced ternary expansion of e.
@@ -8434,6 +8430,12 @@ namespace A331999
 def P1182566016163148483.Spec : Prop :=
   ∀ n, P1182566016163148483.a n = A331999 (n + 1)
 
+theorem P1182566016163148483.correct : P1182566016163148483.Spec := by
+  intro n
+  simp only [A331999, Nat.add_sub_cancel, A331999.P1182566016163148483.a, A331999.P3156831626282684287.a, A002808, A002808.P8130888830651501259.f1, A002808.P8130888830651501259.f2, A002808.P8130888830651501259.a, A033286, A033286.P2794343547372572705.a, A067563, A067563.P8241945958915333115.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A082023, A082023.P820682903743471019.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A331999
 
 /-! ## A331999.P14549032683931668470
@@ -8456,6 +8458,12 @@ namespace A331999
 /-- `A000040(n+1)*A071228(n+1)` -/
 def P14549032683931668470.Spec : Prop :=
   ∀ n, P14549032683931668470.a n = A331999 (n + 1)
+
+theorem P14549032683931668470.correct : P14549032683931668470.Spec := by
+  intro n
+  simp only [A331999, Nat.add_sub_cancel, A331999.P14549032683931668470.a, A331999.P3156831626282684287.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A067563, A067563.P8241945958915333115.a, A071228, A071228.P4535194681487630780.a, A002808, A002808.P8130888830651501259.f1, A002808.P8130888830651501259.f2, A002808.P8130888830651501259.a, A082023, A082023.P820682903743471019.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A331999
 

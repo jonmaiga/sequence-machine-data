@@ -49,15 +49,14 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B007.C000
 import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -2151,6 +2150,24 @@ end
 
 end A393164.P12995452912197029753
 
+/-! ## A393164.P9651028745448368351
+
+`gcd(Δ[A158911(n+1)], A093136(n))`
+-/
+
+namespace A393164.P9651028745448368351
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A158911 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (f1 (n + 1) - f1 n) (A093136 n)
+
+end
+
+end A393164.P9651028745448368351
+
 /-! ## A393164.P17762158621827237322
 
 `A132741(A164768(n+1))`
@@ -2680,20 +2697,20 @@ end
 
 end A393179.P17312363199725377100
 
-/-! ## A393179.P9679356267873628889
+/-! ## A393179.P1653362414951913432
 
-`A067004(A000079(n))%A038507(n)`
+`A067004(A000079(n))%A002011(n)`
 -/
 
-namespace A393179.P9679356267873628889
+namespace A393179.P1653362414951913432
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A067004 (A000079 n).toNat) (A038507 n)
+  Int.tmod (A067004 (A000079 n).toNat) (A002011 n)
 
 end
 
-end A393179.P9679356267873628889
+end A393179.P1653362414951913432
 
 /-! ## A393179.P13035073588422339987
 

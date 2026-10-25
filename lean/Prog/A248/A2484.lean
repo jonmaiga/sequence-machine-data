@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -63,6 +64,7 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -89,6 +91,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A248400: Noncongruent squarefree numbers n with A248394(n)/d(n) = -2, where d(n) = A000005(n).
@@ -7381,6 +7387,12 @@ namespace A248469
 /-- `A032634(2*(n+1)²)` -/
 def P2651236901210135969.Spec : Prop :=
   ∀ n, P2651236901210135969.a n = A248469 (n + 1)
+
+theorem P2651236901210135969.correct : P2651236901210135969.Spec := by
+  intro n
+  simp only [A248469, Nat.add_sub_cancel, A248469.P2651236901210135969.a, A248469.P8103976245482802455.a, A032634, A032634.P6588867285997603959.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A248469
 

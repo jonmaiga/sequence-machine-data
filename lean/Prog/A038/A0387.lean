@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -71,6 +72,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -97,8 +99,13 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A038700: Smallest prime == -1 (mod n).
@@ -12090,6 +12097,12 @@ namespace A038759
 def P4767493740629117195.Spec : Prop :=
   ∀ n, P4767493740629117195.a n = A038759 n
 
+theorem P4767493740629117195.correct : P4767493740629117195.Spec := by
+  intro n
+  simp only [A038759, Nat.add_sub_cancel, A038759.P4767493740629117195.a, A038759.P4328138862900684480.a, A038760, A038760.P7627672833818385301.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A038759
 
 /-! ## A038759.P9632657300733059680
@@ -12112,6 +12125,12 @@ namespace A038759
 /-- `A174803(n)-n` -/
 def P9632657300733059680.Spec : Prop :=
   ∀ n, P9632657300733059680.a n = A038759 n
+
+theorem P9632657300733059680.correct : P9632657300733059680.Spec := by
+  intro n
+  simp only [A038759, Nat.add_sub_cancel, A038759.P9632657300733059680.a, A038759.P4328138862900684480.a, A174803, A174803.P17565562458744675628.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A038759
 

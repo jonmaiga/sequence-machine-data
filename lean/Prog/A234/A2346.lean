@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -54,7 +55,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -80,6 +81,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A234600: Denominators of the expectation of the process defined by randomly moving 2n balls between bins.
@@ -2495,6 +2500,12 @@ namespace A234646
 /-- `A008472(n+1)+A005070((1-n)²+n)` -/
 def P9359456019126972242.Spec : Prop :=
   ∀ n, P9359456019126972242.a n = A234646 n
+
+theorem P9359456019126972242.correct : P9359456019126972242.Spec := by
+  intro n
+  simp only [A234646, Nat.add_sub_cancel, A234646.P9359456019126972242.a, A234646.P14047031751974978695.f1, A234646.P14047031751974978695.a, A005070, A005070.P10126547095800783810.f1, A005070.P10126547095800783810.a, A008472, A008472.P6567490011312877583.f1, A008472.P6567490011312877583.a, A080029, A080029.P10167826981226000952.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A234646
 

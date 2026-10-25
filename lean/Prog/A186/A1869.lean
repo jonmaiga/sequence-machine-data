@@ -56,7 +56,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
+import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
@@ -78,6 +78,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -3407,6 +3408,12 @@ namespace A186947
 /-- `(A186942(n)+1)/2` -/
 def P15820721593107584851.Spec : Prop :=
   ∀ n, P15820721593107584851.a n = (A186947 n : ℚ)
+
+theorem P15820721593107584851.correct : P15820721593107584851.Spec := by
+  intro n
+  simp only [A186947, Nat.add_sub_cancel, A186947.P15820721593107584851.a, A186947.P15025992436456129492.a, A186942, A186942.P17418210838155715363.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A186947
 
@@ -7121,7 +7128,7 @@ end A186993.P15503255135707971428
 /-!
 # A186994: Number of maximum subsets of {1, 2, ..., n} containing n and having pairwise coprime elements.
 
-The programs for A186994, the canonical program `A186994.P7214231733505960877` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186994 has offset 1).
+The programs for A186994, the canonical program `A186994.P7214231733505960877` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186994 has offset 1).
 
 The definition of A186994 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 126 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7286,7 +7293,7 @@ end A186994
 
 `A000005(A038610(n+1)/A066838(n+1))`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A186994

@@ -45,6 +45,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -1707,6 +1708,42 @@ namespace A012245
 /-- `Δ[dr(∑[char[n!]])]` -/
 def P13071026786039334767.Spec : Prop :=
   ∀ n, P13071026786039334767.a n = A012245 (n + 1)
+
+end A012245
+
+/-! ## A012245.P587247242383688197
+
+`Δ[dr(∑[char[∏[n+1]]])]`
+-/
+
+namespace A012245.P587247242383688197
+noncomputable section
+
+def f4 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∏ j ∈ Finset.range (n + 1), f4 j
+
+open Classical in
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f3 j = n then 1 else 0
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.digitalRoot ((∑ j ∈ Finset.range (n + 1), f2 j : ℕ) : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (f1 (n + 1) : ℤ) - (f1 n : ℤ)
+
+end
+
+end A012245.P587247242383688197
+
+namespace A012245
+
+/-- `Δ[dr(∑[char[∏[n+1]]])]` -/
+def P587247242383688197.Spec : Prop :=
+  ∀ n, P587247242383688197.a n = A012245 (n + 1)
 
 end A012245
 

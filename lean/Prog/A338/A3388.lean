@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -50,6 +51,7 @@ import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -90,6 +92,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A338803: Product of the nonzero digits of (n written in base 5).
@@ -2242,6 +2248,27 @@ end A338828.P11894940379108913908
 The programs for A338829, there is no canonical definition to state claims against.
 -/
 
+/-! ## A338829.P6134927189236342381
+
+`lt[A377191(A342851(n+1)), 1]`
+-/
+
+namespace A338829.P6134927189236342381
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A377191 (A342851 (n + 1)).toNat
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n
+
+end
+
+end A338829.P6134927189236342381
+
 /-! ## A338829.P13982136726540711548
 
 `lt[A110723(n), A273059(3*n+4)]`
@@ -2326,21 +2353,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A338829.P12991814223958933740
-
-/-! ## A338829.P16345892405591362551
-
-`A118759(A002113(n+1)-A053392(n))`
--/
-
-namespace A338829.P16345892405591362551
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A118759 (A002113 (n + 1) - A053392 n).toNat
-
-end
-
-end A338829.P16345892405591362551
 
 /-!
 # A338830: a(n) is the greatest number not yet in the sequence with the same number of digits and the same largest digit as n.
@@ -2678,20 +2690,20 @@ end
 
 end A338838.P10536127448926981966
 
-/-! ## A338838.P755790964065696065
+/-! ## A338838.P7158787745632321121
 
-`A338849(n)%A007970(A052335(n))`
+`A338849(A000005(ceil(2^(n-1))))`
 -/
 
-namespace A338838.P755790964065696065
+namespace A338838.P7158787745632321121
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A338849 n) (A007970 (A052335 n).toNat)
+  A338849 (A000005 ⌈(2 : ℚ) ^ ((n : ℤ) - 1 : ℤ)⌉.toNat).toNat
 
 end
 
-end A338838.P755790964065696065
+end A338838.P7158787745632321121
 
 /-!
 # A338847: Number of compositions (ordered partitions) of n into distinct decimal palindromes.
@@ -6982,6 +6994,12 @@ namespace A338894
 /-- `A132345((n+1)²)+A120486((n+1)²)` -/
 def P15025282579647460586.Spec : Prop :=
   ∀ n, P15025282579647460586.a n = A338894 (n + 1)
+
+theorem P15025282579647460586.correct : P15025282579647460586.Spec := by
+  intro n
+  simp only [A338894, Nat.add_sub_cancel, A338894.P15025282579647460586.a, A338894.P18059410456497600823.a, A120486, A120486.P15640467166856276779.f2, A120486.P15640467166856276779.f1, A120486.P15640467166856276779.a, A132188, A132188.P7469144520474104274.a, A132345, A132345.P9558372219206818084.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A338894
 

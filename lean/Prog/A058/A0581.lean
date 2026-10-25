@@ -40,10 +40,11 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
@@ -1240,6 +1241,29 @@ namespace A058126
 /-- `abs(n^gcd(2, 4*n)-n^n)` -/
 def P9706295723217835733.Spec : Prop :=
   ∀ n, P9706295723217835733.a n = A058126 n
+
+end A058126
+
+/-! ## A058126.P18420827299779937856
+
+`abs(n²-A000312(n))`
+-/
+
+namespace A058126.P18420827299779937856
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |(n ^ 2 : ℤ) - A000312 n|
+
+end
+
+end A058126.P18420827299779937856
+
+namespace A058126
+
+/-- `abs(n²-A000312(n))` -/
+def P18420827299779937856.Spec : Prop :=
+  ∀ n, P18420827299779937856.a n = A058126 n
 
 end A058126
 
@@ -4410,6 +4434,12 @@ namespace A058183
 /-- `A004216(n+1)+a(n-1)+1` -/
 def P17045309155388705453.Spec : Prop :=
   ∀ n, P17045309155388705453.a n = A058183 (n + 1)
+
+theorem P17045309155388705453.correct : P17045309155388705453.Spec := by
+  intro n
+  simp only [A058183, Nat.add_sub_cancel, A058183.P17045309155388705453.a, A058183.P4906920629226833825.a, A004216, A004216.P11701108540860389608.a, A055642, A055642.P4465932992276854035.f1, A055642.P4465932992276854035.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A058183
 

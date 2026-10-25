@@ -12279,20 +12279,26 @@ end
 
 end A025698.P5915773026408565221
 
-/-! ## A025698.P4534437970312055744
+/-! ## A025698.P4962268592615808742
 
-`A247781(A247908(A247780((n+1)²)))`
+`∑[A229803(∑[A001221(2*n+3)])]`
 -/
 
-namespace A025698.P4534437970312055744
+namespace A025698.P4962268592615808742
 noncomputable section
 
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001221 (2 * n + 3)
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A229803 (∑ j ∈ Finset.range (n + 1), f2 j).toNat
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A247781 (A247908 (A247780 ((n + 1) ^ 2)).toNat).toNat
+  ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A025698.P4534437970312055744
+end A025698.P4962268592615808742
 
 /-!
 # A025699: Index of 3^n within the sequence of the numbers of the form 3^i*8^j (A025615).

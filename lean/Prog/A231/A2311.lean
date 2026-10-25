@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -49,14 +50,16 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C001
+import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -85,6 +88,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A231100: Even legs of primitive Pythagorean triples (with multiplicity) sorted with respect to increasing hypotenuse.
@@ -3923,6 +3930,12 @@ namespace A231149
 /-- `A231151(n+2)-1` -/
 def P17207264987088297151.Spec : Prop :=
   ∀ n, P17207264987088297151.a n = A231149 (n + 2)
+
+theorem P17207264987088297151.correct : P17207264987088297151.Spec := by
+  intro n
+  simp only [A231149, Nat.add_sub_cancel, A231149.P17207264987088297151.a, A231149.P4309562839319924533.a, A231151, A231151.P17080161268396402534.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A231149
 

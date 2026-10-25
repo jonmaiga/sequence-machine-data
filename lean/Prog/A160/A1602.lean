@@ -57,7 +57,6 @@ import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
-import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
@@ -2961,7 +2960,7 @@ end A160243
 
 The programs for A160244, the canonical program `A160244.P2442629381192183432` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160244 has offset 1).
 
-The definition of A160244 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A160244 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A160244.P2442629381192183432
@@ -4165,7 +4164,7 @@ end A160272.P12654145459560079263
 /-!
 # A160273: Successive differences (divided by 3) of the average of twin prime pairs divided by 2 (A040040).
 
-The programs for A160273, the canonical program `A160273.P2420458124321654118` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160273 has offset 1).
+The programs for A160273, the canonical program `A160273.P2420458124321654118` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160273 has offset 1).
 
 The definition of A160273 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4223,7 +4222,7 @@ end A160273
 
 `A008615(A053319(n+2))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A160273
@@ -4261,6 +4260,12 @@ namespace A160273
 /-- `A008615(Δ[A001359(n+2)])` -/
 def P7570399574371517736.Spec : Prop :=
   ∀ n, P7570399574371517736.a n = A160273 (n + 1)
+
+theorem P7570399574371517736.correct : P7570399574371517736.Spec := by
+  intro n
+  simp only [A160273, Nat.add_sub_cancel, A160273.P7570399574371517736.f1, A160273.P7570399574371517736.a, A160273.P2420458124321654118.a, A001359, A001359.P8865495035699438537.a, A008615, A008615.P10410393553474300613.a, A053319, A053319.P1938654990887452238.f1, A053319.P1938654990887452238.a, A077800, A077800.P16009445446139691322.a, A096281, A096281.P9870488552655544131.a, A008619, A008619.P16053834178911111118.a, A014574, A014574.P4587706211531852143.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A160273
 

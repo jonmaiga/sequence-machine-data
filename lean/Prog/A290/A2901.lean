@@ -587,7 +587,7 @@ end A290105.P2614474555050471331
 /-!
 # A290106: a(1) = 1; for n > 1, if n = Product prime(k)^e(k), then a(n) = Product (k)^(e(k)-1).
 
-The programs for A290106, the canonical program `A290106.P12749971107555885401` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290106 has offset 1).
+The programs for A290106, the canonical program `A290106.P12749971107555885401` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290106 has offset 1).
 
 The definition of A290106 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003963, A156061, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -642,7 +642,7 @@ end A290106
 
 `A003963(n+1)/A156061(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A290106
@@ -826,7 +826,7 @@ end A290106
 /-!
 # A290107: a(1) = 1; for n > 1, a(n) = product of distinct exponents in the prime factorization of n.
 
-The programs for A290107, the canonical program `A290107.P16586556878278965706` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290107 has offset 1).
+The programs for A290107, the canonical program `A290107.P16586556878278965706` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290107 has offset 1).
 
 The definition of A290107 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A156061, A181819, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -835,7 +835,7 @@ The definition of A290107 is `conditional`: the Lean definition is an OEIS formu
 
 `A156061(A181819(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A290107
@@ -1655,6 +1655,12 @@ namespace A290111
 /-- `A290070(n)+A000035(n)` -/
 def P3541658330544205481.Spec : Prop :=
   ∀ n, P3541658330544205481.a n = A290111 n
+
+theorem P3541658330544205481.correct : P3541658330544205481.Spec := by
+  intro n
+  simp only [A290111, Nat.add_sub_cancel, A290111.P3541658330544205481.a, A290111.P2110808048869985043.f1, A290111.P2110808048869985043.a, A000035, A000035.P2023072528413494694.a, A290070, A290070.P6745444455141305829.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A290111
 
@@ -5814,6 +5820,29 @@ namespace A290168
 /-- `n/2*∑[n*∑[(-1)^n]]` -/
 def P7105313999389370666.Spec : Prop :=
   ∀ n, P7105313999389370666.a n = (A290168 n : ℚ)
+
+end A290168
+
+/-! ## A290168.P18265153709694200347
+
+`n*A110660(n)/2`
+-/
+
+namespace A290168.P18265153709694200347
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n : ℤ) * A110660 n : ℚ) / 2
+
+end
+
+end A290168.P18265153709694200347
+
+namespace A290168
+
+/-- `n*A110660(n)/2` -/
+def P18265153709694200347.Spec : Prop :=
+  ∀ n, P18265153709694200347.a n = (A290168 n : ℚ)
 
 end A290168
 

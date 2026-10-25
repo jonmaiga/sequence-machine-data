@@ -71,7 +71,6 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -3051,7 +3050,7 @@ end A007147
 /-!
 # A007148: Number of self-complementary 2-colored bracelets (turnover necklaces) with 2n beads.
 
-The programs for A007148, the canonical program `A007148.P13473997143567085578` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007148 has offset 1).
+The programs for A007148, the canonical program `A007148.P13473997143567085578` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007148 has offset 1).
 
 The definition of A007148 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000013, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3060,7 +3059,7 @@ The definition of A007148 is `conditional`: the Lean definition is an OEIS formu
 
 `1/2*(A000079(n)+A000013(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A007148

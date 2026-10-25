@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -56,10 +57,10 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -89,6 +90,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A000600: Number of tertiary alcohols (alkanols or alkyl alcohols C_n H_{2n+1} OH) with n carbon atoms.
@@ -427,6 +432,12 @@ namespace A000601
 def P3279042868890985737.Spec : Prop :=
   ∀ n, P3279042868890985737.a n = A000601 n
 
+theorem P3279042868890985737.correct : P3279042868890985737.Spec := by
+  intro n
+  simp only [A000601, Nat.add_sub_cancel, A000601.P3279042868890985737.a, A000601.P3823143030787112736.a, A091773, A091773.P6565989770376659951.a, A256309, A256309.P8235850906625870393.a, A002621, A002621.P12362321889656928583.a, A069906, A069906.P3213861137805963780.f1, A069906.P3213861137805963780.a, A026810, A026810.P8500249767737753929.a, A026811, A026811.P6823680176287512686.f1, A026811.P6823680176287512686.a, A142150, A142150.P17187063318547882225.a, A001400, A001400.P17105359062635275807.a, A008667, A008667.P1446437464412478859.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A000601
 
 /-! ## A000601.P13540383424653937330
@@ -518,6 +529,12 @@ namespace A000601
 /-- `A301739(n+4)-A005993(n)` -/
 def P16069195606774430457.Spec : Prop :=
   ∀ n, P16069195606774430457.a n = A000601 n
+
+theorem P16069195606774430457.correct : P16069195606774430457.Spec := by
+  intro n
+  simp only [A000601, Nat.add_sub_cancel, A000601.P16069195606774430457.a, A000601.P3823143030787112736.a, A005993, A005993.P1030123146035920100.a, A301739, A301739.P2807132835622847976.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A000601
 

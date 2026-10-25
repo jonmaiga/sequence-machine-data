@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -35,7 +36,6 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
@@ -50,6 +50,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -58,7 +59,8 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
+import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -84,6 +86,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A391600: a(n) = Sum_{k=0..floor((2*n+1)/3)} binomial(2*k+1,2*n-3*k+1).
@@ -408,6 +414,24 @@ end A391609.P4440598082237861837
 The programs for A391613, there is no canonical definition to state claims against.
 -/
 
+/-! ## A391613.P10785240252664175128
+
+`A063962(record[A304533(n)+1])`
+-/
+
+namespace A391613.P10785240252664175128
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A304533 n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A063962 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)).toNat
+
+end
+
+end A391613.P10785240252664175128
+
 /-! ## A391613.P11416905101536820881
 
 `A062756(A293185(n+1)%A014597(n+1))`
@@ -467,21 +491,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A391613.P9120445186202859897
-
-/-! ## A391613.P5956593511940861863
-
-`A366988(A249565(n+1))`
--/
-
-namespace A391613.P5956593511940861863
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A366988 (A249565 (n + 1)).toNat
-
-end
-
-end A391613.P5956593511940861863
 
 /-!
 # A391614: a(4n) = a(2n+a(n)), a(4n+2) = a(2n+1-a(n)) and a(2n+1) = 1-a(2n), with a(0) = 0.
@@ -2047,6 +2056,24 @@ end
 
 end A391625.P3103806936177498280
 
+/-! ## A391625.P16234337851413960528
+
+`∏{p}[A000583(A057723(n+1)), #]`
+-/
+
+namespace A391625.P16234337851413960528
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000583 (A057723 (n + 1)).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, p
+
+end
+
+end A391625.P16234337851413960528
+
 /-! ## A391625.P17596242866785787727
 
 `A007947(A057723(A285769(n+1))²)`
@@ -2061,21 +2088,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A391625.P17596242866785787727
-
-/-! ## A391625.P1326750383776850091
-
-`A007947(A285769(A285769(A057723(n+1))))`
--/
-
-namespace A391625.P1326750383776850091
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007947 (A285769 (A285769 (A057723 (n + 1)).toNat).toNat).toNat
-
-end
-
-end A391625.P1326750383776850091
 
 /-!
 # A391626: Numbers k such that the k-th composition in standard order is the first sums of some composition into parts > 1.
@@ -2447,6 +2459,21 @@ end A391633.P8606561576617258008
 The programs for A391635, there is no canonical definition to state claims against.
 -/
 
+/-! ## A391635.P14510574365872834490
+
+`(n-C(round(sqrt(2*(n+1))), 2))!*A193685(n)`
+-/
+
+namespace A391635.P14510574365872834490
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial ((n : ℤ) - (Nat.choose (SequenceMachineLib.roundAway (Real.sqrt (2 * (n + 1) : ℝ))).toNat 2 : ℤ)).toNat : ℤ) * A193685 n
+
+end
+
+end A391635.P14510574365872834490
+
 /-! ## A391635.P3442427487195944840
 
 `A193685(n)*A233543(n)`
@@ -2476,21 +2503,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A391635.P9639776369910258474
-
-/-! ## A391635.P2837942894650892702
-
-`A083896(A007691(n+1))+A038243(n)`
--/
-
-namespace A391635.P2837942894650892702
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A083896 (A007691 (n + 1)).toNat + A038243 n
-
-end
-
-end A391635.P2837942894650892702
 
 /-!
 # A391637: Partial sums of A094345.
@@ -5123,6 +5135,12 @@ namespace A391683
 def P5928869982788351384.Spec : Prop :=
   ∀ n, P5928869982788351384.a n = A391683 (n + 1)
 
+theorem P5928869982788351384.correct : P5928869982788351384.Spec := by
+  intro n
+  simp only [A391683, Nat.add_sub_cancel, A391683.P5928869982788351384.a, A391683.P9562436176935939481.a, A063759, A063759.P13169766541335737416.a, A164001, A164001.P3609606338369027636.a, A212804, A212804.P11720252403142705008.a, A391681, A391681.P12481092097052240636.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A391683
 
 /-! ## A391683.P3308236720316583558
@@ -5794,6 +5812,21 @@ end A391687.P6710977991412505536
 The programs for A391688, there is no canonical definition to state claims against.
 -/
 
+/-! ## A391688.P8949333738787967860
+
+`A070548(xor(A050337(n+1), A298189(n+1)))`
+-/
+
+namespace A391688.P8949333738787967860
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A070548 (Int.xor (A050337 (n + 1)) (A298189 (n + 1))).toNat
+
+end
+
+end A391688.P8949333738787967860
+
 /-! ## A391688.P3082430085165141444
 
 `A154447(A047781(n))+1`
@@ -5808,21 +5841,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A391688.P3082430085165141444
-
-/-! ## A391688.P15381702337578585998
-
-`A100949(A000085(n)*A035957(3*n+4))+n+1`
--/
-
-namespace A391688.P15381702337578585998
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A100949 (A000085 n * A035957 (3 * n + 4)).toNat + (n + 1 : ℤ)
-
-end
-
-end A391688.P15381702337578585998
 
 /-!
 # A391689: a(n) = Sum_{k=0..n} 2^(n-k) * binomial(k+2,2) * binomial(k,n-k)^2.
@@ -5886,6 +5904,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A391692.P25025091009786053
+
+/-!
+# A391693: Number of invertible n X n Hankel matrices with entries in {0,1}.
+
+The programs for A391693, there is no canonical definition to state claims against.
+-/
+
+/-! ## A391693.P16226098695732688232
+
+`A241092(A001212(2*(n+2)))-(2*n)!/(n!*(n+1)!)`
+-/
+
+namespace A391693.P16226098695732688232
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A241092 (A001212 (2 * (n + 2))).toNat : ℚ) - (Nat.factorial (2 * n) : ℚ) / (Nat.factorial n * Nat.factorial (n + 1) : ℚ)
+
+end
+
+end A391693.P16226098695732688232
 
 /-!
 # A391696: Irregular triangular array read by rows: T(n,k) = position of 1st letter of 1st appearance of the k-th word of length n in the lexicographic ordering of all 01-words, as in A076478.

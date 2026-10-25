@@ -53,10 +53,11 @@ import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C002
+import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -72,7 +73,6 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
-import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
@@ -161,6 +161,12 @@ namespace A390904
 /-- `n^9-n^3*(1+n)^3*(5*n-2)^3/216` -/
 def P3562649124874760029.Spec : Prop :=
   ∀ n, P3562649124874760029.a n = (A390904 n : ℚ)
+
+theorem P3562649124874760029.correct : P3562649124874760029.Spec := by
+  intro n
+  simp only [A390904, Nat.add_sub_cancel, A390904.P3562649124874760029.a, A390904.P6495065465937336164.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A390904
 
@@ -3949,7 +3955,7 @@ end A390956.P3489610402686599999
 
 The programs for A390957, the canonical program `A390957.P13897140593149333572` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390957 has offset 1).
 
-The definition of A390957 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A286324, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A390957 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A286324, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A390957.P13897140593149333572
@@ -4014,6 +4020,12 @@ namespace A390957
 /-- `A034444(n+1)+A048105(n+1)-A286324(n+1)` -/
 def P1657354206654572681.Spec : Prop :=
   ∀ n, P1657354206654572681.a n = A390957 (n + 1)
+
+theorem P1657354206654572681.correct : P1657354206654572681.Spec := by
+  intro n
+  simp only [A390957, Nat.add_sub_cancel, A390957.P1657354206654572681.a, A390957.P13897140593149333572.a, A000005, A000005.P16091521709108585461.a, A034444, A034444.P6574915864346323298.a, A048105, A048105.P14513846835403787716.a, A286324, A286324.P10528776469317877690.a, A001221, A001221.P10258181745752134128.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A350390, A350390.P13215210150180200115.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P2666504972441551157.a, A336643, A336643.P7928680159681903247.a, A007913, A007913.P11359412940648999332.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A390957
 
@@ -4112,7 +4124,7 @@ end A390957
 /-!
 # A390958: The number of non-bi-unitary divisors of the numbers that are not exponentially odd.
 
-The programs for A390958, the canonical program `A390958.P3512256824104388828` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390958 has offset 1).
+The programs for A390958, the canonical program `A390958.P3512256824104388828` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390958 has offset 1).
 
 The definition of A390958 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A072587, A390957, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4121,7 +4133,7 @@ The definition of A390958 is `conditional`: the Lean definition is an OEIS formu
 
 `A390957(A072587(n+1))`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A390958

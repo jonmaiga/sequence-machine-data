@@ -59,13 +59,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -6230,6 +6228,12 @@ namespace A047053
 def P13454185334230596110.Spec : Prop :=
   ∀ n, P13454185334230596110.a n = A047053 n
 
+theorem P13454185334230596110.correct : P13454185334230596110.Spec := by
+  intro n
+  simp only [A047053, Nat.add_sub_cancel, A047053.P13454185334230596110.a, A047053.P7600228685457433808.a, A000142, A000142.P3272619076580183195.a, A000302, A000302.P5166485833484575275.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A047053
 
 /-! ## A047053.P2751057112238731048
@@ -9266,7 +9270,7 @@ end A047077.P10505398179871086862
 /-!
 # A047078: Primes at which difference pattern X2Y (X and Y >= 6) occurs in A001223.
 
-The programs for A047078, the canonical program `A047078.P11719807738729298579` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047078 has offset 1).
+The programs for A047078, the canonical program `A047078.P11719807738729298579` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047078 has offset 1).
 
 The definition of A047078 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1085 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9335,7 +9339,7 @@ end A047078
 
 `∩[A083370(n+1)-2, A134100(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A047078
@@ -12227,6 +12231,12 @@ namespace A047098
 /-- `2*A005809(n)-A066380(n)` -/
 def P6214462348368461707.Spec : Prop :=
   ∀ n, P6214462348368461707.a n = A047098 n
+
+theorem P6214462348368461707.correct : P6214462348368461707.Spec := by
+  intro n
+  simp only [A047098, Nat.add_sub_cancel, A047098.P6214462348368461707.a, A047098.P2815314934957914121.a, A005809, A005809.P15087077436016713419.a, A066380, A066380.P8114425052674508970.a, A321957, A321957.P11069985352720129063.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A047098
 

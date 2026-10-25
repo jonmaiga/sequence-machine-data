@@ -42,7 +42,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -4790,20 +4789,20 @@ end
 
 end A200469.P931124217952390373
 
-/-! ## A200469.P9913583820192552762
+/-! ## A200469.P11344719268696651611
 
-`A200251(n+1)%A048725(A000204(n+1))`
+`A001055(A385776(n+4))*A200251(n+1)`
 -/
 
-namespace A200469.P9913583820192552762
+namespace A200469.P11344719268696651611
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A200251 (n + 1)) (A048725 (A000204 (n + 1)).toNat)
+  A001055 (A385776 (n + 4)).toNat * A200251 (n + 1)
 
 end
 
-end A200469.P9913583820192552762
+end A200469.P11344719268696651611
 
 /-!
 # A200470: Number of 0..n arrays x(0..5) of 6 elements with each no smaller than the sum of its four previous neighbors modulo (n+1).
@@ -5206,7 +5205,7 @@ end A200473.P10117676598587648844
 
 The programs for A200474, the canonical program `A200474.P8473669537612726368` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200474 has offset 5).
 
-The definition of A200474 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A001223, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A200474 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001223, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A200474.P8473669537612726368

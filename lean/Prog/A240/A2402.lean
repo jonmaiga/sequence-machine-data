@@ -40,6 +40,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -6159,6 +6160,29 @@ namespace A240277
 /-- `a(n-1)+2^(n-3)` -/
 def P11513987540466905770.Spec : Prop :=
   ∀ n, P11513987540466905770.a n = (A240277 n : ℚ)
+
+end A240277
+
+/-! ## A240277.P1934254535850557779
+
+`a(n-1)+a(n-1)-1` with `a(0)=1, a(1)=2, a(2)=4, a(3)=3`
+-/
+
+namespace A240277.P1934254535850557779
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 2, 4, 3] fun n a =>
+  a (n - 1) + a (n - 1) - 1
+
+end
+
+end A240277.P1934254535850557779
+
+namespace A240277
+
+/-- `a(n-1)+a(n-1)-1` -/
+def P1934254535850557779.Spec : Prop :=
+  ∀ n, P1934254535850557779.a n = A240277 n
 
 end A240277
 

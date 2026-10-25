@@ -50,7 +50,6 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -4382,20 +4381,20 @@ end A044635.P18048638106647383995
 The programs for A044636, there is no canonical definition to state claims against.
 -/
 
-/-! ## A044636.P15085080846385739447
+/-! ## A044636.P13449551696035821896
 
-`A002517(A044255(n+1))-1`
+`A002517(A044255(1+n))-1`
 -/
 
-namespace A044636.P15085080846385739447
+namespace A044636.P13449551696035821896
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002517 (A044255 (n + 1)).toNat - 1
+  A002517 (A044255 (1 + n)).toNat - 1
 
 end
 
-end A044636.P15085080846385739447
+end A044636.P13449551696035821896
 
 /-! ## A044636.P12977098937012796
 
@@ -4784,20 +4783,20 @@ end A044638.P15014932332011551100
 The programs for A044639, there is no canonical definition to state claims against.
 -/
 
-/-! ## A044639.P15711869890623467145
+/-! ## A044639.P1808960523065928188
 
-`A002517(A044258(n+1))-1`
+`A002517(A044258(1+n))-1`
 -/
 
-namespace A044639.P15711869890623467145
+namespace A044639.P1808960523065928188
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002517 (A044258 (n + 1)).toNat - 1
+  A002517 (A044258 (1 + n)).toNat - 1
 
 end
 
-end A044639.P15711869890623467145
+end A044639.P1808960523065928188
 
 /-! ## A044639.P17660680149720950149
 
@@ -6514,20 +6513,20 @@ end
 
 end A044665.P8893350858876503029
 
-/-! ## A044665.P3867657581722458386
+/-! ## A044665.P17655295078966909009
 
-`A044285(n+1)-A006519(A080054(n+2)+1)`
+`A044285(n+1)-A055396(A044336(3*n+2))`
 -/
 
-namespace A044665.P3867657581722458386
+namespace A044665.P17655295078966909009
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044285 (n + 1) - A006519 (A080054 (n + 2) + 1).toNat
+  A044285 (n + 1) - A055396 (A044336 (3 * n + 2)).toNat
 
 end
 
-end A044665.P3867657581722458386
+end A044665.P17655295078966909009
 
 /-!
 # A044666: Numbers n such that string 3,7 occurs in the base 9 representation of n but not of n+1.
@@ -7123,20 +7122,20 @@ end
 
 end A044673.P17188291770932981472
 
-/-! ## A044673.P1133743152020406136
+/-! ## A044673.P1783402927212416353
 
-`A233583(A044293(n+1))`
+`A044293(n+1)-A055396(A044336(3*n+2))`
 -/
 
-namespace A044673.P1133743152020406136
+namespace A044673.P1783402927212416353
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A233583 (A044293 (n + 1)).toNat
+  A044293 (n + 1) - A055396 (A044336 (3 * n + 2)).toNat
 
 end
 
-end A044673.P1133743152020406136
+end A044673.P1783402927212416353
 
 /-!
 # A044674: Numbers n such that string 4,6 occurs in the base 9 representation of n but not of n+1.

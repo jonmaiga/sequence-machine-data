@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C004
@@ -31,7 +32,6 @@ import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -45,7 +45,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -57,6 +56,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A345500: Numbers that are the sum of nine squares in three or more ways.
@@ -1952,16 +1955,16 @@ end A345530.P2536694527237115443
 /-!
 # A345531: Smallest prime power greater than the n-th prime.
 
-The programs for A345531, the canonical program `A345531.P10760789407017531318` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345531 has offset 1).
+The programs for A345531, the canonical program `A345531.P10760789407017531318` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345531 has offset 1).
 
-The definition of A345531 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000015, A008864, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A345531 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000015, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A345531.P10760789407017531318
 
 `A000015(A008864(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A345531
@@ -1996,6 +1999,12 @@ namespace A345531
 /-- `A000015(1+A000040(n+1))` -/
 def P7857124338999864326.Spec : Prop :=
   ∀ n, P7857124338999864326.a n = A345531 (n + 1)
+
+theorem P7857124338999864326.correct : P7857124338999864326.Spec := by
+  intro n
+  simp only [A345531, Nat.add_sub_cancel, A345531.P7857124338999864326.a, A345531.P10760789407017531318.a, A000015, A000015.P2530082583010810879.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A008864, A008864.P9177617808325052279.a, A031218, A031218.P11079871404618641815.a, A097106, A097106.P14132093488680178125.a, A000961, A000961.P15008477845107890738.f1, A000961.P15008477845107890738.f2, A000961.P15008477845107890738.a, A010055, A010055.P13747394931985969733.f1, A010055.P13747394931985969733.a, A025528, A025528.P16007803137134117632.f1, A025528.P16007803137134117632.a, A057820, A057820.P915405789854175386.a, A065515, A065515.P15129427044826637405.a, A000079, A000079.P10855139691139572931.a, A061345, A061345.P12671314331313567408.f1, A061345.P12671314331313567408.a, A069513, A069513.P10236214883623494276.f1, A069513.P10236214883623494276.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A345531
 
@@ -5401,20 +5410,20 @@ end
 
 end A345596.P14832115604890316529
 
-/-! ## A345596.P464681435254914942
+/-! ## A345596.P6289072500898844141
 
-`A345855(n+1)%A220502(n+3)`
+`A345855(n+1)%A290339(n+1)`
 -/
 
-namespace A345596.P464681435254914942
+namespace A345596.P6289072500898844141
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A345855 (n + 1)) (A220502 (n + 3))
+  Int.tmod (A345855 (n + 1)) (A290339 (n + 1))
 
 end
 
-end A345596.P464681435254914942
+end A345596.P6289072500898844141
 
 /-! ## A345596.P749182893404318482
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -48,16 +49,17 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -86,6 +88,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A287600: Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 310", based on the 5-celled von Neumann neighborhood.
@@ -1176,7 +1182,7 @@ end A287617.P6419836271709042483
 /-!
 # A287618: Triangle read by rows: T(j,k) is the number of distinct edge segments in a j X k rectangular grid.
 
-The programs for A287618, the canonical program `A287618.P888519761362367504` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287618 has offset 1).
+The programs for A287618, the canonical program `A287618.P888519761362367504` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287618 has offset 1).
 
 The definition of A287618 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1185,7 +1191,7 @@ The definition of A287618 is `conjectured`: the Lean definition is a formula tha
 
 `A110654(A002024(n+1))+A110654(A048151(n+1))`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A287618
@@ -2664,7 +2670,7 @@ end A287637.P9315316129599739370
 /-!
 # A287638: Odd primes with no other odd primes as prefixes in binary.
 
-The programs for A287638, the canonical program `A287638.P4499298965654757907` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287638 has offset 1).
+The programs for A287638, the canonical program `A287638.P4499298965654757907` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287638 has offset 1).
 
 The definition of A287638 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 300 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2673,7 +2679,7 @@ The definition of A287638 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A287117(n+3)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A287638
@@ -5155,6 +5161,12 @@ namespace A287659
 /-- `A014675(n)+2*n` -/
 def P5287299957711154917.Spec : Prop :=
   ∀ n, P5287299957711154917.a n = A287659 (n + 1)
+
+theorem P5287299957711154917.correct : P5287299957711154917.Spec := by
+  intro n
+  simp only [A287659, Nat.add_sub_cancel, A287659.P5287299957711154917.a, A287659.P10046964900207517982.a, A003849, A003849.P15070805603138295355.a, A014675, A014675.P17423219922035932121.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A287659
 
@@ -8701,6 +8713,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A287679.P10860706167015904201
+
+/-! ## A287679.P10271730234452026410
+
+`A000129(eq[3, A182731(n+1)])`
+-/
+
+namespace A287679.P10271730234452026410
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  3
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182731 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000129 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+
+end
+
+end A287679.P10271730234452026410
 
 /-!
 # A287681: Twin practical numbers: numbers k such that both k and k+2 are practical numbers.

@@ -84,7 +84,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -1623,6 +1622,12 @@ namespace A028403
 def P1111400768747345728.Spec : Prop :=
   ∀ n, P1111400768747345728.a n = A028403 (n + 1)
 
+theorem P1111400768747345728.correct : P1111400768747345728.Spec := by
+  intro n
+  simp only [A028403, Nat.add_sub_cancel, A028403.P1111400768747345728.a, A028403.P12072581597189381239.a, A000079, A000079.P10855139691139572931.a, A004171, A004171.P4825528214568774058.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A028403
 
 /-! ## A028403.P3472714392273116105
@@ -1826,6 +1831,12 @@ namespace A028403
 /-- `A281482(n)+1` -/
 def P9476063754775965819.Spec : Prop :=
   ∀ n, P9476063754775965819.a n = A028403 (n + 1)
+
+theorem P9476063754775965819.correct : P9476063754775965819.Spec := by
+  intro n
+  simp only [A028403, Nat.add_sub_cancel, A028403.P9476063754775965819.a, A028403.P12072581597189381239.a, A281482, A281482.P14924405954727194800.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A028403
 
@@ -5850,7 +5861,7 @@ end A028441.P17007631801576632779
 /-!
 # A028442: Numbers k such that Mertens's function M(k) (A002321) is zero.
 
-The programs for A028442, the canonical program `A028442.P16090401491980094714` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028442 has offset 1).
+The programs for A028442, the canonical program `A028442.P16090401491980094714` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028442 has offset 1).
 
 The definition of A028442 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5882,7 +5893,7 @@ end A028442
 
 `A100306(n+2)-1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A028442

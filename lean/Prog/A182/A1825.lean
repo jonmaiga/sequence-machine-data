@@ -1692,6 +1692,12 @@ namespace A182522
 def P5518030696292831908.Spec : Prop :=
   ∀ n, P5518030696292831908.a n = A182522 n
 
+theorem P5518030696292831908.correct : P5518030696292831908.Spec := by
+  intro n
+  simp only [A182522, Nat.add_sub_cancel, A182522.P5518030696292831908.a, A182522.P14682687547002529594.a, A016116, A016116.P661627231399665482.a, A304973, A304973.P4987803302753247775.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A182522
 
 /-! ## A182522.P4619295904922635025
@@ -2557,16 +2563,16 @@ end A182533.P5865241972831968395
 /-!
 # A182535: Number of terms in Zeckendorf representation of prime(n).
 
-The programs for A182535, the canonical program `A182535.P17468542528139783195` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182535 has offset 1).
+The programs for A182535, the canonical program `A182535.P17468542528139783195` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182535 has offset 1).
 
-The definition of A182535 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A007895, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A182535 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007895, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A182535.P17468542528139783195
 
 `A007895(A000040(n+1))`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A182535

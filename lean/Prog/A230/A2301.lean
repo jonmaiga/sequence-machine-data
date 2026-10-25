@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -59,7 +60,6 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
@@ -94,6 +94,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A230101: a(n) = product of n and all its nonzero digits.
@@ -168,6 +172,12 @@ namespace A230101
 /-- `n*A051801(n)` -/
 def P332581113384018192.Spec : Prop :=
   ∀ n, P332581113384018192.a n = A230101 n
+
+theorem P332581113384018192.correct : P332581113384018192.Spec := by
+  intro n
+  simp only [A230101, Nat.add_sub_cancel, A230101.P332581113384018192.a, A230101.P17823981165506777543.f1, A230101.P17823981165506777543.a, A051801, A051801.P15997932515151970978.f1, A051801.P15997932515151970978.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A230101
 

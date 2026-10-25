@@ -24,6 +24,7 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C003
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
@@ -38,6 +39,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C001
 import Seq.B006.C001
 import Seq.B007.C000
@@ -825,6 +827,21 @@ end
 
 end A392711.P11624941880720036980
 
+/-! ## A392711.P14771647187369137598
+
+`A196563(A221351(2*n+1)+15)`
+-/
+
+namespace A392711.P14771647187369137598
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A196563 (A221351 (2 * n + 1) + 15).toNat
+
+end
+
+end A392711.P14771647187369137598
+
 /-! ## A392711.P6512056437197662045
 
 `A304045(n+1)%Δ[A209727(2*n+1)]`
@@ -872,21 +889,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A392711.P14299317744621210596
-
-/-! ## A392711.P2055185713839069635
-
-`A211992(A001333(n))*A392374(n+1)`
--/
-
-namespace A392711.P2055185713839069635
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A211992 (A001333 n).toNat * A392374 (n + 1)
-
-end
-
-end A392711.P2055185713839069635
 
 /-!
 # A392712: Numbers k such that the trimmed partial alternating sums of the k-th composition in standard order are all equal.
@@ -3229,6 +3231,21 @@ end A392786.P1484218907291578310
 The programs for A392787, there is no canonical definition to state claims against.
 -/
 
+/-! ## A392787.P18227251791920008118
+
+`A364104(A107268(n)*A189255(n))`
+-/
+
+namespace A392787.P18227251791920008118
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A364104 (A107268 n * A189255 n).toNat
+
+end
+
+end A392787.P18227251791920008118
+
 /-! ## A392787.P11960099639485334477
 
 `A328435(n)*A356939(A099363(2*n))`
@@ -3264,6 +3281,21 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A392788.P15207359807126484410
+
+/-! ## A392788.P17568099558134032823
+
+`A370930(n)+A104488(A004290(3*n+1))`
+-/
+
+namespace A392788.P17568099558134032823
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A370930 n + A104488 (A004290 (3 * n + 1)).toNat
+
+end
+
+end A392788.P17568099558134032823
 
 /-!
 # A392789: Expansion of e.g.f. (1/x) * Series_Reversion( x + (1 - exp(x^3))/x ).

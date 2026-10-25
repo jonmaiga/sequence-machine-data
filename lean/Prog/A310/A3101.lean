@@ -35,8 +35,10 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -3359,6 +3361,21 @@ end A310196.P504918663432120711
 
 The programs for A310197, there is no canonical definition to state claims against.
 -/
+
+/-! ## A310197.P9297955776159818376
+
+`A245554(A000108(n))+A003314(n+1)`
+-/
+
+namespace A310197.P9297955776159818376
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A245554 (A000108 n).toNat + A003314 (n + 1)
+
+end
+
+end A310197.P9297955776159818376
 
 /-! ## A310197.P8324064146234137083
 

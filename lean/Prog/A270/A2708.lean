@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -62,6 +63,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -90,6 +92,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A270802: Primes p of the form 14*k+1 for which there is a solution to x^7 == 2 mod p.
@@ -5728,6 +5734,12 @@ namespace A270867
 def P16615897958237876829.Spec : Prop :=
   ∀ n, P16615897958237876829.a n = (A270867 n : ℚ)
 
+theorem P16615897958237876829.correct : P16615897958237876829.Spec := by
+  intro n
+  simp only [A270867, Nat.add_sub_cancel, A270867.P16615897958237876829.a, A270867.P787811205969112274.a, A054000, A054000.P17308049870375270601.a, A304159, A304159.P11492822921262313000.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A270867
 
 /-! ## A270867.P233851418921473680
@@ -7411,6 +7423,25 @@ namespace A270889
 /-- `3*(2+(3-2*sqrt(2))^n+(3+2*sqrt(2))^n)/4` -/
 def P15328737251002199212.Spec : Prop :=
   ∀ n, P15328737251002199212.a n = (A270889 n : ℝ)
+
+theorem P15328737251002199212.correct : P15328737251002199212.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A270889, Nat.add_sub_cancel, A270889.P15328737251002199212.a, A270889.P5588106501415036233.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A270889, Nat.add_sub_cancel, A270889.P15328737251002199212.a, A270889.P5588106501415036233.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A270889
 

@@ -51,10 +51,9 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
-import Seq.B009.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -1612,7 +1611,7 @@ end A380229.P1807685694360299580
 
 The programs for A380230, the canonical program `A380230.P9860135547969315712` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380230 has offset 0).
 
-The definition of A380230 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A380230 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*A070939(n)` (program `A380230.P9860135547969315712`, by `A380230.P9860135547969315712.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A380230.P9860135547969315712
@@ -2384,6 +2383,24 @@ end
 
 end A380239.P4120348993502684824
 
+/-! ## A380239.P12298217170187778672
+
+`record[A010054(n)*A277741(n+2)]`
+-/
+
+namespace A380239.P12298217170187778672
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010054 n * A277741 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A380239.P12298217170187778672
+
 /-! ## A380239.P1215544433659024888
 
 `record[A277741(n+2)/A007318(n)]`
@@ -2401,24 +2418,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A380239.P1215544433659024888
-
-/-! ## A380239.P15519191192081723910
-
-`record[A277741(n+3)/A092392(n)]`
--/
-
-namespace A380239.P15519191192081723910
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A277741 (n + 3) : ℚ) / (A092392 n : ℚ)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A380239.P15519191192081723910
 
 /-!
 # A380242: Number of rooted 6-regular planar maps with n vertices.
@@ -4340,7 +4339,7 @@ end A380280.P2098109787063415687
 /-!
 # A380281: Triangle T(n, k) read by rows: T(n, k) = 2^n*binomial(2*n + 1, 2*k + 1) * Pochhammer(1/2, n - k) * Pochhammer(1/2, k).
 
-The programs for A380281, the canonical program `A380281.P6966654181893979849` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380281 has offset 0).
+The programs for A380281, the canonical program `A380281.P6966654181893979849` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380281 has offset 0).
 
 The definition of A380281 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1501 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4349,7 +4348,7 @@ The definition of A380281 is `conjectured`: the Lean definition is a formula tha
 
 `A103327(n)*A173424(n)`
 
-The canonical program, it is in `Seq.B009.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A380281

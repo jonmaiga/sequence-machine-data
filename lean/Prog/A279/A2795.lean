@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -52,8 +53,8 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
@@ -87,6 +88,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A279500: Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 161", based on the 5-celled von Neumann neighborhood.
@@ -497,6 +502,12 @@ namespace A279507
 /-- `floor((n+1)/∏{p}[n+1, #]*∏{p}[n+1, #-1]/A000005(n+1))` -/
 def P1390156823216473379.Spec : Prop :=
   ∀ n, P1390156823216473379.a n = A279507 (n + 1)
+
+theorem P1390156823216473379.correct : P1390156823216473379.Spec := by
+  intro n
+  simp only [A279507, Nat.add_sub_cancel, A279507.P1390156823216473379.f1, A279507.P1390156823216473379.f2, A279507.P1390156823216473379.a, A279507.P12103933138790951163.f1, A279507.P12103933138790951163.f2, A279507.P12103933138790951163.f3, A279507.P12103933138790951163.a, A000005, A000005.P16091521709108585461.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A279507
 
@@ -1134,6 +1145,23 @@ namespace A279511
 def P8467131903690303899.Spec : Prop :=
   ∀ n, P8467131903690303899.a n = (A279511 n : ℚ)
 
+theorem P8467131903690303899.correct : P8467131903690303899.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A279511, Nat.add_sub_cancel, A279511.P8467131903690303899.a, A279511.P4236517519898056086.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A279511, Nat.add_sub_cancel, A279511.P8467131903690303899.a, A279511.P4236517519898056086.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1)
+
 end A279511
 
 /-!
@@ -1406,6 +1434,12 @@ namespace A279521
 /-- `n-A277267(n+1)` -/
 def P7719694707749771670.Spec : Prop :=
   ∀ n, P7719694707749771670.a n = A279521 (n + 1)
+
+theorem P7719694707749771670.correct : P7719694707749771670.Spec := by
+  intro n
+  simp only [A279521, Nat.add_sub_cancel, A279521.P7719694707749771670.a, A279521.P13549278606039013017.a, A006165, A006165.P7053576809501911375.a, A277267, A277267.P1918104767288043109.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A279521
 
@@ -1810,6 +1844,12 @@ namespace A279521
 /-- `Δ[n²]-A115836(n+1)` -/
 def P2656742173408482234.Spec : Prop :=
   ∀ n, P2656742173408482234.a n = A279521 (n + 1)
+
+theorem P2656742173408482234.correct : P2656742173408482234.Spec := by
+  intro n
+  simp only [A279521, Nat.add_sub_cancel, A279521.P2656742173408482234.f1, A279521.P2656742173408482234.a, A279521.P13549278606039013017.a, A006165, A006165.P7053576809501911375.a, A115836, A115836.P4635970898570071194.a, A007378, A007378.P6355740998360001155.a, A060973, A060973.P9569280493827899348.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A279521
 
@@ -3346,6 +3386,12 @@ namespace A279539
 /-- `∑[ceil(log(n+1))]` -/
 def P16575874123790666210.Spec : Prop :=
   ∀ n, P16575874123790666210.a n = A279539 (n + 1)
+
+theorem P16575874123790666210.correct : P16575874123790666210.Spec := by
+  intro n
+  simp only [A279539, Nat.add_sub_cancel, A279539.P16575874123790666210.f1, A279539.P16575874123790666210.a, A279539.P10358371075013548821.a, A092755, A092755.P5737678061352933745.f1, A092755.P5737678061352933745.a, A004233, A004233.P5344956152729149784.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A279539
 
@@ -5902,6 +5948,12 @@ namespace A279561
 /-- `(A281593(n)+1)/2` -/
 def P13306876269326038686.Spec : Prop :=
   ∀ n, P13306876269326038686.a n = (A279561 n : ℚ)
+
+theorem P13306876269326038686.correct : P13306876269326038686.Spec := by
+  intro n
+  simp only [A279561, Nat.add_sub_cancel, A279561.P13306876269326038686.a, A279561.P4289259103180755608.f1, A279561.P4289259103180755608.a, A001791, A001791.P9713013280951293137.a, A281593, A281593.P9505867882038692606.a, A000108, A000108.P17551949696095299361.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A279561
 

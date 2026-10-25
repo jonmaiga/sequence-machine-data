@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -46,6 +47,8 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
@@ -74,14 +77,16 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A132603: Record values in A132601.
@@ -1624,6 +1629,12 @@ namespace A132630
 /-- `record[A070010(n+1)-A033880(n+1)]` -/
 def P18200454106030574402.Spec : Prop :=
   ∀ n, P18200454106030574402.a n = A132630 (n + 1)
+
+theorem P18200454106030574402.correct : P18200454106030574402.Spec := by
+  intro n
+  simp only [A132630, Nat.add_sub_cancel, A132630.P18200454106030574402.f1, A132630.P18200454106030574402.a, A132630.P11928070417678431762.f1, A132630.P11928070417678431762.a, A033879, A033879.P11735613842914743111.a, A033880, A033880.P6005875780263802708.a, A070010, A070010.P5053100523494625955.a, A001065, A001065.P4097147489331274860.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A132630
 
@@ -4143,7 +4154,7 @@ end A132656.P11087319741902508003
 
 The programs for A132657, the canonical program `A132657.P7540794836136521252` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132657 has offset 1).
 
-The definition of A132657 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007491, A053001, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A132657 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007491, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A132657.P7540794836136521252
@@ -5718,6 +5729,12 @@ namespace A132681
 /-- `1-Δ[A002260(n+2)]` -/
 def P1914096789688846644.Spec : Prop :=
   ∀ n, P1914096789688846644.a n = A132681 n
+
+theorem P1914096789688846644.correct : P1914096789688846644.Spec := by
+  intro n
+  simp only [A132681, Nat.add_sub_cancel, A132681.P1914096789688846644.f1, A132681.P1914096789688846644.a, A132681.P1020153752142941773.a, A002260, A002260.P769748059679640451.a, A127648, A127648.P14273563626416826954.f1, A127648.P14273563626416826954.a, A002262, A002262.P12129691700837801527.a, A061885, A061885.P4567764245783084005.a, A057944, A057944.P16851463738746886639.a, A000217, A000217.P10269402890581615239.a, A003056, A003056.P5318256527314048597.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A132681
 

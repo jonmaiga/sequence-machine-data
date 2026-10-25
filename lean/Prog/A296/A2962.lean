@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -53,6 +54,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
@@ -89,6 +91,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A296200: Harary index of the n X n white bishop graph.
@@ -1292,7 +1298,7 @@ end A296209
 /-!
 # A296210: Characteristic function for A104210: a(n) = 1 if n is divisible by at least 2 consecutive primes, 0 otherwise.
 
-The programs for A296210, the canonical program `A296210.P2007591430484132709` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296210 has offset 1).
+The programs for A296210, the canonical program `A296210.P2007591430484132709` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296210 has offset 1).
 
 The definition of A296210 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1318,13 +1324,19 @@ namespace A296210
 def P15415697142546178069.Spec : Prop :=
   ∀ n, P15415697142546178069.a n = A296210 (n + 1)
 
+theorem P15415697142546178069.correct : P15415697142546178069.Spec := by
+  intro n
+  simp only [A296210, Nat.add_sub_cancel, A296210.P15415697142546178069.a, A296210.P2007591430484132709.f1, A296210.P2007591430484132709.a, A104210, A104210.P6329043992730066091.f1, A104210.P6329043992730066091.f2, A104210.P6329043992730066091.a, A356173, A356173.P8720124054726278930.a, A297173, A297173.P2608014564017656804.a, A140211, A140211.P16537942396198288479.f1, A140211.P16537942396198288479.a, A243055, A243055.P2464886309294058059.a, A028310, A028310.P18130301328277559831.a, A062828, A062828.P6719252676437091402.a, A117371, A117371.P12406732587805932156.a, A297155, A297155.P1611206963555320167.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A296210
 
 /-! ## A296210.P2007591430484132709
 
 `char[A104210(n+1)-1]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A296210
@@ -2735,12 +2747,18 @@ namespace A296212
 def P15998105067403587862.Spec : Prop :=
   ∀ n, P15998105067403587862.a n = A296212 (n + 1)
 
+theorem P15998105067403587862.correct : P15998105067403587862.Spec := by
+  intro n
+  simp only [A296212, Nat.add_sub_cancel, A296212.P15998105067403587862.a, A296212.P15502952494172924929.a, A001065, A001065.P4097147489331274860.a, A010051, A010051.P15078252821583414300.a, A088580, A088580.P3089093194242277422.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A296212
 
 /-!
 # A296213: a(n) = 1 if both 1+phi(k) and 1+sigma(k) are squares, 0 otherwise.
 
-The programs for A296213, the canonical program `A296213.P8375901246265267104` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296213 has offset 1).
+The programs for A296213, the canonical program `A296213.P8375901246265267104` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296213 has offset 1).
 
 The definition of A296213 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2749,7 +2767,7 @@ The definition of A296213 is `conjectured`: the Lean definition is a formula tha
 
 `char[A063532(n+1)-1]`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A296213

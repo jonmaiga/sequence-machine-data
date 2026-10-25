@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -66,11 +67,16 @@ import Seq.Opaque.C010
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A025800: Expansion of 1/((1-x^2)*(1-x^3)*(1-x^11)).
@@ -7813,6 +7819,12 @@ namespace A025823
 def P2573071691689629604.Spec : Prop :=
   ∀ n, P2573071691689629604.a n = A025823 n
 
+theorem P2573071691689629604.correct : P2573071691689629604.Spec := by
+  intro n
+  simp only [A025823, Nat.add_sub_cancel, A025823.P2573071691689629604.a, A025823.P2313138981244158637.a, A005044, A005044.P15996777699151766909.a, A025924, A025924.P6419062361051786323.a, A194960, A194960.P16175288645252624048.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A025823
 
 /-! ## A025823.P12927094175557621208
@@ -8746,6 +8758,12 @@ namespace A025827
 /-- `A029213(n)+A029225(n)-A029198(n)` -/
 def P17575831593718246194.Spec : Prop :=
   ∀ n, P17575831593718246194.a n = A025827 n
+
+theorem P17575831593718246194.correct : P17575831593718246194.Spec := by
+  intro n
+  simp only [A025827, Nat.add_sub_cancel, A025827.P17575831593718246194.a, A025827.P17085874073192218021.a, A029198, A029198.P503402576151086867.a, A029213, A029213.P5201621740032638678.a, A029225, A029225.P16486130044195142611.a, A029116, A029116.P2286183440171770193.f1, A029116.P2286183440171770193.a, A025907, A025907.P12793639154697755668.a, A025781, A025781.P7662789883593314095.a, A025783, A025783.P15062552760523704649.a, A025881, A025881.P15100123725397875390.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A025827
 
@@ -21694,6 +21712,12 @@ namespace A025875
 /-- `A029346(n)+A029358(n)-A029331(n)` -/
 def P2628423544389140513.Spec : Prop :=
   ∀ n, P2628423544389140513.a n = A025875 n
+
+theorem P2628423544389140513.correct : P2628423544389140513.Spec := by
+  intro n
+  simp only [A025875, Nat.add_sub_cancel, A025875.P2628423544389140513.a, A025875.P6817867275474269582.a, A029331, A029331.P16509172661417459008.a, A029346, A029346.P15441236893995981458.a, A029358, A029358.P6065047460035336274.f1, A029358.P6065047460035336274.a, A025796, A025796.P17123033237818759149.a, A029072, A029072.P16720113097825012275.a, A057979, A057979.P16537735927241777837.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A025875
 

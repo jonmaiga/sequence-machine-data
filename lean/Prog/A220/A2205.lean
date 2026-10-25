@@ -55,8 +55,9 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -64,6 +65,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -926,6 +928,12 @@ namespace A220508
 /-- `A060736(n+1)-1` -/
 def P17156722938084246771.Spec : Prop :=
   ∀ n, P17156722938084246771.a n = A220508 n
+
+theorem P17156722938084246771.correct : P17156722938084246771.Spec := by
+  intro n
+  simp only [A220508, Nat.add_sub_cancel, A220508.P17156722938084246771.a, A220508.P6866650714193173536.a, A033638, A033638.P14460038369392948833.a, A060736, A060736.P900922812008928419.a, A114327, A114327.P9028308961649463264.a, A204022, A204022.P5041661320422895112.a, A002024, A002024.P11700297927830783882.a, A002260, A002260.P769748059679640451.a, A002620, A002620.P9002536657626793813.a, A004736, A004736.P10337537277358081527.a, A049581, A049581.P658114607470364396.a, A000217, A000217.P10269402890581615239.a, A002262, A002262.P12129691700837801527.a, A020985, A020985.P937884151096334327.a, A014081, A014081.P14878370479040452879.a, A057944, A057944.P16851463738746886639.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A220508
 
@@ -7968,74 +7976,23 @@ end A220575.P2357552780791361986
 The programs for A220576, there is no canonical definition to state claims against.
 -/
 
-/-! ## A220576.P17878538488582778144
+/-! ## A220576.P14713289404351207040
 
-`A220579(Δ[A264443(n)])`
+`A220579(∑[n+5]+6)`
 -/
 
-namespace A220576.P17878538488582778144
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A264443 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A220579 (f1 (n + 1) - f1 n).toNat
-
-end
-
-end A220576.P17878538488582778144
-
-/-! ## A220576.P18320653563321237584
-
-`A220579(A046691(n+3))`
--/
-
-namespace A220576.P18320653563321237584
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A220579 (A046691 (n + 3)).toNat
-
-end
-
-end A220576.P18320653563321237584
-
-/-! ## A220576.P2511958211288173420
-
-`A220579(A056115(n)+11)`
--/
-
-namespace A220576.P2511958211288173420
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A220579 (A056115 n + 11).toNat
-
-end
-
-end A220576.P2511958211288173420
-
-/-! ## A220576.P12989407220043548165
-
-`A220579(eq[2, A092921(n)])`
--/
-
-namespace A220576.P12989407220043548165
+namespace A220576.P14713289404351207040
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A092921 n
+  n + 5
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A220579 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)
+  A220579 (∑ j ∈ Finset.range (n + 1), f1 j + 6)
 
 end
 
-end A220576.P12989407220043548165
+end A220576.P14713289404351207040
 
 /-!
 # A220577: Equals one maps: number of n X 6 binary arrays indicating the locations of corresponding elements equal to exactly one of their horizontal and antidiagonal neighbors in a random 0..1 n X 6 array.

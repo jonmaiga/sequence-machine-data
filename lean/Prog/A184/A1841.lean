@@ -46,15 +46,17 @@ import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -6466,6 +6468,21 @@ end
 
 end A184164.P8900918321203069348
 
+/-! ## A184164.P6063187592621381579
+
+`A344406(n+1)%A208984(A344406(n+1))`
+-/
+
+namespace A184164.P6063187592621381579
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A344406 (n + 1)) (A208984 (A344406 (n + 1)).toNat)
+
+end
+
+end A184164.P6063187592621381579
+
 /-! ## A184164.P11126708839193792706
 
 `A344406(A328617(n+1))`
@@ -6480,21 +6497,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A184164.P11126708839193792706
-
-/-! ## A184164.P8326105478410112563
-
-`A344406(A351831(n+2))`
--/
-
-namespace A184164.P8326105478410112563
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344406 (A351831 (n + 2)).toNat
-
-end
-
-end A184164.P8326105478410112563
 
 /-!
 # A184165: Number of independent (vertex) subsets in the rooted tree with Matula-Goebel number n.
@@ -8623,6 +8625,12 @@ namespace A184189
 /-- `A209546(n+1)-1` -/
 def P16890232464206821774.Spec : Prop :=
   ∀ n, P16890232464206821774.a n = A184189 (n + 1)
+
+theorem P16890232464206821774.correct : P16890232464206821774.Spec := by
+  intro n
+  simp only [A184189, Nat.add_sub_cancel, A184189.P16890232464206821774.a, A184189.P8778254792380230007.a, A209546, A209546.P6236227493662315964.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A184189
 

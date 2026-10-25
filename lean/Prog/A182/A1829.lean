@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -51,11 +52,9 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -88,6 +87,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A182900: Triangle read by rows: T(n,k) is the number of weighted lattice paths in B(n) having k valleys. The members of B(n) are paths of weight n that start at (0,0), end on but never go below the horizontal axis, and whose steps are of the following four kinds: an (1,0)-step with weight 1, an (1,0)-step with weight 2, a (1,1)-step with weight 2, and a (1,-1)-step with weight 1. The weight of a path is the sum of the weights of its steps. A valley is a (1,-1)-step followed by a (1,1)-step.
@@ -691,6 +694,12 @@ namespace A182908
 def P18004090703418153713.Spec : Prop :=
   ∀ n, P18004090703418153713.a n = A182908 (n + 1)
 
+theorem P18004090703418153713.correct : P18004090703418153713.Spec := by
+  intro n
+  simp only [A182908, Nat.add_sub_cancel, A182908.P18004090703418153713.a, A182908.P17591284892401627303.a, A024622, A024622.P7610113690782019861.a, A025528, A025528.P16007803137134117632.f1, A025528.P16007803137134117632.a, A069513, A069513.P10236214883623494276.f1, A069513.P10236214883623494276.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A182908
 
 /-! ## A182908.P17591284892401627303
@@ -911,6 +920,12 @@ namespace A182908
 /-- `A001489(n+1)+A024622(n+1)+n` -/
 def P3746825416197318201.Spec : Prop :=
   ∀ n, P3746825416197318201.a n = A182908 (n + 1)
+
+theorem P3746825416197318201.correct : P3746825416197318201.Spec := by
+  intro n
+  simp only [A182908, Nat.add_sub_cancel, A182908.P3746825416197318201.a, A182908.P17591284892401627303.a, A001489, A001489.P15233530513763566776.a, A024622, A024622.P7610113690782019861.a, A025528, A025528.P16007803137134117632.f1, A025528.P16007803137134117632.a, A069513, A069513.P10236214883623494276.f1, A069513.P10236214883623494276.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A182908
 
@@ -1370,7 +1385,7 @@ end A182920.P16914950325260888402
 /-!
 # A182921: Sum of exponents in prime-power factorization of the swinging factorial (A056040) n$ = n!/floor(n/2)!^2; also bigomega(n$).
 
-The programs for A182921, the canonical program `A182921.P272631166531236110` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182921 has offset 0).
+The programs for A182921, the canonical program `A182921.P272631166531236110` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182921 has offset 0).
 
 The definition of A182921 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1437,7 +1452,7 @@ end A182921
 
 `A317531(n)+a(n-1)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A182921
@@ -2636,7 +2651,7 @@ end A182934.P6415958451538648762
 /-!
 # A182936: Greatest common divisor of the proper divisors of n, 0 if there are none.
 
-The programs for A182936, the canonical program `A182936.P4233504524226139086` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182936 has offset 1).
+The programs for A182936, the canonical program `A182936.P4233504524226139086` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182936 has offset 1).
 
 The definition of A182936 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A020500, A061397, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2645,7 +2660,7 @@ The definition of A182936 is `conditional`: the Lean definition is an OEIS formu
 
 `A020500(n+1)-A061397(n+1)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A182936
@@ -3961,7 +3976,7 @@ end A182944
 /-!
 # A182945: Array of prime powers p^j, as transpose of A182944.
 
-The programs for A182945, the canonical program `A182945.P12591486644408387893` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182945 has offset 1).
+The programs for A182945, the canonical program `A182945.P12591486644408387893` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182945 has offset 1).
 
 The definition of A182945 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2682 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3970,7 +3985,7 @@ The definition of A182945 is `conjectured`: the Lean definition is a formula tha
 
 `A000040(A004736(n+1))^A002260(n+1)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A182945
@@ -5405,6 +5420,12 @@ namespace A182972
 def P9179635428180464833.Spec : Prop :=
   ∀ n, P9179635428180464833.a n = A182972 (n + 1)
 
+theorem P9179635428180464833.correct : P9179635428180464833.Spec := by
+  intro n
+  simp only [A182972, Nat.add_sub_cancel, A182972.P9179635428180464833.a, A182972.P12481118658854817198.f1, A182972.P12481118658854817198.f2, A182972.P12481118658854817198.a, A020652, A020652.P12873781580618070316.a, A020653, A020653.P13896194492571762582.a, A038567, A038567.P2197162168153652474.a, A182973, A182973.P15964617675620395256.a, A002260, A002260.P769748059679640451.a, A166527, A166527.P3407768485719253100.f1, A166527.P3407768485719253100.f2, A166527.P3407768485719253100.a, A169581, A169581.P5880074655837136645.f1, A169581.P5880074655837136645.f2, A169581.P5880074655837136645.a, A002262, A002262.P12129691700837801527.a, A025581, A025581.P420762180635059694.a, A077478, A077478.P13653691619814893632.f1, A077478.P13653691619814893632.a, A003989, A003989.P4304575530733865990.a, A004736, A004736.P10337537277358081527.a, A057944, A057944.P16851463738746886639.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A182972
 
 /-! ## A182972.P10947081229885265393
@@ -6668,6 +6689,12 @@ namespace A182986
 /-- `A299763(n+1)-1` -/
 def P14663390224452996340.Spec : Prop :=
   ∀ n, P14663390224452996340.a n = A182986 (n + 1)
+
+theorem P14663390224452996340.correct : P14663390224452996340.Spec := by
+  intro n
+  simp only [A182986, Nat.add_sub_cancel, A182986.P14663390224452996340.a, A182986.P2625431067462217415.a, A054541, A054541.P347795157194570387.a, A299763, A299763.P9872008477996207838.a, A046930, A046930.P1162450832993365803.f1, A046930.P1162450832993365803.a, A011974, A011974.P2665693327137284562.a, A001043, A001043.P18269783162673735460.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A182986
 

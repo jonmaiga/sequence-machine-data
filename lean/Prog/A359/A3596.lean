@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -48,7 +49,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -83,6 +83,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A359600: The least odd number with the same prime signature as n.
@@ -954,7 +958,7 @@ end A359611.P11644031306290984647
 /-!
 # A359612: Largest prime factor with minimal exponent in canonical prime factorization of n.
 
-The programs for A359612, the canonical program `A359612.P8199071591271510256` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359612 has offset 2).
+The programs for A359612, the canonical program `A359612.P8199071591271510256` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359612 has offset 2).
 
 The definition of A359612 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -963,7 +967,7 @@ The definition of A359612 is `conjectured`: the Lean definition is a formula tha
 
 `A080367(A304776(n+2))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A359612
@@ -2721,6 +2725,12 @@ namespace A359647
 /-- `A000108(n)*A000984(2*n)` -/
 def P7090890822303353293.Spec : Prop :=
   ∀ n, P7090890822303353293.a n = A359647 n
+
+theorem P7090890822303353293.correct : P7090890822303353293.Spec := by
+  intro n
+  simp only [A359647, Nat.add_sub_cancel, A359647.P7090890822303353293.a, A359647.P17524220049966486840.a, A000108, A000108.P17551949696095299361.a, A000984, A000984.P7946844122574426130.a, A001448, A001448.P10146391060409880259.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A359647
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -30,15 +31,15 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C001
+import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -61,16 +62,22 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A396300: a(n) is the last term in the n-th block of A280864.
@@ -1088,6 +1095,12 @@ namespace A396317
 def P12981670887731330632.Spec : Prop :=
   ∀ n, P12981670887731330632.a n = (A396317 n : ℚ)
 
+theorem P12981670887731330632.correct : P12981670887731330632.Spec := by
+  intro n
+  simp only [A396317, Nat.add_sub_cancel, A396317.P12981670887731330632.a, A396317.P8377799462079475610.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A396317
 
 /-!
@@ -1185,7 +1198,7 @@ end A396321
 /-!
 # A396323: Numbers that are neither cubefree nor powerful with at least 3 distinct prime factors.
 
-The programs for A396323, the canonical program `A396323.P6518160970652980328` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396323 has offset 1).
+The programs for A396323, the canonical program `A396323.P6518160970652980328` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396323 has offset 1).
 
 The definition of A396323 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7067 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1194,7 +1207,7 @@ The definition of A396323 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A391319(n+1), A379958(#)]`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A396323
@@ -1505,7 +1518,7 @@ end A396335.P15407247416040118839
 /-!
 # A396336: Dirichlet convolution of A047994 with A023900.
 
-The programs for A396336, the canonical program `A396336.P13045972141286078433` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396336 has offset 1).
+The programs for A396336, the canonical program `A396336.P13045972141286078433` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396336 has offset 1).
 
 The definition of A396336 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1612,7 +1625,7 @@ end A396336
 
 `∑{d}[n+1, A055615(#)*A333645((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A396336
@@ -2152,6 +2165,35 @@ def P18292927323856446385.Spec : Prop :=
 
 end A396353
 
+/-! ## A396353.P17704387894290824383
+
+`A396351(lt[A106356(n+1), 1])`
+-/
+
+namespace A396353.P17704387894290824383
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A106356 (n + 1)
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A396351 (SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n)
+
+end
+
+end A396353.P17704387894290824383
+
+namespace A396353
+
+/-- `A396351(lt[A106356(n+1), 1])` -/
+def P17704387894290824383.Spec : Prop :=
+  ∀ n, P17704387894290824383.a n = A396353 (n + 1)
+
+end A396353
+
 /-!
 # A396354: Number of unsatisfiable 3-SAT formulas with n variables and 4 clauses in the multiset clause model.
 
@@ -2304,6 +2346,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A396364.P1931822507343978846
+
+/-!
+# A396379: Fixed points of A396378: integers m so that m is the smallest integer of the interval (m, m+1, ..., m+A396377(m)) that divides the product of the other integers.
+
+The programs for A396379, there is no canonical definition to state claims against.
+-/
+
+/-! ## A396379.P16200853944650071750
+
+`A050376(n+1)-A157196(A393620(2*(n+1)))`
+-/
+
+namespace A396379.P16200853944650071750
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A050376 (n + 1) - A157196 (A393620 (2 * (n + 1))).toNat
+
+end
+
+end A396379.P16200853944650071750
 
 /-!
 # A396381: Bi-unitary half-Zumkeller numbers: numbers whose set of bi-unitary proper divisors can be partitioned into two disjoint subsets of equal sum.

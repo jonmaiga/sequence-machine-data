@@ -623,7 +623,7 @@ end A319101.P8064482519650051145
 /-!
 # A319102: Triangle read by rows: The k-th column has alternating blocks of k 1's followed by k 0's (see example).
 
-The programs for A319102, the canonical program `A319102.P8736418722383109281` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319102 has offset 1).
+The programs for A319102, the canonical program `A319102.P8736418722383109281` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319102 has offset 1).
 
 The definition of A319102 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -724,7 +724,7 @@ end A319102
 
 `ceil(ratio[A074909(n)])%2`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A319102
@@ -5036,6 +5036,28 @@ end A319150.P12371288246448729264
 The programs for A319151, there is no canonical definition to state claims against.
 -/
 
+/-! ## A319151.P11494670063570866223
+
+`∪[A000040(n+1), A319152(n+1)]`
+-/
+
+namespace A319151.P11494670063570866223
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A319152 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A319151.P11494670063570866223
+
 /-! ## A319151.P3214632703035290115
 
 `record[A321366(2*n+1)]%A234665(n+1)`
@@ -5158,27 +5180,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A319151.P2118621631720889990
-
-/-! ## A319151.P2734339786661925172
-
-`eq[A040357(n), A286851(n)]`
--/
-
-namespace A319151.P2734339786661925172
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A040357 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286851 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A319151.P2734339786661925172
 
 /-!
 # A319152: Nonprime Heinz numbers of superperiodic integer partitions.
@@ -8512,7 +8513,7 @@ end A319184.P2808519359971142604
 
 The programs for A319187, the canonical program `A319187.P5382770131251099215` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319187 has offset 1).
 
-The definition of A319187 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A045948, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A319187 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A319187.P5382770131251099215

@@ -57,10 +57,8 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -6831,6 +6829,21 @@ end
 
 end A237194.P9644884797965932084
 
+/-! ## A237194.P15168881387800496193
+
+`lcm((-1)^n, A365661(n+1+round(sqrt(2*(n+1)))))`
+-/
+
+namespace A237194.P15168881387800496193
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.lcm ((-1) ^ n) (A365661 ((n + 1 : ℤ) + SequenceMachineLib.roundAway (Real.sqrt (2 * (n + 1) : ℝ))).toNat)
+
+end
+
+end A237194.P15168881387800496193
+
 /-! ## A237194.P16778181500117081809
 
 `A365661(A014132(n+1))%A001132(n+1)`
@@ -6882,24 +6895,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A237194.P12152391315185753512
-
-/-! ## A237194.P12383599646785976270
-
-`A196563(∑[A014410(A223777(n+1))])`
--/
-
-namespace A237194.P12383599646785976270
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014410 (A223777 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A196563 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A237194.P12383599646785976270
 
 /-!
 # A237195: Number of simple labeled graphs on n nodes that contain some size k connected component, all of whose nodes are labeled with integers {1,2,...,k} for some k in {1,2,...,n}.

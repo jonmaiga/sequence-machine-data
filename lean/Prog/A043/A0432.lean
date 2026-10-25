@@ -49,9 +49,9 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -61,7 +61,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -6795,7 +6794,7 @@ end A043275.P2820192959497066863
 /-!
 # A043276: a(n) = maximal run length in base-2 representation of n.
 
-The programs for A043276, the canonical program `A043276.P1642899858786712398` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043276 has offset 1).
+The programs for A043276, the canonical program `A043276.P1642899858786712398` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043276 has offset 1).
 
 The definition of A043276 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8192 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6827,7 +6826,7 @@ end A043276
 
 `A087117(A341915(n+1))+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A043276
@@ -7562,7 +7561,7 @@ end A043277
 /-!
 # A043278: Maximal run length in base 4 representation of n.
 
-The programs for A043278, the canonical program `A043278.P7875337536898136716` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043278 has offset 1).
+The programs for A043278, the canonical program `A043278.P7875337536898136716` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043278 has offset 1).
 
 The definition of A043278 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3071 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7617,7 +7616,7 @@ end A043278
 
 `A043279(A023733(n+2))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A043278
@@ -10283,9 +10282,9 @@ end A043288.P17437556732744661045
 /-!
 # A043289: Maximal run length in base-15 representation of n.
 
-The programs for A043289, the canonical program `A043289.P11919953001032112528` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043289 has offset 1).
+The programs for A043289, the canonical program `A043289.P2676077445732993452` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043289 has offset 1).
 
-The definition of A043289 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A043289 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 224 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A043289.P16118394781775462950
@@ -10392,23 +10391,19 @@ end A043289
 /-! ## A043289.P2676077445732993452
 
 `A014709(51*A336642(n+1))`
+
+The canonical program, it is in `Seq.B005.C000`.
 -/
-
-namespace A043289.P2676077445732993452
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014709 (51 * A336642 (n + 1)).toNat
-
-end
-
-end A043289.P2676077445732993452
 
 namespace A043289
 
 /-- `A014709(51*A336642(n+1))` -/
 def P2676077445732993452.Spec : Prop :=
   ∀ n, P2676077445732993452.a n = A043289 (n + 1)
+
+theorem P2676077445732993452.correct : P2676077445732993452.Spec := by
+  intro n
+  simp only [A043289, Nat.add_sub_cancel]
 
 end A043289
 
@@ -10697,25 +10692,6 @@ namespace A043289
 /-- `gcd(A040722(n), A041171(n))` -/
 def P880087880059460946.Spec : Prop :=
   ∀ n, (P880087880059460946.a n : ℤ) = A043289 (n + 1)
-
-end A043289
-
-/-! ## A043289.P11919953001032112528
-
-`and(3^n, val(n+1, 4)!)`
-
-The canonical program, it is in `Seq.B000.C007`.
--/
-
-namespace A043289
-
-/-- `and(3^n, val(n+1, 4)!)` -/
-def P11919953001032112528.Spec : Prop :=
-  ∀ n, (P11919953001032112528.a n : ℤ) = A043289 (n + 1)
-
-theorem P11919953001032112528.correct : P11919953001032112528.Spec := by
-  intro n
-  simp only [A043289, Nat.add_sub_cancel]
 
 end A043289
 

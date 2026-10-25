@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -42,7 +43,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C002
 import Seq.B006.C000
@@ -83,6 +84,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A367400: Number of subsets of {1..n} whose cardinality is not the sum of two distinct elements.
@@ -304,6 +309,12 @@ namespace A367400
 /-- `2^n-A367396(n)` -/
 def P2174536220729075910.Spec : Prop :=
   ∀ n, P2174536220729075910.a n = A367400 n
+
+theorem P2174536220729075910.correct : P2174536220729075910.Spec := by
+  intro n
+  simp only [A367400, Nat.add_sub_cancel, A367400.P2174536220729075910.a, A367400.P7738418284028157805.a, A367396, A367396.P3258263714388146902.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A367400
 
@@ -679,6 +690,21 @@ end
 
 end A367405.P654423269051683103
 
+/-! ## A367405.P8253079387936573303
+
+`A116861(n+1)-A243827(A063841(2*n+3))`
+-/
+
+namespace A367405.P8253079387936573303
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A116861 (n + 1) - A243827 (A063841 (2 * n + 3)).toNat
+
+end
+
+end A367405.P8253079387936573303
+
 /-! ## A367405.P8255693277768518651
 
 `A126305(A050376(2*n+5))-2`
@@ -723,21 +749,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A367405.P18420878654570177964
-
-/-! ## A367405.P3516826495184156449
-
-`A266608(n+1)+A266608(A000537(n))`
--/
-
-namespace A367405.P3516826495184156449
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A266608 (n + 1) + A266608 (A000537 n).toNat
-
-end
-
-end A367405.P3516826495184156449
 
 /-!
 # A367406: The exponentially odd numbers (A268335) multiplied by their squarefree kernels (A007947).
@@ -1624,7 +1635,7 @@ end A367415.P1611984041583076992
 
 The programs for A367417, the canonical program `A367417.P18277504886847390025` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367417 has offset 1).
 
-The definition of A367417 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007947, A268335, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A367417 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A268335, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A367417.P18277504886847390025
@@ -4459,6 +4470,12 @@ namespace A367466
 def P7758061789450967566.Spec : Prop :=
   ∀ n, P7758061789450967566.a n = A367466 (n + 1)
 
+theorem P7758061789450967566.correct : P7758061789450967566.Spec := by
+  intro n
+  simp only [A367466, Nat.add_sub_cancel, A367466.P7758061789450967566.f1, A367466.P7758061789450967566.a, A367466.P6704983059256722325.f1, A367466.P6704983059256722325.a, A010879, A010879.P10561743211919002802.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A367466
 
 /-!
@@ -4658,6 +4675,12 @@ namespace A367476
 /-- `∑{p}[n+1, A010879(#)]` -/
 def P14237674905548221555.Spec : Prop :=
   ∀ n, P14237674905548221555.a n = A367476 (n + 1)
+
+theorem P14237674905548221555.correct : P14237674905548221555.Spec := by
+  intro n
+  simp only [A367476, Nat.add_sub_cancel, A367476.P14237674905548221555.f1, A367476.P14237674905548221555.a, A367476.P8650596764351560168.f1, A367476.P8650596764351560168.a, A010879, A010879.P10561743211919002802.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A367476
 
@@ -5378,6 +5401,27 @@ end
 
 end A367491.P17301155362913828679
 
+/-! ## A367491.P10329413281939248900
+
+`lt[A352895(A054296(n+1)), A122289(3*n+1)]`
+-/
+
+namespace A367491.P10329413281939248900
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A352895 (A054296 (n + 1)).toNat
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122289 (3 * n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A367491.P10329413281939248900
+
 /-! ## A367491.P8009934121651109780
 
 `A318991(2*(n+1))+A005614(A034729(n+1))`
@@ -5573,7 +5617,7 @@ end A367495.P11097373857313491874
 /-!
 # A367496: Semiprimes k such that 2*k - 1 and 2*k + 1 are also semiprimes.
 
-The programs for A367496, the canonical program `A367496.P16192145685333246276` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367496 has offset 1).
+The programs for A367496, the canonical program `A367496.P16192145685333246276` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367496 has offset 1).
 
 The definition of A367496 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1889 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5672,7 +5716,7 @@ end A367496
 
 `∩[A082130(n+1), A111168(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A367496

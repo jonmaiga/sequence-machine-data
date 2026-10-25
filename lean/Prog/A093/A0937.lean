@@ -54,11 +54,9 @@ import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2972,6 +2970,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A093737.P6643467449047315057
+
+/-! ## A093737.P10774057873745108181
+
+`A113254(A330735(n+1))+A080840(n+1)`
+-/
+
+namespace A093737.P10774057873745108181
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A113254 (A330735 (n + 1)).toNat + A080840 (n + 1)
+
+end
+
+end A093737.P10774057873745108181
 
 /-!
 # A093738: Number of pairs of consecutive prime (p,q) with q-p=6 and q < 10^n.

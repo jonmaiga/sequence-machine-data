@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -53,6 +54,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -93,6 +95,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A342100: Abundant numbers k at which the ratio (number of abundant numbers in 1..k)/k reaches a new record high.
@@ -1224,6 +1230,24 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A342119.P8887062567003759670
+
+/-! ## A342119.P13342332791254224717
+
+`record[A372742(n+1)%A062518(2*n+5)]`
+-/
+
+namespace A342119.P13342332791254224717
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A372742 (n + 1)) (A062518 (2 * n + 5))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A342119.P13342332791254224717
 
 /-! ## A342119.P47277019490654830
 
@@ -5689,6 +5713,12 @@ namespace A342156
 /-- `A065091(n+2)%3-A134323(n+4)` -/
 def P14789157790176053779.Spec : Prop :=
   ∀ n, P14789157790176053779.a n = A342156 (n + 3)
+
+theorem P14789157790176053779.correct : P14789157790176053779.Spec := by
+  intro n
+  simp only [A342156, Nat.add_sub_cancel, A342156.P14789157790176053779.a, A342156.P9221010650730424222.a, A039701, A039701.P15201722471215268317.a, A065091, A065091.P6971844946592549357.a, A134323, A134323.P18243565506168463264.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A008864, A008864.P9177617808325052279.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A342156
 

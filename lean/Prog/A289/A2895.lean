@@ -41,15 +41,15 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -86,7 +86,7 @@ set_option linter.unreachableTactic false
 /-!
 # A289500: Number of primes in the interval [9n, 10n].
 
-The programs for A289500, the canonical program `A289500.P6623169090579863016` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289500 has offset 1).
+The programs for A289500, the canonical program `A289500.P6623169090579863016` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289500 has offset 1).
 
 The definition of A289500 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -118,7 +118,7 @@ end A289500
 
 `A038801(n+1)-A100637(A016789(n))`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A289500
@@ -153,6 +153,12 @@ namespace A289500
 /-- `A289495(2*(n+1))-A289499(n+1)` -/
 def P2530525038383078202.Spec : Prop :=
   ∀ n, P2530525038383078202.a n = A289500 (n + 1)
+
+theorem P2530525038383078202.correct : P2530525038383078202.Spec := by
+  intro n
+  simp only [A289500, Nat.add_sub_cancel, A289500.P2530525038383078202.a, A289500.P6623169090579863016.a, A016789, A016789.P8277564872725303677.a, A038801, A038801.P2729700346565965031.a, A100637, A100637.P13819822131188342482.a, A289495, A289495.P8621251357975722322.a, A289499, A289499.P16333506063555151706.a, A000720, A000720.P1755771944745605250.f2, A000720.P1755771944745605250.f1, A000720.P1755771944745605250.a, A008706, A008706.P2829034798076193717.a, A075743, A075743.P8124416718606607743.a, A099801, A099801.P5638060238408130792.f1, A099801.P5638060238408130792.a, A007310, A007310.P9946423629536973135.a, A010051, A010051.P15078252821583414300.a, A101808, A101808.P11599829099457824818.f2, A101808.P11599829099457824818.f1, A101808.P11599829099457824818.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A289500
 
@@ -3367,7 +3373,7 @@ end A289553
 /-!
 # A289554: Numbers that are the product of two distinct composite numbers (A002808).
 
-The programs for A289554, the canonical program `A289554.P7471265002348983110` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289554 has offset 1).
+The programs for A289554, the canonical program `A289554.P7471265002348983110` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289554 has offset 1).
 
 The definition of A289554 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3376,7 +3382,7 @@ The definition of A289554 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A046304(n+1), A307342(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A289554
@@ -3656,7 +3662,7 @@ end A289554
 /-!
 # A289555: Numbers that are not the product of two distinct composite numbers (A002808).
 
-The programs for A289555, the canonical program `A289555.P9214579124908911506` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289555 has offset 1).
+The programs for A289555, the canonical program `A289555.P9214579124908911506` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289555 has offset 1).
 
 The definition of A289555 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6428 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3781,7 +3787,7 @@ end A289555
 
 `lt[A122179(n+1), 2]+1`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A289555
@@ -5383,7 +5389,7 @@ end A289584.P16655112446995758589
 
 The programs for A289585, the canonical program `A289585.P5960087080967793466` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289585 has offset 1).
 
-The definition of A289585 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A000010, A020491, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A289585 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A020491, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A289585.P5960087080967793466
@@ -5787,6 +5793,12 @@ namespace A289589
 /-- `(A289448(n)+1)/2` -/
 def P2986373631983708106.Spec : Prop :=
   ∀ n, P2986373631983708106.a n = (A289589 n : ℚ)
+
+theorem P2986373631983708106.correct : P2986373631983708106.Spec := by
+  intro n
+  simp only [A289589, Nat.add_sub_cancel, A289589.P2986373631983708106.a, A289589.P10535227749720856808.a, A000108, A000108.P17551949696095299361.a, A135336, A135336.P8279202122990715746.f1, A135336.P8279202122990715746.a, A289448, A289448.P5757188125060123569.a, A000957, A000957.P17024256012114130201.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A289589
 

@@ -55,7 +55,6 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
@@ -3751,20 +3750,20 @@ end
 
 end A241150.P16441899807141970503
 
-/-! ## A241150.P16949149598147669969
+/-! ## A241150.P12030984396697962855
 
-`A125070(A165676(n+1)+A131432(n))`
+`A304091(A303158(2*(n+1))+A033842(2*n+3))`
 -/
 
-namespace A241150.P16949149598147669969
+namespace A241150.P12030984396697962855
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A125070 (A165676 (n + 1) + A131432 n).toNat
+  A304091 (A303158 (2 * (n + 1)) + A033842 (2 * n + 3)).toNat
 
 end
 
-end A241150.P16949149598147669969
+end A241150.P12030984396697962855
 
 /-!
 # A241151: Number of distinct degrees in the partition graph G(n) defined at A241150.
@@ -4273,6 +4272,12 @@ namespace A241151
 /-- `∑[2-A129765(n+1)]` -/
 def P4025021157416759771.Spec : Prop :=
   ∀ n, P4025021157416759771.a n = A241151 (n + 2)
+
+theorem P4025021157416759771.correct : P4025021157416759771.Spec := by
+  intro n
+  simp only [A241151, Nat.add_sub_cancel, A241151.P4025021157416759771.f1, A241151.P4025021157416759771.a, A241151.P10347220583869706345.f1, A241151.P10347220583869706345.a, A097806, A097806.P6713740258379660295.a, A129765, A129765.P12083585102544052263.a, A002260, A002260.P769748059679640451.a, A003056, A003056.P5318256527314048597.a, A002262, A002262.P12129691700837801527.a, A057944, A057944.P16851463738746886639.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A241151
 
@@ -4997,26 +5002,23 @@ end
 
 end A241167.P11740590326487066136
 
-/-! ## A241167.P2103157777731519463
+/-! ## A241167.P14222530271537123980
 
-`eq[A225485(3*n+4), A321755(A163361(n+1))]`
+`record[A337987(2*n+5)%A000203(n+1)]`
 -/
 
-namespace A241167.P2103157777731519463
+namespace A241167.P14222530271537123980
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A225485 (3 * n + 4)
+  Int.tmod (A337987 (2 * n + 5)) (A000203 (n + 1))
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321755 (A163361 (n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A241167.P2103157777731519463
+end A241167.P14222530271537123980
 
 /-!
 # A241168: Triangle read by rows: T(n,k) (1 <= k <= n) = Steffensen's bracket function [n,n-k].
@@ -6704,6 +6706,27 @@ end
 end A241190.P8543318856818610892
 
 /-!
+# A241191: Numerator of Sum_{i=1..n} 1/(prime(i)*prime(i+1)*prime(i+2)).
+
+The programs for A241191, there is no canonical definition to state claims against.
+-/
+
+/-! ## A241191.P4794617484442298879
+
+`A106621(A000170(2*(n+1))+1)`
+-/
+
+namespace A241191.P4794617484442298879
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A106621 (A000170 (2 * (n + 1)) + 1).toNat
+
+end
+
+end A241191.P4794617484442298879
+
+/-!
 # A241193: a(n) = Sum_{k=1..n} ((3*n-k-1)/(2*n-k))*(3*n-k-2)!/((n-1)!*(n-1)!*(n-k)!).
 
 The programs for A241193, there is no canonical definition to state claims against.
@@ -6810,7 +6833,7 @@ end A241193.P10199926901350096664
 
 The programs for A241194, the canonical program `A241194.P2614168708065509877` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241194 has offset 1).
 
-The definition of A241194 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006093, A076512, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A241194 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A076512, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A241194.P2614168708065509877
@@ -7235,7 +7258,7 @@ end A241194
 
 The programs for A241195, the canonical program `A241195.P7791902164886545125` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241195 has offset 1).
 
-The definition of A241195 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006093, A109395, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A241195 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A109395, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A241195.P7791902164886545125

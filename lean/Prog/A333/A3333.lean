@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -53,11 +54,12 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -67,6 +69,7 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -92,6 +95,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A333302: Numbers produced by iteratively sorting the digits of the last number from largest to smallest in base 10 and then doubling, starting with the number 1.
@@ -831,7 +838,7 @@ end A333311.P17700797232921869657
 /-!
 # A333312: Positive integers m >= 2 such that there are at least two values of v such that the sequence {v, ..., v + m - 1} of m nonnegative integers can be partitioned into two subsets of consecutive integers with the same sum.
 
-The programs for A333312, the canonical program `A333312.P3354544449326470189` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333312 has offset 1).
+The programs for A333312, the canonical program `A333312.P3354544449326470189` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333312 has offset 1).
 
 The definition of A333312 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -840,7 +847,7 @@ The definition of A333312 is `conjectured`: the Lean definition is a formula tha
 
 `∪[2*A153238(n+1)+3, A156683(A009005(n+1))]`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A333312
@@ -2386,6 +2393,12 @@ namespace A333320
 def P3085121105092835399.Spec : Prop :=
   ∀ n, P3085121105092835399.a n = A333320 n
 
+theorem P3085121105092835399.correct : P3085121105092835399.Spec := by
+  intro n
+  simp only [A333320, Nat.add_sub_cancel, A333320.P3085121105092835399.a, A333320.P11260465635556821333.a, A000332, A000332.P5946310388023661265.a, A008619, A008619.P16053834178911111118.a, A110654, A110654.P360289776162656549.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A333320
 
 /-! ## A333320.P14335306289734321373
@@ -2574,6 +2587,12 @@ namespace A333321
 def P10196751340364481051.Spec : Prop :=
   ∀ n, P10196751340364481051.a n = A333321 n
 
+theorem P10196751340364481051.correct : P10196751340364481051.Spec := by
+  intro n
+  simp only [A333321, Nat.add_sub_cancel, A333321.P10196751340364481051.a, A333321.P11917926452411153153.a, A000332, A000332.P5946310388023661265.a, A004526, A004526.P10084182425416171735.a, A110654, A110654.P360289776162656549.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A333321
 
 /-! ## A333321.P15664609327099935611
@@ -2619,6 +2638,12 @@ namespace A333321
 /-- `A000332(A008619(n)-1)*A110654(n)` -/
 def P15090277007917786789.Spec : Prop :=
   ∀ n, P15090277007917786789.a n = A333321 n
+
+theorem P15090277007917786789.correct : P15090277007917786789.Spec := by
+  intro n
+  simp only [A333321, Nat.add_sub_cancel, A333321.P15090277007917786789.a, A333321.P11917926452411153153.a, A000332, A000332.P5946310388023661265.a, A008619, A008619.P16053834178911111118.a, A110654, A110654.P360289776162656549.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A333321
 
@@ -2891,7 +2916,7 @@ end A333325.P8046886999252275604
 /-!
 # A333326: Odd numbers k such that k is the product of 2 numbers greater than one, in two or more ways.
 
-The programs for A333326, the canonical program `A333326.P2975719134818226365` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333326 has offset 1).
+The programs for A333326, the canonical program `A333326.P2975719134818226365` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333326 has offset 1).
 
 The definition of A333326 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2900,7 +2925,7 @@ The definition of A333326 is `conjectured`: the Lean definition is a formula tha
 
 `lt[3, A325937(n+1)]+1`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A333326
@@ -4972,6 +4997,12 @@ namespace A333355
 def P6828850082911953296.Spec : Prop :=
   ∀ n, P6828850082911953296.a n = A333355 (n + 1)
 
+theorem P6828850082911953296.correct : P6828850082911953296.Spec := by
+  intro n
+  simp only [A333355, Nat.add_sub_cancel, A333355.P6828850082911953296.a, A333355.P11784609538395250902.a, A000523, A000523.P3314682526375882520.a, A062153, A062153.P7840962928244100057.a, A329194, A329194.P3650680996998334854.a, A329199, A329199.P13472642438074930869.a, A000290, A000290.P12206242496348924484.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A333355
 
 /-! ## A333355.P18413343090170117536
@@ -5664,7 +5695,7 @@ end A333362.P2771626365623416492
 /-!
 # A333363: Horizontal visibility sequence at the onset of chaos in the 3-period cascade.
 
-The programs for A333363, the canonical program `A333363.P17407315961805387594` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333363 has offset 1).
+The programs for A333363, the canonical program `A333363.P17407315961805387594` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333363 has offset 1).
 
 The definition of A333363 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3072 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5673,7 +5704,7 @@ The definition of A333363 is `conjectured`: the Lean definition is a formula tha
 
 `A059126(record[xor(3, n)])`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A333363

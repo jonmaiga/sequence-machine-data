@@ -54,6 +54,7 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2554,6 +2555,12 @@ namespace A185438
 def P12963841054646750844.Spec : Prop :=
   ∀ n, P12963841054646750844.a n = A185438 n
 
+theorem P12963841054646750844.correct : P12963841054646750844.Spec := by
+  intro n
+  simp only [A185438, Nat.add_sub_cancel, A185438.P12963841054646750844.a, A185438.P17362725107201576435.a, A130883, A130883.P336739246276696576.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A185438
 
 /-! ## A185438.P11920535587532452252
@@ -2576,6 +2583,12 @@ namespace A185438
 /-- `(A054554(2*n+1)+1)/2` -/
 def P11920535587532452252.Spec : Prop :=
   ∀ n, P11920535587532452252.a n = (A185438 n : ℚ)
+
+theorem P11920535587532452252.correct : P11920535587532452252.Spec := by
+  intro n
+  simp only [A185438, Nat.add_sub_cancel, A185438.P11920535587532452252.a, A185438.P17362725107201576435.a, A054554, A054554.P10059529129339584182.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A185438
 

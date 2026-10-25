@@ -1853,7 +1853,7 @@ end A164708.P7432346570851932617
 /-!
 # A164709: A positive integer n is included if all runs of 1's in binary n are of the same length, and if there are at least two runs of 1's.
 
-The programs for A164709, the canonical program `A164709.P12181322775602558519` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164709 has offset 1).
+The programs for A164709, the canonical program `A164709.P12181322775602558519` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164709 has offset 1).
 
 The definition of A164709 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1862,7 +1862,7 @@ The definition of A164709 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A304455(A246029(n))]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A164709
@@ -2144,7 +2144,7 @@ end A164709
 /-!
 # A164710: A positive integer n is included if all runs of 0's in binary n are of the same length.
 
-The programs for A164710, the canonical program `A164710.P2502700066780517803` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164710 has offset 1).
+The programs for A164710, the canonical program `A164710.P2502700066780517803` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164710 has offset 1).
 
 The definition of A164710 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1607 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2269,7 +2269,7 @@ end A164710
 
 `eq[A087116(n)*A087117(n), A080791(n)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A164710
@@ -8623,6 +8623,12 @@ namespace A164785
 /-- `(A064385(n+1)-5)/2` -/
 def P12990047987966305478.Spec : Prop :=
   ∀ n, P12990047987966305478.a n = (A164785 (n + 1) : ℚ)
+
+theorem P12990047987966305478.correct : P12990047987966305478.Spec := by
+  intro n
+  simp only [A164785, Nat.add_sub_cancel, A164785.P12990047987966305478.a, A164785.P17587648812554454758.a, A064385, A064385.P1222445988099951119.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A164785
 

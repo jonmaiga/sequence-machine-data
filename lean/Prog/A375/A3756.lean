@@ -48,7 +48,6 @@ import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
@@ -2135,6 +2134,21 @@ end
 
 end A375663.P16571179616222902425
 
+/-! ## A375663.P721559716491063965
+
+`A006530(A000400(n))*A371304(n)`
+-/
+
+namespace A375663.P721559716491063965
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A006530 (A000400 n).toNat * A371304 n
+
+end
+
+end A375663.P721559716491063965
+
 /-! ## A375663.P8295457387573111137
 
 `A099551(A002001(n))*A371304(n)`
@@ -2149,21 +2163,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A375663.P8295457387573111137
-
-/-! ## A375663.P14559420849686898569
-
-`A362892(n)*A362915(A141769(n+1))`
--/
-
-namespace A375663.P14559420849686898569
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A362892 n * A362915 (A141769 (n + 1)).toNat
-
-end
-
-end A375663.P14559420849686898569
 
 /-!
 # A375664: Expansion of e.g.f. 1 / (1 - x * (exp(x^2) - 1))^2.

@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -45,6 +46,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -53,14 +55,14 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
-import Seq.B009.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -90,6 +92,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A375101: a(0) = 1; a(n+1) = 10*a(n) + A010888(a(n)), where A010888 = digital root.
@@ -1643,7 +1649,7 @@ end A375135.P421396800439246831
 /-!
 # A375136: Number of maximal strictly increasing runs in the weakly increasing prime factors of n.
 
-The programs for A375136, the canonical program `A375136.P12794075087779853218` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375136 has offset 1).
+The programs for A375136, the canonical program `A375136.P12794075087779853218` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375136 has offset 1).
 
 The definition of A375136 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1652,7 +1658,7 @@ The definition of A375136 is `conjectured`: the Lean definition is a formula tha
 
 `∑{e}[A217434(n+1), #]`
 
-The canonical program, it is in `Seq.B009.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A375136
@@ -2789,7 +2795,7 @@ end A375143.P15731412215796478735
 /-!
 # A375144: Numbers whose prime factorization has exactly two exponents that equal 2 and has no higher exponents.
 
-The programs for A375144, the canonical program `A375144.P11032156288611190920` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375144 has offset 1).
+The programs for A375144, the canonical program `A375144.P11032156288611190920` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375144 has offset 1).
 
 The definition of A375144 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2211 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3116,7 +3122,7 @@ end A375144
 
 `filter[A338539(n+1), A212793(#)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A375144
@@ -3346,7 +3352,7 @@ end A375144
 /-!
 # A375145: Numbers whose prime factorization has exactly one exponent that is larger than 2.
 
-The programs for A375145, the canonical program `A375145.P4922130066098864515` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375145 has offset 1).
+The programs for A375145, the canonical program `A375145.P4922130066098864515` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375145 has offset 1).
 
 The definition of A375145 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8078 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3355,7 +3361,7 @@ The definition of A375145 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A295659(n+1)]+1`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A375145
@@ -4079,6 +4085,12 @@ namespace A375155
 /-- `A171390(n+3)` -/
 def P13133272732717825821.Spec : Prop :=
   ∀ n, P13133272732717825821.a n = A375155 (n + 1)
+
+theorem P13133272732717825821.correct : P13133272732717825821.Spec := by
+  intro n
+  simp only [A375155, Nat.add_sub_cancel, A375155.P13133272732717825821.a, A375155.P2900107506833668113.a, A171390, A171390.P1204949123831550913.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A375155
 

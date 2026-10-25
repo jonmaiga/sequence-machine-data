@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -60,10 +61,11 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B009.C000
@@ -97,6 +99,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A317600: Number of nX4 0..1 arrays with every element unequal to 0, 1, 2, 3, 5, 6, 7 or 8 king-move adjacent elements, with upper left element zero.
@@ -3138,6 +3144,12 @@ namespace A317626
 def P7327866362109576054.Spec : Prop :=
   ∀ n, P7327866362109576054.a n = A317626 (n + 1)
 
+theorem P7327866362109576054.correct : P7327866362109576054.Spec := by
+  intro n
+  simp only [A317626, Nat.add_sub_cancel, A317626.P7327866362109576054.a, A317626.P14555448525980414570.a, A005384, A005384.P4537023799186511760.f1, A005384.P4537023799186511760.a, A077065, A077065.P3431251406781570749.a, A005385, A005385.P12850744102754472242.a, A348511, A348511.P16032306020572469586.f1, A348511.P16032306020572469586.f2, A348511.P16032306020572469586.a, A246277, A246277.P3450750564944014413.a, A348717, A348717.P703712104273003584.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A317626
 
 /-! ## A317626.P6074573584615561730
@@ -4533,6 +4545,12 @@ namespace A317637
 def P11816787458557380293.Spec : Prop :=
   ∀ n, P11816787458557380293.a n = A317637 n
 
+theorem P11816787458557380293.correct : P11816787458557380293.Spec := by
+  intro n
+  simp only [A317637, Nat.add_sub_cancel, A317637.P11816787458557380293.a, A317637.P12410921374359631461.a, A152619, A152619.P2662992481695215872.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A317637
 
 /-! ## A317637.P12035634734938851113
@@ -4608,6 +4626,12 @@ namespace A317637
 def P12603240597505991174.Spec : Prop :=
   ∀ n, P12603240597505991174.a n = A317637 n
 
+theorem P12603240597505991174.correct : P12603240597505991174.Spec := by
+  intro n
+  simp only [A317637, Nat.add_sub_cancel, A317637.P12603240597505991174.a, A317637.P12410921374359631461.a, A081437, A081437.P14818767288704405254.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A317637
 
 /-! ## A317637.P12617726168677316929
@@ -4630,6 +4654,12 @@ namespace A317637
 /-- `A033954(n)+n^3` -/
 def P12617726168677316929.Spec : Prop :=
   ∀ n, P12617726168677316929.a n = A317637 n
+
+theorem P12617726168677316929.correct : P12617726168677316929.Spec := by
+  intro n
+  simp only [A317637, Nat.add_sub_cancel, A317637.P12617726168677316929.a, A317637.P12410921374359631461.a, A033954, A033954.P6740312584908585872.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A317637
 
@@ -4757,6 +4787,12 @@ namespace A317637
 /-- `A068601(n+1)+n²` -/
 def P14140626446709232190.Spec : Prop :=
   ∀ n, P14140626446709232190.a n = A317637 n
+
+theorem P14140626446709232190.correct : P14140626446709232190.Spec := by
+  intro n
+  simp only [A317637, Nat.add_sub_cancel, A317637.P14140626446709232190.a, A317637.P12410921374359631461.a, A068601, A068601.P18163521696996894258.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A317637
 
@@ -5768,20 +5804,20 @@ end A317650.P9846526998100773254
 The programs for A317651, there is no canonical definition to state claims against.
 -/
 
-/-! ## A317651.P5841083037048952686
+/-! ## A317651.P13356654466986600934
 
-`or(A008619(A293145(n)), A009454(n))`
+`A082640(A000272(n))-A000670(n)`
 -/
 
-namespace A317651.P5841083037048952686
+namespace A317651.P13356654466986600934
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A008619 (A293145 n).toNat) (A009454 n)
+  A082640 (A000272 n).toNat - A000670 n
 
 end
 
-end A317651.P5841083037048952686
+end A317651.P13356654466986600934
 
 /-!
 # A317652: Number of free pure symmetric multifunctions whose leaves are an integer partition of n.
@@ -6953,7 +6989,7 @@ end A317670.P4076908204362709128
 /-!
 # A317673: Moebius transform of A129502.
 
-The programs for A317673, the canonical program `A317673.P16095288745684130217` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317673 has offset 1).
+The programs for A317673, the canonical program `A317673.P16095288745684130217` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317673 has offset 1).
 
 The definition of A317673 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7077,7 +7113,7 @@ end A317673
 
 `A001511(n+1)*A209635(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A317673

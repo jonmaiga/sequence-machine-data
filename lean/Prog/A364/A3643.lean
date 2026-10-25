@@ -1546,6 +1546,27 @@ end
 end A364325.P14843758208021031531
 
 /-!
+# A364326: Underline the k-th digit of a(n), k being the rightmost digit of a(n). This is the lexicographically earliest sequence of distinct terms > 0 such that the succession of the underlined digit is the succession of the sequence's digits themselves.
+
+The programs for A364326, there is no canonical definition to state claims against.
+-/
+
+/-! ## A364326.P15373270270554595768
+
+`or(A097585(2*n+1), A135767(A205917(2*n+1)))`
+-/
+
+namespace A364326.P15373270270554595768
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor (A097585 (2 * n + 1)) (A135767 (A205917 (2 * n + 1)).toNat)
+
+end
+
+end A364326.P15373270270554595768
+
+/-!
 # A364327: Number of endofunctions on [n] such that the number of elements that are mapped to i is either 0 or a divisor of i.
 
 The programs for A364327, there is no canonical definition to state claims against.
@@ -2366,7 +2387,7 @@ end A364342
 
 The programs for A364343, the canonical program `A364343.P7180893498198076980` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364343 has offset 1).
 
-The definition of A364343 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048272, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A364343 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A364343.P7180893498198076980
@@ -3338,7 +3359,7 @@ end A364350.P11000670406306152229
 
 The programs for A364351, the canonical program `A364351.P8907097505146139643` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A364351 has offset 1).
 
-The definition of A364351 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048272, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A364351 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A364351.P8907097505146139643

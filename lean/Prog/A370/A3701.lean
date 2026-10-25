@@ -55,7 +55,7 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
-import Seq.B009.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -1018,7 +1018,7 @@ end A370118
 /-!
 # A370119: Numbers whose arithmetic derivative is a multiple of 9.
 
-The programs for A370119, the canonical program `A370119.P13163184009623574713` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370119 has offset 1).
+The programs for A370119, the canonical program `A370119.P13163184009623574713` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370119 has offset 1).
 
 The definition of A370119 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5414 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1027,7 +1027,7 @@ The definition of A370119 is `conjectured`: the Lean definition is a formula tha
 
 `lt[0, A370118(n)]`
 
-The canonical program, it is in `Seq.B009.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A370119
@@ -1849,6 +1849,12 @@ namespace A370123
 /-- `eq[1, A359430(A003415(n))]` -/
 def P10148895970029334155.Spec : Prop :=
   ∀ n, (P10148895970029334155.a n : ℤ) = A370123 (n + 1)
+
+theorem P10148895970029334155.correct : P10148895970029334155.Spec := by
+  intro n
+  simp only [A370123, Nat.add_sub_cancel, A370123.P10148895970029334155.f1, A370123.P10148895970029334155.f2, A370123.P10148895970029334155.a, A370123.P8428876455859098462.f1, A370123.P8428876455859098462.f2, A370123.P8428876455859098462.a, A003415, A003415.P9326043729983995739.f1, A003415.P9326043729983995739.a, A359430, A359430.P17743289433619034511.a, A370122, A370122.P7977747716848007061.a, A300251, A300251.P13750012435361977920.f1, A300251.P13750012435361977920.a, A007427, A007427.P16346481250890679101.f1, A007427.P16346481250890679101.a, A319684, A319684.P10446271486458079777.f1, A319684.P10446271486458079777.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A349394, A349394.P210516795435731064.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A370123
 
@@ -4079,6 +4085,21 @@ end A370159.P712641458207507835
 The programs for A370160, there is no canonical definition to state claims against.
 -/
 
+/-! ## A370160.P12580173920888148374
+
+`A273943(2*A372464(n))`
+-/
+
+namespace A370160.P12580173920888148374
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A273943 (2 * A372464 n).toNat
+
+end
+
+end A370160.P12580173920888148374
+
 /-! ## A370160.P1551115477320543624
 
 `A372464(n^A098093(n))`
@@ -4093,24 +4114,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A370160.P1551115477320543624
-
-/-! ## A370160.P6965800181477018819
-
-`filter[A372464(n), A005171(#)]`
--/
-
-namespace A370160.P6965800181477018819
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A372464 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A005171 (f1 j).toNat = 1) n)
-
-end
-
-end A370160.P6965800181477018819
 
 /-!
 # A370161: a(n) is the dimension of the multilinear part of the free flexible algebra with n generators.
@@ -5145,6 +5148,25 @@ namespace A370176
 /-- `((30-7*sqrt(15))*(3-sqrt(15))^n+(30+7*sqrt(15))*(3+sqrt(15))^n+6)/66` -/
 def P6373638544685505545.Spec : Prop :=
   ∀ n, P6373638544685505545.a n = (A370176 n : ℝ)
+
+theorem P6373638544685505545.correct : P6373638544685505545.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 =>
+      simp [A370176, Nat.add_sub_cancel, A370176.P6373638544685505545.a, A370176.P13697922646488093336.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+    | m + 3 =>
+      have h1 := ih (m + 2) (by omega)
+      have h3 := ih m (by omega)
+      simp only [A370176, Nat.add_sub_cancel, A370176.P6373638544685505545.a, A370176.P13697922646488093336.a, SequenceMachineLib.memo_apply] at h1 h3 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 3 - 1 = m + 2 by omega, show m + 3 - 3 = m by omega, show m + 2 < m + 3 by omega, show m < m + 3 by omega, ↓reduceIte]
+      push_cast at h1 h3 ⊢
+      rw [← h1, ← h3]
+      first | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A370176
 

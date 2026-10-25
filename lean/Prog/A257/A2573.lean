@@ -1438,6 +1438,21 @@ end A257332.P16508057689646535053
 The programs for A257333, there is no canonical definition to state claims against.
 -/
 
+/-! ## A257333.P3807321759688018655
+
+`xor(n+2, A000122(A185242(n)))`
+-/
+
+namespace A257333.P3807321759688018655
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.xor (n + 2 : ℤ) (A000122 (A185242 n).toNat)
+
+end
+
+end A257333.P3807321759688018655
+
 /-! ## A257333.P3325561109519216443
 
 `A094053(A007953(C(n, 30)+4))+n`
@@ -1497,21 +1512,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A257333.P1123412401271028580
-
-/-! ## A257333.P5327488051276594400
-
-`A224850(A224850(n+2))+n+1`
--/
-
-namespace A257333.P5327488051276594400
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224850 (A224850 (n + 2)).toNat + (n + 1 : ℤ)
-
-end
-
-end A257333.P5327488051276594400
 
 /-!
 # A257339: Arrange numbers in a single clockwise spiral so that each number is relatively prime to its eight neighbors.

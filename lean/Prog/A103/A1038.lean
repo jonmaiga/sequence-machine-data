@@ -60,6 +60,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -1094,42 +1095,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A103815.P8693017260364484171
-
-/-! ## A103815.P14295866925640334963
-
-`A052449(n+1)-2`
--/
-
-namespace A103815.P14295866925640334963
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052449 (n + 1) - 2
-
-end
-
-end A103815.P14295866925640334963
-
-/-! ## A103815.P13520296572115976442
-
-`∏[∑[A212804(n)]]-1`
--/
-
-namespace A103815.P13520296572115976442
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A212804 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ j ∈ Finset.range (n + 1), f1 j - 1
-
-end
-
-end A103815.P13520296572115976442
 
 /-!
 # A103816: Numerator of Sum_{k=1..n} (-1)^(k+1)/k!.
@@ -9948,6 +9913,12 @@ namespace A103897
 def P2168081161767931419.Spec : Prop :=
   ∀ n, P2168081161767931419.a n = A103897 (n + 1)
 
+theorem P2168081161767931419.correct : P2168081161767931419.Spec := by
+  intro n
+  simp only [A103897, Nat.add_sub_cancel, A103897.P2168081161767931419.a, A103897.P7715152882629146350.a, A032098, A032098.P7091713504265939081.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A103897
 
 /-! ## A103897.P2963298594659079070
@@ -9996,6 +9967,12 @@ namespace A103897
 /-- `(A169726(n+1)-1)/2` -/
 def P3545210793295796946.Spec : Prop :=
   ∀ n, P3545210793295796946.a n = (A103897 (n + 1) : ℚ)
+
+theorem P3545210793295796946.correct : P3545210793295796946.Spec := by
+  intro n
+  simp only [A103897, Nat.add_sub_cancel, A103897.P3545210793295796946.a, A103897.P7715152882629146350.a, A169726, A169726.P11086986432710171647.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A103897
 

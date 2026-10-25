@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C004
@@ -41,7 +42,7 @@ import Seq.B002.C001
 import Seq.B003.C000
 import Seq.B005.C000
 import Seq.B008.C000
-import Seq.B010.C000
+import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -65,6 +66,10 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A222200: Number of Hamiltonian cycles on n X n+1 square grid of points.
@@ -5300,6 +5305,12 @@ namespace A222256
 def P4842509745804290264.Spec : Prop :=
   ∀ n, P4842509745804290264.a n = A222256 n
 
+theorem P4842509745804290264.correct : P4842509745804290264.Spec := by
+  intro n
+  simp only [A222256, Nat.add_sub_cancel, A222256.P4842509745804290264.a, A222256.P15888438300221709581.a, A222257, A222257.P837831485803070787.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A222256
 
 /-! ## A222256.P1404385374973764367
@@ -5772,6 +5783,12 @@ namespace A222257
 /-- `A222256(n)+1` -/
 def P4176168072330872993.Spec : Prop :=
   ∀ n, P4176168072330872993.a n = A222257 n
+
+theorem P4176168072330872993.correct : P4176168072330872993.Spec := by
+  intro n
+  simp only [A222257, Nat.add_sub_cancel, A222257.P4176168072330872993.a, A222257.P837831485803070787.a, A222256, A222256.P15888438300221709581.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A222257
 

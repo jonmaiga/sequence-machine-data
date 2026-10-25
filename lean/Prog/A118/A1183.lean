@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -52,11 +53,12 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -92,6 +94,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A118301: Number of partitions of n into distinct parts with largest part congruent to n modulo 2.
@@ -5709,6 +5715,12 @@ namespace A118363
 /-- `record[gcd(A000027(n+1), A286604(n+1))]` -/
 def P5277010973904052771.Spec : Prop :=
   ∀ n, (P5277010973904052771.a n : ℤ) = A118363 (n + 1)
+
+theorem P5277010973904052771.correct : P5277010973904052771.Spec := by
+  intro n
+  simp only [A118363, Nat.add_sub_cancel, A118363.P5277010973904052771.f1, A118363.P5277010973904052771.a, A118363.P17308598929900215827.f1, A118363.P17308598929900215827.a, A000027, A000027.P10331202704469894836.a, A034968, A034968.P11463317321541393924.a, A286604, A286604.P16261278403836028950.a, A099563, A099563.P5019841788924108469.f2, A099563.P5019841788924108469.f1, A099563.P5019841788924108469.f4, A099563.P5019841788924108469.f3, A099563.P5019841788924108469.a, A257687, A257687.P7012285749589745258.a, A084558, A084558.P8374569854218058976.a, A090529, A090529.P4680555822996673914.f1, A090529.P4680555822996673914.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A118363
 

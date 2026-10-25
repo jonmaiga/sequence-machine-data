@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -69,8 +70,8 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -78,7 +79,6 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
-import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
@@ -96,6 +96,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A184600: 1/4 the number of (n+1) X 6 binary arrays with equal numbers of 2 X 2 subblocks with sums 1 and 3.
@@ -1251,6 +1255,12 @@ namespace A184615
 def P8638099145985614668.Spec : Prop :=
   ∀ n, P8638099145985614668.a n = A184615 n
 
+theorem P8638099145985614668.correct : P8638099145985614668.Spec := by
+  intro n
+  simp only [A184615, Nat.add_sub_cancel, A184615.P8638099145985614668.a, A184615.P12937226738922486547.a, A032766, A032766.P1975864606945388751.a, A184616, A184616.P11536552118196738147.a, A184617, A184617.P6500714334577552436.a, A178729, A178729.P1381440878226345061.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A184615
 
 /-! ## A184615.P635468568142429288
@@ -1441,6 +1451,12 @@ namespace A184615
 /-- `A184616(n)-A001489(n)` -/
 def P18355030006353409760.Spec : Prop :=
   ∀ n, P18355030006353409760.a n = A184615 n
+
+theorem P18355030006353409760.correct : P18355030006353409760.Spec := by
+  intro n
+  simp only [A184615, Nat.add_sub_cancel, A184615.P18355030006353409760.a, A184615.P12937226738922486547.a, A001489, A001489.P15233530513763566776.a, A032766, A032766.P1975864606945388751.a, A184616, A184616.P11536552118196738147.a, A184617, A184617.P6500714334577552436.a, A178729, A178729.P1381440878226345061.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A184615
 

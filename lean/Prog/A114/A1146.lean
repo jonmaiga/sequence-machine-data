@@ -61,6 +61,7 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -2845,35 +2846,35 @@ end
 
 end A114623.P6311975696800625391
 
-/-! ## A114623.P3504676276701410788
+/-! ## A114623.P17304452448616320281
 
-`A003003(A027988(n))`
+`A352079(n)+A064547(A304887(n))`
 -/
 
-namespace A114623.P3504676276701410788
+namespace A114623.P17304452448616320281
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003003 (A027988 n).toNat
+  A352079 n + A064547 (A304887 n).toNat
 
 end
 
-end A114623.P3504676276701410788
+end A114623.P17304452448616320281
 
-/-! ## A114623.P759937678976642158
+/-! ## A114623.P9046374942894295883
 
-`A092982(A001595(n))`
+`A163101(A107479(n+1))+A064547(A304887(n))`
 -/
 
-namespace A114623.P759937678976642158
+namespace A114623.P9046374942894295883
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A092982 (A001595 n).toNat
+  A163101 (A107479 (n + 1)).toNat + A064547 (A304887 n).toNat
 
 end
 
-end A114623.P759937678976642158
+end A114623.P9046374942894295883
 
 /-!
 # A114624: Row sums of the power tree A114622.

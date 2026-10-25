@@ -53,7 +53,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B009.C000
@@ -70,7 +69,6 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -4474,6 +4472,12 @@ namespace A114761
 /-- `A011547(n)*A011547(n)` -/
 def P4942416453578432150.Spec : Prop :=
   ∀ n, P4942416453578432150.a n = A114761 n
+
+theorem P4942416453578432150.correct : P4942416453578432150.Spec := by
+  intro n
+  simp only [A114761, Nat.add_sub_cancel, A114761.P4942416453578432150.a, A114761.P3570042180189453089.a, A011547, A011547.P3617800658743322912.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A114761
 

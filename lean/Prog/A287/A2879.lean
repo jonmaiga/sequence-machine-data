@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -56,6 +57,7 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -83,6 +85,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A287901: Number of Dyck paths of semilength n such that each positive level up to the highest nonempty level has at least one peak.
@@ -6503,6 +6509,12 @@ namespace A287992
 /-- `A020874(n+1)-2*(n+1)` -/
 def P2850601933624173932.Spec : Prop :=
   ∀ n, P2850601933624173932.a n = A287992 (n + 1)
+
+theorem P2850601933624173932.correct : P2850601933624173932.Spec := by
+  intro n
+  simp only [A287992, Nat.add_sub_cancel, A287992.P2850601933624173932.a, A287992.P10436064229786702791.a, A020874, A020874.P2297157166849985116.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A287992
 

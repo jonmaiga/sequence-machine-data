@@ -37,6 +37,7 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
@@ -44,11 +45,8 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -3690,7 +3688,7 @@ end A383588.P2693740484926552424
 /-!
 # A383589: a(n) = A378762(A381662(n)).
 
-The programs for A383589, the canonical program `A383589.P15006316624676943189` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383589 has offset 1).
+The programs for A383589, the canonical program `A383589.P15006316624676943189` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383589 has offset 1).
 
 The definition of A383589 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A378762, A381662, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3699,7 +3697,7 @@ The definition of A383589 is `conditional`: the Lean definition is an OEIS formu
 
 `A378762(A381662(n+1))`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A383589

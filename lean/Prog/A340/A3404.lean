@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -59,10 +60,8 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -95,6 +94,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A340400: a(n) is the greatest Fibonacci number < 2^(n+1).
@@ -1776,6 +1779,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A340418.P15380879850381514622
+
+/-! ## A340418.P16786959006722325100
+
+`∑[A034968(∏[A136405(2*n+3)])]`
+-/
+
+namespace A340418.P16786959006722325100
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A136405 (2 * n + 3)
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A034968 (∏ j ∈ Finset.range (n + 1), f2 j).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A340418.P16786959006722325100
 
 /-!
 # A340419: Trajectory of 397 under the map A340008: n -> n/2 if n is even, n-> n^2 - 1 if n is an odd prime, otherwise n -> n - 1.
@@ -4608,6 +4632,12 @@ namespace A340461
 def P6681321627490658166.Spec : Prop :=
   ∀ n, P6681321627490658166.a n = A340461 (n + 1)
 
+theorem P6681321627490658166.correct : P6681321627490658166.Spec := by
+  intro n
+  simp only [A340461, Nat.add_sub_cancel, A340461.P6681321627490658166.a, A340461.P11697221770829403899.a, A062402, A062402.P8430549949511934837.f2, A062402.P8430549949511934837.f3, A062402.P8430549949511934837.f1, A062402.P8430549949511934837.a, A295302, A295302.P4842979664690152672.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A340461
 
 /-! ## A340461.P7672941331657174185
@@ -4815,6 +4845,12 @@ namespace A340461
 /-- `A295302(n+1)+A062402(n+1)` -/
 def P6279466157523990894.Spec : Prop :=
   ∀ n, P6279466157523990894.a n = A340461 (n + 1)
+
+theorem P6279466157523990894.correct : P6279466157523990894.Spec := by
+  intro n
+  simp only [A340461, Nat.add_sub_cancel, A340461.P6279466157523990894.a, A340461.P11697221770829403899.a, A062402, A062402.P8430549949511934837.f2, A062402.P8430549949511934837.f3, A062402.P8430549949511934837.f1, A062402.P8430549949511934837.a, A295302, A295302.P4842979664690152672.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A340461
 
@@ -6427,7 +6463,7 @@ end A340479.P13927397687224687697
 /-!
 # A340480: Primes p such that (p^8 + 1)/2 is prime.
 
-The programs for A340480, the canonical program `A340480.P2809983349207958310` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340480 has offset 1).
+The programs for A340480, the canonical program `A340480.P2809983349207958310` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340480 has offset 1).
 
 The definition of A340480 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 190 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6436,7 +6472,7 @@ The definition of A340480 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A105066(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A340480

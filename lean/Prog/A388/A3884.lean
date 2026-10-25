@@ -3,6 +3,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C008
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C024
 import Seq.B000.C039
@@ -12,14 +13,14 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -237,20 +238,20 @@ end A388417.P5520600428415196269
 The programs for A388418, there is no canonical definition to state claims against.
 -/
 
-/-! ## A388418.P1379697686167833292
+/-! ## A388418.P15760973612317753454
 
-`A074967(A000040(n+1))`
+`A074967(A000040(1+n))`
 -/
 
-namespace A388418.P1379697686167833292
+namespace A388418.P15760973612317753454
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A074967 (A000040 (n + 1)).toNat
+  A074967 (A000040 (1 + n)).toNat
 
 end
 
-end A388418.P1379697686167833292
+end A388418.P15760973612317753454
 
 /-! ## A388418.P4344382089969527118
 
@@ -447,26 +448,26 @@ def P6090739325890494091.Spec : Prop :=
 
 end A388424
 
-/-! ## A388424.P6333347113496025565
+/-! ## A388424.P4423625565627102202
 
-`A000079(n)*A000567(A000225(n+1))`
+`A000079(n)*A000567(A126646(n))`
 -/
 
-namespace A388424.P6333347113496025565
+namespace A388424.P4423625565627102202
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000079 n * A000567 (A000225 (n + 1)).toNat
+  A000079 n * A000567 (A126646 n).toNat
 
 end
 
-end A388424.P6333347113496025565
+end A388424.P4423625565627102202
 
 namespace A388424
 
-/-- `A000079(n)*A000567(A000225(n+1))` -/
-def P6333347113496025565.Spec : Prop :=
-  ∀ n, P6333347113496025565.a n = A388424 n
+/-- `A000079(n)*A000567(A126646(n))` -/
+def P4423625565627102202.Spec : Prop :=
+  ∀ n, P4423625565627102202.a n = A388424 n
 
 end A388424
 

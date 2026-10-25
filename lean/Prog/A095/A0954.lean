@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C004
@@ -27,13 +28,13 @@ import Seq.B002.C001
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -55,6 +56,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A095402: Sum of digits of all distinct prime factors of n.
@@ -230,6 +235,12 @@ namespace A095402
 /-- `A007953(n+1)-A095403(n+1)` -/
 def P17545568750665724477.Spec : Prop :=
   ∀ n, P17545568750665724477.a n = A095402 (n + 1)
+
+theorem P17545568750665724477.correct : P17545568750665724477.Spec := by
+  intro n
+  simp only [A095402, Nat.add_sub_cancel, A095402.P17545568750665724477.a, A095402.P3275104742656262928.f1, A095402.P3275104742656262928.a, A007953, A007953.P3472751987379697826.a, A095403, A095403.P6923104078230111594.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A095402
 
@@ -634,7 +645,7 @@ end A095404
 /-!
 # A095405: Numbers n such that Sum-of-digits-of-n = Sum-of-digits-of-all-distinct-prime-factors-of-n.
 
-The programs for A095405, the canonical program `A095405.P11635465388125584041` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095405 has offset 1).
+The programs for A095405, the canonical program `A095405.P11635465388125584041` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095405 has offset 1).
 
 The definition of A095405 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -643,7 +654,7 @@ The definition of A095405 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A095403(n+1)]+1`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A095405
@@ -782,7 +793,7 @@ end A095405
 /-!
 # A095406: Numbers k such that Sum-of-digits-of-k < Sum-of-digits-of-all-distinct-prime-factors-of-k.
 
-The programs for A095406, the canonical program `A095406.P13107935915610947608` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095406 has offset 1).
+The programs for A095406, the canonical program `A095406.P13107935915610947608` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095406 has offset 1).
 
 The definition of A095406 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3908 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -849,7 +860,7 @@ end A095406
 
 `lt[A095403(A028310(n)), 0]`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A095406
@@ -1126,6 +1137,12 @@ namespace A095407
 def P11612591091197340312.Spec : Prop :=
   ∀ n, P11612591091197340312.a n = A095407 (n + 1)
 
+theorem P11612591091197340312.correct : P11612591091197340312.Spec := by
+  intro n
+  simp only [A095407, Nat.add_sub_cancel, A095407.P11612591091197340312.a, A095407.P3444143367220701582.f1, A095407.P3444143367220701582.a, A004218, A004218.P13942540286173673531.a, A055642, A055642.P4465932992276854035.f1, A055642.P4465932992276854035.a, A095408, A095408.P2538879780517524759.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A095407
 
 /-! ## A095407.P13677081802362989368
@@ -1290,6 +1307,12 @@ namespace A095408
 /-- `A095407(n+1)-(A004216(n+1)+1)` -/
 def P16765219640202639683.Spec : Prop :=
   ∀ n, P16765219640202639683.a n = A095408 (n + 1)
+
+theorem P16765219640202639683.correct : P16765219640202639683.Spec := by
+  intro n
+  simp only [A095408, Nat.add_sub_cancel, A095408.P16765219640202639683.a, A095408.P2538879780517524759.a, A004216, A004216.P11701108540860389608.a, A055642, A055642.P4465932992276854035.f1, A055642.P4465932992276854035.a, A095407, A095407.P3444143367220701582.f1, A095407.P3444143367220701582.a, A004218, A004218.P13942540286173673531.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A095408
 

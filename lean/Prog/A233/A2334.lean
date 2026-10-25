@@ -51,12 +51,10 @@ import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -4949,7 +4947,7 @@ end A233467.P11449126236934044724
 
 The programs for A233468, the canonical program `A233468.P18238673532543275021` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233468 has offset 1).
 
-The definition of A233468 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A233468 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A233468.P18238673532543275021
@@ -5043,6 +5041,12 @@ namespace A233468
 /-- `Δ[A038194(n+1)]` -/
 def P18194649029376442403.Spec : Prop :=
   ∀ n, P18194649029376442403.a n = A233468 (n + 1)
+
+theorem P18194649029376442403.correct : P18194649029376442403.Spec := by
+  intro n
+  simp only [A233468, Nat.add_sub_cancel, A233468.P18194649029376442403.f1, A233468.P18194649029376442403.a, A233468.P18238673532543275021.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A010888, A010888.P12602340911021437531.a, A038194, A038194.P4142280690409945291.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A233468
 

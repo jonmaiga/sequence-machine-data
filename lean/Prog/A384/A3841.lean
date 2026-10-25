@@ -41,13 +41,13 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B010.C000
 import Seq.B012.C000
 import Seq.B013.C000
@@ -374,6 +374,42 @@ end
 end A384112.P2816140415094947278
 
 /-!
+# A384115: The number of polyforms on the snub square tiling where the adjacent triangles are combined into rhombi.
+
+The programs for A384115, there is no canonical definition to state claims against.
+-/
+
+/-! ## A384115.P476194990615898612
+
+`A271518(or(2*(4^n-n*2^n)-1, A276086(n+3)))`
+-/
+
+namespace A384115.P476194990615898612
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A271518 (Int.lor (2 * ((4 ^ n : ℤ) - (n * 2 ^ n : ℤ)) - 1) (A276086 (n + 3))).toNat
+
+end
+
+end A384115.P476194990615898612
+
+/-! ## A384115.P4709336362766675513
+
+`A271518(or(2*(4^n-n*2^n)-1, A013929(2*n+1)))`
+-/
+
+namespace A384115.P4709336362766675513
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A271518 (Int.lor (2 * ((4 ^ n : ℤ) - (n * 2 ^ n : ℤ)) - 1) (A013929 (2 * n + 1))).toNat
+
+end
+
+end A384115.P4709336362766675513
+
+/-!
 # A384119: Array read by antidiagonals: T(n,m) is the number of minimum dominating sets in the n X m rook graph K_n X K_m.
 
 The programs for A384119, there is no canonical definition to state claims against.
@@ -655,7 +691,7 @@ end A384124.P13153326269749050915
 /-!
 # A384125: Array read by antidiagonals: T(n,m) is the number of edges in the n X m rook graph K_n X K_m.
 
-The programs for A384125, the canonical program `A384125.P14964655347719937837` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384125 has offset 1).
+The programs for A384125, the canonical program `A384125.P14964655347719937837` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384125 has offset 1).
 
 The definition of A384125 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1275 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -710,7 +746,7 @@ end A384125
 
 `A093445(n+1)-A128141(n+1)`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A384125
@@ -1882,6 +1918,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A384162.P17907547597093143263
+
+/-! ## A384162.P12677603091081835713
+
+`A342167(n)*A348553(n)`
+-/
+
+namespace A384162.P12677603091081835713
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A342167 n * A348553 n
+
+end
+
+end A384162.P12677603091081835713
 
 /-! ## A384162.P2309078623775445527
 
@@ -3327,7 +3378,7 @@ end A384192.P11504076508882113934
 /-!
 # A384195: a(n) = tau(n+1) - tau(n-1), where tau(n) = A000005(n), the number of divisors of n.
 
-The programs for A384195, the canonical program `A384195.P4862393626970626522` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384195 has offset 2).
+The programs for A384195, the canonical program `A384195.P4862393626970626522` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384195 has offset 2).
 
 The definition of A384195 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3336,7 +3387,7 @@ The definition of A384195 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A092405(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A384195
@@ -3445,6 +3496,12 @@ namespace A384195
 def P3043631435299232669.Spec : Prop :=
   ∀ n, P3043631435299232669.a n = A384195 (n + 2)
 
+theorem P3043631435299232669.correct : P3043631435299232669.Spec := by
+  intro n
+  simp only [A384195, Nat.add_sub_cancel, A384195.P3043631435299232669.a, A384195.P4862393626970626522.f1, A384195.P4862393626970626522.a, A051950, A051950.P14711924742226859684.f1, A051950.P14711924742226859684.a, A092405, A092405.P15399323989473945972.a, A320111, A320111.P9381397234523338092.a, A000005, A000005.P16091521709108585461.a, A252463, A252463.P9404790189412916411.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A152271, A152271.P6659965972248271911.a, A243502, A243502.P11791647281875328885.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A384195
 
 /-! ## A384195.P6417889969861129805
@@ -3496,6 +3553,12 @@ namespace A384195
 /-- `1-Δ[A131187(n+1)]` -/
 def P18028257028298520013.Spec : Prop :=
   ∀ n, P18028257028298520013.a n = A384195 (n + 2)
+
+theorem P18028257028298520013.correct : P18028257028298520013.Spec := by
+  intro n
+  simp only [A384195, Nat.add_sub_cancel, A384195.P18028257028298520013.f1, A384195.P18028257028298520013.a, A384195.P4862393626970626522.f1, A384195.P4862393626970626522.a, A092405, A092405.P15399323989473945972.a, A131187, A131187.P4191835423792268718.a, A320111, A320111.P9381397234523338092.a, A000005, A000005.P16091521709108585461.a, A252463, A252463.P9404790189412916411.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A152271, A152271.P6659965972248271911.a, A243502, A243502.P11791647281875328885.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A384195
 

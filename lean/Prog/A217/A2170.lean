@@ -51,8 +51,8 @@ import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -67,14 +67,13 @@ import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
-import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -570,7 +569,7 @@ end A217005.P15712495811490170105
 /-!
 # A217006: Numbers k such that phi(k-6) = phi(k) = phi(k+6).
 
-The programs for A217006, the canonical program `A217006.P11652602790585966678` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217006 has offset 1).
+The programs for A217006, the canonical program `A217006.P11652602790585966678` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217006 has offset 1).
 
 The definition of A217006 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 289 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -579,7 +578,7 @@ The definition of A217006 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A179188(n+1)+6, A179188(n+4)]`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A217006
@@ -3041,6 +3040,21 @@ end A217033.P3595435935688344098
 The programs for A217034, there is no canonical definition to state claims against.
 -/
 
+/-! ## A217034.P9932538575368589120
+
+`A292375(A062439(n))`
+-/
+
+namespace A217034.P9932538575368589120
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A292375 (A062439 n).toNat
+
+end
+
+end A217034.P9932538575368589120
+
 /-! ## A217034.P16991474877691293468
 
 `A292375(A000040(n!))`
@@ -3070,21 +3084,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A217034.P7222345807799273236
-
-/-! ## A217034.P16093230192544111496
-
-`A217669(A033312(n))-A000073(n)`
--/
-
-namespace A217034.P16093230192544111496
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A217669 (A033312 n).toNat - A000073 n
-
-end
-
-end A217034.P16093230192544111496
 
 /-!
 # A217035: Generalized cuban primes (A007645) which are also Class 1- (or Pierpont) primes (A005109).

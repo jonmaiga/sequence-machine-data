@@ -62,7 +62,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -3511,7 +3510,7 @@ end A117213
 /-!
 # A117214: a(n) = (A117213(n))/(n-th squarefree positive integer).
 
-The programs for A117214, the canonical program `A117214.P17772851819730483215` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117214 has offset 1).
+The programs for A117214, the canonical program `A117214.P17772851819730483215` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117214 has offset 1).
 
 The definition of A117214 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 153 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3572,7 +3571,7 @@ end A117214
 
 `A117213(n+1)/A005117(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A117214
@@ -10202,7 +10201,7 @@ end A117281.P6148143241557085377
 /-!
 # A117283: Numbers k for which the cototient k-phi(k) is a cube.
 
-The programs for A117283, the canonical program `A117283.P3554693747055773777` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117283 has offset 1).
+The programs for A117283, the canonical program `A117283.P3554693747055773777` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117283 has offset 1).
 
 The definition of A117283 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1625 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10211,7 +10210,7 @@ The definition of A117283 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A010057(n+1-A000010(n+1))]+1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A117283
@@ -10345,7 +10344,7 @@ end A117283
 /-!
 # A117284: Numbers k for which the cototient k-phi(k) is a triangular number.
 
-The programs for A117284, the canonical program `A117284.P233037619182171599` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117284 has offset 1).
+The programs for A117284, the canonical program `A117284.P233037619182171599` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117284 has offset 1).
 
 The definition of A117284 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1816 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10354,7 +10353,7 @@ The definition of A117284 is `conjectured`: the Lean definition is a formula tha
 
 `record[n+1-A271439(n+1-A000010(n+1))]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A117284
@@ -10938,7 +10937,7 @@ end A117289.P12302611592999215997
 /-!
 # A117290: Numbers k for which the cototient k - phi(k) is a Fibonacci number.
 
-The programs for A117290, the canonical program `A117290.P4275547685329266440` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117290 has offset 1).
+The programs for A117290, the canonical program `A117290.P4275547685329266440` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117290 has offset 1).
 
 The definition of A117290 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1699 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10947,7 +10946,7 @@ The definition of A117290 is `conjectured`: the Lean definition is a formula tha
 
 `record[(n+1)*A010056(n+1-A000010(n+1))]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A117290
@@ -11124,7 +11123,7 @@ end A117290
 /-!
 # A117291: a(n) = phi(n)^(n-phi(n)).
 
-The programs for A117291, the canonical program `A117291.P4663113591373079895` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117291 has offset 1).
+The programs for A117291, the canonical program `A117291.P4663113591373079895` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117291 has offset 1).
 
 The definition of A117291 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11528,7 +11527,7 @@ end A117291
 
 `∑{d}[n+1, (n+1)/#*A008683(#)]^(1-∑{d}[n+1, #*A008683((n+1)/#)]+n)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A117291
@@ -11588,7 +11587,7 @@ end A117291
 /-!
 # A117292: a(n) = (n-phi(n))^phi(n).
 
-The programs for A117292, the canonical program `A117292.P2388387308694075584` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117292 has offset 1).
+The programs for A117292, the canonical program `A117292.P2388387308694075584` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117292 has offset 1).
 
 The definition of A117292 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 110 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11969,7 +11968,7 @@ end A117292
 
 `(1-∑{d}[n+1, #*A008683((n+1)/#)]+n)^∑{d}[n+1, (n+1)/#*A008683(#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A117292

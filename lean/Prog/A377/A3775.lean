@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -43,22 +44,21 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
-import Seq.B009.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
-import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
@@ -82,6 +82,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A377500: Number of edge cuts in the n-dipyramidal graph.
@@ -2594,7 +2598,7 @@ end A377562
 /-!
 # A377563: Numbers that have fewer infinitary divisors than noninfinitary divisors.
 
-The programs for A377563, the canonical program `A377563.P16938085652731499524` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377563 has offset 1).
+The programs for A377563, the canonical program `A377563.P16938085652731499524` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377563 has offset 1).
 
 The definition of A377563 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 718 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2603,7 +2607,7 @@ The definition of A377563 is `conjectured`: the Lean definition is a formula tha
 
 `lt[1, A372332(n+1)]+1`
 
-The canonical program, it is in `Seq.B009.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A377563
@@ -2783,6 +2787,12 @@ namespace A377565
 /-- `A109940(n+1)+1+n` -/
 def P6598366915608265280.Spec : Prop :=
   ∀ n, P6598366915608265280.a n = A377565 (n + 1)
+
+theorem P6598366915608265280.correct : P6598366915608265280.Spec := by
+  intro n
+  simp only [A377565, Nat.add_sub_cancel, A377565.P6598366915608265280.a, A377565.P6887549586258778470.a, A097327, A097327.P3677544989114888276.a, A109940, A109940.P11561411005126974692.a, A097326, A097326.P10021405022841991495.a, A055642, A055642.P4465932992276854035.f1, A055642.P4465932992276854035.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A377565
 

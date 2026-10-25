@@ -50,6 +50,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -58,6 +59,7 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -2689,6 +2691,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A044232.P16125781286398943532
+
+/-! ## A044232.P7029333049045210970
+
+`A288636(A333027(3*(n+1)))+A044612(n+1)`
+-/
+
+namespace A044232.P7029333049045210970
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A288636 (A333027 (3 * (n + 1))).toNat + A044612 (n + 1)
+
+end
+
+end A044232.P7029333049045210970
 
 /-!
 # A044233: Numbers n such that string 5,6 occurs in the base 8 representation of n but not of n-1.

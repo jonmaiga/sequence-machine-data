@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -58,6 +59,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -65,6 +67,7 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -90,6 +93,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A194900: Rectangular array, by antidiagonals: row n gives the positions of n in the fractal sequence A194899; an interspersion.
@@ -6462,6 +6469,12 @@ namespace A194959
 def P4807415450459710637.Spec : Prop :=
   ∀ n, P4807415450459710637.a n = A194959 (n + 1)
 
+theorem P4807415450459710637.correct : P4807415450459710637.Spec := by
+  intro n
+  simp only [A194959, Nat.add_sub_cancel, A194959.P4807415450459710637.a, A194959.P7468883608781216461.a, A057944, A057944.P16851463738746886639.a, A064578, A064578.P5706132154226791949.a, A101688, A101688.P16852833126151798959.a, A157458, A157458.P16856629470642738053.a, A000217, A000217.P10269402890581615239.a, A003056, A003056.P5318256527314048597.a, A003982, A003982.P6136202056268562101.a, A157454, A157454.P17958483760181188644.a, A002024, A002024.P11700297927830783882.a, A049581, A049581.P658114607470364396.a, A020985, A020985.P937884151096334327.a, A114327, A114327.P9028308961649463264.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A194959
 
 /-! ## A194959.P13505937238014769573
@@ -7630,6 +7643,12 @@ namespace A194964
 def P4845324012744662328.Spec : Prop :=
   ∀ n, P4845324012744662328.a n = (A194964 (n + 1) : ℚ)
 
+theorem P4845324012744662328.correct : P4845324012744662328.Spec := by
+  intro n
+  simp only [A194964, Nat.add_sub_cancel, A194964.P4845324012744662328.a, A194964.P10846368277780127856.a, A188258, A188258.P3174497814932549514.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A194964
 
 /-! ## A194964.P4530642266380256341
@@ -7767,6 +7786,12 @@ namespace A194964
 /-- `(A188190(n+2)-(n+1))/2` -/
 def P13331923731718019981.Spec : Prop :=
   ∀ n, P13331923731718019981.a n = (A194964 (n + 1) : ℚ)
+
+theorem P13331923731718019981.correct : P13331923731718019981.Spec := by
+  intro n
+  simp only [A194964, Nat.add_sub_cancel, A194964.P13331923731718019981.a, A194964.P10846368277780127856.a, A188190, A188190.P7299663739030871848.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A194964
 
@@ -12442,7 +12467,7 @@ end A194990
 /-!
 # A194991: Primes whose squares are odious.
 
-The programs for A194991, the canonical program `A194991.P2956389845314371910` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194991 has offset 1).
+The programs for A194991, the canonical program `A194991.P2956389845314371910` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194991 has offset 1).
 
 The definition of A194991 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3380 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12451,7 +12476,7 @@ The definition of A194991 is `conjectured`: the Lean definition is a formula tha
 
 `p?[n*A228039(n)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A194991

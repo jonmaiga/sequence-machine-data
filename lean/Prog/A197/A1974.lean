@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -46,7 +47,7 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B011.C000
@@ -75,6 +76,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A197400: Number of nX7 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 3,3,1,1,1 for x=0,1,2,3,4.
@@ -1209,6 +1214,12 @@ namespace A197424
 /-- `A060635(n+2)/2` -/
 def P1111674781626388098.Spec : Prop :=
   ∀ n, P1111674781626388098.a n = (A197424 n : ℚ)
+
+theorem P1111674781626388098.correct : P1111674781626388098.Spec := by
+  intro n
+  simp only [A197424, Nat.add_sub_cancel, A197424.P1111674781626388098.a, A197424.P17565426757181894432.a, A001654, A001654.P2587154079132953885.a, A060635, A060635.P900422356418885628.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A197424
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -25,6 +26,7 @@ import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C038
@@ -84,6 +86,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A032600: Difference between n-th lucky number and n-th prime number.
@@ -3148,7 +3154,7 @@ end A032615
 
 The programs for A032616, the canonical program `A032616.P17004683288078199390` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032616 has offset 0).
 
-The definition of A032616 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A032616 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(n²/π)` (program `A032616.P4268279883574505586`, by `A032616.P4268279883574505586.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A032616.P4268279883574505586
@@ -3173,6 +3179,12 @@ namespace A032616
 /-- `floor(n²/π)` -/
 def P4268279883574505586.Spec : Prop :=
   ∀ n, P4268279883574505586.a n = A032616 n
+
+theorem P4268279883574505586.correct : P4268279883574505586.Spec := by
+  intro n
+  simp only [A032616, Nat.add_sub_cancel, A032616.P4268279883574505586.a, A032616.P17004683288078199390.a, A032615, A032615.P7004375319683963035.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A032616
 
@@ -3383,6 +3395,12 @@ namespace A032616
 /-- `A135607(2*n)` -/
 def P8528070185877292357.Spec : Prop :=
   ∀ n, P8528070185877292357.a n = A032616 n
+
+theorem P8528070185877292357.correct : P8528070185877292357.Spec := by
+  intro n
+  simp only [A032616, Nat.add_sub_cancel, A032616.P8528070185877292357.a, A032616.P17004683288078199390.a, A032615, A032615.P7004375319683963035.a, A135607, A135607.P16978739446351322344.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A032616
 
@@ -5883,6 +5901,12 @@ namespace A032633
 def P3829487598427922266.Spec : Prop :=
   ∀ n, P3829487598427922266.a n = A032633 n
 
+theorem P3829487598427922266.correct : P3829487598427922266.Spec := by
+  intro n
+  simp only [A032633, Nat.add_sub_cancel, A032633.P3829487598427922266.a, A032633.P11643489080820217111.a, A000038, A000038.P13734959004655594922.a, A000578, A000578.P12162961755414704816.a, A000007, A000007.P6599383543502402472.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A032633
 
 /-! ## A032633.P6894541326494178062
@@ -6366,6 +6390,12 @@ namespace A032635
 /-- `A032634(n²)` -/
 def P16515138939249923238.Spec : Prop :=
   ∀ n, P16515138939249923238.a n = A032635 n
+
+theorem P16515138939249923238.correct : P16515138939249923238.Spec := by
+  intro n
+  simp only [A032635, Nat.add_sub_cancel, A032635.P16515138939249923238.a, A032635.P11053475391949000795.a, A032634, A032634.P6588867285997603959.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A032635
 
@@ -9396,6 +9426,21 @@ end
 
 end A032672.P15879328094539668582
 
+/-! ## A032672.P17148273777996765384
+
+`A151800(A001481(3*n+5)%A116884(2*n+5))`
+-/
+
+namespace A032672.P17148273777996765384
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A151800 (Int.tmod (A001481 (3 * n + 5)) (A116884 (2 * n + 5))).toNat
+
+end
+
+end A032672.P17148273777996765384
+
 /-!
 # A032673: Digit '1' concatenated with a(n) is a lucky number.
 
@@ -10133,6 +10178,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A032693.P6137740752598363201
+
+/-! ## A032693.P655934608720335085
+
+`A266420(n+2)+A112739(A266438(n+2))`
+-/
+
+namespace A032693.P655934608720335085
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A266420 (n + 2) + A112739 (A266438 (n + 2)).toNat
+
+end
+
+end A032693.P655934608720335085
 
 /-! ## A032693.P12230430711784186979
 

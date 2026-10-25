@@ -51,6 +51,7 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -441,6 +442,21 @@ end
 
 end A044504.P18270112208688119838
 
+/-! ## A044504.P7051700802124822904
+
+`or(A017629(3*n+1), A156603(A051286(n)))`
+-/
+
+namespace A044504.P7051700802124822904
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor (A017629 (3 * n + 1)) (A156603 (A051286 n).toNat)
+
+end
+
+end A044504.P7051700802124822904
+
 /-! ## A044504.P3216370645373807248
 
 `A368472(A130442(n+1))+A017617(3*n+1)`
@@ -455,21 +471,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A044504.P3216370645373807248
-
-/-! ## A044504.P890380424514152187
-
-`or(A051628(A051636(n+1)), A063122(2*(n+1)))`
--/
-
-namespace A044504.P890380424514152187
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A051628 (A051636 (n + 1)).toNat) (A063122 (2 * (n + 1)))
-
-end
-
-end A044504.P890380424514152187
 
 /-!
 # A044505: Numbers n such that string 3,4 occurs in the base 6 representation of n but not of n+1.

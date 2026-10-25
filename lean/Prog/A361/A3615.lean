@@ -37,11 +37,12 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -54,7 +55,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -104,6 +104,21 @@ end
 
 end A361500.P5330276904621337642
 
+/-! ## A361500.P13180243322508235183
+
+`A122865(lcm(A043320(n+1), A392027(2*n+3)))`
+-/
+
+namespace A361500.P13180243322508235183
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122865 (Int.lcm (A043320 (n + 1)) (A392027 (2 * n + 3)))
+
+end
+
+end A361500.P13180243322508235183
+
 /-! ## A361500.P16118386683792039486
 
 `and(A126305(n), A261951(A080138(n+1)))`
@@ -148,21 +163,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A361500.P1255913117162032416
-
-/-! ## A361500.P14985729087838601307
-
-`A204429(A130884(n+1))`
--/
-
-namespace A361500.P14985729087838601307
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A204429 (A130884 (n + 1)).toNat
-
-end
-
-end A361500.P14985729087838601307
 
 /-!
 # A361501: A variant of A359143 in which all copies of a digit d are erased only when d is both the leading digit and the final digit of (a(n) concatenated with sum of digits of a(n)).

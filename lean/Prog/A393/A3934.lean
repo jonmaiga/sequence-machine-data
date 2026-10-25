@@ -10,6 +10,7 @@ import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C019
@@ -67,6 +68,7 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
@@ -1804,6 +1806,24 @@ end
 
 end A393449.P15323621259638352830
 
+/-! ## A393449.P9347254644163438401
+
+`A392178(n+1)-record[A395355(n)]`
+-/
+
+namespace A393449.P9347254644163438401
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A395355 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392178 (n + 1) - f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A393449.P9347254644163438401
+
 /-! ## A393449.P593337674975369009
 
 `A392178(n+1)-A395355(2*n)`
@@ -2760,6 +2780,50 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A393492.P6725397207629673263
+
+/-! ## A393492.P10053510070133505992
+
+`∪[A000040(n+1), A016120(A016129(n))]`
+-/
+
+namespace A393492.P10053510070133505992
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A016120 (A016129 n).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A393492.P10053510070133505992
+
+/-! ## A393492.P17586373442750887450
+
+`∪[A000040(n+1), A116431(A091940(n+1))]`
+-/
+
+namespace A393492.P17586373442750887450
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A116431 (A091940 (n + 1)).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A393492.P17586373442750887450
 
 /-!
 # A393494: Starts of runs of 3 consecutive integers that are all s-practical numbers (A393492).

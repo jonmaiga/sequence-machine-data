@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -83,6 +84,10 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C023
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A206601: a(n) = 3^(n(n+1)/2) - 1.
@@ -367,6 +372,12 @@ namespace A206603
 def P17607593322922444358.Spec : Prop :=
   ∀ n, P17607593322922444358.a n = (A206603 n : ℚ)
 
+theorem P17607593322922444358.correct : P17607593322922444358.Spec := by
+  intro n
+  simp only [A206603, Nat.add_sub_cancel, A206603.P17607593322922444358.a, A206603.P3063521816794991771.a, A001787, A001787.P18099519164826187117.a, A189391, A189391.P8056155733493856481.a, A206604, A206604.P11241342694491247130.a, A099325, A099325.P1293649765398382915.a, A027306, A027306.P2966041652703629727.a, A063886, A063886.P2008880257839641201.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A206603
 
 /-! ## A206603.P15736408148185014497
@@ -527,6 +538,12 @@ namespace A206603
 /-- `A102699(n)-A210736(n)` -/
 def P12953690520359764113.Spec : Prop :=
   ∀ n, P12953690520359764113.a n = A206603 n
+
+theorem P12953690520359764113.correct : P12953690520359764113.Spec := by
+  intro n
+  simp only [A206603, Nat.add_sub_cancel, A206603.P12953690520359764113.a, A206603.P3063521816794991771.a, A001787, A001787.P18099519164826187117.a, A102699, A102699.P1856221950307135282.a, A189391, A189391.P8056155733493856481.a, A210736, A210736.P1250447749793702526.a, A001405, A001405.P5205018418992951678.a, A099325, A099325.P1293649765398382915.a, A027306, A027306.P2966041652703629727.a, A063886, A063886.P2008880257839641201.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A206603
 
@@ -711,6 +728,12 @@ namespace A206603
 /-- `A099326(n)-(A189391(n)+A099325(n))` -/
 def P11016668098790428057.Spec : Prop :=
   ∀ n, P11016668098790428057.a n = A206603 n
+
+theorem P11016668098790428057.correct : P11016668098790428057.Spec := by
+  intro n
+  simp only [A206603, Nat.add_sub_cancel, A206603.P11016668098790428057.a, A206603.P3063521816794991771.a, A001787, A001787.P18099519164826187117.a, A099325, A099325.P1293649765398382915.a, A099326, A099326.P18251766925370423032.a, A189391, A189391.P8056155733493856481.a, A027306, A027306.P2966041652703629727.a, A063886, A063886.P2008880257839641201.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A206603
 
@@ -922,6 +945,12 @@ namespace A206604
 /-- `2*(A001787(n)-A189391(n))+1` -/
 def P8770100745664755492.Spec : Prop :=
   ∀ n, P8770100745664755492.a n = A206604 n
+
+theorem P8770100745664755492.correct : P8770100745664755492.Spec := by
+  intro n
+  simp only [A206604, Nat.add_sub_cancel, A206604.P8770100745664755492.a, A206604.P11241342694491247130.a, A001787, A001787.P18099519164826187117.a, A189391, A189391.P8056155733493856481.a, A206603, A206603.P3063521816794991771.a, A099325, A099325.P1293649765398382915.a, A027306, A027306.P2966041652703629727.a, A063886, A063886.P2008880257839641201.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A206604
 
@@ -6196,24 +6225,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A206643.P4265302657941221873
-
-/-! ## A206643.P8517368131201081506
-
-`A006577(Δ[a(n-1)+a(n-2)])` with `a(0)=1, a(1)=2, a(2)=3, a(3)=5, a(4)=8`
--/
-
-namespace A206643.P8517368131201081506
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.rec [1, 2, 3, 5, 8] fun n f1 =>
-  f1 (n - 1) + f1 (n - 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006577 ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat
-
-end
-
-end A206643.P8517368131201081506
 
 /-!
 # A206644: Number of n X n 0..2 arrays with no occurrence of three equal elements in a row horizontally or vertically, and new values 0..2 introduced in row major order.

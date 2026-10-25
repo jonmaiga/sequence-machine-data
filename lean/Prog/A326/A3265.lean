@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -55,18 +56,17 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -95,6 +95,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A326500: Number T(n,k) of colored integer partitions of n using all colors of a k-set such that each block of part i with multiplicity j has a pattern of i*j colors in (weakly) increasing order; triangle T(n,k), n>=0, 0<=k<=n, read by rows.
@@ -660,6 +664,12 @@ namespace A326503
 def P8692280790874003528.Spec : Prop :=
   ∀ n, P8692280790874003528.a n = A326503 (n + 1)
 
+theorem P8692280790874003528.correct : P8692280790874003528.Spec := by
+  intro n
+  simp only [A326503, Nat.add_sub_cancel, A326503.P8692280790874003528.a, A326503.P13743079522954983078.a, A046913, A046913.P8155784351199006177.a, A078181, A078181.P9139865131225983786.f1, A078181.P9139865131225983786.a, A078182, A078182.P257615860530487597.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A079978, A079978.P10382542118278163374.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A326503
 
 /-! ## A326503.P10220038899524043720
@@ -682,6 +692,12 @@ namespace A326503
 /-- `A046913(n+1)-2*A078182(n+1)` -/
 def P10220038899524043720.Spec : Prop :=
   ∀ n, P10220038899524043720.a n = A326503 (n + 1)
+
+theorem P10220038899524043720.correct : P10220038899524043720.Spec := by
+  intro n
+  simp only [A326503, Nat.add_sub_cancel, A326503.P10220038899524043720.a, A326503.P13743079522954983078.a, A046913, A046913.P8155784351199006177.a, A078181, A078181.P9139865131225983786.f1, A078181.P9139865131225983786.a, A078182, A078182.P257615860530487597.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A079978, A079978.P10382542118278163374.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A326503
 
@@ -4729,7 +4745,7 @@ end A326564.P13112030397672551407
 /-!
 # A326567: Numerator of the average of the multiset of prime indices of n.
 
-The programs for A326567, the canonical program `A326567.P521325717167695711` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326567 has offset 2).
+The programs for A326567, the canonical program `A326567.P521325717167695711` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326567 has offset 2).
 
 The definition of A326567 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8499 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4738,7 +4754,7 @@ The definition of A326567 is `conjectured`: the Lean definition is a formula tha
 
 `A056239(n+2)/A373381(n+2)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A326567
@@ -4907,6 +4923,29 @@ namespace A326568
 /-- `A001222(n+2)/A056239(n+2)*A326567(n+2)` -/
 def P10252929302846642340.Spec : Prop :=
   ∀ n, P10252929302846642340.a n = (A326568 (n + 2) : ℚ)
+
+end A326568
+
+/-! ## A326568.P6248985038665968657
+
+`A326567(A003961(n+2))-A326567(n+2)`
+-/
+
+namespace A326568.P6248985038665968657
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326567 (A003961 (n + 2)).toNat - A326567 (n + 2)
+
+end
+
+end A326568.P6248985038665968657
+
+namespace A326568
+
+/-- `A326567(A003961(n+2))-A326567(n+2)` -/
+def P6248985038665968657.Spec : Prop :=
+  ∀ n, P6248985038665968657.a n = A326568 (n + 2)
 
 end A326568
 
@@ -5262,7 +5301,7 @@ end A326574.P1907299496722713286
 /-!
 # A326575: Expansion of Sum_{k>=1} k * x^k * (1 + x^(2*k)) / (1 + x^(2*k) + x^(4*k)).
 
-The programs for A326575, the canonical program `A326575.P1591157321063095187` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326575 has offset 1).
+The programs for A326575, the canonical program `A326575.P1591157321063095187` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A326575 has offset 1).
 
 The definition of A326575 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5349,7 +5388,7 @@ end A326575
 
 `∑{d}[n+1, A113448(#)*A195459((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A326575

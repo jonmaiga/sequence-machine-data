@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -58,6 +59,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -70,6 +72,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -98,6 +101,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A316300: Number of n X 4 0..1 arrays with every element unequal to 0, 1, 2, 4, 6 or 8 king-move adjacent elements, with upper left element zero.
@@ -2654,6 +2661,12 @@ namespace A316322
 def P3922503582286730704.Spec : Prop :=
   ∀ n, P3922503582286730704.a n = A316322 (n + 1)
 
+theorem P3922503582286730704.correct : P3922503582286730704.Spec := by
+  intro n
+  simp only [A316322, Nat.add_sub_cancel, A316322.P3922503582286730704.a, A316322.P16038970231065936341.a, A007504, A007504.P16529107901788736493.f1, A007504.P16529107901788736493.a, A014285, A014285.P2422315619309490149.f1, A014285.P2422315619309490149.a, A062020, A062020.P11042138404562219295.a, A167214, A167214.P9697442408688225616.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A182986, A182986.P2625431067462217415.a, A054541, A054541.P347795157194570387.a, A046930, A046930.P1162450832993365803.f1, A046930.P1162450832993365803.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A316322
 
 /-! ## A316322.P3513115938313874816
@@ -2676,6 +2689,12 @@ namespace A316322
 /-- `2*A167214(n+1)-A023662(n+1)` -/
 def P3513115938313874816.Spec : Prop :=
   ∀ n, P3513115938313874816.a n = A316322 (n + 1)
+
+theorem P3513115938313874816.correct : P3513115938313874816.Spec := by
+  intro n
+  simp only [A316322, Nat.add_sub_cancel, A316322.P3513115938313874816.a, A316322.P16038970231065936341.a, A023662, A023662.P10648617195950893557.a, A062020, A062020.P11042138404562219295.a, A167214, A167214.P9697442408688225616.a, A007504, A007504.P16529107901788736493.f1, A007504.P16529107901788736493.a, A014285, A014285.P2422315619309490149.f1, A014285.P2422315619309490149.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A182986, A182986.P2625431067462217415.a, A054541, A054541.P347795157194570387.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A316322
 
@@ -2910,6 +2929,12 @@ namespace A316322
 /-- `A023662(n+1)+2*A062020(n+1)` -/
 def P13785323743130345813.Spec : Prop :=
   ∀ n, P13785323743130345813.a n = A316322 (n + 1)
+
+theorem P13785323743130345813.correct : P13785323743130345813.Spec := by
+  intro n
+  simp only [A316322, Nat.add_sub_cancel, A316322.P13785323743130345813.a, A316322.P16038970231065936341.a, A023662, A023662.P10648617195950893557.a, A062020, A062020.P11042138404562219295.a, A167214, A167214.P9697442408688225616.a, A007504, A007504.P16529107901788736493.f1, A007504.P16529107901788736493.a, A014285, A014285.P2422315619309490149.f1, A014285.P2422315619309490149.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A182986, A182986.P2625431067462217415.a, A054541, A054541.P347795157194570387.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A316322
 
@@ -10386,7 +10411,7 @@ end A316384.P14493999399118359727
 /-!
 # A316385: Lexicographically earliest sequence of distinct positive terms such that for any n > 0, a(n) AND a(2*n) = a(n) (where AND denotes the binary AND operator).
 
-The programs for A316385, the canonical program `A316385.P15918225833941816828` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316385 has offset 1).
+The programs for A316385, the canonical program `A316385.P15918225833941816828` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316385 has offset 1).
 
 The definition of A316385 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8191 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10467,7 +10492,7 @@ end A316385
 
 `A003817(n+1)-A025480((A035327(n+1)+A010078(n+2))/2)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A316385
@@ -11139,7 +11164,7 @@ end A316386
 /-!
 # A316388: a(n) = a(phi(n)) + a(n-phi(n)) with a(1) = a(2) = a(3) = 1.
 
-The programs for A316388, the canonical program `A316388.P4019904871240066925` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316388 has offset 1).
+The programs for A316388, the canonical program `A316388.P4019904871240066925` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316388 has offset 1).
 
 The definition of A316388 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A051953, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11148,7 +11173,7 @@ The definition of A316388 is `conditional`: the Lean definition is an OEIS formu
 
 `a(A000010(n+1)-1)+a(A051953(n+1)-1)` with `a(0)=1, a(1)=1, a(2)=1`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A316388

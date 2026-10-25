@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -97,6 +98,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A274100: Number of partitions of 2^n into at most four parts.
@@ -2320,6 +2325,12 @@ namespace A274119
 /-- `Δ[n²]*A147296(n+1)` -/
 def P2691237758799660917.Spec : Prop :=
   ∀ n, P2691237758799660917.a n = A274119 n
+
+theorem P2691237758799660917.correct : P2691237758799660917.Spec := by
+  intro n
+  simp only [A274119, Nat.add_sub_cancel, A274119.P2691237758799660917.f1, A274119.P2691237758799660917.a, A274119.P17210466815887565835.a, A147296, A147296.P3605709138452781436.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A274119
 

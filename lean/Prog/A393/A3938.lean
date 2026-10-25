@@ -902,7 +902,7 @@ end A393816.P10265484851960485132
 /-!
 # A393818: a(n) is the least odd semiprime > 2*prime(n).
 
-The programs for A393818, the canonical program `A393818.P5716704395992555008` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393818 has offset 1).
+The programs for A393818, the canonical program `A393818.P5716704395992555008` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393818 has offset 1).
 
 The definition of A393818 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -911,7 +911,7 @@ The definition of A393818 is `conjectured`: the Lean definition is a formula tha
 
 `A046315(A115392(n+1)-n)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A393818

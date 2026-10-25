@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -62,14 +63,13 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -98,6 +98,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A099500: Number of distinct products of subsets of integers in the interval [n^2+1, (n+1)^2-1] which are twice a square.
@@ -150,6 +154,24 @@ end
 
 end A099500.P17365844558049083984
 
+/-! ## A099500.P5715848071021975335
+
+`A120253(n+1)%∑[A120233(3*n+2)]`
+-/
+
+namespace A099500.P5715848071021975335
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A120233 (3 * n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A120253 (n + 1)) (∑ j ∈ Finset.range (n + 1), f1 j)
+
+end
+
+end A099500.P5715848071021975335
+
 /-! ## A099500.P1954681824919472486
 
 `gcd(Δ[A120253(2*(n+2))], A120253(n+1))`
@@ -167,21 +189,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A099500.P1954681824919472486
-
-/-! ## A099500.P7144921761951628937
-
-`A120253(n+1)%A152980(A113435(n))`
--/
-
-namespace A099500.P7144921761951628937
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A120253 (n + 1)) (A152980 (A113435 n).toNat)
-
-end
-
-end A099500.P7144921761951628937
 
 /-!
 # A099501: Least number of members in a subset of integers in the interval [n^2+1, (n+1)^2-1] whose product is twice a square.
@@ -6046,6 +6053,12 @@ namespace A099545
 def P13869018574408949793.Spec : Prop :=
   ∀ n, P13869018574408949793.a n = A099545 (n + 1)
 
+theorem P13869018574408949793.correct : P13869018574408949793.Spec := by
+  intro n
+  simp only [A099545, Nat.add_sub_cancel, A099545.P13869018574408949793.a, A099545.P3555190586653278803.a, A000265, A000265.P2772582252347773295.a, A010873, A010873.P1599048511093929465.a, A034947, A034947.P12901732433088194458.a, A003602, A003602.P7612175048291952394.a, A110963, A110963.P3344771894533151408.a, A025480, A025480.P15873863116418380882.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A099545
 
 /-! ## A099545.P18168573294035817449
@@ -10969,26 +10982,26 @@ end
 
 end A099566.P6297725835796196516
 
-/-! ## A099566.P676913922493890352
+/-! ## A099566.P17119229441318434912
 
-`∏[(n+1)^Δ[A130233(n)]]`
+`∏[1+n*Δ[A130233(n)]]`
 -/
 
-namespace A099566.P676913922493890352
+namespace A099566.P17119229441318434912
 noncomputable section
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A130233 n
 
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) ^ (f2 (n + 1) - f2 n : ℤ)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  1 + (n : ℤ) * (f2 (n + 1) - f2 n)
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∏ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A099566.P676913922493890352
+end A099566.P17119229441318434912
 
 /-! ## A099566.P7034909373995683613
 
@@ -13921,7 +13934,7 @@ end A099583
 
 The programs for A099584, the canonical program `A099584.P17919373969718200762` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A099584 has offset 1).
 
-The definition of A099584 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006093, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A099584 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A099584.P17919373969718200762
@@ -15628,6 +15641,12 @@ namespace A099589
 /-- `A129961(n+1)-A131075(n+1)` -/
 def P12797899467519239026.Spec : Prop :=
   ∀ n, P12797899467519239026.a n = A099589 n
+
+theorem P12797899467519239026.correct : P12797899467519239026.Spec := by
+  intro n
+  simp only [A099589, Nat.add_sub_cancel, A099589.P12797899467519239026.a, A099589.P7775846721285152394.a, A129961, A129961.P17236613230446454300.a, A131075, A131075.P7164680010094258311.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A099589
 

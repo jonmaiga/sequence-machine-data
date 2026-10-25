@@ -53,12 +53,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -576,6 +575,12 @@ namespace A203819
 def P8280072080763294074.Spec : Prop :=
   ∀ n, P8280072080763294074.a n = A203819 (n + 1)
 
+theorem P8280072080763294074.correct : P8280072080763294074.Spec := by
+  intro n
+  simp only [A203819, Nat.add_sub_cancel, A203819.P8280072080763294074.a, A203819.P15921634918125586566.a, A013708, A013708.P4928709745318280073.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A203819
 
 /-! ## A203819.P7278467619295247178
@@ -918,6 +923,12 @@ namespace A203819
 /-- `Δ[A008776(2*(n+1))]` -/
 def P7383478668633169816.Spec : Prop :=
   ∀ n, P7383478668633169816.a n = A203819 (n + 1)
+
+theorem P7383478668633169816.correct : P7383478668633169816.Spec := by
+  intro n
+  simp only [A203819, Nat.add_sub_cancel, A203819.P7383478668633169816.f1, A203819.P7383478668633169816.a, A203819.P15921634918125586566.a, A008776, A008776.P11088121667404015999.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A203819
 

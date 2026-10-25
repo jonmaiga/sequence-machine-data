@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -93,6 +94,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A280800: a(n) = A049501(cototient(n)).
@@ -1551,6 +1556,12 @@ namespace A280817
 def P9037428854601126581.Spec : Prop :=
   ∀ n, P9037428854601126581.a n = A280817 (n + 1)
 
+theorem P9037428854601126581.correct : P9037428854601126581.Spec := by
+  intro n
+  simp only [A280817, Nat.add_sub_cancel, A280817.P9037428854601126581.a, A280817.P4263899432578162346.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001065, A001065.P4097147489331274860.a, A049501, A049501.P2511382539437314283.a, A049502, A049502.P5742727287573319742.a, A145341, A145341.P17834554394848515737.a, A004526, A004526.P10084182425416171735.a, A030101, A030101.P16184294017372777612.a, A037800, A037800.P4480434957642420409.a, A055945, A055945.P5963763732554067333.a, A069010, A069010.P14932719103722593844.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A280817
 
 /-! ## A280817.P11873509410706259085
@@ -2489,6 +2500,12 @@ namespace A280827
 /-- `A076649(n+1)-(A004216(n+1)+1)` -/
 def P15230368218940542600.Spec : Prop :=
   ∀ n, P15230368218940542600.a n = A280827 (n + 1)
+
+theorem P15230368218940542600.correct : P15230368218940542600.Spec := by
+  intro n
+  simp only [A280827, Nat.add_sub_cancel, A280827.P15230368218940542600.a, A280827.P9212601761894822098.a, A004216, A004216.P11701108540860389608.a, A055642, A055642.P4465932992276854035.f1, A055642.P4465932992276854035.a, A076649, A076649.P8873919623367228431.f1, A076649.P8873919623367228431.a, A004218, A004218.P13942540286173673531.a, A014963, A014963.P5975177236000282614.a, A166140, A166140.P17649384582351937107.f1, A166140.P17649384582351937107.a, A166142, A166142.P10122674445425206392.f1, A166142.P10122674445425206392.a, A080304, A080304.P9910366703239988167.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A280827
 
@@ -3762,6 +3779,12 @@ namespace A280843
 /-- `A049502(A001065(n+1)+1+n)` -/
 def P13574110897054040895.Spec : Prop :=
   ∀ n, P13574110897054040895.a n = A280843 (n + 1)
+
+theorem P13574110897054040895.correct : P13574110897054040895.Spec := by
+  intro n
+  simp only [A280843, Nat.add_sub_cancel, A280843.P13574110897054040895.a, A280843.P6908964579885282676.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001065, A001065.P4097147489331274860.a, A049502, A049502.P5742727287573319742.a, A004526, A004526.P10084182425416171735.a, A037800, A037800.P4480434957642420409.a, A069010, A069010.P14932719103722593844.a, A005811, A005811.P8696411420205566785.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A280843
 
@@ -6306,7 +6329,7 @@ end A280876.P17886409546157637046
 /-!
 # A280877: Occurrences of decrease of the probability density P(a(n)) of coprime numbers k,m, satisfying 1 <= k <= a(n) and 1 <= m <= a(n); i.e., P(a(n)) < P(a(n)-1).
 
-The programs for A280877, the canonical program `A280877.P16270623710386896264` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280877 has offset 1).
+The programs for A280877, the canonical program `A280877.P16270623710386896264` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280877 has offset 1).
 
 The definition of A280877 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1278 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6344,7 +6367,7 @@ end A280877
 
 `lt[A000010(A028310(n)), A256502(n+1)]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A280877
@@ -6478,7 +6501,7 @@ end A280877
 /-!
 # A280878: Occurrences of decrease of the probability density P(n) of coprime numbers k,m, satisfying 1 <= k <= a(n) and 1 <= m <= a(n), and a(n) congruent to 1(mod 2) and a(n) congruent to {3,9,21,27}(mod 30).
 
-The programs for A280878, the canonical program `A280878.P12461695525565810277` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280878 has offset 1).
+The programs for A280878, the canonical program `A280878.P12461695525565810277` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280878 has offset 1).
 
 The definition of A280878 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 343 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6487,7 +6510,7 @@ The definition of A280878 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A280877(n+1), A100490(n)]`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A280878

@@ -64,7 +64,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -1055,7 +1054,7 @@ end A281005
 
 The programs for A281006, the canonical program `A281006.P4753203276795461863` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281006 has offset 1).
 
-The definition of A281006 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A281006 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000203(n+1)-A052928(n)` (program `A281006.P4753203276795461863`, by `A281006.P4753203276795461863.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A281006.P4753203276795461863
@@ -1350,6 +1349,12 @@ namespace A281006
 def P13121126303191103957.Spec : Prop :=
   ∀ n, P13121126303191103957.a n = A281006 (n + 1)
 
+theorem P13121126303191103957.correct : P13121126303191103957.Spec := by
+  intro n
+  simp only [A281006, Nat.add_sub_cancel, A281006.P13121126303191103957.a, A281006.P4753203276795461863.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A052928, A052928.P15665125645728880594.a, A088580, A088580.P3089093194242277422.a, A109613, A109613.P11033607296544520888.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A281006
 
 /-! ## A281006.P10232730838027301662
@@ -1395,6 +1400,12 @@ namespace A281006
 /-- `A000203(n+1)+1-A109613(n)` -/
 def P6765296919387976074.Spec : Prop :=
   ∀ n, P6765296919387976074.a n = A281006 (n + 1)
+
+theorem P6765296919387976074.correct : P6765296919387976074.Spec := by
+  intro n
+  simp only [A281006, Nat.add_sub_cancel, A281006.P6765296919387976074.a, A281006.P4753203276795461863.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A052928, A052928.P15665125645728880594.a, A109613, A109613.P11033607296544520888.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A281006
 

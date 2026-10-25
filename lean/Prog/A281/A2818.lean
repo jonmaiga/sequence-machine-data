@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -58,6 +59,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -96,6 +98,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A281800: Number of nX6 0..1 arrays with no element unequal to a strict majority of its horizontal, diagonal and antidiagonal neighbors, with the exception of exactly two elements, and with new values introduced in order 0 sequentially upwards.
@@ -1540,6 +1546,12 @@ namespace A281814
 def P5632532517380503733.Spec : Prop :=
   ∀ n, P5632532517380503733.a n = A281814 n
 
+theorem P5632532517380503733.correct : P5632532517380503733.Spec := by
+  intro n
+  simp only [A281814, Nat.add_sub_cancel, A281814.P5632532517380503733.a, A281814.P10466637336053140821.a, A016777, A016777.P9931792138852554157.a, A017221, A017221.P17146920171309072654.a, A023531, A023531.P13036811505051547859.a, A010054, A010054.P18347828677204923252.a, A005369, A005369.P10796159359873341658.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A281814
 
 /-! ## A281814.P17781554692114993378
@@ -2591,7 +2603,7 @@ end A281823.P2143111009703555040
 /-!
 # A281824: Numbers that are the sum of 6 consecutive semiprimes.
 
-The programs for A281824, the canonical program `A281824.P1008752639434888392` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281824 has offset 1).
+The programs for A281824, the canonical program `A281824.P1008752639434888392` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281824 has offset 1).
 
 The definition of A281824 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9996 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2600,7 +2612,7 @@ The definition of A281824 is `conjectured`: the Lean definition is a formula tha
 
 `A118717(n+1)+A118717(n+3)+A118717(n+5)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A281824
@@ -7380,6 +7392,12 @@ namespace A281881
 /-- `A008279(n)*A143219(n+1)` -/
 def P6449985134770460551.Spec : Prop :=
   ∀ n, P6449985134770460551.a n = A281881 (n + 1)
+
+theorem P6449985134770460551.correct : P6449985134770460551.Spec := by
+  intro n
+  simp only [A281881, Nat.add_sub_cancel, A281881.P6449985134770460551.a, A281881.P16857394866510108787.f1, A281881.P16857394866510108787.a, A008279, A008279.P7177801246737440238.a, A010054, A010054.P18347828677204923252.a, A143219, A143219.P5950329359830316773.f1, A143219.P5950329359830316773.a, A267849, A267849.P9616404114859344746.a, A002262, A002262.P12129691700837801527.a, A003056, A003056.P5318256527314048597.a, A005369, A005369.P10796159359873341658.a, A049780, A049780.P7907391970177104858.a, A002260, A002260.P769748059679640451.a, A057944, A057944.P16851463738746886639.a, A000217, A000217.P10269402890581615239.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A281881
 

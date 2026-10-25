@@ -40,10 +40,9 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -51,6 +50,7 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -3380,6 +3380,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A226639.P8984036055176586728
+
+/-! ## A226639.P14035613176735559285
+
+`∑[1+n*(n+1)*(n-1)/2-A000290(n)]`
+-/
+
+namespace A226639.P14035613176735559285
+noncomputable section
+
+def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  1 + ((n * (n + 1) : ℤ) * ((n : ℤ) - 1) : ℚ) / 2 - (A000290 n : ℚ)
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A226639.P14035613176735559285
 
 /-! ## A226639.P6348000421893550410
 

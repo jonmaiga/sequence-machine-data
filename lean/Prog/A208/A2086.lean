@@ -56,15 +56,14 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -5552,7 +5551,7 @@ end A208658
 /-!
 # A208659: Triangle of coefficients of polynomials v(n,x) jointly generated with A185045; see the Formula section.
 
-The programs for A208659, the canonical program `A208659.P4846878712330380114` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208659 has offset 1).
+The programs for A208659, the canonical program `A208659.P4846878712330380114` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208659 has offset 1).
 
 The definition of A208659 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5591,7 +5590,7 @@ end A208659
 
 `A029653(n)*A059268(n)`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A208659

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -82,6 +83,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+
 /-!
 # A278301: Number of permutations of length n in the class of juxtapositions of 321-avoiders with 21-avoiders.
 
@@ -129,6 +134,12 @@ namespace A278301
 /-- `A026759(n)-A039919(n+1)` -/
 def P13728074566616068672.Spec : Prop :=
   ∀ n, P13728074566616068672.a n = A278301 n
+
+theorem P13728074566616068672.correct : P13728074566616068672.Spec := by
+  intro n
+  simp only [A278301, Nat.add_sub_cancel, A278301.P13728074566616068672.a, A278301.P979363314421420552.a, A000245, A000245.P15461013057778681831.a, A007317, A007317.P12762232467409535098.f1, A007317.P12762232467409535098.a, A026759, A026759.P13760565404652770883.a, A039919, A039919.P74578946767389129.f1, A039919.P74578946767389129.a, A000108, A000108.P17551949696095299361.a, A002212, A002212.P1343919783186949336.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A278301
 
@@ -201,6 +212,12 @@ namespace A278301
 /-- `A007317(n+1)+A000108(n)-A000108(n+1)` -/
 def P14619347079483410414.Spec : Prop :=
   ∀ n, P14619347079483410414.a n = A278301 n
+
+theorem P14619347079483410414.correct : P14619347079483410414.Spec := by
+  intro n
+  simp only [A278301, Nat.add_sub_cancel, A278301.P14619347079483410414.a, A278301.P979363314421420552.a, A000108, A000108.P17551949696095299361.a, A000245, A000245.P15461013057778681831.a, A007317, A007317.P12762232467409535098.f1, A007317.P12762232467409535098.a, A002212, A002212.P1343919783186949336.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A278301
 

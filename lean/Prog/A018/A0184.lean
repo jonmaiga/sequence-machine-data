@@ -42,14 +42,15 @@ import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -4411,6 +4412,24 @@ end
 
 end A018459.P5727580226153103941
 
+/-! ## A018459.P12733924101909351808
+
+`record[gcd(((n+1)/2^val(n+1, 2)+1)/2, A158319(n+1))]`
+-/
+
+namespace A018459.P12733924101909351808
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (SequenceMachineLib.roundAway (((n + 1 : ℚ) / (2 ^ SequenceMachineLib.valuation (n + 1) 2 : ℚ) + 1) / 2)) (A158319 (n + 1))
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A018459.P12733924101909351808
+
 /-! ## A018459.P11991803132414428981
 
 `A064989(A018750(n+1))`
@@ -4425,28 +4444,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A018459.P11991803132414428981
-
-/-! ## A018459.P4193514470046101852
-
-`∩[A035258(n+1), A087007(n+1)]`
--/
-
-namespace A018459.P4193514470046101852
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035258 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A087007 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A018459.P4193514470046101852
 
 /-!
 # A018460: Divisors of 444.

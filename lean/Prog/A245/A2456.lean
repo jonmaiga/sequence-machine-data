@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -89,6 +90,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A245600: Smallest prime Q such that prime(n)*(2*Q)^prime(n)-1 is prime.
@@ -1262,6 +1267,12 @@ namespace A245611
 /-- `A292591(n+1)+A292590(n+1)` -/
 def P16495047476925125099.Spec : Prop :=
   ∀ n, P16495047476925125099.a n = A245611 (n + 1)
+
+theorem P16495047476925125099.correct : P16495047476925125099.Spec := by
+  intro n
+  simp only [A245611, Nat.add_sub_cancel, A245611.P16495047476925125099.a, A245611.P15922686694877534878.a, A064216, A064216.P5935432423843156478.a, A243071, A243071.P12484383641158862297.a, A292590, A292590.P8653431818680257867.a, A292591, A292591.P7064288365944805705.a, A064989, A064989.P13349672914146769936.a, A079978, A079978.P10382542118278163374.a, A122111, A122111.P18124015185857335041.a, A253566, A253566.P9103107584596957047.a, A285712, A285712.P10989090546038180415.a, A008578, A008578.P3639467937083264764.a, A048673, A048673.P16342935298832955059.a, A052126, A052126.P1944428405920482243.a, A055010, A055010.P5809687151668349460.a, A061395, A061395.P8431317036300486107.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, A252463, A252463.P9404790189412916411.a, A252464, A252464.P11274602121942962009.a, A253564, A253564.P2152431909121566970.a, A254049, A254049.P1269229269105982742.a, A006530, A006530.P13372528560459906635.a, A029837, A029837.P1050578713049589.a, A045965, A045965.P3274931299755745232.a, A087207, A087207.P12536008426233777954.a, A152271, A152271.P6659965972248271911.a, A156552, A156552.P4268073137713085227.a, A158611, A158611.P9275629407611603775.a, A243502, A243502.P11791647281875328885.a, A252736, A252736.P2865412191134230649.f1, A252736.P2865412191134230649.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A245611
 
@@ -6670,7 +6681,7 @@ end A245679
 
 The programs for A245685, the canonical program `A245685.P1437960620465361428` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245685 has offset 1).
 
-The definition of A245685 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A247159, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A245685 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A245685.P1437960620465361428

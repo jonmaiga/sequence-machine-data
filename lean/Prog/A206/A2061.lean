@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C004
@@ -35,6 +36,7 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C001
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -60,6 +62,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A206100: G.f.: A(x) = Sum_{n>=0} x^n / Product_{k=1..n} (1-x^k)^k.
@@ -3059,6 +3065,12 @@ namespace A206144
 /-- `6*(A020698(n+1)+1-A057427(n))` -/
 def P17431411440107149020.Spec : Prop :=
   ∀ n, P17431411440107149020.a n = A206144 (n + 1)
+
+theorem P17431411440107149020.correct : P17431411440107149020.Spec := by
+  intro n
+  simp only [A206144, Nat.add_sub_cancel, A206144.P17431411440107149020.a, A206144.P9351163376155616945.a, A000007, A000007.P6599383543502402472.a, A020698, A020698.P10314354358028169608.a, A057427, A057427.P3058147525557661423.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A206144
 

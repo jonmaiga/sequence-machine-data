@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -49,13 +50,13 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -65,6 +66,7 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -89,6 +91,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A070100: Number of integer triangles with perimeter n and prime side lengths which are acute and isosceles.
@@ -904,7 +910,7 @@ end A070106
 /-!
 # A070107: Number of integer triangles with perimeter n and relatively prime side lengths which are obtuse and isosceles.
 
-The programs for A070107, the canonical program `A070107.P4147856377676697556` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070107 has offset 1).
+The programs for A070107, the canonical program `A070107.P4147856377676697556` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070107 has offset 1).
 
 The definition of A070107 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -913,7 +919,7 @@ The definition of A070107 is `conjectured`: the Lean definition is a formula tha
 
 `A070091(n+1)-A070099(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A070107
@@ -7519,6 +7525,12 @@ namespace A070169
 def P12260546207212804987.Spec : Prop :=
   ∀ n, P12260546207212804987.a n = A070169 n
 
+theorem P12260546207212804987.correct : P12260546207212804987.Spec := by
+  intro n
+  simp only [A070169, Nat.add_sub_cancel, A070169.P12260546207212804987.a, A070169.P12326242139371247653.a, A022847, A022847.P11285214133989731691.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A070169
 
 /-! ## A070169.P12727332731160067482
@@ -9352,7 +9364,7 @@ end A070194.P6323842014374441503
 /-!
 # A070195: Squarefree numbers sandwiched between a pair of twin primes.
 
-The programs for A070195, the canonical program `A070195.P10767127516466230729` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070195 has offset 1).
+The programs for A070195, the canonical program `A070195.P10767127516466230729` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070195 has offset 1).
 
 The definition of A070195 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6651 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9384,7 +9396,7 @@ end A070195
 
 `record[lcm(2, A066653(n+2))]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A070195
@@ -10492,6 +10504,12 @@ namespace A070198
 def P15737983454099196957.Spec : Prop :=
   ∀ n, P15737983454099196957.a n = A070198 n
 
+theorem P15737983454099196957.correct : P15737983454099196957.Spec := by
+  intro n
+  simp only [A070198, Nat.add_sub_cancel, A070198.P15737983454099196957.a, A070198.P18115024891889206898.a, A003418, A003418.P6976248655893080794.a, A075059, A075059.P13005941669399506084.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A070198
 
 /-! ## A070198.P2587067791988618459
@@ -10610,6 +10628,12 @@ namespace A070198
 def P11116984784935324762.Spec : Prop :=
   ∀ n, P11116984784935324762.a n = A070198 n
 
+theorem P11116984784935324762.correct : P11116984784935324762.Spec := by
+  intro n
+  simp only [A070198, Nat.add_sub_cancel, A070198.P11116984784935324762.a, A070198.P18115024891889206898.a, A003418, A003418.P6976248655893080794.a, A060401, A060401.P17035692861748186501.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A070198
 
 /-! ## A070198.P934731894261084412
@@ -10632,6 +10656,12 @@ namespace A070198
 /-- `A195507(n+2)-(n+3)` -/
 def P934731894261084412.Spec : Prop :=
   ∀ n, P934731894261084412.a n = A070198 n
+
+theorem P934731894261084412.correct : P934731894261084412.Spec := by
+  intro n
+  simp only [A070198, Nat.add_sub_cancel, A070198.P934731894261084412.a, A070198.P18115024891889206898.a, A003418, A003418.P6976248655893080794.a, A195507, A195507.P13812271573965113829.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A070198
 

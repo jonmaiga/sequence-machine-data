@@ -54,9 +54,9 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
@@ -4919,6 +4919,21 @@ end A275470.P15141202043504989203
 The programs for A275471, there is no canonical definition to state claims against.
 -/
 
+/-! ## A275471.P16096750419531607715
+
+`A331169(A055922(3*n+1))+A275656(n+1)`
+-/
+
+namespace A275471.P16096750419531607715
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A331169 (A055922 (3 * n + 1)).toNat + A275656 (n + 1)
+
+end
+
+end A275471.P16096750419531607715
+
 /-! ## A275471.P9783800835201238842
 
 `or(A051731(A038224(n)), A275656(n+1))`
@@ -4978,24 +4993,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A275471.P16946216365692286956
-
-/-! ## A275471.P8031012055062469013
-
-`∑{p}[A330687(n+1), val(A065937(n+1)+1, #)]+1`
--/
-
-namespace A275471.P8031012055062469013
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A330687 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n).natAbs, SequenceMachineLib.valuation (A065937 (n + 1) + 1).toNat p + 1
-
-end
-
-end A275471.P8031012055062469013
 
 /-!
 # A275472: First differences of A275316.

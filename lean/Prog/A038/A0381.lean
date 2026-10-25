@@ -90,7 +90,6 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -4173,6 +4172,12 @@ namespace A038130
 def P7899254834424598960.Spec : Prop :=
   ∀ n, P7899254834424598960.a n = A038130 n
 
+theorem P7899254834424598960.correct : P7899254834424598960.Spec := by
+  intro n
+  simp only [A038130, Nat.add_sub_cancel, A038130.P7899254834424598960.a, A038130.P2984912771872779364.a, A004082, A004082.P11339627534885608868.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A038130
 
 /-! ## A038130.P5406658544096044233
@@ -4451,6 +4456,12 @@ namespace A038130
 /-- `A063459(2*n)+2*n` -/
 def P8330836115568788734.Spec : Prop :=
   ∀ n, P8330836115568788734.a n = A038130 n
+
+theorem P8330836115568788734.correct : P8330836115568788734.Spec := by
+  intro n
+  simp only [A038130, Nat.add_sub_cancel, A038130.P8330836115568788734.a, A038130.P2984912771872779364.a, A063459, A063459.P17423234819915296512.a, A022844, A022844.P11976428228251050705.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A038130
 
@@ -13485,7 +13496,7 @@ end A038192
 
 The programs for A038194, the canonical program `A038194.P4142280690409945291` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038194 has offset 1).
 
-The definition of A038194 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A038194 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A038194.P4142280690409945291
@@ -14127,6 +14138,12 @@ namespace A038196
 /-- `A060827(n)/2` -/
 def P16633181830513601567.Spec : Prop :=
   ∀ n, P16633181830513601567.a n = (A038196 n : ℚ)
+
+theorem P16633181830513601567.correct : P16633181830513601567.Spec := by
+  intro n
+  simp only [A038196, Nat.add_sub_cancel, A038196.P16633181830513601567.a, A038196.P11643554112437182655.a, A060827, A060827.P15751382796492742172.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A038196
 

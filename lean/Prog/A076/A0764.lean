@@ -57,8 +57,8 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -2695,6 +2695,12 @@ namespace A076411
 def P115875656440074643.Spec : Prop :=
   ∀ n, P115875656440074643.a n = A076411 (n + 1)
 
+theorem P115875656440074643.correct : P115875656440074643.Spec := by
+  intro n
+  simp only [A076411, Nat.add_sub_cancel, A076411.P115875656440074643.a, A076411.P17634982879801196163.f2, A076411.P17634982879801196163.f1, A076411.P17634982879801196163.a, A007916, A007916.P1021710988916154839.f1, A007916.P1021710988916154839.a, A069623, A069623.P16188465153472375596.a, A075802, A075802.P15418155707765850726.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A076411
 
 /-! ## A076411.P14436961066193356026
@@ -2717,6 +2723,12 @@ namespace A076411
 /-- `1+A072292(n+1)-A075802(n+1)` -/
 def P14436961066193356026.Spec : Prop :=
   ∀ n, P14436961066193356026.a n = A076411 (n + 1)
+
+theorem P14436961066193356026.correct : P14436961066193356026.Spec := by
+  intro n
+  simp only [A076411, Nat.add_sub_cancel, A076411.P14436961066193356026.a, A076411.P17634982879801196163.f2, A076411.P17634982879801196163.f1, A076411.P17634982879801196163.a, A007916, A007916.P1021710988916154839.f1, A007916.P1021710988916154839.a, A072292, A072292.P7243147247323871744.a, A075802, A075802.P15418155707765850726.a, A069623, A069623.P16188465153472375596.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A076411
 
@@ -9979,7 +9991,7 @@ end A076484.P15452633367907167973
 /-!
 # A076485: Solutions to gcd(sigma(x), phi(x)) > gcd(sigma(core(x)), phi(core(x))), i.e., when A009223(x) > A066086(x) or if A066087(x) > 0.
 
-The programs for A076485, the canonical program `A076485.P11010209865824294629` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076485 has offset 1).
+The programs for A076485, the canonical program `A076485.P11010209865824294629` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076485 has offset 1).
 
 The definition of A076485 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1711 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9988,7 +10000,7 @@ The definition of A076485 is `conjectured`: the Lean definition is a formula tha
 
 `lt[0, A066087(n+1)]+1`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A076485
@@ -10122,7 +10134,7 @@ end A076485
 /-!
 # A076486: Solutions to gcd(sigma(x), phi(x)) < gcd(sigma(core(x)), phi(core(x))), i.e., when A009223(x) < A066086(x) or if A066087(x) < 0.
 
-The programs for A076486, the canonical program `A076486.P4890063333090486517` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076486 has offset 1).
+The programs for A076486, the canonical program `A076486.P4890063333090486517` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076486 has offset 1).
 
 The definition of A076486 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1229 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10131,7 +10143,7 @@ The definition of A076486 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A066087(n+1), 0]+1`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A076486
@@ -10265,7 +10277,7 @@ end A076486
 /-!
 # A076487: Solutions to gcd(sigma(x), phi(x)) = gcd(sigma(core(x)), phi(core(x))), i.e., when A009223(x) = A066086(x) or if A066087(x) = 0.
 
-The programs for A076487, the canonical program `A076487.P6113147361711761600` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076487 has offset 1).
+The programs for A076487, the canonical program `A076487.P6113147361711761600` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076487 has offset 1).
 
 The definition of A076487 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7060 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10304,7 +10316,7 @@ end A076487
 
 `eq[0, A066087(n+1)]+1`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A076487
@@ -10438,7 +10450,7 @@ end A076487
 /-!
 # A076488: Nonsquarefree solutions to gcd(sigma(x), phi(x)) = gcd(sigma(core(x)), Phi(core(x))), i.e., when A009223(x) = A066086(x) or if A066087(x)=0 and mu(x)=0.
 
-The programs for A076488, the canonical program `A076488.P10336001382820436641` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076488 has offset 1).
+The programs for A076488, the canonical program `A076488.P10336001382820436641` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076488 has offset 1).
 
 The definition of A076488 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1372 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10447,7 +10459,7 @@ The definition of A076488 is `conjectured`: the Lean definition is a formula tha
 
 `record[A105570(A076487(n+4))]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A076488

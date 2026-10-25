@@ -50,10 +50,9 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
@@ -82,6 +81,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -4459,6 +4459,12 @@ namespace A309649
 def P2000389754502389992.Spec : Prop :=
   ∀ n, P2000389754502389992.a n = A309649 (n + 1)
 
+theorem P2000389754502389992.correct : P2000389754502389992.Spec := by
+  intro n
+  simp only [A309649, Nat.add_sub_cancel, A309649.P2000389754502389992.a, A309649.P15868022147987081521.a, A000007, A000007.P6599383543502402472.a, A007821, A007821.P9323765795172173596.a, A057427, A057427.P3058147525557661423.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A018252, A018252.P16557407491482004301.f1, A018252.P16557407491482004301.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A309649
 
 /-! ## A309649.P301123215569824095
@@ -6009,7 +6015,7 @@ end A309673.P2240434666459122032
 /-!
 # A309674: a(1) = 1, a(n) = hamming_weight(Sum_{k=1..n-1} a(k) ) for n>=2.
 
-The programs for A309674, the canonical program `A309674.P15182603414113973909` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309674 has offset 1).
+The programs for A309674, the canonical program `A309674.P15182603414113973909` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309674 has offset 1).
 
 The definition of A309674 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6018,7 +6024,7 @@ The definition of A309674 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[A157845(n), #]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A309674

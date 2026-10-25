@@ -8197,20 +8197,23 @@ end
 
 end A035989.P11936245072836817331
 
-/-! ## A035989.P15839237961531321727
+/-! ## A035989.P6592229255271749419
 
-`A002865(n+1)+A316533(n+5)*A316533(n+6)`
+`record[A371783(n+1)]-A000041(n)`
 -/
 
-namespace A035989.P15839237961531321727
+namespace A035989.P6592229255271749419
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A371783 (n + 1)
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002865 (n + 1) + A316533 (n + 5) * A316533 (n + 6)
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n) - A000041 n
 
 end
 
-end A035989.P15839237961531321727
+end A035989.P6592229255271749419
 
 /-!
 # A035990: Number of partitions of n into parts not of the form 23k, 23k+2 or 23k-2. Also number of partitions with 1 part of size 1 and differences between parts at distance 10 are greater than 1.

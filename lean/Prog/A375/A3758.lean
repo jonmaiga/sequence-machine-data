@@ -51,7 +51,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -1574,20 +1573,20 @@ end
 
 end A375835.P4201847196491385771
 
-/-! ## A375835.P16421909429413128070
+/-! ## A375835.P13397267620264396116
 
-`A276890(A369609(n+3))*A331958(A268438(n))`
+`A040001(A107803(n+2))*A331958(A268438(n))`
 -/
 
-namespace A375835.P16421909429413128070
+namespace A375835.P13397267620264396116
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A276890 (A369609 (n + 3)).toNat * A331958 (A268438 n).toNat
+  A040001 (A107803 (n + 2)).toNat * A331958 (A268438 n).toNat
 
 end
 
-end A375835.P16421909429413128070
+end A375835.P13397267620264396116
 
 /-!
 # A375836: Number of chains in the poset of permutations of [n].

@@ -39,10 +39,10 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
-import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C005
 import Seq.Opaque.C006
@@ -677,21 +677,6 @@ end
 
 end A049905.P4987725830105697686
 
-/-! ## A049905.P17187592703800848785
-
-`A049893(n+1)+A049909(n+1)-A049897(n+1)`
--/
-
-namespace A049905.P17187592703800848785
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049893 (n + 1) + (A049909 (n + 1) - A049897 (n + 1))
-
-end
-
-end A049905.P17187592703800848785
-
 /-! ## A049905.P16048907125552201700
 
 `A049897(n+1)+A049901(n+1)-A049893(n+1)`
@@ -721,6 +706,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A049905.P13347136053374393007
+
+/-! ## A049905.P17187592703800848785
+
+`A049893(n+1)+A049909(n+1)-A049897(n+1)`
+-/
+
+namespace A049905.P17187592703800848785
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A049893 (n + 1) + (A049909 (n + 1) - A049897 (n + 1))
+
+end
+
+end A049905.P17187592703800848785
 
 /-! ## A049905.P7565586595730331928
 

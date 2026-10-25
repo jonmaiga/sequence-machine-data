@@ -57,6 +57,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -2137,7 +2138,7 @@ end A187032.P2472617179946524971
 /-!
 # A187034: Number triangle T(n,k) = (-1)^(n-k) if binomial(k, n-k) > 0, 0 otherwise, with 0 <= k <= n.
 
-The programs for A187034, the canonical program `A187034.P12620824179047078274` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187034 has offset 0).
+The programs for A187034, the canonical program `A187034.P12620824179047078274` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187034 has offset 0).
 
 The definition of A187034 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2146,7 +2147,7 @@ The definition of A187034 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A101688(n)*(-1)^(A003056(n)+A002260(n+1)+1)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A187034
@@ -5869,6 +5870,12 @@ namespace A187059
 /-- `A249152(n)-A174605(n)` -/
 def P6477762972361379116.Spec : Prop :=
   ∀ n, P6477762972361379116.a n = A187059 n
+
+theorem P6477762972361379116.correct : P6477762972361379116.Spec := by
+  intro n
+  simp only [A187059, Nat.add_sub_cancel, A187059.P6477762972361379116.a, A187059.P4673971385048971106.a, A000788, A000788.P8338375810879423652.a, A174605, A174605.P3556819156427171389.a, A249152, A249152.P735864470480457739.a, A249154, A249154.P2345966816674260141.a, A000120, A000120.P2816527436160941581.a, A083741, A083741.P6552315304162526779.a, A136013, A136013.P12572160085575880269.a, A005187, A005187.P3874015513960485494.a, A245788, A245788.P10796889760857720878.f2, A245788.P10796889760857720878.f1, A245788.P10796889760857720878.a, A298011, A298011.P12682259250450599023.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A187059
 

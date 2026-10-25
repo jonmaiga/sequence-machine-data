@@ -54,11 +54,9 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -1180,7 +1178,7 @@ end A273710.P7348324319795259989
 /-!
 # A273711: The Hadamard product of omega(n) and A007875(n).
 
-The programs for A273711, the canonical program `A273711.P5353043427219471615` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273711 has offset 1).
+The programs for A273711, the canonical program `A273711.P5353043427219471615` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273711 has offset 1).
 
 The definition of A273711 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, A007875, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1189,7 +1187,7 @@ The definition of A273711 is `conditional`: the Lean definition is an OEIS formu
 
 `A001221(n+1)*A007875(n+1)`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A273711

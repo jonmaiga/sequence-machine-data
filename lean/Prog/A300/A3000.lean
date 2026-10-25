@@ -42,8 +42,9 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -610,20 +611,20 @@ end
 
 end A300026.P14474174268455696925
 
-/-! ## A300026.P8193145371698157502
+/-! ## A300026.P6259694325840731059
 
-`A300030(A001844(n))%A321056(n+1)`
+`gcd(A010894(n), A300030(A001844(n)))`
 -/
 
-namespace A300026.P8193145371698157502
+namespace A300026.P6259694325840731059
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A300030 (A001844 n).toNat) (A321056 (n + 1 + 10))
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A010894 (n + 21)) (A300030 (A001844 n).toNat)
 
 end
 
-end A300026.P8193145371698157502
+end A300026.P6259694325840731059
 
 /-!
 # A300027: Number of nX5 0..1 arrays with every element equal to 0, 1, 3, 4, 6, 7 or 8 king-move adjacent elements, with upper left element zero.

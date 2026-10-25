@@ -57,16 +57,13 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -3962,6 +3959,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A372356.P18425236917700628976
+
+/-! ## A372356.P10453509467749181234
+
+`A372355(n+1)-A372360(A372398(3*n+1))`
+-/
+
+namespace A372356.P10453509467749181234
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A372355 (n + 1) - A372360 (A372398 (3 * n + 1)).toNat
+
+end
+
+end A372356.P10453509467749181234
 
 /-!
 # A372358: a(n) = n XOR A086893(1+A000523(n)), where XOR is a bitwise-XOR, A003987.

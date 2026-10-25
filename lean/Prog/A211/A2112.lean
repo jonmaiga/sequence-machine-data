@@ -65,7 +65,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
@@ -5425,7 +5424,7 @@ end A211253
 
 The programs for A211261, the canonical program `A211261.P11564212885417913307` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211261 has offset 1).
 
-The definition of A211261 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A211261 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A211261.P11564212885417913307
@@ -6504,6 +6503,12 @@ namespace A211264
 def P13864961006010053696.Spec : Prop :=
   ∀ n, P13864961006010053696.a n = A211264 (n + 1)
 
+theorem P13864961006010053696.correct : P13864961006010053696.Spec := by
+  intro n
+  simp only [A211264, Nat.add_sub_cancel, A211264.P13864961006010053696.a, A211264.P11691633609460959975.a, A000196, A000196.P15434771586934192083.a, A094820, A094820.P5005010765945633983.a, A181972, A181972.P14820601943036584193.f2, A181972.P14820601943036584193.f1, A181972.P14820601943036584193.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A211264
 
 /-! ## A211264.P12932782242906971167
@@ -7523,7 +7528,7 @@ end A211265
 /-!
 # A211266: Number of integer pairs (x,y) such that 0
 
-The programs for A211266, the canonical program `A211266.P4070917168156634709` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211266 has offset 1).
+The programs for A211266, the canonical program `A211266.P4070917168156634709` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211266 has offset 1).
 
 The definition of A211266 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7590,7 +7595,7 @@ end A211266
 
 `∑[A140106(A092405(2*n+1))]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A211266
@@ -7870,7 +7875,7 @@ end A211267.P18061449569541332177
 
 The programs for A211270, the canonical program `A211270.P5835320324361181167` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211270 has offset 1).
 
-The definition of A211270 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A211270 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A211270.P5835320324361181167
@@ -8487,7 +8492,7 @@ end A211271
 /-!
 # A211272: Number of integer pairs (x,y) such that 0
 
-The programs for A211272, the canonical program `A211272.P4633808634347613999` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211272 has offset 1).
+The programs for A211272, the canonical program `A211272.P4633808634347613999` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211272 has offset 1).
 
 The definition of A211272 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5555 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8594,7 +8599,7 @@ end A211272
 
 `abs(Δ[A220400(2*n)])`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A211272
@@ -9545,6 +9550,12 @@ namespace A211278
 /-- `A385641(n)-A247287(n)` -/
 def P2186743050170368095.Spec : Prop :=
   ∀ n, P2186743050170368095.a n = A211278 n
+
+theorem P2186743050170368095.correct : P2186743050170368095.Spec := by
+  intro n
+  simp only [A211278, Nat.add_sub_cancel, A211278.P2186743050170368095.a, A211278.P4317320324057331909.f1, A211278.P4317320324057331909.a, A247287, A247287.P5555525899423498411.f1, A247287.P5555525899423498411.a, A383527, A383527.P15314249034805900064.a, A385641, A385641.P16422059336115816604.a, A097861, A097861.P10253467573463981684.a, A002426, A002426.P18316219981098248731.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A211278
 

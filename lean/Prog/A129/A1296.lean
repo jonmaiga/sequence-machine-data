@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -61,7 +62,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -91,6 +91,11 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A129600: Array A(i,j) of binary run-length encoded product of i and j, read by ascending antidiagonals.
@@ -3038,6 +3043,12 @@ namespace A129632
 def P17841880197929811860.Spec : Prop :=
   ∀ n, P17841880197929811860.a n = A129632 (n + 1)
 
+theorem P17841880197929811860.correct : P17841880197929811860.Spec := by
+  intro n
+  simp only [A129632, Nat.add_sub_cancel, A129632.P17841880197929811860.f1, A129632.P17841880197929811860.a, A129632.P2546070396223318739.f1, A129632.P2546070396223318739.a, A063882, A063882.P3070067966620141214.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A129632
 
 /-! ## A129632.P8351431197613431729
@@ -3802,6 +3813,12 @@ namespace A129636
 /-- `A053735(A140513(n)-A055248(n))` -/
 def P10181990422298247721.Spec : Prop :=
   ∀ n, P10181990422298247721.a n = A129636 n
+
+theorem P10181990422298247721.correct : P10181990422298247721.Spec := by
+  intro n
+  simp only [A129636, Nat.add_sub_cancel, A129636.P10181990422298247721.a, A129636.P13019751396834659063.a, A053735, A053735.P3640341592284089632.a, A055248, A055248.P3086643025084055619.a, A102363, A102363.P15098294147514921799.a, A140513, A140513.P13579608035938851890.a, A007318, A007318.P302227728145965961.a, A054861, A054861.P6137810495506521191.a, A137688, A137688.P9746695207037186753.a, A003056, A003056.P5318256527314048597.a, A259525, A259525.P15603515225238104540.f1, A259525.P15603515225238104540.a, A074909, A074909.P6707642907239843837.f1, A074909.P6707642907239843837.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A129636
 
@@ -9780,7 +9797,7 @@ end A129690.P12350582449801621410
 /-!
 # A129691: Inverse of A054523.
 
-The programs for A129691, the canonical program `A129691.P5534431629163071465` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A129691 has offset 1).
+The programs for A129691, the canonical program `A129691.P5534431629163071465` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A129691 has offset 1).
 
 The definition of A129691 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9789,7 +9806,7 @@ The definition of A129691 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[A126988(n+1), A055615(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A129691

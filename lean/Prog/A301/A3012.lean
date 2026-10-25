@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -47,12 +48,9 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -74,6 +72,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -83,6 +82,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A301200: Coordination sequence T2 for Zeolite Code SIV.
@@ -2562,6 +2565,12 @@ namespace A301285
 /-- `A310430(n)-A008854(n+1)` -/
 def P16958256603721831173.Spec : Prop :=
   ∀ n, P16958256603721831173.a n = A301285 n
+
+theorem P16958256603721831173.correct : P16958256603721831173.Spec := by
+  intro n
+  simp only [A301285, Nat.add_sub_cancel, A301285.P16958256603721831173.a, A301285.P11128293698623168490.a, A008854, A008854.P2222206027881671294.a, A077814, A077814.P1153780925982348255.a, A301293, A301293.P16402300677055153941.a, A310430, A310430.P7342347051689276617.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A301285
 

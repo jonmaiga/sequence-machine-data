@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -87,6 +88,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A290800: One of the two successive approximations up to 7^n for the 7-adic integer sqrt(-6). These are the numbers congruent to 1 mod 7 (except for the initial 0).
@@ -1761,6 +1766,12 @@ namespace A290825
 /-- `A190592(n)-A037897(n)` -/
 def P1318861047354451089.Spec : Prop :=
   ∀ n, P1318861047354451089.a n = A290825 n
+
+theorem P1318861047354451089.correct : P1318861047354451089.Spec := by
+  intro n
+  simp only [A290825, Nat.add_sub_cancel, A290825.P1318861047354451089.a, A290825.P15737516132095807789.f1, A290825.P15737516132095807789.a, A032924, A032924.P18310276245285467851.a, A037897, A037897.P13729740448367622146.a, A088917, A088917.P10709094076665346594.a, A190592, A190592.P2630804836505561271.a, A001850, A001850.P8225243896153059034.a, A007089, A007089.P1807555167867376115.a, A054055, A054055.P4613541377942540963.a, A107680, A107680.P2091678372907018845.a, A107681, A107681.P6693878412057773898.a, A000523, A000523.P3314682526375882520.a, A003462, A003462.P13985754852886705544.a, A005836, A005836.P12367569128854000442.a, A024635, A024635.P13832029080543762616.a, A062050, A062050.P17235940281182373868.a, A355222, A355222.P17906569904308679321.a, A006257, A006257.P8910165504183276925.a, A054054, A054054.P1056175227029170886.a, A056142, A056142.P638140004868031470.a, A182324, A182324.P68523715600839783.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A290825
 
@@ -5214,6 +5225,21 @@ end A290866.P9163099837396649226
 The programs for A290867, there is no canonical definition to state claims against.
 -/
 
+/-! ## A290867.P395070598593510101
+
+`C(A001511(A288434(n)), 4)`
+-/
+
+namespace A290867.P395070598593510101
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (A001511 (A288434 n).toNat).toNat 4
+
+end
+
+end A290867.P395070598593510101
+
 /-! ## A290867.P10108236841800494604
 
 `C(A302242(A004733(n)), 4)`
@@ -5273,21 +5299,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A290867.P14333394033700305277
-
-/-! ## A290867.P3273272723160358856
-
-`C(A285572(A038754(n+3)), 4)`
--/
-
-namespace A290867.P3273272723160358856
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A285572 (A038754 (n + 3)).toNat).toNat 4
-
-end
-
-end A290867.P3273272723160358856
 
 /-!
 # A290869: Numbers that are repdigits with length > 2 in more than two bases.

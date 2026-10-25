@@ -15,7 +15,6 @@ import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C038
@@ -35,6 +34,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -43,6 +43,7 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -52,6 +53,7 @@ import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
+import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
@@ -60,6 +62,7 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -2232,23 +2235,23 @@ end A240328.P15495143358016551497
 The programs for A240329, there is no canonical definition to state claims against.
 -/
 
-/-! ## A240329.P10971354822467181173
+/-! ## A240329.P16623028404269074529
 
-`Δ[val(A219531(n), A191426(n+2))]`
+`Δ[A010054(A193584(n+2)+A000217(n))]`
 -/
 
-namespace A240329.P10971354822467181173
+namespace A240329.P16623028404269074529
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.valuation (A219531 n).toNat (A191426 (n + 2)).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010054 (A193584 (n + 2) + A000217 n).toNat
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (f1 (n + 1) : ℤ) - (f1 n : ℤ)
+  f1 (n + 1) - f1 n
 
 end
 
-end A240329.P10971354822467181173
+end A240329.P16623028404269074529
 
 /-!
 # A240330: Inverse of 43rd cyclotomic polynomial.

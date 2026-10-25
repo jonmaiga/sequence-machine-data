@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -58,6 +59,7 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -86,6 +88,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A259800: Guttmann-Torrie series coefficients c_{2n}^{21} for square lattice rotated by Pi/4, with wedge angle Pi/2.
@@ -1517,6 +1523,12 @@ namespace A259826
 /-- `3*A120382(n+1)` -/
 def P16778493211152366751.Spec : Prop :=
   ∀ n, P16778493211152366751.a n = A259826 (n + 1)
+
+theorem P16778493211152366751.correct : P16778493211152366751.Spec := by
+  intro n
+  simp only [A259826, Nat.add_sub_cancel, A259826.P16778493211152366751.a, A259826.P6433926168437489858.a, A060461, A060461.P10262298228971221195.a, A120382, A120382.P11282506073447857493.a, A171696, A171696.P13576368370877495331.f1, A171696.P13576368370877495331.a, A377540, A377540.P8485193340030685808.f1, A377540.P8485193340030685808.f2, A377540.P8485193340030685808.a, A161996, A161996.P3418427153135750794.f1, A161996.P3418427153135750794.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A259826
 
@@ -6163,7 +6175,7 @@ end A259896.P7704890796867698493
 /-!
 # A259897: a(n) is the 2-adic valuation of phi(binomial(2*n,n)).
 
-The programs for A259897, the canonical program `A259897.P2407533474827309403` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259897 has offset 0).
+The programs for A259897, the canonical program `A259897.P2407533474827309403` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259897 has offset 0).
 
 The definition of A259897 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 170 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6172,7 +6184,7 @@ The definition of A259897 is `conjectured`: the Lean definition is a formula tha
 
 `val(A066973(round(sqrt(n²+1))), 2)`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A259897

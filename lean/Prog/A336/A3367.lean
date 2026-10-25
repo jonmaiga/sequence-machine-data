@@ -47,13 +47,12 @@ import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
@@ -79,13 +78,13 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
@@ -801,7 +800,7 @@ end A336714.P11313573512525957896
 /-!
 # A336715: Numbers m that divide the product phi(m) * tau(m), where tau is the number of divisors function (A000005) and phi is the Euler totient function (A000010).
 
-The programs for A336715, the canonical program `A336715.P8758040222245764786` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336715 has offset 1).
+The programs for A336715, the canonical program `A336715.P8758040222245764786` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336715 has offset 1).
 
 The definition of A336715 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -810,7 +809,7 @@ The definition of A336715 is `conjectured`: the Lean definition is a formula tha
 
 `record[gcd(n+1, A062355(n+1))]`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A336715
@@ -1321,7 +1320,7 @@ end A336721.P13199080854164177915
 
 The programs for A336722, the canonical program `A336722.P17887129013685471247` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336722 has offset 1).
 
-The definition of A336722 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007955, A009205, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A336722 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A009205, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A336722.P17887129013685471247
@@ -4669,7 +4668,7 @@ end A336755.P13690624347748571312
 /-!
 # A336756: Perimeters in increasing order of primitive integer-sided triangles whose sides a < b < c are in arithmetic progression.
 
-The programs for A336756, the canonical program `A336756.P6848481102697664019` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336756 has offset 1).
+The programs for A336756, the canonical program `A336756.P6848481102697664019` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336756 has offset 1).
 
 The definition of A336756 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4704,7 +4703,7 @@ end A336756
 
 `3*A038567(2*(n+1))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A336756
@@ -4883,7 +4882,7 @@ end A336756
 /-!
 # A336757: Number of primitive integer-sided triangles whose sides a < b < c are in arithmetic progression with a perimeter = n.
 
-The programs for A336757, the canonical program `A336757.P12821724106790794418` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336757 has offset 1).
+The programs for A336757, the canonical program `A336757.P12821724106790794418` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A336757 has offset 1).
 
 The definition of A336757 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4892,7 +4891,7 @@ The definition of A336757 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A008683(#)*A024164((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A336757

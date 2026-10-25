@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -99,6 +100,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A117100: Numbers k such that nextprime(3*k) > 3*nextprime(k) and k is composite (if p is prime then nextprime(p) = p).
@@ -2488,6 +2493,12 @@ namespace A117120
 /-- `A063946(3*A000079(floor(log2(n+1)))-2-n)` -/
 def P12968472196823985743.Spec : Prop :=
   ∀ n, P12968472196823985743.a n = A117120 (n + 1)
+
+theorem P12968472196823985743.correct : P12968472196823985743.Spec := by
+  intro n
+  simp only [A117120, Nat.add_sub_cancel, A117120.P12968472196823985743.a, A117120.P9394178660501111264.a, A000079, A000079.P10855139691139572931.a, A004756, A004756.P4780538030628569258.a, A063946, A063946.P14831572246508618093.a, A053644, A053644.P1707366427427647095.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A117120
 
@@ -6604,6 +6615,12 @@ namespace A117152
 /-- `A192142(n+1)-A192245(n+1)` -/
 def P14043316637467477580.Spec : Prop :=
   ∀ n, P14043316637467477580.a n = A117152 n
+
+theorem P14043316637467477580.correct : P14043316637467477580.Spec := by
+  intro n
+  simp only [A117152, Nat.add_sub_cancel, A117152.P14043316637467477580.a, A117152.P11692183672418118795.f1, A117152.P11692183672418118795.a, A086926, A086926.P11568517746438091352.a, A192142, A192142.P14644412906987799282.a, A192245, A192245.P7575187329844493871.f2, A192245.P7575187329844493871.f1, A192245.P7575187329844493871.a, A001611, A001611.P2764665205649475385.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A117152
 
@@ -12434,6 +12451,12 @@ namespace A117197
 /-- `A178393(n+1)+1` -/
 def P10577612737307322981.Spec : Prop :=
   ∀ n, P10577612737307322981.a n = A117197 (n + 1)
+
+theorem P10577612737307322981.correct : P10577612737307322981.Spec := by
+  intro n
+  simp only [A117197, Nat.add_sub_cancel, A117197.P10577612737307322981.a, A117197.P15669734261078798791.a, A178393, A178393.P16791006920887011293.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A117197
 

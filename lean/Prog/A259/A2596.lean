@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -62,7 +63,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -87,6 +87,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A259600: Triangular array: sums of two distinct lower Wythoff numbers.
@@ -2474,6 +2478,12 @@ namespace A259625
 /-- `A259626(n+1)-1` -/
 def P5558057918990365548.Spec : Prop :=
   ∀ n, P5558057918990365548.a n = A259625 (n + 1)
+
+theorem P5558057918990365548.correct : P5558057918990365548.Spec := by
+  intro n
+  simp only [A259625, Nat.add_sub_cancel, A259625.P5558057918990365548.a, A259625.P16118554221174948864.f1, A259625.P16118554221174948864.a, A000032, A000032.P8352177345629330861.a, A000035, A000035.P2023072528413494694.a, A008621, A008621.P16254263843810723736.a, A259626, A259626.P18318315588248049035.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A259625
 
@@ -5004,7 +5014,7 @@ end A259647.P11691115688951773337
 
 The programs for A259648, the canonical program `A259648.P18063920106671831620` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259648 has offset 2).
 
-The definition of A259648 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A030078, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A259648 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A259648.P18063920106671831620

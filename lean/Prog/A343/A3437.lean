@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -51,6 +52,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -58,6 +60,7 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -90,6 +93,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A343700: 
@@ -4690,6 +4697,12 @@ namespace A343766
 def P16543232412450807602.Spec : Prop :=
   ∀ n, P16543232412450807602.a n = A343766 n
 
+theorem P16543232412450807602.correct : P16543232412450807602.Spec := by
+  intro n
+  simp only [A343766, Nat.add_sub_cancel, A343766.P16543232412450807602.a, A343766.P2621926781585382443.a, A000007, A000007.P6599383543502402472.a, A117966, A117966.P11599160912576478646.a, A128173, A128173.P11177856239651542119.a, A004526, A004526.P10084182425416171735.a, A005836, A005836.P12367569128854000442.a, A244042, A244042.P9314766524248185345.a, A289814, A289814.P11371932108795153936.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A343766
 
 /-! ## A343766.P15036061177383058509
@@ -4929,6 +4942,12 @@ namespace A343773
 /-- `A107587(n)-A343386(n)` -/
 def P7640005713443451647.Spec : Prop :=
   ∀ n, P7640005713443451647.a n = A343773 n
+
+theorem P7640005713443451647.correct : P7640005713443451647.Spec := by
+  intro n
+  simp only [A343773, Nat.add_sub_cancel, A343773.P7640005713443451647.a, A343773.P13940850346087918743.a, A100223, A100223.P7399855820009655789.a, A107587, A107587.P2188899179976675921.a, A343386, A343386.P6946411365016645358.a, A001006, A001006.P11199602840237397285.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A343773
 
@@ -5876,7 +5895,7 @@ end A343783.P8958472152858924255
 /-!
 # A343785: a(n) is completely multiplicative with a(p^e) = (-1)^e if p == 2 (mod 3) and a(p^e) = 1 otherwise.
 
-The programs for A343785, the canonical program `A343785.P5171936398951743688` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343785 has offset 1).
+The programs for A343785, the canonical program `A343785.P5171936398951743688` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343785 has offset 1).
 
 The definition of A343785 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008836, A343430, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5885,7 +5904,7 @@ The definition of A343785 is `conditional`: the Lean definition is an OEIS formu
 
 `A008836(A343430(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A343785

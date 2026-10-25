@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -87,6 +88,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A103700: Add 9 to each of the preceding digits, beginning with 0.
@@ -2316,20 +2321,24 @@ end
 
 end A103736.P10627995191599926934
 
-/-! ## A103736.P6262354519465144276
+/-! ## A103736.P7011728081345383328
 
-`A000045(A141468(n+1))`
+`A000045(comp[A007918(n)])`
 -/
 
-namespace A103736.P6262354519465144276
+namespace A103736.P7011728081345383328
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007918 n
+
+open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000045 (A141468 (n + 1)).toNat
+  A000045 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
 
 end
 
-end A103736.P6262354519465144276
+end A103736.P7011728081345383328
 
 /-!
 # A103737: Define a(1)=0, a(2)=0, a(3)=3, a(4)=7 such that from i=1 to 4: 30*a(i)^2 + 30*a(i) + 1 = j(i)^2, j(1)=1, j(2)=1, j(3)=19, j(4)=41 Then a(n) = a(n-4) + 4*sqrt(30*(a(n-2)^2) + 30*a(n-2) + 1).
@@ -4452,6 +4461,12 @@ namespace A103762
 def P2058472569377018121.Spec : Prop :=
   ∀ n, P2058472569377018121.a n = A103762 (n + 1)
 
+theorem P2058472569377018121.correct : P2058472569377018121.Spec := by
+  intro n
+  simp only [A103762, Nat.add_sub_cancel, A103762.P2058472569377018121.a, A103762.P7031636312920790194.a, A213908, A213908.P5623755903322932494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A103762
 
 /-! ## A103762.P12145414582890211163
@@ -5787,7 +5802,7 @@ end A103780.P3469937305095771945
 
 The programs for A103781, the canonical program `A103781.P10957208017152702897` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A103781 has offset 1).
 
-The definition of A103781 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A103781 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A103781.P10957208017152702897

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -68,7 +69,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -93,6 +94,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A187300: Number of 5-step one space leftwards or up, two space rightwards or down asymmetric rook's tours on an n X n board summed over all starting positions.
@@ -814,6 +819,12 @@ namespace A187306
 /-- `A033999(n)+A005043(n+1)` -/
 def P3922597606024786567.Spec : Prop :=
   ∀ n, P3922597606024786567.a n = A187306 n
+
+theorem P3922597606024786567.correct : P3922597606024786567.Spec := by
+  intro n
+  simp only [A187306, Nat.add_sub_cancel, A187306.P3922597606024786567.a, A187306.P13731077059909855300.a, A005043, A005043.P11838040305800302990.a, A033999, A033999.P17703899380244199787.a, A001006, A001006.P11199602840237397285.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A187306
 
@@ -11021,6 +11032,12 @@ namespace A187341
 def P15748676042025751334.Spec : Prop :=
   ∀ n, P15748676042025751334.a n = A187341 (n + 1)
 
+theorem P15748676042025751334.correct : P15748676042025751334.Spec := by
+  intro n
+  simp only [A187341, Nat.add_sub_cancel, A187341.P15748676042025751334.f1, A187341.P15748676042025751334.a, A187341.P13799403847151847791.a, A190505, A190505.P8242071480314916679.f1, A190505.P8242071480314916679.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A187341
 
 /-! ## A187341.P1025492815655524627
@@ -12634,7 +12651,7 @@ end A187355.P6520201129217911973
 
 The programs for A187357, the canonical program `A187357.P2278032874893619399` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187357 has offset 0).
 
-The definition of A187357 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A187357 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000108(3*n)` (program `A187357.P2278032874893619399`, by `A187357.P2278032874893619399.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A187357.P2278032874893619399
@@ -12861,6 +12878,12 @@ namespace A187357
 def P4267171564799269500.Spec : Prop :=
   ∀ n, P4267171564799269500.a n = A187357 n
 
+theorem P4267171564799269500.correct : P4267171564799269500.Spec := by
+  intro n
+  simp only [A187357, Nat.add_sub_cancel, A187357.P4267171564799269500.a, A187357.P2278032874893619399.a, A000108, A000108.P17551949696095299361.a, A120304, A120304.P16195813583233364787.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A187357
 
 /-!
@@ -12868,7 +12891,7 @@ end A187357
 
 The programs for A187358, the canonical program `A187358.P4431220509580705304` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187358 has offset 0).
 
-The definition of A187358 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A187358 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000108(3*n+1)` (program `A187358.P4431220509580705304`, by `A187358.P4431220509580705304.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A187358.P4431220509580705304
@@ -13980,6 +14003,12 @@ namespace A187364
 /-- `A010763(3*n)+1` -/
 def P4257008398516709904.Spec : Prop :=
   ∀ n, P4257008398516709904.a n = A187364 n
+
+theorem P4257008398516709904.correct : P4257008398516709904.Spec := by
+  intro n
+  simp only [A187364, Nat.add_sub_cancel, A187364.P4257008398516709904.a, A187364.P14292930378940509851.a, A010763, A010763.P16190016592179271421.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A187364
 

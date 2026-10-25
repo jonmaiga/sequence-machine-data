@@ -47,6 +47,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -375,6 +376,24 @@ end
 
 end A351202.P15816909235272206351
 
+/-! ## A351202.P14922255790010194903
+
+`and(7, A000700(∏{e}[n+1, or(1, #+1)]))`
+-/
+
+namespace A351202.P14922255790010194903
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land 7 (A000700 (∏ p ∈ Nat.primeFactors (f1 n), Nat.lor 1 (Nat.factorization (f1 n) p + 1)))
+
+end
+
+end A351202.P14922255790010194903
+
 /-! ## A351202.P6005720690402208530
 
 `∑{p}[n+1, gcd(n, #)]!^A061704(n+1)`
@@ -476,21 +495,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A351202.P15289780334806614266
-
-/-! ## A351202.P5361324602252950790
-
-`A008480(A372379(n+1))`
--/
-
-namespace A351202.P5361324602252950790
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008480 (A372379 (n + 1)).toNat
-
-end
-
-end A351202.P5361324602252950790
 
 /-!
 # A351203: Number of integer partitions of n of whose permutations do not all have distinct runs.
@@ -3766,7 +3770,7 @@ end A351245
 /-!
 # A351246: a(n) = n^6 * Sum_{p|n, p prime} 1/p^6.
 
-The programs for A351246, the canonical program `A351246.P6585149693211895413` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A351246 has offset 1).
+The programs for A351246, the canonical program `A351246.P6585149693211895413` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A351246 has offset 1).
 
 The definition of A351246 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3879,7 +3883,7 @@ end A351246
 
 `∑{d}[n+1, A306411(#)*A351245((n+1)/#)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A351246
@@ -3923,7 +3927,7 @@ end A351246
 /-!
 # A351247: a(n) = n^7 * Sum_{p|n, p prime} 1/p^7.
 
-The programs for A351247, the canonical program `A351247.P9442226858346152668` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A351247 has offset 1).
+The programs for A351247, the canonical program `A351247.P9442226858346152668` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A351247 has offset 1).
 
 The definition of A351247 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4010,7 +4014,7 @@ end A351247
 
 `∑{d}[n+1, A239442(#)*A351246((n+1)/#)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A351247
@@ -6305,7 +6309,7 @@ end A351265
 /-!
 # A351266: Sum of the cubes of the squarefree divisors of n.
 
-The programs for A351266, the canonical program `A351266.P8932586286856207349` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A351266 has offset 1).
+The programs for A351266, the canonical program `A351266.P8932586286856207349` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A351266 has offset 1).
 
 The definition of A351266 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A328640, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6314,7 +6318,7 @@ The definition of A351266 is `conditional`: the Lean definition is an OEIS formu
 
 `abs(A328640(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A351266

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -38,9 +39,12 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B008.C001
@@ -58,7 +62,6 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -72,6 +75,10 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A043600: Numbers whose base-4 representation has exactly 9 runs.
@@ -7769,6 +7776,12 @@ namespace A043689
 /-- `A238248(n+1)-1` -/
 def P14235170605151147258.Spec : Prop :=
   ∀ n, P14235170605151147258.a n = A043689 (n + 1)
+
+theorem P14235170605151147258.correct : P14235170605151147258.Spec := by
+  intro n
+  simp only [A043689, Nat.add_sub_cancel, A043689.P14235170605151147258.a, A043689.P9278617102155900918.a, A043574, A043574.P2106870287993236805.f1, A043574.P2106870287993236805.f2, A043574.P2106870287993236805.a, A238248, A238248.P15572753832820351809.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A043689
 

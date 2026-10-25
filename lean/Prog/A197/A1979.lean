@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -45,10 +46,11 @@ import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
@@ -83,6 +85,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A197900: Number of nXnXn 0..6 triangular arrays with each element x equal to the number its neighbors equal to 6,4,2,0,1,1,1 for x=0,1,2,3,4,5,6.
@@ -2108,6 +2114,12 @@ namespace A197911
 /-- `A286045(n+1)-1` -/
 def P14830292424950965741.Spec : Prop :=
   ∀ n, P14830292424950965741.a n = A197911 n
+
+theorem P14830292424950965741.correct : P14830292424950965741.Spec := by
+  intro n
+  simp only [A197911, Nat.add_sub_cancel, A197911.P14830292424950965741.a, A197911.P7011659187681247258.f1, A197911.P7011659187681247258.a, A286045, A286045.P5256592731174994276.f1, A286045.P5256592731174994276.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A197911
 
@@ -6790,7 +6802,7 @@ end A197986
 
 The programs for A197987, the canonical program `A197987.P9703799290314520004` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197987 has offset 1).
 
-The definition of A197987 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A197987 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A197987.P9703799290314520004

@@ -62,10 +62,10 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B009.C001
+import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
-import Seq.B012.C000
+import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -2384,6 +2384,24 @@ end
 
 end A389622.P10282741502076186592
 
+/-! ## A389622.P13572917479834286953
+
+`A001608(∑[A295931(n+1)])`
+-/
+
+namespace A389622.P13572917479834286953
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A295931 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001608 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
+
+end
+
+end A389622.P13572917479834286953
+
 /-! ## A389622.P114556308623125457
 
 `A245562(n)+A029805(n+1)`
@@ -2398,21 +2416,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A389622.P114556308623125457
-
-/-! ## A389622.P3618625552171435465
-
-`A245563(n)+A029805(n+1)`
--/
-
-namespace A389622.P3618625552171435465
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A245563 n + A029805 (n + 1)
-
-end
-
-end A389622.P3618625552171435465
 
 /-!
 # A389625: a(0) = 1; a(n) = (11*n^2 - 9*n + 4)/2 for n>0.
@@ -3534,6 +3537,24 @@ end
 
 end A389639.P16944171303252829957
 
+/-! ## A389639.P12253664956630499831
+
+`C(2, ∏{digits}[A196149(A340008(2*(n+1))), #]+2)`
+-/
+
+namespace A389639.P12253664956630499831
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A196149 (A340008 (2 * (n + 1))).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose 2 (((SequenceMachineLib.digits10 (f1 n).natAbs).map fun (x : ℕ) => x).prod + 2)
+
+end
+
+end A389639.P12253664956630499831
+
 /-! ## A389639.P4711930161359802638
 
 `and(A111076(A317715(n)), A123740(n+4))`
@@ -3548,21 +3569,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A389639.P4711930161359802638
-
-/-! ## A389639.P15607643479371524634
-
-`and(A123740(n+4), A317715(A358458(2*(n+1))))`
--/
-
-namespace A389639.P15607643479371524634
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A123740 (n + 4)) (A317715 (A358458 (2 * (n + 1))).toNat)
-
-end
-
-end A389639.P15607643479371524634
 
 /-!
 # A389640: Numbers k such that 2*k can be represented as the sum of four distinct squares of primes.

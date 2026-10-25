@@ -53,10 +53,12 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -3732,6 +3734,12 @@ namespace A126329
 /-- `p?[6*A000040(n+1)+5]` -/
 def P15906614266895596837.Spec : Prop :=
   ∀ n, P15906614266895596837.a n = A126329 (n + 1)
+
+theorem P15906614266895596837.correct : P15906614266895596837.Spec := by
+  intro n
+  simp only [A126329, Nat.add_sub_cancel, A126329.P15906614266895596837.f1, A126329.P15906614266895596837.a, A126329.P10461060411431134265.f1, A126329.P10461060411431134265.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A008864, A008864.P9177617808325052279.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A126329
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -51,7 +52,6 @@ import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -85,6 +85,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A003300: Denominators of coefficients of Green function for cubic lattice.
@@ -1173,6 +1177,12 @@ namespace A003312
 def P229948286950434626.Spec : Prop :=
   ∀ n, P229948286950434626.a n = A003312 (n + 1)
 
+theorem P229948286950434626.correct : P229948286950434626.Spec := by
+  intro n
+  simp only [A003312, Nat.add_sub_cancel, A003312.P229948286950434626.a, A003312.P15694996587841724422.a, A006999, A006999.P3401224636589051846.a, A061419, A061419.P18372017784538588970.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A003312
 
 /-! ## A003312.P11550256785343220934
@@ -1388,6 +1398,12 @@ namespace A003312
 /-- `A305498(n+1)/2+2` -/
 def P1889836703390475158.Spec : Prop :=
   ∀ n, P1889836703390475158.a n = (A003312 (n + 1) : ℚ)
+
+theorem P1889836703390475158.correct : P1889836703390475158.Spec := by
+  intro n
+  simp only [A003312, Nat.add_sub_cancel, A003312.P1889836703390475158.a, A003312.P15694996587841724422.a, A006999, A006999.P3401224636589051846.a, A305498, A305498.P10132958174563949694.a, A061419, A061419.P18372017784538588970.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A003312
 
@@ -5070,6 +5086,21 @@ end
 
 end A003341.P15824085818946599419
 
+/-! ## A003341.P13476919582420946573
+
+`A345823(n+1)%A036057(A000041(n))`
+-/
+
+namespace A003341.P13476919582420946573
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A345823 (n + 1)) (A036057 (A000041 n).toNat)
+
+end
+
+end A003341.P13476919582420946573
+
 /-! ## A003341.P579054315047551847
 
 `∪[A047718(n+1), A056926(A345823(n+1)²)]`
@@ -5091,21 +5122,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A003341.P579054315047551847
-
-/-! ## A003341.P15183068089831745575
-
-`A345823(A187829(n+1))`
--/
-
-namespace A003341.P15183068089831745575
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345823 (A187829 (n + 1)).toNat
-
-end
-
-end A003341.P15183068089831745575
 
 /-!
 # A003342: Numbers that are the sum of 8 positive 4th powers.

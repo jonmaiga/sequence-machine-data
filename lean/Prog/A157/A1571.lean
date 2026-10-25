@@ -48,9 +48,10 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -58,6 +59,7 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -952,6 +954,12 @@ namespace A157108
 /-- `C(A134400(n), A002260(n+1)-1)` -/
 def P16360456142432029131.Spec : Prop :=
   ∀ n, (P16360456142432029131.a n : ℤ) = A157108 n
+
+theorem P16360456142432029131.correct : P16360456142432029131.Spec := by
+  intro n
+  simp only [A157108, Nat.add_sub_cancel, A157108.P16360456142432029131.a, A157108.P6977766346991396534.a, A002260, A002260.P769748059679640451.a, A002262, A002262.P12129691700837801527.a, A134400, A134400.P18111942240929711886.a, A003056, A003056.P5318256527314048597.a, A007318, A007318.P302227728145965961.a, A028310, A028310.P18130301328277559831.a, A057944, A057944.P16851463738746886639.a, A000217, A000217.P10269402890581615239.a, A259525, A259525.P15603515225238104540.f1, A259525.P15603515225238104540.a, A074909, A074909.P6707642907239843837.f1, A074909.P6707642907239843837.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A157108
 
@@ -6929,6 +6937,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A157192.P1044718672118383941
+
+/-! ## A157192.P3429690771409542499
+
+`A154986(n)%A374463(2*n+3)-A248333(A046802(n))`
+-/
+
+namespace A157192.P3429690771409542499
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A154986 n) (A374463 (2 * n + 3)) - A248333 (A046802 n).toNat
+
+end
+
+end A157192.P3429690771409542499
 
 /-!
 # A157194: Fibonacci sequence beginning 41, 43.

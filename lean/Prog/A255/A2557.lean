@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -59,7 +60,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -90,6 +90,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A255704: Number T(n,k) of n-node rooted trees in which the maximal number of nodes in paths starting at a leaf and ending at the first branching node or at the root equals k; triangle T(n,k), n>=1, 1<=k<=n, read by rows.
@@ -3306,32 +3310,6 @@ def P16328655288492365349.Spec : Prop :=
 
 end A255738
 
-/-! ## A255738.P13092739491050413291
-
-`round(2^∑{p}[n, 1-#])`
--/
-
-namespace A255738.P13092739491050413291
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((2 : ℚ) ^ (∑ p ∈ Nat.primeFactors (f1 n), (1 - (p : ℤ)) : ℤ))
-
-end
-
-end A255738.P13092739491050413291
-
-namespace A255738
-
-/-- `round(2^∑{p}[n, 1-#])` -/
-def P13092739491050413291.Spec : Prop :=
-  ∀ n, P13092739491050413291.a n = A255738 (n + 1)
-
-end A255738
-
 /-!
 # A255739: Indices of nontrivial zeros of Riemann zeta function whose imaginary part sets a record for the absolute minimal difference from an integer.
 
@@ -4645,7 +4623,7 @@ end A255745
 /-!
 # A255746: Squarefree semiprimes n such that n+4 is also a squarefree semiprime.
 
-The programs for A255746, the canonical program `A255746.P8387733600531438095` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255746 has offset 1).
+The programs for A255746, the canonical program `A255746.P8387733600531438095` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255746 has offset 1).
 
 The definition of A255746 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4654,7 +4632,7 @@ The definition of A255746 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A175304(n+1), A175648(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A255746
@@ -8282,6 +8260,12 @@ namespace A255769
 /-- `p?[A002808(A008578(n+2))+1]` -/
 def P754689625844707782.Spec : Prop :=
   ∀ n, P754689625844707782.a n = A255769 (n + 1)
+
+theorem P754689625844707782.correct : P754689625844707782.Spec := by
+  intro n
+  simp only [A255769, Nat.add_sub_cancel, A255769.P754689625844707782.f1, A255769.P754689625844707782.a, A255769.P10219843264777276091.f1, A255769.P10219843264777276091.a, A002808, A002808.P8130888830651501259.f1, A002808.P8130888830651501259.f2, A002808.P8130888830651501259.a, A008578, A008578.P3639467937083264764.a, A022449, A022449.P12153620208137609378.a, A082023, A082023.P820682903743471019.a, A158611, A158611.P9275629407611603775.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A255769
 

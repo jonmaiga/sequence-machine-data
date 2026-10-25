@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -64,6 +65,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -91,6 +93,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A201800: Number of zero-sum nX5 -2..2 arrays with every element unequal to at most two horizontal and vertical neighbors.
@@ -1595,6 +1601,12 @@ namespace A201813
 def P9033166069922013887.Spec : Prop :=
   ∀ n, P9033166069922013887.a n = A201813 (n + 1)
 
+theorem P9033166069922013887.correct : P9033166069922013887.Spec := by
+  intro n
+  simp only [A201813, Nat.add_sub_cancel, A201813.P9033166069922013887.f1, A201813.P9033166069922013887.a, A201813.P2794979695643565960.a, A115565, A115565.P18422294588862453476.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A201813
 
 /-! ## A201813.P7036722332148181430
@@ -1675,6 +1687,12 @@ namespace A201813
 /-- `Δ[10*A000096(n²+n)+n]` -/
 def P1288227476456473593.Spec : Prop :=
   ∀ n, P1288227476456473593.a n = A201813 (n + 1)
+
+theorem P1288227476456473593.correct : P1288227476456473593.Spec := by
+  intro n
+  simp only [A201813, Nat.add_sub_cancel, A201813.P1288227476456473593.f1, A201813.P1288227476456473593.a, A201813.P2794979695643565960.a, A000096, A000096.P6925830517264718723.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A201813
 

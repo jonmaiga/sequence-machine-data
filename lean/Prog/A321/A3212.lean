@@ -719,6 +719,12 @@ namespace A321207
 def P10773914975210443862.Spec : Prop :=
   ∀ n, P10773914975210443862.a n = A321207 (n + 1)
 
+theorem P10773914975210443862.correct : P10773914975210443862.Spec := by
+  intro n
+  simp only [A321207, Nat.add_sub_cancel, A321207.P10773914975210443862.a, A321207.P2489722621833874456.a, A001563, A001563.P7265670906522758193.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A321207
 
 /-! ## A321207.P10159127678676976812

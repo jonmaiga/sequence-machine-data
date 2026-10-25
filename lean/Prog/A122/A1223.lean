@@ -8406,6 +8406,12 @@ namespace A122368
 def P6416542836775023996.Spec : Prop :=
   ∀ n, P6416542836775023996.a n = A122368 (n + 1)
 
+theorem P6416542836775023996.correct : P6416542836775023996.Spec := by
+  intro n
+  simp only [A122368, Nat.add_sub_cancel, A122368.P6416542836775023996.f2, A122368.P6416542836775023996.f1, A122368.P6416542836775023996.a, A122368.P5676242027812293193.f2, A122368.P5676242027812293193.f1, A122368.P5676242027812293193.a, A124292, A124292.P3982799112335551492.a, A124302, A124302.P7197067930557024172.a, A208737, A208737.P2602793139901619243.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A122368
 
 /-! ## A122368.P7868223574712483498
@@ -8527,7 +8533,7 @@ end A122372.P16872741023175452673
 /-!
 # A122373: Expansion of (c(q)^3 + c(q^2)^3) / 27 in powers of q where c() is a cubic AGM theta function.
 
-The programs for A122373, the canonical program `A122373.P7813675859475871797` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122373 has offset 1).
+The programs for A122373, the canonical program `A122373.P7813675859475871797` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122373 has offset 1).
 
 The definition of A122373 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8536,7 +8542,7 @@ The definition of A122373 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A007434(#)*A035178((n+1)/#)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A122373

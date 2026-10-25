@@ -81,7 +81,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -1607,7 +1606,7 @@ end A328222.P16972973924537257561
 /-!
 # A328223: Numbers k such that both k and k+4 are sums of two squares.
 
-The programs for A328223, the canonical program `A328223.P7310187365408105857` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328223 has offset 1).
+The programs for A328223, the canonical program `A328223.P7310187365408105857` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328223 has offset 1).
 
 The definition of A328223 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3516 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1616,7 +1615,7 @@ The definition of A328223 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A020668(n+1)-4, A020668(n+1)]`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A328223
@@ -8581,6 +8580,29 @@ namespace A328284
 /-- `a(n-1)+a(n-1)+(-1)^n` -/
 def P18354619895234955034.Spec : Prop :=
   ∀ n, P18354619895234955034.a n = A328284 n
+
+end A328284
+
+/-! ## A328284.P2120204683125088209
+
+`a(n-2)+a(n-1)+a(n-2)` with `a(0)=0, a(1)=0, a(2)=1, a(3)=0, a(4)=1`
+-/
+
+namespace A328284.P2120204683125088209
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [0, 0, 1, 0, 1] fun n a =>
+  a (n - 2) + a (n - 1) + a (n - 2)
+
+end
+
+end A328284.P2120204683125088209
+
+namespace A328284
+
+/-- `a(n-2)+a(n-1)+a(n-2)` -/
+def P2120204683125088209.Spec : Prop :=
+  ∀ n, (P2120204683125088209.a n : ℤ) = A328284 n
 
 end A328284
 

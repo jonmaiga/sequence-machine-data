@@ -41,6 +41,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
@@ -48,9 +49,9 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -83,6 +84,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -7510,20 +7512,20 @@ end
 
 end A318086.P9273634653586569809
 
-/-! ## A318086.P4851745217902408374
+/-! ## A318086.P17694419900232586710
 
-`A057427(3*n+4)*A318091(A167614(n+1))`
+`A318091(A167614(n+1))%A000229(n+1)`
 -/
 
-namespace A318086.P4851745217902408374
+namespace A318086.P17694419900232586710
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057427 (3 * n + 4) * A318091 (A167614 (n + 1)).toNat
+  Int.tmod (A318091 (A167614 (n + 1)).toNat) (A000229 (n + 1))
 
 end
 
-end A318086.P4851745217902408374
+end A318086.P17694419900232586710
 
 /-!
 # A318087: Number of nX4 0..1 arrays with every element unequal to 0, 2, 3 or 5 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.

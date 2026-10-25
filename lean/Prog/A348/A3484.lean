@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -60,7 +61,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -96,6 +96,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A348400: a(1) = 1; a(n+1) = a(n) + n if the digit sum of a(n) is already in the sequence, otherwise a(n+1) = digitsum(a(n)).
@@ -481,6 +485,12 @@ namespace A348405
 /-- `A004442(n)+A139797(n)-n` -/
 def P14573809722957488733.Spec : Prop :=
   ∀ n, P14573809722957488733.a n = A348405 n
+
+theorem P14573809722957488733.correct : P14573809722957488733.Spec := by
+  intro n
+  simp only [A348405, Nat.add_sub_cancel, A348405.P14573809722957488733.a, A348405.P16510536186273555448.a, A004442, A004442.P2439415777187857398.a, A139797, A139797.P5447272706688979556.a, A328284, A328284.P11134419020034761192.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A348405
 
@@ -1653,6 +1663,55 @@ namespace A348416
 /-- `gcd(n-log2(1/2), A011371(n+1))` -/
 def P4800972274216743837.Spec : Prop :=
   ∀ n, (P4800972274216743837.a n : ℤ) = A348416 (n + 1)
+
+end A348416
+
+/-! ## A348416.P3804336527733561531
+
+`gcd(∑[val(n+1, 2)], A000027(n+1))`
+-/
+
+namespace A348416.P3804336527733561531
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.valuation (n + 1) 2
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) (A000027 (n + 1))
+
+end
+
+end A348416.P3804336527733561531
+
+namespace A348416
+
+/-- `gcd(∑[val(n+1, 2)], A000027(n+1))` -/
+def P3804336527733561531.Spec : Prop :=
+  ∀ n, (P3804336527733561531.a n : ℤ) = A348416 (n + 1)
+
+end A348416
+
+/-! ## A348416.P4125270583427822089
+
+`gcd(A005187(2*n+2), A056239(A000040(n+1)))`
+-/
+
+namespace A348416.P4125270583427822089
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A005187 (2 * n + 2)) (A056239 (A000040 (n + 1)).toNat)
+
+end
+
+end A348416.P4125270583427822089
+
+namespace A348416
+
+/-- `gcd(A005187(2*n+2), A056239(A000040(n+1)))` -/
+def P4125270583427822089.Spec : Prop :=
+  ∀ n, (P4125270583427822089.a n : ℤ) = A348416 (n + 1)
 
 end A348416
 
@@ -6307,7 +6366,7 @@ end A348470.P15163597021189078495
 /-!
 # A348471: One half of the even numbers without middle divisors.
 
-The programs for A348471, the canonical program `A348471.P4748451350327565976` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A348471 has offset 1).
+The programs for A348471, the canonical program `A348471.P4748451350327565976` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A348471 has offset 1).
 
 The definition of A348471 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6332,6 +6391,12 @@ namespace A348471
 /-- `A319802(n+1)/2` -/
 def P13018332935985264412.Spec : Prop :=
   ∀ n, P13018332935985264412.a n = (A348471 (n + 1) : ℚ)
+
+theorem P13018332935985264412.correct : P13018332935985264412.Spec := by
+  intro n
+  simp only [A348471, Nat.add_sub_cancel, A348471.P13018332935985264412.a, A348471.P4748451350327565976.f1, A348471.P4748451350327565976.f2, A348471.P4748451350327565976.a, A319802, A319802.P14391175377016966646.a, A347950, A347950.P18371532176146364720.f1, A347950.P18371532176146364720.a, A100345, A100345.P10218068871368461112.a, A004247, A004247.P14233945955703425283.a, A069011, A069011.P9337676359071489470.a, A002262, A002262.P12129691700837801527.a, A003056, A003056.P5318256527314048597.a, A025581, A025581.P420762180635059694.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A348471
 
@@ -6368,7 +6433,7 @@ end A348471
 
 `eq[0, A347950(2*(n+1))]+1`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A348471
@@ -7941,7 +8006,7 @@ end A348491.P17430166028702737934
 /-!
 # A348492: Greatest common divisor of the arithmetic derivative (A003415) and Pillai's arithmetical function (A018804).
 
-The programs for A348492, the canonical program `A348492.P10916055508592838470` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A348492 has offset 1).
+The programs for A348492, the canonical program `A348492.P10916055508592838470` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A348492 has offset 1).
 
 The definition of A348492 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003415, A018804, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7973,7 +8038,7 @@ end A348492
 
 `gcd(A003415(n+1), A018804(n+1))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A348492
@@ -8599,7 +8664,7 @@ end A348493
 
 The programs for A348494, the canonical program `A348494.P11005774710442910739` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A348494 has offset 1).
 
-The definition of A348494 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003557, A348492, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A348494 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A348492, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A348494.P11005774710442910739
@@ -9224,7 +9289,7 @@ end A348495
 
 The programs for A348496, the canonical program `A348496.P16814638509883304779` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A348496 has offset 1).
 
-The definition of A348496 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003557, A348495, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A348496 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A348495, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A348496.P16814638509883304779

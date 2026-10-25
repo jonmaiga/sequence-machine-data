@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -64,18 +65,14 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -88,7 +85,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -101,6 +97,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A329900: Primorial deflation of n: starting from x = n, repeatedly divide x by the largest primorial A002110(k) that divides it, until x is an odd number. Then a(n) = Product prime(k_i), for primorial indices k_1 >= k_2 >= ..., encountered in the process.
@@ -1766,7 +1766,7 @@ end A329914.P6931939198114789322
 /-!
 # A329918: Coefficients of orthogonal polynomials related to the Jacobsthal numbers A152046, triangle read by rows, T(n, k) for 0 <= k <= n.
 
-The programs for A329918, the canonical program `A329918.P9556832341652762600` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329918 has offset 0).
+The programs for A329918, the canonical program `A329918.P9556832341652762600` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329918 has offset 0).
 
 The definition of A329918 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1775,7 +1775,7 @@ The definition of A329918 is `conjectured`: the Lean definition is a formula tha
 
 `A156663(n)*A206474(n)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A329918
@@ -2836,6 +2836,12 @@ namespace A329930
 def P18379367538477642500.Spec : Prop :=
   ∀ n, P18379367538477642500.a n = A329930 n
 
+theorem P18379367538477642500.correct : P18379367538477642500.Spec := by
+  intro n
+  simp only [A329930, Nat.add_sub_cancel, A329930.P18379367538477642500.a, A329930.P6561912596512615762.a, A000142, A000142.P3272619076580183195.a, A000254, A000254.P9428527937712228311.a, A000774, A000774.P2466986371641539534.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A329930
 
 /-! ## A329930.P8833766833978478565
@@ -2887,7 +2893,7 @@ end A329930
 /-!
 # A329935: Numbers k such that k and k+1 are both hoax numbers (A019506).
 
-The programs for A329935, the canonical program `A329935.P4917152360086528643` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329935 has offset 1).
+The programs for A329935, the canonical program `A329935.P4917152360086528643` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329935 has offset 1).
 
 The definition of A329935 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 308 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2896,7 +2902,7 @@ The definition of A329935 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A019506(n+1)-1, A019506(n+1)]`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A329935

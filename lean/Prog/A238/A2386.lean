@@ -1,4 +1,5 @@
-import SequenceMachineLib
+import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -55,7 +56,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -90,6 +90,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A238600: A sixth-order linear divisibility sequence related to the Fibonacci numbers: a(n) := (1/6)*Fibonacci(3*n)*Fibonacci(4*n)/Fibonacci(n).
@@ -2909,6 +2913,12 @@ namespace A238630
 def P15322693253027442976.Spec : Prop :=
   ∀ n, P15322693253027442976.a n = A238630 n
 
+theorem P15322693253027442976.correct : P15322693253027442976.Spec := by
+  intro n
+  simp only [A238630, Nat.add_sub_cancel, A238630.P15322693253027442976.a, A238630.P10529200024699329487.a, A001399, A001399.P15968082049530848519.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A238630
 
 /-! ## A238630.P9430951131734841194
@@ -4613,6 +4623,12 @@ namespace A238649
 /-- `A060521(n+1)/2` -/
 def P16194784557993207464.Spec : Prop :=
   ∀ n, P16194784557993207464.a n = (A238649 (n + 1) : ℚ)
+
+theorem P16194784557993207464.correct : P16194784557993207464.Spec := by
+  intro n
+  simp only [A238649, Nat.add_sub_cancel, A238649.P16194784557993207464.a, A238649.P8158536791834749420.a, A060521, A060521.P8646143590663438384.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A238649
 
@@ -8703,7 +8719,7 @@ end A238683.P7475799569176801418
 
 The programs for A238684, the canonical program `A238684.P14301598205073559122` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238684 has offset 1).
 
-The definition of A238684 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007947, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A238684 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A238684.P14301598205073559122
@@ -8748,87 +8764,6 @@ namespace A238684
 /-- `∏{d}[n+1, A178763(#)]` -/
 def P15167888632056872515.Spec : Prop :=
   ∀ n, P15167888632056872515.a n = A238684 (n + 1)
-
-end A238684
-
-/-! ## A238684.P14151052489673905932
-
-`∏{p}[round(ϕ*a(n-1)), #]` with `a(0)=0, a(1)=1`
--/
-
-namespace A238684.P14151052489673905932
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [0, 1] fun n f1 =>
-  SequenceMachineLib.roundAway (Real.goldenRatio * (f1 (n - 1) : ℝ))
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, p
-
-end
-
-end A238684.P14151052489673905932
-
-namespace A238684
-
-/-- `∏{p}[round(ϕ*a(n-1)), #]` -/
-def P14151052489673905932.Spec : Prop :=
-  ∀ n, (P14151052489673905932.a n : ℤ) = A238684 (n + 1)
-
-end A238684
-
-/-! ## A238684.P5729444680865213954
-
-`∏{p}[Δ[floor(ϕ*a(n-1))], #]` with `a(0)=2`
--/
-
-namespace A238684.P5729444680865213954
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.rec [2] fun n f2 =>
-  ⌊Real.goldenRatio * (f2 (n - 1) : ℝ)⌋
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, p
-
-end
-
-end A238684.P5729444680865213954
-
-namespace A238684
-
-/-- `∏{p}[Δ[floor(ϕ*a(n-1))], #]` -/
-def P5729444680865213954.Spec : Prop :=
-  ∀ n, (P5729444680865213954.a n : ℤ) = A238684 (n + 1)
-
-end A238684
-
-/-! ## A238684.P9666244798155800814
-
-`∏{p}[a(n-1)+a(n-2), #]` with `a(0)=1, a(1)=1`
--/
-
-namespace A238684.P9666244798155800814
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.rec [1, 1] fun n f1 =>
-  f1 (n - 1) + f1 (n - 2)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n), p
-
-end
-
-end A238684.P9666244798155800814
-
-namespace A238684
-
-/-- `∏{p}[a(n-1)+a(n-2), #]` -/
-def P9666244798155800814.Spec : Prop :=
-  ∀ n, (P9666244798155800814.a n : ℤ) = A238684 (n + 1)
 
 end A238684
 

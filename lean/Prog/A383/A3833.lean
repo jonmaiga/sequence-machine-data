@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -78,6 +79,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A383300: Numbers k such that primorial base expansion of k has the primorial base expansion of k' as its suffix, where k' stands for the arithmetic derivative of k (A003415).
@@ -1241,20 +1246,29 @@ end
 
 end A383323.P5345135445368657448
 
-/-! ## A383323.P1932213666405383479
+/-! ## A383323.P1717732793540924343
 
-`A383259(A097679(n)+A002865(n))`
+`A325039(A005449(n+1)-lt[0, ∏{digits}[n, (3-#)²]])`
 -/
 
-namespace A383323.P1932213666405383479
+namespace A383323.P1717732793540924343
 noncomputable section
 
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  0
+
+def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((SequenceMachineLib.digits10 (f3 n)).map fun (x : ℕ) => (3 - (x : ℤ)) ^ 2).prod
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A383259 (A097679 n + A002865 n).toNat
+  A325039 (A005449 (n + 1) - (SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n : ℤ)).toNat
 
 end
 
-end A383323.P1932213666405383479
+end A383323.P1717732793540924343
 
 /-!
 # A383324: a(n) = round(3^n/5).
@@ -2316,6 +2330,12 @@ namespace A383343
 def P10505707839953333177.Spec : Prop :=
   ∀ n, P10505707839953333177.a n = A383343 n
 
+theorem P10505707839953333177.correct : P10505707839953333177.Spec := by
+  intro n
+  simp only [A383343, Nat.add_sub_cancel, A383343.P10505707839953333177.a, A383343.P7916194274906324814.a, A024025, A024025.P3177298670684259826.a, A189890, A189890.P16624331401325566475.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A383343
 
 /-! ## A383343.P12695196455975690526
@@ -2410,6 +2430,12 @@ namespace A383343
 /-- `Δ[A385726(n)/2]` -/
 def P851337279908819250.Spec : Prop :=
   ∀ n, P851337279908819250.a n = (A383343 n : ℚ)
+
+theorem P851337279908819250.correct : P851337279908819250.Spec := by
+  intro n
+  simp only [A383343, Nat.add_sub_cancel, A383343.P851337279908819250.f1, A383343.P851337279908819250.a, A383343.P7916194274906324814.a, A385726, A385726.P15582791440511932674.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A383343
 

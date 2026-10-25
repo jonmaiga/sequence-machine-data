@@ -35,6 +35,7 @@ import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
@@ -1543,7 +1544,7 @@ end A195458
 /-!
 # A195459: a(n) = phi(3*n)/2.
 
-The programs for A195459, the canonical program `A195459.P676028519467690481` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195459 has offset 1).
+The programs for A195459, the canonical program `A195459.P676028519467690481` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195459 has offset 1).
 
 The definition of A195459 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1598,7 +1599,7 @@ end A195459
 
 `∑{d}[n+1, #*A156277((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A195459
@@ -2092,6 +2093,32 @@ def P15155321168483875224.Spec : Prop :=
 
 end A195460
 
+/-! ## A195460.P9350526625541365732
+
+`∑[A003945(n)*A134067(n)]`
+-/
+
+namespace A195460.P9350526625541365732
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A003945 n * A134067 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A195460.P9350526625541365732
+
+namespace A195460
+
+/-- `∑[A003945(n)*A134067(n)]` -/
+def P9350526625541365732.Spec : Prop :=
+  ∀ n, P9350526625541365732.a n = A195460 (n + 1)
+
+end A195460
+
 /-! ## A195460.P17982864048348618209
 
 `xor(A007283(n), A188530(n+1))`
@@ -2112,32 +2139,6 @@ namespace A195460
 /-- `xor(A007283(n), A188530(n+1))` -/
 def P17982864048348618209.Spec : Prop :=
   ∀ n, P17982864048348618209.a n = A195460 (n + 1)
-
-end A195460
-
-/-! ## A195460.P7323104557648035178
-
-`record[(n+1)*xor(n+1, n+2)-2]`
--/
-
-namespace A195460.P7323104557648035178
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((n + 1) * Nat.xor (n + 1) (n + 2) : ℤ) - 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A195460.P7323104557648035178
-
-namespace A195460
-
-/-- `record[(n+1)*xor(n+1, n+2)-2]` -/
-def P7323104557648035178.Spec : Prop :=
-  ∀ n, P7323104557648035178.a n = A195460 (n + 1)
 
 end A195460
 

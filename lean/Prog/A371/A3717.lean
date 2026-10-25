@@ -1089,6 +1089,21 @@ end
 
 end A371719.P17135848616068619196
 
+/-! ## A371719.P11663354365764459171
+
+`A352512(A086626(3*n))+A031878(n+1)`
+-/
+
+namespace A371719.P11663354365764459171
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A352512 (A086626 (3 * n)).toNat + A031878 (n + 1)
+
+end
+
+end A371719.P11663354365764459171
+
 /-! ## A371719.P10254007539881540481
 
 `∑[A000005(A389153(n))]`
@@ -1127,27 +1142,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A371719.P3866737481804248217
-
-/-! ## A371719.P7718776640300754687
-
-`∑[A001223(∑[A272393(n)])]`
--/
-
-namespace A371719.P7718776640300754687
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A272393 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001223 (∑ j ∈ Finset.range (n + 1), f2 j).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A371719.P7718776640300754687
 
 /-!
 # A371722: Number of balanced nondegenerate monotone Boolean functions of n or fewer variables.

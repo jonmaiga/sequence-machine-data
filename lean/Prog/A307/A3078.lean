@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -53,7 +54,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -61,7 +61,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -91,6 +90,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A307800: Binomial transform of least common multiple sequence (A003418), starting with a(1).
@@ -4056,6 +4059,12 @@ namespace A307872
 def P11875134551560311626.Spec : Prop :=
   ∀ n, P11875134551560311626.a n = A307872 (n + 1)
 
+theorem P11875134551560311626.correct : P11875134551560311626.Spec := by
+  intro n
+  simp only [A307872, Nat.add_sub_cancel, A307872.P11875134551560311626.a, A307872.P8733216762987257633.f3, A307872.P8733216762987257633.f2, A307872.P8733216762987257633.f1, A307872.P8733216762987257633.a, A008763, A008763.P10949200286734320920.a, A308266, A308266.P14087854034105715006.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A307872
 
 /-! ## A307872.P4167459025384292776
@@ -5526,7 +5535,7 @@ end A307891.P4365400991073198389
 /-!
 # A307892: a(n) = lcm(tau(n), pod(n)) / n, where tau(k) = the number of divisors of k (A000005) and pod(n) = the product of divisors of k (A007955).
 
-The programs for A307892, the canonical program `A307892.P2139601516006320098` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307892 has offset 1).
+The programs for A307892, the canonical program `A307892.P2139601516006320098` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307892 has offset 1).
 
 The definition of A307892 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A324528, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5535,7 +5544,7 @@ The definition of A307892 is `conditional`: the Lean definition is an OEIS formu
 
 `A324528(n+1)/(n+1)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A307892

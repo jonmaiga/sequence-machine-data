@@ -63,9 +63,9 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -10575,6 +10575,12 @@ namespace A277584
 def P2443029702301861845.Spec : Prop :=
   ∀ n, P2443029702301861845.a n = A277584 n
 
+theorem P2443029702301861845.correct : P2443029702301861845.Spec := by
+  intro n
+  simp only [A277584, Nat.add_sub_cancel, A277584.P2443029702301861845.a, A277584.P4075816236948862761.a, A005809, A005809.P15087077436016713419.a, A025174, A025174.P11497073020642724255.a, A227726, A227726.P7304249674244244616.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A277584
 
 /-! ## A277584.P9891931959314466825
@@ -13252,6 +13258,12 @@ namespace A277599
 /-- `A277592(n+1)/5` -/
 def P3368948765505135739.Spec : Prop :=
   ∀ n, P3368948765505135739.a n = (A277599 (n + 1) : ℚ)
+
+theorem P3368948765505135739.correct : P3368948765505135739.Spec := by
+  intro n
+  simp only [A277599, Nat.add_sub_cancel, A277599.P3368948765505135739.a, A277599.P16892913130215631464.f1, A277599.P16892913130215631464.f2, A277599.P16892913130215631464.a, A004151, A004151.P17925112897147848492.a, A277592, A277592.P12084105617845741953.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A277599
 

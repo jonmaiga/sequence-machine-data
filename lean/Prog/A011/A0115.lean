@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -46,8 +47,8 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -73,6 +74,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A011522: Stirling numbers of first kind S1(12,n).
@@ -5352,6 +5357,12 @@ namespace A011540
 /-- `A098394(n+1)-A000007(n)` -/
 def P17806307323543687145.Spec : Prop :=
   ∀ n, P17806307323543687145.a n = A011540 (n + 1)
+
+theorem P17806307323543687145.correct : P17806307323543687145.Spec := by
+  intro n
+  simp only [A011540, Nat.add_sub_cancel, A011540.P17806307323543687145.a, A011540.P10697777926791555809.f1, A011540.P10697777926791555809.f2, A011540.P10697777926791555809.a, A000007, A000007.P6599383543502402472.a, A098394, A098394.P8766548074756510504.a, A187844, A187844.P2226367484960758357.f1, A187844.P2226367484960758357.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A011540
 

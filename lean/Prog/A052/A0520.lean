@@ -45,6 +45,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -54,6 +55,7 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -78,7 +80,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A052000: Fibonacci(k) starting with digits of its index number k.
@@ -6539,20 +6541,24 @@ end
 
 end A052048.P186878397238142695
 
-/-! ## A052048.P16760722486050140774
+/-! ## A052048.P4221254131820924572
 
-`A339896(3^(n+1))^3`
+`comp[A161580(A059892(n+1)+A081326(n+1))]^3`
 -/
 
-namespace A052048.P16760722486050140774
+namespace A052048.P4221254131820924572
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A339896 (3 ^ (n + 1)) ^ 3
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161580 (A059892 (n + 1) + A081326 (n + 1)).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n ^ 3
 
 end
 
-end A052048.P16760722486050140774
+end A052048.P4221254131820924572
 
 /-!
 # A052049: a(n)^2 is a square whose digits occur with an equal minimum frequency of 2.

@@ -49,10 +49,10 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -60,6 +60,7 @@ import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
+import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
@@ -823,7 +824,7 @@ end A210824.P2606243543028837205
 /-!
 # A210825: G.f.: Sum_{n>=1} a(n)*x^n/(1-x^n) = x*Sum_{n>=1} x^(n*(n-1)/2).
 
-The programs for A210825, the canonical program `A210825.P13526735410302526141` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210825 has offset 1).
+The programs for A210825, the canonical program `A210825.P13526735410302526141` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210825 has offset 1).
 
 The definition of A210825 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1035 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -832,7 +833,7 @@ The definition of A210825 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A010054(#-1)*A008683((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A210825
@@ -2255,7 +2256,7 @@ end A210844.P16490072942765381802
 /-!
 # A210845: Values n for which A055034(n) is squarefree.
 
-The programs for A210845, the canonical program `A210845.P13189797381442615972` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210845 has offset 1).
+The programs for A210845, the canonical program `A210845.P13189797381442615972` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210845 has offset 1).
 
 The definition of A210845 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1410 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2293,7 +2294,7 @@ end A210845
 
 `lt[A003557(A000010(2*(n+1))), 3]+1`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A210845

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -74,6 +75,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A037301: Numbers whose base-2 and base-3 expansions have the same digit sum.
@@ -3165,6 +3170,12 @@ namespace A037314
 /-- `A338086(n)/4` -/
 def P6254970810731139198.Spec : Prop :=
   ∀ n, P6254970810731139198.a n = (A037314 n : ℚ)
+
+theorem P6254970810731139198.correct : P6254970810731139198.Spec := by
+  intro n
+  simp only [A037314, Nat.add_sub_cancel, A037314.P6254970810731139198.a, A037314.P11971780737559590080.f1, A037314.P11971780737559590080.a, A120437, A120437.P11021873601031036809.a, A338086, A338086.P4709198276400586346.a, A066443, A066443.P4391103697561392204.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A037314
 

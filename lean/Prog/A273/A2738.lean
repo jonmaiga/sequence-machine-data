@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -86,8 +87,11 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A273800: Numbers n for which n = phi(x)*phi(y), where n = x + y and phi(x) is the Euler totient function of x.
@@ -432,6 +436,12 @@ namespace A273801
 /-- `4*(A014690(n+1)-n)` -/
 def P9796730708179777742.Spec : Prop :=
   ∀ n, P9796730708179777742.a n = A273801 (n + 1)
+
+theorem P9796730708179777742.correct : P9796730708179777742.Spec := by
+  intro n
+  simp only [A273801, Nat.add_sub_cancel, A273801.P9796730708179777742.a, A273801.P14178267973279234663.f1, A273801.P14178267973279234663.a, A014690, A014690.P2594226108511907338.f1, A014690.P2594226108511907338.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A273801
 
@@ -6054,6 +6064,25 @@ end A273878.P7365807619894472886
 The programs for A273881, there is no canonical definition to state claims against.
 -/
 
+/-! ## A273881.P7718319857693362696
+
+`comp[A179615(2*n)+31]`
+-/
+
+namespace A273881.P7718319857693362696
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A179615 (2 * n) + 31
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A273881.P7718319857693362696
+
 /-! ## A273881.P1098586332802580015
 
 `A241469(A303929(n))+n`
@@ -6113,21 +6142,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A273881.P5958341561640317519
-
-/-! ## A273881.P12559246906350899700
-
-`A243831(A127398(2*n))+n`
--/
-
-namespace A273881.P12559246906350899700
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A243831 (A127398 (2 * n)).toNat + (n : ℤ)
-
-end
-
-end A273881.P12559246906350899700
 
 /-!
 # A273882: Pick any pair of "4" digits in the sequence. Those two "4"s are separated by k digits. This is the lexicographically earliest sequence of distinct terms in which all the resulting values of k are distinct.

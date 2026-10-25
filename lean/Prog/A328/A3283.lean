@@ -1627,7 +1627,7 @@ end A328309.P9445902845991660222
 /-!
 # A328310: a(n) = A051903(A003415(n)) - A051903(n).
 
-The programs for A328310, the canonical program `A328310.P2472833898533372449` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328310 has offset 2).
+The programs for A328310, the canonical program `A328310.P2472833898533372449` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328310 has offset 2).
 
 The definition of A328310 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003415, A051903, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1659,7 +1659,7 @@ end A328310
 
 `A051903(A003415(n+2))-A051903(n+2)`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A328310
@@ -6147,7 +6147,7 @@ end A328357.P210194660324944396
 /-!
 # A328359: Numbers k such that Omega(k - 2) = Omega(k) = Omega(k + 2) where Omega = A001222.
 
-The programs for A328359, the canonical program `A328359.P9669344211203897558` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328359 has offset 1).
+The programs for A328359, the canonical program `A328359.P9669344211203897558` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A328359 has offset 1).
 
 The definition of A328359 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6156,7 +6156,7 @@ The definition of A328359 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A280382(n+1)+1, A280382(n+1)-1]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A328359
@@ -6831,6 +6831,12 @@ namespace A328366
 def P4617271625078956484.Spec : Prop :=
   ∀ n, P4617271625078956484.a n = A328366 (n + 1)
 
+theorem P4617271625078956484.correct : P4617271625078956484.Spec := by
+  intro n
+  simp only [A328366, Nat.add_sub_cancel, A328366.P4617271625078956484.a, A328366.P4444315487186983068.a, A046092, A046092.P16411658895297056450.a, A299692, A299692.P2407571763722409211.a, A327329, A327329.P5185755489289824233.a, A002378, A002378.P6342434596694243671.a, A024916, A024916.P6070136297472608546.a, A160664, A160664.P14996881624845338289.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A328366
 
 /-! ## A328366.P13363030989289355876
@@ -6853,6 +6859,12 @@ namespace A328366
 /-- `4*A000217(n+1)+2*A024916(n+1)` -/
 def P13363030989289355876.Spec : Prop :=
   ∀ n, P13363030989289355876.a n = A328366 (n + 1)
+
+theorem P13363030989289355876.correct : P13363030989289355876.Spec := by
+  intro n
+  simp only [A328366, Nat.add_sub_cancel, A328366.P13363030989289355876.a, A328366.P4444315487186983068.a, A000217, A000217.P10269402890581615239.a, A024916, A024916.P6070136297472608546.a, A299692, A299692.P2407571763722409211.a, A002378, A002378.P6342434596694243671.a, A160664, A160664.P14996881624845338289.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A328366
 
@@ -7139,6 +7151,12 @@ namespace A328366
 /-- `A024916(n+1)+A046092(n+1)+A024916(n+1)` -/
 def P15424109413734604806.Spec : Prop :=
   ∀ n, P15424109413734604806.a n = A328366 (n + 1)
+
+theorem P15424109413734604806.correct : P15424109413734604806.Spec := by
+  intro n
+  simp only [A328366, Nat.add_sub_cancel, A328366.P15424109413734604806.a, A328366.P4444315487186983068.a, A024916, A024916.P6070136297472608546.a, A046092, A046092.P16411658895297056450.a, A299692, A299692.P2407571763722409211.a, A002378, A002378.P6342434596694243671.a, A160664, A160664.P14996881624845338289.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A328366
 

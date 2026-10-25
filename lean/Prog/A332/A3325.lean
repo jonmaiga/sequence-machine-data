@@ -44,6 +44,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
@@ -51,15 +52,14 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C001
-import Seq.B008.C000
-import Seq.B009.C000
+import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -702,7 +702,7 @@ end A332511.P7668343259753997976
 /-!
 # A332512: Numbers k such that phi(k) == 0 (mod 12), where phi is the Euler totient function (A000010).
 
-The programs for A332512, the canonical program `A332512.P6000169834190555387` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332512 has offset 1).
+The programs for A332512, the canonical program `A332512.P6000169834190555387` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332512 has offset 1).
 
 The definition of A332512 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6821 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -740,7 +740,7 @@ end A332512
 
 `∩[A066498(n+1), A172019(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A332512
@@ -1048,7 +1048,7 @@ end A332512
 /-!
 # A332513: Numbers k such that phi(k) == 4 (mod 12), where phi is the Euler totient function (A000010).
 
-The programs for A332513, the canonical program `A332513.P9883121993506999507` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332513 has offset 1).
+The programs for A332513, the canonical program `A332513.P9883121993506999507` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332513 has offset 1).
 
 The definition of A332513 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7755 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1057,7 +1057,7 @@ The definition of A332513 is `conjectured`: the Lean definition is a formula tha
 
 `eq[4, A000010(n+1)%12]+1`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A332513
@@ -1336,7 +1336,7 @@ end A332513
 /-!
 # A332514: Numbers k such that phi(k) == 6 (mod 12), where phi is the Euler totient function (A000010).
 
-The programs for A332514, the canonical program `A332514.P10691463017122802451` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332514 has offset 1).
+The programs for A332514, the canonical program `A332514.P10691463017122802451` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332514 has offset 1).
 
 The definition of A332514 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2036 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1375,7 +1375,7 @@ end A332514
 
 `eq[6, A000010(n+1)%12]+1`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A332514
@@ -1482,7 +1482,7 @@ end A332514
 /-!
 # A332515: Numbers k such that phi(k) == 8 (mod 12), where phi is the Euler totient function (A000010).
 
-The programs for A332515, the canonical program `A332515.P15703317837093587620` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332515 has offset 1).
+The programs for A332515, the canonical program `A332515.P15703317837093587620` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332515 has offset 1).
 
 The definition of A332515 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5592 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1491,7 +1491,7 @@ The definition of A332515 is `conjectured`: the Lean definition is a formula tha
 
 `eq[8, A000010(n+1)%12]+1`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A332515
@@ -1625,7 +1625,7 @@ end A332515
 /-!
 # A332516: Numbers k such that phi(k) == 10 (mod 12), where phi is the Euler totient function (A000010).
 
-The programs for A332516, the canonical program `A332516.P9149279751242895197` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332516 has offset 1).
+The programs for A332516, the canonical program `A332516.P9149279751242895197` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332516 has offset 1).
 
 The definition of A332516 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1765 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1634,7 +1634,7 @@ The definition of A332516 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A004612(n+1), A354029(#)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A332516
@@ -2171,6 +2171,12 @@ namespace A332519
 def P8555657327082022351.Spec : Prop :=
   ∀ n, P8555657327082022351.a n = A332519 (n + 1)
 
+theorem P8555657327082022351.correct : P8555657327082022351.Spec := by
+  intro n
+  simp only [A332519, Nat.add_sub_cancel, A332519.P8555657327082022351.a, A332519.P9314449579044910661.a, A028560, A028560.P2309686278855513759.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A332519
 
 /-! ## A332519.P16322578207439523553
@@ -2219,6 +2225,12 @@ namespace A332519
 /-- `8*C(n+2, 2)-8` -/
 def P8161606489548671208.Spec : Prop :=
   ∀ n, P8161606489548671208.a n = A332519 (n + 1)
+
+theorem P8161606489548671208.correct : P8161606489548671208.Spec := by
+  intro n
+  simp only [A332519, Nat.add_sub_cancel, A332519.P8161606489548671208.a, A332519.P9314449579044910661.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A332519
 
@@ -4536,7 +4548,7 @@ end A332555
 /-!
 # A332556: Supertotient numbers: numbers k such that the set of numbers less than k and relatively prime to k can be partitioned into two disjoint subsets of equal sum.
 
-The programs for A332556, the canonical program `A332556.P9044296750150904000` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332556 has offset 1).
+The programs for A332556, the canonical program `A332556.P9044296750150904000` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332556 has offset 1).
 
 The definition of A332556 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4545,7 +4557,7 @@ The definition of A332556 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A100319(n+1), A172019(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A332556
@@ -5466,6 +5478,12 @@ namespace A332569
 /-- `∑[A000203(n+1)+∑{d}[n, #]]` -/
 def P16313921312043014688.Spec : Prop :=
   ∀ n, P16313921312043014688.a n = A332569 (n + 1)
+
+theorem P16313921312043014688.correct : P16313921312043014688.Spec := by
+  intro n
+  simp only [A332569, Nat.add_sub_cancel, A332569.P16313921312043014688.f2, A332569.P16313921312043014688.f1, A332569.P16313921312043014688.a, A332569.P15421051147562792742.f2, A332569.P15421051147562792742.f3, A332569.P15421051147562792742.f1, A332569.P15421051147562792742.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A332569
 

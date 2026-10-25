@@ -20991,14 +20991,14 @@ noncomputable section
 
 /-- A050486: a(n) = binomial(n+6,6)*(2n+7)/7.
 
-Offset 0, canonical program `A050486.P713696247884620416`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 0, canonical program `A050486.P713696247884620416`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(n+6, 6)*(2*n+7)/7` (program `A050486.P5357901546745715856`, by `A050486.P5357901546745715856.correct`). Lean does not check the parsing of the name. -/
 def A050486 (n : ℕ) : ℤ :=
   (A050486.P713696247884620416.a n : ℤ)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A050486.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(n+6, 6)*(2*n+7)/7` (program `A050486.P5357901546745715856`, by `A050486.P5357901546745715856.correct`). Lean does not check the parsing of the name. -/
+def A050486.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A050487.P17583332619689150206
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -50,7 +51,6 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -90,6 +90,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A050200: Let p = prime(n). Then a(n) = p + (next prime >= p+1) + (next prime >= p+3).
@@ -187,6 +191,12 @@ namespace A050200
 /-- `A151800(A000040(n+1)+2)+A001043(n+1)` -/
 def P14046628487319747055.Spec : Prop :=
   ∀ n, P14046628487319747055.a n = A050200 n
+
+theorem P14046628487319747055.correct : P14046628487319747055.Spec := by
+  intro n
+  simp only [A050200, Nat.add_sub_cancel, A050200.P14046628487319747055.a, A050200.P6281150429617740541.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A001043, A001043.P18269783162673735460.a, A052147, A052147.P6151996953021184291.f1, A052147.P6151996953021184291.a, A151800, A151800.P4570031678714564115.a, A007918, A007918.P9623913995348804173.f2, A007918.P9623913995348804173.f1, A007918.P9623913995348804173.a, A008864, A008864.P9177617808325052279.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A050200
 

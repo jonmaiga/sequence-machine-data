@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -63,7 +64,8 @@ import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
+import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -90,6 +92,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A204500: Number of (n+2)X9 0..2 arrays with every 3X3 subblock having three strictly increasing elements in a row horizontally or vertically.
@@ -7435,6 +7441,12 @@ namespace A204557
 def P11085446517151074550.Spec : Prop :=
   ∀ n, P11085446517151074550.a n = A204557 (n + 1)
 
+theorem P11085446517151074550.correct : P11085446517151074550.Spec := by
+  intro n
+  simp only [A204557, Nat.add_sub_cancel, A204557.P11085446517151074550.a, A204557.P11992829830807351571.a, A045895, A045895.P14491049351265134008.a, A079326, A079326.P12661646355097627820.a, A204556, A204556.P4855747009617410404.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A204557
 
 /-! ## A204557.P8630677880201801638
@@ -10700,6 +10712,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A204584.P13239522977857272298
+
+/-! ## A204584.P7644499296135647234
+
+`A135600(3*n+1)+A000523(A277203(n+1))`
+-/
+
+namespace A204584.P7644499296135647234
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A135600 (3 * n + 1) + A000523 (A277203 (n + 1)).toNat
+
+end
+
+end A204584.P7644499296135647234
 
 /-!
 # A204586: Nearest integer to 100*1.06^n.

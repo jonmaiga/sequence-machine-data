@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -53,12 +54,14 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -93,6 +96,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A279200: Number of square permutations of 2n things.
@@ -635,6 +642,12 @@ namespace A279210
 /-- `A090996(n-A342126(n))` -/
 def P12487835521075429781.Spec : Prop :=
   ∀ n, P12487835521075429781.a n = A279210 n
+
+theorem P12487835521075429781.correct : P12487835521075429781.Spec := by
+  intro n
+  simp only [A279210, Nat.add_sub_cancel, A279210.P12487835521075429781.a, A279210.P556875708574037845.a, A087734, A087734.P16066555065702366707.a, A090996, A090996.P13241265871716609042.a, A342126, A342126.P13514066496315759723.a, A000120, A000120.P2816527436160941581.a, A036987, A036987.P1789601236562705309.a, A063250, A063250.P9111133968187368532.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A279210
 
@@ -7029,7 +7042,7 @@ end A279286.P11226700863942167362
 /-!
 # A279287: a(n) = numerator of (phi(n)/tau(n)).
 
-The programs for A279287, the canonical program `A279287.P12267829467651088072` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279287 has offset 1).
+The programs for A279287, the canonical program `A279287.P12267829467651088072` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279287 has offset 1).
 
 The definition of A279287 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7133,7 +7146,7 @@ end A279287
 
 `A062354(n+1)/gcd(A062354(n+1), A064840(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A279287
@@ -7170,7 +7183,7 @@ end A279287
 /-!
 # A279288: a(n) = denominator of (phi(n)/tau(n)).
 
-The programs for A279288, the canonical program `A279288.P12363136388556004692` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279288 has offset 1).
+The programs for A279288, the canonical program `A279288.P12363136388556004692` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279288 has offset 1).
 
 The definition of A279288 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7349,7 +7362,7 @@ end A279288
 
 `A064840(n+1)/gcd(A062354(n+1), A064840(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A279288

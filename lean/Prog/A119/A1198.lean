@@ -22,7 +22,6 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C034
@@ -52,7 +51,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -88,6 +86,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A119800: Array of coordination sequences for cubic lattices (rows) and of numbers of L1 forms in cubic lattices (columns) (array read by antidiagonals).
@@ -410,54 +409,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A119810.P4608915199236806249
-
-/-!
-# A119813: Partial quotients of the continued fraction of the constant A119812 defined by binary sums involving Beatty sequences: c = Sum_{n>=1} A049472(n)/2^n = Sum_{n>=1} 1/2^A001951(n).
-
-The programs for A119813, there is no canonical definition to state claims against.
--/
-
-/-! ## A119813.P16544641774543693118
-
-`∑{e}[p?[A231383(a(n-1)+1)]+1, n^#]` with `a(0)=1, a(1)=3, a(2)=2, a(3)=1, a(4)=4`
--/
-
-namespace A119813.P16544641774543693118
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.rec [1, 3, 2, 1, 4] fun n f2 =>
-  A231383 (f2 (n - 1) + 1).toNat
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n) + 1
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n).natAbs, n ^ Nat.factorization (f1 n).natAbs p
-
-end
-
-end A119813.P16544641774543693118
-
-/-!
-# A119814: Numerators of the convergents to the continued fraction for the constant A119812 defined by binary sums involving Beatty sequences: c = Sum_{n>=1} A049472(n)/2^n = Sum_{n>=1} 1/2^A001951(n).
-
-The programs for A119814, there is no canonical definition to state claims against.
--/
-
-/-! ## A119814.P12001178362084515865
-
-`A088697(A196168(a(n-1)))` with `a(0)=0`
--/
-
-namespace A119814.P12001178362084515865
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
-  A088697 (A196168 (a (n - 1)).toNat).toNat
-
-end
-
-end A119814.P12001178362084515865
 
 /-!
 # A119819: a(n) equals the coefficient of x^(n-1) in the (n-1)-th iteration of g.f. A(x) for n>1, with a(1)=1.
@@ -2894,7 +2845,7 @@ end A119846.P10063318017020214484
 /-!
 # A119847: Positions where A119842 is zero.
 
-The programs for A119847, the canonical program `A119847.P2369807592707394206` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119847 has offset 1).
+The programs for A119847, the canonical program `A119847.P2369807592707394206` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119847 has offset 1).
 
 The definition of A119847 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6677 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3048,7 +2999,7 @@ end A119847
 
 `∪[A119899(n+1), A120944(n+1)]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A119847

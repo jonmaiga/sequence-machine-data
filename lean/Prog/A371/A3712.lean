@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -56,17 +57,13 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -96,6 +93,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A371201: a(n) = Sum_{k=prime(n)..prime(n+1)-1} k, with a(0) = 1.
@@ -1643,7 +1644,7 @@ end A371237.P4797591874382157104
 /-!
 # A371238: Euler totient function applied to the binary palindromes of even length.
 
-The programs for A371238, the canonical program `A371238.P16159629807628423493` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371238 has offset 1).
+The programs for A371238, the canonical program `A371238.P16159629807628423493` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371238 has offset 1).
 
 The definition of A371238 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A048701, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1652,7 +1653,7 @@ The definition of A371238 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A048701(n+1))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A371238
@@ -1801,7 +1802,7 @@ end A371238
 /-!
 # A371239: Squarefree numbers that are zeroless in base 3 (A032924).
 
-The programs for A371239, the canonical program `A371239.P1240619195337993519` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371239 has offset 1).
+The programs for A371239, the canonical program `A371239.P1240619195337993519` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371239 has offset 1).
 
 The definition of A371239 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1703 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1836,7 +1837,7 @@ end A371239
 
 `filter[A032924(n+1), A359377(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A371239
@@ -2360,7 +2361,7 @@ end A371240
 /-!
 # A371241: Euler totient function applied to the zeroless numbers in base 3 (A032924).
 
-The programs for A371241, the canonical program `A371241.P3336735415354653583` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371241 has offset 1).
+The programs for A371241, the canonical program `A371241.P3336735415354653583` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371241 has offset 1).
 
 The definition of A371241 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2369,7 +2370,7 @@ The definition of A371241 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A032924(n+1))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A371241
@@ -4404,6 +4405,12 @@ namespace A371281
 def P7831536655068717534.Spec : Prop :=
   ∀ n, P7831536655068717534.a n = A371281 n
 
+theorem P7831536655068717534.correct : P7831536655068717534.Spec := by
+  intro n
+  simp only [A371281, Nat.add_sub_cancel, A371281.P7831536655068717534.a, A371281.P7086320584445002095.a, A007953, A007953.P3472751987379697826.a, A007954, A007954.P17322577641810457605.a, A010879, A010879.P10561743211919002802.a, A061762, A061762.P2226516995009236848.a, A054899, A054899.P10770181254942084517.a, A187844, A187844.P2226367484960758357.f1, A187844.P2226367484960758357.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A371281
 
 /-! ## A371281.P4452401030300500085
@@ -5406,7 +5413,7 @@ end A371291.P11114845283178036154
 /-!
 # A371292: Numbers whose binary indices have prime indices covering an initial interval of positive integers.
 
-The programs for A371292, the canonical program `A371292.P4011090379698081621` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371292 has offset 0).
+The programs for A371292, the canonical program `A371292.P4011090379698081621` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371292 has offset 0).
 
 The definition of A371292 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 856 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5415,7 +5422,7 @@ The definition of A371292 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A079068(A271410(n)), 2]`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A371292

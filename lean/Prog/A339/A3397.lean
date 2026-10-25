@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -51,6 +52,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -93,6 +95,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A339701: Dirichlet g.f.: Product_{k>=2} (1 - k^(-s))^2.
@@ -2461,6 +2467,21 @@ end
 
 end A339737.P736708299929662929
 
+/-! ## A339737.P9193816848212079354
+
+`A364916(n)^A245188(A282189(n+1))`
+-/
+
+namespace A339737.P9193816848212079354
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A364916 n : ℚ) ^ (A245188 (A282189 (n + 1)).toNat : ℤ)
+
+end
+
+end A339737.P9193816848212079354
+
 /-! ## A339737.P6634251660142744575
 
 `A349149(A138530(n+1)%A293854(n))`
@@ -2475,21 +2496,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A339737.P6634251660142744575
-
-/-! ## A339737.P3445689652192253379
-
-`A364916(n)^A071858(A007560(n+1))`
--/
-
-namespace A339737.P3445689652192253379
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A364916 n : ℚ) ^ (A071858 (A007560 (n + 1)).toNat : ℤ)
-
-end
-
-end A339737.P3445689652192253379
 
 /-!
 # A339739: a(n) gives the number of squares in the n-th iteration of the Harter-Heighway dragon.
@@ -4636,6 +4642,12 @@ namespace A339760
 def P17490357239695821872.Spec : Prop :=
   ∀ n, P17490357239695821872.a n = A339760 (n + 1)
 
+theorem P17490357239695821872.correct : P17490357239695821872.Spec := by
+  intro n
+  simp only [A339760, Nat.add_sub_cancel, A339760.P17490357239695821872.a, A339760.P4038209715128270755.a, A000079, A000079.P10855139691139572931.a, A177282, A177282.P1543492870431800991.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A339760
 
 /-! ## A339760.P3351778730758197065
@@ -5353,6 +5365,12 @@ namespace A339771
 /-- `(2*A027981(n)+1)/3` -/
 def P8681263158090443425.Spec : Prop :=
   ∀ n, P8681263158090443425.a n = (A339771 n : ℚ)
+
+theorem P8681263158090443425.correct : P8681263158090443425.Spec := by
+  intro n
+  simp only [A339771, Nat.add_sub_cancel, A339771.P8681263158090443425.a, A339771.P5084121294361121818.a, A027981, A027981.P3364693400701711770.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A339771
 

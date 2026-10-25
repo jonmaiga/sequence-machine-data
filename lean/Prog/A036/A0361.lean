@@ -12,11 +12,10 @@ import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C000
+import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B007.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -168,7 +167,7 @@ end A036110.P6768938966716722342
 /-!
 # A036116: Numbers n such that the number of distinct primes dividing n is a square.
 
-The programs for A036116, the canonical program `A036116.P17962530961175835312` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036116 has offset 1).
+The programs for A036116, the canonical program `A036116.P17962530961175835312` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036116 has offset 1).
 
 The definition of A036116 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4563 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -177,7 +176,7 @@ The definition of A036116 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A008683(A259936(n+1))]+1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A036116

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -44,9 +45,9 @@ import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -78,6 +79,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A229600: Number of defective 3-colorings of an n X 2 0..2 array connected horizontally and vertically with exactly two mistakes, and colors introduced in row-major 0..2 order.
@@ -1336,6 +1341,12 @@ namespace A229615
 /-- `A121443(n+2)-A232356(n+2)` -/
 def P12032587669257577339.Spec : Prop :=
   ∀ n, P12032587669257577339.a n = A229615 (n + 2)
+
+theorem P12032587669257577339.correct : P12032587669257577339.Spec := by
+  intro n
+  simp only [A229615, Nat.add_sub_cancel, A229615.P12032587669257577339.a, A229615.P13961732512820352190.a, A111932, A111932.P8397638407762564101.f1, A111932.P8397638407762564101.a, A121443, A121443.P2966999353151604800.a, A232356, A232356.P2356897415690345151.a, A038500, A038500.P18314557775098268376.a, A117188, A117188.P8831629070024374832.a, A186099, A186099.P16380765776800973491.a, A284098, A284098.P14941002019999752586.f1, A284098.P14941002019999752586.a, A284104, A284104.P13760200148477607299.a, A078182, A078182.P257615860530487597.a, A079979, A079979.P15116196827675478457.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A229615
 

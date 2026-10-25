@@ -28,20 +28,21 @@ import Seq.B003.C000
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C003
+import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
@@ -1336,6 +1337,21 @@ end A393748.P6543784375401280034
 The programs for A393749, there is no canonical definition to state claims against.
 -/
 
+/-! ## A393749.P18362683418790829401
+
+`A256006(n)-A171368(A000108(n))`
+-/
+
+namespace A393749.P18362683418790829401
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A256006 n - A171368 (A000108 n).toNat
+
+end
+
+end A393749.P18362683418790829401
+
 /-! ## A393749.P16878697756008718978
 
 `A256006(n)-A248805(A120732(n))`
@@ -1350,21 +1366,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A393749.P16878697756008718978
-
-/-! ## A393749.P6786970388391668490
-
-`A256006(n)-A358775(A360978(n+1))`
--/
-
-namespace A393749.P6786970388391668490
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A256006 n - A358775 (A360978 (n + 1)).toNat
-
-end
-
-end A393749.P6786970388391668490
 
 /-!
 # A393752: E.g.f.: exp( x * Sum_{n>=0} n! * 2^n * x^n ).
@@ -1440,6 +1441,21 @@ end A393754.P2570472611409001242
 
 The programs for A393759, there is no canonical definition to state claims against.
 -/
+
+/-! ## A393759.P3673004256778353277
+
+`A068696(A334434(n)+A138860(n))`
+-/
+
+namespace A393759.P3673004256778353277
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068696 (A334434 n + A138860 n).toNat
+
+end
+
+end A393759.P3673004256778353277
 
 /-! ## A393759.P1478169926506106480
 

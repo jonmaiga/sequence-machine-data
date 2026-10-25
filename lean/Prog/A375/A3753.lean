@@ -64,7 +64,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -1797,7 +1796,7 @@ end A375337.P14287265454678155055
 /-!
 # A375339: If n has exactly one non-unitary prime factor then a(n) is the exponent of the highest power of this prime that divides n, otherwise a(n) = 0.
 
-The programs for A375339, the canonical program `A375339.P15531892333472399892` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375339 has offset 1).
+The programs for A375339, the canonical program `A375339.P15531892333472399892` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375339 has offset 1).
 
 The definition of A375339 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005361, A359466, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1806,7 +1805,7 @@ The definition of A375339 is `conditional`: the Lean definition is an OEIS formu
 
 `A005361(n+1)*A359466(n+1)`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A375339
@@ -1985,7 +1984,7 @@ end A375339
 /-!
 # A375341: The maximum exponent in the prime factorization of the numbers that have exactly one non-unitary prime factor.
 
-The programs for A375341, the canonical program `A375341.P4031493364369694775` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375341 has offset 1).
+The programs for A375341, the canonical program `A375341.P4031493364369694775` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375341 has offset 1).
 
 The definition of A375341 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005361, A190641, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1994,7 +1993,7 @@ The definition of A375341 is `conditional`: the Lean definition is an OEIS formu
 
 `A005361(A190641(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A375341
@@ -2096,10 +2095,33 @@ def P5137096880745126600.Spec : Prop :=
 
 end A375341
 
+/-! ## A375341.P7537341947963894170
+
+`A275699(n+1)%A050283(n+1)+1`
+-/
+
+namespace A375341.P7537341947963894170
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A275699 (n + 1)) (A050283 (n + 1)) + 1
+
+end
+
+end A375341.P7537341947963894170
+
+namespace A375341
+
+/-- `A275699(n+1)%A050283(n+1)+1` -/
+def P7537341947963894170.Spec : Prop :=
+  ∀ n, P7537341947963894170.a n = A375341 (n + 1)
+
+end A375341
+
 /-!
 # A375342: The maximum exponent in the prime factorization of the numbers whose powerful part is a power of a squarefree number that is larger than 1.
 
-The programs for A375342, the canonical program `A375342.P14847801276659262859` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375342 has offset 1).
+The programs for A375342, the canonical program `A375342.P14847801276659262859` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375342 has offset 1).
 
 The definition of A375342 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051903, A375142, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2108,7 +2130,7 @@ The definition of A375342 is `conditional`: the Lean definition is an OEIS formu
 
 `A051903(A375142(n+1))`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A375342
@@ -4084,23 +4106,23 @@ end
 
 end A375361.P6185200126796697097
 
-/-! ## A375361.P3424191132938661384
+/-! ## A375361.P1912376144528798661
 
-`record[A000265(A009177(n+1))]`
+`record[A000265(A009177(1+n))]`
 -/
 
-namespace A375361.P3424191132938661384
+namespace A375361.P1912376144528798661
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000265 (A009177 (n + 1)).toNat
+  A000265 (A009177 (1 + n)).toNat
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A375361.P3424191132938661384
+end A375361.P1912376144528798661
 
 /-! ## A375361.P1920721423646275015
 

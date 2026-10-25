@@ -1141,20 +1141,20 @@ end A320311.P13573974077074827385
 The programs for A320312, there is no canonical definition to state claims against.
 -/
 
-/-! ## A320312.P9010573592474174692
+/-! ## A320312.P7752951384964418055
 
-`A320311(n+1)-A028242(A093178(n))`
+`A320311(1+n)-A028242(A093178(n))`
 -/
 
-namespace A320312.P9010573592474174692
+namespace A320312.P7752951384964418055
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A320311 (n + 1) - A028242 (A093178 n).toNat
+  A320311 (1 + n) - A028242 (A093178 n).toNat
 
 end
 
-end A320312.P9010573592474174692
+end A320312.P7752951384964418055
 
 /-! ## A320312.P1082695043889288181
 
@@ -3284,7 +3284,7 @@ end A320356.P14949585516728165300
 
 The programs for A320357, the canonical program `A320357.P6511477533894783325` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320357 has offset 0).
 
-The definition of A320357 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A320357 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+a(n-A000005(n))` (program `A320357.P6511477533894783325`, by `A320357.P6511477533894783325.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A320357.P6511477533894783325

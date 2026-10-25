@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -55,6 +56,7 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -81,6 +83,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A253301: Complement of the Beatty sequence for sqrt(Pi*phi), where phi is the golden ratio.
@@ -1372,6 +1378,12 @@ namespace A253315
 /-- `A261283(A004526(n))+A000038(n+1)` -/
 def P11546202438839745408.Spec : Prop :=
   ∀ n, P11546202438839745408.a n = A253315 n
+
+theorem P11546202438839745408.correct : P11546202438839745408.Spec := by
+  intro n
+  simp only [A253315, Nat.add_sub_cancel, A253315.P11546202438839745408.a, A253315.P14136227825810400919.a, A000038, A000038.P13734959004655594922.a, A004526, A004526.P10084182425416171735.a, A261283, A261283.P16041338717505093880.a, A000007, A000007.P6599383543502402472.a, A006068, A006068.P16534033749009019403.a, A355340, A355340.P14945894853618665035.a, A010060, A010060.P3080921269106500717.a, A265263, A265263.P13560857298709796040.a, A377404, A377404.P15784403255783113757.a, A000035, A000035.P2023072528413494694.a, A000120, A000120.P2816527436160941581.a, A066194, A066194.P17197319264784136366.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A253315
 
@@ -6547,7 +6559,7 @@ end A253387.P17080911093981500471
 /-!
 # A253388: Numbers n such that the number of divisors of n is the product of two distinct primes.
 
-The programs for A253388, the canonical program `A253388.P2880385578976687420` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253388 has offset 1).
+The programs for A253388, the canonical program `A253388.P2880385578976687420` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253388 has offset 1).
 
 The definition of A253388 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3873 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6585,7 +6597,7 @@ end A253388
 
 `eq[1, A008683(A000005(n+2))]+2`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A253388

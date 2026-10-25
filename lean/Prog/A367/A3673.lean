@@ -45,7 +45,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
@@ -54,7 +53,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
+import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -81,6 +80,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -481,20 +481,26 @@ end A367319.P2622724706214923274
 The programs for A367320, there is no canonical definition to state claims against.
 -/
 
-/-! ## A367320.P7119043524356334090
+/-! ## A367320.P16192381758597951645
 
-`A002997(C(A007097(n), A051953(n+1)))`
+`A002997(eq[A270880(n), A351725(n+3)])`
 -/
 
-namespace A367320.P7119043524356334090
+namespace A367320.P16192381758597951645
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A270880 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A351725 (n + 3)
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002997 (Nat.choose (A007097 n).toNat (A051953 (n + 1)).toNat)
+  A002997 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n)
 
 end
 
-end A367320.P7119043524356334090
+end A367320.P16192381758597951645
 
 /-!
 # A367322: Table read by antidiagonals: Place k equally spaced points on each side of a regular n-gon and join every pair of the n*(k+1) boundary points by a chord; T(n,k) (n >= 3, k >= 0) gives the number of vertices in the resulting planar graph.
@@ -3379,6 +3385,12 @@ namespace A367379
 def P13883980013691573422.Spec : Prop :=
   ∀ n, P13883980013691573422.a n = A367379 (n + 1)
 
+theorem P13883980013691573422.correct : P13883980013691573422.Spec := by
+  intro n
+  simp only [A367379, Nat.add_sub_cancel, A367379.P13883980013691573422.a, A367379.P13796554037346860458.a, A000292, A000292.P18322089543142633594.a, A072481, A072481.P6215182981061618954.f3, A072481.P6215182981061618954.f2, A072481.P6215182981061618954.f1, A072481.P6215182981061618954.a, A123329, A123329.P16141024750467098144.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A367379
 
 /-! ## A367379.P12984410431783567237
@@ -4088,6 +4100,12 @@ namespace A367396
 /-- `A000051(n)-(A367400(n)+1)` -/
 def P5500184104749268659.Spec : Prop :=
   ∀ n, P5500184104749268659.a n = A367396 n
+
+theorem P5500184104749268659.correct : P5500184104749268659.Spec := by
+  intro n
+  simp only [A367396, Nat.add_sub_cancel, A367396.P5500184104749268659.a, A367396.P3258263714388146902.a, A000051, A000051.P14067217022188782580.a, A367400, A367400.P7738418284028157805.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A367396
 

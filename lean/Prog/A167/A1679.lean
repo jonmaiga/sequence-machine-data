@@ -5154,6 +5154,21 @@ end
 
 end A167972.P1879858169348204366
 
+/-! ## A167972.P17850911141410950263
+
+`A035215(A318588(n+1))%A318588(2*n+5)`
+-/
+
+namespace A167972.P17850911141410950263
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A035215 (A318588 (n + 1)).toNat) (A318588 (2 * n + 5))
+
+end
+
+end A167972.P17850911141410950263
+
 /-! ## A167972.P11167823998679879074
 
 `A007814(2*A318588(n+1))`
@@ -5204,27 +5219,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A167972.P3470508449965483501
-
-/-! ## A167972.P16751338178880583110
-
-`A322584(record[Δ[A253789(n+1)]])`
--/
-
-namespace A167972.P16751338178880583110
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A253789 (n + 1)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A322584 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)).toNat
-
-end
-
-end A167972.P16751338178880583110
 
 /-!
 # A167973: Signature sequence of Phi^5 = 11.090169943749..., where Phi is the golden ratio 1.6180339887499... .
@@ -5590,7 +5584,7 @@ end A167984.P10201943799201013731
 /-!
 # A167990: Elements in A126988 (by row) that are not 1.
 
-The programs for A167990, the canonical program `A167990.P17237278703894071025` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167990 has offset 1).
+The programs for A167990, the canonical program `A167990.P17237278703894071025` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167990 has offset 1).
 
 The definition of A167990 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5599,7 +5593,7 @@ The definition of A167990 is `conjectured`: the Lean definition is a formula tha
 
 `A010766(n+1)*A175992(n+1)`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A167990

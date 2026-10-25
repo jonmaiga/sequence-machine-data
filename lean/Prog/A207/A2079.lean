@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -40,11 +41,10 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -69,7 +69,12 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A207900: Number of 7 X n 0..1 arrays avoiding 0 0 0 and 1 0 1 horizontally and 0 0 0 and 1 1 1 vertically.
@@ -7485,6 +7490,12 @@ namespace A207990
 /-- `p?[∑[A001223(n+2)+A001223(n+1)]]` -/
 def P10074940771557083719.Spec : Prop :=
   ∀ n, P10074940771557083719.a n = A207990 (n + 1)
+
+theorem P10074940771557083719.correct : P10074940771557083719.Spec := by
+  intro n
+  simp only [A207990, Nat.add_sub_cancel, A207990.P10074940771557083719.f2, A207990.P10074940771557083719.f1, A207990.P10074940771557083719.a, A207990.P6589723644473389047.f2, A207990.P6589723644473389047.f1, A207990.P6589723644473389047.a, A001223, A001223.P5083310856331133973.a, A031131, A031131.P2453725465626413076.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A046933, A046933.P9479947770746769512.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A207990
 

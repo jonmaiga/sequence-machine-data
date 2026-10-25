@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -58,12 +59,11 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -88,6 +88,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A219301: Numbers having factorization Product_{i=1..m} p(i)^e(i) such that p(i) + e(i) is the same for each i.
@@ -193,27 +197,27 @@ end
 
 end A219301.P6991964884918823383
 
-/-! ## A219301.P4754927095965678726
+/-! ## A219301.P9206854676480385430
 
-`∩[A133813(n+1), A357875(n+1)]`
+`∪[A000961(n+1), A361868(A220787(n+1))]`
 -/
 
-namespace A219301.P4754927095965678726
+namespace A219301.P9206854676480385430
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A133813 (n + 1)
+  A000961 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A357875 (n + 1)
+  A361868 (A220787 (n + 1)).toNat
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
 
 end
 
-end A219301.P4754927095965678726
+end A219301.P9206854676480385430
 
 /-!
 # A219302: Numbers having factorization Product_{i=1..m} p(i)^e(i) such that m > 1 and p(i) + e(i) is the same for each i.
@@ -4920,6 +4924,12 @@ namespace A219390
 def P14780939888891044127.Spec : Prop :=
   ∀ n, P14780939888891044127.a n = A219390 (n + 1)
 
+theorem P14780939888891044127.correct : P14780939888891044127.Spec := by
+  intro n
+  simp only [A219390, Nat.add_sub_cancel, A219390.P14780939888891044127.a, A219390.P17150077939141016358.a, A057570, A057570.P2153473334326307260.a, A219191, A219191.P9095047944895296053.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A219390
 
 /-! ## A219390.P1777933197897156429
@@ -6003,6 +6013,32 @@ namespace A219394
 /-- `A169603(A083363(n))` -/
 def P9576613521548949796.Spec : Prop :=
   ∀ n, P9576613521548949796.a n = A219394 (n + 1)
+
+end A219394
+
+/-! ## A219394.P16612228281656562012
+
+`∑[(A215931(A084746(3*(n+2)))-1)*n]`
+-/
+
+namespace A219394.P16612228281656562012
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (A215931 (A084746 (3 * (n + 2))).toNat - 1) * (n : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A219394.P16612228281656562012
+
+namespace A219394
+
+/-- `∑[(A215931(A084746(3*(n+2)))-1)*n]` -/
+def P16612228281656562012.Spec : Prop :=
+  ∀ n, P16612228281656562012.a n = A219394 (n + 1)
 
 end A219394
 

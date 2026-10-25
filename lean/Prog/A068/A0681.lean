@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -41,11 +42,12 @@ import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -83,6 +85,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A068100: a(1) = 1; a(n+1) = n!*Sum_{k|n} a(k)/k!.
@@ -2805,6 +2811,12 @@ namespace A068131
 def P1019628545848386249.Spec : Prop :=
   ∀ n, P1019628545848386249.a n = (A068131 (n + 1) : ℚ)
 
+theorem P1019628545848386249.correct : P1019628545848386249.Spec := by
+  intro n
+  simp only [A068131, Nat.add_sub_cancel, A068131.P1019628545848386249.f1, A068131.P1019628545848386249.f2, A068131.P1019628545848386249.a, A068131.P296359315164383935.f1, A068131.P296359315164383935.f2, A068131.P296359315164383935.a, A000217, A000217.P10269402890581615239.a, A002378, A002378.P6342434596694243671.a, A004157, A004157.P13225285824347406028.a, A007953, A007953.P3472751987379697826.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A068131
 
 /-!
@@ -5213,20 +5225,20 @@ end
 
 end A068175.P10149153625526888972
 
-/-! ## A068175.P4614554548725142190
+/-! ## A068175.P14876451877489986672
 
-`A067633(A000027(n+1))*A067633(n+1)`
+`A067633(n+1)^A000005(A104080(n))`
 -/
 
-namespace A068175.P4614554548725142190
+namespace A068175.P14876451877489986672
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A067633 (A000027 (n + 1)).toNat * A067633 (n + 1)
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A067633 (n + 1) : ℚ) ^ (A000005 (A104080 n).toNat : ℤ)
 
 end
 
-end A068175.P4614554548725142190
+end A068175.P14876451877489986672
 
 /-!
 # A068176: a(1) = 2; for n>1, a(n) is the smallest square > a(n-1) obtained by inserting digits into a(n-1).

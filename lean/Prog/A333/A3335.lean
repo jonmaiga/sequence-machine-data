@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C004
@@ -47,19 +48,18 @@ import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -89,6 +89,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A333502: a(n) is the n-th number m such that m^2 divides n^m - 1 (or 0 if m does not exist).
@@ -1975,21 +1979,6 @@ end
 
 end A333525.P2232304794327213768
 
-/-! ## A333525.P15190388934645640720
-
-`floor(sinh(sinh(sinh(sinh(n/(n+1))))))`
--/
-
-namespace A333525.P15190388934645640720
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊Real.sinh (Real.sinh (Real.sinh (Real.sinh ((n : ℚ) / (n + 1 : ℚ) : ℝ))))⌋
-
-end
-
-end A333525.P15190388934645640720
-
 /-!
 # A333527: Number of facets of the polytope representing the number n.
 
@@ -3778,7 +3767,7 @@ end A333557
 /-!
 # A333558: a(n) = Sum_{d|n} phi(d) * prime(d).
 
-The programs for A333558, the canonical program `A333558.P15456896144681005881` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333558 has offset 1).
+The programs for A333558, the canonical program `A333558.P15456896144681005881` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333558 has offset 1).
 
 The definition of A333558 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3787,7 +3776,7 @@ The definition of A333558 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000040(#)*A000010(#)]`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A333558
@@ -4407,6 +4396,12 @@ namespace A333565
 /-- `A033999(n+1)+2*A119259(n)` -/
 def P9943831430636245850.Spec : Prop :=
   ∀ n, P9943831430636245850.a n = A333565 n
+
+theorem P9943831430636245850.correct : P9943831430636245850.Spec := by
+  intro n
+  simp only [A333565, Nat.add_sub_cancel, A333565.P9943831430636245850.a, A333565.P8813464375107094006.a, A033999, A033999.P17703899380244199787.a, A119259, A119259.P15056154096299746551.a, A178792, A178792.P3240755536533390895.a, A000984, A000984.P7946844122574426130.a, A064062, A064062.P2466146061458098928.a, A062992, A062992.P8931874765169475408.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A333565
 
@@ -5247,6 +5242,12 @@ namespace A333573
 def P17159841606441121852.Spec : Prop :=
   ∀ n, P17159841606441121852.a n = (A333573 (n + 1) : ℚ)
 
+theorem P17159841606441121852.correct : P17159841606441121852.Spec := by
+  intro n
+  simp only [A333573, Nat.add_sub_cancel, A333573.P17159841606441121852.a, A333573.P2070379244315738537.f1, A333573.P2070379244315738537.f2, A333573.P2070379244315738537.a, A036698, A036698.P3152835247264100802.a, A036711, A036711.P14920642788416913369.a, A333572, A333572.P17790517561337561290.a, A014200, A014200.P16970295702573526038.a, A036704, A036704.P2788393936175939244.a, A014198, A014198.P2354480518814049901.a, A057655, A057655.P8142405424443184292.a, A105673, A105673.P14538287794614071707.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A333573
 
 /-! ## A333573.P13206911317307872029
@@ -5752,6 +5753,31 @@ def P2947733618700729580.Spec : Prop :=
 
 end A333574
 
+/-! ## A333574.P776697720024498714
+
+`floor(a(n-2)-2*(1-n))` with `a(0)=1, a(1)=2, a(2)=4`
+
+`floor` is left out, it is the identity on integers.
+-/
+
+namespace A333574.P776697720024498714
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 2, 4] fun n a =>
+  a (n - 2) - 2 * (1 - (n : ℤ))
+
+end
+
+end A333574.P776697720024498714
+
+namespace A333574
+
+/-- `floor(a(n-2)-2*(1-n))` -/
+def P776697720024498714.Spec : Prop :=
+  ∀ n, P776697720024498714.a n = A333574 (n + 1)
+
+end A333574
+
 /-! ## A333574.P8048000503324860746
 
 `floor((1-n)²-a(n-1)+n+3)` with `a(0)=1, a(1)=2`
@@ -5950,32 +5976,6 @@ def P14793798168319750070.Spec : Prop :=
 
 end A333574
 
-/-! ## A333574.P16100038571555818111
-
-`∑[A004275(A008619(n))]`
--/
-
-namespace A333574.P16100038571555818111
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004275 (A008619 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A333574.P16100038571555818111
-
-namespace A333574
-
-/-- `∑[A004275(A008619(n))]` -/
-def P16100038571555818111.Spec : Prop :=
-  ∀ n, P16100038571555818111.a n = A333574 (n + 1)
-
-end A333574
-
 /-!
 # A333575: Number of Hamiltonian paths in the n X 3 grid graph which start at any of the n vertices on left side of the graph and terminate at any of the n vertices on the right side.
 
@@ -6069,7 +6069,7 @@ end A333575.P3190016663902987962
 /-!
 # A333576: a(1) = 1; thereafter a(n) = n * uphi(n) / 2.
 
-The programs for A333576, the canonical program `A333576.P11836017096323049674` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333576 has offset 1).
+The programs for A333576, the canonical program `A333576.P11836017096323049674` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333576 has offset 1).
 
 The definition of A333576 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6078,7 +6078,7 @@ The definition of A333576 is `conjectured`: the Lean definition is a formula tha
 
 `ceil((n+1)/2*A047994(n+1))`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A333576
@@ -6113,6 +6113,12 @@ namespace A333576
 /-- `ceil((n+1)*(n+1-A323410(n+1))/2)` -/
 def P2540069920406520315.Spec : Prop :=
   ∀ n, P2540069920406520315.a n = A333576 (n + 1)
+
+theorem P2540069920406520315.correct : P2540069920406520315.Spec := by
+  intro n
+  simp only [A333576, Nat.add_sub_cancel, A333576.P2540069920406520315.a, A333576.P11836017096323049674.a, A047994, A047994.P3003493197761739884.a, A323410, A323410.P6927638298555409235.a, A000010, A000010.P4673923239450215316.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A003557, A003557.P6364735403900941810.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A333576
 

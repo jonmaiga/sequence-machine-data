@@ -151,6 +151,12 @@ namespace A215000
 def P1175807165739215035.Spec : Prop :=
   ∀ n, P1175807165739215035.a n = A215000 (n + 1)
 
+theorem P1175807165739215035.correct : P1175807165739215035.Spec := by
+  intro n
+  simp only [A215000, Nat.add_sub_cancel, A215000.P1175807165739215035.a, A215000.P7439510561353719127.f1, A215000.P7439510561353719127.a, A215001, A215001.P14554116704608614748.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A215000
 
 /-! ## A215000.P389223042743135048

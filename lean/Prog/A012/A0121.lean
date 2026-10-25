@@ -33,6 +33,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -46,6 +47,7 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C016
@@ -151,6 +153,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012101.P7348203543807740772
+
+/-!
+# A012103: cos(arcsin(sinh(x))) = 1-1/2!*x^2-7/4!*x^4-121/6!*x^6-5167/8!*x^8...
+
+The programs for A012103, there is no canonical definition to state claims against.
+-/
+
+/-! ## A012103.P786240005678300393
+
+`A012086(n*A012111(n))`
+-/
+
+namespace A012103.P786240005678300393
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A012086 ((n : ℤ) * A012111 n).toNat
+
+end
+
+end A012103.P786240005678300393
 
 /-!
 # A012104: sinh(arcsin(sinh(x)))=x+3/3!*x^3+41/5!*x^5+1403/7!*x^7+90641/9!*x^9...

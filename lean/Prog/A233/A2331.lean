@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -46,9 +47,9 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B012.C000
@@ -78,6 +79,11 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A233100: Number of 3 X n 0..3 arrays with no element x(i,j) adjacent to value 3-x(i,j) horizontally, diagonally or antidiagonally, top left element zero, and 1 appearing before 2 in row major order.
@@ -3282,6 +3288,12 @@ namespace A233149
 /-- `((n+1)²+1)^3-round(sqrt(((n+1)²+1)^3))²` -/
 def P13533621579938121567.Spec : Prop :=
   ∀ n, P13533621579938121567.a n = A233149 (n + 1)
+
+theorem P13533621579938121567.correct : P13533621579938121567.Spec := by
+  intro n
+  simp only [A233149, Nat.add_sub_cancel, A233149.P13533621579938121567.a, A233149.P1830884297999285355.a, A077119, A077119.P17256151960313143409.a, A077118, A077118.P9288148666822653701.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A233149
 

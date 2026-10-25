@@ -66,7 +66,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -1409,7 +1408,7 @@ end A332712
 /-!
 # A332713: a(n) = Sum_{d|n} phi(d/gcd(d, n/d)).
 
-The programs for A332713, the canonical program `A332713.P16432043159449943199` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332713 has offset 1).
+The programs for A332713, the canonical program `A332713.P16432043159449943199` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332713 has offset 1).
 
 The definition of A332713 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1418,7 +1417,7 @@ The definition of A332713 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000010((n+1)/gcd(n+1, #²))]`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A332713
@@ -5689,7 +5688,7 @@ end A332768.P14235815762346030387
 /-!
 # A332769: Permutation of the positive integers: a(n) = A258996(A054429(n)) = A054429(A258996(n)).
 
-The programs for A332769, the canonical program `A332769.P9976973925860660972` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332769 has offset 1).
+The programs for A332769, the canonical program `A332769.P9976973925860660972` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332769 has offset 1).
 
 The definition of A332769 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A054429, A258996, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5698,7 +5697,7 @@ The definition of A332769 is `conditional`: the Lean definition is an OEIS formu
 
 `A258996(A054429(n+1))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A332769
@@ -6606,6 +6605,12 @@ namespace A332775
 def P3945676659744539873.Spec : Prop :=
   ∀ n, P3945676659744539873.a n = A332775 (n + 1)
 
+theorem P3945676659744539873.correct : P3945676659744539873.Spec := by
+  intro n
+  simp only [A332775, Nat.add_sub_cancel, A332775.P3945676659744539873.a, A332775.P9237626693656516043.a, A001221, A001221.P10258181745752134128.a, A055631, A055631.P8885936990558110793.a, A075653, A075653.P2659253384492111030.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A008472, A008472.P6567490011312877583.f1, A008472.P6567490011312877583.a, A059841, A059841.P2666504972441551157.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A332775
 
 /-! ## A332775.P12686174993795904941
@@ -6629,6 +6634,12 @@ namespace A332775
 def P12686174993795904941.Spec : Prop :=
   ∀ n, P12686174993795904941.a n = A332775 (n + 1)
 
+theorem P12686174993795904941.correct : P12686174993795904941.Spec := by
+  intro n
+  simp only [A332775, Nat.add_sub_cancel, A332775.P12686174993795904941.a, A332775.P9237626693656516043.a, A001221, A001221.P10258181745752134128.a, A055631, A055631.P8885936990558110793.a, A074372, A074372.P4137528993984796168.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A008472, A008472.P6567490011312877583.f1, A008472.P6567490011312877583.a, A059841, A059841.P2666504972441551157.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A332775
 
 /-! ## A332775.P17459528584474244674
@@ -6651,6 +6662,12 @@ namespace A332775
 /-- `n+1+A008472(n+1)-A001221(n+1)` -/
 def P17459528584474244674.Spec : Prop :=
   ∀ n, P17459528584474244674.a n = A332775 (n + 1)
+
+theorem P17459528584474244674.correct : P17459528584474244674.Spec := by
+  intro n
+  simp only [A332775, Nat.add_sub_cancel, A332775.P17459528584474244674.a, A332775.P9237626693656516043.a, A001221, A001221.P10258181745752134128.a, A008472, A008472.P6567490011312877583.f1, A008472.P6567490011312877583.a, A055631, A055631.P8885936990558110793.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P2666504972441551157.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A332775
 
@@ -8143,7 +8160,7 @@ end A332789
 /-!
 # A332790: Triangle read by rows: T(n,k) = 1 + 2*n + k + 5*k(n-k) for n >= 0, 0 <= k <= n.
 
-The programs for A332790, the canonical program `A332790.P8415048500789957359` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332790 has offset 0).
+The programs for A332790, the canonical program `A332790.P8415048500789957359` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332790 has offset 0).
 
 The definition of A332790 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8152,7 +8169,7 @@ The definition of A332790 is `conjectured`: the Lean definition is a formula tha
 
 `A101447(n)+A083381(n)`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A332790

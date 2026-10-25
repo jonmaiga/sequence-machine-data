@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C009
@@ -36,7 +37,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -73,6 +73,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A358100: a(n) is the smallest integer that has exactly n divisors whose decimal digits are in strictly decreasing order.
@@ -1850,6 +1854,12 @@ namespace A358135
 def P7962988828916638856.Spec : Prop :=
   ∀ n, P7962988828916638856.a n = A358135 (n + 1)
 
+theorem P7962988828916638856.correct : P7962988828916638856.Spec := by
+  intro n
+  simp only [A358135, Nat.add_sub_cancel, A358135.P7962988828916638856.a, A358135.P163929003100023159.a, A001511, A001511.P17146462531039486101.a, A007814, A007814.P13537437864234730737.a, A065120, A065120.P11949846161913114325.f1, A065120.P11949846161913114325.a, A006519, A006519.P10435570611646570274.a, A171977, A171977.P14092944863121073856.a, A038712, A038712.P3404197303190209645.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A358135
 
 /-! ## A358135.P18332682698007796941
@@ -1895,6 +1905,12 @@ namespace A358135
 /-- `A228367(n+1)-(A065120(n+1)+A006519(n+1))` -/
 def P1476698976487821256.Spec : Prop :=
   ∀ n, P1476698976487821256.a n = A358135 (n + 1)
+
+theorem P1476698976487821256.correct : P1476698976487821256.Spec := by
+  intro n
+  simp only [A358135, Nat.add_sub_cancel, A358135.P1476698976487821256.a, A358135.P163929003100023159.a, A001511, A001511.P17146462531039486101.a, A006519, A006519.P10435570611646570274.a, A065120, A065120.P11949846161913114325.f1, A065120.P11949846161913114325.a, A228367, A228367.P1353796914564076815.a, A171977, A171977.P14092944863121073856.a, A038712, A038712.P3404197303190209645.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A358135
 

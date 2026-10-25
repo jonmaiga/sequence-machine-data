@@ -34,11 +34,9 @@ import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B011.C000
 import Seq.B013.C000
@@ -63,7 +61,6 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
@@ -484,7 +481,7 @@ end A200311.P17275394448680955046
 
 The programs for A200312, the canonical program `A200312.P4261502179475721494` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200312 has offset 0).
 
-The definition of A200312 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A200312 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000108(n)*A006130(n)` (program `A200312.P4261502179475721494`, by `A200312.P4261502179475721494.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A200312.P4261502179475721494
@@ -1350,7 +1347,7 @@ end A200323.P4881271565770162039
 
 The programs for A200324, the canonical program `A200324.P2863043177810328631` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200324 has offset 1).
 
-The definition of A200324 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A200324 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A200324.P2863043177810328631
@@ -2319,20 +2316,20 @@ end
 
 end A200370.P15524607016686508645
 
-/-! ## A200370.P17492680425559749634
+/-! ## A200370.P1882870173489213884
 
-`A375216(A335003(n+1))`
+`A004736(C(A302025(n+1), A302025(2*n+1))+n)`
 -/
 
-namespace A200370.P17492680425559749634
+namespace A200370.P1882870173489213884
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A375216 (A335003 (n + 1)).toNat
+  A004736 (Nat.choose (A302025 (n + 1)).toNat (A302025 (2 * n + 1)).toNat + n)
 
 end
 
-end A200370.P17492680425559749634
+end A200370.P1882870173489213884
 
 /-!
 # A200371: Number of 0..n arrays x(0..8) of 9 elements with zero 3rd differences.
@@ -2695,7 +2692,7 @@ end A200374.P339112836242914676
 
 The programs for A200375, the canonical program `A200375.P9225317840720584011` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200375 has offset 0).
 
-The definition of A200375 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A200375 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000108(n)*A001045(n+1)` (program `A200375.P9225317840720584011`, by `A200375.P9225317840720584011.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A200375.P9317418400623616165

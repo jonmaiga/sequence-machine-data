@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -71,7 +72,6 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -97,6 +97,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A167700: Number of partitions of n into distinct odd squares.
@@ -1648,6 +1652,12 @@ namespace A167705
 def P3039855909539288505.Spec : Prop :=
   ∀ n, (P3039855909539288505.a n : ℤ) = A167705 (n + 1)
 
+theorem P3039855909539288505.correct : P3039855909539288505.Spec := by
+  intro n
+  simp only [A167705, Nat.add_sub_cancel, A167705.P3039855909539288505.f1, A167705.P3039855909539288505.f2, A167705.P3039855909539288505.a, A167705.P2702715300198025274.f1, A167705.P2702715300198025274.f2, A167705.P2702715300198025274.a, A049711, A049711.P4440062402042869045.a, A175851, A175851.P13592010490707745070.a, A061007, A061007.P1649170130193805129.f1, A061007.P1649170130193805129.a, A064722, A064722.P17255395012520951887.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A167705
 
 /-! ## A167705.P4498960131234434756
@@ -1827,7 +1837,7 @@ end A167705
 /-!
 # A167706: The single or isolated numbers. The union of single (or isolated or non-twin) primes and single (or isolated or average of twin prime pairs) nonprimes.
 
-The programs for A167706, the canonical program `A167706.P11488542031625927943` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167706 has offset 1).
+The programs for A167706, the canonical program `A167706.P11488542031625927943` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167706 has offset 1).
 
 The definition of A167706 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1836,7 +1846,7 @@ The definition of A167706 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A007510(n+1), A014574(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A167706
@@ -9015,7 +9025,7 @@ end A167770
 /-!
 # A167771: Twice-isolated primes: primes p such that neither p+-2 nor p+-4 is prime.
 
-The programs for A167771, the canonical program `A167771.P8141901052907375128` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167771 has offset 1).
+The programs for A167771, the canonical program `A167771.P8141901052907375128` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167771 has offset 1).
 
 The definition of A167771 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9024,7 +9034,7 @@ The definition of A167771 is `conjectured`: the Lean definition is a formula tha
 
 `A137869(n%a(n-1))` with `a(0)=2`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A167771

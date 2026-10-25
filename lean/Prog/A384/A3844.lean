@@ -30,17 +30,15 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B005.C002
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -896,7 +894,7 @@ end A384421
 /-!
 # A384422: The number of prime powers (not including 1) p^e that divide n such that e is coprime to the p-adic valuation of n.
 
-The programs for A384422, the canonical program `A384422.P13713361955298330699` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384422 has offset 1).
+The programs for A384422, the canonical program `A384422.P13713361955298330699` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384422 has offset 1).
 
 The definition of A384422 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -905,7 +903,7 @@ The definition of A384422 is `conjectured`: the Lean definition is a formula tha
 
 `∑{e}[n+1, A000010(#)]`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A384422
@@ -970,6 +968,12 @@ namespace A384422
 def P16034809249761362728.Spec : Prop :=
   ∀ n, P16034809249761362728.a n = A384422 (n + 1)
 
+theorem P16034809249761362728.correct : P16034809249761362728.Spec := by
+  intro n
+  simp only [A384422, Nat.add_sub_cancel, A384422.P16034809249761362728.f1, A384422.P16034809249761362728.a, A384422.P13713361955298330699.f1, A384422.P13713361955298330699.a, A000010, A000010.P4673923239450215316.a, A109606, A109606.P2415810041766612210.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P2666504972441551157.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A384422
 
 /-! ## A384422.P8747135793042087020
@@ -995,6 +999,12 @@ namespace A384422
 /-- `∑{e}[n+1, A039649(#)-1]` -/
 def P8747135793042087020.Spec : Prop :=
   ∀ n, P8747135793042087020.a n = A384422 (n + 1)
+
+theorem P8747135793042087020.correct : P8747135793042087020.Spec := by
+  intro n
+  simp only [A384422, Nat.add_sub_cancel, A384422.P8747135793042087020.f1, A384422.P8747135793042087020.a, A384422.P13713361955298330699.f1, A384422.P13713361955298330699.a, A000010, A000010.P4673923239450215316.a, A039649, A039649.P16717312505280968063.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P2666504972441551157.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A384422
 
@@ -1027,7 +1037,7 @@ end A384422
 /-!
 # A384423: The number of prime powers (not including 1) p^e that divide n such that e is unitarily coprime to the p-adic valuation of n.
 
-The programs for A384423, the canonical program `A384423.P12075957193450750820` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384423 has offset 1).
+The programs for A384423, the canonical program `A384423.P12075957193450750820` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384423 has offset 1).
 
 The definition of A384423 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1036,7 +1046,7 @@ The definition of A384423 is `conjectured`: the Lean definition is a formula tha
 
 `∑{e}[n+1, A047994(#)]`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A384423

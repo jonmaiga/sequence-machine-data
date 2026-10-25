@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -61,12 +62,12 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -94,6 +95,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A265204: Sum of phi(i) over squarefree numbers i <= n.
@@ -6188,6 +6193,12 @@ namespace A265263
 def P14625703907545011787.Spec : Prop :=
   ∀ n, P14625703907545011787.a n = A265263 n
 
+theorem P14625703907545011787.correct : P14625703907545011787.Spec := by
+  intro n
+  simp only [A265263, Nat.add_sub_cancel, A265263.P14625703907545011787.a, A265263.P13560857298709796040.a, A066194, A066194.P17197319264784136366.a, A377404, A377404.P15784403255783113757.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A265263
 
 /-! ## A265263.P7410859689600697696
@@ -8790,26 +8801,26 @@ def P10448722947549437919.Spec : Prop :=
 
 end A265283
 
-/-! ## A265283.P8880320338282424761
+/-! ## A265283.P7103714930731204375
 
-`and(1, n)-C(n, n²)+n+2`
+`and(1, n)+n+2-C(n, n²)`
 -/
 
-namespace A265283.P8880320338282424761
+namespace A265283.P7103714930731204375
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.land 1 n : ℤ) - (Nat.choose n (n ^ 2) : ℤ) + (n + 2 : ℤ)
+  (Nat.land 1 n + (n + 2) : ℤ) - (Nat.choose n (n ^ 2) : ℤ)
 
 end
 
-end A265283.P8880320338282424761
+end A265283.P7103714930731204375
 
 namespace A265283
 
-/-- `and(1, n)-C(n, n²)+n+2` -/
-def P8880320338282424761.Spec : Prop :=
-  ∀ n, P8880320338282424761.a n = A265283 n
+/-- `and(1, n)+n+2-C(n, n²)` -/
+def P7103714930731204375.Spec : Prop :=
+  ∀ n, P7103714930731204375.a n = A265283 n
 
 end A265283
 
@@ -8885,29 +8896,6 @@ namespace A265283
 /-- `∑[or(C(2, n), xor(1, n+1))]-∑[n]` -/
 def P17632099543039475409.Spec : Prop :=
   ∀ n, P17632099543039475409.a n = A265283 n
-
-end A265283
-
-/-! ## A265283.P8123677200595892241
-
-`floor(2*n/(n+2))+or(1, n+1)`
--/
-
-namespace A265283.P8123677200595892241
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(2 * n : ℚ) / (n + 2 : ℚ)⌋ + (Nat.lor 1 (n + 1) : ℤ)
-
-end
-
-end A265283.P8123677200595892241
-
-namespace A265283
-
-/-- `floor(2*n/(n+2))+or(1, n+1)` -/
-def P8123677200595892241.Spec : Prop :=
-  ∀ n, P8123677200595892241.a n = A265283 n
 
 end A265283
 
@@ -9170,6 +9158,12 @@ namespace A265284
 /-- `∑[A265283(n)]` -/
 def P16720139928517793583.Spec : Prop :=
   ∀ n, P16720139928517793583.a n = A265284 n
+
+theorem P16720139928517793583.correct : P16720139928517793583.Spec := by
+  intro n
+  simp only [A265284, Nat.add_sub_cancel, A265284.P16720139928517793583.f1, A265284.P16720139928517793583.a, A265284.P3293689693300010461.f1, A265284.P3293689693300010461.a, A265283, A265283.P12069332907130132446.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A265284
 

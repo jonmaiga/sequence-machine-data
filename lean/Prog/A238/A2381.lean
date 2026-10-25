@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -56,7 +57,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -91,6 +91,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A238103: Product of composite numbers in range n+1 to 2n, exclusive of endpoints.
@@ -748,6 +752,12 @@ namespace A238111
 def P507228425548094326.Spec : Prop :=
   ∀ n, P507228425548094326.a n = A238111 n
 
+theorem P507228425548094326.correct : P507228425548094326.Spec := by
+  intro n
+  simp only [A238111, Nat.add_sub_cancel, A238111.P507228425548094326.a, A238111.P18207636509686923299.f1, A238111.P18207636509686923299.a, A006318, A006318.P6019427271403172875.f1, A006318.P6019427271403172875.a, A176006, A176006.P1011772208691613746.a, A035011, A035011.P9518209092387552565.a, A086616, A086616.P4854257795119713207.a, A025240, A025240.P15418065983883315172.a, A104858, A104858.P16916997968901490082.f1, A104858.P16916997968901490082.a, A000007, A000007.P6599383543502402472.a, A001003, A001003.P3197254907760158298.a, A080243, A080243.P6426181956936067807.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A238111
 
 /-! ## A238111.P5301884717597363969
@@ -1234,7 +1244,7 @@ end A238111
 /-!
 # A238112: Expansion of g.f.: (1-5*x+2*x^2+(2*x-1)*sqrt(x^2-6*x+1))/(4*x).
 
-The programs for A238112, the canonical program `A238112.P3075264075609945640` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238112 has offset 0).
+The programs for A238112, the canonical program `A238112.P3075264075609945640` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238112 has offset 0).
 
 The definition of A238112 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 136 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1260,13 +1270,19 @@ namespace A238112
 def P5813108605707763085.Spec : Prop :=
   ∀ n, P5813108605707763085.a n = A238112 n
 
+theorem P5813108605707763085.correct : P5813108605707763085.Spec := by
+  intro n
+  simp only [A238112, Nat.add_sub_cancel, A238112.P5813108605707763085.a, A238112.P3075264075609945640.a, A001003, A001003.P3197254907760158298.a, A006319, A006319.P5493840374935131367.a, A155069, A155069.P2113503701719238828.a, A080243, A080243.P6426181956936067807.a, A086456, A086456.P993740706458250984.a, A063524, A063524.P5631347671191003537.a, A085403, A085403.P17921680985737888414.a, A176479, A176479.P3498820277277105498.a, A181983, A181983.P3699358180015306672.a, A000007, A000007.P6599383543502402472.a, A001850, A001850.P8225243896153059034.a, A006318, A006318.P6019427271403172875.f1, A006318.P6019427271403172875.a, A047781, A047781.P7244301787128564813.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A238112
 
 /-! ## A238112.P3075264075609945640
 
 `A001003(n)-A155069(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A238112
@@ -1416,6 +1432,12 @@ namespace A238112
 /-- `(A006319(n)-A155069(n))/2` -/
 def P3615455147758442280.Spec : Prop :=
   ∀ n, P3615455147758442280.a n = (A238112 n : ℚ)
+
+theorem P3615455147758442280.correct : P3615455147758442280.Spec := by
+  intro n
+  simp only [A238112, Nat.add_sub_cancel, A238112.P3615455147758442280.a, A238112.P3075264075609945640.a, A001003, A001003.P3197254907760158298.a, A006319, A006319.P5493840374935131367.a, A155069, A155069.P2113503701719238828.a, A080243, A080243.P6426181956936067807.a, A086456, A086456.P993740706458250984.a, A063524, A063524.P5631347671191003537.a, A085403, A085403.P17921680985737888414.a, A176479, A176479.P3498820277277105498.a, A181983, A181983.P3699358180015306672.a, A000007, A000007.P6599383543502402472.a, A001850, A001850.P8225243896153059034.a, A006318, A006318.P6019427271403172875.f1, A006318.P6019427271403172875.a, A047781, A047781.P7244301787128564813.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A238112
 
@@ -3025,6 +3047,21 @@ end
 
 end A238128.P6044592118648021407
 
+/-! ## A238128.P4106758019727970462
+
+`A259479(n)+A025442(A102276(n))`
+-/
+
+namespace A238128.P4106758019727970462
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A259479 n + A025442 (A102276 n).toNat
+
+end
+
+end A238128.P4106758019727970462
+
 /-! ## A238128.P11108833944013839916
 
 `A238343(n)+A083893(A098576(n))`
@@ -3069,21 +3106,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A238128.P9691452834709282607
-
-/-! ## A238128.P17753308527222097187
-
-`A259479(n)+A184964(A128899(n))`
--/
-
-namespace A238128.P17753308527222097187
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A259479 n + A184964 (A128899 n).toNat
-
-end
-
-end A238128.P17753308527222097187
 
 /-!
 # A238129: Triangle read by rows: T(n,k) gives the number of ballot sequences of length n having largest ascent k, n>=0, 0<=k<=n.

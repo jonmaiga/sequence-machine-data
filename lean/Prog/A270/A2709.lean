@@ -42,6 +42,7 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -51,7 +52,6 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -7314,20 +7314,20 @@ end
 
 end A270995.P6015719226978367803
 
-/-! ## A270995.P8399065097295613665
+/-! ## A270995.P12534369569627312008
 
-`A326688(n)+A296119(A000079(n))`
+`A326686(n)+A296119(A000079(n))`
 -/
 
-namespace A270995.P8399065097295613665
+namespace A270995.P12534369569627312008
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326688 n + A296119 (A000079 n).toNat
+  A326686 n + A296119 (A000079 n).toNat
 
 end
 
-end A270995.P8399065097295613665
+end A270995.P12534369569627312008
 
 /-!
 # A270996: T(i, j) = k is the least squarefree number with a run of exactly i>=0 nonsquarefree numbers immediately preceding k and a run of exactly j>=0 nonsquarefree numbers immediately succeeding k.

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -53,7 +54,6 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -85,6 +85,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A050700: Composite numbers n smaller than their decimal reverse but having the same number of prime factors.
@@ -1461,6 +1465,12 @@ namespace A050720
 /-- `9*A016189(A004526(n))` -/
 def P12919649661422287587.Spec : Prop :=
   ∀ n, P12919649661422287587.a n = A050720 (n + 1)
+
+theorem P12919649661422287587.correct : P12919649661422287587.Spec := by
+  intro n
+  simp only [A050720, Nat.add_sub_cancel, A050720.P12919649661422287587.a, A050720.P14054325350750293886.a, A004526, A004526.P10084182425416171735.a, A016189, A016189.P6022811113108631722.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A050720
 
@@ -2876,6 +2886,28 @@ end
 
 end A050739.P12482529135945544731
 
+/-! ## A050739.P5641405668423651372
+
+`A001019(comp[Δ[A154783(2*n+3)]])`
+-/
+
+namespace A050739.P5641405668423651372
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A154783 (2 * n + 3)
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f2 (n + 1) - f2 n
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001019 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n)
+
+end
+
+end A050739.P5641405668423651372
+
 /-! ## A050739.P10327040333295946501
 
 `A000244(lt[A250408(n+1), A377056(n)])`
@@ -2896,21 +2928,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A050739.P10327040333295946501
-
-/-! ## A050739.P15903516092800477367
-
-`A165830(A084716(n+1))`
--/
-
-namespace A050739.P15903516092800477367
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165830 (A084716 (n + 1)).toNat
-
-end
-
-end A050739.P15903516092800477367
 
 /-!
 # A050740: Numbers of form 11^k (values of k see A050731) containing no pair of consecutive equal digits (probably finite).
@@ -8805,7 +8822,7 @@ end A050797.P6526044916122594359
 /-!
 # A050798: Numbers n such that m = n^2 + 1 is expressible as the sum of two nonzero squares in exactly two ways.
 
-The programs for A050798, the canonical program `A050798.P8630715380825418408` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050798 has offset 1).
+The programs for A050798, the canonical program `A050798.P8630715380825418408` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050798 has offset 1).
 
 The definition of A050798 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3816 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8814,7 +8831,7 @@ The definition of A050798 is `conjectured`: the Lean definition is a formula tha
 
 `eq[gcd(6, A158478(n)), A193330(n)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A050798

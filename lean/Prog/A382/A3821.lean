@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -52,6 +53,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
@@ -92,6 +94,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A382100: Square array A(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where column k is the expansion of 1/(2 - B_k(x)), where B_k(x) = 1 + x*B_k(x)^k.
@@ -771,6 +777,12 @@ namespace A382114
 def P1387412426240935099.Spec : Prop :=
   ∀ n, P1387412426240935099.a n = A382114 n
 
+theorem P1387412426240935099.correct : P1387412426240935099.Spec := by
+  intro n
+  simp only [A382114, Nat.add_sub_cancel, A382114.P1387412426240935099.a, A382114.P18285456847627497086.a, A000108, A000108.P17551949696095299361.a, A383957, A383957.P8900195989436403223.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A382114
 
 /-! ## A382114.P5420055407734267398
@@ -816,6 +828,12 @@ namespace A382114
 /-- `A383251(n)+A386291(n)-A000108(n)` -/
 def P554800114139911996.Spec : Prop :=
   ∀ n, P554800114139911996.a n = A382114 n
+
+theorem P554800114139911996.correct : P554800114139911996.Spec := by
+  intro n
+  simp only [A382114, Nat.add_sub_cancel, A382114.P554800114139911996.a, A382114.P18285456847627497086.a, A000108, A000108.P17551949696095299361.a, A383251, A383251.P10776672623636940607.a, A386291, A386291.P6378607592052834356.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A382114
 
@@ -1282,25 +1300,25 @@ end
 
 end A382117.P17691650028980144540
 
-/-! ## A382117.P16114886333152340023
+/-! ## A382117.P3352765301937819293
 
-`A140081(A324821(3*n+4))^A211262(n+1)`
+`and(A008836(A003945(n)), A055034(n+1))`
 -/
 
-namespace A382117.P16114886333152340023
+namespace A382117.P3352765301937819293
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A140081 (A324821 (3 * n + 4)).toNat : ℚ) ^ (A211262 (n + 1) : ℤ)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A008836 (A003945 n).toNat) (A055034 (n + 1))
 
 end
 
-end A382117.P16114886333152340023
+end A382117.P3352765301937819293
 
 /-!
 # A382118: Prime indices k such that prime(k) and prime(k) + 9 are anagrams.
 
-The programs for A382118, the canonical program `A382118.P6433040917030261749` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382118 has offset 1).
+The programs for A382118, the canonical program `A382118.P6433040917030261749` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382118 has offset 1).
 
 The definition of A382118 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 942 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1309,7 +1327,7 @@ The definition of A382118 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A379208(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A382118
@@ -2356,7 +2374,7 @@ end A382128.P944477718796961179
 
 The programs for A382129, the canonical program `A382129.P11262417196826873827` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382129 has offset 1).
 
-The definition of A382129 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A003602, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A382129 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003602, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A382129.P11262417196826873827

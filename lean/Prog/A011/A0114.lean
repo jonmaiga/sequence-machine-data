@@ -1,5 +1,4 @@
 import SequenceMachineLib.Basic
-import Seq.B000.C000
 
 /-!
 # A011455: Sum 2^Fibonacci(i), i=2..n.
@@ -81,22 +80,4 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A011455.P6451234451352160732
-
-/-! ## A011455.P1722158790274564572
-
-`∑[A000301(n+2)]`
--/
-
-namespace A011455.P1722158790274564572
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000301 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A011455.P1722158790274564572
 

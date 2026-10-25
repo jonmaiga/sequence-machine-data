@@ -50,14 +50,13 @@ import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -2943,6 +2942,24 @@ end
 
 end A338449.P15693183039111925040
 
+/-! ## A338449.P2676024660267643600
+
+`∏{p}[A338338(n+1), A337246(#)]`
+-/
+
+namespace A338449.P2676024660267643600
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A338338 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, A337246 p
+
+end
+
+end A338449.P2676024660267643600
+
 /-! ## A338449.P6691369589008459617
 
 `gcd(A186944(n+1), A338338(n+1))`
@@ -3205,7 +3222,7 @@ end A338452
 /-!
 # A338453: Starts of runs of 3 consecutive numbers with the same total binary weight of their divisors (A093653).
 
-The programs for A338453, the canonical program `A338453.P14158950893179917223` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338453 has offset 1).
+The programs for A338453, the canonical program `A338453.P14158950893179917223` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338453 has offset 1).
 
 The definition of A338453 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 146 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3214,7 +3231,7 @@ The definition of A338453 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A338452(n+1)-1, A338452(n+1)]`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A338453
@@ -5884,7 +5901,7 @@ end A338489
 /-!
 # A338490: Sum of indices of distinct odd prime factors of n.
 
-The programs for A338490, the canonical program `A338490.P6074584885069442355` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338490 has offset 1).
+The programs for A338490, the canonical program `A338490.P6074584885069442355` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338490 has offset 1).
 
 The definition of A338490 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000265, A066328, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5893,7 +5910,7 @@ The definition of A338490 is `conditional`: the Lean definition is an OEIS formu
 
 `A066328(A000265(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A338490

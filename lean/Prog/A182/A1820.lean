@@ -66,7 +66,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -385,7 +385,7 @@ end A182003.P15800330459396898798
 /-!
 # A182004: Expansion of q^(-1/4) * (eta(q^4) * eta(q^25) + eta(q) * eta(q^100))^2 / (eta(q^2) * eta(q^50)) in powers of q.
 
-The programs for A182004, the canonical program `A182004.P11314887941871430139` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182004 has offset 0).
+The programs for A182004, the canonical program `A182004.P11314887941871430139` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182004 has offset 0).
 
 The definition of A182004 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2501 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -394,7 +394,7 @@ The definition of A182004 is `conjectured`: the Lean definition is a formula tha
 
 `A008441(n)*A226162(2*n+3)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A182004
@@ -2043,6 +2043,12 @@ namespace A182028
 def P13620254318926668081.Spec : Prop :=
   ∀ n, P13620254318926668081.a n = A182028 n
 
+theorem P13620254318926668081.correct : P13620254318926668081.Spec := by
+  intro n
+  simp only [A182028, Nat.add_sub_cancel, A182028.P13620254318926668081.a, A182028.P14679133625633371517.a, A003849, A003849.P15070805603138295355.a, A214319, A214319.P793865802162299093.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A182028
 
 /-! ## A182028.P2656380101972802347
@@ -3115,6 +3121,12 @@ namespace A182039
 def P14138489856065921788.Spec : Prop :=
   ∀ n, P14138489856065921788.a n = A182039 (n + 1)
 
+theorem P14138489856065921788.correct : P14138489856065921788.Spec := by
+  intro n
+  simp only [A182039, Nat.add_sub_cancel, A182039.P14138489856065921788.a, A182039.P2589778364492655354.a, A060594, A060594.P2818484457649056228.f1, A060594.P2818484457649056228.a, A060968, A060968.P17331185296749833849.a, A155828, A155828.P14308889291480101554.a, A114643, A114643.P3385208476335884825.a, A177704, A177704.P8770811667183017524.a, A395768, A395768.P1059238046107922784.f1, A395768.P1059238046107922784.a, A050361, A050361.P4609984906141832222.f1, A050361.P4609984906141832222.a, A063659, A063659.P17976112420004081821.a, A374367, A374367.P13622303938266122145.a, A056594, A056594.P16236062631889685808.a, A063658, A063658.P15417569516115138274.f1, A063658.P15417569516115138274.a, A085384, A085384.P2467046585933130820.f1, A085384.P2467046585933130820.a, A347586, A347586.P6878572311121842152.f1, A347586.P6878572311121842152.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A182039
 
 /-! ## A182039.P6855119333882427072
@@ -3630,7 +3642,7 @@ end A182046.P14235466342386423965
 /-!
 # A182047: Smallest prime > n*(n+1).
 
-The programs for A182047, the canonical program `A182047.P2101095333412928792` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182047 has offset 0).
+The programs for A182047, the canonical program `A182047.P2101095333412928792` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182047 has offset 0).
 
 The definition of A182047 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A151800, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3639,7 +3651,7 @@ The definition of A182047 is `conditional`: the Lean definition is an OEIS formu
 
 `A151800(A002378(n))`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A182047
@@ -5273,7 +5285,7 @@ end A182061.P15038219051277182995
 /-!
 # A182062: T(n,k) = C(n+1-k,k)*k!*(n-k)!, the number of ways for k men and n-k women to form a queue in which no man is next to another man.
 
-The programs for A182062, the canonical program `A182062.P751900248150404470` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182062 has offset 0).
+The programs for A182062, the canonical program `A182062.P751900248150404470` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182062 has offset 0).
 
 The definition of A182062 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2485 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5282,7 +5294,7 @@ The definition of A182062 is `conjectured`: the Lean definition is a formula tha
 
 `A098361(n)*A169803(n)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A182062
@@ -7655,7 +7667,7 @@ end A182092.P2984130589524268128
 /-!
 # A182093: Partial sums of A005590.
 
-The programs for A182093, the canonical program `A182093.P17307292128728891994` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182093 has offset 0).
+The programs for A182093, the canonical program `A182093.P17307292128728891994` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182093 has offset 0).
 
 The definition of A182093 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7664,7 +7676,7 @@ The definition of A182093 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A005590(n)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A182093

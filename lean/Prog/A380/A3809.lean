@@ -56,8 +56,6 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
-import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
@@ -1843,21 +1841,6 @@ end
 
 end A380935.P16156874365243649728
 
-/-! ## A380935.P5090705943154192333
-
-`A360952(floor(2^(n-1)))%(3^n)`
--/
-
-namespace A380935.P5090705943154192333
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A360952 ⌊(2 : ℚ) ^ ((n : ℤ) - 1 : ℤ)⌋.toNat) (3 ^ n : ℤ)
-
-end
-
-end A380935.P5090705943154192333
-
 /-!
 # A380936: Number of connected cubic planar identity graphs on 2n vertices.
 
@@ -2345,7 +2328,7 @@ end A380952.P12367106342418474880
 /-!
 # A380955: Sum of prime indices of n (with multiplicity) minus sum of distinct prime indices of n.
 
-The programs for A380955, the canonical program `A380955.P4555660258455395016` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380955 has offset 1).
+The programs for A380955, the canonical program `A380955.P4555660258455395016` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380955 has offset 1).
 
 The definition of A380955 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056239, A066328, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2354,7 +2337,7 @@ The definition of A380955 is `conditional`: the Lean definition is an OEIS formu
 
 `A056239(n+1)-A066328(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A380955
@@ -3957,6 +3940,21 @@ end
 
 end A380977.P2953468070441488474
 
+/-! ## A380977.P5946613896675013811
+
+`(n+1-C(floor(1/2+sqrt(2*(n+1))), 2))*A131689(n)`
+-/
+
+namespace A380977.P5946613896675013811
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((n + 1 : ℤ) - (Nat.choose ⌊((1 : ℚ) / 2 : ℝ) + Real.sqrt (2 * (n + 1) : ℝ)⌋.toNat 2 : ℤ)) * A131689 n
+
+end
+
+end A380977.P5946613896675013811
+
 /-! ## A380977.P14856529671593989976
 
 `A002260(n+1)*A131689(n)`
@@ -4076,21 +4074,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A380977.P16453473079448005651
-
-/-! ## A380977.P5540755198186915391
-
-`A000005(A059268(n))*A131689(n)`
--/
-
-namespace A380977.P5540755198186915391
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000005 (A059268 n).toNat * A131689 n
-
-end
-
-end A380977.P5540755198186915391
 
 /-!
 # A380980: Place 2n distinct positive integers on an n-gon, n on the vertices and n on the sides such that the sums of the three values on all sides are equal. a(n) is the minimal sum of all the integers used.
@@ -4336,7 +4319,7 @@ end A380984.P16456444310411135077
 /-!
 # A380986: Product of prime indices of n (with multiplicity) minus product of distinct prime indices of n.
 
-The programs for A380986, the canonical program `A380986.P1159317715938728299` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380986 has offset 1).
+The programs for A380986, the canonical program `A380986.P1159317715938728299` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380986 has offset 1).
 
 The definition of A380986 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003963, A156061, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4345,7 +4328,7 @@ The definition of A380986 is `conditional`: the Lean definition is an OEIS formu
 
 `A003963(n+1)-A156061(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A380986

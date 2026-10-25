@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -53,6 +54,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
@@ -83,6 +85,10 @@ import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A077800: List of twin primes {p, p+2}.
@@ -178,6 +184,12 @@ namespace A077800
 def P7047170724273959368.Spec : Prop :=
   ∀ n, P7047170724273959368.a n = A077800 (n + 1)
 
+theorem P7047170724273959368.correct : P7047170724273959368.Spec := by
+  intro n
+  simp only [A077800, Nat.add_sub_cancel, A077800.P7047170724273959368.a, A077800.P16009445446139691322.a, A096281, A096281.P9870488552655544131.a, A171821, A171821.P6124203405807324285.a, A008619, A008619.P16053834178911111118.a, A014574, A014574.P4587706211531852143.a, A130706, A130706.P15856520674389082666.a, A129297, A129297.P6596998359982084627.f1, A129297.P6596998359982084627.f2, A129297.P6596998359982084627.a, A000010, A000010.P4673923239450215316.a, A063919, A063919.P11181265949704613022.a, A166597, A166597.P14552351031517696526.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A077800
 
 /-! ## A077800.P10905883790573635482
@@ -200,6 +212,12 @@ namespace A077800
 /-- `A171821(n+1)+A130706(n)` -/
 def P10905883790573635482.Spec : Prop :=
   ∀ n, P10905883790573635482.a n = A077800 (n + 1)
+
+theorem P10905883790573635482.correct : P10905883790573635482.Spec := by
+  intro n
+  simp only [A077800, Nat.add_sub_cancel, A077800.P10905883790573635482.a, A077800.P16009445446139691322.a, A096281, A096281.P9870488552655544131.a, A130706, A130706.P15856520674389082666.a, A171821, A171821.P6124203405807324285.a, A008619, A008619.P16053834178911111118.a, A014574, A014574.P4587706211531852143.a, A129297, A129297.P6596998359982084627.f1, A129297.P6596998359982084627.f2, A129297.P6596998359982084627.a, A000010, A000010.P4673923239450215316.a, A063919, A063919.P11181265949704613022.a, A166597, A166597.P14552351031517696526.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A077800
 
@@ -1229,20 +1247,20 @@ end
 
 end A077805.P16402900011024355927
 
-/-! ## A077805.P8831568163071821537
+/-! ## A077805.P15700862544703416472
 
-`A284694(A115848(n+1))`
+`A284694(A007088(n)+1)`
 -/
 
-namespace A077805.P8831568163071821537
+namespace A077805.P15700862544703416472
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A284694 (A115848 (n + 1)).toNat
+  A284694 (A007088 n + 1).toNat
 
 end
 
-end A077805.P8831568163071821537
+end A077805.P15700862544703416472
 
 /-!
 # A077806: Greatest prime factor of numbers containing in their decimal representation only the digits 0 and 1.
@@ -1827,7 +1845,7 @@ end A077808
 
 The programs for A077809, the canonical program `A077809.P14212101923891153479` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077809 has offset 1).
 
-The definition of A077809 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A007088, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A077809 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007088, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A077809.P14212101923891153479
@@ -2232,7 +2250,7 @@ end A077810
 /-!
 # A077811: Euler's totient of numbers containing in their decimal representation only the digits 0 and 1.
 
-The programs for A077811, the canonical program `A077811.P9629137586577371590` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077811 has offset 1).
+The programs for A077811, the canonical program `A077811.P9629137586577371590` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077811 has offset 1).
 
 The definition of A077811 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A007088, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2241,7 +2259,7 @@ The definition of A077811 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A007088(n+1))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A077811
@@ -2362,7 +2380,7 @@ end A077811
 
 The programs for A077812, the canonical program `A077812.P18266462485263755102` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077812 has offset 1).
 
-The definition of A077812 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007088, A007947, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A077812 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007088, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A077812.P18266462485263755102
@@ -3193,7 +3211,7 @@ end A077814
 /-!
 # A077815: 2^phi(n) mod n^2, where phi is Euler's totient function A000010.
 
-The programs for A077815, the canonical program `A077815.P3875949264075291780` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077815 has offset 1).
+The programs for A077815, the canonical program `A077815.P3875949264075291780` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077815 has offset 1).
 
 The definition of A077815 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 336 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3202,7 +3220,7 @@ The definition of A077815 is `conjectured`: the Lean definition is a formula tha
 
 `A066781(n+1)%(n+1)²`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A077815

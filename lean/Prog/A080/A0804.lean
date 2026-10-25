@@ -53,6 +53,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -68,6 +69,7 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -102,16 +104,16 @@ set_option linter.unreachableTactic false
 /-!
 # A080400: Largest squarefree number dividing phi(n).
 
-The programs for A080400, the canonical program `A080400.P13567147294335765646` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080400 has offset 1).
+The programs for A080400, the canonical program `A080400.P13567147294335765646` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A080400 has offset 1).
 
-The definition of A080400 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A007947, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A080400 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A080400.P13567147294335765646
 
 `A007947(A000010(n+1))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A080400
@@ -1790,27 +1792,6 @@ end
 end A080405.P7756537169264743909
 
 /-!
-# A080406: Boustrophedon transform of the continued fraction of Pi (cf. A001203).
-
-The programs for A080406, there is no canonical definition to state claims against.
--/
-
-/-! ## A080406.P4084269462535951428
-
-`A221647(n+2)+A005127(A209316(n))`
--/
-
-namespace A080406.P4084269462535951428
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A221647 (n + 2) + A005127 (A209316 n).toNat
-
-end
-
-end A080406.P4084269462535951428
-
-/-!
 # A080408: Boustrophedon transform of the continued fraction of e (A003417).
 
 The programs for A080408, there is no canonical definition to state claims against.
@@ -1845,21 +1826,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A080408.P12776920199175880178
-
-/-! ## A080408.P2066831539417301791
-
-`A255408(A318622(n+1)+A176638(n+1))`
--/
-
-namespace A080408.P2066831539417301791
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A255408 (A318622 (n + 1) + A176638 (n + 1)).toNat
-
-end
-
-end A080408.P2066831539417301791
 
 /-!
 # A080410: Boustrophedon transform of the continued fraction of the Euler-Mascheroni constant, gamma (A001620).
@@ -1896,21 +1862,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A080410.P15054650091921240901
-
-/-! ## A080410.P14463576745098231731
-
-`A064458(A327214(n))+A000217(n)`
--/
-
-namespace A080410.P14463576745098231731
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064458 (A327214 n).toNat + A000217 n
-
-end
-
-end A080410.P14463576745098231731
 
 /-!
 # A080412: Exchange rightmost two binary digits of n > 1; a(0)=0, a(1)=2.
@@ -4230,6 +4181,26 @@ namespace A080421
 /-- `(n+1)*(n+2)*(n+9)*3^(n-2)/2` -/
 def P11469869799494868962.Spec : Prop :=
   ∀ n, P11469869799494868962.a n = (A080421 n : ℚ)
+
+theorem P11469869799494868962.correct : P11469869799494868962.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 | 3 =>
+      simp [A080421, Nat.add_sub_cancel, A080421.P11469869799494868962.a, A080421.P13758200417382494014.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 4 =>
+      have h1 := ih (m + 3) (by omega)
+      have h2 := ih (m + 2) (by omega)
+      have h3 := ih (m + 1) (by omega)
+      have h4 := ih m (by omega)
+      simp only [A080421, Nat.add_sub_cancel, A080421.P11469869799494868962.a, A080421.P13758200417382494014.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 4 - 1 = m + 3 by omega, show m + 4 - 2 = m + 2 by omega, show m + 4 - 3 = m + 1 by omega, show m + 4 - 4 = m by omega, show m + 3 < m + 4 by omega, show m + 2 < m + 4 by omega, show m + 1 < m + 4 by omega, show m < m + 4 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 h4 ⊢
+      rw [← h1, ← h2, ← h3, ← h4]
+      first | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1)
 
 end A080421
 
@@ -10611,6 +10582,12 @@ namespace A080468
 /-- `A100661(n+1)-1` -/
 def P9578370455298926469.Spec : Prop :=
   ∀ n, P9578370455298926469.a n = A080468 (n + 2)
+
+theorem P9578370455298926469.correct : P9578370455298926469.Spec := by
+  intro n
+  simp only [A080468, Nat.add_sub_cancel, A080468.P9578370455298926469.a, A080468.P3042349121008537224.a, A080578, A080578.P12551959427107631853.a, A100661, A100661.P2879437187524638000.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A080468
 

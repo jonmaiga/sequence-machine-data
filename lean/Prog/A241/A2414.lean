@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -59,7 +60,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -91,6 +91,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A241400: Number of 4Xn 0..3 arrays with no element equal to zero plus the sum of elements to its left or one plus the sum of the elements above it or zero plus the sum of the elements diagonally to its northwest or one plus the sum of the elements antidiagonally to its northeast, modulo 4.
@@ -461,6 +465,12 @@ namespace A241404
 def P12175179454916780300.Spec : Prop :=
   ∀ n, (P12175179454916780300.a n : ℤ) = A241404 (n + 1)
 
+theorem P12175179454916780300.correct : P12175179454916780300.Spec := by
+  intro n
+  simp only [A241404, Nat.add_sub_cancel, A241404.P12175179454916780300.f1, A241404.P12175179454916780300.a, A241404.P1829195198016813191.a, A061602, A061602.P6084715743619966137.f1, A061602.P6084715743619966137.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A241404
 
 /-! ## A241404.P6319908044858327345
@@ -483,6 +493,12 @@ namespace A241404
 /-- `2*(n+1)-A108911(n+1)` -/
 def P6319908044858327345.Spec : Prop :=
   ∀ n, P6319908044858327345.a n = A241404 (n + 1)
+
+theorem P6319908044858327345.correct : P6319908044858327345.Spec := by
+  intro n
+  simp only [A241404, Nat.add_sub_cancel, A241404.P6319908044858327345.a, A241404.P1829195198016813191.a, A061602, A061602.P6084715743619966137.f1, A061602.P6084715743619966137.a, A108911, A108911.P11409882187476094557.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A241404
 

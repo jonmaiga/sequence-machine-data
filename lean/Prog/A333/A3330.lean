@@ -51,13 +51,13 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -2715,7 +2715,7 @@ end A333045.P16270360100640486555
 /-!
 # A333046: a(1) = 1; a(n) = n * Sum_{d|n, d < n, gcd(d, n/d) = 1} a(d) / d.
 
-The programs for A333046, the canonical program `A333046.P18395749149837300678` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333046 has offset 1).
+The programs for A333046, the canonical program `A333046.P18395749149837300678` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333046 has offset 1).
 
 The definition of A333046 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2724,7 +2724,7 @@ The definition of A333046 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)*A325446(n+1)`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A333046
@@ -3261,27 +3261,35 @@ end
 
 end A333053.P11708894712584197909
 
-/-! ## A333053.P11684798903907942496
+/-! ## A333053.P3777329764632425817
 
-`∪[A053624(n+1)-A059841(4^n), A333054(n+1)]`
+`A053624(n+1)-A066247(A045721(n))`
 -/
 
-namespace A333053.P11684798903907942496
+namespace A333053.P3777329764632425817
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A053624 (n + 1) - A059841 (4 ^ n)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333054 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A053624 (n + 1) - A066247 (A045721 n).toNat
 
 end
 
-end A333053.P11684798903907942496
+end A333053.P3777329764632425817
+
+/-! ## A333053.P56174928951006119
+
+`A348198(n+1)+A105812(A090586(n+3))`
+-/
+
+namespace A333053.P56174928951006119
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A348198 (n + 1) + A105812 (A090586 (n + 3)).toNat
+
+end
+
+end A333053.P56174928951006119
 
 /-!
 # A333054: Numbers m such that r(m) > r(k) for all k < m, where r(m) = min(sigma(m)/m, sigma(m+1)/(m+1)), and sigma(m) is the sum of divisors of m (A000203).

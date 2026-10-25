@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -50,6 +51,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -88,6 +90,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A352400: a(n) is the left Aurifeuillian factor of p^p + 1 for A002145(n), where A002145 lists the primes congruent to 3 (mod 4).
@@ -529,6 +535,12 @@ namespace A352405
 /-- `A066375(n+1)-(n²+1)` -/
 def P13558960247306671832.Spec : Prop :=
   ∀ n, P13558960247306671832.a n = A352405 (n + 1)
+
+theorem P13558960247306671832.correct : P13558960247306671832.Spec := by
+  intro n
+  simp only [A352405, Nat.add_sub_cancel, A352405.P13558960247306671832.a, A352405.P8942584792095966573.a, A066375, A066375.P8305533867417825506.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A352405
 
@@ -4707,26 +4719,26 @@ def P12318869981428407102.Spec : Prop :=
 
 end A352483
 
-/-! ## A352483.P5929863257432755103
+/-! ## A352483.P16602567021091859723
 
-`A321692(A321729(n))+A046665(2*(n+1))`
+`A253975(3*(n+1))%A002322(n+1)`
 -/
 
-namespace A352483.P5929863257432755103
+namespace A352483.P16602567021091859723
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A321692 (A321729 n).toNat + A046665 (2 * (n + 1))
+  Int.tmod (A253975 (3 * (n + 1))) (A002322 (n + 1))
 
 end
 
-end A352483.P5929863257432755103
+end A352483.P16602567021091859723
 
 namespace A352483
 
-/-- `A321692(A321729(n))+A046665(2*(n+1))` -/
-def P5929863257432755103.Spec : Prop :=
-  ∀ n, P5929863257432755103.a n = A352483 (n + 1)
+/-- `A253975(3*(n+1))%A002322(n+1)` -/
+def P16602567021091859723.Spec : Prop :=
+  ∀ n, P16602567021091859723.a n = A352483 (n + 1)
 
 end A352483
 

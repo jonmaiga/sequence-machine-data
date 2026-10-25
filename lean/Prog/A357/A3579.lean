@@ -247,7 +247,7 @@ end A357903.P7782354255778083712
 /-!
 # A357905: a(n) = log_3(A060839(n)).
 
-The programs for A357905, the canonical program `A357905.P13685105207051734525` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357905 has offset 1).
+The programs for A357905, the canonical program `A357905.P13685105207051734525` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357905 has offset 1).
 
 The definition of A357905 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -279,7 +279,7 @@ end A357905
 
 `val(A319100(n+1), 3)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A357905

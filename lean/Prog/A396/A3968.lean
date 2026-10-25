@@ -48,13 +48,13 @@ import Seq.B003.C001
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -2772,6 +2772,31 @@ end
 
 end A396856.P8891420244455090768
 
+/-! ## A396856.P11244191795442768396
+
+`∪[∑[A076412(n)], A246655(n+1)]`
+-/
+
+namespace A396856.P11244191795442768396
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A076412 n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246655 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f3 j = (x : ℤ)) n
+
+end
+
+end A396856.P11244191795442768396
+
 /-! ## A396856.P1519790126265988308
 
 `∪[A000040(n+1), A001597(n+1)]`
@@ -2815,6 +2840,130 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A396856.P16127905371952624525
+
+/-! ## A396856.P1969086233272678582
+
+`∪[A001597(n+1), A096165(n+1)]`
+-/
+
+namespace A396856.P1969086233272678582
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001597 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A096165 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A396856.P1969086233272678582
+
+/-! ## A396856.P9926815493836872491
+
+`∪[abs(A157985(n+1)), A000040(n+1)]`
+-/
+
+namespace A396856.P9926815493836872491
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |A157985 (n + 1)|
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A396856.P9926815493836872491
+
+/-! ## A396856.P8462205307240292154
+
+`∪[abs(A157985(n+1)), A246655(n+1)]`
+-/
+
+namespace A396856.P8462205307240292154
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |A157985 (n + 1)|
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246655 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A396856.P8462205307240292154
+
+/-! ## A396856.P18185949586600112654
+
+`∪[∪[(n+1)², A076467(n+1)], A000040(n+1)]`
+-/
+
+namespace A396856.P18185949586600112654
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (n + 1) ^ 2
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A076467 (n + 1)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f2 j = x) ∨ ∃ j, f3 j = (x : ℤ)) n
+
+def f4 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000040 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f4 j = (x : ℤ)) n
+
+end
+
+end A396856.P18185949586600112654
+
+/-! ## A396856.P11350533554344922023
+
+`∪[∪[(n+1)², A076467(n+1)], A246655(n+1)]`
+-/
+
+namespace A396856.P11350533554344922023
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (n + 1) ^ 2
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A076467 (n + 1)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f2 j = x) ∨ ∃ j, f3 j = (x : ℤ)) n
+
+def f4 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A246655 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f4 j = (x : ℤ)) n
+
+end
+
+end A396856.P11350533554344922023
 
 /-!
 # A396858: The number of n-colorings of the faces of the pyritohedron up to rotation and reflection.
@@ -3101,6 +3250,66 @@ end A396865.P10099300505188023348
 The programs for A396866, there is no canonical definition to state claims against.
 -/
 
+/-! ## A396866.P12140883251487989192
+
+`2^A396865(n+2)`
+-/
+
+namespace A396866.P12140883251487989192
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 : ℚ) ^ (A396865 (n + 2) : ℤ)
+
+end
+
+end A396866.P12140883251487989192
+
+/-! ## A396866.P6779100385174980078
+
+`A000079(abs(abs(A396865(n+2)-2*n)-2*n))`
+-/
+
+namespace A396866.P6779100385174980078
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000079 |(|A396865 (n + 2) - (2 * n : ℤ)| - (2 * n : ℤ))|.toNat
+
+end
+
+end A396866.P6779100385174980078
+
+/-! ## A396866.P1088634183462355878
+
+`A000689(abs(abs(A396865(n+2)-2*n)-2*n))`
+-/
+
+namespace A396866.P1088634183462355878
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000689 |(|A396865 (n + 2) - (2 * n : ℤ)| - (2 * n : ℤ))|.toNat
+
+end
+
+end A396866.P1088634183462355878
+
+/-! ## A396866.P14673288802261619421
+
+`A008952(abs(abs(A396865(n+2)-2*n)-2*n))`
+-/
+
+namespace A396866.P14673288802261619421
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008952 |(|A396865 (n + 2) - (2 * n : ℤ)| - (2 * n : ℤ))|.toNat
+
+end
+
+end A396866.P14673288802261619421
+
 /-! ## A396866.P16914605317422587816
 
 `A001285(A161448(3*n+5)*A396865(n+2))`
@@ -3190,21 +3399,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A396866.P541347978736119916
-
-/-! ## A396866.P12308614289311602879
-
-`A396865(n+2)-A008683(A229610(n+1))`
--/
-
-namespace A396866.P12308614289311602879
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A396865 (n + 2) - A008683 (A229610 (n + 1)).toNat
-
-end
-
-end A396866.P12308614289311602879
 
 /-!
 # A396868: Least fundamental discriminant D of real quadratic fields such that omega(D) = n, where omega = A001221.

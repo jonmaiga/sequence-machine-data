@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C004
@@ -22,12 +23,11 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C006
+import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B007.C001
+import Seq.B005.C002
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -37,11 +37,9 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -54,6 +52,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A397302: Number of ways to tile a strip of length n with three types of tiles.
@@ -937,20 +939,20 @@ end A397344.P10007569966260336227
 The programs for A397346, there is no canonical definition to state claims against.
 -/
 
-/-! ## A397346.P6534216483702219758
+/-! ## A397346.P1673445807635129261
 
-`A000010(A387137(n)+A251577(n))`
+`A000010(A251577(n)+A005043(n))`
 -/
 
-namespace A397346.P6534216483702219758
+namespace A397346.P1673445807635129261
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000010 (A387137 n + A251577 n).toNat
+  A000010 (A251577 n + A005043 n).toNat
 
 end
 
-end A397346.P6534216483702219758
+end A397346.P1673445807635129261
 
 /-!
 # A397351: Central terms of triangle A397350.
@@ -1015,6 +1017,39 @@ end
 
 end A397359.P6138343741058259004
 
+/-! ## A397359.P14067294118566427897
+
+`A068106(∑[n])-A296050(n)-A075851(n)`
+-/
+
+namespace A397359.P14067294118566427897
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A068106 (∑ j ∈ Finset.range (n + 1), f1 j) - A296050 n - A075851 n
+
+end
+
+end A397359.P14067294118566427897
+
+/-! ## A397359.P7320241271213003266
+
+`A060475(A000096(n))-A296050(n)-A075851(n)`
+-/
+
+namespace A397359.P7320241271213003266
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060475 (A000096 n).toNat - A296050 n - A075851 n
+
+end
+
+end A397359.P7320241271213003266
+
 /-! ## A397359.P8272971126311595730
 
 `A348469(A003081(n))`
@@ -1029,21 +1064,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A397359.P8272971126311595730
-
-/-! ## A397359.P14361800392709573150
-
-`A000002(n+1)*A070107(A224318(n))`
--/
-
-namespace A397359.P14361800392709573150
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000002 (n + 1) * A070107 (A224318 n).toNat
-
-end
-
-end A397359.P14361800392709573150
 
 /-!
 # A397360: Number of permutations p of [n] such that min_{i=1..n} |p(i)-i| = 3.
@@ -1247,6 +1267,12 @@ namespace A397371
 def P15771830898800996428.Spec : Prop :=
   ∀ n, P15771830898800996428.a n = A397371 n
 
+theorem P15771830898800996428.correct : P15771830898800996428.Spec := by
+  intro n
+  simp only [A397371, Nat.add_sub_cancel, A397371.P15771830898800996428.a, A397371.P7818601092111456214.a, A000196, A000196.P15434771586934192083.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A397371
 
 /-! ## A397371.P6412765346142604420
@@ -1316,6 +1342,12 @@ namespace A397371
 def P1185423732692468654.Spec : Prop :=
   ∀ n, P1185423732692468654.a n = (A397371 n : ℚ)
 
+theorem P1185423732692468654.correct : P1185423732692468654.Spec := by
+  intro n
+  simp only [A397371, Nat.add_sub_cancel, A397371.P1185423732692468654.a, A397371.P7818601092111456214.a, A130819, A130819.P5334675930455341645.a, A001650, A001650.P4146515097473183330.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A397371
 
 /-! ## A397371.P6246705155843084068
@@ -1338,6 +1370,12 @@ namespace A397371
 /-- `n*(n+1-A028391(n))` -/
 def P6246705155843084068.Spec : Prop :=
   ∀ n, P6246705155843084068.a n = A397371 n
+
+theorem P6246705155843084068.correct : P6246705155843084068.Spec := by
+  intro n
+  simp only [A397371, Nat.add_sub_cancel, A397371.P6246705155843084068.a, A397371.P7818601092111456214.a, A028391, A028391.P17198271841435315725.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A397371
 

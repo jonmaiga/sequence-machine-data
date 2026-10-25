@@ -24,21 +24,20 @@ import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
-import Seq.Opaque.C002
+import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
+import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C010
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C021
 import Seq.Opaque.C023
@@ -1009,6 +1008,35 @@ def P11564891081523730839.Spec : Prop :=
 
 end A398470
 
+/-! ## A398470.P4116211030673387463
+
+`A397600(lt[A106356(n+1), 1])`
+-/
+
+namespace A398470.P4116211030673387463
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A106356 (n + 1)
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A397600 (SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n)
+
+end
+
+end A398470.P4116211030673387463
+
+namespace A398470
+
+/-- `A397600(lt[A106356(n+1), 1])` -/
+def P4116211030673387463.Spec : Prop :=
+  ∀ n, P4116211030673387463.a n = A398470 (n + 1)
+
+end A398470
+
 /-!
 # A398472: Triangle read by rows: T(n,k) is the number of ternary words of length n with c(1) = k such that all prefixes satisfy c(1) >= c(2), c(1) >= c(3), where c(i) is the number of occurrences of the letter i.
 
@@ -1198,16 +1226,16 @@ end A398487.P13426173209648543789
 /-!
 # A398488: Number of primes between the n-th odd semiprime and the following odd semiprime.
 
-The programs for A398488, the canonical program `A398488.P6063951227161082576` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398488 has offset 1).
+The programs for A398488, the canonical program `A398488.P6063951227161082576` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398488 has offset 1).
 
-The definition of A398488 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000720, A046315, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A398488 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A046315, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A398488.P6063951227161082576
 
 `A000720(A046315(n+2))-A000720(A046315(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A398488

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -47,9 +48,9 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -83,6 +84,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A298201: Number of Eulerian orientations of the torus grid graph C_4 X C_n.
@@ -4555,6 +4560,12 @@ namespace A298252
 def P3611990758679686141.Spec : Prop :=
   ∀ n, P3611990758679686141.a n = A298252 (n + 1)
 
+theorem P3611990758679686141.correct : P3611990758679686141.Spec := by
+  intro n
+  simp only [A298252, Nat.add_sub_cancel, A298252.P3611990758679686141.a, A298252.P859259455876682479.a, A048974, A048974.P12620924037349992420.a, A113935, A113935.P5086893406653941242.a, A052147, A052147.P6151996953021184291.f1, A052147.P6151996953021184291.a, A065091, A065091.P6971844946592549357.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A298252
 
 /-! ## A298252.P3289104053518678151
@@ -4600,6 +4611,12 @@ namespace A298252
 /-- `A065091(n+1)+3` -/
 def P15659016704316294599.Spec : Prop :=
   ∀ n, P15659016704316294599.a n = A298252 (n + 1)
+
+theorem P15659016704316294599.correct : P15659016704316294599.Spec := by
+  intro n
+  simp only [A298252, Nat.add_sub_cancel, A298252.P15659016704316294599.a, A298252.P859259455876682479.a, A065091, A065091.P6971844946592549357.a, A113935, A113935.P5086893406653941242.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A052147, A052147.P6151996953021184291.f1, A052147.P6151996953021184291.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A298252
 

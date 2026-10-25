@@ -835,7 +835,7 @@ end A124507
 /-!
 # A124508: a(n) = 2^BigO(n) * 3^omega(n), where BigO = A001222 and omega = A001221, the numbers of prime factors of n with and without repetitions.
 
-The programs for A124508, the canonical program `A124508.P2921836237820937167` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124508 has offset 1).
+The programs for A124508, the canonical program `A124508.P2921836237820937167` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124508 has offset 1).
 
 The definition of A124508 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A061142, A074816, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -844,7 +844,7 @@ The definition of A124508 is `conditional`: the Lean definition is an OEIS formu
 
 `A061142(n+1)*A074816(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A124508
@@ -2024,7 +2024,7 @@ end A124515.P17805450224821645172
 /-!
 # A124518: Numbers k such that 10k-1 and 10k+1 are twin primes.
 
-The programs for A124518, the canonical program `A124518.P12474702938177862271` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124518 has offset 1).
+The programs for A124518, the canonical program `A124518.P12474702938177862271` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124518 has offset 1).
 
 The definition of A124518 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2102,7 +2102,7 @@ end A124518
 
 `floor((A060229(n+1)+1)/5)/2`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A124518
@@ -7883,7 +7883,7 @@ end A124584
 /-!
 # A124585: Primes p such that q-p >= 12, where q is the next prime after p.
 
-The programs for A124585, the canonical program `A124585.P9964939614639913661` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124585 has offset 1).
+The programs for A124585, the canonical program `A124585.P9964939614639913661` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124585 has offset 1).
 
 The definition of A124585 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1600 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7944,7 +7944,7 @@ end A124585
 
 `A000040(lt[10, A054541(n+1)])`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A124585
@@ -8904,7 +8904,7 @@ end A124587
 /-!
 # A124588: Primes p such that q - p <= 2, where q is the next prime after p.
 
-The programs for A124588, the canonical program `A124588.P5207466362187017202` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124588 has offset 1).
+The programs for A124588, the canonical program `A124588.P5207466362187017202` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124588 has offset 1).
 
 The definition of A124588 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8913,7 +8913,7 @@ The definition of A124588 is `conjectured`: the Lean definition is a formula tha
 
 `A181747(n+1)+A000007(n)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A124588

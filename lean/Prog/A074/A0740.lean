@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -53,6 +54,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -61,7 +63,6 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -94,6 +95,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A074000: Number of elements of GF(3^n) with trace 0 and subtrace 0.
@@ -2112,7 +2117,7 @@ end A074040.P6737865427818233555
 /-!
 # A074041: Product of first n single (i.e., non-twin) primes.
 
-The programs for A074041, the canonical program `A074041.P16624840875090099525` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074041 has offset 1).
+The programs for A074041, the canonical program `A074041.P16624840875090099525` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074041 has offset 1).
 
 The definition of A074041 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007510, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2121,7 +2126,7 @@ The definition of A074041 is `conditional`: the Lean definition is an OEIS formu
 
 `a(n-1)*A007510(n+1)` with `a(0)=2`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A074041
@@ -6513,6 +6518,12 @@ namespace A074081
 /-- `-((n-A004442(n))*A073817(n))` -/
 def P11316918850317836966.Spec : Prop :=
   ∀ n, P11316918850317836966.a n = A074081 n
+
+theorem P11316918850317836966.correct : P11316918850317836966.Spec := by
+  intro n
+  simp only [A074081, Nat.add_sub_cancel, A074081.P11316918850317836966.a, A074081.P10294358627982683923.a, A004442, A004442.P2439415777187857398.a, A073817, A073817.P5848142379474078233.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A074081
 

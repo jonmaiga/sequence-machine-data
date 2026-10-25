@@ -46,8 +46,10 @@ import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -1308,7 +1310,7 @@ end A161020.P16098097892996661015
 /-!
 # A161025: a(n) = Sum_{d|n} Moebius(n/d)*d^(b-1)/phi(n) for b = 15.
 
-The programs for A161025, the canonical program `A161025.P16166816335795081500` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161025 has offset 1).
+The programs for A161025, the canonical program `A161025.P16166816335795081500` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A161025 has offset 1).
 
 The definition of A161025 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1317,7 +1319,7 @@ The definition of A161025 is `conjectured`: the Lean definition is a formula tha
 
 `A160897(n+1)*A351302(n+1)`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A161025
@@ -3070,20 +3072,20 @@ end
 
 end A161041.P9442992219219524399
 
-/-! ## A161041.P6528160681879821393
+/-! ## A161041.P8601758089925478726
 
-`A161106(n+1)+A010051(A080438(n+1))`
+`A161067(n+1)^A362377(A070682(n))`
 -/
 
-namespace A161041.P6528160681879821393
+namespace A161041.P8601758089925478726
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161106 (n + 1) + A010051 (A080438 (n + 1)).toNat
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A161067 (n + 1) : ℚ) ^ (A362377 (A070682 n).toNat : ℤ)
 
 end
 
-end A161041.P6528160681879821393
+end A161041.P8601758089925478726
 
 /-!
 # A161042: Number of partitions of n into odd numbers where every part appears at least 6 times.

@@ -44,7 +44,7 @@ import Seq.B003.C001
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -55,7 +55,6 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -244,7 +243,7 @@ end A387403.P1168173729822473423
 /-!
 # A387404: Numbers of the form 12*k + 1 that satisfy Euler's condition for odd perfect numbers (A228058).
 
-The programs for A387404, the canonical program `A387404.P10009179576430722639` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387404 has offset 1).
+The programs for A387404, the canonical program `A387404.P10009179576430722639` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387404 has offset 1).
 
 The definition of A387404 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 287 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -369,7 +368,7 @@ end A387404
 
 `∩[A091300(n+1), A191218(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A387404
@@ -3156,6 +3155,12 @@ namespace A387470
 def P3993273585958902350.Spec : Prop :=
   ∀ n, P3993273585958902350.a n = A387470 (n + 1)
 
+theorem P3993273585958902350.correct : P3993273585958902350.Spec := by
+  intro n
+  simp only [A387470, Nat.add_sub_cancel, A387470.P3993273585958902350.f1, A387470.P3993273585958902350.a, A387470.P8261482053908746042.a, A066959, A066959.P15826289147471869282.f1, A066959.P15826289147471869282.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A387470
 
 /-! ## A387470.P15457309630766544785
@@ -3271,6 +3276,12 @@ namespace A387470
 def P2881474982222076719.Spec : Prop :=
   ∀ n, P2881474982222076719.a n = A387470 (n + 1)
 
+theorem P2881474982222076719.correct : P2881474982222076719.Spec := by
+  intro n
+  simp only [A387470, Nat.add_sub_cancel, A387470.P2881474982222076719.a, A387470.P8261482053908746042.a, A001065, A001065.P4097147489331274860.a, A066959, A066959.P15826289147471869282.f1, A066959.P15826289147471869282.a, A186170, A186170.P16645297919080472260.f1, A186170.P16645297919080472260.f2, A186170.P16645297919080472260.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A387470
 
 /-! ## A387470.P5381404146384444519
@@ -3293,6 +3304,12 @@ namespace A387470
 /-- `(n+1)*(A305716(n+1)-3)` -/
 def P5381404146384444519.Spec : Prop :=
   ∀ n, P5381404146384444519.a n = A387470 (n + 1)
+
+theorem P5381404146384444519.correct : P5381404146384444519.Spec := by
+  intro n
+  simp only [A387470, Nat.add_sub_cancel, A387470.P5381404146384444519.a, A387470.P8261482053908746042.a, A066959, A066959.P15826289147471869282.f1, A066959.P15826289147471869282.a, A305716, A305716.P17923809306606080360.f1, A305716.P17923809306606080360.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A387470
 
@@ -4041,20 +4058,20 @@ end
 
 end A387496.P7671046296598000621
 
-/-! ## A387496.P9092416660007820815
+/-! ## A387496.P10201594926278358165
 
-`A008615(A117423(n)+A007931(n+1))`
+`A070564(A155069(n)+A076035(n))`
 -/
 
-namespace A387496.P9092416660007820815
+namespace A387496.P10201594926278358165
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008615 (A117423 n + A007931 (n + 1)).toNat
+  A070564 (A155069 n + A076035 n).toNat
 
 end
 
-end A387496.P9092416660007820815
+end A387496.P10201594926278358165
 
 /-!
 # A387497: Expansion of (1/x) * Series_Reversion( x / ((1+x)^2 * (1+x^2*(1+x)^2)) ).
@@ -4112,4 +4129,19 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A387498.P2112042095194599861
+
+/-! ## A387498.P14963031502395689354
+
+`A060384(A083425(n)+A049536(n+1))`
+-/
+
+namespace A387498.P14963031502395689354
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A060384 (A083425 n + A049536 (n + 1)).toNat
+
+end
+
+end A387498.P14963031502395689354
 

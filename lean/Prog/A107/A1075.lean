@@ -50,12 +50,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -3953,6 +3952,21 @@ end
 
 end A107589.P1287877976231572590
 
+/-! ## A107589.P3904220923433597502
+
+`A095731(A000213(n))+A000110(n)`
+-/
+
+namespace A107589.P3904220923433597502
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A095731 (A000213 n).toNat + A000110 n
+
+end
+
+end A107589.P3904220923433597502
+
 /-! ## A107589.P8765715310957192172
 
 `A186001(n)+A048728(A048742(n))`
@@ -3967,21 +3981,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A107589.P8765715310957192172
-
-/-! ## A107589.P12133202072406856097
-
-`A333755(A327712(n))+A000110(n)`
--/
-
-namespace A107589.P12133202072406856097
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A333755 (A327712 n).toNat + A000110 n
-
-end
-
-end A107589.P12133202072406856097
 
 /-!
 # A107590: G.f. satisfies: A(x) = Sum_{n>=0} x^n * A(x)^(n*(n-1)/2).
@@ -4474,6 +4473,12 @@ namespace A107599
 /-- `3-A108415(n+2)` -/
 def P14205464466930883977.Spec : Prop :=
   ∀ n, P14205464466930883977.a n = A107599 (n + 2)
+
+theorem P14205464466930883977.correct : P14205464466930883977.Spec := by
+  intro n
+  simp only [A107599, Nat.add_sub_cancel, A107599.P14205464466930883977.a, A107599.P7799038033738361722.a, A079054, A079054.P1655160976094069587.a, A108415, A108415.P14242309755812235254.a, A073274, A073274.P9123969946531876833.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A073273, A073273.P7261420191492107144.a, A028310, A028310.P18130301328277559831.a, A089038, A089038.P1158643592573954498.a, A098090, A098090.P13715726592348268082.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A107599
 

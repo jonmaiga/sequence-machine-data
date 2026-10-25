@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -63,17 +64,14 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -103,6 +101,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A049100: a(n) = Euler phi function applied 4 times to n.
@@ -1091,6 +1093,12 @@ namespace A049108
 def P5971665136009246948.Spec : Prop :=
   ∀ n, P5971665136009246948.a n = A049108 (n + 1)
 
+theorem P5971665136009246948.correct : P5971665136009246948.Spec := by
+  intro n
+  simp only [A049108, Nat.add_sub_cancel, A049108.P5971665136009246948.a, A049108.P4100200907408757597.a, A003434, A003434.P4346144669055339103.a, A054725, A054725.P13629253926091839604.a, A134451, A134451.P12605129592745265341.a, A053735, A053735.P3640341592284089632.a, A309243, A309243.P2615360336711731693.a, A054861, A054861.P6137810495506521191.a, A171462, A171462.P186066025836437895.a, A052126, A052126.P1944428405920482243.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A049108
 
 /-! ## A049108.P11938690250015363413
@@ -1371,6 +1379,12 @@ namespace A049108
 /-- `A049115(n+1)+A049113(n+1)` -/
 def P993764796539020119.Spec : Prop :=
   ∀ n, P993764796539020119.a n = A049108 (n + 1)
+
+theorem P993764796539020119.correct : P993764796539020119.Spec := by
+  intro n
+  simp only [A049108, Nat.add_sub_cancel, A049108.P993764796539020119.a, A049108.P4100200907408757597.a, A049113, A049113.P626448701058423886.a, A049115, A049115.P2000805014081711622.a, A054725, A054725.P13629253926091839604.a, A134451, A134451.P12605129592745265341.a, A053735, A053735.P3640341592284089632.a, A064415, A064415.P3438679109517359530.a, A259103, A259103.P17430711073458267779.f1, A259103.P17430711073458267779.f2, A259103.P17430711073458267779.f3, A259103.P17430711073458267779.a, A309243, A309243.P2615360336711731693.a, A054861, A054861.P6137810495506521191.a, A171462, A171462.P186066025836437895.a, A052126, A052126.P1944428405920482243.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A049108
 
@@ -2591,7 +2605,7 @@ end A049112
 /-!
 # A049113: Number of powers of 2 in sequence obtained when phi (A000010) is repeatedly applied to n.
 
-The programs for A049113, the canonical program `A049113.P626448701058423886` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049113 has offset 1).
+The programs for A049113, the canonical program `A049113.P626448701058423886` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049113 has offset 1).
 
 The definition of A049113 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A049108, A049115, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2600,7 +2614,7 @@ The definition of A049113 is `conditional`: the Lean definition is an OEIS formu
 
 `A049108(n+1)-A049115(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A049113
@@ -2848,6 +2862,12 @@ namespace A049113
 /-- `A003434(n+1)+1-A049115(n+1)` -/
 def P7650517178931907628.Spec : Prop :=
   ∀ n, P7650517178931907628.a n = A049113 (n + 1)
+
+theorem P7650517178931907628.correct : P7650517178931907628.Spec := by
+  intro n
+  simp only [A049113, Nat.add_sub_cancel, A049113.P7650517178931907628.a, A049113.P626448701058423886.a, A003434, A003434.P4346144669055339103.a, A049108, A049108.P4100200907408757597.a, A049115, A049115.P2000805014081711622.a, A054725, A054725.P13629253926091839604.a, A064415, A064415.P3438679109517359530.a, A134451, A134451.P12605129592745265341.a, A259103, A259103.P17430711073458267779.f1, A259103.P17430711073458267779.f2, A259103.P17430711073458267779.f3, A259103.P17430711073458267779.a, A053735, A053735.P3640341592284089632.a, A309243, A309243.P2615360336711731693.a, A054861, A054861.P6137810495506521191.a, A171462, A171462.P186066025836437895.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A049113
 
@@ -3258,6 +3278,12 @@ namespace A049115
 def P6405812778517292184.Spec : Prop :=
   ∀ n, P6405812778517292184.a n = A049115 (n + 1)
 
+theorem P6405812778517292184.correct : P6405812778517292184.Spec := by
+  intro n
+  simp only [A049115, Nat.add_sub_cancel, A049115.P6405812778517292184.a, A049115.P2000805014081711622.a, A049108, A049108.P4100200907408757597.a, A049113, A049113.P626448701058423886.a, A064415, A064415.P3438679109517359530.a, A259103, A259103.P17430711073458267779.f1, A259103.P17430711073458267779.f2, A259103.P17430711073458267779.f3, A259103.P17430711073458267779.a, A054725, A054725.P13629253926091839604.a, A134451, A134451.P12605129592745265341.a, A309243, A309243.P2615360336711731693.a, A053735, A053735.P3640341592284089632.a, A171462, A171462.P186066025836437895.a, A052126, A052126.P1944428405920482243.a, A054861, A054861.P6137810495506521191.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A049115
 
 /-! ## A049115.P2000805014081711622
@@ -3322,6 +3348,12 @@ namespace A049115
 /-- `A003434(n+1)+1-A049113(n+1)` -/
 def P10325998621909614951.Spec : Prop :=
   ∀ n, P10325998621909614951.a n = A049115 (n + 1)
+
+theorem P10325998621909614951.correct : P10325998621909614951.Spec := by
+  intro n
+  simp only [A049115, Nat.add_sub_cancel, A049115.P10325998621909614951.a, A049115.P2000805014081711622.a, A003434, A003434.P4346144669055339103.a, A049113, A049113.P626448701058423886.a, A064415, A064415.P3438679109517359530.a, A259103, A259103.P17430711073458267779.f1, A259103.P17430711073458267779.f2, A259103.P17430711073458267779.f3, A259103.P17430711073458267779.a, A049108, A049108.P4100200907408757597.a, A309243, A309243.P2615360336711731693.a, A054725, A054725.P13629253926091839604.a, A134451, A134451.P12605129592745265341.a, A171462, A171462.P186066025836437895.a, A052126, A052126.P1944428405920482243.a, A053735, A053735.P3640341592284089632.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A049115
 
@@ -3584,7 +3616,7 @@ end A049115
 /-!
 # A049116: Repeatedly apply Euler phi to n; a(n) = highest power of 2 that is seen.
 
-The programs for A049116, the canonical program `A049116.P4118642355827191209` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049116 has offset 1).
+The programs for A049116, the canonical program `A049116.P4118642355827191209` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049116 has offset 1).
 
 The definition of A049116 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3731,7 +3763,7 @@ end A049116
 
 `lcm(a(A109606(n+1)), A006519(n+1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A049116
@@ -5723,7 +5755,7 @@ end A049146.P17081560432711284481
 /-!
 # A049149: Numbers k such that the Euler totient function phi(k) is squarefree.
 
-The programs for A049149, the canonical program `A049149.P3106904862429449036` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049149 has offset 1).
+The programs for A049149, the canonical program `A049149.P3106904862429449036` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049149 has offset 1).
 
 The definition of A049149 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5590 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5762,7 +5794,7 @@ end A049149
 
 `record[(n+1)*A008966(A000010(n+1))]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A049149
@@ -6214,6 +6246,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A049152.P14588901936667020411
+
+/-! ## A049152.P76044217137578772
+
+`A297240(A014521(n))+A049180(n+1)`
+-/
+
+namespace A049152.P76044217137578772
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A297240 (A014521 n).toNat + A049180 (n + 1)
+
+end
+
+end A049152.P76044217137578772
 
 /-! ## A049152.P3713835691270751751
 
@@ -8709,7 +8756,7 @@ end A049194
 /-!
 # A049195: Numbers k such that the Euler totient function phi(k) is divisible by a square.
 
-The programs for A049195, the canonical program `A049195.P7381529559572275784` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049195 has offset 1).
+The programs for A049195, the canonical program `A049195.P7381529559572275784` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049195 has offset 1).
 
 The definition of A049195 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9256 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8981,7 +9028,7 @@ end A049195
 
 `lt[A008683(∏{p}[n+1, #-1]*A003557(n+1))², 1]+1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A049195
@@ -9115,7 +9162,7 @@ end A049195
 /-!
 # A049196: Squarefree numbers whose Euler totient function is also squarefree.
 
-The programs for A049196, the canonical program `A049196.P2749344971155733877` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049196 has offset 1).
+The programs for A049196, the canonical program `A049196.P2749344971155733877` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049196 has offset 1).
 
 The definition of A049196 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5542 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9214,7 +9261,7 @@ end A049196
 
 `record[A007913(A049149(n+1))]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A049196
@@ -9660,7 +9707,7 @@ end A049196
 /-!
 # A049197: Squarefree numbers whose Euler totient function is not squarefree.
 
-The programs for A049197, the canonical program `A049197.P6428426226621759377` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049197 has offset 1).
+The programs for A049197, the canonical program `A049197.P6428426226621759377` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049197 has offset 1).
 
 The definition of A049197 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5792 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9994,7 +10041,7 @@ end A049197
 
 `filter[A049195(n+1), A008966(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A049197
@@ -10382,7 +10429,7 @@ end A049198.P7158262729674675056
 /-!
 # A049199: Nonsquarefree numbers whose Euler totient function is also nonsquarefree.
 
-The programs for A049199, the canonical program `A049199.P14129207223259727457` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049199 has offset 1).
+The programs for A049199, the canonical program `A049199.P14129207223259727457` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049199 has offset 1).
 
 The definition of A049199 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7811 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10701,7 +10748,7 @@ end A049199
 
 `eq[A008683(A000010(n+2)), A055615(n+2)]+2`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A049199

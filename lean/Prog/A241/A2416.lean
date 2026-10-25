@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -82,6 +83,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A241600: Number of ways of arranging n lines in the (affine) plane.
@@ -7896,6 +7901,12 @@ namespace A241682
 /-- `A241891(n)-A176742(n)²` -/
 def P928237784327667117.Spec : Prop :=
   ∀ n, P928237784327667117.a n = A241682 n
+
+theorem P928237784327667117.correct : P928237784327667117.Spec := by
+  intro n
+  simp only [A241682, Nat.add_sub_cancel, A241682.P928237784327667117.a, A241682.P11323323633827690027.a, A084247, A084247.P3128533902584007237.a, A123344, A123344.P4808185925048640944.a, A167193, A167193.P13646511038953808611.a, A176742, A176742.P13679403702882205445.a, A241891, A241891.P9479106235604816941.a, A167030, A167030.P11582105971661307295.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A241682
 

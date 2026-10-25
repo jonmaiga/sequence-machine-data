@@ -47,15 +47,15 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -7969,7 +7969,7 @@ end A208894.P5185271487850831820
 /-!
 # A208895: Number of non-congruent solutions to x^2 + y^2 + z^2 + t^2 == 1 (mod n).
 
-The programs for A208895, the canonical program `A208895.P1713684876106652713` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208895 has offset 1).
+The programs for A208895, the canonical program `A208895.P1713684876106652713` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208895 has offset 1).
 
 The definition of A208895 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8001,7 +8001,7 @@ end A208895
 
 `∑{d}[n+1, A001158(#)*A327278((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A208895

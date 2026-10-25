@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
@@ -15,10 +16,11 @@ import Seq.B002.C003
 import Seq.B003.C001
 import Seq.B007.C001
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
-import Seq.Opaque.C002
 import Seq.Opaque.C003
+import Seq.Opaque.C004
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
@@ -26,7 +28,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C015
-import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -34,6 +35,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A388129: a(n) = Sum_{k=0..n} 2^(n-k) * binomial(n,k) * binomial(2*n+1,k).
@@ -442,6 +447,12 @@ namespace A388140
 /-- `A270205(2^(n+1))` -/
 def P18213478227319701550.Spec : Prop :=
   ∀ n, P18213478227319701550.a n = A388140 (n + 1)
+
+theorem P18213478227319701550.correct : P18213478227319701550.Spec := by
+  intro n
+  simp only [A388140, Nat.add_sub_cancel, A388140.P18213478227319701550.a, A388140.P16253514462590538591.a, A270205, A270205.P4965580866994252023.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A388140
 

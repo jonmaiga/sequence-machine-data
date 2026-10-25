@@ -59,6 +59,7 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
@@ -103,7 +104,7 @@ set_option linter.unreachableTactic false
 /-!
 # A086700: Euler phi function applied to the triangular numbers.
 
-The programs for A086700, the canonical program `A086700.P8971596517453946543` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086700 has offset 1).
+The programs for A086700, the canonical program `A086700.P8971596517453946543` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086700 has offset 1).
 
 The definition of A086700 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -112,7 +113,7 @@ The definition of A086700 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A000217(n+1))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A086700
@@ -570,7 +571,7 @@ end A086700
 
 The programs for A086701, the canonical program `A086701.P1636778428891806570` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086701 has offset 1).
 
-The definition of A086701 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A002808, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A086701 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A086701.P1636778428891806570
@@ -5661,6 +5662,12 @@ namespace A086755
 def P12619328723667681512.Spec : Prop :=
   ∀ n, P12619328723667681512.a n = (A086755 n : ℚ)
 
+theorem P12619328723667681512.correct : P12619328723667681512.Spec := by
+  intro n
+  simp only [A086755, Nat.add_sub_cancel, A086755.P12619328723667681512.a, A086755.P1666242869235654198.a, A024166, A024166.P6072422221111961718.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A086755
 
 /-! ## A086755.P1666242869235654198
@@ -6010,6 +6017,12 @@ namespace A086755
 def P17482528918970854148.Spec : Prop :=
   ∀ n, P17482528918970854148.a n = A086755 n
 
+theorem P17482528918970854148.correct : P17482528918970854148.Spec := by
+  intro n
+  simp only [A086755, Nat.add_sub_cancel, A086755.P17482528918970854148.a, A086755.P1666242869235654198.a, A024166, A024166.P6072422221111961718.a, A027660, A027660.P12826670209015444589.a, A056118, A056118.P6591570600101730027.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A086755
 
 /-! ## A086755.P12846278069576944467
@@ -6153,6 +6166,12 @@ namespace A086755
 /-- `A231303(n+1)+A000292(n+1)` -/
 def P6188537253408170083.Spec : Prop :=
   ∀ n, P6188537253408170083.a n = A086755 n
+
+theorem P6188537253408170083.correct : P6188537253408170083.Spec := by
+  intro n
+  simp only [A086755, Nat.add_sub_cancel, A086755.P6188537253408170083.a, A086755.P1666242869235654198.a, A000292, A000292.P18322089543142633594.a, A024166, A024166.P6072422221111961718.a, A231303, A231303.P965024635069111883.a, A000389, A000389.P15450220129395289428.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A086755
 
@@ -8187,20 +8206,20 @@ end A086778.P15343339900465913073
 The programs for A086779, there is no canonical definition to state claims against.
 -/
 
-/-! ## A086779.P6004412994644975807
+/-! ## A086779.P6125369877294674065
 
-`A143204(n+1)/2`
+`A143204(1+n)/2`
 -/
 
-namespace A086779.P6004412994644975807
+namespace A086779.P6125369877294674065
 noncomputable section
 
 def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A143204 (n + 1) : ℚ) / 2
+  (A143204 (1 + n) : ℚ) / 2
 
 end
 
-end A086779.P6004412994644975807
+end A086779.P6125369877294674065
 
 /-! ## A086779.P7396284586469885584
 
@@ -9467,30 +9486,6 @@ theorem P15157598517783096912.correct : P15157598517783096912.Spec := by
   simp only [A086790, Nat.add_sub_cancel]
 
 end A086790
-
-/-!
-# A086791: Primes found among the numerators of the continued fraction rational approximations to e.
-
-The programs for A086791, there is no canonical definition to state claims against.
--/
-
-/-! ## A086791.P8576423539848998963
-
-`p?[A007676(n)]`
--/
-
-namespace A086791.P8576423539848998963
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007676 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A086791.P8576423539848998963
 
 /-!
 # A086792: Orders of finite groups G with the property that the sum of the orders of all the proper normal subgroups of G equals the order of G.

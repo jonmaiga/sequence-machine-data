@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -49,7 +50,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -58,6 +58,8 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
+import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -85,6 +87,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A283101: Numbers of A'Campo forests of degree n>2 and co-dimension 3.
@@ -2635,6 +2641,12 @@ namespace A283123
 def P11976772716281463150.Spec : Prop :=
   ∀ n, P11976772716281463150.a n = (A283123 (n + 1) : ℚ)
 
+theorem P11976772716281463150.correct : P11976772716281463150.Spec := by
+  intro n
+  simp only [A283123, Nat.add_sub_cancel, A283123.P11976772716281463150.a, A283123.P9327775811291743870.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A074400, A074400.P16312391460013478761.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A283123
 
 /-! ## A283123.P16018528906109727877
@@ -2680,6 +2692,12 @@ namespace A283123
 /-- `A088580(9*(n+1))-1` -/
 def P2451076796339335669.Spec : Prop :=
   ∀ n, P2451076796339335669.a n = A283123 (n + 1)
+
+theorem P2451076796339335669.correct : P2451076796339335669.Spec := by
+  intro n
+  simp only [A283123, Nat.add_sub_cancel, A283123.P2451076796339335669.a, A283123.P9327775811291743870.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A088580, A088580.P3089093194242277422.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A283123
 

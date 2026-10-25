@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -61,7 +62,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -73,7 +73,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -94,9 +93,14 @@ import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A142900: Primes congruent to 20 mod 63.
@@ -29700,6 +29704,12 @@ namespace A142964
 def P11900533954189170841.Spec : Prop :=
   ∀ n, P11900533954189170841.a n = A142964 n
 
+theorem P11900533954189170841.correct : P11900533954189170841.Spec := by
+  intro n
+  simp only [A142964, Nat.add_sub_cancel, A142964.P11900533954189170841.a, A142964.P13021207393841812729.a, A050488, A050488.P4828719649079771572.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A142964
 
 /-! ## A142964.P8360628259766123048
@@ -30609,7 +30619,7 @@ end A142970
 /-!
 # A142971: Triangle read by rows: A061397 with negative signs interleaved with (k-1) zeros.
 
-The programs for A142971, the canonical program `A142971.P11295584291541300663` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142971 has offset 1).
+The programs for A142971, the canonical program `A142971.P11295584291541300663` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142971 has offset 1).
 
 The definition of A142971 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 117 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -30946,7 +30956,7 @@ end A142971
 
 `-(A051731(n+1)*A061397(A054531(n+1)))`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A142971
@@ -31635,6 +31645,12 @@ namespace A142974
 /-- `Δ[A000051(n)-A007290(n)]` -/
 def P13335173246285284562.Spec : Prop :=
   ∀ n, P13335173246285284562.a n = A142974 (n + 1)
+
+theorem P13335173246285284562.correct : P13335173246285284562.Spec := by
+  intro n
+  simp only [A142974, Nat.add_sub_cancel, A142974.P13335173246285284562.f1, A142974.P13335173246285284562.a, A142974.P3482987154250714936.a, A000051, A000051.P14067217022188782580.a, A007290, A007290.P9295456119697579818.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A142974
 

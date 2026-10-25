@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -94,6 +95,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A277800: Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 1", based on the 5-celled von Neumann neighborhood.
@@ -1898,6 +1903,12 @@ namespace A277808
 /-- `A001511(n+1)*A092436(n+1)` -/
 def P17061926237035606714.Spec : Prop :=
   ∀ n, P17061926237035606714.a n = A277808 (n + 1)
+
+theorem P17061926237035606714.correct : P17061926237035606714.Spec := by
+  intro n
+  simp only [A277808, Nat.add_sub_cancel, A277808.P17061926237035606714.a, A277808.P4452036695971771112.a, A001511, A001511.P17146462531039486101.a, A010059, A010059.P6338678923093357896.a, A092436, A092436.P18053594016097437094.a, A006519, A006519.P10435570611646570274.a, A010060, A010060.P3080921269106500717.a, A000035, A000035.P2023072528413494694.a, A000120, A000120.P2816527436160941581.a, A171977, A171977.P14092944863121073856.a, A005187, A005187.P3874015513960485494.a, A038712, A038712.P3404197303190209645.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A277808
 
@@ -7401,6 +7412,27 @@ end
 
 end A277857.P11659235900150412280
 
+/-! ## A277857.P3745389995582805537
+
+`eq[A272011(n+1), A294783(A111808(n+1))]`
+-/
+
+namespace A277857.P3745389995582805537
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A272011 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A294783 (A111808 (n + 1)).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A277857.P3745389995582805537
+
 /-!
 # A277858: The absolute difference between a(n) and a(n+1) is visible in a(n).
 
@@ -8688,6 +8720,12 @@ namespace A277866
 /-- `A282004(n)-A134451(n)` -/
 def P17917787164178553944.Spec : Prop :=
   ∀ n, P17917787164178553944.a n = A277866 n
+
+theorem P17917787164178553944.correct : P17917787164178553944.Spec := by
+  intro n
+  simp only [A277866, Nat.add_sub_cancel, A277866.P17917787164178553944.a, A277866.P11591149950344806624.f1, A277866.P11591149950344806624.a, A134451, A134451.P12605129592745265341.a, A282004, A282004.P11991646138547053131.a, A053735, A053735.P3640341592284089632.a, A054861, A054861.P6137810495506521191.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A277866
 

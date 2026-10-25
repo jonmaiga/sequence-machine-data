@@ -58,7 +58,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -66,7 +65,6 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2910,6 +2908,21 @@ end
 
 end A334433.P10856757718154586038
 
+/-! ## A334433.P8711463488634938859
+
+`A334435(n)+A010054(A260557(n+1))`
+-/
+
+namespace A334433.P8711463488634938859
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334435 n + A010054 (A260557 (n + 1)).toNat
+
+end
+
+end A334433.P8711463488634938859
+
 /-! ## A334433.P4891482416085737340
 
 `A055975(A056809(n+1))*A334435(n)`
@@ -2984,21 +2997,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A334433.P3624379781960145730
-
-/-! ## A334433.P10695383101156562769
-
-`A066247(A072777(3*n+1))*A334435(n)`
--/
-
-namespace A334433.P10695383101156562769
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066247 (A072777 (3 * n + 1)).toNat * A334435 n
-
-end
-
-end A334433.P10695383101156562769
 
 /-!
 # A334434: Heinz number of the n-th integer partition in graded lexicographic order.
@@ -5666,7 +5664,7 @@ end A334468.P14708645567033577188
 /-!
 # A334469: Indices of zero or positive first differences in A217287.
 
-The programs for A334469, the canonical program `A334469.P12018164679622748302` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334469 has offset 1).
+The programs for A334469, the canonical program `A334469.P12018164679622748302` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334469 has offset 1).
 
 The definition of A334469 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5504 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5727,7 +5725,7 @@ end A334469
 
 `record[3-A000040(A061395(n+2))+n]`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A334469
@@ -5903,7 +5901,7 @@ end A334469
 
 The programs for A334470, the canonical program `A334470.P14237330415455119872` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334470 has offset 1).
 
-The definition of A334470 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A211776, A253139, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A334470 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A211776, A253139, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A334470.P14237330415455119872

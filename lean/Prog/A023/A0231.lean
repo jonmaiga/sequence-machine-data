@@ -55,7 +55,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -5877,20 +5876,23 @@ end
 
 end A023157.P5382079628375522832
 
-/-! ## A023157.P3489220690077524931
+/-! ## A023157.P16642790284483195225
 
-`A278220(A089170(n+1)+A001221(n+1))`
+`A236175(A179664(n+1))^∑{p}[n+1, gcd(n, #)]`
 -/
 
-namespace A023157.P3489220690077524931
+namespace A023157.P16642790284483195225
 noncomputable section
 
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A278220 (A089170 (n + 1) + A001221 (n + 1)).toNat
+  A236175 (A179664 (n + 1)).toNat ^ (∑ p ∈ Nat.primeFactors (f1 n), Nat.gcd n p)
 
 end
 
-end A023157.P3489220690077524931
+end A023157.P16642790284483195225
 
 /-!
 # A023158: Number of cycles of function f(x) = x^7 mod n.

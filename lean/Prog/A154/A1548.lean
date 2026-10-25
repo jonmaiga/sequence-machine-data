@@ -52,11 +52,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -76,7 +76,6 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -4714,6 +4713,29 @@ def P16611438144661426020.Spec : Prop :=
 
 end A154890
 
+/-! ## A154890.P10025053444148314544
+
+`a(n-1)+2*a(n-2)-8` with `a(0)=3, a(1)=6`
+-/
+
+namespace A154890.P10025053444148314544
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [3, 6] fun n a =>
+  a (n - 1) + 2 * a (n - 2) - 8
+
+end
+
+end A154890.P10025053444148314544
+
+namespace A154890
+
+/-- `a(n-1)+2*a(n-2)-8` -/
+def P10025053444148314544.Spec : Prop :=
+  ∀ n, P10025053444148314544.a n = A154890 n
+
+end A154890
+
 /-! ## A154890.P2969595031551376720
 
 `2*a(n-2)-(8-a(n-1))` with `a(0)=3, a(1)=6`
@@ -5059,29 +5081,6 @@ namespace A154890
 /-- `A155944(n)+A010702(n)` -/
 def P1751643276348994367.Spec : Prop :=
   ∀ n, P1751643276348994367.a n = A154890 n
-
-end A154890
-
-/-! ## A154890.P16244480837098192448
-
-`A167030(n)+A010711(n)`
--/
-
-namespace A154890.P16244480837098192448
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A167030 n + A010711 n
-
-end
-
-end A154890.P16244480837098192448
-
-namespace A154890
-
-/-- `A167030(n)+A010711(n)` -/
-def P16244480837098192448.Spec : Prop :=
-  ∀ n, P16244480837098192448.a n = A154890 n
 
 end A154890
 

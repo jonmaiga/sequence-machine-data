@@ -56,7 +56,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -122,6 +121,12 @@ namespace A054900
 /-- `(n-A053836(n))/15` -/
 def P3546849672806822947.Spec : Prop :=
   ∀ n, P3546849672806822947.a n = (A054900 n : ℚ)
+
+theorem P3546849672806822947.correct : P3546849672806822947.Spec := by
+  intro n
+  simp only [A054900, Nat.add_sub_cancel, A054900.P3546849672806822947.a, A054900.P10951327238473995848.a, A053836, A053836.P6566921165131624833.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A054900
 
@@ -5667,7 +5672,7 @@ end A054963
 /-!
 # A054964: Numbers whose divisors have the form m^k + 1, k>1.
 
-The programs for A054964, the canonical program `A054964.P645230808875844543` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054964 has offset 1).
+The programs for A054964, the canonical program `A054964.P645230808875844543` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054964 has offset 1).
 
 The definition of A054964 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 843 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5763,7 +5768,7 @@ end A054964
 
 `record[A002522(n)%(A333169(n)+A333167(n))]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A054964
@@ -10389,7 +10394,7 @@ end A054991.P2450303112691892363
 /-!
 # A054992: Number of prime factors of 2^n + 1 (counted with multiplicity).
 
-The programs for A054992, the canonical program `A054992.P12592111826039149461` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054992 has offset 1).
+The programs for A054992, the canonical program `A054992.P12592111826039149461` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054992 has offset 1).
 
 The definition of A054992 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A046051, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10398,7 +10403,7 @@ The definition of A054992 is `conditional`: the Lean definition is an OEIS formu
 
 `A046051(2*(n+1))-A046051(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A054992

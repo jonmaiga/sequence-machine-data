@@ -52,6 +52,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -4007,7 +4008,7 @@ end A067146.P15398136965477202284
 /-!
 # A067147: Triangle of coefficients for expressing x^n in terms of Hermite polynomials.
 
-The programs for A067147, the canonical program `A067147.P5733309145928527977` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067147 has offset 0).
+The programs for A067147, the canonical program `A067147.P5733309145928527977` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067147 has offset 0).
 
 The definition of A067147 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5464 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4062,7 +4063,7 @@ end A067147
 
 `A061554(n)*A242653(n)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A067147
@@ -4792,6 +4793,36 @@ end
 
 end A067155.P17393594144070354840
 
+/-! ## A067155.P3960226421059946779
+
+`A029931(A130556(n+1)*A236379(n))`
+-/
+
+namespace A067155.P3960226421059946779
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029931 (A130556 (n + 1) * A236379 n).toNat
+
+end
+
+end A067155.P3960226421059946779
+
+/-! ## A067155.P15350074123638498063
+
+`A345167(A049445(n+1)^A365917(n))`
+-/
+
+namespace A067155.P15350074123638498063
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A345167 (SequenceMachineLib.roundAway ((A049445 (n + 1) : ℚ) ^ (A365917 n : ℤ))).toNat
+
+end
+
+end A067155.P15350074123638498063
+
 /-!
 # A067156: Number of regions in regular n-gon which are 9-gons.
 
@@ -5206,7 +5237,7 @@ end A067160.P14988408694796030209
 
 The programs for A067161, the canonical program `A067161.P10768475031495002266` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067161 has offset 1).
 
-The definition of A067161 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A067161 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A067161.P10768475031495002266

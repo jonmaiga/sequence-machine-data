@@ -2932,7 +2932,7 @@ end A320840.P12337861678527482935
 /-!
 # A320841: Number T(n,k) of partitions of n into k positive cubes; triangle T(n,k), n >= 0, 0 <= k <= n, read by rows.
 
-The programs for A320841, the canonical program `A320841.P10418808688263106149` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320841 has offset 0).
+The programs for A320841, the canonical program `A320841.P10418808688263106149` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320841 has offset 0).
 
 The definition of A320841 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 136 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2964,7 +2964,7 @@ end A320841
 
 `A256434(A130330(n)-A010054(n))`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A320841

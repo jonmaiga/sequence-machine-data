@@ -62,7 +62,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -1056,6 +1055,12 @@ namespace A227513
 /-- `∑[A130782(n)+A016945(n)²]` -/
 def P15861711440547779255.Spec : Prop :=
   ∀ n, P15861711440547779255.a n = A227513 (n + 1)
+
+theorem P15861711440547779255.correct : P15861711440547779255.Spec := by
+  intro n
+  simp only [A227513, Nat.add_sub_cancel, A227513.P15861711440547779255.f1, A227513.P15861711440547779255.a, A227513.P18001232639528328912.f1, A227513.P18001232639528328912.a, A016945, A016945.P12463160785118576711.a, A016946, A016946.P16494615086453922637.a, A130782, A130782.P5199446296278613737.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A227513
 
@@ -2869,6 +2874,12 @@ namespace A227546
 def P9565786134236290539.Spec : Prop :=
   ∀ n, P9565786134236290539.a n = A227546 n
 
+theorem P9565786134236290539.correct : P9565786134236290539.Spec := by
+  intro n
+  simp only [A227546, Nat.add_sub_cancel, A227546.P9565786134236290539.a, A227546.P3792816590074060115.a, A004664, A004664.P2016887011664002620.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A227546
 
 /-! ## A227546.P11961812860414454217
@@ -2892,6 +2903,12 @@ namespace A227546
 def P11961812860414454217.Spec : Prop :=
   ∀ n, P11961812860414454217.a n = A227546 n
 
+theorem P11961812860414454217.correct : P11961812860414454217.Spec := by
+  intro n
+  simp only [A227546, Nat.add_sub_cancel, A227546.P11961812860414454217.a, A227546.P3792816590074060115.a, A038507, A038507.P6297172410669872132.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A227546
 
 /-! ## A227546.P2666359562575165292
@@ -2914,6 +2931,12 @@ namespace A227546
 /-- `A066143(n)+1-n` -/
 def P2666359562575165292.Spec : Prop :=
   ∀ n, P2666359562575165292.a n = A227546 n
+
+theorem P2666359562575165292.correct : P2666359562575165292.Spec := by
+  intro n
+  simp only [A227546, Nat.add_sub_cancel, A227546.P2666359562575165292.a, A227546.P3792816590074060115.a, A066143, A066143.P17504484635712324695.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A227546
 
@@ -3678,7 +3701,7 @@ end A227552.P13157269688676706969
 /-!
 # A227553: Number of solutions to x^2 - y^2 - z^2 == 1 (mod n).
 
-The programs for A227553, the canonical program `A227553.P11896763355419445799` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227553 has offset 1).
+The programs for A227553, the canonical program `A227553.P11896763355419445799` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227553 has offset 1).
 
 The definition of A227553 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2500 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3687,7 +3710,7 @@ The definition of A227553 is `conjectured`: the Lean definition is a formula tha
 
 `A087784(n+1)/A093148(n)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A227553

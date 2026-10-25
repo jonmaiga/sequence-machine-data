@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -87,8 +88,13 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A316002: Coordination sequence Gal.5.123.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
@@ -5478,6 +5484,12 @@ namespace A316096
 def P10819203748390936654.Spec : Prop :=
   ∀ n, (P10819203748390936654.a n : ℤ) = A316096 (n + 1)
 
+theorem P10819203748390936654.correct : P10819203748390936654.Spec := by
+  intro n
+  simp only [A316096, Nat.add_sub_cancel, A316096.P10819203748390936654.f1, A316096.P10819203748390936654.f3, A316096.P10819203748390936654.f2, A316096.P10819203748390936654.a, A316096.P2456358805564774649.f1, A316096.P2456358805564774649.f2, A316096.P2456358805564774649.a, A005101, A005101.P6705997063366613997.f1, A005101.P6705997063366613997.f2, A005101.P6705997063366613997.a, A125115, A125115.P9586527931005899637.a, A082551, A082551.P4316828637772613674.f1, A082551.P4316828637772613674.f2, A082551.P4316828637772613674.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A316096
 
 /-! ## A316096.P10087548840002259434
@@ -5881,7 +5893,7 @@ end A316097
 /-!
 # A316098: Abundant numbers that differ from the next abundant number by 4.
 
-The programs for A316098, the canonical program `A316098.P17152426692604565992` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316098 has offset 1).
+The programs for A316098, the canonical program `A316098.P17152426692604565992` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316098 has offset 1).
 
 The definition of A316098 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005101, A316096, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5890,7 +5902,7 @@ The definition of A316098 is `conditional`: the Lean definition is an OEIS formu
 
 `A005101(A316096(n+1))`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A316098
@@ -6056,7 +6068,7 @@ end A316098
 /-!
 # A316099: Abundant numbers that differ from the next abundant number by 6.
 
-The programs for A316099, the canonical program `A316099.P17206935582006049341` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316099 has offset 1).
+The programs for A316099, the canonical program `A316099.P17206935582006049341` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316099 has offset 1).
 
 The definition of A316099 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005101, A316097, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6065,7 +6077,7 @@ The definition of A316099 is `conditional`: the Lean definition is an OEIS formu
 
 `A005101(A316097(n+1))`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A316099

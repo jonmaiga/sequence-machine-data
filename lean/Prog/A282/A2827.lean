@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -66,7 +67,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -98,6 +98,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A282701: a(n) = maximal number of real roots of any of the polynomials c_0 + c_1*x + c_2*x^2 + ... + c_n*x^n where the coefficients c_i are -1, 0, or 1, c_0 != 0, and c_n != 0.
@@ -7442,6 +7446,12 @@ namespace A282781
 /-- `n*A282751(n)` -/
 def P17073645983277440818.Spec : Prop :=
   ∀ n, P17073645983277440818.a n = A282781 n
+
+theorem P17073645983277440818.correct : P17073645983277440818.Spec := by
+  intro n
+  simp only [A282781, Nat.add_sub_cancel, A282781.P17073645983277440818.a, A282781.P11971029506536278337.f1, A282781.P11971029506536278337.a, A282751, A282751.P13496830146791819675.f1, A282751.P13496830146791819675.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A282781
 

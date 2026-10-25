@@ -63,7 +63,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -3861,6 +3860,21 @@ end A355350.P6453921403427800690
 The programs for A355351, there is no canonical definition to state claims against.
 -/
 
+/-! ## A355351.P4880093207487263138
+
+`A326212(n)+A238010(A006252(n))`
+-/
+
+namespace A355351.P4880093207487263138
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326212 n + A238010 (A006252 n).toNat
+
+end
+
+end A355351.P4880093207487263138
+
 /-! ## A355351.P16345249980383948182
 
 `A101402(xor(A270561(n), A353573(n)))`
@@ -3875,30 +3889,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A355351.P16345249980383948182
-
-/-! ## A355351.P16496042601945403639
-
-`A145847(n)-lt[n/4, ∏{e}[n+1, #]]`
--/
-
-namespace A355351.P16496042601945403639
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n : ℚ) / 4
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f3 n), Nat.factorization (f3 n) p
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A145847 n - (SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℚ)) n : ℤ)
-
-end
-
-end A355351.P16496042601945403639
 
 /-!
 # A355352: G.f. A(x) satisfies: 2*x = Sum_{n=-oo..+oo} (-1)^n * x^(n*(n+1)/2) * A(x)^n.

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -54,6 +55,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -61,7 +63,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -83,6 +84,7 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
+import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -93,6 +95,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A122600: Expansion of 1/(1 + 3*x - 4*x^2 + x^3).
@@ -1002,7 +1008,7 @@ end A122608
 /-!
 # A122609: Product of the first n 5-almost primes (A014614), divided by product of the first n primes, rounded down.
 
-The programs for A122609, the canonical program `A122609.P7320944427291612846` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122609 has offset 1).
+The programs for A122609, the canonical program `A122609.P7320944427291612846` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122609 has offset 1).
 
 The definition of A122609 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 248 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1034,7 +1040,7 @@ end A122609
 
 `floor(∏[A014614(n+1)/A000040(n+1)])`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A122609
@@ -3078,24 +3084,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A122630.P14970593394199071623
-
-/-! ## A122630.P1564644172319723344
-
-`A122618(∑[2-(4/2-a(n-1)-a(n-2))])` with `a(0)=1, a(1)=0, a(2)=1`
--/
-
-namespace A122630.P1564644172319723344
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.rec [1, 0, 1] fun n f1 =>
-  2 - ((4 : ℚ) / 2 - f1 (n - 1) - f1 (n - 2))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122618 (SequenceMachineLib.roundAway (∑ j ∈ Finset.range (n + 1), f1 j)).toNat
-
-end
-
-end A122630.P1564644172319723344
 
 /-!
 # A122632: Table T(n,k) = number of initial segments of Beatty sequences for numbers > 1 of length k, cutting sequence so that all terms are < n.
@@ -6510,6 +6498,12 @@ namespace A122658
 def P4982399875041307710.Spec : Prop :=
   ∀ n, P4982399875041307710.a n = A122658 n
 
+theorem P4982399875041307710.correct : P4982399875041307710.Spec := by
+  intro n
+  simp only [A122658, Nat.add_sub_cancel, A122658.P4982399875041307710.a, A122658.P707224721326350976.a, A056220, A056220.P5045014962229294692.a, A122656, A122656.P10622000444416850362.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A122658
 
 /-! ## A122658.P12658281565553202691
@@ -9435,7 +9429,7 @@ end A122696.P17869430405758098968
 /-!
 # A122698: a(1)=a(2)=1 then a(n) = Sum_{d|n, 1
 
-The programs for A122698, the canonical program `A122698.P18060644383630824103` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122698 has offset 1).
+The programs for A122698, the canonical program `A122698.P18060644383630824103` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122698 has offset 1).
 
 The definition of A122698 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9494,7 +9488,7 @@ end A122698
 
 `A000108(A014081(n))*A036987(n)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A122698

@@ -56,7 +56,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -71,7 +70,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -4663,6 +4661,31 @@ end
 
 end A367585.P8182301631283899257
 
+/-! ## A367585.P14533412501113913092
+
+`eq[1, char[A367584(n+1)]]`
+-/
+
+namespace A367585.P14533412501113913092
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A367584 (n + 1)
+
+open Classical in
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f3 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A367585.P14533412501113913092
+
 /-!
 # A367586: Numbers whose prime indices have a multiset multiplicity kernel (in which each prime exponent becomes the least prime factor with that exponent) that is all ones {1,1,...}. Positions of powers of 2 in A367580.
 
@@ -5195,7 +5218,7 @@ end A367589.P9136001282132955181
 /-!
 # A367590: Numbers with exactly two distinct prime factors, both appearing with the same exponent.
 
-The programs for A367590, the canonical program `A367590.P9698586962873086711` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367590 has offset 1).
+The programs for A367590, the canonical program `A367590.P9698586962873086711` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367590 has offset 1).
 
 The definition of A367590 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6916 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5230,7 +5253,7 @@ end A367590
 
 `filter[A085156(n+1), A354353(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A367590
@@ -6325,6 +6348,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A367593.P5711719486582284061
+
+/-! ## A367593.P7980350379036134695
+
+`lt[A367728(n), A007918(A328311(2*n+3))]`
+-/
+
+namespace A367593.P7980350379036134695
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A367728 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007918 (A328311 (2 * n + 3)).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A367593.P7980350379036134695
 
 /-!
 # A367594: Number of permutations of [n] whose cycle maxima sum to k, where k is chosen so as to maximize this number.

@@ -67,6 +67,7 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -5313,24 +5314,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A085652.P3971552284393435075
-
-/-! ## A085652.P1053709688290781281
-
-`A007931(∑[a(n-1)+a(n-2)])` with `a(0)=1, a(1)=0`
--/
-
-namespace A085652.P1053709688290781281
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.rec [1, 0] fun n f1 =>
-  f1 (n - 1) + f1 (n - 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007931 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A085652.P1053709688290781281
 
 /-!
 # A085653: a(n) = smallest integer > n where mu(n) = mu(a(n)).

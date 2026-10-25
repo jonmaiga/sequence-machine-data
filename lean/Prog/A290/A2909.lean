@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -65,6 +66,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -93,6 +95,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A290900: p-INVERT of the positive integers, where p(S) = 1 - S^2 - S^3.
@@ -1323,6 +1329,12 @@ namespace A290904
 /-- `(A290930(n)+A290890(n))/2` -/
 def P3749883975558785406.Spec : Prop :=
   ∀ n, P3749883975558785406.a n = (A290904 n : ℚ)
+
+theorem P3749883975558785406.correct : P3749883975558785406.Spec := by
+  intro n
+  simp only [A290904, Nat.add_sub_cancel, A290904.P3749883975558785406.a, A290904.P18029781564949784604.a, A290890, A290890.P16246134009341233150.a, A290930, A290930.P2559548672273861222.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A290904
 
@@ -8931,6 +8943,12 @@ namespace A290990
 /-- `A129988(n)-A011782(n)` -/
 def P14227895266462163558.Spec : Prop :=
   ∀ n, P14227895266462163558.a n = A290990 n
+
+theorem P14227895266462163558.correct : P14227895266462163558.Spec := by
+  intro n
+  simp only [A290990, Nat.add_sub_cancel, A290990.P14227895266462163558.a, A290990.P4198058152930128325.a, A011782, A011782.P7461078519819856082.a, A129988, A129988.P17125705088209517440.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A290990
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -52,7 +53,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -62,6 +63,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -85,8 +87,11 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A140900: A nonnegative integer n is included if the binary representation of n and the digit-reversal (with leading 0's) of the binary representation of n do not have any 1's in the same position.
@@ -5023,7 +5028,7 @@ end A140939.P16034403789716977667
 /-!
 # A140944: Triangle T(n,k) read by rows, the k-th term of the n-th differences of the Jacobsthal sequence A001045.
 
-The programs for A140944, the canonical program `A140944.P4876710666983306882` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140944 has offset 0).
+The programs for A140944, the canonical program `A140944.P4876710666983306882` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140944 has offset 0).
 
 The definition of A140944 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 120 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5032,7 +5037,7 @@ The definition of A140944 is `conjectured`: the Lean definition is a formula tha
 
 `A065620(A173787(n))`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A140944
@@ -5117,6 +5122,12 @@ namespace A140944
 def P14209144862860698965.Spec : Prop :=
   ∀ n, P14209144862860698965.a n = A140944 n
 
+theorem P14209144862860698965.correct : P14209144862860698965.Spec := by
+  intro n
+  simp only [A140944, Nat.add_sub_cancel, A140944.P14209144862860698965.a, A140944.P4876710666983306882.a, A000007, A000007.P6599383543502402472.a, A065620, A065620.P132964274324401119.a, A104895, A104895.P16075429497420938870.a, A173787, A173787.P2304199394440662291.a, A010060, A010060.P3080921269106500717.a, A059268, A059268.P15217573790077737885.a, A137688, A137688.P9746695207037186753.a, A265263, A265263.P13560857298709796040.a, A000035, A000035.P2023072528413494694.a, A000120, A000120.P2816527436160941581.a, A003056, A003056.P5318256527314048597.a, A018900, A018900.P2868698677378612256.a, A066194, A066194.P17197319264784136366.a, A140513, A140513.P13579608035938851890.a, A002024, A002024.P11700297927830783882.a, A002262, A002262.P12129691700837801527.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A140944
 
 /-! ## A140944.P18065176981471505927
@@ -5139,6 +5150,12 @@ namespace A140944
 /-- `A000038(n+1)-A104895(A173787(n))` -/
 def P18065176981471505927.Spec : Prop :=
   ∀ n, P18065176981471505927.a n = A140944 n
+
+theorem P18065176981471505927.correct : P18065176981471505927.Spec := by
+  intro n
+  simp only [A140944, Nat.add_sub_cancel, A140944.P18065176981471505927.a, A140944.P4876710666983306882.a, A000038, A000038.P13734959004655594922.a, A065620, A065620.P132964274324401119.a, A104895, A104895.P16075429497420938870.a, A173787, A173787.P2304199394440662291.a, A000007, A000007.P6599383543502402472.a, A010060, A010060.P3080921269106500717.a, A059268, A059268.P15217573790077737885.a, A137688, A137688.P9746695207037186753.a, A265263, A265263.P13560857298709796040.a, A000035, A000035.P2023072528413494694.a, A000120, A000120.P2816527436160941581.a, A003056, A003056.P5318256527314048597.a, A018900, A018900.P2868698677378612256.a, A066194, A066194.P17197319264784136366.a, A140513, A140513.P13579608035938851890.a, A002024, A002024.P11700297927830783882.a, A002262, A002262.P12129691700837801527.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A140944
 
@@ -8792,7 +8809,7 @@ end A140976
 /-!
 # A140977: a(n) is the smallest integer > n that has the same number of (nonleading) zeros in its binary representation as n has.
 
-The programs for A140977, the canonical program `A140977.P14132471099768097264` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140977 has offset 1).
+The programs for A140977, the canonical program `A140977.P14132471099768097264` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A140977 has offset 1).
 
 The definition of A140977 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8801,7 +8818,7 @@ The definition of A140977 is `conjectured`: the Lean definition is a formula tha
 
 `A171942(A001316(2*n+1)+2+n)+1+n`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A140977
@@ -10327,24 +10344,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A140987.P10361411735232292948
-
-/-! ## A140987.P13293342043221135402
-
-`A000001(∑[a(n-1)+a(n-2)])` with `a(0)=1, a(1)=0, a(2)=1`
--/
-
-namespace A140987.P13293342043221135402
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.rec [1, 0, 1] fun n f1 =>
-  f1 (n - 1) + f1 (n - 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000001 (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A140987.P13293342043221135402
 
 /-!
 # A140988: Half the number of symmetric n X n binary matrices having equal row sums.

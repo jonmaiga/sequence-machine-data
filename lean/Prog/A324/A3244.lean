@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -56,9 +57,7 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
@@ -77,7 +76,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -91,6 +89,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A324400: Lexicographically earliest sequence such that a(i) = a(j) => f(i) = f(j) for all i, j >= 1, where f(n) = -1 if n = 2^k and k > 0, and f(n) = n for all other numbers.
@@ -4273,7 +4275,7 @@ end A324466
 
 The programs for A324467, the canonical program `A324467.P5582211504245019994` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324467 has offset 0).
 
-The definition of A324467 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A324467 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*A000120(n)` (program `A324467.P5582211504245019994`, by `A324467.P5582211504245019994.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A324467.P5582211504245019994
@@ -4596,6 +4598,12 @@ namespace A324467
 def P13797637844948774789.Spec : Prop :=
   ∀ n, P13797637844948774789.a n = A324467 n
 
+theorem P13797637844948774789.correct : P13797637844948774789.Spec := by
+  intro n
+  simp only [A324467, Nat.add_sub_cancel, A324467.P13797637844948774789.a, A324467.P5582211504245019994.a, A000120, A000120.P2816527436160941581.a, A092391, A092391.P1831081500129819331.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A324467
 
 /-! ## A324467.P14113902137568696014
@@ -4693,6 +4701,12 @@ namespace A324467
 /-- `3*(A063787(n+1)-1)` -/
 def P10911065824399895661.Spec : Prop :=
   ∀ n, P10911065824399895661.a n = A324467 n
+
+theorem P10911065824399895661.correct : P10911065824399895661.Spec := by
+  intro n
+  simp only [A324467, Nat.add_sub_cancel, A324467.P10911065824399895661.a, A324467.P5582211504245019994.a, A000120, A000120.P2816527436160941581.a, A063787, A063787.P13236937262237871159.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A324467
 
@@ -5247,7 +5261,7 @@ end A324468
 /-!
 # A324469: Exponent of highest power of 3 that divides multinomial(4*n;n,n,n,n).
 
-The programs for A324469, the canonical program `A324469.P7402348818447187183` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324469 has offset 0).
+The programs for A324469, the canonical program `A324469.P7402348818447187183` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324469 has offset 0).
 
 The definition of A324469 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5256,7 +5270,7 @@ The definition of A324469 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A000989(n)+A000989(2*n)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A324469
@@ -5463,6 +5477,12 @@ namespace A324470
 /-- `∑[A080843(n)+1]` -/
 def P12208154105598607328.Spec : Prop :=
   ∀ n, P12208154105598607328.a n = A324470 (n + 1)
+
+theorem P12208154105598607328.correct : P12208154105598607328.Spec := by
+  intro n
+  simp only [A324470, Nat.add_sub_cancel, A324470.P12208154105598607328.f1, A324470.P12208154105598607328.a, A324470.P11516600818281016258.f1, A324470.P11516600818281016258.a, A080843, A080843.P14729485223719297457.a, A317198, A317198.P16178072195932306559.a, A092782, A092782.P12994304615251165252.a, A317193, A317193.P13677178970524234186.a, A057078, A057078.P1741063947389819901.a, A278045, A278045.P7038591754817271268.a, A000038, A000038.P13734959004655594922.a, A003726, A003726.P14597589249839812416.f1, A003726.P14597589249839812416.f2, A003726.P14597589249839812416.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A324470
 
@@ -6758,6 +6778,12 @@ namespace A324487
 def P2303705448068538127.Spec : Prop :=
   ∀ n, P2303705448068538127.a n = A324487 n
 
+theorem P2303705448068538127.correct : P2303705448068538127.Spec := by
+  intro n
+  simp only [A324487, Nat.add_sub_cancel, A324487.P2303705448068538127.a, A324487.P9094464048076715283.a, A001350, A001350.P9806914175357381787.a, A020878, A020878.P2717610554730428774.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A324487
 
 /-! ## A324487.P13091373857525027835
@@ -6826,6 +6852,12 @@ namespace A324487
 /-- `A001350(n)*A152152(n)` -/
 def P2220244934675084387.Spec : Prop :=
   ∀ n, P2220244934675084387.a n = A324487 n
+
+theorem P2220244934675084387.correct : P2220244934675084387.Spec := by
+  intro n
+  simp only [A324487, Nat.add_sub_cancel, A324487.P2220244934675084387.a, A324487.P9094464048076715283.a, A001350, A001350.P9806914175357381787.a, A152152, A152152.P6350815298251437724.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A324487
 

@@ -43,6 +43,7 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -56,7 +57,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -319,7 +319,7 @@ end A369102.P9872326874331334291
 /-!
 # A369105: Primes p such that p+2 has only prime factors congruent to -1 modulo 4.
 
-The programs for A369105, the canonical program `A369105.P2590256937605570919` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369105 has offset 1).
+The programs for A369105, the canonical program `A369105.P2590256937605570919` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369105 has offset 1).
 
 The definition of A369105 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1873 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -328,7 +328,7 @@ The definition of A369105 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A004614(n+1)-2, A065091(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A369105
@@ -1512,7 +1512,7 @@ end A369138.P9294723201997973354
 /-!
 # A369139: Numbers k such that Omega(k) = 1 + Omega(k + 1).
 
-The programs for A369139, the canonical program `A369139.P12055519405445957885` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369139 has offset 1).
+The programs for A369139, the canonical program `A369139.P12055519405445957885` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369139 has offset 1).
 
 The definition of A369139 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6620 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1521,7 +1521,7 @@ The definition of A369139 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A001222(2*(n+2)), A001222(n+1)]+1`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A369139
@@ -3089,21 +3089,6 @@ end
 
 end A369162.P15281251569622727403
 
-/-! ## A369162.P12093998205393382733
-
-`A111946(A225153(n))`
--/
-
-namespace A369162.P12093998205393382733
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A111946 (A225153 n).toNat
-
-end
-
-end A369162.P12093998205393382733
-
 /-!
 # A369163: a(n) = A000005(A000688(n)).
 
@@ -4538,7 +4523,7 @@ end A369183.P12892388512207118839
 /-!
 # A369185: Numbers k such that Omega(k) = 1 + Omega(k+1) = 2 + Omega(k+2).
 
-The programs for A369185, the canonical program `A369185.P3362833814146370033` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369185 has offset 1).
+The programs for A369185, the canonical program `A369185.P3362833814146370033` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369185 has offset 1).
 
 The definition of A369185 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1395 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4547,7 +4532,7 @@ The definition of A369185 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A369139(n+1)-1, A369139(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A369185

@@ -5564,6 +5564,12 @@ namespace A274755
 def P14740014406493985397.Spec : Prop :=
   ∀ n, P14740014406493985397.a n = A274755 (n + 1)
 
+theorem P14740014406493985397.correct : P14740014406493985397.Spec := by
+  intro n
+  simp only [A274755, Nat.add_sub_cancel, A274755.P14740014406493985397.a, A274755.P15843105296174917523.a, A133383, A133383.P16970216351895684042.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A274755
 
 /-!

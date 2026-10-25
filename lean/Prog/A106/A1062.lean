@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -62,6 +63,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -89,6 +91,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A106200: a(n)=denominator of the probability that (x-y)/(x+y)+(y-z)/(y+z)+(z-u)/(z+u)+ (u-x)/(u+x) >0, assuming that each random quadruple of integers (x,y,z,u), with a<=x,y,z,u<=n, is equally likely.
@@ -6055,6 +6061,32 @@ def P17886510873756489007.Spec : Prop :=
 
 end A106252
 
+/-! ## A106252.P12779964019352469476
+
+`∑[a(n-4)+a(n-3)-a(n-1)]` with `a(0)=1, a(1)=2, a(2)=2, a(3)=2`
+-/
+
+namespace A106252.P12779964019352469476
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [1, 2, 2, 2] fun n f1 =>
+  f1 (n - 4) + f1 (n - 3) - f1 (n - 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A106252.P12779964019352469476
+
+namespace A106252
+
+/-- `∑[a(n-4)+a(n-3)-a(n-1)]` -/
+def P12779964019352469476.Spec : Prop :=
+  ∀ n, P12779964019352469476.a n = A106252 (n + 1)
+
+end A106252
+
 /-! ## A106252.P688062561849035065
 
 `∑[A083039(n+1)]`
@@ -6211,32 +6243,6 @@ namespace A106252
 /-- `∑[A000005(∏{p}[n+1, ceil(4/#)])]` -/
 def P1450559357613913869.Spec : Prop :=
   ∀ n, P1450559357613913869.a n = A106252 (n + 1)
-
-end A106252
-
-/-! ## A106252.P5128119003858195425
-
-`∑[dr(A040596(n+1))]`
--/
-
-namespace A106252.P5128119003858195425
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.digitalRoot (A040596 (n + 1))
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A106252.P5128119003858195425
-
-namespace A106252
-
-/-- `∑[dr(A040596(n+1))]` -/
-def P5128119003858195425.Spec : Prop :=
-  ∀ n, (P5128119003858195425.a n : ℤ) = A106252 (n + 1)
 
 end A106252
 
@@ -9217,6 +9223,12 @@ namespace A106271
 def P12630772929305027065.Spec : Prop :=
   ∀ n, P12630772929305027065.a n = A106271 n
 
+theorem P12630772929305027065.correct : P12630772929305027065.Spec := by
+  intro n
+  simp only [A106271, Nat.add_sub_cancel, A106271.P12630772929305027065.a, A106271.P8734074727395476678.a, A014137, A014137.P1978746088953100721.a, A014138, A014138.P8012092781455815566.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A106271
 
 /-! ## A106271.P18157679274826365613
@@ -9775,6 +9787,12 @@ namespace A106272
 def P17483272733079178775.Spec : Prop :=
   ∀ n, P17483272733079178775.a n = A106272 n
 
+theorem P17483272733079178775.correct : P17483272733079178775.Spec := by
+  intro n
+  simp only [A106272, Nat.add_sub_cancel, A106272.P17483272733079178775.a, A106272.P8541491872304346101.a, A014138, A014138.P8012092781455815566.a, A106271, A106271.P8734074727395476678.a, A014137, A014137.P1978746088953100721.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A106272
 
 /-! ## A106272.P10637360669106868671
@@ -9797,6 +9815,12 @@ namespace A106272
 /-- `2-(A014137(n)+a(n-1))` -/
 def P10637360669106868671.Spec : Prop :=
   ∀ n, P10637360669106868671.a n = A106272 n
+
+theorem P10637360669106868671.correct : P10637360669106868671.Spec := by
+  intro n
+  simp only [A106272, Nat.add_sub_cancel, A106272.P10637360669106868671.a, A106272.P8541491872304346101.a, A014137, A014137.P1978746088953100721.a, A106271, A106271.P8734074727395476678.a, A014138, A014138.P8012092781455815566.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A106272
 

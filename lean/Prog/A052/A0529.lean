@@ -7209,7 +7209,7 @@ end A052927
 
 The programs for A052928, the canonical program `A052928.P15665125645728880594` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052928 has offset 0).
 
-The definition of A052928 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A052928 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A052928.anchor (n : ℕ) : A052928 n = ((2 * (n / 2) : ℕ) : ℤ)` in `Proof.A052.A052928`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A052928.P15665125645728880594
@@ -7274,6 +7274,12 @@ namespace A052928
 /-- `A109613(n)-1` -/
 def P11642883870462909234.Spec : Prop :=
   ∀ n, P11642883870462909234.a n = A052928 n
+
+theorem P11642883870462909234.correct : P11642883870462909234.Spec := by
+  intro n
+  simp only [A052928, Nat.add_sub_cancel, A052928.P11642883870462909234.a, A052928.P15665125645728880594.a, A109613, A109613.P11033607296544520888.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A052928
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -50,16 +51,13 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -89,6 +87,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A391800: Primes indexed by A391797.
@@ -284,7 +286,7 @@ end A391803.P15618341541098258689
 
 The programs for A391804, the canonical program `A391804.P2522922692948596025` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391804 has offset 1).
 
-The definition of A391804 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006094, A151800, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A391804 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A151800, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A391804.P2522922692948596025
@@ -326,6 +328,12 @@ namespace A391804
 /-- `A074928(n+1)+A006094(n+1)` -/
 def P18385971489840318204.Spec : Prop :=
   ∀ n, P18385971489840318204.a n = A391804 (n + 1)
+
+theorem P18385971489840318204.correct : P18385971489840318204.Spec := by
+  intro n
+  simp only [A391804, Nat.add_sub_cancel, A391804.P18385971489840318204.a, A391804.P2522922692948596025.a, A006094, A006094.P10257567645245129766.a, A074928, A074928.P1039295149223078673.a, A151800, A151800.P4570031678714564115.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A007918, A007918.P9623913995348804173.f2, A007918.P9623913995348804173.f1, A007918.P9623913995348804173.a, A008864, A008864.P9177617808325052279.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A391804
 
@@ -1774,7 +1782,7 @@ end A391838.P17059668758236458957
 
 The programs for A391840, the canonical program `A391840.P6091312888853669410` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391840 has offset 1).
 
-The definition of A391840 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A053836, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A391840 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A053836, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A391840.P6091312888853669410
@@ -1862,6 +1870,12 @@ namespace A391840
 /-- `A053836(A006093(n+1)+1)` -/
 def P15148578019540442327.Spec : Prop :=
   ∀ n, P15148578019540442327.a n = A391840 (n + 1)
+
+theorem P15148578019540442327.correct : P15148578019540442327.Spec := by
+  intro n
+  simp only [A391840, Nat.add_sub_cancel, A391840.P15148578019540442327.a, A391840.P6091312888853669410.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A006093, A006093.P2906174024863549003.a, A053836, A053836.P6566921165131624833.a, A054900, A054900.P10951327238473995848.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A391840
 
@@ -3498,27 +3512,26 @@ end
 
 end A391860.P10664625420602955731
 
-/-! ## A391860.P6721081275888937861
+/-! ## A391860.P17155346923560288067
 
-`∩[A182049(n+1), A200001(n+1)]`
+`lt[A328965(n), A162872(A297075(n+1))]`
 -/
 
-namespace A391860.P6721081275888937861
+namespace A391860.P17155346923560288067
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A182049 (n + 1)
+  A328965 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A200001 (n + 1)
+  A162872 (A297075 (n + 1)).toNat
 
-open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
 
 end
 
-end A391860.P6721081275888937861
+end A391860.P17155346923560288067
 
 /-!
 # A391861: Odd numbers k such that 49*k = A048720(m, k) for some m, where A048720 is carryless base-2 multiplication.

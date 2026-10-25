@@ -62,14 +62,13 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -81,7 +80,6 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -5584,6 +5582,12 @@ namespace A316669
 def P6401681552554318663.Spec : Prop :=
   ∀ n, P6401681552554318663.a n = A316669 (n + 1)
 
+theorem P6401681552554318663.correct : P6401681552554318663.Spec := by
+  intro n
+  simp only [A316669, Nat.add_sub_cancel, A316669.P6401681552554318663.a, A316669.P322650816524864639.a, A024000, A024000.P8748414335487061084.a, A158821, A158821.P7475338757825604441.a, A131033, A131033.P4849263893902669054.a, A023532, A023532.P12646681522116481213.a, A130296, A130296.P7958133824011622237.a, A099627, A099627.P2788997961149202424.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A316669
 
 /-! ## A316669.P8547523747457235670
@@ -6042,6 +6046,12 @@ namespace A316670
 /-- `A316965(n)+1` -/
 def P294648968924961530.Spec : Prop :=
   ∀ n, P294648968924961530.a n = A316670 (n + 1)
+
+theorem P294648968924961530.correct : P294648968924961530.Spec := by
+  intro n
+  simp only [A316670, Nat.add_sub_cancel, A316670.P294648968924961530.a, A316670.P4604081527697996877.a, A007606, A007606.P7799483194053309628.f1, A007606.P7799483194053309628.a, A316669, A316669.P322650816524864639.a, A316965, A316965.P11469551014600044917.a, A158821, A158821.P7475338757825604441.a, A381232, A381232.P8771641921475039308.a, A131033, A131033.P4849263893902669054.a, A023532, A023532.P12646681522116481213.a, A130296, A130296.P7958133824011622237.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A316670
 

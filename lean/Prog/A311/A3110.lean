@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -58,6 +59,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -98,6 +100,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A311000: Coordination sequence Gal.6.16.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
@@ -3488,6 +3494,21 @@ end
 
 end A311059.P15829480620648266813
 
+/-! ## A311059.P16393700010932863433
+
+`A312896(n)-A325225(A293993(n))`
+-/
+
+namespace A311059.P16393700010932863433
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A312896 n - A325225 (A293993 n).toNat
+
+end
+
+end A311059.P16393700010932863433
+
 /-! ## A311059.P10330860204122671207
 
 `A179874(n+1)+A010059(A380798(n+1))`
@@ -5196,6 +5217,12 @@ namespace A311088
 /-- `A046978(n)+A301718(n)-A005843(n)` -/
 def P16672611377896197282.Spec : Prop :=
   ∀ n, P16672611377896197282.a n = A311088 n
+
+theorem P16672611377896197282.correct : P16672611377896197282.Spec := by
+  intro n
+  simp only [A311088, Nat.add_sub_cancel, A311088.P16672611377896197282.a, A311088.P16529327285930187099.a, A005843, A005843.P3167286115683555970.a, A046978, A046978.P71107966793699888.a, A301718, A301718.P12470946639720229977.f1, A301718.P12470946639720229977.a, A313090, A313090.P5828089164501002712.f1, A313090.P5828089164501002712.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A311088
 

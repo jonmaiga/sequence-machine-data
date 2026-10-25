@@ -14,7 +14,6 @@ import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C029
@@ -43,9 +42,9 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
-import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -55,6 +54,7 @@ import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
+import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
@@ -162,6 +162,21 @@ end
 
 end A395506.P10332511573305261441
 
+/-! ## A395506.P14154999644832067196
+
+`A395507(n+1)%A372566(A080859(n))`
+-/
+
+namespace A395506.P14154999644832067196
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A395507 (n + 1)) (A372566 (A080859 n).toNat)
+
+end
+
+end A395506.P14154999644832067196
+
 /-! ## A395506.P5052900544556482247
 
 `and(A387415(n+1), A395507(n+1))`
@@ -206,21 +221,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A395506.P15872932990429022029
-
-/-! ## A395506.P6426478102221431164
-
-`A395507(n+1)%A395508(n+1)`
--/
-
-namespace A395506.P6426478102221431164
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A395507 (n + 1)) (A395508 (n + 1))
-
-end
-
-end A395506.P6426478102221431164
 
 /-!
 # A395510: Number of derangements of [2*n+1] with n ascents.
@@ -1637,6 +1637,48 @@ end
 end A395552.P1898870084156275433
 
 /-!
+# A395553: Number of no-overhang stacked partitions (teeth) of base 4 and total size n.
+
+The programs for A395553, there is no canonical definition to state claims against.
+-/
+
+/-! ## A395553.P5834768445729101072
+
+`A072704(A000217(n+4)-n)`
+-/
+
+namespace A395553.P5834768445729101072
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072704 (A000217 (n + 4) - (n : ℤ)).toNat
+
+end
+
+end A395553.P5834768445729101072
+
+/-!
+# A395554: Number of no-overhang stacked partitions (teeth) of base 5 and total size n.
+
+The programs for A395554, there is no canonical definition to state claims against.
+-/
+
+/-! ## A395554.P13249308184765804272
+
+`A072704(A000217(n+4)+5)`
+-/
+
+namespace A395554.P13249308184765804272
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072704 (A000217 (n + 4) + 5).toNat
+
+end
+
+end A395554.P13249308184765804272
+
+/-!
 # A395557: a(n) = Sum_{k=0..n} binomial(3*n+2*k,k).
 
 The programs for A395557, there is no canonical definition to state claims against.
@@ -2856,20 +2898,20 @@ end A395573.P9490467396202661897
 The programs for A395574, there is no canonical definition to state claims against.
 -/
 
-/-! ## A395574.P4642186938745414222
+/-! ## A395574.P13318448236320562978
 
-`A120506(A061922(2*n))*A120506(n+1)`
+`A317277(n)-A317302(A093751(n+1))`
 -/
 
-namespace A395574.P4642186938745414222
+namespace A395574.P13318448236320562978
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A120506 (A061922 (2 * n)).toNat * A120506 (n + 1)
+  A317277 n - A317302 (A093751 (n + 1)).toNat
 
 end
 
-end A395574.P4642186938745414222
+end A395574.P13318448236320562978
 
 /-!
 # A395575: 1 = Sum_{n>=0} a(n) * x^n * (1 - (n+1)*x)^(2*n+1).
@@ -2975,6 +3017,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A395578.P8155055677240837019
+
+/-! ## A395578.P16136165300998009251
+
+`∏{p}[A303606(A000027(n+1)), #]`
+-/
+
+namespace A395578.P16136165300998009251
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A303606 (A000027 (n + 1)).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, p
+
+end
+
+end A395578.P16136165300998009251
 
 /-! ## A395578.P8983937625809481832
 

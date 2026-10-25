@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -85,6 +86,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A346400: Composite numbers k such that the numerator of the harmonic mean of the divisors of k is equal to k.
@@ -488,6 +493,12 @@ namespace A346403
 /-- `∑{d}[A052409(ceil(sqrt(n²+4))), #]` -/
 def P4101791900070111230.Spec : Prop :=
   ∀ n, (P4101791900070111230.a n : ℤ) = A346403 (n + 1)
+
+theorem P4101791900070111230.correct : P4101791900070111230.Spec := by
+  intro n
+  simp only [A346403, Nat.add_sub_cancel, A346403.P4101791900070111230.f1, A346403.P4101791900070111230.a, A346403.P6878070630873730136.f1, A346403.P6878070630873730136.a, A052409, A052409.P7338948793466901153.a, A253641, A253641.P13059867925483563829.a, A051903, A051903.P13920478898438787932.f1, A051903.P13920478898438787932.a, A051904, A051904.P9263651810596342710.a, A046523, A046523.P3407874444772092792.a, A071178, A071178.P17375525505785378954.a, A006530, A006530.P13372528560459906635.a, A181819, A181819.P15090535388863431201.a, A181821, A181821.P11277667539367847379.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A346403
 
@@ -6714,7 +6725,7 @@ end A346484.P6697975004600071896
 /-!
 # A346485: Möbius transform of A342001, where A342001(n) = A003415(n)/A003557(n).
 
-The programs for A346485, the canonical program `A346485.P5145934981750290708` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A346485 has offset 1).
+The programs for A346485, the canonical program `A346485.P5145934981750290708` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A346485 has offset 1).
 
 The definition of A346485 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6749,7 +6760,7 @@ end A346485
 
 `∑{d}[n+1, A008683(#)*A342001((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A346485
@@ -7440,7 +7451,7 @@ end A346492.P7050506653577338449
 
 The programs for A346494, the canonical program `A346494.P7045344198634205373` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A346494 has offset 1).
 
-The definition of A346494 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A346494 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A346494.P7045344198634205373

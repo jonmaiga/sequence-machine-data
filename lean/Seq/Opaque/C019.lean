@@ -6,6 +6,3942 @@ import SequenceMachineLib.Basic
 Sequences without a canonical program (provenance `undefined`), they can be referenced but not evaluated.
 -/
 
+/-- A296693: Numbers whose base-3 digits d(m), d(m-1), ... d(0) have #(rises) < #(falls); see Comments. -/
+opaque A296693 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296693.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296694: Numbers whose base-4 digits d(m), d(m-1), ... d(0) have #(rises) = #(falls); see Comments. -/
+opaque A296694 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296694.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296695: Numbers whose base-4 digits d(m), d(m-1), ... d(0) have #(rises) > #(falls); see Comments. -/
+opaque A296695 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296695.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296696: Numbers whose base-4 digits d(m), d(m-1), ... d(0) have #(rises) < #(falls); see Comments. -/
+opaque A296696 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296696.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296697: Numbers whose base-5 digits d(m), d(m-1), ... d(0) have #(rises) = #(falls); see Comments. -/
+opaque A296697 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296697.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296698: Numbers whose base-5 digits d(m), d(m-1), ... d(0) have #(rises) > #(falls); see Comments. -/
+opaque A296698 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296698.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296699: Numbers whose base-5 digits d(m), d(m-1), ... d(0) have #(rises) < #(falls); see Comments. -/
+opaque A296699 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296699.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296700: Numbers whose base-6 digits d(m), d(m-1), ... d(0) have #(rises) = #(falls); see Comments. -/
+opaque A296700 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296700.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296701: Numbers whose base-6 digits d(m), d(m-1), ... d(0) have #(rises) > #(falls); see Comments. -/
+opaque A296701 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296701.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296702: Numbers whose base-6 digits d(m), d(m-1), ... d(0) have #(rises) < #(falls); see Comments. -/
+opaque A296702 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296702.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296703: Numbers whose base-7 digits d(m), d(m-1), ... d(0) have #(rises) = #(falls); see Comments. -/
+opaque A296703 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296703.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296704: Numbers whose base-7 digits d(m), d(m-1), ..., d(0) have #(rises) > #(falls); see Comments. -/
+opaque A296704 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296704.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296705: Numbers whose base-7 digits d(m), d(m-1), ..., d(0) have #(rises) < #(falls); see Comments. -/
+opaque A296705 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296705.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296706: Numbers whose base-8 digits d(m), d(m-1), ..., d(0) have #(rises) = #(falls); see Comments. -/
+opaque A296706 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296706.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296707: Numbers whose base-8 digits d(m), d(m-1), ..., d(0) have #(rises) > #(falls); see Comments. -/
+opaque A296707 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296707.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296708: Numbers whose base-8 digits d(m), d(m-1), ..., d(0) have #(rises) < #(falls); see Comments. -/
+opaque A296708 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296708.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296709: Numbers whose base-9 digits d(m), d(m-1), ..., d(0) have #(rises) = #(falls); see Comments. -/
+opaque A296709 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296709.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296710: Numbers whose base-9 digits d(m), d(m-1), ..., d(0) have #(rises) > #(falls); see Comments. -/
+opaque A296710 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296710.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296711: Numbers whose base-9 digits d(m), d(m-1), ..., d(0) have #(rises) < #(falls); see Comments. -/
+opaque A296711 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296711.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296712: Numbers whose base-10 digits d(m), d(m-1), ..., d(0) have #(rises) = #(falls); see Comments. -/
+opaque A296712 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296712.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296713: Numbers whose base-10 digits d(m), d(m-1), ..., d(0) have #(rises) > #(falls); see Comments. -/
+opaque A296713 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296713.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296714: Numbers whose base-10 digits d(m), d(m-1), ..., d(0) have #(rises) < #(falls); see Comments. -/
+opaque A296714 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296714.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296715: a(n) = [x^n] 1/Sum_{k=0..n} k^k*x^k. -/
+opaque A296715 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296715.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296717: Weakly prime-additive numbers: numbers n with at least 2 distinct prime factors that can be represented as n = Sum_{some p|n} p^e_p with e_p > 0. -/
+opaque A296717 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296717.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296718: Number of n X n 0..1 arrays with each 1 adjacent to 0, 2 or 4 king-move neighboring 1's. -/
+opaque A296718 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296718.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296720: Number of n X 3 0..1 arrays with each 1 adjacent to 0, 2 or 4 king-move neighboring 1s. -/
+opaque A296720 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296720.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296721: Number of nX4 0..1 arrays with each 1 adjacent to 0, 2 or 4 king-move neighboring 1s. -/
+opaque A296721 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296721.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296722: Number of nX5 0..1 arrays with each 1 adjacent to 0, 2 or 4 king-move neighboring 1s. -/
+opaque A296722 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296722.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296723: Number of nX6 0..1 arrays with each 1 adjacent to 0, 2 or 4 king-move neighboring 1s. -/
+opaque A296723 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296723.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296724: Number of nX7 0..1 arrays with each 1 adjacent to 0, 2 or 4 king-move neighboring 1s. -/
+opaque A296724 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296724.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296725: T(n,k)=Number of nXk 0..1 arrays with each 1 adjacent to 0, 2 or 4 king-move neighboring 1s. -/
+opaque A296725 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296725.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296727: Expansion of e.g.f. arcsinh(x)/(1 - x). -/
+opaque A296727 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296727.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296730: Expansion of e.g.f. arctanh(x*cos(x)) (odd powers only). -/
+opaque A296730 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296730.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296732: Number of n X n 0..1 arrays with each 1 adjacent to 1, 2 or 4 king-move neighboring 1's. -/
+opaque A296732 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296732.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296733: Number of n X 2 0..1 arrays with each 1 adjacent to 1, 2 or 4 king-move neighboring 1s. -/
+opaque A296733 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296733.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296734: Number of nX3 0..1 arrays with each 1 adjacent to 1, 2 or 4 king-move neighboring 1s. -/
+opaque A296734 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296734.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296735: Number of nX4 0..1 arrays with each 1 adjacent to 1, 2 or 4 king-move neighboring 1s. -/
+opaque A296735 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296735.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296736: Number of n X 5 0..1 arrays with each 1 adjacent to 1, 2 or 4 king-move neighboring 1's. -/
+opaque A296736 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296736.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296737: Number of nX6 0..1 arrays with each 1 adjacent to 1, 2 or 4 king-move neighboring 1s. -/
+opaque A296737 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296737.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296738: Number of n X 7 0..1 arrays with each 1 adjacent to 1, 2 or 4 king-move neighboring 1's. -/
+opaque A296738 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296738.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296739: T(n,k) = Number of n X k 0..1 arrays with each 1 adjacent to 1, 2 or 4 king-move neighboring 1's. -/
+opaque A296739 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296739.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296740: Expansion of e.g.f. sec(x*cosh(x)) (even powers only). -/
+opaque A296740 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296740.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296742: Expansion of e.g.f. arcsinh(x*sec(x)) (odd powers only). -/
+opaque A296742 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296742.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296743: Expansion of e.g.f. arctanh(x*sec(x)) (odd powers only). -/
+opaque A296743 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296743.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296744: Numbers whose base-11 digits d(m), d(m-1), ..., d(0) have #(rises) = #(falls); see Comments. -/
+opaque A296744 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296744.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296745: Numbers whose base-11 digits d(m), d(m-1), ..., d(0) have #(rises) > #(falls); see Comments. -/
+opaque A296745 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296745.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296746: Numbers whose base-11 digits d(m), d(m-1), ..., d(0) have #(rises) < #(falls); see Comments. -/
+opaque A296746 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296746.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296747: Numbers whose base-12 digits d(m), d(m-1), ..., d(0) have #(rises) = #(falls); see Comments. -/
+opaque A296747 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296747.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296748: Numbers whose base-12 digits d(m), d(m-1), ..., d(0) have #(rises) > #(falls); see Comments. -/
+opaque A296748 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296748.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296749: Numbers whose base-12 digits d(m), d(m-1), ..., d(0) have #(rises) < #(falls); see Comments. -/
+opaque A296749 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296749.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296750: Numbers whose base-13 digits d(m), d(m-1), ..., d(0) have #(rises) = #(falls); see Comments. -/
+opaque A296750 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296750.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296751: Numbers whose base-13 digits d(m), d(m-1), ..., d(0) have #(rises) > #(falls); see Comments. -/
+opaque A296751 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296751.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296752: Numbers whose base-13 digits d(m), d(m-1), ..., d(0) have #(rises) < #(falls); see Comments. -/
+opaque A296752 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296752.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296753: Numbers whose base-14 digits d(m), d(m-1), ..., d(0) have #(rises) = #(falls); see Comments. -/
+opaque A296753 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296753.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296754: Numbers whose base-14 digits d(m), d(m-1), ..., d(0) have #(rises) > #(falls); see Comments. -/
+opaque A296754 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296754.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296755: Numbers whose base-14 digits d(m), d(m-1), ..., d(0) have #(rises) < #(falls); see Comments. -/
+opaque A296755 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296755.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296756: Numbers whose base-15 digits d(m), d(m-1), ..., d(0) have #(rises) = #(falls); see Comments. -/
+opaque A296756 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296756.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296757: Numbers whose base-15 digits d(m), d(m-1), ..., d(0) have #(rises) > #(falls); see Comments. -/
+opaque A296757 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296757.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296758: Numbers whose base-15 digits d(m), d(m-1), ..., d(0) have #(rises) < #(falls); see Comments. -/
+opaque A296758 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296758.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296759: Numbers whose base-16 digits d(m), d(m-1), ..., d(0) have #(rises) = #(falls); see Comments. -/
+opaque A296759 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296759.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296760: Numbers whose base-16 digits d(m), d(m-1), ..., d(0) have #(rises) > #(falls); see Comments. -/
+opaque A296760 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296760.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296761: Numbers whose base-16 digits d(m), d(m-1), ..., d(0) have #(rises) < #(falls); see Comments. -/
+opaque A296761 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296761.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296762: Numbers whose base-20 digits d(m), d(m-1), ..., d(0) have #(rises) = #(falls); see Comments. -/
+opaque A296762 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296762.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296763: Numbers whose base-20 digits d(m), d(m-1), ..., d(0) have #(rises) > #(falls); see Comments. -/
+opaque A296763 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296763.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296764: Numbers whose base-20 digits d(m), d(m-1), ..., d(0) have #(rises) < #(falls); see Comments. -/
+opaque A296764 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296764.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296765: Numbers whose base-60 digits d(m), d(m-1), ..., d(0) have #(rises) = #(falls); see Comments. -/
+opaque A296765 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296765.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296766: Numbers whose base-60 digits d(m), d(m-1), ..., d(0) have #(rises) > #(falls); see Comments. -/
+opaque A296766 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296766.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296767: Numbers whose base-60 digits d(m), d(m-1), ..., d(0) have #(rises) < #(falls); see Comments. -/
+opaque A296767 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296767.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296768: Initially let b(i)=i for all i > 0. On the k-th pass, exchange b(k+1) with b(b(k+1) + b(k)). The sequence is the limit of these sequences as k goes to infinity. -/
+opaque A296768 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296768.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296772: Triangle read by rows in which row n lists the compositions of n ordered first by decreasing length and then reverse-lexicographically. -/
+opaque A296772 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296772.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296773: Triangle read by rows in which row n lists the compositions of n ordered first by decreasing length and then lexicographically. -/
+opaque A296773 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296773.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296774: Triangle read by rows in which row n lists the compositions of n ordered first by length and then reverse-lexicographically. -/
+opaque A296774 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296774.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296776: Solution of the complementary equation a(n) = a(n-1) + a(n-2) + b(n) + 2*n, where a(0) = 1, a(1) = 3, b(0) = 2, b(1) = 4, b(2) = 5, and (a(n)) and (b(n)) are increasing complementary sequences. -/
+opaque A296776 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296776.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296778: Detour index of the n-folded cube graph. -/
+opaque A296778 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296778.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296787: Expansion of e.g.f. exp(x*arctan(x)) (even powers only). -/
+opaque A296787 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296787.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296788: Expansion of e.g.f. exp(x*arcsinh(x)) (even powers only). -/
+opaque A296788 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296788.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296789: Expansion of e.g.f. exp(x*arctanh(x)) (even powers only). -/
+opaque A296789 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296789.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296791: Expansion of e.g.f. sech(x*sec(x)) (even powers only). -/
+opaque A296791 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296791.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296792: Expansion of e.g.f. (sec(x) + tan(x))/sqrt(1 - 2*x). -/
+opaque A296792 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296792.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296793: a(n) = n! * [x^n] exp(x)*(sec(x) + tan(x))^n. -/
+opaque A296793 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296793.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296794: Decimal expansion of the arc length of the Golden Spiral inscribed inside a Golden Rectangle with a unit width. -/
+opaque A296794 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296794.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296797: Number of n X n 0..1 arrays with each 1 adjacent to 1, 3 or 4 king-move neighboring 1's. -/
+opaque A296797 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296797.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296798: Number of n X 2 0..1 arrays with each 1 adjacent to 1, 3 or 4 king-move neighboring 1s. -/
+opaque A296798 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296798.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296799: Number of nX3 0..1 arrays with each 1 adjacent to 1, 3 or 4 king-move neighboring 1s. -/
+opaque A296799 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296799.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296800: Number of nX4 0..1 arrays with each 1 adjacent to 1, 3 or 4 king-move neighboring 1s. -/
+opaque A296800 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296800.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296801: Number of nX5 0..1 arrays with each 1 adjacent to 1, 3 or 4 king-move neighboring 1s. -/
+opaque A296801 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296801.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296802: Number of n X 6 0..1 arrays with each 1 adjacent to 1, 3 or 4 king-move neighboring 1's. -/
+opaque A296802 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296802.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296803: Number of nX7 0..1 arrays with each 1 adjacent to 1, 3 or 4 king-move neighboring 1s. -/
+opaque A296803 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296803.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296804: T(n,k)=Number of nXk 0..1 arrays with each 1 adjacent to 1, 3 or 4 king-move neighboring 1s. -/
+opaque A296804 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296804.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296807: Take a prime, convert it to base 2. Consider it as a string of digits and delete its leftmost and rightmost digit. Leading zeros are kept. Repeat the process. a(n) is the least prime that, in the first n steps of this process, generates a string that is a prime read in base 2. -/
+opaque A296807 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296807.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296808: Take a squarefree semiprime and take the difference between its prime factors. If this difference is a squarefree semiprime repeat the process. Sequence lists the smallest squarefree semiprime that generates other squarefree semiprimes in the first n steps of this process. -/
+opaque A296808 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296808.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296810: Take a squarefree semiprime and take the difference of its prime factors. If it is a squarefree semiprime repeat the process. Sequence lists the squarefree semiprimes that generate other squarefree semiprimes only in the first k steps of this process. Case k = 3. -/
+opaque A296810 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296810.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296812: Take a squarefree semiprime and take the difference of its prime factors. If it is a squarefree semiprime repeat the process. Sequence lists the squarefree semiprimes that generate other squarefree semiprimes only in the first k steps of this process. Case k = 5. -/
+opaque A296812 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296812.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296813: Take a squarefree semiprime and take the difference of its prime factors. If it is a squarefree semiprime repeat the process. Sequence lists the squarefree semiprimes that generate other squarefree semiprimes only in the first k steps of this process. Case k = 6. -/
+opaque A296813 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296813.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296818: Squarefree values of k for which the quadratic field Q[ sqrt(k) ] possesses a norm-Euclidean ideal class. -/
+opaque A296818 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296818.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296820: Number of n X n 0..1 arrays with each 1 adjacent to 2, 3 or 4 king-move neighboring 1's. -/
+opaque A296820 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296820.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296821: Number of n X 2 0..1 arrays with each 1 adjacent to 2, 3 or 4 king-move neighboring 1s. -/
+opaque A296821 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296821.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296822: Number of nX3 0..1 arrays with each 1 adjacent to 2, 3 or 4 king-move neighboring 1s. -/
+opaque A296822 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296822.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296823: Number of nX4 0..1 arrays with each 1 adjacent to 2, 3 or 4 king-move neighboring 1s. -/
+opaque A296823 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296823.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296824: Number of n X 5 0..1 arrays with each 1 adjacent to 2, 3 or 4 king-move neighboring 1's. -/
+opaque A296824 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296824.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296825: Number of nX6 0..1 arrays with each 1 adjacent to 2, 3 or 4 king-move neighboring 1s. -/
+opaque A296825 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296825.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296826: Number of nX7 0..1 arrays with each 1 adjacent to 2, 3 or 4 king-move neighboring 1s. -/
+opaque A296826 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296826.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296827: T(n,k)=Number of nXk 0..1 arrays with each 1 adjacent to 2, 3 or 4 king-move neighboring 1s. -/
+opaque A296827 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296827.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296828: Number of n X n 0..1 arrays with each 1 adjacent to 0, 3 or 5 king-move neighboring 1's. -/
+opaque A296828 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296828.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296829: Number of nX3 0..1 arrays with each 1 adjacent to 0, 3 or 5 king-move neighboring 1s. -/
+opaque A296829 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296829.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296830: Number of nX4 0..1 arrays with each 1 adjacent to 0, 3 or 5 king-move neighboring 1s. -/
+opaque A296830 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296830.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296831: Number of nX5 0..1 arrays with each 1 adjacent to 0, 3 or 5 king-move neighboring 1s. -/
+opaque A296831 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296831.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296832: Number of nX6 0..1 arrays with each 1 adjacent to 0, 3 or 5 king-move neighboring 1s. -/
+opaque A296832 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296832.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296833: Number of nX7 0..1 arrays with each 1 adjacent to 0, 3 or 5 king-move neighboring 1s. -/
+opaque A296833 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296833.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296834: T(n,k)=Number of nXk 0..1 arrays with each 1 adjacent to 0, 3 or 5 king-move neighboring 1s. -/
+opaque A296834 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296834.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296835: Expansion of e.g.f. exp(x*tan(x/2)) (even powers only). -/
+opaque A296835 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296835.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296836: Expansion of e.g.f. exp(x*tanh(x/2)) (even powers only). -/
+opaque A296836 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296836.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296837: Expansion of e.g.f. log(1 + x*tan(x/2)) (even powers only). -/
+opaque A296837 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296837.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296839: Expansion of e.g.f. tan(x*tan(x/2)) (even powers only). -/
+opaque A296839 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296839.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296840: The smallest positive integer whose greedy representation as a sum of 3-smooth numbers (A003586) requires n terms. -/
+opaque A296840 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296840.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296841: Expansion of e.g.f. sin(x*tan(x/2)) (even powers only). -/
+opaque A296841 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296841.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296843: Solution of the complementary equation a(n) = a(n-1) + a(n-2) + b(n+1), where a(0) = 1, a(1) = 2, b(0) = 3, b(1) = 4, b(2) = 5, b(3) = 6, and (a(n)) and (b(n)) are increasing complementary sequences. -/
+opaque A296843 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296843.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296846: Solution of the complementary equation a(n) = a(n-1) + a(n-2) - b(n-2), where a(0) = 3, a(1) = 5, b(0) = 1, b(1) = 2, b(2) = 4, and (a(n)) and (b(n)) are increasing complementary sequences. -/
+opaque A296846 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296846.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296849: Solution of the complementary equation a(n) = 2*a(n-1) + a(n-2) + b(n), where a(0) = 1, a(1) = 2, b(0) = 3, b(1) = 4, b(2) = 5, and (a(n)) and (b(n)) are increasing complementary sequences. -/
+opaque A296849 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296849.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296853: Expansion of e.g.f. tanh(x*tan(x/2)) (even powers only). -/
+opaque A296853 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296853.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296854: Expansion of e.g.f. sinh(x*tan(x/2)) (even powers only). -/
+opaque A296854 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296854.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296855: Domination number of the n-cube-connected cycle graph. -/
+opaque A296855 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296855.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296856: Expansion of e.g.f. cosh(x*tan(x/2)) (even powers only). -/
+opaque A296856 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296856.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296857: For any number n > 0, let f(n) be the function that associates k to the prime(k)-adic valuation of n (where prime(k) denotes the k-th prime); f establishes a bijection between the positive numbers and the arithmetic functions with nonnegative integer values and a finite number of nonzero values; let g be the inverse of f; a(n) = g(f(n) * f(n)) (where i * j denotes the Dirichlet convolution of i and j). -/
+opaque A296857 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296857.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296861: Numbers whose base-3 digits d(m), d(m-1), ..., d(0) have #(pits) = #(peaks); see Comments. -/
+opaque A296861 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296861.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296864: Numbers whose base-4 digits d(m), d(m-1), ..., d(0) have #(pits) = #(peaks); see Comments. -/
+opaque A296864 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296864.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296865: Numbers whose base-4 digits d(m), d(m-1), ..., d(0) have #(pits) > #(peaks); see Comments. -/
+opaque A296865 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296865.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296867: Numbers whose base-5 digits d(m), d(m-1), ..., d(0) have #(pits) = #(peaks); see Comments. -/
+opaque A296867 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296867.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296868: Numbers whose base-5 digits d(m), d(m-1), ..., d(0) have #(pits) > #(peaks); see Comments. -/
+opaque A296868 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296868.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296869: Numbers whose base-5 digits d(m), d(m-1), ..., d(0) have #(pits) < #(peaks); see Comments. -/
+opaque A296869 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296869.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296870: Numbers whose base-6 digits d(m), d(m-1), ..., d(0) have #(pits) = #(peaks); see Comments. -/
+opaque A296870 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296870.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296871: Numbers whose base-6 digits d(m), d(m-1), ..., d(0) have #(pits) > #(peaks); see Comments. -/
+opaque A296871 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296871.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296872: Numbers whose base-6 digits d(m), d(m-1), ..., d(0) have #(pits) < #(peaks); see Comments. -/
+opaque A296872 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296872.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296873: Numbers whose base-7 digits d(m), d(m-1), ..., d(0) have #(pits) = #(peaks); see Comments. -/
+opaque A296873 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296873.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296874: Numbers whose base-7 digits d(m), d(m-1), ..., d(0) have #(pits) > #(peaks); see Comments. -/
+opaque A296874 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296874.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296875: Numbers whose base-7 digits d(m), d(m-1), ..., d(0) have #(pits) < #(peaks); see Comments. -/
+opaque A296875 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296875.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296876: Numbers whose base-8 digits d(m), d(m-1), ..., d(0) have #(pits) = #(peaks); see Comments. -/
+opaque A296876 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296876.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296877: Numbers whose base-8 digits d(m), d(m-1), ..., d(0) have #(pits) > #(peaks); see Comments. -/
+opaque A296877 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296877.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296878: Numbers whose base-8 digits d(m), d(m-1), ..., d(0) have #(pits) < #(peaks); see Comments. -/
+opaque A296878 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296878.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296879: Numbers whose base-9 digits d(m), d(m-1), ..., d(0) have #(pits) = #(peaks); see Comments. -/
+opaque A296879 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296879.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296880: Numbers whose base-9 digits d(m), d(m-1), ..., d(0) have #(pits) > #(peaks); see Comments. -/
+opaque A296880 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296880.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296881: Numbers whose base-9 digits d(m), d(m-1), ..., d(0) have #(pits) < #(peaks); see Comments. -/
+opaque A296881 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296881.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296882: Numbers whose base-10 digits d(m), d(m-1), ..., d(0) have #(pits) = #(peaks); see Comments. -/
+opaque A296882 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296882.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296883:  -/
+opaque A296883 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296883.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296884: Numbers whose base-10 digits d(m), d(m-1), ..., d(0) have #(pits) < #(peaks); see Comments. -/
+opaque A296884 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296884.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296885: Numbers whose base-11 digits d(m), d(m-1), ..., d(0) have #(pits) = #(peaks); see Comments. -/
+opaque A296885 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296885.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296886: Numbers whose base-11 digits d(m), d(m-1), ..., d(0) have #(pits) > #(peaks); see Comments. -/
+opaque A296886 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296886.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296887: Numbers whose base-11 digits d(m), d(m-1), ..., d(0) have #(pits) < #(peaks); see Comments. -/
+opaque A296887 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296887.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296889: Numbers whose base-12 digits d(m), d(m-1), ..., d(0) have #(pits) > #(peaks); see Comments. -/
+opaque A296889 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296889.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296890: Numbers whose base-12 digits d(m), d(m-1), ..., d(0) have #(pits) < #(peaks); see Comments. -/
+opaque A296890 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296890.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296893: Numbers whose base-13 digits d(m), d(m-1), ..., d(0) have #(pits) < #(peaks); see Comments. -/
+opaque A296893 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296893.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296895: Numbers whose base-14 digits d(m), d(m-1), ..., d(0) have #(pits) > #(peaks); see Comments. -/
+opaque A296895 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296895.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296896: Numbers whose base-14 digits d(m), d(m-1), ..., d(0) have #(pits) < #(peaks); see Comments. -/
+opaque A296896 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296896.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296898: Numbers whose base-15 digits d(m), d(m-1), ..., d(0) have #(pits) > #(peaks); see Comments. -/
+opaque A296898 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296898.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296901: Numbers whose base-16 digits d(m), d(m-1), ..., d(0) have #(pits) > #(peaks); see Comments. -/
+opaque A296901 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296901.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296902: Numbers whose base-16 digits d(m), d(m-1), ..., d(0) have #(pits) < #(peaks); see Comments. -/
+opaque A296902 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296902.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296904: Numbers whose base-20 digits d(m), d(m-1), ..., d(0) have #(pits) > #(peaks); see Comments. -/
+opaque A296904 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296904.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296905: Numbers whose base-20 digits d(m), d(m-1), ..., d(0) have #(pits) < #(peaks); see Comments. -/
+opaque A296905 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296905.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296907: Numbers whose base-60 digits d(m), d(m-1), ..., d(0) have #(pits) > #(peaks); see Comments. -/
+opaque A296907 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296907.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296915: Primes that are not squares mod 163. -/
+opaque A296915 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296915.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296918: List of coefficients of reduced chromatic polynomial of dodecahedron, highest order terms first. -/
+opaque A296918 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296918.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296920: Rational primes that decompose in the quadratic field Q(sqrt(-11)). -/
+opaque A296920 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296920.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296921: Rational primes that decompose in the field Q(sqrt(-163)). -/
+opaque A296921 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296921.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296926: Rational primes that decompose in the field Q(sqrt(-13)). -/
+opaque A296926 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296926.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296928: Primes p such that Legendre(-13,p) = 0 or 1. -/
+opaque A296928 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296928.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296929: Rational primes that decompose in the field Q(sqrt(-17)). -/
+opaque A296929 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296929.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296930: Inert rational primes in the field Q(sqrt(-17)). -/
+opaque A296930 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296930.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296931: Primes p such that Legendre(-17,p) = 0 or 1. -/
+opaque A296931 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296931.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296932: Primes p such that Legendre(-23,p) = 0 or 1. -/
+opaque A296932 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296932.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296934: Rational primes that decompose in the field Q(sqrt(7)). -/
+opaque A296934 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296934.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296935: Rational primes that decompose in the field Q(sqrt(11)). -/
+opaque A296935 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296935.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296936: Inert rational primes in the field Q(sqrt(11)). -/
+opaque A296936 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296936.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296937: Rational primes that decompose in the field Q(sqrt(13)). -/
+opaque A296937 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296937.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296938: Rational primes that decompose in the field Q(sqrt(17)). -/
+opaque A296938 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296938.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296939: Expansion of e.g.f. sec(x*tan(x/2)) (even powers only). -/
+opaque A296939 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296939.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296940: Expansion of e.g.f. sech(x*tan(x/2)) (even powers only). -/
+opaque A296940 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296940.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296941: Expansion of e.g.f. arcsin(x*tan(x/2)) (even powers only). -/
+opaque A296941 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296941.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296943: Number of bisymmetric and quasitrivial operations on an arbitrary n-element set. -/
+opaque A296943 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296943.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296944: Expansion of (2*x*exp(x)-3)/(1-x). -/
+opaque A296944 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296944.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296945: Number of n X n 0..1 arrays with each 1 adjacent to 1, 3 or 5 king-move neighboring 1's. -/
+opaque A296945 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296945.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296947: Number of n X 3 0..1 arrays with each 1 adjacent to 1, 3 or 5 king-move neighboring 1s. -/
+opaque A296947 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296947.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296948: Number of n X 4 0..1 arrays with each 1 adjacent to 1, 3 or 5 king-move neighboring 1s. -/
+opaque A296948 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296948.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296949: Number of nX5 0..1 arrays with each 1 adjacent to 1, 3 or 5 king-move neighboring 1s. -/
+opaque A296949 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296949.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296950: Number of nX6 0..1 arrays with each 1 adjacent to 1, 3 or 5 king-move neighboring 1s. -/
+opaque A296950 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296950.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296951: Number of nX7 0..1 arrays with each 1 adjacent to 1, 3 or 5 king-move neighboring 1s. -/
+opaque A296951 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296951.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296952: T(n,k)=Number of nXk 0..1 arrays with each 1 adjacent to 1, 3 or 5 king-move neighboring 1s. -/
+opaque A296952 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296952.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296956: Number of n X n 0..1 arrays with each 1 adjacent to 2, 3 or 5 king-move neighboring 1's. -/
+opaque A296956 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296956.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296958: Number of nX3 0..1 arrays with each 1 adjacent to 2, 3 or 5 king-move neighboring 1s. -/
+opaque A296958 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296958.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296959: Number of nX4 0..1 arrays with each 1 adjacent to 2, 3 or 5 king-move neighboring 1s. -/
+opaque A296959 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296959.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296960: Number of nX5 0..1 arrays with each 1 adjacent to 2, 3 or 5 king-move neighboring 1s. -/
+opaque A296960 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296960.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296961: Number of nX6 0..1 arrays with each 1 adjacent to 2, 3 or 5 king-move neighboring 1s. -/
+opaque A296961 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296961.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296962: Number of nX7 0..1 arrays with each 1 adjacent to 2, 3 or 5 king-move neighboring 1s. -/
+opaque A296962 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296962.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296963: T(n,k)=Number of nXk 0..1 arrays with each 1 adjacent to 2, 3 or 5 king-move neighboring 1s. -/
+opaque A296963 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296963.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296964: Expansion of e.g.f. (exp(x)-x)*x/(1-x). -/
+opaque A296964 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296964.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296967: Number of n X n 0..1 arrays with each 1 adjacent to 2, 4 or 5 king-move neighboring 1's. -/
+opaque A296967 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296967.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296969: Number of nX3 0..1 arrays with each 1 adjacent to 2, 4 or 5 king-move neighboring 1s. -/
+opaque A296969 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296969.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296970: Number of nX4 0..1 arrays with each 1 adjacent to 2, 4 or 5 king-move neighboring 1s. -/
+opaque A296970 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296970.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296971: Number of nX5 0..1 arrays with each 1 adjacent to 2, 4 or 5 king-move neighboring 1s. -/
+opaque A296971 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296971.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296972: Number of nX6 0..1 arrays with each 1 adjacent to 2, 4 or 5 king-move neighboring 1s. -/
+opaque A296972 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296972.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296973: Number of nX7 0..1 arrays with each 1 adjacent to 2, 4 or 5 king-move neighboring 1s. -/
+opaque A296973 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296973.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296974: T(n,k)=Number of nXk 0..1 arrays with each 1 adjacent to 2, 4 or 5 king-move neighboring 1s. -/
+opaque A296974 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296974.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296975: Number of aperiodic normal sequences of length n. -/
+opaque A296975 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296975.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296976: List of normal Lyndon sequences ordered first by length and then reverse-lexicographically, where a finite sequence is normal if it spans an initial interval of positive integers. -/
+opaque A296976 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296976.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296977: List of normal Lyndon sequences ordered first by length and then lexicographically, where a finite sequence is normal if it spans an initial interval of positive integers. -/
+opaque A296977 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296977.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296978: List of normal sequences ordered first by length and then lexicographically, where a finite sequence is normal if it spans an initial interval of positive integers. -/
+opaque A296978 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296978.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296982: Expansion of e.g.f. arctanh(log(1 + x)). -/
+opaque A296982 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296982.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296983: Number of n X n 0..1 arrays with each 1 adjacent to 3, 4 or 5 king-move neighboring 1's. -/
+opaque A296983 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296983.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296984: Number of n X 2 0..1 arrays with each 1 adjacent to 3, 4 or 5 king-move neighboring 1s. -/
+opaque A296984 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296984.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296985: Number of nX3 0..1 arrays with each 1 adjacent to 3, 4 or 5 king-move neighboring 1s. -/
+opaque A296985 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296985.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296986: Number of nX4 0..1 arrays with each 1 adjacent to 3, 4 or 5 king-move neighboring 1s. -/
+opaque A296986 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296986.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296987: Number of nX5 0..1 arrays with each 1 adjacent to 3, 4 or 5 king-move neighboring 1s. -/
+opaque A296987 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296987.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296988: Number of nX6 0..1 arrays with each 1 adjacent to 3, 4 or 5 king-move neighboring 1s. -/
+opaque A296988 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296988.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296989: Number of n X 7 0..1 arrays with each 1 adjacent to 3, 4 or 5 king-move neighboring 1's. -/
+opaque A296989 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296989.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296990: T(n,k)=Number of nXk 0..1 arrays with each 1 adjacent to 3, 4 or 5 king-move neighboring 1s. -/
+opaque A296990 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296990.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296991: Numbers k such that k^2 divides tau(k), where tau(k) = A000594(k) is Ramanujan's tau function. -/
+opaque A296991 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296991.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296992: Largest number m such that n^m divides tau(n), where tau(n) = A000594(n) is Ramanujan's tau function. -/
+opaque A296992 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296992.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296993: Numbers k such that k^3 divides tau(k), where tau(k) = A000594(k) is Ramanujan's tau function. -/
+opaque A296993 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296993.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296994: Largest number of points that can be selected from an n X n X n triangular point grid so that no selected point is equally distant from two other selected points on a straight line, which is parallel to one side of the grid. -/
+opaque A296994 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296994.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296996: Number of nonequivalent (mod D_8) ways to place 3 points on an n X n point grid so that no point is equally distant from two other points on the same row or the same column. -/
+opaque A296996 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296996.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296998: Number of ways to place 4 points on an n X n point grid so that no point is equally distant from two other points on the same row or the same column. -/
+opaque A296998 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296998.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A296999: Number of nonequivalent (mod D_8) ways to place 4 points on an n X n point grid so that no point is equally distant from two other points on the same row or the same column. -/
+opaque A296999 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A296999.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297000: Numbers k such that A296992(k) = 1. -/
+opaque A297000 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297000.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297001: Numbers k such that A296992(k) = 2. -/
+opaque A297001 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297001.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297002: Completely multiplicative with a(prime(k)) = prime(2 * k) (where prime(k) denotes the k-th prime). -/
+opaque A297002 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297002.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297005: Values of n for which pi_{3,2}(p_n) - pi_{3,1}(p_n) = -1, where p_n is the n-th prime and pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m). -/
+opaque A297005 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297005.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297006: Primes p for which pi_{3,2}(p) - pi_{3,1}(p) = -1, where pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m). -/
+opaque A297006 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297006.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297007: Number of edge covers in the n-barbell graph. -/
+opaque A297007 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297007.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297009: Expansion of e.g.f. arcsin(x*exp(x)). -/
+opaque A297009 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297009.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297011: Solution of the complementary equation a(n) = 2*a(n-1) + a(n-2) - b(n), where a(0) = 3, a(1) = 5, b(0) = 1, b(1) = 2, b(2) = 4, and (a(n)) and (b(n)) are increasing complementary sequences. -/
+opaque A297011 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297011.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297014: Number of n X n 0..1 arrays with each 1 adjacent to 3, 4 or 6 king-move neighboring 1's. -/
+opaque A297014 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297014.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297015: Number of nX3 0..1 arrays with each 1 adjacent to 3, 4 or 6 king-move neighboring 1s. -/
+opaque A297015 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297015.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297016: Number of nX4 0..1 arrays with each 1 adjacent to 3, 4 or 6 king-move neighboring 1s. -/
+opaque A297016 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297016.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297017: Number of nX5 0..1 arrays with each 1 adjacent to 3, 4 or 6 king-move neighboring 1s. -/
+opaque A297017 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297017.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297018: Number of n X 6 0..1 arrays with each 1 adjacent to 3, 4 or 6 king-move neighboring 1's. -/
+opaque A297018 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297018.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297019: Number of nX7 0..1 arrays with each 1 adjacent to 3, 4 or 6 king-move neighboring 1s. -/
+opaque A297019 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297019.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297020: T(n,k)=Number of nXk 0..1 arrays with each 1 adjacent to 3, 4 or 6 king-move neighboring 1s. -/
+opaque A297020 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297020.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297022: A permutation of the natural numbers: a(n) = A067565(A018252(n)). -/
+opaque A297022 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297022.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297025: Number of iterations of A220096 required to reach 0 starting from n. -/
+opaque A297025 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297025.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297026: Positions of records in A297025. -/
+opaque A297026 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297026.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297031: Number of pieces in the list d(m), d(m-1), ..., d(0) of base-3 digits of n; see Comments. -/
+opaque A297031 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297031.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297032: Number of pieces in the list d(m), d(m-1), ..., d(0) of base-4 digits of n; see Comments. -/
+opaque A297032 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297032.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297033: Number of pieces in the list d(m), d(m-1), ..., d(0) of base-5 digits of n; see Comments. -/
+opaque A297033 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297033.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297034: Number of pieces in the list d(m), d(m-1), ..., d(0) of base-6 digits of n; see Comments. -/
+opaque A297034 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297034.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297035: Number of pieces in the list d(m), d(m-1), ..., d(0) of base-7 digits of n; see Comments. -/
+opaque A297035 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297035.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297036: Number of pieces in the list d(m), d(m-1), ..., d(0) of base-8 digits of n; see Comments. -/
+opaque A297036 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297036.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297037: Number of pieces in the list d(m), d(m-1), ..., d(0) of base-9 digits of n; see Comments. -/
+opaque A297037 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297037.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297038: Number of pieces in the list d(m), d(m-1), ..., d(0) of base-10 digits of n; see Comments. -/
+opaque A297038 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297038.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297062: Starting with a(1) = 0, a(2) = 1, a(n) = smallest nonnegative integer that shares all digits with previous terms. No repeated digits are allowed. -/
+opaque A297062 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297062.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297063: Square roots of discriminants of Galois cubic number fields possessing a norm-Euclidean ideal class. -/
+opaque A297063 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297063.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297064: Number of maximal matchings in the n-dipyramidal graph. -/
+opaque A297064 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297064.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297065: Starting with a(1) = 0, a(2) = 1, a(n) = smallest nonnegative integer not yet in the sequence that shares all digits with previous terms. -/
+opaque A297065 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297065.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297066: Number of n X n 0..1 arrays with no 1 adjacent to 1 king-move neighboring 1. -/
+opaque A297066 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297066.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297068: Number of nX3 0..1 arrays with no 1 adjacent to 1 king-move neighboring 1. -/
+opaque A297068 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297068.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297069: Number of nX4 0..1 arrays with no 1 adjacent to 1 king-move neighboring 1. -/
+opaque A297069 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297069.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297070: Number of nX5 0..1 arrays with no 1 adjacent to 1 king-move neighboring 1. -/
+opaque A297070 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297070.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297071: Number of n X 6 0..1 arrays with no 1 adjacent to 1 king-move neighboring 1. -/
+opaque A297071 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297071.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297072: Number of nX7 0..1 arrays with no 1 adjacent to 1 king-move neighboring 1. -/
+opaque A297072 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297072.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297073: T(n,k)=Number of nXk 0..1 arrays with no 1 adjacent to 1 king-move neighboring 1. -/
+opaque A297073 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297073.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297074: Number of ways of inserting parentheses in x^x^...^x (with n x's) whose result is an integer where x = sqrt(2). -/
+opaque A297074 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297074.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297075: Lexicographically earliest sequence of distinct positive numbers such that the prime factorizations of two consecutive terms never share a prime exponent >= 1. -/
+opaque A297075 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297075.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297077: Number of distinct row and column sums for n X n (0, 1)-matrices. -/
+opaque A297077 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297077.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297078: Number of n X n 0..1 arrays with no 1 adjacent to 2 king-move neighboring 1's. -/
+opaque A297078 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297078.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297079: Number of n X 2 0..1 arrays with no 1 adjacent to 2 king-move neighboring 1s. -/
+opaque A297079 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297079.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297080: Number of n X 3 0..1 arrays with no 1 adjacent to 2 king-move neighboring 1's. -/
+opaque A297080 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297080.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297081: Number of nX4 0..1 arrays with no 1 adjacent to 2 king-move neighboring 1s. -/
+opaque A297081 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297081.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297082: Number of nX5 0..1 arrays with no 1 adjacent to 2 king-move neighboring 1s. -/
+opaque A297082 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297082.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297083: Number of nX6 0..1 arrays with no 1 adjacent to 2 king-move neighboring 1s. -/
+opaque A297083 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297083.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297084: Number of nX7 0..1 arrays with no 1 adjacent to 2 king-move neighboring 1s. -/
+opaque A297084 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297084.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297085: T(n,k)=Number of nXk 0..1 arrays with no 1 adjacent to 2 king-move neighboring 1s. -/
+opaque A297085 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297085.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297087: Number of n X n 0..1 arrays with no 1 adjacent to 3 king-move neighboring 1's. -/
+opaque A297087 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297087.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297088: Number of n X 2 0..1 arrays with no 1 adjacent to 3 king-move neighboring 1s. -/
+opaque A297088 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297088.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297089: Number of nX3 0..1 arrays with no 1 adjacent to 3 king-move neighboring 1s. -/
+opaque A297089 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297089.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297090: Number of nX4 0..1 arrays with no 1 adjacent to 3 king-move neighboring 1s. -/
+opaque A297090 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297090.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297091: Number of nX5 0..1 arrays with no 1 adjacent to 3 king-move neighboring 1s. -/
+opaque A297091 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297091.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297092: Number of nX6 0..1 arrays with no 1 adjacent to 3 king-move neighboring 1s. -/
+opaque A297092 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297092.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297093: Number of nX7 0..1 arrays with no 1 adjacent to 3 king-move neighboring 1s. -/
+opaque A297093 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297093.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297094: T(n,k)=Number of nXk 0..1 arrays with no 1 adjacent to 3 king-move neighboring 1s. -/
+opaque A297094 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297094.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297095: Number of n X n 0..1 arrays with no 1 adjacent to 4 king-move neighboring 1's. -/
+opaque A297095 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297095.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297096: Number of n X 2 0..1 arrays with no 1 adjacent to 4 king-move neighboring 1s. -/
+opaque A297096 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297096.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297097: Number of nX3 0..1 arrays with no 1 adjacent to 4 king-move neighboring 1s. -/
+opaque A297097 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297097.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297098: Number of nX4 0..1 arrays with no 1 adjacent to 4 king-move neighboring 1s. -/
+opaque A297098 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297098.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297099: Number of nX5 0..1 arrays with no 1 adjacent to 4 king-move neighboring 1s. -/
+opaque A297099 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297099.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297100: Number of nX6 0..1 arrays with no 1 adjacent to 4 king-move neighboring 1s. -/
+opaque A297100 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297100.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297101: Number of nX7 0..1 arrays with no 1 adjacent to 4 king-move neighboring 1s. -/
+opaque A297101 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297101.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297102: T(n,k)=Number of nXk 0..1 arrays with no 1 adjacent to 4 king-move neighboring 1s. -/
+opaque A297102 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297102.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297103: The number of equal-sized squares in the highest stack of squares contained in successive Genealodrons formed from 2^n - 1 equal-sized squares. -/
+opaque A297103 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297103.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297104: Inverse permutation to A297022. -/
+opaque A297104 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297104.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297107: Fixed points of A256739, Xor-Moebius transform of natural numbers. -/
+opaque A297107 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297107.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297110: Xor-Moebius transform of A006068, inverse of the binary Gray code. -/
+opaque A297110 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297110.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297118: Number of minimal edge covers in the n-Fibonacci cube graph. -/
+opaque A297118 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297118.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297120: Number of compositions derived from the overpartitions of n. -/
+opaque A297120 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297120.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297122: a(n) = n^5*H(n) where H() is the Hurwitz class number. -/
+opaque A297122 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297122.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297124: Numbers having an up-first zigzag pattern in base 3; see Comments. -/
+opaque A297124 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297124.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297125: Numbers having a down-first zigzag pattern in base 3; see Comments. -/
+opaque A297125 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297125.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297127: a(n) = (1/2) * Sum_{|k| -/
+opaque A297127 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297127.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297129: Numbers having a down-first zigzag pattern in base 4; see Comments. -/
+opaque A297129 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297129.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297130: Numbers whose base-4 digits d(m), d(m-1),..., d(0) have m=0 or else d(i) = d(i+1) for some i in {0,1,...,m-1}. -/
+opaque A297130 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297130.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297131: Numbers having an up-first zigzag pattern in base 5; see Comments. -/
+opaque A297131 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297131.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297132: Numbers having a down-first zigzag pattern in base 5; see Comments. -/
+opaque A297132 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297132.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297133: Numbers whose base-5 digits d(m), d(m-1),..., d(0) have m=0 or else d(i) = d(i+1) for some i in {0,1,...,m-1}. -/
+opaque A297133 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297133.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297134: Numbers having an up-first zigzag pattern in base 6; see Comments. -/
+opaque A297134 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297134.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297135: Numbers having a down-first zigzag pattern in base 6; see Comments. -/
+opaque A297135 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297135.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297136: Numbers whose base-6 digits d(m), d(m-1), ..., d(0) have m=0 or else d(i) = d(i+1) for some i in {0,1,...,m-1}. -/
+opaque A297136 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297136.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297137: Numbers having an up-first zigzag pattern in base 7; see Comments. -/
+opaque A297137 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297137.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297138: Numbers having a down-first zigzag pattern in base 7; see Comments. -/
+opaque A297138 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297138.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297139: Numbers whose base-7 digits d(m), d(m-1),..., d(0) have m=0 or else d(i) = d(i+1) for some i in {0,1,...,m-1}. -/
+opaque A297139 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297139.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297140: Numbers having an up-first zigzag pattern in base 8; see Comments. -/
+opaque A297140 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297140.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297141: Numbers having a down-first zigzag pattern in base 8; see Comments. -/
+opaque A297141 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297141.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297143: Numbers having an up-first zigzag pattern in base 9; see Comments. -/
+opaque A297143 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297143.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297144: Numbers having a down-first zigzag pattern in base 9; see Comments. -/
+opaque A297144 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297144.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297146: Numbers having an up-first zigzag pattern in base 10; see Comments. -/
+opaque A297146 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297146.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297147: Numbers having a down-first zigzag pattern in base 10; see Comments. -/
+opaque A297147 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297147.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297148:  -/
+opaque A297148 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297148.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297149: Solution (c(n)) of the system of 3 complementary equations in Comments. -/
+opaque A297149 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297149.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297152: Positive numbers whose decimal expansion contains a 3-digit substring abc such that b > a > c. -/
+opaque A297152 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297152.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297154: Balanced ternary representation of A083254(n), 2*phi(n)-n. -/
+opaque A297154 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297154.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297157: Restricted growth sequence transform of A297156, which is Möbius transform of A243354. -/
+opaque A297157 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297157.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297158: Ludic ladder sequence: a(n) = Sum_{k=1..n} (-1)^LudicPi(k), where LudicPi(n) = A192512(n)-1 gives the number of Ludic numbers > 1 and <= n. -/
+opaque A297158 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297158.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297160: Positions of records in A220400. -/
+opaque A297160 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297160.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297161: Restricted growth sequence transform of A297171, which is Möbius transform of A243071. -/
+opaque A297161 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297161.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297162: Restricted growth sequence transform of A297172, which is Möbius transform of A253564. -/
+opaque A297162 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297162.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297165: Permutation of natural numbers: a(n) = A005940(2+A156552(n)), a(0) = 1. -/
+opaque A297165 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297165.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297166: Permutation of nonnegative integers: a(n) = A005940(A156552(n)), a(1) = 0. -/
+opaque A297166 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297166.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297169: Restricted growth sequence transform of a(1) = -1, a(n) = A297168(n) for n > 1. -/
+opaque A297169 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297169.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297174: An auxiliary sequence for computing A300250. See comments and examples. -/
+opaque A297174 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297174.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297175: Rational primes that decompose in the field Q(sqrt(19)). -/
+opaque A297175 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297175.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297176: Inert rational primes in the field Q(sqrt(19)). -/
+opaque A297176 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297176.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297177: Rational primes that decompose in the field Q(sqrt(23)). -/
+opaque A297177 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297177.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297178: Triangle read by rows: T(n,k) = number of partitions of genus 2 of n elements with k parts (n >= 6, 2 <= k <= n-4). -/
+opaque A297178 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297178.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297183: Number of open binary words of length n. -/
+opaque A297183 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297183.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297184: Number of closed binary words of length n that are not privileged. -/
+opaque A297184 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297184.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297185: One-half of the number of closed binary words of length n that are not privileged. -/
+opaque A297185 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297185.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297186: Row sums of triangle A297495. -/
+opaque A297186 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297186.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297187: Row sums of triangle A297497. -/
+opaque A297187 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297187.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297188: Sums of antidiagonals in A297359. -/
+opaque A297188 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297188.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297190: Numbers not in A072099. -/
+opaque A297190 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297190.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297191: Irregular triangle read by rows formed by taking every other row of the Delannoy array (A008288) regarded as a triangle. -/
+opaque A297191 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297191.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297192: Left-hand half of triangle A297191. -/
+opaque A297192 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297192.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297193: Irregular triangle read by rows: rows are partial alternating sums of rows of A297191. -/
+opaque A297193 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297193.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297194: Left-hand half of triangle A297193. -/
+opaque A297194 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297194.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297195: Number of bitriangular permutations (row sums of A272644 if that triangle is prefixed with two rows for n=0,1). -/
+opaque A297195 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297195.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297196: Number of label-increasing forests with branching bounded by 3. -/
+opaque A297196 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297196.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297197: Related to label-increasing forests with branching bounded by 3. -/
+opaque A297197 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297197.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297198: Related to label-increasing forests with branching bounded by 3. -/
+opaque A297198 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297198.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297199: a(n) = number of partitions of n into consecutive positive cubes. -/
+opaque A297199 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297199.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297200: Number of label-increasing forests with branching bounded by 4. -/
+opaque A297200 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297200.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297201: Related to label-increasing forests with branching bounded by 4. -/
+opaque A297201 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297201.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297202: Related to label-increasing forests with branching bounded by 4. -/
+opaque A297202 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297202.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297203: Related to label-increasing forests with branching bounded by 4. -/
+opaque A297203 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297203.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297204: Number of label-increasing forests with branching bounded by 5. -/
+opaque A297204 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297204.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297205: Array read by antidiagonals: T(m,n) is the number of edge covers in the m X n king graph. -/
+opaque A297205 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297205.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297209: Expansion of e.g.f. log(1 + arcsin(x))*exp(-x). -/
+opaque A297209 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297209.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297213: Expansion of e.g.f. log(1 + arctanh(x))*exp(-x). -/
+opaque A297213 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297213.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297215: Expansion of e.g.f. exp(cos(tan(x))-1) (even powers only). -/
+opaque A297215 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297215.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297218: Number of n X n 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 neighboring 1's. -/
+opaque A297218 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297218.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297221: Number of n X 5 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 neighboring 1s. -/
+opaque A297221 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297221.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297222: Number of nX6 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 neighboring 1s. -/
+opaque A297222 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297222.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297223: Number of nX7 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 neighboring 1s. -/
+opaque A297223 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297223.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297224: T(n,k)=Number of nXk 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 neighboring 1s. -/
+opaque A297224 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297224.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297225: Number of 3Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 neighboring 1s. -/
+opaque A297225 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297225.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297226: Number of 4Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 neighboring 1s. -/
+opaque A297226 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297226.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297227: Number of 5Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 neighboring 1s. -/
+opaque A297227 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297227.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297228: Number of 6Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 neighboring 1s. -/
+opaque A297228 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297228.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297229: Number of 7Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 neighboring 1s. -/
+opaque A297229 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297229.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297231: Down-variation of the base-11 digits of n; see Comments. -/
+opaque A297231 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297231.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297232: Up-variation of the base-11 digits of n; see Comments. -/
+opaque A297232 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297232.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297233: Total variation of base-11 digits of n; see Comments. -/
+opaque A297233 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297233.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297234: Down-variation of the base-12 digits of n; see Comments. -/
+opaque A297234 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297234.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297235: Up-variation of the base-12 digits of n; see Comments. -/
+opaque A297235 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297235.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297236: Total variation of base-12 digits of n; see Comments. -/
+opaque A297236 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297236.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297237: Down-variation of the base-13 digits of n; see Comments. -/
+opaque A297237 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297237.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297238: Up-variation of the base-13 digits of n; see Comments. -/
+opaque A297238 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297238.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297239: Total variation of base-13 digits of n; see Comments. -/
+opaque A297239 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297239.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297240: Down-variation of the base-14 digits of n; see Comments. -/
+opaque A297240 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297240.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297241: Up-variation of the base-14 digits of n; see Comments. -/
+opaque A297241 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297241.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297242: Total variation of base-14 digits of n; see Comments. -/
+opaque A297242 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297242.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297243: Down-variation of the base-15 digits of n; see Comments. -/
+opaque A297243 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297243.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297244: Up-variation of the base-15 digits of n; see Comments. -/
+opaque A297244 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297244.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297245: Total variation of base-15 digits of n; see Comments. -/
+opaque A297245 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297245.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297246: Down-variation of the base-16 digits of n; see Comments. -/
+opaque A297246 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297246.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297247: Up-variation of the base-16 digits of n; see Comments. -/
+opaque A297247 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297247.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297248: Total variation of base-16 digits of n; see Comments. -/
+opaque A297248 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297248.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297252: Numbers whose base-4 digits have greater down-variation than up-variation; see Comments. -/
+opaque A297252 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297252.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297253: Numbers whose base-4 digits having equal up-variation and down-variation; see Comments. -/
+opaque A297253 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297253.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297254: Numbers whose base-4 digits have greater up-variation than down-variation; see Comments. -/
+opaque A297254 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297254.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297255: Numbers whose base-5 digits have greater down-variation than up-variation; see Comments. -/
+opaque A297255 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297255.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297256: Numbers whose base-5 digits have equal down-variation and up-variation; see Comments. -/
+opaque A297256 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297256.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297257: Numbers whose base-5 digits have greater up-variation than down-variation; see Comments. -/
+opaque A297257 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297257.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297261: Numbers whose base-7 digits have greater down-variation than up-variation; see Comments. -/
+opaque A297261 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297261.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297262: Numbers whose base-7 digits have equal up-variation and down-variation; see Comments. -/
+opaque A297262 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297262.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297263: Numbers whose base-7 digits have greater up-variation than down-variation; see Comments. -/
+opaque A297263 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297263.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297264: Numbers whose base-8 digits have greater down-variation than up-variation; see Comments. -/
+opaque A297264 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297264.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297265: Numbers whose base-8 digits have equal down-variation and up-variation; see Comments. -/
+opaque A297265 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297265.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297266: Numbers whose base-8 digits have greater up-variation than down-variation; see Comments. -/
+opaque A297266 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297266.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297267: Numbers whose base-9 digits have greater down-variation than up-variation; see Comments. -/
+opaque A297267 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297267.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297268: Numbers whose base-9 digits have equal down-variation and up-variation; see Comments. -/
+opaque A297268 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297268.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297269: Numbers whose base-9 digits have greater up-variation than down-variation; see Comments. -/
+opaque A297269 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297269.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297270:  -/
+opaque A297270 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297270.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297272:  -/
+opaque A297272 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297272.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297273: Numbers whose base-11 digits have greater down-variation than up-variation; see Comments. -/
+opaque A297273 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297273.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297274: Numbers whose base-11 digits have equal down-variation and up-variation; see Comments. -/
+opaque A297274 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297274.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297275: Numbers whose base-11 digits have greater up-variation than down-variation; see Comments. -/
+opaque A297275 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297275.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297276: Numbers whose base-12 digits have greater down-variation than up-variation; see Comments. -/
+opaque A297276 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297276.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297277: Numbers whose base-12 digits have equal down-variation and up-variation; see Comments. -/
+opaque A297277 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297277.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297278: Numbers whose base-12 digits have greater up-variation than down-variation; see Comments. -/
+opaque A297278 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297278.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297279: Numbers whose base-13 digits have greater down-variation than up-variation; see Comments. -/
+opaque A297279 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297279.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297280: Numbers whose base-13 digits have equal down-variation and up-variation; see Comments. -/
+opaque A297280 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297280.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297281: Numbers whose base-13 digits have greater up-variation than down-variation; see Comments. -/
+opaque A297281 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297281.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297282: Numbers whose base-14 digits have greater down-variation than up-variation; see Comments. -/
+opaque A297282 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297282.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297283: Numbers whose base-14 digits have equal down-variation and up-variation; see Comments. -/
+opaque A297283 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297283.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297284: Numbers whose base-14 digits have greater up-variation than down-variation; see Comments. -/
+opaque A297284 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297284.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297285:  -/
+opaque A297285 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297285.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297286: Numbers whose base-15 digits have equal down-variation and up-variation; see Comments. -/
+opaque A297286 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297286.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297287: Numbers whose base-15 digits have greater up-variation than down-variation; see Comments. -/
+opaque A297287 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297287.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297288:  -/
+opaque A297288 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297288.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297289: Numbers whose base-16 digits have equal down-variation and up-variation; see Comments. -/
+opaque A297289 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297289.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297290: Numbers whose base-16 digits have greater up-variation than down-variation; see Comments. -/
+opaque A297290 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297290.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297291: Solution (a(n)) of the system of 3 complementary equations in Comments. -/
+opaque A297291 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297291.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297292: Solution (b(n)) of the system of 3 complementary equations in Comments. -/
+opaque A297292 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297292.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297293: Solution (c(n)) of the system of 3 complementary equations in Comments. -/
+opaque A297293 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297293.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297294: Number of primitive Pythagorean triples (PPTs) that have 2^n-1 as the length of their odd leg where n is the sequence index. -/
+opaque A297294 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297294.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297295: Number of n X n 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 2 neighboring 1's. -/
+opaque A297295 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297295.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297297: Number of nX6 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 2 neighboring 1s. -/
+opaque A297297 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297297.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297298: Number of nX7 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 2 neighboring 1s. -/
+opaque A297298 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297298.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297299: T(n,k)=Number of nXk 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 2 neighboring 1s. -/
+opaque A297299 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297299.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297301: Number of 4 X n 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 2 neighboring 1s. -/
+opaque A297301 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297301.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297302: Number of 5Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 2 neighboring 1s. -/
+opaque A297302 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297302.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297303: Number of 6 X n 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 2 neighboring 1's. -/
+opaque A297303 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297303.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297304: Number of 7Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 2 neighboring 1s. -/
+opaque A297304 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297304.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297305: Numbers k such that k^4 can be written as a sum of five positive 4th powers. -/
+opaque A297305 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297305.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297306: Primes p such that q = 4*p+1 and r = (2*p+1)/3 are also primes. -/
+opaque A297306 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297306.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297307: Given n, define the sequence x(1) = n, thereafter if x(i) is even set x(i+1) = x(i)/2, if x(i) is odd and divisible by 3, 5 or 7 set x(i+1) = 5*x(i) + 1, otherwise set x(i+1) = 3*x(i) + 1. Then a(n) is the smallest i>1 such that x(i) = 1, 5, or 553, or -1 if none of those numbers is ever reached. -/
+opaque A297307 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297307.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297308: Number of n X n 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 or 2 neighboring 1's. -/
+opaque A297308 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297308.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297310: Number of n X 4 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297310 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297310.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297311: Number of nX5 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297311 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297311.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297312: Number of nX6 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297312 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297312.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297313: Number of nX7 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297313 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297313.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297314: T(n,k)=Number of nXk 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297314 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297314.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297315: Number of 2 X n 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297315 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297315.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297316: Number of 3Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297316 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297316.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297317: Number of 4Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297317 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297317.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297318: Number of 5Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297318 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297318.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297319: Number of 6Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297319 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297319.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297320: Number of 7Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297320 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297320.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297321: Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of Product_{j>=1} (1 + j*x^j)^k. -/
+opaque A297321 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297321.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297322: a(n) = [x^n] Product_{k>=1} (1 + k*x^k)^n. -/
+opaque A297322 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297322.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297323: Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of Product_{j>=1} (1 - j*x^j)^k. -/
+opaque A297323 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297323.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297325: Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of Product_{j>=1} 1/(1 + j*x^j)^k. -/
+opaque A297325 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297325.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297326: a(n) = [x^n] Product_{k>=1} 1/(1 + k*x^k)^n. -/
+opaque A297326 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297326.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297327: 1/36 of the square of the basis of a primitive 3-simplex. -/
+opaque A297327 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297327.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297328: Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of Product_{j>=1} 1/(1 - j*x^j)^k. -/
+opaque A297328 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297328.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297329: a(n) = [x^n] Product_{k>=1} 1/(1 - k*x^k)^n. -/
+opaque A297329 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297329.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297331: Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of (theta_3(q^(1/2))^k + theta_4(q^(1/2))^k)/2. -/
+opaque A297331 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297331.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297332: Number of n X n 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0 or 2 neighboring 1's. -/
+opaque A297332 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297332.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297334: Number of n X 4 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0 or 2 neighboring 1s. -/
+opaque A297334 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297334.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297335: Number of n X 5 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0 or 2 neighboring 1s. -/
+opaque A297335 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297335.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297336: Number of nX6 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0 or 2 neighboring 1s. -/
+opaque A297336 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297336.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297337: Number of nX7 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0 or 2 neighboring 1s. -/
+opaque A297337 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297337.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297338: T(n,k)=Number of nXk 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0 or 2 neighboring 1s. -/
+opaque A297338 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297338.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297340: Number of 3Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0 or 2 neighboring 1s. -/
+opaque A297340 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297340.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297341: Number of 4Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0 or 2 neighboring 1s. -/
+opaque A297341 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297341.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297342: Number of 5Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0 or 2 neighboring 1s. -/
+opaque A297342 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297342.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297343: Number of 6 X n 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0 or 2 neighboring 1's. -/
+opaque A297343 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297343.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297344: Number of 7Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0 or 2 neighboring 1s. -/
+opaque A297344 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297344.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297345: a(0)=0; for n>0, a(n) is the least positive integer that cannot be represented as Sum_{k=1..n-1} a(i_k)*a(k), with 0 <= i_k < n. -/
+opaque A297345 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297345.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297346: List of successive x-coordinates in the Babylonian Spiral. -/
+opaque A297346 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297346.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297347: List of y-coordinates in the Babylonian Spiral. -/
+opaque A297347 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297347.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297348: Numbers k such that 12*13^k - 1 is prime. -/
+opaque A297348 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297348.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297350: Start of record gaps between sums of two squares. -/
+opaque A297350 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297350.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297351: Smallest number k such that, for any set S of k distinct nonzero residues mod p = prime(n), any residue mod p can be represented as a sum of zero or more distinct elements of S. -/
+opaque A297351 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297351.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297358: Numbers m such that the denominator of m/rho(m) is 3, where rho is A206369; i.e. A294649(m) = 3. -/
+opaque A297358 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297358.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297359: Array read by antidiagonals: Pascal-like recursion and self-referential boundaries. -/
+opaque A297359 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297359.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297360: Numbers k such that (2^lambda(k) - 1)/k is prime, where lambda(k) is the Carmichael lambda function (A002322). -/
+opaque A297360 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297360.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297361: Numbers k such that (3^lambda(k) - 1)/k is prime, where lambda(k) is the Carmichael lambda function (A002322). -/
+opaque A297361 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297361.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297362: Numbers k such that (2^ord(2, k) - 1)/k is prime, where ord(2, k) is the multiplicative order of 2 (mod k). -/
+opaque A297362 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297362.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297363: Numbers k such that (3^ord(3, k) - 1)/k is prime, where ord(3, k) is the multiplicative order of 3 (mod k). -/
+opaque A297363 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297363.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297364: Numbers k such that f(k) > f(m) for all m < k, where f(k) = usigma(usigma(usigma(k)))/usigma(usigma(k)) and usigma(k) is the sum of unitary divisors of k (A034448). -/
+opaque A297364 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297364.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297365: Numbers k such that uphi(k)*usigma(k) = uphi(k+1)*usigma(k+1), where uphi is the unitary totient function (A047994) and usigma the sum of unitary divisors (A034448). -/
+opaque A297365 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297365.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297366: Numbers k such that uphi(k) + usigma(k) = uphi(k+1) + usigma(k+1), where uphi is the unitary totient function (A047994) and usigma the sum of unitary divisors (A034448). -/
+opaque A297366 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297366.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297367: Numerators of fraction whose denominator is defined in A303612. -/
+opaque A297367 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297367.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297368: Number of n X n 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0, 1 or 2 neighboring 1's. -/
+opaque A297368 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297368.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297370: Number of n X 4 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0, 1 or 2 neighboring 1's. -/
+opaque A297370 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297370.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297371: Number of nX5 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0, 1 or 2 neighboring 1s. -/
+opaque A297371 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297371.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297372: Number of nX6 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0, 1 or 2 neighboring 1s. -/
+opaque A297372 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297372.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297373: Number of nX7 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0, 1 or 2 neighboring 1s. -/
+opaque A297373 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297373.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297374: T(n,k)=Number of nXk 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0, 1 or 2 neighboring 1s. -/
+opaque A297374 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297374.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297375: Number of 2 X n 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0, 1 or 2 neighboring 1s. -/
+opaque A297375 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297375.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297376: Number of 3Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0, 1 or 2 neighboring 1s. -/
+opaque A297376 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297376.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297377: Number of 4Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0, 1 or 2 neighboring 1s. -/
+opaque A297377 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297377.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297378: Number of 5Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0, 1 or 2 neighboring 1s. -/
+opaque A297378 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297378.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297379: Number of 6Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0, 1 or 2 neighboring 1s. -/
+opaque A297379 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297379.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297380: Number of 7Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0, 1 or 2 neighboring 1s. -/
+opaque A297380 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297380.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297385: Number of Eulerian cycles in the n X n torus grid graph. -/
+opaque A297385 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297385.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297388: Number of pairs (p,q) of partitions such that q is a partition of n and p <= q (diagram containment). -/
+opaque A297388 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297388.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297389: Number of n X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 neighboring 1. -/
+opaque A297389 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297389.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297391: Number of n X 4 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 neighboring 1. -/
+opaque A297391 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297391.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297392: Number of nX5 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 neighboring 1. -/
+opaque A297392 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297392.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297393: Number of nX6 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 neighboring 1. -/
+opaque A297393 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297393.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297394: Number of nX7 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 neighboring 1. -/
+opaque A297394 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297394.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297395: T(n,k)=Number of nXk 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 neighboring 1. -/
+opaque A297395 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297395.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297397: Number of 4 X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 neighboring 1. -/
+opaque A297397 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297397.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297398: Number of 5Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 neighboring 1. -/
+opaque A297398 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297398.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297399: Number of 6Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 neighboring 1. -/
+opaque A297399 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297399.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297400: Number of 7Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 neighboring 1. -/
+opaque A297400 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297400.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297403: Inverse to A297075. -/
+opaque A297403 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297403.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297406: Where the prime race among 8k+1, ..., 8k+7 changes leader. -/
+opaque A297406 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297406.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297407: Where the prime race among 9k+1, ..., 9k+8 changes leader. -/
+opaque A297407 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297407.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297410: Where the prime race among 11k+1, ..., 11k+10 changes leader. -/
+opaque A297410 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297410.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297411: Where the prime race among 12k+1, ..., 12k+11 changes leader. -/
+opaque A297411 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297411.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297412: Numbers k such that A019320(k) is in A217468. -/
+opaque A297412 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297412.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297413: Numbers k such that 2^m == 2 (mod m*(m-1)), where m=A019320(k). -/
+opaque A297413 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297413.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297414: Numbers k such that 2^m == 2 (mod m*(m+1)), where m = A019320(k). -/
+opaque A297414 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297414.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297415: Numbers k such that A019320(k) is in A217465. -/
+opaque A297415 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297415.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297417: Numbers k such that (14*10^k + 37)/3 is prime. -/
+opaque A297417 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297417.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297418: a(n) is the smallest positive number not yet in the sequence that contains the largest digit in a(n-1); a(1)=0. -/
+opaque A297418 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297418.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297419: Numbers k such that (10^(2k) - 2*(10^k) + 4)/12 is prime. -/
+opaque A297419 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297419.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297420: Square of the number of groups of order n. -/
+opaque A297420 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297420.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297421: Numbers k such that (10^(2k) + 2*(10^k) + 4)/4 is prime. -/
+opaque A297421 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297421.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297422: Numbers k such that 4*10^(2k) + 2*(10^k) + 1 is prime. -/
+opaque A297422 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297422.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297423: Numbers k such that (4*10^(2k) - 2*(10^k) + 1)/3 is prime. -/
+opaque A297423 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297423.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297424:  -/
+opaque A297424 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297424.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297425: Number of n X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 neighboring 1's. -/
+opaque A297425 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297425.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297427: Number of n X 4 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 neighboring 1s. -/
+opaque A297427 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297427.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297428: Number of nX5 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 neighboring 1s. -/
+opaque A297428 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297428.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297429: Number of nX6 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 neighboring 1s. -/
+opaque A297429 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297429.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297430: Number of nX7 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 neighboring 1s. -/
+opaque A297430 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297430.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297431: T(n,k)=Number of nXk 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 neighboring 1s. -/
+opaque A297431 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297431.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297434: Number of 4 X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 neighboring 1s. -/
+opaque A297434 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297434.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297435: Number of 5 X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 neighboring 1s. -/
+opaque A297435 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297435.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297436: Number of 6Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 neighboring 1s. -/
+opaque A297436 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297436.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297437: Number of 7Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 neighboring 1s. -/
+opaque A297437 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297437.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297440: Rectangular array R by antidiagonals: row n shows the positive integers whose base-3 digits have total variation n, for n>=0. See Comments. -/
+opaque A297440 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297440.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297441: Rectangular array R by antidiagonals: row n shows the positive integers whose base-3 digits have down-variation n, for n>=0. See Comments. -/
+opaque A297441 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297441.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297442: Rectangular array R by antidiagonals: row n shows the positive integers whose base-3 digits have up-variation n, for n>=0. See Comments. -/
+opaque A297442 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297442.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297447: Values of n for which pi_{8,5}(p_n) - pi_{8,1}(p_n) = -1, where p_n is the n-th prime and pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m). -/
+opaque A297447 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297447.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297451: Number of n X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0 or 2 neighboring 1's. -/
+opaque A297451 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297451.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297452: Number of n X 3 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0 or 2 neighboring 1s. -/
+opaque A297452 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297452.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297453: Number of nX4 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0 or 2 neighboring 1s. -/
+opaque A297453 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297453.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297454: Number of n X 5 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0 or 2 neighboring 1's. -/
+opaque A297454 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297454.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297455: Number of nX6 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0 or 2 neighboring 1s. -/
+opaque A297455 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297455.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297456: Number of nX7 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0 or 2 neighboring 1s. -/
+opaque A297456 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297456.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297457: T(n,k)=Number of nXk 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0 or 2 neighboring 1s. -/
+opaque A297457 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297457.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297459: Number of 3 X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0 or 2 neighboring 1s. -/
+opaque A297459 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297459.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297460: Number of 4Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0 or 2 neighboring 1s. -/
+opaque A297460 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297460.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297461: Number of 5Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0 or 2 neighboring 1s. -/
+opaque A297461 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297461.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297462: Number of 6Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0 or 2 neighboring 1s. -/
+opaque A297462 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297462.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297463: Number of 7Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0 or 2 neighboring 1s. -/
+opaque A297463 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297463.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297465: Solution (b(n)) of the system of 4 complementary equations in Comments. -/
+opaque A297465 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297465.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297466: Solution (c(n)) of the system of 4 complementary equations in Comments. -/
+opaque A297466 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297466.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297467: Solution (a(n)) of the system of 2 complementary equations in Comments. -/
+opaque A297467 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297467.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297468: Solution (b(n)) of the system of 2 complementary equations in Comments. -/
+opaque A297468 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297468.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297470: Number of maximal matchings in the n-barbell graph. -/
+opaque A297470 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297470.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297471: Number of maximal matchings in the n X n bishop graph. -/
+opaque A297471 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297471.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297472: Number of maximal matchings in the n X n black bishop graph. -/
+opaque A297472 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297472.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297473: For any number n > 0, let f(n) be the polynomial of a single indeterminate x where the coefficient of x^e is the prime(1+e)-adic valuation of n (where prime(k) denotes the k-th prime); f establishes a bijection between the positive numbers and the polynomials of a single indeterminate x with nonnegative integer coefficients; let g be the inverse of f; a(n) = g(f(n)^2). -/
+opaque A297473 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297473.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297475: Numbers k such that phi(x) = k for more than one value of x, and the smallest such x divides the largest. -/
+opaque A297475 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297475.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297477: Triangle read by rows: T(n, k) gives the coefficients of x^k of the characteristic polynomial P(n, x) of the n X n matrix M with entries M(i, j) = 1 if i = 1 or j = 1, -1 if i = j > 1, and 0 otherwise. T(0, 0) := 0. -/
+opaque A297477 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297477.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297485: Number of maximal matchings in the n-triangular grid graph. -/
+opaque A297485 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297485.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297490: Number of maximal matchings in the n X n white bishop graph. -/
+opaque A297490 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297490.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297492: a(n) = (1/2) * Sum_{|k|<=2*sqrt(p)} k^6*H(4*p-k^2) where H() is the Hurwitz class number and p is the n-th prime. -/
+opaque A297492 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297492.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297493: a(n) = (1/2) * Sum_{|k|<=2*sqrt(p)} k^8*H(4*p-k^2) where H() is the Hurwitz class number and p is n-th prime. -/
+opaque A297493 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297493.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297495: Triangle T(n,k) (n>=0, 0<=k<=n) read by rows: use T(n,k)=T(n,k-1)+T(n-1,k-1) rule except left edge is the sequence read by rows, initial values are T(0,0)=T(1,0)=1. -/
+opaque A297495 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297495.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297496: Right edge of triangle A297495. -/
+opaque A297496 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297496.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297497: Triangle T(n,k) (n>=0, 0<=k<=n) read by rows: use T(n,k)=T(n,k-1)+T(n-1,k-1) rule except left edge is the sequence read by rows, initial values are T(0,0)=0, T(1,0)=1. -/
+opaque A297497 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297497.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297498: Right edge of triangle A297497. -/
+opaque A297498 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297498.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297499: Inverse to A295029. -/
+opaque A297499 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297499.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297500: Number of n X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 2 neighboring 1's. -/
+opaque A297500 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297500.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297501: Number of nX3 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297501 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297501.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297502: Number of nX4 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297502 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297502.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297503: Number of n X 5 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 2 neighboring 1's. -/
+opaque A297503 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297503.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297504: Number of nX6 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297504 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297504.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297505: Number of nX7 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297505 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297505.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297506: T(n,k)=Number of nXk 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297506 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297506.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297507: Number of 2 X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297507 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297507.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297508: Number of 3 X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297508 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297508.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297509: Number of 4Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297509 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297509.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297510: Number of 5Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297510 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297510.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297511: Number of 6Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297511 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297511.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297512: Number of 7Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 2 neighboring 1s. -/
+opaque A297512 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297512.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297513: Number of n X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 3 neighboring 1's. -/
+opaque A297513 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297513.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297514: Number of n X 3 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 3 neighboring 1s. -/
+opaque A297514 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297514.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297515: Number of nX4 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 3 neighboring 1s. -/
+opaque A297515 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297515.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297516: Number of nX5 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 3 neighboring 1s. -/
+opaque A297516 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297516.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297517: Number of nX6 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 3 neighboring 1s. -/
+opaque A297517 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297517.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297518: Number of nX7 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 3 neighboring 1s. -/
+opaque A297518 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297518.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297519: T(n,k)=Number of nXk 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 3 neighboring 1s. -/
+opaque A297519 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297519.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297521: Number of 3Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 3 neighboring 1s. -/
+opaque A297521 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297521.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297522: Number of 4Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 3 neighboring 1s. -/
+opaque A297522 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297522.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297523: Number of 5Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 3 neighboring 1s. -/
+opaque A297523 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297523.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297524: Number of 6Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 3 neighboring 1s. -/
+opaque A297524 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297524.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297525: Number of 7Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 3 neighboring 1s. -/
+opaque A297525 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297525.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297526: Number of binary words w of length n such that the number of distinct blocks of length k that w contains is <= k+2 for all k. -/
+opaque A297526 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297526.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297529: Number of maximum matchings in the n-Mycielski graph. -/
+opaque A297529 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297529.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297531: Subword complexity (number of distinct blocks) of length n occurring in the "twisted" Thue-Morse sequence. -/
+opaque A297531 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297531.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297535: Number of maximum matchings in the n-Andrásfai graph. -/
+opaque A297535 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297535.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297537: Number of maximum independent vertex sets in the n-triangular honeycomb grid graph. -/
+opaque A297537 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297537.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297538: Number of n X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 or 3 neighboring 1's. -/
+opaque A297538 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297538.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297539: Number of nX3 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 or 3 neighboring 1s. -/
+opaque A297539 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297539.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297540: Number of nX4 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 or 3 neighboring 1s. -/
+opaque A297540 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297540.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297541: Number of nX5 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 or 3 neighboring 1s. -/
+opaque A297541 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297541.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297542: Number of nX6 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 or 3 neighboring 1s. -/
+opaque A297542 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297542.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297543: Number of nX7 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 or 3 neighboring 1s. -/
+opaque A297543 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297543.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297544: T(n,k)=Number of nXk 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 or 3 neighboring 1s. -/
+opaque A297544 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297544.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297545: Number of 2 X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 or 3 neighboring 1s. -/
+opaque A297545 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297545.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297546: Number of 3Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 or 3 neighboring 1s. -/
+opaque A297546 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297546.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297547: Number of 4Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 or 3 neighboring 1s. -/
+opaque A297547 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297547.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297548: Number of 5Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 or 3 neighboring 1s. -/
+opaque A297548 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297548.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297549: Number of 6Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 or 3 neighboring 1s. -/
+opaque A297549 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297549.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297550: Number of 7Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 or 3 neighboring 1s. -/
+opaque A297550 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297550.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297551: Rectangular array R by antidiagonals: row n shows the positive integers whose base-4 digits have total variation n, for n>=0. See Comments. -/
+opaque A297551 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297551.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297552: Rectangular array R by antidiagonals: row n shows the positive integers whose base-4 digits have down-variation n, for n>=0. See Comments. -/
+opaque A297552 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297552.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297553: Rectangular array R by antidiagonals: row n shows the positive integers whose base-4 digits have up-variation n, for n>=0. See Comments. -/
+opaque A297553 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297553.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297559: Number of maximum matchings in the n X n black bishop graph. -/
+opaque A297559 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297559.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297561: Number of maximum matchings in the n-folded cube graph. -/
+opaque A297561 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297561.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297562: Number of maximum matchings in the n-halved cube graph. -/
+opaque A297562 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297562.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297564: Number of maximum matchings in the n-Hanoi graph. -/
+opaque A297564 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297564.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297565: Number of maximum matchings in the n-triangular graph. -/
+opaque A297565 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297565.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297566: Number of maximum matchings in the n X n white bishop graph. -/
+opaque A297566 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297566.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297567: Number of nonisomorphic proper colorings of partition star graph using three colors. -/
+opaque A297567 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297567.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297568: Number of nonisomorphic proper colorings of partition star graph using four colors. -/
+opaque A297568 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297568.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297569: Number of nonisomorphic proper colorings of partition star graph using five colors. -/
+opaque A297569 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297569.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297570: Number of nonisomorphic proper colorings of partition star graph using six colors. -/
+opaque A297570 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297570.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297571: Matula-Goebel numbers of fully unbalanced rooted trees. -/
+opaque A297571 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297571.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297573: Least positive integer m such that m*n divides F(m+n), where F(k) denotes the k-th Fibonacci number A000045(k). -/
+opaque A297573 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297573.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297576: Number of n X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 4 neighboring 1's. -/
+opaque A297576 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297576.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297577: Number of n X 3 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 4 neighboring 1s. -/
+opaque A297577 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297577.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297578: Number of n X 4 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 4 neighboring 1s. -/
+opaque A297578 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297578.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297579: Number of nX5 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 4 neighboring 1s. -/
+opaque A297579 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297579.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297580: Number of nX6 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 4 neighboring 1s. -/
+opaque A297580 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297580.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297581: Number of nX7 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 4 neighboring 1s. -/
+opaque A297581 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297581.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297582: T(n,k)=Number of nXk 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 4 neighboring 1s. -/
+opaque A297582 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297582.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297584: Number of 3 X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 4 neighboring 1's. -/
+opaque A297584 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297584.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297585: Number of 4Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 4 neighboring 1s. -/
+opaque A297585 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297585.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297586: Number of 5Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 4 neighboring 1s. -/
+opaque A297586 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297586.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297587: Number of 6Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 4 neighboring 1s. -/
+opaque A297587 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297587.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297588: Number of 7Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 4 neighboring 1s. -/
+opaque A297588 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297588.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297589: Number of n X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 5 neighboring 1's. -/
+opaque A297589 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297589.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297590: Number of n X 3 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 5 neighboring 1s. -/
+opaque A297590 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297590.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297591: Number of n X 4 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 5 neighboring 1s. -/
+opaque A297591 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297591.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297592: Number of nX5 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 5 neighboring 1s. -/
+opaque A297592 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297592.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297593: Number of nX6 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 5 neighboring 1s. -/
+opaque A297593 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297593.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297594: Number of nX7 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 5 neighboring 1s. -/
+opaque A297594 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297594.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297595: T(n,k) = Number of n X k 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 5 neighboring 1s. -/
+opaque A297595 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297595.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297596: Number of 3 X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 5 neighboring 1s. -/
+opaque A297596 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297596.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297597: Number of 4Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 5 neighboring 1s. -/
+opaque A297597 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297597.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297598: Number of 5Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 5 neighboring 1s. -/
+opaque A297598 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297598.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297599: Number of 6Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 5 neighboring 1s. -/
+opaque A297599 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297599.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297600: Number of 7Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 5 neighboring 1s. -/
+opaque A297600 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297600.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297601: Number of n X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0, 1 or 3 neighboring 1's. -/
+opaque A297601 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297601.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297602: Number of nX3 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0, 1 or 3 neighboring 1s. -/
+opaque A297602 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297602.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297603: Number of nX4 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0, 1 or 3 neighboring 1s. -/
+opaque A297603 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297603.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297604: Number of nX5 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0, 1 or 3 neighboring 1s. -/
+opaque A297604 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297604.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297605: Number of nX6 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0, 1 or 3 neighboring 1s. -/
+opaque A297605 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297605.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297606: Number of nX7 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0, 1 or 3 neighboring 1s. -/
+opaque A297606 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297606.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297607: T(n,k)=Number of nXk 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0, 1 or 3 neighboring 1s. -/
+opaque A297607 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297607.provenance : SequenceMachineLib.Provenance := .undefined
+
+/-- A297609: Number of 3Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0, 1 or 3 neighboring 1s. -/
+opaque A297609 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A297609.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A297610: Number of 4Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0, 1 or 3 neighboring 1s. -/
 opaque A297610 : ℕ → ℤ
 
@@ -13139,12 +17075,6 @@ opaque A300362 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A300362.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A300364: Balanced primes of order thirteen. -/
-opaque A300364 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A300364.provenance : SequenceMachineLib.Provenance := .undefined
 
 /-- A300366: Number of n X n 0..1 arrays with every element equal to 2 or 3 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero. -/
 opaque A300366 : ℕ → ℤ
@@ -49272,6 +53202,12 @@ opaque A308738 : ℕ → ℤ
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A308738.provenance : SequenceMachineLib.Provenance := .undefined
 
+/-- A308739: Decimal expansion of BesselI(1/3,2/3)/BesselI(-2/3,2/3). -/
+opaque A308739 : ℕ → ℤ
+
+/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
+def A308739.provenance : SequenceMachineLib.Provenance := .undefined
+
 /-- A308745: Expansion of 1/(1 - x*(1 + x)/(1 - x^2*(1 + x^2)/(1 - x^3*(1 + x^3)/(1 - x^4*(1 + x^4)/(1 - ...))))), a continued fraction. -/
 opaque A308745 : ℕ → ℤ
 
@@ -56069,3940 +60005,4 @@ opaque A310322 : ℕ → ℤ
 
 /-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
 def A310322.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310323: Coordination sequence Gal.5.30.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310323 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310323.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310326: Coordination sequence Gal.4.23.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310326 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310326.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310329: Coordination sequence Gal.6.74.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310329 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310329.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310330: Coordination sequence Gal.6.73.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310330 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310330.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310333: Coordination sequence Gal.6.13.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310333 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310333.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310334: Coordination sequence Gal.6.52.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310334 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310334.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310335: Coordination sequence Gal.6.549.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310335 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310335.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310336: Coordination sequence Gal.5.250.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310336 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310336.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310337: Coordination sequence Gal.5.126.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310337 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310337.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310338: Coordination sequence Gal.6.481.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310338 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310338.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310339: Coordination sequence Gal.6.58.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310339 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310339.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310343: Coordination sequence Gal.6.366.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310343 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310343.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310344: Coordination sequence Gal.6.537.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310344 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310344.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310345: Coordination sequence Gal.6.536.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310345 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310345.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310347: Coordination sequence Gal.6.528.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310347 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310347.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310348: Coordination sequence Gal.5.264.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310348 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310348.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310351: Coordination sequence Gal.6.361.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310351 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310351.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310352: Coordination sequence Gal.6.358.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310352 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310352.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310353: Coordination sequence Gal.6.359.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310353 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310353.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310354: Coordination sequence Gal.6.384.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310354 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310354.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310356: Coordination sequence Gal.5.143.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310356 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310356.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310357: Coordination sequence Gal.5.205.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310357 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310357.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310359: Coordination sequence Gal.6.469.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310359 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310359.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310361: Coordination sequence Gal.5.265.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310361 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310361.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310362: Coordination sequence Gal.6.563.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310362 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310362.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310363: Coordination sequence Gal.6.501.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310363 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310363.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310364: Coordination sequence Gal.6.508.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310364 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310364.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310365: Coordination sequence Gal.6.34.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310365 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310365.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310366: Coordination sequence Gal.6.357.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310366 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310366.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310377: Coordination sequence Gal.6.318.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310377 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310377.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310382: Coordination sequence Gal.6.507.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310382 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310382.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310383: Coordination sequence Gal.6.466.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310383 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310383.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310384: Coordination sequence Gal.6.600.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310384 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310384.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310385: Coordination sequence Gal.5.266.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310385 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310385.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310386: Coordination sequence Gal.6.368.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310386 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310386.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310387: Coordination sequence Gal.6.588.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310387 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310387.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310388: Coordination sequence Gal.6.562.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310388 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310388.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310389: Coordination sequence Gal.3.46.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310389 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310389.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310390: Coordination sequence Gal.6.597.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310390 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310390.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310391: Coordination sequence Gal.3.45.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310391 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310391.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310394: Coordination sequence Gal.6.568.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310394 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310394.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310395: Coordination sequence Gal.6.548.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310395 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310395.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310399: Coordination sequence Gal.5.204.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310399 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310399.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310401: Coordination sequence Gal.6.570.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310401 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310401.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310402: Coordination sequence Gal.6.562.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310402 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310402.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310403: Coordination sequence Gal.6.606.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310403 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310403.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310406: Coordination sequence Gal.6.605.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310406 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310406.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310407: Coordination sequence Gal.4.129.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310407 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310407.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310414: Coordination sequence Gal.5.218.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310414 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310414.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310415: Coordination sequence Gal.6.493.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310415 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310415.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310417: Coordination sequence Gal.5.281.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310417 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310417.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310418: Coordination sequence Gal.3.43.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310418 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310418.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310424: Coordination sequence Gal.5.282.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310424 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310424.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310427: Coordination sequence Gal.6.566.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310427 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310427.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310428: Coordination sequence Gal.6.568.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310428 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310428.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310429: Coordination sequence Gal.6.473.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310429 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310429.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310431: Coordination sequence Gal.4.98.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310431 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310431.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310432: Coordination sequence Gal.6.464.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310432 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310432.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310433: Coordination sequence Gal.4.107.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310433 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310433.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310434: Coordination sequence Gal.6.563.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310434 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310434.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310435: Coordination sequence Gal.6.474.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310435 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310435.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310436: Coordination sequence Gal.6.557.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310436 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310436.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310437: Coordination sequence Gal.5.203.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310437 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310437.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310443: Coordination sequence Gal.6.471.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310443 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310443.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310445: Coordination sequence Gal.6.475.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310445 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310445.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310447: Coordination sequence Gal.6.491.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310447 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310447.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310448: Coordination sequence Gal.6.561.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310448 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310448.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310451: Coordination sequence Gal.6.485.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310451 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310451.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310453: Coordination sequence Gal.6.268.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310453 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310453.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310460: Coordination sequence Gal.6.488.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310460 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310460.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310463: Coordination sequence Gal.4.102.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310463 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310463.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310467: Coordination sequence Gal.5.216.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310467 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310467.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310473: Coordination sequence Gal.6.608.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310473 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310473.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310474: Coordination sequence Gal.6.607.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310474 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310474.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310476: Coordination sequence Gal.6.471.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310476 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310476.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310477: Coordination sequence Gal.6.365.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310477 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310477.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310478: Coordination sequence Gal.6.267.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310478 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310478.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310479: Coordination sequence Gal.6.467.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310479 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310479.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310480: Coordination sequence Gal.5.260.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310480 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310480.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310481: Coordination sequence Gal.6.336.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310481 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310481.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310482: Coordination sequence Gal.6.335.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310482 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310482.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310483: Coordination sequence Gal.6.564.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310483 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310483.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310486: Coordination sequence Gal.5.220.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310486 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310486.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310487: Coordination sequence Gal.6.565.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310487 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310487.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310489: Coordination sequence Gal.4.127.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310489 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310489.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310494: Coordination sequence Gal.4.126.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310494 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310494.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310495: Coordination sequence Gal.4.57.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310495 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310495.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310497: Coordination sequence Gal.6.472.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310497 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310497.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310500: Coordination sequence Gal.6.475.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310500 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310500.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310506: Coordination sequence Gal.5.258.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310506 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310506.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310508: Coordination sequence Gal.4.123.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310508 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310508.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310514: Coordination sequence Gal.6.595.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310514 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310514.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310515: Coordination sequence Gal.6.598.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310515 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310515.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310516: Coordination sequence Gal.6.599.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310516 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310516.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310519: Coordination sequence Gal.3.37.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310519 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310519.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310522: Coordination sequence Gal.5.257.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310522 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310522.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310527: Coordination sequence Gal.6.556.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310527 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310527.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310528: Coordination sequence Gal.5.215.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310528 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310528.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310534: Coordination sequence Gal.4.104.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310534 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310534.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310535: Coordination sequence Gal.6.603.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310535 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310535.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310537: Coordination sequence Gal.6.484.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310537 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310537.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310539: Coordination sequence Gal.6.486.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310539 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310539.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310540: Coordination sequence Gal.6.487.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310540 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310540.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310541: Coordination sequence Gal.4.103.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310541 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310541.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310542: Coordination sequence Gal.5.214.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310542 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310542.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310543: Coordination sequence Gal.3.44.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310543 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310543.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310544: Coordination sequence Gal.6.594.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310544 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310544.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310547: Coordination sequence Gal.6.212.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310547 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310547.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310548: Coordination sequence Gal.6.211.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310548 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310548.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310549: Coordination sequence Gal.6.336.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310549 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310549.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310550: Coordination sequence Gal.6.335.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310550 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310550.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310551: Coordination sequence Gal.5.278.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310551 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310551.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310552: Coordination sequence Gal.5.277.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310552 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310552.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310553: Coordination sequence Gal.5.284.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310553 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310553.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310554: Coordination sequence Gal.5.283.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310554 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310554.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310556: Coordination sequence Gal.5.279.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310556 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310556.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310558: Coordination sequence Gal.6.363.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310558 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310558.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310559: Coordination sequence Gal.4.79.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310559 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310559.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310560: Coordination sequence Gal.6.362.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310560 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310560.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310561: Coordination sequence Gal.6.364.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310561 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310561.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310562: Coordination sequence Gal.6.371.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310562 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310562.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310563: Coordination sequence Gal.5.145.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310563 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310563.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310566: Coordination sequence Gal.5.144.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310566 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310566.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310567: Coordination sequence Gal.6.369.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310567 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310567.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310568: Coordination sequence Gal.6.370.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310568 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310568.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310573: Coordination sequence Gal.4.33.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310573 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310573.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310577: Coordination sequence Gal.6.42.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310577 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310577.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310578: Coordination sequence Gal.5.4.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310578 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310578.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310582: Coordination sequence Gal.6.70.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310582 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310582.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310583: Coordination sequence Gal.6.6.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310583 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310583.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310586: Coordination sequence Gal.5.49.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310586 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310586.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310588: Coordination sequence Gal.6.112.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310588 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310588.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310590: Coordination sequence Gal.6.67.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310590 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310590.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310591: Coordination sequence Gal.6.102.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310591 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310591.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310592: Coordination sequence Gal.6.10.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310592 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310592.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310596: Coordination sequence Gal.6.33.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310596 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310596.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310597: Coordination sequence Gal.5.8.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310597 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310597.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310598: Coordination sequence Gal.6.23.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310598 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310598.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310599: Coordination sequence Gal.5.31.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310599 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310599.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310601: Coordination sequence Gal.6.32.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310601 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310601.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310603: Coordination sequence Gal.6.419.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310603 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310603.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310604: Coordination sequence Gal.6.529.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310604 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310604.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310605: Coordination sequence Gal.6.402.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310605 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310605.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310607: Coordination sequence Gal.6.419.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310607 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310607.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310611: Coordination sequence Gal.6.402.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310611 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310611.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310612: Coordination sequence Gal.6.288.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310612 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310612.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310614: Coordination sequence Gal.5.162.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310614 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310614.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310615: Coordination sequence Gal.6.183.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310615 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310615.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310616: Coordination sequence Gal.6.274.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310616 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310616.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310617: Coordination sequence Gal.6.167.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310617 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310617.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310619: Coordination sequence Gal.6.546.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310619 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310619.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310620: Coordination sequence Gal.4.89.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310620 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310620.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310621: Coordination sequence Gal.6.435.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310621 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310621.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310622: Coordination sequence Gal.4.117.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310622 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310622.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310623: Coordination sequence Gal.6.519.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310623 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310623.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310624: Coordination sequence Gal.5.121.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310624 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310624.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310627: Coordination sequence Gal.4.86.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310627 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310627.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310628: Coordination sequence Gal.5.78.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310628 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310628.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310629: Coordination sequence Gal.5.118.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310629 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310629.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310630: Coordination sequence Gal.6.422.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310630 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310630.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310631: Coordination sequence Gal.6.242.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310631 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310631.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310632: Coordination sequence Gal.5.73.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310632 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310632.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310633: Coordination sequence Gal.6.146.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310633 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310633.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310634: Coordination sequence Gal.6.237.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310634 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310634.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310635: Coordination sequence Gal.6.139.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310635 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310635.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310636: Coordination sequence Gal.6.431.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310636 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310636.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310637: Coordination sequence Gal.6.405.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310637 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310637.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310638: Coordination sequence Gal.6.517.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310638 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310638.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310641: Coordination sequence Gal.6.528.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310641 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310641.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310642: Coordination sequence Gal.6.552.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310642 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310642.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310643: Coordination sequence Gal.6.551.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310643 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310643.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310644: Coordination sequence Gal.6.532.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310644 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310644.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310645: Coordination sequence Gal.6.531.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310645 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310645.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310646: Coordination sequence Gal.5.245.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310646 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310646.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310647: Coordination sequence Gal.6.533.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310647 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310647.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310649: Coordination sequence Gal.5.254.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310649 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310649.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310654: Coordination sequence Gal.6.95.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310654 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310654.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310656: Coordination sequence Gal.4.30.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310656 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310656.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310658: Coordination sequence Gal.4.31.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310658 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310658.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310660: Coordination sequence Gal.4.32.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310660 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310660.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310661: Coordination sequence Gal.3.7.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310661 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310661.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310662: Coordination sequence Gal.5.42.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310662 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310662.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310664: Coordination sequence Gal.3.8.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310664 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310664.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310668: Coordination sequence Gal.4.30.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310668 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310668.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310670: Coordination sequence Gal.4.36.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310670 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310670.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310671: Coordination sequence Gal.4.37.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310671 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310671.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310673: Coordination sequence Gal.6.109.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310673 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310673.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310675: Coordination sequence Gal.6.109.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310675 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310675.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310676: Coordination sequence Gal.6.109.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310676 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310676.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310677: Coordination sequence Gal.6.99.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310677 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310677.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310678: Coordination sequence Gal.6.84.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310678 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310678.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310679: Coordination sequence Gal.6.42.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310679 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310679.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310680: Coordination sequence Gal.5.4.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310680 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310680.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310681: Coordination sequence Gal.6.99.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310681 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310681.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310684: Coordination sequence Gal.6.84.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310684 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310684.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310685: Coordination sequence Gal.6.31.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310685 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310685.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310686: Coordination sequence Gal.4.81.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310686 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310686.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310687: Coordination sequence Gal.3.5.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310687 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310687.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310688: Coordination sequence Gal.6.102.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310688 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310688.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310689: Coordination sequence Gal.5.36.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310689 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310689.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310690: Coordination sequence Gal.4.25.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310690 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310690.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310691: Coordination sequence Gal.4.81.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310691 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310691.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310692: Coordination sequence Gal.4.26.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310692 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310692.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310695: Coordination sequence Gal.6.87.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310695 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310695.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310696: Coordination sequence Gal.6.81.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310696 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310696.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310697: Coordination sequence Gal.6.103.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310697 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310697.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310698: Coordination sequence Gal.6.2.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310698 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310698.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310699: Coordination sequence Gal.6.38.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310699 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310699.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310700: Coordination sequence Gal.5.2.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310700 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310700.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310701: Coordination sequence Gal.6.31.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310701 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310701.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310702: Coordination sequence Gal.4.2.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310702 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310702.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310703: Coordination sequence Gal.5.17.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310703 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310703.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310705: Coordination sequence Gal.6.70.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310705 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310705.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310706: Coordination sequence Gal.5.207.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310706 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310706.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310707: Coordination sequence Gal.6.8.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310707 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310707.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310708: Coordination sequence Gal.6.69.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310708 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310708.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310709: Coordination sequence Gal.6.51.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310709 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310709.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310710: Coordination sequence Gal.4.4.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310710 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310710.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310711: Coordination sequence Gal.6.16.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310711 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310711.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310712: Coordination sequence Gal.6.612.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310712 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310712.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310715: Coordination sequence Gal.6.40.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310715 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310715.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310716: Coordination sequence Gal.5.24.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310716 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310716.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310717: Coordination sequence Gal.6.59.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310717 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310717.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310718: Coordination sequence Gal.6.61.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310718 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310718.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310721: Coordination sequence Gal.5.287.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310721 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310721.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310722: Coordination sequence Gal.6.6.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310722 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310722.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310723: Coordination sequence Gal.6.84.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310723 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310723.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310725: Coordination sequence Gal.5.19.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310725 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310725.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310726: Coordination sequence Gal.6.1.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310726 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310726.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310727: Coordination sequence Gal.6.37.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310727 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310727.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310728: Coordination sequence Gal.4.27.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310728 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310728.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310729: Coordination sequence Gal.5.1.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310729 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310729.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310730: Coordination sequence Gal.6.104.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310730 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310730.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310731: Coordination sequence Gal.6.105.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310731 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310731.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310732: Coordination sequence Gal.5.16.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310732 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310732.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310733: Coordination sequence Gal.6.51.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310733 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310733.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310734: Coordination sequence Gal.6.69.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310734 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310734.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310735: Coordination sequence Gal.6.8.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310735 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310735.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310736: Coordination sequence Gal.5.34.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310736 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310736.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310737: Coordination sequence Gal.3.35.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310737 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310737.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310738: Coordination sequence Gal.6.83.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310738 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310738.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310739: Coordination sequence Gal.6.26.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310739 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310739.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310740: Coordination sequence Gal.4.3.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310740 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310740.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310741: Coordination sequence Gal.4.21.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310741 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310741.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310742: Coordination sequence Gal.6.9.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310742 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310742.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310743: Coordination sequence Gal.6.5.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310743 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310743.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310745: Coordination sequence Gal.4.7.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310745 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310745.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310746: Coordination sequence Gal.6.41.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310746 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310746.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310747: Coordination sequence Gal.6.32.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310747 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310747.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310748: Coordination sequence Gal.6.47.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310748 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310748.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310749: Coordination sequence Gal.6.13.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310749 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310749.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310750: Coordination sequence Gal.6.481.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310750 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310750.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310751: Coordination sequence Gal.6.82.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310751 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310751.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310752: Coordination sequence Gal.6.14.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310752 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310752.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310754: Coordination sequence Gal.6.66.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310754 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310754.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310755: Coordination sequence Gal.5.217.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310755 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310755.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310757: Coordination sequence Gal.6.317.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310757 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310757.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310758: Coordination sequence Gal.6.16.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310758 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310758.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310760: Coordination sequence Gal.3.4.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310760 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310760.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310761: Coordination sequence Gal.6.71.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310761 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310761.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310762: Coordination sequence Gal.5.27.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310762 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310762.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310763: Coordination sequence Gal.4.19.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310763 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310763.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310764: Coordination sequence Gal.4.8.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310764 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310764.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310765: Coordination sequence Gal.5.7.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310765 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310765.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310766: Coordination sequence Gal.6.613.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310766 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310766.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310767: Coordination sequence Gal.6.79.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310767 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310767.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310768: Coordination sequence Gal.5.22.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310768 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310768.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310769: Coordination sequence Gal.3.1.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310769 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310769.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310770: Coordination sequence Gal.6.67.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310770 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310770.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310771: Coordination sequence Gal.6.9.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310771 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310771.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310772: Coordination sequence Gal.5.94.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310772 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310772.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310773: Coordination sequence Gal.5.25.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310773 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310773.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310774: Coordination sequence Gal.6.7.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310774 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310774.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310775: Coordination sequence Gal.6.26.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310775 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310775.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310776: Coordination sequence Gal.5.27.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310776 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310776.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310777: Coordination sequence Gal.6.71.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310777 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310777.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310778: Coordination sequence Gal.6.67.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310778 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310778.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310779: Coordination sequence Gal.6.66.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310779 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310779.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310780: Coordination sequence Gal.5.9.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310780 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310780.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310781: Coordination sequence Gal.6.64.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310781 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310781.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310782: Coordination sequence Gal.4.18.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310782 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310782.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310783: Coordination sequence Gal.4.111.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310783 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310783.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310785: Coordination sequence Gal.6.64.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310785 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310785.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310786: Coordination sequence Gal.5.26.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310786 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310786.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310787: Coordination sequence Gal.6.52.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310787 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310787.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310788: Coordination sequence Gal.4.22.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310788 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310788.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310789: Coordination sequence Gal.6.480.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310789 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310789.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310790: Coordination sequence Gal.6.53.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310790 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310790.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310791: Coordination sequence Gal.6.15.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310791 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310791.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310792: Coordination sequence Gal.5.23.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310792 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310792.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310795: Coordination sequence Gal.5.31.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310795 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310795.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310796: Coordination sequence Gal.5.24.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310796 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310796.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310797: Coordination sequence Gal.6.419.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310797 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310797.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310798: Coordination sequence Gal.5.172.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310798 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310798.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310799: Coordination sequence Gal.4.89.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310799 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310799.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310800: Coordination sequence Gal.6.435.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310800 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310800.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310801: Coordination sequence Gal.4.21.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310801 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310801.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310802: Coordination sequence Gal.6.78.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310802 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310802.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310803: Coordination sequence Gal.6.59.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310803 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310803.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310804: Coordination sequence Gal.6.66.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310804 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310804.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310805: Coordination sequence Gal.5.25.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310805 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310805.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310806: Coordination sequence Gal.3.31.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310806 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310806.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310807: Coordination sequence Gal.5.173.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310807 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310807.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310808: Coordination sequence Gal.5.182.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310808 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310808.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310809: Coordination sequence Gal.6.286.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310809 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310809.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310810: Coordination sequence Gal.6.420.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310810 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310810.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310811: Coordination sequence Gal.5.161.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310811 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310811.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310812: Coordination sequence Gal.6.181.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310812 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310812.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310813: Coordination sequence Gal.6.272.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310813 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310813.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310814: Coordination sequence Gal.6.438.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310814 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310814.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310815: Coordination sequence Gal.6.165.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310815 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310815.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310816: Coordination sequence Gal.6.394.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310816 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310816.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310817: Coordination sequence Gal.6.504.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310817 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310817.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310818: Coordination sequence Gal.6.60.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310818 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310818.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310819: Coordination sequence Gal.5.233.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310819 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310819.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310820: Coordination sequence Gal.6.505.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310820 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310820.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310821: Coordination sequence Gal.6.24.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310821 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310821.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310823: Coordination sequence Gal.6.511.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310823 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310823.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310824: Coordination sequence Gal.6.54.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310824 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310824.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310825: Coordination sequence Gal.6.511.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310825 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310825.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310826: Coordination sequence Gal.6.288.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310826 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310826.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310828: Coordination sequence Gal.5.121.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310828 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310828.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310829: Coordination sequence Gal.6.26.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310829 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310829.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310830: Coordination sequence Gal.6.183.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310830 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310830.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310831: Coordination sequence Gal.5.78.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310831 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310831.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310832: Coordination sequence Gal.6.529.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310832 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310832.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310833: Coordination sequence Gal.6.402.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310833 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310833.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310834: Coordination sequence Gal.5.238.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310834 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310834.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310835: Coordination sequence Gal.5.162.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310835 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310835.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310836: Coordination sequence Gal.6.274.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310836 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310836.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310837: Coordination sequence Gal.6.167.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310837 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310837.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310838: Coordination sequence Gal.6.242.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310838 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310838.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310839: Coordination sequence Gal.6.146.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310839 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310839.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310840: Coordination sequence Gal.4.117.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310840 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310840.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310841: Coordination sequence Gal.4.86.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310841 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310841.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310842: Coordination sequence Gal.6.139.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310842 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310842.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310843: Coordination sequence Gal.6.237.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310843 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310843.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310844: Coordination sequence Gal.5.73.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310844 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310844.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310845: Coordination sequence Gal.5.118.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310845 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310845.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310846: Coordination sequence Gal.6.519.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310846 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310846.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310847: Coordination sequence Gal.6.286.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310847 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310847.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310848: Coordination sequence Gal.6.289.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310848 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310848.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310849: Coordination sequence Gal.4.70.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310849 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310849.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310850: Coordination sequence Gal.6.287.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310850 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310850.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310851: Coordination sequence Gal.6.304.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310851 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310851.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310852: Coordination sequence Gal.6.431.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310852 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310852.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310853: Coordination sequence Gal.6.72.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310853 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310853.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310854: Coordination sequence Gal.6.61.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310854 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310854.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310855: Coordination sequence Gal.6.181.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310855 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310855.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310856: Coordination sequence Gal.6.516.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310856 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310856.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310857: Coordination sequence Gal.5.244.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310857 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310857.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310858: Coordination sequence Gal.6.530.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310858 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310858.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310859: Coordination sequence Gal.6.165.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310859 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310859.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310860: Coordination sequence Gal.6.272.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310860 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310860.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310861: Coordination sequence Gal.6.184.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310861 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310861.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310863: Coordination sequence Gal.6.182.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310863 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310863.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310864: Coordination sequence Gal.4.50.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310864 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310864.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310865: Coordination sequence Gal.5.173.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310865 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310865.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310866: Coordination sequence Gal.6.519.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310866 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310866.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310867: Coordination sequence Gal.6.168.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310867 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310867.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310868: Coordination sequence Gal.6.275.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310868 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310868.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310869: Coordination sequence Gal.5.163.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310869 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310869.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310870: Coordination sequence Gal.5.107.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310870 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310870.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310871: Coordination sequence Gal.6.287.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310871 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310871.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310872: Coordination sequence Gal.3.39.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310872 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310872.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310873: Coordination sequence Gal.6.403.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310873 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310873.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310874: Coordination sequence Gal.6.166.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310874 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310874.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310875: Coordination sequence Gal.6.273.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310875 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310875.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310876: Coordination sequence Gal.5.62.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310876 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310876.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310877: Coordination sequence Gal.6.228.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310877 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310877.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310878: Coordination sequence Gal.6.127.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310878 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310878.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310879: Coordination sequence Gal.6.123.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310879 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310879.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310880: Coordination sequence Gal.6.224.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310880 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310880.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310881: Coordination sequence Gal.5.58.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310881 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310881.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310882: Coordination sequence Gal.5.103.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310882 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310882.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310883: Coordination sequence Gal.4.46.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310883 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310883.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310884: Coordination sequence Gal.4.66.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310884 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310884.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310885: Coordination sequence Gal.3.29.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310885 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310885.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310886: Coordination sequence Gal.6.182.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310886 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310886.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310887: Coordination sequence Gal.6.273.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310887 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310887.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310888: Coordination sequence Gal.6.166.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310888 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310888.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310890: Coordination sequence Gal.6.289.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310890 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310890.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310891: Coordination sequence Gal.5.163.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310891 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310891.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310892: Coordination sequence Gal.6.299.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310892 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310892.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310893: Coordination sequence Gal.6.184.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310893 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310893.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310894: Coordination sequence Gal.6.275.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310894 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310894.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310895: Coordination sequence Gal.6.168.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310895 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310895.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310896: Coordination sequence Gal.6.434.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310896 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310896.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310897: Coordination sequence Gal.6.414.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310897 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310897.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310898: Coordination sequence Gal.5.180.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310898 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310898.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310899: Coordination sequence Gal.6.397.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310899 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310899.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310900: Coordination sequence Gal.6.422.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310900 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310900.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310901: Coordination sequence Gal.4.22.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310901 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310901.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310902: Coordination sequence Gal.6.405.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310902 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310902.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310903: Coordination sequence Gal.6.420.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310903 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310903.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310904: Coordination sequence Gal.6.534.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310904 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310904.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310905: Coordination sequence Gal.4.114.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310905 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310905.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310906: Coordination sequence Gal.6.403.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310906 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310906.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310907: Coordination sequence Gal.5.239.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310907 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310907.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310908: Coordination sequence Gal.6.520.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310908 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310908.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310909: Coordination sequence Gal.6.404.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310909 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310909.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310910: Coordination sequence Gal.6.535.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310910 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310910.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310911: Coordination sequence Gal.6.311.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310911 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310911.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310912: Coordination sequence Gal.6.550.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310912 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310912.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310913: Coordination sequence Gal.6.549.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310913 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310913.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310914: Coordination sequence Gal.5.174.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310914 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310914.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310915: Coordination sequence Gal.5.165.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310915 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310915.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310916: Coordination sequence Gal.6.292.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310916 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310916.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310917: Coordination sequence Gal.6.278.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310917 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310917.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310918: Coordination sequence Gal.6.187.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310918 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310918.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310919: Coordination sequence Gal.6.171.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310919 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310919.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310920: Coordination sequence Gal.6.521.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310920 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310920.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310921: Coordination sequence Gal.6.518.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310921 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310921.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310922: Coordination sequence Gal.6.445.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310922 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310922.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310923: Coordination sequence Gal.6.457.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310923 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310923.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310924: Coordination sequence Gal.6.444.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310924 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310924.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310925: Coordination sequence Gal.6.443.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310925 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310925.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310926: Coordination sequence Gal.5.187.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310926 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310926.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310927: Coordination sequence Gal.6.446.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310927 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310927.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310928: Coordination sequence Gal.5.30.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310928 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310928.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310930: Coordination sequence Gal.5.43.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310930 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310930.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310933: Coordination sequence Gal.5.42.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310933 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310933.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310934: Coordination sequence Gal.6.86.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310934 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310934.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310936: Coordination sequence Gal.3.7.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310936 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310936.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310937: Coordination sequence Gal.4.31.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310937 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310937.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310943: Coordination sequence Gal.5.41.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310943 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310943.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310944: Coordination sequence Gal.5.40.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310944 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310944.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310945: Coordination sequence Gal.4.28.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310945 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310945.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310946: Coordination sequence Gal.4.29.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310946 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310946.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310947: Coordination sequence Gal.6.90.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310947 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310947.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310948: Coordination sequence Gal.6.91.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310948 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310948.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310949: Coordination sequence Gal.5.42.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310949 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310949.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310951: Coordination sequence Gal.6.93.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310951 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310951.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310952: Coordination sequence Gal.6.95.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310952 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310952.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310953: Coordination sequence Gal.4.34.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310953 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310953.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310954: Coordination sequence Gal.6.98.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310954 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310954.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310958: Coordination sequence Gal.6.48.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310958 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310958.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310959: Coordination sequence Gal.6.50.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310959 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310959.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310960: Coordination sequence Gal.4.1.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310960 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310960.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310961: Coordination sequence Gal.4.35.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310961 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310961.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310965: Coordination sequence Gal.6.49.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310965 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310965.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310966: Coordination sequence Gal.4.17.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310966 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310966.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310969: Coordination sequence Gal.6.90.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310969 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310969.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310970: Coordination sequence Gal.6.109.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310970 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310970.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310971: Coordination sequence Gal.6.91.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310971 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310971.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310972: Coordination sequence Gal.6.110.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310972 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310972.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310973: Coordination sequence Gal.6.94.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310973 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310973.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310974: Coordination sequence Gal.6.92.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310974 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310974.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310975: Coordination sequence Gal.5.37.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310975 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310975.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310976: Coordination sequence Gal.5.38.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310976 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310976.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310977: Coordination sequence Gal.6.99.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310977 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310977.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310978: Coordination sequence Gal.6.104.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310978 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310978.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310979: Coordination sequence Gal.5.48.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310979 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310979.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310980: Coordination sequence Gal.6.100.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310980 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310980.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310981: Coordination sequence Gal.6.101.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310981 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310981.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310984: Coordination sequence Gal.6.114.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310984 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310984.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310986: Coordination sequence Gal.6.43.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310986 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310986.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310987: Coordination sequence Gal.5.5.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310987 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310987.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310988: Coordination sequence Gal.4.16.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310988 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310988.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310989: Coordination sequence Gal.6.2.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310989 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310989.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310990: Coordination sequence Gal.6.38.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310990 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310990.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310991: Coordination sequence Gal.5.2.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310991 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310991.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310992: Coordination sequence Gal.5.17.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310992 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310992.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310994: Coordination sequence Gal.6.51.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310994 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310994.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310995: Coordination sequence Gal.6.69.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310995 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310995.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310996: Coordination sequence Gal.4.4.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310996 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310996.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310997: Coordination sequence Gal.6.26.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310997 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310997.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310998: Coordination sequence Gal.4.21.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310998 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310998.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A310999: Coordination sequence Gal.4.7.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A310999 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A310999.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311000: Coordination sequence Gal.6.16.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311000 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311000.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311001: Coordination sequence Gal.6.70.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311001 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311001.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311002: Coordination sequence Gal.3.3.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311002 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311002.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311003: Coordination sequence Gal.6.492.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311003 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311003.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311004: Coordination sequence Gal.5.28.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311004 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311004.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311005: Coordination sequence Gal.5.27.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311005 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311005.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311006: Coordination sequence Gal.6.71.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311006 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311006.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311007: Coordination sequence Gal.4.19.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311007 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311007.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311010: Coordination sequence Gal.5.13.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311010 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311010.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311018: Coordination sequence Gal.6.99.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311018 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311018.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311019: Coordination sequence Gal.6.492.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311019 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311019.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311021: Coordination sequence Gal.6.97.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311021 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311021.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311022: Coordination sequence Gal.5.36.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311022 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311022.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311023: Coordination sequence Gal.4.25.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311023 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311023.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311024: Coordination sequence Gal.3.35.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311024 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311024.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311025: Coordination sequence Gal.5.49.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311025 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311025.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311026: Coordination sequence Gal.6.481.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311026 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311026.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311029: Coordination sequence Gal.6.112.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311029 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311029.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311030: Coordination sequence Gal.5.36.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311030 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311030.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311031: Coordination sequence Gal.6.114.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311031 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311031.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311032: Coordination sequence Gal.6.10.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311032 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311032.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311033: Coordination sequence Gal.5.19.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311033 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311033.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311034: Coordination sequence Gal.6.1.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311034 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311034.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311035: Coordination sequence Gal.6.87.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311035 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311035.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311036: Coordination sequence Gal.6.37.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311036 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311036.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311037: Coordination sequence Gal.5.1.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311037 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311037.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311038: Coordination sequence Gal.6.87.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311038 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311038.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311039: Coordination sequence Gal.6.81.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311039 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311039.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311040: Coordination sequence Gal.5.16.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311040 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311040.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311041: Coordination sequence Gal.6.492.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311041 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311041.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311042: Coordination sequence Gal.4.11.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311042 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311042.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311043: Coordination sequence Gal.6.113.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311043 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311043.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311044: Coordination sequence Gal.4.3.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311044 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311044.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311045: Coordination sequence Gal.5.207.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311045 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311045.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311046: Coordination sequence Gal.6.47.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311046 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311046.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311047: Coordination sequence Gal.5.213.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311047 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311047.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311048: Coordination sequence Gal.6.614.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311048 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311048.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311050: Coordination sequence Gal.6.13.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311050 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311050.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311051: Coordination sequence Gal.6.32.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311051 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311051.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311052: Coordination sequence Gal.6.14.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311052 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311052.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311053: Coordination sequence Gal.6.317.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311053 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311053.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311054: Coordination sequence Gal.5.94.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311054 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311054.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311055: Coordination sequence Gal.4.9.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311055 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311055.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311056: Coordination sequence Gal.6.64.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311056 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311056.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311057: Coordination sequence Gal.4.18.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311057 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311057.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311058: Coordination sequence Gal.6.7.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311058 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311058.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311059: Coordination sequence Gal.6.88.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311059 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311059.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311060: Coordination sequence Gal.5.33.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311060 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311060.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311061: Coordination sequence Gal.6.4.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311061 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311061.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311062: Coordination sequence Gal.6.40.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311062 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311062.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311063: Coordination sequence Gal.6.52.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311063 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311063.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311064: Coordination sequence Gal.4.8.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311064 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311064.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311065: Coordination sequence Gal.5.6.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311065 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311065.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311066: Coordination sequence Gal.6.53.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311066 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311066.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311067: Coordination sequence Gal.6.79.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311067 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311067.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311068: Coordination sequence Gal.6.20.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311068 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311068.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311069: Coordination sequence Gal.6.468.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311069 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311069.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311070: Coordination sequence Gal.6.22.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311070 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311070.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311071: Coordination sequence Gal.6.58.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311071 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311071.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311072: Coordination sequence Gal.6.504.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311072 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311072.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311073: Coordination sequence Gal.6.60.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311073 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311073.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311074: Coordination sequence Gal.5.22.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311074 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311074.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311075: Coordination sequence Gal.6.72.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311075 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311075.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311079: Coordination sequence Gal.5.36.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311079 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311079.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311080: Coordination sequence Gal.6.13.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311080 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311080.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311083: Coordination sequence Gal.5.9.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311083 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311083.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311084: Coordination sequence Gal.6.52.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311084 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311084.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311085: Coordination sequence Gal.6.33.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311085 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311085.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311086: Coordination sequence Gal.6.87.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311086 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311086.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311087: Coordination sequence Gal.6.87.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311087 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311087.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311089: Coordination sequence Gal.6.81.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311089 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311089.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311090: Coordination sequence Gal.6.67.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311090 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311090.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311091: Coordination sequence Gal.6.83.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311091 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311091.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311092: Coordination sequence Gal.6.3.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311092 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311092.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311093: Coordination sequence Gal.6.39.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311093 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311093.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311094: Coordination sequence Gal.6.32.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311094 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311094.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311095: Coordination sequence Gal.5.217.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311095 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311095.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311096: Coordination sequence Gal.5.3.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311096 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311096.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311097: Coordination sequence Gal.6.14.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311097 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311097.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311098: Coordination sequence Gal.5.35.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311098 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311098.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311099: Coordination sequence Gal.6.480.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311099 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311099.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311100: Coordination sequence Gal.5.25.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311100 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311100.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311102: Coordination sequence Gal.3.48.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311102 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311102.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311103: Coordination sequence Gal.5.18.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311103 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311103.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311104: Coordination sequence Gal.6.53.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311104 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311104.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311105: Coordination sequence Gal.6.61.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311105 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311105.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311106: Coordination sequence Gal.6.481.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311106 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311106.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311107: Coordination sequence Gal.4.6.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311107 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311107.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311108: Coordination sequence Gal.6.612.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311108 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311108.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311109: Coordination sequence Gal.5.26.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311109 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311109.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311110: Coordination sequence Gal.5.28.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311110 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311110.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311111: Coordination sequence Gal.4.10.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311111 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311111.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311112: Coordination sequence Gal.6.613.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311112 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311112.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311113: Coordination sequence Gal.6.505.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311113 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311113.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311114: Coordination sequence Gal.4.22.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311114 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311114.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311115: Coordination sequence Gal.4.6.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311115 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311115.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311116: Coordination sequence Gal.4.23.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311116 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311116.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311119: Coordination sequence Gal.6.4.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311119 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311119.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311120: Coordination sequence Gal.6.40.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311120 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311120.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311121: Coordination sequence Gal.5.6.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311121 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311121.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311122: Coordination sequence Gal.6.81.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311122 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311122.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311123: Coordination sequence Gal.5.22.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311123 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311123.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311124: Coordination sequence Gal.6.89.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311124 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311124.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311126: Coordination sequence Gal.6.402.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311126 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311126.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311127: Coordination sequence Gal.6.529.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311127 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311127.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311128: Coordination sequence Gal.6.183.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311128 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311128.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311129: Coordination sequence Gal.6.167.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311129 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311129.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311130: Coordination sequence Gal.6.288.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311130 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311130.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311131: Coordination sequence Gal.6.274.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311131 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311131.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311132: Coordination sequence Gal.5.172.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311132 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311132.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311133: Coordination sequence Gal.6.288.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311133 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311133.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311134: Coordination sequence Gal.6.183.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311134 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311134.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311135: Coordination sequence Gal.6.167.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311135 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311135.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311136: Coordination sequence Gal.6.274.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311136 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311136.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311137: Coordination sequence Gal.5.162.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311137 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311137.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311138: Coordination sequence Gal.6.146.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311138 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311138.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311139: Coordination sequence Gal.6.139.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311139 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311139.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311140: Coordination sequence Gal.6.435.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311140 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311140.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311141: Coordination sequence Gal.5.238.5 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311141 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311141.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311142: Coordination sequence Gal.6.242.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311142 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311142.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311143: Coordination sequence Gal.6.237.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311143 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311143.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311144: Coordination sequence Gal.6.459.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311144 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311144.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311145: Coordination sequence Gal.6.146.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311145 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311145.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311146: Coordination sequence Gal.6.139.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311146 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311146.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311147: Coordination sequence Gal.6.242.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311147 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311147.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311148: Coordination sequence Gal.6.237.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311148 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311148.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311149: Coordination sequence Gal.6.127.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311149 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311149.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311150: Coordination sequence Gal.6.123.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311150 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311150.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311151: Coordination sequence Gal.5.78.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311151 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311151.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311152: Coordination sequence Gal.5.73.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311152 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311152.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311153: Coordination sequence Gal.5.121.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311153 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311153.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311154: Coordination sequence Gal.6.228.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311154 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311154.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311155: Coordination sequence Gal.6.224.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311155 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311155.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311156: Coordination sequence Gal.5.118.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311156 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311156.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311158: Coordination sequence Gal.6.480.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311158 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311158.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311160: Coordination sequence Gal.6.116.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311160 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311160.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311161: Coordination sequence Gal.6.383.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311161 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311161.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311162: Coordination sequence Gal.6.127.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311162 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311162.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311163: Coordination sequence Gal.6.123.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311163 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311163.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311164: Coordination sequence Gal.5.121.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311164 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311164.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311166: Coordination sequence Gal.6.242.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311166 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311166.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311167: Coordination sequence Gal.6.146.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311167 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311167.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311168: Coordination sequence Gal.6.139.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311168 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311168.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311169: Coordination sequence Gal.6.237.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311169 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311169.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311170: Coordination sequence Gal.6.228.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311170 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311170.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311171: Coordination sequence Gal.6.224.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311171 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311171.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311172: Coordination sequence Gal.5.73.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311172 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311172.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311173: Coordination sequence Gal.5.118.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311173 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311173.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311175: Coordination sequence Gal.5.58.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311175 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311175.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311176: Coordination sequence Gal.4.86.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311176 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311176.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311177: Coordination sequence Gal.5.182.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311177 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311177.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311179: Coordination sequence Gal.6.217.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311179 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311179.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311180: Coordination sequence Gal.4.117.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311180 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311180.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311182: Coordination sequence Gal.5.103.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311182 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311182.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311183: Coordination sequence Gal.5.8.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311183 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311183.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311184: Coordination sequence Gal.5.26.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311184 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311184.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311185: Coordination sequence Gal.6.125.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311185 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311185.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311186: Coordination sequence Gal.6.121.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311186 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311186.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311188: Coordination sequence Gal.6.116.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311188 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311188.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311189: Coordination sequence Gal.6.383.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311189 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311189.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311191: Coordination sequence Gal.6.217.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311191 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311191.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311192: Coordination sequence Gal.6.181.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311192 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311192.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311193: Coordination sequence Gal.6.165.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311193 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311193.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311194: Coordination sequence Gal.6.383.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311194 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311194.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311195: Coordination sequence Gal.5.52.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311195 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311195.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311197: Coordination sequence Gal.5.51.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311197 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311197.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311198: Coordination sequence Gal.6.127.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311198 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311198.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311199: Coordination sequence Gal.6.123.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311199 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311199.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311200: Coordination sequence Gal.6.228.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311200 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311200.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311201: Coordination sequence Gal.6.224.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311201 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311201.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311202: Coordination sequence Gal.5.151.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311202 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311202.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311203: Coordination sequence Gal.5.151.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311203 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311203.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311204: Coordination sequence Gal.5.62.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311204 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311204.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311205: Coordination sequence Gal.5.58.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311205 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311205.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311206: Coordination sequence Gal.6.126.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311206 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311206.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311207: Coordination sequence Gal.6.122.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311207 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311207.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311208: Coordination sequence Gal.5.151.4 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311208 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311208.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311210: Coordination sequence Gal.5.103.2 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311210 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311210.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311211: Coordination sequence Gal.6.128.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311211 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311211.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311212: Coordination sequence Gal.6.124.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311212 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311212.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311213: Coordination sequence Gal.6.184.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311213 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311213.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311214: Coordination sequence Gal.6.168.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311214 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311214.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311215: Coordination sequence Gal.6.182.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311215 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311215.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311216: Coordination sequence Gal.6.166.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311216 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311216.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311217: Coordination sequence Gal.4.50.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311217 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311217.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311218: Coordination sequence Gal.4.46.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311218 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311218.provenance : SequenceMachineLib.Provenance := .undefined
-
-/-- A311219: Coordination sequence Gal.6.226.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings. -/
-opaque A311219 : ℕ → ℤ
-
-/-- Undefined: none of its formulas qualifies as a definition, so it is an opaque constant: other definitions can use it, but Lean knows nothing about its values. -/
-def A311219.provenance : SequenceMachineLib.Provenance := .undefined
 

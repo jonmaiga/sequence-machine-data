@@ -10979,14 +10979,14 @@ noncomputable section
 
 /-- A289415: a(n) = ((11-sqrt(11))^n + (11+sqrt(11))^n) / 2.
 
-Offset 0, canonical program `A289415.P8930500336262889892`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 0, canonical program `A289415.P8930500336262889892`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `((11-sqrt(11))^n+(11+sqrt(11))^n)/2` (program `A289415.P1775693318813392425`, by `A289415.P1775693318813392425.correct`). Lean does not check the parsing of the name. -/
 def A289415 (n : ℕ) : ℤ :=
   A289415.P8930500336262889892.a n
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A289415.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `((11-sqrt(11))^n+(11+sqrt(11))^n)/2` (program `A289415.P1775693318813392425`, by `A289415.P1775693318813392425.correct`). Lean does not check the parsing of the name. -/
+def A289415.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A289451.P712863873076719454
 

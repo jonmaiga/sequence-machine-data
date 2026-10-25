@@ -462,7 +462,7 @@ end A188804.P10273020014393037121
 /-!
 # A188805: The n-th derivative of 1/(1-x-x^2), evaluated at x=1.
 
-The programs for A188805, the canonical program `A188805.P8005763696363257235` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A188805 has offset 0).
+The programs for A188805, the canonical program `A188805.P8005763696363257235` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A188805 has offset 0).
 
 The definition of A188805 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -471,7 +471,7 @@ The definition of A188805 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(-1)^(n+1)*n!*A001906(n+1)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A188805
@@ -2002,7 +2002,7 @@ end A188820.P18406658631818765155
 /-!
 # A188821: Number of n X 6 binary arrays without the pattern 0 1 diagonally or antidiagonally.
 
-The programs for A188821, the canonical program `A188821.P16295408872994340486` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A188821 has offset 1).
+The programs for A188821, the canonical program `A188821.P16295408872994340486` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A188821 has offset 1).
 
 The definition of A188821 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2011,7 +2011,7 @@ The definition of A188821 is `conjectured`: the Lean definition is a formula tha
 
 `(A270545(n)+10*n+7)²`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A188821

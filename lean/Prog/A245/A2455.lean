@@ -6935,7 +6935,7 @@ end A245563.P12036509601397314855
 /-!
 # A245564: a(n) = Product_{i in row n of A245562} Fibonacci(i+2).
 
-The programs for A245564, the canonical program `A245564.P14365681278449522354` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245564 has offset 0).
+The programs for A245564, the canonical program `A245564.P14365681278449522354` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245564 has offset 0).
 
 The definition of A245564 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6967,7 +6967,7 @@ end A245564
 
 `A253064(n)/A001316(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A245564
@@ -7168,7 +7168,7 @@ end A245564
 /-!
 # A245565: a(n) = Product_{i in row n of A245562} Pell(i+1).
 
-The programs for A245565, the canonical program `A245565.P8152710951243314242` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245565 has offset 0).
+The programs for A245565, the canonical program `A245565.P8152710951243314242` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245565 has offset 0).
 
 The definition of A245565 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7200,7 +7200,7 @@ end A245565
 
 `∏{e}[A005940(n+1), A000129(#+1)]`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A245565
@@ -8854,6 +8854,12 @@ namespace A245579
 def P165612352230028732.Spec : Prop :=
   ∀ n, P165612352230028732.a n = (A245579 (n + 1) : ℚ)
 
+theorem P165612352230028732.correct : P165612352230028732.Spec := by
+  intro n
+  simp only [A245579, Nat.add_sub_cancel, A245579.P165612352230028732.a, A245579.P1038564678599800465.a, A001227, A001227.P17291574635237243988.f1, A001227.P17291574635237243988.a, A054844, A054844.P10228147231781804913.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A245579
 
 /-! ## A245579.P8074157734346454452
@@ -8876,6 +8882,12 @@ namespace A245579
 /-- `(n+1)*(n+1-A347286(n+1))` -/
 def P8074157734346454452.Spec : Prop :=
   ∀ n, P8074157734346454452.a n = A245579 (n + 1)
+
+theorem P8074157734346454452.correct : P8074157734346454452.Spec := by
+  intro n
+  simp only [A245579, Nat.add_sub_cancel, A245579.P8074157734346454452.a, A245579.P1038564678599800465.a, A001227, A001227.P17291574635237243988.f1, A001227.P17291574635237243988.a, A347286, A347286.P5792309838125408870.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A245579
 
@@ -8925,6 +8937,12 @@ namespace A245579
 /-- `A367870(n+1)+A000593(n+1)` -/
 def P13632283996076445496.Spec : Prop :=
   ∀ n, P13632283996076445496.a n = A245579 (n + 1)
+
+theorem P13632283996076445496.correct : P13632283996076445496.Spec := by
+  intro n
+  simp only [A245579, Nat.add_sub_cancel, A245579.P13632283996076445496.a, A245579.P1038564678599800465.a, A000593, A000593.P13640346029616979906.a, A001227, A001227.P17291574635237243988.f1, A001227.P17291574635237243988.a, A367870, A367870.P3261918350467240858.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A038712, A038712.P3404197303190209645.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A245579
 

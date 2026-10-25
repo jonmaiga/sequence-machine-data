@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -57,7 +58,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -91,6 +91,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A209400: Number of subsets of {1,...,n} containing a subset of the form {k,k+1,k+3} for some k.
@@ -185,6 +189,12 @@ namespace A209400
 /-- `A000051(n)-(A164387(n)+1)` -/
 def P13470776049305870820.Spec : Prop :=
   ∀ n, P13470776049305870820.a n = A209400 n
+
+theorem P13470776049305870820.correct : P13470776049305870820.Spec := by
+  intro n
+  simp only [A209400, Nat.add_sub_cancel, A209400.P13470776049305870820.a, A209400.P11197854543313356138.a, A000051, A000051.P14067217022188782580.a, A164387, A164387.P8345450026453253617.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A209400
 

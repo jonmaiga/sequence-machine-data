@@ -60,7 +60,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -1305,6 +1304,21 @@ end
 
 end A261520.P2413930911893619053
 
+/-! ## A261520.P3920742435349549981
+
+`A328709(A000244(n))+A238935(n+1)`
+-/
+
+namespace A261520.P3920742435349549981
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A328709 (A000244 n).toNat + A238935 (n + 1)
+
+end
+
+end A261520.P3920742435349549981
+
 /-! ## A261520.P1349122405267778001
 
 `A328709(A000244(n))+A039966(3*n+2)`
@@ -1660,7 +1674,7 @@ end A261522.P2254590036561228230
 
 The programs for A261523, the canonical program `A261523.P4523387212413988190` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261523 has offset 1).
 
-The definition of A261523 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A039716, A058077, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A261523 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A058077, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A261523.P4523387212413988190
@@ -2152,6 +2166,12 @@ namespace A261533
 /-- `A006512(lt[A096474(n+1), 7]+1)-2` -/
 def P17838651094350461881.Spec : Prop :=
   ∀ n, P17838651094350461881.a n = A261533 (n + 1)
+
+theorem P17838651094350461881.correct : P17838651094350461881.Spec := by
+  intro n
+  simp only [A261533, Nat.add_sub_cancel, A261533.P17838651094350461881.f1, A261533.P17838651094350461881.f2, A261533.P17838651094350461881.a, A261533.P11461223256659698925.f1, A261533.P11461223256659698925.f2, A261533.P11461223256659698925.a, A001359, A001359.P8865495035699438537.a, A006512, A006512.P8157243218962949380.a, A096474, A096474.P15193505077618010963.a, A057470, A057470.P6870654479483838036.a, A057473, A057473.P10214485168046116986.a, A077800, A077800.P16009445446139691322.a, A006450, A006450.P16445646407241112379.a, A029707, A029707.P9157915946838587551.f1, A029707.P9157915946838587551.a, A096281, A096281.P9870488552655544131.a, A151800, A151800.P4570031678714564115.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A007918, A007918.P9623913995348804173.f2, A007918.P9623913995348804173.f1, A007918.P9623913995348804173.a, A008619, A008619.P16053834178911111118.a, A014574, A014574.P4587706211531852143.a, A242767, A242767.P6276449245007787369.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A261533
 

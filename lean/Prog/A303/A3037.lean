@@ -54,6 +54,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -6810,6 +6811,21 @@ end
 
 end A303762.P15301056791984489815
 
+/-! ## A303762.P2784763130593524771
+
+`A303778(n)%A234712(A002522(n))`
+-/
+
+namespace A303762.P2784763130593524771
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A303778 n) (A234712 (A002522 n).toNat)
+
+end
+
+end A303762.P2784763130593524771
+
 /-! ## A303762.P13365725196338403880
 
 `A303778(A062399(n))`
@@ -6824,21 +6840,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A303762.P13365725196338403880
-
-/-! ## A303762.P17738289723257288486
-
-`A303778(A351870(n))`
--/
-
-namespace A303762.P17738289723257288486
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303778 (A351870 n).toNat
-
-end
-
-end A303762.P17738289723257288486
 
 /-!
 # A303764: Inverse permutation to A303763.

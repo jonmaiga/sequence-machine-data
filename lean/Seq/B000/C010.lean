@@ -10342,14 +10342,14 @@ noncomputable section
 
 /-- A061982: a(n) = 3^n - (n+1)*(n+2)/2.
 
-Offset 0, canonical program `A061982.P13631117991356415151`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 0, canonical program `A061982.P13631117991356415151`. Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^n-(n+1)*(n+2)/2` (program `A061982.P1393417499741606930`, by `A061982.P1393417499741606930.correct`). Lean does not check the parsing of the name. -/
 def A061982 (n : ℕ) : ℤ :=
   A061982.P13631117991356415151.a n
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A061982.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^n-(n+1)*(n+2)/2` (program `A061982.P1393417499741606930`, by `A061982.P1393417499741606930.correct`). Lean does not check the parsing of the name. -/
+def A061982.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A061983.P12408795949296462867
 

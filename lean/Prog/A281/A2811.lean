@@ -52,11 +52,11 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
@@ -7274,7 +7274,7 @@ end A281190.P16803143447566628354
 /-!
 # A281192: Numbers with no squarefree neighbors.
 
-The programs for A281192, the canonical program `A281192.P15044802621846119533` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281192 has offset 1).
+The programs for A281192, the canonical program `A281192.P15044802621846119533` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281192 has offset 1).
 
 The definition of A281192 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5342 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7313,7 +7313,7 @@ end A281192
 
 `eq[2*A008683(n+1), A008683(n+3)]+2`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A281192

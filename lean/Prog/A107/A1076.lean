@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -62,7 +63,6 @@ import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -93,6 +93,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A107600: Column 5 of array illustrated in A089574 and related to A034261.
@@ -2544,6 +2548,12 @@ namespace A107623
 def P12365355947374032391.Spec : Prop :=
   ∀ n, P12365355947374032391.a n = A107623 (n + 1)
 
+theorem P12365355947374032391.correct : P12365355947374032391.Spec := by
+  intro n
+  simp only [A107623, Nat.add_sub_cancel, A107623.P12365355947374032391.a, A107623.P13890696097940559320.f1, A107623.P13890696097940559320.a, A350171, A350171.P4046012062415380572.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A107623
 
 /-! ## A107623.P3553307943994028455
@@ -4402,7 +4412,7 @@ end A107643.P1285095489143052202
 /-!
 # A107647: Euler's totient function applied to tribonacci numbers.
 
-The programs for A107647, the canonical program `A107647.P4071914148309250893` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107647 has offset 2).
+The programs for A107647, the canonical program `A107647.P4071914148309250893` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107647 has offset 2).
 
 The definition of A107647 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4411,7 +4421,7 @@ The definition of A107647 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A000073(n+2))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A107647

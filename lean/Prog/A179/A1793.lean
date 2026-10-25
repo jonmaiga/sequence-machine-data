@@ -57,6 +57,7 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -250,6 +251,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A179302.P12054107180788109154
+
+/-! ## A179302.P18120778283303611556
+
+`lt[A005153(A000201(n+1)), A100781(2*(n+2))]`
+-/
+
+namespace A179302.P18120778283303611556
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005153 (A000201 (n + 1)).toNat
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A100781 (2 * (n + 2))
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A179302.P18120778283303611556
 
 /-! ## A179302.P10433940613192963096
 
@@ -983,6 +1005,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A179314.P7433847829735406883
+
+/-! ## A179314.P2815125142160599237
+
+`gcd(A071797(A325853(n+1)), A283102(n+1))`
+-/
+
+namespace A179314.P2815125142160599237
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A071797 (A325853 (n + 1)).toNat) (A283102 (n + 1))
+
+end
+
+end A179314.P2815125142160599237
 
 /-!
 # A179316: The number of equal-sized equilateral triangles in the highest stack of triangles contained in successive Genealodrons formed from 2^n - 1 same size equilateral triangles.
@@ -9016,6 +9053,12 @@ namespace A179396
 def P6648029843425396032.Spec : Prop :=
   ∀ n, P6648029843425396032.a n = A179396 (n + 1)
 
+theorem P6648029843425396032.correct : P6648029843425396032.Spec := by
+  intro n
+  simp only [A179396, Nat.add_sub_cancel, A179396.P6648029843425396032.a, A179396.P13986853807161637777.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A008864, A008864.P9177617808325052279.a, A045344, A045344.P8697885089310436463.a, A065475, A065475.P2637304413385993180.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A179396
 
 /-! ## A179396.P13247257276114400866
@@ -9038,6 +9081,12 @@ namespace A179396
 /-- `(A040976(n+1)+2)²%A045344(n+4)` -/
 def P13247257276114400866.Spec : Prop :=
   ∀ n, P13247257276114400866.a n = A179396 (n + 1)
+
+theorem P13247257276114400866.correct : P13247257276114400866.Spec := by
+  intro n
+  simp only [A179396, Nat.add_sub_cancel, A179396.P13247257276114400866.a, A179396.P13986853807161637777.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A040976, A040976.P11599754272797435513.a, A045344, A045344.P8697885089310436463.a, A065475, A065475.P2637304413385993180.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A179396
 

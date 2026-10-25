@@ -47,11 +47,11 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
@@ -4683,7 +4683,7 @@ end A335956
 /-!
 # A335962: Numbers k such that k^2 + 1 and k^2 + 2 are both squarefree.
 
-The programs for A335962, the canonical program `A335962.P2671901003866590585` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335962 has offset 1).
+The programs for A335962, the canonical program `A335962.P2671901003866590585` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335962 has offset 1).
 
 The definition of A335962 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 213 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4692,7 +4692,7 @@ The definition of A335962 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A051903(A010000(n)), A059592(n)]`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A335962

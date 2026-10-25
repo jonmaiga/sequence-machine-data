@@ -58,11 +58,9 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -1953,7 +1951,7 @@ end A249423.P12501116244585081736
 /-!
 # A249424: Odd integers n such that A249151(n) = (n-1)/2.
 
-The programs for A249424, the canonical program `A249424.P5276109729741823829` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249424 has offset 1).
+The programs for A249424, the canonical program `A249424.P5276109729741823829` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249424 has offset 1).
 
 The definition of A249424 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 310 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1962,7 +1960,7 @@ The definition of A249424 is `conjectured`: the Lean definition is a formula tha
 
 `2*A249428(n+1)+1`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A249424
@@ -2870,7 +2868,7 @@ end A249427.P13734376798670209139
 /-!
 # A249428: Numbers n such that A249151(2n+1) = n.
 
-The programs for A249428, the canonical program `A249428.P3847306228098961032` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249428 has offset 1).
+The programs for A249428, the canonical program `A249428.P3847306228098961032` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249428 has offset 1).
 
 The definition of A249428 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 310 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3163,7 +3161,7 @@ end A249428
 
 `eq[A062790(n+1), A093148(n)]`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A249428

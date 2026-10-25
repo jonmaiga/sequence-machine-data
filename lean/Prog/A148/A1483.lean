@@ -3082,20 +3082,20 @@ end
 
 end A148353.P352830678131569635
 
-/-! ## A148353.P4669114696057704954
+/-! ## A148353.P7577267409050202803
 
-`A267418(A202059(n+2))+A202059(n)`
+`A364464(A058731(n+1))+A325927(n)`
 -/
 
-namespace A148353.P4669114696057704954
+namespace A148353.P7577267409050202803
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A267418 (A202059 (n + 2)).toNat + A202059 n
+  A364464 (A058731 (n + 1)).toNat + A325927 n
 
 end
 
-end A148353.P4669114696057704954
+end A148353.P7577267409050202803
 
 /-!
 # A148354: Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, 0, 0), (0, -1, 1), (0, 0, 1), (1, 1, -1)}.

@@ -62,7 +62,6 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -1735,7 +1734,7 @@ end A097702
 /-!
 # A097703: Numbers j such that m = 216*j + 108 satisfies sigma(m) != 2*usigma(m).
 
-The programs for A097703, the canonical program `A097703.P2355678231752813967` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097703 has offset 1).
+The programs for A097703, the canonical program `A097703.P2355678231752813967` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097703 has offset 1).
 
 The definition of A097703 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1744,7 +1743,7 @@ The definition of A097703 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A156277(2*n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A097703
@@ -2202,7 +2201,7 @@ end A097703
 /-!
 # A097704: Terms of A097703 that are not of the form 3*k + 1.
 
-The programs for A097704, the canonical program `A097704.P2139242256301224581` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097704 has offset 1).
+The programs for A097704, the canonical program `A097704.P2139242256301224581` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097704 has offset 1).
 
 The definition of A097704 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2935 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2211,7 +2210,7 @@ The definition of A097704 is `conjectured`: the Lean definition is a formula tha
 
 `eq[-a(n-3), A008683(2*n+1)]` with `a(0)=0, a(1)=2, a(2)=0`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A097704
@@ -4099,6 +4098,25 @@ namespace A097725
 /-- `((51+10*sqrt(26))^(n+1)-(51-10*sqrt(26))^(n+1))/(20*sqrt(26))` -/
 def P4575640310604555479.Spec : Prop :=
   ∀ n, P4575640310604555479.a n = (A097725 n : ℝ)
+
+theorem P4575640310604555479.correct : P4575640310604555479.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A097725, Nat.add_sub_cancel, A097725.P4575640310604555479.a, A097725.P11119606442903150929.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A097725, Nat.add_sub_cancel, A097725.P4575640310604555479.a, A097725.P11119606442903150929.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A097725
 
@@ -6514,7 +6532,7 @@ end A097742
 
 The programs for A097743, the canonical program `A097743.P1935338259299383222` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097743 has offset 1).
 
-The definition of A097743 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001348, A061286, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A097743 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A097743.P1935338259299383222

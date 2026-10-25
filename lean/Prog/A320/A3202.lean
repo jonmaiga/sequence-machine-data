@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -52,11 +53,12 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -64,7 +66,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -92,6 +93,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A320200: Number of integer solutions to a^2 + 2*b^2 + 4*c^2 + 12*d^2 = n.
@@ -2600,7 +2605,7 @@ end A320226.P8499131892521170622
 
 The programs for A320228, the canonical program `A320228.P12443175590728770353` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320228 has offset 1).
 
-The definition of A320228 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A034958, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A320228 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034958, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A320228.P12443175590728770353
@@ -2740,6 +2745,12 @@ namespace A320228
 /-- `(A034956(n+1)-A034957(n+1))*A034958(n+1)` -/
 def P985289632307880604.Spec : Prop :=
   ∀ n, P985289632307880604.a n = A320228 (n + 1)
+
+theorem P985289632307880604.correct : P985289632307880604.Spec := by
+  intro n
+  simp only [A320228, Nat.add_sub_cancel, A320228.P985289632307880604.a, A320228.P12443175590728770353.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A034956, A034956.P16124176413780656926.a, A034957, A034957.P9145438828403421056.a, A034958, A034958.P4957141392143406726.a, A007504, A007504.P16529107901788736493.f1, A007504.P16529107901788736493.a, A034960, A034960.P12268259456304225378.a, A061802, A061802.P6001650494483680040.f1, A061802.P6001650494483680040.a, A182986, A182986.P2625431067462217415.a, A011974, A011974.P2665693327137284562.a, A054541, A054541.P347795157194570387.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A320228
 
@@ -7344,7 +7355,7 @@ end A320282.P13378547114762615006
 /-!
 # A320283: Lexicographical ordering of pure imaginary integers in the base (-1+i) numeral system.
 
-The programs for A320283, the canonical program `A320283.P15640859263192477612` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320283 has offset 0).
+The programs for A320283, the canonical program `A320283.P15640859263192477612` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320283 has offset 0).
 
 The definition of A320283 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4825 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7376,7 +7387,7 @@ end A320283
 
 `n-and(A005843(n), A270106(n))`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A320283

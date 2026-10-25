@@ -505,24 +505,6 @@ end
 
 end A330002.P4776420400698204528
 
-/-! ## A330002.P10313713935186447792
-
-`floor(∑[atan(gcd(8, 2*n))])`
--/
-
-namespace A330002.P10313713935186447792
-noncomputable section
-
-def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.arctan (Nat.gcd 8 (2 * n) : ℝ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊∑ j ∈ Finset.range (n + 1), f1 j⌋
-
-end
-
-end A330002.P10313713935186447792
-
 /-!
 # A330003: Beatty sequence for (x+1)^2, where 1/x + 1/(x+1)^2 = 1.
 

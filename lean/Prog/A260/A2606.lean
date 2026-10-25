@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -97,6 +98,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A260600: Expansion of x * psi(x^3) * psi(x^12) / f(-x) in powers of x where psi(), f() are Ramanujan theta functions.
@@ -1770,24 +1775,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A260622.P2344841307472080191
-
-/-! ## A260622.P11163712844826504517
-
-`A000203(∏[ceil(sqrt(exp(n-1)))])`
--/
-
-namespace A260622.P11163712844826504517
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈Real.sqrt (Real.exp ((n : ℤ) - 1 : ℝ))⌉
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000203 (∏ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A260622.P11163712844826504517
 
 /-!
 # A260624: a(n) = arithmetic derivative of the n-th composite number.
@@ -4899,6 +4886,12 @@ namespace A260655
 def P3618599735924201093.Spec : Prop :=
   ∀ n, P3618599735924201093.a n = (A260655 n : ℚ)
 
+theorem P3618599735924201093.correct : P3618599735924201093.Spec := by
+  intro n
+  simp only [A260655, Nat.add_sub_cancel, A260655.P3618599735924201093.a, A260655.P1454264924499781841.a, A000108, A000108.P17551949696095299361.a, A156273, A156273.P11938944850300387714.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A260655
 
 /-! ## A260655.P13640750981732718607
@@ -5022,6 +5015,12 @@ namespace A260655
 /-- `A000108(n+1)*A001019(n)` -/
 def P11947975580185578340.Spec : Prop :=
   ∀ n, P11947975580185578340.a n = A260655 n
+
+theorem P11947975580185578340.correct : P11947975580185578340.Spec := by
+  intro n
+  simp only [A260655, Nat.add_sub_cancel, A260655.P11947975580185578340.a, A260655.P1454264924499781841.a, A000108, A000108.P17551949696095299361.a, A001019, A001019.P4632907595368420400.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A260655
 
@@ -6762,7 +6761,7 @@ end A260679
 /-!
 # A260682: Löschian numbers (A003136) of the form 6*k+1.
 
-The programs for A260682, the canonical program `A260682.P10691635331888986917` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260682 has offset 1).
+The programs for A260682, the canonical program `A260682.P10691635331888986917` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260682 has offset 1).
 
 The definition of A260682 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7312 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6853,7 +6852,7 @@ end A260682
 
 `filter[A202822(n+1), A373156(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A260682
@@ -7355,6 +7354,12 @@ namespace A260683
 def P6533593396695436317.Spec : Prop :=
   ∀ n, P6533593396695436317.a n = A260683 n
 
+theorem P6533593396695436317.correct : P6533593396695436317.Spec := by
+  intro n
+  simp only [A260683, Nat.add_sub_cancel, A260683.P6533593396695436317.a, A260683.P1450554479988976395.a, A000079, A000079.P10855139691139572931.a, A081603, A081603.P9418366050176887204.a, A265157, A265157.P8146945990280447041.a, A000035, A000035.P2023072528413494694.a, A053735, A053735.P3640341592284089632.a, A062756, A062756.P1690328074711592095.a, A006047, A006047.P4068788115409844993.a, A054861, A054861.P6137810495506521191.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A260683
 
 /-! ## A260683.P15875004121862565282
@@ -7377,6 +7382,12 @@ namespace A260683
 /-- `A265157(n)+A000035(n)` -/
 def P15875004121862565282.Spec : Prop :=
   ∀ n, P15875004121862565282.a n = A260683 n
+
+theorem P15875004121862565282.correct : P15875004121862565282.Spec := by
+  intro n
+  simp only [A260683, Nat.add_sub_cancel, A260683.P15875004121862565282.a, A260683.P1450554479988976395.a, A000035, A000035.P2023072528413494694.a, A000079, A000079.P10855139691139572931.a, A081603, A081603.P9418366050176887204.a, A265157, A265157.P8146945990280447041.a, A053735, A053735.P3640341592284089632.a, A062756, A062756.P1690328074711592095.a, A006047, A006047.P4068788115409844993.a, A054861, A054861.P6137810495506521191.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A260683
 

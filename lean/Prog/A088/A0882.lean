@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -55,8 +56,10 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
@@ -92,6 +95,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A088201: Distance p_n-LQnR(p_n) (A088198) where the difference sequence (A088197) of LQnR(p_n) (A088196) is <= 0.
@@ -1726,6 +1733,12 @@ namespace A088210
 def P7547131471725665511.Spec : Prop :=
   ∀ n, P7547131471725665511.a n = A088210 n
 
+theorem P7547131471725665511.correct : P7547131471725665511.Spec := by
+  intro n
+  simp only [A088210, Nat.add_sub_cancel, A088210.P7547131471725665511.a, A088210.P18408197993255256953.a, A000129, A000129.P3563729298025900801.a, A093967, A093967.P7229199660564859914.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A088210
 
 /-! ## A088210.P15530584310791510811
@@ -2225,6 +2238,12 @@ namespace A088211
 def P12961319317774076921.Spec : Prop :=
   ∀ n, P12961319317774076921.a n = A088211 n
 
+theorem P12961319317774076921.correct : P12961319317774076921.Spec := by
+  intro n
+  simp only [A088211, Nat.add_sub_cancel, A088211.P12961319317774076921.f1, A088211.P12961319317774076921.a, A088211.P18144087723647562284.a, A000129, A000129.P3563729298025900801.a, A093967, A093967.P7229199660564859914.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A088211
 
 /-! ## A088211.P1043562119933593584
@@ -2434,6 +2453,12 @@ namespace A088211
 /-- `A000129(n+1)+A093967(n)-A000129(n)` -/
 def P1058894215645631675.Spec : Prop :=
   ∀ n, P1058894215645631675.a n = A088211 n
+
+theorem P1058894215645631675.correct : P1058894215645631675.Spec := by
+  intro n
+  simp only [A088211, Nat.add_sub_cancel, A088211.P1058894215645631675.a, A088211.P18144087723647562284.a, A000129, A000129.P3563729298025900801.a, A093967, A093967.P7229199660564859914.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A088211
 
@@ -3459,6 +3484,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A088221.P6161739151031281970
+
+/-! ## A088221.P15825415104392400548
+
+`and(A359747(A261227(3*(n+1)))-1, A206296(n))`
+-/
+
+namespace A088221.P15825415104392400548
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A359747 (A261227 (3 * (n + 1))).toNat - 1) (A206296 n)
+
+end
+
+end A088221.P15825415104392400548
 
 /-!
 # A088222: Coefficient of x^n in g.f.^n is A004123(n).
@@ -5428,7 +5468,7 @@ end A088231
 /-!
 # A088232: Numbers k such that 3 does not divide phi(k).
 
-The programs for A088232, the canonical program `A088232.P18376775273542459675` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088232 has offset 1).
+The programs for A088232, the canonical program `A088232.P18376775273542459675` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088232 has offset 1).
 
 The definition of A088232 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5437,7 +5477,7 @@ The definition of A088232 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A354099(n+1), 1]+1`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A088232

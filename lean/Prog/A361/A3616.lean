@@ -27,6 +27,7 @@ import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -2893,6 +2894,21 @@ end
 
 end A361650.P678312245337058676
 
+/-! ## A361650.P612159003675039013
+
+`A027748(n+2)+A000007(A387625(n))`
+-/
+
+namespace A361650.P612159003675039013
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A027748 (n + 2) + A000007 (A387625 n).toNat
+
+end
+
+end A361650.P612159003675039013
+
 /-!
 # A361651: Number T(n,k) of permutations p of [n] such that p(i), p(i+k), p(i+2k),... form an up-down sequence for i in [k]; triangle T(n,k), n>=0, 0<=k<=n, read by rows.
 
@@ -5299,7 +5315,7 @@ end A361687.P5549294359671878209
 
 The programs for A361689, the canonical program `A361689.P3213455168666859639` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361689 has offset 1).
 
-The definition of A361689 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A275367, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A361689 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A361689.P13045622419529621695
@@ -5482,6 +5498,12 @@ namespace A361689
 /-- `A275367(n+1)*A366839(n+1)` -/
 def P2764304003330318945.Spec : Prop :=
   ∀ n, P2764304003330318945.a n = A361689 (n + 1)
+
+theorem P2764304003330318945.correct : P2764304003330318945.Spec := by
+  intro n
+  simp only [A361689, Nat.add_sub_cancel, A361689.P2764304003330318945.a, A361689.P3213455168666859639.a, A007814, A007814.P13537437864234730737.a, A275367, A275367.P11593078130365677386.a, A366839, A366839.P8593895561095689137.a, A000005, A000005.P16091521709108585461.a, A001511, A001511.P17146462531039486101.a, A006519, A006519.P10435570611646570274.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A171977, A171977.P14092944863121073856.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A361689
 

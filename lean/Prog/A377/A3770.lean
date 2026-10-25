@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -80,6 +81,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A377000: Array read by ascending antidiagonals: T(n,k) = number of n-esthetic numbers with k digits.
@@ -3854,7 +3859,7 @@ end A377069.P8460977213121401191
 /-!
 # A377071: a(n) = binomial(bigomega(n) + omega(n) - 1, omega(n) - 1), where bigomega = A001222 and omega = A001221.
 
-The programs for A377071, the canonical program `A377071.P12918428740894715970` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377071 has offset 1).
+The programs for A377071, the canonical program `A377071.P12918428740894715970` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377071 has offset 1).
 
 The definition of A377071 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3879,6 +3884,12 @@ namespace A377071
 /-- `A376567(n+1)-A378181(n+1)` -/
 def P4716727811004866029.Spec : Prop :=
   ∀ n, P4716727811004866029.a n = A377071 (n + 1)
+
+theorem P4716727811004866029.correct : P4716727811004866029.Spec := by
+  intro n
+  simp only [A377071, Nat.add_sub_cancel, A377071.P4716727811004866029.a, A377071.P12918428740894715970.a, A001222, A001222.P11318177267732088261.a, A297155, A297155.P1611206963555320167.a, A376567, A376567.P17731910980327853695.a, A378181, A378181.P11540481461231249369.a, A001221, A001221.P10258181745752134128.a, A061395, A061395.P8431317036300486107.a, A080256, A080256.P7120327596299936655.a, A122111, A122111.P18124015185857335041.a, A252464, A252464.P11274602121942962009.a, A297113, A297113.P441289280190658386.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A029837, A029837.P1050578713049589.a, A046660, A046660.P3614759855976580945.a, A059841, A059841.P2666504972441551157.a, A064989, A064989.P13349672914146769936.a, A087207, A087207.P12536008426233777954.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, A252736, A252736.P2865412191134230649.f1, A252736.P2865412191134230649.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A008578, A008578.P3639467937083264764.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A052126, A052126.P1944428405920482243.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A377071
 
@@ -3909,7 +3920,7 @@ end A377071
 
 `C(A297155(n+1)+A001222(n+1), A001222(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A377071
@@ -4482,6 +4493,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A377082.P15732515079407013434
+
+/-!
+# A377084: a(n) is the maximum integer for which some minimum-length sum equaling a(n) of perfect squares less than n^2 excludes (n-1)^2.
+
+The programs for A377084, there is no canonical definition to state claims against.
+-/
+
+/-! ## A377084.P5579191227124732779
+
+`A300795(A210984(n+1)+A168256(n))`
+-/
+
+namespace A377084.P5579191227124732779
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A300795 (A210984 (n + 1) + A168256 n).toNat
+
+end
+
+end A377084.P5579191227124732779
 
 /-!
 # A377085: a(n) = floor(A377084(n)/(n-1)^2).

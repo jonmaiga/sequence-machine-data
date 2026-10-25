@@ -58,13 +58,12 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -3067,6 +3066,25 @@ end A342728
 The programs for A342729, there is no canonical definition to state claims against.
 -/
 
+/-! ## A342729.P10171588087939767471
+
+`comp[A066323(n)+n]`
+-/
+
+namespace A342729.P10171588087939767471
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A066323 n + (n : ℤ)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A342729.P10171588087939767471
+
 /-! ## A342729.P8781541290549602654
 
 `∑[A276132(A319990(n+1))]-1`
@@ -3141,27 +3159,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A342729.P7903963962586342031
-
-/-! ## A342729.P8137358616565512737
-
-`∑[A375446(∑{e}[A074854(2*n+1)+1, #])]`
--/
-
-namespace A342729.P8137358616565512737
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A074854 (2 * n + 1) + 1
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A375446 (∑ p ∈ Nat.primeFactors (f2 n).natAbs, Nat.factorization (f2 n).natAbs p)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A342729.P8137358616565512737
 
 /-!
 # A342733: Positions of words in A341334 in which #0's < #1's.
@@ -6148,7 +6145,7 @@ end A342765.P17912322401587322735
 /-!
 # A342766: a(1) = 1, for any n > 1, a(n) = A342765(a(n-1), n).
 
-The programs for A342766, the canonical program `A342766.P12175838294366118229` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342766 has offset 1).
+The programs for A342766, the canonical program `A342766.P12175838294366118229` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342766 has offset 1).
 
 The definition of A342766 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6157,7 +6154,7 @@ The definition of A342766 is `conjectured`: the Lean definition is a formula tha
 
 `∏[A014963(n+1)/A252463(A014963(n+1))]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A342766
@@ -8279,20 +8276,20 @@ end A342783.P14683373294323189296
 The programs for A342784, there is no canonical definition to state claims against.
 -/
 
-/-! ## A342784.P5571072378679010525
+/-! ## A342784.P1157558442042823463
 
-`3*(A342778(n+1)+1)`
+`3*(1+A342778(n+1))`
 -/
 
-namespace A342784.P5571072378679010525
+namespace A342784.P1157558442042823463
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  3 * (A342778 (n + 1) + 1)
+  3 * (1 + A342778 (n + 1))
 
 end
 
-end A342784.P5571072378679010525
+end A342784.P1157558442042823463
 
 /-! ## A342784.P6122436786200575940
 

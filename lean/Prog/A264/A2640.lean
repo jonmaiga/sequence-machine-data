@@ -60,7 +60,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -3410,6 +3409,12 @@ namespace A264038
 def P12601776925137432714.Spec : Prop :=
   ∀ n, P12601776925137432714.a n = A264038 n
 
+theorem P12601776925137432714.correct : P12601776925137432714.Spec := by
+  intro n
+  simp only [A264038, Nat.add_sub_cancel, A264038.P12601776925137432714.a, A264038.P9507820309913421679.a, A000032, A000032.P8352177345629330861.a, A014551, A014551.P15201545406723710920.a, A062510, A062510.P5158205566425357391.a, A227200, A227200.P9264526407839763535.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A264038
 
 /-! ## A264038.P10952695284250169299
@@ -4431,6 +4436,12 @@ namespace A264043
 def P8254507791724839008.Spec : Prop :=
   ∀ n, P8254507791724839008.a n = A264043 (n + 1)
 
+theorem P8254507791724839008.correct : P8254507791724839008.Spec := by
+  intro n
+  simp only [A264043, Nat.add_sub_cancel, A264043.P8254507791724839008.f1, A264043.P8254507791724839008.f2, A264043.P8254507791724839008.a, A264043.P15713331483502650701.f1, A264043.P15713331483502650701.f2, A264043.P15713331483502650701.a, A001358, A001358.P632087320844056370.a, A065516, A065516.P1921636422831940081.a, A186621, A186621.P5089299060388261365.a, A088707, A088707.P7291141647877559993.a, A100493, A100493.P3342029395979233194.f1, A100493.P3342029395979233194.a, A072000, A072000.P3706059858088101648.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A264043
 
 /-!
@@ -4545,6 +4556,12 @@ namespace A264044
 def P1110101995968943833.Spec : Prop :=
   ∀ n, P1110101995968943833.a n = A264044 (n + 1)
 
+theorem P1110101995968943833.correct : P1110101995968943833.Spec := by
+  intro n
+  simp only [A264044, Nat.add_sub_cancel, A264044.P1110101995968943833.f1, A264044.P1110101995968943833.f2, A264044.P1110101995968943833.a, A264044.P3644257460516515542.f1, A264044.P3644257460516515542.f2, A264044.P3644257460516515542.a, A001358, A001358.P632087320844056370.a, A065516, A065516.P1921636422831940081.a, A186621, A186621.P5089299060388261365.a, A088707, A088707.P7291141647877559993.a, A100493, A100493.P3342029395979233194.f1, A100493.P3342029395979233194.a, A072000, A072000.P3706059858088101648.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A264044
 
 /-! ## A264044.P11184285496694897530
@@ -4580,7 +4597,7 @@ end A264044
 /-!
 # A264045: Numbers n such that n and n+5 are consecutive semiprimes.
 
-The programs for A264045, the canonical program `A264045.P3139960365443262214` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264045 has offset 1).
+The programs for A264045, the canonical program `A264045.P3139960365443262214` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264045 has offset 1).
 
 The definition of A264045 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 660 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4589,7 +4606,7 @@ The definition of A264045 is `conjectured`: the Lean definition is a formula tha
 
 `A001358(eq[5, A065516(n+1)]+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A264045
@@ -4631,12 +4648,18 @@ namespace A264045
 def P16345764521369126268.Spec : Prop :=
   ∀ n, P16345764521369126268.a n = A264045 (n + 1)
 
+theorem P16345764521369126268.correct : P16345764521369126268.Spec := by
+  intro n
+  simp only [A264045, Nat.add_sub_cancel, A264045.P16345764521369126268.f1, A264045.P16345764521369126268.f2, A264045.P16345764521369126268.a, A264045.P3139960365443262214.f1, A264045.P3139960365443262214.f2, A264045.P3139960365443262214.a, A001358, A001358.P632087320844056370.a, A065516, A065516.P1921636422831940081.a, A186621, A186621.P5089299060388261365.a, A088707, A088707.P7291141647877559993.a, A100493, A100493.P3342029395979233194.f1, A100493.P3342029395979233194.a, A072000, A072000.P3706059858088101648.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A264045
 
 /-!
 # A264046: Numbers k such that k and k+6 are consecutive semiprimes.
 
-The programs for A264046, the canonical program `A264046.P6763448481127490417` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264046 has offset 1).
+The programs for A264046, the canonical program `A264046.P6763448481127490417` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264046 has offset 1).
 
 The definition of A264046 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 838 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4645,7 +4668,7 @@ The definition of A264046 is `conjectured`: the Lean definition is a formula tha
 
 `A186621(eq[6, A065516(n+1)]+1)+1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A264046

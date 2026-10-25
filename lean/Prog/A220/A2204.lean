@@ -6093,6 +6093,12 @@ namespace A220464
 def P10303765730581788964.Spec : Prop :=
   ∀ n, P10303765730581788964.a n = A220464 (n + 1)
 
+theorem P10303765730581788964.correct : P10303765730581788964.Spec := by
+  intro n
+  simp only [A220464, Nat.add_sub_cancel, A220464.P10303765730581788964.a, A220464.P617436510485413338.a, A002260, A002260.P769748059679640451.a, A004736, A004736.P10337537277358081527.a, A025581, A025581.P420762180635059694.a, A000217, A000217.P10269402890581615239.a, A002024, A002024.P11700297927830783882.a, A002262, A002262.P12129691700837801527.a, A057944, A057944.P16851463738746886639.a, A003056, A003056.P5318256527314048597.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A220464
 
 /-! ## A220464.P8744239637078656672
@@ -8815,23 +8821,23 @@ end A220486.P17244715407816410377
 The programs for A220487, there is no canonical definition to state claims against.
 -/
 
-/-! ## A220487.P17186721741236026866
+/-! ## A220487.P6733584504560162564
 
-`∑[A206437(n+1)]`
+`∑[A206437(1+n)]`
 -/
 
-namespace A220487.P17186721741236026866
+namespace A220487.P6733584504560162564
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A206437 (n + 1)
+  A206437 (1 + n)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A220487.P17186721741236026866
+end A220487.P6733584504560162564
 
 /-! ## A220487.P2922267643114171084
 

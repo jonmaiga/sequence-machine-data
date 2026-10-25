@@ -60,6 +60,7 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -71,7 +72,6 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -5857,7 +5857,7 @@ end A251661.P10576914848436445242
 /-!
 # A251662: Dirichlet convolution of Moebius function mu(n) (A008683) with Ternary numbers A001764.
 
-The programs for A251662, the canonical program `A251662.P2951919329571068556` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251662 has offset 1).
+The programs for A251662, the canonical program `A251662.P2951919329571068556` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251662 has offset 1).
 
 The definition of A251662 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 126 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5866,7 +5866,7 @@ The definition of A251662 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A008683(#)*A001764((n+1)/#-1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A251662
@@ -6040,6 +6040,12 @@ namespace A251672
 def P887931915212322322.Spec : Prop :=
   ∀ n, P887931915212322322.a n = A251672 n
 
+theorem P887931915212322322.correct : P887931915212322322.Spec := by
+  intro n
+  simp only [A251672, Nat.add_sub_cancel, A251672.P887931915212322322.f1, A251672.P887931915212322322.a, A251672.P9400077849588543496.a, A079262, A079262.P2136821458848240640.a, A251740, A251740.P8481188142973137277.a, A251741, A251741.P8014523365454003641.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A251672
 
 /-! ## A251672.P16312964825735092152
@@ -6065,6 +6071,12 @@ namespace A251672
 /-- `Δ[A251741(n+1)-A251742(n)]` -/
 def P16312964825735092152.Spec : Prop :=
   ∀ n, P16312964825735092152.a n = A251672 n
+
+theorem P16312964825735092152.correct : P16312964825735092152.Spec := by
+  intro n
+  simp only [A251672, Nat.add_sub_cancel, A251672.P16312964825735092152.f1, A251672.P16312964825735092152.a, A251672.P9400077849588543496.a, A079262, A079262.P2136821458848240640.a, A251741, A251741.P8014523365454003641.a, A251742, A251742.P7292228339883376358.a, A251740, A251740.P8481188142973137277.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A251672
 

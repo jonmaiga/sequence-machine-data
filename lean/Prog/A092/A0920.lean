@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -89,12 +90,15 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A092002: Numbers that can be expressed as the difference of the squares of primes in exactly six distinct ways.
@@ -198,7 +202,7 @@ end A092013.P14826756236570155691
 /-!
 # A092021: Numbers k such that k-th prime + k-th semiprime is semiprime.
 
-The programs for A092021, the canonical program `A092021.P17155201923802105509` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A092021 has offset 1).
+The programs for A092021, the canonical program `A092021.P17155201923802105509` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A092021 has offset 1).
 
 The definition of A092021 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 989 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -207,7 +211,7 @@ The definition of A092021 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2, A001222(A133796(n+1))]+1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A092021
@@ -335,6 +339,12 @@ namespace A092021
 /-- `eq[2, A001222(A006093(n+1)+A186621(n+1)+2)]+1` -/
 def P9297308733634570050.Spec : Prop :=
   ∀ n, (P9297308733634570050.a n : ℤ) = A092021 (n + 1)
+
+theorem P9297308733634570050.correct : P9297308733634570050.Spec := by
+  intro n
+  simp only [A092021, Nat.add_sub_cancel, A092021.P9297308733634570050.f1, A092021.P9297308733634570050.f2, A092021.P9297308733634570050.a, A092021.P17155201923802105509.f1, A092021.P17155201923802105509.f2, A092021.P17155201923802105509.a, A001222, A001222.P11318177267732088261.a, A006093, A006093.P2906174024863549003.a, A133796, A133796.P4942108177998988067.a, A186621, A186621.P5089299060388261365.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A001358, A001358.P632087320844056370.a, A061395, A061395.P8431317036300486107.a, A122111, A122111.P18124015185857335041.a, A029837, A029837.P1050578713049589.a, A064989, A064989.P13349672914146769936.a, A087207, A087207.P12536008426233777954.a, A088707, A088707.P7291141647877559993.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A008578, A008578.P3639467937083264764.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A052126, A052126.P1944428405920482243.a, A100493, A100493.P3342029395979233194.f1, A100493.P3342029395979233194.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A092021
 
@@ -3582,7 +3592,7 @@ end A092056.P8758433426555254212
 /-!
 # A092057: Primes of the form 2*p^2 - 1, where p is prime.
 
-The programs for A092057, the canonical program `A092057.P13672912862792873877` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A092057 has offset 1).
+The programs for A092057, the canonical program `A092057.P13672912862792873877` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A092057 has offset 1).
 
 The definition of A092057 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 931 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3667,7 +3677,7 @@ end A092057
 
 `∩[A066436(n+1), A179262(n+1)]`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A092057
@@ -8844,6 +8854,12 @@ namespace A092094
 /-- `A068626(n+3)+A020705(n)` -/
 def P13731535702915771015.Spec : Prop :=
   ∀ n, P13731535702915771015.a n = A092094 (n + 4)
+
+theorem P13731535702915771015.correct : P13731535702915771015.Spec := by
+  intro n
+  simp only [A092094, Nat.add_sub_cancel, A092094.P13731535702915771015.a, A092094.P9579417812492116424.a, A020705, A020705.P1213730512334166827.a, A068626, A068626.P5228562958192297829.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A092094
 

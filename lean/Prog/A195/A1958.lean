@@ -54,7 +54,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -3101,6 +3101,21 @@ end
 
 end A195842.P17353230525166326159
 
+/-! ## A195842.P12860713168166155530
+
+`A210954(n+3)+A000007(A000041(n))`
+-/
+
+namespace A195842.P12860713168166155530
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A210954 (n + 3) + A000007 (A000041 n).toNat
+
+end
+
+end A195842.P12860713168166155530
+
 /-! ## A195842.P11538000572421752792
 
 `A210954(n+3)%A000040(A117433(n))`
@@ -3115,21 +3130,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A195842.P11538000572421752792
-
-/-! ## A195842.P15116819119631901752
-
-`A210954(n+3)+A010815(A051270(n+1))`
--/
-
-namespace A195842.P15116819119631901752
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A210954 (n + 3) + A010815 (A051270 (n + 1)).toNat
-
-end
-
-end A195842.P15116819119631901752
 
 /-!
 # A195843: Triangle read by rows which arises from A195833, in the same way as A175003 arises from A195310. Column k starts at row A195313(k).
@@ -4615,6 +4615,21 @@ end
 
 end A195869.P11619916495281958734
 
+/-! ## A195869.P15137999300131147560
+
+`A264827(3*n+2)+A010057(A022279(n+1))`
+-/
+
+namespace A195869.P15137999300131147560
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A264827 (3 * n + 2) + A010057 (A022279 (n + 1)).toNat
+
+end
+
+end A195869.P15137999300131147560
+
 /-! ## A195869.P3292041332878209961
 
 `A079978(A152759(n+2))*A264827(3*n+2)`
@@ -4725,6 +4740,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A195870.P17292530506631846653
+
+/-! ## A195870.P493838763545414613
+
+`A264827(record[A007953(3*(n+1))])`
+-/
+
+namespace A195870.P493838763545414613
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007953 (3 * (n + 1))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A264827 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)).toNat
+
+end
+
+end A195870.P493838763545414613
 
 /-!
 # A195871: a(n) is the smallest prime(m) such that the interval (prime(m)*n, prime(m+1)*n) contains exactly one prime.
@@ -5483,7 +5516,7 @@ end A195895.P10409570553791193652
 /-!
 # A195896: Numbers of the form 2*p-1 or 3*p-1 where p is 1 or a prime.
 
-The programs for A195896, the canonical program `A195896.P14358306679495744766` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195896 has offset 1).
+The programs for A195896, the canonical program `A195896.P14358306679495744766` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195896 has offset 1).
 
 The definition of A195896 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5492,7 +5525,7 @@ The definition of A195896 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A001747(n+1), A112773(n+1)]-1`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A195896

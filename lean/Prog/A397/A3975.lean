@@ -37,10 +37,8 @@ import Seq.B004.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B011.C001
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -725,6 +723,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A397547.P3860126261213593891
+
+/-! ## A397547.P3642898359348288459
+
+`A033677(lcm(1+n%2, A069835(n)))`
+-/
+
+namespace A397547.P3642898359348288459
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033677 (Int.lcm ((1 + n % 2 : ℕ) : ℤ) (A069835 n))
+
+end
+
+end A397547.P3642898359348288459
 
 /-!
 # A397549: Multiplicative with a(p^e) = (e+1)^2*(e+2)/2.

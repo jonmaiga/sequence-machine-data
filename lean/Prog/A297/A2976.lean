@@ -60,11 +60,11 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C001
-import Seq.B010.C000
+import Seq.B008.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6481,6 +6481,12 @@ namespace A297663
 /-- `(10*n+A000079(n+1))/2` -/
 def P15752029560623446539.Spec : Prop :=
   ∀ n, P15752029560623446539.a n = (A297663 n : ℚ)
+
+theorem P15752029560623446539.correct : P15752029560623446539.Spec := by
+  intro n
+  simp only [A297663, Nat.add_sub_cancel, A297663.P15752029560623446539.a, A297663.P2635247335739481626.a, A000079, A000079.P10855139691139572931.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A297663
 

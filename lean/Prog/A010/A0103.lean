@@ -19,6 +19,7 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B001.C000
@@ -40,9 +41,11 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -69,7 +72,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A010330: Numbers k such that C(k,3) = C(x,3) + C(y,3) is solvable.
@@ -2008,6 +2011,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A010355.P2632944223214963930
+
+/-! ## A010355.P10921469858034056153
+
+`A341979(2*n+1)+A273190(A181344(n+1)+A026531(n))`
+-/
+
+namespace A010355.P10921469858034056153
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A341979 (2 * n + 1 + 59) + A273190 (A181344 (n + 1) + A026531 n).toNat
+
+end
+
+end A010355.P10921469858034056153
 
 /-!
 # A010356: Triangle of single-edge stars with n edges by cyclotomic index.

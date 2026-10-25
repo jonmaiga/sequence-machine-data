@@ -48,7 +48,6 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -71,6 +70,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -1388,6 +1388,12 @@ namespace A248720
 def P12092268921340944189.Spec : Prop :=
   ∀ n, P12092268921340944189.a n = A248720 n
 
+theorem P12092268921340944189.correct : P12092268921340944189.Spec := by
+  intro n
+  simp only [A248720, Nat.add_sub_cancel, A248720.P12092268921340944189.a, A248720.P14698641325103046806.a, A035287, A035287.P16843695516421463004.a, A060459, A060459.P13091624147768298715.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A248720
 
 /-!
@@ -2050,7 +2056,7 @@ end A248741.P2650936905259553383
 /-!
 # A248742: Numbers of the form x^2+1 with at most two prime factors.
 
-The programs for A248742, the canonical program `A248742.P24607167252977039` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248742 has offset 1).
+The programs for A248742, the canonical program `A248742.P24607167252977039` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248742 has offset 1).
 
 The definition of A248742 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2082,7 +2088,7 @@ end A248742
 
 `∪[A002496(n+1), A144255(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C001`.
 -/
 
 namespace A248742
@@ -2655,6 +2661,12 @@ namespace A248744
 def P16456929662000604262.Spec : Prop :=
   ∀ n, P16456929662000604262.a n = A248744 n
 
+theorem P16456929662000604262.correct : P16456929662000604262.Spec := by
+  intro n
+  simp only [A248744, Nat.add_sub_cancel, A248744.P16456929662000604262.a, A248744.P11223030166305813966.a, A000312, A000312.P3932771318196185165.a, A036679, A036679.P12226400419972912467.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A248744
 
 /-! ## A248744.P8937618563469358249
@@ -2678,6 +2690,12 @@ namespace A248744
 def P8937618563469358249.Spec : Prop :=
   ∀ n, P8937618563469358249.a n = A248744 n
 
+theorem P8937618563469358249.correct : P8937618563469358249.Spec := by
+  intro n
+  simp only [A248744, Nat.add_sub_cancel, A248744.P8937618563469358249.a, A248744.P11223030166305813966.a, A000142, A000142.P3272619076580183195.a, A036679, A036679.P12226400419972912467.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A248744
 
 /-! ## A248744.P11024867848316391114
@@ -2700,6 +2718,12 @@ namespace A248744
 /-- `2*A000312(n)-A000142(n)` -/
 def P11024867848316391114.Spec : Prop :=
   ∀ n, P11024867848316391114.a n = A248744 n
+
+theorem P11024867848316391114.correct : P11024867848316391114.Spec := by
+  intro n
+  simp only [A248744, Nat.add_sub_cancel, A248744.P11024867848316391114.a, A248744.P11223030166305813966.a, A000142, A000142.P3272619076580183195.a, A000312, A000312.P3932771318196185165.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A248744
 

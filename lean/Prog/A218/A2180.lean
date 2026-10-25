@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -57,6 +58,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -92,6 +94,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A218001: G.f. satisfies: A(x) = x + sum_{n>=1} A(x)^prime(n).
@@ -8706,6 +8712,12 @@ namespace A218089
 def P16787389910388250918.Spec : Prop :=
   ∀ n, P16787389910388250918.a n = A218089 (n + 1)
 
+theorem P16787389910388250918.correct : P16787389910388250918.Spec := by
+  intro n
+  simp only [A218089, Nat.add_sub_cancel, A218089.P16787389910388250918.a, A218089.P7948182517501621297.a, A000312, A000312.P3932771318196185165.a, A066274, A066274.P4127562941293127807.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A218089
 
 /-! ## A218089.P3179636029415198624
@@ -8728,6 +8740,12 @@ namespace A218089
 /-- `A000312(n+2)-A098462(n+1)` -/
 def P3179636029415198624.Spec : Prop :=
   ∀ n, P3179636029415198624.a n = A218089 (n + 1)
+
+theorem P3179636029415198624.correct : P3179636029415198624.Spec := by
+  intro n
+  simp only [A218089, Nat.add_sub_cancel, A218089.P3179636029415198624.a, A218089.P7948182517501621297.a, A000312, A000312.P3932771318196185165.a, A098462, A098462.P16695405877558364856.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A218089
 

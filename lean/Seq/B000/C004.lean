@@ -2916,6 +2916,34 @@ end
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^22-n^22` (program `A022538.P18178718390867436209`, by `A022538.P18178718390867436209.correct`). Lean does not check the parsing of the name. -/
 def A022538.provenance : SequenceMachineLib.Provenance := .verified
 
+/-! ## A022838.P2955185450675945792
+
+`floor((n+1)*sqrt(3))`
+-/
+
+namespace A022838.P2955185450675945792
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n + 1 : ℝ) * Real.sqrt (3 : ℝ)⌋
+
+end
+
+end A022838.P2955185450675945792
+
+noncomputable section
+
+/-- A022838: Beatty sequence for sqrt(3); complement of A054406.
+
+Offset 1, canonical program `A022838.P2955185450675945792`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A022838.anchor (n : ℕ) (hn : 1 ≤ n) : A022838 n = ⌊(n : ℝ) * Real.sqrt 3⌋` in `Proof.A022.A022838`. -/
+def A022838 (n : ℕ) : ℤ :=
+  A022838.P2955185450675945792.a (n - 1)
+
+end
+
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A022838.anchor (n : ℕ) (hn : 1 ≤ n) : A022838 n = ⌊(n : ℝ) * Real.sqrt 3⌋` in `Proof.A022.A022838`. -/
+def A022838.provenance : SequenceMachineLib.Provenance := .verified
+
 /-! ## A022958.P1044776346471009207
 
 `2-n`
@@ -4085,6 +4113,34 @@ end
 
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `40-n` (program `A022996.P10288891930018905135`, by `A022996.P10288891930018905135.correct`). Lean does not check the parsing of the name. -/
 def A022996.provenance : SequenceMachineLib.Provenance := .verified
+
+/-! ## A022998.P12220843300282308948
+
+`n*(1+(n+1)%2)`
+-/
+
+namespace A022998.P12220843300282308948
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n * (1 + (n + 1) % 2)
+
+end
+
+end A022998.P12220843300282308948
+
+noncomputable section
+
+/-- A022998: If n is odd then n, otherwise 2n.
+
+Offset 0, canonical program `A022998.P12220843300282308948`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A022998.anchor (n : ℕ) : A022998 n = ((if Even n then 2 * n else n : ℕ) : ℤ)` in `Proof.A022.A022998`. -/
+def A022998 (n : ℕ) : ℤ :=
+  (A022998.P12220843300282308948.a n : ℤ)
+
+end
+
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A022998.anchor (n : ℕ) : A022998 n = ((if Even n then 2 * n else n : ℕ) : ℤ)` in `Proof.A022.A022998`. -/
+def A022998.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A023038.P17061182639878964216
 
@@ -5585,6 +5641,34 @@ end
 
 /-- Verified: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n-40` (program `A023482.P907986368205919176`, by `A023482.P907986368205919176.correct`). Lean does not check the parsing of the name. -/
 def A023482.provenance : SequenceMachineLib.Provenance := .verified
+
+/-! ## A017949.P14583680733829456344
+
+`floor(sqrt(15^n))`
+-/
+
+namespace A017949.P14583680733829456344
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.sqrt (15 ^ n)
+
+end
+
+end A017949.P14583680733829456344
+
+noncomputable section
+
+/-- A017949: Powers of sqrt(15) rounded down.
+
+Offset 0, canonical program `A017949.P14583680733829456344`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A017949 (n : ℕ) : ℤ :=
+  (A017949.P14583680733829456344.a n : ℤ)
+
+end
+
+/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+def A017949.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A017951.P4743721663244329506
 
@@ -17328,34 +17412,6 @@ end
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A022817.provenance : SequenceMachineLib.Provenance := .assumedProven
 
-/-! ## A022838.P2955185450675945792
-
-`floor((n+1)*sqrt(3))`
--/
-
-namespace A022838.P2955185450675945792
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(n + 1 : ℝ) * Real.sqrt (3 : ℝ)⌋
-
-end
-
-end A022838.P2955185450675945792
-
-noncomputable section
-
-/-- A022838: Beatty sequence for sqrt(3); complement of A054406.
-
-Offset 1, canonical program `A022838.P2955185450675945792`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A022838 (n : ℕ) : ℤ :=
-  A022838.P2955185450675945792.a (n - 1)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A022838.provenance : SequenceMachineLib.Provenance := .assumedProven
-
 /-! ## A022839.P1029373569643495419
 
 `floor((n+1)*sqrt(5))`
@@ -17807,34 +17863,6 @@ end
 
 /-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
 def A022921.provenance : SequenceMachineLib.Provenance := .assumedProven
-
-/-! ## A022998.P12220843300282308948
-
-`n*(1+(n+1)%2)`
--/
-
-namespace A022998.P12220843300282308948
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n * (1 + (n + 1) % 2)
-
-end
-
-end A022998.P12220843300282308948
-
-noncomputable section
-
-/-- A022998: If n is odd then n, otherwise 2n.
-
-Offset 0, canonical program `A022998.P12220843300282308948`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A022998 (n : ℕ) : ℤ :=
-  (A022998.P12220843300282308948.a n : ℤ)
-
-end
-
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A022998.provenance : SequenceMachineLib.Provenance := .assumedProven
 
 /-! ## A023000.P211291010459174643
 
@@ -28516,34 +28544,6 @@ end
 
 /-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
 def A023964.provenance : SequenceMachineLib.Provenance := .conjectured
-
-/-! ## A023965.P2747211276513590801
-
-`floor(10*root(sqrt(n+1), 3))%10`
--/
-
-namespace A023965.P2747211276513590801
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod ⌊10 * Real.sqrt (n + 1 : ℝ) ^ (1 / (3 : ℝ))⌋ 10
-
-end
-
-end A023965.P2747211276513590801
-
-noncomputable section
-
-/-- A023965: First digit after decimal point of 6th root of n.
-
-Offset 1, canonical program `A023965.P2747211276513590801`. Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A023965 (n : ℕ) : ℤ :=
-  A023965.P2747211276513590801.a (n - 1)
-
-end
-
-/-- Conjectured: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. -/
-def A023965.provenance : SequenceMachineLib.Provenance := .conjectured
 
 /-! ## A023900.P6802385856234332486
 

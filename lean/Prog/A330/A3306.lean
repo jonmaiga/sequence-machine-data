@@ -54,9 +54,9 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -1180,7 +1180,7 @@ end A330612.P16896626050241922932
 /-!
 # A330613: Triangle read by rows: T(n, k) = 1 + k - 2*n - 2*k*n + 2*n^2, with 0 <= k < n.
 
-The programs for A330613, the canonical program `A330613.P15871994643795830134` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330613 has offset 1).
+The programs for A330613, the canonical program `A330613.P15871994643795830134` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330613 has offset 1).
 
 The definition of A330613 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1189,7 +1189,7 @@ The definition of A330613 is `conjectured`: the Lean definition is a formula tha
 
 `A151890(A061579(n))+1`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A330613
@@ -2472,7 +2472,7 @@ end A330631.P10093623763824998019
 /-!
 # A330632: Number of n-bead bracelets using exactly three colors with no adjacent beads having the same color.
 
-The programs for A330632, the canonical program `A330632.P13103444434143927249` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330632 has offset 1).
+The programs for A330632, the canonical program `A330632.P13103444434143927249` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330632 has offset 1).
 
 The definition of A330632 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 341 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2481,7 +2481,7 @@ The definition of A330632 is `conjectured`: the Lean definition is a formula tha
 
 `A091696(n+1)-A256217(A141310(n))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A330632
@@ -2516,6 +2516,12 @@ namespace A330632
 /-- `A208539(n+1)-A010674(A028310(n))` -/
 def P1869789823961438108.Spec : Prop :=
   ∀ n, P1869789823961438108.a n = A330632 (n + 1)
+
+theorem P1869789823961438108.correct : P1869789823961438108.Spec := by
+  intro n
+  simp only [A330632, Nat.add_sub_cancel, A330632.P1869789823961438108.a, A330632.P13103444434143927249.a, A010674, A010674.P12491932209178453535.a, A028310, A028310.P18130301328277559831.a, A091696, A091696.P12943437932525177728.a, A141310, A141310.P2179789103957121271.a, A208539, A208539.P8659955523163642094.a, A256217, A256217.P4640912278790756071.a, A000011, A000011.P276434732339544012.a, A056342, A056342.P16520513500978853199.a, A256216, A256216.P6411215166490644162.a, A000013, A000013.P13330308426199228881.f1, A000013.P13330308426199228881.a, A000029, A000029.P13945956715463538310.a, A053656, A053656.P15777476116109761211.a, A016116, A016116.P661627231399665482.a, A029744, A029744.P1115822501332250061.a, A056303, A056303.P18308971732008802848.f1, A056303.P18308971732008802848.a, A059076, A059076.P1559801332482280449.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A330632
 
@@ -4661,16 +4667,16 @@ end A330668.P15644985767223667977
 /-!
 # A330669: The prime indices of the prime powers (A000961).
 
-The programs for A330669, the canonical program `A330669.P18160544792484395008` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330669 has offset 1).
+The programs for A330669, the canonical program `A330669.P18160544792484395008` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330669 has offset 1).
 
-The definition of A330669 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000720, A025473, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A330669 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A025473, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A330669.P18160544792484395008
 
 `A000720(A025473(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A330669

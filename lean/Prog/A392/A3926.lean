@@ -701,6 +701,21 @@ end
 
 end A392609.P5703285042212479298
 
+/-! ## A392609.P2259278581626998027
+
+`A001221(n+1)-A001221(A324198(n+1))`
+-/
+
+namespace A392609.P2259278581626998027
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001221 (n + 1) - A001221 (A324198 (n + 1)).toNat
+
+end
+
+end A392609.P2259278581626998027
+
 /-! ## A392609.P285171903659054604
 
 `A341675(A360138(3*n+1)+A002620(n))`
@@ -745,21 +760,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A392609.P584663991878151014
-
-/-! ## A392609.P16209785595869355345
-
-`A196564(3*n)^A368330(A335473(n))`
--/
-
-namespace A392609.P16209785595869355345
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A196564 (3 * n) : ℚ) ^ (A368330 (A335473 n).toNat : ℤ)
-
-end
-
-end A392609.P16209785595869355345
 
 /-!
 # A392610: Number of nonzero digits in the primorial base representation of n (A049345) such that their corresponding radix prime does not divide n.
@@ -3335,20 +3335,20 @@ end
 
 end A392660.P12809527833510394485
 
-/-! ## A392660.P279004328031363658
+/-! ## A392660.P856018373091745402
 
-`A000217(A187224(n+1)%A099338(n+3))`
+`A000217(A187224(n+1)%A058846(n+3))`
 -/
 
-namespace A392660.P279004328031363658
+namespace A392660.P856018373091745402
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000217 (Int.tmod (A187224 (n + 1)) (A099338 (n + 3))).toNat
+  A000217 (Int.tmod (A187224 (n + 1)) (A058846 (n + 3))).toNat
 
 end
 
-end A392660.P279004328031363658
+end A392660.P856018373091745402
 
 /-! ## A392660.P10474681445408046165
 
@@ -3520,6 +3520,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A392663.P9522645289374481620
+
+/-! ## A392663.P9099990862742472308
+
+`A004736(A392661(n+1)+2)`
+-/
+
+namespace A392663.P9099990862742472308
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004736 (A392661 (n + 1) + 2).toNat
+
+end
+
+end A392663.P9099990862742472308
 
 /-! ## A392663.P5850884249179932711
 

@@ -64,7 +64,7 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B012.C000
-import Seq.B014.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -88,6 +88,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -5165,6 +5166,12 @@ namespace A187570
 def P18069073932439943211.Spec : Prop :=
   ∀ n, P18069073932439943211.a n = A187570 (n + 1)
 
+theorem P18069073932439943211.correct : P18069073932439943211.Spec := by
+  intro n
+  simp only [A187570, Nat.add_sub_cancel, A187570.P18069073932439943211.a, A187570.P3143317834405625411.a, A284365, A284365.P11990704887653612876.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A187570
 
 /-! ## A187570.P1157482976280234962
@@ -5475,6 +5482,12 @@ namespace A187571
 /-- `3*(A284365(n+1)-n)+n-2` -/
 def P8058413299389010780.Spec : Prop :=
   ∀ n, P8058413299389010780.a n = A187571 (n + 1)
+
+theorem P8058413299389010780.correct : P8058413299389010780.Spec := by
+  intro n
+  simp only [A187571, Nat.add_sub_cancel, A187571.P8058413299389010780.a, A187571.P5003095769329786883.a, A187570, A187570.P3143317834405625411.a, A284365, A284365.P11990704887653612876.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A187571
 
@@ -7991,6 +8004,31 @@ end
 
 end A187583.P8281001397648776590
 
+/-! ## A187583.P5161019368000458468
+
+`eq[char[A187582(n+1)], A299529(3*(n+1))]`
+-/
+
+namespace A187583.P5161019368000458468
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A187582 (n + 1)
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A299529 (3 * (n + 1))
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f3 j) n
+
+end
+
+end A187583.P5161019368000458468
+
 /-! ## A187583.P8243205780779320915
 
 `eq[char[A187582(n+1)], A151933(n)]`
@@ -8015,31 +8053,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A187583.P8243205780779320915
-
-/-! ## A187583.P4457054250747490795
-
-`eq[char[A187582(n+1)], A151622(n)]`
--/
-
-namespace A187583.P4457054250747490795
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A187582 (n + 1)
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f2 j = (n : ℤ) then 1 else 0
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A151622 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f3 j) n
-
-end
-
-end A187583.P4457054250747490795
 
 /-!
 # A187587: Number of 4-step E, S, NW and NE-moving king's tours on an n X n board summed over all starting positions.

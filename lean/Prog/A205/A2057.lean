@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -91,6 +92,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A205700: Prime(A205698(n)), the n-th number s(k) such that 7 divides s(k)-s(j) for some j
@@ -4311,6 +4316,12 @@ namespace A205726
 /-- `A038108(n+2)-A140114(n+1)` -/
 def P17322878055467586306.Spec : Prop :=
   ∀ n, P17322878055467586306.a n = A205726 (n + 1)
+
+theorem P17322878055467586306.correct : P17322878055467586306.Spec := by
+  intro n
+  simp only [A205726, Nat.add_sub_cancel, A205726.P17322878055467586306.a, A205726.P10294114532479088683.a, A000290, A000290.P12206242496348924484.a, A038108, A038108.P12779941796718339072.a, A072000, A072000.P3706059858088101648.a, A140114, A140114.P8911502322678573461.f1, A140114.P8911502322678573461.a, A056811, A056811.P3378557342044572151.a, A072613, A072613.P13158909735510187267.f1, A072613.P13158909735510187267.a, A253909, A253909.P4396033400827970723.a, A000196, A000196.P15434771586934192083.a, A000720, A000720.P1755771944745605250.f2, A000720.P1755771944745605250.f1, A000720.P1755771944745605250.a, A230595, A230595.P9035268919760195541.a, A008615, A008615.P10410393553474300613.a, A305809, A305809.P1603223688838508842.f1, A305809.P1603223688838508842.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A205726
 

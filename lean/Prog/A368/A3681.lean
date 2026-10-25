@@ -303,7 +303,7 @@ end A368101.P14651728718079615981
 
 The programs for A368104, the canonical program `A368104.P6809811150617499491` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368104 has offset 1).
 
-The definition of A368104 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A057521, A286324, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A368104 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A286324, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A368104.P6809811150617499491
@@ -783,7 +783,7 @@ end A368105
 
 The programs for A368106, the canonical program `A368106.P645412121077292751` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368106 has offset 1).
 
-The definition of A368106 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A037445, A057521, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A368106 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A037445, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A368106.P645412121077292751
@@ -1875,6 +1875,21 @@ end
 
 end A368119.P15097824650781831956
 
+/-! ## A368119.P4143695680688295703
+
+`A142589(A038722(n+1)-A002024(n+1))`
+-/
+
+namespace A368119.P4143695680688295703
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A142589 (A038722 (n + 1) - A002024 (n + 1)).toNat
+
+end
+
+end A368119.P4143695680688295703
+
 /-!
 # A368124: A variant of A367146 with application of the distance minimization to the first of two symmetrized versions of the strip bijection between two square lattices as described in A368121.
 
@@ -2816,6 +2831,36 @@ end A368161.P1156519638658709687
 The programs for A368165, there is no canonical definition to state claims against.
 -/
 
+/-! ## A368165.P6541641797780697736
+
+`A199969(A351492(n)+1)`
+-/
+
+namespace A368165.P6541641797780697736
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A199969 (A351492 n + 1).toNat
+
+end
+
+end A368165.P6541641797780697736
+
+/-! ## A368165.P11435246546937421964
+
+`A351492(A151771(n)+n)`
+-/
+
+namespace A368165.P11435246546937421964
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A351492 (A151771 n + (n : ℤ)).toNat
+
+end
+
+end A368165.P11435246546937421964
+
 /-! ## A368165.P8262108015290730897
 
 `A351492(n)%A289427(n)`
@@ -2860,36 +2905,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A368165.P12226422626859041719
-
-/-! ## A368165.P15179868181484330616
-
-`A351492(n)+A010815(A000244(n))`
--/
-
-namespace A368165.P15179868181484330616
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351492 n + A010815 (A000244 n).toNat
-
-end
-
-end A368165.P15179868181484330616
-
-/-! ## A368165.P17129427646450290094
-
-`A351492(A073790(A000038(n)+n))`
--/
-
-namespace A368165.P17129427646450290094
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A351492 (A073790 (A000038 n + (n : ℤ)).toNat).toNat
-
-end
-
-end A368165.P17129427646450290094
 
 /-!
 # A368166: Expansion of e.g.f. -log(1 + x^3/6 * log(1 - x)).
@@ -2977,7 +2992,7 @@ end A368166.P8234437505502563640
 
 The programs for A368167, the canonical program `A368167.P14958017841539973394` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368167 has offset 1).
 
-The definition of A368167 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A057521, A350389, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A368167 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A350389, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A368167.P14958017841539973394
@@ -3719,7 +3734,7 @@ end A368168
 
 The programs for A368169, the canonical program `A368169.P9952694221193690901` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368169 has offset 1).
 
-The definition of A368169 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A368167, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A368169 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A368167, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A368169.P9952694221193690901
@@ -4440,7 +4455,7 @@ end A368171
 
 The programs for A368172, the canonical program `A368172.P14008522485894596196` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368172 has offset 1).
 
-The definition of A368172 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A368170, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A368172 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A368170, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A368172.P14008522485894596196
@@ -5619,6 +5634,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A368198.P14360604451170804298
+
+/-! ## A368198.P888449292802094014
+
+`A326976(A034254(3*n+2))+A051709(n+1)`
+-/
+
+namespace A368198.P888449292802094014
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326976 (A034254 (3 * n + 2)).toNat + A051709 (n + 1)
+
+end
+
+end A368198.P888449292802094014
 
 /-!
 # A368199: Number of times n appears as a term of A105774.

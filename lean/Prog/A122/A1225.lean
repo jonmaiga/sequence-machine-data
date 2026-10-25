@@ -70,6 +70,7 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -409,7 +410,7 @@ end A122506.P5223490792947287480
 /-!
 # A122507: Triangle in which row n contains the first n terms of A018805.
 
-The programs for A122507, the canonical program `A122507.P15819417335415522876` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122507 has offset 1).
+The programs for A122507, the canonical program `A122507.P15819417335415522876` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122507 has offset 1).
 
 The definition of A122507 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -484,7 +485,7 @@ end A122507
 
 `A049691(1-C(∑[char[∑[n]]], 2)+n)-2`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A122507
@@ -2145,6 +2146,12 @@ namespace A122516
 def P17156888243079654518.Spec : Prop :=
   ∀ n, P17156888243079654518.a n = A122516 (n + 1)
 
+theorem P17156888243079654518.correct : P17156888243079654518.Spec := by
+  intro n
+  simp only [A122516, Nat.add_sub_cancel, A122516.P17156888243079654518.f1, A122516.P17156888243079654518.a, A122516.P15119530128524371559.f1, A122516.P15119530128524371559.a, A046992, A046992.P5723550036857346414.a, A061536, A061536.P1966979558929038729.a, A002815, A002815.P11144953744924913715.f1, A002815.P11144953744924913715.a, A230980, A230980.P7768329975809437652.f2, A230980.P7768329975809437652.f1, A230980.P7768329975809437652.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A122516
 
 /-! ## A122516.P17587749315761067834
@@ -3229,7 +3236,7 @@ end A122523.P15391264946716999910
 /-!
 # A122525: Triangle read by rows: G(s, rho) = ((s-1)!/s)*Sum_{i=0..s-1} ((s-i)/i!)*(s*rho)^i.
 
-The programs for A122525, the canonical program `A122525.P3049472410063395283` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122525 has offset 1).
+The programs for A122525, the canonical program `A122525.P3049472410063395283` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122525 has offset 1).
 
 The definition of A122525 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1747 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3261,7 +3268,7 @@ end A122525
 
 `A058127(n+1)*A094587(n)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A122525
@@ -3492,6 +3499,25 @@ end A122525
 The programs for A122526, there is no canonical definition to state claims against.
 -/
 
+/-! ## A122526.P10690965154576806680
+
+`comp[A002410(A028310(n))%A014641(4*n)]`
+-/
+
+namespace A122526.P10690965154576806680
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A002410 (A028310 n).toNat) (A014641 (4 * n))
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A122526.P10690965154576806680
+
 /-! ## A122526.P7287638676312054621
 
 `filter[n+1, A133011(#)]`
@@ -3668,24 +3694,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A122526.P10055944593730548757
-
-/-! ## A122526.P16195126984714469179
-
-`record[A131732(2*n)*A133011(n+1)]`
--/
-
-namespace A122526.P16195126984714469179
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131732 (2 * n) * A133011 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A122526.P16195126984714469179
 
 /-!
 # A122529: Complement of sequence A029903.
@@ -6186,6 +6194,25 @@ namespace A122558
 def P6701675239390772474.Spec : Prop :=
   ∀ n, P6701675239390772474.a n = (A122558 n : ℝ)
 
+theorem P6701675239390772474.correct : P6701675239390772474.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A122558, Nat.add_sub_cancel, A122558.P6701675239390772474.a, A122558.P17538861966145011951.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A122558, Nat.add_sub_cancel, A122558.P6701675239390772474.a, A122558.P17538861966145011951.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A122558
 
 /-! ## A122558.P6697122495448123613
@@ -6807,6 +6834,12 @@ namespace A122562
 /-- `Δ[(A000217(n)+57)²]` -/
 def P2785774638414990585.Spec : Prop :=
   ∀ n, P2785774638414990585.a n = A122562 (n + 1)
+
+theorem P2785774638414990585.correct : P2785774638414990585.Spec := by
+  intro n
+  simp only [A122562, Nat.add_sub_cancel, A122562.P2785774638414990585.f1, A122562.P2785774638414990585.a, A122562.P13058208799221049303.a, A000217, A000217.P10269402890581615239.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A122562
 
@@ -8027,7 +8060,7 @@ end A122566
 /-!
 # A122567: Twin primes modulo 4.
 
-The programs for A122567, the canonical program `A122567.P13257649672823421498` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122567 has offset 1).
+The programs for A122567, the canonical program `A122567.P13257649672823421498` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122567 has offset 1).
 
 The definition of A122567 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8036,7 +8069,7 @@ The definition of A122567 is `conjectured`: the Lean definition is a formula tha
 
 `A001097(n+1)%4`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A122567

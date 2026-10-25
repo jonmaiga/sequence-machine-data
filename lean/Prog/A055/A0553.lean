@@ -9549,6 +9549,29 @@ def P10018948219301645022.Spec : Prop :=
 
 end A055389
 
+/-! ## A055389.P5185071828902705696
+
+`a(n-2)-a(n-1)/(gcd(2, a(n-2))-3)` with `a(0)=1, a(1)=2`
+-/
+
+namespace A055389.P5185071828902705696
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [1, 2] fun n a =>
+  a (n - 2) - a (n - 1) / ((Int.gcd 2 (SequenceMachineLib.roundAway (a (n - 2))) : ℤ) - 3 : ℚ)
+
+end
+
+end A055389.P5185071828902705696
+
+namespace A055389
+
+/-- `a(n-2)-a(n-1)/(gcd(2, a(n-2))-3)` -/
+def P5185071828902705696.Spec : Prop :=
+  ∀ n, P5185071828902705696.a n = (A055389 n : ℚ)
+
+end A055389
+
 /-! ## A055389.P1193961347916303630
 
 `A163733(n+2)`
@@ -9822,29 +9845,6 @@ namespace A055389
 /-- `A006355(A199969(n+2))` -/
 def P7040741246738368859.Spec : Prop :=
   ∀ n, P7040741246738368859.a n = A055389 n
-
-end A055389
-
-/-! ## A055389.P3243549707037655118
-
-`A057428(n)+A001588(n)`
--/
-
-namespace A055389.P3243549707037655118
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057428 n + A001588 n
-
-end
-
-end A055389.P3243549707037655118
-
-namespace A055389
-
-/-- `A057428(n)+A001588(n)` -/
-def P3243549707037655118.Spec : Prop :=
-  ∀ n, P3243549707037655118.a n = A055389 n
 
 end A055389
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -52,8 +53,10 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -65,6 +68,7 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -90,6 +94,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A307200: Fill the plane with the square spiral with cells numbered as in A275609; sequence gives the cells along the South-East spoke starting at the origin.
@@ -2288,6 +2296,12 @@ namespace A307247
 /-- `A294180(∑[A188374(n+1)])-1` -/
 def P18066962908147358190.Spec : Prop :=
   ∀ n, P18066962908147358190.a n = A307247 (n + 1)
+
+theorem P18066962908147358190.correct : P18066962908147358190.Spec := by
+  intro n
+  simp only [A307247, Nat.add_sub_cancel, A307247.P18066962908147358190.f1, A307247.P18066962908147358190.a, A307247.P2766846640949423295.f1, A307247.P2766846640949423295.a, A188374, A188374.P8612799017787756249.a, A263844, A263844.P203203564096424831.a, A294180, A294180.P3974927329510953203.a, A080764, A080764.P14301132771463561424.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A307247
 
@@ -6105,6 +6119,12 @@ namespace A307295
 /-- `A219636(n+1)+2` -/
 def P17676228494004791583.Spec : Prop :=
   ∀ n, P17676228494004791583.a n = A307295 n
+
+theorem P17676228494004791583.correct : P17676228494004791583.Spec := by
+  intro n
+  simp only [A307295, Nat.add_sub_cancel, A307295.P17676228494004791583.a, A307295.P4534131516467912471.a, A219636, A219636.P17854170644708396736.a, A287723, A287723.P11608785159484584755.f1, A287723.P11608785159484584755.a, A001468, A001468.P12360075344960480253.a, A142150, A142150.P17187063318547882225.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A307295
 

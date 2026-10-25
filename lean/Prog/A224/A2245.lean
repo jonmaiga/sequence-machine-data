@@ -50,6 +50,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
@@ -66,7 +67,6 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
-import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
@@ -2919,7 +2919,7 @@ end A224524.P12423448345600939636
 
 The programs for A224525, the canonical program `A224525.P7370046672617577056` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224525 has offset 1).
 
-The definition of A224525 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002541, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A224525 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A224525.P7370046672617577056
@@ -6453,6 +6453,21 @@ end
 
 end A224560.P13637886721015928985
 
+/-! ## A224560.P3033948521380275468
+
+`A224568(A001844(n))%A065235(n+1)`
+-/
+
+namespace A224560.P3033948521380275468
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A224568 (A001844 n).toNat) (A065235 (n + 1))
+
+end
+
+end A224560.P3033948521380275468
+
 /-! ## A224560.P13514689737749248858
 
 `A224568(A001844(n))/A007318(C(2, n))`
@@ -6467,21 +6482,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A224560.P13514689737749248858
-
-/-! ## A224560.P13583248683929473841
-
-`A224568(A001844(n))+A000045(n)%-1`
--/
-
-namespace A224560.P13583248683929473841
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A224568 (A001844 n).toNat + Int.tmod (A000045 n) (-1)
-
-end
-
-end A224560.P13583248683929473841
 
 /-!
 # A224561: Number of (n+3) X 4 0..1 matrices with each 4 X 4 subblock idempotent.

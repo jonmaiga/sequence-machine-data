@@ -3499,6 +3499,12 @@ namespace A138233
 def P14325259326210455934.Spec : Prop :=
   ∀ n, P14325259326210455934.a n = (A138233 n : ℚ)
 
+theorem P14325259326210455934.correct : P14325259326210455934.Spec := by
+  intro n
+  simp only [A138233, Nat.add_sub_cancel, A138233.P14325259326210455934.a, A138233.P5550320243302702201.a, A008776, A008776.P11088121667404015999.a, A020707, A020707.P16024998955381595964.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A138233
 
 /-! ## A138233.P6754045948197829082
@@ -3550,6 +3556,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A138234.P7990624857936872278
+
+/-! ## A138234.P12529590239970301651
+
+`lt[A293299(A005117(n+1)), A162823(n+1)]`
+-/
+
+namespace A138234.P12529590239970301651
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A293299 (A005117 (n + 1)).toNat
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A162823 (n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A138234.P12529590239970301651
 
 /-! ## A138234.P3407035844377466175
 
@@ -3613,27 +3640,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A138234.P14107478563032651642
-
-/-! ## A138234.P13278739316262101917
-
-`lt[A051709(A204713(n+1)), A141617(n)]`
--/
-
-namespace A138234.P13278739316262101917
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051709 (A204713 (n + 1)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A141617 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A138234.P13278739316262101917
 
 /-!
 # A138235: a(n) = floor(n*(6 + sqrt(6))/5).
@@ -4554,7 +4560,7 @@ end A138241
 /-!
 # A138242: Prime numbers k such that 12*k - 1, 12*k + 1 are twin primes.
 
-The programs for A138242, the canonical program `A138242.P9271491672774814996` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138242 has offset 1).
+The programs for A138242, the canonical program `A138242.P9271491672774814996` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138242 has offset 1).
 
 The definition of A138242 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 649 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4563,7 +4569,7 @@ The definition of A138242 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A124519(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A138242

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -62,7 +63,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -91,6 +91,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A235900: Number of (n+1)X(6+1) 0..2 arrays with the minimum plus the maximum equal to the lower median plus the upper median in every 2X2 subblock.
@@ -4653,6 +4657,12 @@ namespace A235963
 def P856114814853271077.Spec : Prop :=
   ∀ n, P856114814853271077.a n = A235963 n
 
+theorem P856114814853271077.correct : P856114814853271077.Spec := by
+  intro n
+  simp only [A235963, Nat.add_sub_cancel, A235963.P856114814853271077.a, A235963.P8917601203416474347.a, A085141, A085141.P2552504133626541575.a, A180447, A180447.P3440103669525281536.a, A193832, A193832.P6849096457617838116.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A235963
 
 /-! ## A235963.P7506424632032977166
@@ -6856,6 +6866,12 @@ namespace A235988
 /-- `3*(n+1)*A077043(n+1)` -/
 def P4133432285788544484.Spec : Prop :=
   ∀ n, P4133432285788544484.a n = A235988 (n + 1)
+
+theorem P4133432285788544484.correct : P4133432285788544484.Spec := by
+  intro n
+  simp only [A235988, Nat.add_sub_cancel, A235988.P4133432285788544484.a, A235988.P11616926107852557646.a, A077043, A077043.P527302642051147366.a, A002620, A002620.P9002536657626793813.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A235988
 

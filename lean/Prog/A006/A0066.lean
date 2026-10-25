@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -66,6 +67,7 @@ import Seq.B007.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -93,6 +95,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A006600: Total number of triangles visible in regular n-gon with all diagonals drawn.
@@ -2127,6 +2133,12 @@ namespace A006629
 /-- `(A007226(n+1)-A000139(n+1))/2` -/
 def P15677840910290072813.Spec : Prop :=
   ∀ n, P15677840910290072813.a n = (A006629 n : ℚ)
+
+theorem P15677840910290072813.correct : P15677840910290072813.Spec := by
+  intro n
+  simp only [A006629, Nat.add_sub_cancel, A006629.P15677840910290072813.a, A006629.P1664093958388790067.a, A000139, A000139.P8318245190687706795.a, A007226, A007226.P15452380064460553406.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A006629
 
@@ -6096,6 +6108,12 @@ namespace A006659
 /-- `2*A002694(n+2)` -/
 def P11778441097935589513.Spec : Prop :=
   ∀ n, P11778441097935589513.a n = A006659 (n + 1)
+
+theorem P11778441097935589513.correct : P11778441097935589513.Spec := by
+  intro n
+  simp only [A006659, Nat.add_sub_cancel, A006659.P11778441097935589513.a, A006659.P17029999458645631274.a, A002694, A002694.P4701693230279570942.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A006659
 

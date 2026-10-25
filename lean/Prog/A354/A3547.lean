@@ -58,7 +58,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -1185,7 +1184,7 @@ end A354712.P11471092685657782942
 
 The programs for A354713, the canonical program `A354713.P17399075421712042557` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354713 has offset 2).
 
-The definition of A354713 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A000188, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A354713 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000188, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A354713.P17399075421712042557
@@ -3512,6 +3511,12 @@ namespace A354760
 def P9357649565802100340.Spec : Prop :=
   ∀ n, (P9357649565802100340.a n : ℤ) = A354760 n
 
+theorem P9357649565802100340.correct : P9357649565802100340.Spec := by
+  intro n
+  simp only [A354760, Nat.add_sub_cancel, A354760.P9357649565802100340.a, A354760.P8419242829746623981.a, A054055, A054055.P4613541377942540963.a, A355222, A355222.P17906569904308679321.a, A054054, A054054.P1056175227029170886.a, A056142, A056142.P638140004868031470.a, A182324, A182324.P68523715600839783.a, A000030, A000030.P4990867543733972260.a, A059995, A059995.P135539884652528526.a, A275238, A275238.P2529277380881640300.a, A348783, A348783.P18337028565941183294.f1, A348783.P18337028565941183294.a, A178914, A178914.P15550462812133884735.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A354760
 
 /-! ## A354760.P8069373487137454652
@@ -3949,7 +3954,7 @@ end A354765.P14608366242151931174
 /-!
 # A354766: 1/4 of the total number of integral quadruples with sum = n and sum of squares = n^2.
 
-The programs for A354766, the canonical program `A354766.P686189450615748879` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354766 has offset 1).
+The programs for A354766, the canonical program `A354766.P686189450615748879` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354766 has offset 1).
 
 The definition of A354766 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 650 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3958,7 +3963,7 @@ The definition of A354766 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000593(#)*A365428((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A354766
@@ -5387,6 +5392,12 @@ namespace A354779
 /-- `A355067(n+3)-A059169(n+1)` -/
 def P10410662113035202847.Spec : Prop :=
   ∀ n, P10410662113035202847.a n = A354779 n
+
+theorem P10410662113035202847.correct : P10410662113035202847.Spec := by
+  intro n
+  simp only [A354779, Nat.add_sub_cancel, A354779.P10410662113035202847.a, A354779.P14123866738255454277.a, A059169, A059169.P12427980580684764790.a, A355067, A355067.P6989031738138831130.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A354779
 
@@ -7254,6 +7265,12 @@ namespace A354788
 /-- `∑[A131572(n)]` -/
 def P12212600015507917165.Spec : Prop :=
   ∀ n, P12212600015507917165.a n = A354788 n
+
+theorem P12212600015507917165.correct : P12212600015507917165.Spec := by
+  intro n
+  simp only [A354788, Nat.add_sub_cancel, A354788.P12212600015507917165.f1, A354788.P12212600015507917165.a, A354788.P15284884642981116726.f1, A354788.P15284884642981116726.a, A131572, A131572.P9577111679709135137.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A354788
 

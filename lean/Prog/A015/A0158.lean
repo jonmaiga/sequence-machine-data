@@ -49,12 +49,13 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B009.C000
@@ -544,6 +545,21 @@ end
 
 end A015807.P8005989953906256948
 
+/-! ## A015807.P17947641647244612115
+
+`A016155(n)^A104847(A000326(n+3))`
+-/
+
+namespace A015807.P17947641647244612115
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A016155 n : ℚ) ^ (A104847 (A000326 (n + 3)).toNat : ℤ)
+
+end
+
+end A015807.P17947641647244612115
+
 /-! ## A015807.P9044017704977510957
 
 `Δ[and(1, A070971(n+2))]`
@@ -562,25 +578,10 @@ end
 
 end A015807.P9044017704977510957
 
-/-! ## A015807.P18062533762367996268
-
-`A016303(A281873(n+2))`
--/
-
-namespace A015807.P18062533762367996268
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016303 (A281873 (n + 2)).toNat
-
-end
-
-end A015807.P18062533762367996268
-
 /-!
 # A015809: Odd numbers k such that phi(k) | sigma_3(k).
 
-The programs for A015809, the canonical program `A015809.P1146351289713362011` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015809 has offset 1).
+The programs for A015809, the canonical program `A015809.P1146351289713362011` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015809 has offset 1).
 
 The definition of A015809 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2868 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -589,7 +590,7 @@ The definition of A015809 is `conjectured`: the Lean definition is a formula tha
 
 `A015761(eq[1, A015761(n+1)%2]+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A015809
@@ -1104,7 +1105,7 @@ end A015813.P14225569241061932740
 /-!
 # A015814: Numbers k such that phi(k + 1) divides sigma(k).
 
-The programs for A015814, the canonical program `A015814.P2308272231266712354` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015814 has offset 1).
+The programs for A015814, the canonical program `A015814.P2308272231266712354` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015814 has offset 1).
 
 The definition of A015814 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 311 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1113,7 +1114,7 @@ The definition of A015814 is `conjectured`: the Lean definition is a formula tha
 
 `record[gcd(n+1, A000203(n+1)%A000010(n+2))]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A015814
@@ -1685,7 +1686,7 @@ end A015819.P10228882950514399554
 /-!
 # A015820: Numbers k such that phi(k + 4) | sigma(k).
 
-The programs for A015820, the canonical program `A015820.P11788765630809446508` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015820 has offset 1).
+The programs for A015820, the canonical program `A015820.P11788765630809446508` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015820 has offset 1).
 
 The definition of A015820 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 641 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1694,7 +1695,7 @@ The definition of A015820 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A000203(n+1)%A000010(n+5), 1]+1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A015820
@@ -1733,7 +1734,7 @@ end A015821.P9050314923269743768
 /-!
 # A015823: Numbers k such that phi(k + 7) | sigma(k).
 
-The programs for A015823, the canonical program `A015823.P14101664896886442128` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015823 has offset 1).
+The programs for A015823, the canonical program `A015823.P14101664896886442128` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015823 has offset 1).
 
 The definition of A015823 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 946 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1742,7 +1743,7 @@ The definition of A015823 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A000203(n+1)%A000010(n+8), 1]+1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A015823
@@ -2210,7 +2211,7 @@ end A015829.P9361350304542744673
 /-!
 # A015834: Numbers k such that phi(k) | sigma(k + 1).
 
-The programs for A015834, the canonical program `A015834.P6187228522220576603` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015834 has offset 1).
+The programs for A015834, the canonical program `A015834.P6187228522220576603` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015834 has offset 1).
 
 The definition of A015834 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 275 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2219,7 +2220,7 @@ The definition of A015834 is `conjectured`: the Lean definition is a formula tha
 
 `record[gcd(n+1, A000203(n+2)%A000010(n+1))]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A015834
@@ -2374,6 +2375,21 @@ end
 
 end A015835.P16945915201332393443
 
+/-! ## A015835.P5041009032858017409
+
+`A010815(A005448(n+1)-A285100(n+1))`
+-/
+
+namespace A015835.P5041009032858017409
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010815 (A005448 (n + 1) - A285100 (n + 1)).toNat
+
+end
+
+end A015835.P5041009032858017409
+
 /-! ## A015835.P11722921832472102344
 
 `(-A015120(n))^A156723(n+1)`
@@ -2428,7 +2444,7 @@ end A015836.P7904589977398426134
 /-!
 # A015837: Numbers k such that phi(k) | sigma(k + 2).
 
-The programs for A015837, the canonical program `A015837.P10061482123831038346` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015837 has offset 1).
+The programs for A015837, the canonical program `A015837.P10061482123831038346` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015837 has offset 1).
 
 The definition of A015837 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 280 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2437,7 +2453,7 @@ The definition of A015837 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A000203(n+3)%A000010(n+1), 1]+1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A015837
@@ -3042,7 +3058,7 @@ end A015846.P8134346268516572394
 /-!
 # A015847: Numbers k such that phi(k + 4) | sigma(k) for k not congruent to 0 (mod 3).
 
-The programs for A015847, the canonical program `A015847.P12490505763805221842` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015847 has offset 1).
+The programs for A015847, the canonical program `A015847.P12490505763805221842` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015847 has offset 1).
 
 The definition of A015847 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9627 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3051,7 +3067,7 @@ The definition of A015847 is `conjectured`: the Lean definition is a formula tha
 
 `A015820(eq[1, gcd(3, A015820(n+1))]+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A015847
@@ -3319,7 +3335,7 @@ end A015847
 /-!
 # A015848: Numbers k such that phi(k + 7) | sigma(k) for k not congruent to 0 (mod 3).
 
-The programs for A015848, the canonical program `A015848.P1385661765807216180` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015848 has offset 1).
+The programs for A015848, the canonical program `A015848.P1385661765807216180` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015848 has offset 1).
 
 The definition of A015848 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 254 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3328,7 +3344,7 @@ The definition of A015848 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A001651(n+1), A015823(n+1)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A015848
@@ -3820,7 +3836,7 @@ end A015852.P9374916665510441476
 /-!
 # A015853: Numbers k such that phi(k) | sigma(k + 9).
 
-The programs for A015853, the canonical program `A015853.P2283416451843243793` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015853 has offset 1).
+The programs for A015853, the canonical program `A015853.P2283416451843243793` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015853 has offset 1).
 
 The definition of A015853 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 269 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3829,7 +3845,7 @@ The definition of A015853 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A000203(n+10)%A000010(n+1), 1]+1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A015853
@@ -5736,6 +5752,21 @@ end
 
 end A015896.P14461316189942904757
 
+/-! ## A015896.P12908266928758921084
+
+`A336118(A016116(n))+A016100(n)`
+-/
+
+namespace A015896.P12908266928758921084
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A336118 (A016116 n).toNat + A016100 n
+
+end
+
+end A015896.P12908266928758921084
+
 /-! ## A015896.P14777915334048240637
 
 `A011649(n)*A033999(n)`
@@ -5765,21 +5796,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015896.P2224554646221417901
-
-/-! ## A015896.P13330530513987183305
-
-`A016202(n)%A037300(n)`
--/
-
-namespace A015896.P13330530513987183305
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A016202 n) (A037300 n)
-
-end
-
-end A015896.P13330530513987183305
 
 /-!
 # A015897: Numbers k such that k | 8^k + 8.

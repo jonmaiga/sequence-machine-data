@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -55,16 +56,15 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -94,6 +94,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A385800: Primes having only {6, 8, 9} as digits.
@@ -1703,7 +1707,7 @@ end A385821
 /-!
 # A385822: Numbers k such that phi(k) is not a perfect square.
 
-The programs for A385822, the canonical program `A385822.P7363694969260658902` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385822 has offset 1).
+The programs for A385822, the canonical program `A385822.P7363694969260658902` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385822 has offset 1).
 
 The definition of A385822 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1712,7 +1716,7 @@ The definition of A385822 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A039770(n+1)-1]+1`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A385822
@@ -3384,6 +3388,12 @@ namespace A385879
 def P5108768065677419898.Spec : Prop :=
   ∀ n, P5108768065677419898.a n = A385879 (n + 1)
 
+theorem P5108768065677419898.correct : P5108768065677419898.Spec := by
+  intro n
+  simp only [A385879, Nat.add_sub_cancel, A385879.P5108768065677419898.a, A385879.P5429911478239775443.f3, A385879.P5429911478239775443.f2, A385879.P5429911478239775443.f1, A385879.P5429911478239775443.a, A069905, A069905.P9161905402948910103.a, A385880, A385880.P8400592766073740552.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A385879
 
 /-! ## A385879.P5429911478239775443
@@ -4881,6 +4891,35 @@ namespace A385894
 /-- `floor(a(n-1)+((1-n)²+n)²)` -/
 def P4530075188951012182.Spec : Prop :=
   ∀ n, P4530075188951012182.a n = A385894 n
+
+end A385894
+
+/-! ## A385894.P17686817273907218619
+
+`∑[∑[A004275(n)]²]`
+-/
+
+namespace A385894.P17686817273907218619
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004275 n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (∑ j ∈ Finset.range (n + 1), f2 j) ^ 2
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A385894.P17686817273907218619
+
+namespace A385894
+
+/-- `∑[∑[A004275(n)]²]` -/
+def P17686817273907218619.Spec : Prop :=
+  ∀ n, P17686817273907218619.a n = A385894 n
 
 end A385894
 

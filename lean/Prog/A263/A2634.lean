@@ -3700,6 +3700,32 @@ def P10330126110173773230.Spec : Prop :=
 
 end A263449
 
+/-! ## A263449.P5693287892462184931
+
+`∑[2-a(n-2)]` with `a(0)=1, a(1)=3, a(2)=-1`
+-/
+
+namespace A263449.P5693287892462184931
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [1, 3, -1] fun n f1 =>
+  2 - f1 (n - 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A263449.P5693287892462184931
+
+namespace A263449
+
+/-- `∑[2-a(n-2)]` -/
+def P5693287892462184931.Spec : Prop :=
+  ∀ n, P5693287892462184931.a n = A263449 n
+
+end A263449
+
 /-! ## A263449.P13920013809504218809
 
 `ogf((1+2x-3x^2+2x^3)/(1-2x+2x^2-2x^3+x^4))`
@@ -4025,35 +4051,6 @@ namespace A263449
 /-- `Δ[∑[n]+and(2, n)]` -/
 def P8880305282012314636.Spec : Prop :=
   ∀ n, P8880305282012314636.a n = A263449 n
-
-end A263449
-
-/-! ## A263449.P16755070627354573907
-
-`Δ[∑[n+1]-or(2, n)]`
--/
-
-namespace A263449.P16755070627354573907
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∑ j ∈ Finset.range (n + 1), f2 j : ℕ) : ℤ) - (Nat.lor 2 n : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A263449.P16755070627354573907
-
-namespace A263449
-
-/-- `Δ[∑[n+1]-or(2, n)]` -/
-def P16755070627354573907.Spec : Prop :=
-  ∀ n, P16755070627354573907.a n = A263449 n
 
 end A263449
 
@@ -7399,7 +7396,7 @@ end A263482.P7794014257226360636
 
 The programs for A263483, the canonical program `A263483.P11551331983002563713` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263483 has offset 1).
 
-The definition of A263483 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A039704, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A263483 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A039704, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A263483.P11551331983002563713

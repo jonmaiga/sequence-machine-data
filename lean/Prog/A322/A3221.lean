@@ -510,6 +510,29 @@ def P13196768798722765350.Spec : Prop :=
 
 end A322108
 
+/-! ## A322108.P1401413537644312059
+
+`floor(a(n-1)+2-a(n-1)/n)+n*n` with `a(0)=1`
+-/
+
+namespace A322108.P1401413537644312059
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  ⌊(a (n - 1) + 2 : ℚ) - (a (n - 1) : ℚ) / (n : ℚ)⌋ + (n * n : ℤ)
+
+end
+
+end A322108.P1401413537644312059
+
+namespace A322108
+
+/-- `floor(a(n-1)+2-a(n-1)/n)+n*n` -/
+def P1401413537644312059.Spec : Prop :=
+  ∀ n, P1401413537644312059.a n = A322108 (n + 1)
+
+end A322108
+
 /-! ## A322108.P10568641392988099118
 
 `A019298(n)+A001972(n)`
@@ -6871,20 +6894,20 @@ end
 
 end A322198.P15691202339912304290
 
-/-! ## A322198.P14873108826961794157
+/-! ## A322198.P17050117499100664361
 
-`A014321(A179533(n))`
+`A065361(A054640(n))`
 -/
 
-namespace A322198.P14873108826961794157
+namespace A322198.P17050117499100664361
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014321 (A179533 n).toNat
+  A065361 (A054640 n).toNat
 
 end
 
-end A322198.P14873108826961794157
+end A322198.P17050117499100664361
 
 /-!
 # A322199: Expansion of Product_{k>=1} 1/(1 - (2^k + 1) * x^k).

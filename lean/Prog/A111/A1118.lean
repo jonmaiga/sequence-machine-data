@@ -49,6 +49,7 @@ import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -57,6 +58,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -6255,29 +6257,32 @@ def P7041613807900042194.Spec : Prop :=
 
 end A111868
 
-/-! ## A111868.P15524937065256702853
+/-! ## A111868.P7083699490143645771
 
-`(∑[A002378(n)]*A000169(n+1))%A061718(n+1)`
+`∑[∑[2*n]]*A000169(n+1)`
 -/
 
-namespace A111868.P15524937065256702853
+namespace A111868.P7083699490143645771
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002378 n
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 * n
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod ((∑ j ∈ Finset.range (n + 1), f1 j) * A000169 (n + 1)) (A061718 (n + 1))
+  ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) * A000169 (n + 1)
 
 end
 
-end A111868.P15524937065256702853
+end A111868.P7083699490143645771
 
 namespace A111868
 
-/-- `(∑[A002378(n)]*A000169(n+1))%A061718(n+1)` -/
-def P15524937065256702853.Spec : Prop :=
-  ∀ n, P15524937065256702853.a n = A111868 (n + 1)
+/-- `∑[∑[2*n]]*A000169(n+1)` -/
+def P7083699490143645771.Spec : Prop :=
+  ∀ n, P7083699490143645771.a n = A111868 (n + 1)
 
 end A111868
 
@@ -6639,6 +6644,32 @@ namespace A111873
 /-- `A004320(n)*A007334(n+2)` -/
 def P13216034941843096049.Spec : Prop :=
   ∀ n, P13216034941843096049.a n = A111873 (n + 1)
+
+end A111873
+
+/-! ## A111873.P17564792574486911643
+
+`∑[A002378(n)]*A000272(n+2)`
+-/
+
+namespace A111873.P17564792574486911643
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002378 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (∑ j ∈ Finset.range (n + 1), f1 j) * A000272 (n + 2)
+
+end
+
+end A111873.P17564792574486911643
+
+namespace A111873
+
+/-- `∑[A002378(n)]*A000272(n+2)` -/
+def P17564792574486911643.Spec : Prop :=
+  ∀ n, P17564792574486911643.a n = A111873 (n + 1)
 
 end A111873
 

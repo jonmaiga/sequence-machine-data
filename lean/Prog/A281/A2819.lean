@@ -50,9 +50,9 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -120,7 +120,7 @@ end A281901.P4993503846119441764
 /-!
 # A281902: Numbers n which have the form n = k^2 - k + (i^2-i)/2 + 2*k*i, k>=1, i>=0.
 
-The programs for A281902, the canonical program `A281902.P11836732846535714631` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281902 has offset 1).
+The programs for A281902, the canonical program `A281902.P11836732846535714631` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281902 has offset 1).
 
 The definition of A281902 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2175 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -129,7 +129,7 @@ The definition of A281902 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, char[A049780(n)+n]]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A281902
@@ -2913,7 +2913,7 @@ end A281942.P9408481927532810140
 /-!
 # A281944: Triangle read by rows: T(n,k) (n>=1, 3<=k<=n+2) is the number of k-sequences of balls colored with n colors such that exactly two balls are of a color seen previously in the sequence.
 
-The programs for A281944, the canonical program `A281944.P7909452327264810087` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281944 has offset 1).
+The programs for A281944, the canonical program `A281944.P7909452327264810087` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281944 has offset 1).
 
 The definition of A281944 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1035 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2922,7 +2922,7 @@ The definition of A281944 is `conjectured`: the Lean definition is a formula tha
 
 `A037960(A002260(n+1))*A135278(n)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A281944

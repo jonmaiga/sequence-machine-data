@@ -43,6 +43,7 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -50,19 +51,19 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C002
-import Seq.B007.C002
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
+import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
@@ -3356,7 +3357,7 @@ end A392449
 /-!
 # A392450: The number of exponential unitary (or e-unitary) divisors of n that are exponentially squarefree numbers (A209061).
 
-The programs for A392450, the canonical program `A392450.P7898530236286233614` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392450 has offset 1).
+The programs for A392450, the canonical program `A392450.P7898530236286233614` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392450 has offset 1).
 
 The definition of A392450 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3365,7 +3366,7 @@ The definition of A392450 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[n+1, A056671(#)]`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A392450
@@ -4012,6 +4013,36 @@ end
 
 end A392459.P14275685896633002173
 
+/-! ## A392459.P5740484271822665329
+
+`A023443(A180337(n+1))`
+-/
+
+namespace A392459.P5740484271822665329
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023443 (A180337 (n + 1)).toNat
+
+end
+
+end A392459.P5740484271822665329
+
+/-! ## A392459.P191805905313924612
+
+`A023444(A180337(n+1)+1)`
+-/
+
+namespace A392459.P191805905313924612
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A023444 (A180337 (n + 1) + 1).toNat
+
+end
+
+end A392459.P191805905313924612
+
 /-! ## A392459.P15493982670762159331
 
 `lt[A317240(n+1), A000108(A007814(2*n+1))]`
@@ -4123,6 +4154,27 @@ end
 
 end A392461.P8121760450312438419
 
+/-! ## A392461.P4696624245551721102
+
+`∑[∑[A316829(A023359(n+4))]]`
+-/
+
+namespace A392461.P4696624245551721102
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A316829 (A023359 (n + 4)).toNat
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A392461.P4696624245551721102
+
 /-! ## A392461.P1499263420951650221
 
 `A124757(A267581(n))`
@@ -4137,27 +4189,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A392461.P1499263420951650221
-
-/-! ## A392461.P14969570141455326016
-
-`∑[∑[A139354(A014210(n))]]`
--/
-
-namespace A392461.P14969570141455326016
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A139354 (A014210 n).toNat
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A392461.P14969570141455326016
 
 /-!
 # A392462: a(n) is the minimum diameter of a n-element set of integers for which no nonzero d has more than 3 representations as a difference of elements of the set.

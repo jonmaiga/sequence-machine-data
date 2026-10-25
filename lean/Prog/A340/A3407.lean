@@ -997,7 +997,7 @@ end A340709
 /-!
 # A340714: a(n) is the sum of (n-2*j) for j < n/2 coprime to n.
 
-The programs for A340714, the canonical program `A340714.P5712239063157682719` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340714 has offset 1).
+The programs for A340714, the canonical program `A340714.P5712239063157682719` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340714 has offset 1).
 
 The definition of A340714 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1029,7 +1029,7 @@ end A340714
 
 `∑{d}[n+1, A002620(#-1)*A055615((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A340714
@@ -4445,7 +4445,7 @@ end A340761
 /-!
 # A340762: Numbers k such that iterations of phi(k), phi(phi(k)), ... end in ... 4, 2, 1.
 
-The programs for A340762, the canonical program `A340762.P17623527530836035086` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340762 has offset 1).
+The programs for A340762, the canonical program `A340762.P17623527530836035086` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340762 has offset 1).
 
 The definition of A340762 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4454,7 +4454,7 @@ The definition of A340762 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2, A000005(a(A000010(n)))]` with `a(0)=1, a(1)=0, a(2)=1, a(3)=0, a(4)=2`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A340762
@@ -4953,6 +4953,12 @@ namespace A340763
 /-- `A340764(n+1)-A321856(n+1)` -/
 def P16536699011277657057.Spec : Prop :=
   ∀ n, P16536699011277657057.a n = A340763 (n + 1)
+
+theorem P16536699011277657057.correct : P16536699011277657057.Spec := by
+  intro n
+  simp only [A340763, Nat.add_sub_cancel, A340763.P16536699011277657057.a, A340763.P400008052296073909.f3, A340763.P400008052296073909.f2, A340763.P400008052296073909.f1, A340763.P400008052296073909.a, A321856, A321856.P5955438199754994366.a, A340764, A340764.P6242509030891960440.f2, A340764.P6242509030891960440.f1, A340764.P6242509030891960440.a, A061007, A061007.P1649170130193805129.f1, A061007.P1649170130193805129.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A340763
 
@@ -5490,6 +5496,12 @@ namespace A340764
 /-- `A340763(n+1)+A321856(n+1)` -/
 def P4178170604373748566.Spec : Prop :=
   ∀ n, P4178170604373748566.a n = A340764 (n + 1)
+
+theorem P4178170604373748566.correct : P4178170604373748566.Spec := by
+  intro n
+  simp only [A340764, Nat.add_sub_cancel, A340764.P4178170604373748566.a, A340764.P6242509030891960440.f2, A340764.P6242509030891960440.f1, A340764.P6242509030891960440.a, A061007, A061007.P1649170130193805129.f1, A061007.P1649170130193805129.a, A321856, A321856.P5955438199754994366.a, A340763, A340763.P400008052296073909.f3, A340763.P400008052296073909.f2, A340763.P400008052296073909.f1, A340763.P400008052296073909.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A340764
 
@@ -7796,7 +7808,7 @@ end A340783.P17931730335762034022
 /-!
 # A340784: Heinz numbers of even-length integer partitions of even numbers.
 
-The programs for A340784, the canonical program `A340784.P18190419391720154980` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340784 has offset 1).
+The programs for A340784, the canonical program `A340784.P18190419391720154980` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340784 has offset 1).
 
 The definition of A340784 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5003 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7997,7 +8009,7 @@ end A340784
 
 `∩[A028260(n+1), A300061(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A340784

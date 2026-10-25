@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -42,7 +43,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -51,10 +52,10 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -83,6 +84,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A369801: Maximum number of segments between n points on a circle so that they can be colored in 2 colors so that each of them intersects (at an internal point) at most one other segment of the same color.
@@ -1020,6 +1025,12 @@ namespace A369810
 def P10833848087829644098.Spec : Prop :=
   ∀ n, P10833848087829644098.a n = A369810 (n + 1)
 
+theorem P10833848087829644098.correct : P10833848087829644098.Spec := by
+  intro n
+  simp only [A369810, Nat.add_sub_cancel, A369810.P10833848087829644098.a, A369810.P6592128196772303573.a, A006595, A006595.P14384664050802915494.a, A284816, A284816.P9637811502053019596.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A369810
 
 /-! ## A369810.P6592128196772303573
@@ -1765,6 +1776,29 @@ def P15121787194062520055.Spec : Prop :=
 
 end A369817
 
+/-! ## A369817.P7161031484284445589
+
+`abs(1-A370754(n+1))`
+-/
+
+namespace A369817.P7161031484284445589
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |1 - A370754 (n + 1)|
+
+end
+
+end A369817.P7161031484284445589
+
+namespace A369817
+
+/-- `abs(1-A370754(n+1))` -/
+def P7161031484284445589.Spec : Prop :=
+  ∀ n, P7161031484284445589.a n = A369817 (n + 1)
+
+end A369817
+
 /-! ## A369817.P14420376405338027718
 
 `(n+2)*A053439(n+1)`
@@ -1808,29 +1842,6 @@ namespace A369817
 /-- `(n+2)*A385406(A374084(n+1))` -/
 def P15041251631724956917.Spec : Prop :=
   ∀ n, P15041251631724956917.a n = A369817 (n + 1)
-
-end A369817
-
-/-! ## A369817.P1863338327843663996
-
-`A023443(A370754(n+1))`
--/
-
-namespace A369817.P1863338327843663996
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A023443 (A370754 (n + 1)).toNat
-
-end
-
-end A369817.P1863338327843663996
-
-namespace A369817
-
-/-- `A023443(A370754(n+1))` -/
-def P1863338327843663996.Spec : Prop :=
-  ∀ n, P1863338327843663996.a n = A369817 (n + 1)
 
 end A369817
 
@@ -4228,6 +4239,84 @@ def P12511167165128324667.Spec : Prop :=
 
 end A369844
 
+/-! ## A369844.P5960156823305698043
+
+`Δ[A369803(n)%A181665(n)]`
+-/
+
+namespace A369844.P5960156823305698043
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A369803 n) (A181665 n)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A369844.P5960156823305698043
+
+namespace A369844
+
+/-- `Δ[A369803(n)%A181665(n)]` -/
+def P5960156823305698043.Spec : Prop :=
+  ∀ n, P5960156823305698043.a n = A369844 (n + 1)
+
+end A369844
+
+/-! ## A369844.P3586661931082571167
+
+`Δ[A369803(n)]%A001611(3*n)`
+-/
+
+namespace A369844.P3586661931082571167
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A369803 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (f1 (n + 1) - f1 n) (A001611 (3 * n))
+
+end
+
+end A369844.P3586661931082571167
+
+namespace A369844
+
+/-- `Δ[A369803(n)]%A001611(3*n)` -/
+def P3586661931082571167.Spec : Prop :=
+  ∀ n, P3586661931082571167.a n = A369844 (n + 1)
+
+end A369844
+
+/-! ## A369844.P722633110179888528
+
+`Δ[A369803(n)]%A014523(n)`
+-/
+
+namespace A369844.P722633110179888528
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A369803 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (f1 (n + 1) - f1 n) (A014523 n)
+
+end
+
+end A369844.P722633110179888528
+
+namespace A369844
+
+/-- `Δ[A369803(n)]%A014523(n)` -/
+def P722633110179888528.Spec : Prop :=
+  ∀ n, P722633110179888528.a n = A369844 (n + 1)
+
+end A369844
+
 /-!
 # A369845: Number of compositions of 5*n into parts 3 and 5.
 
@@ -5861,26 +5950,23 @@ end A369854
 The programs for A369855, there is no canonical definition to state claims against.
 -/
 
-/-! ## A369855.P10808461390314816200
+/-! ## A369855.P16644033002073573503
 
-`record[Δ[A022521(n)]-A000584(n)]`
+`A028310(Δ[(n+1)^5])-(n+1)^5`
 -/
 
-namespace A369855.P10808461390314816200
+namespace A369855.P16644033002073573503
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A022521 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (n + 1) - f2 n - A000584 n
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  (n + 1) ^ 5
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+  A028310 ((f1 (n + 1) : ℤ) - (f1 n : ℤ)).toNat - ((n + 1) ^ 5 : ℤ)
 
 end
 
-end A369855.P10808461390314816200
+end A369855.P16644033002073573503
 
 /-!
 # A369856: Inverse permutation of A371113.
@@ -6536,26 +6622,26 @@ end
 
 end A369878.P9218876738282463361
 
-/-! ## A369878.P3384549905447255917
+/-! ## A369878.P15500382150500005137
 
-`A321391(lt[A089840(3*n+1), A047874(n+1)])`
+`A321391(lt[A138731(3*n+2), A157149(n)])`
 -/
 
-namespace A369878.P3384549905447255917
+namespace A369878.P15500382150500005137
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089840 (3 * n + 1)
+  A138731 (3 * n + 2)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047874 (n + 1)
+  A157149 n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A321391 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
 
 end
 
-end A369878.P3384549905447255917
+end A369878.P15500382150500005137
 
 /-!
 # A369888: Sum of products of cubes of parts , counted without multiplicity, in all partitions of n.
@@ -6586,7 +6672,7 @@ end A369888.P7231546768383728387
 
 The programs for A369889, the canonical program `A369889.P3040492947822450392` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369889 has offset 1).
 
-The definition of A369889 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004709, A048250, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A369889 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004709, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A369889.P3040492947822450392

@@ -38,7 +38,6 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
@@ -48,7 +47,6 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -1779,7 +1777,7 @@ end A262516.P15814393572647314194
 
 The programs for A262518, the canonical program `A262518.P4745405101441477404` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262518 has offset 0).
 
-The definition of A262518 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A155043, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A262518 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A262518.P4745405101441477404
@@ -1821,6 +1819,12 @@ namespace A262518
 /-- `A262519(n)-A262520(n)` -/
 def P11805694693235715098.Spec : Prop :=
   ∀ n, P11805694693235715098.a n = A262518 n
+
+theorem P11805694693235715098.correct : P11805694693235715098.Spec := by
+  intro n
+  simp only [A262518, Nat.add_sub_cancel, A262518.P11805694693235715098.a, A262518.P4745405101441477404.a, A155043, A155043.P15229404394103528317.a, A262519, A262519.P6612858690634746410.a, A262520, A262520.P5646456857022786100.a, A049820, A049820.P9428372222244335888.a, A000005, A000005.P16091521709108585461.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A262518
 
@@ -1893,6 +1897,12 @@ namespace A262518
 /-- `A155043(n+1+n)-A262520(n)` -/
 def P7168101777486432894.Spec : Prop :=
   ∀ n, P7168101777486432894.a n = A262518 n
+
+theorem P7168101777486432894.correct : P7168101777486432894.Spec := by
+  intro n
+  simp only [A262518, Nat.add_sub_cancel, A262518.P7168101777486432894.a, A262518.P4745405101441477404.a, A155043, A155043.P15229404394103528317.a, A262520, A262520.P5646456857022786100.a, A049820, A049820.P9428372222244335888.a, A262519, A262519.P6612858690634746410.a, A000005, A000005.P16091521709108585461.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A262518
 
@@ -2016,7 +2026,7 @@ end A262518
 
 The programs for A262519, the canonical program `A262519.P6612858690634746410` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262519 has offset 0).
 
-The definition of A262519 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A155043, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A262519 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A262519.P6612858690634746410
@@ -2058,6 +2068,12 @@ namespace A262519
 /-- `A262520(n)+A262518(n)` -/
 def P4811646277743000753.Spec : Prop :=
   ∀ n, P4811646277743000753.a n = A262519 n
+
+theorem P4811646277743000753.correct : P4811646277743000753.Spec := by
+  intro n
+  simp only [A262519, Nat.add_sub_cancel, A262519.P4811646277743000753.a, A262519.P6612858690634746410.a, A155043, A155043.P15229404394103528317.a, A262518, A262518.P4745405101441477404.a, A262520, A262520.P5646456857022786100.a, A049820, A049820.P9428372222244335888.a, A000005, A000005.P16091521709108585461.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A262519
 
@@ -2161,7 +2177,7 @@ end A262519
 
 The programs for A262520, the canonical program `A262520.P5646456857022786100` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262520 has offset 0).
 
-The definition of A262520 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A262518, A262519, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A262520 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A262520.P5646456857022786100
@@ -5053,6 +5069,28 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A262558.P7022001675867634798
+
+/-! ## A262558.P8383226702200072352
+
+`∑[char[A002385(A001222(n+4))]]`
+-/
+
+namespace A262558.P8383226702200072352
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002385 (A001222 (n + 4)).toNat
+
+open Classical in
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f2 j = (n : ℤ) then 1 else 0
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A262558.P8383226702200072352
 
 /-! ## A262558.P5741595407091481882
 

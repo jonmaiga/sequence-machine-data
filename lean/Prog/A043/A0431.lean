@@ -36,14 +36,13 @@ import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -981,41 +980,23 @@ end
 
 end A043133.P13561676732675865699
 
-/-! ## A043133.P520407247403158518
+/-! ## A043133.P1075635451880557398
 
-`record[A032742(A043136(C(2, n)+n))]`
+`record[A032742(A043136(1+n))]`
 -/
 
-namespace A043133.P520407247403158518
+namespace A043133.P1075635451880557398
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032742 (A043136 (Nat.choose 2 n + n)).toNat
+  A032742 (A043136 (1 + n)).toNat
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A043133.P520407247403158518
-
-/-! ## A043133.P7562889413952615687
-
-`record[A032742(A043136(ceil(n/2)+1))]`
--/
-
-namespace A043133.P7562889413952615687
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032742 (A043136 (⌈(n : ℚ) / 2⌉ + 1).toNat).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A043133.P7562889413952615687
+end A043133.P1075635451880557398
 
 /-! ## A043133.P11745433734473180851
 

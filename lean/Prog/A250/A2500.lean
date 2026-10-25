@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -59,7 +60,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -88,6 +88,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A250000: Peaceable coexisting armies of queens: the maximum number m such that m white queens and m black queens can coexist on an n X n chessboard without attacking each other.
@@ -1214,6 +1218,12 @@ namespace A250015
 def P158729286128007574.Spec : Prop :=
   ∀ n, P158729286128007574.a n = (A250015 (n + 1) : ℚ)
 
+theorem P158729286128007574.correct : P158729286128007574.Spec := by
+  intro n
+  simp only [A250015, Nat.add_sub_cancel, A250015.P158729286128007574.a, A250015.P9062117842649995520.a, A069778, A069778.P902300681639061686.a, A069779, A069779.P16547002669838579975.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A250015
 
 /-! ## A250015.P15366267756265949177
@@ -1854,7 +1864,7 @@ end A250024
 /-!
 # A250025: Lesser of twin prime pairs of the form (40n - 21, 40n - 19).
 
-The programs for A250025, the canonical program `A250025.P7718321545328011715` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250025 has offset 1).
+The programs for A250025, the canonical program `A250025.P7718321545328011715` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250025 has offset 1).
 
 The definition of A250025 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1361 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1893,7 +1903,7 @@ end A250025
 
 `∩[A060229(n+1), A142190(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A250025

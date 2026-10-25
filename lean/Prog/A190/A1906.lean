@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -65,7 +66,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -94,6 +94,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A190601: Number of (n+2)X(n+2) symmetric binary matrices without the pattern 1 0 1 antidiagonally.
@@ -1903,6 +1907,12 @@ namespace A190620
 /-- `A118586(n+1)-1` -/
 def P10370215506922280153.Spec : Prop :=
   ∀ n, P10370215506922280153.a n = A190620 (n + 1)
+
+theorem P10370215506922280153.correct : P10370215506922280153.Spec := by
+  intro n
+  simp only [A190620, Nat.add_sub_cancel, A190620.P10370215506922280153.a, A190620.P17543203208516142486.a, A000079, A000079.P10855139691139572931.a, A000225, A000225.P6535533121115206393.a, A002024, A002024.P11700297927830783882.a, A004736, A004736.P10337537277358081527.a, A118586, A118586.P6236173559146990027.a, A000217, A000217.P10269402890581615239.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A190620
 
@@ -11180,7 +11190,7 @@ end A190683
 /-!
 # A190684: Positions of 0 in A190683.
 
-The programs for A190684, the canonical program `A190684.P7022410837627210472` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190684 has offset 1).
+The programs for A190684, the canonical program `A190684.P7022410837627210472` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190684 has offset 1).
 
 The definition of A190684 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11189,7 +11199,7 @@ The definition of A190684 is `conjectured`: the Lean definition is a formula tha
 
 `A003512(A190677(n+1))`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A190684
@@ -11543,7 +11553,7 @@ end A190684
 /-!
 # A190685: Positions of 1 in A190683.
 
-The programs for A190685, the canonical program `A190685.P3435241801983605835` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190685 has offset 1).
+The programs for A190685, the canonical program `A190685.P3435241801983605835` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190685 has offset 1).
 
 The definition of A190685 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11552,7 +11562,7 @@ The definition of A190685 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A190683(n+1)]+1`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A190685
@@ -11802,7 +11812,7 @@ end A190685
 /-!
 # A190686: Positions of 2 in A190683.
 
-The programs for A190686, the canonical program `A190686.P6524750200931184886` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190686 has offset 1).
+The programs for A190686, the canonical program `A190686.P6524750200931184886` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190686 has offset 1).
 
 The definition of A190686 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3335 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11811,7 +11821,7 @@ The definition of A190686 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2, A190683(n+1)]+1`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A190686
@@ -11974,7 +11984,7 @@ end A190686
 /-!
 # A190687: Positions of 3 in A190683.
 
-The programs for A190687, the canonical program `A190687.P16692059419886149605` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190687 has offset 1).
+The programs for A190687, the canonical program `A190687.P16692059419886149605` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190687 has offset 1).
 
 The definition of A190687 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2440 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11983,7 +11993,7 @@ The definition of A190687 is `conjectured`: the Lean definition is a formula tha
 
 `eq[3, A190683(n+1)]+1`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A190687

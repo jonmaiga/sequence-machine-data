@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -58,7 +59,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -95,6 +95,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A307701: Denominator of the irreducible fractions of the form x/y, with x,y primes and x < y, sorted according to increasing k, with k = x + y. Fractions with same k are sorted in order of increasing denominator.
@@ -3826,64 +3830,76 @@ end
 
 end A307741.P15567186149953209300
 
-/-! ## A307741.P267230631140056557
+/-! ## A307741.P1116219948996561389
 
-`A007691(n+1)*A183024(eq[1, A183025(n+1)]+1)`
+`∪[A166069(n+1), A325025(n+1)]*A054030(n+1)`
 -/
 
-namespace A307741.P267230631140056557
+namespace A307741.P1116219948996561389
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A166069 (n + 1)
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A183025 (n + 1)
+  A325025 (n + 1)
 
+open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007691 (n + 1) * A183024 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1)
+  (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n : ℤ) * A054030 (n + 1)
 
 end
 
-end A307741.P267230631140056557
+end A307741.P1116219948996561389
 
-/-! ## A307741.P5262583915291470882
+/-! ## A307741.P10906917047168442446
 
-`A007691(n+1)*A183024(record[(n+1)/A183025(n+1)])`
+`∪[A325023(n+1), A354073(n+1)]*A054030(n+1)`
 -/
 
-namespace A307741.P5262583915291470882
+namespace A307741.P10906917047168442446
 noncomputable section
 
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) / (A183025 (n + 1) : ℚ)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325023 (n + 1)
 
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354073 (n + 1)
+
+open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007691 (n + 1) * A183024 (SequenceMachineLib.roundAway (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n))).toNat
+  (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n : ℤ) * A054030 (n + 1)
 
 end
 
-end A307741.P5262583915291470882
+end A307741.P10906917047168442446
 
-/-! ## A307741.P14105294620684467565
+/-! ## A307741.P10413271019174950619
 
-`A194771(n+1)/A046523(A095365(3*n+4))*A054030(n+1)`
+`∪[A325025(n+1), A354073(n+1)]*A054030(n+1)`
 -/
 
-namespace A307741.P14105294620684467565
+namespace A307741.P10413271019174950619
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A194771 (n + 1) : ℚ) / (A046523 (A095365 (3 * n + 4)).toNat : ℚ) * (A054030 (n + 1) : ℚ)
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A325025 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A354073 (n + 1)
+
+open Classical in
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n : ℤ) * A054030 (n + 1)
 
 end
 
-end A307741.P14105294620684467565
+end A307741.P10413271019174950619
 
 /-!
 # A307742: Quasi-logarithm A064097(n) of von Mangoldt's exponential function A014963(n).
 
-The programs for A307742, the canonical program `A307742.P17097547645030697459` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307742 has offset 1).
+The programs for A307742, the canonical program `A307742.P17097547645030697459` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307742 has offset 1).
 
 The definition of A307742 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A014963, A064097, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3892,7 +3908,7 @@ The definition of A307742 is `conditional`: the Lean definition is an OEIS formu
 
 `A064097(A014963(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A307742
@@ -5857,6 +5873,12 @@ namespace A307768
 def P16230761879393213975.Spec : Prop :=
   ∀ n, P16230761879393213975.a n = A307768 n
 
+theorem P16230761879393213975.correct : P16230761879393213975.Spec := by
+  intro n
+  simp only [A307768, Nat.add_sub_cancel, A307768.P16230761879393213975.a, A307768.P13717369919277474039.a, A052548, A052548.P18180923888402085992.a, A063886, A063886.P2008880257839641201.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A307768
 
 /-! ## A307768.P14204814887809382432
@@ -5997,6 +6019,12 @@ namespace A307768
 /-- `A001405(n)+A045621(n)-A063886(n)` -/
 def P2163740866222375866.Spec : Prop :=
   ∀ n, P2163740866222375866.a n = A307768 n
+
+theorem P2163740866222375866.correct : P2163740866222375866.Spec := by
+  intro n
+  simp only [A307768, Nat.add_sub_cancel, A307768.P2163740866222375866.a, A307768.P13717369919277474039.a, A001405, A001405.P5205018418992951678.a, A045621, A045621.P8822809560474784251.a, A063886, A063886.P2008880257839641201.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A307768
 

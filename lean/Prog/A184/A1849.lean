@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -53,9 +54,7 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C004
-import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -66,8 +65,8 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
-import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -96,6 +95,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A184900: a(n) equals the coefficient of x^(2n-1) in the (2n-1)-th iteration of x+x^3 for n>=1.
@@ -175,6 +178,12 @@ namespace A184901
 /-- `A189378(n+1)-2*(n+1)` -/
 def P16381398087113506264.Spec : Prop :=
   ∀ n, P16381398087113506264.a n = A184901 (n + 1)
+
+theorem P16381398087113506264.correct : P16381398087113506264.Spec := by
+  intro n
+  simp only [A184901, Nat.add_sub_cancel, A184901.P16381398087113506264.a, A184901.P11583843455299283413.a, A001961, A001961.P2282338956416030795.a, A003231, A003231.P12980204502534982762.a, A189378, A189378.P12164205168119732610.a, A000201, A000201.P2935798382643029248.a, A005206, A005206.P7910201692454662432.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A184901
 

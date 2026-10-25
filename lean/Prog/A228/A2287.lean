@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -88,6 +89,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A228700: a(n) = 2^n*(4^n-3^(n+1)+3*2^n-1)/6.
@@ -3012,6 +3017,12 @@ namespace A228729
 def P3228141136461685230.Spec : Prop :=
   ∀ n, (P3228141136461685230.a n : ℤ) = A228729 (n + 1)
 
+theorem P3228141136461685230.correct : P3228141136461685230.Spec := by
+  intro n
+  simp only [A228729, Nat.add_sub_cancel, A228729.P3228141136461685230.a, A228729.P15722202455368746618.a, A214080, A214080.P11622506106704483006.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A228729
 
 /-! ## A228729.P12631781185485631743
@@ -3034,6 +3045,12 @@ namespace A228729
 /-- `floor(sqrt(n+1))!^2` -/
 def P12631781185485631743.Spec : Prop :=
   ∀ n, (P12631781185485631743.a n : ℤ) = A228729 (n + 1)
+
+theorem P12631781185485631743.correct : P12631781185485631743.Spec := by
+  intro n
+  simp only [A228729, Nat.add_sub_cancel, A228729.P12631781185485631743.a, A228729.P15722202455368746618.a, A214080, A214080.P11622506106704483006.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A228729
 
@@ -5940,6 +5957,12 @@ namespace A228748
 /-- `A001932(n)-(A000032(n)+A000045(n))` -/
 def P8734888809062682054.Spec : Prop :=
   ∀ n, P8734888809062682054.a n = A228748 n
+
+theorem P8734888809062682054.correct : P8734888809062682054.Spec := by
+  intro n
+  simp only [A228748, Nat.add_sub_cancel, A228748.P8734888809062682054.a, A228748.P8566336891877325496.a, A000032, A000032.P8352177345629330861.a, A000045, A000045.P11838749114346432762.a, A000129, A000129.P3563729298025900801.a, A001932, A001932.P5972703990113433722.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A228748
 

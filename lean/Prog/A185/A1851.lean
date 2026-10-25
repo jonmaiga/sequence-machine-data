@@ -2000,6 +2000,12 @@ namespace A185123
 def P7012546926110417195.Spec : Prop :=
   ∀ n, P7012546926110417195.a n = (A185123 n : ℚ)
 
+theorem P7012546926110417195.correct : P7012546926110417195.Spec := by
+  intro n
+  simp only [A185123, Nat.add_sub_cancel, A185123.P7012546926110417195.a, A185123.P4520854506884375301.a, A177109, A177109.P3745638739064712018.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A185123
 
 /-! ## A185123.P5102054494447226869
@@ -2022,6 +2028,12 @@ namespace A185123
 /-- `(A175603(n+1)+4)/4` -/
 def P5102054494447226869.Spec : Prop :=
   ∀ n, P5102054494447226869.a n = (A185123 n : ℚ)
+
+theorem P5102054494447226869.correct : P5102054494447226869.Spec := by
+  intro n
+  simp only [A185123, Nat.add_sub_cancel, A185123.P5102054494447226869.a, A185123.P4520854506884375301.a, A175603, A175603.P15994713667527612193.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A185123
 
@@ -4358,6 +4370,12 @@ namespace A185152
 def P8967155446659986159.Spec : Prop :=
   ∀ n, (P8967155446659986159.a n : ℤ) = A185152 (n + 1)
 
+theorem P8967155446659986159.correct : P8967155446659986159.Spec := by
+  intro n
+  simp only [A185152, Nat.add_sub_cancel, A185152.P8967155446659986159.f1, A185152.P8967155446659986159.a, A185152.P4343648518591402247.a, A046897, A046897.P16845607147500086519.f1, A046897.P16845607147500086519.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A185152
 
 /-! ## A185152.P7812068476128412988
@@ -6554,7 +6572,7 @@ end A185174.P8678128556518550676
 /-!
 # A185175: a(n) = A010815(7*n + 5).
 
-The programs for A185175, the canonical program `A185175.P11623372724660659512` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185175 has offset 0).
+The programs for A185175, the canonical program `A185175.P11623372724660659512` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185175 has offset 0).
 
 The definition of A185175 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010815, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6563,7 +6581,7 @@ The definition of A185175 is `conditional`: the Lean definition is an OEIS formu
 
 `A010815(7*n+5)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A185175
@@ -7642,7 +7660,7 @@ end A185186.P2848885373653685066
 /-!
 # A185189: Powers of 2 >= 16 and powers of odd primes.
 
-The programs for A185189, the canonical program `A185189.P18053497688823494421` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185189 has offset 1).
+The programs for A185189, the canonical program `A185189.P18053497688823494421` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185189 has offset 1).
 
 The definition of A185189 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9997 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7681,7 +7699,7 @@ end A185189
 
 `A246655(2*(n+1)-floor(n²/(n+2)))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A185189
@@ -8304,7 +8322,7 @@ end A185191.P4173674601953775378
 
 The programs for A185192, the canonical program `A185192.P5848289516990491153` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185192 has offset 1).
 
-The definition of A185192 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000720, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A185192 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A185192.P5848289516990491153

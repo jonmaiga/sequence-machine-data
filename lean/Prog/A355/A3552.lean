@@ -57,7 +57,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -630,6 +629,21 @@ end
 
 end A355202.P191313370929726320
 
+/-! ## A355202.P3954819138249086299
+
+`A270129(A027187(n))%A124010(n+3)`
+-/
+
+namespace A355202.P3954819138249086299
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A270129 (A027187 n).toNat) (A124010 (n + 3))
+
+end
+
+end A355202.P3954819138249086299
+
 /-! ## A355202.P2120925970595100419
 
 `A090027(A331160(n))%A124010(n+3)`
@@ -659,21 +673,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A355202.P17527462904247177166
-
-/-! ## A355202.P3064922220663302350
-
-`A104974(A220537(n+1))`
--/
-
-namespace A355202.P3064922220663302350
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A104974 (A220537 (n + 1)).toNat
-
-end
-
-end A355202.P3064922220663302350
 
 /-!
 # A355205: E.g.f. A(x) satisfies A'(x) = 1 + 2 * A(-log(1-x)).
@@ -1286,6 +1285,29 @@ def P9531479799991437549.Spec : Prop :=
 
 end A355222
 
+/-! ## A355222.P5525242515644669355
+
+`A271800(A097601(n)/A168095(n²))+n`
+-/
+
+namespace A355222.P5525242515644669355
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A271800 (SequenceMachineLib.roundAway ((A097601 n : ℚ) / (A168095 (n ^ 2) : ℚ))).toNat + (n : ℤ)
+
+end
+
+end A355222.P5525242515644669355
+
+namespace A355222
+
+/-- `A271800(A097601(n)/A168095(n²))+n` -/
+def P5525242515644669355.Spec : Prop :=
+  ∀ n, P5525242515644669355.a n = A355222 n
+
+end A355222
+
 /-! ## A355222.P7417311428462714354
 
 `A328447(A052008(n)-A087036(n)%A040600(n))`
@@ -1500,26 +1522,26 @@ end
 
 end A355224.P13233118355840746874
 
-/-! ## A355224.P9558842611553148748
+/-! ## A355224.P17928044072585238036
 
-`eq[A062003(n), A118759(n)]`
+`eq[n, A062003(A062003(n))]`
 -/
 
-namespace A355224.P9558842611553148748
+namespace A355224.P17928044072585238036
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062003 n
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A118759 n
+  A062003 (A062003 n).toNat
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
 
 end
 
-end A355224.P9558842611553148748
+end A355224.P17928044072585238036
 
 /-!
 # A355225: Number of partitions of n that contain more prime parts than nonprime parts.
@@ -3253,7 +3275,7 @@ end A355260.P8233187416696610188
 
 The programs for A355261, the canonical program `A355261.P9102816155030024956` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355261 has offset 1).
 
-The definition of A355261 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000188, A007947, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A355261 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000188, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A355261.P9102816155030024956
@@ -3819,7 +3841,7 @@ end A355262.P14074697636164064679
 
 The programs for A355263, the canonical program `A355263.P11720169353840914261` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355263 has offset 1).
 
-The definition of A355263 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007947, A053150, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A355263 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A053150, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A355263.P11720169353840914261

@@ -45,6 +45,7 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -54,7 +55,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -2704,6 +2704,29 @@ def P17812682342192407338.Spec : Prop :=
 
 end A027266
 
+/-! ## A027266.P5046297954102359713
+
+`(n+1)*A026549(n+1)/2`
+-/
+
+namespace A027266.P5046297954102359713
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n + 1 : ℤ) * A026549 (n + 1) : ℚ) / 2
+
+end
+
+end A027266.P5046297954102359713
+
+namespace A027266
+
+/-- `(n+1)*A026549(n+1)/2` -/
+def P5046297954102359713.Spec : Prop :=
+  ∀ n, P5046297954102359713.a n = (A027266 n : ℚ)
+
+end A027266
+
 /-! ## A027266.P14946813250825243511
 
 `(n+1)*A026565(n+1)/3`
@@ -2747,29 +2770,6 @@ namespace A027266
 /-- `A053469(n+1)/A026549(n)` -/
 def P11845617221064897640.Spec : Prop :=
   ∀ n, P11845617221064897640.a n = (A027266 n : ℚ)
-
-end A027266
-
-/-! ## A027266.P12981533817597335288
-
-`A027276(2*n+1)/A026549(n+2)`
--/
-
-namespace A027266.P12981533817597335288
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A027276 (2 * n + 1) : ℚ) / (A026549 (n + 2) : ℚ)
-
-end
-
-end A027266.P12981533817597335288
-
-namespace A027266
-
-/-- `A027276(2*n+1)/A026549(n+2)` -/
-def P12981533817597335288.Spec : Prop :=
-  ∀ n, P12981533817597335288.a n = (A027266 n : ℚ)
 
 end A027266
 

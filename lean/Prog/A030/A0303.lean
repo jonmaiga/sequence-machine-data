@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -58,6 +59,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -95,6 +97,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A030300: Runs have lengths 2^n, n >= 0.
@@ -167,6 +173,12 @@ namespace A030300
 def P11471986371972915608.Spec : Prop :=
   ∀ n, P11471986371972915608.a n = A030300 (n + 1)
 
+theorem P11471986371972915608.correct : P11471986371972915608.Spec := by
+  intro n
+  simp only [A030300, Nat.add_sub_cancel, A030300.P11471986371972915608.a, A030300.P3423341225466523351.a, A030301, A030301.P5875718275954375788.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A030300
 
 /-! ## A030300.P1485576181273928667
@@ -189,6 +201,12 @@ namespace A030300
 /-- `A065359(n+1)+A083905(n+1)` -/
 def P1485576181273928667.Spec : Prop :=
   ∀ n, P1485576181273928667.a n = A030300 (n + 1)
+
+theorem P1485576181273928667.correct : P1485576181273928667.Spec := by
+  intro n
+  simp only [A030300, Nat.add_sub_cancel, A030300.P1485576181273928667.a, A030300.P3423341225466523351.a, A065359, A065359.P2716114422933254065.a, A083905, A083905.P6777605636858218612.a, A139351, A139351.P2266554670828086265.a, A139352, A139352.P2034447244462371406.a, A000120, A000120.P2816527436160941581.a, A053737, A053737.P2884229603739038868.a, A005187, A005187.P3874015513960485494.a, A054893, A054893.P4971289715501713883.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A030300
 

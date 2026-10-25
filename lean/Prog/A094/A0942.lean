@@ -52,6 +52,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -362,6 +363,12 @@ namespace A094201
 def P1447012621142777491.Spec : Prop :=
   ∀ n, P1447012621142777491.a n = A094201 n
 
+theorem P1447012621142777491.correct : P1447012621142777491.Spec := by
+  intro n
+  simp only [A094201, Nat.add_sub_cancel, A094201.P1447012621142777491.a, A094201.P18065793923417474477.a, A007204, A007204.P4435489401006619676.a, A099721, A099721.P13421266014638133477.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A094201
 
 /-! ## A094201.P5621799575995663751
@@ -384,6 +391,12 @@ namespace A094201
 /-- `(A007204(n)-A099721(n))*(A016777(n)-2*n)` -/
 def P5621799575995663751.Spec : Prop :=
   ∀ n, P5621799575995663751.a n = A094201 n
+
+theorem P5621799575995663751.correct : P5621799575995663751.Spec := by
+  intro n
+  simp only [A094201, Nat.add_sub_cancel, A094201.P5621799575995663751.a, A094201.P18065793923417474477.a, A007204, A007204.P4435489401006619676.a, A016777, A016777.P9931792138852554157.a, A099721, A099721.P13421266014638133477.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A094201
 
@@ -610,7 +623,7 @@ end A094202.P16215446793751753419
 /-!
 # A094205: Lower bounds of twin prime pairs of the form prime(2n+1).
 
-The programs for A094205, the canonical program `A094205.P2936233271097691643` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094205 has offset 0).
+The programs for A094205, the canonical program `A094205.P2936233271097691643` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094205 has offset 0).
 
 The definition of A094205 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -619,7 +632,7 @@ The definition of A094205 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A031215(n+1)-2]`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A094205
@@ -1291,7 +1304,7 @@ end A094206.P96359045865373612
 /-!
 # A094207: a(n) = prime(4n-3) + prime(4n-2) + prime(4n-1) + prime(4n).
 
-The programs for A094207, the canonical program `A094207.P5621931072805257674` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094207 has offset 1).
+The programs for A094207, the canonical program `A094207.P5621931072805257674` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094207 has offset 1).
 
 The definition of A094207 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034963, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1300,7 +1313,7 @@ The definition of A094207 is `conditional`: the Lean definition is an OEIS formu
 
 `A034963(4*n+1)`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A094207
@@ -8242,16 +8255,16 @@ end A094288.P17627151878662499447
 /-!
 # A094290: a(n) = prime(A001511(n)), where A001511 is one more than the 2-adic valuation of n.
 
-The programs for A094290, the canonical program `A094290.P11263062616059200680` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094290 has offset 1).
+The programs for A094290, the canonical program `A094290.P11263062616059200680` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094290 has offset 1).
 
-The definition of A094290 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A094290 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A094290.P11263062616059200680
 
 `A000040(A001511(n+1))`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A094290

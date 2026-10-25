@@ -60,11 +60,12 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -12602,6 +12603,12 @@ namespace A142138
 def P10227911395296672953.Spec : Prop :=
   ∀ n, P10227911395296672953.a n = A142138 (n + 1)
 
+theorem P10227911395296672953.correct : P10227911395296672953.Spec := by
+  intro n
+  simp only [A142138, Nat.add_sub_cancel, A142138.P10227911395296672953.f1, A142138.P10227911395296672953.a, A142138.P746844966995690464.f1, A142138.P746844966995690464.a, A000007, A000007.P6599383543502402472.a, A085959, A085959.P3841702424596331541.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A142138
 
 /-! ## A142138.P15727202840722894750
@@ -15004,6 +15011,12 @@ namespace A142150
 def P10935345819398247888.Spec : Prop :=
   ∀ n, P10935345819398247888.a n = A142150 n
 
+theorem P10935345819398247888.correct : P10935345819398247888.Spec := by
+  intro n
+  simp only [A142150, Nat.add_sub_cancel, A142150.P10935345819398247888.a, A142150.P17187063318547882225.a, A000326, A000326.P15785277619453972366.a, A191967, A191967.P17717380817675792771.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A142150
 
 /-! ## A142150.P14152524355662805341
@@ -15251,6 +15264,52 @@ def P6111052988872805649.Spec : Prop :=
 
 end A142150
 
+/-! ## A142150.P3433403428478091814
+
+`n/(and(1, n)-2)+n`
+-/
+
+namespace A142150.P3433403428478091814
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n : ℚ) / ((Nat.land 1 n : ℤ) - 2 : ℚ) + (n : ℚ)
+
+end
+
+end A142150.P3433403428478091814
+
+namespace A142150
+
+/-- `n/(and(1, n)-2)+n` -/
+def P3433403428478091814.Spec : Prop :=
+  ∀ n, P3433403428478091814.a n = (A142150 n : ℚ)
+
+end A142150
+
+/-! ## A142150.P3831919797443037011
+
+`n-n/(2-and(1, n))`
+-/
+
+namespace A142150.P3831919797443037011
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n : ℚ) - (n : ℚ) / (2 - (Nat.land 1 n : ℤ) : ℚ)
+
+end
+
+end A142150.P3831919797443037011
+
+namespace A142150
+
+/-- `n-n/(2-and(1, n))` -/
+def P3831919797443037011.Spec : Prop :=
+  ∀ n, P3831919797443037011.a n = (A142150 n : ℚ)
+
+end A142150
+
 /-! ## A142150.P576569425468337295
 
 `∑[n]%(abs(1-n)+1)`
@@ -15306,72 +15365,26 @@ def P16915360414768352670.Spec : Prop :=
 
 end A142150
 
-/-! ## A142150.P17229386211024186328
+/-! ## A142150.P8679051209198247451
 
-`floor(n/2-a(n-1))` with `a(0)=0`
+`n*sqrt(and(1, n+1)/4)`
 -/
 
-namespace A142150.P17229386211024186328
+namespace A142150.P8679051209198247451
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
-  ⌊(n : ℚ) / 2 - (a (n - 1) : ℚ)⌋
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  (n : ℝ) * Real.sqrt ((Nat.land 1 (n + 1) : ℚ) / 4 : ℝ)
 
 end
 
-end A142150.P17229386211024186328
+end A142150.P8679051209198247451
 
 namespace A142150
 
-/-- `floor(n/2-a(n-1))` -/
-def P17229386211024186328.Spec : Prop :=
-  ∀ n, P17229386211024186328.a n = A142150 n
-
-end A142150
-
-/-! ## A142150.P14236511307026044052
-
-`floor(n^and(1, n+1)/2)`
--/
-
-namespace A142150.P14236511307026044052
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(n ^ Nat.land 1 (n + 1) : ℚ) / 2⌋
-
-end
-
-end A142150.P14236511307026044052
-
-namespace A142150
-
-/-- `floor(n^and(1, n+1)/2)` -/
-def P14236511307026044052.Spec : Prop :=
-  ∀ n, P14236511307026044052.a n = A142150 n
-
-end A142150
-
-/-! ## A142150.P12337587721892678799
-
-`floor(gcd(n+1, and(1, n))/2)`
--/
-
-namespace A142150.P12337587721892678799
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(Nat.gcd (n + 1) (Nat.land 1 n) : ℚ) / 2⌋
-
-end
-
-end A142150.P12337587721892678799
-
-namespace A142150
-
-/-- `floor(gcd(n+1, and(1, n))/2)` -/
-def P12337587721892678799.Spec : Prop :=
-  ∀ n, P12337587721892678799.a n = A142150 n
+/-- `n*sqrt(and(1, n+1)/4)` -/
+def P8679051209198247451.Spec : Prop :=
+  ∀ n, P8679051209198247451.a n = (A142150 n : ℝ)
 
 end A142150
 

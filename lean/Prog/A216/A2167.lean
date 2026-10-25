@@ -61,7 +61,6 @@ import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -4504,7 +4503,7 @@ end A216753.P8096179004013960324
 /-!
 # A216754: Digital root of fourth power of Fibonacci numbers.
 
-The programs for A216754, the canonical program `A216754.P14933782455688842539` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216754 has offset 0).
+The programs for A216754, the canonical program `A216754.P14933782455688842539` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216754 has offset 0).
 
 The definition of A216754 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4513,7 +4512,7 @@ The definition of A216754 is `conjectured`: the Lean definition is a formula tha
 
 `dr(A388539(n)²)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A216754
@@ -8165,29 +8164,29 @@ def P157194671657682376.Spec : Prop :=
 
 end A216784
 
-/-! ## A216784.P12809739817680663780
+/-! ## A216784.P2698616312228108911
 
-`∑{p}[A002522(n+1), A266298(#)]`
+`∑{p}[A002522(1+n), A266298(#)]`
 -/
 
-namespace A216784.P12809739817680663780
+namespace A216784.P2698616312228108911
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002522 (n + 1)
+  A002522 (1 + n)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ p ∈ Nat.primeFactors (f1 n).natAbs, A266298 p
 
 end
 
-end A216784.P12809739817680663780
+end A216784.P2698616312228108911
 
 namespace A216784
 
-/-- `∑{p}[A002522(n+1), A266298(#)]` -/
-def P12809739817680663780.Spec : Prop :=
-  ∀ n, P12809739817680663780.a n = A216784 (n + 1)
+/-- `∑{p}[A002522(1+n), A266298(#)]` -/
+def P2698616312228108911.Spec : Prop :=
+  ∀ n, P2698616312228108911.a n = A216784 (n + 1)
 
 end A216784
 

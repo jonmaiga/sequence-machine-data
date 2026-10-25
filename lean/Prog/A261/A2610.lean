@@ -94,6 +94,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -6241,6 +6242,12 @@ namespace A261081
 def P2052056719758860541.Spec : Prop :=
   ∀ n, P2052056719758860541.a n = A261081 n
 
+theorem P2052056719758860541.correct : P2052056719758860541.Spec := by
+  intro n
+  simp only [A261081, Nat.add_sub_cancel, A261081.P2052056719758860541.a, A261081.P15491907119103926316.a, A000045, A000045.P11838749114346432762.a, A219642, A219642.P8698780994322484832.a, A261082, A261082.P8170488330143915318.a, A219641, A219641.P1602393212941527080.a, A007895, A007895.P13159574906702943091.a, A143299, A143299.P15563677956109418683.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A261081
 
 /-! ## A261081.P6432282763107029011
@@ -6684,7 +6691,7 @@ end A261084.P5784793322524816409
 
 The programs for A261085, the canonical program `A261085.P10967970624675834494` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261085 has offset 1).
 
-The definition of A261085 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A155043, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A261085 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A261085.P10967970624675834494
@@ -7353,7 +7360,7 @@ end A261087.P992288488543917557
 
 The programs for A261088, the canonical program `A261088.P12367769580199237088` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261088 has offset 0).
 
-The definition of A261088 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A155043, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A261088 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A261088.P12367769580199237088

@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -63,10 +64,8 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -95,6 +94,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A373200: Numbers k such that the k-th maximal antirun of squarefree numbers has length different from all prior maximal antiruns. Sorted positions of first appearances in A373127.
@@ -511,6 +514,12 @@ namespace A373216
 /-- `val(n+1, 6)+1` -/
 def P8440893419661051970.Spec : Prop :=
   ∀ n, (P8440893419661051970.a n : ℤ) = A373216 (n + 1)
+
+theorem P8440893419661051970.correct : P8440893419661051970.Spec := by
+  intro n
+  simp only [A373216, Nat.add_sub_cancel, A373216.P8440893419661051970.a, A373216.P7487443510787612831.a, A122841, A122841.P30360687531022372.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A373216
 
@@ -2372,7 +2381,7 @@ end A373248.P16570538489444987580
 /-!
 # A373249: a(n) = A181819(n) / gcd(n, A181819(n)), where A181819(n) is the prime shadow of n.
 
-The programs for A373249, the canonical program `A373249.P6478375395125739437` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373249 has offset 1).
+The programs for A373249, the canonical program `A373249.P6478375395125739437` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373249 has offset 1).
 
 The definition of A373249 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A181819, A373246, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2381,7 +2390,7 @@ The definition of A373249 is `conditional`: the Lean definition is an OEIS formu
 
 `A181819(n+1)/A373246(n+1)`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A373249
@@ -7187,7 +7196,7 @@ end A373272.P13937991766577097948
 /-!
 # A373275: a(n) = Sum_{d|n} (-1)^(d-1) * 2^(n/d-1).
 
-The programs for A373275, the canonical program `A373275.P16695684761285881899` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373275 has offset 1).
+The programs for A373275, the canonical program `A373275.P16695684761285881899` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373275 has offset 1).
 
 The definition of A373275 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7274,7 +7283,7 @@ end A373275
 
 `∑{d}[n+1, A288571(#)*A296302((n+1)/#)]`
 
-The canonical program, it is in `Seq.B009.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A373275
@@ -7537,7 +7546,7 @@ end A373277.P14660067413074105844
 /-!
 # A373279: Expansion of Sum_{k>=0} x^(3^k) / (1 - 3*x^(3^k)).
 
-The programs for A373279, the canonical program `A373279.P14889796649480526603` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373279 has offset 1).
+The programs for A373279, the canonical program `A373279.P14889796649480526603` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373279 has offset 1).
 
 The definition of A373279 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7598,7 +7607,7 @@ end A373279
 
 `∑{d}[n+1, A034730(#)*A156277((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A373279

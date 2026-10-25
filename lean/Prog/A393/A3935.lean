@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -44,8 +45,7 @@ import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C001
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -74,6 +74,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A393503: Number of paths in the n-necklace graph.
@@ -1560,6 +1564,38 @@ namespace A393562
 def P5110884559379553771.Spec : Prop :=
   ∀ n, P5110884559379553771.a n = A393562 n
 
+theorem P5110884559379553771.correct : P5110884559379553771.Spec := by
+  intro n
+  simp only [A393562, Nat.add_sub_cancel, A393562.P5110884559379553771.a, A393562.P13338399434190979828.a, A000196, A000196.P15434771586934192083.a, A172471, A172471.P3873972067505195853.a, A247367, A247367.P4275224030839815486.a, A393697, A393697.P7831953345102612304.a, A000925, A000925.P15779309076395075492.a, A000161, A000161.P12733227588245460575.f1, A000161.P12733227588245460575.f2, A000161.P12733227588245460575.a, A379480, A379480.P16859997012465332885.f1, A379480.P16859997012465332885.a, A063725, A063725.P12741089044414848106.f1, A063725.P12741089044414848106.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
+end A393562
+
+/-! ## A393562.P7890254881259818254
+
+`∑[A000122(n)]-A000925(n)`
+-/
+
+namespace A393562.P7890254881259818254
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000122 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j - A000925 n
+
+end
+
+end A393562.P7890254881259818254
+
+namespace A393562
+
+/-- `∑[A000122(n)]-A000925(n)` -/
+def P7890254881259818254.Spec : Prop :=
+  ∀ n, P7890254881259818254.a n = A393562 n
+
 end A393562
 
 /-! ## A393562.P12155411657563756876
@@ -1582,6 +1618,12 @@ namespace A393562
 /-- `A001650(n+1)-A000925(n)` -/
 def P12155411657563756876.Spec : Prop :=
   ∀ n, P12155411657563756876.a n = A393562 n
+
+theorem P12155411657563756876.correct : P12155411657563756876.Spec := by
+  intro n
+  simp only [A393562, Nat.add_sub_cancel, A393562.P12155411657563756876.a, A393562.P13338399434190979828.a, A000196, A000196.P15434771586934192083.a, A000925, A000925.P15779309076395075492.a, A001650, A001650.P4146515097473183330.a, A247367, A247367.P4275224030839815486.a, A000161, A000161.P12733227588245460575.f1, A000161.P12733227588245460575.f2, A000161.P12733227588245460575.a, A379480, A379480.P16859997012465332885.f1, A379480.P16859997012465332885.a, A063725, A063725.P12741089044414848106.f1, A063725.P12741089044414848106.a, A237526, A237526.P3622557248388023722.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A393562
 
@@ -2544,6 +2586,27 @@ end
 
 end A393587.P14347681794308326929
 
+/-! ## A393587.P15742157093102263372
+
+`eq[2, A109129(A028310(n))]`
+-/
+
+namespace A393587.P15742157093102263372
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A109129 (A028310 n).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
+
+end
+
+end A393587.P15742157093102263372
+
 /-! ## A393587.P2026456547341932855
 
 `A020725(eq[2, A109129(n+1)])`
@@ -2606,27 +2669,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A393587.P8420043333211988896
-
-/-! ## A393587.P16829727694382872115
-
-`eq[2, A304486(n+1)]+1`
--/
-
-namespace A393587.P16829727694382872115
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A304486 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n + 1
-
-end
-
-end A393587.P16829727694382872115
 
 /-!
 # A393591: Greatest integer b such that the sum of the integer digits of n in bases 2..b strictly increases.

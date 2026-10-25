@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -91,6 +92,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A379901: Local maxima in A342042, in order of appearance: numbers m such that A342042(k-1) < A342042(k) = m > A342042(k+1), for k >= 2.
@@ -906,6 +911,12 @@ namespace A379921
 /-- `∑[∑{d}[n+1, #²]*A033999(n)]` -/
 def P8867171615497002016.Spec : Prop :=
   ∀ n, P8867171615497002016.a n = A379921 (n + 1)
+
+theorem P8867171615497002016.correct : P8867171615497002016.Spec := by
+  intro n
+  simp only [A379921, Nat.add_sub_cancel, A379921.P8867171615497002016.f2, A379921.P8867171615497002016.f1, A379921.P8867171615497002016.a, A379921.P2332222602136164390.f2, A379921.P2332222602136164390.f1, A379921.P2332222602136164390.a, A033999, A033999.P17703899380244199787.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A379921
 
@@ -2721,6 +2732,12 @@ namespace A379959
 def P1351938448044218623.Spec : Prop :=
   ∀ n, P1351938448044218623.a n = A379959 (n + 1)
 
+theorem P1351938448044218623.correct : P1351938448044218623.Spec := by
+  intro n
+  simp only [A379959, Nat.add_sub_cancel, A379959.P1351938448044218623.a, A379959.P2753635732202418070.f2, A379959.P2753635732202418070.f3, A379959.P2753635732202418070.f1, A379959.P2753635732202418070.a, A062402, A062402.P8430549949511934837.f2, A062402.P8430549949511934837.f3, A062402.P8430549949511934837.f1, A062402.P8430549949511934837.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A379959
 
 /-! ## A379959.P12747707903896166081
@@ -4046,7 +4063,7 @@ end A379966
 
 The programs for A379967, the canonical program `A379967.P12250939003195279045` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379967 has offset 1).
 
-The definition of A379967 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003415, A003557, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A379967 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003415, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A379967.P12250939003195279045

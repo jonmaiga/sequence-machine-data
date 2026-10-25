@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -34,13 +35,13 @@ import Seq.B004.C003
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C001
-import Seq.B009.C001
+import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -59,6 +60,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A388967: Smallest number in a group of 4 or more consecutive numbers such that, beyond the first number, no number's prime factor exponents equal any prime factor exponent of the previous number.
@@ -673,6 +678,12 @@ namespace A388976
 def P14067850303098914786.Spec : Prop :=
   ∀ n, P14067850303098914786.a n = A388976 (n + 1)
 
+theorem P14067850303098914786.correct : P14067850303098914786.Spec := by
+  intro n
+  simp only [A388976, Nat.add_sub_cancel, A388976.P14067850303098914786.a, A388976.P9323048198730537457.a, A003961, A003961.P5996473960037614004.a, A033885, A033885.P17185518779977576955.a, A191002, A191002.P17774142683052749299.a, A341529, A341529.P16215354079337836042.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A008585, A008585.P13732812384316341435.a, A253885, A253885.P8852473244354028115.f1, A253885.P8852473244354028115.a, A252749, A252749.P15054942815197957636.a, A252748, A252748.P16209281916487994805.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A388976
 
 /-! ## A388976.P10565994372400856560
@@ -1106,7 +1117,7 @@ end A388979
 /-!
 # A388980: Even numbers of the form p * m^2, where p is prime and m > 0.
 
-The programs for A388980, the canonical program `A388980.P12589077229273322427` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388980 has offset 1).
+The programs for A388980, the canonical program `A388980.P12589077229273322427` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388980 has offset 1).
 
 The definition of A388980 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1115,7 +1126,7 @@ The definition of A388980 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A004171(n), A388984(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A388980
@@ -2786,7 +2797,7 @@ end A388984
 /-!
 # A388985: Numbers k such that {sum of unitary divisors of k} plus {sum of squarefree divisors of k} does not exceed 2*k.
 
-The programs for A388985, the canonical program `A388985.P8034458182954578089` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388985 has offset 1).
+The programs for A388985, the canonical program `A388985.P8034458182954578089` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388985 has offset 1).
 
 The definition of A388985 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3970 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2795,7 +2806,7 @@ The definition of A388985 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A325977(n+1), 1]+1`
 
-The canonical program, it is in `Seq.B009.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A388985
@@ -3217,7 +3228,7 @@ end A388993.P18320395219550520158
 
 The programs for A388994, the canonical program `A388994.P3930905186296382464` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388994 has offset 1).
 
-The definition of A388994 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048250, A162296, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A388994 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A162296, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A388994.P3930905186296382464

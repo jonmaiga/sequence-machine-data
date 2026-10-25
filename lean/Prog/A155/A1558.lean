@@ -52,7 +52,6 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -3526,6 +3525,12 @@ namespace A155856
 def P7441199811628449009.Spec : Prop :=
   ∀ n, P7441199811628449009.a n = A155856 n
 
+theorem P7441199811628449009.correct : P7441199811628449009.Spec := by
+  intro n
+  simp only [A155856, Nat.add_sub_cancel, A155856.P7441199811628449009.a, A155856.P9351911224662601144.a, A025581, A025581.P420762180635059694.a, A054142, A054142.P6369338685803904687.a, A119502, A119502.P16886903027794226168.a, A000142, A000142.P3272619076580183195.a, A002262, A002262.P12129691700837801527.a, A003056, A003056.P5318256527314048597.a, A004736, A004736.P10337537277358081527.a, A000217, A000217.P10269402890581615239.a, A002024, A002024.P11700297927830783882.a, A057944, A057944.P16851463738746886639.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A155856
 
 /-! ## A155856.P5660417600732112086
@@ -5890,29 +5895,6 @@ namespace A155881
 /-- `A061217(A127968(n))` -/
 def P3556170874378102124.Spec : Prop :=
   ∀ n, P3556170874378102124.a n = A155881 (n + 1)
-
-end A155881
-
-/-! ## A155881.P16459098019501520025
-
-`A061217(A185357(n))`
--/
-
-namespace A155881.P16459098019501520025
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061217 (A185357 n).toNat
-
-end
-
-end A155881.P16459098019501520025
-
-namespace A155881
-
-/-- `A061217(A185357(n))` -/
-def P16459098019501520025.Spec : Prop :=
-  ∀ n, P16459098019501520025.a n = A155881 (n + 1)
 
 end A155881
 

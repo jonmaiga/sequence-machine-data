@@ -7118,7 +7118,7 @@ end A232666.P574748588093833846
 /-!
 # A232667: Primes p such that the p-th odious number is prime; odious primes p such that 2p-1 is prime.
 
-The programs for A232667, the canonical program `A232667.P15325416728092359477` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232667 has offset 1).
+The programs for A232667, the canonical program `A232667.P15325416728092359477` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232667 has offset 1).
 
 The definition of A232667 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 876 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7247,7 +7247,7 @@ end A232667
 
 `∩[A027697(n+1), A068080(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A232667

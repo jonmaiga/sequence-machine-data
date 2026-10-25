@@ -48,14 +48,13 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -2668,7 +2667,7 @@ end A359953.P561555408393048648
 /-!
 # A359954: a(n) = Sum_{d|n} tau(d)*phi(d)*mu(n/d).
 
-The programs for A359954, the canonical program `A359954.P251505247951898520` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359954 has offset 1).
+The programs for A359954, the canonical program `A359954.P251505247951898520` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359954 has offset 1).
 
 The definition of A359954 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2729,7 +2728,7 @@ end A359954
 
 `∑{d}[n+1, A007432(#)*A333645((n+1)/#)]`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B006.C002`.
 -/
 
 namespace A359954

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -91,6 +92,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A242002: Sum_{k=1..n} (-1)^isprime(k)*2^k.
@@ -2319,6 +2324,12 @@ namespace A242038
 def P9731346891222135331.Spec : Prop :=
   ∀ n, P9731346891222135331.a n = A242038 n
 
+theorem P9731346891222135331.correct : P9731346891222135331.Spec := by
+  intro n
+  simp only [A242038, Nat.add_sub_cancel, A242038.P9731346891222135331.a, A242038.P2773880921831297533.a, A155014, A155014.P11135767582627579295.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A242038
 
 /-! ## A242038.P6459746432339832802
@@ -3466,6 +3477,12 @@ namespace A242062
 /-- `A315273(n)-(A008574(n)+n)` -/
 def P16136171120840934741.Spec : Prop :=
   ∀ n, P16136171120840934741.a n = A242062 n
+
+theorem P16136171120840934741.correct : P16136171120840934741.Spec := by
+  intro n
+  simp only [A242062, Nat.add_sub_cancel, A242062.P16136171120840934741.a, A242062.P1082147046428175291.a, A008574, A008574.P1300280032690682112.a, A315273, A315273.P1536519079128265166.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A242062
 
@@ -4796,7 +4813,7 @@ end A242082
 
 The programs for A242083, the canonical program `A242083.P11427903032979900103` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242083 has offset 1).
 
-The definition of A242083 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A242083 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A242083.P11427903032979900103
@@ -4918,7 +4935,7 @@ end A242083
 
 The programs for A242084, the canonical program `A242084.P10015590585242605687` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242084 has offset 1).
 
-The definition of A242084 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A242084 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A242084.P10015590585242605687

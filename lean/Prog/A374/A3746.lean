@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -46,12 +47,14 @@ import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -85,6 +88,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A374601: Defined by: Sum_{i=1..n} i*a(i)/n^i = 1, n>=1.
@@ -634,6 +641,12 @@ namespace A374625
 /-- `A383976(n)-A062880(n)` -/
 def P15060560635551664714.Spec : Prop :=
   ∀ n, P15060560635551664714.a n = A374625 n
+
+theorem P15060560635551664714.correct : P15060560635551664714.Spec := by
+  intro n
+  simp only [A374625, Nat.add_sub_cancel, A374625.P15060560635551664714.a, A374625.P6516257093902246467.a, A000695, A000695.P14587171459336407380.a, A020988, A020988.P12877403195261082283.a, A062880, A062880.P2055745413581106128.a, A070939, A070939.P14677302147902843740.a, A383976, A383976.P7510107597376292456.a, A145812, A145812.P7040268425871068342.f1, A145812.P7040268425871068342.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A374625
 
@@ -4621,20 +4634,20 @@ end
 
 end A374683.P14362879111096461253
 
-/-! ## A374683.P14646246810304330354
+/-! ## A374683.P8559421795223470258
 
-`A329359(A333386(n+1))`
+`A374515(A024606(n+1)-A008683(3*n+2))`
 -/
 
-namespace A374683.P14646246810304330354
+namespace A374683.P8559421795223470258
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A329359 (A333386 (n + 1)).toNat
+  A374515 (A024606 (n + 1) - A008683 (3 * n + 2)).toNat
 
 end
 
-end A374683.P14646246810304330354
+end A374683.P8559421795223470258
 
 /-!
 # A374684: Sum of leaders of strictly increasing runs in the n-th composition in standard order.

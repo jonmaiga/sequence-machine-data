@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -64,7 +65,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -86,6 +86,7 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -93,6 +94,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A390304: E.g.f. A(x) satisfies A(x) = exp( x/(1-x^2)^3 * A(x)^2 ).
@@ -296,6 +301,21 @@ end
 
 end A390308.P3855043468207460590
 
+/-! ## A390308.P10721740166840226037
+
+`A186745(A291883(n))+A112798(n+2)`
+-/
+
+namespace A390308.P10721740166840226037
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A186745 (A291883 n).toNat + A112798 (n + 2)
+
+end
+
+end A390308.P10721740166840226037
+
 /-! ## A390308.P9716550657423737439
 
 `A073445(A062903(2*n+5))+A061395(A265110(n+2))`
@@ -311,6 +331,21 @@ end
 
 end A390308.P9716550657423737439
 
+/-! ## A390308.P13640420740789968150
+
+`A112798(n+2)+A010054(A297102(n+1))`
+-/
+
+namespace A390308.P13640420740789968150
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A112798 (n + 2) + A010054 (A297102 (n + 1)).toNat
+
+end
+
+end A390308.P13640420740789968150
+
 /-! ## A390308.P9606037618044050606
 
 `A156729(A156717(n+1))+A112798(n+2)`
@@ -325,36 +360,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A390308.P9606037618044050606
-
-/-! ## A390308.P14309609697712567697
-
-`A112798(n+2)+A112765(A299740(n+1))`
--/
-
-namespace A390308.P14309609697712567697
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A112798 (n + 2) + A112765 (A299740 (n + 1)).toNat
-
-end
-
-end A390308.P14309609697712567697
-
-/-! ## A390308.P8920126851578684865
-
-`A353481(A144442(n+1))+A112798(n+2)`
--/
-
-namespace A390308.P8920126851578684865
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A353481 (A144442 (n + 1)).toNat + A112798 (n + 2)
-
-end
-
-end A390308.P8920126851578684865
 
 /-!
 # A390309: Heinz number of first sums minus 1 of the 1-prepended prime indices of n.
@@ -532,7 +537,7 @@ end A390311
 /-!
 # A390312: Numbers k such that sigma(k) has at least one prime factor larger than the largest prime factor of k.
 
-The programs for A390312, the canonical program `A390312.P4179282321994300031` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390312 has offset 1).
+The programs for A390312, the canonical program `A390312.P4179282321994300031` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390312 has offset 1).
 
 The definition of A390312 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2588 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -541,7 +546,7 @@ The definition of A390312 is `conjectured`: the Lean definition is a formula tha
 
 `lt[0, A336352(n+1)]+1`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A390312
@@ -3384,6 +3389,12 @@ namespace A390349
 def P14884997601986318912.Spec : Prop :=
   ∀ n, P14884997601986318912.a n = A390349 n
 
+theorem P14884997601986318912.correct : P14884997601986318912.Spec := by
+  intro n
+  simp only [A390349, Nat.add_sub_cancel, A390349.P14884997601986318912.a, A390349.P13503297479383831927.a, A004695, A004695.P5667418127149445875.a, A079978, A079978.P10382542118278163374.a, A192804, A192804.P8468806043529360004.a, A390348, A390348.P12405491163351906346.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A390349
 
 /-! ## A390349.P12699738912102638232
@@ -4467,6 +4478,21 @@ end
 
 end A390373.P5639941370588703977
 
+/-! ## A390373.P12123111255406654314
+
+`A136658(A028310(n))/2`
+-/
+
+namespace A390373.P12123111255406654314
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A136658 (A028310 n).toNat : ℚ) / 2
+
+end
+
+end A390373.P12123111255406654314
+
 /-! ## A390373.P6987788522235006967
 
 `A136658(n)/A036453(n+1)`
@@ -4511,21 +4537,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A390373.P8337159887726379547
-
-/-! ## A390373.P397213225616475918
-
-`A136658(n)/A020639(A006863(n))`
--/
-
-namespace A390373.P397213225616475918
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A136658 n : ℚ) / (A020639 (A006863 n).toNat : ℚ)
-
-end
-
-end A390373.P397213225616475918
 
 /-!
 # A390374: Expansion of e.g.f. (1/3) * (exp(1/(1 - x)^3 - 1) + 2).

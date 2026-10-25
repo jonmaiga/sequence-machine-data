@@ -57,6 +57,7 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B007.C001
@@ -3632,6 +3633,12 @@ namespace A290739
 def P6026616517048705713.Spec : Prop :=
   ∀ n, P6026616517048705713.a n = A290739 n
 
+theorem P6026616517048705713.correct : P6026616517048705713.Spec := by
+  intro n
+  simp only [A290739, Nat.add_sub_cancel, A290739.P6026616517048705713.a, A290739.P10153310189044843911.f1, A290739.P10153310189044843911.a, A089802, A089802.P8029284349685483497.a, A143064, A143064.P13024267726719583527.a, A089801, A089801.P7513188891248060037.a, A033684, A033684.P12387515410583376305.a, A010052, A010052.P917763524850441347.f1, A010052.P917763524850441347.a, A011655, A011655.P6146775691868591852.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A290739
 
 /-! ## A290739.P8987000762183095630
@@ -3654,6 +3661,12 @@ namespace A290739
 /-- `A000007(n+1)-A143064(n)` -/
 def P8987000762183095630.Spec : Prop :=
   ∀ n, P8987000762183095630.a n = A290739 n
+
+theorem P8987000762183095630.correct : P8987000762183095630.Spec := by
+  intro n
+  simp only [A290739, Nat.add_sub_cancel, A290739.P8987000762183095630.a, A290739.P10153310189044843911.f1, A290739.P10153310189044843911.a, A000007, A000007.P6599383543502402472.a, A089802, A089802.P8029284349685483497.a, A143064, A143064.P13024267726719583527.a, A089801, A089801.P7513188891248060037.a, A033684, A033684.P12387515410583376305.a, A010052, A010052.P917763524850441347.f1, A010052.P917763524850441347.a, A011655, A011655.P6146775691868591852.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A290739
 
@@ -8128,7 +8141,7 @@ end A290777.P4446326018725664830
 /-!
 # A290778: Number of connected undirected unlabeled loopless multigraphs with 4 vertices and n edges.
 
-The programs for A290778, the canonical program `A290778.P11544281249416864993` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290778 has offset 0).
+The programs for A290778, the canonical program `A290778.P11544281249416864993` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290778 has offset 0).
 
 The definition of A290778 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8160,7 +8173,7 @@ end A290778
 
 `ceil(n/2)+A328652(A028310(n))-n`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A290778

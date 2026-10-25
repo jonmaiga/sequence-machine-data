@@ -2650,7 +2650,7 @@ end A321331.P12675497350859772862
 /-!
 # A321333: Compound sequence with a(n) = A319198(A278040(n)), for n >= 0.
 
-The programs for A321333, the canonical program `A321333.P13591099547563932162` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321333 has offset 0).
+The programs for A321333, the canonical program `A321333.P13591099547563932162` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321333 has offset 0).
 
 The definition of A321333 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A278040, A319198, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2659,7 +2659,7 @@ The definition of A321333 is `conditional`: the Lean definition is an OEIS formu
 
 `A319198(A278040(n))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A321333
@@ -5961,6 +5961,12 @@ namespace A321371
 def P13614036986298566103.Spec : Prop :=
   ∀ n, P13614036986298566103.a n = A321371 (n + 1)
 
+theorem P13614036986298566103.correct : P13614036986298566103.Spec := by
+  intro n
+  simp only [A321371, Nat.add_sub_cancel, A321371.P13614036986298566103.a, A321371.P7279978321700670498.a, A001962, A001962.P17556668907359697489.a, A194152, A194152.P720401562078837155.a, A330175, A330175.P16793899005492460367.a, A022839, A022839.P1029373569643495419.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A321371
 
 /-! ## A321371.P7279978321700670498
@@ -6002,6 +6008,12 @@ namespace A321371
 /-- `A350522(n)-(A330186(n+1)+1+n)` -/
 def P744144603694539215.Spec : Prop :=
   ∀ n, P744144603694539215.a n = A321371 (n + 1)
+
+theorem P744144603694539215.correct : P744144603694539215.Spec := by
+  intro n
+  simp only [A321371, Nat.add_sub_cancel, A321371.P744144603694539215.a, A321371.P7279978321700670498.a, A001962, A001962.P17556668907359697489.a, A194152, A194152.P720401562078837155.a, A330186, A330186.P13460853311327019796.a, A350522, A350522.P13009567044850805638.a, A022839, A022839.P1029373569643495419.a, A330175, A330175.P16793899005492460367.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A321371
 

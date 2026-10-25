@@ -19,7 +19,7 @@ import Seq.Opaque.C001
 import Seq.Opaque.C004
 import Seq.Opaque.C009
 import Seq.Opaque.C013
-import Seq.Opaque.C022
+import Seq.Opaque.C023
 
 /-!
 # A021100: Decimal expansion of 1/96.

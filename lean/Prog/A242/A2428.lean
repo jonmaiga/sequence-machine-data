@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -50,7 +51,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -82,6 +82,11 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A242800: Numbers n such that (n^n+3)/(n+3) is an integer.
@@ -1965,6 +1970,12 @@ namespace A242850
 def P61479462421710945.Spec : Prop :=
   ∀ n, P61479462421710945.a n = A242850 n
 
+theorem P61479462421710945.correct : P61479462421710945.Spec := by
+  intro n
+  simp only [A242850, Nat.add_sub_cancel, A242850.P61479462421710945.a, A242850.P13574474704742039646.a, A033596, A033596.P15895326898760574531.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A242850
 
 /-! ## A242850.P10728555771731545192
@@ -2036,6 +2047,12 @@ namespace A242850
 /-- `A067998(2*n+1)*A121670(2*n)` -/
 def P13670151505566737442.Spec : Prop :=
   ∀ n, P13670151505566737442.a n = A242850 n
+
+theorem P13670151505566737442.correct : P13670151505566737442.Spec := by
+  intro n
+  simp only [A242850, Nat.add_sub_cancel, A242850.P13670151505566737442.a, A242850.P13574474704742039646.a, A067998, A067998.P12062298001294777272.a, A121670, A121670.P867872710961214995.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A242850
 
@@ -2178,6 +2195,12 @@ namespace A242851
 /-- `(A123972(2*n+1)-A002378(2*n))*A123972(2*n)` -/
 def P4824268352126783175.Spec : Prop :=
   ∀ n, P4824268352126783175.a n = A242851 n
+
+theorem P4824268352126783175.correct : P4824268352126783175.Spec := by
+  intro n
+  simp only [A242851, Nat.add_sub_cancel, A242851.P4824268352126783175.a, A242851.P16435143639792267418.a, A002378, A002378.P6342434596694243671.a, A123972, A123972.P17001996671478345793.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A242851
 
@@ -2379,6 +2402,12 @@ namespace A242852
 def P2420781273923810620.Spec : Prop :=
   ∀ n, P2420781273923810620.a n = A242852 n
 
+theorem P2420781273923810620.correct : P2420781273923810620.Spec := by
+  intro n
+  simp only [A242852, Nat.add_sub_cancel, A242852.P2420781273923810620.a, A242852.P4016982886622230275.a, A000466, A000466.P5626493666969552810.a, A144138, A144138.P7220908367457548337.a, A144139, A144139.P1469581140721025765.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A242852
 
 /-! ## A242852.P18315590779746951249
@@ -2562,6 +2591,12 @@ namespace A242853
 def P15305585909786905399.Spec : Prop :=
   ∀ n, P15305585909786905399.a n = A242853 n
 
+theorem P15305585909786905399.correct : P15305585909786905399.Spec := by
+  intro n
+  simp only [A242853, Nat.add_sub_cancel, A242853.P15305585909786905399.a, A242853.P16621046372786615630.a, A000466, A000466.P5626493666969552810.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A242853
 
 /-! ## A242853.P17000360698400642084
@@ -2634,6 +2669,12 @@ namespace A242854
 /-- `(A242850(n)-A144138(n))*A144139(n)` -/
 def P7388363881815360710.Spec : Prop :=
   ∀ n, P7388363881815360710.a n = A242854 n
+
+theorem P7388363881815360710.correct : P7388363881815360710.Spec := by
+  intro n
+  simp only [A242854, Nat.add_sub_cancel, A242854.P7388363881815360710.a, A242854.P18083849071613528463.a, A005843, A005843.P3167286115683555970.a, A144138, A144138.P7220908367457548337.a, A144139, A144139.P1469581140721025765.a, A242850, A242850.P13574474704742039646.a, A242852, A242852.P4016982886622230275.a, A242853, A242853.P16621046372786615630.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A242854
 
@@ -2946,27 +2987,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A242858.P5098022718349084050
-
-/-!
-# A242859: Denominators of convergents to 2*Pi.
-
-The programs for A242859, there is no canonical definition to state claims against.
--/
-
-/-! ## A242859.P3874633573580412435
-
-`A121988(n)+A079686(A267828(n))`
--/
-
-namespace A242859.P3874633573580412435
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A121988 n + A079686 (A267828 n).toNat
-
-end
-
-end A242859.P3874633573580412435
 
 /-!
 # A242863: Absolute discriminants of complex quadratic fields with 3-class group of elementary abelian type (3,3) of rank 2.

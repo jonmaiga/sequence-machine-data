@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -93,6 +94,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A272500: Number of ordered set partitions of [n] with nondecreasing block sizes and maximal block size equal to ten.
@@ -6644,6 +6649,12 @@ namespace A272569
 /-- `(A020951(n)+A020944(n))*A020951(n)` -/
 def P17414981533409191929.Spec : Prop :=
   ∀ n, P17414981533409191929.a n = A272569 (n + 1)
+
+theorem P17414981533409191929.correct : P17414981533409191929.Spec := by
+  intro n
+  simp only [A272569, Nat.add_sub_cancel, A272569.P17414981533409191929.a, A272569.P17664590215106579410.a, A002487, A002487.P6236436194084017932.a, A020944, A020944.P8623549795546838227.a, A020951, A020951.P2561957398097553159.a, A000007, A000007.P6599383543502402472.a, A000120, A000120.P2816527436160941581.a, A020952, A020952.P6062698508245563205.a, A053646, A053646.P18187844312180991750.a, A168081, A168081.P16359451533663323532.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A272569
 

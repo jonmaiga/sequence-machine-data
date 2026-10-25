@@ -54,15 +54,13 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
+import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -2292,7 +2290,7 @@ end A335735.P14998800888112009302
 /-!
 # A335738: Factorize each integer m >= 2 as the product of powers of nonunit squarefree numbers with distinct exponents that are powers of 2. The sequence lists m such that the factor with the largest exponent is a power of 2.
 
-The programs for A335738, the canonical program `A335738.P7632343520013467693` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335738 has offset 1).
+The programs for A335738, the canonical program `A335738.P7632343520013467693` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335738 has offset 1).
 
 The definition of A335738 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2141 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2301,7 +2299,7 @@ The definition of A335738 is `conjectured`: the Lean definition is a formula tha
 
 `lt[n*a(A057918(n+1))/(n-1), 2]+1` with `a(0)=2, a(1)=0`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A335738
@@ -3002,61 +3000,6 @@ namespace A335741
 /-- `a(A231149(n))+1` -/
 def P13220938941872567785.Spec : Prop :=
   ∀ n, (P13220938941872567785.a n : ℤ) = A335741 n
-
-end A335741
-
-/-! ## A335741.P9569823367546479383
-
-`∑[A010054(A002620(n))]`
--/
-
-namespace A335741.P9569823367546479383
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010054 (A002620 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A335741.P9569823367546479383
-
-namespace A335741
-
-/-- `∑[A010054(A002620(n))]` -/
-def P9569823367546479383.Spec : Prop :=
-  ∀ n, P9569823367546479383.a n = A335741 n
-
-end A335741
-
-/-! ## A335741.P8096273466645344015
-
-`∑[A010054(∑[A004526(n)])]`
--/
-
-namespace A335741.P8096273466645344015
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004526 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010054 (∑ j ∈ Finset.range (n + 1), f2 j).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A335741.P8096273466645344015
-
-namespace A335741
-
-/-- `∑[A010054(∑[A004526(n)])]` -/
-def P8096273466645344015.Spec : Prop :=
-  ∀ n, P8096273466645344015.a n = A335741 n
 
 end A335741
 

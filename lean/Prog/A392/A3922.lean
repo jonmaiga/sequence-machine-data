@@ -52,19 +52,17 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -604,7 +602,7 @@ end A392217.P17476180688511515287
 /-!
 # A392218: Product of the divisors of phi(n).
 
-The programs for A392218, the canonical program `A392218.P16910627991504591076` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392218 has offset 1).
+The programs for A392218, the canonical program `A392218.P16910627991504591076` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392218 has offset 1).
 
 The definition of A392218 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5182 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -639,7 +637,7 @@ end A392218
 
 `∏{d}[A349137(2*n+1), #]`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A392218
@@ -728,6 +726,99 @@ def P3433092281579239205.Spec : Prop :=
   ∀ n, (P3433092281579239205.a n : ℤ) = A392218 (n + 1)
 
 end A392218
+
+/-!
+# A392219: Primes p such that the Chebyshev distance from 1 to p in the Ulam spiral is a prime number.
+
+The programs for A392219, there is no canonical definition to state claims against.
+-/
+
+/-! ## A392219.P16115265622170183330
+
+`p?[A029612(n+1)]`
+-/
+
+namespace A392219.P16115265622170183330
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029612 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A392219.P16115265622170183330
+
+/-! ## A392219.P7450494472951461995
+
+`p?[A029634(n+1)]`
+-/
+
+namespace A392219.P7450494472951461995
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029634 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A392219.P7450494472951461995
+
+/-! ## A392219.P13614140714858607813
+
+`p?[A029664(n+2)]`
+-/
+
+namespace A392219.P13614140714858607813
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A029664 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A392219.P13614140714858607813
+
+/-! ## A392219.P4222051622446037907
+
+`p?[A135777(n+3)]`
+-/
+
+namespace A392219.P4222051622446037907
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A135777 (n + 3)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
+
+end
+
+end A392219.P4222051622446037907
+
+/-! ## A392219.P13798051073357741959
+
+`A332382(2^(n+3))`
+-/
+
+namespace A392219.P13798051073357741959
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A332382 (2 ^ (n + 3))
+
+end
+
+end A392219.P13798051073357741959
 
 /-!
 # A392220: A modified Sisyphus function: a(n) = concatenation of (number of digits in n) (number of odd digits in n) (number of even digits in n).
@@ -4872,7 +4963,7 @@ end A392281
 /-!
 # A392285: a(n) = omega(n) * (-1)^(bigomega(n) + 1).
 
-The programs for A392285, the canonical program `A392285.P2958692523418785165` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392285 has offset 1).
+The programs for A392285, the canonical program `A392285.P2958692523418785165` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392285 has offset 1).
 
 The definition of A392285 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, A073093, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4881,7 +4972,7 @@ The definition of A392285 is `conditional`: the Lean definition is an OEIS formu
 
 `A001221(n+1)*(-1)^A073093(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A392285
@@ -5347,7 +5438,7 @@ end A392287.P14415404805214477184
 /-!
 # A392288: Nonsquarefree numbers whose canonical prime factorization has at least two prime power factors with equal exponents.
 
-The programs for A392288, the canonical program `A392288.P4097606183012622653` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392288 has offset 1).
+The programs for A392288, the canonical program `A392288.P4097606183012622653` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392288 has offset 1).
 
 The definition of A392288 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3208 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5356,7 +5447,7 @@ The definition of A392288 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A013929(n+1), A130092(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A392288

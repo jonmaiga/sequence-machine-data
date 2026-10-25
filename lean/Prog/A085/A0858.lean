@@ -2804,20 +2804,24 @@ end
 
 end A085820.P9125837127685886987
 
-/-! ## A085820.P1003796160923136689
+/-! ## A085820.P9131290948752552162
 
-`A130821(A036707(n))`
+`comp[A122840(n+1)+floor(n/2^val(n+1, 2))]`
 -/
 
-namespace A085820.P1003796160923136689
+namespace A085820.P9131290948752552162
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A130821 (A036707 n).toNat
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A122840 (n + 1) + ⌊(n : ℚ) / (2 ^ SequenceMachineLib.valuation (n + 1) 2 : ℚ)⌋
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A085820.P1003796160923136689
+end A085820.P9131290948752552162
 
 /-!
 # A085821: Smallest prime > A085820(n) ending with A085820(n).
@@ -9976,7 +9980,7 @@ end A085883.P5163103264911120954
 /-!
 # A085885: Let r and s be such that r + s = n; a(n) = maximum value of phi(r) + phi(s).
 
-The programs for A085885, the canonical program `A085885.P6366113576804928038` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085885 has offset 2).
+The programs for A085885, the canonical program `A085885.P6366113576804928038` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085885 has offset 2).
 
 The definition of A085885 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9985,7 +9989,7 @@ The definition of A085885 is `conjectured`: the Lean definition is a formula tha
 
 `A000010(A056813((n+1)²))+A000010(A175851(n+1))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A085885

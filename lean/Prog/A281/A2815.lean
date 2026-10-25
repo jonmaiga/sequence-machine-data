@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -55,14 +56,15 @@ import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -90,6 +92,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A281500: Reduced denominators of f(n) = (n+1)/(2^(2+n)-2) with A026741(n+1) as numerators.
@@ -1556,6 +1562,21 @@ end
 
 end A281520.P6350793299868489363
 
+/-! ## A281520.P14920123663686177811
+
+`A281634(A018799(n!))`
+-/
+
+namespace A281520.P14920123663686177811
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A281634 (A018799 (Nat.factorial n)).toNat
+
+end
+
+end A281520.P14920123663686177811
+
 /-! ## A281520.P890029434343059943
 
 `A281634(A304036(n!))`
@@ -1585,21 +1606,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A281520.P13957209984804986842
-
-/-! ## A281520.P17269963092550928482
-
-`A281634(A004902(n+1))`
--/
-
-namespace A281520.P17269963092550928482
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A281634 (A004902 (n + 1)).toNat
-
-end
-
-end A281520.P17269963092550928482
 
 /-!
 # A281521: Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 371", based on the 5-celled von Neumann neighborhood.
@@ -3652,6 +3658,12 @@ namespace A281553
 /-- `A038572(A286548(n)+n)` -/
 def P4551383003212719357.Spec : Prop :=
   ∀ n, P4551383003212719357.a n = A281553 n
+
+theorem P4551383003212719357.correct : P4551383003212719357.Spec := by
+  intro n
+  simp only [A281553, Nat.add_sub_cancel, A281553.P4551383003212719357.a, A281553.P903484465477514888.a, A038572, A038572.P9289042872142352092.a, A286548, A286548.P11712479418656410754.a, A003188, A003188.P10544524695508875182.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A281553
 
@@ -6406,7 +6418,7 @@ end A281588.P12385553284639664043
 /-!
 # A281589: Triangular array T(n,k), n > 0 and k = 1..2^(n-1), read by rows, in which row n corresponds to the permutation of [1..2^(n-1)] resulting from folding a horizontal strip of paper, with 2^(n-1) square cells numbered from 1 to 2^(n-1), n-1 times.
 
-The programs for A281589, the canonical program `A281589.P10233469596152794852` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281589 has offset 1).
+The programs for A281589, the canonical program `A281589.P10233469596152794852` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281589 has offset 1).
 
 The definition of A281589 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6415,7 +6427,7 @@ The definition of A281589 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)%2+A119608(n+2)%(n+1)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A281589
@@ -7248,7 +7260,7 @@ end A281593
 
 The programs for A281594, the canonical program `A281594.P9064033195026317982` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281594 has offset 0).
 
-The definition of A281594 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007947, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A281594 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A281594.P9064033195026317982

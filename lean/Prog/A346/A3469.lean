@@ -42,7 +42,6 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -50,9 +49,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -955,27 +952,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A346908.P16860670473610842793
-
-/-!
-# A346909: Continued fraction expansion of the constant whose decimal expansion is A269707.
-
-The programs for A346909, there is no canonical definition to state claims against.
--/
-
-/-! ## A346909.P8551842290336975692
-
-`A112054(a(n-1))` with `a(0)=3, a(1)=3, a(2)=3`
--/
-
-namespace A346909.P8551842290336975692
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [3, 3, 3] fun n a =>
-  A112054 (a (n - 1)).toNat
-
-end
-
-end A346909.P8551842290336975692
 
 /-!
 # A346910: Numbers k such that k and k+1 are both nonprime-powers whose all distinct prime divisors are consecutive primes (A066312).
@@ -4644,26 +4620,26 @@ end
 
 end A346990.P10331327376921590869
 
-/-! ## A346990.P12501743681444647251
+/-! ## A346990.P17904572310670529325
 
-`eq[A048887(A048887(3*(n+1))), A281113(n+6)]`
+`lt[A205484(A327791(n+1)), A090585(n+5)]`
 -/
 
-namespace A346990.P12501743681444647251
+namespace A346990.P17904572310670529325
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048887 (A048887 (3 * (n + 1))).toNat
+  A205484 (A327791 (n + 1)).toNat
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A281113 (n + 6)
+  A090585 (n + 5)
 
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
 
 end
 
-end A346990.P12501743681444647251
+end A346990.P17904572310670529325
 
 /-!
 # A346991: Numbers occurring as divisors of 2^k + 5^k, k > 0.

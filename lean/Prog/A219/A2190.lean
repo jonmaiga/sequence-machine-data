@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -61,7 +62,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -69,6 +69,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -96,6 +97,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A219000: Unmatched value maps: number of nX6 binary arrays indicating the locations of corresponding elements not equal to any horizontal, diagonal or antidiagonal neighbor in a random 0..2 nX6 array.
@@ -2689,6 +2694,12 @@ namespace A219029
 /-- `A293516(n+1)-A070556(n+1)+n` -/
 def P17990851321659625061.Spec : Prop :=
   ∀ n, P17990851321659625061.a n = A219029 (n + 1)
+
+theorem P17990851321659625061.correct : P17990851321659625061.Spec := by
+  intro n
+  simp only [A219029, Nat.add_sub_cancel, A219029.P17990851321659625061.a, A219029.P2789950166791163468.a, A010554, A010554.P6049326986585021923.a, A070556, A070556.P18359578650946582400.a, A293516, A293516.P9034369558879961417.a, A000010, A000010.P4673923239450215316.a, A051953, A051953.P12093122754958550118.a, A055034, A055034.P626743345724303552.a, A003557, A003557.P6364735403900941810.a, A065033, A065033.P13150710762287634520.a, A173557, A173557.P15666735857375843373.a, A219839, A219839.P1850322905401694183.a, A318305, A318305.P17845263951644339002.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A176095, A176095.P15886254613354820992.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A219029
 
@@ -8808,7 +8819,7 @@ end A219096.P1827595425866141677
 
 The programs for A219097, the canonical program `A219097.P16650777398605658511` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219097 has offset 0).
 
-The definition of A219097 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A071986, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A219097 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A219097.P9899334082935541569

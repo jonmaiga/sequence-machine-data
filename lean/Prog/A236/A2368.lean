@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -56,7 +57,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -86,6 +86,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A236800: Number T(n,k) of equivalence classes of ways of placing k 5 X 5 tiles in an n X n square under all symmetry operations of the square; irregular triangle T(n,k), n>=5, 0<=k<=floor(n/5)^2, read by rows.
@@ -3616,6 +3620,12 @@ namespace A236840
 def P17315427841021233004.Spec : Prop :=
   ∀ n, P17315427841021233004.a n = A236840 n
 
+theorem P17315427841021233004.correct : P17315427841021233004.Spec := by
+  intro n
+  simp only [A236840, Nat.add_sub_cancel, A236840.P17315427841021233004.a, A236840.P5330150570220508668.a, A005811, A005811.P8696411420205566785.a, A088748, A088748.P405959534239069085.a, A000120, A000120.P2816527436160941581.a, A003188, A003188.P10544524695508875182.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A236840
 
 /-! ## A236840.P1859563665770078800
@@ -3638,6 +3648,12 @@ namespace A236840
 /-- `4-A136004(n)+n` -/
 def P1859563665770078800.Spec : Prop :=
   ∀ n, P1859563665770078800.a n = A236840 n
+
+theorem P1859563665770078800.correct : P1859563665770078800.Spec := by
+  intro n
+  simp only [A236840, Nat.add_sub_cancel, A236840.P1859563665770078800.a, A236840.P5330150570220508668.a, A005811, A005811.P8696411420205566785.a, A136004, A136004.P9778736345928845388.a, A000120, A000120.P2816527436160941581.a, A003188, A003188.P10544524695508875182.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A236840
 
@@ -5897,6 +5913,12 @@ namespace A236856
 def P9958036760435433869.Spec : Prop :=
   ∀ n, P9958036760435433869.a n = A236856 n
 
+theorem P9958036760435433869.correct : P9958036760435433869.Spec := by
+  intro n
+  simp only [A236856, Nat.add_sub_cancel, A236856.P9958036760435433869.f1, A236856.P9958036760435433869.a, A236856.P12242245037929288109.a, A003418, A003418.P6976248655893080794.a, A173185, A173185.P11378797572863628532.f1, A173185.P11378797572863628532.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A236856
 
 /-! ## A236856.P11893168644841542409
@@ -5922,6 +5944,12 @@ namespace A236856
 /-- `∑[A075059(n)-1]-1` -/
 def P11893168644841542409.Spec : Prop :=
   ∀ n, P11893168644841542409.a n = A236856 n
+
+theorem P11893168644841542409.correct : P11893168644841542409.Spec := by
+  intro n
+  simp only [A236856, Nat.add_sub_cancel, A236856.P11893168644841542409.f1, A236856.P11893168644841542409.a, A236856.P12242245037929288109.a, A075059, A075059.P13005941669399506084.a, A173185, A173185.P11378797572863628532.f1, A173185.P11378797572863628532.a, A003418, A003418.P6976248655893080794.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A236856
 

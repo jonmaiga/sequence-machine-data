@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
@@ -82,6 +83,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A243700: The lexicographically earliest sequence of distinct terms with a(1) = 1 such that a(n) divides the sum of the first a(n) terms.
@@ -5844,6 +5849,12 @@ namespace A243769
 /-- `(A000040(n+1)*A001248(n+1))%A106587(n+1)` -/
 def P10256324983778918000.Spec : Prop :=
   ∀ n, P10256324983778918000.a n = A243769 (n + 1)
+
+theorem P10256324983778918000.correct : P10256324983778918000.Spec := by
+  intro n
+  simp only [A243769, Nat.add_sub_cancel, A243769.P10256324983778918000.a, A243769.P6858132266747449837.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A001248, A001248.P16278241061688229202.a, A030078, A030078.P13819432151207990454.a, A106587, A106587.P10471474912979414832.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A243769
 

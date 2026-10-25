@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -93,6 +94,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A234000: Numbers of the form 4^i*(8*j+1).
@@ -2444,6 +2449,12 @@ namespace A234017
 /-- `(A308188(n+1)-1)*A234016(n)` -/
 def P13379382863401048120.Spec : Prop :=
   ∀ n, P13379382863401048120.a n = A234017 n
+
+theorem P13379382863401048120.correct : P13379382863401048120.Spec := by
+  intro n
+  simp only [A234017, Nat.add_sub_cancel, A234017.P13379382863401048120.a, A234017.P14444333569528327869.a, A079559, A079559.P6833565121082423031.a, A234016, A234016.P16847082992809600842.a, A308188, A308188.P1668237942996527319.a, A043545, A043545.P6199121594405564387.a, A053644, A053644.P1707366427427647095.a, A036987, A036987.P1789601236562705309.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A234017
 

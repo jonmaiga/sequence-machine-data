@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -96,6 +97,11 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A213600: Triangle T(n,k) read by rows: Number of Dyck n-paths with midpoint at height k.
@@ -4094,7 +4100,7 @@ end A213641.P14233458600234929568
 
 The programs for A213642, the canonical program `A213642.P6358489440238174870` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213642 has offset 1).
 
-The definition of A213642 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, A000265, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A213642 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000265, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A213642.P6358489440238174870
@@ -4274,6 +4280,12 @@ namespace A213642
 /-- `A000040(A153733(n)+1)` -/
 def P5700810756658460515.Spec : Prop :=
   ∀ n, P5700810756658460515.a n = A213642 (n + 1)
+
+theorem P5700810756658460515.correct : P5700810756658460515.Spec := by
+  intro n
+  simp only [A213642, Nat.add_sub_cancel, A213642.P5700810756658460515.a, A213642.P6358489440238174870.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A000265, A000265.P2772582252347773295.a, A153733, A153733.P10755713114946739736.a, A003602, A003602.P7612175048291952394.a, A331739, A331739.P457850794578440847.a, A110963, A110963.P3344771894533151408.a, A025480, A025480.P15873863116418380882.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A213642
 
@@ -5277,7 +5289,7 @@ end A213649
 /-!
 # A213650: Numbers k such that the sum of the first k primes is semiprime.
 
-The programs for A213650, the canonical program `A213650.P4295961381760451156` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213650 has offset 1).
+The programs for A213650, the canonical program `A213650.P4295961381760451156` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213650 has offset 1).
 
 The definition of A213650 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1701 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5286,7 +5298,7 @@ The definition of A213650 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2, A102862(n+1)]+1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A213650

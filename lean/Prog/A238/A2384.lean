@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -92,6 +93,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A238400: Primes in A238399.
@@ -2633,6 +2638,12 @@ namespace A238420
 /-- `(n+1)*(A208176(n)-1)` -/
 def P3774894180858153136.Spec : Prop :=
   ∀ n, P3774894180858153136.a n = A238420 (n + 1)
+
+theorem P3774894180858153136.correct : P3774894180858153136.Spec := by
+  intro n
+  simp only [A238420, Nat.add_sub_cancel, A238420.P3774894180858153136.a, A238420.P1153612300768833759.a, A059929, A059929.P8456040648123541286.a, A208176, A208176.P16613018010814383461.a, A000045, A000045.P11838749114346432762.a, A033999, A033999.P17703899380244199787.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A238420
 

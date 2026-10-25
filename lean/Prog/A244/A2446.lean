@@ -54,6 +54,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
@@ -219,20 +220,20 @@ end A244603.P2817748144808124836
 The programs for A244604, there is no canonical definition to state claims against.
 -/
 
-/-! ## A244604.P2550350253758775696
+/-! ## A244604.P6783059562922941936
 
-`A105119(A291816(n+1)-A272008(n+1))`
+`A063425(A362775(n))%A101070(n+1)`
 -/
 
-namespace A244604.P2550350253758775696
+namespace A244604.P6783059562922941936
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A105119 (A291816 (n + 1) - A272008 (n + 1)).toNat
+  Int.tmod (A063425 (A362775 n).toNat) (A101070 (n + 1))
 
 end
 
-end A244604.P2550350253758775696
+end A244604.P6783059562922941936
 
 /-!
 # A244605: Numerators of the Akiyama-Tanigawa transform applied to 1/(n+1) with -1/2 instead of 1/2.

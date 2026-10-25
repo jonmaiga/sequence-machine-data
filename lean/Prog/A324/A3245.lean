@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -56,7 +57,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
@@ -92,6 +92,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A324500: a(n) = denominator of Sum_{d|n} sigma(d)/tau(d) where sigma(k) = the sum of the divisors of k (A000203) and tau(k) = the number of divisors of k (A000005).
@@ -239,7 +243,7 @@ end A324504.P15955857739426250403
 /-!
 # A324505: a(n) = numerator of Sum_{d|n} (d/pod(d)) where pod(k) = the product of the divisors of k (A007955).
 
-The programs for A324505, the canonical program `A324505.P18122971594184600049` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324505 has offset 1).
+The programs for A324505, the canonical program `A324505.P18122971594184600049` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324505 has offset 1).
 
 The definition of A324505 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5039 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -248,7 +252,7 @@ The definition of A324505 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A007956(n+1)/A007956(#)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A324505
@@ -1087,6 +1091,27 @@ end
 
 end A324515.P9678746979523710146
 
+/-! ## A324515.P8544412310751454429
+
+`eq[1, A240672(A353851(n))]`
+-/
+
+namespace A324515.P8544412310751454429
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  1
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A240672 (A353851 n).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
+
+end
+
+end A324515.P8544412310751454429
+
 /-! ## A324515.P10003189680674723963
 
 `lt[1, A133089(A115118(n))]`
@@ -1107,27 +1132,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A324515.P10003189680674723963
-
-/-! ## A324515.P463970028460271379
-
-`eq[2, A048793(A284289(3*n))]`
--/
-
-namespace A324515.P463970028460271379
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048793 (A284289 (3 * n)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n
-
-end
-
-end A324515.P463970028460271379
 
 /-!
 # A324517: Numbers > 1 where the maximum prime index equals the number of prime factors minus the number of distinct prime factors.
@@ -2283,7 +2287,7 @@ end A324527.P15569076719871184647
 /-!
 # A324528: a(n) = lcm(tau(n), pod(n)) where tau(k) = the number of divisors of k (A000005) and pod(n) = the product of divisors of k (A007955).
 
-The programs for A324528, the canonical program `A324528.P13642510436435348081` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324528 has offset 1).
+The programs for A324528, the canonical program `A324528.P13642510436435348081` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324528 has offset 1).
 
 The definition of A324528 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5039 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2344,7 +2348,7 @@ end A324528
 
 `lcm((n+1)*A007956(n+1), ∑{d}[n+1, lcm(#, n+1)-n])`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A324528
@@ -4692,6 +4696,12 @@ namespace A324549
 /-- `A324552(n+1)-2*A000225(n)` -/
 def P6220844216085508653.Spec : Prop :=
   ∀ n, P6220844216085508653.a n = A324549 (n + 1)
+
+theorem P6220844216085508653.correct : P6220844216085508653.Spec := by
+  intro n
+  simp only [A324549, Nat.add_sub_cancel, A324549.P6220844216085508653.a, A324549.P838001861753721853.a, A000225, A000225.P6535533121115206393.a, A069061, A069061.P10159908662818453705.a, A151821, A151821.P3447003275305928826.f1, A151821.P3447003275305928826.a, A324552, A324552.P10145515765642831646.a, A000051, A000051.P14067217022188782580.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A324549
 

@@ -6475,27 +6475,6 @@ end
 
 end A039080.P7136402697109400391
 
-/-! ## A039080.P9287928352161202793
-
-`lt[A010231(A010785(n+4)), A046897(n+1)]`
--/
-
-namespace A039080.P9287928352161202793
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010231 (A010785 (n + 4)).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A046897 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A039080.P9287928352161202793
-
 /-!
 # A039081: Numbers whose base-9 representation has the same number of 0's and 5's.
 
@@ -7170,6 +7149,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039094.P17957533659826621279
+
+/-! ## A039094.P10783504997320029761
+
+`lt[A188713(n+1), A077182(A269264(n+1))]`
+-/
+
+namespace A039094.P10783504997320029761
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A188713 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A077182 (A269264 (n + 1)).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A039094.P10783504997320029761
 
 /-! ## A039094.P11372488741004927464
 

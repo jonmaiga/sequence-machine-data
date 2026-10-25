@@ -1721,20 +1721,20 @@ end
 
 end A291834.P11215318769234068451
 
-/-! ## A291834.P9620111551119462977
+/-! ## A291834.P15329594386560036577
 
-`A291928(A043320(n+1))`
+`A291928(n+1)+A000035(A185351(n+1))`
 -/
 
-namespace A291834.P9620111551119462977
+namespace A291834.P15329594386560036577
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A291928 (A043320 (n + 1)).toNat
+  A291928 (n + 1) + A000035 (A185351 (n + 1)).toNat
 
 end
 
-end A291834.P9620111551119462977
+end A291834.P15329594386560036577
 
 /-!
 # A291837: a(n) is the maximal value in row n of triangle A100960.

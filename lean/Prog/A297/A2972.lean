@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -63,7 +64,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -90,6 +90,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A297200: Number of label-increasing forests with branching bounded by 4.
@@ -4118,6 +4122,12 @@ namespace A297251
 def P15350900564571650.Spec : Prop :=
   ∀ n, P15350900564571650.a n = A297251 (n + 1)
 
+theorem P15350900564571650.correct : P15350900564571650.Spec := by
+  intro n
+  simp only [A297251, Nat.add_sub_cancel, A297251.P15350900564571650.a, A297251.P6344271933404297145.a, A005408, A005408.P17437947328870227736.a, A157671, A157671.P16167228879042950369.f1, A157671.P16167228879042950369.f2, A157671.P16167228879042950369.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A297251
 
 /-! ## A297251.P9985715989200817835
@@ -4140,6 +4150,12 @@ namespace A297251
 /-- `A157671(n+1)+A144396(n+1)` -/
 def P9985715989200817835.Spec : Prop :=
   ∀ n, P9985715989200817835.a n = A297251 (n + 1)
+
+theorem P9985715989200817835.correct : P9985715989200817835.Spec := by
+  intro n
+  simp only [A297251, Nat.add_sub_cancel, A297251.P9985715989200817835.a, A297251.P6344271933404297145.a, A144396, A144396.P18396969748453668116.a, A157671, A157671.P16167228879042950369.f1, A157671.P16167228879042950369.f2, A157671.P16167228879042950369.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A297251
 

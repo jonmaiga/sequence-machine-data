@@ -57,9 +57,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -3158,6 +3156,21 @@ end
 
 end A044138.P891049403133747322
 
+/-! ## A044138.P16175396180591202376
+
+`49*A011776(A033286(n+1))`
+-/
+
+namespace A044138.P16175396180591202376
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  49 * A011776 (A033286 (n + 1)).toNat
+
+end
+
+end A044138.P16175396180591202376
+
 /-! ## A044138.P10548220164404332034
 
 `(n+1)*A062368(A001748(A062380(n+1)))`
@@ -3187,21 +3200,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A044138.P15659471173342249626
-
-/-! ## A044138.P3153101421782972037
-
-`(n+1)*A086779(A280990(A086794(n+1)))`
--/
-
-namespace A044138.P3153101421782972037
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * A086779 (A280990 (A086794 (n + 1)).toNat).toNat
-
-end
-
-end A044138.P3153101421782972037
 
 /-!
 # A044139: Numbers n such that string 0,1 occurs in the base 7 representation of n but not of n-1.

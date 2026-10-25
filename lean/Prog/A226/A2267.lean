@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -59,12 +60,11 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
@@ -98,6 +98,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A226700: Solutions y/(3*5*13) of the Pell equation x^2 - 61*y^2 = +4.
@@ -3967,6 +3971,12 @@ namespace A226741
 /-- `(n+1)*(A226514(n+1)+Δ[A226514(n)])` -/
 def P12054285272416910710.Spec : Prop :=
   ∀ n, P12054285272416910710.a n = A226741 n
+
+theorem P12054285272416910710.correct : P12054285272416910710.Spec := by
+  intro n
+  simp only [A226741, Nat.add_sub_cancel, A226741.P12054285272416910710.f1, A226741.P12054285272416910710.a, A226741.P10796221440555663408.a, A226514, A226514.P8316194481158658202.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A226741
 

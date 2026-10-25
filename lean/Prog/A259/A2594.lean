@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -54,6 +55,7 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -81,6 +83,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A259400: a(n) = Sum_{k=0..n} 2^k*p(k), where p(k) is the partition function A000041.
@@ -1023,6 +1029,12 @@ namespace A259410
 def P562311123357118068.Spec : Prop :=
   ∀ n, P562311123357118068.a n = A259410 (n + 1)
 
+theorem P562311123357118068.correct : P562311123357118068.Spec := by
+  intro n
+  simp only [A259410, Nat.add_sub_cancel, A259410.P562311123357118068.a, A259410.P7580479100357844483.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001065, A001065.P4097147489331274860.a, A060884, A060884.P17835107360669808419.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A259410
 
 /-! ## A259410.P3000226500065270472
@@ -1045,6 +1057,12 @@ namespace A259410
 /-- `A060884(A155085(n+1)-(n+1))` -/
 def P3000226500065270472.Spec : Prop :=
   ∀ n, P3000226500065270472.a n = A259410 (n + 1)
+
+theorem P3000226500065270472.correct : P3000226500065270472.Spec := by
+  intro n
+  simp only [A259410, Nat.add_sub_cancel, A259410.P3000226500065270472.a, A259410.P7580479100357844483.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A060884, A060884.P17835107360669808419.a, A155085, A155085.P3282672389110014595.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A259410
 
@@ -5001,6 +5019,29 @@ namespace A259459
 /-- `∑[∑[(n+1)²]]*∏[∑[n+1]]` -/
 def P7424812267424878961.Spec : Prop :=
   ∀ n, (P7424812267424878961.a n : ℤ) = A259459 n
+
+end A259459
+
+/-! ## A259459.P15344645763239593971
+
+`(n+3)*(n+2)²*a(n-1)/(2*n)` with `a(0)=1`
+-/
+
+namespace A259459.P15344645763239593971
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [1] fun n a =>
+  ((n + 3) * (n + 2) ^ 2 : ℚ) * a (n - 1) / (2 * n : ℚ)
+
+end
+
+end A259459.P15344645763239593971
+
+namespace A259459
+
+/-- `(n+3)*(n+2)²*a(n-1)/(2*n)` -/
+def P15344645763239593971.Spec : Prop :=
+  ∀ n, P15344645763239593971.a n = (A259459 n : ℚ)
 
 end A259459
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -51,7 +52,8 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
-import Seq.B014.C000
+import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -76,6 +78,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A233000: Let L(n) = Fibonacci(n-1)+Fibonacci(n+1) (cf. A000045, A000032); if n is even then a(n) = (L(n)+2)^2 otherwise a(n) = L(2*n)+2.
@@ -3165,6 +3171,35 @@ def P5525429038482301590.Spec : Prop :=
 
 end A233035
 
+/-! ## A233035.P7536081135685575500
+
+`(n+1)*A122461(n+1)/2`
+-/
+
+namespace A233035.P7536081135685575500
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((n + 1 : ℤ) * A122461 (n + 1) : ℚ) / 2
+
+end
+
+end A233035.P7536081135685575500
+
+namespace A233035
+
+/-- `(n+1)*A122461(n+1)/2` -/
+def P7536081135685575500.Spec : Prop :=
+  ∀ n, P7536081135685575500.a n = (A233035 (n + 1) : ℚ)
+
+theorem P7536081135685575500.correct : P7536081135685575500.Spec := by
+  intro n
+  simp only [A233035, Nat.add_sub_cancel, A233035.P7536081135685575500.a, A233035.P14288624045752954315.a, A122461, A122461.P3987586547876267003.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
+end A233035
+
 /-! ## A233035.P2034731590605631339
 
 `∑[Δ[n*(A002265(n)+1)]-1]`
@@ -3214,6 +3249,12 @@ namespace A233035
 /-- `(n+1)*(A002265(n+1)+1)-n-1` -/
 def P5198209505202190021.Spec : Prop :=
   ∀ n, P5198209505202190021.a n = A233035 (n + 1)
+
+theorem P5198209505202190021.correct : P5198209505202190021.Spec := by
+  intro n
+  simp only [A233035, Nat.add_sub_cancel, A233035.P5198209505202190021.a, A233035.P14288624045752954315.a, A002265, A002265.P2157561802369677908.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A233035
 

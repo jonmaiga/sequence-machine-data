@@ -55,7 +55,7 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C002
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -2498,7 +2498,7 @@ end A170818
 
 The programs for A170819, the canonical program `A170819.P5191989612477156499` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A170819 has offset 1).
 
-The definition of A170819 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007947, A097706, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A170819 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A097706, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A170819.P5191989612477156499
@@ -3603,7 +3603,7 @@ end A170824
 
 The programs for A170825, the canonical program `A170825.P11151299437683366187` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A170825 has offset 1).
 
-The definition of A170825 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007947, A343431, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A170825 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A343431, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A170825.P11151299437683366187

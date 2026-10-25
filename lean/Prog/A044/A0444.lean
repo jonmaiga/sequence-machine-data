@@ -54,6 +54,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -5700,7 +5701,7 @@ end A044436
 /-!
 # A044437: Numbers n such that string 1,1 occurs in the base 3 representation of n but not of n+1.
 
-The programs for A044437, the canonical program `A044437.P989226592921075756` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044437 has offset 1).
+The programs for A044437, the canonical program `A044437.P989226592921075756` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044437 has offset 1).
 
 The definition of A044437 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1413 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5709,7 +5710,7 @@ The definition of A044437 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A015053(A290091(n)), A290091(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A044437
@@ -7313,20 +7314,20 @@ end
 
 end A044454.P2651012906023702329
 
-/-! ## A044454.P6126337352486632799
+/-! ## A044454.P5892047831789636226
 
-`A044074(n+1)-A010051(A128066(n+1))`
+`A044074(n+1)-A001221(A128066(n+1))`
 -/
 
-namespace A044454.P6126337352486632799
+namespace A044454.P5892047831789636226
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044074 (n + 1) - A010051 (A128066 (n + 1)).toNat
+  A044074 (n + 1) - A001221 (A128066 (n + 1)).toNat
 
 end
 
-end A044454.P6126337352486632799
+end A044454.P5892047831789636226
 
 /-! ## A044454.P12508188049470273124
 

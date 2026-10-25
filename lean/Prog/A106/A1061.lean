@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -26,6 +27,7 @@ import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -58,7 +60,6 @@ import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -92,6 +93,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A106100: Primes with maximal digit = 2.
@@ -13966,6 +13971,12 @@ namespace A106149
 def P16134105797012339847.Spec : Prop :=
   ∀ n, (P16134105797012339847.a n : ℤ) = A106149 (n + 1)
 
+theorem P16134105797012339847.correct : P16134105797012339847.Spec := by
+  intro n
+  simp only [A106149, Nat.add_sub_cancel, A106149.P16134105797012339847.f2, A106149.P16134105797012339847.f1, A106149.P16134105797012339847.a, A106149.P11845332744349769622.f1, A106149.P11845332744349769622.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A001223, A001223.P5083310856331133973.a, A046933, A046933.P9479947770746769512.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A106149
 
 /-! ## A106149.P9407050923400572138
@@ -15392,20 +15403,20 @@ end
 
 end A106180.P3065962826367438049
 
-/-! ## A106180.P1164846081495669374
+/-! ## A106180.P13041595310579790699
 
-`A324424(A072493(n+1))+A038498(n+1)`
+`A185331(n)^A033999(A375314(n))`
 -/
 
-namespace A106180.P1164846081495669374
+namespace A106180.P13041595310579790699
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A324424 (A072493 (n + 1)).toNat + A038498 (n + 1)
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A185331 n : ℚ) ^ (A033999 (A375314 n).toNat : ℤ)
 
 end
 
-end A106180.P1164846081495669374
+end A106180.P13041595310579790699
 
 /-!
 # A106181: Expansion of c(-x^2)(1+2x-sqrt(1+4x^2))/2, c(x) the g.f. of A000108.

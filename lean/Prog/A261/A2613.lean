@@ -63,7 +63,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -5785,6 +5784,21 @@ end
 
 end A261384.P2096769273063124979
 
+/-! ## A261384.P5879167574896002309
+
+`A382972(A382985(n+1))+A217093(n)`
+-/
+
+namespace A261384.P5879167574896002309
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A382972 (A382985 (n + 1)).toNat + A217093 n
+
+end
+
+end A261384.P5879167574896002309
+
 /-!
 # A261386: Expansion of Product_{k>=1} ((1+x^k)/(1-x^k))^(2*k).
 
@@ -6031,6 +6045,12 @@ namespace A261391
 def P3799012679829861385.Spec : Prop :=
   ∀ n, P3799012679829861385.a n = A261391 n
 
+theorem P3799012679829861385.correct : P3799012679829861385.Spec := by
+  intro n
+  simp only [A261391, Nat.add_sub_cancel, A261391.P3799012679829861385.a, A261391.P3451584564033413708.a, A156798, A156798.P10525748190720154864.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A261391
 
 /-! ## A261391.P15154498639098598379
@@ -6053,6 +6073,12 @@ namespace A261391
 /-- `n*(A082113(n)+4)` -/
 def P15154498639098598379.Spec : Prop :=
   ∀ n, P15154498639098598379.a n = A261391 n
+
+theorem P15154498639098598379.correct : P15154498639098598379.Spec := by
+  intro n
+  simp only [A261391, Nat.add_sub_cancel, A261391.P15154498639098598379.a, A261391.P3451584564033413708.a, A082113, A082113.P7246514355658076769.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A261391
 
@@ -6077,6 +6103,12 @@ namespace A261391
 def P9583994405145891255.Spec : Prop :=
   ∀ n, P9583994405145891255.a n = A261391 n
 
+theorem P9583994405145891255.correct : P9583994405145891255.Spec := by
+  intro n
+  simp only [A261391, Nat.add_sub_cancel, A261391.P9583994405145891255.a, A261391.P3451584564033413708.a, A028387, A028387.P5954590561330899546.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A261391
 
 /-! ## A261391.P5582464595534777489
@@ -6099,6 +6131,12 @@ namespace A261391
 /-- `n*A165900(n²+3)` -/
 def P5582464595534777489.Spec : Prop :=
   ∀ n, P5582464595534777489.a n = A261391 n
+
+theorem P5582464595534777489.correct : P5582464595534777489.Spec := by
+  intro n
+  simp only [A261391, Nat.add_sub_cancel, A261391.P5582464595534777489.a, A261391.P3451584564033413708.a, A165900, A165900.P16246243669433487557.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A261391
 
@@ -7018,7 +7056,7 @@ end A261398.P2463784000446449414
 
 The programs for A261399, the canonical program `A261399.P6337418980505393064` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261399 has offset 1).
 
-The definition of A261399 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A261399 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2/5*(9*6^(n-1)+1)` (program `A261399.P5964123999403402746`, by `A261399.P5964123999403402746.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A261399.P6337418980505393064
@@ -7062,6 +7100,23 @@ namespace A261399
 /-- `2/5*(9*6^(n-1)+1)` -/
 def P5964123999403402746.Spec : Prop :=
   ∀ n, P5964123999403402746.a n = (A261399 (n + 1) : ℚ)
+
+theorem P5964123999403402746.correct : P5964123999403402746.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A261399, Nat.add_sub_cancel, A261399.P5964123999403402746.a, A261399.P6337418980505393064.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A261399, Nat.add_sub_cancel, A261399.P5964123999403402746.a, A261399.P6337418980505393064.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [← h1]
+      first | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1)
 
 end A261399
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -52,12 +53,14 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -84,6 +87,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A098200: Number of distinct terms in iteration-list when cototient-function[=A051953] is iterated and the initial value is even number.
@@ -179,6 +186,12 @@ namespace A098200
 def P7299574847685845883.Spec : Prop :=
   ∀ n, P7299574847685845883.a n = A098200 (n + 1)
 
+theorem P7299574847685845883.correct : P7299574847685845883.Spec := by
+  intro n
+  simp only [A098200, Nat.add_sub_cancel, A098200.P7299574847685845883.a, A098200.P7699923620318063745.a, A053475, A053475.P11743617394424170469.f1, A053475.P11743617394424170469.f2, A053475.P11743617394424170469.a, A076640, A076640.P10692691478282624648.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A098200
 
 /-! ## A098200.P1279573339295279559
@@ -201,6 +214,12 @@ namespace A098200
 /-- `A071575(n+2+n)+2` -/
 def P1279573339295279559.Spec : Prop :=
   ∀ n, P1279573339295279559.a n = A098200 (n + 1)
+
+theorem P1279573339295279559.correct : P1279573339295279559.Spec := by
+  intro n
+  simp only [A098200, Nat.add_sub_cancel, A098200.P1279573339295279559.a, A098200.P7699923620318063745.a, A053475, A053475.P11743617394424170469.f1, A053475.P11743617394424170469.f2, A053475.P11743617394424170469.a, A071575, A071575.P1413525790656994869.a, A076640, A076640.P10692691478282624648.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A098200
 
@@ -8632,6 +8651,12 @@ namespace A098272
 def P16917678757385580880.Spec : Prop :=
   ∀ n, P16917678757385580880.a n = A098272 n
 
+theorem P16917678757385580880.correct : P16917678757385580880.Spec := by
+  intro n
+  simp only [A098272, Nat.add_sub_cancel, A098272.P16917678757385580880.a, A098272.P12307376617500137133.a, A001764, A001764.P3774870437871613604.a, A004171, A004171.P4825528214568774058.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A098272
 
 /-! ## A098272.P7966581380992903965
@@ -9410,27 +9435,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
 end
 
 end A098289.P16680289176602077654
-
-/-!
-# A098290: Recurrence sequence based on positions of digits in decimal places of Zeta(3) (Apery's constant).
-
-The programs for A098290, there is no canonical definition to state claims against.
--/
-
-/-! ## A098290.P5984978947051893151
-
-`A100078(a(n-1))` with `a(0)=0`
--/
-
-namespace A098290.P5984978947051893151
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
-  A100078 (a (n - 1)).toNat
-
-end
-
-end A098290.P5984978947051893151
 
 /-!
 # A098291: Chebyshev polynomials S(n,731) + S(n-1,731) with Diophantine property.

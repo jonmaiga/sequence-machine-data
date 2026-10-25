@@ -41,6 +41,7 @@ import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -53,7 +54,6 @@ import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -621,20 +621,20 @@ end
 
 end A040026.P10257387250179425497
 
-/-! ## A040026.P10600479248430729263
+/-! ## A040026.P6308189410630970577
 
-`(n+1)/2^val(n+1, 2)-A368662(A360005(3*n+4))`
+`A000265(n+1)*A020985(A329429(n))`
 -/
 
-namespace A040026.P10600479248430729263
+namespace A040026.P6308189410630970577
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℚ) / (2 ^ SequenceMachineLib.valuation (n + 1) 2 : ℚ) - (A368662 (A360005 (3 * n + 4)).toNat : ℚ)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000265 (n + 1) * A020985 (A329429 n).toNat
 
 end
 
-end A040026.P10600479248430729263
+end A040026.P6308189410630970577
 
 /-!
 # A040027: The Gould numbers.
@@ -4675,28 +4675,6 @@ end
 
 end A040065.P3979064999192617026
 
-/-! ## A040065.P1532775952099932589
-
-`∩[A028788(n+1), A347977(n+1)]`
--/
-
-namespace A040065.P1532775952099932589
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028788 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A347977 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A040065.P1532775952099932589
-
 /-!
 # A040066: Primes p such that x^3 = 13 has no solution mod p.
 
@@ -6458,6 +6436,27 @@ end
 
 end A040087.P4696092060863465060
 
+/-! ## A040087.P17919208306602994491
+
+`lt[A088670(A038699(n+1)), A000010(2*n+1)]`
+-/
+
+namespace A040087.P17919208306602994491
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A088670 (A038699 (n + 1)).toNat
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000010 (2 * n + 1)
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+
+end
+
+end A040087.P17919208306602994491
+
 /-! ## A040087.P3799711168578035448
 
 `eq[A051574(n+1), A321452(n)]`
@@ -6520,28 +6519,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A040087.P2184923265238624109
-
-/-! ## A040087.P3893647538836799405
-
-`∩[A246786(n+1), A368732(n+1)]`
--/
-
-namespace A040087.P3893647538836799405
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A246786 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A368732 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A040087.P3893647538836799405
 
 /-!
 # A040088: Primes p such that x^3 = 21 has no solution mod p.

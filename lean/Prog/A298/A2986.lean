@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -49,10 +50,11 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -88,6 +90,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A298600: Expansion of Product_{k>=2} 1/(1 + x^(k^2)).
@@ -1382,7 +1388,7 @@ end A298611.P17916225526643040843
 /-!
 # A298612: The number of concave polygon classes.
 
-The programs for A298612, the canonical program `A298612.P5426295925633337968` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298612 has offset 3).
+The programs for A298612, the canonical program `A298612.P5426295925633337968` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298612 has offset 3).
 
 The definition of A298612 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A262232, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1391,7 +1397,7 @@ The definition of A298612 is `conditional`: the Lean definition is an OEIS formu
 
 `A262232(n+3)-1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A298612
@@ -1919,24 +1925,20 @@ end
 
 end A298616.P16672093347014524056
 
-/-! ## A298616.P15928570773372020273
+/-! ## A298616.P3908903057724688074
 
-`A298622(A001844(n))+char[9]`
+`and(-1, A298622(A001844(n)))`
 -/
 
-namespace A298616.P15928570773372020273
+namespace A298616.P3908903057724688074
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  9
-
-open Classical in
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A298622 (A001844 n).toNat + ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
+  Int.land (-1) (A298622 (A001844 n).toNat)
 
 end
 
-end A298616.P15928570773372020273
+end A298616.P3908903057724688074
 
 /-! ## A298616.P18199898482289598126
 
@@ -7141,6 +7143,12 @@ namespace A298677
 def P11241581902441955746.Spec : Prop :=
   ∀ n, P11241581902441955746.a n = (A298677 n : ℚ)
 
+theorem P11241581902441955746.correct : P11241581902441955746.Spec := by
+  intro n
+  simp only [A298677, Nat.add_sub_cancel, A298677.P11241581902441955746.a, A298677.P15077443699067316739.a, A350967, A350967.P9758198226190832862.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A298677
 
 /-! ## A298677.P403753603756511970
@@ -8143,6 +8151,21 @@ end A298692.P2827458825079498633
 
 The programs for A298693, there is no canonical definition to state claims against.
 -/
+
+/-! ## A298693.P3651633657738858839
+
+`A004211(n)*A114537(A162682(n))`
+-/
+
+namespace A298693.P3651633657738858839
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004211 n * A114537 (A162682 n).toNat
+
+end
+
+end A298693.P3651633657738858839
 
 /-! ## A298693.P3384047120534276936
 

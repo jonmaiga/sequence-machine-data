@@ -1367,6 +1367,21 @@ end
 
 end A387923.P11039969151069379269
 
+/-! ## A387923.P660624402024151806
+
+`gcd(A224866(n+1)-1, A076446(n+1))`
+-/
+
+namespace A387923.P660624402024151806
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (A224866 (n + 1) - 1) (A076446 (n + 1))
+
+end
+
+end A387923.P660624402024151806
+
 /-!
 # A387927: Integers k such that 2047*2^k - 1 is prime.
 
@@ -1595,20 +1610,20 @@ end A387935
 The programs for A387936, there is no canonical definition to state claims against.
 -/
 
-/-! ## A387936.P4758723038375778744
+/-! ## A387936.P1337030200163352589
 
-`A388032(n+1)+A002375(A011557(n))`
+`A318133(A302829(n+5)-n)`
 -/
 
-namespace A387936.P4758723038375778744
+namespace A387936.P1337030200163352589
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A388032 (n + 1) + A002375 (A011557 n).toNat
+  A318133 (A302829 (n + 5) - (n : ℤ)).toNat
 
 end
 
-end A387936.P4758723038375778744
+end A387936.P1337030200163352589
 
 /-!
 # A387937: Triangle read by rows: T(n, k) is the number of cycles of length n with k descents in a complete graph on n nodes.
@@ -3629,20 +3644,20 @@ end A387992.P4441268575898027468
 The programs for A387993, there is no canonical definition to state claims against.
 -/
 
-/-! ## A387993.P7495073740746989721
+/-! ## A387993.P12426270722766006342
 
-`A054346(A216857(n))-n`
+`A002024(A122399(n))-n`
 -/
 
-namespace A387993.P7495073740746989721
+namespace A387993.P12426270722766006342
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054346 (A216857 n).toNat - (n : ℤ)
+  A002024 (A122399 n).toNat - (n : ℤ)
 
 end
 
-end A387993.P7495073740746989721
+end A387993.P12426270722766006342
 
 /-!
 # A387994: E.g.f. A(x) satisfies A(x) = exp( x^3*A(x)^3 * (1+x*A(x))^2 ).

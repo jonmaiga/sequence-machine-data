@@ -63,6 +63,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -4539,7 +4540,7 @@ end A254947.P7773829944551568508
 /-!
 # A254948: Number of length 1 1..(n+1) arrays with every leading partial sum divisible by 2, 3, 5, 7 or 11.
 
-The programs for A254948, the canonical program `A254948.P14189672227231438604` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254948 has offset 1).
+The programs for A254948, the canonical program `A254948.P14189672227231438604` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254948 has offset 1).
 
 The definition of A254948 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4548,7 +4549,7 @@ The definition of A254948 is `conjectured`: the Lean definition is a formula tha
 
 `∑[char[lt[A014963(n+2), 12]]]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A254948
@@ -5636,7 +5637,7 @@ end A254954.P7845326978231204623
 
 The programs for A254955, the canonical program `A254955.P9309173547505421412` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254955 has offset 1).
 
-The definition of A254955 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000040, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A254955 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A254955.P9309173547505421412

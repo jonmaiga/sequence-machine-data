@@ -58,7 +58,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
@@ -89,7 +88,6 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 
@@ -7604,6 +7602,36 @@ end
 
 end A207378.P2526823141210350990
 
+/-! ## A207378.P6608987862903915835
+
+`A138151(n+1)%A106096(A270995(n))`
+-/
+
+namespace A207378.P6608987862903915835
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A138151 (n + 1)) (A106096 (A270995 n).toNat)
+
+end
+
+end A207378.P6608987862903915835
+
+/-! ## A207378.P25590997078181259
+
+`A054977(A128166(n+1))*A138151(n+1)`
+-/
+
+namespace A207378.P25590997078181259
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054977 (A128166 (n + 1)).toNat * A138151 (n + 1)
+
+end
+
+end A207378.P25590997078181259
+
 /-!
 # A207379: Triangle read by rows: T(n,k) = number of parts that are in the k-th column of the last section of the set of partitions of n.
 
@@ -9960,6 +9988,12 @@ namespace A207399
 /-- `A014209(n+1)*A014209(n+1)` -/
 def P13925667432056874486.Spec : Prop :=
   ∀ n, P13925667432056874486.a n = A207399 (n + 1)
+
+theorem P13925667432056874486.correct : P13925667432056874486.Spec := by
+  intro n
+  simp only [A207399, Nat.add_sub_cancel, A207399.P13925667432056874486.a, A207399.P16001196230167075356.a, A014209, A014209.P8391054817103649375.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A207399
 

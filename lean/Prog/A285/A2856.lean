@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -54,12 +55,13 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -94,6 +96,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A285600: Positions of 0 in A285599; complement of A285601.
@@ -8617,6 +8623,12 @@ namespace A285682
 def P15644803507488710282.Spec : Prop :=
   ∀ n, P15644803507488710282.a n = A285682 (n + 1)
 
+theorem P15644803507488710282.correct : P15644803507488710282.Spec := by
+  intro n
+  simp only [A285682, Nat.add_sub_cancel, A285682.P15644803507488710282.a, A285682.P14811825003316370073.a, A214971, A214971.P11920621393360693990.a, A284624, A284624.P10333445182018701270.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A285682
 
 /-! ## A285682.P6428929938747686608
@@ -8862,6 +8874,12 @@ namespace A285683
 /-- `A285679(n+2)` -/
 def P10168285042540394135.Spec : Prop :=
   ∀ n, P10168285042540394135.a n = A285683 (n + 1)
+
+theorem P10168285042540394135.correct : P10168285042540394135.Spec := by
+  intro n
+  simp only [A285683, Nat.add_sub_cancel, A285683.P10168285042540394135.a, A285683.P17113377719585639889.a, A285679, A285679.P13198403238930620714.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A285683
 
@@ -9770,6 +9788,12 @@ namespace A285685
 def P18031229313335088694.Spec : Prop :=
   ∀ n, P18031229313335088694.a n = A285685 (n + 1)
 
+theorem P18031229313335088694.correct : P18031229313335088694.Spec := by
+  intro n
+  simp only [A285685, Nat.add_sub_cancel, A285685.P18031229313335088694.a, A285685.P3846572479936880170.f1, A285685.P3846572479936880170.a, A194964, A194964.P10846368277780127856.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A285685
 
 /-! ## A285685.P10193344921354822389
@@ -10149,6 +10173,12 @@ namespace A285686
 def P7384695147383681561.Spec : Prop :=
   ∀ n, P7384695147383681561.a n = A285686 (n + 1)
 
+theorem P7384695147383681561.correct : P7384695147383681561.Spec := by
+  intro n
+  simp only [A285686, Nat.add_sub_cancel, A285686.P7384695147383681561.a, A285686.P9059628961328013073.f1, A285686.P9059628961328013073.a, A194986, A194986.P2155819097948204991.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A285686
 
 /-! ## A285686.P14106084072339688965
@@ -10171,6 +10201,12 @@ namespace A285686
 /-- `A172476(n+2)-A172476(n+1)` -/
 def P14106084072339688965.Spec : Prop :=
   ∀ n, P14106084072339688965.a n = A285686 (n + 1)
+
+theorem P14106084072339688965.correct : P14106084072339688965.Spec := by
+  intro n
+  simp only [A285686, Nat.add_sub_cancel, A285686.P14106084072339688965.a, A285686.P9059628961328013073.f1, A285686.P9059628961328013073.a, A172476, A172476.P6456394534622672845.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A285686
 

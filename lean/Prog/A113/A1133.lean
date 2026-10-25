@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -55,9 +56,8 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -88,8 +88,11 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A113300: Sum of even-indexed terms of tribonacci numbers.
@@ -7662,6 +7665,21 @@ end
 
 end A113387.P10662935818379264543
 
+/-! ## A113387.P10022769232348783354
+
+`or(A113392(n), A194812(A007749(n+1)))`
+-/
+
+namespace A113387.P10022769232348783354
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor (A113392 n) (A194812 (A007749 (n + 1)).toNat)
+
+end
+
+end A113387.P10022769232348783354
+
 /-!
 # A113388: Column 0 of triangle A113387, also equals column 0 of A113389^2.
 
@@ -8100,6 +8118,24 @@ end
 
 end A113393.P3674697308111918186
 
+/-! ## A113393.P12128796990266923072
+
+`record[A113392(n)*A366767(n+1)]`
+-/
+
+namespace A113393.P12128796990266923072
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A113392 n * A366767 (n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A113393.P12128796990266923072
+
 /-! ## A113393.P3943661603695623047
 
 `A114153(A000217(n+3)-A280593(n+1))`
@@ -8231,6 +8267,12 @@ namespace A113396
 def P14550059450749139968.Spec : Prop :=
   ∀ n, P14550059450749139968.a n = A113396 (n + 1)
 
+theorem P14550059450749139968.correct : P14550059450749139968.Spec := by
+  intro n
+  simp only [A113396, Nat.add_sub_cancel, A113396.P14550059450749139968.a, A113396.P8242604359773002746.a, A065091, A065091.P6971844946592549357.a, A069482, A069482.P16607122436003558489.f1, A069482.P16607122436003558489.a, A167770, A167770.P15250803839821873356.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A066872, A066872.P16309924819967402.a, A001248, A001248.P16278241061688229202.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A113396
 
 /-! ## A113396.P8242604359773002746
@@ -8319,6 +8361,12 @@ namespace A113396
 def P1500599838700234246.Spec : Prop :=
   ∀ n, P1500599838700234246.a n = A113396 (n + 1)
 
+theorem P1500599838700234246.correct : P1500599838700234246.Spec := by
+  intro n
+  simp only [A113396, Nat.add_sub_cancel, A113396.P1500599838700234246.a, A113396.P8242604359773002746.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A065091, A065091.P6971844946592549357.a, A069482, A069482.P16607122436003558489.f1, A069482.P16607122436003558489.a, A167770, A167770.P15250803839821873356.a, A066872, A066872.P16309924819967402.a, A001248, A001248.P16278241061688229202.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A113396
 
 /-! ## A113396.P13445476880564825799
@@ -8344,6 +8392,12 @@ namespace A113396
 /-- `Δ[A001248(n+1)]%A065091(n+1)` -/
 def P13445476880564825799.Spec : Prop :=
   ∀ n, P13445476880564825799.a n = A113396 (n + 1)
+
+theorem P13445476880564825799.correct : P13445476880564825799.Spec := by
+  intro n
+  simp only [A113396, Nat.add_sub_cancel, A113396.P13445476880564825799.f1, A113396.P13445476880564825799.a, A113396.P8242604359773002746.a, A001248, A001248.P16278241061688229202.a, A065091, A065091.P6971844946592549357.a, A069482, A069482.P16607122436003558489.f1, A069482.P16607122436003558489.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A066872, A066872.P16309924819967402.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A113396
 

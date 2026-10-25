@@ -49,6 +49,7 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -1117,6 +1118,24 @@ end
 
 end A387532.P13633079243765100871
 
+/-! ## A387532.P16647240962509660942
+
+`record[A007947(A001694(n+2)-1)]`
+-/
+
+namespace A387532.P16647240962509660942
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007947 (A001694 (n + 2) - 1).toNat
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A387532.P16647240962509660942
+
 /-! ## A387532.P9722845845192116712
 
 `eq[A055231(n+1), A378619(n+1)]`
@@ -1439,21 +1458,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A387533.P17539357801694554705
-
-/-! ## A387533.P4381253367422932207
-
-`A243405(A123153(n+1))`
--/
-
-namespace A387533.P4381253367422932207
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A243405 (A123153 (n + 1)).toNat
-
-end
-
-end A387533.P4381253367422932207
 
 /-!
 # A387534: a(n) = Product_{i=1..n} A387533(i).

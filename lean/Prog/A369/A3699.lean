@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -72,7 +73,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -104,6 +104,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A369900: a(n) is twice the sum of the first n binary digits of e minus n.
@@ -6271,7 +6275,7 @@ end A369965
 /-!
 # A369966: Numbers of the form 4m+2 that have an even number of prime factors with multiplicity.
 
-The programs for A369966, the canonical program `A369966.P13411901398628512597` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369966 has offset 1).
+The programs for A369966, the canonical program `A369966.P13411901398628512597` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369966 has offset 1).
 
 The definition of A369966 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A067019, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6280,7 +6284,7 @@ The definition of A369966 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A067019(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A369966
@@ -6902,6 +6906,12 @@ namespace A369967
 /-- `A079998(A003415(n))` -/
 def P16884283189271263835.Spec : Prop :=
   ∀ n, P16884283189271263835.a n = A369967 n
+
+theorem P16884283189271263835.correct : P16884283189271263835.Spec := by
+  intro n
+  simp only [A369967, Nat.add_sub_cancel, A369967.P16884283189271263835.a, A369967.P2338115965869939887.a, A003415, A003415.P9326043729983995739.f1, A003415.P9326043729983995739.a, A011558, A011558.P10594584635942187014.a, A079998, A079998.P5984370107414098605.a, A300251, A300251.P13750012435361977920.f1, A300251.P13750012435361977920.a, A007427, A007427.P16346481250890679101.f1, A007427.P16346481250890679101.a, A319684, A319684.P10446271486458079777.f1, A319684.P10446271486458079777.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A349394, A349394.P210516795435731064.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A369967
 

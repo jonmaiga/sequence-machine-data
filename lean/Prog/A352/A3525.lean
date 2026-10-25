@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -44,6 +45,8 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -53,6 +56,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -81,6 +85,11 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A352502: a(n) is the number of integers k in the interval 0..n such that k and n-k can be added without carries in balanced ternary.
@@ -2796,6 +2805,21 @@ end
 
 end A352530.P8764648253208477718
 
+/-! ## A352530.P5558848845616679686
+
+`A033999(n)-A374093(A124530(n))`
+-/
+
+namespace A352530.P5558848845616679686
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A033999 n - A374093 (A124530 n).toNat
+
+end
+
+end A352530.P5558848845616679686
+
 /-!
 # A352534: First of four consecutive primes p,q,r,s such that p+q+r+s is divisible by A001414(r+s).
 
@@ -4179,6 +4203,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A352554.P1100372803928071765
+
+/-! ## A352554.P18115840350312196108
+
+`A000975(A035199(n+1)%A095757(2*(n+2)))`
+-/
+
+namespace A352554.P18115840350312196108
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000975 (Int.tmod (A035199 (n + 1)) (A095757 (2 * (n + 2)))).toNat
+
+end
+
+end A352554.P18115840350312196108
 
 /-!
 # A352555: a(n) = number of modules with n elements over the ring of integers in the real quadratic field of discriminant 21.
@@ -6686,6 +6725,12 @@ namespace A352598
 def P10106148944960828537.Spec : Prop :=
   ∀ n, P10106148944960828537.a n = A352598 (n + 1)
 
+theorem P10106148944960828537.correct : P10106148944960828537.Spec := by
+  intro n
+  simp only [A352598, Nat.add_sub_cancel, A352598.P10106148944960828537.a, A352598.P1905536074837033519.a, A051801, A051801.P15997932515151970978.f1, A051801.P15997932515151970978.a, A063114, A063114.P7069837411164582979.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A352598
 
 /-! ## A352598.P3660978884992666272
@@ -6708,6 +6753,12 @@ namespace A352598
 /-- `(n+1-A063543(n+1))²` -/
 def P3660978884992666272.Spec : Prop :=
   ∀ n, P3660978884992666272.a n = A352598 (n + 1)
+
+theorem P3660978884992666272.correct : P3660978884992666272.Spec := by
+  intro n
+  simp only [A352598, Nat.add_sub_cancel, A352598.P3660978884992666272.a, A352598.P1905536074837033519.a, A051801, A051801.P15997932515151970978.f1, A051801.P15997932515151970978.a, A063543, A063543.P3901565496532426814.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A352598
 

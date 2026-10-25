@@ -50,15 +50,16 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -73,7 +74,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -801,6 +801,27 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A389731.P1083459247219813713
+
+/-! ## A389731.P12531995097930568779
+
+`eq[A335465(n), A335465(A299203(3*n+1))]`
+-/
+
+namespace A389731.P12531995097930568779
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335465 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335465 (A299203 (3 * n + 1)).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
+
+end
+
+end A389731.P12531995097930568779
 
 /-!
 # A389732: Standard composition numbers of integer compositions whose 0-prepended first differences are all equal.
@@ -2365,6 +2386,21 @@ end A389753.P14441780142345601735
 The programs for A389756, there is no canonical definition to state claims against.
 -/
 
+/-! ## A389756.P4581096391795177433
+
+`A010816(A330099(3*n+1)+n)`
+-/
+
+namespace A389756.P4581096391795177433
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010816 (A330099 (3 * n + 1) + (n : ℤ)).toNat
+
+end
+
+end A389756.P4581096391795177433
+
 /-! ## A389756.P1835548676090706634
 
 `A129609(C(A035468(3*n+4), 2*n))`
@@ -2424,21 +2460,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A389756.P1910708488375041170
-
-/-! ## A389756.P4698068809480045982
-
-`lcm(A015936(A127657(n+1)), A192178(n+1))`
--/
-
-namespace A389756.P4698068809480045982
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.lcm (A015936 (A127657 (n + 1)).toNat) (A192178 (n + 1))
-
-end
-
-end A389756.P4698068809480045982
 
 /-!
 # A389760: Number of (undirected) Hamiltonian paths on the 8 X n knight graph.
@@ -2563,6 +2584,21 @@ end
 
 end A389762.P7850758467868611708
 
+/-! ## A389762.P13938979896271995310
+
+`A354099(A324521(n+1))^A354130(n)`
+-/
+
+namespace A389762.P13938979896271995310
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A354099 (A324521 (n + 1)).toNat : ℚ) ^ (A354130 n : ℤ)
+
+end
+
+end A389762.P13938979896271995310
+
 /-! ## A389762.P5523172756709471689
 
 `A295857(n)%A337243(A322605(n+1))`
@@ -2592,21 +2628,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A389762.P8429083361513083489
-
-/-! ## A389762.P10575632327912902869
-
-`and(A000002(A233862(n+2)), A324525(n+1))`
--/
-
-namespace A389762.P10575632327912902869
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A000002 (A233862 (n + 2)).toNat) (A324525 (n + 1))
-
-end
-
-end A389762.P10575632327912902869
 
 /-!
 # A389763: First differences of 2-dense numbers.
@@ -5440,6 +5461,12 @@ namespace A389799
 /-- `A193248(n+1)/(2*n+1)` -/
 def P6692641431661805748.Spec : Prop :=
   ∀ n, P6692641431661805748.a n = (A389799 (n + 1) : ℚ)
+
+theorem P6692641431661805748.correct : P6692641431661805748.Spec := by
+  intro n
+  simp only [A389799, Nat.add_sub_cancel, A389799.P6692641431661805748.a, A389799.P12456178853448985860.a, A193248, A193248.P3267529436430552946.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A389799
 

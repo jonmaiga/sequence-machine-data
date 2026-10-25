@@ -8,8 +8,7 @@ import Seq.B002.C001
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C003
-import Seq.B005.C000
-import Seq.B006.C000
+import Seq.B004.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C005
 
@@ -502,7 +501,7 @@ end A070417
 /-!
 # A070418: Numbers k such that k and phi(k) have the same number of divisors.
 
-The programs for A070418, the canonical program `A070418.P12910822427567143407` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070418 has offset 1).
+The programs for A070418, the canonical program `A070418.P12910822427567143407` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A070418 has offset 1).
 
 The definition of A070418 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1409 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -511,7 +510,7 @@ The definition of A070418 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A000005(n+1), A000005(A000010(n+1))]+1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A070418

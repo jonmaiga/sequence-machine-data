@@ -55,6 +55,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -63,7 +64,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -320,7 +320,7 @@ end A174800.P18435575375878948000
 /-!
 # A174801: Prime(n)+1 is prime or semiprime.
 
-The programs for A174801, the canonical program `A174801.P13411173935637715079` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174801 has offset 1).
+The programs for A174801, the canonical program `A174801.P13411173935637715079` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174801 has offset 1).
 
 The definition of A174801 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 704 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -329,7 +329,7 @@ The definition of A174801 is `conjectured`: the Lean definition is a formula tha
 
 `record[root(n+1, A023514(n+1))²]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A174801
@@ -1150,6 +1150,12 @@ namespace A174804
 def P8908667721108897272.Spec : Prop :=
   ∀ n, P8908667721108897272.a n = A174804 n
 
+theorem P8908667721108897272.correct : P8908667721108897272.Spec := by
+  intro n
+  simp only [A174804, Nat.add_sub_cancel, A174804.P8908667721108897272.a, A174804.P15359219710153306680.a, A000290, A000290.P12206242496348924484.a, A038760, A038760.P7627672833818385301.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A174804
 
 /-! ## A174804.P4662763987057453072
@@ -1172,6 +1178,12 @@ namespace A174804
 /-- `n*A174803(n)-A000290(n)` -/
 def P4662763987057453072.Spec : Prop :=
   ∀ n, P4662763987057453072.a n = A174804 n
+
+theorem P4662763987057453072.correct : P4662763987057453072.Spec := by
+  intro n
+  simp only [A174804, Nat.add_sub_cancel, A174804.P4662763987057453072.a, A174804.P15359219710153306680.a, A000290, A000290.P12206242496348924484.a, A174803, A174803.P17565562458744675628.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A174804
 
@@ -5627,6 +5639,29 @@ The programs for A174838, the canonical program `A174838.P9285501517228035014` i
 The definition of A174838 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A174838.P12697621504950443516
+
+`A072000(2*A005384(n+1))`
+-/
+
+namespace A174838.P12697621504950443516
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A072000 (2 * A005384 (n + 1)).toNat
+
+end
+
+end A174838.P12697621504950443516
+
+namespace A174838
+
+/-- `A072000(2*A005384(n+1))` -/
+def P12697621504950443516.Spec : Prop :=
+  ∀ n, P12697621504950443516.a n = A174838 (n + 1)
+
+end A174838
+
 /-! ## A174838.P3160202219006195702
 
 `eq[2, A000005(A088707(n+1))]+1`
@@ -8895,6 +8930,12 @@ namespace A174868
 /-- `A070992(n)-A301977(n+1)` -/
 def P5351942562714695583.Spec : Prop :=
   ∀ n, P5351942562714695583.a n = A174868 n
+
+theorem P5351942562714695583.correct : P5351942562714695583.Spec := by
+  intro n
+  simp only [A174868, Nat.add_sub_cancel, A174868.P5351942562714695583.a, A174868.P8863606013298281785.f1, A174868.P8863606013298281785.a, A070992, A070992.P10139312046146458352.f2, A070992.P10139312046146458352.f1, A070992.P10139312046146458352.a, A301977, A301977.P124265642836154627.a, A007729, A007729.P2856163913979848745.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A174868
 

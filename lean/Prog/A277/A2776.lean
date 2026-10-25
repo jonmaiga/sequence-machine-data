@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -74,6 +75,7 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
+import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
@@ -92,6 +94,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A277600: (1/2)*A277593.
@@ -2952,6 +2958,12 @@ namespace A277636
 def P9593003805532069976.Spec : Prop :=
   ∀ n, P9593003805532069976.a n = A277636 n
 
+theorem P9593003805532069976.correct : P9593003805532069976.Spec := by
+  intro n
+  simp only [A277636, Nat.add_sub_cancel, A277636.P9593003805532069976.a, A277636.P10937141613604448744.a, A003215, A003215.P5851317289441473820.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A277636
 
 /-! ## A277636.P5842559627258165075
@@ -3963,6 +3975,12 @@ namespace A277644
 /-- `A189362(n+1)-A003152(n+1)` -/
 def P6611720002530684354.Spec : Prop :=
   ∀ n, P6611720002530684354.a n = A277644 (n + 1)
+
+theorem P6611720002530684354.correct : P6611720002530684354.Spec := by
+  intro n
+  simp only [A277644, Nat.add_sub_cancel, A277644.P6611720002530684354.a, A277644.P15546226932184128949.a, A000196, A000196.P15434771586934192083.a, A003152, A003152.P8355508272175907392.a, A032528, A032528.P6916664106980979500.a, A189362, A189362.P16228109364574491910.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A277644
 

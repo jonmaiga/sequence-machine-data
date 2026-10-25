@@ -55,6 +55,7 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -2562,6 +2563,28 @@ end
 
 end A137519.P14346327629044814444
 
+/-! ## A137519.P9390949948829111458
+
+`∪[A095285(n+3), A331747(A231620(2*n))]`
+-/
+
+namespace A137519.P9390949948829111458
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A095285 (n + 3)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A331747 (A231620 (2 * n)).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A137519.P9390949948829111458
+
 /-!
 # A137521: Prime numbers concatenated with 45.
 
@@ -2610,6 +2633,12 @@ namespace A137521
 def P7449334696640008414.Spec : Prop :=
   ∀ n, P7449334696640008414.a n = A137521 (n + 1)
 
+theorem P7449334696640008414.correct : P7449334696640008414.Spec := by
+  intro n
+  simp only [A137521, Nat.add_sub_cancel, A137521.P7449334696640008414.a, A137521.P311171472292394913.a, A089241, A089241.P4698073971912800570.a, A100484, A100484.P9678625670825099636.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A008864, A008864.P9177617808325052279.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A137521
 
 /-! ## A137521.P10534859629203304057
@@ -2632,6 +2661,12 @@ namespace A137521
 /-- `5*(20*A000040(n+1)+9)` -/
 def P10534859629203304057.Spec : Prop :=
   ∀ n, P10534859629203304057.a n = A137521 (n + 1)
+
+theorem P10534859629203304057.correct : P10534859629203304057.Spec := by
+  intro n
+  simp only [A137521, Nat.add_sub_cancel, A137521.P10534859629203304057.a, A137521.P311171472292394913.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A100484, A100484.P9678625670825099636.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A137521
 

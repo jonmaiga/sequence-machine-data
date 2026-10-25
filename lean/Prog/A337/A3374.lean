@@ -52,13 +52,13 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -855,6 +855,32 @@ def P7587478471880944433.Spec : Prop :=
 theorem P7587478471880944433.correct : P7587478471880944433.Spec := by
   intro n
   simp only [A337418, Nat.add_sub_cancel]
+
+end A337418
+
+/-! ## A337418.P8440384978710934179
+
+`Δ[A095152(n+2)+n]`
+-/
+
+namespace A337418.P8440384978710934179
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A095152 (n + 2) + (n : ℤ)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (n + 1) - f1 n
+
+end
+
+end A337418.P8440384978710934179
+
+namespace A337418
+
+/-- `Δ[A095152(n+2)+n]` -/
+def P8440384978710934179.Spec : Prop :=
+  ∀ n, P8440384978710934179.a n = A337418 (n + 3)
 
 end A337418
 

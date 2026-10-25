@@ -52,11 +52,11 @@ import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
@@ -990,6 +990,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A239512.P12341105445539588670
+
+/-! ## A239512.P156465605942850882
+
+`A047966(A036037(n+1)%A357175(2*(n+1)))`
+-/
+
+namespace A239512.P156465605942850882
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A047966 (Int.tmod (A036037 (n + 1)) (A357175 (2 * (n + 1)))).toNat
+
+end
+
+end A239512.P156465605942850882
 
 /-!
 # A239513: Number of partitions p of n such that if h = (number of parts of p), then h is an (h,0)-separator of p; see Comments.

@@ -11,6 +11,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C017
 import Seq.B000.C019
@@ -46,6 +47,7 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -2947,6 +2949,29 @@ namespace A236043
 /-- `round(sqrt(A199682(n)))` -/
 def P15308098449574745657.Spec : Prop :=
   ∀ n, P15308098449574745657.a n = A236043 n
+
+end A236043
+
+/-! ## A236043.P5561839777227537826
+
+`round(sqrt(2*A081552(n+1)+1))`
+-/
+
+namespace A236043.P5561839777227537826
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.roundAway (Real.sqrt (2 * A081552 (n + 1) + 1 : ℝ))
+
+end
+
+end A236043.P5561839777227537826
+
+namespace A236043
+
+/-- `round(sqrt(2*A081552(n+1)+1))` -/
+def P5561839777227537826.Spec : Prop :=
+  ∀ n, P5561839777227537826.a n = A236043 n
 
 end A236043
 

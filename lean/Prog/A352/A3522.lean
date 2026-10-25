@@ -1018,21 +1018,6 @@ end
 
 end A352208.P7019594411433905963
 
-/-! ## A352208.P638054972365379439
-
-`C(n+1, 3%(n+2))`
--/
-
-namespace A352208.P638054972365379439
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (n + 1) (3 % (n + 2))
-
-end
-
-end A352208.P638054972365379439
-
 /-! ## A352208.P18003898848908719555
 
 `∑[C(n, 2)-char[2]]+1`

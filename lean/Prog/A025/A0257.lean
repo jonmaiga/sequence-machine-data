@@ -88,7 +88,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -5451,26 +5450,29 @@ end
 
 end A025723.P11510494656690105441
 
-/-! ## A025723.P17139960749088616053
+/-! ## A025723.P13850119608739085133
 
-`∑[record[A191610(A379630(n+1))]+1]`
+`∑[lt[n, lcm(6, n)]%A177943(2*(n+2))]`
 -/
 
-namespace A025723.P17139960749088616053
+namespace A025723.P13850119608739085133
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A191610 (A379630 (n + 1)).toNat
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.lcm 6 n
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n) + 1
+  Int.tmod (SequenceMachineLib.nth (fun j => f2 j < f3 j) n : ℤ) (A177943 (2 * (n + 2)))
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A025723.P17139960749088616053
+end A025723.P13850119608739085133
 
 /-!
 # A025724: Index of 7^n within the sequence of the numbers of the form 6^i*7^j.
@@ -7120,6 +7122,12 @@ namespace A025736
 def P13007665505115573813.Spec : Prop :=
   ∀ n, P13007665505115573813.a n = A025736 n
 
+theorem P13007665505115573813.correct : P13007665505115573813.Spec := by
+  intro n
+  simp only [A025736, Nat.add_sub_cancel, A025736.P13007665505115573813.a, A025736.P786731760103273081.a, A001478, A001478.P11279598861711037921.a, A002378, A002378.P6342434596694243671.a, A025703, A025703.P4827319123818908847.f1, A025703.P4827319123818908847.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A025736
 
 /-! ## A025736.P4403065779137143441
@@ -8488,6 +8496,12 @@ namespace A025743
 /-- `∑[A066344(A028310(n))]+n` -/
 def P13780520031937448475.Spec : Prop :=
   ∀ n, P13780520031937448475.a n = A025743 n
+
+theorem P13780520031937448475.correct : P13780520031937448475.Spec := by
+  intro n
+  simp only [A025743, Nat.add_sub_cancel, A025743.P13780520031937448475.f1, A025743.P13780520031937448475.a, A025743.P16932314400444451753.f1, A025743.P16932314400444451753.a, A022335, A022335.P640562549474577524.f1, A022335.P640562549474577524.f2, A022335.P640562549474577524.a, A028310, A028310.P18130301328277559831.a, A066344, A066344.P7210307204516309196.f1, A066344.P7210307204516309196.f2, A066344.P7210307204516309196.a, A008952, A008952.P3263245786884273335.a, A000030, A000030.P4990867543733972260.a, A000079, A000079.P10855139691139572931.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A025743
 

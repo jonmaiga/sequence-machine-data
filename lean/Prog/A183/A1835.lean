@@ -47,11 +47,13 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -73,7 +75,6 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -1853,23 +1854,23 @@ end
 
 end A183527.P10807876860912325489
 
-/-! ## A183527.P15075312420089933584
+/-! ## A183527.P3705264355715391386
 
-`record[A183534(A347633(n+1))]`
+`record[A183534(A347633(1+n))]`
 -/
 
-namespace A183527.P15075312420089933584
+namespace A183527.P3705264355715391386
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A183534 (A347633 (n + 1)).toNat
+  A183534 (A347633 (1 + n)).toNat
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
 
 end
 
-end A183527.P15075312420089933584
+end A183527.P3705264355715391386
 
 /-! ## A183527.P16367419218312020175
 

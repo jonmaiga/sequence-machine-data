@@ -55,14 +55,15 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -91,6 +92,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -3889,6 +3891,21 @@ end
 
 end A187842.P8664737740743128348
 
+/-! ## A187842.P7169065757751556735
+
+`A326695(A326676(n))+A326662(3*n+2)`
+-/
+
+namespace A187842.P7169065757751556735
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A326695 (A326676 n).toNat + A326662 (3 * n + 2)
+
+end
+
+end A187842.P7169065757751556735
+
 /-! ## A187842.P9100608704969913004
 
 `eq[char[A187841(n+1)], A151622(n)]`
@@ -3949,21 +3966,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A187842.P573871746776704731
-
-/-! ## A187842.P272599157066048947
-
-`A252169(n+1)+A235145(A000712(n))`
--/
-
-namespace A187842.P272599157066048947
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A252169 (n + 1) + A235145 (A000712 n).toNat
-
-end
-
-end A187842.P272599157066048947
 
 /-!
 # A187843: Stanley Sequence S(0,5).
@@ -5738,7 +5740,7 @@ end A187872.P3035187996340710050
 /-!
 # A187873: Second smallest prime after n^2.
 
-The programs for A187873, the canonical program `A187873.P9292529575938143401` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187873 has offset 0).
+The programs for A187873, the canonical program `A187873.P9292529575938143401` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187873 has offset 0).
 
 The definition of A187873 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 317 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5888,7 +5890,7 @@ end A187873
 
 `A151800(A151800(n²))`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A187873
@@ -6322,7 +6324,7 @@ end A187879.P12530920706635948677
 /-!
 # A187881: Triangle read by rows: the n-th column consists of n n's followed by 0's.
 
-The programs for A187881, the canonical program `A187881.P17144407328644083593` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187881 has offset 1).
+The programs for A187881, the canonical program `A187881.P17144407328644083593` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187881 has offset 1).
 
 The definition of A187881 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6354,7 +6356,7 @@ end A187881
 
 `floor((2*A002260(n+1)+1)/(A003056(n)+3))*A002260(n+1)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A187881
@@ -9018,6 +9020,31 @@ def P590570571647631689.Spec : Prop :=
 
 end A187893
 
+/-! ## A187893.P15566647594057453469
+
+`floor(a(n-1)-floor(a(n-3)-a(n-1)))` with `a(0)=1, a(1)=4, a(2)=4`
+
+`floor` is left out, it is the identity on integers.
+-/
+
+namespace A187893.P15566647594057453469
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1, 4, 4] fun n a =>
+  a (n - 1) - (a (n - 3) - a (n - 1))
+
+end
+
+end A187893.P15566647594057453469
+
+namespace A187893
+
+/-- `floor(a(n-1)-floor(a(n-3)-a(n-1)))` -/
+def P15566647594057453469.Spec : Prop :=
+  ∀ n, P15566647594057453469.a n = A187893 n
+
+end A187893
+
 /-! ## A187893.P11755501295254873258
 
 `floor(A001611(n)+A022087(n)/2)`
@@ -9379,29 +9406,6 @@ namespace A187893
 /-- `A022383(n)%A022409(n)` -/
 def P5411426588458550212.Spec : Prop :=
   ∀ n, P5411426588458550212.a n = A187893 n
-
-end A187893
-
-/-! ## A187893.P4146950986299682800
-
-`(a(n-1)*a(n-2))%(3*(1-a(n-1)))` with `a(0)=1, a(1)=4`
--/
-
-namespace A187893.P4146950986299682800
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 4] fun n a =>
-  Int.tmod (a (n - 1) * a (n - 2)) (3 * (1 - a (n - 1)))
-
-end
-
-end A187893.P4146950986299682800
-
-namespace A187893
-
-/-- `(a(n-1)*a(n-2))%(3*(1-a(n-1)))` -/
-def P4146950986299682800.Spec : Prop :=
-  ∀ n, P4146950986299682800.a n = A187893 n
 
 end A187893
 

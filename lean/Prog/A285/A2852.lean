@@ -56,7 +56,6 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -2691,7 +2690,7 @@ end A285223.P12009862525455762296
 /-!
 # A285225: Primes with integer arithmetic mean of digits = 4 in base 10.
 
-The programs for A285225, the canonical program `A285225.P10692360427278529095` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A285225 has offset 1).
+The programs for A285225, the canonical program `A285225.P10692360427278529095` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A285225 has offset 1).
 
 The definition of A285225 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 760 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2700,7 +2699,7 @@ The definition of A285225 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A061387(n+1)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A285225
@@ -3280,7 +3279,7 @@ end A285225
 /-!
 # A285226: Primes with integer arithmetic mean of digits = 5 in base 10.
 
-The programs for A285226, the canonical program `A285226.P16444782336951835408` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A285226 has offset 1).
+The programs for A285226, the canonical program `A285226.P16444782336951835408` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A285226 has offset 1).
 
 The definition of A285226 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 840 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3289,7 +3288,7 @@ The definition of A285226 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A061388(n+1)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A285226
@@ -3874,7 +3873,7 @@ end A285226
 /-!
 # A285227: Primes with integer arithmetic mean of digits = 7 in base 10.
 
-The programs for A285227, the canonical program `A285227.P10686455318228212917` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A285227 has offset 1).
+The programs for A285227, the canonical program `A285227.P10686455318228212917` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A285227 has offset 1).
 
 The definition of A285227 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 300 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3883,7 +3882,7 @@ The definition of A285227 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A061424(n+1), A069709(n+1)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A285227

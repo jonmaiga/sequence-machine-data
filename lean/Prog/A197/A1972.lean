@@ -4,12 +4,10 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C016
 import Seq.B000.C017
@@ -42,7 +40,6 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -1741,7 +1738,7 @@ end A197217.P12586446211559682557
 /-!
 # A197218: a(n) = phi(Lucas(n)).
 
-The programs for A197218, the canonical program `A197218.P5916423780579939464` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197218 has offset 0).
+The programs for A197218, the canonical program `A197218.P5916423780579939464` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197218 has offset 0).
 
 The definition of A197218 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1750,7 +1747,7 @@ The definition of A197218 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A000032(n))`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A197218
@@ -1860,7 +1857,7 @@ end A197218
 /-!
 # A197219: a(0) = 2, a(n) = Lucas(phi(n)) for n > 0.
 
-The programs for A197219, the canonical program `A197219.P1176045312080678236` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197219 has offset 0).
+The programs for A197219, the canonical program `A197219.P1176045312080678236` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197219 has offset 0).
 
 The definition of A197219 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 487 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1869,7 +1866,7 @@ The definition of A197219 is `conjectured`: the Lean definition is a formula tha
 
 `A000032(floor(A000010(n)+a(n-1))-a(n-1))` with `a(0)=2`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A197219
@@ -2033,84 +2030,6 @@ def P9292283152838882773.Spec : Prop :=
   ∀ n, P9292283152838882773.a n = A197219 n
 
 end A197219
-
-/-!
-# A197220: Numerators of convergents to e + 1/e.
-
-The programs for A197220, there is no canonical definition to state claims against.
--/
-
-/-! ## A197220.P4483826769190405687
-
-`A162911(A008860(n+1))+A022378(n)`
--/
-
-namespace A197220.P4483826769190405687
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A162911 (A008860 (n + 1)).toNat + A022378 n
-
-end
-
-end A197220.P4483826769190405687
-
-/-!
-# A197222: Numerators of convergents to e - 1/e.
-
-The programs for A197222, there is no canonical definition to state claims against.
--/
-
-/-! ## A197222.P14957483387740380904
-
-`A002487(xor(A072261(n+1), A347456(2*(n+1))))`
--/
-
-namespace A197222.P14957483387740380904
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002487 (Int.xor (A072261 (n + 1)) (A347456 (2 * (n + 1)))).toNat
-
-end
-
-end A197222.P14957483387740380904
-
-/-!
-# A197223: Denominator of convergents to e - 1/e.
-
-The programs for A197223, there is no canonical definition to state claims against.
--/
-
-/-! ## A197223.P17960639243004996344
-
-`A329159(A057236(n+1))`
--/
-
-namespace A197223.P17960639243004996344
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A329159 (A057236 (n + 1)).toNat
-
-end
-
-end A197223.P17960639243004996344
-
-/-! ## A197223.P15799132953940355027
-
-`A291636(A007837(n))+n`
--/
-
-namespace A197223.P15799132953940355027
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A291636 (A007837 n).toNat + (n : ℤ)
-
-end
-
-end A197223.P15799132953940355027
 
 /-!
 # A197224: Exponent in the power of 2 which is the period of the decimal fraction 1/A072982(n).

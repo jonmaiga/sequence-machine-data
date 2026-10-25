@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -12,6 +13,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C020
 import Seq.B000.C021
@@ -29,12 +31,14 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
@@ -48,10 +52,9 @@ import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
+import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -65,10 +68,10 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -76,14 +79,38 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A385700: Numbers such that when the leftmost digit is moved to the unit's place the result is divisible by 4.
 
 The programs for A385700, there is no canonical definition to state claims against.
 -/
+
+/-! ## A385700.P3496799487157289390
+
+`lt[A091722(A082216(n)), 5]`
+-/
+
+namespace A385700.P3496799487157289390
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A091722 (A082216 n).toNat
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  5
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℤ)) n
+
+end
+
+end A385700.P3496799487157289390
 
 /-! ## A385700.P14029119814710406995
 
@@ -168,27 +195,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A385700.P14553842409545792895
-
-/-! ## A385700.P10742027759413305333
-
-`lt[A049988(n+4), A040281(A082216(n))]`
--/
-
-namespace A385700.P10742027759413305333
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049988 (n + 4)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A040281 (A082216 n).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A385700.P10742027759413305333
 
 /-!
 # A385701: Numbers such that when the leftmost digit is moved to the unit's place the result is divisible by 6.
@@ -851,6 +857,12 @@ namespace A385726
 /-- `3^n-n*(n*(n*(n-2)+7)+2)/4-1` -/
 def P933134162011536228.Spec : Prop :=
   ∀ n, P933134162011536228.a n = (A385726 n : ℚ)
+
+theorem P933134162011536228.correct : P933134162011536228.Spec := by
+  intro n
+  simp only [A385726, Nat.add_sub_cancel, A385726.P933134162011536228.a, A385726.P15582791440511932674.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A385726
 
@@ -1613,6 +1625,21 @@ end
 
 end A385733.P1426248063829732314
 
+/-! ## A385733.P4589685039981936550
+
+`A196563(A048113(n)*A256223(n))`
+-/
+
+namespace A385733.P4589685039981936550
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A196563 (A048113 n * A256223 n).toNat
+
+end
+
+end A385733.P4589685039981936550
+
 /-! ## A385733.P2104263049186236958
 
 `A050603(A176487(n))`
@@ -1642,21 +1669,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A385733.P4923037378853521098
-
-/-! ## A385733.P2729962125031730345
-
-`A089242(A168552(n))`
--/
-
-namespace A385733.P2729962125031730345
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A089242 (A168552 n).toNat
-
-end
-
-end A385733.P2729962125031730345
 
 /-!
 # A385734: Lucas triangle A385732/A385733 mod 2.
@@ -4683,7 +4695,7 @@ end A385772.P12704194433548078024
 /-!
 # A385773: Primes having only {1, 2, 5} as digits.
 
-The programs for A385773, the canonical program `A385773.P2392214569970667758` is in `Seq.B009.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385773 has offset 1).
+The programs for A385773, the canonical program `A385773.P2392214569970667758` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385773 has offset 1).
 
 The definition of A385773 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 781 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4872,7 +4884,7 @@ end A385773
 
 `∩[A386018(n+1), A386096(n+1)]`
 
-The canonical program, it is in `Seq.B009.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A385773
@@ -6618,7 +6630,7 @@ end A385776.P6971699896131427638
 /-!
 # A385777: Primes having only {1, 3, 6} as digits.
 
-The programs for A385777, the canonical program `A385777.P3819637133373039858` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385777 has offset 1).
+The programs for A385777, the canonical program `A385777.P3819637133373039858` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385777 has offset 1).
 
 The definition of A385777 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1418 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6777,7 +6789,7 @@ end A385777
 
 `∩[A386087(n+1), A386106(n+1)]`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A385777

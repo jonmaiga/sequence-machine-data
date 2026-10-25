@@ -61,6 +61,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -828,21 +829,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A028508.P892879787322705600
-
-/-! ## A028508.P11904545799970199249
-
-`xor(A000007(n²), A028232(n+1))`
--/
-
-namespace A028508.P11904545799970199249
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A000007 (n ^ 2)) (A028232 (n + 1))
-
-end
-
-end A028508.P11904545799970199249
 
 /-!
 # A028552: a(n) = n*(n+3).

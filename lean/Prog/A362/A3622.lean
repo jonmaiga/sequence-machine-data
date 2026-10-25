@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -45,18 +46,18 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -84,6 +85,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A362204: Expansion of e.g.f. exp(x/sqrt(1-2*x)).
@@ -1836,6 +1841,12 @@ namespace A362248
 /-- `1-A393292(n+1)+n` -/
 def P14098890612828349058.Spec : Prop :=
   ∀ n, P14098890612828349058.a n = A362248 (n + 1)
+
+theorem P14098890612828349058.correct : P14098890612828349058.Spec := by
+  intro n
+  simp only [A362248, Nat.add_sub_cancel, A362248.P14098890612828349058.a, A362248.P13210532930817746483.a, A028310, A028310.P18130301328277559831.a, A352729, A352729.P3431698846437154592.a, A393292, A393292.P14481508653223136911.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A362248
 
@@ -3935,7 +3946,7 @@ end A362295.P12746861266708618383
 /-!
 # A362296: Greatest common divisor of composite numbers between the n-th and (n+1)st primes.
 
-The programs for A362296, the canonical program `A362296.P9810890298712702943` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362296 has offset 2).
+The programs for A362296, the canonical program `A362296.P9810890298712702943` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362296 has offset 2).
 
 The definition of A362296 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9600 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3944,7 +3955,7 @@ The definition of A362296 is `conjectured`: the Lean definition is a formula tha
 
 `A000010(gcd(p?[2*n+1]+2, p?[2*n+5]))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A362296

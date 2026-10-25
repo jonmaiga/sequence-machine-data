@@ -10,7 +10,7 @@ import Seq.B001.C000
 import Seq.B001.C005
 import Seq.B002.C000
 import Seq.Opaque.C001
-import Seq.Opaque.C007
+import Seq.Opaque.C008
 import Seq.Opaque.C013
 import Seq.Opaque.C022
 

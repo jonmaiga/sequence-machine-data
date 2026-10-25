@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -9,6 +10,7 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -45,6 +47,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -75,6 +78,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A130902: a(n) is the number of binary strings of length n such that there exist 4 or more ones in a subsequence of length 5 or less.
@@ -218,6 +225,12 @@ namespace A130902
 /-- `A120118(n+1)+A131283(n+1)-A125513(n+1)` -/
 def P10772995185400284504.Spec : Prop :=
   ∀ n, P10772995185400284504.a n = A130902 n
+
+theorem P10772995185400284504.correct : P10772995185400284504.Spec := by
+  intro n
+  simp only [A130902, Nat.add_sub_cancel, A130902.P10772995185400284504.a, A130902.P6544811352786063406.a, A120118, A120118.P16307991113263491801.a, A125513, A125513.P10255396220864572072.a, A131283, A131283.P3268464960979322100.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A130902
 
@@ -995,6 +1008,12 @@ namespace A130911
 def P7412590394863503989.Spec : Prop :=
   ∀ n, P7412590394863503989.a n = A130911 (n + 1)
 
+theorem P7412590394863503989.correct : P7412590394863503989.Spec := by
+  intro n
+  simp only [A130911, Nat.add_sub_cancel, A130911.P7412590394863503989.f1, A130911.P7412590394863503989.a, A130911.P12693574123707460580.f1, A130911.P12693574123707460580.a, A200244, A200244.P5861281741457501030.a, A200246, A200246.P185476321665765473.a, A014499, A014499.P9770580101482900462.a, A059841, A059841.P2666504972441551157.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A000120, A000120.P2816527436160941581.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A130911
 
 /-! ## A130911.P17723331626127899176
@@ -1112,6 +1131,12 @@ namespace A130911
 /-- `∑[A200246(n+1)-A200244(n+1)]` -/
 def P12800609024747113212.Spec : Prop :=
   ∀ n, P12800609024747113212.a n = A130911 (n + 1)
+
+theorem P12800609024747113212.correct : P12800609024747113212.Spec := by
+  intro n
+  simp only [A130911, Nat.add_sub_cancel, A130911.P12800609024747113212.f1, A130911.P12800609024747113212.a, A130911.P12693574123707460580.f1, A130911.P12693574123707460580.a, A200244, A200244.P5861281741457501030.a, A200246, A200246.P185476321665765473.a, A014499, A014499.P9770580101482900462.a, A059841, A059841.P2666504972441551157.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A000120, A000120.P2816527436160941581.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A130911
 
@@ -4263,6 +4288,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A130956.P4895372140106174342
+
+/-! ## A130956.P13225480009193277100
+
+`A130927(A122303(n))+A000122(A082109(n+2))`
+-/
+
+namespace A130956.P13225480009193277100
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A130927 (A122303 n).toNat + A000122 (A082109 (n + 2)).toNat
+
+end
+
+end A130956.P13225480009193277100
 
 /-!
 # A130957: Signature permutation of a Catalan automorphism: row 15 of A130402.

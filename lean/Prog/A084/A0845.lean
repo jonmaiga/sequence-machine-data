@@ -55,6 +55,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -3388,6 +3389,21 @@ end
 
 end A084526.P6269218940377820512
 
+/-! ## A084526.P11207062581251116526
+
+`A084506(2*n+1)*A168185(A080855(2*(n+2)))`
+-/
+
+namespace A084526.P11207062581251116526
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A084506 (2 * n + 1) * A168185 (A080855 (2 * (n + 2))).toNat
+
+end
+
+end A084526.P11207062581251116526
+
 /-! ## A084526.P5408378454973919885
 
 `A090529(A007494(n)%A354712(n+4))`
@@ -3447,21 +3463,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A084526.P4306711567359812242
-
-/-! ## A084526.P1861548307099585387
-
-`dr(A302563((2*n+1)²))`
--/
-
-namespace A084526.P1861548307099585387
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.digitalRoot (A302563 ((2 * n + 1) ^ 2))
-
-end
-
-end A084526.P1861548307099585387
 
 /-!
 # A084528: Partial sums of A084529. Positions of ones in the first differences of A084526.

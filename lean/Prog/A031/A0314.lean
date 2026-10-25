@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -69,7 +70,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -98,6 +98,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A031400: Period of continued fraction for sqrt(k) equal for all a(n) <= k < a(n)+n.
@@ -5526,6 +5530,12 @@ namespace A031449
 /-- `eq[2, A145037(n)]` -/
 def P3209307534858390692.Spec : Prop :=
   ∀ n, (P3209307534858390692.a n : ℤ) = A031449 (n + 1)
+
+theorem P3209307534858390692.correct : P3209307534858390692.Spec := by
+  intro n
+  simp only [A031449, Nat.add_sub_cancel, A031449.P3209307534858390692.f1, A031449.P3209307534858390692.f2, A031449.P3209307534858390692.a, A031449.P14252400872149792696.f1, A031449.P14252400872149792696.f2, A031449.P14252400872149792696.a, A145037, A145037.P925688750715602079.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A031449
 

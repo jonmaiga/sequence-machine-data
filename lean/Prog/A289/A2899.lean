@@ -50,7 +50,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -58,7 +58,6 @@ import Seq.B007.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -84,6 +83,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 /-!
 # A289900: Number of maximal matchings in the n-triangular honeycomb rook graph.
@@ -302,7 +302,7 @@ end A289904.P10425692250526365796
 /-!
 # A289907: Initial primes of 5 consecutive primes with consecutive gaps 8,6,4,2.
 
-The programs for A289907, the canonical program `A289907.P1605400595072439326` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289907 has offset 1).
+The programs for A289907, the canonical program `A289907.P1605400595072439326` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289907 has offset 1).
 
 The definition of A289907 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 179 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -311,7 +311,7 @@ The definition of A289907 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A054808(n+1), A054809(n+1)-8]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A289907
@@ -2872,20 +2872,20 @@ end
 
 end A289944.P12831246691512880422
 
-/-! ## A289944.P13169195427518397881
+/-! ## A289944.P10724351688343452982
 
-`A097944(or(1, A127568(n)))`
+`A102572(4*A127568(n))`
 -/
 
-namespace A289944.P13169195427518397881
+namespace A289944.P10724351688343452982
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A097944 (Int.lor 1 (A127568 n)).toNat
+  A102572 (4 * A127568 n).toNat
 
 end
 
-end A289944.P13169195427518397881
+end A289944.P10724351688343452982
 
 /-!
 # A289945: a(n) = Sum_{k=1..n} k!^4.
@@ -5224,6 +5224,28 @@ end
 
 end A289982.P9156584598767003200
 
+/-! ## A289982.P17687076876780673277
+
+`∩[A054723(n+1), A083254(A054723(n+2))]`
+-/
+
+namespace A289982.P17687076876780673277
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A054723 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A083254 (A054723 (n + 2)).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A289982.P17687076876780673277
+
 /-! ## A289982.P16023800460580451250
 
 `A054799(lt[A115174(n+1), A157400(2*(n+1))])`
@@ -5244,27 +5266,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A289982.P16023800460580451250
-
-/-! ## A289982.P298288497527459540
-
-`A001359(lt[A126000(3*n+2), A011782(n)])`
--/
-
-namespace A289982.P298288497527459540
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A126000 (3 * n + 2)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A011782 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001359 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A289982.P298288497527459540
 
 /-!
 # A289984: Primes of the form 3^k - 34.

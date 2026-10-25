@@ -50,10 +50,9 @@ import Seq.B003.C001
 import Seq.B003.C004
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B006.C002
-import Seq.B007.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B014.C000
@@ -2017,20 +2016,50 @@ end
 
 end A387848.P4280463061475450705
 
-/-! ## A387848.P10703507789873692551
+/-! ## A387848.P7698412826385137057
 
-`A387844(A005843(n))^A173778(n)`
+`C(A387844(A004277(n)), A178334(n))`
 -/
 
-namespace A387848.P10703507789873692551
+namespace A387848.P7698412826385137057
 noncomputable section
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A387844 (A005843 n).toNat : ℚ) ^ (A173778 n : ℤ)
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (A387844 (A004277 n).toNat).toNat (A178334 n).toNat
 
 end
 
-end A387848.P10703507789873692551
+end A387848.P7698412826385137057
+
+/-! ## A387848.P5242311883494130691
+
+`C(A387844(A005843(n)), A178334(n))`
+-/
+
+namespace A387848.P5242311883494130691
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (A387844 (A005843 n).toNat).toNat (A178334 n).toNat
+
+end
+
+end A387848.P5242311883494130691
+
+/-! ## A387848.P5864054626255685497
+
+`A387844(A004277(n))%A387813(n)`
+-/
+
+namespace A387848.P5864054626255685497
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A387844 (A004277 n).toNat) (A387813 n)
+
+end
+
+end A387848.P5864054626255685497
 
 /-!
 # A387849: a(n) = Sum_{k=0..n} binomial(4*n,6*k).
@@ -3527,6 +3556,36 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A387873.P8191310261654020718
+
+/-! ## A387873.P13248736953156041592
+
+`C(A387871(A004277(n)), A178334(n))`
+-/
+
+namespace A387873.P13248736953156041592
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (A387871 (A004277 n).toNat).toNat (A178334 n).toNat
+
+end
+
+end A387873.P13248736953156041592
+
+/-! ## A387873.P14269445556533109567
+
+`C(A387871(A005843(n)), A178334(n))`
+-/
+
+namespace A387873.P14269445556533109567
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (A387871 (A005843 n).toNat).toNat (A178334 n).toNat
+
+end
+
+end A387873.P14269445556533109567
 
 /-!
 # A387874: a(n) = Sum_{k=0..n} binomial(2*n+1,6*k).

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -54,15 +55,14 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -95,6 +95,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A284400: Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 910", based on the 5-celled von Neumann neighborhood.
@@ -1258,7 +1262,7 @@ end A284410.P10794089663399022933
 
 The programs for A284412, the canonical program `A284412.P12322783761233441949` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A284412 has offset 1).
 
-The definition of A284412 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007917, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A284412 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A284412.P12322783761233441949
@@ -7713,6 +7717,12 @@ namespace A284478
 def P13957694497793324879.Spec : Prop :=
   ∀ n, P13957694497793324879.a n = A284478 (n + 1)
 
+theorem P13957694497793324879.correct : P13957694497793324879.Spec := by
+  intro n
+  simp only [A284478, Nat.add_sub_cancel, A284478.P13957694497793324879.a, A284478.P17703318329199154233.a, A004001, A004001.P15027099775036681873.a, A005185, A005185.P15523785795587217945.a, A055748, A055748.P8898530340644746947.a, A284019, A284019.P8425388726725023330.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A284478
 
 /-! ## A284478.P16261757804741016797
@@ -7762,6 +7772,12 @@ namespace A284478
 def P17355600188316781951.Spec : Prop :=
   ∀ n, P17355600188316781951.a n = A284478 (n + 1)
 
+theorem P17355600188316781951.correct : P17355600188316781951.Spec := by
+  intro n
+  simp only [A284478, Nat.add_sub_cancel, A284478.P17355600188316781951.a, A284478.P17703318329199154233.a, A005185, A005185.P15523785795587217945.a, A055748, A055748.P8898530340644746947.a, A080677, A080677.P3667813120543566006.a, A284019, A284019.P8425388726725023330.a, A004001, A004001.P15027099775036681873.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A284478
 
 /-! ## A284478.P2453584922815025863
@@ -7784,6 +7800,12 @@ namespace A284478
 /-- `(A004074(n+1)+n+1)/2-(A284019(n+1)+A055748(n+1))` -/
 def P2453584922815025863.Spec : Prop :=
   ∀ n, P2453584922815025863.a n = (A284478 (n + 1) : ℚ)
+
+theorem P2453584922815025863.correct : P2453584922815025863.Spec := by
+  intro n
+  simp only [A284478, Nat.add_sub_cancel, A284478.P2453584922815025863.a, A284478.P17703318329199154233.a, A004074, A004074.P7923375237967652699.a, A005185, A005185.P15523785795587217945.a, A055748, A055748.P8898530340644746947.a, A284019, A284019.P8425388726725023330.a, A004001, A004001.P15027099775036681873.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A284478
 

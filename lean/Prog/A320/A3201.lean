@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -53,7 +54,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
@@ -87,6 +88,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A320100: Automata sum similar to A102376 but using mod 5.
@@ -346,7 +351,7 @@ end A320106
 /-!
 # A320107: a(n) = A001227(A252463(n)).
 
-The programs for A320107, the canonical program `A320107.P11684398178645461094` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320107 has offset 1).
+The programs for A320107, the canonical program `A320107.P11684398178645461094` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320107 has offset 1).
 
 The definition of A320107 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A252463, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -355,7 +360,7 @@ The definition of A320107 is `conditional`: the Lean definition is an OEIS formu
 
 `A001227(A252463(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A320107
@@ -889,6 +894,12 @@ namespace A320110
 def P14156116712964487599.Spec : Prop :=
   ∀ n, P14156116712964487599.a n = A320110 (n + 1)
 
+theorem P14156116712964487599.correct : P14156116712964487599.Spec := by
+  intro n
+  simp only [A320110, Nat.add_sub_cancel, A320110.P14156116712964487599.a, A320110.P16820175732711326683.a, A057427, A057427.P3058147525557661423.a, A057428, A057428.P2999489532230392221.a, A101296, A101296.P6771049458212238707.a, A252463, A252463.P9404790189412916411.a, A000007, A000007.P6599383543502402472.a, A046523, A046523.P3407874444772092792.a, A085089, A085089.P6798308671670797143.f1, A085089.P6798308671670797143.a, A152271, A152271.P6659965972248271911.a, A243502, A243502.P11791647281875328885.a, A064216, A064216.P5935432423843156478.a, A181819, A181819.P15090535388863431201.a, A181821, A181821.P11277667539367847379.a, A322585, A322585.P11496340982607294037.f1, A322585.P11496340982607294037.a, A001511, A001511.P17146462531039486101.a, A008578, A008578.P3639467937083264764.a, A064989, A064989.P13349672914146769936.a, A108951, A108951.P1294613322156543690.a, A122111, A122111.P18124015185857335041.a, A278222, A278222.P17157169249717672707.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A320110
 
 /-! ## A320110.P10699130157915966751
@@ -1055,16 +1066,16 @@ end A320110
 /-!
 # A320111: Number of divisors d of n that are not of the form 4k+2.
 
-The programs for A320111, the canonical program `A320111.P9381397234523338092` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320111 has offset 1).
+The programs for A320111, the canonical program `A320111.P9381397234523338092` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320111 has offset 1).
 
-The definition of A320111 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A252463, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A320111 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A252463, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A320111.P9381397234523338092
 
 `A000005(A252463(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A320111

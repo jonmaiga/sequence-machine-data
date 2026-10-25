@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -61,7 +62,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
+import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -89,6 +90,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A257100: From fourth root of the inverse of Riemann zeta function: form Dirichlet series Sum b(n)/n^x whose fourth power is 1/zeta; sequence gives numerator of b(n).
@@ -1857,6 +1862,12 @@ namespace A257126
 def P2826239368600316514.Spec : Prop :=
   ∀ n, P2826239368600316514.a n = A257126 (n + 1)
 
+theorem P2826239368600316514.correct : P2826239368600316514.Spec := by
+  intro n
+  simp only [A257126, Nat.add_sub_cancel, A257126.P2826239368600316514.a, A257126.P1146843161386362051.a, A000120, A000120.P2816527436160941581.a, A005187, A005187.P3874015513960485494.a, A005843, A005843.P3167286115683555970.a, A055938, A055938.P11436454756649086681.a, A045412, A045412.P17699345519846233104.f1, A045412.P17699345519846233104.a, A079559, A079559.P6833565121082423031.a, A043545, A043545.P6199121594405564387.a, A053644, A053644.P1707366427427647095.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A257126
 
 /-! ## A257126.P5380512550445780856
@@ -1879,6 +1890,12 @@ namespace A257126
 /-- `A055938(n+1)+A155689(n+1)-A020965(n+1)` -/
 def P5380512550445780856.Spec : Prop :=
   ∀ n, P5380512550445780856.a n = A257126 (n + 1)
+
+theorem P5380512550445780856.correct : P5380512550445780856.Spec := by
+  intro n
+  simp only [A257126, Nat.add_sub_cancel, A257126.P5380512550445780856.a, A257126.P1146843161386362051.a, A005187, A005187.P3874015513960485494.a, A020965, A020965.P8785795445900425784.a, A055938, A055938.P11436454756649086681.a, A155689, A155689.P2139899322435435333.a, A045412, A045412.P17699345519846233104.f1, A045412.P17699345519846233104.a, A049472, A049472.P13396613520496134978.a, A079559, A079559.P6833565121082423031.a, A043545, A043545.P6199121594405564387.a, A053644, A053644.P1707366427427647095.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A257126
 
@@ -1948,6 +1965,12 @@ namespace A257126
 /-- `A045412(n+1)-A101925(n+1)` -/
 def P10582482563498795071.Spec : Prop :=
   ∀ n, P10582482563498795071.a n = A257126 (n + 1)
+
+theorem P10582482563498795071.correct : P10582482563498795071.Spec := by
+  intro n
+  simp only [A257126, Nat.add_sub_cancel, A257126.P10582482563498795071.a, A257126.P1146843161386362051.a, A005187, A005187.P3874015513960485494.a, A045412, A045412.P17699345519846233104.f1, A045412.P17699345519846233104.a, A055938, A055938.P11436454756649086681.a, A101925, A101925.P9724492527127448858.a, A079559, A079559.P6833565121082423031.a, A043545, A043545.P6199121594405564387.a, A053644, A053644.P1707366427427647095.a, A036987, A036987.P1789601236562705309.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A257126
 

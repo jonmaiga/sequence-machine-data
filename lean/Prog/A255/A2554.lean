@@ -6087,20 +6087,20 @@ end
 
 end A255450.P8547648074708865613
 
-/-! ## A255450.P11649523942483793170
+/-! ## A255450.P628730654015680378
 
-`A071053(A001196(2*n)*2*A001316(n))`
+`A071053(A001196(n)%A352161(n+1))`
 -/
 
-namespace A255450.P11649523942483793170
+namespace A255450.P628730654015680378
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071053 (A001196 (2 * n) * (2 * A001316 n)).toNat
+  A071053 (Int.tmod (A001196 n) (A352161 (n + 1))).toNat
 
 end
 
-end A255450.P11649523942483793170
+end A255450.P628730654015680378
 
 /-!
 # A255451: A255450(2^n-1).
@@ -7317,6 +7317,12 @@ namespace A255463
 def P11458692097220928913.Spec : Prop :=
   ∀ n, P11458692097220928913.a n = A255463 n
 
+theorem P11458692097220928913.correct : P11458692097220928913.Spec := by
+  intro n
+  simp only [A255463, Nat.add_sub_cancel, A255463.P11458692097220928913.f1, A255463.P11458692097220928913.a, A255463.P6563478060669698748.a, A005061, A005061.P16496871994776631977.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A255463
 
 /-! ## A255463.P3161052606290751790
@@ -7342,6 +7348,12 @@ namespace A255463
 /-- `Δ[A155609(n)]` -/
 def P3161052606290751790.Spec : Prop :=
   ∀ n, P3161052606290751790.a n = A255463 n
+
+theorem P3161052606290751790.correct : P3161052606290751790.Spec := by
+  intro n
+  simp only [A255463, Nat.add_sub_cancel, A255463.P3161052606290751790.f1, A255463.P3161052606290751790.a, A255463.P6563478060669698748.a, A155609, A155609.P4227555059231911855.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A255463
 
@@ -7450,6 +7462,12 @@ namespace A255463
 def P16625728411353605692.Spec : Prop :=
   ∀ n, P16625728411353605692.a n = (A255463 n : ℚ)
 
+theorem P16625728411353605692.correct : P16625728411353605692.Spec := by
+  intro n
+  simp only [A255463, Nat.add_sub_cancel, A255463.P16625728411353605692.f1, A255463.P16625728411353605692.a, A255463.P6563478060669698748.a, A145544, A145544.P9258553219898118840.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A255463
 
 /-! ## A255463.P10211302082107941564
@@ -7484,7 +7502,7 @@ end A255463
 /-!
 # A255464: Number of ON cells after n generations of the odd-rule cellular automaton defined by OddRule 137 when started with a single ON cell.
 
-The programs for A255464, the canonical program `A255464.P10753955913467884624` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255464 has offset 0).
+The programs for A255464, the canonical program `A255464.P10753955913467884624` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255464 has offset 0).
 
 The definition of A255464 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7493,7 +7511,7 @@ The definition of A255464 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[A005940(n+1), A255465(#)]`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A255464

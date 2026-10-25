@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -87,6 +88,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A232400: Number of (n+1)X(2+1) 0..2 arrays with every element next to itself plus and minus one within the range 0..2 horizontally or vertically, with no adjacent elements equal.
@@ -6074,6 +6079,21 @@ end A232476.P10310287469092055547
 The programs for A232477, there is no canonical definition to state claims against.
 -/
 
+/-! ## A232477.P14927286917800783019
+
+`A336836(A336801(2*n+1))+A232478(n+1)`
+-/
+
+namespace A232477.P14927286917800783019
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A336836 (A336801 (2 * n + 1)).toNat + A232478 (n + 1)
+
+end
+
+end A232477.P14927286917800783019
+
 /-! ## A232477.P4042458191694666389
 
 `filter[A232478(n+1), A086299(#)]`
@@ -6142,24 +6162,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A232477.P14942826828260982509
-
-/-! ## A232477.P12819149374875612674
-
-`filter[A232478(n+1), A337263(#)]`
--/
-
-namespace A232477.P12819149374875612674
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A232478 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A337263 (f1 j).toNat = 1) n)
-
-end
-
-end A232477.P12819149374875612674
 
 /-!
 # A232478: Number of unimodal h-vectors of length n.
@@ -7232,6 +7234,12 @@ namespace A232493
 def P17596617388395555421.Spec : Prop :=
   ∀ n, P17596617388395555421.a n = A232493 n
 
+theorem P17596617388395555421.correct : P17596617388395555421.Spec := by
+  intro n
+  simp only [A232493, Nat.add_sub_cancel, A232493.P17596617388395555421.f1, A232493.P17596617388395555421.a, A232493.P17536983822345669617.a, A000051, A000051.P14067217022188782580.a, A000079, A000079.P10855139691139572931.a, A122007, A122007.P7515375071099048773.a, A254006, A254006.P8582869198979241148.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A232493
 
 /-! ## A232493.P13366155168253594332
@@ -7257,6 +7265,12 @@ namespace A232493
 /-- `(A254006(n)+A122007(n+1))*Δ[A000225(n)]` -/
 def P13366155168253594332.Spec : Prop :=
   ∀ n, P13366155168253594332.a n = A232493 n
+
+theorem P13366155168253594332.correct : P13366155168253594332.Spec := by
+  intro n
+  simp only [A232493, Nat.add_sub_cancel, A232493.P13366155168253594332.f1, A232493.P13366155168253594332.a, A232493.P17536983822345669617.a, A000079, A000079.P10855139691139572931.a, A000225, A000225.P6535533121115206393.a, A122007, A122007.P7515375071099048773.a, A254006, A254006.P8582869198979241148.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A232493
 
@@ -7483,6 +7497,29 @@ def P6182302967584083734.Spec : Prop :=
 
 end A232495
 
+/-! ## A232495.P14851968947229468144
+
+`(A006002(3*(n+1))-6)/3`
+-/
+
+namespace A232495.P14851968947229468144
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A006002 (3 * (n + 1)) - 6 : ℚ) / 3
+
+end
+
+end A232495.P14851968947229468144
+
+namespace A232495
+
+/-- `(A006002(3*(n+1))-6)/3` -/
+def P14851968947229468144.Spec : Prop :=
+  ∀ n, P14851968947229468144.a n = (A232495 (n + 2) : ℚ)
+
+end A232495
+
 /-! ## A232495.P14163334995413759200
 
 `∑[A005449(3*n+2)-A153881(n+1)]`
@@ -7555,32 +7592,6 @@ namespace A232495
 /-- `A023444(∑[A104249(3*n+2)])` -/
 def P5108799704918750606.Spec : Prop :=
   ∀ n, P5108799704918750606.a n = A232495 (n + 2)
-
-end A232495
-
-/-! ## A232495.P15026330800002619110
-
-`(A008458(A126274(n))+∑[4*n])/(n+1)`
--/
-
-namespace A232495.P15026330800002619110
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4 * n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A008458 (A126274 n).toNat + ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ) : ℚ) / (n + 1 : ℚ)
-
-end
-
-end A232495.P15026330800002619110
-
-namespace A232495
-
-/-- `(A008458(A126274(n))+∑[4*n])/(n+1)` -/
-def P15026330800002619110.Spec : Prop :=
-  ∀ n, P15026330800002619110.a n = (A232495 (n + 2) : ℚ)
 
 end A232495
 

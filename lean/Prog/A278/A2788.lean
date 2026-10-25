@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -45,10 +46,10 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -66,6 +67,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -78,6 +80,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A278800: G.f.: Sum_{k>0} x^prime(k)/(1-x)^k.
@@ -946,6 +952,12 @@ namespace A278814
 def P9928715647886298787.Spec : Prop :=
   ∀ n, P9928715647886298787.a n = A278814 n
 
+theorem P9928715647886298787.correct : P9928715647886298787.Spec := by
+  intro n
+  simp only [A278814, Nat.add_sub_cancel, A278814.P9928715647886298787.a, A278814.P1879609440494676631.a, A003059, A003059.P1258737259570017328.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A278814
 
 /-! ## A278814.P1983741315683861965
@@ -1014,6 +1026,12 @@ namespace A278814
 /-- `A135034(3*n+1)` -/
 def P13209956107299779172.Spec : Prop :=
   ∀ n, P13209956107299779172.a n = A278814 n
+
+theorem P13209956107299779172.correct : P13209956107299779172.Spec := by
+  intro n
+  simp only [A278814, Nat.add_sub_cancel, A278814.P13209956107299779172.a, A278814.P1879609440494676631.a, A135034, A135034.P11734383480113232451.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A278814
 

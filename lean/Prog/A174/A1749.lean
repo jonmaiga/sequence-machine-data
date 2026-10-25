@@ -52,6 +52,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -1354,6 +1355,12 @@ namespace A174910
 /-- `∑[A028835(n+1)]` -/
 def P13194828325102500921.Spec : Prop :=
   ∀ n, P13194828325102500921.a n = A174910 (n + 1)
+
+theorem P13194828325102500921.correct : P13194828325102500921.Spec := by
+  intro n
+  simp only [A174910, Nat.add_sub_cancel, A174910.P13194828325102500921.f1, A174910.P13194828325102500921.a, A174910.P6440073360298839259.f1, A174910.P6440073360298839259.a, A028835, A028835.P10047270723414419312.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A174910
 
@@ -6500,6 +6507,12 @@ namespace A174934
 def P3880808499446127226.Spec : Prop :=
   ∀ n, P3880808499446127226.a n = A174934 (n + 1)
 
+theorem P3880808499446127226.correct : P3880808499446127226.Spec := by
+  intro n
+  simp only [A174934, Nat.add_sub_cancel, A174934.P3880808499446127226.f1, A174934.P3880808499446127226.a, A174934.P1492431127303697690.f3, A174934.P1492431127303697690.f2, A174934.P1492431127303697690.f1, A174934.P1492431127303697690.a, A175318, A175318.P13298413136417052649.f2, A175318.P13298413136417052649.f1, A175318.P13298413136417052649.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A174934
 
 /-! ## A174934.P8629571410802860251
@@ -10222,7 +10235,7 @@ end A174964.P14251587792198117117
 /-!
 # A174965: Length of the n-th run of consecutive terms in A000961.
 
-The programs for A174965, the canonical program `A174965.P13643991388117450283` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174965 has offset 1).
+The programs for A174965, the canonical program `A174965.P13643991388117450283` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174965 has offset 1).
 
 The definition of A174965 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9987 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10231,7 +10244,7 @@ The definition of A174965 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[record[(n+1)%(A057820(n+1)+n)]]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A174965
@@ -13424,6 +13437,12 @@ namespace A174994
 /-- `A168398(n+1)*A168398(n+1)` -/
 def P5836891960021143473.Spec : Prop :=
   ∀ n, P5836891960021143473.a n = A174994 n
+
+theorem P5836891960021143473.correct : P5836891960021143473.Spec := by
+  intro n
+  simp only [A174994, Nat.add_sub_cancel, A174994.P5836891960021143473.a, A174994.P6941636954525028030.a, A168398, A168398.P703617105454378462.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A174994
 

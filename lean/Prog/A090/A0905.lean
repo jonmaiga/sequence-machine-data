@@ -55,7 +55,6 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
@@ -1705,6 +1704,12 @@ namespace A090532
 def P10802096109369705625.Spec : Prop :=
   ∀ n, (P10802096109369705625.a n : ℤ) = A090532 (n + 1)
 
+theorem P10802096109369705625.correct : P10802096109369705625.Spec := by
+  intro n
+  simp only [A090532, Nat.add_sub_cancel, A090532.P10802096109369705625.a, A090532.P3929399659927491439.a, A000720, A000720.P1755771944745605250.f2, A000720.P1755771944745605250.f1, A000720.P1755771944745605250.a, A065855, A065855.P16805213270251966039.a, A062298, A062298.P8226643735375377344.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A090532
 
 /-! ## A090532.P7629484801283414418
@@ -2968,7 +2973,7 @@ end A090561.P11293377918922088393
 /-!
 # A090562: Primes of the form 5k^2 + 5k + 1.
 
-The programs for A090562, the canonical program `A090562.P2628072817141354298` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090562 has offset 1).
+The programs for A090562, the canonical program `A090562.P2628072817141354298` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090562 has offset 1).
 
 The definition of A090562 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2468 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2977,7 +2982,7 @@ The definition of A090562 is `conjectured`: the Lean definition is a formula tha
 
 `A062786(A090563(n+1)+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A090562

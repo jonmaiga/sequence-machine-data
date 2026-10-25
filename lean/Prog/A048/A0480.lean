@@ -4749,6 +4749,12 @@ namespace A048058
 def P12063687547269153521.Spec : Prop :=
   ∀ n, P12063687547269153521.a n = (A048058 n : ℚ)
 
+theorem P12063687547269153521.correct : P12063687547269153521.Spec := by
+  intro n
+  simp only [A048058, Nat.add_sub_cancel, A048058.P12063687547269153521.a, A048058.P10966972837158806934.a, A259555, A259555.P7816943564928333054.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A048058
 
 /-! ## A048058.P7002393566370543909

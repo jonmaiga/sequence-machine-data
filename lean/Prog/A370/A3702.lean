@@ -1,9 +1,11 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
@@ -98,6 +100,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A370200: a(n) = numerator((n!)^2/(2*(n-2)!*n^n)).
@@ -736,6 +742,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A370215.P16487837154162342111
+
+/-!
+# A370216: Coefficient of x^n in the expansion of ( (1+x) / (1-x^3)^3 )^n.
+
+The programs for A370216, there is no canonical definition to state claims against.
+-/
+
+/-! ## A370216.P7990256886723909737
+
+`A259273(n)-A032741(A110154(n))`
+-/
+
+namespace A370216.P7990256886723909737
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A259273 n - A032741 (A110154 n).toNat
+
+end
+
+end A370216.P7990256886723909737
 
 /-!
 # A370217: Coefficient of x^n in the expansion of ( (1+x)^2 / (1-x^3)^3 )^n.
@@ -1736,6 +1763,12 @@ namespace A370232
 /-- `A000007(n+1)+A085478(n)*A085478(n)` -/
 def P9681549976557375141.Spec : Prop :=
   ∀ n, P9681549976557375141.a n = A370232 n
+
+theorem P9681549976557375141.correct : P9681549976557375141.Spec := by
+  intro n
+  simp only [A370232, Nat.add_sub_cancel, A370232.P9681549976557375141.a, A370232.P12782408000472018737.a, A000007, A000007.P6599383543502402472.a, A085478, A085478.P12258921806039720689.a, A061579, A061579.P7462537595056690109.a, A076756, A076756.P16032784192735833623.a, A025581, A025581.P420762180635059694.a, A033999, A033999.P17703899380244199787.a, A054142, A054142.P6369338685803904687.a, A002262, A002262.P12129691700837801527.a, A003056, A003056.P5318256527314048597.a, A004736, A004736.P10337537277358081527.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A370232
 

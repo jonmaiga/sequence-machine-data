@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C006
 import Seq.B000.C007
@@ -14,7 +15,6 @@ import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -35,6 +35,10 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A172603: a(n) = (7n)!/(7!^n).
@@ -347,6 +351,12 @@ namespace A172624
 /-- `eq[6, A145154(n)/A000005(n+1)]` -/
 def P7308463696132315652.Spec : Prop :=
   ∀ n, (P7308463696132315652.a n : ℤ) = A172624 (n + 1)
+
+theorem P7308463696132315652.correct : P7308463696132315652.Spec := by
+  intro n
+  simp only [A172624, Nat.add_sub_cancel, A172624.P7308463696132315652.f1, A172624.P7308463696132315652.f2, A172624.P7308463696132315652.a, A172624.P1675348428344907413.f1, A172624.P1675348428344907413.f2, A172624.P1675348428344907413.a, A000005, A000005.P16091521709108585461.a, A062011, A062011.P17525320077853469406.a, A145154, A145154.P3148683332276423765.f1, A145154.P3148683332276423765.f2, A145154.P3148683332276423765.a, A007504, A007504.P16529107901788736493.f1, A007504.P16529107901788736493.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A182986, A182986.P2625431067462217415.a, A054541, A054541.P347795157194570387.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A172624
 

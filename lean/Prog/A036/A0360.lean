@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -85,6 +86,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A036000: Number of partitions in parts not of the form 25k, 25k+1 or 25k-1. Also number of partitions with no part of size 1 and differences between parts at distance 11 are greater than 1.
@@ -5619,6 +5624,12 @@ namespace A036044
 def P1014950104194082221.Spec : Prop :=
   ∀ n, P1014950104194082221.a n = A036044 n
 
+theorem P1014950104194082221.correct : P1014950104194082221.Spec := by
+  intro n
+  simp only [A036044, Nat.add_sub_cancel, A036044.P1014950104194082221.a, A036044.P16648927426293672306.a, A030101, A030101.P16184294017372777612.a, A035327, A035327.P258997810375859489.a, A055945, A055945.P5963763732554067333.a, A038572, A038572.P9289042872142352092.a, A053644, A053644.P1707366427427647095.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A036044
 
 /-! ## A036044.P16562328471631714281
@@ -7778,6 +7789,12 @@ namespace A036071
 def P4126363300817457007.Spec : Prop :=
   ∀ n, P4126363300817457007.a n = (A036071 n : ℚ)
 
+theorem P4126363300817457007.correct : P4126363300817457007.Spec := by
+  intro n
+  simp only [A036071, Nat.add_sub_cancel, A036071.P4126363300817457007.a, A036071.P13945972300625865625.a, A154128, A154128.P7872891340682016042.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A036071
 
 /-! ## A036071.P13166861375743423271
@@ -9054,6 +9071,12 @@ namespace A036085
 def P7354433703473215225.Spec : Prop :=
   ∀ n, P7354433703473215225.a n = A036085 n
 
+theorem P7354433703473215225.correct : P7354433703473215225.Spec := by
+  intro n
+  simp only [A036085, Nat.add_sub_cancel, A036085.P7354433703473215225.a, A036085.P6699611710931681177.a, A024005, A024005.P8923362675459539356.a, A057428, A057428.P2999489532230392221.a, A258806, A258806.P6095875049815832673.a, A057427, A057427.P3058147525557661423.a, A000007, A000007.P6599383543502402472.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A036085
 
 /-! ## A036085.P5560193725210645949
@@ -9099,6 +9122,12 @@ namespace A036085
 /-- `(A024005(n+1)-A258806(n))/A057428(n+2)` -/
 def P6082792768406183947.Spec : Prop :=
   ∀ n, P6082792768406183947.a n = (A036085 n : ℚ)
+
+theorem P6082792768406183947.correct : P6082792768406183947.Spec := by
+  intro n
+  simp only [A036085, Nat.add_sub_cancel, A036085.P6082792768406183947.a, A036085.P6699611710931681177.a, A024005, A024005.P8923362675459539356.a, A057428, A057428.P2999489532230392221.a, A258806, A258806.P6095875049815832673.a, A057427, A057427.P3058147525557661423.a, A000007, A000007.P6599383543502402472.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A036085
 
@@ -10843,7 +10872,7 @@ end A036096
 /-!
 # A036097: Centered cube numbers: (n+1)^19+n^19.
 
-The programs for A036097, the canonical program `A036097.P8683106660414537380` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036097 has offset 0).
+The programs for A036097, the canonical program `A036097.P8683106660414537380` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036097 has offset 0).
 
 The definition of A036097 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^19+n^19` (program `A036097.P8683106660414537380`, by `A036097.P8683106660414537380.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10852,7 +10881,7 @@ The definition of A036097 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^19+n^19`
 
-The canonical program, it is in `Seq.B000.C006`.
+The canonical program, it is in `Seq.B000.C007`.
 -/
 
 namespace A036097

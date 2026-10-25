@@ -56,6 +56,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
@@ -64,6 +65,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -1201,6 +1203,12 @@ namespace A099210
 /-- `A050997(n+1)*A050997(n+3)` -/
 def P5159753868729938156.Spec : Prop :=
   ∀ n, P5159753868729938156.a n = A099210 (n + 1)
+
+theorem P5159753868729938156.correct : P5159753868729938156.Spec := by
+  intro n
+  simp only [A099210, Nat.add_sub_cancel, A099210.P5159753868729938156.a, A099210.P13481430447248408214.a, A050997, A050997.P5231147570234137425.a, A090076, A090076.P14041092475761084439.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A006094, A006094.P10257567645245129766.a, A205955, A205955.P11019694915119694483.a, A096379, A096379.P11420595779051591420.a, A001043, A001043.P18269783162673735460.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A099210
 
@@ -11117,6 +11125,12 @@ namespace A099265
 def P15300366301493295212.Spec : Prop :=
   ∀ n, P15300366301493295212.a n = A099265 (n + 1)
 
+theorem P15300366301493295212.correct : P15300366301493295212.Spec := by
+  intro n
+  simp only [A099265, Nat.add_sub_cancel, A099265.P15300366301493295212.a, A099265.P5234640297294895287.f1, A099265.P5234640297294895287.a, A056272, A056272.P10027317883557140852.a, A243515, A243515.P1271760465107560758.a, A222867, A222867.P14462431900445029518.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A099265
 
 /-! ## A099265.P2853600972394593365
@@ -11479,6 +11493,29 @@ def P8752775232688994537.Spec : Prop :=
 
 end A099267
 
+/-! ## A099267.P4489256662489670804
+
+`floor(n²/a(n-1)+n)+2` with `a(0)=2`
+-/
+
+namespace A099267.P4489256662489670804
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [2] fun n a =>
+  ⌊(n ^ 2 : ℚ) / (a (n - 1) : ℚ) + (n : ℚ)⌋ + 2
+
+end
+
+end A099267.P4489256662489670804
+
+namespace A099267
+
+/-- `floor(n²/a(n-1)+n)+2` -/
+def P4489256662489670804.Spec : Prop :=
+  ∀ n, P4489256662489670804.a n = A099267 (n + 1)
+
+end A099267
+
 /-! ## A099267.P4296112732199656282
 
 `floor(n*(n/a(n-1)+1))+2` with `a(0)=2`
@@ -11499,6 +11536,29 @@ namespace A099267
 /-- `floor(n*(n/a(n-1)+1))+2` -/
 def P4296112732199656282.Spec : Prop :=
   ∀ n, P4296112732199656282.a n = A099267 (n + 1)
+
+end A099267
+
+/-! ## A099267.P8524625996053373100
+
+`floor(n/(n/a(n-1)+1)+n)+2` with `a(0)=2`
+-/
+
+namespace A099267.P8524625996053373100
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [2] fun n a =>
+  ⌊(n : ℚ) / ((n : ℚ) / (a (n - 1) : ℚ) + 1) + (n : ℚ)⌋ + 2
+
+end
+
+end A099267.P8524625996053373100
+
+namespace A099267
+
+/-- `floor(n/(n/a(n-1)+1)+n)+2` -/
+def P8524625996053373100.Spec : Prop :=
+  ∀ n, P8524625996053373100.a n = A099267 (n + 1)
 
 end A099267
 
@@ -11791,55 +11851,6 @@ namespace A099267
 /-- `∑[A287523(n+1)+1]` -/
 def P7117256938512470782.Spec : Prop :=
   ∀ n, P7117256938512470782.a n = A099267 (n + 1)
-
-end A099267
-
-/-! ## A099267.P2482862968508395807
-
-`∑[2-A189661(n+1)]`
--/
-
-namespace A099267.P2482862968508395807
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 - A189661 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A099267.P2482862968508395807
-
-namespace A099267
-
-/-- `∑[2-A189661(n+1)]` -/
-def P2482862968508395807.Spec : Prop :=
-  ∀ n, P2482862968508395807.a n = A099267 (n + 1)
-
-end A099267
-
-/-! ## A099267.P2619384871252480494
-
-`A284624(n+1)-2*n`
--/
-
-namespace A099267.P2619384871252480494
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A284624 (n + 1) - (2 * n : ℤ)
-
-end
-
-end A099267.P2619384871252480494
-
-namespace A099267
-
-/-- `A284624(n+1)-2*n` -/
-def P2619384871252480494.Spec : Prop :=
-  ∀ n, P2619384871252480494.a n = A099267 (n + 1)
 
 end A099267
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -39,16 +40,17 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -76,6 +78,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A332300: The least prime factor of the numerator of Bernoulli(2*n), or 1 if the numerator is 1.
@@ -6005,6 +6011,12 @@ namespace A332383
 /-- `A268382(4*n)-(A268382(2*n)+n)` -/
 def P8487811674907477794.Spec : Prop :=
   ∀ n, P8487811674907477794.a n = A332383 n
+
+theorem P8487811674907477794.correct : P8487811674907477794.Spec := by
+  intro n
+  simp only [A332383, Nat.add_sub_cancel, A332383.P8487811674907477794.a, A332383.P7920587963328072283.a, A268382, A268382.P15340571739554303395.a, A268383, A268383.P1822048145753504683.a, A268411, A268411.P10692776799510792898.f2, A268411.P10692776799510792898.f1, A268411.P10692776799510792898.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A332383
 

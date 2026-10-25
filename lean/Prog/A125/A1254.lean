@@ -1319,7 +1319,7 @@ end A125492.P5542579047647792505
 /-!
 # A125493: Composite deficient numbers.
 
-The programs for A125493, the canonical program `A125493.P739186552021714544` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125493 has offset 1).
+The programs for A125493, the canonical program `A125493.P739186552021714544` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125493 has offset 1).
 
 The definition of A125493 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1409,7 +1409,7 @@ end A125493
 
 `record[A191558(A005100(n+4))]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A125493

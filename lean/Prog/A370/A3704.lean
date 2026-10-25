@@ -338,7 +338,7 @@ end A370409.P3375730849069096475
 /-!
 # A370410: Number of length-n binary strings that are the concatenation of two nonempty palindromes.
 
-The programs for A370410, the canonical program `A370410.P7118795628727837074` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370410 has offset 1).
+The programs for A370410, the canonical program `A370410.P7118795628727837074` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370410 has offset 1).
 
 The definition of A370410 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007055, A056458, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -347,7 +347,7 @@ The definition of A370410 is `conditional`: the Lean definition is an OEIS formu
 
 `A007055(n+1)-A056458(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A370410
@@ -741,6 +741,27 @@ end
 
 end A370421.P6926061337150770711
 
+/-! ## A370421.P516926992854296114
+
+`lt[A330997(n+1), A369912(2*(n+1))]+1`
+-/
+
+namespace A370421.P516926992854296114
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A330997 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A369912 (2 * (n + 1))
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n + 1
+
+end
+
+end A370421.P516926992854296114
+
 /-! ## A370421.P5464976102890114963
 
 `lt[A006512(A140185(2*n)), A140141(n+1)]`
@@ -782,27 +803,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A370421.P11167304109261421085
-
-/-! ## A370421.P12029305480619799556
-
-`lt[A000001(3*n), A056239(A181818(n+1))]`
--/
-
-namespace A370421.P12029305480619799556
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000001 (3 * n)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056239 (A181818 (n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A370421.P12029305480619799556
 
 /-!
 # A370422: Integers k such that all groups of order k have at most k subgroups.
@@ -1422,6 +1422,12 @@ namespace A370427
 /-- `A003817(n)-(A175917(n)+n)` -/
 def P1760726070858816640.Spec : Prop :=
   ∀ n, P1760726070858816640.a n = A370427 n
+
+theorem P1760726070858816640.correct : P1760726070858816640.Spec := by
+  intro n
+  simp only [A370427, Nat.add_sub_cancel, A370427.P1760726070858816640.a, A370427.P3544381458467413037.a, A003817, A003817.P16251594020616633079.a, A175298, A175298.P14996771315134995194.a, A175917, A175917.P5961217577201396990.a, A055945, A055945.P5963763732554067333.a, A038572, A038572.P9289042872142352092.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A370427
 
@@ -5392,7 +5398,7 @@ end A370495
 /-!
 # A370498: Number of paths from (0, 0) to (2n, 2n) in an n X n grid using only steps north, northeast and east (i.e., steps (1, 0), (1, 1), and (0, 1)) and that do not pass through diagonal points with odd coordinates.
 
-The programs for A370498, the canonical program `A370498.P12293528714486297196` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370498 has offset 0).
+The programs for A370498, the canonical program `A370498.P12293528714486297196` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370498 has offset 0).
 
 The definition of A370498 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A138462, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5401,7 +5407,7 @@ The definition of A370498 is `conditional`: the Lean definition is an OEIS formu
 
 `ceil(2/3*A138462(n))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A370498

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -45,7 +46,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -53,7 +53,6 @@ import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -86,6 +85,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A367800: G.f. A(x) satisfies A(x) = 1 / (1 - x * A(x^8)).
@@ -2709,6 +2712,12 @@ namespace A367864
 def P10974059702110414644.Spec : Prop :=
   ∀ n, (P10974059702110414644.a n : ℤ) = A367864 (n + 1)
 
+theorem P10974059702110414644.correct : P10974059702110414644.Spec := by
+  intro n
+  simp only [A367864, Nat.add_sub_cancel, A367864.P10974059702110414644.f1, A367864.P10974059702110414644.a, A367864.P6188327315449160689.a, A271654, A271654.P1113296937614329341.f1, A271654.P1113296937614329341.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A367864
 
 /-! ## A367864.P11965692508196537716
@@ -4211,6 +4220,12 @@ namespace A367870
 /-- `A086670(n+1)+A245579(n+1)-A286015(n+1)` -/
 def P17578413511266846813.Spec : Prop :=
   ∀ n, P17578413511266846813.a n = A367870 (n + 1)
+
+theorem P17578413511266846813.correct : P17578413511266846813.Spec := by
+  intro n
+  simp only [A367870, Nat.add_sub_cancel, A367870.P17578413511266846813.a, A367870.P3261918350467240858.a, A000593, A000593.P13640346029616979906.a, A086670, A086670.P715310048333815188.a, A245579, A245579.P1038564678599800465.a, A286015, A286015.P16729021585373301699.f1, A286015.P16729021585373301699.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001227, A001227.P17291574635237243988.f1, A001227.P17291574635237243988.a, A038712, A038712.P3404197303190209645.a, A123684, A123684.P10917051134979273385.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A367870
 

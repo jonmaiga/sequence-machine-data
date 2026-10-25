@@ -53,7 +53,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -2313,6 +2312,25 @@ end A395052.P17255678126455795144
 The programs for A395053, there is no canonical definition to state claims against.
 -/
 
+/-! ## A395053.P12090641881676245125
+
+`char[A395054(n+1)-1]`
+-/
+
+namespace A395053.P12090641881676245125
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A395054 (n + 1) - 1
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  if ∃ j, f1 j = (n : ℤ) then 1 else 0
+
+end
+
+end A395053.P12090641881676245125
+
 /-! ## A395053.P9176204314942308937
 
 `A077610(A238279(3*n+2))%(val(n+1, 2)%2+1)`
@@ -2372,21 +2390,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A395053.P1493436203618746024
-
-/-! ## A395053.P11388631395350315325
-
-`and(A260446(n+1), A331540(n+1))`
--/
-
-namespace A395053.P11388631395350315325
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A260446 (n + 1)) (A331540 (n + 1))
-
-end
-
-end A395053.P11388631395350315325
 
 /-!
 # A395054: Numbers k such that the greatest prime dividing A276085(k) is larger than the greatest prime dividing k, where A276085 is fully additive with a(p) = p#/p.
@@ -3516,6 +3519,12 @@ namespace A395088
 def P9212888850112046746.Spec : Prop :=
   ∀ n, P9212888850112046746.a n = A395088 n
 
+theorem P9212888850112046746.correct : P9212888850112046746.Spec := by
+  intro n
+  simp only [A395088, Nat.add_sub_cancel, A395088.P9212888850112046746.a, A395088.P1994760081379151259.a, A026465, A026465.P4870457713372314206.a, A395089, A395089.P12188725371683441728.a, A171947, A171947.P16384979975700383487.f1, A171947.P16384979975700383487.f2, A171947.P16384979975700383487.a, A191254, A191254.P17375190648081682118.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A395088
 
 /-! ## A395088.P1994760081379151259
@@ -4001,6 +4010,12 @@ namespace A395089
 /-- `A026465(n+2)-1` -/
 def P116381144650441749.Spec : Prop :=
   ∀ n, P116381144650441749.a n = A395089 n
+
+theorem P116381144650441749.correct : P116381144650441749.Spec := by
+  intro n
+  simp only [A395089, Nat.add_sub_cancel, A395089.P116381144650441749.a, A395089.P12188725371683441728.a, A026465, A026465.P4870457713372314206.a, A395088, A395088.P1994760081379151259.a, A171947, A171947.P16384979975700383487.f1, A171947.P16384979975700383487.f2, A171947.P16384979975700383487.a, A191254, A191254.P17375190648081682118.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A395089
 

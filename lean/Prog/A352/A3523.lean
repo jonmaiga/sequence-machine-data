@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -48,6 +49,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -75,6 +77,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A352300: Expansion of e.g.f. 1/(2 - exp(x) - x^4).
@@ -2780,20 +2786,20 @@ end
 
 end A352354.P1866683923535012917
 
-/-! ## A352354.P9474485494947565645
+/-! ## A352354.P17282100323075234984
 
-`A064989(A352352(n+1))`
+`A064989(A352352(1+n))`
 -/
 
-namespace A352354.P9474485494947565645
+namespace A352354.P17282100323075234984
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064989 (A352352 (n + 1)).toNat
+  A064989 (A352352 (1 + n)).toNat
 
 end
 
-end A352354.P9474485494947565645
+end A352354.P17282100323075234984
 
 /-! ## A352354.P9887321321275771271
 
@@ -3878,6 +3884,12 @@ namespace A352375
 /-- `Δ[A062028(a(n-1))]` -/
 def P12492811578074509758.Spec : Prop :=
   ∀ n, P12492811578074509758.a n = A352375 (n + 1)
+
+theorem P12492811578074509758.correct : P12492811578074509758.Spec := by
+  intro n
+  simp only [A352375, Nat.add_sub_cancel, A352375.P12492811578074509758.f1, A352375.P12492811578074509758.a, A352375.P700649589614720325.a, A007618, A007618.P6018863421737465196.a, A062028, A062028.P8420805724104474199.a, A007953, A007953.P3472751987379697826.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A352375
 

@@ -6984,52 +6984,49 @@ def P5356697864714778593.Spec : Prop :=
 
 end A145051
 
-/-! ## A145051.P7423516124707101100
+/-! ## A145051.P14226382665895743545
 
-`a(n-1)^(-1)*∑[n+1]` with `a(0)=1`
+`floor((n+2)/(or(1, n)-(n-1)))`
 -/
 
-namespace A145051.P7423516124707101100
+namespace A145051.P14226382665895743545
 noncomputable section
 
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℚ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) ^ (-1 : ℤ) * ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℚ)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌊(n + 2 : ℚ) / ((Nat.lor 1 n : ℤ) - ((n : ℤ) - 1) : ℚ)⌋
 
 end
 
-end A145051.P7423516124707101100
+end A145051.P14226382665895743545
 
 namespace A145051
 
-/-- `a(n-1)^(-1)*∑[n+1]` -/
-def P7423516124707101100.Spec : Prop :=
-  ∀ n, P7423516124707101100.a n = (A145051 (n + 1) : ℚ)
+/-- `floor((n+2)/(or(1, n)-(n-1)))` -/
+def P14226382665895743545.Spec : Prop :=
+  ∀ n, P14226382665895743545.a n = A145051 (n + 1)
 
 end A145051
 
-/-! ## A145051.P10318546294505761697
+/-! ## A145051.P16645307993624404311
 
-`a(2*n%2)+a(n-2)` with `a(0)=1, a(1)=3`
+`ceil((n+2)/(or(1, n)-(n-1)))`
 -/
 
-namespace A145051.P10318546294505761697
+namespace A145051.P16645307993624404311
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.rec [1, 3] fun n a =>
-  a (2 * (n % 2)) + a (n - 2)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ⌈(n + 2 : ℚ) / ((Nat.lor 1 n : ℤ) - ((n : ℤ) - 1) : ℚ)⌉
 
 end
 
-end A145051.P10318546294505761697
+end A145051.P16645307993624404311
 
 namespace A145051
 
-/-- `a(2*n%2)+a(n-2)` -/
-def P10318546294505761697.Spec : Prop :=
-  ∀ n, (P10318546294505761697.a n : ℤ) = A145051 (n + 1)
+/-- `ceil((n+2)/(or(1, n)-(n-1)))` -/
+def P16645307993624404311.Spec : Prop :=
+  ∀ n, P16645307993624404311.a n = A145051 (n + 1)
 
 end A145051
 
@@ -7632,7 +7629,7 @@ end A145060.P11246397684698762677
 /-!
 # A145061: Number of pairs of odd numbers that separate two consecutive twin prime pairs.
 
-The programs for A145061, the canonical program `A145061.P9301229147611085` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145061 has offset 1).
+The programs for A145061, the canonical program `A145061.P9301229147611085` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145061 has offset 1).
 
 The definition of A145061 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001359, A006512, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7641,7 +7638,7 @@ The definition of A145061 is `conditional`: the Lean definition is an OEIS formu
 
 `(A001359(n+2)-A006512(n+1))/2`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A145061
@@ -11618,6 +11615,72 @@ def P12519590037899713282.Spec : Prop :=
 
 end A145071
 
+/-! ## A145071.P1330990967822759803
+
+`∑[2*a(n-1)-1]` with `a(0)=3`
+-/
+
+namespace A145071.P1330990967822759803
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [3] fun n f1 =>
+  2 * f1 (n - 1) - 1
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A145071.P1330990967822759803
+
+namespace A145071
+
+/-- `∑[2*a(n-1)-1]` -/
+def P1330990967822759803.Spec : Prop :=
+  ∀ n, P1330990967822759803.a n = A145071 (n + 1)
+
+end A145071
+
+/-! ## A145071.P10649779313102964113
+
+`2*(a(n-1)-(n-3)/2)` with `a(0)=3`
+-/
+
+namespace A145071.P10649779313102964113
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [3] fun n a =>
+  2 * (a (n - 1) - ((n : ℤ) - 3 : ℚ) / 2)
+
+end
+
+end A145071.P10649779313102964113
+
+namespace A145071
+
+/-- `2*(a(n-1)-(n-3)/2)` -/
+def P10649779313102964113.Spec : Prop :=
+  ∀ n, P10649779313102964113.a n = (A145071 (n + 1) : ℚ)
+
+theorem P10649779313102964113.correct : P10649779313102964113.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 =>
+      simp [A145071, Nat.add_sub_cancel, A145071.P10649779313102964113.a, A145071.P13247220487925818536.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 1 =>
+      have h1 := ih m (by omega)
+      simp only [A145071, Nat.add_sub_cancel, A145071.P10649779313102964113.a, A145071.P13247220487925818536.a, SequenceMachineLib.memo_apply] at h1 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 1 - 1 = m by omega, show m < m + 1 by omega, ↓reduceIte]
+      push_cast at h1 ⊢
+      rw [h1]
+      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
+
+end A145071
+
 /-! ## A145071.P2793016463257874733
 
 `∑[A048578(n)]`
@@ -12011,60 +12074,6 @@ namespace A145071
 /-- `∑[a(n-1)²-4^n]` -/
 def P14378352176548961321.Spec : Prop :=
   ∀ n, P14378352176548961321.a n = A145071 (n + 1)
-
-end A145071
-
-/-! ## A145071.P5656819191048708099
-
-`∑[a(n-1)*a(n-1)-4^n]` with `a(0)=3`
--/
-
-namespace A145071.P5656819191048708099
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [3] fun n f1 =>
-  f1 (n - 1) * f1 (n - 1) - (4 ^ n : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A145071.P5656819191048708099
-
-namespace A145071
-
-/-- `∑[a(n-1)*a(n-1)-4^n]` -/
-def P5656819191048708099.Spec : Prop :=
-  ∀ n, P5656819191048708099.a n = A145071 (n + 1)
-
-end A145071
-
-/-! ## A145071.P8210660656170855567
-
-`∑[floor(a(n-1)²-(1-a(n-1))²)]` with `a(0)=3`
-
-`floor` is left out, it is the identity on integers.
--/
-
-namespace A145071.P8210660656170855567
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [3] fun n f1 =>
-  f1 (n - 1) ^ 2 - (1 - f1 (n - 1)) ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A145071.P8210660656170855567
-
-namespace A145071
-
-/-- `∑[floor(a(n-1)²-(1-a(n-1))²)]` -/
-def P8210660656170855567.Spec : Prop :=
-  ∀ n, P8210660656170855567.a n = A145071 (n + 1)
 
 end A145071
 
@@ -13573,7 +13582,7 @@ end A145097.P5349574569994612239
 /-!
 # A145099: a(n) = 1 if the largest proper divisor of Mersenne composite A145097(n) is prime and a(n) = 0 in opposite case.
 
-The programs for A145099, the canonical program `A145099.P2105751496265712381` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145099 has offset 1).
+The programs for A145099, the canonical program `A145099.P2105751496265712381` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145099 has offset 1).
 
 The definition of A145099 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 183 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13582,7 +13591,7 @@ The definition of A145099 is `conjectured`: the Lean definition is a formula tha
 
 `C(2, A135975(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A145099

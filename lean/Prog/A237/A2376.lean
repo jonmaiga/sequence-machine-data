@@ -64,6 +64,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -1718,7 +1719,7 @@ end A237617
 
 The programs for A237618, the canonical program `A237618.P15585457411350196774` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237618 has offset 0).
 
-The definition of A237618 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A237618 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(n+1)*(19*n-16)/6` (program `A237618.P8461720297896645394`, by `A237618.P8461720297896645394.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A237618.P15585457411350196774
@@ -1762,6 +1763,12 @@ namespace A237618
 /-- `n*(n+1)*(19*n-16)/6` -/
 def P8461720297896645394.Spec : Prop :=
   ∀ n, P8461720297896645394.a n = (A237618 n : ℚ)
+
+theorem P8461720297896645394.correct : P8461720297896645394.Spec := by
+  intro n
+  simp only [A237618, Nat.add_sub_cancel, A237618.P8461720297896645394.a, A237618.P15585457411350196774.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A237618
 
@@ -2995,6 +3002,12 @@ namespace A237627
 /-- `A127435(n+1)*A127436(n+1)` -/
 def P13533178339518314588.Spec : Prop :=
   ∀ n, P13533178339518314588.a n = A237627 (n + 1)
+
+theorem P13533178339518314588.correct : P13533178339518314588.Spec := by
+  intro n
+  simp only [A237627, Nat.add_sub_cancel, A237627.P13533178339518314588.a, A237627.P1222492661179274990.a, A070689, A070689.P1393312578879141227.f1, A070689.P1393312578879141227.a, A127435, A127435.P10299367039698529313.a, A127436, A127436.P14963163916458495622.a, A067720, A067720.P10605338190023800648.f1, A067720.P10605338190023800648.f2, A067720.P10605338190023800648.a, A001065, A001065.P4097147489331274860.a, A053000, A053000.P7278427673394138104.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A013632, A013632.P6559946879985956067.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A237627
 
@@ -8383,7 +8396,7 @@ end A237682.P16241475921596060654
 
 The programs for A237684, the canonical program `A237684.P6315179612299634331` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237684 has offset 1).
 
-The definition of A237684 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007504, A033286, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A237684 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007504, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A237684.P6315179612299634331

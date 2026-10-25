@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -64,6 +65,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
+import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -96,6 +98,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A266900: Number of OFF (white) cells in the n-th iteration of the "Rule 75" elementary cellular automaton starting with a single ON (black) cell.
@@ -6952,6 +6958,12 @@ namespace A266976
 /-- `A113946(n)+A109765(n)` -/
 def P7686857114699417009.Spec : Prop :=
   ∀ n, P7686857114699417009.a n = A266976 n
+
+theorem P7686857114699417009.correct : P7686857114699417009.Spec := by
+  intro n
+  simp only [A266976, Nat.add_sub_cancel, A266976.P7686857114699417009.a, A266976.P13585763739715514676.a, A109765, A109765.P8514161902399201487.a, A113946, A113946.P1873626453072486687.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A266976
 

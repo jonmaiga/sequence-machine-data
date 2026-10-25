@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -93,6 +94,10 @@ import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
 
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
+
 /-!
 # A375500: a(n) = Sum_{k=0..n} A001595(k)^2.
 
@@ -172,6 +177,12 @@ namespace A375500
 /-- `∑[∑[A006355(n)]²]` -/
 def P1815487097805567528.Spec : Prop :=
   ∀ n, P1815487097805567528.a n = A375500 n
+
+theorem P1815487097805567528.correct : P1815487097805567528.Spec := by
+  intro n
+  simp only [A375500, Nat.add_sub_cancel, A375500.P1815487097805567528.f2, A375500.P1815487097805567528.f1, A375500.P1815487097805567528.a, A375500.P6330890797218212587.f2, A375500.P6330890797218212587.f1, A375500.P6330890797218212587.a, A006355, A006355.P1385237304681338080.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A375500
 
@@ -3160,6 +3171,21 @@ end
 
 end A375556.P4423024979311900187
 
+/-! ## A375556.P16248775131587401785
+
+`A005361(A000108(n))*A375587(n)`
+-/
+
+namespace A375556.P16248775131587401785
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005361 (A000108 n).toNat * A375587 n
+
+end
+
+end A375556.P16248775131587401785
+
 /-! ## A375556.P9822821875930562172
 
 `A071625(A123106(n))*A351156(n)`
@@ -3204,21 +3230,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A375556.P11631271277075523875
-
-/-! ## A375556.P83572732476286087
-
-`A375571(A375595(n+1))*A375587(n)`
--/
-
-namespace A375556.P83572732476286087
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A375571 (A375595 (n + 1)).toNat * A375587 n
-
-end
-
-end A375556.P83572732476286087
 
 /-!
 # A375557: Expansion of e.g.f. 1 / (1 - x * log(1 + x^2/2)).

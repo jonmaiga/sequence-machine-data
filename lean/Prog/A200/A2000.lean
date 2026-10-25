@@ -51,6 +51,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -4618,6 +4619,12 @@ namespace A200067
 def P15482082154409218756.Spec : Prop :=
   ∀ n, P15482082154409218756.a n = A200067 n
 
+theorem P15482082154409218756.correct : P15482082154409218756.Spec := by
+  intro n
+  simp only [A200067, Nat.add_sub_cancel, A200067.P15482082154409218756.a, A200067.P5475478222933441891.a, A034828, A034828.P560572460537490832.a, A190798, A190798.P17083894840847535071.f1, A190798.P17083894840847535071.a, A308265, A308265.P15256434610230684031.a, A004396, A004396.P17032557045289780609.a, A022003, A022003.P2606958226585023825.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A200067
 
 /-! ## A200067.P11563941104150457701
@@ -4711,6 +4718,25 @@ namespace A200069
 /-- `((2+sqrt(17))^(n+1)-(2-sqrt(17))^(n+1))/(2*sqrt(17))` -/
 def P13322764160219456724.Spec : Prop :=
   ∀ n, P13322764160219456724.a n = (A200069 (n + 1) : ℝ)
+
+theorem P13322764160219456724.correct : P13322764160219456724.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 =>
+      simp [A200069, Nat.add_sub_cancel, A200069.P13322764160219456724.a, A200069.P4010690251819971858.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+      try ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+    | m + 2 =>
+      have h1 := ih (m + 1) (by omega)
+      have h2 := ih m (by omega)
+      simp only [A200069, Nat.add_sub_cancel, A200069.P13322764160219456724.a, A200069.P4010690251819971858.a, SequenceMachineLib.memo_apply] at h1 h2 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 2 - 1 = m + 1 by omega, show m + 2 - 2 = m by omega, show m + 1 < m + 2 by omega, show m < m + 2 by omega, ↓reduceIte]
+      push_cast at h1 h2 ⊢
+      rw [← h1, ← h2]
+      first | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A200069
 

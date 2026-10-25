@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -47,6 +48,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B008.C000
@@ -82,6 +84,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A382302: Number of integer partitions of n with greatest part, greatest multiplicity, and number of distinct parts all equal.
@@ -2221,6 +2227,50 @@ end
 
 end A382352.P8633659560535675831
 
+/-! ## A382352.P8401556728875384636
+
+`∪[A000079(n), A206913(A002110(3*n+1))]`
+-/
+
+namespace A382352.P8401556728875384636
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000079 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A206913 (A002110 (3 * n + 1)).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A382352.P8401556728875384636
+
+/-! ## A382352.P14940462791726605923
+
+`∪[A000079(n), A000201(A385345(3*n+1))]`
+-/
+
+namespace A382352.P14940462791726605923
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000079 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000201 (A385345 (3 * n + 1)).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A382352.P14940462791726605923
+
 /-!
 # A382354: Triangle T(n,k) read by rows, where row n is a permutation of the numbers 1 through n, such that if a deck of n cards is prepared in this order, and under-down-under dealing is used, then the resulting cards will be dealt in increasing order.
 
@@ -2742,6 +2792,12 @@ namespace A382362
 /-- `(n+1)*A232545(n+2)` -/
 def P2178645466952208506.Spec : Prop :=
   ∀ n, P2178645466952208506.a n = A382362 (n + 2)
+
+theorem P2178645466952208506.correct : P2178645466952208506.Spec := by
+  intro n
+  simp only [A382362, Nat.add_sub_cancel, A382362.P2178645466952208506.a, A382362.P16241766810211919050.a, A232545, A232545.P9042853396768078664.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A382362
 

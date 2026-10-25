@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -79,7 +80,6 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -90,6 +90,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A294900: Numbers k such that k = sum of nonabundant proper divisors of k (A294888).
@@ -3750,6 +3754,12 @@ namespace A294934
 def P10076586354595761288.Spec : Prop :=
   ∀ n, P10076586354595761288.a n = A294934 (n + 1)
 
+theorem P10076586354595761288.correct : P10076586354595761288.Spec := by
+  intro n
+  simp only [A294934, Nat.add_sub_cancel, A294934.P10076586354595761288.a, A294934.P6887900065844113771.f1, A294934.P6887900065844113771.a, A294936, A294936.P10769920400480544505.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A294934
 
 /-! ## A294934.P6887900065844113771
@@ -4257,6 +4267,12 @@ namespace A294935
 def P16224516195511684951.Spec : Prop :=
   ∀ n, P16224516195511684951.a n = A294935 (n + 1)
 
+theorem P16224516195511684951.correct : P16224516195511684951.Spec := by
+  intro n
+  simp only [A294935, Nat.add_sub_cancel, A294935.P16224516195511684951.a, A294935.P4767353041558056281.f1, A294935.P4767353041558056281.a, A294937, A294937.P16064831210993750001.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A294935
 
 /-! ## A294935.P4767353041558056281
@@ -4742,6 +4758,12 @@ namespace A294936
 /-- `floor(∑{d}[n+1, 1/(2*#)])` -/
 def P13996615914099103422.Spec : Prop :=
   ∀ n, P13996615914099103422.a n = A294936 (n + 1)
+
+theorem P13996615914099103422.correct : P13996615914099103422.Spec := by
+  intro n
+  simp only [A294936, Nat.add_sub_cancel, A294936.P13996615914099103422.f1, A294936.P13996615914099103422.a, A294936.P10769920400480544505.a, A294934, A294934.P6887900065844113771.f1, A294934.P6887900065844113771.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A294936
 

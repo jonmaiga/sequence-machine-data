@@ -49,6 +49,7 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B008.C000
@@ -888,20 +889,20 @@ end
 
 end A316917.P8628414606711427213
 
-/-! ## A316917.P328081274914660232
+/-! ## A316917.P17463251831932831081
 
-`A104015(A170933(n))`
+`A275606(A089309(n+1)+A061884(2*(n+1)))`
 -/
 
-namespace A316917.P328081274914660232
+namespace A316917.P17463251831932831081
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A104015 (A170933 n).toNat
+  A275606 (A089309 (n + 1) + A061884 (2 * (n + 1))).toNat
 
 end
 
-end A316917.P328081274914660232
+end A316917.P17463251831932831081
 
 /-!
 # A316919: Number of nXn 0..1 arrays with every element unequal to 0, 1, 3, 4, 5, 6 or 7 king-move adjacent elements, with upper left element zero.
@@ -3075,7 +3076,7 @@ end A316939.P609016073329737979
 
 The programs for A316942, the canonical program `A316942.P5991862015660287509` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316942 has offset 1).
 
-The definition of A316942 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000720, A062298, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A316942 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A316942.P5991862015660287509
@@ -4480,7 +4481,7 @@ end A316963.P9807675633863920953
 /-!
 # A316964: Same as A316669, except numbering of the squares starts at 0 rather than 1.
 
-The programs for A316964, the canonical program `A316964.P17608788837257111621` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316964 has offset 0).
+The programs for A316964, the canonical program `A316964.P17608788837257111621` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316964 has offset 0).
 
 The definition of A316964 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4489,7 +4490,7 @@ The definition of A316964 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A193592(n)]+n`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A316964
@@ -5162,6 +5163,32 @@ namespace A316966
 /-- `1+(n+2)*(n-(-1)^n)/2` -/
 def P2954345592620064588.Spec : Prop :=
   ∀ n, P2954345592620064588.a n = (A316966 n : ℚ)
+
+end A316966
+
+/-! ## A316966.P7308723871274112537
+
+`∑[a(n-2)-floor(4/a(n-1))]` with `a(0)=0, a(1)=4`
+-/
+
+namespace A316966.P7308723871274112537
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [0, 4] fun n f1 =>
+  f1 (n - 2) - ⌊4 / (f1 (n - 1) : ℚ)⌋
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A316966.P7308723871274112537
+
+namespace A316966
+
+/-- `∑[a(n-2)-floor(4/a(n-1))]` -/
+def P7308723871274112537.Spec : Prop :=
+  ∀ n, P7308723871274112537.a n = A316966 n
 
 end A316966
 

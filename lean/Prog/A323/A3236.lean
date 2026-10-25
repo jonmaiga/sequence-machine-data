@@ -41,7 +41,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C007
+import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -55,6 +55,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -3141,7 +3142,7 @@ end A323640.P7813705882460429328
 /-!
 # A323641: Triangle read by rows in which row n lists the first 2^n terms of A323642, n >= 1.
 
-The programs for A323641, the canonical program `A323641.P1592555987281222169` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323641 has offset 1).
+The programs for A323641, the canonical program `A323641.P1592555987281222169` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323641 has offset 1).
 
 The definition of A323641 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A323651, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3150,7 +3151,7 @@ The definition of A323641 is `conditional`: the Lean definition is an OEIS formu
 
 `A323651(n+3)/4`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A323641
@@ -4944,7 +4945,7 @@ end A323649.P9269937968294874932
 /-!
 # A323650: Flower garden sequence (see Comments for precise definition).
 
-The programs for A323650, the canonical program `A323650.P9549203786306784903` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323650 has offset 0).
+The programs for A323650, the canonical program `A323650.P9549203786306784903` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323650 has offset 0).
 
 The definition of A323650 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4953,7 +4954,7 @@ The definition of A323650 is `conjectured`: the Lean definition is a formula tha
 
 `A323651(n)+a(n-1)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A323650
@@ -5267,6 +5268,12 @@ namespace A323651
 def P1355237481900075217.Spec : Prop :=
   ∀ n, P1355237481900075217.a n = A323651 (n + 1)
 
+theorem P1355237481900075217.correct : P1355237481900075217.Spec := by
+  intro n
+  simp only [A323651, Nat.add_sub_cancel, A323651.P1355237481900075217.a, A323651.P5601353070125800456.a, A000034, A000034.P10773112074177680709.a, A147582, A147582.P8026772899085515765.a, A048883, A048883.P5685372570370684853.a, A053644, A053644.P1707366427427647095.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A323651
 
 /-! ## A323651.P15011494015984057821
@@ -5312,6 +5319,12 @@ namespace A323651
 /-- `(A000035(n)+1)*A147582(or(1, n))` -/
 def P9816432694266738431.Spec : Prop :=
   ∀ n, P9816432694266738431.a n = A323651 (n + 1)
+
+theorem P9816432694266738431.correct : P9816432694266738431.Spec := by
+  intro n
+  simp only [A323651, Nat.add_sub_cancel, A323651.P9816432694266738431.a, A323651.P5601353070125800456.a, A000035, A000035.P2023072528413494694.a, A147582, A147582.P8026772899085515765.a, A048883, A048883.P5685372570370684853.a, A053644, A053644.P1707366427427647095.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A323651
 

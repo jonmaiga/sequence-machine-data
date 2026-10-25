@@ -50,6 +50,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
@@ -61,6 +62,7 @@ import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -4222,6 +4224,24 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A269929.P4585223719075785801
+
+/-! ## A269929.P6768498237338001859
+
+`record[A024361(n+1)+A328949(n+1)+A024362(n+1)]`
+-/
+
+namespace A269929.P6768498237338001859
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A024361 (n + 1) + (A328949 (n + 1) + A024362 (n + 1))
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A269929.P6768498237338001859
 
 /-!
 # A269930: Primes whose digits are all prime, sum of digits is prime and sum of reciprocals of digits is also prime.

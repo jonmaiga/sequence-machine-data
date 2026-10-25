@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -50,7 +51,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B009.C000
 import Seq.B010.C000
@@ -81,6 +81,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A297300: Number of 3 X n 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 2 neighboring 1s.
@@ -6009,6 +6013,12 @@ namespace A297381
 def P4609199837958693680.Spec : Prop :=
   ∀ n, P4609199837958693680.a n = A297381 (n + 1)
 
+theorem P4609199837958693680.correct : P4609199837958693680.Spec := by
+  intro n
+  simp only [A297381, Nat.add_sub_cancel, A297381.P4609199837958693680.a, A297381.P12976311845768696802.f1, A297381.P12976311845768696802.a, A349431, A349431.P2521683173006061280.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A297381
 
 /-! ## A297381.P5468094423525692393
@@ -6107,6 +6117,12 @@ namespace A297381
 /-- `Δ[A349431(n+1)]-A349431(n+2)` -/
 def P5008312607198478592.Spec : Prop :=
   ∀ n, P5008312607198478592.a n = A297381 (n + 1)
+
+theorem P5008312607198478592.correct : P5008312607198478592.Spec := by
+  intro n
+  simp only [A297381, Nat.add_sub_cancel, A297381.P5008312607198478592.f1, A297381.P5008312607198478592.a, A297381.P12976311845768696802.f1, A297381.P12976311845768696802.a, A349431, A349431.P2521683173006061280.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A297381
 

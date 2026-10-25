@@ -66,7 +66,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -83,7 +82,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -1900,7 +1898,7 @@ end A284619.P14764655095518611367
 /-!
 # A284620: {00->2}-transform of the infinite Fibonacci word A003849.
 
-The programs for A284620, the canonical program `A284620.P13390262342659901568` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A284620 has offset 1).
+The programs for A284620, the canonical program `A284620.P13390262342659901568` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A284620 has offset 1).
 
 The definition of A284620 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1955,7 +1953,7 @@ end A284620
 
 `and(A063037(n+1), A134451(n))`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A284620
@@ -8908,6 +8906,12 @@ namespace A284676
 /-- `A284678(n+1)-3*n` -/
 def P17435775191033246929.Spec : Prop :=
   ∀ n, P17435775191033246929.a n = A284676 (n + 1)
+
+theorem P17435775191033246929.correct : P17435775191033246929.Spec := by
+  intro n
+  simp only [A284676, Nat.add_sub_cancel, A284676.P17435775191033246929.a, A284676.P13125789313070463235.a, A284678, A284678.P13700835878893103956.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A284676
 

@@ -58,6 +58,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -2725,7 +2726,7 @@ end A253235
 /-!
 # A253236: The unique prime p <= n such that n-th cyclotomic polynomial has a root mod p, or 0 if no such p exists.
 
-The programs for A253236, the canonical program `A253236.P9116711881590204222` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253236 has offset 1).
+The programs for A253236, the canonical program `A253236.P9116711881590204222` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253236 has offset 1).
 
 The definition of A253236 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2806,7 +2807,7 @@ end A253236
 
 `∑{p}[A014963((n+1)/gcd(n+1, 1-A006530(n+1))), #]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A253236
@@ -3260,6 +3261,12 @@ namespace A253243
 /-- `A112848(4*n+1)` -/
 def P1493524335562893907.Spec : Prop :=
   ∀ n, P1493524335562893907.a n = A253243 n
+
+theorem P1493524335562893907.correct : P1493524335562893907.Spec := by
+  intro n
+  simp only [A253243, Nat.add_sub_cancel, A253243.P1493524335562893907.a, A253243.P16913495343360513967.a, A112848, A112848.P9414413279454382001.f1, A112848.P9414413279454382001.a, A123530, A123530.P615654561327355968.a, A049347, A049347.P9996747395155426839.a, A117188, A117188.P8831629070024374832.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A253243
 
@@ -6275,24 +6282,6 @@ end
 
 end A253268.P5342052263164195025
 
-/-! ## A253268.P608834000580708690
-
-`(Δ[A000045(n)]+A000045(n))^(n+1)*a(n-1)` with `a(0)=1`
--/
-
-namespace A253268.P608834000580708690
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000045 n
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  (f1 (n + 1) - f1 n + A000045 n) ^ (n + 1) * a (n - 1)
-
-end
-
-end A253268.P608834000580708690
-
 /-!
 # A253272: Triangular array read by rows: T(h,k) = number of steps from (h,k) to (0,0), where one step is (x,y) -> (x-1, y) if x is odd or (x,y) -> (y, x/2) if x is even, except that (2,0) -> (1,0).
 
@@ -6711,6 +6700,21 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A253277.P10793596051839607075
+
+/-! ## A253277.P12320152647963494180
+
+`3*A094838(2*(n+1))`
+-/
+
+namespace A253277.P12320152647963494180
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  3 * A094838 (2 * (n + 1))
+
+end
+
+end A253277.P12320152647963494180
 
 /-!
 # A253281: Triangular array read by rows: T(h,k) = number of steps from (h,k) to (0,0), where allowable steps are as follows: (x,y) -> (x-r, y) if r > 0, and (x,y) -> (y, r/3) otherwise, where r = x mod 3.
@@ -8268,6 +8272,48 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A253296.P12605580200926503126
+
+/-! ## A253296.P10490802524677155524
+
+`lt[A090864(n+1), A335125(2*(n+1))]+1`
+-/
+
+namespace A253296.P10490802524677155524
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090864 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335125 (2 * (n + 1))
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n + 1
+
+end
+
+end A253296.P10490802524677155524
+
+/-! ## A253296.P14733933748713095333
+
+`lt[A308468(n+1), A335125(2*(n+1))]+1`
+-/
+
+namespace A253296.P14733933748713095333
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A308468 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A335125 (2 * (n + 1))
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n + 1
+
+end
+
+end A253296.P14733933748713095333
 
 /-!
 # A253297: Primes p for which some multiple k*p > 2*p appears before p does in A098550.

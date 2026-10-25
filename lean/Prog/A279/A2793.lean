@@ -59,10 +59,8 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -3313,6 +3311,12 @@ namespace A279340
 def P681668036400080118.Spec : Prop :=
   ∀ n, P681668036400080118.a n = A279340 (n + 1)
 
+theorem P681668036400080118.correct : P681668036400080118.Spec := by
+  intro n
+  simp only [A279340, Nat.add_sub_cancel, A279340.P681668036400080118.f1, A279340.P681668036400080118.a, A279340.P3137699239334451419.a, A045412, A045412.P17699345519846233104.f1, A045412.P17699345519846233104.a, A055938, A055938.P11436454756649086681.a, A079559, A079559.P6833565121082423031.a, A043545, A043545.P6199121594405564387.a, A053644, A053644.P1707366427427647095.a, A036987, A036987.P1789601236562705309.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A279340
 
 /-! ## A279340.P10170324426835453309
@@ -3437,6 +3441,12 @@ namespace A279340
 /-- `A045412(n+2)-A045412(n+1)` -/
 def P1074494639721798091.Spec : Prop :=
   ∀ n, P1074494639721798091.a n = A279340 (n + 1)
+
+theorem P1074494639721798091.correct : P1074494639721798091.Spec := by
+  intro n
+  simp only [A279340, Nat.add_sub_cancel, A279340.P1074494639721798091.a, A279340.P3137699239334451419.a, A045412, A045412.P17699345519846233104.f1, A045412.P17699345519846233104.a, A055938, A055938.P11436454756649086681.a, A079559, A079559.P6833565121082423031.a, A043545, A043545.P6199121594405564387.a, A053644, A053644.P1707366427427647095.a, A036987, A036987.P1789601236562705309.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A279340
 
@@ -5600,7 +5610,7 @@ end A279356.P6093579675963271204
 /-!
 # A279357: a(n) = A005187(n) XOR A005187(n+1).
 
-The programs for A279357, the canonical program `A279357.P8695073576768170559` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279357 has offset 0).
+The programs for A279357, the canonical program `A279357.P8695073576768170559` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279357 has offset 0).
 
 The definition of A279357 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5609,7 +5619,7 @@ The definition of A279357 is `conjectured`: the Lean definition is a formula tha
 
 `xor(Δ[A122247(n)], A005187(n))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A279357
@@ -5977,7 +5987,7 @@ end A279361.P16148327313078326952
 /-!
 # A279363: Sum of 4th powers of proper divisors of n.
 
-The programs for A279363, the canonical program `A279363.P36880166466637901` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279363 has offset 1).
+The programs for A279363, the canonical program `A279363.P36880166466637901` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279363 has offset 1).
 
 The definition of A279363 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001159, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5986,7 +5996,7 @@ The definition of A279363 is `conditional`: the Lean definition is an OEIS formu
 
 `A001159(n+1)-A000583(n+1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A279363

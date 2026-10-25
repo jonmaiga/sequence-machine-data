@@ -41,16 +41,14 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C001
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
-import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1600,20 +1598,20 @@ end
 
 end A394952.P7906324011794949028
 
-/-! ## A394952.P13891980517973195881
+/-! ## A394952.P11949528842075987004
 
-`A000006(A324171(n)+A000312(n))`
+`A149440(n)+A001899(A001147(n))`
 -/
 
-namespace A394952.P13891980517973195881
+namespace A394952.P11949528842075987004
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000006 (A324171 n + A000312 n).toNat
+  A149440 n + A001899 (A001147 n).toNat
 
 end
 
-end A394952.P13891980517973195881
+end A394952.P11949528842075987004
 
 /-!
 # A394953: Number of equivalence classes of well-formed bracketed words of total length 2n built from the symbol * (of length 2) and four unary bracket types (), [], {}, and <>, with no empty bracket pair, modulo commutativity of concatenation, where every maximal chain of unary brackets is written in canonical weakly increasing order.

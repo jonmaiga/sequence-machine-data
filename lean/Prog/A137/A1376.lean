@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -89,6 +90,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A137600: Numbers n such that sigma(sigma(n))-phi(phi(n)) = 3n.
@@ -6501,6 +6506,12 @@ namespace A137687
 /-- `A081399(n)-A137686(n)` -/
 def P10804638588007714536.Spec : Prop :=
   ∀ n, P10804638588007714536.a n = A137687 n
+
+theorem P10804638588007714536.correct : P10804638588007714536.Spec := by
+  intro n
+  simp only [A137687, Nat.add_sub_cancel, A137687.P10804638588007714536.a, A137687.P10130203708334766371.a, A081399, A081399.P317381506345155066.f1, A081399.P317381506345155066.a, A137686, A137686.P2137066375668895625.a, A111284, A111284.P17476789545775434546.a, A252736, A252736.P2865412191134230649.f1, A252736.P2865412191134230649.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A137687
 

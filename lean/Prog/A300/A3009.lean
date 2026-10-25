@@ -52,10 +52,9 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -4382,7 +4381,7 @@ end A300950.P1286630560321977606
 /-!
 # A300951: a(n) = Product_{j=1..floor(n/2)} p(j) where p(j) = j if j is prime else 1.
 
-The programs for A300951, the canonical program `A300951.P16227161527495429065` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300951 has offset 0).
+The programs for A300951, the canonical program `A300951.P16227161527495429065` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300951 has offset 0).
 
 The definition of A300951 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 502 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4414,7 +4413,7 @@ end A300951
 
 `lcm(a(n-2), A014963(floor(n/2)))` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A300951

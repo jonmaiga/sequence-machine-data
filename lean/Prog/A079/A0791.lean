@@ -56,11 +56,11 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -5546,7 +5546,7 @@ end A079141.P16687665063585519715
 /-!
 # A079142: Numbers divisible by prime integer parts of their square roots.
 
-The programs for A079142, the canonical program `A079142.P3719242836369458363` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A079142 has offset 0).
+The programs for A079142, the canonical program `A079142.P3719242836369458363` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A079142 has offset 0).
 
 The definition of A079142 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5584,7 +5584,7 @@ end A079142
 
 `record[A014963(A008624(n)+1)*A008624(n+9)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A079142

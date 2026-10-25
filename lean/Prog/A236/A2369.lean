@@ -58,7 +58,6 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
-import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
@@ -1551,20 +1550,20 @@ end
 
 end A236915.P6575475445654089041
 
-/-! ## A236915.P14822743457270246350
+/-! ## A236915.P7761494105027680392
 
-`A124530(A202784(n))*A236939(n)`
+`A236939(n)+A185284(A305148(n))`
 -/
 
-namespace A236915.P14822743457270246350
+namespace A236915.P7761494105027680392
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124530 (A202784 n).toNat * A236939 (n + 10)
+  A236939 (n + 10) + A185284 (A305148 n).toNat
 
 end
 
-end A236915.P14822743457270246350
+end A236915.P7761494105027680392
 
 /-!
 # A236916: The first "octad" is 0, 1, 2, 2, 2, 2, 3, 3; thereafter add 4 to get the next octad.
@@ -5858,7 +5857,7 @@ end A236958.P8457084940486066911
 
 The programs for A236959, the canonical program `A236959.P4408222998361723081` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236959 has offset 1).
 
-The definition of A236959 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006093, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A236959 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A236959.P4408222998361723081
@@ -6726,7 +6725,7 @@ end A236964.P8550122494751402479
 
 The programs for A236965, the canonical program `A236965.P13563175010307940546` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236965 has offset 1).
 
-The definition of A236965 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006093, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A236965 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A236965.P13563175010307940546

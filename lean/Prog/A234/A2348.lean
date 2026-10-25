@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -42,10 +43,9 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B008.C001
+import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -57,7 +57,6 @@ import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
-import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
@@ -75,6 +74,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A234801: Start of a record-breaking run of consecutive arithmetic numbers.
@@ -612,6 +615,27 @@ end A234811
 The programs for A234813, there is no canonical definition to state claims against.
 -/
 
+/-! ## A234813.P8821036603792368216
+
+`∑[abs(Δ[A334821(n)])]`
+-/
+
+namespace A234813.P8821036603792368216
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A334821 n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  |f2 (n + 1) - f2 n|
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A234813.P8821036603792368216
+
 /-! ## A234813.P4592990626536118006
 
 `A334821(n+1)-1`
@@ -626,27 +650,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A234813.P4592990626536118006
-
-/-! ## A234813.P444785874565478516
-
-`Δ[∑[A334821(n)]-n]`
--/
-
-namespace A234813.P444785874565478516
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A334821 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j - (n : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A234813.P444785874565478516
 
 /-! ## A234813.P12886849786798329057
 
@@ -3380,6 +3383,12 @@ namespace A234850
 def P5163960851746532003.Spec : Prop :=
   ∀ n, P5163960851746532003.a n = A234850 (n + 1)
 
+theorem P5163960851746532003.correct : P5163960851746532003.Spec := by
+  intro n
+  simp only [A234850, Nat.add_sub_cancel, A234850.P5163960851746532003.f1, A234850.P5163960851746532003.a, A234850.P3773910976127958889.f1, A234850.P3773910976127958889.a, A014692, A014692.P9638241683399049963.f1, A014692.P9638241683399049963.a, A095116, A095116.P1610433664583290048.f1, A095116.P1610433664583290048.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A234850
 
 /-! ## A234850.P15354531807893006267
@@ -4029,20 +4038,20 @@ end
 
 end A234859.P3940596836859478184
 
-/-! ## A234859.P16171900816709481945
+/-! ## A234859.P13633384043993644241
 
-`A118458(A046775(n))`
+`A032548(A032538(n+1))%A010122(n)`
 -/
 
-namespace A234859.P16171900816709481945
+namespace A234859.P13633384043993644241
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A118458 (A046775 n).toNat
+  Int.tmod (A032548 (A032538 (n + 1)).toNat) (A010122 n)
 
 end
 
-end A234859.P16171900816709481945
+end A234859.P13633384043993644241
 
 /-!
 # A234860: Sum of the divisors of n^3 - 1.

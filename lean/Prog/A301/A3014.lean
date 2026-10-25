@@ -47,10 +47,11 @@ import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -65,6 +66,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -3310,6 +3312,31 @@ def P15796471965952258657.Spec : Prop :=
 
 end A301451
 
+/-! ## A301451.P11188621746831360920
+
+`floor(a(n-1)-3*(gcd(2, n)-3))` with `a(0)=1`
+
+`floor` is left out, it is the identity on integers.
+-/
+
+namespace A301451.P11188621746831360920
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  a (n - 1) - 3 * ((Nat.gcd 2 n : ℤ) - 3)
+
+end
+
+end A301451.P11188621746831360920
+
+namespace A301451
+
+/-- `floor(a(n-1)-3*(gcd(2, n)-3))` -/
+def P11188621746831360920.Spec : Prop :=
+  ∀ n, P11188621746831360920.a n = A301451 (n + 1)
+
+end A301451
+
 /-! ## A301451.P3056350791562547088
 
 `eq[3*(2*n+1), lcm(9, 2*n+1)]`
@@ -3542,29 +3569,6 @@ namespace A301451
 /-- `∪[A017173(n), A017245(n)]` -/
 def P9534770022927501509.Spec : Prop :=
   ∀ n, (P9534770022927501509.a n : ℤ) = A301451 (n + 1)
-
-end A301451
-
-/-! ## A301451.P10812171804303809305
-
-`A017449(n)%A092464(n+1)`
--/
-
-namespace A301451.P10812171804303809305
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A017449 n) (A092464 (n + 1))
-
-end
-
-end A301451.P10812171804303809305
-
-namespace A301451
-
-/-- `A017449(n)%A092464(n+1)` -/
-def P10812171804303809305.Spec : Prop :=
-  ∀ n, P10812171804303809305.a n = A301451 (n + 1)
 
 end A301451
 

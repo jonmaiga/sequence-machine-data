@@ -61,7 +61,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -3704,7 +3703,7 @@ end A107736.P11950678139658083718
 /-!
 # A107737: Numbers n such that, in prime decomposition of n, sum of all prime factors and their orders is prime.
 
-The programs for A107737, the canonical program `A107737.P10847822241434354246` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107737 has offset 1).
+The programs for A107737, the canonical program `A107737.P10847822241434354246` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107737 has offset 1).
 
 The definition of A107737 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3713,7 +3712,7 @@ The definition of A107737 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, ∑{e}[A008474(n+1), #]]+1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A107737
@@ -7257,6 +7256,12 @@ namespace A107755
 def P8956041411522460827.Spec : Prop :=
   ∀ n, P8956041411522460827.a n = A107755 (n + 1)
 
+theorem P8956041411522460827.correct : P8956041411522460827.Spec := by
+  intro n
+  simp only [A107755, Nat.add_sub_cancel, A107755.P8956041411522460827.a, A107755.P8010610364266313592.a, A074938, A074938.P9120139472351872222.a, A089118, A089118.P9208626228526382448.a, A092436, A092436.P18053594016097437094.a, A010059, A010059.P6338678923093357896.a, A010060, A010060.P3080921269106500717.a, A081601, A081601.P7694742959722061994.a, A000035, A000035.P2023072528413494694.a, A000120, A000120.P2816527436160941581.a, A005836, A005836.P12367569128854000442.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A107755
 
 /-! ## A107755.P711605238039541918
@@ -7523,6 +7528,12 @@ namespace A107756
 /-- `A189822(n+1)-2` -/
 def P18340174244702729794.Spec : Prop :=
   ∀ n, P18340174244702729794.a n = A107756 (n + 1)
+
+theorem P18340174244702729794.correct : P18340174244702729794.Spec := by
+  intro n
+  simp only [A107756, Nat.add_sub_cancel, A107756.P18340174244702729794.a, A107756.P8154172557650536797.a, A074940, A074940.P6538437615375467476.f1, A074940.P6538437615375467476.f2, A074940.P6538437615375467476.a, A189822, A189822.P9995875126507270326.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A107756
 
@@ -10150,6 +10161,12 @@ namespace A107770
 def P14585082361732854469.Spec : Prop :=
   ∀ n, P14585082361732854469.a n = A107770 (n + 1)
 
+theorem P14585082361732854469.correct : P14585082361732854469.Spec := by
+  intro n
+  simp only [A107770, Nat.add_sub_cancel, A107770.P14585082361732854469.a, A107770.P17401578179323890031.a, A029707, A029707.P9157915946838587551.f1, A029707.P9157915946838587551.a, A155752, A155752.P6228689506561445427.a, A242767, A242767.P6276449245007787369.a, A027833, A027833.P2673229578852313683.f2, A027833.P2673229578852313683.f3, A027833.P2673229578852313683.f1, A027833.P2673229578852313683.a, A001223, A001223.P5083310856331133973.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A107770
 
 /-! ## A107770.P1712242152720869324
@@ -10175,6 +10192,12 @@ namespace A107770
 /-- `∑[A242767(n+2)]+2` -/
 def P1712242152720869324.Spec : Prop :=
   ∀ n, P1712242152720869324.a n = A107770 (n + 1)
+
+theorem P1712242152720869324.correct : P1712242152720869324.Spec := by
+  intro n
+  simp only [A107770, Nat.add_sub_cancel, A107770.P1712242152720869324.f1, A107770.P1712242152720869324.a, A107770.P17401578179323890031.a, A029707, A029707.P9157915946838587551.f1, A029707.P9157915946838587551.a, A242767, A242767.P6276449245007787369.a, A027833, A027833.P2673229578852313683.f2, A027833.P2673229578852313683.f3, A027833.P2673229578852313683.f1, A027833.P2673229578852313683.a, A001223, A001223.P5083310856331133973.a, A046933, A046933.P9479947770746769512.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A107770
 
@@ -13883,7 +13906,7 @@ end A107796.P15797309744185439779
 /-!
 # A107797: a(n) = phi(Padovan(n+4)).
 
-The programs for A107797, the canonical program `A107797.P5611527584116679134` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107797 has offset 1).
+The programs for A107797, the canonical program `A107797.P5611527584116679134` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107797 has offset 1).
 
 The definition of A107797 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -13892,7 +13915,7 @@ The definition of A107797 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A134816(n+1))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A107797

@@ -57,6 +57,7 @@ import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -98,23 +99,23 @@ import Seq.Opaque.C025
 The programs for A039800, there is no canonical definition to state claims against.
 -/
 
-/-! ## A039800.P17496645318781938193
+/-! ## A039800.P6482529645684226760
 
-`A038498(∑[n]+1)`
+`A038498(1+∑[n])`
 -/
 
-namespace A039800.P17496645318781938193
+namespace A039800.P6482529645684226760
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A038498 (∑ j ∈ Finset.range (n + 1), f1 j + 1)
+  A038498 (1 + ∑ j ∈ Finset.range (n + 1), f1 j)
 
 end
 
-end A039800.P17496645318781938193
+end A039800.P6482529645684226760
 
 /-! ## A039800.P1161802213338831176
 
@@ -1749,7 +1750,7 @@ end A039815.P18158954232993499814
 
 The programs for A039819, the canonical program `A039819.P17715660467556399268` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039819 has offset 1).
 
-The definition of A039819 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A033950, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A039819 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A033950, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A039819.P16175777172867380451

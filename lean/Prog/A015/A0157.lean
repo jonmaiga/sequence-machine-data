@@ -49,6 +49,7 @@ import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -2823,6 +2824,29 @@ def P4354051966397304473.Spec : Prop :=
 
 end A015726
 
+/-! ## A015726.P2354845655031016633
+
+`A010054(A235043(n)²²)`
+-/
+
+namespace A015726.P2354845655031016633
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A010054 ((A235043 n ^ 2) ^ 2).toNat
+
+end
+
+end A015726.P2354845655031016633
+
+namespace A015726
+
+/-- `A010054(A235043(n)²²)` -/
+def P2354845655031016633.Spec : Prop :=
+  ∀ n, P2354845655031016633.a n = A015726 n
+
+end A015726
+
 /-! ## A015726.P13560140108021076682
 
 `∏{d}[A025153(n), A010057(#)]`
@@ -4310,7 +4334,7 @@ end A015733
 /-!
 # A015734: Odd numbers k such that d(k) does not divide phi(k).
 
-The programs for A015734, the canonical program `A015734.P13178663633944902549` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015734 has offset 1).
+The programs for A015734, the canonical program `A015734.P13178663633944902549` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015734 has offset 1).
 
 The definition of A015734 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1837 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4379,7 +4403,7 @@ end A015734
 
 `A015733(eq[1, A015733(n+1)%2]+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A015734
@@ -8147,7 +8171,7 @@ end A015760.P17938784529408158332
 /-!
 # A015761: Numbers k such that phi(k) | sigma_3(k).
 
-The programs for A015761, the canonical program `A015761.P5986724967069183809` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015761 has offset 1).
+The programs for A015761, the canonical program `A015761.P5986724967069183809` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015761 has offset 1).
 
 The definition of A015761 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 266 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8156,7 +8180,7 @@ The definition of A015761 is `conjectured`: the Lean definition is a formula tha
 
 `record[gcd(n+1, A001158(n+1)%A000010(n+1))]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A015761
@@ -8308,7 +8332,7 @@ end A015762.P2324679675419383821
 /-!
 # A015763: Numbers k such that phi(k) divides sigma_5(k).
 
-The programs for A015763, the canonical program `A015763.P16867863019437908684` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015763 has offset 1).
+The programs for A015763, the canonical program `A015763.P16867863019437908684` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015763 has offset 1).
 
 The definition of A015763 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 195 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8317,7 +8341,7 @@ The definition of A015763 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A001160(n+1)%A000010(n+1), 1]+1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A015763

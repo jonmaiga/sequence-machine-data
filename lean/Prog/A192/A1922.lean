@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -53,8 +54,8 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -94,6 +95,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A192200: Monotonic ordering of nonnegative differences 9^i-5^j, for 40>= i>=0, j>=0.
@@ -4921,6 +4926,12 @@ namespace A192245
 def P4721483441708185663.Spec : Prop :=
   ∀ n, P4721483441708185663.a n = A192245 (n + 1)
 
+theorem P4721483441708185663.correct : P4721483441708185663.Spec := by
+  intro n
+  simp only [A192245, Nat.add_sub_cancel, A192245.P4721483441708185663.a, A192245.P7575187329844493871.f2, A192245.P7575187329844493871.f1, A192245.P7575187329844493871.a, A001611, A001611.P2764665205649475385.a, A117152, A117152.P11692183672418118795.f1, A117152.P11692183672418118795.a, A192142, A192142.P14644412906987799282.a, A086926, A086926.P11568517746438091352.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A192245
 
 /-! ## A192245.P4916872411697460966
@@ -4966,6 +4977,12 @@ namespace A192245
 /-- `2*A192255(n+1)-A192146(n+1)` -/
 def P16343344543425070557.Spec : Prop :=
   ∀ n, P16343344543425070557.a n = A192245 (n + 1)
+
+theorem P16343344543425070557.correct : P16343344543425070557.Spec := by
+  intro n
+  simp only [A192245, Nat.add_sub_cancel, A192245.P16343344543425070557.a, A192245.P7575187329844493871.f2, A192245.P7575187329844493871.f1, A192245.P7575187329844493871.a, A001611, A001611.P2764665205649475385.a, A192146, A192146.P11104704368216114941.a, A192255, A192255.P15495661104029478180.f1, A192255.P15495661104029478180.a, A001511, A001511.P17146462531039486101.a, A157726, A157726.P9748439790048040918.a, A006519, A006519.P10435570611646570274.a, A171977, A171977.P14092944863121073856.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A192245
 
@@ -6144,7 +6161,7 @@ end A192254
 /-!
 # A192255: 1-sequence of reduction of (n^2) by x^2 -> x+1.
 
-The programs for A192255, the canonical program `A192255.P15495661104029478180` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192255 has offset 1).
+The programs for A192255, the canonical program `A192255.P15495661104029478180` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192255 has offset 1).
 
 The definition of A192255 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 453 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6202,7 +6219,7 @@ end A192255
 
 `∑[(A157726(n)-3)*(n+1)²]*A001511(2*n+5)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A192255
@@ -6260,6 +6277,12 @@ namespace A192255
 /-- `(A192245(n+1)+A192146(n+1))/2` -/
 def P1796401464746331156.Spec : Prop :=
   ∀ n, P1796401464746331156.a n = (A192255 (n + 1) : ℚ)
+
+theorem P1796401464746331156.correct : P1796401464746331156.Spec := by
+  intro n
+  simp only [A192255, Nat.add_sub_cancel, A192255.P1796401464746331156.a, A192255.P15495661104029478180.f1, A192255.P15495661104029478180.a, A001511, A001511.P17146462531039486101.a, A157726, A157726.P9748439790048040918.a, A192146, A192146.P11104704368216114941.a, A192245, A192245.P7575187329844493871.f2, A192245.P7575187329844493871.f1, A192245.P7575187329844493871.a, A001611, A001611.P2764665205649475385.a, A006519, A006519.P10435570611646570274.a, A171977, A171977.P14092944863121073856.a, A038712, A038712.P3404197303190209645.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A192255
 

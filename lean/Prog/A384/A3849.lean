@@ -2711,20 +2711,23 @@ end A384980
 The programs for A384981, there is no canonical definition to state claims against.
 -/
 
-/-! ## A384981.P1061310338265400701
+/-! ## A384981.P2641855596520951961
 
-`A080585(A103785(n+1))-(2*n+1)`
+`∑[A079684(A018030(n)²)]`
 -/
 
-namespace A384981.P1061310338265400701
+namespace A384981.P2641855596520951961
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A079684 (A018030 n ^ 2).toNat
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080585 (A103785 (n + 1)).toNat - (2 * n + 1 : ℤ)
+  ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A384981.P1061310338265400701
+end A384981.P2641855596520951961
 
 /-!
 # A384982: E.g.f. A(x) satisfies A(x) = exp(x*A(x)/A(-x*A(x)^2)).

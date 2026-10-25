@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -54,7 +55,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -87,6 +87,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A068801: Primes that can be formed by concatenating 2^a and 3^b.
@@ -3008,6 +3012,12 @@ namespace A068824
 def P10821591092453854909.Spec : Prop :=
   ∀ n, P10821591092453854909.a n = A068824 (n + 1)
 
+theorem P10821591092453854909.correct : P10821591092453854909.Spec := by
+  intro n
+  simp only [A068824, Nat.add_sub_cancel, A068824.P10821591092453854909.a, A068824.P8951866495167767291.f1, A068824.P8951866495167767291.a, A105814, A105814.P234231382886839007.a, A235497, A235497.P16290766832587102791.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A068824
 
 /-! ## A068824.P11791964219886841211
@@ -5083,6 +5093,12 @@ namespace A068869
 /-- `A240939(n+1)+A185012(n)` -/
 def P13330870434976662374.Spec : Prop :=
   ∀ n, P13330870434976662374.a n = A068869 (n + 1)
+
+theorem P13330870434976662374.correct : P13330870434976662374.Spec := by
+  intro n
+  simp only [A068869, Nat.add_sub_cancel, A068869.P13330870434976662374.a, A068869.P17738796255132670994.a, A055228, A055228.P5197048720928582146.a, A185012, A185012.P4776339623456628527.f1, A185012.P4776339623456628527.a, A240939, A240939.P940604586909977599.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A068869
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -59,7 +60,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -72,7 +72,6 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
-import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -89,6 +88,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A085101: Palindromes arising in A085100.
@@ -2012,7 +2015,7 @@ end A085121.P17903197181696163521
 /-!
 # A085122: a(n) = PrimePi(sigma(n)-phi(n)) - (PrimePi(sigma(n)) - PrimePi(phi(n))), where PrimePi = A000720, sigma = A000203 and phi = A000010.
 
-The programs for A085122, the canonical program `A085122.P1768509895098590735` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085122 has offset 1).
+The programs for A085122, the canonical program `A085122.P1768509895098590735` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085122 has offset 1).
 
 The definition of A085122 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3239 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2021,7 +2024,7 @@ The definition of A085122 is `conjectured`: the Lean definition is a formula tha
 
 `A230980(A051612(n+1))-A085343(n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A085122
@@ -6282,6 +6285,12 @@ namespace A085151
 def P8816960617489119166.Spec : Prop :=
   ∀ n, P8816960617489119166.a n = A085151 (n + 1)
 
+theorem P8816960617489119166.correct : P8816960617489119166.Spec := by
+  intro n
+  simp only [A085151, Nat.add_sub_cancel, A085151.P8816960617489119166.a, A085151.P7977199148537130674.a, A028387, A028387.P5954590561330899546.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A085151
 
 /-! ## A085151.P3874365579590279712
@@ -6354,6 +6363,12 @@ namespace A085151
 def P14571925581884029901.Spec : Prop :=
   ∀ n, P14571925581884029901.a n = A085151 (n + 1)
 
+theorem P14571925581884029901.correct : P14571925581884029901.Spec := by
+  intro n
+  simp only [A085151, Nat.add_sub_cancel, A085151.P14571925581884029901.a, A085151.P7977199148537130674.a, A165900, A165900.P16246243669433487557.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A085151
 
 /-! ## A085151.P9026081279823487046
@@ -6376,6 +6391,12 @@ namespace A085151
 /-- `A090288((n+1)²)/2` -/
 def P9026081279823487046.Spec : Prop :=
   ∀ n, P9026081279823487046.a n = (A085151 (n + 1) : ℚ)
+
+theorem P9026081279823487046.correct : P9026081279823487046.Spec := by
+  intro n
+  simp only [A085151, Nat.add_sub_cancel, A085151.P9026081279823487046.a, A085151.P7977199148537130674.a, A090288, A090288.P18129157653264208824.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A085151
 
@@ -6688,7 +6709,7 @@ end A085154.P16523567060533979091
 /-!
 # A085155: Powers of semiprimes.
 
-The programs for A085155, the canonical program `A085155.P45423891283562747` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085155 has offset 1).
+The programs for A085155, the canonical program `A085155.P45423891283562747` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085155 has offset 1).
 
 The definition of A085155 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5159 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6723,7 +6744,7 @@ end A085155
 
 `∩[A028260(n+1), A085156(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A085155

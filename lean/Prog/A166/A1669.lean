@@ -63,12 +63,10 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -4279,6 +4277,12 @@ namespace A166941
 def P15134333356162590713.Spec : Prop :=
   ∀ n, P15134333356162590713.a n = (A166941 n : ℚ)
 
+theorem P15134333356162590713.correct : P15134333356162590713.Spec := by
+  intro n
+  simp only [A166941, Nat.add_sub_cancel, A166941.P15134333356162590713.a, A166941.P8583461084556146441.a, A033487, A033487.P180010041112617206.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A166941
 
 /-! ## A166941.P14905683671991068368
@@ -5231,7 +5235,7 @@ end A166947.P18117354672097295042
 /-!
 # A166948: The count of smallest prime factors in n-th composite.
 
-The programs for A166948, the canonical program `A166948.P13457169353326532215` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166948 has offset 1).
+The programs for A166948, the canonical program `A166948.P13457169353326532215` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A166948 has offset 1).
 
 The definition of A166948 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5263,7 +5267,7 @@ end A166948
 
 `A067029(Δ[A053767(n)])`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A166948
@@ -8509,6 +8513,21 @@ end
 
 end A166974.P17383683286762294348
 
+/-! ## A166974.P5187796570934879759
+
+`A355733(1+A104725(n)²)`
+-/
+
+namespace A166974.P5187796570934879759
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A355733 (1 + A104725 n ^ 2).toNat
+
+end
+
+end A166974.P5187796570934879759
+
 /-! ## A166974.P2443124034238508785
 
 `A000005(A117791(A104725(n)))`
@@ -8523,21 +8542,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A166974.P2443124034238508785
-
-/-! ## A166974.P14993312626912183686
-
-`A055034(A140187(n)%A353432(2*(n+2)))`
--/
-
-namespace A166974.P14993312626912183686
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A055034 (Int.tmod (A140187 n) (A353432 (2 * (n + 2)))).toNat
-
-end
-
-end A166974.P14993312626912183686
 
 /-!
 # A166976: Array of A002450 in the top row and higher-order differences in subsequent rows, read by antidiagonals.
@@ -9205,6 +9209,12 @@ namespace A166978
 def P14474849607389721056.Spec : Prop :=
   ∀ n, P14474849607389721056.a n = A166978 n
 
+theorem P14474849607389721056.correct : P14474849607389721056.Spec := by
+  intro n
+  simp only [A166978, Nat.add_sub_cancel, A166978.P14474849607389721056.f1, A166978.P14474849607389721056.a, A166978.P3162228221821407923.a, A047550, A047550.P14342903931357667161.a, A062510, A062510.P5158205566425357391.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A166978
 
 /-! ## A166978.P14652391808291450765
@@ -9230,6 +9240,12 @@ namespace A166978
 /-- `Δ[A168379(n+1)-A000918(n)]` -/
 def P14652391808291450765.Spec : Prop :=
   ∀ n, P14652391808291450765.a n = A166978 n
+
+theorem P14652391808291450765.correct : P14652391808291450765.Spec := by
+  intro n
+  simp only [A166978, Nat.add_sub_cancel, A166978.P14652391808291450765.f1, A166978.P14652391808291450765.a, A166978.P3162228221821407923.a, A000918, A000918.P14329454465793069288.a, A168379, A168379.P18212022095183093388.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A166978
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -56,6 +57,7 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -84,6 +86,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A243600: Number of length n+2 0..3 arrays with no three elements in a row with pattern aba (with a!=b) and new values 0..3 introduced in 0..3 order.
@@ -1447,6 +1453,12 @@ namespace A243616
 /-- `p?[A007953(n+1)+A006093(n+1)+1]` -/
 def P10373131223832536972.Spec : Prop :=
   ∀ n, P10373131223832536972.a n = A243616 (n + 1)
+
+theorem P10373131223832536972.correct : P10373131223832536972.Spec := by
+  intro n
+  simp only [A243616, Nat.add_sub_cancel, A243616.P10373131223832536972.f1, A243616.P10373131223832536972.a, A243616.P4113993082893584915.f1, A243616.P4113993082893584915.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A006093, A006093.P2906174024863549003.a, A007953, A007953.P3472751987379697826.a, A054899, A054899.P10770181254942084517.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A243616
 

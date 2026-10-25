@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -52,9 +53,9 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -91,6 +92,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A300401: Array T(n,k) = n*(binomial(k, 2) + 1) + k*(binomial(n, 2) + 1) read by antidiagonals.
@@ -236,72 +241,6 @@ def P13066788573652492913.Spec : Prop :=
   ∀ n, P13066788573652492913.a n = A300401 n
 
 end A300401
-
-/-!
-# A300402: Smallest integer i such that TREE(i) >= n.
-
-The programs for A300402, there is no canonical definition to state claims against.
--/
-
-/-! ## A300402.P961404015107350937
-
-`floor(log2(5)^atan(n))`
--/
-
-namespace A300402.P961404015107350937
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊Real.logb 2 (5 : ℝ) ^ (Real.arctan (n : ℝ))⌋
-
-end
-
-end A300402.P961404015107350937
-
-/-!
-# A300403: Smallest integer i such that SSCG(i) >= n.
-
-The programs for A300403, there is no canonical definition to state claims against.
--/
-
-/-! ## A300403.P17256051141192687323
-
-`round(atan(exp(n-2)))`
--/
-
-namespace A300403.P17256051141192687323
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway (Real.arctan (Real.exp ((n : ℤ) - 2 : ℝ)))
-
-end
-
-end A300403.P17256051141192687323
-
-/-!
-# A300404: Smallest integer k such that the largest term in the Goodstein sequence starting at k is > n.
-
-The programs for A300404, there is no canonical definition to state claims against.
--/
-
-/-! ## A300404.P5210446141754794790
-
-`4-C(2, ∏{d}[n, #])`
--/
-
-namespace A300404.P5210446141754794790
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  4 - (Nat.choose 2 (∏ d ∈ Nat.divisors (f1 n), d) : ℤ)
-
-end
-
-end A300404.P5210446141754794790
 
 /-!
 # A300406: Primes of the form 13*2^n + 1.
@@ -3208,7 +3147,7 @@ end A300448.P13772675681347887714
 
 The programs for A300451, the canonical program `A300451.P599725316536960796` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300451 has offset 0).
 
-The definition of A300451 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A300451 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(3*n²-3*n+8)*2^(n-3)` (program `A300451.P18214670422254006715`, by `A300451.P18214670422254006715.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A300451.P18190231632994674223
@@ -3256,6 +3195,25 @@ namespace A300451
 /-- `(3*n²-3*n+8)*2^(n-3)` -/
 def P18214670422254006715.Spec : Prop :=
   ∀ n, P18214670422254006715.a n = (A300451 n : ℚ)
+
+theorem P18214670422254006715.correct : P18214670422254006715.Spec := by
+  intro n
+  induction n using Nat.strong_induction_on with
+  | _ n ih =>
+    match n with
+    | 0 | 1 | 2 =>
+      simp [A300451, Nat.add_sub_cancel, A300451.P18214670422254006715.a, A300451.P599725316536960796.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
+      try norm_num
+    | m + 3 =>
+      have h1 := ih (m + 2) (by omega)
+      have h2 := ih (m + 1) (by omega)
+      have h3 := ih m (by omega)
+      simp only [A300451, Nat.add_sub_cancel, A300451.P18214670422254006715.a, A300451.P599725316536960796.a, SequenceMachineLib.memo_apply] at h1 h2 h3 ⊢
+      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
+      simp only [show m + 3 - 1 = m + 2 by omega, show m + 3 - 2 = m + 1 by omega, show m + 3 - 3 = m by omega, show m + 2 < m + 3 by omega, show m + 1 < m + 3 by omega, show m < m + 3 by omega, ↓reduceIte]
+      push_cast at h1 h2 h3 ⊢
+      rw [← h1, ← h2, ← h3]
+      first | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1)
 
 end A300451
 

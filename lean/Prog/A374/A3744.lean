@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -60,6 +61,7 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B006.C002
@@ -99,6 +101,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A374400: Number of balanced inequivalent unate functions of n or fewer variables.
@@ -3596,7 +3602,7 @@ end A374455
 /-!
 # A374456: The Euler phi function values of the exponentially odd numbers (A268335).
 
-The programs for A374456, the canonical program `A374456.P3778587499414482557` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374456 has offset 1).
+The programs for A374456, the canonical program `A374456.P3778587499414482557` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374456 has offset 1).
 
 The definition of A374456 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A268335, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3605,7 +3611,7 @@ The definition of A374456 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A268335(n+1))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A374456
@@ -3883,7 +3889,7 @@ end A374456
 
 The programs for A374457, the canonical program `A374457.P2386240306145347940` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374457 has offset 1).
 
-The definition of A374457 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001615, A268335, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A374457 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A268335, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A374457.P2386240306145347940
@@ -9650,6 +9656,12 @@ namespace A374489
 /-- `(n*A117950(2*n+1)+1)*(n+1)` -/
 def P12191330991986481263.Spec : Prop :=
   ∀ n, P12191330991986481263.a n = A374489 n
+
+theorem P12191330991986481263.correct : P12191330991986481263.Spec := by
+  intro n
+  simp only [A374489, Nat.add_sub_cancel, A374489.P12191330991986481263.a, A374489.P13292996333695838344.a, A117950, A117950.P14722515508371885867.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A374489
 

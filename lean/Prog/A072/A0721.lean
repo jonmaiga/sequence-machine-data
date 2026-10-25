@@ -61,7 +61,7 @@ import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
@@ -1223,6 +1223,12 @@ namespace A072107
 /-- `A380118(n+1)+A034387(n+1)` -/
 def P1832547711872835554.Spec : Prop :=
   ∀ n, P1832547711872835554.a n = A072107 (n + 1)
+
+theorem P1832547711872835554.correct : P1832547711872835554.Spec := by
+  intro n
+  simp only [A072107, Nat.add_sub_cancel, A072107.P1832547711872835554.a, A072107.P18195778838886658705.f1, A072107.P18195778838886658705.a, A020500, A020500.P12751166166803317150.f1, A020500.P12751166166803317150.a, A034387, A034387.P4934732080317010833.a, A380118, A380118.P5292018243931778813.a, A158662, A158662.P939245884081380887.f2, A158662.P939245884081380887.f1, A158662.P939245884081380887.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A072107
 
@@ -5923,7 +5929,7 @@ end A072164.P11671116804415171887
 /-!
 # A072165: Values of Moebius function of the products of two (not necessarily distinct) primes (semiprimes or 2-almost primes, A001358).
 
-The programs for A072165, the canonical program `A072165.P14513375344439937773` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A072165 has offset 1).
+The programs for A072165, the canonical program `A072165.P14513375344439937773` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A072165 has offset 1).
 
 The definition of A072165 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001358, A008683, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5932,7 +5938,7 @@ The definition of A072165 is `conditional`: the Lean definition is an OEIS formu
 
 `A008683(A001358(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A072165
@@ -6478,6 +6484,12 @@ namespace A072166
 /-- `A033291(n+1)-A057428(n)` -/
 def P16034714734016740387.Spec : Prop :=
   ∀ n, P16034714734016740387.a n = A072166 (n + 1)
+
+theorem P16034714734016740387.correct : P16034714734016740387.Spec := by
+  intro n
+  simp only [A072166, Nat.add_sub_cancel, A072166.P16034714734016740387.a, A072166.P2760346320925595557.a, A033291, A033291.P13916502541116241249.f1, A033291.P13916502541116241249.a, A057427, A057427.P3058147525557661423.a, A057428, A057428.P2999489532230392221.a, A000007, A000007.P6599383543502402472.a, A001840, A001840.P3786168868741047916.a, A003056, A003056.P5318256527314048597.a, A010054, A010054.P18347828677204923252.a, A005369, A005369.P10796159359873341658.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A072166
 
@@ -7214,6 +7226,12 @@ namespace A072172
 def P6837375936206867838.Spec : Prop :=
   ∀ n, P6837375936206867838.a n = A072172 n
 
+theorem P6837375936206867838.correct : P6837375936206867838.Spec := by
+  intro n
+  simp only [A072172, Nat.add_sub_cancel, A072172.P6837375936206867838.a, A072172.P14508796257515314613.a, A064751, A064751.P2179001577369083540.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A072172
 
 /-! ## A072172.P3822800278378996441
@@ -7259,6 +7277,12 @@ namespace A072172
 /-- `A394526(2*n+1)+2*n` -/
 def P18320834774352149760.Spec : Prop :=
   ∀ n, P18320834774352149760.a n = A072172 n
+
+theorem P18320834774352149760.correct : P18320834774352149760.Spec := by
+  intro n
+  simp only [A072172, Nat.add_sub_cancel, A072172.P18320834774352149760.a, A072172.P14508796257515314613.a, A394526, A394526.P7639771569929179932.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A072172
 
@@ -8708,7 +8732,7 @@ end A072191
 
 The programs for A072192, the canonical program `A072192.P10191982082423407970` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A072192 has offset 1).
 
-The definition of A072192 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000720, A005384, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A072192 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005384, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A072192.P10191982082423407970

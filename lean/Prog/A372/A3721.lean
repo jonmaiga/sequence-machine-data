@@ -45,6 +45,7 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B007.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -60,7 +61,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -450,7 +450,7 @@ end A372111.P868611335405180442
 /-!
 # A372112: Rad-transform of the squarefree numbers A005117 (see Comments).
 
-The programs for A372112, the canonical program `A372112.P1502568326743945115` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372112 has offset 1).
+The programs for A372112, the canonical program `A372112.P1502568326743945115` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372112 has offset 1).
 
 The definition of A372112 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6083 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -505,7 +505,7 @@ end A372112
 
 `A014963(record[∏{p}[n, #]])`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A372112

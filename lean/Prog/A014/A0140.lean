@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -53,7 +54,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B008.C001
@@ -61,7 +61,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -77,6 +76,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -84,6 +84,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C023
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A014001: Pisot sequence E(7,15), a(n)=[ a(n-1)^2/a(n-2)+1/2 ].
@@ -5236,6 +5240,12 @@ namespace A014082
 /-- `A239904(n)-A239906(n)` -/
 def P1743670835582075442.Spec : Prop :=
   ∀ n, P1743670835582075442.a n = A014082 n
+
+theorem P1743670835582075442.correct : P1743670835582075442.Spec := by
+  intro n
+  simp only [A014082, Nat.add_sub_cancel, A014082.P1743670835582075442.a, A014082.P16446960074050354385.a, A014081, A014081.P14878370479040452879.a, A239904, A239904.P1769615034918524656.a, A239906, A239906.P4184436720645207913.a, A000120, A000120.P2816527436160941581.a, A069010, A069010.P14932719103722593844.a, A005187, A005187.P3874015513960485494.a, A005811, A005811.P8696411420205566785.a, A003188, A003188.P10544524695508875182.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A014082
 

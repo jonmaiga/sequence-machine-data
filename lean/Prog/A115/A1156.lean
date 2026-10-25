@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -52,10 +53,10 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -90,6 +91,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A115601: a(n) = numerator of b(n), where b(1) = 1, b(n+1) = Sum_{k=1..n} b(k)^((-1)^(n-k+1)).
@@ -514,6 +519,12 @@ namespace A115606
 def P4761093218108557824.Spec : Prop :=
   ∀ n, P4761093218108557824.a n = A115606 n
 
+theorem P4761093218108557824.correct : P4761093218108557824.Spec := by
+  intro n
+  simp only [A115606, Nat.add_sub_cancel, A115606.P4761093218108557824.a, A115606.P15732138880714301943.a, A102540, A102540.P12409149115680564712.a, A118483, A118483.P12141014104972374228.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A118499, A118499.P15079059931476377411.f1, A118499.P15079059931476377411.f2, A118499.P15079059931476377411.a, A106667, A106667.P4598466350426453199.f1, A106667.P4598466350426453199.a, A052147, A052147.P6151996953021184291.f1, A052147.P6151996953021184291.a, A154955, A154955.P18412881232710977697.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A115606
 
 /-! ## A115606.P15732138880714301943
@@ -903,6 +914,12 @@ namespace A115607
 def P8851905709084474275.Spec : Prop :=
   ∀ n, P8851905709084474275.a n = A115607 (n + 1)
 
+theorem P8851905709084474275.correct : P8851905709084474275.Spec := by
+  intro n
+  simp only [A115607, Nat.add_sub_cancel, A115607.P8851905709084474275.a, A115607.P10089454494571849752.a, A000593, A000593.P13640346029616979906.a, A033999, A033999.P17703899380244199787.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A038712, A038712.P3404197303190209645.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A115607
 
 /-! ## A115607.P2415121803449583041
@@ -994,6 +1011,12 @@ namespace A115607
 /-- `A000593(n+1)*A062157(n+1)` -/
 def P14563004743173376906.Spec : Prop :=
   ∀ n, P14563004743173376906.a n = A115607 (n + 1)
+
+theorem P14563004743173376906.correct : P14563004743173376906.Spec := by
+  intro n
+  simp only [A115607, Nat.add_sub_cancel, A115607.P14563004743173376906.a, A115607.P10089454494571849752.a, A000593, A000593.P13640346029616979906.a, A062157, A062157.P13834877263571195293.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A038712, A038712.P3404197303190209645.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A115607
 
@@ -4370,20 +4393,20 @@ end A115647.P13028143225907083564
 The programs for A115648, there is no canonical definition to state claims against.
 -/
 
-/-! ## A115648.P2523077015943451112
+/-! ## A115648.P8980649051542123919
 
-`A115649(n+1)²`
+`A115649(1+n)²`
 -/
 
-namespace A115648.P2523077015943451112
+namespace A115648.P8980649051542123919
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A115649 (n + 1) ^ 2
+  A115649 (1 + n) ^ 2
 
 end
 
-end A115648.P2523077015943451112
+end A115648.P8980649051542123919
 
 /-! ## A115648.P13952016715977408044
 
@@ -5164,6 +5187,33 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A115655.P10873682296556104702
+
+/-!
+# A115656: Both n and the reverse of n are powerful(1) numbers (A001694).
+
+The programs for A115656, there is no canonical definition to state claims against.
+-/
+
+/-! ## A115656.P13417095632252416385
+
+`A001694(lt[A055077(2*n+3), A236104(2*n+1)])`
+-/
+
+namespace A115656.P13417095632252416385
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A055077 (2 * n + 3)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A236104 (2 * n + 1)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A001694 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
+
+end
+
+end A115656.P13417095632252416385
 
 /-!
 # A115657: Both k and the reverse of k are pentagonal numbers (A000326).

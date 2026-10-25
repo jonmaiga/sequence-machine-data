@@ -58,6 +58,7 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
@@ -1132,6 +1133,12 @@ namespace A254707
 /-- `A254708(n)-A266755(n)` -/
 def P8557444761772548626.Spec : Prop :=
   ∀ n, P8557444761772548626.a n = A254707 n
+
+theorem P8557444761772548626.correct : P8557444761772548626.Spec := by
+  intro n
+  simp only [A254707, Nat.add_sub_cancel, A254707.P8557444761772548626.a, A254707.P370968306155579139.a, A254708, A254708.P15475653326016787145.a, A266755, A266755.P8389662948252283063.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A254707
 

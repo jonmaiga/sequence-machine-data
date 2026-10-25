@@ -21,8 +21,7 @@ import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C002
-import Seq.B005.C000
-import Seq.B010.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -37,7 +36,6 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -1663,20 +1661,20 @@ end
 
 end A012361.P5018512743597016490
 
-/-! ## A012361.P13399044370104425476
+/-! ## A012361.P11079405320924400415
 
-`n*A091543(A000111(n))`
+`n*A005984(A007558(n))`
 -/
 
-namespace A012361.P13399044370104425476
+namespace A012361.P11079405320924400415
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) * A091543 (A000111 n).toNat
+  (n : ℤ) * A005984 (A007558 n).toNat
 
 end
 
-end A012361.P13399044370104425476
+end A012361.P11079405320924400415
 
 /-!
 # A012363: arctanh(tan(x)*exp(x))=x+2/2!*x^2+7/3!*x^3+36/4!*x^4+285/5!*x^5...

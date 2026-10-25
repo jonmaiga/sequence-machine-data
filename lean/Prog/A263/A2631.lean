@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -49,6 +50,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -60,7 +62,6 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B010.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -89,6 +90,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A263100: Number of ordered pairs (k, m) with k > 0 and m > 0 such that n = pi(k^2) + pi(m^2/2), where pi(x) denotes the number of primes not exceeding x.
@@ -3006,6 +3011,12 @@ namespace A263134
 def P101881972665710218.Spec : Prop :=
   ∀ n, (P101881972665710218.a n : ℤ) = A263134 n
 
+theorem P101881972665710218.correct : P101881972665710218.Spec := by
+  intro n
+  simp only [A263134, Nat.add_sub_cancel, A263134.P101881972665710218.f1, A263134.P101881972665710218.a, A263134.P7692546386271083285.f1, A263134.P7692546386271083285.a, A045721, A045721.P7274530043682916435.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A263134
 
 /-! ## A263134.P5310087752382800582
@@ -4732,6 +4743,12 @@ namespace A263170
 /-- `(A237589(n+1)+1)^3-A098999(n+1)` -/
 def P4565497800766161594.Spec : Prop :=
   ∀ n, P4565497800766161594.a n = A263170 (n + 1)
+
+theorem P4565497800766161594.correct : P4565497800766161594.Spec := by
+  intro n
+  simp only [A263170, Nat.add_sub_cancel, A263170.P4565497800766161594.a, A263170.P6412543418219483663.a, A007504, A007504.P16529107901788736493.f1, A007504.P16529107901788736493.a, A098999, A098999.P11172421746672696162.f1, A098999.P11172421746672696162.a, A237589, A237589.P15064465826932885110.a, A014284, A014284.P16560659510973334811.a, A030078, A030078.P13819432151207990454.a, A182986, A182986.P2625431067462217415.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A054541, A054541.P347795157194570387.a, A046930, A046930.P1162450832993365803.f1, A046930.P1162450832993365803.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A263170
 

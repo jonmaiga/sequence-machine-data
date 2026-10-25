@@ -57,15 +57,14 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -90,7 +89,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -5218,7 +5217,7 @@ end A205549
 /-!
 # A205550: Symmetric matrix by antidiagonals: C(max(g(i),g(j)),min(g(i),g(j))), where g(k)=2k-1.
 
-The programs for A205550, the canonical program `A205550.P12428340349728459363` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205550 has offset 1).
+The programs for A205550, the canonical program `A205550.P12428340349728459363` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205550 has offset 1).
 
 The definition of A205550 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9870 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5227,7 +5226,7 @@ The definition of A205550 is `conjectured`: the Lean definition is a formula tha
 
 `A258993(A143182(n)+A057944(n))`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A205550
@@ -5551,20 +5550,20 @@ end
 
 end A205551.P10877477838905365597
 
-/-! ## A205551.P12115843217511198463
+/-! ## A205551.P15055630066292390681
 
-`gcd(A000010(n+1), A007953(A371793(n+1)))`
+`A089723(A324650(n)^A001511(n+1))`
 -/
 
-namespace A205551.P12115843217511198463
+namespace A205551.P15055630066292390681
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A000010 (n + 1)) (A007953 (A371793 (n + 1)).toNat)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A089723 (SequenceMachineLib.roundAway ((A324650 n : ℚ) ^ (A001511 (n + 1) : ℤ))).toNat
 
 end
 
-end A205551.P12115843217511198463
+end A205551.P15055630066292390681
 
 /-!
 # A205552: Square array: C(max(2i-2,j-1),min(2i-2,j-1)), i>=1, j>=1; by antidiagonals.
@@ -6423,6 +6422,12 @@ namespace A205558
 /-- `A204898(n+1)/2` -/
 def P15161732780991888740.Spec : Prop :=
   ∀ n, P15161732780991888740.a n = (A205558 (n + 1) : ℚ)
+
+theorem P15161732780991888740.correct : P15161732780991888740.Spec := by
+  intro n
+  simp only [A205558, Nat.add_sub_cancel, A205558.P15161732780991888740.a, A205558.P3325342254299425434.a, A002260, A002260.P769748059679640451.a, A003057, A003057.P16308936517940939054.a, A089253, A089253.P9623062397135395528.a, A204898, A204898.P8437523405994696174.a, A002262, A002262.P12129691700837801527.a, A067076, A067076.P14247190955968615804.a, A006254, A006254.P17336495081768971287.a, A057944, A057944.P16851463738746886639.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A000217, A000217.P10269402890581615239.a, A003056, A003056.P5318256527314048597.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A205558
 

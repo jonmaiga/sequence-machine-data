@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -41,13 +42,15 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -56,7 +59,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -82,6 +84,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A058602: Numbers k such that 7*2^k - 5 is prime.
@@ -863,6 +869,12 @@ namespace A058622
 /-- `A001405(n)+A294175(n)-A126869(n)` -/
 def P5820764950256992474.Spec : Prop :=
   ∀ n, P5820764950256992474.a n = A058622 n
+
+theorem P5820764950256992474.correct : P5820764950256992474.Spec := by
+  intro n
+  simp only [A058622, Nat.add_sub_cancel, A058622.P5820764950256992474.a, A058622.P7570831990351998700.a, A001405, A001405.P5205018418992951678.a, A027306, A027306.P2966041652703629727.a, A126869, A126869.P7982398467358120385.a, A294175, A294175.P1326977934770168492.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A058622
 
@@ -2887,6 +2899,32 @@ namespace A058649
 /-- `A231502(2^n-1)` -/
 def P17198424668933867439.Spec : Prop :=
   ∀ n, P17198424668933867439.a n = A058649 n
+
+end A058649
+
+/-! ## A058649.P16953336755377617493
+
+`A231502(Δ[A000051(n)])-1`
+-/
+
+namespace A058649.P16953336755377617493
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000051 n
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A231502 (f1 (n + 1) - f1 n).toNat - 1
+
+end
+
+end A058649.P16953336755377617493
+
+namespace A058649
+
+/-- `A231502(Δ[A000051(n)])-1` -/
+def P16953336755377617493.Spec : Prop :=
+  ∀ n, P16953336755377617493.a n = A058649 n
 
 end A058649
 

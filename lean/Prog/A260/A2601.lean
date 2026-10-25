@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -63,6 +64,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -91,6 +93,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A260100: Number of (n+2)X(2+2) 0..1 arrays with each 3X3 subblock having clockwise perimeter pattern 00000001 00000101 or 00010101.
@@ -1497,6 +1503,12 @@ namespace A260114
 /-- `A260109(3*n)` -/
 def P15129322306483870346.Spec : Prop :=
   ∀ n, P15129322306483870346.a n = A260114 n
+
+theorem P15129322306483870346.correct : P15129322306483870346.Spec := by
+  intro n
+  simp only [A260114, Nat.add_sub_cancel, A260114.P15129322306483870346.a, A260114.P13465454968350675607.a, A124815, A124815.P7342009755196343803.f1, A124815.P7342009755196343803.a, A260109, A260109.P720565460012442485.a, A080512, A080512.P14368604902377273702.a, A091338, A091338.P7387993790083234101.f1, A091338.P7387993790083234101.a, A005811, A005811.P8696411420205566785.a, A049347, A049347.P9996747395155426839.a, A000120, A000120.P2816527436160941581.a, A003188, A003188.P10544524695508875182.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A260114
 

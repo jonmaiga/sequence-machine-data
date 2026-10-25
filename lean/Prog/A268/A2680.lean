@@ -17,7 +17,6 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -55,16 +54,15 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -4280,6 +4278,32 @@ def P964261090573646638.Spec : Prop :=
 
 end A268044
 
+/-! ## A268044.P2312253293763863314
+
+`record[5*(n-1)-a(n-2)]` with `a(0)=3, a(1)=1`
+-/
+
+namespace A268044.P2312253293763863314
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [3, 1] fun n f1 =>
+  5 * ((n : ℤ) - 1) - f1 (n - 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
+
+end
+
+end A268044.P2312253293763863314
+
+namespace A268044
+
+/-- `record[5*(n-1)-a(n-2)]` -/
+def P2312253293763863314.Spec : Prop :=
+  ∀ n, P2312253293763863314.a n = A268044 (n + 1)
+
+end A268044
+
 /-! ## A268044.P15858932824209594003
 
 `floor(a(n-1)-2*(gcd(2, n)-4))` with `a(0)=3`
@@ -4592,29 +4616,6 @@ namespace A268044
 /-- `∪[A017305(n), A017377(n)]` -/
 def P14381123316306234259.Spec : Prop :=
   ∀ n, (P14381123316306234259.a n : ℤ) = A268044 (n + 1)
-
-end A268044
-
-/-! ## A268044.P15960747324489423467
-
-`A017605(n)%A113804(n+1)`
--/
-
-namespace A268044.P15960747324489423467
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A017605 n) (A113804 (n + 1))
-
-end
-
-end A268044.P15960747324489423467
-
-namespace A268044
-
-/-- `A017605(n)%A113804(n+1)` -/
-def P15960747324489423467.Spec : Prop :=
-  ∀ n, P15960747324489423467.a n = A268044 (n + 1)
 
 end A268044
 

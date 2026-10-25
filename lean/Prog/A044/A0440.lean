@@ -47,11 +47,11 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -5244,35 +5244,35 @@ end
 
 end A044074.P13521311821151197174
 
-/-! ## A044074.P15567938155150652256
+/-! ## A044074.P8502839096302389325
 
-`A044454(n+1)+A010051(A128066(n+1))`
+`A044454(n+1)+A001221(A128066(n+1))`
 -/
 
-namespace A044074.P15567938155150652256
+namespace A044074.P8502839096302389325
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044454 (n + 1) + A010051 (A128066 (n + 1)).toNat
+  A044454 (n + 1) + A001221 (A128066 (n + 1)).toNat
 
 end
 
-end A044074.P15567938155150652256
+end A044074.P8502839096302389325
 
-/-! ## A044074.P8766049889963054233
+/-! ## A044074.P18121964722869727296
 
-`A325509(A145882(n+1))+A044454(n+1)`
+`A044454(n+1)+A001221(A168110(n+1))`
 -/
 
-namespace A044074.P8766049889963054233
+namespace A044074.P18121964722869727296
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A325509 (A145882 (n + 1)).toNat + A044454 (n + 1)
+  A044454 (n + 1) + A001221 (A168110 (n + 1)).toNat
 
 end
 
-end A044074.P8766049889963054233
+end A044074.P18121964722869727296
 
 /-!
 # A044075: Numbers k such that the string 3,2 occurs in the base-4 representation of k but not of k-1.

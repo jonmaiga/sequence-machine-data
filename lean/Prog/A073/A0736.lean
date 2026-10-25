@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -59,7 +60,6 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
@@ -93,6 +93,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A073600: 
@@ -4543,6 +4547,12 @@ namespace A073642
 def P8061221690044375259.Spec : Prop :=
   ∀ n, P8061221690044375259.a n = A073642 n
 
+theorem P8061221690044375259.correct : P8061221690044375259.Spec := by
+  intro n
+  simp only [A073642, Nat.add_sub_cancel, A073642.P8061221690044375259.a, A073642.P15123079599203656975.a, A000120, A000120.P2816527436160941581.a, A029931, A029931.P9873769426762813119.a, A198192, A198192.P297267374256015153.a, A005187, A005187.P3874015513960485494.a, A029930, A029930.P3707852897458008637.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A073642
 
 /-! ## A073642.P15989131945704833694
@@ -5137,7 +5147,7 @@ end A073646.P10848928253060030999
 /-!
 # A073648: Middle members of prime triples {p, p+2, p+6}.
 
-The programs for A073648, the canonical program `A073648.P13149246164954547153` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073648 has offset 1).
+The programs for A073648, the canonical program `A073648.P13149246164954547153` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073648 has offset 1).
 
 The definition of A073648 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A022004, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5146,7 +5156,7 @@ The definition of A073648 is `conditional`: the Lean definition is an OEIS formu
 
 `A022004(n+1)+2`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A073648
@@ -5181,6 +5191,12 @@ namespace A073648
 /-- `A098412(n+1)-4` -/
 def P3778046776112100159.Spec : Prop :=
   ∀ n, P3778046776112100159.a n = A073648 (n + 1)
+
+theorem P3778046776112100159.correct : P3778046776112100159.Spec := by
+  intro n
+  simp only [A073648, Nat.add_sub_cancel, A073648.P3778046776112100159.a, A073648.P13149246164954547153.a, A022004, A022004.P15960404509347598822.f1, A022004.P15960404509347598822.f2, A022004.P15960404509347598822.a, A098412, A098412.P17347800589930056568.a, A001359, A001359.P8865495035699438537.a, A341357, A341357.P1519009481148112330.f1, A341357.P1519009481148112330.a, A006094, A006094.P10257567645245129766.a, A077800, A077800.P16009445446139691322.a, A212769, A212769.P16448248741169686819.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A001043, A001043.P18269783162673735460.a, A096281, A096281.P9870488552655544131.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A073648
 

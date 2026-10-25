@@ -9248,6 +9248,33 @@ def P5453020166238038862.Spec : Prop :=
 
 end A183870
 
+/-! ## A183870.P16090423804344247335
+
+`comp[C(A057354(n), A220562(n+1))]`
+-/
+
+namespace A183870.P16090423804344247335
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.choose (A057354 n).toNat (A220562 (n + 1)).toNat
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
+
+end
+
+end A183870.P16090423804344247335
+
+namespace A183870
+
+/-- `comp[C(A057354(n), A220562(n+1))]` -/
+def P16090423804344247335.Spec : Prop :=
+  ∀ n, (P16090423804344247335.a n : ℤ) = A183870 (n + 1)
+
+end A183870
+
 /-! ## A183870.P18103537606103347677
 
 `A062575(A313586(n))`

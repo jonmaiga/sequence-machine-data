@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -89,6 +90,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A255900: Expansion of exp( Sum_{n >= 1} A000464(n-1)*x^n/n ).
@@ -7204,6 +7209,12 @@ namespace A255978
 /-- `A377368(n)-1` -/
 def P2889383766942276218.Spec : Prop :=
   ∀ n, P2889383766942276218.a n = A255978 n
+
+theorem P2889383766942276218.correct : P2889383766942276218.Spec := by
+  intro n
+  simp only [A255978, Nat.add_sub_cancel, A255978.P2889383766942276218.a, A255978.P10061575874709905162.a, A377368, A377368.P9845472719769353126.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A255978
 

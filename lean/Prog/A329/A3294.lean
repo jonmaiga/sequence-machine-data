@@ -94,6 +94,7 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -375,7 +376,7 @@ end A329401.P7236426586235114922
 
 The programs for A329402, the canonical program `A329402.P5940628190842439666` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329402 has offset 1).
 
-The definition of A329402 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A038548, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A329402 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A329402.P5940628190842439666
@@ -3105,7 +3106,7 @@ end A329443.P9275891422505926596
 /-!
 # A329445: Dirichlet inverse of A328745.
 
-The programs for A329445, the canonical program `A329445.P891337881195672988` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329445 has offset 1).
+The programs for A329445, the canonical program `A329445.P891337881195672988` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329445 has offset 1).
 
 The definition of A329445 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008836, A182938, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3114,7 +3115,7 @@ The definition of A329445 is `conditional`: the Lean definition is an OEIS formu
 
 `A182938(n+1)*A008836(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A329445
@@ -4733,6 +4734,12 @@ namespace A329472
 def P17314153405542003108.Spec : Prop :=
   ∀ n, (P17314153405542003108.a n : ℤ) = A329472 (n + 1)
 
+theorem P17314153405542003108.correct : P17314153405542003108.Spec := by
+  intro n
+  simp only [A329472, Nat.add_sub_cancel, A329472.P17314153405542003108.f2, A329472.P17314153405542003108.f3, A329472.P17314153405542003108.f1, A329472.P17314153405542003108.a, A329472.P13152310064433774783.f1, A329472.P13152310064433774783.a, A005361, A005361.P4811270261471152635.f1, A005361.P4811270261471152635.a, A013929, A013929.P16481699796765016237.f1, A013929.P16481699796765016237.f2, A013929.P16481699796765016237.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A329472
 
 /-! ## A329472.P4303096264334661798
@@ -6157,16 +6164,16 @@ end A329483.P6508599265779774305
 /-!
 # A329484: Dirichlet convolution of the Liouville function with itself.
 
-The programs for A329484, the canonical program `A329484.P836157745753398396` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329484 has offset 1).
+The programs for A329484, the canonical program `A329484.P836157745753398396` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329484 has offset 1).
 
-The definition of A329484 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A008836, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A329484 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008836, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A329484.P836157745753398396
 
 `A000005(n+1)*A008836(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A329484
@@ -7293,6 +7300,12 @@ namespace A329488
 def P13593593723293850257.Spec : Prop :=
   ∀ n, P13593593723293850257.a n = A329488 (n + 1)
 
+theorem P13593593723293850257.correct : P13593593723293850257.Spec := by
+  intro n
+  simp only [A329488, Nat.add_sub_cancel, A329488.P13593593723293850257.a, A329488.P10745082742471201483.a, A001350, A001350.P9806914175357381787.a, A152152, A152152.P6350815298251437724.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A329488
 
 /-! ## A329488.P7313508382529006144
@@ -7364,6 +7377,12 @@ namespace A329488
 /-- `(2-A020878(n+1))²²` -/
 def P16075965168896559387.Spec : Prop :=
   ∀ n, P16075965168896559387.a n = A329488 (n + 1)
+
+theorem P16075965168896559387.correct : P16075965168896559387.Spec := by
+  intro n
+  simp only [A329488, Nat.add_sub_cancel, A329488.P16075965168896559387.a, A329488.P10745082742471201483.a, A001350, A001350.P9806914175357381787.a, A020878, A020878.P2717610554730428774.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A329488
 
@@ -7535,6 +7554,12 @@ namespace A329488
 def P4498441860527361125.Spec : Prop :=
   ∀ n, P4498441860527361125.a n = A329488 (n + 1)
 
+theorem P4498441860527361125.correct : P4498441860527361125.Spec := by
+  intro n
+  simp only [A329488, Nat.add_sub_cancel, A329488.P4498441860527361125.a, A329488.P10745082742471201483.a, A001350, A001350.P9806914175357381787.a, A324487, A324487.P9094464048076715283.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A329488
 
 /-! ## A329488.P3079800105524607155
@@ -7604,6 +7629,12 @@ namespace A329488
 def P886394414737975265.Spec : Prop :=
   ∀ n, P886394414737975265.a n = A329488 (n + 1)
 
+theorem P886394414737975265.correct : P886394414737975265.Spec := by
+  intro n
+  simp only [A329488, Nat.add_sub_cancel, A329488.P886394414737975265.a, A329488.P10745082742471201483.a, A001350, A001350.P9806914175357381787.a, A152152, A152152.P6350815298251437724.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A329488
 
 /-! ## A329488.P15260646004411909172
@@ -7661,7 +7692,7 @@ end A329488
 /-!
 # A329489: Inflation orbit counts b^(4)(n) for the Elser-Sloane tiling.
 
-The programs for A329489, the canonical program `A329489.P4927898611169090547` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329489 has offset 1).
+The programs for A329489, the canonical program `A329489.P4927898611169090547` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329489 has offset 1).
 
 The definition of A329489 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7693,7 +7724,7 @@ end A329489
 
 `∑{d}[n+1, A008683(#)*A329488((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A329489
@@ -7711,7 +7742,7 @@ end A329489
 /-!
 # A329490: Inflation orbit counts c^(4)(n) for the Elser-Sloane tiling.
 
-The programs for A329490, the canonical program `A329490.P12886057741005755630` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329490 has offset 1).
+The programs for A329490, the canonical program `A329490.P12886057741005755630` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329490 has offset 1).
 
 The definition of A329490 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7720,7 +7751,7 @@ The definition of A329490 is `conjectured`: the Lean definition is a formula tha
 
 `A329489(n+1)/(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A329490

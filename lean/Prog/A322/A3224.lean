@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -103,6 +104,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A322400: Heinz numbers of integer partitions with vertex-connectivity 1.
@@ -731,6 +736,12 @@ namespace A322406
 def P4627985916745368429.Spec : Prop :=
   ∀ n, P4627985916745368429.a n = A322406 (n + 1)
 
+theorem P4627985916745368429.correct : P4627985916745368429.Spec := by
+  intro n
+  simp only [A322406, Nat.add_sub_cancel, A322406.P4627985916745368429.a, A322406.P3130492305728550951.a, A014566, A014566.P17220125683731441908.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A322406
 
 /-! ## A322406.P5111553113158431786
@@ -753,6 +764,12 @@ namespace A322406
 /-- `(n+1)*(A048861(n+1)+2)` -/
 def P5111553113158431786.Spec : Prop :=
   ∀ n, P5111553113158431786.a n = A322406 (n + 1)
+
+theorem P5111553113158431786.correct : P5111553113158431786.Spec := by
+  intro n
+  simp only [A322406, Nat.add_sub_cancel, A322406.P5111553113158431786.a, A322406.P3130492305728550951.a, A048861, A048861.P10845564465953315184.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A322406
 
@@ -777,12 +794,18 @@ namespace A322406
 def P16982332428868349443.Spec : Prop :=
   ∀ n, P16982332428868349443.a n = A322406 (n + 1)
 
+theorem P16982332428868349443.correct : P16982332428868349443.Spec := by
+  intro n
+  simp only [A322406, Nat.add_sub_cancel, A322406.P16982332428868349443.a, A322406.P3130492305728550951.a, A006091, A006091.P3894065017776291680.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A322406
 
 /-!
 # A322407: Compound sequence a(n) = A319198(A278039(n)), for n >= 0.
 
-The programs for A322407, the canonical program `A322407.P48804603864531061` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A322407 has offset 0).
+The programs for A322407, the canonical program `A322407.P48804603864531061` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A322407 has offset 0).
 
 The definition of A322407 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A278039, A319198, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -791,7 +814,7 @@ The definition of A322407 is `conditional`: the Lean definition is an OEIS formu
 
 `A319198(A278039(n))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A322407
@@ -1011,7 +1034,7 @@ end A322407
 /-!
 # A322408: Compound sequence with a(n) = A319198(A278041(n)), for n >= 0.
 
-The programs for A322408, the canonical program `A322408.P5302957736886118289` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A322408 has offset 0).
+The programs for A322408, the canonical program `A322408.P5302957736886118289` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A322408 has offset 0).
 
 The definition of A322408 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A278041, A319198, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1020,7 +1043,7 @@ The definition of A322408 is `conditional`: the Lean definition is an OEIS formu
 
 `A319198(A278041(n))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A322408
@@ -10259,16 +10282,16 @@ end A322482.P14156961336211995070
 /-!
 # A322483: The number of semi-unitary divisors of n.
 
-The programs for A322483, the canonical program `A322483.P9877640992746448261` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A322483 has offset 1).
+The programs for A322483, the canonical program `A322483.P9877640992746448261` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A322483 has offset 1).
 
-The definition of A322483 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, A019554, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A322483 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A019554, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A322483.P9877640992746448261
 
 `A000005(A019554(n+1))`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A322483

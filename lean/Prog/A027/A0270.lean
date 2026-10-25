@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -54,7 +55,6 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
@@ -86,6 +86,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A027000: a(n) = Lucas(2*n+3) - (6*n+4).
@@ -4012,6 +4016,12 @@ namespace A027024
 /-- `A027083(n+2)-1` -/
 def P1552414304965142051.Spec : Prop :=
   ∀ n, P1552414304965142051.a n = A027024 (n + 2)
+
+theorem P1552414304965142051.correct : P1552414304965142051.Spec := by
+  intro n
+  simp only [A027024, Nat.add_sub_cancel, A027024.P1552414304965142051.a, A027024.P14253858266487641379.a, A027083, A027083.P7887810092018352263.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A027024
 

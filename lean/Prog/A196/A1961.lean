@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -53,7 +54,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -67,7 +67,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -80,6 +79,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A196102: Positive integers b for which there is a primitive (5/4)-Pythagorean triple (a,b,c) satisfying a<=b.
@@ -5600,6 +5603,12 @@ namespace A196199
 def P17752232696837423472.Spec : Prop :=
   ∀ n, P17752232696837423472.a n = A196199 n
 
+theorem P17752232696837423472.correct : P17752232696837423472.Spec := by
+  intro n
+  simp only [A196199, Nat.add_sub_cancel, A196199.P17752232696837423472.a, A196199.P3919230471390252242.a, A381232, A381232.P8771641921475039308.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A196199
 
 /-! ## A196199.P17844031759947063663
@@ -5901,6 +5910,12 @@ namespace A196199
 /-- `A381232(n)/A057428(n+1)` -/
 def P10262243044300573942.Spec : Prop :=
   ∀ n, P10262243044300573942.a n = (A196199 n : ℚ)
+
+theorem P10262243044300573942.correct : P10262243044300573942.Spec := by
+  intro n
+  simp only [A196199, Nat.add_sub_cancel, A196199.P10262243044300573942.a, A196199.P3919230471390252242.a, A057428, A057428.P2999489532230392221.a, A381232, A381232.P8771641921475039308.a, A057427, A057427.P3058147525557661423.a, A000007, A000007.P6599383543502402472.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A196199
 

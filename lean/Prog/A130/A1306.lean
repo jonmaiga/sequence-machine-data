@@ -3383,7 +3383,7 @@ end A130637
 /-!
 # A130638: a(n) = 1 iff d(n) = d(n+1), otherwise a(n)=0, where d(n) is the number of divisors of n, A000005.
 
-The programs for A130638, the canonical program `A130638.P11945976620762067139` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130638 has offset 1).
+The programs for A130638, the canonical program `A130638.P11945976620762067139` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130638 has offset 1).
 
 The definition of A130638 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3524,7 +3524,7 @@ end A130638
 
 `A000007(A051950(n+2)²)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A130638
@@ -5697,6 +5697,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A130661.P10405122824992752585
+
+/-! ## A130661.P2613126106805423959
+
+`A280130(4*A383786(n))`
+-/
+
+namespace A130661.P2613126106805423959
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A280130 (4 * A383786 n).toNat
+
+end
+
+end A130661.P2613126106805423959
 
 /-! ## A130661.P9819803916922583254
 
@@ -8125,6 +8140,12 @@ namespace A130679
 /-- `A024167(n+1)*A103889(n+2)` -/
 def P13372650434403440916.Spec : Prop :=
   ∀ n, P13372650434403440916.a n = A130679 (n + 1)
+
+theorem P13372650434403440916.correct : P13372650434403440916.Spec := by
+  intro n
+  simp only [A130679, Nat.add_sub_cancel, A130679.P13372650434403440916.a, A130679.P15487793621860447785.a, A024167, A024167.P6816668062951058336.a, A103889, A103889.P18284747642469909281.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A130679
 

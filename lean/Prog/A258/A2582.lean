@@ -57,6 +57,7 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -702,6 +703,21 @@ end
 
 end A258204.P1753721344934780155
 
+/-! ## A258204.P9920621165880022827
+
+`A005843(A258206(n+1))-A258205(n+1)`
+-/
+
+namespace A258204.P9920621165880022827
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005843 (A258206 (n + 1)).toNat - A258205 (n + 1)
+
+end
+
+end A258204.P9920621165880022827
+
 /-! ## A258204.P18170205920764797688
 
 `A258017(n+1)-char[12]`
@@ -751,21 +767,6 @@ end
 
 end A258204.P361801056442257530
 
-/-! ## A258204.P5770466981740937806
-
-`abs(A258017(n+1)-A277157(n))`
--/
-
-namespace A258204.P5770466981740937806
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A258017 (n + 1) - A277157 n|
-
-end
-
-end A258204.P5770466981740937806
-
 /-!
 # A258205: Number of strictly non-overlapping holeless polyhexes of perimeter 2n with bilateral symmetry, counted up to rotation.
 
@@ -786,6 +787,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A258205.P8546790623735909762
+
+/-! ## A258205.P7043009349551322932
+
+`A005843(A258206(n+1))-A258204(n+1)`
+-/
+
+namespace A258205.P7043009349551322932
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005843 (A258206 (n + 1)).toNat - A258204 (n + 1)
+
+end
+
+end A258205.P7043009349551322932
 
 /-! ## A258205.P10647058264332028685
 
@@ -835,21 +851,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A258205.P14290509529753513059
-
-/-! ## A258205.P17003779259988115398
-
-`abs(A258018(n+1)-A225099(n))`
--/
-
-namespace A258205.P17003779259988115398
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A258018 (n + 1) - A225099 n|
-
-end
-
-end A258205.P17003779259988115398
 
 /-!
 # A258206: Number of strictly non-overlapping holeless polyhexes of perimeter 2n, counted up to rotations and turning over.

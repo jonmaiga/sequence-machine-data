@@ -57,13 +57,14 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -80,7 +81,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -7700,6 +7700,12 @@ namespace A147796
 def P13286561283175422353.Spec : Prop :=
   ∀ n, P13286561283175422353.a n = (A147796 (n + 3) : ℚ)
 
+theorem P13286561283175422353.correct : P13286561283175422353.Spec := by
+  intro n
+  simp only [A147796, Nat.add_sub_cancel, A147796.P13286561283175422353.a, A147796.P11084416986379260796.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A147796
 
 /-! ## A147796.P18235697296044623237
@@ -7722,6 +7728,12 @@ namespace A147796
 /-- `C((n+3)*(n+2), 3)-(n+3)*(n+2)*((n+3)*(n+2)-2)/2-2*C(n+3, 3)` -/
 def P18235697296044623237.Spec : Prop :=
   ∀ n, P18235697296044623237.a n = (A147796 (n + 3) : ℚ)
+
+theorem P18235697296044623237.correct : P18235697296044623237.Spec := by
+  intro n
+  simp only [A147796, Nat.add_sub_cancel, A147796.P18235697296044623237.a, A147796.P11084416986379260796.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A147796
 
@@ -7774,7 +7786,7 @@ end A147796
 /-!
 # A147797: The 10^n-th twin prime, A001097(10^n).
 
-The programs for A147797, the canonical program `A147797.P8071727392255312945` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A147797 has offset 0).
+The programs for A147797, the canonical program `A147797.P8071727392255312945` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A147797 has offset 0).
 
 The definition of A147797 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001097, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7783,7 +7795,7 @@ The definition of A147797 is `conditional`: the Lean definition is an OEIS formu
 
 `A001097(10^n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A147797

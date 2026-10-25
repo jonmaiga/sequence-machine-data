@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
@@ -44,6 +45,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -55,6 +57,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -80,6 +83,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A224200: Number of nX4 0..3 arrays with rows unimodal and antidiagonals nondecreasing.
@@ -1146,6 +1153,12 @@ namespace A224212
 /-- `A237526(n)+A001650(n+1)` -/
 def P15703438000275043916.Spec : Prop :=
   ∀ n, P15703438000275043916.a n = A224212 n
+
+theorem P15703438000275043916.correct : P15703438000275043916.Spec := by
+  intro n
+  simp only [A224212, Nat.add_sub_cancel, A224212.P15703438000275043916.a, A224212.P18102868260642251365.a, A000196, A000196.P15434771586934192083.a, A001650, A001650.P4146515097473183330.a, A014200, A014200.P16970295702573526038.a, A237526, A237526.P3622557248388023722.a, A014198, A014198.P2354480518814049901.a, A105673, A105673.P14538287794614071707.a, A002654, A002654.P11574922253888480122.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A224212
 
@@ -2449,20 +2462,20 @@ end
 
 end A224229.P8038638135755850504
 
-/-! ## A224229.P2266628493119786272
+/-! ## A224229.P9943406443070457230
 
-`A067579(A358798(n+1))`
+`A379830(A069796(n+1))+A358798(n+1)`
 -/
 
-namespace A224229.P2266628493119786272
+namespace A224229.P9943406443070457230
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A067579 (A358798 (n + 1)).toNat
+  A379830 (A069796 (n + 1)).toNat + A358798 (n + 1)
 
 end
 
-end A224229.P2266628493119786272
+end A224229.P9943406443070457230
 
 /-!
 # A224230: Egyptian fraction expansion of Pi.

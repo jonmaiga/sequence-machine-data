@@ -58,11 +58,10 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -3399,20 +3398,20 @@ end
 
 end A142721.P6996063481979692957
 
-/-! ## A142721.P7404403466363230794
+/-! ## A142721.P6023294669182641618
 
-`A038572(n+2)-1`
+`A038572(2+n)-1`
 -/
 
-namespace A142721.P7404403466363230794
+namespace A142721.P6023294669182641618
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A038572 (n + 2) - 1
+  A038572 (2 + n) - 1
 
 end
 
-end A142721.P7404403466363230794
+end A142721.P6023294669182641618
 
 /-! ## A142721.P13299053599589110396
 

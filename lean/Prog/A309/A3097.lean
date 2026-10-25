@@ -3179,7 +3179,7 @@ end A309731
 
 The programs for A309732, the canonical program `A309732.P16927828332471193003` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309732 has offset 1).
 
-The definition of A309732 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A152211, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A309732 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A309732.P16927828332471193003
@@ -7291,7 +7291,7 @@ end A309770.P16662322220989906137
 
 The programs for A309772, the canonical program `A309772.P477067059472300331` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309772 has offset 1).
 
-The definition of A309772 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008864, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A309772 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A309772.P477067059472300331
@@ -7471,6 +7471,12 @@ namespace A309772
 /-- `lcm(A006093(n+2)+2, A006093(n+1)+2)` -/
 def P8207355739330408308.Spec : Prop :=
   ∀ n, (P8207355739330408308.a n : ℤ) = A309772 (n + 1)
+
+theorem P8207355739330408308.correct : P8207355739330408308.Spec := by
+  intro n
+  simp only [A309772, Nat.add_sub_cancel, A309772.P8207355739330408308.a, A309772.P477067059472300331.a, A006093, A006093.P2906174024863549003.a, A008864, A008864.P9177617808325052279.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A309772
 
@@ -8661,6 +8667,12 @@ namespace A309790
 /-- `A104895(2*n+3)-A104895(A063946(2*n+2))` -/
 def P3243669426639259935.Spec : Prop :=
   ∀ n, P3243669426639259935.a n = A309790 n
+
+theorem P3243669426639259935.correct : P3243669426639259935.Spec := by
+  intro n
+  simp only [A309790, Nat.add_sub_cancel, A309790.P3243669426639259935.a, A309790.P12506806462962635043.a, A063946, A063946.P14831572246508618093.a, A065620, A065620.P132964274324401119.a, A104895, A104895.P16075429497420938870.a, A010060, A010060.P3080921269106500717.a, A053644, A053644.P1707366427427647095.a, A265263, A265263.P13560857298709796040.a, A000035, A000035.P2023072528413494694.a, A000120, A000120.P2816527436160941581.a, A066194, A066194.P17197319264784136366.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A309790
 

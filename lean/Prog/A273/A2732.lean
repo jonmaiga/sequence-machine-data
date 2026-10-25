@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
@@ -85,6 +86,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A273200: Prime power-like integers.
@@ -2150,6 +2155,12 @@ namespace A273220
 def P5135357045474298624.Spec : Prop :=
   ∀ n, P5135357045474298624.a n = (A273220 (n + 2) : ℚ)
 
+theorem P5135357045474298624.correct : P5135357045474298624.Spec := by
+  intro n
+  simp only [A273220, Nat.add_sub_cancel, A273220.P5135357045474298624.a, A273220.P22215574643113122.a, A085027, A085027.P5010476127013352924.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A273220
 
 /-! ## A273220.P8852970729106940536
@@ -2172,6 +2183,12 @@ namespace A273220
 /-- `(A102094(n+1)-n)/(n+1)` -/
 def P8852970729106940536.Spec : Prop :=
   ∀ n, P8852970729106940536.a n = (A273220 (n + 2) : ℚ)
+
+theorem P8852970729106940536.correct : P8852970729106940536.Spec := by
+  intro n
+  simp only [A273220, Nat.add_sub_cancel, A273220.P8852970729106940536.a, A273220.P22215574643113122.a, A102094, A102094.P1850624615912936497.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A273220
 
@@ -7017,7 +7034,7 @@ end A273280.P17873777615328232445
 
 The programs for A273282, the canonical program `A273282.P4615267142029211613` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273282 has offset 2).
 
-The definition of A273282 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007917, A079866, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A273282 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A079866, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A273282.P4615267142029211613

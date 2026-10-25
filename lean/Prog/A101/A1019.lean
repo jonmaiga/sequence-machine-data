@@ -59,6 +59,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -3208,6 +3209,12 @@ namespace A101925
 def P9928083744517812558.Spec : Prop :=
   ∀ n, P9928083744517812558.a n = (A101925 n : ℚ)
 
+theorem P9928083744517812558.correct : P9928083744517812558.Spec := by
+  intro n
+  simp only [A101925, Nat.add_sub_cancel, A101925.P9928083744517812558.a, A101925.P9724492527127448858.a, A005187, A005187.P3874015513960485494.a, A178207, A178207.P6849069651503940150.a, A000120, A000120.P2816527436160941581.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A101925
 
 /-! ## A101925.P1321200421762177342
@@ -3253,6 +3260,12 @@ namespace A101925
 /-- `A004134(n)+1-n` -/
 def P535752619280346551.Spec : Prop :=
   ∀ n, P535752619280346551.a n = A101925 n
+
+theorem P535752619280346551.correct : P535752619280346551.Spec := by
+  intro n
+  simp only [A101925, Nat.add_sub_cancel, A101925.P535752619280346551.a, A101925.P9724492527127448858.a, A004134, A004134.P15858984416175637375.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A101925
 
@@ -3331,6 +3344,12 @@ namespace A101925
 /-- `Δ[n²]-A000120(n)` -/
 def P13559630892577223793.Spec : Prop :=
   ∀ n, P13559630892577223793.a n = A101925 n
+
+theorem P13559630892577223793.correct : P13559630892577223793.Spec := by
+  intro n
+  simp only [A101925, Nat.add_sub_cancel, A101925.P13559630892577223793.f1, A101925.P13559630892577223793.a, A101925.P9724492527127448858.a, A000120, A000120.P2816527436160941581.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A101925
 
@@ -4419,7 +4438,7 @@ end A101933.P13797952974829543669
 /-!
 # A101934: Numbers n with omega(n) smaller than omega(n-1) and omega(n+1).
 
-The programs for A101934, the canonical program `A101934.P8442723091966144168` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101934 has offset 1).
+The programs for A101934, the canonical program `A101934.P8442723091966144168` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101934 has offset 1).
 
 The definition of A101934 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4428,7 +4447,7 @@ The definition of A101934 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A294277(n+1), A294278(n+1)+1]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A101934

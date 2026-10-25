@@ -57,7 +57,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -72,6 +71,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -2378,6 +2378,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A390162.P14784405886589996099
+
+/-! ## A390162.P245328874457686571
+
+`A386584(A003114(3*n+1))+A306319(n)`
+-/
+
+namespace A390162.P245328874457686571
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A386584 (A003114 (3 * n + 1)).toNat + A306319 n
+
+end
+
+end A390162.P245328874457686571
 
 /-!
 # A390163: Number of nonisomorphic semigroups with n elements satisfying the equation xyz = xy.

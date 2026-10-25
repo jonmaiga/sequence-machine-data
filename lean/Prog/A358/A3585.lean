@@ -57,7 +57,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -3398,6 +3398,12 @@ namespace A358548
 def P6285282243756921349.Spec : Prop :=
   ∀ n, P6285282243756921349.a n = A358548 (n + 1)
 
+theorem P6285282243756921349.correct : P6285282243756921349.Spec := by
+  intro n
+  simp only [A358548, Nat.add_sub_cancel, A358548.P6285282243756921349.f2, A358548.P6285282243756921349.f1, A358548.P6285282243756921349.a, A358548.P10666046655170957929.a, A003627, A003627.P15428665616045919031.f1, A003627.P15428665616045919031.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A358548
 
 /-! ## A358548.P8608893200301103881
@@ -3560,6 +3566,12 @@ namespace A358548
 /-- `Δ[A112774(n+1)/2]` -/
 def P18364274700157589761.Spec : Prop :=
   ∀ n, P18364274700157589761.a n = (A358548 (n + 1) : ℚ)
+
+theorem P18364274700157589761.correct : P18364274700157589761.Spec := by
+  intro n
+  simp only [A358548, Nat.add_sub_cancel, A358548.P18364274700157589761.f1, A358548.P18364274700157589761.a, A358548.P10666046655170957929.a, A003627, A003627.P15428665616045919031.f1, A003627.P15428665616045919031.a, A112774, A112774.P17976456391943950983.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A358548
 
@@ -4141,6 +4153,12 @@ namespace A358551
 def P12648215381481273953.Spec : Prop :=
   ∀ n, P12648215381481273953.a n = (A358551 (n + 1) : ℚ)
 
+theorem P12648215381481273953.correct : P12648215381481273953.Spec := by
+  intro n
+  simp only [A358551, Nat.add_sub_cancel, A358551.P12648215381481273953.a, A358551.P14086074353940531701.a, A072643, A072643.P10513511673986297728.f2, A072643.P10513511673986297728.f1, A072643.P10513511673986297728.a, A162550, A162550.P4693385428906052129.a, A014137, A014137.P1978746088953100721.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A358551
 
 /-! ## A358551.P5906059350885376182
@@ -4439,7 +4457,7 @@ end A358551
 /-!
 # A358552: Node-height of the rooted tree with Matula-Goebel number n. Number of nodes in the longest path from root to leaf.
 
-The programs for A358552, the canonical program `A358552.P8701948705767462514` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358552 has offset 1).
+The programs for A358552, the canonical program `A358552.P8701948705767462514` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358552 has offset 1).
 
 The definition of A358552 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4464,6 +4482,12 @@ namespace A358552
 /-- `A109082(n+1)+1` -/
 def P3649226962539832574.Spec : Prop :=
   ∀ n, P3649226962539832574.a n = A358552 (n + 1)
+
+theorem P3649226962539832574.correct : P3649226962539832574.Spec := by
+  intro n
+  simp only [A358552, Nat.add_sub_cancel, A358552.P3649226962539832574.a, A358552.P8701948705767462514.a, A109082, A109082.P2849542924064461301.a, A156061, A156061.P10261769165751241768.a, A003963, A003963.P6853423646423809573.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A156552, A156552.P4268073137713085227.a, A243499, A243499.P13821279400790425584.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A023416, A023416.P8124303482289229133.a, A053645, A053645.P13234994043849603743.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A358552
 
@@ -4517,7 +4541,7 @@ end A358552
 
 `a(A156061(n+1)-1)+1` with `a(0)=1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A358552

@@ -60,7 +60,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -7521,7 +7520,7 @@ end A319280
 /-!
 # A319281: Numbers of the form 16^i*(16*j + 1).
 
-The programs for A319281, the canonical program `A319281.P15976617881653790280` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319281 has offset 1).
+The programs for A319281, the canonical program `A319281.P15976617881653790280` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319281 has offset 1).
 
 The definition of A319281 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 668 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7530,7 +7529,7 @@ The definition of A319281 is `conjectured`: the Lean definition is a formula tha
 
 `record[and(A097262(n)+1, n+1)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A319281

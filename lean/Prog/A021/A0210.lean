@@ -41,6 +41,7 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -2176,6 +2177,12 @@ namespace A021010
 /-- `A097807(n)*A144084(n)` -/
 def P15002614883773291170.Spec : Prop :=
   ∀ n, P15002614883773291170.a n = A021010 n
+
+theorem P15002614883773291170.correct : P15002614883773291170.Spec := by
+  intro n
+  simp only [A021010, Nat.add_sub_cancel, A021010.P15002614883773291170.a, A021010.P4626545497147415232.a, A008279, A008279.P7177801246737440238.a, A097807, A097807.P14328121779268374373.a, A130595, A130595.P3475276304996858965.a, A144084, A144084.P15154162313279112689.a, A002262, A002262.P12129691700837801527.a, A003056, A003056.P5318256527314048597.a, A007318, A007318.P302227728145965961.a, A009531, A009531.P14285492072244400176.a, A099375, A099375.P13700148065993022910.a, A004736, A004736.P10337537277358081527.a, A057944, A057944.P16851463738746886639.a, A259525, A259525.P15603515225238104540.f1, A259525.P15603515225238104540.a, A000217, A000217.P10269402890581615239.a, A002024, A002024.P11700297927830783882.a, A074909, A074909.P6707642907239843837.f1, A074909.P6707642907239843837.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A021010
 

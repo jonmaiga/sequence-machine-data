@@ -63,7 +63,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -8033,28 +8032,6 @@ end
 
 end A309093.P7775048406783279412
 
-/-! ## A309093.P14766509700473749199
-
-`∑[and(1, comp[2*n²])]`
--/
-
-namespace A309093.P14766509700473749199
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n ^ 2
-
-open Classical in
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.land 1 (SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ x) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A309093.P14766509700473749199
-
 /-!
 # A309095: a(n) is the largest k such that every number from 1 to k can be covered by n geometric progressions of rational numbers.
 
@@ -8538,20 +8515,20 @@ end
 
 end A309098.P9461287799260044506
 
-/-! ## A309098.P14952221497395572899
+/-! ## A309098.P2815858976659259006
 
-`or(A101668(A284301(n+3)), A309097(n))`
+`A007095(A341912(n)%A123104(n+4))`
 -/
 
-namespace A309098.P14952221497395572899
+namespace A309098.P2815858976659259006
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A101668 (A284301 (n + 3)).toNat) (A309097 n)
+  A007095 (Int.tmod (A341912 (n + 15)) (A123104 (n + 4 + 31))).toNat
 
 end
 
-end A309098.P14952221497395572899
+end A309098.P2815858976659259006
 
 /-!
 # A309099: Number of partitions of n avoiding the partition (4,3,1).

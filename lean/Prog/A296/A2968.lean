@@ -43,7 +43,6 @@ import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -2967,6 +2966,21 @@ end
 
 end A296843.P10334870121782121873
 
+/-! ## A296843.P11579733664578927065
+
+`A295956(n)+A083896(A000984(n))`
+-/
+
+namespace A296843.P11579733664578927065
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A295956 n + A083896 (A000984 n).toNat
+
+end
+
+end A296843.P11579733664578927065
+
 /-! ## A296843.P2308616285268681854
 
 `A333382(A333375(n))+A295956(n)`
@@ -2981,21 +2995,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A296843.P2308616285268681854
-
-/-! ## A296843.P3132750191564428189
-
-`A293058(n)-A060090(A287283(n))`
--/
-
-namespace A296843.P3132750191564428189
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A293058 n - A060090 (A287283 n).toNat
-
-end
-
-end A296843.P3132750191564428189
 
 /-!
 # A296846: Solution of the complementary equation a(n) = a(n-1) + a(n-2) - b(n-2), where a(0) = 3, a(1) = 5, b(0) = 1, b(1) = 2, b(2) = 4, and (a(n)) and (b(n)) are increasing complementary sequences.

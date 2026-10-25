@@ -47,10 +47,8 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -72,7 +70,6 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -11525,6 +11522,12 @@ namespace A020478
 def P9323939374093402108.Spec : Prop :=
   ∀ n, P9323939374093402108.a n = A020478 (n + 1)
 
+theorem P9323939374093402108.correct : P9323939374093402108.Spec := by
+  intro n
+  simp only [A020478, Nat.add_sub_cancel, A020478.P9323939374093402108.a, A020478.P13030858516864996585.a, A005353, A005353.P13530675845642685918.a, A069097, A069097.P10375503292735525789.f1, A069097.P10375503292735525789.a, A341772, A341772.P16346253428948690978.f1, A341772.P16346253428948690978.a, A321322, A321322.P14680156201706380527.f1, A321322.P14680156201706380527.a, A000290, A000290.P12206242496348924484.a, A007427, A007427.P16346481250890679101.f1, A007427.P16346481250890679101.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A020478
 
 /-! ## A020478.P7856246009125682883
@@ -11963,7 +11966,7 @@ end A020478
 /-!
 # A020479: Number of noninvertible 2 X 2 matrices over Z/nZ (determinant is a divisor of 0).
 
-The programs for A020479, the canonical program `A020479.P12170762038309436866` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020479 has offset 2).
+The programs for A020479, the canonical program `A020479.P12170762038309436866` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020479 has offset 2).
 
 The definition of A020479 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000252, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11972,7 +11975,7 @@ The definition of A020479 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+2)^4-A000252(n+2)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A020479
@@ -12007,6 +12010,12 @@ namespace A020479
 /-- `A005353(n+2)+A020478(n+2)-A000252(n+2)` -/
 def P15899006740419184905.Spec : Prop :=
   ∀ n, P15899006740419184905.a n = A020479 (n + 2)
+
+theorem P15899006740419184905.correct : P15899006740419184905.Spec := by
+  intro n
+  simp only [A020479, Nat.add_sub_cancel, A020479.P15899006740419184905.a, A020479.P12170762038309436866.a, A000252, A000252.P16726113642141526177.a, A005353, A005353.P13530675845642685918.a, A020478, A020478.P13030858516864996585.a, A000056, A000056.P18166110637332708364.a, A000082, A000082.P16648937404349228138.a, A069097, A069097.P10375503292735525789.f1, A069097.P10375503292735525789.a, A003557, A003557.P6364735403900941810.a, A007434, A007434.P3432859153295839493.a, A181797, A181797.P4894842930551307870.a, A341772, A341772.P16346253428948690978.f1, A341772.P16346253428948690978.a, A000010, A000010.P4673923239450215316.a, A001615, A001615.P12078511981713404634.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A048250, A048250.P6137918235727910070.a, A321322, A321322.P14680156201706380527.f1, A321322.P14680156201706380527.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A020479
 
@@ -13791,7 +13800,7 @@ end A020487.P13156622376762635114
 /-!
 # A020491: Numbers k such that sigma_0(k) divides phi(k).
 
-The programs for A020491, the canonical program `A020491.P2100325304569936286` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020491 has offset 1).
+The programs for A020491, the canonical program `A020491.P2100325304569936286` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020491 has offset 1).
 
 The definition of A020491 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13829,7 +13838,7 @@ end A020491
 
 `comp[A015733(n+1)-1]+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A020491

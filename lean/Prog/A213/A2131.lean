@@ -51,11 +51,9 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -1117,6 +1115,12 @@ namespace A213119
 /-- `A000302(n+1)-A003409(n+1)` -/
 def P1959478306030111635.Spec : Prop :=
   ∀ n, P1959478306030111635.a n = A213119 (n + 1)
+
+theorem P1959478306030111635.correct : P1959478306030111635.Spec := by
+  intro n
+  simp only [A213119, Nat.add_sub_cancel, A213119.P1959478306030111635.a, A213119.P6091923279066594458.a, A000302, A000302.P5166485833484575275.a, A003409, A003409.P14280900282895762854.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A213119
 
@@ -6778,7 +6782,7 @@ end A213194
 /-!
 # A213195: Second inverse function (of columns) for pairing function A211377.
 
-The programs for A213195, the canonical program `A213195.P10148847701811811621` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213195 has offset 1).
+The programs for A213195, the canonical program `A213195.P10148847701811811621` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213195 has offset 1).
 
 The definition of A213195 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9870 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6787,7 +6791,7 @@ The definition of A213195 is `conjectured`: the Lean definition is a formula tha
 
 `A004736(A213196(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A213195

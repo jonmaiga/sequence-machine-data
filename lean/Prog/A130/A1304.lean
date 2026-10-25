@@ -69,9 +69,9 @@ import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -89,6 +89,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -6213,20 +6214,20 @@ end
 
 end A130463.P13723115781933233081
 
-/-! ## A130463.P3381374078479922337
+/-! ## A130463.P7068684440553486545
 
-`A130462(C(n+1, 2))%A161002(n+1)`
+`A130462(C(n+1, 2))%A050278(n+1)`
 -/
 
-namespace A130463.P3381374078479922337
+namespace A130463.P7068684440553486545
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A130462 (Nat.choose (n + 1) 2)) (A161002 (n + 1))
+  Int.tmod (A130462 (Nat.choose (n + 1) 2)) (A050278 (n + 1))
 
 end
 
-end A130463.P3381374078479922337
+end A130463.P7068684440553486545
 
 /-!
 # A130464: Main diagonal of square array A130462.
@@ -13096,6 +13097,12 @@ namespace A130496
 def P5331834859910302124.Spec : Prop :=
   ∀ n, P5331834859910302124.a n = A130496 n
 
+theorem P5331834859910302124.correct : P5331834859910302124.Spec := by
+  intro n
+  simp only [A130496, Nat.add_sub_cancel, A130496.P5331834859910302124.a, A130496.P5211275761381924812.a, A130497, A130497.P10916058717388302017.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A130496
 
 /-! ## A130496.P7906495993925925572
@@ -13164,6 +13171,12 @@ namespace A130496
 /-- `A047369(n+1)-(n+1)` -/
 def P1763547588028469527.Spec : Prop :=
   ∀ n, P1763547588028469527.a n = A130496 n
+
+theorem P1763547588028469527.correct : P1763547588028469527.Spec := by
+  intro n
+  simp only [A130496, Nat.add_sub_cancel, A130496.P1763547588028469527.a, A130496.P5211275761381924812.a, A047369, A047369.P276909241574497612.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A130496
 

@@ -44,6 +44,7 @@ import Seq.B004.C002
 import Seq.B005.C001
 import Seq.B008.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -2068,24 +2069,26 @@ end
 
 end A010419.P16648184370952425566
 
-/-! ## A010419.P15682586138308207826
+/-! ## A010419.P13164237472330399319
 
-`comp[A028771(n+1)]`
+`lt[A011587(3*n+2), A011587(n)*(n+1)]`
 -/
 
-namespace A010419.P15682586138308207826
+namespace A010419.P13164237472330399319
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028771 (n + 1)
+  A011587 (3 * n + 2)
 
-open Classical in
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A011587 n * (n + 1 : ℤ)
+
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
 
 end
 
-end A010419.P15682586138308207826
+end A010419.P13164237472330399319
 
 /-!
 # A010420: Squares mod 59.

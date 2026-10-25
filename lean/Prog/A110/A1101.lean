@@ -1284,6 +1284,12 @@ namespace A110117
 def P3140707949613593973.Spec : Prop :=
   ∀ n, P3140707949613593973.a n = A110117 (n + 1)
 
+theorem P3140707949613593973.correct : P3140707949613593973.Spec := by
+  intro n
+  simp only [A110117, Nat.add_sub_cancel, A110117.P3140707949613593973.a, A110117.P11630810609770778186.a, A014248, A014248.P6171574996264336082.a, A110118, A110118.P10131114702583180275.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A110117
 
 /-! ## A110117.P2528391601742810843
@@ -1484,6 +1490,12 @@ namespace A110118
 /-- `A110117(n+1)-A014248(n+1)` -/
 def P17376857332069278179.Spec : Prop :=
   ∀ n, P17376857332069278179.a n = A110118 (n + 1)
+
+theorem P17376857332069278179.correct : P17376857332069278179.Spec := by
+  intro n
+  simp only [A110118, Nat.add_sub_cancel, A110118.P17376857332069278179.a, A110118.P10131114702583180275.a, A014248, A014248.P6171574996264336082.a, A110117, A110117.P11630810609770778186.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A110118
 
@@ -8141,6 +8153,12 @@ namespace A110184
 def P2891843481184574071.Spec : Prop :=
   ∀ n, P2891843481184574071.a n = A110184 n
 
+theorem P2891843481184574071.correct : P2891843481184574071.Spec := by
+  intro n
+  simp only [A110184, Nat.add_sub_cancel, A110184.P2891843481184574071.a, A110184.P13079875143077863507.a, A001109, A001109.P14455961844001046772.a, A002002, A002002.P13046393267194405166.f2, A002002.P13046393267194405166.f1, A002002.P13046393267194405166.a, A110127, A110127.P5274012538628892863.a, A003056, A003056.P5318256527314048597.a, A047665, A047665.P11812153229518684916.a, A001850, A001850.P8225243896153059034.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
+
 end A110184
 
 /-! ## A110184.P12062071562557013183
@@ -8982,6 +9000,27 @@ def P17039545418649231385.Spec : Prop :=
   ∀ n, (P17039545418649231385.a n : ℤ) = A110188 (n + 1)
 
 end A110188
+
+/-!
+# A110189: Triangle read by rows: T(n,k) (0<=k<=n) is the number of Schroeder paths of length 2n, having k (1,0)-steps on the lines y=0 and y=1 (a Schroeder path of length 2n is a path from (0,0) to (2n,0), consisting of steps U=(1,1), D=(1,-1) and H=(2,0) and never going below the x-axis).
+
+The programs for A110189, there is no canonical definition to state claims against.
+-/
+
+/-! ## A110189.P16123695746664896385
+
+`A369643(A253342(n+1))+A086211(n+1)`
+-/
+
+namespace A110189.P16123695746664896385
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A369643 (A253342 (n + 1)).toNat + A086211 (n + 1)
+
+end
+
+end A110189.P16123695746664896385
 
 /-!
 # A110190: Number of (1,0)-steps on the lines y=0 and y=1 in all Schroeder paths of length 2n (a Schroeder path of length 2n is a path from (0,0) to (2n,0), consisting of steps U=(1,1), D=(1,-1) and H=(2,0) and never going below the x-axis).
@@ -10128,6 +10167,12 @@ namespace A110199
 /-- `A014138(floor(n/2))+1` -/
 def P17803654988247714098.Spec : Prop :=
   ∀ n, P17803654988247714098.a n = A110199 n
+
+theorem P17803654988247714098.correct : P17803654988247714098.Spec := by
+  intro n
+  simp only [A110199, Nat.add_sub_cancel, A110199.P17803654988247714098.a, A110199.P14169950119371139962.a, A014137, A014137.P1978746088953100721.a, A014138, A014138.P8012092781455815566.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A110199
 

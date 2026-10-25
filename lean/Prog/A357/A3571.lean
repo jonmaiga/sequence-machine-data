@@ -45,13 +45,11 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -83,6 +81,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2898,7 +2897,7 @@ end A357167
 /-!
 # A357168: Starts of runs of at least 3 consecutive odd numbers whose prime factors are all prime-indexed primes.
 
-The programs for A357168, the canonical program `A357168.P13820866121939299860` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357168 has offset 1).
+The programs for A357168, the canonical program `A357168.P13820866121939299860` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357168 has offset 1).
 
 The definition of A357168 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 349 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2907,7 +2906,7 @@ The definition of A357168 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A357167(n+1)-2, A357167(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A357168
@@ -4476,20 +4475,20 @@ end
 
 end A357191.P11844757044868681137
 
-/-! ## A357191.P14671285901192803888
+/-! ## A357191.P18074369312137330686
 
-`A154657(n)*A192085(A002077(n+1))`
+`A000142(n)*A345167(A092186(n))`
 -/
 
-namespace A357191.P14671285901192803888
+namespace A357191.P18074369312137330686
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A154657 n * A192085 (A002077 (n + 1)).toNat
+  A000142 n * A345167 (A092186 n).toNat
 
 end
 
-end A357191.P14671285901192803888
+end A357191.P18074369312137330686
 
 /-!
 # A357192: a(n) = n! * Sum_{k=0..floor(n/3)} k^n/k!.

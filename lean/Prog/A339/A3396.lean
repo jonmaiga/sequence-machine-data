@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -65,7 +66,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -97,6 +97,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A339600: a(n) = a(n-1) + 6*a(n-3) + 2*a(n-4), with a(0) = a(1) = 1, a(2) = 3, a(3) = 6.
@@ -3989,7 +3993,7 @@ end A339639.P15163727101930546656
 
 The programs for A339640, the canonical program `A339640.P13360000113742845411` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339640 has offset 1).
 
-The definition of A339640 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001248, A054270, A062772, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A339640 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A062772, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A339640.P13360000113742845411
@@ -5714,7 +5718,7 @@ end A339661.P7190994316586680309
 
 The programs for A339662, the canonical program `A339662.P1343349233137656736` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339662 has offset 1).
 
-The definition of A339662 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000720, A079068, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A339662 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A079068, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A339662.P1343349233137656736
@@ -6861,26 +6865,20 @@ end
 
 end A339677.P7633423085077805798
 
-/-! ## A339677.P1152840552401463697
+/-! ## A339677.P18324844613511540439
 
-`A276890(lt[A072726(3*n+2), A033706(2*(n+2))])`
+`A385026(n+1)%dr(A125973(n+1))`
 -/
 
-namespace A339677.P1152840552401463697
+namespace A339677.P18324844613511540439
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A072726 (3 * n + 2)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033706 (2 * (n + 2))
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A276890 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
+  Int.tmod (A385026 (n + 1)) (SequenceMachineLib.digitalRoot (A125973 (n + 1)) : ℤ)
 
 end
 
-end A339677.P1152840552401463697
+end A339677.P18324844613511540439
 
 /-!
 # A339678: Lesser of amicable pair (a, b) such that the sum of their number of divisors d(a) + d(b) sets a new record.
@@ -7909,6 +7907,12 @@ namespace A339690
 /-- `A329575(n+1)/3` -/
 def P2807854797924631816.Spec : Prop :=
   ∀ n, P2807854797924631816.a n = (A339690 (n + 1) : ℚ)
+
+theorem P2807854797924631816.correct : P2807854797924631816.Spec := by
+  intro n
+  simp only [A339690, Nat.add_sub_cancel, A339690.P2807854797924631816.a, A339690.P16723611076842397338.f1, A339690.P16723611076842397338.f2, A339690.P16723611076842397338.a, A329575, A329575.P15824134507803159916.a, A372574, A372574.P13338864400327852121.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A339690
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
@@ -56,10 +57,11 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
-import Seq.B011.C001
+import Seq.B011.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -88,6 +90,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A393601: Expansion of (1/x) * Series_Reversion( x / ((1+x)^3 * (1+x^2)^3) ).
@@ -297,6 +303,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A393609.P15265227810318864226
+
+/-! ## A393609.P13389839710857913606
+
+`A182986(A035513(n+1)+1)`
+-/
+
+namespace A393609.P13389839710857913606
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A182986 (A035513 (n + 1) + 1).toNat
+
+end
+
+end A393609.P13389839710857913606
 
 /-! ## A393609.P7065867148147270037
 
@@ -979,6 +1000,21 @@ end
 
 end A393631.P8519390158211453684
 
+/-! ## A393631.P1987414471614052545
+
+`A008966(A156711(n+5)-A224944(n+1))`
+-/
+
+namespace A393631.P1987414471614052545
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008966 (A156711 (n + 5) - A224944 (n + 1)).toNat
+
+end
+
+end A393631.P1987414471614052545
+
 /-! ## A393631.P5791725053569575770
 
 `A286804(A026747(n)*A288164(2*n+5))`
@@ -993,21 +1029,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A393631.P5791725053569575770
-
-/-! ## A393631.P18305332035318075463
-
-`A240467(lcm(A358133(n+3), A391681(n+1)))`
--/
-
-namespace A393631.P18305332035318075463
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A240467 (Int.lcm (A358133 (n + 3)) (A391681 (n + 1)))
-
-end
-
-end A393631.P18305332035318075463
 
 /-!
 # A393636: Decimal expansion of 2*cos(Pi/8)/(1+cos(Pi/8)).
@@ -1336,6 +1357,12 @@ namespace A393655
 def P13127005554135425931.Spec : Prop :=
   ∀ n, P13127005554135425931.a n = A393655 (n + 3)
 
+theorem P13127005554135425931.correct : P13127005554135425931.Spec := by
+  intro n
+  simp only [A393655, Nat.add_sub_cancel, A393655.P13127005554135425931.a, A393655.P8117864334474351213.a, A008776, A008776.P11088121667404015999.a, A393662, A393662.P12609403442720714031.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A393655
 
 /-! ## A393655.P16991804448155382578
@@ -1362,6 +1389,12 @@ namespace A393655
 def P16991804448155382578.Spec : Prop :=
   ∀ n, P16991804448155382578.a n = A393655 (n + 3)
 
+theorem P16991804448155382578.correct : P16991804448155382578.Spec := by
+  intro n
+  simp only [A393655, Nat.add_sub_cancel, A393655.P16991804448155382578.f1, A393655.P16991804448155382578.a, A393655.P8117864334474351213.a, A000244, A000244.P17162167222172810417.a, A393662, A393662.P12609403442720714031.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A393655
 
 /-! ## A393655.P1287295664349239929
@@ -1384,6 +1417,12 @@ namespace A393655
 /-- `A393662(n+3)+A393662(n+3)-A393661(n+3)` -/
 def P1287295664349239929.Spec : Prop :=
   ∀ n, P1287295664349239929.a n = A393655 (n + 3)
+
+theorem P1287295664349239929.correct : P1287295664349239929.Spec := by
+  intro n
+  simp only [A393655, Nat.add_sub_cancel, A393655.P1287295664349239929.a, A393655.P8117864334474351213.a, A393661, A393661.P18445463208938884355.a, A393662, A393662.P12609403442720714031.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A393655
 
@@ -1558,6 +1597,12 @@ namespace A393661
 def P11443650574921910585.Spec : Prop :=
   ∀ n, P11443650574921910585.a n = A393661 (n + 3)
 
+theorem P11443650574921910585.correct : P11443650574921910585.Spec := by
+  intro n
+  simp only [A393661, Nat.add_sub_cancel, A393661.P11443650574921910585.a, A393661.P18445463208938884355.a, A008776, A008776.P11088121667404015999.a, A393662, A393662.P12609403442720714031.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A393661
 
 /-! ## A393661.P900779895693563734
@@ -1583,6 +1628,12 @@ namespace A393661
 /-- `A393662(n+3)-Δ[A000244(n)]` -/
 def P900779895693563734.Spec : Prop :=
   ∀ n, P900779895693563734.a n = A393661 (n + 3)
+
+theorem P900779895693563734.correct : P900779895693563734.Spec := by
+  intro n
+  simp only [A393661, Nat.add_sub_cancel, A393661.P900779895693563734.f1, A393661.P900779895693563734.a, A393661.P18445463208938884355.a, A000244, A000244.P17162167222172810417.a, A393662, A393662.P12609403442720714031.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A393661
 
@@ -1653,6 +1704,12 @@ namespace A393661
 def P14337946783475359604.Spec : Prop :=
   ∀ n, P14337946783475359604.a n = A393661 (n + 3)
 
+theorem P14337946783475359604.correct : P14337946783475359604.Spec := by
+  intro n
+  simp only [A393661, Nat.add_sub_cancel, A393661.P14337946783475359604.a, A393661.P18445463208938884355.a, A393655, A393655.P8117864334474351213.a, A393662, A393662.P12609403442720714031.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A393661
 
 /-!
@@ -1703,6 +1760,12 @@ namespace A393662
 def P8345907344821909065.Spec : Prop :=
   ∀ n, P8345907344821909065.a n = A393662 (n + 3)
 
+theorem P8345907344821909065.correct : P8345907344821909065.Spec := by
+  intro n
+  simp only [A393662, Nat.add_sub_cancel, A393662.P8345907344821909065.a, A393662.P12609403442720714031.a, A008776, A008776.P11088121667404015999.a, A393661, A393661.P18445463208938884355.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A393662
 
 /-! ## A393662.P10977120787357902297
@@ -1725,6 +1788,12 @@ namespace A393662
 /-- `A393655(n+3)-A008776(n)` -/
 def P10977120787357902297.Spec : Prop :=
   ∀ n, P10977120787357902297.a n = A393662 (n + 3)
+
+theorem P10977120787357902297.correct : P10977120787357902297.Spec := by
+  intro n
+  simp only [A393662, Nat.add_sub_cancel, A393662.P10977120787357902297.a, A393662.P12609403442720714031.a, A008776, A008776.P11088121667404015999.a, A393655, A393655.P8117864334474351213.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A393662
 
@@ -4507,7 +4576,7 @@ end A393695.P3432735448759374879
 /-!
 # A393697: a(n) is the number of unit squares in the square lattice, divided by 4, that have 1 vertex strictly inside and 3 vertices strictly outside the circle x^2 + y^2 = n.
 
-The programs for A393697, the canonical program `A393697.P7831953345102612304` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393697 has offset 0).
+The programs for A393697, the canonical program `A393697.P7831953345102612304` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393697 has offset 0).
 
 The definition of A393697 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4516,7 +4585,7 @@ The definition of A393697 is `conjectured`: the Lean definition is a formula tha
 
 `A393562(n)-A172471(n)`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A393697

@@ -56,6 +56,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
@@ -64,9 +65,9 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1347,7 +1348,7 @@ end A367623
 /-!
 # A367624: 2-adic valuation of A123581(2*n).
 
-The programs for A367624, the canonical program `A367624.P1659785918442944422` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367624 has offset 1).
+The programs for A367624, the canonical program `A367624.P1659785918442944422` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367624 has offset 1).
 
 The definition of A367624 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1356,7 +1357,7 @@ The definition of A367624 is `conjectured`: the Lean definition is a formula tha
 
 `val(A123581(2*(n+1)), 2)`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A367624
@@ -2319,20 +2320,23 @@ end
 
 end A367633.P1010978164598552388
 
-/-! ## A367633.P2407414915420717740
+/-! ## A367633.P15953428683915001700
 
-`A319057(A078599(n+1))`
+`∏{p}[n+1, #+1]-A325616(3*n+2)!`
 -/
 
-namespace A367633.P2407414915420717740
+namespace A367633.P15953428683915001700
 noncomputable section
 
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319057 (A078599 (n + 1)).toNat
+  ((∏ p ∈ Nat.primeFactors (f1 n), (p + 1) : ℕ) : ℤ) - (Nat.factorial (A325616 (3 * n + 2)).toNat : ℤ)
 
 end
 
-end A367633.P2407414915420717740
+end A367633.P15953428683915001700
 
 /-!
 # A367634: Array read by descending antidiagonals, where row n=0 lists the natural numbers and where each new row n=1,2,... is found by taking the number n in the previous row, and "leaping" it over the next n terms to its right, keeping the other numbers fixed (see example).
@@ -3097,6 +3101,21 @@ end
 
 end A367647.P11022066382263589094
 
+/-! ## A367647.P3218998917539971029
+
+`A114538(A060791(2*n+3))%5`
+-/
+
+namespace A367647.P3218998917539971029
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A114538 (A060791 (2 * n + 3)).toNat) 5
+
+end
+
+end A367647.P3218998917539971029
+
 /-! ## A367647.P13212408425632418857
 
 `A338898(or(A249716(n), A327185(n+1)))`
@@ -3141,21 +3160,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A367647.P17967926054026424160
-
-/-! ## A367647.P13017236494974995696
-
-`A001221(A189216(n+3)+A025510(2*n+3))`
--/
-
-namespace A367647.P13017236494974995696
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001221 (A189216 (n + 3) + A025510 (2 * n + 3)).toNat
-
-end
-
-end A367647.P13017236494974995696
 
 /-!
 # A367648: Primes p such that the multiplicative order of 3 modulo p is a power of 3.

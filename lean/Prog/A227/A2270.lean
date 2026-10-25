@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -53,11 +54,12 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -93,6 +95,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A227000: Numbers k such that (k+1)^2-k^2 and (k+1)^3-k^3 are both prime.
@@ -2388,7 +2394,7 @@ end A227029.P8700287138937304134
 /-!
 # A227030: Numbers that are neither the difference nor the product of two primes.
 
-The programs for A227030, the canonical program `A227030.P6687707257327818715` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227030 has offset 1).
+The programs for A227030, the canonical program `A227030.P6687707257327818715` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227030 has offset 1).
 
 The definition of A227030 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6049 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2397,7 +2403,7 @@ The definition of A227030 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A007921(n+1), A176847(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A227030
@@ -7526,6 +7532,12 @@ namespace A227080
 /-- `eq[6, n-5*A054895(n)]` -/
 def P5674383725657727644.Spec : Prop :=
   ∀ n, (P5674383725657727644.a n : ℤ) = A227080 (n + 1)
+
+theorem P5674383725657727644.correct : P5674383725657727644.Spec := by
+  intro n
+  simp only [A227080, Nat.add_sub_cancel, A227080.P5674383725657727644.f1, A227080.P5674383725657727644.f2, A227080.P5674383725657727644.a, A227080.P1696635524758973866.f1, A227080.P1696635524758973866.f2, A227080.P1696635524758973866.a, A053827, A053827.P15972254016312287163.a, A054895, A054895.P15754295407001771698.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A227080
 

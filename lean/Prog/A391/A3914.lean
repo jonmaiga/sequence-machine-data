@@ -5,6 +5,7 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
@@ -56,7 +57,6 @@ import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
@@ -1579,6 +1579,36 @@ end
 
 end A391418.P6145520644981082820
 
+/-! ## A391418.P9152512199730661775
+
+`A391439(n+1)+A102283(A003215(n))`
+-/
+
+namespace A391418.P9152512199730661775
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A391439 (n + 1) + A102283 (A003215 n).toNat
+
+end
+
+end A391418.P9152512199730661775
+
+/-! ## A391418.P7948416860683379773
+
+`A391439(n+1)+A051903(A024770(n+1))`
+-/
+
+namespace A391418.P7948416860683379773
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A391439 (n + 1) + A051903 (A024770 (n + 1)).toNat
+
+end
+
+end A391418.P7948416860683379773
+
 /-! ## A391418.P931583480891014929
 
 `A089473(A391439(n+1)^(lt[0, A167501(n+1)]+1))`
@@ -1680,21 +1710,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A391418.P18384900785372368681
-
-/-! ## A391418.P7812502758498555253
-
-`and(A176500(n+1), A391438(n+1))`
--/
-
-namespace A391418.P7812502758498555253
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A176500 (n + 1)) (A391438 (n + 1))
-
-end
-
-end A391418.P7812502758498555253
 
 /-!
 # A391420: Discriminants of real quadratic fields with form class number 2.
@@ -3106,7 +3121,7 @@ end A391427.P4996529767170631105
 /-!
 # A391428: Exponential abundant numbers that are squares of squarefree numbers.
 
-The programs for A391428, the canonical program `A391428.P16960108032895023113` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391428 has offset 1).
+The programs for A391428, the canonical program `A391428.P16960108032895023113` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391428 has offset 1).
 
 The definition of A391428 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A087248, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3115,7 +3130,7 @@ The definition of A391428 is `conditional`: the Lean definition is an OEIS formu
 
 `A087248(n+1)²`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A391428

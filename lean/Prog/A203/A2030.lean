@@ -44,8 +44,6 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -73,6 +71,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C024
 
 /-!
 # A203000: G.f. satisfies: A(x) = Sum_{n>=0} x^n * (A(x)^n + 1)^n.
@@ -1526,6 +1525,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A203022.P431912322613517164
+
+/-! ## A203022.P2863119450309249241
+
+`A298280(n+1)*A373982(A005165(n))`
+-/
+
+namespace A203022.P2863119450309249241
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A298280 (n + 1) * A373982 (A005165 n).toNat
+
+end
+
+end A203022.P2863119450309249241
 
 /-!
 # A203023: Integers n dividing A000041(n)+1.

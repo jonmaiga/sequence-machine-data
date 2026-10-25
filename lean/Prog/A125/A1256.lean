@@ -3207,6 +3207,12 @@ namespace A125641
 def P15461214507745783302.Spec : Prop :=
   ∀ n, P15461214507745783302.a n = (A125641 (n + 1) : ℚ)
 
+theorem P15461214507745783302.correct : P15461214507745783302.Spec := by
+  intro n
+  simp only [A125641, Nat.add_sub_cancel, A125641.P15461214507745783302.a, A125641.P15866424776337522073.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A125641
 
 /-! ## A125641.P13623577989962814778
@@ -4738,6 +4744,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A125653.P5015549127210420112
+
+/-! ## A125653.P1962606474657963730
+
+`A125781(A271439(n))%A344862(n+1)`
+-/
+
+namespace A125653.P1962606474657963730
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A125781 (A271439 n).toNat) (A344862 (n + 1))
+
+end
+
+end A125653.P1962606474657963730
 
 /-!
 # A125654: Column 1 of triangle A125653; also equals the eigensequence of triangle A125653.

@@ -62,15 +62,13 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
-import Seq.B007.C002
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -753,26 +751,26 @@ end
 
 end A175811.P14107471418540568284
 
-/-! ## A175811.P11937989066521419998
+/-! ## A175811.P18382903409731182399
 
-`lt[A161511(A318691(n+1)), A034851(n)]`
+`A028310(lt[A078898(n), A034254(n+1)])`
 -/
 
-namespace A175811.P11937989066521419998
+namespace A175811.P18382903409731182399
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A161511 (A318691 (n + 1)).toNat
+  A078898 n
 
 def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034851 n
+  A034254 (n + 1)
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A028310 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
 
 end
 
-end A175811.P11937989066521419998
+end A175811.P18382903409731182399
 
 /-!
 # A175812: Partial sums of ceiling(n^2/6).
@@ -6668,6 +6666,12 @@ namespace A175851
 def P1054273464917967258.Spec : Prop :=
   ∀ n, P1054273464917967258.a n = A175851 (n + 1)
 
+theorem P1054273464917967258.correct : P1054273464917967258.Spec := by
+  intro n
+  simp only [A175851, Nat.add_sub_cancel, A175851.P1054273464917967258.a, A175851.P13592010490707745070.a, A061007, A061007.P1649170130193805129.f1, A061007.P1649170130193805129.a, A064722, A064722.P17255395012520951887.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A175851
 
 /-! ## A175851.P17643001520274977842
@@ -6739,6 +6743,12 @@ namespace A175851
 /-- `(n+3-A175856(n+1))/2` -/
 def P83145862323985080.Spec : Prop :=
   ∀ n, P83145862323985080.a n = (A175851 (n + 1) : ℚ)
+
+theorem P83145862323985080.correct : P83145862323985080.Spec := by
+  intro n
+  simp only [A175851, Nat.add_sub_cancel, A175851.P83145862323985080.a, A175851.P13592010490707745070.a, A061007, A061007.P1649170130193805129.f1, A061007.P1649170130193805129.a, A175856, A175856.P13215807738889420678.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A175851
 
@@ -7303,6 +7313,12 @@ namespace A175856
 def P13008973113157026486.Spec : Prop :=
   ∀ n, P13008973113157026486.a n = A175856 (n + 1)
 
+theorem P13008973113157026486.correct : P13008973113157026486.Spec := by
+  intro n
+  simp only [A175856, Nat.add_sub_cancel, A175856.P13008973113157026486.a, A175856.P13215807738889420678.a, A064722, A064722.P17255395012520951887.a, A175851, A175851.P13592010490707745070.a, A061007, A061007.P1649170130193805129.f1, A061007.P1649170130193805129.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A175856
 
 /-! ## A175856.P13215807738889420678
@@ -7413,6 +7429,12 @@ namespace A175856
 /-- `A276000(n+1)-A184985(n+1)` -/
 def P13715313487985747954.Spec : Prop :=
   ∀ n, P13715313487985747954.a n = A175856 (n + 1)
+
+theorem P13715313487985747954.correct : P13715313487985747954.Spec := by
+  intro n
+  simp only [A175856, Nat.add_sub_cancel, A175856.P13715313487985747954.a, A175856.P13215807738889420678.a, A175851, A175851.P13592010490707745070.a, A184985, A184985.P8151491416379667933.a, A276000, A276000.P16396236457092608332.a, A061007, A061007.P1649170130193805129.f1, A061007.P1649170130193805129.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A175856
 

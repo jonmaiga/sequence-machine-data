@@ -57,7 +57,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -2011,20 +2010,20 @@ end
 
 end A365150.P7081888029721978867
 
-/-! ## A365150.P14475476154946657887
+/-! ## A365150.P3260034230262941476
 
-`A034887(or(A005809(n), A369418(n)))`
+`A369327(n)+A067029(A001927(n))`
 -/
 
-namespace A365150.P14475476154946657887
+namespace A365150.P3260034230262941476
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034887 (Int.lor (A005809 n) (A369418 n)).toNat
+  A369327 n + A067029 (A001927 n).toNat
 
 end
 
-end A365150.P14475476154946657887
+end A365150.P3260034230262941476
 
 /-!
 # A365151: G.f. satisfies A(x) = ( 1 + x*A(x)^2 / (1 - x*A(x))^3 )^2.
@@ -2328,20 +2327,23 @@ end
 
 end A365162.P16532273348567655868
 
-/-! ## A365162.P15034404741380922834
+/-! ## A365162.P9076842719139689152
 
-`A003961(A064989(n+1))*A051841(n+1)`
+`∑{d}[n+1, A008683(#)*A075101((n+1)/#)]/2`
 -/
 
-namespace A365162.P15034404741380922834
+namespace A365162.P9076842719139689152
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003961 (A064989 (n + 1)).toNat * A051841 (n + 1)
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n + 1
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((∑ d ∈ Nat.divisors (f1 n), A008683 d * A075101 (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (d : ℚ))).toNat : ℤ) : ℚ) / 2
 
 end
 
-end A365162.P15034404741380922834
+end A365162.P9076842719139689152
 
 /-!
 # A365166: Numbers that are not the sum of a prime number and a fourth power of a nonnegative integer.
@@ -3726,20 +3728,20 @@ end A365187.P14808310832845212679
 The programs for A365188, there is no canonical definition to state claims against.
 -/
 
-/-! ## A365188.P18224478655640265549
+/-! ## A365188.P13106851591731279109
 
-`A159481(A001147(n+1)-n²)`
+`A387141(A000048(2*(n+1))²)`
 -/
 
-namespace A365188.P18224478655640265549
+namespace A365188.P13106851591731279109
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A159481 (A001147 (n + 1) - (n ^ 2 : ℤ)).toNat
+  A387141 (A000048 (2 * (n + 1)) ^ 2).toNat
 
 end
 
-end A365188.P18224478655640265549
+end A365188.P13106851591731279109
 
 /-!
 # A365189: G.f. satisfies A(x) = 1 + x*A(x)^5*(1 + x*A(x)^5).

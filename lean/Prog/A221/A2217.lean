@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -48,6 +49,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -72,6 +74,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A221701: Let K be a local ring with a principal maximal ideal J of nilpotent degree 2 with |K/J|>2; a(n) = number of D-invariant ideals in the ring R_n(K,J).
@@ -475,6 +481,12 @@ namespace A221714
 def P10257135259520102082.Spec : Prop :=
   ∀ n, P10257135259520102082.a n = A221714 n
 
+theorem P10257135259520102082.correct : P10257135259520102082.Spec := by
+  intro n
+  simp only [A221714, Nat.add_sub_cancel, A221714.P10257135259520102082.a, A221714.P3890911169790140761.a, A007088, A007088.P12432121332583687413.a, A073138, A073138.P4418127481005985757.a, A319650, A319650.P14664312154430006966.a, A038573, A038573.P5952807231814584452.a, A080100, A080100.P10210311042903193849.a, A097256, A097256.P18324559811505528946.a, A001316, A001316.P6850078358198232129.a, A080791, A080791.P6131873509789506769.a, A000120, A000120.P2816527436160941581.a, A007814, A007814.P13537437864234730737.a, A036987, A036987.P1789601236562705309.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A221714
 
 /-! ## A221714.P5796472094930691321
@@ -543,6 +555,12 @@ namespace A221714
 /-- `A007088(A073140(n)-A073137(n))` -/
 def P12283667661148335198.Spec : Prop :=
   ∀ n, P12283667661148335198.a n = A221714 n
+
+theorem P12283667661148335198.correct : P12283667661148335198.Spec := by
+  intro n
+  simp only [A221714, Nat.add_sub_cancel, A221714.P12283667661148335198.a, A221714.P3890911169790140761.a, A007088, A007088.P12432121332583687413.a, A073137, A073137.P15165915416940425348.a, A073138, A073138.P4418127481005985757.a, A073140, A073140.P4323079817452288887.a, A038573, A038573.P5952807231814584452.a, A053644, A053644.P1707366427427647095.a, A080100, A080100.P10210311042903193849.a, A097256, A097256.P18324559811505528946.a, A001316, A001316.P6850078358198232129.a, A080791, A080791.P6131873509789506769.a, A000120, A000120.P2816527436160941581.a, A007814, A007814.P13537437864234730737.a, A036987, A036987.P1789601236562705309.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A221714
 
@@ -4591,6 +4609,12 @@ namespace A221762
 /-- `2*A041015(n)-A221763(n+1)` -/
 def P2799008231756962478.Spec : Prop :=
   ∀ n, P2799008231756962478.a n = A221762 (n + 1)
+
+theorem P2799008231756962478.correct : P2799008231756962478.Spec := by
+  intro n
+  simp only [A221762, Nat.add_sub_cancel, A221762.P2799008231756962478.a, A221762.P6060710751891883182.a, A041015, A041015.P3107087788480570332.a, A221763, A221763.P1213117035241420343.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A221762
 

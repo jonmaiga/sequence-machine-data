@@ -1,4 +1,5 @@
 import SequenceMachineLib.Basic
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C002
 import Seq.B000.C003
@@ -35,6 +36,10 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C023
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A017700: Denominator of sum of -18th powers of divisors of n.
@@ -7634,6 +7639,12 @@ namespace A017764
 /-- `∑[C(n+99, 99)]` -/
 def P16474915288836417500.Spec : Prop :=
   ∀ n, (P16474915288836417500.a n : ℤ) = A017764 (n + 100)
+
+theorem P16474915288836417500.correct : P16474915288836417500.Spec := by
+  intro n
+  simp only [A017764, Nat.add_sub_cancel, A017764.P16474915288836417500.f1, A017764.P16474915288836417500.a, A017764.P3747891598830656448.f1, A017764.P3747891598830656448.a, A017763, A017763.P1300016330019703436.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A017764
 

@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -87,6 +88,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A138501: Expansion of (eta(q)^2 * eta(q^4)^4 / eta(q^2)^3)^2 in powers of q.
@@ -711,6 +716,12 @@ namespace A138503
 def P16680104835589634734.Spec : Prop :=
   ∀ n, P16680104835589634734.a n = A138503 (n + 1)
 
+theorem P16680104835589634734.correct : P16680104835589634734.Spec := by
+  intro n
+  simp only [A138503, Nat.add_sub_cancel, A138503.P16680104835589634734.a, A138503.P12556879654800362698.a, A008457, A008457.P5125644175477456083.f1, A008457.P5125644175477456083.a, A033999, A033999.P17703899380244199787.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
+
 end A138503
 
 /-! ## A138503.P481527164909954443
@@ -1281,6 +1292,12 @@ namespace A138505
 def P16172487415259507755.Spec : Prop :=
   ∀ n, P16172487415259507755.a n = A138505 (n + 1)
 
+theorem P16172487415259507755.correct : P16172487415259507755.Spec := by
+  intro n
+  simp only [A138505, Nat.add_sub_cancel, A138505.P16172487415259507755.a, A138505.P14452217802365060205.a, A002173, A002173.P7206352416500240550.a, A033999, A033999.P17703899380244199787.a, A050450, A050450.P4021675749699126775.a, A050453, A050453.P6605765519543064582.f1, A050453.P6605765519543064582.a, A050999, A050999.P9007860046011287886.f1, A050999.P9007860046011287886.a, A062828, A062828.P6719252676437091402.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A138505
 
 /-! ## A138505.P229199504466697676
@@ -1710,7 +1727,7 @@ end A138506.P15461040573508083391
 /-!
 # A138507: Expansion of (f(q)^5 / f(q^5) - 1) / 5 in powers of q where f() is a Ramanujan theta function.
 
-The programs for A138507, the canonical program `A138507.P4063493995487370764` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138507 has offset 1).
+The programs for A138507, the canonical program `A138507.P4063493995487370764` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138507 has offset 1).
 
 The definition of A138507 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1742,7 +1759,7 @@ end A138507
 
 `(-1)^n*A109091(n+1)`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A138507

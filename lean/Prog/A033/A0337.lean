@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -82,6 +83,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A033701: Theta series of lattice A_2 tensor D_3 (dimension 6, det. 432, min. norm 4).
@@ -5712,6 +5717,12 @@ namespace A033762
 /-- `A005881(n)/2` -/
 def P3859951278001500435.Spec : Prop :=
   ∀ n, P3859951278001500435.a n = (A033762 n : ℚ)
+
+theorem P3859951278001500435.correct : P3859951278001500435.Spec := by
+  intro n
+  simp only [A033762, Nat.add_sub_cancel, A033762.P3859951278001500435.a, A033762.P13282187029160693838.a, A005881, A005881.P8037099234371923042.a, A122860, A122860.P11540737575163240451.f1, A122860.P11540737575163240451.a, A033999, A033999.P17703899380244199787.a, A049347, A049347.P9996747395155426839.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A033762
 

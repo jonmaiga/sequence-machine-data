@@ -43,12 +43,12 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -3684,23 +3684,23 @@ end A337654.P1339846135431838741
 The programs for A337655, there is no canonical definition to state claims against.
 -/
 
-/-! ## A337655.P14359947999029026005
+/-! ## A337655.P13552293013050154241
 
-`A337662(∑[n+1])`
+`A337662(1+∑[n])`
 -/
 
-namespace A337655.P14359947999029026005
+namespace A337655.P13552293013050154241
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+  n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A337662 (∑ j ∈ Finset.range (n + 1), f1 j)
+  A337662 (1 + ∑ j ∈ Finset.range (n + 1), f1 j)
 
 end
 
-end A337655.P14359947999029026005
+end A337655.P13552293013050154241
 
 /-! ## A337655.P6455008407687796516
 
@@ -5630,7 +5630,7 @@ end A337686.P11482214081216117765
 /-!
 # A337688: Numbers divisible by 2 or more primitive nondeficient numbers.
 
-The programs for A337688, the canonical program `A337688.P213648959849896231` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337688 has offset 1).
+The programs for A337688, the canonical program `A337688.P213648959849896231` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337688 has offset 1).
 
 The definition of A337688 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5639,7 +5639,7 @@ The definition of A337688 is `conjectured`: the Lean definition is a formula tha
 
 `lt[1, A337690(n+1)]+1`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A337688

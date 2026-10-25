@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -54,14 +55,17 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -88,6 +92,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A352900: a(n) is the number of different ways to partition the set of vertices of a convex n-gon into intersecting polygons.
@@ -4166,7 +4174,7 @@ end A352952.P13148909096536026992
 /-!
 # A352954: Primes p such that (p^2+3*p+1)/5 is prime.
 
-The programs for A352954, the canonical program `A352954.P6065376693423034420` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352954 has offset 1).
+The programs for A352954, the canonical program `A352954.P6065376693423034420` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352954 has offset 1).
 
 The definition of A352954 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1081 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4175,7 +4183,7 @@ The definition of A352954 is `conjectured`: the Lean definition is a formula tha
 
 `p?[5*A090563(n+1)+1]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A352954
@@ -6210,6 +6218,12 @@ namespace A352994
 /-- `n*(1-n²)²*2^n` -/
 def P3699686715654430495.Spec : Prop :=
   ∀ n, P3699686715654430495.a n = A352994 (n + 1)
+
+theorem P3699686715654430495.correct : P3699686715654430495.Spec := by
+  intro n
+  simp only [A352994, Nat.add_sub_cancel, A352994.P3699686715654430495.a, A352994.P12794878723960370675.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A352994
 

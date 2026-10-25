@@ -56,10 +56,9 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -85,7 +84,6 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -2077,6 +2075,12 @@ namespace A278620
 def P5037176876965589900.Spec : Prop :=
   ∀ n, P5037176876965589900.a n = (A278620 n : ℚ)
 
+theorem P5037176876965589900.correct : P5037176876965589900.Spec := by
+  intro n
+  simp only [A278620, Nat.add_sub_cancel, A278620.P5037176876965589900.a, A278620.P10708601556131734576.a, A045502, A045502.P18302738244362755206.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A278620
 
 /-! ## A278620.P18093857671921322403
@@ -3997,6 +4001,12 @@ namespace A278646
 def P11235269422168611219.Spec : Prop :=
   ∀ n, P11235269422168611219.a n = A278646 n
 
+theorem P11235269422168611219.correct : P11235269422168611219.Spec := by
+  intro n
+  simp only [A278646, Nat.add_sub_cancel, A278646.P11235269422168611219.a, A278646.P6809345885454626845.f1, A278646.P6809345885454626845.a, A005043, A005043.P11838040305800302990.a, A005408, A005408.P17437947328870227736.a, A001006, A001006.P11199602840237397285.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A278646
 
 /-! ## A278646.P9019370477359018044
@@ -4304,7 +4314,7 @@ end A278646
 /-!
 # A278647: First differences of Hypotenuse numbers A009003.
 
-The programs for A278647, the canonical program `A278647.P12690470526946050067` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278647 has offset 1).
+The programs for A278647, the canonical program `A278647.P12690470526946050067` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278647 has offset 1).
 
 The definition of A278647 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A009003, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4313,7 +4323,7 @@ The definition of A278647 is `conditional`: the Lean definition is an OEIS formu
 
 `A009003(n+2)-A009003(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A278647
@@ -4572,6 +4582,12 @@ namespace A278647
 /-- `Δ[A072592(n+1)/2]` -/
 def P12520233404354618653.Spec : Prop :=
   ∀ n, P12520233404354618653.a n = (A278647 (n + 1) : ℚ)
+
+theorem P12520233404354618653.correct : P12520233404354618653.Spec := by
+  intro n
+  simp only [A278647, Nat.add_sub_cancel, A278647.P12520233404354618653.f1, A278647.P12520233404354618653.a, A278647.P12690470526946050067.a, A009003, A009003.P4153996351455582682.f1, A009003.P4153996351455582682.a, A072592, A072592.P12540866148401735071.a, A004144, A004144.P17382156593889680767.a, A081324, A081324.P12063373289040437378.f1, A081324.P12063373289040437378.f2, A081324.P12063373289040437378.a, A063014, A063014.P2435970929241132637.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A278647
 
@@ -5743,26 +5759,20 @@ end
 
 end A278664.P8585184408993826164
 
-/-! ## A278664.P11785138790264949541
+/-! ## A278664.P14557712414501244016
 
-`A007088(∑[A259098(n)%(3*p?[2^n-1])])`
+`A267538(n)-A082784(C(n+3, 3)*2^n)`
 -/
 
-namespace A278664.P11785138790264949541
+namespace A278664.P14557712414501244016
 noncomputable section
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (2 ^ n : ℤ) - 1
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A259098 n) (3 * f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n))
-
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007088 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
+  A267538 n - A082784 (Nat.choose (n + 3) 3 * 2 ^ n)
 
 end
 
-end A278664.P11785138790264949541
+end A278664.P14557712414501244016
 
 /-!
 # A278665: Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 62", based on the 5-celled von Neumann neighborhood.
@@ -7330,6 +7340,27 @@ end A278679.P17797454734673654458
 The programs for A278680, there is no canonical definition to state claims against.
 -/
 
+/-! ## A278680.P6648408860550243911
+
+`∑[∑[A333943(A210068(n))]]`
+-/
+
+namespace A278680.P6648408860550243911
+noncomputable section
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A333943 (A210068 n).toNat
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f2 j
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A278680.P6648408860550243911
+
 /-! ## A278680.P8024770114024852022
 
 `A023003(n)-A079998(A000312(n))`
@@ -7344,21 +7375,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A278680.P8024770114024852022
-
-/-! ## A278680.P11143641832577896433
-
-`xor(A160527(n), A381717(A064636(n)))`
--/
-
-namespace A278680.P11143641832577896433
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A160527 n) (A381717 (A064636 n).toNat)
-
-end
-
-end A278680.P11143641832577896433
 
 /-!
 # A278681: Pisot sequence T(3,16).

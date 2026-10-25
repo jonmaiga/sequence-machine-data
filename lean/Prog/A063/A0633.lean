@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -45,11 +46,13 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -63,6 +66,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A063300: Dimension of the space of weight n cuspidal newforms for Gamma_1( 27 ).
@@ -4679,7 +4686,7 @@ end A063374
 
 The programs for A063375, the canonical program `A063375.P4586247262053786237` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063375 has offset 1).
 
-The definition of A063375 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000005, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A063375 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A063375.P4586247262053786237
@@ -4767,6 +4774,12 @@ namespace A063375
 /-- `A193292(n+1)+A193291(n+1)` -/
 def P8304553800239780839.Spec : Prop :=
   ∀ n, P8304553800239780839.a n = A063375 (n + 1)
+
+theorem P8304553800239780839.correct : P8304553800239780839.Spec := by
+  intro n
+  simp only [A063375, Nat.add_sub_cancel, A063375.P8304553800239780839.a, A063375.P4586247262053786237.a, A000005, A000005.P16091521709108585461.a, A000045, A000045.P11838749114346432762.a, A193291, A193291.P12186419772948378566.a, A193292, A193292.P537191371568892433.a, A001227, A001227.P17291574635237243988.f1, A001227.P17291574635237243988.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A183063, A183063.P14549643650991336837.a, A062011, A062011.P17525320077853469406.a, A099777, A099777.P11792433152824821401.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A063375
 

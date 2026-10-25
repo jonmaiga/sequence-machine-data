@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -55,6 +56,7 @@ import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -90,6 +92,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A215300: Number of solid standard Young tableaux of shape [[n,n-4],[4]].
@@ -3248,6 +3254,36 @@ The programs for A215310, the canonical program `A215310.P9578832618416328593` i
 The definition of A215310 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
+/-! ## A215310.P15998622869157546762
+
+`∪[A141852(n+1), A215302(n+1)]`
+-/
+
+namespace A215310.P15998622869157546762
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A141852 (n + 1)
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A215302 (n + 1)
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
+
+end
+
+end A215310.P15998622869157546762
+
+namespace A215310
+
+/-- `∪[A141852(n+1), A215302(n+1)]` -/
+def P15998622869157546762.Spec : Prop :=
+  ∀ n, (P15998622869157546762.a n : ℤ) = A215310 (n + 1)
+
+end A215310
+
 /-! ## A215310.P15237267574353703902
 
 `∪[A141849(n+1), A215314(n+1)]`
@@ -3294,36 +3330,6 @@ def P9578832618416328593.Spec : Prop :=
 theorem P9578832618416328593.correct : P9578832618416328593.Spec := by
   intro n
   simp only [A215310, Nat.add_sub_cancel]
-
-end A215310
-
-/-! ## A215310.P15998622869157546762
-
-`∪[A141852(n+1), A215302(n+1)]`
--/
-
-namespace A215310.P15998622869157546762
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A141852 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A215302 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A215310.P15998622869157546762
-
-namespace A215310
-
-/-- `∪[A141852(n+1), A215302(n+1)]` -/
-def P15998622869157546762.Spec : Prop :=
-  ∀ n, (P15998622869157546762.a n : ℤ) = A215310 (n + 1)
 
 end A215310
 
@@ -10767,6 +10773,12 @@ namespace A215339
 /-- `(A001945(n+1)-A078712(n+1))%(n+1)` -/
 def P13745337130926529549.Spec : Prop :=
   ∀ n, P13745337130926529549.a n = A215339 (n + 1)
+
+theorem P13745337130926529549.correct : P13745337130926529549.Spec := by
+  intro n
+  simp only [A215339, Nat.add_sub_cancel, A215339.P13745337130926529549.a, A215339.P9790592980858161614.a, A001608, A001608.P2790496269249641655.a, A001945, A001945.P17638672492670160984.a, A078712, A078712.P12805588641227863902.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A215339
 

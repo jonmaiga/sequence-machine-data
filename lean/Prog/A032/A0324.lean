@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -52,8 +53,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -81,6 +80,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A032403: Numbers k such that 107*2^k+1 is prime.
@@ -1601,6 +1604,12 @@ namespace A032441
 def P1610435470742881743.Spec : Prop :=
   ∀ n, P1610435470742881743.a n = A032441 n
 
+theorem P1610435470742881743.correct : P1610435470742881743.Spec := by
+  intro n
+  simp only [A032441, Nat.add_sub_cancel, A032441.P1610435470742881743.a, A032441.P12702803524669002420.a, A033192, A033192.P12903176854544795020.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A032441
 
 /-! ## A032441.P12702803524669002420
@@ -1967,6 +1976,12 @@ namespace A032441
 /-- `A382608(n)/4+1` -/
 def P661666470492010897.Spec : Prop :=
   ∀ n, P661666470492010897.a n = (A032441 n : ℚ)
+
+theorem P661666470492010897.correct : P661666470492010897.Spec := by
+  intro n
+  simp only [A032441, Nat.add_sub_cancel, A032441.P661666470492010897.a, A032441.P12702803524669002420.a, A382608, A382608.P10117561399595849934.a, A033192, A033192.P12903176854544795020.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A032441
 
@@ -2484,6 +2499,12 @@ namespace A032443
 /-- `A277924(n)-A001791(n)` -/
 def P9627090307027451308.Spec : Prop :=
   ∀ n, P9627090307027451308.a n = A032443 n
+
+theorem P9627090307027451308.correct : P9627090307027451308.Spec := by
+  intro n
+  simp only [A032443, Nat.add_sub_cancel, A032443.P9627090307027451308.a, A032443.P9008347100965592758.a, A000108, A000108.P17551949696095299361.a, A001791, A001791.P9713013280951293137.a, A277924, A277924.P15431982985121928956.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A032443
 

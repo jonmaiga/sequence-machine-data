@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C005
@@ -27,9 +28,10 @@ import Seq.B002.C002
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C004
-import Seq.B006.C001
+import Seq.B005.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -55,6 +57,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A397801: 3-adic valuation of the quadruple factorial of n.
@@ -196,6 +202,21 @@ end
 
 end A397802.P18209623836552255310
 
+/-! ## A397802.P14100986144252666219
+
+`A004526(xor(A064063(n), A096304(n+1)))`
+-/
+
+namespace A397802.P14100986144252666219
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A004526 (Int.xor (A064063 n) (A096304 (n + 1))).toNat
+
+end
+
+end A397802.P14100986144252666219
+
 /-!
 # A397803: a(n) = 2^((3^n - 1)/2).
 
@@ -275,6 +296,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A397820.P10125714770657839990
+
+/-! ## A397820.P7587666381551026696
+
+`A344616(A130789(n+1)+A000007(2*n+1))`
+-/
+
+namespace A397820.P7587666381551026696
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A344616 (A130789 (n + 1) + A000007 (2 * n + 1)).toNat
+
+end
+
+end A397820.P7587666381551026696
 
 /-!
 # A397828: Reduced Dedekind psi function: a(p1^e1*...*pN^eN) = lcm((p1+1)*p1^(e1-1), ..., (pN+1)*pN^(eN-1)).
@@ -669,6 +705,12 @@ namespace A397837
 /-- `3^n-A397835(n)` -/
 def P1477913368152880354.Spec : Prop :=
   ∀ n, P1477913368152880354.a n = A397837 n
+
+theorem P1477913368152880354.correct : P1477913368152880354.Spec := by
+  intro n
+  simp only [A397837, Nat.add_sub_cancel, A397837.P1477913368152880354.a, A397837.P11095280767987462011.a, A397835, A397835.P15543943406779029277.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A397837
 
@@ -1153,20 +1195,20 @@ end
 
 end A397877.P18037885605584369138
 
-/-! ## A397877.P10461267315865018413
+/-! ## A397877.P7917047105522594032
 
-`A071820(A134058(3*n+2)*A324704(n+1))`
+`xor(2, A100821(n+1+A003961(n+5)))`
 -/
 
-namespace A397877.P10461267315865018413
+namespace A397877.P7917047105522594032
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A071820 (A134058 (3 * n + 2) * A324704 (n + 1)).toNat
+  Int.xor 2 (A100821 ((n + 1 : ℤ) + A003961 (n + 5)).toNat)
 
 end
 
-end A397877.P10461267315865018413
+end A397877.P7917047105522594032
 
 /-!
 # A397879: Largest integer of the form r^k whose base-n alternating digital root is r and whose number of base-n digits is k.

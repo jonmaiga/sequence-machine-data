@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -55,7 +56,7 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -63,7 +64,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -93,6 +93,10 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A283700: Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 710", based on the 5-celled von Neumann neighborhood.
@@ -13202,6 +13206,12 @@ namespace A283794
 def P9945012571306664064.Spec : Prop :=
   ∀ n, P9945012571306664064.a n = A283794 (n + 1)
 
+theorem P9945012571306664064.correct : P9945012571306664064.Spec := by
+  intro n
+  simp only [A283794, Nat.add_sub_cancel, A283794.P9945012571306664064.a, A283794.P5491480845354649629.f1, A283794.P5491480845354649629.a, A288602, A288602.P9324771817530744836.a, A288931, A288931.P10856556094994457970.f1, A288931.P10856556094994457970.a, A288929, A288929.P9658926497667176175.f2, A288929.P9658926497667176175.f1, A288929.P9658926497667176175.a, A219641, A219641.P1602393212941527080.a, A007895, A007895.P13159574906702943091.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A283794
 
 /-! ## A283794.P5491480845354649629
@@ -13735,6 +13745,21 @@ end A283797.P5152889455046214632
 The programs for A283798, there is no canonical definition to state claims against.
 -/
 
+/-! ## A283798.P16720605405053379437
+
+`and(A007318(n), A071904(A340591(n)))`
+-/
+
+namespace A283798.P16720605405053379437
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (A007318 n) (A071904 (A340591 n).toNat)
+
+end
+
+end A283798.P16720605405053379437
+
 /-! ## A283798.P18257869097423211609
 
 `and(A045609(n+3), A067049(n))`
@@ -13794,21 +13819,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A283798.P12899317232006640649
-
-/-! ## A283798.P13128655858765485547
-
-`and(A007318(n), A301714(A118180(n)))`
--/
-
-namespace A283798.P13128655858765485547
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A007318 n) (A301714 (A118180 n).toNat)
-
-end
-
-end A283798.P13128655858765485547
 
 /-!
 # A283799: Number of dispersed Dyck prefixes of length 2n and height n.

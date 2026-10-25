@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -88,6 +89,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A113500: Maximum element in the continued fraction for F(5n+3)^5/F(5n+2)^5 where F=A000045 are Fibonacci numbers.
@@ -1497,6 +1502,21 @@ end
 
 end A113515.P11541997375497327491
 
+/-! ## A113515.P1242022058963552896
+
+`A355662(2*n+3)`
+-/
+
+namespace A113515.P1242022058963552896
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A355662 (2 * n + 3)
+
+end
+
+end A113515.P1242022058963552896
+
 /-!
 # A113519: Semiprimes in A056105.
 
@@ -2053,6 +2073,12 @@ namespace A113521
 /-- `A113520(A072668(n+1)+1)` -/
 def P5053987157311320826.Spec : Prop :=
   ∀ n, P5053987157311320826.a n = A113521 (n + 1)
+
+theorem P5053987157311320826.correct : P5053987157311320826.Spec := by
+  intro n
+  simp only [A113521, Nat.add_sub_cancel, A113521.P5053987157311320826.a, A113521.P3809801254930279300.a, A002808, A002808.P8130888830651501259.f1, A002808.P8130888830651501259.f2, A002808.P8130888830651501259.a, A072668, A072668.P5648318357023435289.a, A113520, A113520.P10089445824807879536.f1, A113520.P10089445824807879536.a, A048864, A048864.P16915682539637834600.a, A082023, A082023.P820682903743471019.a, A285788, A285788.P13809897660344118351.f1, A285788.P13809897660344118351.a, A005171, A005171.P15860856746370777121.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, A036997, A036997.P9898190539809888575.a, A038566, A038566.P5775218228113679093.a, A001221, A001221.P10258181745752134128.a, A002260, A002260.P769748059679640451.a, A010051, A010051.P15078252821583414300.a, A037228, A037228.P8123356914219364626.a, A169581, A169581.P5880074655837136645.f1, A169581.P5880074655837136645.f2, A169581.P5880074655837136645.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A113521
 

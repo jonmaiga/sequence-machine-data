@@ -62,7 +62,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -658,29 +657,29 @@ def P5047676504915705933.Spec : Prop :=
 
 end A256008
 
-/-! ## A256008.P10593173416359199820
+/-! ## A256008.P11821158809164788814
 
-`∑[2%n-a(n-2)]` with `a(0)=3, a(1)=1`
+`∑[2-a(n-2)]` with `a(0)=3, a(1)=1, a(2)=-3`
 -/
 
-namespace A256008.P10593173416359199820
+namespace A256008.P11821158809164788814
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.rec [3, 1] fun n f1 =>
-  ((2 % n : ℕ) : ℤ) - f1 (n - 2)
+def f1 : ℕ → ℤ := SequenceMachineLib.rec [3, 1, -3] fun n f1 =>
+  2 - f1 (n - 2)
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   ∑ j ∈ Finset.range (n + 1), f1 j
 
 end
 
-end A256008.P10593173416359199820
+end A256008.P11821158809164788814
 
 namespace A256008
 
-/-- `∑[2%n-a(n-2)]` -/
-def P10593173416359199820.Spec : Prop :=
-  ∀ n, P10593173416359199820.a n = A256008 (n + 1)
+/-- `∑[2-a(n-2)]` -/
+def P11821158809164788814.Spec : Prop :=
+  ∀ n, P11821158809164788814.a n = A256008 (n + 1)
 
 end A256008
 
@@ -3604,20 +3603,20 @@ end
 
 end A256037.P17827420683642278908
 
-/-! ## A256037.P13617538984955083338
+/-! ## A256037.P8160265357089221885
 
-`A160552(A099174(n)^A273866(n+1))`
+`A099174(n)-A069846(A084416(n+4))`
 -/
 
-namespace A256037.P13617538984955083338
+namespace A256037.P8160265357089221885
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A160552 (SequenceMachineLib.roundAway ((A099174 n : ℚ) ^ (A273866 (n + 1) : ℤ))).toNat
+  A099174 n - A069846 (A084416 (n + 4)).toNat
 
 end
 
-end A256037.P13617538984955083338
+end A256037.P8160265357089221885
 
 /-!
 # A256038: Triangle read by rows: number of R-class idempotent basis elements of rank k in Brauer monoid B_n.

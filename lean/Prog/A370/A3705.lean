@@ -58,11 +58,10 @@ import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C001
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -1252,6 +1251,21 @@ end
 
 end A370523.P9935415486738682668
 
+/-! ## A370523.P285800933913136933
+
+`A287999(A066568(n))+A175075(n+1)`
+-/
+
+namespace A370523.P285800933913136933
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A287999 (A066568 n).toNat + A175075 (n + 1)
+
+end
+
+end A370523.P285800933913136933
+
 /-! ## A370523.P12799759403089979393
 
 `A094743(n+1)-A113679(A005248(n))`
@@ -1266,21 +1280,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A370523.P12799759403089979393
-
-/-! ## A370523.P8292409487299069194
-
-`A094743(n+1)+A000005(A057469(n+1))`
--/
-
-namespace A370523.P8292409487299069194
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A094743 (n + 1) + A000005 (A057469 (n + 1)).toNat
-
-end
-
-end A370523.P8292409487299069194
 
 /-!
 # A370524: Number of permutations of [n] having exactly one adjacent 2-cycle.
@@ -3550,20 +3549,26 @@ end
 
 end A370577.P14072720183988334016
 
-/-! ## A370577.P13722156977024518932
+/-! ## A370577.P3179280949844882725
 
-`A124768(A349153(A333765(n+1))+n+1)`
+`A000120(lt[A103662(n), A090748(2*n+1)])`
 -/
 
-namespace A370577.P13722156977024518932
+namespace A370577.P3179280949844882725
 noncomputable section
 
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A103662 n
+
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A090748 (2 * n + 1)
+
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124768 (A349153 (A333765 (n + 1)).toNat + (n + 1 : ℤ)).toNat
+  A000120 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
 
 end
 
-end A370577.P13722156977024518932
+end A370577.P3179280949844882725
 
 /-!
 # A370578: Numbers k such that k + 1 divides 3^k + 1.

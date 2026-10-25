@@ -23,6 +23,7 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C036
@@ -53,7 +54,7 @@ import Seq.B005.C000
 import Seq.B006.C001
 import Seq.B007.C001
 import Seq.B010.C000
-import Seq.B013.C000
+import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -578,6 +579,12 @@ namespace A393313
 def P16665659754273327624.Spec : Prop :=
   ∀ n, P16665659754273327624.a n = A393313 n
 
+theorem P16665659754273327624.correct : P16665659754273327624.Spec := by
+  intro n
+  simp only [A393313, Nat.add_sub_cancel, A393313.P16665659754273327624.f1, A393313.P16665659754273327624.a, A393313.P9944757430971594284.f1, A393313.P9944757430971594284.a, A005704, A005704.P7204327875039928643.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A393313
 
 /-! ## A393313.P6432910184553628005
@@ -708,6 +715,12 @@ namespace A393314
 /-- `∑[A005705(n)]` -/
 def P9644737717603818599.Spec : Prop :=
   ∀ n, P9644737717603818599.a n = A393314 n
+
+theorem P9644737717603818599.correct : P9644737717603818599.Spec := by
+  intro n
+  simp only [A393314, Nat.add_sub_cancel, A393314.P9644737717603818599.f1, A393314.P9644737717603818599.a, A393314.P6534115869234177053.f1, A393314.P6534115869234177053.a, A005705, A005705.P9520510629403342121.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A393314
 
@@ -893,6 +906,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A393316.P5406409133780092972
+
+/-! ## A393316.P7530450748735735678
+
+`A179010(A175826(n+3))+A001383(n+1)`
+-/
+
+namespace A393316.P7530450748735735678
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A179010 (A175826 (n + 3)).toNat + A001383 (n + 1)
+
+end
+
+end A393316.P7530450748735735678
 
 /-!
 # A393317: Maximum halting time for any of the 4096 Wolfram 2-state 2-symbol Turing machines across all n-bit inputs.
@@ -1786,6 +1814,12 @@ namespace A393336
 /-- `A283981(n)+A280700(n)-A359400(n)` -/
 def P9491868876735450852.Spec : Prop :=
   ∀ n, P9491868876735450852.a n = A393336 n
+
+theorem P9491868876735450852.correct : P9491868876735450852.Spec := by
+  intro n
+  simp only [A393336, Nat.add_sub_cancel, A393336.P9491868876735450852.a, A393336.P13809973050334025134.a, A029931, A029931.P9873769426762813119.a, A280700, A280700.P14793683405892301722.a, A283981, A283981.P14600652629483997425.a, A359400, A359400.P8597808526579173198.a, A000120, A000120.P2816527436160941581.a, A005187, A005187.P3874015513960485494.a, A029930, A029930.P3707852897458008637.a, A035327, A035327.P258997810375859489.a, A053644, A053644.P1707366427427647095.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A393336
 
@@ -3044,6 +3078,29 @@ def P12617986736393220462.Spec : Prop :=
 
 end A393352
 
+/-! ## A393352.P3818634360124382103
+
+`A065033(A053635(n)-A060747(n))`
+-/
+
+namespace A393352.P3818634360124382103
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A065033 (A053635 n - A060747 n).toNat
+
+end
+
+end A393352.P3818634360124382103
+
+namespace A393352
+
+/-- `A065033(A053635(n)-A060747(n))` -/
+def P3818634360124382103.Spec : Prop :=
+  ∀ n, P3818634360124382103.a n = A393352 n
+
+end A393352
+
 /-! ## A393352.P13593028856416871423
 
 `A134403(A148796(n))`
@@ -3064,29 +3121,6 @@ namespace A393352
 /-- `A134403(A148796(n))` -/
 def P13593028856416871423.Spec : Prop :=
   ∀ n, P13593028856416871423.a n = A393352 n
-
-end A393352
-
-/-! ## A393352.P11684787712430365635
-
-`A326774(A110448(n))`
--/
-
-namespace A393352.P11684787712430365635
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326774 (A110448 n).toNat
-
-end
-
-end A393352.P11684787712430365635
-
-namespace A393352
-
-/-- `A326774(A110448(n))` -/
-def P11684787712430365635.Spec : Prop :=
-  ∀ n, P11684787712430365635.a n = A393352 n
 
 end A393352
 

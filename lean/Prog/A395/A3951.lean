@@ -54,7 +54,6 @@ import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B011.C001
 import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -1658,20 +1657,20 @@ end
 
 end A395126.P15444490758591175748
 
-/-! ## A395126.P6996979448067985275
+/-! ## A395126.P10507036600676820875
 
-`val(A358506(A000031(n+3)), A336460(2*n+5))`
+`A065770(A269303(2*(n+1)))%A271778(n)`
 -/
 
-namespace A395126.P6996979448067985275
+namespace A395126.P10507036600676820875
 noncomputable section
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.valuation (A358506 (A000031 (n + 3)).toNat).toNat (A336460 (2 * n + 5)).toNat
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A065770 (A269303 (2 * (n + 1))).toNat) (A271778 n)
 
 end
 
-end A395126.P6996979448067985275
+end A395126.P10507036600676820875
 
 /-!
 # A395127: Number of distinct integers appearing in Collatz sequences with starting values <= n.
@@ -1865,7 +1864,7 @@ end A395130.P7478327733000353971
 /-!
 # A395133: Number of monotone and order decreasing transformations on an n-chain.
 
-The programs for A395133, the canonical program `A395133.P17198686885299587289` is in `Seq.B011.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395133 has offset 1).
+The programs for A395133, the canonical program `A395133.P17198686885299587289` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395133 has offset 1).
 
 The definition of A395133 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006318, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1874,7 +1873,7 @@ The definition of A395133 is `conditional`: the Lean definition is an OEIS formu
 
 `1+n+1-2^(n+2)+A122367(n+1)+A006318(n+1)`
 
-The canonical program, it is in `Seq.B011.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A395133
@@ -2476,7 +2475,7 @@ end A395156.P12490134777880701840
 /-!
 # A395159: a(n) = 2*(sum of elements of n-th run)/(length of n-th run)^2 using 1 and 2 starting with 1,1.
 
-The programs for A395159, the canonical program `A395159.P17454811225797631171` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395159 has offset 1).
+The programs for A395159, the canonical program `A395159.P17454811225797631171` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395159 has offset 1).
 
 The definition of A395159 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2531,7 +2530,7 @@ end A395159
 
 `A000034(A157196(n+2)+A046523(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A395159

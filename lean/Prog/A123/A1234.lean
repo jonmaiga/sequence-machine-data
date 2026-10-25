@@ -56,7 +56,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -3732,7 +3731,7 @@ end A123475.P15589077762859029012
 /-!
 # A123476: a(n) = (n!)^2/phi(n!), where phi is Euler's totient function.
 
-The programs for A123476, the canonical program `A123476.P7575150719699719929` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123476 has offset 1).
+The programs for A123476, the canonical program `A123476.P7575150719699719929` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123476 has offset 1).
 
 The definition of A123476 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A373319, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3741,7 +3740,7 @@ The definition of A123476 is `conditional`: the Lean definition is an OEIS formu
 
 `A373319((n+1)!)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A123476
@@ -3880,7 +3879,7 @@ end A123476
 /-!
 # A123477: Expansion of (1 - b(q)) / 3 in powers of q where b(q) is a cubic AGM theta function.
 
-The programs for A123477, the canonical program `A123477.P8743366837065388473` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123477 has offset 1).
+The programs for A123477, the canonical program `A123477.P8743366837065388473` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123477 has offset 1).
 
 The definition of A123477 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1082 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4027,7 +4026,7 @@ end A123477
 
 `A035263(n+1)*A112848(n+1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A123477
@@ -5487,6 +5486,12 @@ namespace A123486
 /-- `A000079(A025581(n))*A046854(n)` -/
 def P3629922975611172026.Spec : Prop :=
   ∀ n, P3629922975611172026.a n = A123486 n
+
+theorem P3629922975611172026.correct : P3629922975611172026.Spec := by
+  intro n
+  simp only [A123486, Nat.add_sub_cancel, A123486.P3629922975611172026.a, A123486.P6303469310712278846.a, A000079, A000079.P10855139691139572931.a, A025581, A025581.P420762180635059694.a, A046854, A046854.P6336279902607506651.a, A130321, A130321.P6740187654358347306.a, A004736, A004736.P10337537277358081527.a, A102426, A102426.P776678391830445668.a, A246694, A246694.P8696891911788978763.a, A000007, A000007.P6599383543502402472.a, A000217, A000217.P10269402890581615239.a, A002024, A002024.P11700297927830783882.a, A098925, A098925.P12998610641323261996.a, A161680, A161680.P17206074215489759881.a, A204164, A204164.P12102871025011169980.a, A209278, A209278.P2209721378979805351.a, A002260, A002260.P769748059679640451.a, A003056, A003056.P5318256527314048597.a, A092865, A092865.P9800871042429563602.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A123486
 

@@ -25,7 +25,6 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
@@ -40,15 +39,15 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
+import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
+import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
-import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
@@ -57,7 +56,7 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -2331,20 +2330,20 @@ end
 
 end A043888.P6784794325575086355
 
-/-! ## A043888.P14491858742914507600
+/-! ## A043888.P18345048052000044759
 
-`A035336(3*n+4)+A008683(A035310(n+2))`
+`A047535(3*n+4)+A001221(A005867(n))`
 -/
 
-namespace A043888.P14491858742914507600
+namespace A043888.P18345048052000044759
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035336 (3 * n + 4) + A008683 (A035310 (n + 2)).toNat
+  A047535 (3 * n + 4) + A001221 (A005867 n).toNat
 
 end
 
-end A043888.P14491858742914507600
+end A043888.P18345048052000044759
 
 /-!
 # A043889: Numbers k such that 0 and 4 occur juxtaposed in the base-5 representation of k but not of k+1.

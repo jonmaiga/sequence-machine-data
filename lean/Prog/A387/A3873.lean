@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -55,8 +56,9 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C002
+import Seq.B007.C001
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -83,6 +85,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A387301: a(n) = Sum_{k=0..floor(n/2)} binomial(n+k-1,k) * binomial(n+k-1,n-2*k).
@@ -631,35 +637,6 @@ end
 
 end A387318.P122917349463301262
 
-/-! ## A387318.P2111789893363110019
-
-`comp[∑[comp[∑[n]]-n]+2]`
--/
-
-namespace A387318.P2111789893363110019
-noncomputable section
-
-def f4 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f4 j
-
-open Classical in
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun x => ∀ j, f3 j ≠ x) n : ℤ) - (n : ℤ)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j + 2
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
-
-end
-
-end A387318.P2111789893363110019
-
 /-!
 # A387319: Numbers k for which modulo 3 and modulo another multiple of 3 are coincident among the fractions (2*k mod m)/m for 1 <= m <= k.
 
@@ -800,7 +777,7 @@ end A387319
 /-!
 # A387325: Self-inverse permutation of the nonnegative integers, by swapping and converting the head and tail parts of n in binary and using the rightmost 0-bit as their separator.
 
-The programs for A387325, the canonical program `A387325.P12366465277394037670` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387325 has offset 0).
+The programs for A387325, the canonical program `A387325.P12366465277394037670` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387325 has offset 0).
 
 The definition of A387325 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 666 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -809,7 +786,7 @@ The definition of A387325 is `conjectured`: the Lean definition is a formula tha
 
 `A117303(n+1)-1`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A387325
@@ -3046,6 +3023,12 @@ namespace A387350
 def P5549148996991750227.Spec : Prop :=
   ∀ n, P5549148996991750227.a n = A387350 (n + 1)
 
+theorem P5549148996991750227.correct : P5549148996991750227.Spec := by
+  intro n
+  simp only [A387350, Nat.add_sub_cancel, A387350.P5549148996991750227.a, A387350.P5346268956136855131.a, A002251, A002251.P8899938186717577679.a, A005652, A005652.P16284320388527205357.f1, A005652.P16284320388527205357.f2, A005652.P16284320388527205357.a, A387351, A387351.P5126227165797472721.a, A019444, A019444.P809029338349565677.f1, A019444.P809029338349565677.a, A191329, A191329.P14559015055408526172.a, A085002, A085002.P6542274367589993406.a, A114986, A114986.P6596508872872694334.f1, A114986.P6596508872872694334.a, A171587, A171587.P15896447707216273594.a, A003622, A003622.P18369330713868503528.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
 end A387350
 
 /-! ## A387350.P5346268956136855131
@@ -4231,20 +4214,20 @@ end
 
 end A387354.P5978552913334999442
 
-/-! ## A387354.P10418751371952972047
+/-! ## A387354.P8221119130141345488
 
-`A079603(A079603(n+1)%A079625(2*(n+2)))`
+`A079603(A079603(n+1)%A186667(n+4))`
 -/
 
-namespace A387354.P10418751371952972047
+namespace A387354.P8221119130141345488
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A079603 (Int.tmod (A079603 (n + 1)) (A079625 (2 * (n + 2)))).toNat
+  A079603 (Int.tmod (A079603 (n + 1)) (A186667 (n + 4))).toNat
 
 end
 
-end A387354.P10418751371952972047
+end A387354.P8221119130141345488
 
 /-! ## A387354.P7837369942185238515
 
@@ -4882,25 +4865,25 @@ end A387360.P11490322269205560074
 The programs for A387361, there is no canonical definition to state claims against.
 -/
 
-/-! ## A387361.P16403103181072363723
+/-! ## A387361.P9799169773755357962
 
-`A066182(A274344(n+1)+A001222(2*n+1))`
+`A274344(n+1)+A072401(A274344(n+1))`
 -/
 
-namespace A387361.P16403103181072363723
+namespace A387361.P9799169773755357962
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066182 (A274344 (n + 1) + A001222 (2 * n + 1)).toNat
+  A274344 (n + 1) + A072401 (A274344 (n + 1)).toNat
 
 end
 
-end A387361.P16403103181072363723
+end A387361.P9799169773755357962
 
 /-!
 # A387362: Cyclic numbers k such that k+2 is also a cyclic number.
 
-The programs for A387362, the canonical program `A387362.P10061794841326187916` is in `Seq.B007.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387362 has offset 1).
+The programs for A387362, the canonical program `A387362.P10061794841326187916` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387362 has offset 1).
 
 The definition of A387362 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5319 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4909,7 +4892,7 @@ The definition of A387362 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A003277(n+1)-2, A003277(n+1)]`
 
-The canonical program, it is in `Seq.B007.C002`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A387362
@@ -5295,6 +5278,29 @@ namespace A387376
 /-- `or(A046092(n), A056469(2*n+3))` -/
 def P9523321089201389916.Spec : Prop :=
   ∀ n, P9523321089201389916.a n = A387376 (n + 1)
+
+end A387376
+
+/-! ## A387376.P2499152997823651859
+
+`or(A000079(2*(n+1)), A051890(n+1))`
+-/
+
+namespace A387376.P2499152997823651859
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.lor (A000079 (2 * (n + 1))) (A051890 (n + 1))
+
+end
+
+end A387376.P2499152997823651859
+
+namespace A387376
+
+/-- `or(A000079(2*(n+1)), A051890(n+1))` -/
+def P2499152997823651859.Spec : Prop :=
+  ∀ n, P2499152997823651859.a n = A387376 (n + 1)
 
 end A387376
 
@@ -5691,23 +5697,23 @@ end A387383.P5304001250154631166
 The programs for A387385, there is no canonical definition to state claims against.
 -/
 
-/-! ## A387385.P9950488318486563986
+/-! ## A387385.P3402238379016435712
 
-`A387384(∑[n+1])`
+`A387384(∑[1+n])`
 -/
 
-namespace A387385.P9950488318486563986
+namespace A387385.P3402238379016435712
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
+  1 + n
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
   A387384 (∑ j ∈ Finset.range (n + 1), f1 j)
 
 end
 
-end A387385.P9950488318486563986
+end A387385.P3402238379016435712
 
 /-! ## A387385.P18354232602052247962
 

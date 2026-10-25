@@ -4472,6 +4472,21 @@ end
 
 end A078283.P15238079133117475773
 
+/-! ## A078283.P15445141827175127233
+
+`A080502(n+1)+A000038(A005773(n))`
+-/
+
+namespace A078283.P15445141827175127233
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A080502 (n + 1) + A000038 (A005773 n).toNat
+
+end
+
+end A078283.P15445141827175127233
+
 /-! ## A078283.P13754275829166869004
 
 `A080502(n+1)*A247026(A000217(n))`
@@ -4516,21 +4531,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A078283.P11056901083399370226
-
-/-! ## A078283.P6354310524635221044
-
-`A355745(A007590(n+3))+A080502(n+1)`
--/
-
-namespace A078283.P6354310524635221044
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A355745 (A007590 (n + 3)).toNat + A080502 (n + 1)
-
-end
-
-end A078283.P6354310524635221044
 
 /-!
 # A078284: a(n) = A078283(n)/n.

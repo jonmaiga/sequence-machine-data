@@ -56,6 +56,7 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -432,6 +433,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A389503.P15026472028795875330
+
+/-!
+# A389504: a(n) = Sum_{i=1..n} (Product_{j=1..n} M(j, ((i+j-2) mod n)+1) + Product_{j=1..n} M(j, ((i-j-1) mod n)+1)) where M is an n X n Toeplitz matrix whose first row consists of successive positive integer numbers 1, ..., n and whose first column consists of 1, n + 1, ..., 2*n - 1.
+
+The programs for A389504, there is no canonical definition to state claims against.
+-/
+
+/-! ## A389504.P2193925214017298457
+
+`A000720(A069835(n)*A275780(n))`
+-/
+
+namespace A389504.P2193925214017298457
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000720 (A069835 n * A275780 n).toNat
+
+end
+
+end A389504.P2193925214017298457
 
 /-!
 # A389507: Largest even number that is not the sum of two elements coprime to the primorial prime(n)# and each bounded by prime(n)#.
@@ -2792,7 +2814,7 @@ end A389554.P17365590331426254586
 /-!
 # A389556: The number of primitive Pythagorean triples (PPTs) that lie within the first n rows of an irregular triangular array of PPTs defined in comments and whose even leg of the integer right triangle formed from the PPT is greater than its odd leg.
 
-The programs for A389556, the canonical program `A389556.P5725981755648961475` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A389556 has offset 1).
+The programs for A389556, the canonical program `A389556.P5725981755648961475` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A389556 has offset 1).
 
 The definition of A389556 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2801,7 +2823,7 @@ The definition of A389556 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A070099(2*n+3)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A389556

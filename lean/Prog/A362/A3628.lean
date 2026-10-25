@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -89,6 +90,10 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A362800: E.g.f. satisfies A(x) = exp( (exp(x) - 1) * A(x)^(x^2) ).
@@ -1809,7 +1814,7 @@ end A362840.P13147733434885748859
 /-!
 # A362841: Numbers with at least one 5 in their prime signature.
 
-The programs for A362841, the canonical program `A362841.P16508199166650757426` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362841 has offset 1).
+The programs for A362841, the canonical program `A362841.P16508199166650757426` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362841 has offset 1).
 
 The definition of A362841 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 192 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1818,7 +1823,7 @@ The definition of A362841 is `conjectured`: the Lean definition is a formula tha
 
 `eq[5, A007814(A328400(n+1))]+1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A362841
@@ -2189,6 +2194,12 @@ namespace A362845
 /-- `A375150(n)+A363854(n+1)` -/
 def P15611746345415752339.Spec : Prop :=
   ∀ n, P15611746345415752339.a n = A362845 (n + 1)
+
+theorem P15611746345415752339.correct : P15611746345415752339.Spec := by
+  intro n
+  simp only [A362845, Nat.add_sub_cancel, A362845.P15611746345415752339.a, A362845.P17536639591038917226.a, A279061, A279061.P5329778650763394169.f1, A279061.P5329778650763394169.a, A363854, A363854.P10747963757695572000.a, A375150, A375150.P910805378827683235.a, A082784, A082784.P13357688651719004354.a, A363808, A363808.P3028635677623268450.f1, A363808.P3028635677623268450.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A362845
 
@@ -4615,7 +4626,7 @@ end A362882.P5645938997363418770
 
 The programs for A362883, the canonical program `A362883.P10543237193728473399` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362883 has offset 0).
 
-The definition of A362883 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A055498, A055500, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A362883 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A055498, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A362883.P10543237193728473399

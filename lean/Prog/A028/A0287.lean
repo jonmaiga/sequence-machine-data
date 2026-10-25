@@ -57,6 +57,7 @@ import Seq.B008.C000
 import Seq.B008.C001
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -81,7 +82,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
 
@@ -2745,27 +2745,24 @@ end
 
 end A028749.P13330070896607551607
 
-/-! ## A028749.P12579105048014158917
+/-! ## A028749.P16810173829394088991
 
-`∩[A028785(n+1), A180004(n+1)]`
+`comp[A007953(n)*A383248(n+1)]`
 -/
 
-namespace A028749.P12579105048014158917
+namespace A028749.P16810173829394088991
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028785 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A180004 (n + 1)
+  A007953 n * A383248 (n + 1)
 
 open Classical in
 def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
 
 end
 
-end A028749.P12579105048014158917
+end A028749.P16810173829394088991
 
 /-!
 # A028750: Nonsquares mod 37.
@@ -6070,23 +6067,26 @@ end
 
 end A028781.P8297182543535799614
 
-/-! ## A028781.P7492033820922036328
+/-! ## A028781.P17681044569431436816
 
-`filter[A028741(n+1), A334460(#)]`
+`lt[(-1)^C(n, 2), A331904(A323607(3*n+2))]`
 -/
 
-namespace A028781.P7492033820922036328
+namespace A028781.P17681044569431436816
 noncomputable section
 
 def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028741 (n + 1)
+  (-1) ^ Nat.choose n 2
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A334460 (f1 j).toNat = 1) n)
+def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A331904 (A323607 (3 * n + 2)).toNat
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
 
 end
 
-end A028781.P7492033820922036328
+end A028781.P17681044569431436816
 
 /-!
 # A028782: Nonsquares mod 69.
@@ -6464,6 +6464,25 @@ end
 
 end A028785.P4954776866955373490
 
+/-! ## A028785.P3661015743194042033
+
+`comp[and(-(-1)^n, ceil(n/2))*A006370(n)]`
+-/
+
+namespace A028785.P3661015743194042033
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.land (-((-1) ^ n)) ⌈(n : ℚ) / 2⌉ * A006370 n
+
+open Classical in
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n
+
+end
+
+end A028785.P3661015743194042033
+
 /-! ## A028785.P3057171907479748200
 
 `eq[A000122(n), A047752(n+1)]`
@@ -6610,27 +6629,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A028785.P17348539854103629028
-
-/-! ## A028785.P1105052332806528772
-
-`eq[A047752(n+1), A364055(n)]`
--/
-
-namespace A028785.P1105052332806528772
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047752 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A364055 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A028785.P1105052332806528772
 
 /-!
 # A028786: Nonsquares mod 73.

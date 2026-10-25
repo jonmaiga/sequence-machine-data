@@ -6658,6 +6658,32 @@ def P12994431331681664822.Spec : Prop :=
 
 end A320661
 
+/-! ## A320661.P10502133615388142995
+
+`∑[a(n-1)+a(n-1)+6]` with `a(0)=1, a(1)=2`
+-/
+
+namespace A320661.P10502133615388142995
+noncomputable section
+
+def f1 : ℕ → ℕ := SequenceMachineLib.rec [1, 2] fun n f1 =>
+  f1 (n - 1) + f1 (n - 1) + 6
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A320661.P10502133615388142995
+
+namespace A320661
+
+/-- `∑[a(n-1)+a(n-1)+6]` -/
+def P10502133615388142995.Spec : Prop :=
+  ∀ n, (P10502133615388142995.a n : ℤ) = A320661 n
+
+end A320661
+
 /-! ## A320661.P8824658075848915403
 
 `∑[A131130(n)]`
