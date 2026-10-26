@@ -6,14 +6,16 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C009
 import Seq.B000.C012
+import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C034
+import Seq.B000.C019
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C005
+import Seq.B001.C007
 import Seq.Opaque.C001
-import Seq.Opaque.C006
-import Seq.Opaque.C007
 
 /-!
 # A021804: Expansion of 1/((1-x)(1-4x)(1-6x)(1-7x)).

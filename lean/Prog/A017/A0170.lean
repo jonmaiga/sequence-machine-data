@@ -5,7 +5,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
@@ -25,10 +24,11 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C035
-import Seq.B000.C039
-import Seq.B001.C007
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C036
+import Seq.B000.C040
+import Seq.B001.C009
 import Seq.Opaque.C001
 import Seq.Opaque.C004
 
@@ -32065,35 +32065,6 @@ theorem P8868113961620562911.correct : P8868113961620562911.Spec := by
   simp only [A017092, Nat.add_sub_cancel, A017092.P8868113961620562911.f1, A017092.P8868113961620562911.a, A017092.P16780752070542581176.a, SequenceMachineLib.memo_apply]
   try norm_num [Nat.choose_two_right, Nat.factorial]
   try ring_nf
-
-end A017092
-
-/-! ## A017092.P18374182112720963626
-
-`(2*eq[n-1, and(n, n+1)])²²`
--/
-
-namespace A017092.P18374182112720963626
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) - 1
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.land n (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ((2 * SequenceMachineLib.nth (fun j => f1 j = (f2 j : ℤ)) n) ^ 2) ^ 2
-
-end
-
-end A017092.P18374182112720963626
-
-namespace A017092
-
-/-- `(2*eq[n-1, and(n, n+1)])²²` -/
-def P18374182112720963626.Spec : Prop :=
-  ∀ n, (P18374182112720963626.a n : ℤ) = A017092 n
 
 end A017092
 

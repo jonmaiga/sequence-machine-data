@@ -1,4 +1,5 @@
 import SequenceMachineLib
+import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -12,7 +13,6 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -27,36 +27,35 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C005
 import Seq.B001.C007
+import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
-import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B009.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -64,7 +63,6 @@ import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
-import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
@@ -72,7 +70,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -82,6 +79,10 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+
+set_option linter.unusedSimpArgs false
+set_option linter.unusedTactic false
+set_option linter.unreachableTactic false
 
 /-!
 # A183400: Half the number of nX4 binary arrays with no element equal to a strict majority of its diagonal and antidiagonal neighbors.
@@ -773,7 +774,7 @@ end A183408.P8139107167362085779
 /-!
 # A183409: Number of n X 2 binary arrays with each sum of a(1..i,1..j) no greater than i*j/2 and rows and columns in nondecreasing order.
 
-The programs for A183409, the canonical program `A183409.P13666591434493509880` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183409 has offset 1).
+The programs for A183409, the canonical program `A183409.P13666591434493509880` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183409 has offset 1).
 
 The definition of A183409 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -805,7 +806,7 @@ end A183409
 
 `n+1+A319390(n)+a(n-2)` with `a(0)=2, a(1)=5`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A183409
@@ -2049,7 +2050,7 @@ end A183422.P14984756941021057793
 /-!
 # A183423: Ordering of the numbers in tree A183421; complement of A183422.
 
-The programs for A183423, the canonical program `A183423.P11999650306193014405` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183423 has offset 1).
+The programs for A183423, the canonical program `A183423.P11999650306193014405` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183423 has offset 1).
 
 The definition of A183423 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 113 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2114,7 +2115,7 @@ end A183423
 
 `lt[n*Δ[A257023(n)], n]`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A183423
@@ -2394,7 +2395,7 @@ end A183424.P5180672588518182546
 /-!
 # A183425: Half the number of n X 2 0..2 arrays with no element equal its row sum plus its column sum mod 3.
 
-The programs for A183425, the canonical program `A183425.P398023806096275593` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183425 has offset 1).
+The programs for A183425, the canonical program `A183425.P398023806096275593` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183425 has offset 1).
 
 The definition of A183425 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2426,7 +2427,7 @@ end A183425
 
 `(n+1)²%3+2*4^n`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A183425
@@ -2530,6 +2531,12 @@ namespace A183425
 /-- `A130196(n+1)+2*4^n-1` -/
 def P5684497652864628979.Spec : Prop :=
   ∀ n, P5684497652864628979.a n = A183425 (n + 1)
+
+theorem P5684497652864628979.correct : P5684497652864628979.Spec := by
+  intro n
+  simp only [A183425, Nat.add_sub_cancel, A183425.P5684497652864628979.a, A183425.P398023806096275593.a, A130196, A130196.P7264130166430657238.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
 
 end A183425
 
@@ -3096,7 +3103,7 @@ end A183429.P17109466552819651767
 /-!
 # A183430: One third the number of n X 2 0..3 arrays with no element equal to its row sum plus its column sum mod 4.
 
-The programs for A183430, the canonical program `A183430.P3757247350152759363` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183430 has offset 1).
+The programs for A183430, the canonical program `A183430.P3757247350152759363` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183430 has offset 1).
 
 The definition of A183430 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3181,7 +3188,7 @@ end A183430
 
 `ceil(and(1, n+1)/2+3*9^n)`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A183430
@@ -3736,7 +3743,7 @@ end A183434.P10341018696313703151
 /-!
 # A183435: Number of n X 2 binary arrays with every 1 having exactly one king-move neighbor equal to 1.
 
-The programs for A183435, the canonical program `A183435.P3144148003250862390` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183435 has offset 1).
+The programs for A183435, the canonical program `A183435.P3144148003250862390` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183435 has offset 1).
 
 The definition of A183435 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 285 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3768,7 +3775,7 @@ end A183435
 
 `a(n-1)+a(n-2)+4*a(n-3)` with `a(0)=2, a(1)=7, a(2)=13`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A183435
@@ -6484,7 +6491,7 @@ end A183466.P13116601701882338204
 /-!
 # A183467: Number of n X 2 binary arrays with every element equal to either the sum mod 2 of its vertical neighbors or the sum mod 2 of its horizontal neighbors.
 
-The programs for A183467, the canonical program `A183467.P4445125462386225376` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183467 has offset 1).
+The programs for A183467, the canonical program `A183467.P4445125462386225376` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183467 has offset 1).
 
 The definition of A183467 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 268 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6493,7 +6500,7 @@ The definition of A183467 is `conjectured`: the Lean definition is a formula tha
 
 `2*a(n-1)+4*a(n-3)-4*a(n-4)-4*a(n-6)` with `a(0)=2, a(1)=6, a(2)=12, a(3)=28, a(4)=68, a(5)=156`
 
-The canonical program, it is in `Seq.B000.C025`.
+The canonical program, it is in `Seq.B000.C026`.
 -/
 
 namespace A183467
@@ -8397,7 +8404,7 @@ end A183493.P5522524498959664974
 /-!
 # A183494: Half the number of nX1 0..2 arrays with no element equal to the sum mod 3 of its horizontal and vertical neighbors.
 
-The programs for A183494, the canonical program `A183494.P3190851867238133307` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183494 has offset 1).
+The programs for A183494, the canonical program `A183494.P3190851867238133307` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183494 has offset 1).
 
 The definition of A183494 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8429,7 +8436,7 @@ end A183494
 
 `A106624(A005131(n))+A000079(n)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A183494

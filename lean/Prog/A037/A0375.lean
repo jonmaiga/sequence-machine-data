@@ -20,6 +20,7 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -33,25 +34,26 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C038
-import Seq.B001.C000
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
+import Seq.B001.C003
+import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B005.C000
-import Seq.B007.C001
-import Seq.B009.C000
+import Seq.B007.C000
+import Seq.B008.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C009
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C017
+import Seq.Opaque.C016
 import Seq.Opaque.C022
 
 set_option linter.unusedSimpArgs false
@@ -1444,36 +1446,6 @@ namespace A037504
 /-- `A010872(n+1)+3*a(n-1)` -/
 def P17195796472977187920.Spec : Prop :=
   ∀ n, P17195796472977187920.a n = A037504 (n + 1)
-
-end A037504
-
-/-! ## A037504.P8913829357766836595
-
-`∩[A037079(2*n+1), A037079(n)]`
--/
-
-namespace A037504.P8913829357766836595
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037079 (2 * n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A037079 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A037504.P8913829357766836595
-
-namespace A037504
-
-/-- `∩[A037079(2*n+1), A037079(n)]` -/
-def P8913829357766836595.Spec : Prop :=
-  ∀ n, (P8913829357766836595.a n : ℤ) = A037504 (n + 1)
 
 end A037504
 
@@ -20075,6 +20047,29 @@ def P7057840067209637926.Spec : Prop :=
 theorem P7057840067209637926.correct : P7057840067209637926.Spec := by
   intro n
   simp only [A037567, Nat.add_sub_cancel]
+
+end A037567
+
+/-! ## A037567.P2728767034334511318
+
+`10*a(n-1)+1+(n+1)²%3` with `a(0)=2`
+-/
+
+namespace A037567.P2728767034334511318
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [2] fun n a =>
+  10 * a (n - 1) + 1 + (n + 1) ^ 2 % 3
+
+end
+
+end A037567.P2728767034334511318
+
+namespace A037567
+
+/-- `10*a(n-1)+1+(n+1)²%3` -/
+def P2728767034334511318.Spec : Prop :=
+  ∀ n, (P2728767034334511318.a n : ℤ) = A037567 (n + 1)
 
 end A037567
 

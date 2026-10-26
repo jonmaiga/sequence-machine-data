@@ -21,7 +21,6 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -31,12 +30,13 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -47,25 +47,27 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B013.C000
+import Seq.B012.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -89,7 +91,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
@@ -195,7 +196,7 @@ end A164400.P10870694311517126928
 /-!
 # A164401: Number of binary strings of length n with no substrings equal to 0010 or 0101.
 
-The programs for A164401, the canonical program `A164401.P9074182780316539144` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164401 has offset 0).
+The programs for A164401, the canonical program `A164401.P9074182780316539144` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164401 has offset 0).
 
 The definition of A164401 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -204,7 +205,7 @@ The definition of A164401 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)+a(n-3)+a(n-6)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8, a(4)=14, a(5)=25`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164401
@@ -320,7 +321,7 @@ end A164401
 /-!
 # A164402: Number of binary strings of length n with no substrings equal to 0010 or 0110.
 
-The programs for A164402, the canonical program `A164402.P3635009239224654016` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164402 has offset 0).
+The programs for A164402, the canonical program `A164402.P3635009239224654016` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164402 has offset 0).
 
 The definition of A164402 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -329,7 +330,7 @@ The definition of A164402 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-2*a(n-3)+2*a(n-4)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164402
@@ -496,7 +497,7 @@ end A164403.P16354253131758653448
 /-!
 # A164404: Number of binary strings of length n with no substrings equal to 0010 or 1011.
 
-The programs for A164404, the canonical program `A164404.P8510783320141564040` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164404 has offset 4).
+The programs for A164404, the canonical program `A164404.P8510783320141564040` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164404 has offset 4).
 
 The definition of A164404 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 420 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -505,7 +506,7 @@ The definition of A164404 is `conjectured`: the Lean definition is a formula tha
 
 `(A164402(n+2)+A164402(n+5))/2`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164404
@@ -588,7 +589,7 @@ end A164404
 /-!
 # A164405: Number of binary strings of length n with no substrings equal to 0010 or 1100.
 
-The programs for A164405, the canonical program `A164405.P13494739047571857953` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164405 has offset 0).
+The programs for A164405, the canonical program `A164405.P13494739047571857953` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164405 has offset 0).
 
 The definition of A164405 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -597,7 +598,7 @@ The definition of A164405 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-3)+a(n-6)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8, a(4)=14, a(5)=24`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164405
@@ -713,7 +714,7 @@ end A164405
 /-!
 # A164406: Number of binary strings of length n with no substrings equal to 0011 or 0101.
 
-The programs for A164406, the canonical program `A164406.P600747503632810465` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164406 has offset 0).
+The programs for A164406, the canonical program `A164406.P600747503632810465` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164406 has offset 0).
 
 The definition of A164406 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 588 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -722,7 +723,7 @@ The definition of A164406 is `conjectured`: the Lean definition is a formula tha
 
 `A291725(n)-A068921(n)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164406
@@ -930,7 +931,7 @@ end A164406
 /-!
 # A164407: Number of binary strings of length n with no substrings equal to 0000 0001 or 0010.
 
-The programs for A164407, the canonical program `A164407.P9971242313005730117` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164407 has offset 4).
+The programs for A164407, the canonical program `A164407.P9971242313005730117` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164407 has offset 4).
 
 The definition of A164407 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 405 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -962,7 +963,7 @@ end A164407
 
 `A060945(n+1)+A005251(n+7)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164407
@@ -1049,7 +1050,7 @@ end A164407
 /-!
 # A164408: Number of binary strings of length n with no substrings equal to 0000 0001 or 0011.
 
-The programs for A164408, the canonical program `A164408.P13401702195576236781` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164408 has offset 0).
+The programs for A164408, the canonical program `A164408.P13401702195576236781` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164408 has offset 0).
 
 The definition of A164408 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 423 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1081,7 +1082,7 @@ end A164408
 
 `2*(a(n-2)+a(n-3))-a(n-5)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8, a(4)=13`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164408
@@ -1220,7 +1221,7 @@ end A164408
 /-!
 # A164409: Number of binary strings of length n with no substrings equal to 0000 0001 or 0100.
 
-The programs for A164409, the canonical program `A164409.P3755803672503472147` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164409 has offset 4).
+The programs for A164409, the canonical program `A164409.P3755803672503472147` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164409 has offset 4).
 
 The definition of A164409 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 405 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1229,7 +1230,7 @@ The definition of A164409 is `conjectured`: the Lean definition is a formula tha
 
 `A117374(2*(n+4))`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164409
@@ -1483,7 +1484,7 @@ end A164409
 /-!
 # A164410: Number of binary strings of length n with no substrings equal to 0000 0001 or 0101.
 
-The programs for A164410, the canonical program `A164410.P18148346622489512535` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164410 has offset 4).
+The programs for A164410, the canonical program `A164410.P18148346622489512535` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164410 has offset 4).
 
 The definition of A164410 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 432 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1492,7 +1493,7 @@ The definition of A164410 is `conjectured`: the Lean definition is a formula tha
 
 `A303714(n+3)+A303714(n+4)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164410
@@ -1657,7 +1658,7 @@ end A164410
 /-!
 # A164411: Number of binary strings of length n with no substrings equal to 0000, 0001, or 0110.
 
-The programs for A164411, the canonical program `A164411.P5870386763254250035` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164411 has offset 0).
+The programs for A164411, the canonical program `A164411.P5870386763254250035` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164411 has offset 0).
 
 The definition of A164411 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 429 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1689,7 +1690,7 @@ end A164411
 
 `A340215(n+4)-2*A340215(n+2)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164411
@@ -1776,7 +1777,7 @@ end A164411
 /-!
 # A164412: Number of binary strings of length n with no substrings equal to 0000 0001 or 0111.
 
-The programs for A164412, the canonical program `A164412.P16406330314494169784` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164412 has offset 4).
+The programs for A164412, the canonical program `A164412.P16406330314494169784` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164412 has offset 4).
 
 The definition of A164412 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 473 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1837,7 +1838,7 @@ end A164412
 
 `A094103(2*n+9)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164412
@@ -1904,7 +1905,7 @@ end A164412
 /-!
 # A164413: Number of binary strings of length n with no substrings equal to 0000, 0001 or 1001.
 
-The programs for A164413, the canonical program `A164413.P9155242093717820697` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164413 has offset 0).
+The programs for A164413, the canonical program `A164413.P9155242093717820697` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164413 has offset 0).
 
 The definition of A164413 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1913,7 +1914,7 @@ The definition of A164413 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8, a(4)=13, a(5)=22, a(6)=36`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164413
@@ -2417,7 +2418,7 @@ end A164417.P11995986803888327017
 /-!
 # A164418: Number of binary strings of length n with no substrings equal to 0000 0010 or 0101.
 
-The programs for A164418, the canonical program `A164418.P13987918611985411480` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164418 has offset 4).
+The programs for A164418, the canonical program `A164418.P13987918611985411480` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164418 has offset 4).
 
 The definition of A164418 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 414 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2426,7 +2427,7 @@ The definition of A164418 is `conjectured`: the Lean definition is a formula tha
 
 `A189593(n+6)+A189593(n+1)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164418
@@ -2711,7 +2712,7 @@ end A164420
 /-!
 # A164421: Number of binary strings of length n with no substrings equal to 0000 0010 or 1001.
 
-The programs for A164421, the canonical program `A164421.P12875825263820570006` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164421 has offset 4).
+The programs for A164421, the canonical program `A164421.P12875825263820570006` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164421 has offset 4).
 
 The definition of A164421 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 427 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2720,7 +2721,7 @@ The definition of A164421 is `conjectured`: the Lean definition is a formula tha
 
 `A340217(n+1)+A340217(n+5)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164421
@@ -2816,7 +2817,7 @@ end A164421
 /-!
 # A164422: Number of binary strings of length n with no substrings equal to 0000 0010 or 1010.
 
-The programs for A164422, the canonical program `A164422.P17038356559560906086` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164422 has offset 4).
+The programs for A164422, the canonical program `A164422.P17038356559560906086` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164422 has offset 4).
 
 The definition of A164422 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 437 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2825,7 +2826,7 @@ The definition of A164422 is `conjectured`: the Lean definition is a formula tha
 
 `A000570(n+6)+Δ[A000570(n+3)]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164422
@@ -3007,7 +3008,7 @@ end A164425.P8269466854480646110
 /-!
 # A164426: Number of binary strings of length n with no substrings equal to 0000 0011 or 0101.
 
-The programs for A164426, the canonical program `A164426.P11073829202015276493` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164426 has offset 4).
+The programs for A164426, the canonical program `A164426.P11073829202015276493` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164426 has offset 4).
 
 The definition of A164426 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3016,7 +3017,7 @@ The definition of A164426 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+2*a(n-3)-a(n-5)-a(n-6)-a(n-7)` with `a(0)=13, a(1)=21, a(2)=34, a(3)=53, a(4)=81, a(5)=124, a(6)=188`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164426
@@ -3204,7 +3205,7 @@ end A164428.P1165239572136620955
 /-!
 # A164429: Number of binary strings of length n with no substrings equal to 0000, 0011, or 1011.
 
-The programs for A164429, the canonical program `A164429.P13915276554889762475` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164429 has offset 0).
+The programs for A164429, the canonical program `A164429.P13915276554889762475` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164429 has offset 0).
 
 The definition of A164429 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3213,7 +3214,7 @@ The definition of A164429 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-3)+4` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8, a(4)=13`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164429
@@ -3618,7 +3619,7 @@ end A164433.P6868643149592442890
 /-!
 # A164434: Number of binary strings of length n with no substrings equal to 0000 0101 or 1010.
 
-The programs for A164434, the canonical program `A164434.P10380527050027693516` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164434 has offset 4).
+The programs for A164434, the canonical program `A164434.P10380527050027693516` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164434 has offset 4).
 
 The definition of A164434 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3627,7 +3628,7 @@ The definition of A164434 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+2*a(n-3)+a(n-4)-a(n-6)-a(n-7)` with `a(0)=13, a(1)=23, a(2)=40, a(3)=70, a(4)=122, a(5)=213, a(6)=372`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164434
@@ -3892,7 +3893,7 @@ end A164437.P16095617474942731650
 /-!
 # A164438: Number of binary strings of length n with no substrings equal to 0000 0110 or 0111.
 
-The programs for A164438, the canonical program `A164438.P11898394778015943007` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164438 has offset 4).
+The programs for A164438, the canonical program `A164438.P11898394778015943007` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164438 has offset 4).
 
 The definition of A164438 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 596 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3901,7 +3902,7 @@ The definition of A164438 is `conjectured`: the Lean definition is a formula tha
 
 `A023435(n+8)-3`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164438
@@ -4068,7 +4069,7 @@ end A164439.P2500271884860149061
 /-!
 # A164440: Number of binary strings of length n with no substrings equal to 0000 0110 or 1011.
 
-The programs for A164440, the canonical program `A164440.P1856277761140627068` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164440 has offset 4).
+The programs for A164440, the canonical program `A164440.P1856277761140627068` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164440 has offset 4).
 
 The definition of A164440 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4077,7 +4078,7 @@ The definition of A164440 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)+a(n-3)-a(n-4)+a(n-5)` with `a(0)=13, a(1)=22, a(2)=37, a(3)=62, a(4)=104`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164440
@@ -4522,7 +4523,7 @@ end A164446.P15388790311038153785
 /-!
 # A164447: Number of binary strings of length n with no substrings equal to 0001 0010 or 0110.
 
-The programs for A164447, the canonical program `A164447.P16929820992422671722` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164447 has offset 4).
+The programs for A164447, the canonical program `A164447.P16929820992422671722` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164447 has offset 4).
 
 The definition of A164447 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 474 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4531,7 +4532,7 @@ The definition of A164447 is `conjectured`: the Lean definition is a formula tha
 
 `record[A272912(n+13)]-A088911(n+4)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164447
@@ -4719,7 +4720,7 @@ end A164447
 /-!
 # A164448: Number of binary strings of length n with no substrings equal to 0001 0010 or 0111.
 
-The programs for A164448, the canonical program `A164448.P17168225305762406650` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164448 has offset 4).
+The programs for A164448, the canonical program `A164448.P17168225305762406650` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164448 has offset 4).
 
 The definition of A164448 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 595 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4728,7 +4729,7 @@ The definition of A164448 is `conjectured`: the Lean definition is a formula tha
 
 `A164464(n+4)+∑[A023435(n)]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164448
@@ -4905,7 +4906,7 @@ end A164448
 /-!
 # A164449: Number of binary strings of length n with no substrings equal to 0001 0010 or 1010.
 
-The programs for A164449, the canonical program `A164449.P9687608175749677541` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164449 has offset 4).
+The programs for A164449, the canonical program `A164449.P9687608175749677541` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164449 has offset 4).
 
 The definition of A164449 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 474 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4937,7 +4938,7 @@ end A164449
 
 `A097083(n+2)+A000032(n+5)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164449
@@ -5174,7 +5175,7 @@ end A164451.P15007754984621071748
 /-!
 # A164452: Number of binary strings of length n with no substrings equal to 0001 0010 or 1101.
 
-The programs for A164452, the canonical program `A164452.P3000043555096228233` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164452 has offset 4).
+The programs for A164452, the canonical program `A164452.P3000043555096228233` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164452 has offset 4).
 
 The definition of A164452 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 705 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5183,7 +5184,7 @@ The definition of A164452 is `conjectured`: the Lean definition is a formula tha
 
 `A048590(n+2)+A048590(n+4)-(n+16)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164452
@@ -5247,7 +5248,7 @@ end A164452
 /-!
 # A164453: Number of binary strings of length n with no substrings equal to 0001 0011 or 0100.
 
-The programs for A164453, the canonical program `A164453.P12160442601266819930` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164453 has offset 4).
+The programs for A164453, the canonical program `A164453.P12160442601266819930` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164453 has offset 4).
 
 The definition of A164453 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 436 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5256,7 +5257,7 @@ The definition of A164453 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[Δ[A164440(n+9)]]%A164440(n+5)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164453
@@ -5320,7 +5321,7 @@ end A164453
 /-!
 # A164454: Number of binary strings of length n with no substrings equal to 0001 0011 or 0101.
 
-The programs for A164454, the canonical program `A164454.P16577046448962556385` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164454 has offset 4).
+The programs for A164454, the canonical program `A164454.P16577046448962556385` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164454 has offset 4).
 
 The definition of A164454 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 595 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5329,7 +5330,7 @@ The definition of A164454 is `conjectured`: the Lean definition is a formula tha
 
 `A048626(n+3)-(A004396(n)+6)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164454
@@ -5602,7 +5603,7 @@ end A164455.P17522384818398978541
 /-!
 # A164456: Number of binary strings of length n with no substrings equal to 0001 0011 or 1000.
 
-The programs for A164456, the canonical program `A164456.P3672447585452505969` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164456 has offset 4).
+The programs for A164456, the canonical program `A164456.P3672447585452505969` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164456 has offset 4).
 
 The definition of A164456 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 420 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5611,7 +5612,7 @@ The definition of A164456 is `conjectured`: the Lean definition is a formula tha
 
 `n+9+∑[A164393(n+2)]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164456
@@ -5753,7 +5754,7 @@ end A164456
 /-!
 # A164457: Number of binary strings of length n with no substrings equal to 0001, 0011, or 1010.
 
-The programs for A164457, the canonical program `A164457.P2348421352263541236` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164457 has offset 0).
+The programs for A164457, the canonical program `A164457.P2348421352263541236` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164457 has offset 0).
 
 The definition of A164457 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 517 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5762,7 +5763,7 @@ The definition of A164457 is `conjectured`: the Lean definition is a formula tha
 
 `A286938(n)-C(2, C(n², 5))`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164457
@@ -5999,7 +6000,7 @@ end A164457
 /-!
 # A164458: Number of binary strings of length n with no substrings equal to 0001 0011 or 1011.
 
-The programs for A164458, the canonical program `A164458.P637685599849046048` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164458 has offset 4).
+The programs for A164458, the canonical program `A164458.P637685599849046048` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164458 has offset 4).
 
 The definition of A164458 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 807 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6008,7 +6009,7 @@ The definition of A164458 is `conjectured`: the Lean definition is a formula tha
 
 `A007307(n+13)-A020735(n+7)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164458
@@ -6170,7 +6171,7 @@ end A164458
 /-!
 # A164459: Number of binary strings of length n with no substrings equal to 0001 0011 or 1100.
 
-The programs for A164459, the canonical program `A164459.P4722357969111656273` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164459 has offset 4).
+The programs for A164459, the canonical program `A164459.P4722357969111656273` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164459 has offset 4).
 
 The definition of A164459 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6179,7 +6180,7 @@ The definition of A164459 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-2*a(n-4)+a(n-5)-a(n-6)+a(n-7)` with `a(0)=13, a(1)=21, a(2)=35, a(3)=58, a(4)=96, a(5)=159, a(6)=264`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164459
@@ -6266,7 +6267,7 @@ end A164459
 /-!
 # A164460: Number of binary strings of length n with no substrings equal to 0001 0011 or 1101.
 
-The programs for A164460, the canonical program `A164460.P12087829792596565309` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164460 has offset 4).
+The programs for A164460, the canonical program `A164460.P12087829792596565309` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164460 has offset 4).
 
 The definition of A164460 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 560 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6275,7 +6276,7 @@ The definition of A164460 is `conjectured`: the Lean definition is a formula tha
 
 `A109537(n+7)+A109537(n+10)-2`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164460
@@ -6474,7 +6475,7 @@ end A164461.P11812278724869112528
 /-!
 # A164462: Number of binary strings of length n with no substrings equal to 0001 0100 or 0101.
 
-The programs for A164462, the canonical program `A164462.P14348606007212189000` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164462 has offset 4).
+The programs for A164462, the canonical program `A164462.P14348606007212189000` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164462 has offset 4).
 
 The definition of A164462 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 474 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6483,7 +6484,7 @@ The definition of A164462 is `conjectured`: the Lean definition is a formula tha
 
 `A000045(n+7)-∑[n]%2`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164462
@@ -6599,7 +6600,7 @@ end A164462
 /-!
 # A164463: Number of binary strings of length n with no substrings equal to 0001 0100 or 0110.
 
-The programs for A164463, the canonical program `A164463.P13789395395333063195` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164463 has offset 4).
+The programs for A164463, the canonical program `A164463.P13789395395333063195` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164463 has offset 4).
 
 The definition of A164463 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 474 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6608,7 +6609,7 @@ The definition of A164463 is `conjectured`: the Lean definition is a formula tha
 
 `A286311(A020715(n))+A010892(n)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164463
@@ -6756,7 +6757,7 @@ end A164463
 /-!
 # A164464: Number of binary strings of length n with no substrings equal to 0001, 0100, or 0111.
 
-The programs for A164464, the canonical program `A164464.P12226052964285216476` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164464 has offset 4).
+The programs for A164464, the canonical program `A164464.P12226052964285216476` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164464 has offset 4).
 
 The definition of A164464 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6765,7 +6766,7 @@ The definition of A164464 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-3)+3` with `a(0)=13, a(1)=20, a(2)=31`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164464
@@ -7072,7 +7073,7 @@ end A164465.P2618802238093509745
 /-!
 # A164466: Number of binary strings of length n with no substrings equal to 0001, 0100, or 1011.
 
-The programs for A164466, the canonical program `A164466.P2888521042451949652` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164466 has offset 0).
+The programs for A164466, the canonical program `A164466.P2888521042451949652` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164466 has offset 0).
 
 The definition of A164466 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 710 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7081,7 +7082,7 @@ The definition of A164466 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A003269(A257542(n+1))]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164466
@@ -7321,7 +7322,7 @@ end A164467.P14073513185924784066
 /-!
 # A164468: Number of binary strings of length n with no substrings equal to 0001, 0100, or 1110.
 
-The programs for A164468, the canonical program `A164468.P17099430422981162265` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164468 has offset 4).
+The programs for A164468, the canonical program `A164468.P17099430422981162265` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164468 has offset 4).
 
 The definition of A164468 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7330,7 +7331,7 @@ The definition of A164468 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-3)+2` with `a(0)=13, a(1)=20, a(2)=30`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164468
@@ -7604,7 +7605,7 @@ end A164468
 /-!
 # A164469: Number of binary strings of length n with no substrings equal to 0001 0101 or 0110.
 
-The programs for A164469, the canonical program `A164469.P5604902319045448620` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164469 has offset 4).
+The programs for A164469, the canonical program `A164469.P5604902319045448620` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164469 has offset 4).
 
 The definition of A164469 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7613,7 +7614,7 @@ The definition of A164469 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)+a(n-3)-a(n-4)+a(n-5)-a(n-6)` with `a(0)=13, a(1)=20, a(2)=32, a(3)=51, a(4)=81, a(5)=128`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164469
@@ -7713,7 +7714,7 @@ end A164470.P13567783947898293658
 /-!
 # A164471: Number of binary strings of length n with no substrings equal to 0001 0101 or 1000.
 
-The programs for A164471, the canonical program `A164471.P3513710247006841702` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164471 has offset 4).
+The programs for A164471, the canonical program `A164471.P3513710247006841702` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164471 has offset 4).
 
 The definition of A164471 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 432 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7722,7 +7723,7 @@ The definition of A164471 is `conjectured`: the Lean definition is a formula tha
 
 `A164395(n+1)+A164395(n+3)+3`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164471
@@ -8057,7 +8058,7 @@ end A164475.P493678207477605904
 /-!
 # A164476: Number of binary strings of length n with no substrings equal to 0001, 0110, or 0111.
 
-The programs for A164476, the canonical program `A164476.P4927643170610596393` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164476 has offset 0).
+The programs for A164476, the canonical program `A164476.P4927643170610596393` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164476 has offset 0).
 
 The definition of A164476 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 812 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8066,7 +8067,7 @@ The definition of A164476 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-2)+a(n-3)+3+n` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164476
@@ -8217,7 +8218,7 @@ end A164476
 /-!
 # A164477: Number of binary strings of length n with no substrings equal to 0001 0110 or 1000.
 
-The programs for A164477, the canonical program `A164477.P10418596633984336571` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164477 has offset 4).
+The programs for A164477, the canonical program `A164477.P10418596633984336571` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164477 has offset 4).
 
 The definition of A164477 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8226,7 +8227,7 @@ The definition of A164477 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-3)+a(n-5)-a(n-6)` with `a(0)=13, a(1)=21, a(2)=35, a(3)=59, a(4)=100, a(5)=170`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164477
@@ -8467,7 +8468,7 @@ end A164479.P14357608443089207816
 /-!
 # A164480: Number of binary strings of length n with no substrings equal to 0001, 0110 or 1100.
 
-The programs for A164480, the canonical program `A164480.P1765826876704746153` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164480 has offset 0).
+The programs for A164480, the canonical program `A164480.P1765826876704746153` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164480 has offset 0).
 
 The definition of A164480 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8476,7 +8477,7 @@ The definition of A164480 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-3)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=8, a(4)=13, a(5)=21, a(6)=34, a(7)=55, a(8)=88`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164480
@@ -8589,7 +8590,7 @@ end A164480
 /-!
 # A164481: Number of binary strings of length n with no substrings equal to 0001 0110 or 1101.
 
-The programs for A164481, the canonical program `A164481.P17060668803672350956` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164481 has offset 4).
+The programs for A164481, the canonical program `A164481.P17060668803672350956` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164481 has offset 4).
 
 The definition of A164481 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8598,7 +8599,7 @@ The definition of A164481 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-3)-a(n-4)+2*a(n-5)-a(n-6)` with `a(0)=13, a(1)=21, a(2)=34, a(3)=53, a(4)=84, a(5)=131`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164481
@@ -8662,7 +8663,7 @@ end A164481
 /-!
 # A164482: Number of binary strings of length n with no substrings equal to 0001, 0110, or 1110.
 
-The programs for A164482, the canonical program `A164482.P15427782021321627337` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164482 has offset 0).
+The programs for A164482, the canonical program `A164482.P15427782021321627337` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164482 has offset 0).
 
 The definition of A164482 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 813 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8671,7 +8672,7 @@ The definition of A164482 is `conjectured`: the Lean definition is a formula tha
 
 `∑[a(n-2)+a(n-3)]` with `a(0)=1, a(1)=1, a(2)=2, a(3)=4, a(4)=5, a(5)=7`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164482
@@ -8929,7 +8930,7 @@ end A164482
 /-!
 # A164483: Number of binary strings of length n with no substrings equal to 0001 0111 or 1010.
 
-The programs for A164483, the canonical program `A164483.P4916964034134601224` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164483 has offset 4).
+The programs for A164483, the canonical program `A164483.P4916964034134601224` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164483 has offset 4).
 
 The definition of A164483 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8938,7 +8939,7 @@ The definition of A164483 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)+2*a(n-3)-3*a(n-4)+a(n-6)` with `a(0)=13, a(1)=20, a(2)=30, a(3)=44, a(4)=64, a(5)=92`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164483
@@ -9086,16 +9087,39 @@ end A164484.P16224363330472429244
 /-!
 # A164485: Number of binary strings of length n with no substrings equal to 0001, 1000 or 1001.
 
-The programs for A164485, the canonical program `A164485.P12227170851971904139` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164485 has offset 4).
+The programs for A164485, the canonical program `A164485.P12227170851971904139` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164485 has offset 4).
 
 The definition of A164485 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A164485.P8789367861723733914
+
+`4*A000045(n+4)+1`
+-/
+
+namespace A164485.P8789367861723733914
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  4 * A000045 (n + 4) + 1
+
+end
+
+end A164485.P8789367861723733914
+
+namespace A164485
+
+/-- `4*A000045(n+4)+1` -/
+def P8789367861723733914.Spec : Prop :=
+  ∀ n, P8789367861723733914.a n = A164485 (n + 4)
+
+end A164485
 
 /-! ## A164485.P12227170851971904139
 
 `2*a(n-1)-a(n-3)` with `a(0)=13, a(1)=21, a(2)=33`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164485
@@ -9524,29 +9548,6 @@ def P16455332117242476141.Spec : Prop :=
 
 end A164485
 
-/-! ## A164485.P8789367861723733914
-
-`4*A000045(n+4)+1`
--/
-
-namespace A164485.P8789367861723733914
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  4 * A000045 (n + 4) + 1
-
-end
-
-end A164485.P8789367861723733914
-
-namespace A164485
-
-/-- `4*A000045(n+4)+1` -/
-def P8789367861723733914.Spec : Prop :=
-  ∀ n, P8789367861723733914.a n = A164485 (n + 4)
-
-end A164485
-
 /-!
 # A164487: Number of binary strings of length n with no substrings equal to 0001, 1010, or 1100.
 
@@ -9788,7 +9789,7 @@ end A164488.P10250122295930803977
 /-!
 # A164489: Number of binary strings of length n with no substrings equal to 0001 1011 or 1100.
 
-The programs for A164489, the canonical program `A164489.P7627719625061381392` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164489 has offset 4).
+The programs for A164489, the canonical program `A164489.P7627719625061381392` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164489 has offset 4).
 
 The definition of A164489 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 560 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9797,7 +9798,7 @@ The definition of A164489 is `conjectured`: the Lean definition is a formula tha
 
 `A109537(n+10)+∑[A109537(n+3)]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164489
@@ -9861,7 +9862,7 @@ end A164489
 /-!
 # A164490: Number of binary strings of length n with no substrings equal to 0010 0011 or 0110.
 
-The programs for A164490, the canonical program `A164490.P14874193741949125750` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164490 has offset 4).
+The programs for A164490, the canonical program `A164490.P14874193741949125750` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164490 has offset 4).
 
 The definition of A164490 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 550 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9870,7 +9871,7 @@ The definition of A164490 is `conjectured`: the Lean definition is a formula tha
 
 `A130137(n+6)-(A130137(n)+2)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164490
@@ -9934,7 +9935,7 @@ end A164490
 /-!
 # A164491: Number of binary strings of length n with no substrings equal to 0010 0100 or 1001.
 
-The programs for A164491, the canonical program `A164491.P14143353542599236624` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164491 has offset 4).
+The programs for A164491, the canonical program `A164491.P14143353542599236624` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164491 has offset 4).
 
 The definition of A164491 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 408 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9943,7 +9944,7 @@ The definition of A164491 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A079960(n+2)+A079960(n+6)]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A164491
@@ -10564,7 +10565,7 @@ end A164494
 /-!
 # A164495: Number of binary strings of length n with no substrings equal to 0010 0101 or 1011.
 
-The programs for A164495, the canonical program `A164495.P15928502323414917915` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164495 has offset 4).
+The programs for A164495, the canonical program `A164495.P15928502323414917915` is in `Seq.B000.C024`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A164495 has offset 4).
 
 The definition of A164495 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10573,7 +10574,7 @@ The definition of A164495 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)+a(n-4)+a(n-6)` with `a(0)=13, a(1)=22, a(2)=37, a(3)=62, a(4)=105, a(5)=178`
 
-The canonical program, it is in `Seq.B000.C023`.
+The canonical program, it is in `Seq.B000.C024`.
 -/
 
 namespace A164495

@@ -34,6 +34,10 @@
         "n",
         "*",
         "A000032"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

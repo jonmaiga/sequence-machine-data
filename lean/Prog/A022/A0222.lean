@@ -13,13 +13,12 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -32,32 +31,35 @@ import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C039
+import Seq.B000.C038
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C002
+import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -69,6 +71,7 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C019
+import Seq.Opaque.C021
 import Seq.Opaque.C022
 
 set_option linter.unusedSimpArgs false
@@ -3543,75 +3546,6 @@ theorem P2699644023608496467.correct : P2699644023608496467.Spec := by
 
 end A022264
 
-/-! ## A022264.P9855487028690322494
-
-`A005449(n)+A000384(n)`
--/
-
-namespace A022264.P9855487028690322494
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005449 n + A000384 n
-
-end
-
-end A022264.P9855487028690322494
-
-namespace A022264
-
-/-- `A005449(n)+A000384(n)` -/
-def P9855487028690322494.Spec : Prop :=
-  ∀ n, P9855487028690322494.a n = A022264 n
-
-end A022264
-
-/-! ## A022264.P4950036505768868484
-
-`A049450(n)+A000217(n)`
--/
-
-namespace A022264.P4950036505768868484
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A049450 n + A000217 n
-
-end
-
-end A022264.P4950036505768868484
-
-namespace A022264
-
-/-- `A049450(n)+A000217(n)` -/
-def P4950036505768868484.Spec : Prop :=
-  ∀ n, P4950036505768868484.a n = A022264 n
-
-end A022264
-
-/-! ## A022264.P18175926285971373460
-
-`A016742(n)-A000217(n)`
--/
-
-namespace A022264.P18175926285971373460
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A016742 n - A000217 n
-
-end
-
-end A022264.P18175926285971373460
-
-namespace A022264
-
-/-- `A016742(n)-A000217(n)` -/
-def P18175926285971373460.Spec : Prop :=
-  ∀ n, P18175926285971373460.a n = A022264 n
-
-end A022264
-
 /-! ## A022264.P5528714857683365575
 
 `A174738(7*n+2)`
@@ -3949,6 +3883,52 @@ namespace A022264
 /-- `A006124(n)-(n+3)` -/
 def P6280074869158543154.Spec : Prop :=
   ∀ n, P6280074869158543154.a n = A022264 n
+
+end A022264
+
+/-! ## A022264.P13621422090703572645
+
+`(2*n)²-A000217(n)`
+-/
+
+namespace A022264.P13621422090703572645
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ((2 * n) ^ 2 : ℤ) - A000217 n
+
+end
+
+end A022264.P13621422090703572645
+
+namespace A022264
+
+/-- `(2*n)²-A000217(n)` -/
+def P13621422090703572645.Spec : Prop :=
+  ∀ n, P13621422090703572645.a n = A022264 n
+
+end A022264
+
+/-! ## A022264.P9855487028690322494
+
+`A005449(n)+A000384(n)`
+-/
+
+namespace A022264.P9855487028690322494
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005449 n + A000384 n
+
+end
+
+end A022264.P9855487028690322494
+
+namespace A022264
+
+/-- `A005449(n)+A000384(n)` -/
+def P9855487028690322494.Spec : Prop :=
+  ∀ n, P9855487028690322494.a n = A022264 n
 
 end A022264
 
@@ -16494,7 +16474,7 @@ end A022289
 /-!
 # A022290: Replace 2^k in binary expansion of n with Fibonacci(k+2).
 
-The programs for A022290, the canonical program `A022290.P8838379397811908335` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A022290 has offset 0).
+The programs for A022290, the canonical program `A022290.P8838379397811908335` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A022290 has offset 0).
 
 The definition of A022290 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16503,7 +16483,7 @@ The definition of A022290 is `conjectured`: the Lean definition is a formula tha
 
 `n-∑[A000071(val(A288534(n), 2)+1)]`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A022290

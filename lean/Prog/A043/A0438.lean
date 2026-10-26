@@ -12,35 +12,31 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
-import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C027
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C007
+import Seq.B001.C004
 import Seq.B001.C009
 import Seq.B002.C001
-import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -48,15 +44,14 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
-import Seq.Opaque.C008
+import Seq.Opaque.C007
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
-import Seq.Opaque.C017
+import Seq.Opaque.C016
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -193,24 +188,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A043816.P5361440037881469182
-
-/-! ## A043816.P10014079602709780030
-
-`A048328((n+1)*∏{p}[2^n, #-1])`
--/
-
-namespace A043816.P10014079602709780030
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 ^ n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A048328 ((n + 1 : ℤ) * (∏ p ∈ Nat.primeFactors (f1 n), ((p : ℤ) - 1))).toNat
-
-end
-
-end A043816.P10014079602709780030
 
 /-! ## A043816.P10346664227697663007
 
@@ -594,78 +571,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A043828.P14695401919045554271
-
-/-! ## A043828.P10971817548511302293
-
-`filter[A043595(n+1), A043545(#)]`
--/
-
-namespace A043828.P10971817548511302293
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043595 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A043545 (f1 j).toNat = 1) n)
-
-end
-
-end A043828.P10971817548511302293
-
-/-! ## A043828.P6201368771647986987
-
-`filter[A043595(n+1), A103673(#)]`
--/
-
-namespace A043828.P6201368771647986987
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043595 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A103673 (f1 j).toNat = 1) n)
-
-end
-
-end A043828.P6201368771647986987
-
-/-! ## A043828.P11399970972368922895
-
-`filter[A043595(n+1), A267442(#)]`
--/
-
-namespace A043828.P11399970972368922895
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043595 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A267442 (f1 j).toNat = 1) n)
-
-end
-
-end A043828.P11399970972368922895
-
-/-! ## A043828.P18330679889067928487
-
-`filter[A043595(n+1), A267579(#)]`
--/
-
-namespace A043828.P18330679889067928487
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043595 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A267579 (f1 j).toNat = 1) n)
-
-end
-
-end A043828.P18330679889067928487
 
 /-! ## A043828.P6613122086133018347
 
@@ -1198,83 +1103,11 @@ end
 
 end A043835.P7473383101920435064
 
-/-! ## A043835.P8059246832951295269
-
-`filter[A043594(n+1), A043545(#)]`
--/
-
-namespace A043835.P8059246832951295269
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043594 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A043545 (f1 j).toNat = 1) n)
-
-end
-
-end A043835.P8059246832951295269
-
-/-! ## A043835.P62733698405553650
-
-`filter[A043594(n+1), A267442(#)]`
--/
-
-namespace A043835.P62733698405553650
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043594 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A267442 (f1 j).toNat = 1) n)
-
-end
-
-end A043835.P62733698405553650
-
-/-! ## A043835.P8083054940510247678
-
-`filter[A043594(n+1), A267579(#)]`
--/
-
-namespace A043835.P8083054940510247678
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043594 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A267579 (f1 j).toNat = 1) n)
-
-end
-
-end A043835.P8083054940510247678
-
 /-!
 # A043836: 
 
 The programs for A043836, there is no canonical definition to state claims against.
 -/
-
-/-! ## A043836.P11119678751453731489
-
-`filter[A043595(n+1), A347523(#)]`
--/
-
-namespace A043836.P11119678751453731489
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043595 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A347523 (f1 j).toNat = 1) n)
-
-end
-
-end A043836.P11119678751453731489
 
 /-! ## A043836.P10356311725206332594
 
@@ -1869,28 +1702,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043859.P2885363576704353061
-
-/-! ## A043859.P1835243340953067403
-
-`∩[A032975(n+1), A043868(n+1)]`
--/
-
-namespace A043859.P1835243340953067403
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A032975 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A043868 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A043859.P1835243340953067403
 
 /-!
 # A043868: Numbers n such that number of runs in the base 4 representation of n is congruent to 1 mod 10.

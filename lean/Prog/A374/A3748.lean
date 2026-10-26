@@ -7,52 +7,50 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C034
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C009
+import Seq.B001.C003
+import Seq.B001.C004
+import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C003
-import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -67,8 +65,10 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -76,7 +76,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A374806: a(n) is the smallest number which can be represented as the sum of 3 distinct nonzero triangular numbers in exactly n ways, or -1 if no such number exists.
@@ -115,30 +114,6 @@ end
 end A374806.P288357820210397716
 
 /-!
-# A374810: Values k such that the two-player impartial {0,1}-Toggle game on a path P(k+2) = v(1)v(2)...v(k+2) with a (1^k,0,1)-weight assignment is a second-player winning game.
-
-The programs for A374810, there is no canonical definition to state claims against.
--/
-
-/-! ## A374810.P3268841961881546261
-
-`record[A374920(n+1)-A331575(n)]`
--/
-
-namespace A374810.P3268841961881546261
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A374920 (n + 1) - A331575 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A374810.P3268841961881546261
-
-/-!
 # A374811: Numerator of the expected height of a random binary search tree (BST) with n elements.
 
 The programs for A374811, there is no canonical definition to state claims against.
@@ -162,7 +137,7 @@ end A374811.P13475119742466390816
 /-!
 # A374812: 10^n-th nonsquarefree number.
 
-The programs for A374812, the canonical program `A374812.P12842280590014895668` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374812 has offset 0).
+The programs for A374812, the canonical program `A374812.P12842280590014895668` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374812 has offset 0).
 
 The definition of A374812 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A013929, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -171,7 +146,7 @@ The definition of A374812 is `conditional`: the Lean definition is an OEIS formu
 
 `A013929(10^n)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A374812
@@ -1020,7 +995,7 @@ end A374842.P5632252493448326849
 /-!
 # A374844: a(n) = n! * Sum_{k=1..n} k^k / k!.
 
-The programs for A374844, the canonical program `A374844.P3064299584962008638` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374844 has offset 0).
+The programs for A374844, the canonical program `A374844.P3064299584962008638` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374844 has offset 0).
 
 The definition of A374844 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1029,7 +1004,7 @@ The definition of A374844 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*a(n-1)+n^n` with `a(0)=0`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A374844
@@ -2809,7 +2784,7 @@ end A374875.P13213832532106348961
 /-!
 # A374877: Obverse convolution (3n+1)**(3n+1); see Comments.
 
-The programs for A374877, the canonical program `A374877.P7559172055930114456` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374877 has offset 0).
+The programs for A374877, the canonical program `A374877.P7559172055930114456` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374877 has offset 0).
 
 The definition of A374877 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2818,7 +2793,7 @@ The definition of A374877 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3*n+2)^(n+1)`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A374877
@@ -2905,7 +2880,7 @@ end A374877
 /-!
 # A374878: Obverse convolution (3n+2)**(3n+2); see Comments.
 
-The programs for A374878, the canonical program `A374878.P16956368285606481330` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374878 has offset 0).
+The programs for A374878, the canonical program `A374878.P16956368285606481330` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374878 has offset 0).
 
 The definition of A374878 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2914,7 +2889,7 @@ The definition of A374878 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3*n+4)^(n+1)`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A374878

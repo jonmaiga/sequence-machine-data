@@ -14,7 +14,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -23,35 +22,36 @@ import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -59,16 +59,11 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B009.C001
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -3232,7 +3227,7 @@ end A160368.P10012549977754467525
 /-!
 # A160370: Smaller member p of a pair (p,p+6) of consecutive primes in different centuries.
 
-The programs for A160370, the canonical program `A160370.P9712212650284585240` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160370 has offset 1).
+The programs for A160370, the canonical program `A160370.P9712212650284585240` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160370 has offset 1).
 
 The definition of A160370 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1006 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3241,7 +3236,7 @@ The definition of A160370 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A244778(n+1), A288022(n+1)]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A160370
@@ -3414,24 +3409,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A160371.P16255875871479859433
-
-/-! ## A160371.P651535861769806189
-
-`A060130(record[A101095(n+1)-A187829(n+1)])`
--/
-
-namespace A160371.P651535861769806189
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A101095 (n + 1) - A187829 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060130 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)).toNat
-
-end
-
-end A160371.P651535861769806189
 
 /-!
 # A160372: The 4-tuple (2, ((2*n+1)^2-1)/2, ((2*n+3)^2-1)/2, a(n)), where a(n) = 4*(3 + 20n + 42n^2 + 32n^3 + 8n^4), has Diophantus's property that the product of any two distinct terms plus one is a square.
@@ -3610,10 +3587,33 @@ end A160372
 /-!
 # A160377: Phi-torial of n (A001783) modulo n.
 
-The programs for A160377, the canonical program `A160377.P1754488293739471565` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160377 has offset 1).
+The programs for A160377, the canonical program `A160377.P1754488293739471565` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160377 has offset 1).
 
 The definition of A160377 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A160377.P3124738682642824795
+
+`A001783(n+1)%(n+1)`
+-/
+
+namespace A160377.P3124738682642824795
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A001783 (n + 1)) (n + 1 : ℤ)
+
+end
+
+end A160377.P3124738682642824795
+
+namespace A160377
+
+/-- `A001783(n+1)%(n+1)` -/
+def P3124738682642824795.Spec : Prop :=
+  ∀ n, P3124738682642824795.a n = A160377 (n + 1)
+
+end A160377
 
 /-! ## A160377.P17531386794447134831
 
@@ -3895,7 +3895,7 @@ end A160377
 
 `C(n, C(A072273(n+1), A072273(n+1)²))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A160377
@@ -5353,7 +5353,7 @@ end A160381
 /-!
 # A160382: Number of 2's in base-4 representation of n.
 
-The programs for A160382, the canonical program `A160382.P9589961601338406698` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160382 has offset 0).
+The programs for A160382, the canonical program `A160382.P9589961601338406698` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160382 has offset 0).
 
 The definition of A160382 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5546,7 +5546,7 @@ end A160382
 
 `A160381(A003817(n)-n)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A160382
@@ -7428,6 +7428,29 @@ def P10650134536741932856.Spec : Prop :=
 theorem P10650134536741932856.correct : P10650134536741932856.Spec := by
   intro n
   simp only [A160393, Nat.add_sub_cancel]
+
+end A160393
+
+/-! ## A160393.P10918892806485462456
+
+`A000196((3^(n+1)-3)/2)+1`
+-/
+
+namespace A160393.P10918892806485462456
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000196 (SequenceMachineLib.roundAway (((3 ^ (n + 1) : ℤ) - 3 : ℚ) / 2)).toNat + 1
+
+end
+
+end A160393.P10918892806485462456
+
+namespace A160393
+
+/-- `A000196((3^(n+1)-3)/2)+1` -/
+def P10918892806485462456.Spec : Prop :=
+  ∀ n, P10918892806485462456.a n = A160393 (n + 1)
 
 end A160393
 

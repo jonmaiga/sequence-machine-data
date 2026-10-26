@@ -11,6 +11,9 @@
         "/",
         "exp",
         "contfrac"
+      ],
+      "tags": [
+        "proven"
       ]
     }
   ]

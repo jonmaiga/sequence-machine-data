@@ -12,33 +12,32 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C026
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C034
+import Seq.B000.C037
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
-import Seq.B005.C000
-import Seq.B006.C000
-import Seq.B008.C001
-import Seq.B012.C000
-import Seq.B014.C000
+import Seq.B008.C000
+import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -50,6 +49,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -6978,60 +6978,6 @@ end
 
 end A004864.P12687946843869035280
 
-/-! ## A004864.P12101297225254006807
-
-`record[A123253(10*A329447(n))]`
--/
-
-namespace A004864.P12101297225254006807
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A123253 (10 * A329447 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A004864.P12101297225254006807
-
-/-! ## A004864.P16585655192459219408
-
-`record[A123253(A329447(n))%A188226(n)]`
--/
-
-namespace A004864.P16585655192459219408
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A123253 (A329447 n).toNat) (A188226 n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A004864.P16585655192459219408
-
-/-! ## A004864.P90304866522380754
-
-`record[A123253(A329447(n))/A178334(n)!]`
--/
-
-namespace A004864.P90304866522380754
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A123253 (A329447 n).toNat : ℚ) / (Nat.factorial (A178334 n).toNat : ℚ)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A004864.P90304866522380754
-
 /-! ## A004864.P7260305475499979774
 
 `A123253(A329447(n))+A000122(A141911(n+1))`
@@ -7797,31 +7743,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A004870.P6246741780346993364
-
-/-! ## A004870.P439200348181922520
-
-`∪[∑[A141517(2*(n+1))!]-1, A004869(n+2)]`
--/
-
-namespace A004870.P439200348181922520
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.factorial (A141517 (2 * (n + 1))).toNat
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∑ j ∈ Finset.range (n + 1), f2 j : ℕ) : ℤ) - 1
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004869 (n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f3 j = (x : ℤ)) n
-
-end
-
-end A004870.P439200348181922520
 
 /-!
 # A004871: Numbers that are the sum of at most 9 positive 7th powers.
@@ -9846,28 +9767,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A004885.P4909801650202718691
-
-/-! ## A004885.P7684890329958288432
-
-`∪[A004884(n+1), A332870(A014382(n))+n]`
--/
-
-namespace A004885.P7684890329958288432
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004884 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332870 (A014382 n).toNat + (n : ℤ)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A004885.P7684890329958288432
 
 /-!
 # A004886: Numbers that are the sum of at most 2 positive 9th powers.

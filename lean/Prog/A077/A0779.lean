@@ -23,13 +23,11 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -40,8 +38,8 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
@@ -49,33 +47,34 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C001
-import Seq.B002.C003
-import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C002
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C003
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B006.C000
-import Seq.B007.C001
+import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B011.C000
-import Seq.B014.C000
+import Seq.B009.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C003
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C009
+import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -16250,6 +16249,29 @@ theorem P5207507075211113912.correct : P5207507075211113912.Spec := by
 
 end A077957
 
+/-! ## A077957.P7546672125863286619
+
+`(1-n%2)*2^floor(n/2)`
+-/
+
+namespace A077957.P7546672125863286619
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (1 - ((n % 2 : ℕ) : ℤ) : ℚ) * (2 : ℚ) ^ (⌊(n : ℚ) / 2⌋ : ℤ)
+
+end
+
+end A077957.P7546672125863286619
+
+namespace A077957
+
+/-- `(1-n%2)*2^floor(n/2)` -/
+def P7546672125863286619.Spec : Prop :=
+  ∀ n, P7546672125863286619.a n = (A077957 n : ℚ)
+
+end A077957
+
 /-! ## A077957.P14193662750191495844
 
 `ogf(1/(1-2x^2))`
@@ -16675,29 +16697,6 @@ namespace A077957
 /-- `A077958(A032766(n))` -/
 def P15617797907503316816.Spec : Prop :=
   ∀ n, P15617797907503316816.a n = A077957 n
-
-end A077957
-
-/-! ## A077957.P6384934940301298477
-
-`A077958(A074306(n))`
--/
-
-namespace A077957.P6384934940301298477
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A077958 (A074306 n).toNat
-
-end
-
-end A077957.P6384934940301298477
-
-namespace A077957
-
-/-- `A077958(A074306(n))` -/
-def P6384934940301298477.Spec : Prop :=
-  ∀ n, P6384934940301298477.a n = A077957 n
 
 end A077957
 
@@ -18884,6 +18883,29 @@ theorem P1307819442978643719.correct : P1307819442978643719.Spec := by
 
 end A077966
 
+/-! ## A077966.P13100664782075948963
+
+`(n+1)%2*(-2)^floor((n+1)/2)`
+-/
+
+namespace A077966.P13100664782075948963
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (((n + 1) % 2 : ℕ) : ℚ) * (-2 : ℚ) ^ (⌊(n + 1 : ℚ) / 2⌋ : ℤ)
+
+end
+
+end A077966.P13100664782075948963
+
+namespace A077966
+
+/-- `(n+1)%2*(-2)^floor((n+1)/2)` -/
+def P13100664782075948963.Spec : Prop :=
+  ∀ n, P13100664782075948963.a n = (A077966 n : ℚ)
+
+end A077966
+
 /-! ## A077966.P14029008531041356832
 
 `-(2*a(n-2))` with `a(0)=1, a(1)=0`
@@ -19330,29 +19352,6 @@ namespace A077966
 /-- `A077959(A026430(n))` -/
 def P14643518617284743851.Spec : Prop :=
   ∀ n, P14643518617284743851.a n = A077966 n
-
-end A077966
-
-/-! ## A077966.P10550674151210566423
-
-`A077959(A032766(n))`
--/
-
-namespace A077966.P10550674151210566423
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A077959 (A032766 n).toNat
-
-end
-
-end A077966.P10550674151210566423
-
-namespace A077966
-
-/-- `A077959(A032766(n))` -/
-def P10550674151210566423.Spec : Prop :=
-  ∀ n, P10550674151210566423.a n = A077966 n
 
 end A077966
 

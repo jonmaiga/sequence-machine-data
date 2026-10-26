@@ -5,31 +5,30 @@ import Seq.B000.C003
 import Seq.B000.C005
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C012
+import Seq.B000.C013
+import Seq.B000.C014
+import Seq.B000.C018
 import Seq.B000.C020
-import Seq.B000.C025
-import Seq.B000.C038
+import Seq.B000.C026
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C002
-import Seq.B001.C004
-import Seq.B001.C007
-import Seq.B001.C010
+import Seq.B001.C005
+import Seq.B001.C009
+import Seq.B001.C012
 import Seq.B002.C000
-import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -56,7 +55,7 @@ import Seq.Opaque.C025
 /-!
 # A395700: k is term if and only if k = gcd(k^2, k!) / gcd(k^2, k!/floor(k/2)!^2).
 
-The programs for A395700, the canonical program `A395700.P10863328374740441814` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395700 has offset 1).
+The programs for A395700, the canonical program `A395700.P10863328374740441814` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395700 has offset 1).
 
 The definition of A395700 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 552 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -65,7 +64,7 @@ The definition of A395700 is `conjectured`: the Lean definition is a formula tha
 
 `eq[n, A181859(n)]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A395700
@@ -83,8 +82,29 @@ end A395700
 /-!
 # A395701: Triangle read by rows: T(n, k) = binomial(n, k) * k^k.
 
-The programs for A395701, there is no canonical definition to state claims against.
+The programs for A395701, the canonical program `A395701.P16713284021052508335` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395701 has offset 0).
+
+The definition of A395701 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(row(n), col(n))*col(n)^col(n)` (program `A395701.P16713284021052508335`, by `A395701.P16713284021052508335.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A395701.P16713284021052508335
+
+`C(row(n), col(n))*col(n)^col(n)`
+
+The canonical program, it is in `Seq.B000.C040`.
+-/
+
+namespace A395701
+
+/-- `C(row(n), col(n))*col(n)^col(n)` -/
+def P16713284021052508335.Spec : Prop :=
+  ∀ n, (P16713284021052508335.a n : ℤ) = A395701 n
+
+theorem P16713284021052508335.correct : P16713284021052508335.Spec := by
+  intro n
+  simp only [A395701]
+
+end A395701
 
 /-! ## A395701.P6560387955132983739
 
@@ -101,6 +121,14 @@ end
 
 end A395701.P6560387955132983739
 
+namespace A395701
+
+/-- `A356955(A059836(n+1))` -/
+def P6560387955132983739.Spec : Prop :=
+  ∀ n, P6560387955132983739.a n = A395701 n
+
+end A395701
+
 /-! ## A395701.P14358764255277811201
 
 `A138768(A128570(n))`
@@ -115,6 +143,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A395701.P14358764255277811201
+
+namespace A395701
+
+/-- `A138768(A128570(n))` -/
+def P14358764255277811201.Spec : Prop :=
+  ∀ n, P14358764255277811201.a n = A395701 n
+
+end A395701
 
 /-!
 # A395702: Number of transitive relations on an n-set that are neither reflexive nor symmetric.
@@ -749,7 +785,7 @@ end A395765.P4828072718997185116
 /-!
 # A395767: Minimal value of p(1) + Sum_{i=2...n} p(i-1)*p(i), as p ranges over all permutations of powers of 2 {1,2,4,...,2^(n-1)}.
 
-The programs for A395767, the canonical program `A395767.P6540470511524819013` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395767 has offset 1).
+The programs for A395767, the canonical program `A395767.P6540470511524819013` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395767 has offset 1).
 
 The definition of A395767 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 325 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -758,7 +794,7 @@ The definition of A395767 is `conjectured`: the Lean definition is a formula tha
 
 `A394572(n)+2^n`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A395767
@@ -822,7 +858,7 @@ end A395767
 /-!
 # A395768: The twisted Euler phi-function for the Dirichlet character kronecker(-4,.) mod 4.
 
-The programs for A395768, the canonical program `A395768.P1059238046107922784` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395768 has offset 1).
+The programs for A395768, the canonical program `A395768.P1059238046107922784` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395768 has offset 1).
 
 The definition of A395768 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -854,7 +890,7 @@ end A395768
 
 `∑{d}[n+1, #*A374367((n+1)/#)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A395768
@@ -1162,7 +1198,7 @@ end A395769.P6194955749419262220
 /-!
 # A395770: Minimal value of Sum_{i=1..n-1} p(i)*p(i+1), as p ranges over all permutations of powers of 2 {1,2,4,...,2^(n-1)}.
 
-The programs for A395770, the canonical program `A395770.P6054457820381532371` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395770 has offset 1).
+The programs for A395770, the canonical program `A395770.P6054457820381532371` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395770 has offset 1).
 
 The definition of A395770 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 325 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1171,7 +1207,7 @@ The definition of A395770 is `conjectured`: the Lean definition is a formula tha
 
 `A394572(n)+A131577(n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A395770
@@ -1534,7 +1570,7 @@ end A395791.P6617155726159100897
 /-!
 # A395792: Numbers k such that k-3 and k+3 are prime and gcd(k, sigma(k)) is prime.
 
-The programs for A395792, the canonical program `A395792.P15440842927184700187` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395792 has offset 1).
+The programs for A395792, the canonical program `A395792.P15440842927184700187` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395792 has offset 1).
 
 The definition of A395792 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 522 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1543,7 +1579,7 @@ The definition of A395792 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A087695(n+1), A392199(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A395792

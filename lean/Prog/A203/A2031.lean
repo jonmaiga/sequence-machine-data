@@ -29,34 +29,32 @@ import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C031
 import Seq.B000.C035
-import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
-import Seq.B001.C009
-import Seq.B002.C000
+import Seq.B001.C007
+import Seq.B001.C008
+import Seq.B001.C012
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
+import Seq.B002.C005
+import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B007.C000
-import Seq.B013.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -73,7 +71,7 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -1892,7 +1890,7 @@ end A203148
 /-!
 # A203150: (n-1)-st elementary symmetric function of the first n terms of (1,2,1,2,1,2,1,2,1,2,...)=A000034.
 
-The programs for A203150, the canonical program `A203150.P12141885695883165690` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203150 has offset 1).
+The programs for A203150, the canonical program `A203150.P12141885695883165690` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203150 has offset 1).
 
 The definition of A203150 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 647 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1973,7 +1971,7 @@ end A203150
 
 `A016116(n)+a(n-1)*A000034(n)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A203150
@@ -2873,7 +2871,7 @@ end A203159.P10101892200546068241
 /-!
 # A203160: (n-1)-st elementary symmetric function of the first n terms of (2,3,1,2,3,1,2,3,1,...)=A010882.
 
-The programs for A203160, the canonical program `A203160.P14825863557280747946` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203160 has offset 1).
+The programs for A203160, the canonical program `A203160.P14825863557280747946` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203160 has offset 1).
 
 The definition of A203160 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 376 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2882,7 +2880,7 @@ The definition of A203160 is `conjectured`: the Lean definition is a formula tha
 
 `A203162(n+2)-∏[A010882(n+1)]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A203160
@@ -3066,7 +3064,7 @@ end A203166.P13955594386947934397
 /-!
 # A203167: (n-1)-st elementary symmetric function of the first n terms of (2,2,1,2,2,1,2,2,1,...)=(A130196 for n>0).
 
-The programs for A203167, the canonical program `A203167.P17485948460614624916` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203167 has offset 1).
+The programs for A203167, the canonical program `A203167.P17485948460614624916` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203167 has offset 1).
 
 The definition of A203167 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 484 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3075,7 +3073,7 @@ The definition of A203167 is `conjectured`: the Lean definition is a formula tha
 
 `record[abs((n+1)*A138380(n))]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A203167
@@ -3476,8 +3474,25 @@ end A203168.P538473788301055860
 /-!
 # A203169: Sum of the fourth powers of the first n even-indexed Fibonacci numbers.
 
-The programs for A203169, there is no canonical definition to state claims against.
+The programs for A203169, the canonical program `A203169.P8907157528623876506` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203169 has offset 0).
+
+The definition of A203169 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A203169.P8907157528623876506
+
+`1/75*(A000045(8*n+4)-12*A000045(4*n+2)+9*(2*n+1))`
+
+The canonical program, it is in `Seq.B001.C008`.
+-/
+
+namespace A203169
+
+/-- `1/75*(A000045(8*n+4)-12*A000045(4*n+2)+9*(2*n+1))` -/
+def P8907157528623876506.Spec : Prop :=
+  ∀ n, P8907157528623876506.a n = (A203169 n : ℚ)
+
+end A203169
 
 /-! ## A203169.P14131847396752310196
 
@@ -3497,6 +3512,14 @@ end
 
 end A203169.P14131847396752310196
 
+namespace A203169
+
+/-- `∑[A049684(n)²]` -/
+def P14131847396752310196.Spec : Prop :=
+  ∀ n, P14131847396752310196.a n = A203169 n
+
+end A203169
+
 /-! ## A203169.P12419382487128781379
 
 `∑[A056571(2*n)]`
@@ -3514,6 +3537,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A203169.P12419382487128781379
+
+namespace A203169
+
+/-- `∑[A056571(2*n)]` -/
+def P12419382487128781379.Spec : Prop :=
+  ∀ n, P12419382487128781379.a n = A203169 n
+
+end A203169
 
 /-! ## A203169.P5187327416758637222
 
@@ -3533,6 +3564,14 @@ end
 
 end A203169.P5187327416758637222
 
+namespace A203169
+
+/-- `∑[A001906(n)^4]` -/
+def P5187327416758637222.Spec : Prop :=
+  ∀ n, P5187327416758637222.a n = A203169 n
+
+end A203169
+
 /-! ## A203169.P14133833133019588064
 
 `∑[A007598(2*n)²]`
@@ -3550,6 +3589,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A203169.P14133833133019588064
+
+namespace A203169
+
+/-- `∑[A007598(2*n)²]` -/
+def P14133833133019588064.Spec : Prop :=
+  ∀ n, P14133833133019588064.a n = A203169 n
+
+end A203169
 
 /-! ## A203169.P4379729129642282950
 
@@ -3572,6 +3619,14 @@ end
 
 end A203169.P4379729129642282950
 
+namespace A203169
+
+/-- `∑[Δ[A001519(n)]²²]` -/
+def P4379729129642282950.Spec : Prop :=
+  ∀ n, P4379729129642282950.a n = A203169 n
+
+end A203169
+
 /-! ## A203169.P12925770866577152409
 
 `∑[Δ[A032908(n)]²²]`
@@ -3593,6 +3648,14 @@ end
 
 end A203169.P12925770866577152409
 
+namespace A203169
+
+/-- `∑[Δ[A032908(n)]²²]` -/
+def P12925770866577152409.Spec : Prop :=
+  ∀ n, P12925770866577152409.a n = A203169 n
+
+end A203169
+
 /-! ## A203169.P8021135909391843190
 
 `∑[A000045(2*n)^4]`
@@ -3610,6 +3673,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A203169.P8021135909391843190
+
+namespace A203169
+
+/-- `∑[A000045(2*n)^4]` -/
+def P8021135909391843190.Spec : Prop :=
+  ∀ n, P8021135909391843190.a n = A203169 n
+
+end A203169
 
 /-! ## A203169.P3316230931970996030
 
@@ -3629,6 +3700,14 @@ end
 
 end A203169.P3316230931970996030
 
+namespace A203169
+
+/-- `∑[A005013(2*n)²²]` -/
+def P3316230931970996030.Spec : Prop :=
+  ∀ n, P3316230931970996030.a n = A203169 n
+
+end A203169
+
 /-! ## A203169.P5995789040849282799
 
 `∑[A094966(2*n)²²]`
@@ -3647,29 +3726,36 @@ end
 
 end A203169.P5995789040849282799
 
-/-! ## A203169.P9067469417483588771
+namespace A203169
 
-`∑[A135994(2*n)²²]`
--/
+/-- `∑[A094966(2*n)²²]` -/
+def P5995789040849282799.Spec : Prop :=
+  ∀ n, P5995789040849282799.a n = A203169 n
 
-namespace A203169.P9067469417483588771
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A135994 (2 * n) ^ 2) ^ 2
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A203169.P9067469417483588771
+end A203169
 
 /-!
 # A203170: Sum of the fourth powers of the first n odd-indexed Fibonacci numbers.
 
-The programs for A203170, there is no canonical definition to state claims against.
+The programs for A203170, the canonical program `A203170.P10477282998790796732` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203170 has offset 0).
+
+The definition of A203170 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A203170.P10477282998790796732
+
+`1/75*(A000045(8*n)+12*A000045(4*n)+18*n)`
+
+The canonical program, it is in `Seq.B001.C008`.
+-/
+
+namespace A203170
+
+/-- `1/75*(A000045(8*n)+12*A000045(4*n)+18*n)` -/
+def P10477282998790796732.Spec : Prop :=
+  ∀ n, P10477282998790796732.a n = (A203170 n : ℚ)
+
+end A203170
 
 /-! ## A203170.P6723585984179477865
 
@@ -3689,6 +3775,14 @@ end
 
 end A203170.P6723585984179477865
 
+namespace A203170
+
+/-- `∑[A001519(n)²²]-1` -/
+def P6723585984179477865.Spec : Prop :=
+  ∀ n, P6723585984179477865.a n = A203170 n
+
+end A203170
+
 /-! ## A203170.P9445888364409512536
 
 `∑[(1-A186025(n))²²]`
@@ -3707,6 +3801,14 @@ end
 
 end A203170.P9445888364409512536
 
+namespace A203170
+
+/-- `∑[(1-A186025(n))²²]` -/
+def P9445888364409512536.Spec : Prop :=
+  ∀ n, P9445888364409512536.a n = A203170 n
+
+end A203170
+
 /-! ## A203170.P11964314054070224018
 
 `∑[(A052995(n)/2)²²]`
@@ -3724,6 +3826,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A203170.P11964314054070224018
+
+namespace A203170
+
+/-- `∑[(A052995(n)/2)²²]` -/
+def P11964314054070224018.Spec : Prop :=
+  ∀ n, P11964314054070224018.a n = (A203170 n : ℚ)
+
+end A203170
 
 /-! ## A203170.P3753320225746949029
 
@@ -3747,6 +3857,14 @@ end
 
 end A203170.P3753320225746949029
 
+namespace A203170
+
+/-- `∑[A000045(comp[2*(n+1)])²²]` -/
+def P3753320225746949029.Spec : Prop :=
+  ∀ n, P3753320225746949029.a n = A203170 n
+
+end A203170
+
 /-! ## A203170.P9611346497451133065
 
 `a(n-1)+A000045(2*n-1)²²` with `a(0)=0`
@@ -3761,6 +3879,14 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
 end
 
 end A203170.P9611346497451133065
+
+namespace A203170
+
+/-- `a(n-1)+A000045(2*n-1)²²` -/
+def P9611346497451133065.Spec : Prop :=
+  ∀ n, P9611346497451133065.a n = A203170 n
+
+end A203170
 
 /-! ## A203170.P17427554067533886747
 
@@ -3780,6 +3906,14 @@ end
 
 end A203170.P17427554067533886747
 
+namespace A203170
+
+/-- `∑[A007598(A004273(n))²]` -/
+def P17427554067533886747.Spec : Prop :=
+  ∀ n, P17427554067533886747.a n = A203170 n
+
+end A203170
+
 /-! ## A203170.P11055677091757543181
 
 `∑[A212804(A004277(n))²²]`
@@ -3797,6 +3931,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A203170.P11055677091757543181
+
+namespace A203170
+
+/-- `∑[A212804(A004277(n))²²]` -/
+def P11055677091757543181.Spec : Prop :=
+  ∀ n, P11055677091757543181.a n = A203170 n
+
+end A203170
 
 /-! ## A203170.P18389738715227804364
 
@@ -3819,32 +3961,59 @@ end
 
 end A203170.P18389738715227804364
 
-/-! ## A203170.P5265277045596886006
+namespace A203170
 
-`∑[record[A000045(A006257(n))²²]]`
--/
+/-- `∑[∑[A001906(A004275(n))]²]` -/
+def P18389738715227804364.Spec : Prop :=
+  ∀ n, P18389738715227804364.a n = A203170 n
 
-namespace A203170.P5265277045596886006
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A000045 (A006257 n).toNat ^ 2) ^ 2
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A203170.P5265277045596886006
+end A203170
 
 /-!
 # A203171: Alternating sum of the fourth powers of the first n even-indexed Fibonacci numbers.
 
-The programs for A203171, there is no canonical definition to state claims against.
+The programs for A203171, the canonical program `A203171.P10376019041267160348` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203171 has offset 0).
+
+The definition of A203171 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A203171.P10376019041267160348
+
+`(-1)^n*1/21*A000045(2*n)*A000045(2*n+2)*(3*A000045(2*n+1)²-5)`
+
+The canonical program, it is in `Seq.B001.C008`.
+-/
+
+namespace A203171
+
+/-- `(-1)^n*1/21*A000045(2*n)*A000045(2*n+2)*(3*A000045(2*n+1)²-5)` -/
+def P10376019041267160348.Spec : Prop :=
+  ∀ n, P10376019041267160348.a n = (A203171 n : ℚ)
+
+end A203171
+
+/-! ## A203171.P16725862236801947915
+
+`(-1)^n*1/525*(3*A000032(8*n+4)-28*A000032(4*n+2)+63)`
+-/
+
+namespace A203171.P16725862236801947915
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((-1) ^ n : ℚ) * ((1 : ℚ) / 525) * (3 * A000032 (8 * n + 4) - 28 * A000032 (4 * n + 2) + 63 : ℚ)
+
+end
+
+end A203171.P16725862236801947915
+
+namespace A203171
+
+/-- `(-1)^n*1/525*(3*A000032(8*n+4)-28*A000032(4*n+2)+63)` -/
+def P16725862236801947915.Spec : Prop :=
+  ∀ n, P16725862236801947915.a n = (A203171 n : ℚ)
+
+end A203171
 
 /-! ## A203171.P3373059100104047591
 
@@ -3864,6 +4033,14 @@ end
 
 end A203171.P3373059100104047591
 
+namespace A203171
+
+/-- `∑[A000045(2*n)²²*(-1)^n]` -/
+def P3373059100104047591.Spec : Prop :=
+  ∀ n, P3373059100104047591.a n = A203171 n
+
+end A203171
+
 /-! ## A203171.P17099652945791706798
 
 `∑[A049684(n)²*A033999(n)]`
@@ -3881,6 +4058,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A203171.P17099652945791706798
+
+namespace A203171
+
+/-- `∑[A049684(n)²*A033999(n)]` -/
+def P17099652945791706798.Spec : Prop :=
+  ∀ n, P17099652945791706798.a n = A203171 n
+
+end A203171
 
 /-! ## A203171.P2577998606860758368
 
@@ -3900,6 +4085,14 @@ end
 
 end A203171.P2577998606860758368
 
+namespace A203171
+
+/-- `∑[A033999(n)*A056571(2*n)]` -/
+def P2577998606860758368.Spec : Prop :=
+  ∀ n, P2577998606860758368.a n = A203171 n
+
+end A203171
+
 /-! ## A203171.P2075644307522471346
 
 `∑[A007598(2*n)²*A056594(2*n)]`
@@ -3917,6 +4110,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A203171.P2075644307522471346
+
+namespace A203171
+
+/-- `∑[A007598(2*n)²*A056594(2*n)]` -/
+def P2075644307522471346.Spec : Prop :=
+  ∀ n, P2075644307522471346.a n = A203171 n
+
+end A203171
 
 /-! ## A203171.P4197513002678610105
 
@@ -3936,6 +4137,14 @@ end
 
 end A203171.P4197513002678610105
 
+namespace A203171
+
+/-- `∑[A000045(2*n)^4*A062157(n+1)]` -/
+def P4197513002678610105.Spec : Prop :=
+  ∀ n, P4197513002678610105.a n = A203171 n
+
+end A203171
+
 /-! ## A203171.P10330425939934109817
 
 `∑[(A004442(n)-n)*A000045(2*n)^4]`
@@ -3953,6 +4162,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A203171.P10330425939934109817
+
+namespace A203171
+
+/-- `∑[(A004442(n)-n)*A000045(2*n)^4]` -/
+def P10330425939934109817.Spec : Prop :=
+  ∀ n, P10330425939934109817.a n = A203171 n
+
+end A203171
 
 /-!
 # A203172: Alternating sum of the fourth powers of the first n odd-indexed Fibonacci numbers.

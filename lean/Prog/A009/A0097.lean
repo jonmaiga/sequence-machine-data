@@ -6,6 +6,7 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
@@ -13,39 +14,38 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C021
-import Seq.B000.C024
-import Seq.B000.C029
+import Seq.B000.C019
+import Seq.B000.C022
+import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C035
-import Seq.B000.C036
+import Seq.B000.C034
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C006
 import Seq.B001.C008
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
-import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B005.C000
+import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -58,7 +58,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -66,9 +65,11 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import SequenceMachineLib.Triangle
 
 /-!
 # A009700: Expansion of tan(tan(x))*x.
@@ -3447,10 +3448,48 @@ end A009764.P7523800898580580890
 /-!
 # A009766: Catalan's triangle T(n,k) (read by rows): each term is the sum of the entries above and to the left, i.e., T(n,k) = Sum_{j=0..k} T(n-1,j).
 
-The programs for A009766, the canonical program `A009766.P5825357266757824641` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009766 has offset 0).
+The programs for A009766, the canonical program `A009766.P11089378613749580931` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009766 has offset 0).
 
-The definition of A009766 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A009766 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A009766.P11089378613749580931
+
+`C(row(n)+col(n), row(n))*(row(n)-col(n)+1)/(row(n)+1)`
+
+The canonical program, it is in `Seq.B000.C001`.
+-/
+
+namespace A009766
+
+/-- `C(row(n)+col(n), row(n))*(row(n)-col(n)+1)/(row(n)+1)` -/
+def P11089378613749580931.Spec : Prop :=
+  ∀ n, P11089378613749580931.a n = (A009766 n : ℚ)
+
+end A009766
+
+/-! ## A009766.P8428034818932735644
+
+`T(n-1,k)+T(n,k-1)` with `a(0)=1`
+-/
+
+namespace A009766.P8428034818932735644
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.rec [1] fun n a =>
+  SequenceMachineLib.triUp a n + SequenceMachineLib.triLeft a n
+
+end
+
+end A009766.P8428034818932735644
+
+namespace A009766
+
+/-- `T(n-1,k)+T(n,k-1)` -/
+def P8428034818932735644.Spec : Prop :=
+  ∀ n, (P8428034818932735644.a n : ℤ) = A009766 n
+
+end A009766
 
 /-! ## A009766.P10663568674193855479
 
@@ -3478,19 +3517,23 @@ end A009766
 /-! ## A009766.P5825357266757824641
 
 `2*A046899(n)-A178300(n+1)`
-
-The canonical program, it is in `Seq.B006.C000`.
 -/
+
+namespace A009766.P5825357266757824641
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A046899 n - A178300 (n + 1)
+
+end
+
+end A009766.P5825357266757824641
 
 namespace A009766
 
 /-- `2*A046899(n)-A178300(n+1)` -/
 def P5825357266757824641.Spec : Prop :=
   ∀ n, P5825357266757824641.a n = A009766 n
-
-theorem P5825357266757824641.correct : P5825357266757824641.Spec := by
-  intro n
-  simp only [A009766]
 
 end A009766
 
@@ -3866,29 +3909,6 @@ namespace A009766
 /-- `A007318(n)/A132813(n)*A063007(n)` -/
 def P130749494339233103.Spec : Prop :=
   ∀ n, P130749494339233103.a n = (A009766 n : ℚ)
-
-end A009766
-
-/-! ## A009766.P18280759120641850447
-
-`A063007(n)/A007318(A014132(n+1)-1)`
--/
-
-namespace A009766.P18280759120641850447
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A063007 n : ℚ) / (A007318 (A014132 (n + 1) - 1).toNat : ℚ)
-
-end
-
-end A009766.P18280759120641850447
-
-namespace A009766
-
-/-- `A063007(n)/A007318(A014132(n+1)-1)` -/
-def P18280759120641850447.Spec : Prop :=
-  ∀ n, P18280759120641850447.a n = (A009766 n : ℚ)
 
 end A009766
 

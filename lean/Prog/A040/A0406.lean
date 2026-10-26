@@ -99,33 +99,6 @@ end
 end A040604.P9308698792620235064
 
 /-!
-# A040606: Continued fraction for sqrt(632).
-
-The programs for A040606, the canonical program `A040606.P31465410601111367` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040606 has offset 0).
-
-The definition of A040606 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
--/
-
-/-! ## A040606.P31465410601111367
-
-`a(n-4)` with `a(0)=25, a(1)=7, a(2)=6, a(3)=7, a(4)=50`
-
-The canonical program, it is in `Seq.B000.C007`.
--/
-
-namespace A040606
-
-/-- `a(n-4)` -/
-def P31465410601111367.Spec : Prop :=
-  ∀ n, (P31465410601111367.a n : ℤ) = A040606 n
-
-theorem P31465410601111367.correct : P31465410601111367.Spec := by
-  intro n
-  simp only [A040606]
-
-end A040606
-
-/-!
 # A040609: Continued fraction for sqrt(635).
 
 The programs for A040609, the canonical program `A040609.P13769478646691834063` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040609 has offset 0).
@@ -201,33 +174,6 @@ end
 end A040650.P15067322873903573734
 
 /-!
-# A040651: Continued fraction for sqrt(678).
-
-The programs for A040651, the canonical program `A040651.P4614921769320379869` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040651 has offset 0).
-
-The definition of A040651 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
--/
-
-/-! ## A040651.P4614921769320379869
-
-`a(n-2)` with `a(0)=26, a(1)=26, a(2)=52`
-
-The canonical program, it is in `Seq.B000.C007`.
--/
-
-namespace A040651
-
-/-- `a(n-2)` -/
-def P4614921769320379869.Spec : Prop :=
-  ∀ n, (P4614921769320379869.a n : ℤ) = A040651 n
-
-theorem P4614921769320379869.correct : P4614921769320379869.Spec := by
-  intro n
-  simp only [A040651]
-
-end A040651
-
-/-!
 # A040653: Continued fraction for sqrt(680).
 
 The programs for A040653, the canonical program `A040653.P15139044130667057716` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040653 has offset 0).
@@ -253,31 +199,4 @@ theorem P15139044130667057716.correct : P15139044130667057716.Spec := by
   simp only [A040653]
 
 end A040653
-
-/-!
-# A040662: Continued fraction for sqrt(689).
-
-The programs for A040662, the canonical program `A040662.P15986725278356601871` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040662 has offset 0).
-
-The definition of A040662 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
--/
-
-/-! ## A040662.P15986725278356601871
-
-`a(n-2)` with `a(0)=26, a(1)=4, a(2)=52`
-
-The canonical program, it is in `Seq.B000.C007`.
--/
-
-namespace A040662
-
-/-- `a(n-2)` -/
-def P15986725278356601871.Spec : Prop :=
-  ∀ n, (P15986725278356601871.a n : ℤ) = A040662 n
-
-theorem P15986725278356601871.correct : P15986725278356601871.Spec := by
-  intro n
-  simp only [A040662]
-
-end A040662
 

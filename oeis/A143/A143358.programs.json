@@ -2,6 +2,43 @@
   "oi": 143358,
   "ps": [
     {
+      "d": "2026-10-25",
+      "ix": "2^col(n)*C(row(n), col(n))*C(row(n)-col(n), floor((row(n)-col(n))/2))",
+      "mt": 1001,
+      "px": [
+        "2",
+        "n",
+        "col",
+        "^",
+        "n",
+        "row",
+        "n",
+        "col",
+        "C",
+        "*",
+        "n",
+        "row",
+        "n",
+        "col",
+        "sub",
+        "n",
+        "row",
+        "n",
+        "col",
+        "sub",
+        "2",
+        "/",
+        "floor",
+        "C",
+        "*"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven",
+        "definition"
+      ]
+    },
+    {
       "d": "2021-11-01",
       "ix": "A059268(n)*A107230(n)",
       "mt": 1001,

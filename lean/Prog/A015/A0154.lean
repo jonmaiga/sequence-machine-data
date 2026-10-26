@@ -20,42 +20,42 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C023
+import Seq.B000.C021
 import Seq.B000.C024
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C025
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C003
+import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C002
-import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1394,7 +1394,7 @@ end A015423.P14867033719290668603
 /-!
 # A015426: Inverse of 1417th cyclotomic polynomial.
 
-The programs for A015426, the canonical program `A015426.P5504614368241605898` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015426 has offset 0).
+The programs for A015426, the canonical program `A015426.P5504614368241605898` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015426 has offset 0).
 
 The definition of A015426 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1403,7 +1403,7 @@ The definition of A015426 is `conjectured`: the Lean definition is a formula tha
 
 `A015208(∑[A091018(A084888(n))])`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A015426
@@ -4669,7 +4669,9 @@ end A015449
 /-!
 # A015450: Inverse of 1441st cyclotomic polynomial.
 
-The programs for A015450, there is no canonical definition to state claims against.
+The programs for A015450, the canonical program `A015450.P9628221473587249471` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015450 has offset 0).
+
+The definition of A015450 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 131 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A015450.P2193403152137334893
@@ -4687,23 +4689,32 @@ end
 
 end A015450.P2193403152137334893
 
+namespace A015450
+
+/-- `A000007(C(A091226(n), 4))` -/
+def P2193403152137334893.Spec : Prop :=
+  ∀ n, P2193403152137334893.a n = A015450 n
+
+end A015450
+
 /-! ## A015450.P9628221473587249471
 
 `A036987(∑[A093882(n)²])`
+
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
-namespace A015450.P9628221473587249471
-noncomputable section
+namespace A015450
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A093882 n ^ 2
+/-- `A036987(∑[A093882(n)²])` -/
+def P9628221473587249471.Spec : Prop :=
+  ∀ n, P9628221473587249471.a n = A015450 n
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036987 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
+theorem P9628221473587249471.correct : P9628221473587249471.Spec := by
+  intro n
+  simp only [A015450]
 
-end
-
-end A015450.P9628221473587249471
+end A015450
 
 /-! ## A015450.P10918980520791524948
 
@@ -4723,6 +4734,14 @@ end
 
 end A015450.P10918980520791524948
 
+namespace A015450
+
+/-- `C(A293108(n), ∑[A131242(n)])` -/
+def P10918980520791524948.Spec : Prop :=
+  ∀ n, (P10918980520791524948.a n : ℤ) = A015450 n
+
+end A015450
+
 /-! ## A015450.P3591523103470579148
 
 `and(1, A270637(A002113(n+1)))`
@@ -4737,6 +4756,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015450.P3591523103470579148
+
+namespace A015450
+
+/-- `and(1, A270637(A002113(n+1)))` -/
+def P3591523103470579148.Spec : Prop :=
+  ∀ n, P3591523103470579148.a n = A015450 n
+
+end A015450
 
 /-! ## A015450.P2676255692138805733
 
@@ -4753,6 +4780,14 @@ end
 
 end A015450.P2676255692138805733
 
+namespace A015450
+
+/-- `C(floor(A211984(n+1)/4), A091194(n+1))` -/
+def P2676255692138805733.Spec : Prop :=
+  ∀ n, (P2676255692138805733.a n : ℤ) = A015450 n
+
+end A015450
+
 /-! ## A015450.P14717420960429775097
 
 `C(A007814(A025706(n)), A326469(n))`
@@ -4767,6 +4802,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A015450.P14717420960429775097
+
+namespace A015450
+
+/-- `C(A007814(A025706(n)), A326469(n))` -/
+def P14717420960429775097.Spec : Prop :=
+  ∀ n, (P14717420960429775097.a n : ℤ) = A015450 n
+
+end A015450
 
 /-! ## A015450.P3456075092958801918
 
@@ -4783,6 +4826,14 @@ end
 
 end A015450.P3456075092958801918
 
+namespace A015450
+
+/-- `C(A295662(A143035(n+1)), A054899(n))` -/
+def P3456075092958801918.Spec : Prop :=
+  ∀ n, (P3456075092958801918.a n : ℤ) = A015450 n
+
+end A015450
+
 /-! ## A015450.P4507130814223763883
 
 `C(A247506(A247506(n)), A326591(n+1))`
@@ -4797,6 +4848,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A015450.P4507130814223763883
+
+namespace A015450
+
+/-- `C(A247506(A247506(n)), A326591(n+1))` -/
+def P4507130814223763883.Spec : Prop :=
+  ∀ n, (P4507130814223763883.a n : ℤ) = A015450 n
+
+end A015450
 
 /-! ## A015450.P16782023286625913138
 
@@ -4813,6 +4872,14 @@ end
 
 end A015450.P16782023286625913138
 
+namespace A015450
+
+/-- `C(A125289(n+1), A125289(A125289(n+1)))` -/
+def P16782023286625913138.Spec : Prop :=
+  ∀ n, (P16782023286625913138.a n : ℤ) = A015450 n
+
+end A015450
+
 /-! ## A015450.P8663360128059558303
 
 `C(A287864(n+1), A331913(A287864(n+1)))`
@@ -4828,6 +4895,14 @@ end
 
 end A015450.P8663360128059558303
 
+namespace A015450
+
+/-- `C(A287864(n+1), A331913(A287864(n+1)))` -/
+def P8663360128059558303.Spec : Prop :=
+  ∀ n, (P8663360128059558303.a n : ℤ) = A015450 n
+
+end A015450
+
 /-! ## A015450.P9227328706651180821
 
 `C(A055396(A104236(2*(n+1))), A326527(n))`
@@ -4842,6 +4917,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A015450.P9227328706651180821
+
+namespace A015450
+
+/-- `C(A055396(A104236(2*(n+1))), A326527(n))` -/
+def P9227328706651180821.Spec : Prop :=
+  ∀ n, (P9227328706651180821.a n : ℤ) = A015450 n
+
+end A015450
 
 /-! ## A015450.P14976625221215486608
 
@@ -4862,6 +4945,14 @@ end
 
 end A015450.P14976625221215486608
 
+namespace A015450
+
+/-- `C(n, comp[A114412(n+5)])` -/
+def P14976625221215486608.Spec : Prop :=
+  ∀ n, (P14976625221215486608.a n : ℤ) = A015450 n
+
+end A015450
+
 /-! ## A015450.P16916981773297710332
 
 `A000007(A308975(n+3))`
@@ -4876,6 +4967,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015450.P16916981773297710332
+
+namespace A015450
+
+/-- `A000007(A308975(n+3))` -/
+def P16916981773297710332.Spec : Prop :=
+  ∀ n, P16916981773297710332.a n = A015450 n
+
+end A015450
 
 /-! ## A015450.P18409521541712845118
 
@@ -4899,6 +4998,14 @@ end
 
 end A015450.P18409521541712845118
 
+namespace A015450
+
+/-- `A379668(∑[(n-4)*char[A139071(3*(n+1))]]+1)` -/
+def P18409521541712845118.Spec : Prop :=
+  ∀ n, P18409521541712845118.a n = A015450 n
+
+end A015450
+
 /-! ## A015450.P13501109408976505499
 
 `C(A103378(n+1), A258660(A103378(n+1)))`
@@ -4913,6 +5020,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A015450.P13501109408976505499
+
+namespace A015450
+
+/-- `C(A103378(n+1), A258660(A103378(n+1)))` -/
+def P13501109408976505499.Spec : Prop :=
+  ∀ n, (P13501109408976505499.a n : ℤ) = A015450 n
+
+end A015450
 
 /-!
 # A015451: a(n) = 6*a(n-1) + a(n-2) for n > 1, with a(0) = a(1) = 1.

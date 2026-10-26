@@ -10,6 +10,10 @@
         "A000045",
         "sqrt",
         "round"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

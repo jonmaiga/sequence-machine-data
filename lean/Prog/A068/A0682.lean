@@ -15,37 +15,40 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C027
+import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -53,14 +56,12 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -80,11 +81,11 @@ import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 
@@ -1640,7 +1641,7 @@ end A068211
 /-!
 # A068212: a(n) = phi(n) divided by its largest prime factor.
 
-The programs for A068212, the canonical program `A068212.P4715796565959048527` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068212 has offset 3).
+The programs for A068212, the canonical program `A068212.P4715796565959048527` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068212 has offset 3).
 
 The definition of A068212 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A052126, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1649,7 +1650,7 @@ The definition of A068212 is `conditional`: the Lean definition is an OEIS formu
 
 `A052126(A000010(n+3))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A068212
@@ -1886,48 +1887,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A068215.P9426491356780636716
-
-/-! ## A068215.P11375055489614063553
-
-`∏[2*n+1]*∑{p}[4^(n+3), #]`
--/
-
-namespace A068215.P11375055489614063553
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n + 1
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4 ^ (n + 3)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (∏ j ∈ Finset.range (n + 1), f1 j) * (∑ p ∈ Nat.primeFactors (f2 n), p)
-
-end
-
-end A068215.P11375055489614063553
-
-/-! ## A068215.P7232286333499102554
-
-`∏[2*n+1]*∏{p}[4^(n+3), #]`
--/
-
-namespace A068215.P7232286333499102554
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n + 1
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4 ^ (n + 3)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (∏ j ∈ Finset.range (n + 1), f1 j) * (∏ p ∈ Nat.primeFactors (f2 n), p)
-
-end
-
-end A068215.P7232286333499102554
 
 /-!
 # A068216: a(n) is the smallest n-digit pseudoprime (to base 2).
@@ -3244,27 +3203,46 @@ end A068226.P5401882443193347647
 /-!
 # A068227: The "genity" sequence of the primes, i.e., a(n) = g(p) = ((p mod 4) + (p mod 6))/2, where p is the n-th prime.
 
-The programs for A068227, the canonical program `A068227.P14594515771624751627` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068227 has offset 1).
+The programs for A068227, the canonical program `A068227.P12771326181274987571` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068227 has offset 1).
 
-The definition of A068227 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A068227 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A068227.P12771326181274987571
+
+`(A000040(n+1)%4+A000040(n+1)%6)/2`
+
+The canonical program, it is in `Seq.B001.C002`.
+-/
+
+namespace A068227
+
+/-- `(A000040(n+1)%4+A000040(n+1)%6)/2` -/
+def P12771326181274987571.Spec : Prop :=
+  ∀ n, P12771326181274987571.a n = (A068227 (n + 1) : ℚ)
+
+end A068227
 
 /-! ## A068227.P14594515771624751627
 
 `A076982(A039710(n+1))`
-
-The canonical program, it is in `Seq.B004.C000`.
 -/
+
+namespace A068227.P14594515771624751627
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A076982 (A039710 (n + 1)).toNat
+
+end
+
+end A068227.P14594515771624751627
 
 namespace A068227
 
 /-- `A076982(A039710(n+1))` -/
 def P14594515771624751627.Spec : Prop :=
   ∀ n, P14594515771624751627.a n = A068227 (n + 1)
-
-theorem P14594515771624751627.correct : P14594515771624751627.Spec := by
-  intro n
-  simp only [A068227, Nat.add_sub_cancel]
 
 end A068227
 
@@ -3688,32 +3666,6 @@ namespace A068227
 /-- `A001222(A097011(4*A039710(n+1)))` -/
 def P518162269214965076.Spec : Prop :=
   ∀ n, P518162269214965076.a n = A068227 (n + 1)
-
-end A068227
-
-/-! ## A068227.P1405392578190447864
-
-`A181648(p?[A319985(n+1)])`
--/
-
-namespace A068227.P1405392578190447864
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A319985 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A181648 (f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)).toNat
-
-end
-
-end A068227.P1405392578190447864
-
-namespace A068227
-
-/-- `A181648(p?[A319985(n+1)])` -/
-def P1405392578190447864.Spec : Prop :=
-  ∀ n, P1405392578190447864.a n = A068227 (n + 1)
 
 end A068227
 
@@ -4911,35 +4863,6 @@ theorem P17213326245537033468.correct : P17213326245537033468.Spec := by
 
 end A068231
 
-/-! ## A068231.P17503782356496857323
-
-`∏{p}[p?[12*n+11], #]`
--/
-
-namespace A068231.P17503782356496857323
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  12 * n + 11
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n), p
-
-end
-
-end A068231.P17503782356496857323
-
-namespace A068231
-
-/-- `∏{p}[p?[12*n+11], #]` -/
-def P17503782356496857323.Spec : Prop :=
-  ∀ n, (P17503782356496857323.a n : ℤ) = A068231 (n + 1)
-
-end A068231
-
 /-! ## A068231.P3779874934641076502
 
 `or(1, p?[11*(n+1)+n])`
@@ -4963,35 +4886,6 @@ namespace A068231
 /-- `or(1, p?[11*(n+1)+n])` -/
 def P3779874934641076502.Spec : Prop :=
   ∀ n, (P3779874934641076502.a n : ℤ) = A068231 (n + 1)
-
-end A068231
-
-/-! ## A068231.P12444854087837598227
-
-`∑{p}[p?[11*(n+1)+n], #]`
--/
-
-namespace A068231.P12444854087837598227
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  11 * (n + 1) + n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n), p
-
-end
-
-end A068231.P12444854087837598227
-
-namespace A068231
-
-/-- `∑{p}[p?[11*(n+1)+n], #]` -/
-def P12444854087837598227.Spec : Prop :=
-  ∀ n, (P12444854087837598227.a n : ℤ) = A068231 (n + 1)
 
 end A068231
 

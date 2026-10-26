@@ -12,57 +12,60 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C038
+import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
+import Seq.B002.C002
+import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -75,7 +78,6 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -807,25 +809,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A300307.P8893721685165344978
-
-/-! ## A300307.P14317656715594389387
-
-`A300324(A000124(n))/2*char[A057163(n)]`
--/
-
-namespace A300307.P14317656715594389387
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057163 n
-
-open Classical in
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A300324 (A000124 n).toNat : ℚ) / 2 * ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℚ)
-
-end
-
-end A300307.P14317656715594389387
 
 /-! ## A300307.P11447204677061511239
 
@@ -2274,6 +2257,24 @@ end A300324.P15916972168808700503
 The programs for A300325, there is no canonical definition to state claims against.
 -/
 
+/-! ## A300325.P5430700070447964015
+
+`filter[A005114(n+2), A355451(#)]`
+-/
+
+namespace A300325.P5430700070447964015
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A005114 (n + 2)
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  f1 (SequenceMachineLib.nth (fun j => A355451 (f1 j).toNat = 1) n)
+
+end
+
+end A300325.P5430700070447964015
+
 /-! ## A300325.P6969653851040627820
 
 `∩[A005114(n+1), A005277(n+1)]`
@@ -2295,24 +2296,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A300325.P6969653851040627820
-
-/-! ## A300325.P5430700070447964015
-
-`filter[A005114(n+2), A355451(#)]`
--/
-
-namespace A300325.P5430700070447964015
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005114 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A355451 (f1 j).toNat = 1) n)
-
-end
-
-end A300325.P5430700070447964015
 
 /-! ## A300325.P16280410341249383961
 
@@ -2484,44 +2467,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A300329.P3346248625279271587
-
-/-! ## A300329.P13741840623688236363
-
-`char[xor(1, n)]*A300328(A000217(n+1))`
--/
-
-namespace A300329.P13741840623688236363
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.xor 1 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ) * A300328 (A000217 (n + 1)).toNat
-
-end
-
-end A300329.P13741840623688236363
-
-/-! ## A300329.P15076851685905215961
-
-`char[A173517(n)]*A300328(A000217(n+1))`
--/
-
-namespace A300329.P15076851685905215961
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A173517 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A300328 (A000217 (n + 1)).toNat
-
-end
-
-end A300329.P15076851685905215961
 
 /-! ## A300329.P7442419255907263183
 
@@ -3782,7 +3727,7 @@ end A300343.P10253246530287495829
 /-!
 # A300344: Number of n X 2 0..1 arrays with every element equal to 1 or 2 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
 
-The programs for A300344, the canonical program `A300344.P328044221799417559` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300344 has offset 1).
+The programs for A300344, the canonical program `A300344.P328044221799417559` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300344 has offset 1).
 
 The definition of A300344 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 256 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3791,7 +3736,7 @@ The definition of A300344 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+2*a(n-2)+3*a(n-3)+2*a(n-4)+a(n-5)` with `a(0)=1, a(1)=2, a(2)=6, a(3)=15, a(4)=37`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A300344
@@ -4524,7 +4469,7 @@ end A300359.P3501592170665439962
 /-!
 # A300361: a(n) = 2^A000325(n).
 
-The programs for A300361, the canonical program `A300361.P5125295162513310737` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300361 has offset 0).
+The programs for A300361, the canonical program `A300361.P5125295162513310737` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300361 has offset 0).
 
 The definition of A300361 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4533,7 +4478,7 @@ The definition of A300361 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^(2^n-n)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A300361
@@ -5343,7 +5288,7 @@ end A300373.P226981458312200308
 /-!
 # A300374: Number of nX2 0..1 arrays with every element equal to 0, 2 or 3 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
 
-The programs for A300374, the canonical program `A300374.P9766366193239129148` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300374 has offset 1).
+The programs for A300374, the canonical program `A300374.P9766366193239129148` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300374 has offset 1).
 
 The definition of A300374 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 291 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5352,7 +5297,7 @@ The definition of A300374 is `conjectured`: the Lean definition is a formula tha
 
 `4*a(n-2)+2*a(n-3)+a(n-5)-3*a(n-6)+a(n-7)` with `a(0)=1, a(1)=3, a(2)=2, a(3)=10, a(4)=13, a(5)=42, a(6)=74`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A300374

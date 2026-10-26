@@ -18,53 +18,54 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C038
+import Seq.B000.C036
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
-import Seq.B001.C004
+import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -120,7 +121,7 @@ end A306500.P14105351176647203973
 /-!
 # A306504: Expansion of 1/(x^6+2*x^5-x^4-4*x^3-x^2-2*x+1).
 
-The programs for A306504, the canonical program `A306504.P537346651132004984` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306504 has offset 0).
+The programs for A306504, the canonical program `A306504.P537346651132004984` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306504 has offset 0).
 
 The definition of A306504 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x-x^2-4x^3-x^4+2x^5+x^6))` (program `A306504.P537346651132004984`, by `A306504.P537346651132004984.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -129,7 +130,7 @@ The definition of A306504 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-2x-x^2-4x^3-x^4+2x^5+x^6))`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A306504
@@ -772,7 +773,7 @@ end A306509
 /-!
 # A306510: Numbers k such that twice the number of divisors of k is equal to the number of divisors of the sum of digits of k.
 
-The programs for A306510, the canonical program `A306510.P7325178267120369206` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306510 has offset 1).
+The programs for A306510, the canonical program `A306510.P7325178267120369206` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306510 has offset 1).
 
 The definition of A306510 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 420 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -781,7 +782,7 @@ The definition of A306510 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2*A145154(n), A145154(A007953(n))]`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A306510
@@ -881,7 +882,7 @@ end A306510
 /-!
 # A306511: Number of permutations p of [n] having at least one index i with |p(i)-i| = 1.
 
-The programs for A306511, the canonical program `A306511.P12945767139372474350` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306511 has offset 0).
+The programs for A306511, the canonical program `A306511.P12945767139372474350` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306511 has offset 0).
 
 The definition of A306511 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -890,7 +891,7 @@ The definition of A306511 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n!-A078480(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A306511
@@ -1605,7 +1606,7 @@ end A306526.P7706459697108800543
 /-!
 # A306528: Numbers k such that gcd(k, phi(k)) = gcd(k, psi(k)).
 
-The programs for A306528, the canonical program `A306528.P17599500303172333272` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306528 has offset 1).
+The programs for A306528, the canonical program `A306528.P17599500303172333272` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306528 has offset 1).
 
 The definition of A306528 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1641,7 +1642,7 @@ end A306528
 
 `eq[A109395(n+1), A332881(n+1)]+1`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A306528
@@ -4542,7 +4543,7 @@ end A306560.P14847608325453539492
 /-!
 # A306561: Square numbers that are also central polygonal numbers (i.e., square numbers found in the Lazy Caterer's sequence).
 
-The programs for A306561, the canonical program `A306561.P7138890654757422040` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306561 has offset 1).
+The programs for A306561, the canonical program `A306561.P7138890654757422040` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306561 has offset 1).
 
 The definition of A306561 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4551,7 +4552,7 @@ The definition of A306561 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A006452(n+1)²`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A306561
@@ -5030,7 +5031,7 @@ end A306561
 /-!
 # A306562: a(n) = 1 + 2 - 3 - 4 + 5 + 6 + 7 - 8 - 9 - 10 - 11 + 12 + 13 + 14 + 15 + ... + (+-1)*n, where, after the 1st summand there is one plus, two minuses, three plusses, etc.
 
-The programs for A306562, the canonical program `A306562.P13225205083291661171` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306562 has offset 0).
+The programs for A306562, the canonical program `A306562.P13225205083291661171` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306562 has offset 0).
 
 The definition of A306562 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5039,7 +5040,7 @@ The definition of A306562 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+(n+1)*(-1)^floor(sqrt(2*n)-1/2)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A306562
@@ -5366,69 +5367,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A306566.P17151873381300220123
-
-/-! ## A306566.P15399283487533555916
-
-`A006703(∏{d}[p?[4*n+3], #])/A306529(n+1)`
--/
-
-namespace A306566.P15399283487533555916
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4 * n + 3
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A006703 (∏ d ∈ Nat.divisors (f1 n), d) : ℚ) / (A306529 (n + 1) : ℚ)
-
-end
-
-end A306566.P15399283487533555916
-
-/-! ## A306566.P9834148414993573938
-
-`A006703(∑{p}[p?[4*n+3], #])/A306529(n+1)`
--/
-
-namespace A306566.P9834148414993573938
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4 * n + 3
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A006703 (∑ p ∈ Nat.primeFactors (f1 n), p) : ℚ) / (A306529 (n + 1) : ℚ)
-
-end
-
-end A306566.P9834148414993573938
-
-/-! ## A306566.P1710368084760769220
-
-`A006703(∏{p}[p?[4*n+3], #])/A306529(n+1)`
--/
-
-namespace A306566.P1710368084760769220
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  4 * n + 3
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A006703 (∏ p ∈ Nat.primeFactors (f1 n), p) : ℚ) / (A306529 (n + 1) : ℚ)
-
-end
-
-end A306566.P1710368084760769220
 
 /-! ## A306566.P7346566446101357460
 
@@ -6558,7 +6496,7 @@ end A306588.P13705858499902317395
 /-!
 # A306591: a(n) is the denominator of 1/2 - 1/(prime(n)+1), where prime(n) is the n-th prime.
 
-The programs for A306591, the canonical program `A306591.P16637579630859096376` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306591 has offset 1).
+The programs for A306591, the canonical program `A306591.P16637579630859096376` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306591 has offset 1).
 
 The definition of A306591 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1229 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6567,7 +6505,7 @@ The definition of A306591 is `conjectured`: the Lean definition is a formula tha
 
 `A145979(p?[a(n-1)+2]-1)` with `a(0)=2, a(1)=1`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A306591
@@ -6855,24 +6793,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A306593.P15352657310014732543
-
-/-! ## A306593.P8340477945695917371
-
-`record[A120647(A119502(n))+n]`
--/
-
-namespace A306593.P8340477945695917371
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A120647 (A119502 n).toNat + (n : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A306593.P8340477945695917371
 
 /-! ## A306593.P11966790780025055787
 

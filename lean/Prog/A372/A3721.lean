@@ -10,45 +10,43 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C032
+import Seq.B000.C025
+import Seq.B000.C028
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C037
-import Seq.B000.C038
+import Seq.B000.C035
+import Seq.B000.C039
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C004
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B005.C000
-import Seq.B007.C000
+import Seq.B006.C000
+import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -61,6 +59,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -450,7 +449,7 @@ end A372111.P868611335405180442
 /-!
 # A372112: Rad-transform of the squarefree numbers A005117 (see Comments).
 
-The programs for A372112, the canonical program `A372112.P1502568326743945115` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372112 has offset 1).
+The programs for A372112, the canonical program `A372112.P1502568326743945115` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372112 has offset 1).
 
 The definition of A372112 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6083 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -505,7 +504,7 @@ end A372112
 
 `A014963(record[∏{p}[n, #]])`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A372112
@@ -1231,6 +1230,29 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A372115.P11649037429526291753
+
+/-!
+# A372118: Square array A(n, k) = ((k+2)^(n+2) - 2 * (k+1)^(n+2) + k^(n+2))/2 for k, n >= 0 read by ascending antidiagonals.
+
+The programs for A372118, the canonical program `A372118.P14223100588535732137` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372118 has offset 0).
+
+The definition of A372118 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A372118.P14223100588535732137
+
+`(col(n)+2)*T(n-1,k)+(col(n)+1)^(row(n)-col(n)+1)-col(n)^(row(n)-col(n)+1)` with `a(0)=1`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A372118
+
+/-- `(col(n)+2)*T(n-1,k)+(col(n)+1)^(row(n)-col(n)+1)-col(n)^(row(n)-col(n)+1)` -/
+def P14223100588535732137.Spec : Prop :=
+  ∀ n, P14223100588535732137.a n = (A372118 n : ℚ)
+
+end A372118
 
 /-!
 # A372119: Numbers k such that the k-th composition in standard order is not biquanimous.
@@ -1980,7 +2002,7 @@ end A372147.P10326122450778179423
 /-!
 # A372148: a(n) = A371764(n, 2).
 
-The programs for A372148, the canonical program `A372148.P507033719497536603` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372148 has offset 1).
+The programs for A372148, the canonical program `A372148.P507033719497536603` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372148 has offset 1).
 
 The definition of A372148 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 207 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1989,7 +2011,7 @@ The definition of A372148 is `conjectured`: the Lean definition is a formula tha
 
 `A091344(n)+A383910(n)+A091344(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A372148
@@ -2904,7 +2926,7 @@ end A372181.P12877405022825964371
 /-!
 # A372184: a(n) = 2^(1-3*n)*((2*n)!)^2/n.
 
-The programs for A372184, the canonical program `A372184.P7206485816613753275` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372184 has offset 1).
+The programs for A372184, the canonical program `A372184.P7206485816613753275` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372184 has offset 1).
 
 The definition of A372184 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2936,7 +2958,7 @@ end A372184
 
 `2^(1-3*(n+1))*(2*(n+1))!²/(n+1)`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A372184
@@ -3597,7 +3619,7 @@ end A372197.P8139877978641968291
 /-!
 # A372199: a(n) = n! * F(n) * H(n), where F(n) is the n-th Fibonacci number and H(n) the n-th harmonic number.
 
-The programs for A372199, the canonical program `A372199.P3867827337780857125` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372199 has offset 1).
+The programs for A372199, the canonical program `A372199.P3867827337780857125` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372199 has offset 1).
 
 The definition of A372199 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3629,7 +3651,7 @@ end A372199
 
 `(n+1)!*A000045(n+1)*A001008(n+1)/A002805(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A372199

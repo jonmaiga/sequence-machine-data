@@ -39,33 +39,29 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -84,7 +80,6 @@ import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -292,7 +287,7 @@ end A015207
 /-!
 # A015208: Inverse of 1199th cyclotomic polynomial.
 
-The programs for A015208, the canonical program `A015208.P2311126354841875546` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015208 has offset 0).
+The programs for A015208, the canonical program `A015208.P2311126354841875546` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015208 has offset 0).
 
 The definition of A015208 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 109 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -301,7 +296,7 @@ The definition of A015208 is `conjectured`: the Lean definition is a formula tha
 
 `abs(A105567(n+1))*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A015208
@@ -313,58 +308,6 @@ def P2311126354841875546.Spec : Prop :=
 theorem P2311126354841875546.correct : P2311126354841875546.Spec := by
   intro n
   simp only [A015208]
-
-end A015208
-
-/-! ## A015208.P6645969193916941220
-
-`∏{e}[A326527(n), A007949(#)]`
--/
-
-namespace A015208.P6645969193916941220
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326527 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, A007949 (Nat.factorization (f1 n).natAbs p)
-
-end
-
-end A015208.P6645969193916941220
-
-namespace A015208
-
-/-- `∏{e}[A326527(n), A007949(#)]` -/
-def P6645969193916941220.Spec : Prop :=
-  ∀ n, P6645969193916941220.a n = A015208 n
-
-end A015208
-
-/-! ## A015208.P16607925169164392294
-
-`∏{e}[A326527(n), A326527(#)]`
--/
-
-namespace A015208.P16607925169164392294
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326527 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, A326527 (Nat.factorization (f1 n).natAbs p)
-
-end
-
-end A015208.P16607925169164392294
-
-namespace A015208
-
-/-- `∏{e}[A326527(n), A326527(#)]` -/
-def P16607925169164392294.Spec : Prop :=
-  ∀ n, P16607925169164392294.a n = A015208 n
 
 end A015208
 
@@ -2906,33 +2849,6 @@ namespace A015223
 /-- `A130656(4*n+1)` -/
 def P12879142270996411743.Spec : Prop :=
   ∀ n, P12879142270996411743.a n = A015223 n
-
-end A015223
-
-/-! ## A015223.P17923648693596548956
-
-`lcm((4*n+1)², comp[2*n])`
--/
-
-namespace A015223.P17923648693596548956
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.lcm ((4 * n + 1) ^ 2) (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n)
-
-end
-
-end A015223.P17923648693596548956
-
-namespace A015223
-
-/-- `lcm((4*n+1)², comp[2*n])` -/
-def P17923648693596548956.Spec : Prop :=
-  ∀ n, (P17923648693596548956.a n : ℤ) = A015223 n
 
 end A015223
 
@@ -11427,24 +11343,6 @@ end
 
 end A015252.P1549273417772993470
 
-/-! ## A015252.P4440691016058674092
-
-`∏{e}[A332286(n+1), A332286(#)]`
--/
-
-namespace A015252.P4440691016058674092
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A332286 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, A332286 (Nat.factorization (f1 n).natAbs p)
-
-end
-
-end A015252.P4440691016058674092
-
 /-!
 # A015253: Gaussian binomial coefficient [ n,2 ] for q = -4.
 
@@ -12482,24 +12380,6 @@ end
 
 end A015264.P5933479325356522760
 
-/-! ## A015264.P12831928576440630931
-
-`A015125(A340266(n+1))^∑{e}[A020639(n+1), #]`
--/
-
-namespace A015264.P12831928576440630931
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020639 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015125 (A340266 (n + 1)).toNat ^ (∑ p ∈ Nat.primeFactors (f1 n).natAbs, Nat.factorization (f1 n).natAbs p)
-
-end
-
-end A015264.P12831928576440630931
-
 /-!
 # A015265: Gaussian binomial coefficient [ n,2 ] for q = -13.
 
@@ -13163,60 +13043,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A015270.P3461550858497673025
-
-/-! ## A015270.P14248988066807558638
-
-`∏{p}[A025151(n), A000007(#)]`
--/
-
-namespace A015270.P14248988066807558638
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025151 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, A000007 p
-
-end
-
-end A015270.P14248988066807558638
-
-/-! ## A015270.P15462675577424710255
-
-`∏{p}[A124751(n), A007920(#)]`
--/
-
-namespace A015270.P15462675577424710255
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A124751 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, A007920 p
-
-end
-
-end A015270.P15462675577424710255
-
-/-! ## A015270.P6460860837228243789
-
-`∏{p}[A025151(n), A240351(#)]`
--/
-
-namespace A015270.P6460860837228243789
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025151 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, A240351 p
-
-end
-
-end A015270.P6460860837228243789
 
 /-! ## A015270.P2487902714350830674
 

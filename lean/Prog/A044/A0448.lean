@@ -11,7 +11,6 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
@@ -23,7 +22,7 @@ import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C029
+import Seq.B000.C024
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
@@ -31,21 +30,22 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -59,8 +59,8 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -90,7 +90,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C025
+import Seq.Opaque.C024
 
 /-!
 # A044800: Numbers k such that string 8,7 occurs in the base 10 representation of k but not of k+1.
@@ -2603,7 +2603,7 @@ end A044812.P11034490821284118655
 /-!
 # A044813: Positive integers having distinct base-2 run lengths.
 
-The programs for A044813, the canonical program `A044813.P18382586688093240220` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044813 has offset 1).
+The programs for A044813, the canonical program `A044813.P18382586688093240220` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044813 has offset 1).
 
 The definition of A044813 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 468 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2612,7 +2612,7 @@ The definition of A044813 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A175465(n+1)]+1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A044813
@@ -3561,27 +3561,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A044825.P13432270455413268633
-
-/-! ## A044825.P18439845015163964955
-
-`record[∑[A044963(n+1)-A048325(n)]]`
--/
-
-namespace A044825.P18439845015163964955
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044963 (n + 1) - A048325 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A044825.P18439845015163964955
 
 /-! ## A044825.P9498520040135418013
 
@@ -5558,24 +5537,6 @@ end
 
 end A044852.P6474626785746112616
 
-/-! ## A044852.P18212443845341220769
-
-`record[(n+1)*(12-A326591(n))]`
--/
-
-namespace A044852.P18212443845341220769
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * (12 - A326591 n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A044852.P18212443845341220769
-
 /-! ## A044852.P5773844369824027263
 
 `A141259(A365886(n+1)%A162694(n+1))`
@@ -5770,28 +5731,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A044854.P2616530959098183108
-
-/-! ## A044854.P5151816786964702855
-
-`∪[(n+1)*(14-A018843(A239835(n))), A044869(n+1)]`
--/
-
-namespace A044854.P5151816786964702855
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * (14 - A018843 (A239835 n).toNat)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044869 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A044854.P5151816786964702855
 
 /-!
 # A044855: Positive integers having no fewer base-14 runs of even length than odd.
@@ -6060,7 +5999,7 @@ end A044857.P1689079129488444851
 /-!
 # A044858: Positive integers having the same number of base-2 runs of odd length as even.
 
-The programs for A044858, the canonical program `A044858.P18319549135852801705` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044858 has offset 1).
+The programs for A044858, the canonical program `A044858.P18319549135852801705` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044858 has offset 1).
 
 The definition of A044858 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1050 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6069,7 +6008,7 @@ The definition of A044858 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A044933(n+1), A044942(n+1)]+1`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A044858
@@ -6200,7 +6139,7 @@ end A044858
 /-!
 # A044859: Positive integers having the same number of base-3 runs of odd length as even.
 
-The programs for A044859, the canonical program `A044859.P6733352922850868918` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044859 has offset 1).
+The programs for A044859, the canonical program `A044859.P6733352922850868918` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044859 has offset 1).
 
 The definition of A044859 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 861 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6209,7 +6148,7 @@ The definition of A044859 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A044934(n+1), A044943(n+1)]+1`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A044859
@@ -9499,27 +9438,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A044898.P13269337324685063974
-
-/-! ## A044898.P16334371582400574368
-
-`record[∑[14-A207539(n)]]`
--/
-
-namespace A044898.P16334371582400574368
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  14 - A207539 n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A044898.P16334371582400574368
 
 /-!
 # A044899: Base 13 run lengths alternate: even, odd, even,...

@@ -1,12 +1,12 @@
 import SequenceMachineLib.Basic
 import Seq.B000.C000
-import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C012
 import Seq.B000.C019
+import Seq.B000.C020
+import Seq.B001.C000
 import Seq.B001.C003
-import Seq.B002.C006
-import Seq.B003.C001
+import Seq.B002.C007
 import Seq.B005.C002
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -14,10 +14,12 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C008
-import Seq.Opaque.C010
+import Seq.Opaque.C009
 import Seq.Opaque.C017
 import Seq.Opaque.C018
+import Seq.Opaque.C021
 import Seq.Opaque.C022
+import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
 
@@ -93,7 +95,7 @@ end A388533.P5156146038510954976
 /-!
 # A388539: Sum of decimal digits of Fibonacci(n)^2.
 
-The programs for A388539, the canonical program `A388539.P17116264068590608702` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388539 has offset 0).
+The programs for A388539, the canonical program `A388539.P17116264068590608702` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388539 has offset 0).
 
 The definition of A388539 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -102,7 +104,7 @@ The definition of A388539 is `conditional`: the Lean definition is an OEIS formu
 
 `A007953(A007598(n))`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A388539
@@ -117,29 +119,26 @@ theorem P17116264068590608702.correct : P17116264068590608702.Spec := by
 
 end A388539
 
-/-! ## A388539.P17085724409366822242
+/-! ## A388539.P18057091371219045020
 
-`∑{digits}[A000045(n)², #]`
+`A007953(A000045(n)²)`
 -/
 
-namespace A388539.P17085724409366822242
+namespace A388539.P18057091371219045020
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000045 n ^ 2
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ((SequenceMachineLib.digits10 (f1 n).natAbs).map fun (x : ℕ) => x).sum
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A007953 (A000045 n ^ 2).toNat
 
 end
 
-end A388539.P17085724409366822242
+end A388539.P18057091371219045020
 
 namespace A388539
 
-/-- `∑{digits}[A000045(n)², #]` -/
-def P17085724409366822242.Spec : Prop :=
-  ∀ n, (P17085724409366822242.a n : ℤ) = A388539 n
+/-- `A007953(A000045(n)²)` -/
+def P18057091371219045020.Spec : Prop :=
+  ∀ n, P18057091371219045020.a n = A388539 n
 
 end A388539
 

@@ -9,56 +9,54 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
-import Seq.B000.C025
+import Seq.B000.C022
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C010
+import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
+import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C003
+import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
-import Seq.B006.C000
-import Seq.B007.C001
-import Seq.B008.C001
-import Seq.B009.C000
+import Seq.B006.C001
+import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -78,7 +76,6 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -480,7 +477,7 @@ end A397224.P10359132257489834493
 /-!
 # A397233: Expansion of 1/(1 - x^4 - x^5 - x^7).
 
-The programs for A397233, the canonical program `A397233.P6743435991730158212` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397233 has offset 0).
+The programs for A397233, the canonical program `A397233.P6743435991730158212` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397233 has offset 0).
 
 The definition of A397233 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x^4-x^5-x^7))` (program `A397233.P6743435991730158212`, by `A397233.P6743435991730158212.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -512,7 +509,7 @@ end A397233
 
 `ogf(1/(1-x^4-x^5-x^7))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A397233
@@ -530,7 +527,7 @@ end A397233
 /-!
 # A397234: Expansion of 1/(1 - x - x^2 + x^3 - x^5 - x^6).
 
-The programs for A397234, the canonical program `A397234.P13205330288265978584` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397234 has offset 0).
+The programs for A397234, the canonical program `A397234.P13205330288265978584` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397234 has offset 0).
 
 The definition of A397234 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x-x^2+x^3-x^5-x^6))` (program `A397234.P13205330288265978584`, by `A397234.P13205330288265978584.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -539,7 +536,7 @@ The definition of A397234 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-x-x^2+x^3-x^5-x^6))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A397234
@@ -652,7 +649,7 @@ end A397234
 /-!
 # A397235: Expansion of 1/(1 - 2*x - x^2 + x^3 - x^4).
 
-The programs for A397235, the canonical program `A397235.P4846453791304873991` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397235 has offset 0).
+The programs for A397235, the canonical program `A397235.P4846453791304873991` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397235 has offset 0).
 
 The definition of A397235 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x-x^2+x^3-x^4))` (program `A397235.P4846453791304873991`, by `A397235.P4846453791304873991.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -661,7 +658,7 @@ The definition of A397235 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-2x-x^2+x^3-x^4))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A397235
@@ -843,7 +840,7 @@ end A397235
 /-!
 # A397236: Expansion of 1/(1 - x^3 - x^4 - 2*x^5 - x^7).
 
-The programs for A397236, the canonical program `A397236.P4792645745444745250` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397236 has offset 0).
+The programs for A397236, the canonical program `A397236.P4792645745444745250` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397236 has offset 0).
 
 The definition of A397236 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-x^3-x^4-2x^5-x^7))` (program `A397236.P4792645745444745250`, by `A397236.P4792645745444745250.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -875,7 +872,7 @@ end A397236
 
 `ogf(1/(1-x^3-x^4-2x^5-x^7))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A397236
@@ -893,7 +890,7 @@ end A397236
 /-!
 # A397237: Expansion of 1/(1 - 2*x + x^2 - x^3 - 2*x^4 - x^5).
 
-The programs for A397237, the canonical program `A397237.P3136485618652841643` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397237 has offset 0).
+The programs for A397237, the canonical program `A397237.P3136485618652841643` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397237 has offset 0).
 
 The definition of A397237 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf(1/(1-2x+x^2-x^3-2x^4-x^5))` (program `A397237.P3136485618652841643`, by `A397237.P3136485618652841643.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -902,7 +899,7 @@ The definition of A397237 is `verified`: the Lean definition is proven equivalen
 
 `ogf(1/(1-2x+x^2-x^3-2x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A397237
@@ -992,7 +989,7 @@ end A397237
 /-!
 # A397238: Dirichlet g.f.: Product_{p prime} (1 + 1/p^s + 1/p^(2*s-1)).
 
-The programs for A397238, the canonical program `A397238.P14966536247982268415` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397238 has offset 1).
+The programs for A397238, the canonical program `A397238.P14966536247982268415` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397238 has offset 1).
 
 The definition of A397238 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1001,7 +998,7 @@ The definition of A397238 is `conjectured`: the Lean definition is a formula tha
 
 `A046692(A057521(n+1))`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A397238
@@ -2249,7 +2246,7 @@ end A397267.P11079124319068878343
 /-!
 # A397268: Lower (-1,2) midsequence of (floor[n/2]^2) and (ceiling[n/2]^2); see Comments.
 
-The programs for A397268, the canonical program `A397268.P682785140046726931` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397268 has offset 0).
+The programs for A397268, the canonical program `A397268.P682785140046726931` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397268 has offset 0).
 
 The definition of A397268 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2258,7 +2255,7 @@ The definition of A397268 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+2*a(n-2)-2*a(n-3)-a(n-4)+a(n-5)` with `a(0)=0, a(1)=2, a(2)=1, a(3)=7, a(4)=4`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A397268
@@ -2693,7 +2690,7 @@ end A397268
 /-!
 # A397269: a(n) = n*(8*n^2-9*n-2-(9*n-6)*(-1)^n)/48.
 
-The programs for A397269, the canonical program `A397269.P4273237033905400757` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397269 has offset 0).
+The programs for A397269, the canonical program `A397269.P4273237033905400757` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397269 has offset 0).
 
 The definition of A397269 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2702,7 +2699,7 @@ The definition of A397269 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*(8*n²-9*n-2-(9*n-6)*(-1)^n)/48`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A397269
@@ -2716,7 +2713,7 @@ end A397269
 /-!
 # A397270: a(n) = (2*n-3-(-1)^n)*(32*n^2-9*n+7*n*(-1)^n)/96.
 
-The programs for A397270, the canonical program `A397270.P11203406880893266705` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397270 has offset 0).
+The programs for A397270, the canonical program `A397270.P11203406880893266705` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397270 has offset 0).
 
 The definition of A397270 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2725,7 +2722,7 @@ The definition of A397270 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2*n-3-(-1)^n)*(32*n²-9*n+7*n*(-1)^n)/96`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A397270
@@ -3114,84 +3111,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A397279.P9173373376305572956
-
-/-!
-# A397280: Expansion of e.g.f. (1/x) * Series_Reversion( x + 1 - exp(x^3) ).
-
-The programs for A397280, there is no canonical definition to state claims against.
--/
-
-/-! ## A397280.P8062783333299283503
-
-`filter[A397282(n), A318924(#)]`
--/
-
-namespace A397280.P8062783333299283503
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A397282 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A318924 (f1 j).toNat = 1) n)
-
-end
-
-end A397280.P8062783333299283503
-
-/-! ## A397280.P1533669160109061675
-
-`filter[A397282(n), A336834(#)]`
--/
-
-namespace A397280.P1533669160109061675
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A397282 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A336834 (f1 j).toNat = 1) n)
-
-end
-
-end A397280.P1533669160109061675
-
-/-! ## A397280.P14412984791892166403
-
-`filter[A397282(n), A354034(#)]`
--/
-
-namespace A397280.P14412984791892166403
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A397282 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A354034 (f1 j).toNat = 1) n)
-
-end
-
-end A397280.P14412984791892166403
-
-/-! ## A397280.P16411433503115438786
-
-`filter[A397282(n), A356162(#)]`
--/
-
-namespace A397280.P16411433503115438786
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A397282 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A356162 (f1 j).toNat = 1) n)
-
-end
-
-end A397280.P16411433503115438786
 
 /-!
 # A397281: Expansion of e.g.f. (1/x) * Series_Reversion( x + 1 - exp(x^4) ).

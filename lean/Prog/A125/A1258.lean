@@ -15,6 +15,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -37,14 +38,18 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -54,15 +59,15 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
-import Seq.B004.C000
+import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -93,7 +98,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1044,7 +1048,7 @@ end A125810.P16644095560932925224
 /-!
 # A125811: Number of coefficients in the n-th q-Bell number as a polynomial in q.
 
-The programs for A125811, the canonical program `A125811.P7529763177045100215` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125811 has offset 0).
+The programs for A125811, the canonical program `A125811.P7529763177045100215` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125811 has offset 0).
 
 The definition of A125811 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1221,7 +1225,7 @@ end A125811
 
 `∑[C(2, n+2)-(A123578(n)-n)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A125811
@@ -2010,36 +2014,6 @@ def P3878262702625557136.Spec : Prop :=
 
 end A125817
 
-/-! ## A125817.P7473239965305225621
-
-`Δ[round(A125818(comp[2*n]-n)/6)]`
--/
-
-namespace A125817.P7473239965305225621
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n
-
-open Classical in
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A125818 (SequenceMachineLib.nth (fun x => ∀ j, f2 j ≠ x) n - n) : ℚ) / 6)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A125817.P7473239965305225621
-
-namespace A125817
-
-/-- `Δ[round(A125818(comp[2*n]-n)/6)]` -/
-def P7473239965305225621.Spec : Prop :=
-  ∀ n, P7473239965305225621.a n = A125817 n
-
-end A125817
-
 /-!
 # A125818: a(n) = ((1 + 3*sqrt(2))^n + (1 - 3*sqrt(2))^n)/2.
 
@@ -2456,7 +2430,7 @@ end A125820
 /-!
 # A125821: Numbers k for which 8*k+5 and 8*k+7 are twin primes.
 
-The programs for A125821, the canonical program `A125821.P16599126941155596659` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125821 has offset 1).
+The programs for A125821, the canonical program `A125821.P16599126941155596659` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125821 has offset 1).
 
 The definition of A125821 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2546,7 +2520,7 @@ end A125821
 
 `∑[A076536(Δ[A205172(n+1)])]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A125821
@@ -6476,7 +6450,7 @@ end A125851.P9840772071036534157
 /-!
 # A125853: Squared radii of circles centered at a grid point in a square lattice hitting exactly 4 points. Indices k such that A004018(k)=4.
 
-The programs for A125853, the canonical program `A125853.P1639205493423689427` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125853 has offset 1).
+The programs for A125853, the canonical program `A125853.P1639205493423689427` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125853 has offset 1).
 
 The definition of A125853 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 501 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6515,7 +6489,7 @@ end A125853
 
 `∪[A000548(n+1), A081324(n+2)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A125853
@@ -9284,24 +9258,6 @@ end
 
 end A125869.P14853307050283920588
 
-/-! ## A125869.P1701004928504897185
-
-`∑{d}[round(A061599(n+1)/10), A000010(#)]`
--/
-
-namespace A125869.P1701004928504897185
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A061599 (n + 1) : ℚ) / 10)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, A000010 d
-
-end
-
-end A125869.P1701004928504897185
-
 /-! ## A125869.P1382085583293574344
 
 `∩[A024912(n+1), A051037(n+1)]`
@@ -9323,24 +9279,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A125869.P1382085583293574344
-
-/-! ## A125869.P8728668307705161752
-
-`∏{d}[round(A061599(n+1)/10), A014963(#)]`
--/
-
-namespace A125869.P8728668307705161752
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A061599 (n + 1) : ℚ) / 10)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ d ∈ Nat.divisors (f1 n).natAbs, A014963 d
-
-end
-
-end A125869.P8728668307705161752
 
 /-! ## A125869.P11714075208175700660
 
@@ -10705,24 +10643,6 @@ end
 
 end A125887.P9622502290891864109
 
-/-! ## A125887.P3519707511912901688
-
-`filter[A303446(n+1), A118009(#)]`
--/
-
-namespace A125887.P3519707511912901688
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A303446 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A118009 (f1 j).toNat = 1) n)
-
-end
-
-end A125887.P3519707511912901688
-
 /-! ## A125887.P8158585246390431064
 
 `A303446(n+1)%A210701(3*n+2)`
@@ -11286,7 +11206,7 @@ end A125894
 /-!
 # A125895: a(n) = floor(((1+sqrt(3))/2)^n).
 
-The programs for A125895, the canonical program `A125895.P7718260025286219249` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125895 has offset 1).
+The programs for A125895, the canonical program `A125895.P7718260025286219249` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125895 has offset 1).
 
 The definition of A125895 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 229 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11295,7 +11215,7 @@ The definition of A125895 is `conjectured`: the Lean definition is a formula tha
 
 `floor(record[A080040(n)/A000051(n)])`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A125895

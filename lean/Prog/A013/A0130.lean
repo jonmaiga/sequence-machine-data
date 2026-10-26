@@ -8,24 +8,20 @@ import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C017
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B001.C000
-import Seq.B001.C001
+import Seq.B001.C002
+import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B004.C000
-import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B007.C000
+import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C003
-import Seq.Opaque.C004
 import Seq.Opaque.C005
-import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C009
 import Seq.Opaque.C011
@@ -1314,24 +1310,6 @@ end
 
 end A013056.P8687364847038239018
 
-/-! ## A013056.P16265302317411714278
-
-`filter[A013131(n), A070887(#)]`
--/
-
-namespace A013056.P16265302317411714278
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013131 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A070887 (f1 j).toNat = 1) n)
-
-end
-
-end A013056.P16265302317411714278
-
 /-!
 # A013057: sin(sinh(x)+arctan(x))=2*x-9/3!*x^3+97/5!*x^5-3647/7!*x^7...
 
@@ -1457,44 +1435,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A013062.P1077020950835816802
-
-/-! ## A013062.P300232042459808884
-
-`A013056(2*n+1)+char[A186175(n+1)]`
--/
-
-namespace A013062.P300232042459808884
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A186175 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013056 (2 * n + 1) + ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A013062.P300232042459808884
-
-/-! ## A013062.P14998170246647410833
-
-`A013056(2*n+1)+char[A186180(n+1)]`
--/
-
-namespace A013062.P14998170246647410833
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A186180 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A013056 (2 * n + 1) + ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A013062.P14998170246647410833
 
 /-! ## A013062.P16758064707138710664
 

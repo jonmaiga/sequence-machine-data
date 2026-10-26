@@ -18,41 +18,44 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C037
+import Seq.B000.C035
+import Seq.B000.C039
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C006
+import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C005
+import Seq.B002.C003
+import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B013.C000
@@ -80,8 +83,8 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
+import SequenceMachineLib.Triangle
 
 /-!
 # A027200: Triangular array T read by rows: T(n,k) = number of partitions of n into an even number of parts, each >=k.
@@ -3336,7 +3339,7 @@ end A027272.P1081883000019505273
 /-!
 # A027276: a(n) = Sum_{k=0..2n} (k+1) * A026552(n, k).
 
-The programs for A027276, the canonical program `A027276.P8254126845880413096` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027276 has offset 0).
+The programs for A027276, the canonical program `A027276.P8254126845880413096` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027276 has offset 0).
 
 The definition of A027276 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 251 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3345,7 +3348,7 @@ The definition of A027276 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)*A026565(n)`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A027276
@@ -4984,6 +4987,21 @@ end A027292
 The programs for A027293, there is no canonical definition to state claims against.
 -/
 
+/-! ## A027293.P12556823473735361648
+
+`A000041(row(n)-col(n))`
+-/
+
+namespace A027293.P12556823473735361648
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000041 (SequenceMachineLib.triRow n - SequenceMachineLib.triCol n)
+
+end
+
+end A027293.P12556823473735361648
+
 /-! ## A027293.P6261381813793304024
 
 `A000041(C(comp[∑[n]]-n, 2)-(n+1))`
@@ -5310,21 +5328,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A027293.P4605256069522015618
-
-/-! ## A027293.P17125214846529878521
-
-`A000041(log2(A090988(n+1)/2))`
--/
-
-namespace A027293.P17125214846529878521
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000041 (SequenceMachineLib.roundAway (Real.logb 2 ((A090988 (n + 1) : ℚ) / 2 : ℝ))).toNat
-
-end
-
-end A027293.P17125214846529878521
 
 /-!
 # A027294: Self-convolution of row n of array T given by A026022.

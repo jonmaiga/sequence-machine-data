@@ -5,7 +5,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -15,48 +14,47 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C020
+import Seq.B000.C018
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C032
+import Seq.B000.C029
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C039
+import Seq.B000.C038
+import Seq.B000.C040
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C001
+import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B014.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -65,10 +63,10 @@ import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
-import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -80,7 +78,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C025
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -417,7 +415,7 @@ end A385703.P14234796091513167234
 /-!
 # A385704: Complement of A184535.
 
-The programs for A385704, the canonical program `A385704.P143017808627893424` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385704 has offset 1).
+The programs for A385704, the canonical program `A385704.P143017808627893424` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385704 has offset 1).
 
 The definition of A385704 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -426,7 +424,7 @@ The definition of A385704 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A184535(n+1)-1]+1`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A385704
@@ -758,7 +756,7 @@ end A385716.P1893747437984248701
 /-!
 # A385717: a(n) = a(n-1) + a(n-2) + a(n-3), with a(1) = 4, a(2) = 13, a(3) = 42.
 
-The programs for A385717, the canonical program `A385717.P11067697425676795605` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385717 has offset 1).
+The programs for A385717, the canonical program `A385717.P11067697425676795605` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385717 has offset 1).
 
 The definition of A385717 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+a(n-2)+a(n-3)` (program `A385717.P11067697425676795605`, by `A385717.P11067697425676795605.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -767,7 +765,7 @@ The definition of A385717 is `verified`: the Lean definition is proven equivalen
 
 `a(n-1)+a(n-2)+a(n-3)` with `a(0)=4, a(1)=13, a(2)=42`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A385717
@@ -833,7 +831,7 @@ end A385723.P13044035673687429940
 /-!
 # A385726: a(n) = 3^n - 6*binomial(n,4) - 6*binomial(n,3) - 4*binomial(n,2) - 2*n - 1.
 
-The programs for A385726, the canonical program `A385726.P15582791440511932674` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385726 has offset 0).
+The programs for A385726, the canonical program `A385726.P15582791440511932674` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385726 has offset 0).
 
 The definition of A385726 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3^n-6*C(n, 4)-6*C(n, 3)-4*C(n, 2)-2*n-1` (program `A385726.P15582791440511932674`, by `A385726.P15582791440511932674.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -871,7 +869,7 @@ end A385726
 
 `3^n-6*C(n, 4)-6*C(n, 3)-4*C(n, 2)-2*n-1`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A385726
@@ -912,7 +910,7 @@ end A385726
 /-!
 # A385728: Expansion of 1/((1-2*x) * (1-6*x))^(3/2).
 
-The programs for A385728, the canonical program `A385728.P6895606513719186912` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385728 has offset 0).
+The programs for A385728, the canonical program `A385728.P6895606513719186912` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385728 has offset 0).
 
 The definition of A385728 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -921,7 +919,7 @@ The definition of A385728 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `C(n+2, 2)*A005572(n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A385728
@@ -1040,7 +1038,7 @@ end A385728
 /-!
 # A385730: The number of lattice points in the 2D plane contained between the curve y=x^2/4 and the line y=n^2, inclusive, where n is a positive integer.
 
-The programs for A385730, the canonical program `A385730.P7087016858821356909` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385730 has offset 0).
+The programs for A385730, the canonical program `A385730.P7087016858821356909` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385730 has offset 0).
 
 The definition of A385730 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1049,7 +1047,7 @@ The definition of A385730 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1/3*(8*n^3+7*n+3)`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A385730
@@ -4696,7 +4694,7 @@ end A385772.P12704194433548078024
 /-!
 # A385773: Primes having only {1, 2, 5} as digits.
 
-The programs for A385773, the canonical program `A385773.P2392214569970667758` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385773 has offset 1).
+The programs for A385773, the canonical program `A385773.P2392214569970667758` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385773 has offset 1).
 
 The definition of A385773 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 781 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4885,7 +4883,7 @@ end A385773
 
 `∩[A386018(n+1), A386096(n+1)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A385773
@@ -6631,7 +6629,7 @@ end A385776.P6971699896131427638
 /-!
 # A385777: Primes having only {1, 3, 6} as digits.
 
-The programs for A385777, the canonical program `A385777.P3819637133373039858` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385777 has offset 1).
+The programs for A385777, the canonical program `A385777.P3819637133373039858` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385777 has offset 1).
 
 The definition of A385777 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1418 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6790,7 +6788,7 @@ end A385777
 
 `∩[A386087(n+1), A386106(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A385777
@@ -8566,7 +8564,7 @@ end A385780.P8325320291143978645
 /-!
 # A385781: Primes having only {1, 5, 9} as digits.
 
-The programs for A385781, the canonical program `A385781.P14896123236242491509` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385781 has offset 1).
+The programs for A385781, the canonical program `A385781.P14896123236242491509` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385781 has offset 1).
 
 The definition of A385781 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1084 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8875,7 +8873,7 @@ end A385781
 
 `∩[A386034(n+1), A386133(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A385781
@@ -9609,7 +9607,7 @@ end A385782.P2722678898219065406
 /-!
 # A385783: Primes having only {1, 8, 9} as digits.
 
-The programs for A385783, the canonical program `A385783.P11645284071125070441` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385783 has offset 1).
+The programs for A385783, the canonical program `A385783.P11645284071125070441` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385783 has offset 1).
 
 The definition of A385783 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1467 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9798,7 +9796,7 @@ end A385783
 
 `∩[A386040(n+1), A386137(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A385783

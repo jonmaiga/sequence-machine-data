@@ -17,6 +17,7 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -27,34 +28,38 @@ import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C037
+import Seq.B000.C035
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C004
+import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -64,7 +69,6 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -735,7 +739,7 @@ end A290310.P15936541727370042347
 /-!
 # A290312: Third diagonal sequence of the Sheffer triangle A094816 (special Charlier).
 
-The programs for A290312, the canonical program `A290312.P15030326888209738730` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290312 has offset 0).
+The programs for A290312, the canonical program `A290312.P15030326888209738730` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290312 has offset 0).
 
 The definition of A290312 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -788,7 +792,7 @@ end A290312
 
 `5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5)` with `a(0)=1, a(1)=8, a(2)=29, a(3)=75, a(4)=160`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A290312
@@ -1271,7 +1275,7 @@ end A290312
 /-!
 # A290313: Fourth diagonal sequence of the Sheffer triangle A094816 (special Charlier).
 
-The programs for A290313, the canonical program `A290313.P4933709878126481158` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290313 has offset 0).
+The programs for A290313, the canonical program `A290313.P4933709878126481158` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290313 has offset 0).
 
 The definition of A290313 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1280,7 +1284,7 @@ The definition of A290313 is `conjectured`: the Lean definition is a formula tha
 
 `A051797(n)+A000096(n)*A005712(n+2)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A290313
@@ -1908,6 +1912,33 @@ end
 end A290318.P5739128173277854531
 
 /-!
+# A290319: Triangle read by rows: T(n, k) is the Sheffer triangle ((1 - 4*x)^(-1/4), (-1/4)*log(1 - 4*x)). A generalized Stirling1 triangle.
+
+The programs for A290319, the canonical program `A290319.P9620574918857848123` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290319 has offset 0).
+
+The definition of A290319 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A290319.P9620574918857848123
+
+`T(n-1,k-1)+(4*row(n)-3)*T(n-1,k)` with `a(0)=1`
+
+The canonical program, it is in `Seq.B000.C035`.
+-/
+
+namespace A290319
+
+/-- `T(n-1,k-1)+(4*row(n)-3)*T(n-1,k)` -/
+def P9620574918857848123.Spec : Prop :=
+  ∀ n, P9620574918857848123.a n = A290319 n
+
+theorem P9620574918857848123.correct : P9620574918857848123.Spec := by
+  intro n
+  simp only [A290319]
+
+end A290319
+
+/-!
 # A290320: Write 1 - t * x/(1-x) as an inverse power product 1/(1+c(1)x) * 1/(1+c(2)x^2) * 1/(1+c(3)x^3) * ... The sequence is a regular triangle where T(n,k) is the coefficient of t^k in c(n), 1 <= k <= n.
 
 The programs for A290320, there is no canonical definition to state claims against.
@@ -2057,7 +2088,7 @@ end A290323.P13598626719543090039
 /-!
 # A290325: Number of minimal dominating sets (and maximal irredundant sets) in the complete tripartite graph K_{n,n,n}.
 
-The programs for A290325, the canonical program `A290325.P10345901416278462345` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290325 has offset 1).
+The programs for A290325, the canonical program `A290325.P10345901416278462345` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290325 has offset 1).
 
 The definition of A290325 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2066,7 +2097,7 @@ The definition of A290325 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=3, a(1)=15, a(2)=30, a(3)=51`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A290325
@@ -3894,7 +3925,7 @@ end A290359.P9375253699540178568
 /-!
 # A290360: Number of 6-leaf rooted trees with n levels.
 
-The programs for A290360, the canonical program `A290360.P13587907368450825472` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290360 has offset 0).
+The programs for A290360, the canonical program `A290360.P13587907368450825472` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290360 has offset 0).
 
 The definition of A290360 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3903,7 +3934,7 @@ The definition of A290360 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((((4*n+5)*n+10)*n+10)*n+1)*n/30`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A290360
@@ -4116,7 +4147,7 @@ end A290360
 /-!
 # A290361: Number of 7-leaf rooted trees with n levels.
 
-The programs for A290361, the canonical program `A290361.P15404394808143561841` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290361 has offset 0).
+The programs for A290361, the canonical program `A290361.P15404394808143561841` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290361 has offset 0).
 
 The definition of A290361 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4125,7 +4156,7 @@ The definition of A290361 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n*(n+1)*(n*(n*(n*(61*n+8)+137)+58)+96)/720`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A290361
@@ -5330,7 +5361,7 @@ end A290379.P9139206861759028048
 /-!
 # A290380: Analog of Motzkin sums for Coxeter type D.
 
-The programs for A290380, the canonical program `A290380.P2092588369032190990` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290380 has offset 3).
+The programs for A290380, the canonical program `A290380.P2092588369032190990` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290380 has offset 3).
 
 The definition of A290380 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5339,7 +5370,7 @@ The definition of A290380 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*A001006(n+1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A290380
@@ -6203,7 +6234,7 @@ end A290389.P4522687465443328301
 /-!
 # A290391: Number of 5-cycles in the n-triangular honeycomb obtuse knight graph.
 
-The programs for A290391, the canonical program `A290391.P6766128772775496861` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290391 has offset 1).
+The programs for A290391, the canonical program `A290391.P6766128772775496861` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290391 has offset 1).
 
 The definition of A290391 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6212,7 +6243,7 @@ The definition of A290391 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)-3*a(n-2)+a(n-3)` with `a(0)=0, a(1)=0, a(2)=0, a(3)=0, a(4)=0, a(5)=0, a(6)=30, a(7)=120, a(8)=294`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A290391
@@ -6592,7 +6623,7 @@ end A290395.P17849225589528534847
 /-!
 # A290396: a(n) = 3*2^n + 3*4^n + 6^(n+1) + 1.
 
-The programs for A290396, the canonical program `A290396.P10184249045807236170` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290396 has offset 0).
+The programs for A290396, the canonical program `A290396.P10184249045807236170` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A290396 has offset 0).
 
 The definition of A290396 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*2^n+3*4^n+6^(n+1)+1` (program `A290396.P10184249045807236170`, by `A290396.P10184249045807236170.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6601,7 +6632,7 @@ The definition of A290396 is `verified`: the Lean definition is proven equivalen
 
 `3*2^n+3*4^n+6^(n+1)+1`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A290396

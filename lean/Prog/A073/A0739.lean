@@ -18,40 +18,38 @@ import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C026
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C008
+import Seq.B001.C004
+import Seq.B001.C005
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C004
-import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -346,27 +344,6 @@ end
 
 end A073909.P3356576928030742841
 
-/-! ## A073909.P16086499462859245018
-
-`∑{d}[A085124(Δ[n²+n]), A000010(#)]`
--/
-
-namespace A073909.P16086499462859245018
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n ^ 2 + n
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085124 ((f2 (n + 1) : ℤ) - (f2 n : ℤ)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, A000010 d
-
-end
-
-end A073909.P16086499462859245018
-
 /-!
 # A073910: Smallest number m such that m and the product of digits of m are both divisible by 3n, or 0 if no such number exists.
 
@@ -471,24 +448,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A073911.P18122444277551904328
-
-/-! ## A073911.P10105076240695188486
-
-`∑{d}[A085124(A008706(n+1)), A000010(#)]`
--/
-
-namespace A073911.P10105076240695188486
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A085124 (A008706 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, A000010 d
-
-end
-
-end A073911.P10105076240695188486
 
 /-!
 # A073912: Smallest number m such that m and the product of digits of m are both divisible by 8n, or 0 if no such number exists.
@@ -1611,7 +1570,7 @@ end A073932.P11678970138809206223
 /-!
 # A073933: Number of terms in n-th row of triangle in A073932.
 
-The programs for A073933, the canonical program `A073933.P3226346954737411092` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073933 has offset 1).
+The programs for A073933, the canonical program `A073933.P3226346954737411092` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073933 has offset 1).
 
 The definition of A073933 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A064097, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1620,7 +1579,7 @@ The definition of A073933 is `conditional`: the Lean definition is an OEIS formu
 
 `1+A064097(n+1)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A073933
@@ -2456,24 +2415,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A073936.P17498726020743102323
-
-/-! ## A073936.P9399497543842945029
-
-`∑{d}[A092559(2-A001057(2*n)), A000010(#)]`
--/
-
-namespace A073936.P9399497543842945029
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A092559 (2 - A001057 (2 * n)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, A000010 d
-
-end
-
-end A073936.P9399497543842945029
 
 /-!
 # A073937: a(n) = a(n-1) - a(n-2) + a(n-3) + a(n-4), a(0)=4, a(1)=1, a(2)=-1, a(3)=1.
@@ -7344,7 +7285,7 @@ end A073995
 /-!
 # A073996: Number of strings of length n over GF(4) with trace 0 and subtrace 1.
 
-The programs for A073996, the canonical program `A073996.P17359561944595902144` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073996 has offset 1).
+The programs for A073996, the canonical program `A073996.P17359561944595902144` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073996 has offset 1).
 
 The definition of A073996 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 168 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7463,7 +7404,7 @@ end A073996
 
 `∑[A038504(n)]*A038503(n+1)`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A073996

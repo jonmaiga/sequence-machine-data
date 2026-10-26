@@ -18,29 +18,32 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C020
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
-import Seq.B001.C005
-import Seq.B001.C009
+import Seq.B001.C003
+import Seq.B001.C006
+import Seq.B001.C007
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -48,19 +51,20 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -73,6 +77,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -82,8 +87,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
-import Seq.Opaque.C025
+import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -870,9 +874,9 @@ end A058514.P1769024102104111194
 /-!
 # A058515: GCD of totients of consecutive integers.
 
-The programs for A058515, the canonical program `A058515.P4885720504449838139` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058515 has offset 1).
+The programs for A058515, the canonical program `A058515.P11879675803312438215` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058515 has offset 1).
 
-The definition of A058515 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A058515 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A058515.P12923362852687725668
@@ -898,45 +902,48 @@ def P12923362852687725668.Spec : Prop :=
 
 end A058515
 
+/-! ## A058515.P11879675803312438215
+
+`gcd(A000010(n+1), A000010(n+2))`
+
+The canonical program, it is in `Seq.B004.C000`.
+-/
+
+namespace A058515
+
+/-- `gcd(A000010(n+1), A000010(n+2))` -/
+def P11879675803312438215.Spec : Prop :=
+  ∀ n, (P11879675803312438215.a n : ℤ) = A058515 (n + 1)
+
+theorem P11879675803312438215.correct : P11879675803312438215.Spec := by
+  intro n
+  simp only [A058515, Nat.add_sub_cancel]
+
+end A058515
+
 /-! ## A058515.P4885720504449838139
 
 `gcd(Δ[A002088(n)], A000010(n+2))`
-
-The canonical program, it is in `Seq.B006.C000`.
 -/
+
+namespace A058515.P4885720504449838139
+noncomputable section
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002088 n
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Int.gcd (f1 (n + 1) - f1 n) (A000010 (n + 2))
+
+end
+
+end A058515.P4885720504449838139
 
 namespace A058515
 
 /-- `gcd(Δ[A002088(n)], A000010(n+2))` -/
 def P4885720504449838139.Spec : Prop :=
   ∀ n, (P4885720504449838139.a n : ℤ) = A058515 (n + 1)
-
-theorem P4885720504449838139.correct : P4885720504449838139.Spec := by
-  intro n
-  simp only [A058515, Nat.add_sub_cancel]
-
-end A058515
-
-/-! ## A058515.P1421050715969365356
-
-`gcd(A000010(n+1), A057000(n+1))`
--/
-
-namespace A058515.P1421050715969365356
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A000010 (n + 1)) (A057000 (n + 1))
-
-end
-
-end A058515.P1421050715969365356
-
-namespace A058515
-
-/-- `gcd(A000010(n+1), A057000(n+1))` -/
-def P1421050715969365356.Spec : Prop :=
-  ∀ n, (P1421050715969365356.a n : ℤ) = A058515 (n + 1)
 
 end A058515
 
@@ -960,32 +967,6 @@ namespace A058515
 /-- `gcd(A066813(n+1), A092404(n+1))` -/
 def P17949880378595057148.Spec : Prop :=
   ∀ n, (P17949880378595057148.a n : ℤ) = A058515 (n + 1)
-
-end A058515
-
-/-! ## A058515.P13894262625121573023
-
-`gcd(A109606(n+1)+1, Δ[A000010(n+1)])`
--/
-
-namespace A058515.P13894262625121573023
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000010 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A109606 (n + 1) + 1) (f1 (n + 1) - f1 n)
-
-end
-
-end A058515.P13894262625121573023
-
-namespace A058515
-
-/-- `gcd(A109606(n+1)+1, Δ[A000010(n+1)])` -/
-def P13894262625121573023.Spec : Prop :=
-  ∀ n, (P13894262625121573023.a n : ℤ) = A058515 (n + 1)
 
 end A058515
 
@@ -1331,24 +1312,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A058517.P7943354029900529168
-
-/-! ## A058517.P15810586572582076091
-
-`∏{d}[A005843(A350958(n+1)), A014963(#)]`
--/
-
-namespace A058517.P15810586572582076091
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005843 (A350958 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ d ∈ Nat.divisors (f1 n).natAbs, A014963 d
-
-end
-
-end A058517.P15810586572582076091
 
 /-! ## A058517.P1499744355187324773
 
@@ -4819,33 +4782,6 @@ namespace A058582
 /-- `(lt[n+2, A130724(n)]-1)*A016116(n)` -/
 def P3971575393407672614.Spec : Prop :=
   ∀ n, P3971575393407672614.a n = A058582 n
-
-end A058582
-
-/-! ## A058582.P224967377049408454
-
-`(comp[2*n]-A002265(2*n))*A016116(n)`
--/
-
-namespace A058582.P224967377049408454
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n : ℤ) - A002265 (2 * n)) * A016116 n
-
-end
-
-end A058582.P224967377049408454
-
-namespace A058582
-
-/-- `(comp[2*n]-A002265(2*n))*A016116(n)` -/
-def P224967377049408454.Spec : Prop :=
-  ∀ n, P224967377049408454.a n = A058582 n
 
 end A058582
 

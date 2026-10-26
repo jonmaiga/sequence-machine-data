@@ -19,6 +19,7 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -27,28 +28,34 @@ import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C030
+import Seq.B000.C033
+import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -1718,24 +1725,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A261921.P10211362762116055580
-
-/-! ## A261921.P16373604073012775237
-
-`filter[A261907(n+2), A377191(#)]`
--/
-
-namespace A261921.P16373604073012775237
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A261907 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A377191 (f1 j).toNat = 1) n)
-
-end
-
-end A261921.P16373604073012775237
 
 /-! ## A261921.P4106597722085611055
 
@@ -3577,7 +3566,7 @@ end A261949.P10845048986429440449
 /-!
 # A261950: Start with a single equilateral triangle for n=0; for the odd n-th generation add a triangle at each expandable vertex of the triangles of the (n-1)-th generation (this is the "side to vertex" version); for the even n-th generation use the "vertex to vertex" version; a(n) is the number of triangles added in the n-th generation.
 
-The programs for A261950, the canonical program `A261950.P8490719290162573377` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261950 has offset 0).
+The programs for A261950, the canonical program `A261950.P8490719290162573377` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261950 has offset 0).
 
 The definition of A261950 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3586,7 +3575,7 @@ The definition of A261950 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-2)+a(n-4)-a(n-6)` with `a(0)=1, a(1)=3, a(2)=9, a(3)=12, a(4)=30, a(5)=18, a(6)=45`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A261950
@@ -3604,7 +3593,7 @@ end A261950
 /-!
 # A261952: Start with a single equilateral triangle for n=0; for the odd n-th generation add a triangle at each expandable vertex of the triangles of the (n-1)-th generation (this is the "vertex to vertex" version); for the even n-th generation use the "side to side" version; a(n) is the number of triangles added in the n-th generation.
 
-The programs for A261952, the canonical program `A261952.P12319966046607131847` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261952 has offset 0).
+The programs for A261952, the canonical program `A261952.P12319966046607131847` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261952 has offset 0).
 
 The definition of A261952 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3613,7 +3602,7 @@ The definition of A261952 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+a(n-2)-a(n-3)` with `a(0)=1, a(1)=3, a(2)=9, a(3)=18, a(4)=18, a(5)=24, a(6)=27`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A261952
@@ -3654,7 +3643,7 @@ end A261952
 /-!
 # A261953: Start with a single equilateral triangle for n=0; for the odd n-th generation add a triangle at each expandable side of the triangles of the (n-1)-th generation (this is the "side to side" version); for the even n-th generation use the "vertex to vertex" version; a(n) is the number of triangles added in the n-th generation.
 
-The programs for A261953, the canonical program `A261953.P16704326897162781353` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261953 has offset 0).
+The programs for A261953, the canonical program `A261953.P16704326897162781353` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261953 has offset 0).
 
 The definition of A261953 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3663,7 +3652,7 @@ The definition of A261953 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+a(n-2)-a(n-3)` with `a(0)=1, a(1)=3, a(2)=9, a(3)=12`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A261953
@@ -4148,7 +4137,7 @@ end A261953
 /-!
 # A261954: Start with a single equilateral triangle for n=0; for the odd n-th generation add a triangle at each expandable side of the triangles of the (n-1)-th generation (this is the "side to side" version); for the even n-th generation use the "side to vertex" version; a(n) is the number of triangles added in the n-th generation.
 
-The programs for A261954, the canonical program `A261954.P7192592713755380136` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261954 has offset 0).
+The programs for A261954, the canonical program `A261954.P7192592713755380136` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261954 has offset 0).
 
 The definition of A261954 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4180,7 +4169,7 @@ end A261954
 
 `a(n-2)+a(n-4)-a(n-6)` with `a(0)=1, a(1)=3, a(2)=3, a(3)=6, a(4)=12, a(5)=15, a(6)=21`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A261954
@@ -4681,7 +4670,7 @@ end A261968.P5293977443799124482
 /-!
 # A261969: Product of primes dividing n with maximum multiplicity.
 
-The programs for A261969, the canonical program `A261969.P5982450597750301384` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261969 has offset 1).
+The programs for A261969, the canonical program `A261969.P5982450597750301384` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261969 has offset 1).
 
 The definition of A261969 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4785,7 +4774,7 @@ end A261969
 
 `A078615(n+1)/gcd(A078615(n+1), A304768(n+1))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A261969
@@ -5081,7 +5070,7 @@ end A261970.P5838219023247598694
 /-!
 # A261971: Number of unit cubes that have a side on the surface of a p X p X p cube composed of p^3 unit cubes, where p is the n-th prime.
 
-The programs for A261971, the canonical program `A261971.P11221082958945660540` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261971 has offset 1).
+The programs for A261971, the canonical program `A261971.P11221082958945660540` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261971 has offset 1).
 
 The definition of A261971 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5090,7 +5079,7 @@ The definition of A261971 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6*A001248(n+1)-12*A000040(n+1)+8`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A261971
@@ -7267,17 +7256,25 @@ end A261994.P9372897256029697019
 /-!
 # A261997: a(n) = prime(n)! - prime(n!).
 
-The programs for A261997, the canonical program `A261997.P14508608129924253283` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261997 has offset 1).
+The programs for A261997, the canonical program `A261997.P13916721130431095809` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261997 has offset 1).
 
-The definition of A261997 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A261997 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(n+1)!-A000040((n+1)!)` (program `A261997.P13916721130431095809`, by `A261997.P13916721130431095809.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A261997.P14508608129924253283
 
 `A039716(n+1)-A062439(n+1)`
-
-The canonical program, it is in `Seq.B002.C004`.
 -/
+
+namespace A261997.P14508608129924253283
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A039716 (n + 1) - A062439 (n + 1)
+
+end
+
+end A261997.P14508608129924253283
 
 namespace A261997
 
@@ -7285,7 +7282,22 @@ namespace A261997
 def P14508608129924253283.Spec : Prop :=
   ∀ n, P14508608129924253283.a n = A261997 (n + 1)
 
-theorem P14508608129924253283.correct : P14508608129924253283.Spec := by
+end A261997
+
+/-! ## A261997.P13916721130431095809
+
+`A000040(n+1)!-A000040((n+1)!)`
+
+The canonical program, it is in `Seq.B001.C009`.
+-/
+
+namespace A261997
+
+/-- `A000040(n+1)!-A000040((n+1)!)` -/
+def P13916721130431095809.Spec : Prop :=
+  ∀ n, P13916721130431095809.a n = A261997 (n + 1)
+
+theorem P13916721130431095809.correct : P13916721130431095809.Spec := by
   intro n
   simp only [A261997, Nat.add_sub_cancel]
 
@@ -7363,29 +7375,6 @@ namespace A261997
 /-- `A000040(n+1)!-A062439(n+1)` -/
 def P244026211257307632.Spec : Prop :=
   ∀ n, P244026211257307632.a n = A261997 (n + 1)
-
-end A261997
-
-/-! ## A261997.P2347375372609984899
-
-`(A001748(n+1)/3)!-A062439(n+1)`
--/
-
-namespace A261997.P2347375372609984899
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (Nat.factorial (SequenceMachineLib.roundAway ((A001748 (n + 1) : ℚ) / 3)).toNat : ℤ) - A062439 (n + 1)
-
-end
-
-end A261997.P2347375372609984899
-
-namespace A261997
-
-/-- `(A001748(n+1)/3)!-A062439(n+1)` -/
-def P2347375372609984899.Spec : Prop :=
-  ∀ n, P2347375372609984899.a n = A261997 (n + 1)
 
 end A261997
 

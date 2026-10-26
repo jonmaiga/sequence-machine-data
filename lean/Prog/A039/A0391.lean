@@ -14,41 +14,44 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C018
+import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -56,14 +59,12 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
-import Seq.B008.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -88,7 +89,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A039100: Numbers whose base-9 representation has the same number of 3's and 7's.
@@ -11363,29 +11363,29 @@ end A039150
 /-!
 # A039151: Numbers whose base-10 representation has the same number of 6's and 8's.
 
-The programs for A039151, there is no canonical definition to state claims against.
+The programs for A039151, the canonical program `A039151.P13886706696032564629` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039151 has offset 1).
+
+The definition of A039151 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4871 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A039151.P13886706696032564629
 
 `eq[A102679(n)+A063720(n), A010371(n)]`
+
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
-namespace A039151.P13886706696032564629
-noncomputable section
+namespace A039151
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102679 n + A063720 n
+/-- `eq[A102679(n)+A063720(n), A010371(n)]` -/
+def P13886706696032564629.Spec : Prop :=
+  ∀ n, (P13886706696032564629.a n : ℤ) = A039151 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010371 n
+theorem P13886706696032564629.correct : P13886706696032564629.Spec := by
+  intro n
+  simp only [A039151, Nat.add_sub_cancel]
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A039151.P13886706696032564629
+end A039151
 
 /-! ## A039151.P17671804151335236816
 
@@ -11408,6 +11408,14 @@ end
 
 end A039151.P17671804151335236816
 
+namespace A039151
+
+/-- `eq[dr(n), dr(A222250(n))]` -/
+def P17671804151335236816.Spec : Prop :=
+  ∀ n, (P17671804151335236816.a n : ℤ) = A039151 (n + 1)
+
+end A039151
+
 /-! ## A039151.P15565967533169487261
 
 `eq[A003132(n), A003132(A222250(n))]`
@@ -11428,6 +11436,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039151.P15565967533169487261
+
+namespace A039151
+
+/-- `eq[A003132(n), A003132(A222250(n))]` -/
+def P15565967533169487261.Spec : Prop :=
+  ∀ n, (P15565967533169487261.a n : ℤ) = A039151 (n + 1)
+
+end A039151
 
 /-! ## A039151.P8112168251159535021
 
@@ -11450,6 +11466,14 @@ end
 
 end A039151.P8112168251159535021
 
+namespace A039151
+
+/-- `eq[A004092(n), A004092(A222250(n))]` -/
+def P8112168251159535021.Spec : Prop :=
+  ∀ n, (P8112168251159535021.a n : ℤ) = A039151 (n + 1)
+
+end A039151
+
 /-! ## A039151.P9830353625630367934
 
 `eq[A004155(n), A004155(A222250(n))]`
@@ -11470,6 +11494,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039151.P9830353625630367934
+
+namespace A039151
+
+/-- `eq[A004155(n), A004155(A222250(n))]` -/
+def P9830353625630367934.Spec : Prop :=
+  ∀ n, (P9830353625630367934.a n : ℤ) = A039151 (n + 1)
+
+end A039151
 
 /-! ## A039151.P17794766579514049382
 
@@ -11492,6 +11524,14 @@ end
 
 end A039151.P17794766579514049382
 
+namespace A039151
+
+/-- `eq[A004185(n), A004185(A222250(n))]` -/
+def P17794766579514049382.Spec : Prop :=
+  ∀ n, (P17794766579514049382.a n : ℤ) = A039151 (n + 1)
+
+end A039151
+
 /-! ## A039151.P16899219018944533319
 
 `eq[A004186(n), A004186(A222250(n))]`
@@ -11512,6 +11552,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039151.P16899219018944533319
+
+namespace A039151
+
+/-- `eq[A004186(n), A004186(A222250(n))]` -/
+def P16899219018944533319.Spec : Prop :=
+  ∀ n, (P16899219018944533319.a n : ℤ) = A039151 (n + 1)
+
+end A039151
 
 /-! ## A039151.P544401474924448401
 
@@ -11534,6 +11582,14 @@ end
 
 end A039151.P544401474924448401
 
+namespace A039151
+
+/-- `eq[A006942(n), A006942(A222250(n))]` -/
+def P544401474924448401.Spec : Prop :=
+  ∀ n, (P544401474924448401.a n : ℤ) = A039151 (n + 1)
+
+end A039151
+
 /-! ## A039151.P2335673858018385618
 
 `eq[A047842(n), A047842(A222250(n))]`
@@ -11555,6 +11611,14 @@ end
 
 end A039151.P2335673858018385618
 
+namespace A039151
+
+/-- `eq[A047842(n), A047842(A222250(n))]` -/
+def P2335673858018385618.Spec : Prop :=
+  ∀ n, (P2335673858018385618.a n : ℤ) = A039151 (n + 1)
+
+end A039151
+
 /-! ## A039151.P4221811384280603821
 
 `eq[A061602(n), A061602(A222250(n))]`
@@ -11575,6 +11639,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039151.P4221811384280603821
+
+namespace A039151
+
+/-- `eq[A061602(n), A061602(A222250(n))]` -/
+def P4221811384280603821.Spec : Prop :=
+  ∀ n, (P4221811384280603821.a n : ℤ) = A039151 (n + 1)
+
+end A039151
 
 /-!
 # A039152: Numbers whose base-10 representation has the same number of 6's and 9's.
@@ -15380,22 +15452,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039199.P4908239082998115440
-
-/-! ## A039199.P10574435740981512946
-
-`record[A052382(2*n+1)-A008619(A033619(2*(n+1)))]`
--/
-
-namespace A039199.P10574435740981512946
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052382 (2 * n + 1) - A008619 (A033619 (2 * (n + 1))).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A039199.P10574435740981512946
 

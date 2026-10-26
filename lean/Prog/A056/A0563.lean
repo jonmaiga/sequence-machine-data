@@ -14,6 +14,7 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -23,24 +24,24 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C004
@@ -48,11 +49,8 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -69,12 +67,12 @@ import Seq.Opaque.C007
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C012
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
+import Seq.Opaque.C022
 import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
@@ -441,7 +439,7 @@ end A056302.P5094410749770202992
 /-!
 # A056303: Number of primitive (period n) n-bead necklace structures using exactly two different colored beads.
 
-The programs for A056303, the canonical program `A056303.P18308971732008802848` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056303 has offset 1).
+The programs for A056303, the canonical program `A056303.P18308971732008802848` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056303 has offset 1).
 
 The definition of A056303 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 341 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -588,7 +586,7 @@ end A056303
 
 `∑{d}[n+1, A008683(#)*A056295((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A056303
@@ -1638,7 +1636,7 @@ end A056309
 /-!
 # A056310: Number of reversible strings with n beads using exactly three different colors.
 
-The programs for A056310, the canonical program `A056310.P11527389917992884301` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056310 has offset 1).
+The programs for A056310, the canonical program `A056310.P11527389917992884301` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056310 has offset 1).
 
 The definition of A056310 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1647,7 +1645,7 @@ The definition of A056310 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A032120(n+1)-3*A005418(n+2)+3`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A056310
@@ -1907,7 +1905,7 @@ end A056310
 /-!
 # A056311: Number of reversible strings with n beads using exactly four different colors.
 
-The programs for A056311, the canonical program `A056311.P5975603782250234262` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056311 has offset 1).
+The programs for A056311, the canonical program `A056311.P5975603782250234262` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056311 has offset 1).
 
 The definition of A056311 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1916,7 +1914,7 @@ The definition of A056311 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A032121(n+1)-4*A032120(n+1)+6*A005418(n+2)-4`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A056311
@@ -2127,7 +2125,7 @@ end A056311
 /-!
 # A056312: Number of reversible strings with n beads using exactly five different colors.
 
-The programs for A056312, the canonical program `A056312.P6761963381362431888` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056312 has offset 1).
+The programs for A056312, the canonical program `A056312.P6761963381362431888` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056312 has offset 1).
 
 The definition of A056312 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2136,7 +2134,7 @@ The definition of A056312 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A032122(n+1)-5*A032121(n+1)+10*A032120(n+1)-10*A005418(n+2)+5`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A056312
@@ -2272,7 +2270,7 @@ end A056312
 /-!
 # A056313: Number of reversible strings with n beads using exactly six different colors.
 
-The programs for A056313, the canonical program `A056313.P5819965532175652516` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056313 has offset 1).
+The programs for A056313, the canonical program `A056313.P5819965532175652516` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056313 has offset 1).
 
 The definition of A056313 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2281,7 +2279,7 @@ The definition of A056313 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A056308(n+1)-6*A032122(n+1)+15*A032121(n+1)-20*A032120(n+1)+15*A005418(n+2)-6`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A056313
@@ -2822,7 +2820,7 @@ end A056317.P853157411261416121
 /-!
 # A056318: Number of primitive (aperiodic) reversible strings with n beads using exactly two different colors.
 
-The programs for A056318, the canonical program `A056318.P12116274168460168988` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056318 has offset 1).
+The programs for A056318, the canonical program `A056318.P12116274168460168988` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056318 has offset 1).
 
 The definition of A056318 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2903,7 +2901,7 @@ end A056318
 
 `∑{d}[n+1, A008683(#)*A056309((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056318
@@ -2944,7 +2942,7 @@ end A056318
 /-!
 # A056319: Number of primitive (aperiodic) reversible strings with n beads using exactly three different colors.
 
-The programs for A056319, the canonical program `A056319.P2109455741368262411` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056319 has offset 1).
+The programs for A056319, the canonical program `A056319.P2109455741368262411` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056319 has offset 1).
 
 The definition of A056319 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2976,7 +2974,7 @@ end A056319
 
 `∑{d}[n+1, A008683(#)*A056310((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056319
@@ -3017,7 +3015,7 @@ end A056319
 /-!
 # A056320: Number of primitive (aperiodic) reversible strings with n beads using exactly four different colors.
 
-The programs for A056320, the canonical program `A056320.P10734550537264793216` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056320 has offset 1).
+The programs for A056320, the canonical program `A056320.P10734550537264793216` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056320 has offset 1).
 
 The definition of A056320 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3026,7 +3024,7 @@ The definition of A056320 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A008683(#)*A056311((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056320
@@ -3202,7 +3200,7 @@ end A056322
 /-!
 # A056323: Number of reversible string structures with n beads using a maximum of four different colors.
 
-The programs for A056323, the canonical program `A056323.P14802106134183311547` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056323 has offset 0).
+The programs for A056323, the canonical program `A056323.P14802106134183311547` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056323 has offset 0).
 
 The definition of A056323 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3211,7 +3209,7 @@ The definition of A056323 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(A124303(n)+A305750(n))/2`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A056323
@@ -3551,7 +3549,7 @@ end A056325.P16960465196292897495
 /-!
 # A056326: Number of reversible string structures with n beads using exactly two different colors.
 
-The programs for A056326, the canonical program `A056326.P13285734018320765165` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056326 has offset 1).
+The programs for A056326, the canonical program `A056326.P13285734018320765165` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056326 has offset 1).
 
 The definition of A056326 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3560,7 +3558,7 @@ The definition of A056326 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A005418(n+1)-1`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A056326
@@ -4017,7 +4015,7 @@ end A056326
 /-!
 # A056327: Number of reversible string structures with n beads using exactly three different colors.
 
-The programs for A056327, the canonical program `A056327.P11311420995062191100` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056327 has offset 1).
+The programs for A056327, the canonical program `A056327.P11311420995062191100` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056327 has offset 1).
 
 The definition of A056327 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4026,7 +4024,7 @@ The definition of A056327 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001998(n)-A005418(n+1)`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A056327
@@ -4746,7 +4744,7 @@ end A056330.P17433330206035887088
 /-!
 # A056331: Number of primitive (aperiodic) reversible string structures with n beads using a maximum of two different colors.
 
-The programs for A056331, the canonical program `A056331.P8690430006443515307` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056331 has offset 1).
+The programs for A056331, the canonical program `A056331.P8690430006443515307` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056331 has offset 1).
 
 The definition of A056331 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 334 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4989,7 +4987,7 @@ end A056331
 
 `∑{d}[n+1, A005418(#)*A008683((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056331
@@ -5111,7 +5109,7 @@ end A056331
 /-!
 # A056332: Number of primitive (aperiodic) reversible string structures with n beads using a maximum of three different colors.
 
-The programs for A056332, the canonical program `A056332.P657932963027548123` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056332 has offset 1).
+The programs for A056332, the canonical program `A056332.P657932963027548123` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056332 has offset 1).
 
 The definition of A056332 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 211 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5149,7 +5147,7 @@ end A056332
 
 `∑{d}[n+1, A001998(#-1)*A008683((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056332
@@ -5242,7 +5240,7 @@ end A056332
 /-!
 # A056333: Number of primitive (aperiodic) reversible string structures with n beads using a maximum of four different colors.
 
-The programs for A056333, the canonical program `A056333.P3348555914057923111` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056333 has offset 1).
+The programs for A056333, the canonical program `A056333.P3348555914057923111` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056333 has offset 1).
 
 The definition of A056333 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 168 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5309,7 +5307,7 @@ end A056333
 
 `A056332(n+1)+∑{d}[n+1, A008683(#)*A056328((n+1)/#)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056333
@@ -5402,7 +5400,7 @@ end A056333
 /-!
 # A056334: Number of primitive (aperiodic) reversible string structures with n beads using a maximum of five different colors.
 
-The programs for A056334, the canonical program `A056334.P4039898044514616302` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056334 has offset 1).
+The programs for A056334, the canonical program `A056334.P4039898044514616302` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056334 has offset 1).
 
 The definition of A056334 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 146 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5469,7 +5467,7 @@ end A056334
 
 `A056333(n+1)+∑{d}[n+1, A008683(#)*A056329((n+1)/#)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056334
@@ -5725,7 +5723,7 @@ end A056335.P10731852547859653973
 /-!
 # A056336: Number of primitive (aperiodic) reversible string structures with n beads using exactly two different colors.
 
-The programs for A056336, the canonical program `A056336.P11547497222831665764` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056336 has offset 1).
+The programs for A056336, the canonical program `A056336.P11547497222831665764` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056336 has offset 1).
 
 The definition of A056336 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056331, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5734,7 +5732,7 @@ The definition of A056336 is `conditional`: the Lean definition is an OEIS formu
 
 `A056331(n+1)-A063524(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056336
@@ -6206,7 +6204,7 @@ end A056336
 /-!
 # A056337: Number of primitive (aperiodic) reversible string structures with n beads using exactly three different colors.
 
-The programs for A056337, the canonical program `A056337.P9761899805015618625` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056337 has offset 1).
+The programs for A056337, the canonical program `A056337.P9761899805015618625` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056337 has offset 1).
 
 The definition of A056337 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056331, A056332, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6215,7 +6213,7 @@ The definition of A056337 is `conditional`: the Lean definition is an OEIS formu
 
 `A056332(n+1)-A056331(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056337
@@ -6384,7 +6382,7 @@ end A056337
 /-!
 # A056338: Number of primitive (aperiodic) reversible string structures with n beads using exactly four different colors.
 
-The programs for A056338, the canonical program `A056338.P9536420642399995847` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056338 has offset 1).
+The programs for A056338, the canonical program `A056338.P9536420642399995847` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056338 has offset 1).
 
 The definition of A056338 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056332, A056333, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6393,7 +6391,7 @@ The definition of A056338 is `conditional`: the Lean definition is an OEIS formu
 
 `A056333(n+1)-A056332(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056338
@@ -6535,7 +6533,7 @@ end A056338
 /-!
 # A056339: Number of primitive (aperiodic) reversible string structures with n beads using exactly five different colors.
 
-The programs for A056339, the canonical program `A056339.P12728329773781981216` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056339 has offset 1).
+The programs for A056339, the canonical program `A056339.P12728329773781981216` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056339 has offset 1).
 
 The definition of A056339 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056333, A056334, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6544,7 +6542,7 @@ The definition of A056339 is `conditional`: the Lean definition is an OEIS formu
 
 `A056334(n+1)-A056333(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A056339
@@ -7031,7 +7029,7 @@ end A056341.P673194328719853267
 /-!
 # A056342: Number of bracelets of length n using exactly two different colored beads.
 
-The programs for A056342, the canonical program `A056342.P16520513500978853199` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056342 has offset 1).
+The programs for A056342, the canonical program `A056342.P16520513500978853199` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056342 has offset 1).
 
 The definition of A056342 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000029, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7040,7 +7038,7 @@ The definition of A056342 is `conditional`: the Lean definition is an OEIS formu
 
 `A000029(n+1)-2`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A056342
@@ -7078,7 +7076,7 @@ def P15846794555017869734.Spec : Prop :=
 
 theorem P15846794555017869734.correct : P15846794555017869734.Spec := by
   intro n
-  simp only [A056342, Nat.add_sub_cancel, A056342.P15846794555017869734.a, A056342.P16520513500978853199.a, A000029, A000029.P13945956715463538310.a, A091696, A091696.P12943437932525177728.a, A029744, A029744.P1115822501332250061.a, A059076, A059076.P1559801332482280449.a, A000031, A000031.P16543801865445953573.f1, A000031.P16543801865445953573.a, A059966, A059966.P5188141675617584754.a, SequenceMachineLib.memo_apply]
+  simp only [A056342, Nat.add_sub_cancel, A056342.P15846794555017869734.a, A056342.P16520513500978853199.a, A000029, A000029.P13945956715463538310.a, A091696, A091696.P12943437932525177728.a, A029744, A029744.P1115822501332250061.a, A059076, A059076.P1559801332482280449.a, A000031, A000031.P16543801865445953573.f1, A000031.P16543801865445953573.a, A059966, A059966.P16360813507758205577.f1, A059966.P16360813507758205577.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -7234,7 +7232,7 @@ def P4687610879347734541.Spec : Prop :=
 
 theorem P4687610879347734541.correct : P4687610879347734541.Spec := by
   intro n
-  simp only [A056342, Nat.add_sub_cancel, A056342.P4687610879347734541.a, A056342.P16520513500978853199.a, A000029, A000029.P13945956715463538310.a, A029744, A029744.P1115822501332250061.a, A059076, A059076.P1559801332482280449.a, A000031, A000031.P16543801865445953573.f1, A000031.P16543801865445953573.a, A059966, A059966.P5188141675617584754.a, A001037, A001037.P3072020637183991904.a, SequenceMachineLib.memo_apply]
+  simp only [A056342, Nat.add_sub_cancel, A056342.P4687610879347734541.a, A056342.P16520513500978853199.a, A000029, A000029.P13945956715463538310.a, A029744, A029744.P1115822501332250061.a, A059076, A059076.P1559801332482280449.a, A000031, A000031.P16543801865445953573.f1, A000031.P16543801865445953573.a, A059966, A059966.P16360813507758205577.f1, A059966.P16360813507758205577.a, A008683, A008683.P18254306604665478110.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -7384,7 +7382,7 @@ end A056342
 /-!
 # A056343: Number of bracelets of length n using exactly three different colored beads.
 
-The programs for A056343, the canonical program `A056343.P18158920682156565457` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056343 has offset 1).
+The programs for A056343, the canonical program `A056343.P18158920682156565457` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056343 has offset 1).
 
 The definition of A056343 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 214 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7488,7 +7486,7 @@ end A056343
 
 `(A056489(n+1)+A056283(n+1))/2`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A056343
@@ -7603,7 +7601,7 @@ end A056343
 /-!
 # A056344: Number of bracelets of length n using exactly four different colored beads.
 
-The programs for A056344, the canonical program `A056344.P7012098588156965107` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056344 has offset 1).
+The programs for A056344, the canonical program `A056344.P7012098588156965107` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056344 has offset 1).
 
 The definition of A056344 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056284, A056490, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7681,7 +7679,7 @@ end A056344
 
 `(A056284(n+1)+A056490(n+1))/2`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A056344
@@ -8379,7 +8377,7 @@ end A056348
 /-!
 # A056349: Number of primitive (period n) bracelets using exactly three different colored beads.
 
-The programs for A056349, the canonical program `A056349.P11554127501764149273` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056349 has offset 1).
+The programs for A056349, the canonical program `A056349.P11554127501764149273` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056349 has offset 1).
 
 The definition of A056349 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 215 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8388,7 +8386,7 @@ The definition of A056349 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A008683(#)*A056343((n+1)/#)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A056349
@@ -8472,7 +8470,7 @@ def P9720107794648517316.Spec : Prop :=
 
 theorem P9720107794648517316.correct : P9720107794648517316.Spec := by
   intro n
-  simp only [A056349, Nat.add_sub_cancel, A056349.P9720107794648517316.a, A056349.P11554127501764149273.f1, A056349.P11554127501764149273.a, A008683, A008683.P18254306604665478110.a, A056288, A056288.P10959423349450089845.a, A056343, A056343.P18158920682156565457.a, A326660, A326660.P15065931834303715620.a, A056279, A056279.P11750011524147072327.a, A056283, A056283.P12975955271875151804.f1, A056283.P12975955271875151804.a, A056489, A056489.P4551859471100236168.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, A000740, A000740.P14835443835842648949.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A056274, A056274.P6989764788007675043.a, A085357, A085357.P3258697467278337073.a, A106400, A106400.P11201390576172776043.a, A005940, A005940.P5942875842694471387.a, A008966, A008966.P884693903657889754.a, A010060, A010060.P3080921269106500717.a, A027375, A027375.P1624201345270917595.f1, A027375.P1624201345270917595.a, A034741, A034741.P4749384178526345619.f1, A034741.P4749384178526345619.a, A364557, A364557.P16113127302810243144.a, SequenceMachineLib.memo_apply]
+  simp only [A056349, Nat.add_sub_cancel, A056349.P9720107794648517316.a, A056349.P11554127501764149273.f1, A056349.P11554127501764149273.a, A008683, A008683.P18254306604665478110.a, A056288, A056288.P10959423349450089845.a, A056343, A056343.P18158920682156565457.a, A326660, A326660.P15065931834303715620.a, A056279, A056279.P11750011524147072327.a, A056283, A056283.P12975955271875151804.f1, A056283.P12975955271875151804.a, A056489, A056489.P4551859471100236168.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, A000740, A000740.P14835443835842648949.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A056274, A056274.P6989764788007675043.a, A085357, A085357.P3258697467278337073.a, A106400, A106400.P11201390576172776043.a, A005940, A005940.P5942875842694471387.a, A008966, A008966.P884693903657889754.a, A010060, A010060.P3080921269106500717.a, A027375, A027375.P9636017658255068744.f1, A027375.P9636017658255068744.a, A034741, A034741.P4749384178526345619.f1, A034741.P4749384178526345619.a, A364557, A364557.P16113127302810243144.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
@@ -8527,7 +8525,7 @@ end A056349
 /-!
 # A056350: Number of primitive (period n) bracelets using exactly four different colored beads.
 
-The programs for A056350, the canonical program `A056350.P5772277267185425881` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056350 has offset 1).
+The programs for A056350, the canonical program `A056350.P5772277267185425881` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056350 has offset 1).
 
 The definition of A056350 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 170 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8536,7 +8534,7 @@ The definition of A056350 is `conjectured`: the Lean definition is a formula tha
 
 `A326789(n+1)+A056500(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A056350
@@ -9161,7 +9159,7 @@ end A056356.P8693969658105097456
 /-!
 # A056357: Number of bracelet structures using exactly two different colored beads.
 
-The programs for A056357, the canonical program `A056357.P4842207205344538288` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056357 has offset 1).
+The programs for A056357, the canonical program `A056357.P4842207205344538288` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056357 has offset 1).
 
 The definition of A056357 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000011, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9170,7 +9168,7 @@ The definition of A056357 is `conditional`: the Lean definition is an OEIS formu
 
 `A000011(n+1)-1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A056357
@@ -10051,7 +10049,7 @@ end A056365.P9335552721437309866
 /-!
 # A056366: Number of primitive (period n) bracelet structures using exactly two different colored beads.
 
-The programs for A056366, the canonical program `A056366.P11464598418181165535` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056366 has offset 1).
+The programs for A056366, the canonical program `A056366.P11464598418181165535` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056366 has offset 1).
 
 The definition of A056366 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 342 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10221,7 +10219,7 @@ end A056366
 
 `∑{d}[n+1, A008683(#)*A056357((n+1)/#)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A056366

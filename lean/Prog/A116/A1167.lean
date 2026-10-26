@@ -39,6 +39,7 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -46,12 +47,16 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
@@ -59,16 +64,14 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B007.C000
-import Seq.B008.C001
+import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1553,24 +1556,6 @@ end
 
 end A116710.P7101337949262148976
 
-/-! ## A116710.P17978207393639590594
-
-`filter[A165529(n+1), A030324(#)]`
--/
-
-namespace A116710.P17978207393639590594
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A165529 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A030324 (f1 j).toNat = 1) n)
-
-end
-
-end A116710.P17978207393639590594
-
 /-!
 # A116711: Number of permutations of length n which avoid the patterns 123, 3214, 4312.
 
@@ -1751,7 +1736,7 @@ end A116711
 /-!
 # A116712: Number of permutations of length n which avoid the patterns 231, 3214, 4312.
 
-The programs for A116712, the canonical program `A116712.P5431410053559634133` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116712 has offset 1).
+The programs for A116712, the canonical program `A116712.P5431410053559634133` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116712 has offset 1).
 
 The definition of A116712 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1760,7 +1745,7 @@ The definition of A116712 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A257113(n+2)-A000045(n+3)`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A116712
@@ -2592,7 +2577,7 @@ end A116713
 /-!
 # A116714: Number of permutations of length n that avoid the patterns 321, 1342, 4123.
 
-The programs for A116714, the canonical program `A116714.P5720931361368883710` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116714 has offset 0).
+The programs for A116714, the canonical program `A116714.P5720931361368883710` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116714 has offset 0).
 
 The definition of A116714 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 378 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2601,7 +2586,7 @@ The definition of A116714 is `conjectured`: the Lean definition is a formula tha
 
 `A100683(n)+a(n-1)` with `a(0)=1, a(1)=1, a(2)=2`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A116714
@@ -5131,7 +5116,7 @@ end A116725
 /-!
 # A116726: Number of permutations of length n which avoid the patterns 213, 1234, 2431.
 
-The programs for A116726, the canonical program `A116726.P1660123306156606521` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116726 has offset 1).
+The programs for A116726, the canonical program `A116726.P1660123306156606521` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116726 has offset 1).
 
 The definition of A116726 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 376 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5140,7 +5125,7 @@ The definition of A116726 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A202012(n)+∑[A000100(n)]]`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A116726
@@ -5801,7 +5786,7 @@ end A116730
 /-!
 # A116731: Number of permutations of length n which avoid the patterns 321, 2143, 3124; or avoid the patterns 132, 2314, 4312, etc.
 
-The programs for A116731, the canonical program `A116731.P1311479631612180233` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116731 has offset 1).
+The programs for A116731, the canonical program `A116731.P1311479631612180233` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116731 has offset 1).
 
 The definition of A116731 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5833,7 +5818,7 @@ end A116731
 
 `A006527(n)+1`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A116731
@@ -8334,7 +8319,7 @@ end A116745.P10309346064850037066
 /-!
 # A116746: Number of permutations of length n which avoid the patterns 1243, 4123, 4213.
 
-The programs for A116746, the canonical program `A116746.P3587289007981454688` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116746 has offset 1).
+The programs for A116746, the canonical program `A116746.P3587289007981454688` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116746 has offset 1).
 
 The definition of A116746 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 209 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8343,7 +8328,7 @@ The definition of A116746 is `conjectured`: the Lean definition is a formula tha
 
 `A008776(n)-∑[A094723(n)]`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A116746
@@ -8387,7 +8372,7 @@ def P1639292732140373903.Spec : Prop :=
 
 theorem P1639292732140373903.correct : P1639292732140373903.Spec := by
   intro n
-  simp only [A116746, Nat.add_sub_cancel, A116746.P1639292732140373903.f1, A116746.P1639292732140373903.f2, A116746.P1639292732140373903.a, A116746.P3587289007981454688.f1, A116746.P3587289007981454688.a, A000244, A000244.P17162167222172810417.a, A008776, A008776.P11088121667404015999.a, A094723, A094723.P7094102109919281291.a, SequenceMachineLib.memo_apply]
+  simp only [A116746, Nat.add_sub_cancel, A116746.P1639292732140373903.f1, A116746.P1639292732140373903.f2, A116746.P1639292732140373903.a, A116746.P3587289007981454688.f1, A116746.P3587289007981454688.a, A000244, A000244.P17162167222172810417.a, A008776, A008776.P11088121667404015999.a, A094723, A094723.P8528676837735626446.a, A000129, A000129.P3563729298025900801.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -8422,7 +8407,7 @@ def P7128593417279468083.Spec : Prop :=
 
 theorem P7128593417279468083.correct : P7128593417279468083.Spec := by
   intro n
-  simp only [A116746, Nat.add_sub_cancel, A116746.P7128593417279468083.f1, A116746.P7128593417279468083.f2, A116746.P7128593417279468083.a, A116746.P3587289007981454688.f1, A116746.P3587289007981454688.a, A008776, A008776.P11088121667404015999.a, A094723, A094723.P7094102109919281291.a, A168610, A168610.P14704023943450790163.a, SequenceMachineLib.memo_apply]
+  simp only [A116746, Nat.add_sub_cancel, A116746.P7128593417279468083.f1, A116746.P7128593417279468083.f2, A116746.P7128593417279468083.a, A116746.P3587289007981454688.f1, A116746.P3587289007981454688.a, A008776, A008776.P11088121667404015999.a, A094723, A094723.P8528676837735626446.a, A168610, A168610.P14704023943450790163.a, A000129, A000129.P3563729298025900801.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -8879,7 +8864,7 @@ end A116756.P10645796527288831562
 /-!
 # A116757: Number of permutations of length n which avoid the patterns 1324, 2314, 4312.
 
-The programs for A116757, the canonical program `A116757.P14793402824670207077` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116757 has offset 1).
+The programs for A116757, the canonical program `A116757.P14793402824670207077` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116757 has offset 1).
 
 The definition of A116757 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 317 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8966,7 +8951,7 @@ end A116757
 
 `∑[A001815(n)+n]+1`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A116757
@@ -9488,8 +9473,29 @@ end A116767.P10617446728053067395
 /-!
 # A116768: Number of permutations of length n which avoid the patterns 1342, 3214, 4213.
 
-The programs for A116768, there is no canonical definition to state claims against.
+The programs for A116768, the canonical program `A116768.P5552017234963093561` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116768 has offset 1).
+
+The definition of A116768 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A116768.P5552017234963093561
+
+`3*(n+1)+5*A000045(2*(n+1)-1)-7*2^n`
+
+The canonical program, it is in `Seq.B001.C005`.
+-/
+
+namespace A116768
+
+/-- `3*(n+1)+5*A000045(2*(n+1)-1)-7*2^n` -/
+def P5552017234963093561.Spec : Prop :=
+  ∀ n, P5552017234963093561.a n = A116768 (n + 1)
+
+theorem P5552017234963093561.correct : P5552017234963093561.Spec := by
+  intro n
+  simp only [A116768, Nat.add_sub_cancel]
+
+end A116768
 
 /-! ## A116768.P15129199030242394345
 
@@ -9506,6 +9512,14 @@ end
 
 end A116768.P15129199030242394345
 
+namespace A116768
+
+/-- `A116754(n+1)+A054634(A052521(n))` -/
+def P15129199030242394345.Spec : Prop :=
+  ∀ n, P15129199030242394345.a n = A116768 (n + 1)
+
+end A116768
+
 /-! ## A116768.P10040072937712245204
 
 `A116788(n+1)-A280317(A007580(n))`
@@ -9520,6 +9534,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A116768.P10040072937712245204
+
+namespace A116768
+
+/-- `A116788(n+1)-A280317(A007580(n))` -/
+def P10040072937712245204.Spec : Prop :=
+  ∀ n, P10040072937712245204.a n = A116768 (n + 1)
+
+end A116768
 
 /-!
 # A116769: Number of permutations of length n which avoid the patterns 1234, 4123, 4132.
@@ -9737,7 +9759,7 @@ end A116773.P9082755107725473442
 /-!
 # A116774: Number of permutations of length n which avoid the patterns 2143, 2341, 4312; or avoid the patterns 1234, 1432, 3412.
 
-The programs for A116774, the canonical program `A116774.P7955953011893595407` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116774 has offset 1).
+The programs for A116774, the canonical program `A116774.P7955953011893595407` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A116774 has offset 1).
 
 The definition of A116774 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9746,7 +9768,7 @@ The definition of A116774 is `conjectured`: the Lean definition is a formula tha
 
 `A000124(n)+∑[∑[A103290(n)]]`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A116774
@@ -10845,6 +10867,29 @@ theorem P6589379330823032507.correct : P6589379330823032507.Spec := by
 
 end A116796
 
+/-! ## A116796.P2416895878852034921
+
+`1+(2*n*A000032(2*n)-A000045(2*n))/5`
+-/
+
+namespace A116796.P2416895878852034921
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  1 + ((2 * n : ℤ) * A000032 (2 * n) - A000045 (2 * n) : ℚ) / 5
+
+end
+
+end A116796.P2416895878852034921
+
+namespace A116796
+
+/-- `1+(2*n*A000032(2*n)-A000045(2*n))/5` -/
+def P2416895878852034921.Spec : Prop :=
+  ∀ n, P2416895878852034921.a n = (A116796 (n + 1) : ℚ)
+
+end A116796
+
 /-! ## A116796.P1314565600155158949
 
 `A001629(2*n)+1`
@@ -11284,29 +11329,6 @@ namespace A116796
 /-- `A010049(2*n+1)-A000071(2*n+1)` -/
 def P10245113224455264029.Spec : Prop :=
   ∀ n, P10245113224455264029.a n = A116796 (n + 1)
-
-end A116796
-
-/-! ## A116796.P14390698327338342389
-
-`A006490(2*n+1)+1-A006367(2*n)`
--/
-
-namespace A116796.P14390698327338342389
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006490 (2 * n + 1) + (1 - A006367 (2 * n))
-
-end
-
-end A116796.P14390698327338342389
-
-namespace A116796
-
-/-- `A006490(2*n+1)+1-A006367(2*n)` -/
-def P14390698327338342389.Spec : Prop :=
-  ∀ n, P14390698327338342389.a n = A116796 (n + 1)
 
 end A116796
 

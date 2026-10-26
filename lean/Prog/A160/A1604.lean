@@ -5,6 +5,7 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -12,7 +13,9 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -21,8 +24,9 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C032
-import Seq.B000.C038
+import Seq.B000.C026
+import Seq.B000.C033
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -32,26 +36,26 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -2462,7 +2466,7 @@ end A160416.P5556971031437164492
 /-!
 # A160417: a(n) = A160415(n+1)/4.
 
-The programs for A160417, the canonical program `A160417.P5505954181710526844` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160417 has offset 1).
+The programs for A160417, the canonical program `A160417.P5505954181710526844` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160417 has offset 1).
 
 The definition of A160417 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1091 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2496,7 +2500,7 @@ end A160417
 
 `floor(A160797(n+2)/3)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A160417
@@ -5215,7 +5219,7 @@ end A160450
 /-!
 # A160451: a(n) = (4/3)*u*(u^3+6*u^2+8*u-3) where u=floor((3*n+5)/2).
 
-The programs for A160451, the canonical program `A160451.P1535954668451377781` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160451 has offset 1).
+The programs for A160451, the canonical program `A160451.P1535954668451377781` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160451 has offset 1).
 
 The definition of A160451 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 160 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5224,7 +5228,7 @@ The definition of A160451 is `conjectured`: the Lean definition is a formula tha
 
 `8*A033568(A001318(n+3))`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A160451
@@ -5553,7 +5557,7 @@ end A160454.P11474753263032797585
 /-!
 # A160455: Number of triangles that can be built from rods with lengths 1,2,...,n by using and concatenating all rods.
 
-The programs for A160455, the canonical program `A160455.P8880904531920314958` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160455 has offset 3).
+The programs for A160455, the canonical program `A160455.P8880904531920314958` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160455 has offset 3).
 
 The definition of A160455 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 138 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5595,7 +5599,7 @@ end A160455
 
 `A005044(C(n+4, 2))%Δ[n²²]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A160455
@@ -8923,7 +8927,7 @@ end A160497.P15832282748268460406
 /-!
 # A160498: Number of cubic primitive Dirichlet characters modulo n.
 
-The programs for A160498, the canonical program `A160498.P18345148161744705762` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160498 has offset 1).
+The programs for A160498, the canonical program `A160498.P18345148161744705762` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160498 has offset 1).
 
 The definition of A160498 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9001,7 +9005,7 @@ end A160498
 
 `∑{d}[n+1, A008683(#)*A060839((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A160498

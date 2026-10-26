@@ -38,19 +38,22 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B002.C000
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C005
+import Seq.B002.C003
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
@@ -58,12 +61,9 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B006.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -73,7 +73,6 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
@@ -11633,6 +11632,29 @@ def P13651322111332460807.Spec : Prop :=
 
 end A063224
 
+/-! ## A063224.P12349958323484371288
+
+`n+floor(n/3)+n%3`
+-/
+
+namespace A063224.P12349958323484371288
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (n : ℤ) + ⌊(n : ℚ) / 3⌋ + ((n % 3 : ℕ) : ℤ)
+
+end
+
+end A063224.P12349958323484371288
+
+namespace A063224
+
+/-- `n+floor(n/3)+n%3` -/
+def P12349958323484371288.Spec : Prop :=
+  ∀ n, P12349958323484371288.a n = A063224 (n + 1)
+
+end A063224
+
 /-! ## A063224.P2851558114836419567
 
 `a(n-1)+a(n-3)-a(n-4)` with `a(0)=0, a(1)=2, a(2)=4, a(3)=4`
@@ -12100,32 +12122,6 @@ namespace A063224
 /-- `∑[2-C(2, dr(∑[n+1]))]` -/
 def P5975153995256372752.Spec : Prop :=
   ∀ n, P5975153995256372752.a n = A063224 (n + 1)
-
-end A063224
-
-/-! ## A063224.P2925925360149600333
-
-`4*n-record[and(n, n+3)]`
--/
-
-namespace A063224.P2925925360149600333
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.land n (n + 3)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (4 * n : ℤ) - (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n) : ℤ)
-
-end
-
-end A063224.P2925925360149600333
-
-namespace A063224
-
-/-- `4*n-record[and(n, n+3)]` -/
-def P2925925360149600333.Spec : Prop :=
-  ∀ n, P2925925360149600333.a n = A063224 (n + 1)
 
 end A063224
 
@@ -21330,33 +21326,6 @@ def P1704290107760799340.Spec : Prop :=
 
 end A063247
 
-/-! ## A063247.P14838024803042124208
-
-`comp[round(4*n/3)]-ceil(xor(1, 5*n)/6)`
--/
-
-namespace A063247.P14838024803042124208
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway (4 * ((n : ℚ) / 3))
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n : ℤ) - ⌈(Nat.xor 1 (5 * n) : ℚ) / 6⌉
-
-end
-
-end A063247.P14838024803042124208
-
-namespace A063247
-
-/-- `comp[round(4*n/3)]-ceil(xor(1, 5*n)/6)` -/
-def P14838024803042124208.Spec : Prop :=
-  ∀ n, P14838024803042124208.a n = A063247 (n + 1)
-
-end A063247
-
 /-! ## A063247.P12863676235286375461
 
 `a(n-2)+a(n-3)-a(n-5)` with `a(0)=1, a(1)=5, a(2)=8, a(3)=11, a(4)=14`
@@ -25073,7 +25042,7 @@ end A063270
 /-!
 # A063271: Largest prime factor of 9^(2n)+1 (A063270).
 
-The programs for A063271, the canonical program `A063271.P3500976719291592108` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063271 has offset 0).
+The programs for A063271, the canonical program `A063271.P3500976719291592108` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A063271 has offset 0).
 
 The definition of A063271 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002592, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -25082,7 +25051,7 @@ The definition of A063271 is `conditional`: the Lean definition is an OEIS formu
 
 `A002592(2*n)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A063271

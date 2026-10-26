@@ -7,6 +7,7 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
@@ -22,7 +23,7 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
+import Seq.B000.C025
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -30,8 +31,10 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,7 +44,10 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -51,6 +57,7 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -59,11 +66,8 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -5281,7 +5285,7 @@ end A025642.P4390035548312448472
 /-!
 # A025643: Exponent of 3 (value of i) in n-th number of form 3^i*8^j.
 
-The programs for A025643, the canonical program `A025643.P3163266294167226647` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025643 has offset 1).
+The programs for A025643, the canonical program `A025643.P3163266294167226647` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025643 has offset 1).
 
 The definition of A025643 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5451,7 +5455,7 @@ end A025643
 
 `A002262(∑[A160242(n+2)]-1)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A025643
@@ -7780,24 +7784,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A025663.P6089764554343928602
-
-/-! ## A025663.P17148226855067898020
-
-`A025640(n+1)^∏{e}[A329316(n), A114811(#)]`
--/
-
-namespace A025663.P17148226855067898020
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A329316 n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A025640 (n + 1) : ℚ) ^ (∏ p ∈ Nat.primeFactors (f1 n).natAbs, A114811 (Nat.factorization (f1 n).natAbs p) : ℤ)
-
-end
-
-end A025663.P17148226855067898020
 
 /-! ## A025663.P15194387378643960527
 
@@ -11412,7 +11398,7 @@ end A025694
 /-!
 # A025695: Index of 2^n within the sequence of the numbers of the form 2^i*10^j.
 
-The programs for A025695, the canonical program `A025695.P4988645077206644745` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025695 has offset 0).
+The programs for A025695, the canonical program `A025695.P4988645077206644745` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025695 has offset 0).
 
 The definition of A025695 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11519,7 +11505,7 @@ end A025695
 
 `A034887(n)+a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A025695
@@ -11673,7 +11659,7 @@ end A025695
 /-!
 # A025696: Index of 3^n within the sequence of the numbers of the form 3^i*4^j.
 
-The programs for A025696, the canonical program `A025696.P10642012608150261714` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025696 has offset 0).
+The programs for A025696, the canonical program `A025696.P10642012608150261714` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025696 has offset 0).
 
 The definition of A025696 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11708,7 +11694,7 @@ end A025696
 
 `∑[ceil(A020914(n)/2)]`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A025696
@@ -12015,7 +12001,7 @@ end A025696
 /-!
 # A025697: Index of 3^n within the sequence of the numbers of the form 3^i*6^j.
 
-The programs for A025697, the canonical program `A025697.P13038111019771636556` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025697 has offset 0).
+The programs for A025697, the canonical program `A025697.P13038111019771636556` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025697 has offset 0).
 
 The definition of A025697 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12050,7 +12036,7 @@ end A025697
 
 `∑[n+1]+1-A025692(n)`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A025697
@@ -12303,7 +12289,7 @@ end A025698.P4962268592615808742
 /-!
 # A025699: Index of 3^n within the sequence of the numbers of the form 3^i*8^j (A025615).
 
-The programs for A025699, the canonical program `A025699.P7745299274468322832` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025699 has offset 0).
+The programs for A025699, the canonical program `A025699.P7745299274468322832` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025699 has offset 0).
 
 The definition of A025699 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12312,7 +12298,7 @@ The definition of A025699 is `conjectured`: the Lean definition is a formula tha
 
 `∑[ceil(A020914(n)/3)]`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A025699

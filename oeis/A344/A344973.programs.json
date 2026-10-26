@@ -17,7 +17,8 @@
         "%"
       ],
       "tags": [
-        "proven"
+        "proven",
+        "definition"
       ]
     },
     {
@@ -34,6 +35,9 @@
         "+",
         "A011772",
         "%"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

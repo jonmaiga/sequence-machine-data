@@ -7,6 +7,7 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C013
 import Seq.B000.C014
@@ -15,43 +16,41 @@ import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C008
+import Seq.B001.C007
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B005.C000
-import Seq.B005.C002
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -575,28 +574,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A153631.P7210730911449528150
-
-/-! ## A153631.P3275987258460474393
-
-`∩[A075821(n+1), A344375(n+1)]`
--/
-
-namespace A153631.P3275987258460474393
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A075821 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A344375 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A153631.P3275987258460474393
 
 /-!
 # A153632: Decimal expansion of log_21 (7).
@@ -1738,78 +1715,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A153640.P4933052899459418092
-
-/-! ## A153640.P4635373567524909567
-
-`p?[A034844(31-A001489(n))]`
--/
-
-namespace A153640.P4635373567524909567
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034844 (31 - A001489 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A153640.P4635373567524909567
-
-/-! ## A153640.P3908898758478736475
-
-`∑{d}[A034844(31-A001489(n)), A000010(#)]`
--/
-
-namespace A153640.P3908898758478736475
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034844 (31 - A001489 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, A000010 d
-
-end
-
-end A153640.P3908898758478736475
-
-/-! ## A153640.P7469228186959374561
-
-`∏{d}[A034844(31-A001489(n)), A014963(#)]`
--/
-
-namespace A153640.P7469228186959374561
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034844 (31 - A001489 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ d ∈ Nat.divisors (f1 n).natAbs, A014963 d
-
-end
-
-end A153640.P7469228186959374561
-
-/-! ## A153640.P834589011868172912
-
-`∏{d}[A034844(31-A001489(n)), A020639(#)]`
--/
-
-namespace A153640.P834589011868172912
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034844 (31 - A001489 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ d ∈ Nat.divisors (f1 n).natAbs, A020639 d
-
-end
-
-end A153640.P834589011868172912
 
 /-!
 # A153641: Nonzero coefficients of the Swiss-Knife polynomials for the computation of Euler, tangent, and Bernoulli numbers (triangle read by rows).
@@ -3845,6 +3750,33 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A153659.P8966427162395297354
+
+/-!
+# A153661: Triangle read by rows: R(n,k) = 2^(composite(n)-composite(k)) mod composite(n), 1<=k<=n.
+
+The programs for A153661, the canonical program `A153661.P2102351254161465420` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153661 has offset 1).
+
+The definition of A153661 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+-/
+
+/-! ## A153661.P2102351254161465420
+
+`(2^(A002808(row(n)+1)-A002808(col(n)+1)))%A002808(row(n)+1)`
+
+The canonical program, it is in `Seq.B003.C002`.
+-/
+
+namespace A153661
+
+/-- `(2^(A002808(row(n)+1)-A002808(col(n)+1)))%A002808(row(n)+1)` -/
+def P2102351254161465420.Spec : Prop :=
+  ∀ n, P2102351254161465420.a n = A153661 (n + 1)
+
+theorem P2102351254161465420.correct : P2102351254161465420.Spec := by
+  intro n
+  simp only [A153661, Nat.add_sub_cancel]
+
+end A153661
 
 /-!
 # A153662: Numbers k such that the fractional part of (3/2)^k is less than 1/k.

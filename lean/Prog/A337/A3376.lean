@@ -9,41 +9,44 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C020
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C030
+import Seq.B000.C027
+import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C034
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
+import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C000
-import Seq.B004.C002
+import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -51,9 +54,7 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -85,6 +86,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import SequenceMachineLib.Triangle
 
 /-!
 # A337600: Number of unordered triples of positive integers summing to n whose set of distinct parts is pairwise coprime, where a singleton is always considered coprime.
@@ -545,7 +547,7 @@ end A337611.P6724183355264042419
 /-!
 # A337615: T(n, k) = binomial(n, k)*sf(n-k)*sf(k) where sf is the subfactorial (A000166). Triangle read by rows, for 0 <= k <= n.
 
-The programs for A337615, the canonical program `A337615.P1242488017580297949` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337615 has offset 0).
+The programs for A337615, the canonical program `A337615.P1242488017580297949` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337615 has offset 0).
 
 The definition of A337615 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2556 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -633,7 +635,7 @@ end A337615
 
 `A000166(A025581(n))*A098825(n)`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A337615
@@ -1593,7 +1595,7 @@ end A337630.P726111591925650937
 /-!
 # A337631: a(n) is the sum of the squares of diameters of all nonempty subsets of {1,2,...,n}.
 
-The programs for A337631, the canonical program `A337631.P9052327234039702644` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337631 has offset 1).
+The programs for A337631, the canonical program `A337631.P9052327234039702644` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337631 has offset 1).
 
 The definition of A337631 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1602,7 +1604,7 @@ The definition of A337631 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^(n+1)*((n-5)*(n+1)+13)-3*(n+1)-13`
 
-The canonical program, it is in `Seq.B000.C036`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A337631
@@ -2108,7 +2110,7 @@ end A337634
 /-!
 # A337635: Number of numbers k <= n such that k is in A095096 and k+1 is in A020899.
 
-The programs for A337635, the canonical program `A337635.P17372032440398467433` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337635 has offset 0).
+The programs for A337635, the canonical program `A337635.P17372032440398467433` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337635 has offset 0).
 
 The definition of A337635 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2199,7 +2201,7 @@ end A337635
 
 `∑[A000007(Δ[A095111(n)]+1)]`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A337635
@@ -2411,7 +2413,7 @@ end A337635
 /-!
 # A337636: Number of numbers k <= n such that k+1 is in A095096 and k is in A020899.
 
-The programs for A337636, the canonical program `A337636.P16176283414138515688` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337636 has offset 0).
+The programs for A337636, the canonical program `A337636.P16176283414138515688` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337636 has offset 0).
 
 The definition of A337636 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2450,7 +2452,7 @@ end A337636
 
 `∑[ceil(Δ[A095111(n)/2])]`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A337636
@@ -2723,7 +2725,7 @@ end A337636
 /-!
 # A337637: Number of numbers k <= n such that both k and k+1 are in A020899.
 
-The programs for A337637, the canonical program `A337637.P9892417587625479301` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337637 has offset 0).
+The programs for A337637, the canonical program `A337637.P9892417587625479301` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337637 has offset 0).
 
 The definition of A337637 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2762,7 +2764,7 @@ end A337637
 
 `∑[A095076(A095076(n)+n)]`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A337637
@@ -4288,6 +4290,23 @@ end A337658.P12969528430499432316
 The programs for A337659, there is no canonical definition to state claims against.
 -/
 
+/-! ## A337659.P5692016045526080955
+
+`A337655(row(n)+1)+A337655(col(n)+1)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A337659.P5692016045526080955
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A337655 (SequenceMachineLib.triRow n + 1) + A337655 (SequenceMachineLib.triCol n + 1)
+
+end
+
+end A337659.P5692016045526080955
+
 /-! ## A337659.P5578150921488511441
 
 `A337660(A245300(n)+1)`
@@ -4304,10 +4323,48 @@ end
 end A337659.P5578150921488511441
 
 /-!
+# A337660: Addition table from A337655, read by antidiagonals.
+
+The programs for A337660, there is no canonical definition to state claims against.
+-/
+
+/-! ## A337660.P12374546706586658358
+
+`A337655(col(n)+1)+A337655(row(n)-col(n)+1)`
+-/
+
+namespace A337660.P12374546706586658358
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A337655 (SequenceMachineLib.triCol n + 1) + A337655 ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1).toNat
+
+end
+
+end A337660.P12374546706586658358
+
+/-!
 # A337661: Triangular array read by rows: T(n,k) = A337655(n) * A337655(k), for 1 <= k <= n.
 
 The programs for A337661, there is no canonical definition to state claims against.
 -/
+
+/-! ## A337661.P9840787691040955443
+
+`A337655(row(n)+1)*A337655(col(n)+1)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A337661.P9840787691040955443
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A337655 (SequenceMachineLib.triRow n + 1) * A337655 (SequenceMachineLib.triCol n + 1)
+
+end
+
+end A337661.P9840787691040955443
 
 /-! ## A337661.P15116019257831479757
 
@@ -4338,6 +4395,27 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A337661.P9717355445393538369
+
+/-!
+# A337662: Multiplication table from A337655, read by antidiagonals.
+
+The programs for A337662, there is no canonical definition to state claims against.
+-/
+
+/-! ## A337662.P7990690679168469787
+
+`A337655(col(n)+1)*A337655(row(n)-col(n)+1)`
+-/
+
+namespace A337662.P7990690679168469787
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A337655 (SequenceMachineLib.triCol n + 1) * A337655 ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1).toNat
+
+end
+
+end A337662.P7990690679168469787
 
 /-!
 # A337664: Number of compositions of n whose set of distinct parts is pairwise coprime, where a singleton is always considered coprime.

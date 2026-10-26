@@ -8,7 +8,6 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -17,23 +16,24 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C026
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C037
+import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -43,28 +43,26 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -8368,14 +8366,14 @@ end A006164
 /-!
 # A006165: a(1) = a(2) = 1; thereafter a(2n+1) = a(n+1) + a(n), a(2n) = 2a(n).
 
-The programs for A006165, the canonical program `A006165.P7053576809501911375` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A006165 has offset 1).
+The programs for A006165, the canonical program `A006165.P2775593661925565035` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A006165 has offset 1).
 
 The definition of A006165 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A006165.P7053576809501911375
+/-! ## A006165.P2775593661925565035
 
-`n+1-a(n-a(a(n-1)-1))` with `a(0)=1, a(1)=1`
+`n+1-a(n-a(a(n-1)-1))` with `a(0)=1`
 
 The canonical program, it is in `Seq.B000.C001`.
 -/
@@ -8383,10 +8381,10 @@ The canonical program, it is in `Seq.B000.C001`.
 namespace A006165
 
 /-- `n+1-a(n-a(a(n-1)-1))` -/
-def P7053576809501911375.Spec : Prop :=
-  ∀ n, P7053576809501911375.a n = A006165 (n + 1)
+def P2775593661925565035.Spec : Prop :=
+  ∀ n, P2775593661925565035.a n = A006165 (n + 1)
 
-theorem P7053576809501911375.correct : P7053576809501911375.Spec := by
+theorem P2775593661925565035.correct : P2775593661925565035.Spec := by
   intro n
   simp only [A006165, Nat.add_sub_cancel]
 
@@ -8415,7 +8413,7 @@ def P17149979231576627033.Spec : Prop :=
 
 theorem P17149979231576627033.correct : P17149979231576627033.Spec := by
   intro n
-  simp only [A006165, Nat.add_sub_cancel, A006165.P17149979231576627033.a, A006165.P7053576809501911375.a, A060973, A060973.P9569280493827899348.a, SequenceMachineLib.memo_apply]
+  simp only [A006165, Nat.add_sub_cancel, A006165.P17149979231576627033.a, A006165.P2775593661925565035.a, A060973, A060973.P9569280493827899348.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -8602,6 +8600,12 @@ namespace A006165
 /-- `1-(a(floor(n-a(a(n-1)-1)))-n)` -/
 def P9016348066931404566.Spec : Prop :=
   ∀ n, P9016348066931404566.a n = A006165 (n + 1)
+
+theorem P9016348066931404566.correct : P9016348066931404566.Spec := by
+  intro n
+  simp only [A006165, Nat.add_sub_cancel, A006165.P9016348066931404566.a, A006165.P2775593661925565035.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  try (first | ring1 | ring_nf)
 
 end A006165
 
@@ -11890,30 +11894,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A006194.P17091938114508184415
-
-/-!
-# A006195: Reversion of Jacobi theta_3.
-
-The programs for A006195, there is no canonical definition to state claims against.
--/
-
-/-! ## A006195.P6659918457589424209
-
-`A026585(record[2*n-A209409(n)])/(-1)^n`
--/
-
-namespace A006195.P6659918457589424209
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (2 * n : ℤ) - A209409 n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A026585 (f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)).toNat : ℚ) / ((-1) ^ n : ℚ)
-
-end
-
-end A006195.P6659918457589424209
 
 /-!
 # A006196: Number of leftist trees with n leaves.

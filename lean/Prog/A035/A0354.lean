@@ -22,26 +22,32 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C023
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -55,14 +61,11 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -88,7 +91,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -6683,8 +6685,29 @@ end A035468.P1025723763679699414
 /-!
 # A035469: Triangle read by rows, the Bell transform of the triple factorial numbers A007559(n+1) without column 0.
 
-The programs for A035469, there is no canonical definition to state claims against.
+The programs for A035469, the canonical program `A035469.P4946721225458458436` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035469 has offset 1).
+
+The definition of A035469 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1092 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A035469.P4946721225458458436
+
+`T(n-1,k-1)+(3*row(n)+col(n)+1)*T(n-1,k)` with `a(0)=1`
+
+The canonical program, it is in `Seq.B000.C006`.
+-/
+
+namespace A035469
+
+/-- `T(n-1,k-1)+(3*row(n)+col(n)+1)*T(n-1,k)` -/
+def P4946721225458458436.Spec : Prop :=
+  ∀ n, (P4946721225458458436.a n : ℤ) = A035469 (n + 1)
+
+theorem P4946721225458458436.correct : P4946721225458458436.Spec := by
+  intro n
+  simp only [A035469, Nat.add_sub_cancel]
+
+end A035469
 
 /-! ## A035469.P14983334282404880010
 
@@ -6708,6 +6731,14 @@ end
 
 end A035469.P14983334282404880010
 
+namespace A035469
+
+/-- `A371080(comp[∑[n]])` -/
+def P14983334282404880010.Spec : Prop :=
+  ∀ n, P14983334282404880010.a n = A035469 (n + 1)
+
+end A035469
+
 /-! ## A035469.P3947109964050305414
 
 `filter[A371080(n+1), A022932(#)]`
@@ -6725,6 +6756,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035469.P3947109964050305414
+
+namespace A035469
+
+/-- `filter[A371080(n+1), A022932(#)]` -/
+def P3947109964050305414.Spec : Prop :=
+  ∀ n, P3947109964050305414.a n = A035469 (n + 1)
+
+end A035469
 
 /-! ## A035469.P16444547771842641195
 
@@ -6744,6 +6783,14 @@ end
 
 end A035469.P16444547771842641195
 
+namespace A035469
+
+/-- `filter[A371080(n+1), A023532(#)]` -/
+def P16444547771842641195.Spec : Prop :=
+  ∀ n, P16444547771842641195.a n = A035469 (n + 1)
+
+end A035469
+
 /-! ## A035469.P3575864793715491409
 
 `filter[A371080(n+1), A090171(#)]`
@@ -6762,23 +6809,13 @@ end
 
 end A035469.P3575864793715491409
 
-/-! ## A035469.P1850673958032981267
+namespace A035469
 
-`filter[A371080(n+1), A145568(#)]`
--/
+/-- `filter[A371080(n+1), A090171(#)]` -/
+def P3575864793715491409.Spec : Prop :=
+  ∀ n, P3575864793715491409.a n = A035469 (n + 1)
 
-namespace A035469.P1850673958032981267
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A371080 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A145568 (f1 j).toNat = 1) n)
-
-end
-
-end A035469.P1850673958032981267
+end A035469
 
 /-!
 # A035470: Number of ways to break {1,2,3,...,n} into sets with equal sums.
@@ -7328,24 +7365,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035475.P9933031855106447309
-
-/-! ## A035475.P4425168658875154153
-
-`filter[A035707(n), A353682(#)]`
--/
-
-namespace A035475.P4425168658875154153
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035707 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A353682 (f1 j).toNat = 1) n)
-
-end
-
-end A035475.P4425168658875154153
 
 /-!
 # A035476: Coordination sequence for lattice D*_14 (with edges defined by l_1 norm = 1).
@@ -9713,27 +9732,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A035494.P5171762261085200518
-
-/-! ## A035494.P4865267368907987635
-
-`∑{d}[record[A035493(A028310(n))], A000010(#)]`
--/
-
-namespace A035494.P4865267368907987635
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035493 (A028310 n).toNat
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, A000010 d
-
-end
-
-end A035494.P4865267368907987635
 
 /-! ## A035494.P3739185619738102081
 

@@ -5,6 +5,7 @@ import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -15,44 +16,44 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C030
+import Seq.B000.C026
 import Seq.B000.C031
-import Seq.B000.C035
-import Seq.B000.C037
-import Seq.B000.C038
+import Seq.B000.C032
+import Seq.B000.C036
+import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B005.C002
+import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.Opaque.C000
@@ -84,7 +85,7 @@ import Seq.Opaque.C025
 /-!
 # A380200: a(n) = A379343(A379343(n)).
 
-The programs for A380200, the canonical program `A380200.P14247511761982515309` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380200 has offset 1).
+The programs for A380200, the canonical program `A380200.P14247511761982515309` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380200 has offset 1).
 
 The definition of A380200 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A379343, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -93,7 +94,7 @@ The definition of A380200 is `conditional`: the Lean definition is an OEIS formu
 
 `A379343(A379343(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A380200
@@ -1609,7 +1610,7 @@ end A380229.P1807685694360299580
 /-!
 # A380230: a(n) = n*A070939(n).
 
-The programs for A380230, the canonical program `A380230.P9860135547969315712` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380230 has offset 0).
+The programs for A380230, the canonical program `A380230.P9860135547969315712` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380230 has offset 0).
 
 The definition of A380230 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*A070939(n)` (program `A380230.P9860135547969315712`, by `A380230.P9860135547969315712.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1618,7 +1619,7 @@ The definition of A380230 is `verified`: the Lean definition is proven equivalen
 
 `n*A070939(n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A380230
@@ -2422,7 +2423,7 @@ end A380239.P1215544433659024888
 /-!
 # A380242: Number of rooted 6-regular planar maps with n vertices.
 
-The programs for A380242, the canonical program `A380242.P6520623249172853521` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380242 has offset 0).
+The programs for A380242, the canonical program `A380242.P6520623249172853521` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380242 has offset 0).
 
 The definition of A380242 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2431,7 +2432,7 @@ The definition of A380242 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*10^n*(3*n)!/(n!*(2*n+2)!)`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A380242
@@ -2537,7 +2538,7 @@ end A380242
 /-!
 # A380243: Number of rooted 2n-regular planar maps with 3 vertices.
 
-The programs for A380243, the canonical program `A380243.P1182176127585751644` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380243 has offset 1).
+The programs for A380243, the canonical program `A380243.P1182176127585751644` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380243 has offset 1).
 
 The definition of A380243 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2546,7 +2547,7 @@ The definition of A380243 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*C(2*(n+1)-1, n+1)^3`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A380243
@@ -2927,7 +2928,7 @@ end A380244.P17762715342379929855
 /-!
 # A380245: a(n) = A378684(A379343(n)).
 
-The programs for A380245, the canonical program `A380245.P13671026361183525430` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380245 has offset 1).
+The programs for A380245, the canonical program `A380245.P13671026361183525430` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380245 has offset 1).
 
 The definition of A380245 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A378684, A379343, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2936,7 +2937,7 @@ The definition of A380245 is `conditional`: the Lean definition is an OEIS formu
 
 `A378684(A379343(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A380245
@@ -3445,7 +3446,7 @@ end A380246.P1624944919918760088
 /-!
 # A380249: a(n) = 4^n - binomial(n,2)*3^(n-2).
 
-The programs for A380249, the canonical program `A380249.P3319547393693526859` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380249 has offset 0).
+The programs for A380249, the canonical program `A380249.P3319547393693526859` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380249 has offset 0).
 
 The definition of A380249 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3454,7 +3455,7 @@ The definition of A380249 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4^n-C(n, 2)*3^(n-2)`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A380249
@@ -4339,7 +4340,7 @@ end A380280.P2098109787063415687
 /-!
 # A380281: Triangle T(n, k) read by rows: T(n, k) = 2^n*binomial(2*n + 1, 2*k + 1) * Pochhammer(1/2, n - k) * Pochhammer(1/2, k).
 
-The programs for A380281, the canonical program `A380281.P6966654181893979849` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380281 has offset 0).
+The programs for A380281, the canonical program `A380281.P6966654181893979849` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380281 has offset 0).
 
 The definition of A380281 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1501 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4348,7 +4349,7 @@ The definition of A380281 is `conjectured`: the Lean definition is a formula tha
 
 `A103327(n)*A173424(n)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A380281
@@ -4586,23 +4587,29 @@ end A380287.P8919475376642652100
 /-!
 # A380288: a(n) is the number of divisors d of n such that 2^d - 1 is not prime.
 
-The programs for A380288, there is no canonical definition to state claims against.
+The programs for A380288, the canonical program `A380288.P9721759158945038093` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380288 has offset 1).
+
+The definition of A380288 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A379590, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A380288.P9721759158945038093
 
 `A000005(n+1)-A379590(n+1)`
+
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
-namespace A380288.P9721759158945038093
-noncomputable section
+namespace A380288
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000005 (n + 1) - A379590 (n + 1)
+/-- `A000005(n+1)-A379590(n+1)` -/
+def P9721759158945038093.Spec : Prop :=
+  ∀ n, P9721759158945038093.a n = A380288 (n + 1)
 
-end
+theorem P9721759158945038093.correct : P9721759158945038093.Spec := by
+  intro n
+  simp only [A380288, Nat.add_sub_cancel]
 
-end A380288.P9721759158945038093
+end A380288
 
 /-! ## A380288.P3629226489002417089
 
@@ -4619,6 +4626,14 @@ end
 
 end A380288.P3629226489002417089
 
+namespace A380288
+
+/-- `A179941(n+1)-A379590(n+1)` -/
+def P3629226489002417089.Spec : Prop :=
+  ∀ n, P3629226489002417089.a n = A380288 (n + 1)
+
+end A380288
+
 /-! ## A380288.P13152431731402382969
 
 `A076142(A324922(n+1))+A033273(n+1)`
@@ -4634,6 +4649,14 @@ end
 
 end A380288.P13152431731402382969
 
+namespace A380288
+
+/-- `A076142(A324922(n+1))+A033273(n+1)` -/
+def P13152431731402382969.Spec : Prop :=
+  ∀ n, P13152431731402382969.a n = A380288 (n + 1)
+
+end A380288
+
 /-! ## A380288.P17584750197315519879
 
 `A000005(n+1)-(A001221(n+1)-A076142(A324922(n+1)))`
@@ -4648,6 +4671,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A380288.P17584750197315519879
+
+namespace A380288
+
+/-- `A000005(n+1)-(A001221(n+1)-A076142(A324922(n+1)))` -/
+def P17584750197315519879.Spec : Prop :=
+  ∀ n, P17584750197315519879.a n = A380288 (n + 1)
+
+end A380288
 
 /-!
 # A380289: Unitary Double Zumkeller numbers: numbers whose set of unitary divisors can be partitioned into two disjoint sets with equal sums and equal cardinalities.

@@ -20,33 +20,36 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C039
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
+import Seq.B002.C002
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C000
@@ -55,11 +58,12 @@ import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
-import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5160,25 +5164,6 @@ end
 
 end A004517.P16309747276294993627
 
-/-! ## A004517.P10225863947557177417
-
-`char[A017250(n)]-(A001489(n)-A309995(n))`
--/
-
-namespace A004517.P10225863947557177417
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A017250 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) - (A001489 n - A309995 n)
-
-end
-
-end A004517.P10225863947557177417
-
 /-! ## A004517.P17738026890325387735
 
 `log(A020985(n)²)-(A001489(n)-A309995(n))`
@@ -6802,6 +6787,29 @@ The programs for A004524, the canonical program `A004524.P8943215836771390324` i
 The definition of A004524 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A004524.P13401617350853965623
+
+`n/2-sqrt(n²%8)/2`
+-/
+
+namespace A004524.P13401617350853965623
+noncomputable section
+
+def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
+  ((n : ℚ) / 2 : ℝ) - Real.sqrt ((n ^ 2 % 8 : ℕ) : ℝ) / 2
+
+end
+
+end A004524.P13401617350853965623
+
+namespace A004524
+
+/-- `n/2-sqrt(n²%8)/2` -/
+def P13401617350853965623.Spec : Prop :=
+  ∀ n, P13401617350853965623.a n = (A004524 n : ℝ)
+
+end A004524
+
 /-! ## A004524.P8943215836771390324
 
 `floor(n/4)+floor((n+1)/4)`
@@ -7276,29 +7284,6 @@ namespace A004524
 /-- `ogf(x^3/(1-2x+2x^2-2x^3+x^4))` -/
 def P5624862850580591226.Spec : Prop :=
   ∀ n, P5624862850580591226.a n = A004524 n
-
-end A004524
-
-/-! ## A004524.P8105356038653325274
-
-`floor(sqrt(A387541(n)))`
--/
-
-namespace A004524.P8105356038653325274
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.sqrt (A387541 n)
-
-end
-
-end A004524.P8105356038653325274
-
-namespace A004524
-
-/-- `floor(sqrt(A387541(n)))` -/
-def P8105356038653325274.Spec : Prop :=
-  ∀ n, P8105356038653325274.a n = A004524 n
 
 end A004524
 

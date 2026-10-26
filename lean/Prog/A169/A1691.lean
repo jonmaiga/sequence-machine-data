@@ -5,8 +5,8 @@ import Seq.B003.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
-import Seq.Opaque.C011
-import Seq.Opaque.C015
+import Seq.Opaque.C010
+import Seq.Opaque.C014
 
 /-!
 # A169114: Number of reduced words of length n in Coxeter group on 5 generators S_i with relations (S_i)^2 = (S_i S_j)^26 = I.

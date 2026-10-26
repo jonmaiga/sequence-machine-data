@@ -3,42 +3,47 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C025
 import Seq.B000.C027
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C033
+import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
@@ -50,15 +55,13 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -84,7 +87,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A359900: Number of strict odd-length integer partitions of n whose parts do not have the same mean as median.
@@ -1501,27 +1503,50 @@ end A359924.P4185532303460076285
 /-!
 # A359925: Numbers with easy multiplication table - the first 9 multiples of these numbers can be derived by either incrementing or decrementing the corresponding digits from the previous multiple.
 
-The programs for A359925, the canonical program `A359925.P12258298689355997822` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359925 has offset 1).
+The programs for A359925, the canonical program `A359925.P12394526853155379394` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359925 has offset 1).
 
-The definition of A359925 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A359925 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A359925.P12394526853155379394
+
+`10*a(floor((n+1)/2)-1)+2*(n+1)%2-1` with `a(0)=1`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A359925
+
+/-- `10*a(floor((n+1)/2)-1)+2*(n+1)%2-1` -/
+def P12394526853155379394.Spec : Prop :=
+  ∀ n, P12394526853155379394.a n = A359925 (n + 1)
+
+theorem P12394526853155379394.correct : P12394526853155379394.Spec := by
+  intro n
+  simp only [A359925, Nat.add_sub_cancel]
+
+end A359925
 
 /-! ## A359925.P12258298689355997822
 
 `xor(10*a(floor((n-1)/2)), A010684(n))` with `a(0)=1`
-
-The canonical program, it is in `Seq.B001.C009`.
 -/
+
+namespace A359925.P12258298689355997822
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  Int.xor (10 * a ⌊((n : ℤ) - 1 : ℚ) / 2⌋.toNat) (A010684 n)
+
+end
+
+end A359925.P12258298689355997822
 
 namespace A359925
 
 /-- `xor(10*a(floor((n-1)/2)), A010684(n))` -/
 def P12258298689355997822.Spec : Prop :=
   ∀ n, P12258298689355997822.a n = A359925 (n + 1)
-
-theorem P12258298689355997822.correct : P12258298689355997822.Spec := by
-  intro n
-  simp only [A359925, Nat.add_sub_cancel]
 
 end A359925
 
@@ -1951,7 +1976,7 @@ end A359936.P3293111810000032418
 /-!
 # A359937: a(n) = Sum_{d|n, d-1 is square} d.
 
-The programs for A359937, the canonical program `A359937.P598369541804672827` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359937 has offset 1).
+The programs for A359937, the canonical program `A359937.P598369541804672827` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359937 has offset 1).
 
 The definition of A359937 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1960,7 +1985,7 @@ The definition of A359937 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A010052(#-1)]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A359937
@@ -2024,7 +2049,7 @@ end A359937
 /-!
 # A359938: Number of divisors d of n such that d-1 is square.
 
-The programs for A359938, the canonical program `A359938.P2187253484977344488` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359938 has offset 1).
+The programs for A359938, the canonical program `A359938.P2187253484977344488` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359938 has offset 1).
 
 The definition of A359938 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2033,7 +2058,7 @@ The definition of A359938 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A010052(#-1)]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A359938
@@ -2249,7 +2274,7 @@ end A359941.P16163769451501119048
 /-!
 # A359943: a(n) = Sum_{d|n, d-1 is cube} d.
 
-The programs for A359943, the canonical program `A359943.P9077713032475342239` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359943 has offset 1).
+The programs for A359943, the canonical program `A359943.P9077713032475342239` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359943 has offset 1).
 
 The definition of A359943 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2258,7 +2283,7 @@ The definition of A359943 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A010057(#-1)]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A359943
@@ -2503,7 +2528,7 @@ end A359947.P8229120942236262568
 /-!
 # A359949: Multiplicative sequence with a(p) = 3*p-1 and a(p^e) = (3*e*(p-1) + 3) * p^(e-1) for e > 1 and prime p.
 
-The programs for A359949, the canonical program `A359949.P7223717125220601482` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359949 has offset 1).
+The programs for A359949, the canonical program `A359949.P7223717125220601482` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359949 has offset 1).
 
 The definition of A359949 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2512,7 +2537,7 @@ The definition of A359949 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A029935(#)*A073185((n+1)/#)]`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A359949
@@ -2668,7 +2693,7 @@ end A359953.P561555408393048648
 /-!
 # A359954: a(n) = Sum_{d|n} tau(d)*phi(d)*mu(n/d).
 
-The programs for A359954, the canonical program `A359954.P251505247951898520` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359954 has offset 1).
+The programs for A359954, the canonical program `A359954.P251505247951898520` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359954 has offset 1).
 
 The definition of A359954 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2729,7 +2754,7 @@ end A359954
 
 `∑{d}[n+1, A007432(#)*A333645((n+1)/#)]`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A359954
@@ -3970,7 +3995,7 @@ end A359984.P16174422950036832477
 /-!
 # A359987: Number of edge cuts in the n-ladder graph P_2 X P_n.
 
-The programs for A359987, the canonical program `A359987.P9713073542485974720` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359987 has offset 1).
+The programs for A359987, the canonical program `A359987.P9713073542485974720` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A359987 has offset 1).
 
 The definition of A359987 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3979,7 +4004,7 @@ The definition of A359987 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `13*a(n-1)-42*a(n-2)+16*a(n-3)` with `a(0)=1, a(1)=11, a(2)=105`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A359987

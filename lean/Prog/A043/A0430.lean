@@ -13,19 +13,21 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C026
+import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -34,6 +36,8 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -41,21 +45,19 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -71,13 +73,15 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C015
+import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -91,7 +95,7 @@ set_option linter.unreachableTactic false
 /-!
 # A043000: Number of digits in all base-b representations of n, for 2 <= b <= n.
 
-The programs for A043000, the canonical program `A043000.P5300660856599463689` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043000 has offset 2).
+The programs for A043000, the canonical program `A043000.P5300660856599463689` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043000 has offset 2).
 
 The definition of A043000 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A255165, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -100,7 +104,7 @@ The definition of A043000 is `conditional`: the Lean definition is an OEIS formu
 
 `n+1+A255165(n+2)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A043000
@@ -8042,24 +8046,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043035.P4620842498930293187
-
-/-! ## A043035.P14195936853691442194
-
-`ratio[A033999(n)]+9*A043079(n+1)`
--/
-
-namespace A043035.P14195936853691442194
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033999 n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (f1 (n + 1) : ℚ) / (f1 n : ℚ) + (9 * A043079 (n + 1) : ℚ)
-
-end
-
-end A043035.P14195936853691442194
 
 /-! ## A043035.P303583041055199463
 
@@ -17778,25 +17764,6 @@ end
 
 end A043085.P3447185813925804046
 
-/-! ## A043085.P2974600930132567810
-
-`round(A043041(n+1)/10)*char[A004442(n)]`
--/
-
-namespace A043085.P2974600930132567810
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004442 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A043041 (n + 1) : ℚ) / 10) * ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A043085.P2974600930132567810
-
 /-! ## A043085.P11220865627243807663
 
 `A007814(2*n+1)+round(A043041(n+1)/10)`
@@ -17856,24 +17823,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043085.P5746597726970318564
-
-/-! ## A043085.P12977268481651618796
-
-`∑{d}[round(A043041(n+1)/10), A000010(#)]`
--/
-
-namespace A043085.P12977268481651618796
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A043041 (n + 1) : ℚ) / 10)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, A000010 d
-
-end
-
-end A043085.P12977268481651618796
 
 /-! ## A043085.P11090165980931478429
 
@@ -18180,24 +18129,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A043086.P3733556806506682173
-
-/-! ## A043086.P16777395311833669946
-
-`∏{d}[round(A043042(n+1)/10), A014963(#)]`
--/
-
-namespace A043086.P16777395311833669946
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A043042 (n + 1) : ℚ) / 10)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ d ∈ Nat.divisors (f1 n).natAbs, A014963 d
-
-end
-
-end A043086.P16777395311833669946
 
 /-! ## A043086.P16037289099987416112
 
@@ -19383,7 +19314,7 @@ end A043091.P10949639850019924900
 /-!
 # A043092: Numbers in which every string of 2 consecutive base 6 digits contains exactly 2 distinct numbers.
 
-The programs for A043092, the canonical program `A043092.P216657703328045798` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043092 has offset 1).
+The programs for A043092, the canonical program `A043092.P216657703328045798` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043092 has offset 1).
 
 The definition of A043092 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4531 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -19392,7 +19323,7 @@ The definition of A043092 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A043280((n-1)%(n+1)+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A043092

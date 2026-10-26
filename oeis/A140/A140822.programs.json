@@ -2,6 +2,26 @@
   "oi": 140822,
   "ps": [
     {
+      "d": "2026-10-25",
+      "ix": "C(row(n), gcd(row(n), col(n)))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "row",
+        "n",
+        "row",
+        "n",
+        "col",
+        "gcd",
+        "C"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven",
+        "definition"
+      ]
+    },
+    {
       "d": "2022-07-04",
       "ix": "C(∑[char[∑[n+1]]], gcd(C(∑[char[∑[n]]], 2)+n, ∑[char[∑[n+1]]]))",
       "mt": 10000,

@@ -4,29 +4,29 @@ import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C014
+import Seq.B000.C016
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C027
-import Seq.B000.C032
-import Seq.B000.C038
-import Seq.B000.C039
-import Seq.B002.C003
-import Seq.B003.C001
-import Seq.B007.C001
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C033
+import Seq.B000.C040
+import Seq.B001.C002
+import Seq.B002.C004
+import Seq.B007.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
-import Seq.Opaque.C004
-import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C012
-import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C017
 import Seq.Opaque.C019
@@ -403,7 +403,7 @@ end A388139.P14675398183998807399
 /-!
 # A388140: Number of axis-aligned 2 X 2 squares in the 3D projection of a 3n-dimensional hypercube with side length 2.
 
-The programs for A388140, the canonical program `A388140.P16253514462590538591` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388140 has offset 1).
+The programs for A388140, the canonical program `A388140.P16253514462590538591` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388140 has offset 1).
 
 The definition of A388140 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -412,7 +412,7 @@ The definition of A388140 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*2^(n+1)*(2^(n+1)-1)²`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A388140
@@ -560,60 +560,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A388144.P1915862892844873207
-
-/-! ## A388144.P2700394128462684606
-
-`filter[A007532(n+2), A102609(#)]`
--/
-
-namespace A388144.P2700394128462684606
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007532 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A102609 (f1 j).toNat = 1) n)
-
-end
-
-end A388144.P2700394128462684606
-
-/-! ## A388144.P18256928070353719868
-
-`filter[A007532(n+2), A267959(#)]`
--/
-
-namespace A388144.P18256928070353719868
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007532 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A267959 (f1 j).toNat = 1) n)
-
-end
-
-end A388144.P18256928070353719868
-
-/-! ## A388144.P9245696511290887454
-
-`filter[A061862(n+3), A102609(#)]`
--/
-
-namespace A388144.P9245696511290887454
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061862 (n + 3)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A102609 (f1 j).toNat = 1) n)
-
-end
-
-end A388144.P9245696511290887454
 
 /-!
 # A388149: Number of partial permutations of [2n] that have exactly n cycles.

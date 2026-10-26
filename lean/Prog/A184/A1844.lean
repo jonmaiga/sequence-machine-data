@@ -15,7 +15,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -25,7 +24,6 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -37,45 +35,47 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
+import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
-import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
@@ -83,11 +83,11 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -1821,7 +1821,7 @@ end A184416.P15384072859132374509
 /-!
 # A184417: p^2 + (p+2)^2 - 1 where (p,p+2) is the n-th twin prime pair.
 
-The programs for A184417, the canonical program `A184417.P16121788187254490956` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184417 has offset 1).
+The programs for A184417, the canonical program `A184417.P16121788187254490956` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184417 has offset 1).
 
 The definition of A184417 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A063533, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1830,7 +1830,7 @@ The definition of A184417 is `conditional`: the Lean definition is an OEIS formu
 
 `A063533(n+1)-1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A184417
@@ -3406,7 +3406,7 @@ end A184422.P7788918723925368958
 /-!
 # A184423: a(n) = (2*n)!*(3*n)!/n!^5.
 
-The programs for A184423, the canonical program `A184423.P3303203828994434715` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184423 has offset 0).
+The programs for A184423, the canonical program `A184423.P3303203828994434715` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184423 has offset 0).
 
 The definition of A184423 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3438,7 +3438,7 @@ end A184423
 
 `A006480(n)*A000984(n)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A184423
@@ -3663,7 +3663,7 @@ end A184423
 /-!
 # A184425: Lower s-Wythoff sequence, where s=A000217 (triangular numbers). Complement of A184426.
 
-The programs for A184425, the canonical program `A184425.P8595937253418571360` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184425 has offset 1).
+The programs for A184425, the canonical program `A184425.P8595937253418571360` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184425 has offset 1).
 
 The definition of A184425 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 107 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3990,7 +3990,7 @@ end A184425
 
 `A259361(A007401(2*(n+1)))+n`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A184425
@@ -4529,7 +4529,7 @@ end A184428.P12468730076860168801
 /-!
 # A184429: Lower s-Wythoff sequence of A184429 (quarter-squares). Complement of A184430.
 
-The programs for A184429, the canonical program `A184429.P5122746667245986841` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184429 has offset 1).
+The programs for A184429, the canonical program `A184429.P5122746667245986841` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184429 has offset 1).
 
 The definition of A184429 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4669,7 +4669,7 @@ end A184429
 
 `A135665(A315303(n)+1)+1+n`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A184429
@@ -4992,7 +4992,7 @@ end A184430.P16717942758234788723
 /-!
 # A184431: Lower s-Wythoff sequence, where s=A184431 (eighth-cubes). Complement of A184432.
 
-The programs for A184431, the canonical program `A184431.P12849044017549371650` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184431 has offset 1).
+The programs for A184431, the canonical program `A184431.P12849044017549371650` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184431 has offset 1).
 
 The definition of A184431 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5088,7 +5088,7 @@ end A184431
 
 `comp[A109900(n)+A042965(n+1)]`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A184431
@@ -8988,7 +8988,7 @@ end A184479.P12154568892026241896
 /-!
 # A184480: Lower s-Wythoff sequence, where s(n)=3n. Complement of A001956.
 
-The programs for A184480, the canonical program `A184480.P6499280255303279041` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184480 has offset 1).
+The programs for A184480, the canonical program `A184480.P6499280255303279041` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184480 has offset 1).
 
 The definition of A184480 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9078,7 +9078,7 @@ end A184480
 
 `A080600(n+1)-(2*n+3)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A184480
@@ -10440,24 +10440,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A184484.P8953160785425256396
-
-/-! ## A184484.P12499157974718305685
-
-`filter[n+1, A284368(#)]`
--/
-
-namespace A184484.P12499157974718305685
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A284368 (f1 j) = 1) n)
-
-end
-
-end A184484.P12499157974718305685
 
 /-! ## A184484.P1472248158435494431
 

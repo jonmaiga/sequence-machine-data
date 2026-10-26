@@ -10,13 +10,13 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
-import Seq.B000.C024
+import Seq.B000.C021
+import Seq.B000.C025
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C005
+import Seq.B001.C002
+import Seq.B001.C007
 import Seq.Opaque.C001
-import Seq.Opaque.C004
 import Seq.Opaque.C015
 
 /-!
@@ -541,32 +541,6 @@ namespace A021514
 /-- `A071952(n+4)/2^n` -/
 def P11464062678074670856.Spec : Prop :=
   ∀ n, P11464062678074670856.a n = (A021514 n : ℚ)
-
-end A021514
-
-/-! ## A021514.P9887804354103356604
-
-`abs(A071952(n+4)/Δ[A000079(n)])`
--/
-
-namespace A021514.P9887804354103356604
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000079 n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  |(A071952 (n + 4) : ℚ) / (f1 (n + 1) - f1 n : ℚ)|
-
-end
-
-end A021514.P9887804354103356604
-
-namespace A021514
-
-/-- `abs(A071952(n+4)/Δ[A000079(n)])` -/
-def P9887804354103356604.Spec : Prop :=
-  ∀ n, P9887804354103356604.a n = (A021514 n : ℚ)
 
 end A021514
 

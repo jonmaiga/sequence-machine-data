@@ -5,11 +5,13 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
@@ -22,8 +24,7 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -31,38 +32,40 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C001
-import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
-import Seq.B008.C001
-import Seq.B009.C000
+import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -76,7 +79,6 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
-import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -84,7 +86,6 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
-import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
 
@@ -851,7 +852,7 @@ end A267307.P11555098315746187213
 /-!
 # A267309: Number of discrete vectors with integral components and integral length <= n in a 3-dimensional vector space (Partial sums of A016725).
 
-The programs for A267309, the canonical program `A267309.P7821699450119643871` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267309 has offset 1).
+The programs for A267309, the canonical program `A267309.P7821699450119643871` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267309 has offset 1).
 
 The definition of A267309 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -967,7 +968,7 @@ end A267309
 
 `∑[2*∑{d}[2*(n+1), A086932(#)]]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A267309
@@ -1557,7 +1558,7 @@ end A267312.P12698110295320485246
 /-!
 # A267313: Expansion of x*(-1 + 2*x + 3*x^2 - 2*x^3 + x^4)/((1 - x)^3*(1 + x + x^2)^2).
 
-The programs for A267313, the canonical program `A267313.P697196313425603010` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267313 has offset 0).
+The programs for A267313, the canonical program `A267313.P697196313425603010` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267313 has offset 0).
 
 The definition of A267313 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((-x+2x^2+3x^3-2x^4+x^5)/(1-x-2x^3+2x^4+x^6-x^7))` (program `A267313.P697196313425603010`, by `A267313.P697196313425603010.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1566,7 +1567,7 @@ The definition of A267313 is `verified`: the Lean definition is proven equivalen
 
 `ogf((-x+2x^2+3x^3-2x^4+x^5)/(1-x-2x^3+2x^4+x^6-x^7))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A267313
@@ -2097,7 +2098,7 @@ end A267313
 /-!
 # A267314: Expansion of 2*x*(1 + 2*x - x^2)/((1 - x)*(1 + x^2)^2).
 
-The programs for A267314, the canonical program `A267314.P6341960885231908125` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267314 has offset 0).
+The programs for A267314, the canonical program `A267314.P6341960885231908125` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267314 has offset 0).
 
 The definition of A267314 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((2x+4x^2-2x^3)/(1-x+2x^2-2x^3+x^4-x^5))` (program `A267314.P6341960885231908125`, by `A267314.P6341960885231908125.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2106,7 +2107,7 @@ The definition of A267314 is `verified`: the Lean definition is proven equivalen
 
 `ogf((2x+4x^2-2x^3)/(1-x+2x^2-2x^3+x^4-x^5))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A267314
@@ -2274,7 +2275,7 @@ end A267314
 /-!
 # A267317: a(n) = final digit of 2^n-1.
 
-The programs for A267317, the canonical program `A267317.P6329080606617605531` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267317 has offset 0).
+The programs for A267317, the canonical program `A267317.P6329080606617605531` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267317 has offset 0).
 
 The definition of A267317 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2283,7 +2284,7 @@ The definition of A267317 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-4)` with `a(0)=0, a(1)=1, a(2)=3, a(3)=7, a(4)=5`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A267317
@@ -2301,7 +2302,7 @@ end A267317
 /-!
 # A267318: Continued fraction expansion of e^(1/5).
 
-The programs for A267318, the canonical program `A267318.P16689865365043035329` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267318 has offset 0).
+The programs for A267318, the canonical program `A267318.P16689865365043035329` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267318 has offset 0).
 
 The definition of A267318 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2310,7 +2311,7 @@ The definition of A267318 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+(3+10*floor(n/3))*(1-(n-1)²%3)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A267318
@@ -2784,7 +2785,7 @@ end A267320.P16596580769040492122
 /-!
 # A267322: Expansion of (1 + x + x^2 + x^4 + 2*x^5)/(1 - x^3)^3.
 
-The programs for A267322, the canonical program `A267322.P6403652729324155161` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267322 has offset 0).
+The programs for A267322, the canonical program `A267322.P6403652729324155161` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267322 has offset 0).
 
 The definition of A267322 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1+x+x^2+x^4+2x^5)/(1-3x^3+3x^6-x^9))` (program `A267322.P6403652729324155161`, by `A267322.P6403652729324155161.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2793,7 +2794,7 @@ The definition of A267322 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1+x+x^2+x^4+2x^5)/(1-3x^3+3x^6-x^9))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A267322
@@ -2944,7 +2945,7 @@ end A267324.P9394806461596474546
 /-!
 # A267325: Next n digits of sqrt(2).
 
-The programs for A267325, the canonical program `A267325.P201113642819736612` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267325 has offset 1).
+The programs for A267325, the canonical program `A267325.P201113642819736612` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267325 has offset 1).
 
 The definition of A267325 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2953,7 +2954,7 @@ The definition of A267325 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(2)*10^((n+1)*(n+2)/2-1))%(10^(n+1))`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A267325
@@ -4893,7 +4894,7 @@ end A267350.P14581374138709594743
 /-!
 # A267351: Decimal representation of the n-th iteration of the "Rule 123" elementary cellular automaton starting with a single ON (black) cell.
 
-The programs for A267351, the canonical program `A267351.P7254378362285730718` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267351 has offset 0).
+The programs for A267351, the canonical program `A267351.P7254378362285730718` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267351 has offset 0).
 
 The definition of A267351 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4925,7 +4926,7 @@ end A267351
 
 `or(A146523(n), A266668(n))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A267351
@@ -5012,7 +5013,7 @@ end A267351
 /-!
 # A267352: Number of ON (black) cells in the n-th iteration of the "Rule 123" elementary cellular automaton starting with a single ON (black) cell.
 
-The programs for A267352, the canonical program `A267352.P7889508961147999032` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267352 has offset 0).
+The programs for A267352, the canonical program `A267352.P7889508961147999032` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267352 has offset 0).
 
 The definition of A267352 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5280,7 +5281,7 @@ end A267352
 
 `2*a(n-2)-a(n-4)` with `a(0)=1, a(1)=2, a(2)=3, a(3)=6, a(4)=3`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A267352
@@ -5488,7 +5489,7 @@ end A267352
 /-!
 # A267353: Total number of ON (black) cells after n iterations of the "Rule 123" elementary cellular automaton starting with a single ON (black) cell.
 
-The programs for A267353, the canonical program `A267353.P4531933753211345711` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267353 has offset 0).
+The programs for A267353, the canonical program `A267353.P4531933753211345711` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267353 has offset 0).
 
 The definition of A267353 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5497,7 +5498,7 @@ The definition of A267353 is `conjectured`: the Lean definition is a formula tha
 
 `∑[xor(1, n)]+lcm(2, n)`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A267353
@@ -5998,7 +5999,7 @@ end A267353
 /-!
 # A267354: Number of OFF (white) cells in the n-th iteration of the "Rule 123" elementary cellular automaton starting with a single ON (black) cell.
 
-The programs for A267354, the canonical program `A267354.P7190448961709758717` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267354 has offset 0).
+The programs for A267354, the canonical program `A267354.P7190448961709758717` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267354 has offset 0).
 
 The definition of A267354 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6034,7 +6035,7 @@ end A267354
 
 `n-Δ[gcd(n-1, and(1, n))]`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A267354
@@ -7077,7 +7078,7 @@ end A267365.P11105155842140671356
 /-!
 # A267366: Binary representation of the middle column of the "Rule 126" elementary cellular automaton starting with a single ON (black) cell.
 
-The programs for A267366, the canonical program `A267366.P16052078199144211889` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267366 has offset 0).
+The programs for A267366, the canonical program `A267366.P16052078199144211889` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267366 has offset 0).
 
 The definition of A267366 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7086,7 +7087,7 @@ The definition of A267366 is `conjectured`: the Lean definition is a formula tha
 
 `A036987(n)+10*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A267366
@@ -7219,7 +7220,7 @@ end A267366
 /-!
 # A267367: Decimal representation of the middle column of the "Rule 126" elementary cellular automaton starting with a single ON (black) cell.
 
-The programs for A267367, the canonical program `A267367.P459713566228756321` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267367 has offset 0).
+The programs for A267367, the canonical program `A267367.P459713566228756321` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267367 has offset 0).
 
 The definition of A267367 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7254,7 +7255,7 @@ end A267367
 
 `a(n-1)+A036987(n)+a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A267367
@@ -7993,7 +7994,7 @@ end A267369
 /-!
 # A267370: Partial sums of A140091.
 
-The programs for A267370, the canonical program `A267370.P17383826425187002967` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267370 has offset 0).
+The programs for A267370, the canonical program `A267370.P17383826425187002967` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A267370 has offset 0).
 
 The definition of A267370 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8025,7 +8026,7 @@ end A267370
 
 `A002411(n)+A028895(n)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A267370
@@ -8843,24 +8844,6 @@ end A267373.P16291458990334216453
 The programs for A267374, there is no canonical definition to state claims against.
 -/
 
-/-! ## A267374.P9827278019255384329
-
-`filter[n+1, A267371(#)]`
--/
-
-namespace A267374.P9827278019255384329
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A267371 (f1 j) = 1) n)
-
-end
-
-end A267374.P9827278019255384329
-
 /-! ## A267374.P1166316893708687644
 
 `eq[1, A267371(n+1)]+1`
@@ -9352,24 +9335,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A267379.P8573463583433214499
-
-/-! ## A267379.P795480076419973127
-
-`filter[n+1, A094186(#)]`
--/
-
-namespace A267379.P795480076419973127
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A094186 (f1 j) = 1) n)
-
-end
-
-end A267379.P795480076419973127
 
 /-! ## A267379.P1202007903920899491
 

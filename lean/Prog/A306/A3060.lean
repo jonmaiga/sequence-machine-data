@@ -4,58 +4,63 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C004
+import Seq.B001.C002
 import Seq.B001.C005
-import Seq.B001.C009
+import Seq.B001.C006
+import Seq.B001.C007
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
-import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -531,7 +536,7 @@ end A306012.P15920980075142872016
 /-!
 # A306015: Exponential series expansion of (exp(x*y) + sinh(x) - cosh(x))/(1 - x).
 
-The programs for A306015, the canonical program `A306015.P10934879851139084817` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306015 has offset 0).
+The programs for A306015, the canonical program `A306015.P10934879851139084817` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306015 has offset 0).
 
 The definition of A306015 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2485 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -540,7 +545,7 @@ The definition of A306015 is `conjectured`: the Lean definition is a formula tha
 
 `A094587(n)-A008290(n)*A010054(n)`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A306015
@@ -3625,44 +3630,6 @@ end
 
 end A306056.P14285002475001042789
 
-/-! ## A306056.P14434279710487724300
-
-`char[xor(1, n)]*A306060(A052905(n)+9)`
--/
-
-namespace A306056.P14434279710487724300
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.xor 1 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ) * A306060 (A052905 n + 9).toNat
-
-end
-
-end A306056.P14434279710487724300
-
-/-! ## A306056.P9180714708522581339
-
-`char[A275736(n)]*A306060(A052905(n)+9)`
--/
-
-namespace A306056.P9180714708522581339
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A275736 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A306060 (A052905 n + 9).toNat
-
-end
-
-end A306056.P9180714708522581339
-
 /-! ## A306056.P14463798270987013113
 
 `A007318(C(2, n))*A306060(A055999(n)+10)`
@@ -4142,7 +4109,7 @@ end A306067.P2739339445178348922
 /-!
 # A306069: Partial sums of A286324: Sum_{k=1..n} bd(k) where bd(k) is the number of bi-unitary divisors of k.
 
-The programs for A306069, the canonical program `A306069.P13567570020237059925` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306069 has offset 1).
+The programs for A306069, the canonical program `A306069.P13567570020237059925` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306069 has offset 1).
 
 The definition of A306069 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4151,7 +4118,7 @@ The definition of A306069 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∏{e}[n+1, #%2+#]]`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A306069
@@ -5000,24 +4967,6 @@ end A306080.P11476287673205588955
 
 The programs for A306081, there is no canonical definition to state claims against.
 -/
-
-/-! ## A306081.P13816746593331925528
-
-`∏{p}[A326886(2*C(floor(n/3), 2)+n), #]`
--/
-
-namespace A306081.P13816746593331925528
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326886 (2 * Nat.choose ⌊(n : ℚ) / 3⌋.toNat 2 + n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, p
-
-end
-
-end A306081.P13816746593331925528
 
 /-! ## A306081.P13414502816383601618
 

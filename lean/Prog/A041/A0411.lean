@@ -8,7 +8,6 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
@@ -16,31 +15,35 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
-import Seq.B000.C020
+import Seq.B000.C019
 import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C022
 import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C025
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
+import Seq.B000.C034
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C005
-import Seq.B001.C008
+import Seq.B001.C003
+import Seq.B001.C006
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C002
+import Seq.B005.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -52,10 +55,12 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C015
 import Seq.Opaque.C016
+import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -2656,6 +2661,29 @@ theorem P7352067332013008151.correct : P7352067332013008151.Spec := by
 
 end A041142
 
+/-! ## A041142.P3076255731295724933
+
+`(5-3*(-1)^(n+1))*A000032(3*(n+1))/4`
+-/
+
+namespace A041142.P3076255731295724933
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((5 - 3 * (-1) ^ (n + 1)) * A000032 (3 * (n + 1)) : ℚ) / 4
+
+end
+
+end A041142.P3076255731295724933
+
+namespace A041142
+
+/-- `(5-3*(-1)^(n+1))*A000032(3*(n+1))/4` -/
+def P3076255731295724933.Spec : Prop :=
+  ∀ n, P3076255731295724933.a n = (A041142 n : ℚ)
+
+end A041142
+
 /-! ## A041142.P539186687167059698
 
 `abs(A041030(n)*A228826(n))`
@@ -2886,29 +2914,6 @@ def P15800252867581905754.Spec : Prop :=
 
 end A041142
 
-/-! ## A041142.P3076255731295724933
-
-`(5-3*(-1)^(n+1))*A000032(3*(n+1))/4`
--/
-
-namespace A041142.P3076255731295724933
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((5 - 3 * (-1) ^ (n + 1)) * A000032 (3 * (n + 1)) : ℚ) / 4
-
-end
-
-end A041142.P3076255731295724933
-
-namespace A041142
-
-/-- `(5-3*(-1)^(n+1))*A000032(3*(n+1))/4` -/
-def P3076255731295724933.Spec : Prop :=
-  ∀ n, P3076255731295724933.a n = (A041142 n : ℚ)
-
-end A041142
-
 /-! ## A041142.P10013584532157063730
 
 `A041030(n)*A006519(n²+2)`
@@ -2956,6 +2961,29 @@ def P9037026930062718726.Spec : Prop :=
 theorem P9037026930062718726.correct : P9037026930062718726.Spec := by
   intro n
   simp only [A041143]
+
+end A041143
+
+/-! ## A041143.P16819686610878549792
+
+`(5+3*(-1)^n)*A000045(3*(n+1))/16`
+-/
+
+namespace A041143.P16819686610878549792
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((5 + 3 * (-1) ^ n) * A000045 (3 * (n + 1)) : ℚ) / 16
+
+end
+
+end A041143.P16819686610878549792
+
+namespace A041143
+
+/-- `(5+3*(-1)^n)*A000045(3*(n+1))/16` -/
+def P16819686610878549792.Spec : Prop :=
+  ∀ n, P16819686610878549792.a n = (A041143 n : ℚ)
 
 end A041143
 

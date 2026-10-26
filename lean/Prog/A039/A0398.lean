@@ -10,6 +10,7 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -18,20 +19,22 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C037
+import Seq.B000.C035
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -42,19 +45,17 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -62,10 +63,10 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -150,25 +151,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039800.P15109399643117166397
-
-/-! ## A039800.P7423798915452734716
-
-`char[A069770(n)]*A038498(A000124(n))`
--/
-
-namespace A039800.P7423798915452734716
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A069770 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A038498 (A000124 n).toNat
-
-end
-
-end A039800.P7423798915452734716
 
 /-! ## A039800.P13994207948410126899
 
@@ -487,63 +469,6 @@ end
 
 end A039801.P15419581976007886776
 
-/-! ## A039801.P18274897582755323173
-
-`char[A014681(n)]*A038498(A152948(n+3))`
--/
-
-namespace A039801.P18274897582755323173
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014681 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A038498 (A152948 (n + 3)).toNat
-
-end
-
-end A039801.P18274897582755323173
-
-/-! ## A039801.P17499280665966649534
-
-`char[A014682(n)]*A038498(A152948(n+3))`
--/
-
-namespace A039801.P17499280665966649534
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014682 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A038498 (A152948 (n + 3)).toNat
-
-end
-
-end A039801.P17499280665966649534
-
-/-! ## A039801.P16448965473380673478
-
-`char[A350603(n)]*A038498(A152948(n+3))`
--/
-
-namespace A039801.P16448965473380673478
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A350603 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A038498 (A152948 (n + 3)).toNat
-
-end
-
-end A039801.P16448965473380673478
-
 /-! ## A039801.P8137457214605836939
 
 `A038498(A152948(n+3))+A000038(n+1)`
@@ -841,25 +766,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039802.P9345650869961505441
-
-/-! ## A039802.P13331661338622845235
-
-`char[A004498(n)]*A038498(A167614(n+1))`
--/
-
-namespace A039802.P13331661338622845235
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004498 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A038498 (A167614 (n + 1)).toNat
-
-end
-
-end A039802.P13331661338622845235
 
 /-! ## A039802.P11947395417782566605
 
@@ -5510,8 +5416,25 @@ end A039834.P18048655923650384255
 /-!
 # A039835: Indices of triangular numbers which are also heptagonal.
 
-The programs for A039835, there is no canonical definition to state claims against.
+The programs for A039835, the canonical program `A039835.P980399802263768025` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039835 has offset 1).
+
+The definition of A039835 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A039835.P980399802263768025
+
+`(A000045(6*(n+1)-4+2*(n+1)%2)-1)/2`
+
+The canonical program, it is in `Seq.B001.C001`.
+-/
+
+namespace A039835
+
+/-- `(A000045(6*(n+1)-4+2*(n+1)%2)-1)/2` -/
+def P980399802263768025.Spec : Prop :=
+  ∀ n, P980399802263768025.a n = (A039835 (n + 1) : ℚ)
+
+end A039835
 
 /-! ## A039835.P809474458721665781
 
@@ -5531,6 +5454,14 @@ end
 
 end A039835.P809474458721665781
 
+namespace A039835
+
+/-- `A254627(record[or(2, n)])-1` -/
+def P809474458721665781.Spec : Prop :=
+  ∀ n, P809474458721665781.a n = A039835 (n + 1)
+
+end A039835
+
 /-! ## A039835.P4616868861827113420
 
 `A004695(4*ceil((3*(n+1)-2)/2))`
@@ -5545,6 +5476,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039835.P4616868861827113420
+
+namespace A039835
+
+/-- `A004695(4*ceil((3*(n+1)-2)/2))` -/
+def P4616868861827113420.Spec : Prop :=
+  ∀ n, P4616868861827113420.a n = A039835 (n + 1)
+
+end A039835
 
 /-! ## A039835.P17230759210624199265
 
@@ -5561,6 +5500,14 @@ end
 
 end A039835.P17230759210624199265
 
+namespace A039835
+
+/-- `A099517(A087445(n+1))` -/
+def P17230759210624199265.Spec : Prop :=
+  ∀ n, P17230759210624199265.a n = A039835 (n + 1)
+
+end A039835
+
 /-! ## A039835.P13779105672419132222
 
 `A173673(A259751(n+1))`
@@ -5575,6 +5522,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039835.P13779105672419132222
+
+namespace A039835
+
+/-- `A173673(A259751(n+1))` -/
+def P13779105672419132222.Spec : Prop :=
+  ∀ n, P13779105672419132222.a n = A039835 (n + 1)
+
+end A039835
 
 /-! ## A039835.P5528036892392342849
 
@@ -5591,6 +5546,14 @@ end
 
 end A039835.P5528036892392342849
 
+namespace A039835
+
+/-- `A387778(A047241(n+1))` -/
+def P5528036892392342849.Spec : Prop :=
+  ∀ n, P5528036892392342849.a n = A039835 (n + 1)
+
+end A039835
+
 /-! ## A039835.P17460964415277061637
 
 `A201864(A092899(n+1)+1)`
@@ -5605,6 +5568,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039835.P17460964415277061637
+
+namespace A039835
+
+/-- `A201864(A092899(n+1)+1)` -/
+def P17460964415277061637.Spec : Prop :=
+  ∀ n, P17460964415277061637.a n = A039835 (n + 1)
+
+end A039835
 
 /-! ## A039835.P1541514617834467253
 
@@ -5621,6 +5592,14 @@ end
 
 end A039835.P1541514617834467253
 
+namespace A039835
+
+/-- `A147997(A092259(n+1))-1` -/
+def P1541514617834467253.Spec : Prop :=
+  ∀ n, P1541514617834467253.a n = A039835 (n + 1)
+
+end A039835
+
 /-! ## A039835.P16869202170967038585
 
 `A254627(A042964(n+1))-1`
@@ -5636,20 +5615,13 @@ end
 
 end A039835.P16869202170967038585
 
-/-! ## A039835.P17146464872100994329
+namespace A039835
 
-`floor(sqrt(5)*(sqrt(5)-(-1)^(n+1))*(2+sqrt(5))^(2*(n+1)-1)/20)`
--/
+/-- `A254627(A042964(n+1))-1` -/
+def P16869202170967038585.Spec : Prop :=
+  ∀ n, P16869202170967038585.a n = A039835 (n + 1)
 
-namespace A039835.P17146464872100994329
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊Real.sqrt (5 : ℝ) * (Real.sqrt (5 : ℝ) - ((-1) ^ (n + 1) : ℝ)) * (2 + Real.sqrt (5 : ℝ)) ^ ((2 * (n + 1) : ℤ) - 1 : ℤ) / 20⌋
-
-end
-
-end A039835.P17146464872100994329
+end A039835
 
 /-!
 # A039836: Maximal number m of integers s(i), with 1 <= s(1) < s(2) < ... < s(m) <= n, such that all sums s(i) + s(j), i<>j, are distinct.

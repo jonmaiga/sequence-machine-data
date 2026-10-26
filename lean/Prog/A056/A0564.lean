@@ -21,37 +21,38 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C037
+import Seq.B000.C036
+import Seq.B000.C038
 import Seq.B001.C000
-import Seq.B001.C001
-import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C002
+import Seq.B001.C004
 import Seq.B001.C007
-import Seq.B002.C000
+import Seq.B001.C009
 import Seq.B002.C001
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B007.C000
+import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -60,19 +61,16 @@ import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C005
-import Seq.Opaque.C006
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C021
-import Seq.Opaque.C023
+import Seq.Opaque.C022
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -7824,7 +7822,7 @@ end A056453
 /-!
 # A056454: Number of palindromes of length n using exactly three different symbols.
 
-The programs for A056454, the canonical program `A056454.P10309732254336888628` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056454 has offset 1).
+The programs for A056454, the canonical program `A056454.P10309732254336888628` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056454 has offset 1).
 
 The definition of A056454 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 418 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7833,7 +7831,7 @@ The definition of A056454 is `conjectured`: the Lean definition is a formula tha
 
 `A056489(or(1, n))`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A056454
@@ -8101,7 +8099,7 @@ end A056454
 /-!
 # A056455: Palindromes using exactly four different symbols.
 
-The programs for A056455, the canonical program `A056455.P4988112504372135428` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056455 has offset 1).
+The programs for A056455, the canonical program `A056455.P4988112504372135428` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056455 has offset 1).
 
 The definition of A056455 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8311,7 +8309,7 @@ end A056455
 
 `4*A028244(A008619(n))`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A056455
@@ -8870,7 +8868,7 @@ end A056457.P1648607782663833861
 /-!
 # A056458: Number of primitive (aperiodic) palindromes using a maximum of two different symbols.
 
-The programs for A056458, the canonical program `A056458.P16273720211195638125` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056458 has offset 1).
+The programs for A056458, the canonical program `A056458.P16273720211195638125` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056458 has offset 1).
 
 The definition of A056458 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056476, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8879,7 +8877,7 @@ The definition of A056458 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A056476(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A056458
@@ -9582,7 +9580,7 @@ end A056462.P17331515652722011809
 /-!
 # A056463: Number of primitive (aperiodic) palindromes using exactly two different symbols.
 
-The programs for A056463, the canonical program `A056463.P6786534809649954337` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056463 has offset 1).
+The programs for A056463, the canonical program `A056463.P6786534809649954337` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056463 has offset 1).
 
 The definition of A056463 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 664 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10028,7 +10026,7 @@ end A056463
 
 `∑{d}[n+1, A008683(#)*A056453((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056463
@@ -10046,7 +10044,7 @@ end A056463
 /-!
 # A056464: Number of primitive (aperiodic) palindromes using exactly three different symbols.
 
-The programs for A056464, the canonical program `A056464.P10441682946801096791` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056464 has offset 1).
+The programs for A056464, the canonical program `A056464.P10441682946801096791` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056464 has offset 1).
 
 The definition of A056464 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 418 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10101,7 +10099,7 @@ end A056464
 
 `∑{d}[n+1, A008683(#)*A056454((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056464
@@ -10165,7 +10163,7 @@ end A056464
 /-!
 # A056465: Number of primitive (aperiodic) palindromes using exactly four different symbols.
 
-The programs for A056465, the canonical program `A056465.P10456151034550717981` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056465 has offset 1).
+The programs for A056465, the canonical program `A056465.P10456151034550717981` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056465 has offset 1).
 
 The definition of A056465 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10220,7 +10218,7 @@ end A056465
 
 `∑{d}[n+1, A008683(#)*A056455((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056465
@@ -11454,7 +11452,7 @@ end A056472.P7307624608399029500
 /-!
 # A056473: Number of palindromic structures using exactly four different symbols.
 
-The programs for A056473, the canonical program `A056473.P6112660942085821025` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056473 has offset 1).
+The programs for A056473, the canonical program `A056473.P6112660942085821025` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056473 has offset 1).
 
 The definition of A056473 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 334 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11653,7 +11651,7 @@ end A056473
 
 `A032263(∑[char[2*n]])/3`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A056473
@@ -12193,7 +12191,7 @@ end A056475.P2183346135625298694
 /-!
 # A056476: Number of primitive (aperiodic) palindromic structures of length n using a maximum of two different symbols.
 
-The programs for A056476, the canonical program `A056476.P12632563156965169968` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056476 has offset 0).
+The programs for A056476, the canonical program `A056476.P12632563156965169968` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056476 has offset 0).
 
 The definition of A056476 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 667 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12202,7 +12200,7 @@ The definition of A056476 is `conjectured`: the Lean definition is a formula tha
 
 `A056481(n)+C(n, n²)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056476
@@ -12450,7 +12448,7 @@ end A056476
 /-!
 # A056477: Number of primitive (aperiodic) palindromic structures using a maximum of three different symbols.
 
-The programs for A056477, the canonical program `A056477.P15029080168793993472` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056477 has offset 0).
+The programs for A056477, the canonical program `A056477.P15029080168793993472` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056477 has offset 0).
 
 The definition of A056477 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 423 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12459,7 +12457,7 @@ The definition of A056477 is `conjectured`: the Lean definition is a formula tha
 
 `A056482(A028310(n))+A056476(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A056477
@@ -12575,7 +12573,7 @@ end A056477
 /-!
 # A056478: Number of primitive (aperiodic) palindromic structures using a maximum of four different symbols.
 
-The programs for A056478, the canonical program `A056478.P4496359852495478390` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056478 has offset 0).
+The programs for A056478, the canonical program `A056478.P4496359852495478390` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056478 has offset 0).
 
 The definition of A056478 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 337 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12584,7 +12582,7 @@ The definition of A056478 is `conjectured`: the Lean definition is a formula tha
 
 `A056483(A028310(n))+A056477(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A056478
@@ -12856,7 +12854,7 @@ end A056480.P8394974672756375281
 /-!
 # A056481: Number of primitive (aperiodic) palindromic structures using exactly two different symbols.
 
-The programs for A056481, the canonical program `A056481.P6036497099892352670` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056481 has offset 0).
+The programs for A056481, the canonical program `A056481.P6036497099892352670` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056481 has offset 0).
 
 The definition of A056481 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 665 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12980,7 +12978,7 @@ end A056481
 
 `A056463(A028310(n))/2`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056481
@@ -13293,7 +13291,7 @@ end A056481
 /-!
 # A056482: Number of primitive (aperiodic) palindromic structures using exactly three different symbols.
 
-The programs for A056482, the canonical program `A056482.P13043741181585035783` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056482 has offset 1).
+The programs for A056482, the canonical program `A056482.P13043741181585035783` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056482 has offset 1).
 
 The definition of A056482 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 418 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13325,7 +13323,7 @@ end A056482
 
 `A056464(n+1)/6`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056482
@@ -13434,7 +13432,7 @@ end A056482
 /-!
 # A056483: Number of primitive (aperiodic) palindromic structures using exactly four different symbols.
 
-The programs for A056483, the canonical program `A056483.P9343784737776717252` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056483 has offset 1).
+The programs for A056483, the canonical program `A056483.P9343784737776717252` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056483 has offset 1).
 
 The definition of A056483 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 336 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13466,7 +13464,7 @@ end A056483
 
 `∑{d}[n+1, A008683(#)*A056473((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056483
@@ -15538,7 +15536,7 @@ end A056492.P211270735408020101
 /-!
 # A056493: Number of primitive (period n) periodic palindromes using a maximum of two different symbols.
 
-The programs for A056493, the canonical program `A056493.P14823141332440776708` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056493 has offset 1).
+The programs for A056493, the canonical program `A056493.P14823141332440776708` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056493 has offset 1).
 
 The definition of A056493 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 663 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15778,7 +15776,7 @@ end A056493
 
 `∑{d}[n+1, A008683(#)*A164090((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056493
@@ -16116,7 +16114,7 @@ end A056494.P325797985914451966
 /-!
 # A056495: Number of primitive (period n) periodic palindromes using a maximum of four different symbols.
 
-The programs for A056495, the canonical program `A056495.P1072551038789828098` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056495 has offset 1).
+The programs for A056495, the canonical program `A056495.P1072551038789828098` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056495 has offset 1).
 
 The definition of A056495 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16125,7 +16123,7 @@ The definition of A056495 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A008683(#)*A056486((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056495
@@ -16322,7 +16320,7 @@ end A056496.P2763131646266527296
 /-!
 # A056497: Number of primitive (period n) periodic palindromes using a maximum of six different symbols.
 
-The programs for A056497, the canonical program `A056497.P5587882807598015351` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056497 has offset 1).
+The programs for A056497, the canonical program `A056497.P5587882807598015351` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056497 has offset 1).
 
 The definition of A056497 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 255 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16331,7 +16329,7 @@ The definition of A056497 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A008683(#)*A056488((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056497
@@ -16441,7 +16439,7 @@ end A056497
 /-!
 # A056498: Number of primitive (period n) periodic palindromes using exactly two different symbols.
 
-The programs for A056498, the canonical program `A056498.P10808203384033100118` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056498 has offset 1).
+The programs for A056498, the canonical program `A056498.P10808203384033100118` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056498 has offset 1).
 
 The definition of A056498 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 663 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16479,7 +16477,7 @@ end A056498
 
 `A056493(n+1)-A000038(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056498
@@ -16929,7 +16927,7 @@ end A056498
 /-!
 # A056499: Number of primitive (period n) periodic palindromes using exactly three different symbols.
 
-The programs for A056499, the canonical program `A056499.P6397658787847568372` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056499 has offset 1).
+The programs for A056499, the canonical program `A056499.P6397658787847568372` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056499 has offset 1).
 
 The definition of A056499 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 417 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16938,7 +16936,7 @@ The definition of A056499 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A008683(#)*A056489((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A056499

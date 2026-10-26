@@ -17,54 +17,56 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C020
+import Seq.B000.C022
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -89,7 +91,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -134,7 +135,7 @@ end A310500.P14292257346207405338
 /-!
 # A310501: Coordination sequence Gal.6.328.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310501, the canonical program `A310501.P8756319467982132797` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310501 has offset 0).
+The programs for A310501, the canonical program `A310501.P8756319467982132797` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310501 has offset 0).
 
 The definition of A310501 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2512 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -143,7 +144,7 @@ The definition of A310501 is `conjectured`: the Lean definition is a formula tha
 
 `2*A313045(n)-A008574(n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A310501
@@ -576,7 +577,7 @@ end A310501
 /-!
 # A310502: Coordination sequence Gal.5.132.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310502, the canonical program `A310502.P9099728291858349393` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310502 has offset 0).
+The programs for A310502, the canonical program `A310502.P9099728291858349393` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310502 has offset 0).
 
 The definition of A310502 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -585,7 +586,7 @@ The definition of A310502 is `conjectured`: the Lean definition is a formula tha
 
 `A008458(n)-2*A004396(A004396(n))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A310502
@@ -902,7 +903,7 @@ end A310502
 /-!
 # A310503: Coordination sequence Gal.4.73.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310503, the canonical program `A310503.P5766519764822027206` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310503 has offset 0).
+The programs for A310503, the canonical program `A310503.P5766519764822027206` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310503 has offset 0).
 
 The definition of A310503 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -911,7 +912,7 @@ The definition of A310503 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+a(n-7)-a(n-8)` with `a(0)=1, a(1)=4, a(2)=10, a(3)=16, a(4)=20, a(5)=26, a(6)=32, a(7)=36, a(8)=40`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A310503
@@ -1372,7 +1373,7 @@ end A310503
 /-!
 # A310504: Coordination sequence Gal.6.329.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310504, the canonical program `A310504.P464538820079187203` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310504 has offset 0).
+The programs for A310504, the canonical program `A310504.P464538820079187203` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310504 has offset 0).
 
 The definition of A310504 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2481 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1381,7 +1382,7 @@ The definition of A310504 is `conjectured`: the Lean definition is a formula tha
 
 `2*A313053(n)-A008574(n)`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A310504
@@ -1721,7 +1722,7 @@ end A310504
 /-!
 # A310505: Coordination sequence Gal.6.330.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310505, the canonical program `A310505.P8653001486545686443` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310505 has offset 0).
+The programs for A310505, the canonical program `A310505.P8653001486545686443` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310505 has offset 0).
 
 The definition of A310505 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2309 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1730,7 +1731,7 @@ The definition of A310505 is `conjectured`: the Lean definition is a formula tha
 
 `abs(A008592(n)-A315202(n))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A310505
@@ -2559,7 +2560,7 @@ end A310509
 /-!
 # A310511: Coordination sequence Gal.6.354.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310511, the canonical program `A310511.P9412189317304849787` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310511 has offset 0).
+The programs for A310511, the canonical program `A310511.P9412189317304849787` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310511 has offset 0).
 
 The definition of A310511 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2474 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2568,7 +2569,7 @@ The definition of A310511 is `conjectured`: the Lean definition is a formula tha
 
 `A002264(A004525(n+2))+A313099(n)+A002264(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A310511
@@ -3041,7 +3042,7 @@ end A310511
 /-!
 # A310512: Coordination sequence Gal.6.352.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310512, the canonical program `A310512.P18429582237261561799` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310512 has offset 0).
+The programs for A310512, the canonical program `A310512.P18429582237261561799` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310512 has offset 0).
 
 The definition of A310512 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3119,7 +3120,7 @@ end A310512
 
 `A313842(n)-A105384(A004273(n))`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A310512
@@ -3298,7 +3299,7 @@ end A310512
 /-!
 # A310513: Coordination sequence Gal.6.353.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310513, the canonical program `A310513.P8943145076043643259` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310513 has offset 0).
+The programs for A310513, the canonical program `A310513.P8943145076043643259` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310513 has offset 0).
 
 The definition of A310513 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2323 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3307,7 +3308,7 @@ The definition of A310513 is `conjectured`: the Lean definition is a formula tha
 
 `abs(10*n-A315194(n))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A310513
@@ -3738,7 +3739,7 @@ end A310516.P2059525861191776792
 /-!
 # A310517: Coordination sequence Gal.6.206.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310517, the canonical program `A310517.P12936457194479813651` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310517 has offset 0).
+The programs for A310517, the canonical program `A310517.P12936457194479813651` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310517 has offset 0).
 
 The definition of A310517 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1125 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4141,7 +4142,7 @@ end A310517
 
 `2*A008574(2*n)-A315730(2*n)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A310517
@@ -4159,7 +4160,7 @@ end A310517
 /-!
 # A310518: Coordination sequence Gal.3.21.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310518, the canonical program `A310518.P403618271380181412` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310518 has offset 0).
+The programs for A310518, the canonical program `A310518.P403618271380181412` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310518 has offset 0).
 
 The definition of A310518 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4168,7 +4169,7 @@ The definition of A310518 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+a(n-5)-a(n-6)` with `a(0)=1, a(1)=4, a(2)=10, a(3)=16, a(4)=22, a(5)=26, a(6)=30`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A310518
@@ -4295,35 +4296,6 @@ namespace A310518
 /-- `A005843(A047486(n+1))+A004277(n)` -/
 def P3174959770981139111.Spec : Prop :=
   ∀ n, P3174959770981139111.a n = A310518 n
-
-end A310518
-
-/-! ## A310518.P12487855264740862338
-
-`A004273(A047486(n+1))+eq[2, A020639(n+1)]`
--/
-
-namespace A310518.P12487855264740862338
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A020639 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004273 (A047486 (n + 1)).toNat + (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n : ℤ)
-
-end
-
-end A310518.P12487855264740862338
-
-namespace A310518
-
-/-- `A004273(A047486(n+1))+eq[2, A020639(n+1)]` -/
-def P12487855264740862338.Spec : Prop :=
-  ∀ n, P12487855264740862338.a n = A310518 n
 
 end A310518
 
@@ -5098,7 +5070,7 @@ end A310520
 /-!
 # A310521: Coordination sequence Gal.5.133.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310521, the canonical program `A310521.P11719741427687549128` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310521 has offset 0).
+The programs for A310521, the canonical program `A310521.P11719741427687549128` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310521 has offset 0).
 
 The definition of A310521 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2454 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5107,7 +5079,7 @@ The definition of A310521 is `conjectured`: the Lean definition is a formula tha
 
 `abs(A008592(n)-A315185(n))`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A310521
@@ -5539,7 +5511,7 @@ end A310522.P2195748338857532046
 /-!
 # A310523: Coordination sequence Gal.6.355.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310523, the canonical program `A310523.P3141303181628939896` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310523 has offset 0).
+The programs for A310523, the canonical program `A310523.P3141303181628939896` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310523 has offset 0).
 
 The definition of A310523 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2291 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5548,7 +5520,7 @@ The definition of A310523 is `conjectured`: the Lean definition is a formula tha
 
 `abs(A008592(n)-A315183(n))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A310523
@@ -5957,7 +5929,7 @@ end A310523
 /-!
 # A310524: Coordination sequence Gal.6.356.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310524, the canonical program `A310524.P4933406775284647162` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310524 has offset 0).
+The programs for A310524, the canonical program `A310524.P4933406775284647162` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310524 has offset 0).
 
 The definition of A310524 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2277 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5966,7 +5938,7 @@ The definition of A310524 is `conjectured`: the Lean definition is a formula tha
 
 `A314124(n)-A128834(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A310524
@@ -6249,7 +6221,7 @@ end A310524
 /-!
 # A310525: Coordination sequence Gal.4.74.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310525, the canonical program `A310525.P5831325578290002764` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310525 has offset 0).
+The programs for A310525, the canonical program `A310525.P5831325578290002764` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310525 has offset 0).
 
 The definition of A310525 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6281,7 +6253,7 @@ end A310525
 
 `A219529(n)-A128834(n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A310525
@@ -6699,7 +6671,7 @@ end A310525
 /-!
 # A310526: Coordination sequence Gal.6.332.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310526, the canonical program `A310526.P8794290420324191919` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310526 has offset 0).
+The programs for A310526, the canonical program `A310526.P8794290420324191919` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310526 has offset 0).
 
 The definition of A310526 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2258 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6731,7 +6703,7 @@ end A310526
 
 `2*A313113(n)-A008574(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A310526
@@ -7265,7 +7237,7 @@ end A310528.P1649801813605031003
 /-!
 # A310529: Coordination sequence Gal.4.75.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310529, the canonical program `A310529.P1230697940831985805` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310529 has offset 0).
+The programs for A310529, the canonical program `A310529.P1230697940831985805` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310529 has offset 0).
 
 The definition of A310529 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7274,7 +7246,7 @@ The definition of A310529 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)+a(n-7)-a(n-8)` with `a(0)=1, a(1)=4, a(2)=10, a(3)=16, a(4)=22, a(5)=28, a(6)=34, a(7)=38, a(8)=42`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A310529
@@ -7741,7 +7713,7 @@ end A310529
 /-!
 # A310530: Coordination sequence Gal.5.134.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310530, the canonical program `A310530.P10773156038924726472` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310530 has offset 0).
+The programs for A310530, the canonical program `A310530.P10773156038924726472` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310530 has offset 0).
 
 The definition of A310530 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7750,7 +7722,7 @@ The definition of A310530 is `conjectured`: the Lean definition is a formula tha
 
 `A008458(n)-2*A004525(A004525(n))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A310530
@@ -8108,7 +8080,7 @@ end A310530
 /-!
 # A310531: Coordination sequence Gal.5.135.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310531, the canonical program `A310531.P139863264852785367` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310531 has offset 0).
+The programs for A310531, the canonical program `A310531.P139863264852785367` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310531 has offset 0).
 
 The definition of A310531 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2248 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8186,7 +8158,7 @@ end A310531
 
 `A313293(n)+A004396(A002264(n+1))`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A310531
@@ -8437,7 +8409,7 @@ end A310531
 /-!
 # A310532: Coordination sequence Gal.6.333.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310532, the canonical program `A310532.P5875053090626175182` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310532 has offset 0).
+The programs for A310532, the canonical program `A310532.P5875053090626175182` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310532 has offset 0).
 
 The definition of A310532 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3572 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8446,7 +8418,7 @@ The definition of A310532 is `conjectured`: the Lean definition is a formula tha
 
 `A004277(A047263(n+1)+A312948(n)-n-A004277(n))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A310532
@@ -9294,7 +9266,7 @@ end A310537.P6775417777011273070
 /-!
 # A310538: Coordination sequence Gal.6.215.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310538, the canonical program `A310538.P10108678506340412` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310538 has offset 0).
+The programs for A310538, the canonical program `A310538.P10108678506340412` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310538 has offset 0).
 
 The definition of A310538 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2270 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9303,7 +9275,7 @@ The definition of A310538 is `conjectured`: the Lean definition is a formula tha
 
 `A310509(n)+Δ[A011862(n)]`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A310538
@@ -9989,7 +9961,7 @@ end A310542.P18102628886735639658
 /-!
 # A310546: Coordination sequence Gal.4.128.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310546, the canonical program `A310546.P18242339710196559366` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310546 has offset 0).
+The programs for A310546, the canonical program `A310546.P18242339710196559366` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310546 has offset 0).
 
 The definition of A310546 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2318 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9998,7 +9970,7 @@ The definition of A310546 is `conjectured`: the Lean definition is a formula tha
 
 `2*A313321(n)-A008579(n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A310546
@@ -11042,7 +11014,7 @@ end A310563.P13207872645815944626
 /-!
 # A310564: Coordination sequence Gal.3.23.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310564, the canonical program `A310564.P8518898930016773917` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310564 has offset 0).
+The programs for A310564, the canonical program `A310564.P8518898930016773917` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310564 has offset 0).
 
 The definition of A310564 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2334 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11051,7 +11023,7 @@ The definition of A310564 is `conjectured`: the Lean definition is a formula tha
 
 `A257088(A060464(Δ[n²]))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A310564
@@ -11512,7 +11484,7 @@ end A310564
 /-!
 # A310565: Coordination sequence Gal.4.82.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A310565, the canonical program `A310565.P6513209614937103627` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310565 has offset 0).
+The programs for A310565, the canonical program `A310565.P6513209614937103627` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A310565 has offset 0).
 
 The definition of A310565 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2276 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11521,7 +11493,7 @@ The definition of A310565 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-3)+16` with `a(0)=1, a(1)=4, a(2)=12, a(3)=16`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A310565

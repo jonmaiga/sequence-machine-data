@@ -16,28 +16,30 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C030
+import Seq.B000.C025
+import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C004
 import Seq.B004.C000
@@ -46,9 +48,9 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B014.C000
+import Seq.B008.C000
+import Seq.B009.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7869,25 +7871,25 @@ end A011557
 /-!
 # A011558: Expansion of (x + x^3)/(1 + x + ... + x^4) mod 2.
 
-The programs for A011558, the canonical program `A011558.P10594584635942187014` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011558 has offset 0).
+The programs for A011558, the canonical program `A011558.P14291727921269463220` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011558 has offset 0).
 
 The definition of A011558 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A011558.P10594584635942187014
+/-! ## A011558.P14291727921269463220
 
-`1-A079998(n)`
+`(n^4)%5`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A011558
 
-/-- `1-A079998(n)` -/
-def P10594584635942187014.Spec : Prop :=
-  ∀ n, P10594584635942187014.a n = A011558 n
+/-- `(n^4)%5` -/
+def P14291727921269463220.Spec : Prop :=
+  ∀ n, (P14291727921269463220.a n : ℤ) = A011558 n
 
-theorem P10594584635942187014.correct : P10594584635942187014.Spec := by
+theorem P14291727921269463220.correct : P14291727921269463220.Spec := by
   intro n
   simp only [A011558]
 

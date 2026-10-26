@@ -17,41 +17,47 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -61,9 +67,7 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -95,7 +99,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
+import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -104,7 +108,7 @@ set_option linter.unreachableTactic false
 /-!
 # A308200: The tribonacci representation of a(n) is obtained by appending 0,0,0 to the tribonacci representation of n (cf. A278038).
 
-The programs for A308200, the canonical program `A308200.P11353778696816616322` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308200 has offset 0).
+The programs for A308200, the canonical program `A308200.P11353778696816616322` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308200 has offset 0).
 
 The definition of A308200 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -240,7 +244,7 @@ end A308200
 
 `A275925(n+1)+a(n-1)+1` with `a(0)=0`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A308200
@@ -1502,7 +1506,7 @@ end A308214.P12269819790237607426
 /-!
 # A308215: a(n) is the multiplicative inverse of A001844(n+1) modulo A001844(n); where A001844 is the sequence of centered square numbers.
 
-The programs for A308215, the canonical program `A308215.P10243934200875941476` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308215 has offset 0).
+The programs for A308215, the canonical program `A308215.P10243934200875941476` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308215 has offset 0).
 
 The definition of A308215 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1612,7 +1616,7 @@ end A308215
 
 `3*a(n-2)-3*a(n-4)+a(n-6)` with `a(0)=0, a(1)=2, a(2)=12, a(3)=11, a(4)=39, a(5)=28, a(6)=82`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A308215
@@ -1812,7 +1816,7 @@ end A308216.P7129811726330738128
 /-!
 # A308217: a(n) is the multiplicative inverse of A001844(n) modulo A001844(n+1); where A001844 is the sequence of centered square numbers.
 
-The programs for A308217, the canonical program `A308217.P14160406543593648924` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308217 has offset 0).
+The programs for A308217, the canonical program `A308217.P14160406543593648924` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308217 has offset 0).
 
 The definition of A308217 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1847,7 +1851,7 @@ end A308217
 
 `3*a(n-2)-3*a(n-4)+a(n-6)` with `a(0)=1, a(1)=8, a(2)=2, a(3)=23, a(4)=3, a(5)=46`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A308217
@@ -5204,7 +5208,7 @@ end A308264.P905900544134504140
 /-!
 # A308265: Sum of the largest parts in the partitions of n into 3 parts.
 
-The programs for A308265, the canonical program `A308265.P15256434610230684031` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308265 has offset 1).
+The programs for A308265, the canonical program `A308265.P15256434610230684031` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308265 has offset 1).
 
 The definition of A308265 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4198 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5268,7 +5272,7 @@ end A308265
 
 `A034828(n)-A200067(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A308265
@@ -5364,7 +5368,7 @@ end A308265
 /-!
 # A308266: Sum of the middle parts in the partitions of n into 3 parts.
 
-The programs for A308266, the canonical program `A308266.P14087854034105715006` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308266 has offset 1).
+The programs for A308266, the canonical program `A308266.P14087854034105715006` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308266 has offset 1).
 
 The definition of A308266 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5373,7 +5377,7 @@ The definition of A308266 is `conjectured`: the Lean definition is a formula tha
 
 `A307872(n+1)+A008763(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A308266
@@ -6322,6 +6326,21 @@ end A308278.P3688183204580325650
 The programs for A308281, there is no canonical definition to state claims against.
 -/
 
+/-! ## A308281.P4698501522502331285
+
+`(row(n)+1)/(col(n)+1)*T(n-1,k-1)+3*(row(n)+1)*T(n-1,k)` with `a(0)=1`
+-/
+
+namespace A308281.P4698501522502331285
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.rec [1] fun n a =>
+  (SequenceMachineLib.triRow n + 1 : ℚ) / (SequenceMachineLib.triCol n + 1 : ℚ) * SequenceMachineLib.triUpLeft a n + (3 * (SequenceMachineLib.triRow n + 1) : ℚ) * SequenceMachineLib.triUp a n
+
+end
+
+end A308281.P4698501522502331285
+
 /-! ## A308281.P6007445985082595939
 
 `3^(C(comp[∑[n]]-n, 2)-(n+1))*A105278(n+1)`
@@ -6395,21 +6414,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A308281.P7475468808931840144
-
-/-! ## A308281.P12546750918908507993
-
-`A105278(n+1)*A140303(n)`
--/
-
-namespace A308281.P12546750918908507993
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A105278 (n + 1) * A140303 n
-
-end
-
-end A308281.P12546750918908507993
 
 /-!
 # A308282: The fifth power of the unsigned Lah triangular matrix A105278.

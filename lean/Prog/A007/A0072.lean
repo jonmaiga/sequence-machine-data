@@ -18,12 +18,10 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
@@ -34,6 +32,8 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,24 +41,29 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4310,6 +4315,29 @@ The programs for A007272, the canonical program `A007272.P938379743766536373` is
 The definition of A007272 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
+/-! ## A007272.P16656552024260191953
+
+`16*A000108(n)-8*A000108(n+1)+A000108(n+2)`
+-/
+
+namespace A007272.P16656552024260191953
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  16 * A000108 n - 8 * A000108 (n + 1) + A000108 (n + 2)
+
+end
+
+end A007272.P16656552024260191953
+
+namespace A007272
+
+/-- `16*A000108(n)-8*A000108(n+1)+A000108(n+2)` -/
+def P16656552024260191953.Spec : Prop :=
+  ∀ n, P16656552024260191953.a n = A007272 n
+
+end A007272
+
 /-! ## A007272.P938379743766536373
 
 `60*(2*n)!/(n!*(n+3)!)`
@@ -6545,7 +6573,7 @@ end A007297.P17316030520255506352
 /-!
 # A007298: Sums of consecutive Fibonacci numbers.
 
-The programs for A007298, the canonical program `A007298.P9853402396666436554` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007298 has offset 1).
+The programs for A007298, the canonical program `A007298.P9853402396666436554` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007298 has offset 1).
 
 The definition of A007298 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9861 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6580,7 +6608,7 @@ end A007298
 
 `record[A057427(n)*A143061(n+1)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A007298

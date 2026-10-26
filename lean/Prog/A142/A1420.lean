@@ -4,6 +4,7 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -23,32 +24,34 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -62,12 +65,10 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -82,6 +83,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
+import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -92,12 +94,13 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
 # A142000: Primes congruent to 24 mod 29.
 
-The programs for A142000, the canonical program `A142000.P15065755748301898321` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142000 has offset 1).
+The programs for A142000, the canonical program `A142000.P15065755748301898321` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142000 has offset 1).
 
 The definition of A142000 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2798 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -106,7 +109,7 @@ The definition of A142000 is `conjectured`: the Lean definition is a formula tha
 
 `p?[29*n-5]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142000
@@ -288,7 +291,7 @@ end A142000
 /-!
 # A142001: Primes congruent to 25 mod 29.
 
-The programs for A142001, the canonical program `A142001.P6642892303876696954` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142001 has offset 1).
+The programs for A142001, the canonical program `A142001.P6642892303876696954` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142001 has offset 1).
 
 The definition of A142001 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2788 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -297,7 +300,7 @@ The definition of A142001 is `conjectured`: the Lean definition is a formula tha
 
 `p?[29*n-4]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142001
@@ -479,7 +482,7 @@ end A142001
 /-!
 # A142002: Primes congruent to 26 mod 29.
 
-The programs for A142002, the canonical program `A142002.P14421223377485261696` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142002 has offset 1).
+The programs for A142002, the canonical program `A142002.P14421223377485261696` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142002 has offset 1).
 
 The definition of A142002 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2806 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -488,7 +491,7 @@ The definition of A142002 is `conjectured`: the Lean definition is a formula tha
 
 `p?[29*n-3]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142002
@@ -896,7 +899,7 @@ end A142002
 /-!
 # A142003: Primes congruent to 27 mod 29.
 
-The programs for A142003, the canonical program `A142003.P5906945974808956508` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142003 has offset 1).
+The programs for A142003, the canonical program `A142003.P5906945974808956508` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142003 has offset 1).
 
 The definition of A142003 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2823 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -905,7 +908,7 @@ The definition of A142003 is `conjectured`: the Lean definition is a formula tha
 
 `p?[29*n-2]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142003
@@ -1079,7 +1082,7 @@ end A142003
 /-!
 # A142004: Primes congruent to 28 mod 29.
 
-The programs for A142004, the canonical program `A142004.P14454865169866432114` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142004 has offset 1).
+The programs for A142004, the canonical program `A142004.P14454865169866432114` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142004 has offset 1).
 
 The definition of A142004 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2791 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1088,7 +1091,7 @@ The definition of A142004 is `conjectured`: the Lean definition is a formula tha
 
 `p?[29*n-1]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142004
@@ -1126,93 +1129,6 @@ namespace A142004
 /-- `or(1, p?[28*(n+1)+n])` -/
 def P11860336589644981638.Spec : Prop :=
   ∀ n, (P11860336589644981638.a n : ℤ) = A142004 (n + 1)
-
-end A142004
-
-/-! ## A142004.P12377015171030251631
-
-`∏{d}[p?[28*(n+1)+n], #]`
--/
-
-namespace A142004.P12377015171030251631
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  28 * (n + 1) + n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ d ∈ Nat.divisors (f1 n), d
-
-end
-
-end A142004.P12377015171030251631
-
-namespace A142004
-
-/-- `∏{d}[p?[28*(n+1)+n], #]` -/
-def P12377015171030251631.Spec : Prop :=
-  ∀ n, (P12377015171030251631.a n : ℤ) = A142004 (n + 1)
-
-end A142004
-
-/-! ## A142004.P13724384540579831243
-
-`∑{p}[p?[28*(n+1)+n], #]`
--/
-
-namespace A142004.P13724384540579831243
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  28 * (n + 1) + n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n), p
-
-end
-
-end A142004.P13724384540579831243
-
-namespace A142004
-
-/-- `∑{p}[p?[28*(n+1)+n], #]` -/
-def P13724384540579831243.Spec : Prop :=
-  ∀ n, (P13724384540579831243.a n : ℤ) = A142004 (n + 1)
-
-end A142004
-
-/-! ## A142004.P7588070148998088890
-
-`∏{p}[p?[57*(n+1)+n], #]`
--/
-
-namespace A142004.P7588070148998088890
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  57 * (n + 1) + n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n), p
-
-end
-
-end A142004.P7588070148998088890
-
-namespace A142004
-
-/-- `∏{p}[p?[57*(n+1)+n], #]` -/
-def P7588070148998088890.Spec : Prop :=
-  ∀ n, (P7588070148998088890.a n : ℤ) = A142004 (n + 1)
 
 end A142004
 
@@ -1309,7 +1225,7 @@ end A142004
 /-!
 # A142005: Primes congruent to 1 mod 31.
 
-The programs for A142005, the canonical program `A142005.P16017676294522784959` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142005 has offset 1).
+The programs for A142005, the canonical program `A142005.P16017676294522784959` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142005 has offset 1).
 
 The definition of A142005 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2592 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1318,7 +1234,7 @@ The definition of A142005 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n+1]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142005
@@ -1356,64 +1272,6 @@ namespace A142005
 /-- `or(1, p?[or(1, 62*n)])` -/
 def P4893944029518691147.Spec : Prop :=
   ∀ n, (P4893944029518691147.a n : ℤ) = A142005 (n + 1)
-
-end A142005
-
-/-! ## A142005.P11911906324296942744
-
-`∏{d}[p?[xor(1, 62*n)], #]`
--/
-
-namespace A142005.P11911906324296942744
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.xor 1 (62 * n)
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ d ∈ Nat.divisors (f1 n), d
-
-end
-
-end A142005.P11911906324296942744
-
-namespace A142005
-
-/-- `∏{d}[p?[xor(1, 62*n)], #]` -/
-def P11911906324296942744.Spec : Prop :=
-  ∀ n, (P11911906324296942744.a n : ℤ) = A142005 (n + 1)
-
-end A142005
-
-/-! ## A142005.P9241388273053659305
-
-`∑{p}[p?[xor(1, 62*n)], #]`
--/
-
-namespace A142005.P9241388273053659305
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.xor 1 (62 * n)
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n), p
-
-end
-
-end A142005.P9241388273053659305
-
-namespace A142005
-
-/-- `∑{p}[p?[xor(1, 62*n)], #]` -/
-def P9241388273053659305.Spec : Prop :=
-  ∀ n, (P9241388273053659305.a n : ℤ) = A142005 (n + 1)
 
 end A142005
 
@@ -2161,7 +2019,7 @@ end A142006.P15266542277079107089
 /-!
 # A142007: Primes congruent to 3 mod 31.
 
-The programs for A142007, the canonical program `A142007.P2747788869624958561` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142007 has offset 1).
+The programs for A142007, the canonical program `A142007.P2747788869624958561` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142007 has offset 1).
 
 The definition of A142007 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2629 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2170,7 +2028,7 @@ The definition of A142007 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n+3]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142007
@@ -2438,7 +2296,7 @@ end A142007
 /-!
 # A142008: Primes congruent to 4 mod 31.
 
-The programs for A142008, the canonical program `A142008.P2886295417472548207` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142008 has offset 1).
+The programs for A142008, the canonical program `A142008.P2886295417472548207` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142008 has offset 1).
 
 The definition of A142008 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2614 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2447,7 +2305,7 @@ The definition of A142008 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n+4]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142008
@@ -2777,7 +2635,7 @@ end A142008
 /-!
 # A142009: Primes congruent to 5 mod 31.
 
-The programs for A142009, the canonical program `A142009.P17668888222048217800` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142009 has offset 1).
+The programs for A142009, the canonical program `A142009.P17668888222048217800` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142009 has offset 1).
 
 The definition of A142009 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2612 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2786,7 +2644,7 @@ The definition of A142009 is `conjectured`: the Lean definition is a formula tha
 
 `p?[62*n+5]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142009
@@ -2908,7 +2766,7 @@ end A142009
 /-!
 # A142010: Primes congruent to 6 mod 31.
 
-The programs for A142010, the canonical program `A142010.P8383026999669484565` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142010 has offset 1).
+The programs for A142010, the canonical program `A142010.P8383026999669484565` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142010 has offset 1).
 
 The definition of A142010 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2606 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2917,7 +2775,7 @@ The definition of A142010 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n+6]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142010
@@ -3069,7 +2927,7 @@ end A142010
 /-!
 # A142011: Primes congruent to 7 mod 31.
 
-The programs for A142011, the canonical program `A142011.P15778736285981160088` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142011 has offset 1).
+The programs for A142011, the canonical program `A142011.P15778736285981160088` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142011 has offset 1).
 
 The definition of A142011 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2622 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3078,7 +2936,7 @@ The definition of A142011 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n+7]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142011
@@ -3260,7 +3118,7 @@ end A142011
 /-!
 # A142012: Primes congruent to 8 mod 31.
 
-The programs for A142012, the canonical program `A142012.P7843368770873152612` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142012 has offset 1).
+The programs for A142012, the canonical program `A142012.P7843368770873152612` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142012 has offset 1).
 
 The definition of A142012 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2618 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3269,7 +3127,7 @@ The definition of A142012 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n+8]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142012
@@ -3555,7 +3413,7 @@ end A142012
 /-!
 # A142013: Primes congruent to 9 mod 31.
 
-The programs for A142013, the canonical program `A142013.P18424126282494978244` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142013 has offset 1).
+The programs for A142013, the canonical program `A142013.P18424126282494978244` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142013 has offset 1).
 
 The definition of A142013 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2630 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3564,7 +3422,7 @@ The definition of A142013 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n+9]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142013
@@ -3746,7 +3604,7 @@ end A142013
 /-!
 # A142014: Primes congruent to 10 mod 31.
 
-The programs for A142014, the canonical program `A142014.P10460385428154183684` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142014 has offset 1).
+The programs for A142014, the canonical program `A142014.P10460385428154183684` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142014 has offset 1).
 
 The definition of A142014 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2606 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3755,7 +3613,7 @@ The definition of A142014 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n+10]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142014
@@ -3937,7 +3795,7 @@ end A142014
 /-!
 # A142015: Primes congruent to 11 mod 31.
 
-The programs for A142015, the canonical program `A142015.P17645844078819288955` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142015 has offset 1).
+The programs for A142015, the canonical program `A142015.P17645844078819288955` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142015 has offset 1).
 
 The definition of A142015 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2629 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3946,7 +3804,7 @@ The definition of A142015 is `conjectured`: the Lean definition is a formula tha
 
 `p?[62*n+11]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142015
@@ -4205,7 +4063,7 @@ end A142015
 /-!
 # A142016: Primes congruent to 12 mod 31.
 
-The programs for A142016, the canonical program `A142016.P7732691917348421130` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142016 has offset 1).
+The programs for A142016, the canonical program `A142016.P7732691917348421130` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142016 has offset 1).
 
 The definition of A142016 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2627 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4214,7 +4072,7 @@ The definition of A142016 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n+12]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142016
@@ -4388,7 +4246,7 @@ end A142016
 /-!
 # A142017: Primes congruent to 13 mod 31.
 
-The programs for A142017, the canonical program `A142017.P11625030124948837998` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142017 has offset 1).
+The programs for A142017, the canonical program `A142017.P11625030124948837998` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142017 has offset 1).
 
 The definition of A142017 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2625 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4397,7 +4255,7 @@ The definition of A142017 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n+13]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142017
@@ -4409,35 +4267,6 @@ def P11625030124948837998.Spec : Prop :=
 theorem P11625030124948837998.correct : P11625030124948837998.Spec := by
   intro n
   simp only [A142017, Nat.add_sub_cancel]
-
-end A142017
-
-/-! ## A142017.P15564552891257396853
-
-`∏{d}[p?[31*n-18], #]`
--/
-
-namespace A142017.P15564552891257396853
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (31 * n : ℤ) - 18
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ d ∈ Nat.divisors (f1 n).natAbs, d
-
-end
-
-end A142017.P15564552891257396853
-
-namespace A142017
-
-/-- `∏{d}[p?[31*n-18], #]` -/
-def P15564552891257396853.Spec : Prop :=
-  ∀ n, (P15564552891257396853.a n : ℤ) = A142017 (n + 1)
 
 end A142017
 
@@ -4670,7 +4499,7 @@ end A142017
 /-!
 # A142018: Primes congruent to 14 mod 31.
 
-The programs for A142018, the canonical program `A142018.P9161494494111257867` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142018 has offset 1).
+The programs for A142018, the canonical program `A142018.P9161494494111257867` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142018 has offset 1).
 
 The definition of A142018 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2597 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4679,7 +4508,7 @@ The definition of A142018 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n-48]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142018
@@ -4909,7 +4738,7 @@ end A142018
 /-!
 # A142019: Primes congruent to 15 mod 31.
 
-The programs for A142019, the canonical program `A142019.P6462402050578494635` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142019 has offset 1).
+The programs for A142019, the canonical program `A142019.P6462402050578494635` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142019 has offset 1).
 
 The definition of A142019 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2624 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4918,7 +4747,7 @@ The definition of A142019 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n+77]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142019
@@ -5148,7 +4977,7 @@ end A142019
 /-!
 # A142020: Primes congruent to 16 mod 31.
 
-The programs for A142020, the canonical program `A142020.P16586427795945706816` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142020 has offset 1).
+The programs for A142020, the canonical program `A142020.P16586427795945706816` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142020 has offset 1).
 
 The definition of A142020 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2616 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5157,7 +4986,7 @@ The definition of A142020 is `conjectured`: the Lean definition is a formula tha
 
 `p?[a(n-1)+31]` with `a(0)=16`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142020
@@ -5413,7 +5242,7 @@ end A142020
 /-!
 # A142021: Primes congruent to 17 mod 31.
 
-The programs for A142021, the canonical program `A142021.P15168188517911633826` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142021 has offset 1).
+The programs for A142021, the canonical program `A142021.P15168188517911633826` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142021 has offset 1).
 
 The definition of A142021 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2623 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5422,7 +5251,7 @@ The definition of A142021 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n+17]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142021
@@ -5910,7 +5739,7 @@ end A142021
 /-!
 # A142022: Primes congruent to 18 mod 31.
 
-The programs for A142022, the canonical program `A142022.P10416321363538169702` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142022 has offset 1).
+The programs for A142022, the canonical program `A142022.P10416321363538169702` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142022 has offset 1).
 
 The definition of A142022 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2596 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5919,7 +5748,7 @@ The definition of A142022 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n-13]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142022
@@ -5957,35 +5786,6 @@ namespace A142022
 /-- `or(1, p?[31*(n+1)+49])` -/
 def P14321767770976782657.Spec : Prop :=
   ∀ n, (P14321767770976782657.a n : ℤ) = A142022 (n + 1)
-
-end A142022
-
-/-! ## A142022.P11517783759115631622
-
-`∏{d}[p?[31*(n+1)+49], #]`
--/
-
-namespace A142022.P11517783759115631622
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  31 * (n + 1) + 49
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ d ∈ Nat.divisors (f1 n), d
-
-end
-
-end A142022.P11517783759115631622
-
-namespace A142022
-
-/-- `∏{d}[p?[31*(n+1)+49], #]` -/
-def P11517783759115631622.Spec : Prop :=
-  ∀ n, (P11517783759115631622.a n : ℤ) = A142022 (n + 1)
 
 end A142022
 
@@ -6067,35 +5867,6 @@ def P10939740815226186581.Spec : Prop :=
 
 end A142022
 
-/-! ## A142022.P13092782311796451500
-
-`∑{p}[p?[A267984(2*n+1)+n+1], #]`
--/
-
-namespace A142022.P13092782311796451500
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A267984 (2 * n + 1) + (n + 1 : ℤ)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n).natAbs, p
-
-end
-
-end A142022.P13092782311796451500
-
-namespace A142022
-
-/-- `∑{p}[p?[A267984(2*n+1)+n+1], #]` -/
-def P13092782311796451500.Spec : Prop :=
-  ∀ n, (P13092782311796451500.a n : ℤ) = A142022 (n + 1)
-
-end A142022
-
 /-! ## A142022.P13741867644594022332
 
 `A000265(p?[A128468(n)+1+n])`
@@ -6151,7 +5922,7 @@ end A142022
 /-!
 # A142023: Primes congruent to 19 mod 31.
 
-The programs for A142023, the canonical program `A142023.P14274148652728911942` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142023 has offset 1).
+The programs for A142023, the canonical program `A142023.P14274148652728911942` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142023 has offset 1).
 
 The definition of A142023 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2612 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6160,7 +5931,7 @@ The definition of A142023 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n-12]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142023
@@ -6412,7 +6183,7 @@ end A142023
 /-!
 # A142024: Primes congruent to 20 mod 31.
 
-The programs for A142024, the canonical program `A142024.P9422991563371637175` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142024 has offset 1).
+The programs for A142024, the canonical program `A142024.P9422991563371637175` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142024 has offset 1).
 
 The definition of A142024 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2631 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6421,7 +6192,7 @@ The definition of A142024 is `conjectured`: the Lean definition is a formula tha
 
 `p?[62*n-11]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142024
@@ -6621,7 +6392,7 @@ end A142024
 /-!
 # A142025: Primes congruent to 21 mod 31.
 
-The programs for A142025, the canonical program `A142025.P7961048039919575719` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142025 has offset 1).
+The programs for A142025, the canonical program `A142025.P7961048039919575719` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142025 has offset 1).
 
 The definition of A142025 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2625 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6630,7 +6401,7 @@ The definition of A142025 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n-10]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142025
@@ -6868,7 +6639,7 @@ end A142025
 /-!
 # A142026: Primes congruent to 22 mod 31.
 
-The programs for A142026, the canonical program `A142026.P13160825783324097446` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142026 has offset 1).
+The programs for A142026, the canonical program `A142026.P13160825783324097446` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142026 has offset 1).
 
 The definition of A142026 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2598 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6877,7 +6648,7 @@ The definition of A142026 is `conjectured`: the Lean definition is a formula tha
 
 `p?[62*n-9]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142026
@@ -7003,7 +6774,7 @@ end A142026
 /-!
 # A142027: Primes congruent to 23 mod 31.
 
-The programs for A142027, the canonical program `A142027.P1497223335984843028` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142027 has offset 1).
+The programs for A142027, the canonical program `A142027.P1497223335984843028` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142027 has offset 1).
 
 The definition of A142027 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2627 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7012,7 +6783,7 @@ The definition of A142027 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n-8]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142027
@@ -7320,7 +7091,7 @@ end A142027
 /-!
 # A142028: Primes congruent to 24 mod 31.
 
-The programs for A142028, the canonical program `A142028.P1386416701456778253` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142028 has offset 1).
+The programs for A142028, the canonical program `A142028.P1386416701456778253` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142028 has offset 1).
 
 The definition of A142028 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2625 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7329,7 +7100,7 @@ The definition of A142028 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n-7]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142028
@@ -7585,7 +7356,7 @@ end A142028
 /-!
 # A142029: Primes congruent to 25 mod 31.
 
-The programs for A142029, the canonical program `A142029.P10063750050715036443` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142029 has offset 1).
+The programs for A142029, the canonical program `A142029.P10063750050715036443` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142029 has offset 1).
 
 The definition of A142029 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2609 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7594,7 +7365,7 @@ The definition of A142029 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n-6]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142029
@@ -7954,7 +7725,7 @@ end A142029
 /-!
 # A142030: Primes congruent to 26 mod 31.
 
-The programs for A142030, the canonical program `A142030.P5890763793859988796` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142030 has offset 1).
+The programs for A142030, the canonical program `A142030.P5890763793859988796` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142030 has offset 1).
 
 The definition of A142030 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2624 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7963,7 +7734,7 @@ The definition of A142030 is `conjectured`: the Lean definition is a formula tha
 
 `p?[62*n-5]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142030
@@ -8189,7 +7960,7 @@ end A142030
 /-!
 # A142031: Primes congruent to 27 mod 31.
 
-The programs for A142031, the canonical program `A142031.P8145539369088862934` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142031 has offset 1).
+The programs for A142031, the canonical program `A142031.P8145539369088862934` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142031 has offset 1).
 
 The definition of A142031 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2604 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8198,7 +7969,7 @@ The definition of A142031 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n-4]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142031
@@ -8476,7 +8247,7 @@ end A142031
 /-!
 # A142032: Primes congruent to 28 mod 31.
 
-The programs for A142032, the canonical program `A142032.P10932960151328989973` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142032 has offset 1).
+The programs for A142032, the canonical program `A142032.P10932960151328989973` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142032 has offset 1).
 
 The definition of A142032 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2613 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8485,7 +8256,7 @@ The definition of A142032 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n-3]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142032
@@ -8497,35 +8268,6 @@ def P10932960151328989973.Spec : Prop :=
 theorem P10932960151328989973.correct : P10932960151328989973.Spec := by
   intro n
   simp only [A142032, Nat.add_sub_cancel]
-
-end A142032
-
-/-! ## A142032.P14875975144510362618
-
-`∏{p}[p?[A033580(n+2)-A033568(n)+1], #]`
--/
-
-namespace A142032.P14875975144510362618
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A033580 (n + 2) - A033568 n + 1
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, p
-
-end
-
-end A142032.P14875975144510362618
-
-namespace A142032
-
-/-- `∏{p}[p?[A033580(n+2)-A033568(n)+1], #]` -/
-def P14875975144510362618.Spec : Prop :=
-  ∀ n, (P14875975144510362618.a n : ℤ) = A142032 (n + 1)
 
 end A142032
 
@@ -8610,7 +8352,7 @@ end A142032
 /-!
 # A142033: Primes congruent to 29 mod 31.
 
-The programs for A142033, the canonical program `A142033.P5035171021861625087` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142033 has offset 1).
+The programs for A142033, the canonical program `A142033.P5035171021861625087` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142033 has offset 1).
 
 The definition of A142033 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2602 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8619,7 +8361,7 @@ The definition of A142033 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n-2]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142033
@@ -8823,7 +8565,7 @@ end A142033
 /-!
 # A142034: Primes congruent to 30 mod 31.
 
-The programs for A142034, the canonical program `A142034.P16484057784270041110` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142034 has offset 1).
+The programs for A142034, the canonical program `A142034.P16484057784270041110` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142034 has offset 1).
 
 The definition of A142034 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2645 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8832,7 +8574,7 @@ The definition of A142034 is `conjectured`: the Lean definition is a formula tha
 
 `p?[31*n-1]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142034
@@ -8870,35 +8612,6 @@ namespace A142034
 /-- `or(1, p?[30*(n+1)+n])` -/
 def P6548182990374063921.Spec : Prop :=
   ∀ n, (P6548182990374063921.a n : ℤ) = A142034 (n + 1)
-
-end A142034
-
-/-! ## A142034.P15454781861701800716
-
-`∏{p}[p?[30*(n+1)+n], #]`
--/
-
-namespace A142034.P15454781861701800716
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  30 * (n + 1) + n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n), p
-
-end
-
-end A142034.P15454781861701800716
-
-namespace A142034
-
-/-- `∏{p}[p?[30*(n+1)+n], #]` -/
-def P15454781861701800716.Spec : Prop :=
-  ∀ n, (P15454781861701800716.a n : ℤ) = A142034 (n + 1)
 
 end A142034
 
@@ -9793,39 +9506,10 @@ def P4803650724501411042.Spec : Prop :=
 
 end A142035
 
-/-! ## A142035.P10914159194378096969
-
-`∑{p}[p?[A047470(A047470(n+1)+2)], #]`
--/
-
-namespace A142035.P10914159194378096969
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047470 (A047470 (n + 1) + 2).toNat
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n).natAbs, p
-
-end
-
-end A142035.P10914159194378096969
-
-namespace A142035
-
-/-- `∑{p}[p?[A047470(A047470(n+1)+2)], #]` -/
-def P10914159194378096969.Spec : Prop :=
-  ∀ n, (P10914159194378096969.a n : ℤ) = A142035 (n + 1)
-
-end A142035
-
 /-!
 # A142036: Primes congruent to 5 mod 32.
 
-The programs for A142036, the canonical program `A142036.P18024300388264956067` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142036 has offset 1).
+The programs for A142036, the canonical program `A142036.P18024300388264956067` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142036 has offset 1).
 
 The definition of A142036 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9834,7 +9518,7 @@ The definition of A142036 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A142927(n+1), A142941(n+1)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A142036
@@ -10414,7 +10098,7 @@ end A142036
 /-!
 # A142037: Primes congruent to 7 mod 32.
 
-The programs for A142037, the canonical program `A142037.P2683542611358419371` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142037 has offset 1).
+The programs for A142037, the canonical program `A142037.P2683542611358419371` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142037 has offset 1).
 
 The definition of A142037 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10423,7 +10107,7 @@ The definition of A142037 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A142928(n+1), A142942(n+1)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A142037
@@ -10999,7 +10683,7 @@ end A142037
 /-!
 # A142038: Primes congruent to 9 mod 32.
 
-The programs for A142038, the canonical program `A142038.P4402446302083685320` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142038 has offset 1).
+The programs for A142038, the canonical program `A142038.P4402446302083685320` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142038 has offset 1).
 
 The definition of A142038 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11008,7 +10692,7 @@ The definition of A142038 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A142929(n+1), A142943(n+1)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A142038
@@ -11560,7 +11244,7 @@ end A142038
 /-!
 # A142039: Primes congruent to 11 mod 32.
 
-The programs for A142039, the canonical program `A142039.P4379301169805079559` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142039 has offset 1).
+The programs for A142039, the canonical program `A142039.P4379301169805079559` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142039 has offset 1).
 
 The definition of A142039 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11569,7 +11253,7 @@ The definition of A142039 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A142930(n+1), A142944(n+1)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A142039
@@ -12153,7 +11837,7 @@ end A142039
 /-!
 # A142040: Primes congruent to 13 mod 32.
 
-The programs for A142040, the canonical program `A142040.P11145662148218653823` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142040 has offset 1).
+The programs for A142040, the canonical program `A142040.P11145662148218653823` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142040 has offset 1).
 
 The definition of A142040 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12162,7 +11846,7 @@ The definition of A142040 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A142931(n+1), A142945(n+1)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A142040
@@ -12745,7 +12429,7 @@ end A142040
 /-!
 # A142041: Primes congruent to 15 mod 32.
 
-The programs for A142041, the canonical program `A142041.P16073640399214139543` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142041 has offset 1).
+The programs for A142041, the canonical program `A142041.P16073640399214139543` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142041 has offset 1).
 
 The definition of A142041 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12754,7 +12438,7 @@ The definition of A142041 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A142932(n+1), A142946(n+1)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A142041
@@ -13884,7 +13568,7 @@ end A142042
 /-!
 # A142043: Primes congruent to 21 mod 32.
 
-The programs for A142043, the canonical program `A142043.P5205622206172157271` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142043 has offset 1).
+The programs for A142043, the canonical program `A142043.P5205622206172157271` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142043 has offset 1).
 
 The definition of A142043 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13893,7 +13577,7 @@ The definition of A142043 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A127592(n+1), A142949(n+1)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A142043
@@ -14469,7 +14153,7 @@ end A142043
 /-!
 # A142044: Primes congruent to 23 mod 32.
 
-The programs for A142044, the canonical program `A142044.P5022247538457653579` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142044 has offset 1).
+The programs for A142044, the canonical program `A142044.P5022247538457653579` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142044 has offset 1).
 
 The definition of A142044 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14478,7 +14162,7 @@ The definition of A142044 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A142935(n+1), A142950(n+1)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A142044
@@ -14516,35 +14200,6 @@ namespace A142044
 /-- `p?[32*n-9]` -/
 def P13466159888076454298.Spec : Prop :=
   ∀ n, P13466159888076454298.a n = A142044 (n + 1)
-
-end A142044
-
-/-! ## A142044.P7191665813729297738
-
-`∏{p}[p?[32*n+23], #]`
--/
-
-namespace A142044.P7191665813729297738
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  32 * n + 23
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n), p
-
-end
-
-end A142044.P7191665813729297738
-
-namespace A142044
-
-/-- `∏{p}[p?[32*n+23], #]` -/
-def P7191665813729297738.Spec : Prop :=
-  ∀ n, (P7191665813729297738.a n : ℤ) = A142044 (n + 1)
 
 end A142044
 
@@ -14845,7 +14500,7 @@ end A142044
 /-!
 # A142045: Primes congruent to 25 mod 32.
 
-The programs for A142045, the canonical program `A142045.P17621399904502160490` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142045 has offset 1).
+The programs for A142045, the canonical program `A142045.P17621399904502160490` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142045 has offset 1).
 
 The definition of A142045 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14854,7 +14509,7 @@ The definition of A142045 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A142936(n+1), A142951(n+1)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A142045
@@ -14922,35 +14577,6 @@ namespace A142045
 /-- `∩[A105126(n+1), A278494(n+1)]` -/
 def P13771435193243976846.Spec : Prop :=
   ∀ n, (P13771435193243976846.a n : ℤ) = A142045 (n + 1)
-
-end A142045
-
-/-! ## A142045.P9867850330864127648
-
-`∑{p}[p?[A267984(n+1)+1+n], #]`
--/
-
-namespace A142045.P9867850330864127648
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A267984 (n + 1) + 1 + (n : ℤ)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n).natAbs, p
-
-end
-
-end A142045.P9867850330864127648
-
-namespace A142045
-
-/-- `∑{p}[p?[A267984(n+1)+1+n], #]` -/
-def P9867850330864127648.Spec : Prop :=
-  ∀ n, (P9867850330864127648.a n : ℤ) = A142045 (n + 1)
 
 end A142045
 
@@ -15397,7 +15023,7 @@ end A142045
 /-!
 # A142046: Primes congruent to 27 mod 32.
 
-The programs for A142046, the canonical program `A142046.P13470369612893551844` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142046 has offset 1).
+The programs for A142046, the canonical program `A142046.P13470369612893551844` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142046 has offset 1).
 
 The definition of A142046 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15406,7 +15032,7 @@ The definition of A142046 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A142937(n+1), A142952(n+1)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A142046
@@ -15973,7 +15599,7 @@ end A142046
 /-!
 # A142047: Primes congruent to 29 mod 32.
 
-The programs for A142047, the canonical program `A142047.P5700770285790569133` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142047 has offset 1).
+The programs for A142047, the canonical program `A142047.P5700770285790569133` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142047 has offset 1).
 
 The definition of A142047 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15982,7 +15608,7 @@ The definition of A142047 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A142938(n+1), A142953(n+1)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A142047
@@ -16557,7 +16183,7 @@ end A142047
 /-!
 # A142049: Primes congruent to 1 mod 33.
 
-The programs for A142049, the canonical program `A142049.P7957472508449430480` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142049 has offset 1).
+The programs for A142049, the canonical program `A142049.P7957472508449430480` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142049 has offset 1).
 
 The definition of A142049 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3909 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16566,7 +16192,7 @@ The definition of A142049 is `conjectured`: the Lean definition is a formula tha
 
 `p?[33*n+1]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142049
@@ -17154,7 +16780,7 @@ end A142049
 /-!
 # A142050: Primes congruent to 2 mod 33.
 
-The programs for A142050, the canonical program `A142050.P14625853988464788971` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142050 has offset 1).
+The programs for A142050, the canonical program `A142050.P14625853988464788971` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142050 has offset 1).
 
 The definition of A142050 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3911 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -17163,7 +16789,7 @@ The definition of A142050 is `conjectured`: the Lean definition is a formula tha
 
 `p?[33*n+2]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142050
@@ -17743,7 +17369,7 @@ end A142050
 /-!
 # A142051: Primes congruent to 4 mod 33.
 
-The programs for A142051, the canonical program `A142051.P11565715162518936311` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142051 has offset 1).
+The programs for A142051, the canonical program `A142051.P11565715162518936311` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142051 has offset 1).
 
 The definition of A142051 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3912 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -17752,7 +17378,7 @@ The definition of A142051 is `conjectured`: the Lean definition is a formula tha
 
 `p?[33*n+4]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142051
@@ -18336,7 +17962,7 @@ end A142051
 /-!
 # A142052: Primes congruent to 5 mod 33.
 
-The programs for A142052, the canonical program `A142052.P14670125918708881788` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142052 has offset 1).
+The programs for A142052, the canonical program `A142052.P14670125918708881788` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142052 has offset 1).
 
 The definition of A142052 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3916 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18345,7 +17971,7 @@ The definition of A142052 is `conjectured`: the Lean definition is a formula tha
 
 `p?[3*11*n+5]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142052
@@ -18933,7 +18559,7 @@ end A142052
 /-!
 # A142053: Primes congruent to 7 mod 33.
 
-The programs for A142053, the canonical program `A142053.P13334455639310119624` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142053 has offset 1).
+The programs for A142053, the canonical program `A142053.P13334455639310119624` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142053 has offset 1).
 
 The definition of A142053 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3940 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18942,7 +18568,7 @@ The definition of A142053 is `conjectured`: the Lean definition is a formula tha
 
 `p?[33*n+7]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142053
@@ -19526,7 +19152,7 @@ end A142053
 /-!
 # A142054: Primes congruent to 8 mod 33.
 
-The programs for A142054, the canonical program `A142054.P11674088080574549015` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142054 has offset 1).
+The programs for A142054, the canonical program `A142054.P11674088080574549015` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142054 has offset 1).
 
 The definition of A142054 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3936 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -19535,7 +19161,7 @@ The definition of A142054 is `conjectured`: the Lean definition is a formula tha
 
 `p?[33*n+8]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142054
@@ -20090,39 +19716,10 @@ def P12194589556197755288.Spec : Prop :=
 
 end A142054
 
-/-! ## A142054.P7680614166665419664
-
-`∑{p}[p?[A017485(3*n)], #]`
--/
-
-namespace A142054.P7680614166665419664
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A017485 (3 * n)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n).natAbs, p
-
-end
-
-end A142054.P7680614166665419664
-
-namespace A142054
-
-/-- `∑{p}[p?[A017485(3*n)], #]` -/
-def P7680614166665419664.Spec : Prop :=
-  ∀ n, (P7680614166665419664.a n : ℤ) = A142054 (n + 1)
-
-end A142054
-
 /-!
 # A142055: Primes congruent to 10 mod 33.
 
-The programs for A142055, the canonical program `A142055.P2924894407730717356` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142055 has offset 1).
+The programs for A142055, the canonical program `A142055.P2924894407730717356` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142055 has offset 1).
 
 The definition of A142055 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3910 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -20131,7 +19728,7 @@ The definition of A142055 is `conjectured`: the Lean definition is a formula tha
 
 `p?[10+33*n]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142055
@@ -20143,38 +19740,6 @@ def P2924894407730717356.Spec : Prop :=
 theorem P2924894407730717356.correct : P2924894407730717356.Spec := by
   intro n
   simp only [A142055, Nat.add_sub_cancel]
-
-end A142055
-
-/-! ## A142055.P7695912627422418242
-
-`∏{p}[p?[Δ[A004767(n)²]+3+n], #]`
--/
-
-namespace A142055.P7695912627422418242
-noncomputable section
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004767 n ^ 2
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f3 (n + 1) - f3 n + 3 + (n : ℤ)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, p
-
-end
-
-end A142055.P7695912627422418242
-
-namespace A142055
-
-/-- `∏{p}[p?[Δ[A004767(n)²]+3+n], #]` -/
-def P7695912627422418242.Spec : Prop :=
-  ∀ n, (P7695912627422418242.a n : ℤ) = A142055 (n + 1)
 
 end A142055
 
@@ -20721,7 +20286,7 @@ end A142055
 /-!
 # A142056: Primes congruent to 13 mod 33.
 
-The programs for A142056, the canonical program `A142056.P13329390542527921275` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142056 has offset 1).
+The programs for A142056, the canonical program `A142056.P13329390542527921275` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142056 has offset 1).
 
 The definition of A142056 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3932 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -20730,7 +20295,7 @@ The definition of A142056 is `conjectured`: the Lean definition is a formula tha
 
 `p?[33*n+13]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142056
@@ -21308,7 +20873,7 @@ end A142056
 /-!
 # A142057: Primes congruent to 14 mod 33.
 
-The programs for A142057, the canonical program `A142057.P2851651434208903845` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142057 has offset 1).
+The programs for A142057, the canonical program `A142057.P2851651434208903845` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142057 has offset 1).
 
 The definition of A142057 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3883 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -21317,7 +20882,7 @@ The definition of A142057 is `conjectured`: the Lean definition is a formula tha
 
 `p?[33*n+47]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142057
@@ -21904,7 +21469,7 @@ end A142057
 /-!
 # A142058: Primes congruent to 16 mod 33.
 
-The programs for A142058, the canonical program `A142058.P17944085755997940685` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142058 has offset 1).
+The programs for A142058, the canonical program `A142058.P17944085755997940685` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142058 has offset 1).
 
 The definition of A142058 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3937 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -21913,7 +21478,7 @@ The definition of A142058 is `conjectured`: the Lean definition is a formula tha
 
 `p?[33*n+49]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142058
@@ -21925,35 +21490,6 @@ def P17944085755997940685.Spec : Prop :=
 theorem P17944085755997940685.correct : P17944085755997940685.Spec := by
   intro n
   simp only [A142058, Nat.add_sub_cancel]
-
-end A142058
-
-/-! ## A142058.P5036931568419068172
-
-`∏{p}[p?[round((3*11*n-1)/2)], #]`
--/
-
-namespace A142058.P5036931568419068172
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway (((3 * (11 * n) : ℤ) - 1 : ℚ) / 2)
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, p
-
-end
-
-end A142058.P5036931568419068172
-
-namespace A142058
-
-/-- `∏{p}[p?[round((3*11*n-1)/2)], #]` -/
-def P5036931568419068172.Spec : Prop :=
-  ∀ n, (P5036931568419068172.a n : ℤ) = A142058 (n + 1)
 
 end A142058
 
@@ -22496,7 +22032,7 @@ end A142058
 /-!
 # A142059: Primes congruent to 17 mod 33.
 
-The programs for A142059, the canonical program `A142059.P15032487665649612019` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142059 has offset 1).
+The programs for A142059, the canonical program `A142059.P15032487665649612019` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142059 has offset 1).
 
 The definition of A142059 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3945 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -22505,7 +22041,7 @@ The definition of A142059 is `conjectured`: the Lean definition is a formula tha
 
 `p?[33*n-49]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142059
@@ -23093,7 +22629,7 @@ end A142059
 /-!
 # A142060: Primes congruent to 19 mod 33.
 
-The programs for A142060, the canonical program `A142060.P773736401028258990` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142060 has offset 1).
+The programs for A142060, the canonical program `A142060.P773736401028258990` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142060 has offset 1).
 
 The definition of A142060 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3937 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -23102,7 +22638,7 @@ The definition of A142060 is `conjectured`: the Lean definition is a formula tha
 
 `p?[33*n+19]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142060
@@ -23690,7 +23226,7 @@ end A142060
 /-!
 # A142061: Primes congruent to 20 mod 33.
 
-The programs for A142061, the canonical program `A142061.P17231929898932925675` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142061 has offset 1).
+The programs for A142061, the canonical program `A142061.P17231929898932925675` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142061 has offset 1).
 
 The definition of A142061 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3935 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -23699,7 +23235,7 @@ The definition of A142061 is `conjectured`: the Lean definition is a formula tha
 
 `p?[33*n-13]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142061
@@ -24287,7 +23823,7 @@ end A142061
 /-!
 # A142062: Primes congruent to 23 mod 33.
 
-The programs for A142062, the canonical program `A142062.P18079343739128686435` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142062 has offset 1).
+The programs for A142062, the canonical program `A142062.P18079343739128686435` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142062 has offset 1).
 
 The definition of A142062 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3949 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -24296,7 +23832,7 @@ The definition of A142062 is `conjectured`: the Lean definition is a formula tha
 
 `p?[3*11*n-10]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142062
@@ -24880,7 +24416,7 @@ end A142062
 /-!
 # A142063: Primes congruent to 25 mod 33.
 
-The programs for A142063, the canonical program `A142063.P13615811643452234008` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142063 has offset 1).
+The programs for A142063, the canonical program `A142063.P13615811643452234008` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142063 has offset 1).
 
 The definition of A142063 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3930 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -24889,7 +24425,7 @@ The definition of A142063 is `conjectured`: the Lean definition is a formula tha
 
 `p?[33*n-8]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142063
@@ -25477,7 +25013,7 @@ end A142063
 /-!
 # A142064: Primes congruent to 26 mod 33.
 
-The programs for A142064, the canonical program `A142064.P13407911316614423869` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142064 has offset 1).
+The programs for A142064, the canonical program `A142064.P13407911316614423869` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142064 has offset 1).
 
 The definition of A142064 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3927 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -25486,7 +25022,7 @@ The definition of A142064 is `conjectured`: the Lean definition is a formula tha
 
 `p?[33*n-7]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142064
@@ -26074,7 +25610,7 @@ end A142064
 /-!
 # A142065: Primes congruent to 28 mod 33.
 
-The programs for A142065, the canonical program `A142065.P7129530371948878668` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142065 has offset 1).
+The programs for A142065, the canonical program `A142065.P7129530371948878668` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142065 has offset 1).
 
 The definition of A142065 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3931 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -26083,7 +25619,7 @@ The definition of A142065 is `conjectured`: the Lean definition is a formula tha
 
 `p?[33*n-5]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142065
@@ -26667,7 +26203,7 @@ end A142065
 /-!
 # A142066: Primes congruent to 29 mod 33.
 
-The programs for A142066, the canonical program `A142066.P10225337079812906531` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142066 has offset 1).
+The programs for A142066, the canonical program `A142066.P10225337079812906531` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142066 has offset 1).
 
 The definition of A142066 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3934 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -26676,7 +26212,7 @@ The definition of A142066 is `conjectured`: the Lean definition is a formula tha
 
 `p?[33*n-4]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142066
@@ -27264,7 +26800,7 @@ end A142066
 /-!
 # A142067: Primes congruent to 31 mod 33.
 
-The programs for A142067, the canonical program `A142067.P2316696778376834968` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142067 has offset 1).
+The programs for A142067, the canonical program `A142067.P2316696778376834968` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142067 has offset 1).
 
 The definition of A142067 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3893 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -27273,7 +26809,7 @@ The definition of A142067 is `conjectured`: the Lean definition is a formula tha
 
 `p?[33*n-2]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142067
@@ -27861,7 +27397,7 @@ end A142067
 /-!
 # A142068: Primes congruent to 32 mod 33.
 
-The programs for A142068, the canonical program `A142068.P12150171660204582869` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142068 has offset 1).
+The programs for A142068, the canonical program `A142068.P12150171660204582869` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142068 has offset 1).
 
 The definition of A142068 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3929 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -27870,7 +27406,7 @@ The definition of A142068 is `conjectured`: the Lean definition is a formula tha
 
 `p?[33*n-1]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142068
@@ -27908,93 +27444,6 @@ namespace A142068
 /-- `or(1, p?[3*11*n+32])` -/
 def P9114915101570773732.Spec : Prop :=
   ∀ n, (P9114915101570773732.a n : ℤ) = A142068 (n + 1)
-
-end A142068
-
-/-! ## A142068.P5540782053332426521
-
-`∏{d}[p?[6*11*n+65], #]`
--/
-
-namespace A142068.P5540782053332426521
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  6 * (11 * n) + 65
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ d ∈ Nat.divisors (f1 n), d
-
-end
-
-end A142068.P5540782053332426521
-
-namespace A142068
-
-/-- `∏{d}[p?[6*11*n+65], #]` -/
-def P5540782053332426521.Spec : Prop :=
-  ∀ n, (P5540782053332426521.a n : ℤ) = A142068 (n + 1)
-
-end A142068
-
-/-! ## A142068.P2590079891385378724
-
-`∏{p}[p?[6*11*n+65], #]`
--/
-
-namespace A142068.P2590079891385378724
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  6 * (11 * n) + 65
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n), p
-
-end
-
-end A142068.P2590079891385378724
-
-namespace A142068
-
-/-- `∏{p}[p?[6*11*n+65], #]` -/
-def P2590079891385378724.Spec : Prop :=
-  ∀ n, (P2590079891385378724.a n : ℤ) = A142068 (n + 1)
-
-end A142068
-
-/-! ## A142068.P10439854439511850209
-
-`∑{p}[p?[32*(n+1)+n], #]`
--/
-
-namespace A142068.P10439854439511850209
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  32 * (n + 1) + n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n), p
-
-end
-
-end A142068.P10439854439511850209
-
-namespace A142068
-
-/-- `∑{p}[p?[32*(n+1)+n], #]` -/
-def P10439854439511850209.Spec : Prop :=
-  ∀ n, (P10439854439511850209.a n : ℤ) = A142068 (n + 1)
 
 end A142068
 
@@ -28451,7 +27900,7 @@ end A142068
 /-!
 # A142069: Period 9: repeat [3, 7, 2, 6, 1, 5, 0, 4, 8].
 
-The programs for A142069, the canonical program `A142069.P17671227044963186128` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142069 has offset 0).
+The programs for A142069, the canonical program `A142069.P17671227044963186128` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142069 has offset 0).
 
 The definition of A142069 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -28460,7 +27909,7 @@ The definition of A142069 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-9)` with `a(0)=3, a(1)=7, a(2)=2, a(3)=6, a(4)=1, a(5)=5, a(6)=0, a(7)=4, a(8)=8`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142069
@@ -28478,23 +27927,29 @@ end A142069
 /-!
 # A142070: Triangle T(n,k) read by rows: the coefficient [x^k] of the polynomial Product_{i=1..n} (i+1)*x-i in row n>=0 and column 0<=k<=n.
 
-The programs for A142070, there is no canonical definition to state claims against.
+The programs for A142070, the canonical program `A142070.P14521701284846039411` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142070 has offset 0).
+
+The definition of A142070 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1326 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A142070.P14521701284846039411
 
 `A059364(A038722(n+1))*A097807(n)`
+
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
-namespace A142070.P14521701284846039411
-noncomputable section
+namespace A142070
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A059364 (A038722 (n + 1)).toNat * A097807 n
+/-- `A059364(A038722(n+1))*A097807(n)` -/
+def P14521701284846039411.Spec : Prop :=
+  ∀ n, P14521701284846039411.a n = A142070 n
 
-end
+theorem P14521701284846039411.correct : P14521701284846039411.Spec := by
+  intro n
+  simp only [A142070]
 
-end A142070.P14521701284846039411
+end A142070
 
 /-! ## A142070.P840498639804528854
 
@@ -28511,6 +27966,14 @@ end
 
 end A142070.P840498639804528854
 
+namespace A142070
+
+/-- `A088996(A014132(n+1))*A097807(n)` -/
+def P840498639804528854.Spec : Prop :=
+  ∀ n, P840498639804528854.a n = A142070 n
+
+end A142070
+
 /-! ## A142070.P14757209695532524313
 
 `A059364(A038722(C(n+1, n)))/A097807(n)`
@@ -28525,6 +27988,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A142070.P14757209695532524313
+
+namespace A142070
+
+/-- `A059364(A038722(C(n+1, n)))/A097807(n)` -/
+def P14757209695532524313.Spec : Prop :=
+  ∀ n, P14757209695532524313.a n = (A142070 n : ℚ)
+
+end A142070
 
 /-! ## A142070.P14742852612565834612
 
@@ -28541,6 +28012,14 @@ end
 
 end A142070.P14742852612565834612
 
+namespace A142070
+
+/-- `A088996(A014132(n-log2(1/2)))/A097807(n)` -/
+def P14742852612565834612.Spec : Prop :=
+  ∀ n, P14742852612565834612.a n = (A142070 n : ℚ)
+
+end A142070
+
 /-! ## A142070.P1178645496465590865
 
 `A059364(A038722(floor((n+1+n)/2)+1))/A097807(n)`
@@ -28555,6 +28034,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A142070.P1178645496465590865
+
+namespace A142070
+
+/-- `A059364(A038722(floor((n+1+n)/2)+1))/A097807(n)` -/
+def P1178645496465590865.Spec : Prop :=
+  ∀ n, P1178645496465590865.a n = (A142070 n : ℚ)
+
+end A142070
 
 /-! ## A142070.P7008109478523415509
 
@@ -28571,6 +28058,14 @@ end
 
 end A142070.P7008109478523415509
 
+namespace A142070
+
+/-- `A033999(A025581(n))*A059364(A038722(n+1))` -/
+def P7008109478523415509.Spec : Prop :=
+  ∀ n, P7008109478523415509.a n = A142070 n
+
+end A142070
+
 /-! ## A142070.P13214391267096710824
 
 `A033999(A154680(n+1))*A059364(A038722(n+1))`
@@ -28585,6 +28080,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A142070.P13214391267096710824
+
+namespace A142070
+
+/-- `A033999(A154680(n+1))*A059364(A038722(n+1))` -/
+def P13214391267096710824.Spec : Prop :=
+  ∀ n, P13214391267096710824.a n = A142070 n
+
+end A142070
 
 /-! ## A142070.P17946668981622703845
 
@@ -28601,6 +28104,14 @@ end
 
 end A142070.P17946668981622703845
 
+namespace A142070
+
+/-- `A033999(A144650(n+1)+1)*A059364(A038722(n+1))` -/
+def P17946668981622703845.Spec : Prop :=
+  ∀ n, P17946668981622703845.a n = A142070 n
+
+end A142070
+
 /-! ## A142070.P3819946224641175471
 
 `(A059364(A038722(n+1))/A097807(n))%A000984(n+1)`
@@ -28616,11 +28127,40 @@ end
 
 end A142070.P3819946224641175471
 
+namespace A142070
+
+/-- `(A059364(A038722(n+1))/A097807(n))%A000984(n+1)` -/
+def P3819946224641175471.Spec : Prop :=
+  ∀ n, P3819946224641175471.a n = A142070 n
+
+end A142070
+
 /-!
 # A142071: Expansion of the exponential generating function 1 - log(1 - x*(exp(z) - 1)), triangle read by rows, T(n,k) for n >= 0 and 0 <= k <= n.
 
-The programs for A142071, there is no canonical definition to state claims against.
+The programs for A142071, the canonical program `A142071.P1448866075898645574` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142071 has offset 0).
+
+The definition of A142071 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2254 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A142071.P1448866075898645574
+
+`(col(n)-1)*T(n-1,k-1)+col(n)*T(n-1,k)` with `a(0)=1, a(1)=0, a(2)=1`
+
+The canonical program, it is in `Seq.B000.C021`.
+-/
+
+namespace A142071
+
+/-- `(col(n)-1)*T(n-1,k-1)+col(n)*T(n-1,k)` -/
+def P1448866075898645574.Spec : Prop :=
+  ∀ n, P1448866075898645574.a n = A142071 n
+
+theorem P1448866075898645574.correct : P1448866075898645574.Spec := by
+  intro n
+  simp only [A142071]
+
+end A142071
 
 /-! ## A142071.P7597517703473892155
 
@@ -28637,6 +28177,14 @@ end
 
 end A142071.P7597517703473892155
 
+namespace A142071
+
+/-- `A048993(n)*A165680(n+1)` -/
+def P7597517703473892155.Spec : Prop :=
+  ∀ n, P7597517703473892155.a n = A142071 n
+
+end A142071
+
 /-! ## A142071.P11348931527450738042
 
 `A131689(n)/A130270(n+1)`
@@ -28651,6 +28199,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A142071.P11348931527450738042
+
+namespace A142071
+
+/-- `A131689(n)/A130270(n+1)` -/
+def P11348931527450738042.Spec : Prop :=
+  ∀ n, P11348931527450738042.a n = (A142071 n : ℚ)
+
+end A142071
 
 /-! ## A142071.P3247411988087615167
 
@@ -28667,6 +28223,14 @@ end
 
 end A142071.P3247411988087615167
 
+namespace A142071
+
+/-- `A131689(n)/A144328(n+1)` -/
+def P3247411988087615167.Spec : Prop :=
+  ∀ n, P3247411988087615167.a n = (A142071 n : ℚ)
+
+end A142071
+
 /-! ## A142071.P18141954057661203019
 
 `A131689(n)/A028310(A002262(n))`
@@ -28681,6 +28245,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A142071.P18141954057661203019
+
+namespace A142071
+
+/-- `A131689(n)/A028310(A002262(n))` -/
+def P18141954057661203019.Spec : Prop :=
+  ∀ n, P18141954057661203019.a n = (A142071 n : ℚ)
+
+end A142071
 
 /-! ## A142071.P11619413929147799720
 
@@ -28697,6 +28269,14 @@ end
 
 end A142071.P11619413929147799720
 
+namespace A142071
+
+/-- `A131689(n)/A002260(A028310(n))` -/
+def P11619413929147799720.Spec : Prop :=
+  ∀ n, P11619413929147799720.a n = (A142071 n : ℚ)
+
+end A142071
+
 /-! ## A142071.P6563318982473628049
 
 `A090657(n)/A134399(n)`
@@ -28711,6 +28291,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A142071.P6563318982473628049
+
+namespace A142071
+
+/-- `A090657(n)/A134399(n)` -/
+def P6563318982473628049.Spec : Prop :=
+  ∀ n, P6563318982473628049.a n = (A142071 n : ℚ)
+
+end A142071
 
 /-! ## A142071.P15408791486215891511
 
@@ -28727,6 +28315,14 @@ end
 
 end A142071.P15408791486215891511
 
+namespace A142071
+
+/-- `A131689(n)/A002260(A233583(n+1))` -/
+def P15408791486215891511.Spec : Prop :=
+  ∀ n, P15408791486215891511.a n = (A142071 n : ℚ)
+
+end A142071
+
 /-! ## A142071.P2437148828139560361
 
 `A131689(n)/A000005(A232089(n))`
@@ -28741,6 +28337,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A142071.P2437148828139560361
+
+namespace A142071
+
+/-- `A131689(n)/A000005(A232089(n))` -/
+def P2437148828139560361.Spec : Prop :=
+  ∀ n, P2437148828139560361.a n = (A142071 n : ℚ)
+
+end A142071
 
 /-! ## A142071.P4332224125078741836
 
@@ -28757,10 +28361,18 @@ end
 
 end A142071.P4332224125078741836
 
+namespace A142071
+
+/-- `A131689(n)/A000005(A000010(A059268(n)))` -/
+def P4332224125078741836.Spec : Prop :=
+  ∀ n, P4332224125078741836.a n = (A142071 n : ℚ)
+
+end A142071
+
 /-!
 # A142072: Primes congruent to 19 mod 34.
 
-The programs for A142072, the canonical program `A142072.P2788559626094725930` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142072 has offset 1).
+The programs for A142072, the canonical program `A142072.P2788559626094725930` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142072 has offset 1).
 
 The definition of A142072 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -28769,7 +28381,7 @@ The definition of A142072 is `conjectured`: the Lean definition is a formula tha
 
 `A140544(n+2)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A142072
@@ -29544,7 +29156,9 @@ end A142074
 /-!
 # A142075: Triangle T(n, k) = 2^(k-1) * E(n, k-1) where E(n,k) are the Eulerian numbers A173018, read by rows.
 
-The programs for A142075, there is no canonical definition to state claims against.
+The programs for A142075, the canonical program `A142075.P2279507341260784553` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142075 has offset 1).
+
+The definition of A142075 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2113 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A142075.P12891175580138727239
@@ -29562,20 +29176,32 @@ end
 
 end A142075.P12891175580138727239
 
+namespace A142075
+
+/-- `A156365(n+1)` -/
+def P12891175580138727239.Spec : Prop :=
+  ∀ n, P12891175580138727239.a n = A142075 (n + 1)
+
+end A142075
+
 /-! ## A142075.P2279507341260784553
 
 `A008292(n+1)*A059268(n)`
+
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
-namespace A142075.P2279507341260784553
-noncomputable section
+namespace A142075
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008292 (n + 1) * A059268 n
+/-- `A008292(n+1)*A059268(n)` -/
+def P2279507341260784553.Spec : Prop :=
+  ∀ n, P2279507341260784553.a n = A142075 (n + 1)
 
-end
+theorem P2279507341260784553.correct : P2279507341260784553.Spec := by
+  intro n
+  simp only [A142075, Nat.add_sub_cancel]
 
-end A142075.P2279507341260784553
+end A142075
 
 /-! ## A142075.P8651112547446542844
 
@@ -29595,6 +29221,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A142075.P8651112547446542844
+
+namespace A142075
+
+/-- `A059268(n)*A173018(comp[A000096(n)])` -/
+def P8651112547446542844.Spec : Prop :=
+  ∀ n, P8651112547446542844.a n = A142075 (n + 1)
+
+end A142075
 
 /-! ## A142075.P7038111533229395741
 
@@ -29617,6 +29251,14 @@ end
 
 end A142075.P7038111533229395741
 
+namespace A142075
+
+/-- `A059268(n)*A173018(lt[0, A173787(n)])` -/
+def P7038111533229395741.Spec : Prop :=
+  ∀ n, P7038111533229395741.a n = A142075 (n + 1)
+
+end A142075
+
 /-! ## A142075.P15042368437617162340
 
 `A059268(n)*A173018(lt[1, A130321(n)])`
@@ -29638,6 +29280,14 @@ end
 
 end A142075.P15042368437617162340
 
+namespace A142075
+
+/-- `A059268(n)*A173018(lt[1, A130321(n)])` -/
+def P15042368437617162340.Spec : Prop :=
+  ∀ n, P15042368437617162340.a n = A142075 (n + 1)
+
+end A142075
+
 /-! ## A142075.P18179448353128878500
 
 `(A000225(A002262(n))+1)*A008292(n+1)`
@@ -29652,6 +29302,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A142075.P18179448353128878500
+
+namespace A142075
+
+/-- `(A000225(A002262(n))+1)*A008292(n+1)` -/
+def P18179448353128878500.Spec : Prop :=
+  ∀ n, P18179448353128878500.a n = A142075 (n + 1)
+
+end A142075
 
 /-! ## A142075.P7544603985395524142
 
@@ -29674,6 +29332,14 @@ end
 
 end A142075.P7544603985395524142
 
+namespace A142075
+
+/-- `A059268(n)*A173018(lt[1, A004736(n+1)])` -/
+def P7544603985395524142.Spec : Prop :=
+  ∀ n, P7544603985395524142.a n = A142075 (n + 1)
+
+end A142075
+
 /-! ## A142075.P13020010937534277643
 
 `A059268(n)*A173018(A002024(n+1)+n)`
@@ -29688,6 +29354,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A142075.P13020010937534277643
+
+namespace A142075
+
+/-- `A059268(n)*A173018(A002024(n+1)+n)` -/
+def P13020010937534277643.Spec : Prop :=
+  ∀ n, P13020010937534277643.a n = A142075 (n + 1)
+
+end A142075
 
 /-! ## A142075.P4111536325139408945
 
@@ -29710,6 +29384,14 @@ end
 
 end A142075.P4111536325139408945
 
+namespace A142075
+
+/-- `A059268(n)*A173018(lt[1, A057555(2*(n+1))])` -/
+def P4111536325139408945.Spec : Prop :=
+  ∀ n, P4111536325139408945.a n = A142075 (n + 1)
+
+end A142075
+
 /-! ## A142075.P2513808697031973867
 
 `A008292(n+1)/A004736(n+1)*A130128(n+1)`
@@ -29724,6 +29406,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A142075.P2513808697031973867
+
+namespace A142075
+
+/-- `A008292(n+1)/A004736(n+1)*A130128(n+1)` -/
+def P2513808697031973867.Spec : Prop :=
+  ∀ n, P2513808697031973867.a n = (A142075 (n + 1) : ℚ)
+
+end A142075
 
 /-! ## A142075.P10784500334641555074
 
@@ -29740,6 +29430,14 @@ end
 
 end A142075.P10784500334641555074
 
+namespace A142075
+
+/-- `A257609(n)/A130321(n)` -/
+def P10784500334641555074.Spec : Prop :=
+  ∀ n, P10784500334641555074.a n = (A142075 (n + 1) : ℚ)
+
+end A142075
+
 /-! ## A142075.P16904429126944047045
 
 `A296229(n+1)/A090988(n+1)`
@@ -29754,6 +29452,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A142075.P16904429126944047045
+
+namespace A142075
+
+/-- `A296229(n+1)/A090988(n+1)` -/
+def P16904429126944047045.Spec : Prop :=
+  ∀ n, P16904429126944047045.a n = (A142075 (n + 1) : ℚ)
+
+end A142075
 
 /-! ## A142075.P8874921910775288387
 
@@ -29770,6 +29476,14 @@ end
 
 end A142075.P8874921910775288387
 
+namespace A142075
+
+/-- `A008292(n+1)/A156920(n)*A142963(n+1)` -/
+def P8874921910775288387.Spec : Prop :=
+  ∀ n, P8874921910775288387.a n = (A142075 (n + 1) : ℚ)
+
+end A142075
+
 /-! ## A142075.P2079299377359059338
 
 `sqrt(A177823(n+1))*A059268(n)`
@@ -29784,6 +29498,14 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A142075.P2079299377359059338
+
+namespace A142075
+
+/-- `sqrt(A177823(n+1))*A059268(n)` -/
+def P2079299377359059338.Spec : Prop :=
+  ∀ n, P2079299377359059338.a n = (A142075 (n + 1) : ℝ)
+
+end A142075
 
 /-!
 # A142076: Primes congruent to 1 mod 35.
@@ -30377,7 +30099,7 @@ end A142076
 /-!
 # A142077: Primes congruent to 2 mod 35.
 
-The programs for A142077, the canonical program `A142077.P16338474201965277594` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142077 has offset 1).
+The programs for A142077, the canonical program `A142077.P16338474201965277594` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142077 has offset 1).
 
 The definition of A142077 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3273 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -30386,7 +30108,7 @@ The definition of A142077 is `conjectured`: the Lean definition is a formula tha
 
 `p?[35*n+2]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142077
@@ -30970,7 +30692,7 @@ end A142077
 /-!
 # A142078: Primes congruent to 3 mod 35.
 
-The programs for A142078, the canonical program `A142078.P18378913914792671546` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142078 has offset 1).
+The programs for A142078, the canonical program `A142078.P18378913914792671546` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142078 has offset 1).
 
 The definition of A142078 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3290 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -30979,7 +30701,7 @@ The definition of A142078 is `conjectured`: the Lean definition is a formula tha
 
 `p?[35*n+3]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142078
@@ -31567,7 +31289,7 @@ end A142078
 /-!
 # A142079: Primes congruent to 4 mod 35.
 
-The programs for A142079, the canonical program `A142079.P13141199653635146576` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142079 has offset 1).
+The programs for A142079, the canonical program `A142079.P13141199653635146576` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142079 has offset 1).
 
 The definition of A142079 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3261 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -31576,7 +31298,7 @@ The definition of A142079 is `conjectured`: the Lean definition is a formula tha
 
 `p?[35*n+4]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142079
@@ -32160,7 +31882,7 @@ end A142079
 /-!
 # A142080: Primes congruent to 6 mod 35.
 
-The programs for A142080, the canonical program `A142080.P15792423998821649615` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142080 has offset 1).
+The programs for A142080, the canonical program `A142080.P15792423998821649615` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142080 has offset 1).
 
 The definition of A142080 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3267 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -32169,7 +31891,7 @@ The definition of A142080 is `conjectured`: the Lean definition is a formula tha
 
 `p?[35*n+6]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142080
@@ -32757,7 +32479,7 @@ end A142080
 /-!
 # A142081: Primes congruent to 8 mod 35.
 
-The programs for A142081, the canonical program `A142081.P12117061539707555917` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142081 has offset 1).
+The programs for A142081, the canonical program `A142081.P12117061539707555917` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142081 has offset 1).
 
 The definition of A142081 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3261 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -32766,7 +32488,7 @@ The definition of A142081 is `conjectured`: the Lean definition is a formula tha
 
 `p?[35*n+8]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142081
@@ -33935,7 +33657,7 @@ end A142082
 /-!
 # A142083: Primes congruent to 11 mod 35.
 
-The programs for A142083, the canonical program `A142083.P10277068139363312282` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142083 has offset 1).
+The programs for A142083, the canonical program `A142083.P10277068139363312282` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142083 has offset 1).
 
 The definition of A142083 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3264 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -33944,7 +33666,7 @@ The definition of A142083 is `conjectured`: the Lean definition is a formula tha
 
 `p?[35*n+11]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142083
@@ -34524,7 +34246,7 @@ end A142083
 /-!
 # A142084: Primes congruent to 12 mod 35.
 
-The programs for A142084, the canonical program `A142084.P10505866821454008841` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142084 has offset 1).
+The programs for A142084, the canonical program `A142084.P10505866821454008841` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142084 has offset 1).
 
 The definition of A142084 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3285 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -34533,7 +34255,7 @@ The definition of A142084 is `conjectured`: the Lean definition is a formula tha
 
 `p?[35*n+12]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142084
@@ -35698,7 +35420,7 @@ end A142085
 /-!
 # A142086: Primes congruent to 16 mod 35.
 
-The programs for A142086, the canonical program `A142086.P6530813108441564761` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142086 has offset 1).
+The programs for A142086, the canonical program `A142086.P6530813108441564761` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142086 has offset 1).
 
 The definition of A142086 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3270 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -35707,7 +35429,7 @@ The definition of A142086 is `conjectured`: the Lean definition is a formula tha
 
 `p?[35*n-19]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142086
@@ -35719,35 +35441,6 @@ def P6530813108441564761.Spec : Prop :=
 theorem P6530813108441564761.correct : P6530813108441564761.Spec := by
   intro n
   simp only [A142086, Nat.add_sub_cancel]
-
-end A142086
-
-/-! ## A142086.P1468905446079741398
-
-`∏{p}[p?[35*n+51], #]`
--/
-
-namespace A142086.P1468905446079741398
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  35 * n + 51
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n), p
-
-end
-
-end A142086.P1468905446079741398
-
-namespace A142086
-
-/-- `∏{p}[p?[35*n+51], #]` -/
-def P1468905446079741398.Spec : Prop :=
-  ∀ n, (P1468905446079741398.a n : ℤ) = A142086 (n + 1)
 
 end A142086
 
@@ -36290,7 +35983,7 @@ end A142086
 /-!
 # A142087: Primes congruent to 17 mod 35.
 
-The programs for A142087, the canonical program `A142087.P14344118086552666950` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142087 has offset 1).
+The programs for A142087, the canonical program `A142087.P14344118086552666950` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142087 has offset 1).
 
 The definition of A142087 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3263 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -36299,7 +35992,7 @@ The definition of A142087 is `conjectured`: the Lean definition is a formula tha
 
 `p?[35*n-18]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142087
@@ -36875,7 +36568,7 @@ end A142087
 /-!
 # A142088: Primes congruent to 18 mod 35.
 
-The programs for A142088, the canonical program `A142088.P16642203838786314292` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142088 has offset 1).
+The programs for A142088, the canonical program `A142088.P16642203838786314292` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142088 has offset 1).
 
 The definition of A142088 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3288 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -36884,7 +36577,7 @@ The definition of A142088 is `conjectured`: the Lean definition is a formula tha
 
 `p?[35*n+18]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142088
@@ -37548,35 +37241,6 @@ def P13502853465929878638.Spec : Prop :=
 
 end A142089
 
-/-! ## A142089.P11634360211684733848
-
-`∏{p}[p?[35*n-51], #]`
--/
-
-namespace A142089.P11634360211684733848
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (35 * n : ℤ) - 51
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).toNat.Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, p
-
-end
-
-end A142089.P11634360211684733848
-
-namespace A142089
-
-/-- `∏{p}[p?[35*n-51], #]` -/
-def P11634360211684733848.Spec : Prop :=
-  ∀ n, (P11634360211684733848.a n : ℤ) = A142089 (n + 1)
-
-end A142089
-
 /-! ## A142089.P8924162875775986364
 
 `∩[A030433(n+1), A045447(n+1)]`
@@ -38056,7 +37720,7 @@ end A142089
 /-!
 # A142090: Primes congruent to 22 mod 35.
 
-The programs for A142090, the canonical program `A142090.P301763299342873140` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142090 has offset 1).
+The programs for A142090, the canonical program `A142090.P301763299342873140` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142090 has offset 1).
 
 The definition of A142090 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3277 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -38065,7 +37729,7 @@ The definition of A142090 is `conjectured`: the Lean definition is a formula tha
 
 `p?[35*n-13]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142090
@@ -38653,7 +38317,7 @@ end A142090
 /-!
 # A142091: Primes congruent to 23 mod 35.
 
-The programs for A142091, the canonical program `A142091.P5312883380898051111` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142091 has offset 1).
+The programs for A142091, the canonical program `A142091.P5312883380898051111` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142091 has offset 1).
 
 The definition of A142091 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3258 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -38662,7 +38326,7 @@ The definition of A142091 is `conjectured`: the Lean definition is a formula tha
 
 `p?[35*n-12]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142091
@@ -39242,7 +38906,7 @@ end A142091
 /-!
 # A142092: Primes congruent to 24 mod 35.
 
-The programs for A142092, the canonical program `A142092.P5017379542963769773` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142092 has offset 1).
+The programs for A142092, the canonical program `A142092.P5017379542963769773` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142092 has offset 1).
 
 The definition of A142092 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3259 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -39251,7 +38915,7 @@ The definition of A142092 is `conjectured`: the Lean definition is a formula tha
 
 `p?[35*n-11]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142092
@@ -39831,7 +39495,7 @@ end A142092
 /-!
 # A142093: Primes congruent to 26 mod 35.
 
-The programs for A142093, the canonical program `A142093.P5613027184552983238` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142093 has offset 1).
+The programs for A142093, the canonical program `A142093.P5613027184552983238` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142093 has offset 1).
 
 The definition of A142093 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3273 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -39840,7 +39504,7 @@ The definition of A142093 is `conjectured`: the Lean definition is a formula tha
 
 `p?[35*n-9]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142093
@@ -40420,7 +40084,7 @@ end A142093
 /-!
 # A142094: Primes congruent to 27 mod 35.
 
-The programs for A142094, the canonical program `A142094.P13754732341440805904` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142094 has offset 1).
+The programs for A142094, the canonical program `A142094.P13754732341440805904` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142094 has offset 1).
 
 The definition of A142094 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3267 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -40429,7 +40093,7 @@ The definition of A142094 is `conjectured`: the Lean definition is a formula tha
 
 `p?[35*n-8]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142094
@@ -41610,7 +41274,7 @@ end A142095
 /-!
 # A142096: Primes congruent to 31 mod 35.
 
-The programs for A142096, the canonical program `A142096.P10624013665993607037` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142096 has offset 1).
+The programs for A142096, the canonical program `A142096.P10624013665993607037` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142096 has offset 1).
 
 The definition of A142096 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3293 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -41619,7 +41283,7 @@ The definition of A142096 is `conjectured`: the Lean definition is a formula tha
 
 `p?[35*n-4]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142096
@@ -42203,7 +41867,7 @@ end A142096
 /-!
 # A142097: Primes congruent to 32 mod 35.
 
-The programs for A142097, the canonical program `A142097.P18409017806951583958` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142097 has offset 1).
+The programs for A142097, the canonical program `A142097.P18409017806951583958` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142097 has offset 1).
 
 The definition of A142097 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3256 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -42212,7 +41876,7 @@ The definition of A142097 is `conjectured`: the Lean definition is a formula tha
 
 `p?[35*n-3]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142097
@@ -42787,7 +42451,7 @@ end A142097
 /-!
 # A142098: Primes congruent to 33 mod 35.
 
-The programs for A142098, the canonical program `A142098.P10542078899576561010` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142098 has offset 1).
+The programs for A142098, the canonical program `A142098.P10542078899576561010` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142098 has offset 1).
 
 The definition of A142098 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3285 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -42796,7 +42460,7 @@ The definition of A142098 is `conjectured`: the Lean definition is a formula tha
 
 `p?[35*n-2]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142098
@@ -42834,35 +42498,6 @@ namespace A142098
 /-- `or(1, p?[a(n-1)+35])` -/
 def P558050071141953861.Spec : Prop :=
   ∀ n, (P558050071141953861.a n : ℤ) = A142098 (n + 1)
-
-end A142098
-
-/-! ## A142098.P2524774531512736978
-
-`∑{p}[p?[34*(n+2)+n], #]`
--/
-
-namespace A142098.P2524774531512736978
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  34 * (n + 2) + n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n), p
-
-end
-
-end A142098.P2524774531512736978
-
-namespace A142098
-
-/-- `∑{p}[p?[34*(n+2)+n], #]` -/
-def P2524774531512736978.Spec : Prop :=
-  ∀ n, (P2524774531512736978.a n : ℤ) = A142098 (n + 1)
 
 end A142098
 
@@ -43371,7 +43006,7 @@ end A142098
 /-!
 # A142099: Primes congruent to 34 mod 35.
 
-The programs for A142099, the canonical program `A142099.P7691558053280592165` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142099 has offset 1).
+The programs for A142099, the canonical program `A142099.P7691558053280592165` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142099 has offset 1).
 
 The definition of A142099 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3273 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -43410,7 +43045,7 @@ end A142099
 
 `p?[35*n-1]`
 
-The canonical program, it is in `Seq.B000.C020`.
+The canonical program, it is in `Seq.B000.C021`.
 -/
 
 namespace A142099
@@ -43448,64 +43083,6 @@ namespace A142099
 /-- `or(1, p?[5*7*n+34])` -/
 def P12408594396377288273.Spec : Prop :=
   ∀ n, (P12408594396377288273.a n : ℤ) = A142099 (n + 1)
-
-end A142099
-
-/-! ## A142099.P3594174084655233929
-
-`∏{d}[p?[5*7*n+34], #]`
--/
-
-namespace A142099.P3594174084655233929
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5 * (7 * n) + 34
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ d ∈ Nat.divisors (f1 n), d
-
-end
-
-end A142099.P3594174084655233929
-
-namespace A142099
-
-/-- `∏{d}[p?[5*7*n+34], #]` -/
-def P3594174084655233929.Spec : Prop :=
-  ∀ n, (P3594174084655233929.a n : ℤ) = A142099 (n + 1)
-
-end A142099
-
-/-! ## A142099.P14442912504443529683
-
-`∑{p}[p?[34*(n+1)+n], #]`
--/
-
-namespace A142099.P14442912504443529683
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  34 * (n + 1) + n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f2 (SequenceMachineLib.nth (fun j => (f2 j).Prime) n)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ p ∈ Nat.primeFactors (f1 n), p
-
-end
-
-end A142099.P14442912504443529683
-
-namespace A142099
-
-/-- `∑{p}[p?[34*(n+1)+n], #]` -/
-def P14442912504443529683.Spec : Prop :=
-  ∀ n, (P14442912504443529683.a n : ℤ) = A142099 (n + 1)
 
 end A142099
 

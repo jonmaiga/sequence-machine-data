@@ -34,9 +34,10 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -47,6 +48,9 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -54,6 +58,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -64,10 +69,9 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B009.C000
 import Seq.B012.C000
-import Seq.B014.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -81,6 +85,7 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C016
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -93,7 +98,7 @@ set_option linter.unreachableTactic false
 /-!
 # A077800: List of twin primes {p, p+2}.
 
-The programs for A077800, the canonical program `A077800.P16009445446139691322` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077800 has offset 1).
+The programs for A077800, the canonical program `A077800.P16009445446139691322` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077800 has offset 1).
 
 The definition of A077800 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -148,7 +153,7 @@ end A077800
 
 `A096281(n)-a(n-1)` with `a(0)=3`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A077800
@@ -1622,7 +1627,7 @@ end A077807
 /-!
 # A077808: Number of prime factors of numbers containing in their decimal representation only the digits 0 and 1 (counted with multiplicity).
 
-The programs for A077808, the canonical program `A077808.P6672535155909729965` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077808 has offset 1).
+The programs for A077808, the canonical program `A077808.P6672535155909729965` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077808 has offset 1).
 
 The definition of A077808 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A007088, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1631,7 +1636,7 @@ The definition of A077808 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(A007088(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A077808
@@ -3211,50 +3216,50 @@ end A077814
 /-!
 # A077815: 2^phi(n) mod n^2, where phi is Euler's totient function A000010.
 
-The programs for A077815, the canonical program `A077815.P3875949264075291780` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077815 has offset 1).
+The programs for A077815, the canonical program `A077815.P4388261198569135926` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077815 has offset 1).
 
-The definition of A077815 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 336 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A077815 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
-
-/-! ## A077815.P3875949264075291780
-
-`A066781(n+1)%(n+1)²`
-
-The canonical program, it is in `Seq.B005.C000`.
--/
-
-namespace A077815
-
-/-- `A066781(n+1)%(n+1)²` -/
-def P3875949264075291780.Spec : Prop :=
-  ∀ n, P3875949264075291780.a n = A077815 (n + 1)
-
-theorem P3875949264075291780.correct : P3875949264075291780.Spec := by
-  intro n
-  simp only [A077815, Nat.add_sub_cancel]
-
-end A077815
 
 /-! ## A077815.P4388261198569135926
 
 `(2^A000010(n+1))%(n+1)²`
+
+The canonical program, it is in `Seq.B004.C000`.
 -/
-
-namespace A077815.P4388261198569135926
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.roundAway ((2 : ℚ) ^ (A000010 (n + 1) : ℤ))) ((n + 1) ^ 2 : ℤ)
-
-end
-
-end A077815.P4388261198569135926
 
 namespace A077815
 
 /-- `(2^A000010(n+1))%(n+1)²` -/
 def P4388261198569135926.Spec : Prop :=
   ∀ n, P4388261198569135926.a n = A077815 (n + 1)
+
+theorem P4388261198569135926.correct : P4388261198569135926.Spec := by
+  intro n
+  simp only [A077815, Nat.add_sub_cancel]
+
+end A077815
+
+/-! ## A077815.P3875949264075291780
+
+`A066781(n+1)%(n+1)²`
+-/
+
+namespace A077815.P3875949264075291780
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A066781 (n + 1)) ((n + 1) ^ 2 : ℤ)
+
+end
+
+end A077815.P3875949264075291780
+
+namespace A077815
+
+/-- `A066781(n+1)%(n+1)²` -/
+def P3875949264075291780.Spec : Prop :=
+  ∀ n, P3875949264075291780.a n = A077815 (n + 1)
 
 end A077815
 

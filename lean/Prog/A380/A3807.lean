@@ -7,29 +7,32 @@ import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C011
-import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C020
+import Seq.B000.C016
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
-import Seq.B000.C027
-import Seq.B000.C032
-import Seq.B000.C035
-import Seq.B000.C038
+import Seq.B000.C024
+import Seq.B000.C028
+import Seq.B000.C033
+import Seq.B000.C037
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
-import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C004
+import Seq.B001.C006
+import Seq.B001.C007
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -37,10 +40,8 @@ import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
-import Seq.B008.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -543,7 +544,7 @@ end A380719.P6390944081348636722
 /-!
 # A380725: Positive integers k whose sum of digits equals the square of their number of digits.
 
-The programs for A380725, the canonical program `A380725.P7158320234330131983` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380725 has offset 1).
+The programs for A380725, the canonical program `A380725.P7158320234330131983` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380725 has offset 1).
 
 The definition of A380725 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 614 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -610,7 +611,7 @@ end A380725
 
 `eq[A055642(n)², A007953(n)]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A380725
@@ -1123,7 +1124,7 @@ end A380751.P11002680941465368800
 /-!
 # A380757: Powers of primes that have a primitive root.
 
-The programs for A380757, the canonical program `A380757.P2652712543063746150` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380757 has offset 1).
+The programs for A380757, the canonical program `A380757.P2652712543063746150` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380757 has offset 1).
 
 The definition of A380757 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1132,7 +1133,7 @@ The definition of A380757 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A000430(n+1), A061345(n)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A380757
@@ -1884,7 +1885,7 @@ end A380758.P7958075195773515854
 /-!
 # A380759: Number of coincident digits occurring in expression of integers in both base 2 and base 10.
 
-The programs for A380759, the canonical program `A380759.P12464176623793877343` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380759 has offset 1).
+The programs for A380759, the canonical program `A380759.P12464176623793877343` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380759 has offset 1).
 
 The definition of A380759 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1893,7 +1894,7 @@ The definition of A380759 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[n+1, #!%2]`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A380759
@@ -2437,7 +2438,7 @@ end A380762.P6717729169020001223
 /-!
 # A380763: List triangular numbers up to increasingly large values and back down to 0.
 
-The programs for A380763, the canonical program `A380763.P586275446285360426` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380763 has offset 0).
+The programs for A380763, the canonical program `A380763.P586275446285360426` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380763 has offset 0).
 
 The definition of A380763 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2446,7 +2447,7 @@ The definition of A380763 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000217(A053615(n))`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A380763
@@ -3265,7 +3266,7 @@ end A380784.P17716422614744956003
 /-!
 # A380786: Numbers with a prime number of bits, prime number of ones, and prime number of zeros in their binary representation.
 
-The programs for A380786, the canonical program `A380786.P6646570094551573593` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380786 has offset 1).
+The programs for A380786, the canonical program `A380786.P6646570094551573593` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380786 has offset 1).
 
 The definition of A380786 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 109 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3274,7 +3275,7 @@ The definition of A380786 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A343258(n+1), A380788(n+1)]`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A380786
@@ -3408,7 +3409,7 @@ end A380787.P10716788538707506109
 /-!
 # A380788: Numbers with a prime number of binary digits.
 
-The programs for A380788, the canonical program `A380788.P17890132981315215586` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380788 has offset 1).
+The programs for A380788, the canonical program `A380788.P17890132981315215586` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380788 has offset 1).
 
 The definition of A380788 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5206 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3504,7 +3505,7 @@ end A380788
 
 `eq[2, A105700(A070939(n)²)]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A380788

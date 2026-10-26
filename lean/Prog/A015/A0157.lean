@@ -13,39 +13,42 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C028
+import Seq.B000.C026
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C031
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C010
+import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -55,10 +58,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -2750,7 +2750,7 @@ end A015725.P10135494474107191241
 /-!
 # A015726: Inverse of 1717th cyclotomic polynomial.
 
-The programs for A015726, the canonical program `A015726.P17361478466068332891` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015726 has offset 0).
+The programs for A015726, the canonical program `A015726.P17361478466068332891` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015726 has offset 0).
 
 The definition of A015726 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2844,32 +2844,6 @@ namespace A015726
 /-- `A010054(A235043(n)²²)` -/
 def P2354845655031016633.Spec : Prop :=
   ∀ n, P2354845655031016633.a n = A015726 n
-
-end A015726
-
-/-! ## A015726.P13560140108021076682
-
-`∏{d}[A025153(n), A010057(#)]`
--/
-
-namespace A015726.P13560140108021076682
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025153 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ d ∈ Nat.divisors (f1 n).natAbs, A010057 d
-
-end
-
-end A015726.P13560140108021076682
-
-namespace A015726
-
-/-- `∏{d}[A025153(n), A010057(#)]` -/
-def P13560140108021076682.Spec : Prop :=
-  ∀ n, P13560140108021076682.a n = A015726 n
 
 end A015726
 
@@ -3018,7 +2992,7 @@ end A015726
 
 `A010052(n*comp[A055236(3*(n+1))])`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A015726
@@ -3473,7 +3447,7 @@ end A015731.P3678944355092673749
 /-!
 # A015732: Even numbers k such that d(k) | phi(k).
 
-The programs for A015732, the canonical program `A015732.P9248841914472335492` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015732 has offset 1).
+The programs for A015732, the canonical program `A015732.P9248841914472335492` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015732 has offset 1).
 
 The definition of A015732 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4688 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3569,7 +3543,7 @@ end A015732
 
 `∩[2*n, A069237(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A015732
@@ -4067,7 +4041,7 @@ end A015732
 /-!
 # A015733: Numbers k such that d(k) does not divide phi(k).
 
-The programs for A015733, the canonical program `A015733.P12502680278738575132` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015733 has offset 1).
+The programs for A015733, the canonical program `A015733.P12502680278738575132` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015733 has offset 1).
 
 The definition of A015733 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2077 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4105,7 +4079,7 @@ end A015733
 
 `1+eq[0, A286627(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A015733
@@ -4334,7 +4308,7 @@ end A015733
 /-!
 # A015734: Odd numbers k such that d(k) does not divide phi(k).
 
-The programs for A015734, the canonical program `A015734.P13178663633944902549` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015734 has offset 1).
+The programs for A015734, the canonical program `A015734.P13178663633944902549` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015734 has offset 1).
 
 The definition of A015734 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1837 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4403,7 +4377,7 @@ end A015734
 
 `A015733(eq[1, A015733(n+1)%2]+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A015734
@@ -8441,36 +8415,6 @@ namespace A015763
 /-- `A015774(lt[A049289(n), A093353(n)])` -/
 def P3524081312043190729.Spec : Prop :=
   ∀ n, P3524081312043190729.a n = A015763 (n + 1)
-
-end A015763
-
-/-! ## A015763.P13927665014922679391
-
-`∪[A015771(n+1)-A185255(3*n), A015769(n+2)]`
--/
-
-namespace A015763.P13927665014922679391
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015771 (n + 1) - A185255 (3 * n)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A015769 (n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A015763.P13927665014922679391
-
-namespace A015763
-
-/-- `∪[A015771(n+1)-A185255(3*n), A015769(n+2)]` -/
-def P13927665014922679391.Spec : Prop :=
-  ∀ n, (P13927665014922679391.a n : ℤ) = A015763 (n + 1)
 
 end A015763
 

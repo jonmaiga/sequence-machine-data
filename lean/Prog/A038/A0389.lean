@@ -4,6 +4,7 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -18,34 +19,36 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C036
-import Seq.B000.C039
+import Seq.B000.C032
+import Seq.B000.C034
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C038
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -62,13 +65,10 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -94,7 +94,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 /-!
 # A038900: Primes p such that 26 is not a square mod p.
@@ -9562,28 +9561,6 @@ end
 
 end A038957.P2707344855554021306
 
-/-! ## A038957.P7524296403672444356
-
-`∩[A107040(n+1), A141750(n+1)]`
--/
-
-namespace A038957.P7524296403672444356
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A107040 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A141750 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A038957.P7524296403672444356
-
 /-!
 # A038958: Primes p such that 73 is not a square mod p.
 
@@ -11323,50 +11300,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A038977.P15645046701962971060
-
-/-! ## A038977.P13614830436177048391
-
-`∩[A141778(n+1), A259178(n+1)]`
--/
-
-namespace A038977.P13614830436177048391
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A141778 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A259178 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A038977.P13614830436177048391
-
-/-! ## A038977.P8599996869390755863
-
-`∩[A107040(n+1), A141778(n+1)]`
--/
-
-namespace A038977.P8599996869390755863
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A107040 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A141778 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A038977.P8599996869390755863
 
 /-!
 # A038978: Primes p such that 89 is not a square mod p.
@@ -14272,7 +14205,7 @@ end A038994
 /-!
 # A038995: Number of sublattices of index n in generic 8-dimensional lattice.
 
-The programs for A038995, the canonical program `A038995.P4021492533092847162` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038995 has offset 1).
+The programs for A038995, the canonical program `A038995.P4021492533092847162` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038995 has offset 1).
 
 The definition of A038995 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14281,7 +14214,7 @@ The definition of A038995 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A038994(#)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A038995
@@ -14414,7 +14347,7 @@ end A038995
 /-!
 # A038996: Number of sublattices of index n in generic 9-dimensional lattice.
 
-The programs for A038996, the canonical program `A038996.P3767443640505695253` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038996 has offset 1).
+The programs for A038996, the canonical program `A038996.P3767443640505695253` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038996 has offset 1).
 
 The definition of A038996 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14423,7 +14356,7 @@ The definition of A038996 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A038995(#)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A038996
@@ -14556,7 +14489,7 @@ end A038996
 /-!
 # A038997: Number of sublattices of index n in generic 10-dimensional lattice.
 
-The programs for A038997, the canonical program `A038997.P11352540964168427061` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038997 has offset 1).
+The programs for A038997, the canonical program `A038997.P11352540964168427061` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038997 has offset 1).
 
 The definition of A038997 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14565,7 +14498,7 @@ The definition of A038997 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A038996(#)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A038997
@@ -14675,7 +14608,7 @@ end A038997
 /-!
 # A038998: Sublattices of index n in generic 11-dimensional lattice.
 
-The programs for A038998, the canonical program `A038998.P13847443061910831702` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038998 has offset 1).
+The programs for A038998, the canonical program `A038998.P13847443061910831702` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038998 has offset 1).
 
 The definition of A038998 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14684,7 +14617,7 @@ The definition of A038998 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A038997(#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A038998
@@ -14835,7 +14768,7 @@ end A038998
 /-!
 # A038999: Sublattices of index n in generic 12-dimensional lattice.
 
-The programs for A038999, the canonical program `A038999.P5888438867194418494` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038999 has offset 1).
+The programs for A038999, the canonical program `A038999.P5888438867194418494` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038999 has offset 1).
 
 The definition of A038999 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14844,7 +14777,7 @@ The definition of A038999 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A038998(#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A038999

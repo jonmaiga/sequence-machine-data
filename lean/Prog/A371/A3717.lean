@@ -12,61 +12,63 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
+import Seq.B000.C030
 import Seq.B000.C031
+import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -346,7 +348,7 @@ end A371702.P9728850099350258916
 /-!
 # A371704: Heights at which a Minecraft boat-drop will break up.
 
-The programs for A371704, the canonical program `A371704.P4300638849194654958` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371704 has offset 1).
+The programs for A371704, the canonical program `A371704.P4300638849194654958` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371704 has offset 1).
 
 The definition of A371704 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -355,7 +357,7 @@ The definition of A371704 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(50*(n+1)²+50*(n+1)+23-23*(-1)^(n+1)*(1+2*(n+1)))/16`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A371704
@@ -3413,27 +3415,46 @@ end A371766.P10295554443905382808
 /-!
 # A371767: Triangle read by rows: T(n, k) = (k! * n!)/(n - k)!.
 
-The programs for A371767, the canonical program `A371767.P2734306466527776873` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371767 has offset 0).
+The programs for A371767, the canonical program `A371767.P2617940576110731168` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371767 has offset 0).
 
-The definition of A371767 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 944 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A371767 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A371767.P2617940576110731168
+
+`col(n)!*row(n)!/(row(n)-col(n))!`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A371767
+
+/-- `col(n)!*row(n)!/(row(n)-col(n))!` -/
+def P2617940576110731168.Spec : Prop :=
+  ∀ n, P2617940576110731168.a n = (A371767 n : ℚ)
+
+end A371767
 
 /-! ## A371767.P2734306466527776873
 
 `A008279(n)*A233543(n)`
-
-The canonical program, it is in `Seq.B004.C003`.
 -/
+
+namespace A371767.P2734306466527776873
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A008279 n * A233543 n
+
+end
+
+end A371767.P2734306466527776873
 
 namespace A371767
 
 /-- `A008279(n)*A233543(n)` -/
 def P2734306466527776873.Spec : Prop :=
   ∀ n, P2734306466527776873.a n = A371767 n
-
-theorem P2734306466527776873.correct : P2734306466527776873.Spec := by
-  intro n
-  simp only [A371767]
 
 end A371767
 
@@ -3807,7 +3828,7 @@ end A371776.P10915426149228543256
 /-!
 # A371777: a(n) = Sum_{k=0..floor(n/3)} binomial(2*n+2,n-3*k).
 
-The programs for A371777, the canonical program `A371777.P6370977286635919550` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371777 has offset 0).
+The programs for A371777, the canonical program `A371777.P6370977286635919550` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371777 has offset 0).
 
 The definition of A371777 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3816,7 +3837,7 @@ The definition of A371777 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A032443(n)]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A371777

@@ -11,33 +11,36 @@ import Seq.B000.C007
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
+import Seq.B000.C015
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C032
+import Seq.B000.C026
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C003
+import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -46,21 +49,18 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -85,7 +85,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
@@ -749,25 +748,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A299708.P8909644124864295896
-
-/-! ## A299708.P15897095599312208820
-
-`A000290(A299707(n+1))+char[A006368(n)]`
--/
-
-namespace A299708.P15897095599312208820
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006368 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000290 (A299707 (n + 1)).toNat + ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A299708.P15897095599312208820
 
 /-! ## A299708.P925564805746716067
 
@@ -5555,7 +5535,7 @@ end A299764.P8731453899727274975
 /-!
 # A299766: Greatest odd noncomposite divisor of n.
 
-The programs for A299766, the canonical program `A299766.P1328271149826463585` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299766 has offset 1).
+The programs for A299766, the canonical program `A299766.P1328271149826463585` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299766 has offset 1).
 
 The definition of A299766 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000265, A006530, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5564,7 +5544,7 @@ The definition of A299766 is `conditional`: the Lean definition is an OEIS formu
 
 `A006530(A000265(n+1))`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A299766
@@ -6547,44 +6527,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A299776.P1087640349294314596
-
-/-! ## A299776.P11866461128029438222
-
-`floor(4/3*A160120(n))*char[A222251(n)]`
--/
-
-namespace A299776.P11866461128029438222
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A222251 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(4 : ℚ) / 3 * (A160120 n : ℚ)⌋ * ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A299776.P11866461128029438222
-
-/-! ## A299776.P15094810291615376666
-
-`floor(4/3*A160120(n))*char[A259153(n)]`
--/
-
-namespace A299776.P15094810291615376666
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A259153 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(4 : ℚ) / 3 * (A160120 n : ℚ)⌋ * ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A299776.P15094810291615376666
 
 /-! ## A299776.P16721064761440753628
 
@@ -7940,7 +7882,7 @@ end A299794.P9226756687823668569
 /-!
 # A299795: Numbers of the form p*2^(p-1) where p is prime.
 
-The programs for A299795, the canonical program `A299795.P4529790232242310538` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299795 has offset 1).
+The programs for A299795, the canonical program `A299795.P4529790232242310538` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299795 has offset 1).
 
 The definition of A299795 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7949,7 +7891,7 @@ The definition of A299795 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001787(A000040(n+1))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A299795

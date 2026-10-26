@@ -5,24 +5,26 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C011
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
@@ -31,37 +33,38 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
@@ -316,7 +319,7 @@ end A301505.P6484242899832525307
 /-!
 # A301506: Number of integers less than or equal to n whose largest prime factor is 5.
 
-The programs for A301506, the canonical program `A301506.P17975347321607137903` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301506 has offset 0).
+The programs for A301506, the canonical program `A301506.P17975347321607137903` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301506 has offset 0).
 
 The definition of A301506 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -415,7 +418,7 @@ end A301506
 
 `a(n-1)+val(A006530(n), 5)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A301506
@@ -547,6 +550,27 @@ end
 end A301508.P8375387266034355026
 
 /-!
+# A301510: Smallest positive number b such that ((b+1)^prime(n) + b^prime(n))/(2*b + 1) is prime, or 0 if no such b exists.
+
+The programs for A301510, there is no canonical definition to state claims against.
+-/
+
+/-! ## A301510.P10872276792246666678
+
+`A250201(2*A000040(n+2))-1`
+-/
+
+namespace A301510.P10872276792246666678
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A250201 (2 * A000040 (n + 2)).toNat - 1
+
+end
+
+end A301510.P10872276792246666678
+
+/-!
 # A301511: Expansion of e.g.f. exp(Sum_{k>=1} psi(k)*x^k/k!), where psi() is the Dedekind psi function (A001615).
 
 The programs for A301511, there is no canonical definition to state claims against.
@@ -633,7 +657,7 @@ end A301521.P10562688438329382254
 /-!
 # A301523: Integers which can be partitioned into two distinct factorials. 0! and 1! are not considered distinct.
 
-The programs for A301523, the canonical program `A301523.P361054495749073688` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301523 has offset 1).
+The programs for A301523, the canonical program `A301523.P361054495749073688` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301523 has offset 1).
 
 The definition of A301523 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2346 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -705,7 +729,7 @@ end A301523
 
 `A002260(n+1)!+A003057(n+2)!`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A301523
@@ -3319,7 +3343,7 @@ end A301556.P11613403090000804742
 /-!
 # A301560: Matching number of the n-odd graph.
 
-The programs for A301560, the canonical program `A301560.P16113584918261043334` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301560 has offset 1).
+The programs for A301560, the canonical program `A301560.P16113584918261043334` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301560 has offset 1).
 
 The definition of A301560 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3328,7 +3352,7 @@ The definition of A301560 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(C(2*(n+1)-1, n)/2)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A301560
@@ -4235,7 +4259,7 @@ end A301570.P3586811573686987591
 /-!
 # A301571: Number of vertices at distance 2 from a given vertex in the n-Keller graph.
 
-The programs for A301571, the canonical program `A301571.P2687272517947940242` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301571 has offset 1).
+The programs for A301571, the canonical program `A301571.P2687272517947940242` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301571 has offset 1).
 
 The definition of A301571 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4244,7 +4268,7 @@ The definition of A301571 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*a(n-1)-7*a(n-2)+3*a(n-3)` with `a(0)=0, a(1)=10, a(2)=29, a(3)=84`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A301571
@@ -5408,7 +5432,7 @@ end A301591.P4763107515668875968
 /-!
 # A301593: n can be represented the sum of a(n) distinct factorials. (If there is no such representation, a(n) = 0.)
 
-The programs for A301593, the canonical program `A301593.P6623717910831163898` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301593 has offset 1).
+The programs for A301593, the canonical program `A301593.P6623717910831163898` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301593 has offset 1).
 
 The definition of A301593 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5495,7 +5519,7 @@ end A301593
 
 `A034968((n+1)*C(A060130(n+1), A034968(n+1)))`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A301593

@@ -5,39 +5,37 @@ import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
+import Seq.B000.C010
 import Seq.B000.C014
-import Seq.B000.C015
-import Seq.B000.C018
+import Seq.B000.C016
+import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
-import Seq.B000.C024
-import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C023
+import Seq.B000.C025
+import Seq.B000.C031
+import Seq.B000.C033
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
-import Seq.B001.C007
+import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -4033,30 +4031,29 @@ end A039432
 /-!
 # A039433: Numbers whose base-10 representation has the same nonzero number of 6's and 8's.
 
-The programs for A039433, there is no canonical definition to state claims against.
+The programs for A039433, the canonical program `A039433.P8533780217810886953` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039433 has offset 1).
+
+The definition of A039433 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1556 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A039433.P8533780217810886953
 
 `∩[A011536(n+1), A039151(n+1)]`
+
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
-namespace A039433.P8533780217810886953
-noncomputable section
+namespace A039433
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A011536 (n + 1)
+/-- `∩[A011536(n+1), A039151(n+1)]` -/
+def P8533780217810886953.Spec : Prop :=
+  ∀ n, (P8533780217810886953.a n : ℤ) = A039433 (n + 1)
 
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039151 (n + 1)
+theorem P8533780217810886953.correct : P8533780217810886953.Spec := by
+  intro n
+  simp only [A039433, Nat.add_sub_cancel]
 
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A039433.P8533780217810886953
+end A039433
 
 /-! ## A039433.P5042673788281153584
 
@@ -4080,6 +4077,14 @@ end
 
 end A039433.P5042673788281153584
 
+namespace A039433
+
+/-- `∩[A011538(n+1), A039151(n+1)]` -/
+def P5042673788281153584.Spec : Prop :=
+  ∀ n, (P5042673788281153584.a n : ℤ) = A039433 (n + 1)
+
+end A039433
+
 /-! ## A039433.P4532914589774288842
 
 `A007095(A039391(n+1)%A087833(n))`
@@ -4094,6 +4099,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039433.P4532914589774288842
+
+namespace A039433
+
+/-- `A007095(A039391(n+1)%A087833(n))` -/
+def P4532914589774288842.Spec : Prop :=
+  ∀ n, P4532914589774288842.a n = A039433 (n + 1)
+
+end A039433
 
 /-! ## A039433.P6203837059421666056
 
@@ -4110,6 +4123,14 @@ end
 
 end A039433.P6203837059421666056
 
+namespace A039433
+
+/-- `A007095(A039391(n+1))%A000040(A239729(n+9)²)` -/
+def P6203837059421666056.Spec : Prop :=
+  ∀ n, P6203837059421666056.a n = A039433 (n + 1)
+
+end A039433
+
 /-! ## A039433.P10364565239104651907
 
 `A043256(n+1)%A015883(A004148(n))`
@@ -4124,6 +4145,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039433.P10364565239104651907
+
+namespace A039433
+
+/-- `A043256(n+1)%A015883(A004148(n))` -/
+def P10364565239104651907.Spec : Prop :=
+  ∀ n, P10364565239104651907.a n = A039433 (n + 1)
+
+end A039433
 
 /-!
 # A039434: Numbers whose base-10 representation has the same nonzero number of 6's and 9's.
@@ -7532,22 +7561,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A039498.P6335986502285820967
-
-/-! ## A039498.P2141694654002601709
-
-`∏{p}[A042950(2*n+3), #]*A047461(3*n+4)`
--/
-
-namespace A039498.P2141694654002601709
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A042950 (2 * n + 3)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((∏ p ∈ Nat.primeFactors (f1 n).natAbs, p : ℕ) : ℤ) * A047461 (3 * n + 4)
-
-end
-
-end A039498.P2141694654002601709
 

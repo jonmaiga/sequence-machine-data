@@ -13,6 +13,9 @@
         "/",
         "floor",
         "sub"
+      ],
+      "tags": [
+        "proven"
       ]
     },
     {

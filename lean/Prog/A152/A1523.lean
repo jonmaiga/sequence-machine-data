@@ -9,23 +9,24 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C032
-import Seq.B000.C037
+import Seq.B000.C026
+import Seq.B000.C031
+import Seq.B000.C033
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C004
+import Seq.B002.C003
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
@@ -37,11 +38,10 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
+import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -56,6 +56,7 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
+import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -64,6 +65,7 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
+import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
@@ -2970,24 +2972,6 @@ end
 
 end A152369.P13294818445868003271
 
-/-! ## A152369.P6525121672120153685
-
-`filter[A152387(n+1), A105597(#)]`
--/
-
-namespace A152369.P6525121672120153685
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152387 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A105597 (f1 j).toNat = 1) n)
-
-end
-
-end A152369.P6525121672120153685
-
 /-!
 # A152370: Number of permutations of floor(i*3/2), i=0..n-1, with all sums of 6 adjacent terms unique.
 
@@ -3093,24 +3077,6 @@ end
 
 end A152372.P13354597933325299634
 
-/-! ## A152372.P1784728237606416055
-
-`record[gcd(A059995(n), A152376(n+1))]`
--/
-
-namespace A152372.P1784728237606416055
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A059995 n) (A152376 (n + 1))
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A152372.P1784728237606416055
-
 /-! ## A152372.P980444323553706395
 
 `A152376(n+1)%A151803(n+1)`
@@ -3162,60 +3128,6 @@ end
 
 end A152373.P9832510801653155376
 
-/-! ## A152373.P16061373366221187346
-
-`filter[A152381(n+1), A105597(#)]`
--/
-
-namespace A152373.P16061373366221187346
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152381 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A105597 (f1 j).toNat = 1) n)
-
-end
-
-end A152373.P16061373366221187346
-
-/-! ## A152373.P1809109335708005301
-
-`filter[A152381(n+1), A322860(#)]`
--/
-
-namespace A152373.P1809109335708005301
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152381 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A322860 (f1 j).toNat = 1) n)
-
-end
-
-end A152373.P1809109335708005301
-
-/-! ## A152373.P17133377737615859570
-
-`filter[A152381(n+1), A331168(#)]`
--/
-
-namespace A152373.P17133377737615859570
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152381 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A331168 (f1 j).toNat = 1) n)
-
-end
-
-end A152373.P17133377737615859570
-
 /-!
 # A152374: Number of permutations of floor(i*5/4), i=0..n-1, with all sums of 6 adjacent terms unique.
 
@@ -3236,60 +3148,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A152374.P10796593093196489909
-
-/-! ## A152374.P9237271930048731201
-
-`filter[A152380(n+1), A105597(#)]`
--/
-
-namespace A152374.P9237271930048731201
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152380 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A105597 (f1 j).toNat = 1) n)
-
-end
-
-end A152374.P9237271930048731201
-
-/-! ## A152374.P12712112317088257764
-
-`filter[A152380(n+1), A137794(#)]`
--/
-
-namespace A152374.P12712112317088257764
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152380 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A137794 (f1 j).toNat = 1) n)
-
-end
-
-end A152374.P12712112317088257764
-
-/-! ## A152374.P1177432811289741109
-
-`filter[A152380(n+1), A322585(#)]`
--/
-
-namespace A152374.P1177432811289741109
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152380 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A322585 (f1 j).toNat = 1) n)
-
-end
-
-end A152374.P1177432811289741109
 
 /-!
 # A152375: Number of permutations of floor(i*6/5), i=0..n-1, with all sums of 6 adjacent terms unique.

@@ -7,31 +7,31 @@ import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C010
 import Seq.B000.C014
-import Seq.B000.C016
-import Seq.B000.C020
-import Seq.B000.C027
+import Seq.B000.C017
+import Seq.B000.C021
 import Seq.B000.C028
-import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C029
+import Seq.B000.C033
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C003
+import Seq.B001.C004
+import Seq.B001.C006
 import Seq.B002.C000
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
-import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -45,6 +45,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -127,7 +128,7 @@ end A345502.P1810228502831403956
 /-!
 # A345503: Numbers that are the sum of nine squares in six or more ways.
 
-The programs for A345503, the canonical program `A345503.P1770597905489137048` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345503 has offset 1).
+The programs for A345503, the canonical program `A345503.P1770597905489137048` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345503 has offset 1).
 
 The definition of A345503 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -136,7 +137,7 @@ The definition of A345503 is `conjectured`: the Lean definition is a formula tha
 
 `2*a(n-1)-a(n-2)` with `a(0)=48, a(1)=56, a(2)=57, a(3)=59, a(4)=60, a(5)=62, a(6)=63, a(7)=65, a(8)=66`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A345503
@@ -196,7 +197,7 @@ end A345505.P15987916775189033572
 /-!
 # A345508: Numbers that are the sum of ten squares in one or more ways.
 
-The programs for A345508, the canonical program `A345508.P959311368896046658` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345508 has offset 1).
+The programs for A345508, the canonical program `A345508.P959311368896046658` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345508 has offset 1).
 
 The definition of A345508 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -205,7 +206,7 @@ The definition of A345508 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)` with `a(0)=10, a(1)=13, a(2)=16, a(3)=18, a(4)=19, a(5)=21, a(6)=22, a(7)=24, a(8)=25`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A345508
@@ -223,7 +224,7 @@ end A345508
 /-!
 # A345509: Numbers that are the sum of ten squares in two or more ways.
 
-The programs for A345509, the canonical program `A345509.P9858117867359923240` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345509 has offset 1).
+The programs for A345509, the canonical program `A345509.P9858117867359923240` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345509 has offset 1).
 
 The definition of A345509 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -232,7 +233,7 @@ The definition of A345509 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)` with `a(0)=25, a(1)=28, a(2)=31, a(3)=33, a(4)=34, a(5)=36, a(6)=37, a(7)=39, a(8)=40`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A345509
@@ -250,7 +251,7 @@ end A345509
 /-!
 # A345510: Numbers that are the sum of ten squares in three or more ways.
 
-The programs for A345510, the canonical program `A345510.P13563575651637678836` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345510 has offset 1).
+The programs for A345510, the canonical program `A345510.P13563575651637678836` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345510 has offset 1).
 
 The definition of A345510 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -259,7 +260,7 @@ The definition of A345510 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)` with `a(0)=34, a(1)=37, a(2)=40, a(3)=42, a(4)=43, a(5)=45, a(6)=46, a(7)=48, a(8)=49`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A345510
@@ -1955,7 +1956,7 @@ end A345530.P2536694527237115443
 /-!
 # A345531: Smallest prime power greater than the n-th prime.
 
-The programs for A345531, the canonical program `A345531.P10760789407017531318` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345531 has offset 1).
+The programs for A345531, the canonical program `A345531.P10760789407017531318` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A345531 has offset 1).
 
 The definition of A345531 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000015, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1964,7 +1965,7 @@ The definition of A345531 is `conditional`: the Lean definition is an OEIS formu
 
 `A000015(A008864(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A345531
@@ -2493,37 +2494,6 @@ end
 end A345533.P8290858249680054674
 
 /-!
-# A345534: Numbers that are the sum of eight cubes in four or more ways.
-
-The programs for A345534, there is no canonical definition to state claims against.
--/
-
-/-! ## A345534.P5554133043965557273
-
-`record[A345786(n+1)/∑[char[10*n]]]`
--/
-
-namespace A345534.P5554133043965557273
-noncomputable section
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  10 * n
-
-open Classical in
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  if ∃ j, f3 j = n then 1 else 0
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A345786 (n + 1) : ℚ) / ((∑ j ∈ Finset.range (n + 1), f2 j : ℕ) : ℚ)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A345534.P5554133043965557273
-
-/-!
 # A345535: Numbers that are the sum of eight cubes in five or more ways.
 
 The programs for A345535, there is no canonical definition to state claims against.
@@ -2564,30 +2534,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A345536.P4091950155539184668
-
-/-!
-# A345537: Numbers that are the sum of eight cubes in seven or more ways.
-
-The programs for A345537, there is no canonical definition to state claims against.
--/
-
-/-! ## A345537.P3444965643566073864
-
-`record[A345789(n+1)-A181735(3*n+5)]`
--/
-
-namespace A345537.P3444965643566073864
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A345789 (n + 1) - A181735 (3 * n + 5)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A345537.P3444965643566073864
 
 /-!
 # A345539: Numbers that are the sum of eight cubes in nine or more ways.
@@ -4608,24 +4554,6 @@ end A345584.P6535745808272649969
 The programs for A345585, there is no canonical definition to state claims against.
 -/
 
-/-! ## A345585.P3125052238997232440
-
-`record[A345842(n+1)/floor(n/3)!]`
--/
-
-namespace A345585.P3125052238997232440
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A345842 (n + 1) : ℚ) / (Nat.factorial ⌊(n : ℚ) / 3⌋.toNat : ℚ)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A345585.P3125052238997232440
-
 /-! ## A345585.P4668409785771619241
 
 `A345842(A292125(n+1))`
@@ -5391,24 +5319,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A345596.P15454278143070539027
-
-/-! ## A345596.P14832115604890316529
-
-`record[A345855(n+1)/A279759(n)]`
--/
-
-namespace A345596.P14832115604890316529
-noncomputable section
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A345855 (n + 1) : ℚ) / (A279759 n : ℚ)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A345596.P14832115604890316529
 
 /-! ## A345596.P6289072500898844141
 

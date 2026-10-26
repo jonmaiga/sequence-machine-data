@@ -5,23 +5,21 @@ import Seq.B000.C001
 import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C012
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C034
+import Seq.B000.C031
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -30,17 +28,17 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B003.C000
-import Seq.B003.C002
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B011.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B009.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -61,6 +59,7 @@ import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
+import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
@@ -109,7 +108,7 @@ end A200309.P14147999621345407217
 /-!
 # A200310: a(n) = n-1 for n <= 4, otherwise if n is even then a(n) = a(n-5)+2^(n/2), and if n is odd then a(n) = a(n-1)+2^((n-3)/2).
 
-The programs for A200310, the canonical program `A200310.P6631044154597172478` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200310 has offset 1).
+The programs for A200310, the canonical program `A200310.P6631044154597172478` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200310 has offset 1).
 
 The definition of A200310 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -118,7 +117,7 @@ The definition of A200310 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((29+5*(-1)^(n+1))*2^((2*(n+1)-7-(-1)^(n+1))/4)/7)-1`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A200310
@@ -479,7 +478,7 @@ end A200311.P17275394448680955046
 /-!
 # A200312: a(n) = A000108(n)*A006130(n), where A000108 is the Catalan numbers and A006130(n) = A006130(n-1) + 3*A006130(n-2).
 
-The programs for A200312, the canonical program `A200312.P4261502179475721494` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200312 has offset 0).
+The programs for A200312, the canonical program `A200312.P4261502179475721494` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200312 has offset 0).
 
 The definition of A200312 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000108(n)*A006130(n)` (program `A200312.P4261502179475721494`, by `A200312.P4261502179475721494.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -488,7 +487,7 @@ The definition of A200312 is `verified`: the Lean definition is proven equivalen
 
 `A000108(n)*A006130(n)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A200312
@@ -647,7 +646,7 @@ end A200312
 /-!
 # A200313: E.g.f. satisfies: A(x) = exp(x^3*A(x)^3/3!).
 
-The programs for A200313, the canonical program `A200313.P17009517533463118070` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200313 has offset 0).
+The programs for A200313, the canonical program `A200313.P17009517533463118070` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200313 has offset 0).
 
 The definition of A200313 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -656,7 +655,7 @@ The definition of A200313 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(3*n+1)^(n-1)*(3*n)!/(6^n*n!)`
 
-The canonical program, it is in `Seq.B000.C027`.
+The canonical program, it is in `Seq.B000.C028`.
 -/
 
 namespace A200313
@@ -765,7 +764,7 @@ end A200313
 /-!
 # A200316: Number of permutations of [1..n] that can be drawn on a circle.
 
-The programs for A200316, the canonical program `A200316.P8428093091446701407` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200316 has offset 1).
+The programs for A200316, the canonical program `A200316.P8428093091446701407` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200316 has offset 1).
 
 The definition of A200316 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 188 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -774,7 +773,7 @@ The definition of A200316 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A006012(n)-A004275(n)]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A200316
@@ -1345,16 +1344,16 @@ end A200323.P4881271565770162039
 /-!
 # A200324: a(n) = floor(10*(sqrt(prime(n+1)) - sqrt(prime(n)))).
 
-The programs for A200324, the canonical program `A200324.P2863043177810328631` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200324 has offset 1).
+The programs for A200324, the canonical program `A200324.P2863043177810328631` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200324 has offset 1).
 
-The definition of A200324 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A200324 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(10*(sqrt(A000040(n+2))-sqrt(A000040(n+1))))` (program `A200324.P2863043177810328631`, by `A200324.P2863043177810328631.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A200324.P2863043177810328631
 
 `floor(10*(sqrt(A000040(n+2))-sqrt(A000040(n+1))))`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A200324
@@ -2690,7 +2689,7 @@ end A200374.P339112836242914676
 /-!
 # A200375: Product of Catalan and Jacobsthal numbers: a(n) = A000108(n)*A001045(n+1).
 
-The programs for A200375, the canonical program `A200375.P9225317840720584011` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200375 has offset 0).
+The programs for A200375, the canonical program `A200375.P9225317840720584011` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200375 has offset 0).
 
 The definition of A200375 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000108(n)*A001045(n+1)` (program `A200375.P9225317840720584011`, by `A200375.P9225317840720584011.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2722,7 +2721,7 @@ end A200375
 
 `A000108(n)*A001045(n+1)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A200375

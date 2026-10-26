@@ -20,7 +20,7 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -31,23 +31,25 @@ import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -55,14 +57,8 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
-import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -77,7 +73,6 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C019
@@ -86,6 +81,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
+import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -94,7 +90,7 @@ set_option linter.unreachableTactic false
 /-!
 # A018900: Sums of two distinct powers of 2.
 
-The programs for A018900, the canonical program `A018900.P2868698677378612256` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018900 has offset 1).
+The programs for A018900, the canonical program `A018900.P2868698677378612256` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A018900 has offset 1).
 
 The definition of A018900 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -126,7 +122,7 @@ end A018900
 
 `2^A002024(n+1)+2^A002262(n)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A018900
@@ -157,6 +153,29 @@ namespace A018900
 /-- `A057168(a(n-1))` -/
 def P4099283394143741172.Spec : Prop :=
   ∀ n, P4099283394143741172.a n = A018900 (n + 1)
+
+end A018900
+
+/-! ## A018900.P10242546334707719126
+
+`2^(row(n)+1)+2^col(n)`
+-/
+
+namespace A018900.P10242546334707719126
+noncomputable section
+
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  2 ^ (SequenceMachineLib.triRow n + 1) + 2 ^ SequenceMachineLib.triCol n
+
+end
+
+end A018900.P10242546334707719126
+
+namespace A018900
+
+/-- `2^(row(n)+1)+2^col(n)` -/
+def P10242546334707719126.Spec : Prop :=
+  ∀ n, (P10242546334707719126.a n : ℤ) = A018900 (n + 1)
 
 end A018900
 
@@ -532,29 +551,6 @@ namespace A018900
 /-- `(A090988(n+1)+1)*A059268(n)` -/
 def P13305863758750528697.Spec : Prop :=
   ∀ n, P13305863758750528697.a n = A018900 (n + 1)
-
-end A018900
-
-/-! ## A018900.P6749895662919542922
-
-`A059268(n)+A098354(n+1)/2`
--/
-
-namespace A018900.P6749895662919542922
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A059268 n : ℚ) + (A098354 (n + 1) : ℚ) / 2
-
-end
-
-end A018900.P6749895662919542922
-
-namespace A018900
-
-/-- `A059268(n)+A098354(n+1)/2` -/
-def P6749895662919542922.Spec : Prop :=
-  ∀ n, P6749895662919542922.a n = (A018900 (n + 1) : ℚ)
 
 end A018900
 
@@ -2633,6 +2629,29 @@ def P12039071179355311092.Spec : Prop :=
 
 end A018910
 
+/-! ## A018910.P9834270586554845524
+
+`A000045(n+3)+2`
+-/
+
+namespace A018910.P9834270586554845524
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000045 (n + 3) + 2
+
+end
+
+end A018910.P9834270586554845524
+
+namespace A018910
+
+/-- `A000045(n+3)+2` -/
+def P9834270586554845524.Spec : Prop :=
+  ∀ n, P9834270586554845524.a n = A018910 n
+
+end A018910
+
 /-! ## A018910.P6801859677616987351
 
 `2*a(n-1)-a(n-3)` with `a(0)=4, a(1)=5, a(2)=7`
@@ -2951,29 +2970,6 @@ namespace A018910
 /-- `A001611(n+3)+1` -/
 def P3863448532510699316.Spec : Prop :=
   ∀ n, P3863448532510699316.a n = A018910 n
-
-end A018910
-
-/-! ## A018910.P11616745891637004556
-
-`2+A000045(n+3)`
--/
-
-namespace A018910.P11616745891637004556
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 + A000045 (n + 3)
-
-end
-
-end A018910.P11616745891637004556
-
-namespace A018910
-
-/-- `2+A000045(n+3)` -/
-def P11616745891637004556.Spec : Prop :=
-  ∀ n, P11616745891637004556.a n = A018910 n
 
 end A018910
 
@@ -7205,42 +7201,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A018935.P16745799918121231090
-
-/-! ## A018935.P13538236857613201415
-
-`∑{d}[root(A018936(n+1), 2), A000010(#)]`
--/
-
-namespace A018935.P13538236857613201415
-noncomputable section
-
-def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A018936 (n + 1) : ℝ) ^ (1 / (2 : ℝ))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (SequenceMachineLib.roundAway (f1 n)).natAbs, A000010 d
-
-end
-
-end A018935.P13538236857613201415
-
-/-! ## A018935.P6579269433675116706
-
-`∏{d}[root(A018936(n+1), 2), A014963(#)]`
--/
-
-namespace A018935.P6579269433675116706
-noncomputable section
-
-def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A018936 (n + 1) : ℝ) ^ (1 / (2 : ℝ))
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ d ∈ Nat.divisors (SequenceMachineLib.roundAway (f1 n)).natAbs, A014963 d
-
-end
-
-end A018935.P6579269433675116706
 
 /-! ## A018935.P15490002017248616480
 

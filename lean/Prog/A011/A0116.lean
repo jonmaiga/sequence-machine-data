@@ -11,20 +11,21 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C014
-import Seq.B000.C015
+import Seq.B000.C016
 import Seq.B000.C019
-import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C033
+import Seq.B000.C031
 import Seq.B000.C034
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C005
+import Seq.B001.C002
+import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B004.C000
@@ -33,7 +34,7 @@ import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B012.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -50,7 +51,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
-import Seq.Opaque.C022
 
 /-!
 # A011600: Legendre symbol (n,83).
@@ -1303,25 +1303,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A011642.P1118026793362651531
-
-/-! ## A011642.P11689048203844015595
-
-`A016378(comp[or(1, n)])/(-1)^n`
--/
-
-namespace A011642.P11689048203844015595
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.lor 1 n
-
-open Classical in
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A016378 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n) : ℚ) / ((-1) ^ n : ℚ)
-
-end
-
-end A011642.P11689048203844015595
 
 /-! ## A011642.P15531638909723608758
 
@@ -2685,25 +2666,25 @@ end A011654.P16832466417500510181
 /-!
 # A011655: Period 3: repeat [0, 1, 1].
 
-The programs for A011655, the canonical program `A011655.P6146775691868591852` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011655 has offset 0).
+The programs for A011655, the canonical program `A011655.P15232422005463079339` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011655 has offset 0).
 
 The definition of A011655 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A011655.P6146775691868591852
+/-! ## A011655.P15232422005463079339
 
-`floor((n+2)/3)-floor(n/3)`
+`n²%3`
 
 The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A011655
 
-/-- `floor((n+2)/3)-floor(n/3)` -/
-def P6146775691868591852.Spec : Prop :=
-  ∀ n, P6146775691868591852.a n = A011655 n
+/-- `n²%3` -/
+def P15232422005463079339.Spec : Prop :=
+  ∀ n, (P15232422005463079339.a n : ℤ) = A011655 n
 
-theorem P6146775691868591852.correct : P6146775691868591852.Spec := by
+theorem P15232422005463079339.correct : P15232422005463079339.Spec := by
   intro n
   simp only [A011655]
 
@@ -2766,25 +2747,25 @@ end A011657
 /-!
 # A011658: Period 5: repeat [0, 0, 0, 1, 1]; also expansion of 1/(x^4 + x^3 + x^2 + x + 1) (mod 2).
 
-The programs for A011658, the canonical program `A011658.P7065544669245071962` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011658 has offset 0).
+The programs for A011658, the canonical program `A011658.P3347196697129483831` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011658 has offset 0).
 
 The definition of A011658 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A011658.P7065544669245071962
+/-! ## A011658.P3347196697129483831
 
-`floor(2*n/5)-2*floor(n/5)`
+`floor(n%5/3)`
 
 The canonical program, it is in `Seq.B000.C002`.
 -/
 
 namespace A011658
 
-/-- `floor(2*n/5)-2*floor(n/5)` -/
-def P7065544669245071962.Spec : Prop :=
-  ∀ n, P7065544669245071962.a n = A011658 n
+/-- `floor(n%5/3)` -/
+def P3347196697129483831.Spec : Prop :=
+  ∀ n, P3347196697129483831.a n = A011658 n
 
-theorem P7065544669245071962.correct : P7065544669245071962.Spec := by
+theorem P3347196697129483831.correct : P3347196697129483831.Spec := by
   intro n
   simp only [A011658]
 

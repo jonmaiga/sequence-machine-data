@@ -5,6 +5,7 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -14,36 +15,36 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C030
+import Seq.B000.C026
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C004
 import Seq.B001.C006
+import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B010.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -66,7 +67,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
@@ -1179,30 +1179,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A009521.P15948831058926863614
-
-/-!
-# A009522: "Pascal sweep" for k=8: draw a horizontal line through the 1 at C(k,0) in Pascal's triangle; rotate this line and record the sum of the numbers on it (excluding the initial 1).
-
-The programs for A009522, there is no canonical definition to state claims against.
--/
-
-/-! ## A009522.P9003152603850735284
-
-`record[A088951(n)+C(9, n)]`
--/
-
-namespace A009522.P9003152603850735284
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A088951 n + (Nat.choose 9 n : ℤ)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A009522.P9003152603850735284
 
 /-!
 # A009523: Expansion of sin(tanh(x))*cos(x).
@@ -2425,30 +2401,6 @@ end
 end A009539.P14123556931894180085
 
 /-!
-# A009540: "Pascal sweep" for k=9: draw a horizontal line through the 1 at C(k,0) in Pascal's triangle; rotate this line and record the sum of the numbers on it (excluding the initial 1).
-
-The programs for A009540, there is no canonical definition to state claims against.
--/
-
-/-! ## A009540.P17645891388024868276
-
-`C(∏{p}[10^(n+1), #], n)`
--/
-
-namespace A009540.P17645891388024868276
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  10 ^ (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (∏ p ∈ Nat.primeFactors (f1 n), p) n
-
-end
-
-end A009540.P17645891388024868276
-
-/-!
 # A009542: Expansion of e.g.f. sin(x)*exp(sinh(x)).
 
 The programs for A009542, there is no canonical definition to state claims against.
@@ -3325,28 +3277,6 @@ end A009549.P30986684297059725
 
 The programs for A009550, there is no canonical definition to state claims against.
 -/
-
-/-! ## A009550.P5729165091339154975
-
-`char[5]+record[A010927(n)]`
--/
-
-namespace A009550.P5729165091339154975
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  5
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010927 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ) + f2 (SequenceMachineLib.nth (fun j => ∀ l < j, f2 l < f2 j) n)
-
-end
-
-end A009550.P5729165091339154975
 
 /-! ## A009550.P12461491038717873135
 

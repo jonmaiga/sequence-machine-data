@@ -13,49 +13,54 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C037
+import Seq.B000.C029
+import Seq.B000.C032
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C004
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -301,16 +306,16 @@ end A368101.P14651728718079615981
 /-!
 # A368104: The number of bi-unitary divisors of the powerful part of n.
 
-The programs for A368104, the canonical program `A368104.P6809811150617499491` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368104 has offset 1).
+The programs for A368104, the canonical program `A368104.P6809811150617499491` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368104 has offset 1).
 
-The definition of A368104 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A286324, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A368104 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A368104.P6809811150617499491
 
 `A286324(A057521(n+1))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A368104
@@ -541,7 +546,7 @@ end A368104
 /-!
 # A368105: The number of bi-unitary divisors of n that are powerful (A001694).
 
-The programs for A368105, the canonical program `A368105.P6887596357651866009` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368105 has offset 1).
+The programs for A368105, the canonical program `A368105.P6887596357651866009` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368105 has offset 1).
 
 The definition of A368105 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -573,7 +578,7 @@ end A368105
 
 `∑{d}[n+1, A227291(#)*A325837((n+1)/#)]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A368105
@@ -2001,7 +2006,7 @@ end A368130.P548185498882020270
 /-!
 # A368131: a(n) = floor(n * log(4/3) / log(3/2)).
 
-The programs for A368131, the canonical program `A368131.P4340374644539258575` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368131 has offset 0).
+The programs for A368131, the canonical program `A368131.P4340374644539258575` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368131 has offset 0).
 
 The definition of A368131 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(n*log(4/3)/log(3/2))` (program `A368131.P4340374644539258575`, by `A368131.P4340374644539258575.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2010,7 +2015,7 @@ The definition of A368131 is `verified`: the Lean definition is proven equivalen
 
 `floor(n*log(4/3)/log(3/2))`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A368131
@@ -2394,7 +2399,7 @@ end A368144.P12237925069429136301
 /-!
 # A368146: Decimal expansion of 174/96 = 29/16, being the highest possible win/loss points ratio in a completed 5-set tennis match, with 10-point final tie-break, which the player loses.
 
-The programs for A368146, the canonical program `A368146.P16394658131120442199` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368146 has offset 1).
+The programs for A368146, the canonical program `A368146.P16394658131120442199` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368146 has offset 1).
 
 The definition of A368146 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2403,7 +2408,7 @@ The definition of A368146 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)` with `a(0)=1, a(1)=8, a(2)=1, a(3)=2, a(4)=5, a(5)=0`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A368146
@@ -2990,7 +2995,7 @@ end A368166.P8234437505502563640
 /-!
 # A368167: The largest unitary divisor of n that is a cubefull exponentially odd number (A335988).
 
-The programs for A368167, the canonical program `A368167.P14958017841539973394` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368167 has offset 1).
+The programs for A368167, the canonical program `A368167.P14958017841539973394` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368167 has offset 1).
 
 The definition of A368167 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A350389, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2999,7 +3004,7 @@ The definition of A368167 is `conditional`: the Lean definition is an OEIS formu
 
 `A350389(A057521(n+1))`
 
-The canonical program, it is in `Seq.B007.C001`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A368167
@@ -3385,7 +3390,7 @@ end A368167
 /-!
 # A368168: The number of unitary divisors of n that are cubefull exponentially odd numbers (A335988).
 
-The programs for A368168, the canonical program `A368168.P15292658510241182672` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368168 has offset 1).
+The programs for A368168, the canonical program `A368168.P15292658510241182672` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368168 has offset 1).
 
 The definition of A368168 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034444, A368167, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3394,7 +3399,7 @@ The definition of A368168 is `conditional`: the Lean definition is an OEIS formu
 
 `A034444(A368167(n+1))`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A368168
@@ -3732,7 +3737,7 @@ end A368168
 /-!
 # A368169: The number of divisors of the largest unitary divisor of n that is a cubefull exponentially odd number (A368167).
 
-The programs for A368169, the canonical program `A368169.P9952694221193690901` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368169 has offset 1).
+The programs for A368169, the canonical program `A368169.P9952694221193690901` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368169 has offset 1).
 
 The definition of A368169 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A368167, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3741,7 +3746,7 @@ The definition of A368169 is `conditional`: the Lean definition is an OEIS formu
 
 `A000005(A368167(n+1))`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A368169
@@ -3989,7 +3994,7 @@ end A368169
 /-!
 # A368170: The largest cubefull exponentially odd divisor of n.
 
-The programs for A368170, the canonical program `A368170.P17133771726429753802` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368170 has offset 1).
+The programs for A368170, the canonical program `A368170.P17133771726429753802` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368170 has offset 1).
 
 The definition of A368170 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4021,7 +4026,7 @@ end A368170
 
 `A057521(A350390(n+1))`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A368170
@@ -4315,7 +4320,7 @@ end A368170
 /-!
 # A368171: a(n) is the smallest divisor d of n such that n/d is a cubefull exponentially odd number (A335988).
 
-The programs for A368171, the canonical program `A368171.P3649920215832031940` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368171 has offset 1).
+The programs for A368171, the canonical program `A368171.P3649920215832031940` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368171 has offset 1).
 
 The definition of A368171 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A368170, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4324,7 +4329,7 @@ The definition of A368171 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+1)/A368170(n+1)`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A368171
@@ -4453,7 +4458,7 @@ end A368171
 /-!
 # A368172: The number of divisors of the largest cubefull exponentially odd divisor of n (A368170).
 
-The programs for A368172, the canonical program `A368172.P14008522485894596196` is in `Seq.B006.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368172 has offset 1).
+The programs for A368172, the canonical program `A368172.P14008522485894596196` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368172 has offset 1).
 
 The definition of A368172 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A368170, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4462,7 +4467,7 @@ The definition of A368172 is `conditional`: the Lean definition is an OEIS formu
 
 `A000005(A368170(n+1))`
 
-The canonical program, it is in `Seq.B006.C002`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A368172
@@ -5326,7 +5331,7 @@ end A368188.P12478528393328843381
 /-!
 # A368190: Number of (undirected) cycles in the n-Dorogovtsev-Goltsev-Mendes graph.
 
-The programs for A368190, the canonical program `A368190.P2890947525502859852` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368190 has offset 0).
+The programs for A368190, the canonical program `A368190.P2890947525502859852` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368190 has offset 0).
 
 The definition of A368190 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5335,7 +5340,7 @@ The definition of A368190 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)+A007018(n-1)^3` with `a(0)=0`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A368190

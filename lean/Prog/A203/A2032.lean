@@ -14,18 +14,17 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
@@ -34,32 +33,33 @@ import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C038
+import Seq.B000.C036
+import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
-import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B002.C000
+import Seq.B001.C010
 import Seq.B002.C001
-import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -615,7 +615,7 @@ end A203227.P12510374274956389288
 /-!
 # A203228: (n-1)-st elementary symmetric function of (1!,...,(n-1)!).
 
-The programs for A203228, the canonical program `A203228.P14690127587879056660` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203228 has offset 1).
+The programs for A203228, the canonical program `A203228.P14690127587879056660` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203228 has offset 1).
 
 The definition of A203228 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -624,7 +624,7 @@ The definition of A203228 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)!*a(n-1)+A000178(n)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A203228
@@ -833,7 +833,7 @@ end A203229.P15414696143802843966
 /-!
 # A203230: (n-1)-st elementary symmetric function of the first n terms of A010684.
 
-The programs for A203230, the canonical program `A203230.P8905345843891824624` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203230 has offset 1).
+The programs for A203230, the canonical program `A203230.P8905345843891824624` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203230 has offset 1).
 
 The definition of A203230 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 409 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -868,7 +868,7 @@ end A203230
 
 `A038754(n)+n*Δ[A068911(n)]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A203230
@@ -962,7 +962,7 @@ end A203230
 /-!
 # A203231: (n-1)-st elementary symmetric function of the first n terms of the periodic sequence (3,1,3,1,3,1,3,1,...).
 
-The programs for A203231, the canonical program `A203231.P2100730177118112889` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203231 has offset 1).
+The programs for A203231, the canonical program `A203231.P2100730177118112889` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203231 has offset 1).
 
 The definition of A203231 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 408 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1046,7 +1046,7 @@ end A203231
 
 `(A014601(n)+1)*A108411(n)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A203231
@@ -1787,7 +1787,7 @@ end A203238.P587854016159017119
 /-!
 # A203239: Odd numbered terms of the sequence whose n-th term is the (n-1)-st elementary symmetric function of (i, 2i, 3i, ..., ni), where i=sqrt(-1).
 
-The programs for A203239, the canonical program `A203239.P1444761472221457279` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203239 has offset 1).
+The programs for A203239, the canonical program `A203239.P1444761472221457279` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203239 has offset 1).
 
 The definition of A203239 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1796,7 +1796,7 @@ The definition of A203239 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(-1)^(n+2)*A000254(2*(n+1))`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A203239
@@ -1889,7 +1889,7 @@ end A203239
 /-!
 # A203240: Real part of even numbered terms of the sequence s(n)=(n-1)-st elementary symmetric function of (i, 2i, 3i,...,ni).
 
-The programs for A203240, the canonical program `A203240.P13345833760926676991` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203240 has offset 1).
+The programs for A203240, the canonical program `A203240.P13345833760926676991` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203240 has offset 1).
 
 The definition of A203240 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1898,7 +1898,7 @@ The definition of A203240 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(-1)^(n+2)*A000254(2*(n+1)-1)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A203240
@@ -2719,7 +2719,7 @@ end A203242
 /-!
 # A203243: Second elementary symmetric function of the first n terms of (1,3,9,27,81,...).
 
-The programs for A203243, the canonical program `A203243.P12770153209051435861` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203243 has offset 2).
+The programs for A203243, the canonical program `A203243.P12770153209051435861` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203243 has offset 2).
 
 The definition of A203243 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2728,7 +2728,7 @@ The definition of A203243 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*A006100(n+2)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A203243
@@ -3046,7 +3046,7 @@ end A203243
 /-!
 # A203244: Second elementary symmetric function of the first n terms of (1,4,16,64,256,...).
 
-The programs for A203244, the canonical program `A203244.P16822674462860900209` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203244 has offset 2).
+The programs for A203244, the canonical program `A203244.P16822674462860900209` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203244 has offset 2).
 
 The definition of A203244 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3055,7 +3055,7 @@ The definition of A203244 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*A006105(n+2)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A203244
@@ -3304,7 +3304,7 @@ end A203244
 /-!
 # A203245: Second elementary symmetric function of the first n terms of (1,2,3,5,8,...).
 
-The programs for A203245, the canonical program `A203245.P2063800879592085872` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203245 has offset 1).
+The programs for A203245, the canonical program `A203245.P2063800879592085872` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203245 has offset 1).
 
 The definition of A203245 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 237 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3336,7 +3336,7 @@ end A203245
 
 `∑[A001911(n+1)*A020695(n)]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A203245
@@ -3458,7 +3458,7 @@ end A203245
 /-!
 # A203246: Second elementary symmetric function of the first n terms of (1,1,2,2,3,3,4,4,...).
 
-The programs for A203246, the canonical program `A203246.P15187326274312400021` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203246 has offset 2).
+The programs for A203246, the canonical program `A203246.P15187326274312400021` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203246 has offset 2).
 
 The definition of A203246 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3561,7 +3561,7 @@ end A203246
 
 `abs(a(n-1)-∑[A199771(n+1)])` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A203246
@@ -3713,24 +3713,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A203248.P15210828454703360954
-
-/-! ## A203248.P4688585381421506361
-
-`∑{d}[A203252(A000124(n)), A000010(#)]`
--/
-
-namespace A203248.P4688585381421506361
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A203252 (A000124 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, A000010 d
-
-end
-
-end A203248.P4688585381421506361
 
 /-! ## A203248.P8465180036104636718
 
@@ -5036,25 +5018,6 @@ end
 
 end A203278.P10558141759699141107
 
-/-! ## A203278.P7441484768749605184
-
-`A014682(A203269(comp[2*n]))`
--/
-
-namespace A203278.P7441484768749605184
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014682 (A203269 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n)).toNat
-
-end
-
-end A203278.P7441484768749605184
-
 /-!
 # A203279: Number of n X n binary arrays with every element neighboring horizontally or vertically both a 0 and a 1.
 
@@ -6036,25 +5999,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A203288.P15742505127653762904
-
-/-! ## A203288.P1545664287872791514
-
-`char[A112968(n+1)]*A203291(A000124(n+5)-5)`
--/
-
-namespace A203288.P1545664287872791514
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A112968 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A203291 (A000124 (n + 5) - 5).toNat
-
-end
-
-end A203288.P1545664287872791514
 
 /-! ## A203288.P3131530878797799475
 
@@ -7373,7 +7317,7 @@ end A203297.P5429169194511607346
 /-!
 # A203298: Second elementary symmetric function of the first n terms of (1,2,2,3,3,4,4,5,5...).
 
-The programs for A203298, the canonical program `A203298.P17869188344315097601` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203298 has offset 2).
+The programs for A203298, the canonical program `A203298.P17869188344315097601` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203298 has offset 2).
 
 The definition of A203298 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7382,7 +7326,7 @@ The definition of A203298 is `conjectured`: the Lean definition is a formula tha
 
 `∑[(A008619(n)+1)*∑[A080513(n)]]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A203298
@@ -7536,7 +7480,7 @@ end A203298
 /-!
 # A203299: Second elementary symmetric function of the first n terms of (2,2,3,3,4,4,5,5...).
 
-The programs for A203299, the canonical program `A203299.P16754718405884152906` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203299 has offset 2).
+The programs for A203299, the canonical program `A203299.P16754718405884152906` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203299 has offset 2).
 
 The definition of A203299 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7545,7 +7489,7 @@ The definition of A203299 is `conjectured`: the Lean definition is a formula tha
 
 `A203246(n+2)+∑[∑[lcm(2, n)+3]]`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A203299

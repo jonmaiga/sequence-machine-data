@@ -11,16 +11,18 @@ import Seq.B000.C014
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C023
-import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
-import Seq.B000.C035
+import Seq.B000.C029
+import Seq.B000.C032
+import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C007
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -31,9 +33,10 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
-import Seq.B005.C000
-import Seq.B011.C000
-import Seq.B014.C000
+import Seq.B009.C000
+import Seq.B010.C000
+import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -46,7 +49,7 @@ import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
-import Seq.Opaque.C013
+import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -777,6 +780,29 @@ def P1119603416219997577.Spec : Prop :=
 
 end A019274
 
+/-! ## A019274.P6590142549293988930
+
+`2*A000045(n+1)-2`
+-/
+
+namespace A019274.P6590142549293988930
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  2 * A000045 (n + 1) - 2
+
+end
+
+end A019274.P6590142549293988930
+
+namespace A019274
+
+/-- `2*A000045(n+1)-2` -/
+def P6590142549293988930.Spec : Prop :=
+  ∀ n, P6590142549293988930.a n = A019274 (n + 1)
+
+end A019274
+
 /-! ## A019274.P678812582712135658
 
 `ogf(2x^2/(1-2x+x^3))`
@@ -1159,29 +1185,6 @@ def P14154706151568538018.Spec : Prop :=
 
 end A019274
 
-/-! ## A019274.P2030914809406260163
-
-`A163733(n+3)-2`
--/
-
-namespace A019274.P2030914809406260163
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A163733 (n + 3) - 2
-
-end
-
-end A019274.P2030914809406260163
-
-namespace A019274
-
-/-- `A163733(n+3)-2` -/
-def P2030914809406260163.Spec : Prop :=
-  ∀ n, P2030914809406260163.a n = A019274 (n + 1)
-
-end A019274
-
 /-!
 # A019276: Megaperfect numbers: numbers n where A019294(n) = min {m: n divides sigma^(m) (n)} increases to a record; sigma^(m) means apply the sum-of-divisors function m times.
 
@@ -1560,24 +1563,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A019280.P15628273079307009134
-
-/-! ## A019280.P1593736660764010482
-
-`record[A090748(A269393(n+1))]`
--/
-
-namespace A019280.P1593736660764010482
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A090748 (A269393 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A019280.P1593736660764010482
 
 /-!
 # A019283: Let sigma_m (n) be result of applying sum-of-divisors function m times to n; call n (m,k)-perfect if sigma_m (n) = k*n; sequence gives the (2,6)-perfect numbers.

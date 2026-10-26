@@ -19,35 +19,39 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
-import Seq.B000.C030
+import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -59,11 +63,8 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -1908,24 +1909,6 @@ end A044414.P16875828282723968478
 The programs for A044415, there is no canonical definition to state claims against.
 -/
 
-/-! ## A044415.P10239228816147797548
-
-`A044795(n+1)+∏{e}[A290695(n), #]`
--/
-
-namespace A044415.P10239228816147797548
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A290695 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044795 (n + 1) + ((∏ p ∈ Nat.primeFactors (f1 n).natAbs, Nat.factorization (f1 n).natAbs p : ℕ) : ℤ)
-
-end
-
-end A044415.P10239228816147797548
-
 /-! ## A044415.P17629947265193694715
 
 `A044795(n+1)+A000001(A290695(n))`
@@ -2702,27 +2685,6 @@ end A044419.P13087397238178029366
 
 The programs for A044420, there is no canonical definition to state claims against.
 -/
-
-/-! ## A044420.P830223459434500142
-
-`A277595(eq[((n+1)/10^val(n+1, 10))%10, floor(n/10)])`
--/
-
-namespace A044420.P830223459434500142
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (SequenceMachineLib.roundAway ((n + 1 : ℚ) / (10 ^ SequenceMachineLib.valuation (n + 1) 10 : ℚ))) 10
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(n : ℚ) / 10⌋
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A277595 (SequenceMachineLib.nth (fun j => f1 j = f2 j) n)
-
-end
-
-end A044420.P830223459434500142
 
 /-! ## A044420.P929850616914670232
 
@@ -5701,7 +5663,7 @@ end A044436
 /-!
 # A044437: Numbers n such that string 1,1 occurs in the base 3 representation of n but not of n+1.
 
-The programs for A044437, the canonical program `A044437.P989226592921075756` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044437 has offset 1).
+The programs for A044437, the canonical program `A044437.P989226592921075756` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044437 has offset 1).
 
 The definition of A044437 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1413 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5710,7 +5672,7 @@ The definition of A044437 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A015053(A290091(n)), A290091(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A044437
@@ -9498,42 +9460,6 @@ end A044484.P4519643718814270013
 
 The programs for A044485, there is no canonical definition to state claims against.
 -/
-
-/-! ## A044485.P4069541927169931004
-
-`A044105(n+1)-∑{e}[A104165(n+1), #]`
--/
-
-namespace A044485.P4069541927169931004
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A104165 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044105 (n + 1) - ((∑ p ∈ Nat.primeFactors (f1 n).natAbs, Nat.factorization (f1 n).natAbs p : ℕ) : ℤ)
-
-end
-
-end A044485.P4069541927169931004
-
-/-! ## A044485.P13133593939513163283
-
-`A044105(n+1)-∑{e}[A125873(n+1), #]`
--/
-
-namespace A044485.P13133593939513163283
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A125873 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044105 (n + 1) - ((∑ p ∈ Nat.primeFactors (f1 n).natAbs, Nat.factorization (f1 n).natAbs p : ℕ) : ℤ)
-
-end
-
-end A044485.P13133593939513163283
 
 /-! ## A044485.P9603438688699827289
 

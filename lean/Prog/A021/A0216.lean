@@ -4,15 +4,14 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C009
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B001.C000
-import Seq.B001.C005
+import Seq.B001.C007
 import Seq.B002.C000
 import Seq.Opaque.C001
-import Seq.Opaque.C008
+import Seq.Opaque.C007
 import Seq.Opaque.C013
-import Seq.Opaque.C022
+import Seq.Opaque.C021
 
 /-!
 # A021604: Expansion of 1/((1-x)*(1-3*x)*(1-7*x)*(1-10*x)).

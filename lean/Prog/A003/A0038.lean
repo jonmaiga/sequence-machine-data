@@ -16,38 +16,36 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
-import Seq.B000.C025
-import Seq.B000.C031
+import Seq.B000.C020
+import Seq.B000.C022
+import Seq.B000.C026
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
-import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
-import Seq.B001.C010
+import Seq.B001.C007
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B003.C001
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
+import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
@@ -57,12 +55,11 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C014
 import Seq.Opaque.C015
+import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
-import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -71,7 +68,7 @@ set_option linter.unreachableTactic false
 /-!
 # A003800: Order of universal Chevalley group A_2 (q), q = prime power.
 
-The programs for A003800, the canonical program `A003800.P15621903815965783773` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003800 has offset 1).
+The programs for A003800, the canonical program `A003800.P15621903815965783773` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003800 has offset 1).
 
 The definition of A003800 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -103,7 +100,7 @@ end A003800
 
 `(A059238(n+1)+A329119(n+1)²)*A246655(n+1)²`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A003800
@@ -328,24 +325,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A003814.P1910492086851222309
-
-/-! ## A003814.P15189738396383572611
-
-`filter[n+1, A068716(#)]`
--/
-
-namespace A003814.P15189738396383572611
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A068716 (f1 j) = 1) n)
-
-end
-
-end A003814.P15189738396383572611
 
 /-! ## A003814.P6457143633976160155
 
@@ -2308,7 +2287,7 @@ end A003833.P13888654747341112296
 /-!
 # A003841: Order of universal Chevalley group D_2(q), q = prime power.
 
-The programs for A003841, the canonical program `A003841.P6958147360462621523` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003841 has offset 1).
+The programs for A003841, the canonical program `A003841.P6958147360462621523` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003841 has offset 1).
 
 The definition of A003841 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2317,7 +2296,7 @@ The definition of A003841 is `conjectured`: the Lean definition is a formula tha
 
 `A329119(n+1)²`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A003841
@@ -3336,6 +3315,52 @@ theorem P15070805603138295355.correct : P15070805603138295355.Spec := by
 
 end A003849
 
+/-! ## A003849.P11139399517920592055
+
+`A003714(n)%2`
+-/
+
+namespace A003849.P11139399517920592055
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A003714 n) 2
+
+end
+
+end A003849.P11139399517920592055
+
+namespace A003849
+
+/-- `A003714(n)%2` -/
+def P11139399517920592055.Spec : Prop :=
+  ∀ n, P11139399517920592055.a n = A003849 n
+
+end A003849
+
+/-! ## A003849.P816162554464848002
+
+`A014417(n)%2`
+-/
+
+namespace A003849.P816162554464848002
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A014417 n) 2
+
+end
+
+end A003849.P816162554464848002
+
+namespace A003849
+
+/-- `A014417(n)%2` -/
+def P816162554464848002.Spec : Prop :=
+  ∀ n, P816162554464848002.a n = A003849 n
+
+end A003849
+
 /-! ## A003849.P13132753974708559394
 
 `Δ[floor(ϕ*(n+1))]%2`
@@ -3693,52 +3718,6 @@ namespace A003849
 /-- `A123740(A007067(n+1))` -/
 def P16117299374569346905.Spec : Prop :=
   ∀ n, P16117299374569346905.a n = A003849 n
-
-end A003849
-
-/-! ## A003849.P18355785278690847714
-
-`A189661(A026354(n+1))`
--/
-
-namespace A003849.P18355785278690847714
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A189661 (A026354 (n + 1)).toNat
-
-end
-
-end A003849.P18355785278690847714
-
-namespace A003849
-
-/-- `A189661(A026354(n+1))` -/
-def P18355785278690847714.Spec : Prop :=
-  ∀ n, P18355785278690847714.a n = A003849 n
-
-end A003849
-
-/-! ## A003849.P6222837707015796300
-
-`A316343(A380960(n)-n)`
--/
-
-namespace A003849.P6222837707015796300
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A316343 (A380960 n - (n : ℤ)).toNat
-
-end
-
-end A003849.P6222837707015796300
-
-namespace A003849
-
-/-- `A316343(A380960(n)-n)` -/
-def P6222837707015796300.Spec : Prop :=
-  ∀ n, P6222837707015796300.a n = A003849 n
 
 end A003849
 
@@ -4782,21 +4761,50 @@ end A003892.P5446059408880412650
 /-!
 # A003893: a(n) = Fibonacci(n) mod 10.
 
-The programs for A003893, there is no canonical definition to state claims against.
+The programs for A003893, the canonical program `A003893.P16417815883843293476` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003893 has offset 0).
+
+The definition of A003893 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000045(n)%10` (program `A003893.P16417815883843293476`, by `A003893.P16417815883843293476.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A003893.P13033085585006460604
+/-! ## A003893.P5135487476882874169
 
-`A105471(n)-A105472(n)*10`
+`(a(n-1)+a(n-2))%10` with `a(0)=0, a(1)=1`
 -/
 
-namespace A003893.P13033085585006460604
+namespace A003893.P5135487476882874169
 noncomputable section
 
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A105471 n - A105472 n * 10
+def a : ℕ → ℕ := SequenceMachineLib.rec [0, 1] fun n a =>
+  (a (n - 1) + a (n - 2)) % 10
 
 end
 
-end A003893.P13033085585006460604
+end A003893.P5135487476882874169
+
+namespace A003893
+
+/-- `(a(n-1)+a(n-2))%10` -/
+def P5135487476882874169.Spec : Prop :=
+  ∀ n, (P5135487476882874169.a n : ℤ) = A003893 n
+
+end A003893
+
+/-! ## A003893.P16417815883843293476
+
+`A000045(n)%10`
+
+The canonical program, it is in `Seq.B001.C000`.
+-/
+
+namespace A003893
+
+/-- `A000045(n)%10` -/
+def P16417815883843293476.Spec : Prop :=
+  ∀ n, P16417815883843293476.a n = A003893 n
+
+theorem P16417815883843293476.correct : P16417815883843293476.Spec := by
+  intro n
+  simp only [A003893]
+
+end A003893
 

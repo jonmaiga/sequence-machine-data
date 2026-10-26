@@ -17,6 +17,10 @@
         "floor",
         "^",
         "sub"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

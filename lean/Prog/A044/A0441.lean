@@ -16,38 +16,39 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C022
-import Seq.B000.C024
+import Seq.B000.C020
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C030
+import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -55,7 +56,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -87,7 +87,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 /-!
@@ -4919,25 +4918,6 @@ end
 
 end A044154.P15524065538984735752
 
-/-! ## A044154.P3316075590535711225
-
-`A044170(comp[2*n])/A034444(A181507(n+1))!`
--/
-
-namespace A044154.P3316075590535711225
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n
-
-open Classical in
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A044170 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n) : ℚ) / (Nat.factorial (A034444 (A181507 (n + 1)).toNat).toNat : ℚ)
-
-end
-
-end A044154.P3316075590535711225
-
 /-! ## A044154.P10176930292032816878
 
 `record[A260739(A044170(n+1))]`
@@ -4955,25 +4935,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A044154.P10176930292032816878
-
-/-! ## A044154.P10207352437867609654
-
-`A260739(A044170(comp[2*n]))`
--/
-
-namespace A044154.P10207352437867609654
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A260739 (A044170 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n)).toNat
-
-end
-
-end A044154.P10207352437867609654
 
 /-! ## A044154.P5096868912830668328
 
@@ -5799,24 +5760,6 @@ end A044163.P5446216182668352432
 
 The programs for A044164, there is no canonical definition to state claims against.
 -/
-
-/-! ## A044164.P4535354884507967842
-
-`A044544(n+1)+∑{e}[A000043(n+5), #]`
--/
-
-namespace A044164.P4535354884507967842
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000043 (n + 5)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044544 (n + 1) + ((∑ p ∈ Nat.primeFactors (f1 n).natAbs, Nat.factorization (f1 n).natAbs p : ℕ) : ℤ)
-
-end
-
-end A044164.P4535354884507967842
 
 /-! ## A044164.P15535785485980945469
 
@@ -7231,24 +7174,6 @@ end
 
 end A044184.P13535012473021338441
 
-/-! ## A044184.P3734706942781694638
-
-`A044564(n+1)+∏{e}[A155884(n), #]`
--/
-
-namespace A044184.P3734706942781694638
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155884 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044564 (n + 1) + ((∏ p ∈ Nat.primeFactors (f1 n).natAbs, Nat.factorization (f1 n).natAbs p : ℕ) : ℤ)
-
-end
-
-end A044184.P3734706942781694638
-
 /-! ## A044184.P1104858824176216792
 
 `A044564(n+1)+A001055(A002146(n))`
@@ -8534,24 +8459,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A044194.P9813121844739423259
-
-/-! ## A044194.P16975395470347744268
-
-`A044574(n+1)+∑{d}[A340817(n+2), #-A000010(#)]`
--/
-
-namespace A044194.P16975395470347744268
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A340817 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A044574 (n + 1) + ∑ d ∈ Nat.divisors (f1 n).natAbs, ((d : ℤ) - A000010 d)
-
-end
-
-end A044194.P16975395470347744268
 
 /-! ## A044194.P3805113464977426041
 

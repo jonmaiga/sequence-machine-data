@@ -17,45 +17,43 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
+import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -73,6 +71,7 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
+import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
@@ -2778,7 +2777,7 @@ end A090225.P13405528482315827863
 /-!
 # A090226: Least k such that prime(k) has n digits. Index of least n-digit prime.
 
-The programs for A090226, the canonical program `A090226.P1073034422440432756` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090226 has offset 1).
+The programs for A090226, the canonical program `A090226.P1073034422440432756` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090226 has offset 1).
 
 The definition of A090226 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2787,7 +2786,7 @@ The definition of A090226 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A006880(n)+1`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A090226
@@ -2799,6 +2798,29 @@ def P1073034422440432756.Spec : Prop :=
 theorem P1073034422440432756.correct : P1073034422440432756.Spec := by
   intro n
   simp only [A090226, Nat.add_sub_cancel]
+
+end A090226
+
+/-! ## A090226.P15323197595788468824
+
+`A000720(10^n)+1`
+-/
+
+namespace A090226.P15323197595788468824
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000720 (10 ^ n) + 1
+
+end
+
+end A090226.P15323197595788468824
+
+namespace A090226
+
+/-- `A000720(10^n)+1` -/
+def P15323197595788468824.Spec : Prop :=
+  ∀ n, P15323197595788468824.a n = A090226 (n + 1)
 
 end A090226
 
@@ -2877,32 +2899,6 @@ namespace A090226
 /-- `∑[or(A000007(n), A006879(n))]` -/
 def P16622423557933782428.Spec : Prop :=
   ∀ n, P16622423557933782428.a n = A090226 (n + 1)
-
-end A090226
-
-/-! ## A090226.P15196974510969302247
-
-`∑[or(A006879(n), A240465(n))]`
--/
-
-namespace A090226.P15196974510969302247
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A006879 n) (A240465 n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A090226.P15196974510969302247
-
-namespace A090226
-
-/-- `∑[or(A006879(n), A240465(n))]` -/
-def P15196974510969302247.Spec : Prop :=
-  ∀ n, P15196974510969302247.a n = A090226 (n + 1)
 
 end A090226
 
@@ -3826,8 +3822,25 @@ end A090240.P17583216378994368303
 /-!
 # A090241: a(n) = F(n)^F(n+1), where F is the Fibonacci sequence A000045.
 
-The programs for A090241, there is no canonical definition to state claims against.
+The programs for A090241, the canonical program `A090241.P8502492943589029318` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090241 has offset 0).
+
+The definition of A090241 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A090241.P8502492943589029318
+
+`A000045(n)^A000045(n+1)`
+
+The canonical program, it is in `Seq.B001.C003`.
+-/
+
+namespace A090241
+
+/-- `A000045(n)^A000045(n+1)` -/
+def P8502492943589029318.Spec : Prop :=
+  ∀ n, P8502492943589029318.a n = (A090241 n : ℚ)
+
+end A090241
 
 /-! ## A090241.P8551250485074114480
 
@@ -3844,6 +3857,14 @@ end
 
 end A090241.P8551250485074114480
 
+namespace A090241
+
+/-- `A000045(n)^A005181(n)` -/
+def P8551250485074114480.Spec : Prop :=
+  ∀ n, P8551250485074114480.a n = (A090241 n : ℚ)
+
+end A090241
+
 /-! ## A090241.P12400107799419190082
 
 `A000045(n)^A147659(n)`
@@ -3858,6 +3879,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A090241.P12400107799419190082
+
+namespace A090241
+
+/-- `A000045(n)^A147659(n)` -/
+def P12400107799419190082.Spec : Prop :=
+  ∀ n, P12400107799419190082.a n = (A090241 n : ℚ)
+
+end A090241
 
 /-! ## A090241.P17342850023381683634
 
@@ -3874,23 +3903,13 @@ end
 
 end A090241.P17342850023381683634
 
-/-! ## A090241.P10364146137867213990
+namespace A090241
 
-`A000045(n)^∑[A212804(n)]`
--/
+/-- `A000045(n)^A225396(n)` -/
+def P17342850023381683634.Spec : Prop :=
+  ∀ n, P17342850023381683634.a n = (A090241 n : ℚ)
 
-namespace A090241.P10364146137867213990
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A212804 n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A000045 n : ℚ) ^ (∑ j ∈ Finset.range (n + 1), f1 j : ℤ)
-
-end
-
-end A090241.P10364146137867213990
+end A090241
 
 /-!
 # A090242: a(n) = F(n)^F(n-1), where F is the Fibonacci sequence A000045.

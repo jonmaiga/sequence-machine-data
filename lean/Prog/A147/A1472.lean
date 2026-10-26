@@ -5,27 +5,30 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C023
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -33,12 +36,15 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C009
+import Seq.B001.C007
+import Seq.B001.C008
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -47,19 +53,13 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -783,24 +783,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A147214.P884169196571404106
-
-/-! ## A147214.P371945291344130521
-
-`filter[A147128(n+3), A030317(#)]`
--/
-
-namespace A147214.P371945291344130521
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A147128 (n + 3)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A030317 (f1 j).toNat = 1) n)
-
-end
-
-end A147214.P371945291344130521
 
 /-!
 # A147215: Number of n X n binary arrays symmetric under 90 degree rotation with all ones connected only in a 1100-0111-0011 pattern in any orientation.
@@ -4127,25 +4109,6 @@ end
 
 end A147279.P9023685246354132460
 
-/-! ## A147279.P17637801878455669743
-
-`A347740((char[A182631(n)]+n)*A326532(n))`
--/
-
-namespace A147279.P17637801878455669743
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A182631 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A347740 ((((if ∃ j, f1 j = (n : ℤ) then 1 else 0) + n : ℕ) : ℤ) * A326532 n).toNat
-
-end
-
-end A147279.P17637801878455669743
-
 /-! ## A147279.P16326065822162462525
 
 `A055643(A127193(n+1)^A163551(n+1))`
@@ -5329,7 +5292,7 @@ end A147295.P2209255001311899904
 /-!
 # A147296: a(n) = n*(9*n+2).
 
-The programs for A147296, the canonical program `A147296.P3605709138452781436` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A147296 has offset 0).
+The programs for A147296, the canonical program `A147296.P3605709138452781436` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A147296 has offset 0).
 
 The definition of A147296 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*(9*n+2)` (program `A147296.P3605709138452781436`, by `A147296.P3605709138452781436.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5338,7 +5301,7 @@ The definition of A147296 is `verified`: the Lean definition is proven equivalen
 
 `n*(9*n+2)`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A147296
@@ -5880,7 +5843,7 @@ end A147296
 /-!
 # A147297: Primes of the form (2k)^2 + 3(2k + 1)^2.
 
-The programs for A147297, the canonical program `A147297.P13953450478721727119` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A147297 has offset 1).
+The programs for A147297, the canonical program `A147297.P13953450478721727119` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A147297 has offset 1).
 
 The definition of A147297 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 342 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6039,7 +6002,7 @@ end A147297
 
 `record[A108154(4*(n+1)+2)]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A147297

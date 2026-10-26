@@ -5,6 +5,7 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -15,57 +16,56 @@ import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C033
 import Seq.B000.C036
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
-import Seq.B001.C006
+import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
 import Seq.B007.C000
-import Seq.B007.C001
-import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -91,7 +91,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2331,7 +2330,7 @@ end A262921.P12730193282594345482
 /-!
 # A262922: a(1)=1; for n>1, a(n) = a(n-1) + n + 2 if a(n-1) and n are coprime, otherwise a(n) = a(n-1)/gcd(a(n-1),n).
 
-The programs for A262922, the canonical program `A262922.P8638459819026339443` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262922 has offset 1).
+The programs for A262922, the canonical program `A262922.P8638459819026339443` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262922 has offset 1).
 
 The definition of A262922 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2340,7 +2339,7 @@ The definition of A262922 is `conjectured`: the Lean definition is a formula tha
 
 `(gcd(4, n)+1)%4*∑[C(2, n%4)]-n`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A262922
@@ -2596,7 +2595,7 @@ end A262924.P9065289989523816916
 /-!
 # A262925: Sum of n consecutive fourth powers starting with n^4.
 
-The programs for A262925, the canonical program `A262925.P5492214890831276794` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262925 has offset 0).
+The programs for A262925, the canonical program `A262925.P5492214890831276794` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262925 has offset 0).
 
 The definition of A262925 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2605,7 +2604,7 @@ The definition of A262925 is `conjectured`: the Lean definition is a formula tha
 
 `record[∑[A309336(n)]*A000035(n)]`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A262925
@@ -2780,7 +2779,7 @@ end A262926.P2820916564388987602
 /-!
 # A262927: a(n+9) = a(n) + 10*(n+4) + 9. a(0)=0, a(1)=1, a(2)=3, a(3)=6, a(4)=10, a(5)=15, a(6)=23, a(7)=30, a(8)=39.
 
-The programs for A262927, the canonical program `A262927.P17145259488631727692` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262927 has offset 0).
+The programs for A262927, the canonical program `A262927.P17145259488631727692` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262927 has offset 0).
 
 The definition of A262927 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2789,7 +2788,7 @@ The definition of A262927 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A262397(2*n)+A262397(2*n+1)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A262927
@@ -5056,27 +5055,6 @@ end
 
 end A262968.P3716050334231504284
 
-/-! ## A262968.P3547333343989827887
-
-`abs(A262967(eq[n, A064429(n)]))`
--/
-
-namespace A262968.P3547333343989827887
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A064429 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |A262967 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) = f2 j) n)|
-
-end
-
-end A262968.P3547333343989827887
-
 /-! ## A262968.P13519219082365666229
 
 `A262967(A008486(n))+A000007(n)`
@@ -5893,7 +5871,7 @@ end A262977.P9842517150259378402
 /-!
 # A262978: Exponents n such that 2^n-1 and 2^n+1 are squarefree.
 
-The programs for A262978, the canonical program `A262978.P15795800057724418315` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262978 has offset 1).
+The programs for A262978, the canonical program `A262978.P15795800057724418315` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262978 has offset 1).
 
 The definition of A262978 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 346 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6212,7 +6190,7 @@ end A262978
 
 `eq[1, A272334(2*(n+1))]+1`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A262978
@@ -7150,7 +7128,7 @@ end A262988.P5817139229228231204
 /-!
 # A262991: Number of squarefree numbers among the parts of the partitions of n into two parts.
 
-The programs for A262991, the canonical program `A262991.P2037548391319313371` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262991 has offset 1).
+The programs for A262991, the canonical program `A262991.P2037548391319313371` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262991 has offset 1).
 
 The definition of A262991 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A262868, A262869, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7159,7 +7137,7 @@ The definition of A262991 is `conditional`: the Lean definition is an OEIS formu
 
 `A262868(n+1)+A262869(n+1)`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A262991
@@ -7481,7 +7459,7 @@ end A262991
 /-!
 # A262992: Sum of the squarefree numbers among the partition parts of n into two parts.
 
-The programs for A262992, the canonical program `A262992.P10810152767226741436` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262992 has offset 1).
+The programs for A262992, the canonical program `A262992.P10810152767226741436` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262992 has offset 1).
 
 The definition of A262992 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A262870, A262871, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7490,7 +7468,7 @@ The definition of A262992 is `conditional`: the Lean definition is an OEIS formu
 
 `A262870(n+1)+A262871(n+1)`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A262992
@@ -7528,7 +7506,7 @@ def P1082035813869212664.Spec : Prop :=
 
 theorem P1082035813869212664.correct : P1082035813869212664.Spec := by
   intro n
-  simp only [A262992, Nat.add_sub_cancel, A262992.P1082035813869212664.a, A262992.P10810152767226741436.a, A262870, A262870.P16818378714008051339.a, A262871, A262871.P5571121125344339502.f1, A262871.P5571121125344339502.a, A294061, A294061.P13855633599967279508.a, A294145, A294145.P7307244003580774145.a, A038387, A038387.P4721270746372343696.a, A294146, A294146.P8791464845272006236.a, A294283, A294283.P1633113175361013834.a, A294284, A294284.P6326353456023793442.f1, A294284.P6326353456023793442.a, A294285, A294285.P4641961170870907035.f3, A294285.P4641961170870907035.f2, A294285.P4641961170870907035.f1, A294285.P4641961170870907035.a, A000578, A000578.P12162961755414704816.a, A007913, A007913.P11359412940648999332.a, A013928, A013928.P12891540521727461604.f2, A013928.P12891540521727461604.f1, A013928.P12891540521727461604.a, A028310, A028310.P18130301328277559831.a, A294060, A294060.P329766733442987257.a, A294263, A294263.P10402208649476642177.f2, A294263.P10402208649476642177.f1, A294263.P10402208649476642177.a, A059479, A059479.P17464652159649958448.a, A262869, A262869.P10644154218626239048.a, A294237, A294237.P9254304307185982450.f2, A294237.P9254304307185982450.f1, A294237.P9254304307185982450.a, SequenceMachineLib.memo_apply]
+  simp only [A262992, Nat.add_sub_cancel, A262992.P1082035813869212664.a, A262992.P10810152767226741436.a, A262870, A262870.P16818378714008051339.a, A262871, A262871.P5571121125344339502.f1, A262871.P5571121125344339502.a, A294061, A294061.P13855633599967279508.a, A294145, A294145.P7307244003580774145.a, A038387, A038387.P4721270746372343696.a, A294146, A294146.P8791464845272006236.a, A294283, A294283.P1633113175361013834.a, A294284, A294284.P6326353456023793442.f1, A294284.P6326353456023793442.a, A294285, A294285.P4641961170870907035.f3, A294285.P4641961170870907035.f2, A294285.P4641961170870907035.f1, A294285.P4641961170870907035.a, A000578, A000578.P12162961755414704816.a, A007913, A007913.P8131970495124731496.a, A013928, A013928.P12891540521727461604.f2, A013928.P12891540521727461604.f1, A013928.P12891540521727461604.a, A028310, A028310.P18130301328277559831.a, A294060, A294060.P329766733442987257.a, A294263, A294263.P10402208649476642177.f2, A294263.P10402208649476642177.f1, A294263.P10402208649476642177.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A262869, A262869.P10644154218626239048.a, A294237, A294237.P9254304307185982450.f2, A294237.P9254304307185982450.f1, A294237.P9254304307185982450.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
@@ -7765,7 +7743,7 @@ end A262992
 /-!
 # A262997: a(n+3) = a(n) + 24*n + 40, a(0)=0, a(1)=5, a(2)=19.
 
-The programs for A262997, the canonical program `A262997.P7064338317596214065` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262997 has offset 0).
+The programs for A262997, the canonical program `A262997.P7064338317596214065` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262997 has offset 0).
 
 The definition of A262997 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7774,7 +7752,7 @@ The definition of A262997 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-3)+24*(n-3)+40` with `a(0)=0, a(1)=5, a(2)=19`
 
-The canonical program, it is in `Seq.B000.C032`.
+The canonical program, it is in `Seq.B000.C033`.
 -/
 
 namespace A262997

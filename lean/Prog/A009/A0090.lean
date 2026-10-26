@@ -5,6 +5,7 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -17,34 +18,32 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C034
+import Seq.B000.C032
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
-import Seq.B002.C005
+import Seq.B002.C001
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C000
-import Seq.B004.C001
-import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -67,7 +66,6 @@ import Seq.Opaque.C011
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -85,7 +83,7 @@ set_option linter.unreachableTactic false
 /-!
 # A009000: Ordered hypotenuse numbers (squares are sums of 2 distinct nonzero squares).
 
-The programs for A009000, the canonical program `A009000.P4505653467235074305` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009000 has offset 1).
+The programs for A009000, the canonical program `A009000.P4505653467235074305` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009000 has offset 1).
 
 The definition of A009000 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -94,7 +92,7 @@ The definition of A009000 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A224921(n+1)+n]-n`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A009000
@@ -896,7 +894,7 @@ end A009002.P2647546584797992666
 /-!
 # A009003: Hypotenuse numbers (squares are sums of 2 nonzero squares).
 
-The programs for A009003, the canonical program `A009003.P4153996351455582682` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009003 has offset 1).
+The programs for A009003, the canonical program `A009003.P4153996351455582682` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009003 has offset 1).
 
 The definition of A009003 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1032,7 +1030,7 @@ end A009003
 
 `comp[A004144(n+1)-1]+1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A009003
@@ -1491,25 +1489,6 @@ end
 
 end A009004.P15710846054010519485
 
-/-! ## A009004.P9223068547805087920
-
-`floor(A242778(comp[2*n])/2)`
--/
-
-namespace A009004.P9223068547805087920
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊(A242778 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n) : ℚ) / 2⌋
-
-end
-
-end A009004.P9223068547805087920
-
 /-! ## A009004.P975878682702321134
 
 `ceil(A242778(2*n+1)/2)`
@@ -1542,25 +1521,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A009004.P1456133023248406394
-
-/-! ## A009004.P12682137256808166586
-
-`A025480(A242778(comp[2*n]))`
--/
-
-namespace A009004.P12682137256808166586
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025480 (A242778 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n)).toNat
-
-end
-
-end A009004.P12682137256808166586
 
 /-!
 # A009005: All natural numbers except 1, 2 and 4.
@@ -3047,25 +3007,6 @@ end A009041
 The programs for A009042, there is no canonical definition to state claims against.
 -/
 
-/-! ## A009042.P5117897967510238882
-
-`comp[2*n]*A003709(n)`
--/
-
-namespace A009042.P5117897967510238882
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n : ℤ) * A003709 n
-
-end
-
-end A009042.P5117897967510238882
-
 /-! ## A009042.P1448120290784308971
 
 `A003709(n)*A005408(n)`
@@ -4194,7 +4135,7 @@ end A009069.P1264084373348320477
 /-!
 # A009070: Ordered sides of Pythagorean triangles.
 
-The programs for A009070, the canonical program `A009070.P3709477787699467726` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009070 has offset 1).
+The programs for A009070, the canonical program `A009070.P3709477787699467726` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009070 has offset 1).
 
 The definition of A009070 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4203,7 +4144,7 @@ The definition of A009070 is `conjectured`: the Lean definition is a formula tha
 
 `∑[char[∑[A046081(n+1)]]]+2`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A009070

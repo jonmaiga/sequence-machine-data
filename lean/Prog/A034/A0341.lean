@@ -21,7 +21,6 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -33,45 +32,43 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
-import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
@@ -84,6 +81,7 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
@@ -742,32 +740,6 @@ def P14688215633276030058.Spec : Prop :=
 
 end A034103
 
-/-! ## A034103.P8890708429011216871
-
-`A056847(∑{d}[A034098(n+1), A000010(#)])`
--/
-
-namespace A034103.P8890708429011216871
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034098 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056847 (∑ d ∈ Nat.divisors (f1 n).natAbs, A000010 d).toNat
-
-end
-
-end A034103.P8890708429011216871
-
-namespace A034103
-
-/-- `A056847(∑{d}[A034098(n+1), A000010(#)])` -/
-def P8890708429011216871.Spec : Prop :=
-  ∀ n, P8890708429011216871.a n = A034103 (n + 1)
-
-end A034103
-
 /-! ## A034103.P8383509701313929548
 
 `A056847(A034098(n+1)%A034098(n+1)²)`
@@ -846,7 +818,7 @@ end A034103
 /-!
 # A034104: Fractional part of square root of a(n) starts with digit 8.
 
-The programs for A034104, the canonical program `A034104.P12814070935055898263` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034104 has offset 1).
+The programs for A034104, the canonical program `A034104.P12814070935055898263` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034104 has offset 1).
 
 The definition of A034104 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -855,7 +827,7 @@ The definition of A034104 is `conjectured`: the Lean definition is a formula tha
 
 `A034099(n+1)-A002024(A016897(n))`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A034104
@@ -1017,58 +989,6 @@ namespace A034104
 /-- `eq[3, A023961(A078358(n+1))]` -/
 def P14793620836530618800.Spec : Prop :=
   ∀ n, (P14793620836530618800.a n : ℤ) = A034104 (n + 1)
-
-end A034104
-
-/-! ## A034104.P7494986965937759659
-
-`A056847(∑{d}[A034099(n+1), A000010(#)])`
--/
-
-namespace A034104.P7494986965937759659
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034099 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056847 (∑ d ∈ Nat.divisors (f1 n).natAbs, A000010 d).toNat
-
-end
-
-end A034104.P7494986965937759659
-
-namespace A034104
-
-/-- `A056847(∑{d}[A034099(n+1), A000010(#)])` -/
-def P7494986965937759659.Spec : Prop :=
-  ∀ n, P7494986965937759659.a n = A034104 (n + 1)
-
-end A034104
-
-/-! ## A034104.P168615174463211265
-
-`A056847(∏{d}[A034099(n+1), A014963(#)])`
--/
-
-namespace A034104.P168615174463211265
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A034099 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056847 (∏ d ∈ Nat.divisors (f1 n).natAbs, A014963 d).toNat
-
-end
-
-end A034104.P168615174463211265
-
-namespace A034104
-
-/-- `A056847(∏{d}[A034099(n+1), A014963(#)])` -/
-def P168615174463211265.Spec : Prop :=
-  ∀ n, P168615174463211265.a n = A034104 (n + 1)
 
 end A034104
 
@@ -6793,60 +6713,6 @@ namespace A034128
 /-- `floor((6/5+n)^3)+A007318(∑[n])` -/
 def P8444201722698312060.Spec : Prop :=
   ∀ n, P8444201722698312060.a n = A034128 (n + 1)
-
-end A034128
-
-/-! ## A034128.P7895916812354652884
-
-`floor(char[A004488(n)]+(6/5+n)^3)`
--/
-
-namespace A034128.P7895916812354652884
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A004488 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℚ) + ((6 : ℚ) / 5 + (n : ℚ)) ^ 3⌋
-
-end
-
-end A034128.P7895916812354652884
-
-namespace A034128
-
-/-- `floor(char[A004488(n)]+(6/5+n)^3)` -/
-def P7895916812354652884.Spec : Prop :=
-  ∀ n, P7895916812354652884.a n = A034128 (n + 1)
-
-end A034128
-
-/-! ## A034128.P4286787415196432082
-
-`floor(char[A027656(n)]+(6/5+n)^3)`
--/
-
-namespace A034128.P4286787415196432082
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027656 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℚ) + ((6 : ℚ) / 5 + (n : ℚ)) ^ 3⌋
-
-end
-
-end A034128.P4286787415196432082
-
-namespace A034128
-
-/-- `floor(char[A027656(n)]+(6/5+n)^3)` -/
-def P4286787415196432082.Spec : Prop :=
-  ∀ n, P4286787415196432082.a n = A034128 (n + 1)
 
 end A034128
 

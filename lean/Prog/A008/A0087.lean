@@ -38,31 +38,32 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
-import Seq.B000.C039
+import Seq.B000.C038
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C006
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -79,7 +80,6 @@ import Seq.Opaque.C011
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
-import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
@@ -22284,24 +22284,6 @@ end
 
 end A008783.P5668530589283482920
 
-/-! ## A008783.P9959802145306614744
-
-`∑{d}[A146326(A004766(n+1)), A000010(#)]`
--/
-
-namespace A008783.P9959802145306614744
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146326 (A004766 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, A000010 d
-
-end
-
-end A008783.P9959802145306614744
-
 /-! ## A008783.P16784869254980901355
 
 `A146326(A004766(n+1))%∑[A074458(n)]`
@@ -23861,7 +23843,7 @@ end A008794
 /-!
 # A008795: Molien series for 3-dimensional representation of dihedral group D_6 of order 6.
 
-The programs for A008795, the canonical program `A008795.P16567676001428834522` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008795 has offset 0).
+The programs for A008795, the canonical program `A008795.P7740060545307049757` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008795 has offset 0).
 
 The definition of A008795 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -23869,63 +23851,15 @@ The definition of A008795 is `assumedProven` (OEIS-proven): the Lean definition 
 /-! ## A008795.P7740060545307049757
 
 `(2*n²+6*n+7+3*(2*n+3)*(-1)^n)/16`
--/
-
-namespace A008795.P7740060545307049757
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  ((2 * n ^ 2 + 6 * n + 7 : ℤ) + (3 * (2 * n + 3) : ℤ) * (-1) ^ n : ℚ) / 16
-
-end
-
-end A008795.P7740060545307049757
-
-namespace A008795
-
-/-- `(2*n²+6*n+7+3*(2*n+3)*(-1)^n)/16` -/
-def P7740060545307049757.Spec : Prop :=
-  ∀ n, P7740060545307049757.a n = (A008795 n : ℚ)
-
-theorem P7740060545307049757.correct : P7740060545307049757.Spec := by
-  intro n
-  induction n using Nat.strong_induction_on with
-  | _ n ih =>
-    match n with
-    | 0 | 1 | 2 | 3 | 4 =>
-      simp [A008795, Nat.add_sub_cancel, A008795.P7740060545307049757.a, A008795.P16567676001428834522.a, SequenceMachineLib.memo_apply, SequenceMachineLib.rec_of_lt]
-      try norm_num
-    | m + 5 =>
-      have h1 := ih (m + 4) (by omega)
-      have h2 := ih (m + 3) (by omega)
-      have h3 := ih (m + 2) (by omega)
-      have h4 := ih (m + 1) (by omega)
-      have h5 := ih m (by omega)
-      simp only [A008795, Nat.add_sub_cancel, A008795.P7740060545307049757.a, A008795.P16567676001428834522.a, SequenceMachineLib.memo_apply] at h1 h2 h3 h4 h5 ⊢
-      rw [SequenceMachineLib.rec_of_le _ _ (by simp)]
-      simp only [show m + 5 - 1 = m + 4 by omega, show m + 5 - 2 = m + 3 by omega, show m + 5 - 3 = m + 2 by omega, show m + 5 - 4 = m + 1 by omega, show m + 5 - 5 = m by omega, show m + 4 < m + 5 by omega, show m + 3 < m + 5 by omega, show m + 2 < m + 5 by omega, show m + 1 < m + 5 by omega, show m < m + 5 by omega, ↓reduceIte]
-      push_cast at h1 h2 h3 h4 h5 ⊢
-      rw [← h1, ← h2, ← h3, ← h4, ← h5]
-      first | ring | (field_simp; ring) | omega | (push_cast; ring_nf) | nlinarith
-
-end A008795
-
-/-! ## A008795.P16567676001428834522
-
-`a(n-1)+2*a(n-2)-2*a(n-3)-a(n-4)+a(n-5)` with `a(0)=1, a(1)=0, a(2)=3, a(3)=1, a(4)=6`
 
 The canonical program, it is in `Seq.B000.C001`.
 -/
 
 namespace A008795
 
-/-- `a(n-1)+2*a(n-2)-2*a(n-3)-a(n-4)+a(n-5)` -/
-def P16567676001428834522.Spec : Prop :=
-  ∀ n, P16567676001428834522.a n = A008795 n
-
-theorem P16567676001428834522.correct : P16567676001428834522.Spec := by
-  intro n
-  simp only [A008795]
+/-- `(2*n²+6*n+7+3*(2*n+3)*(-1)^n)/16` -/
+def P7740060545307049757.Spec : Prop :=
+  ∀ n, P7740060545307049757.a n = (A008795 n : ℚ)
 
 end A008795
 

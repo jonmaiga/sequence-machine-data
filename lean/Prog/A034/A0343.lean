@@ -5,7 +5,9 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -15,6 +17,7 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -25,43 +28,50 @@ import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
+import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C035
+import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
-import Seq.B001.C007
+import Seq.B001.C004
+import Seq.B001.C006
+import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -625,24 +635,6 @@ end A034303.P6329249425064427035
 
 The programs for A034304, there is no canonical definition to state claims against.
 -/
-
-/-! ## A034304.P17537596970992255202
-
-`record[A121609(n+1)-A036427(n)]`
--/
-
-namespace A034304.P17537596970992255202
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A121609 (n + 1) - A036427 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A034304.P17537596970992255202
 
 /-! ## A034304.P8948375013762031769
 
@@ -6978,24 +6970,6 @@ end
 
 end A034378.P2294467229998772748
 
-/-! ## A034378.P12445630448697231186
-
-`A062387(A028310(n))-∏{d}[n, A236842(#)]`
--/
-
-namespace A034378.P12445630448697231186
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062387 (A028310 n).toNat - ∏ d ∈ Nat.divisors (f1 n), A236842 d
-
-end
-
-end A034378.P12445630448697231186
-
 /-! ## A034378.P5734769119056588709
 
 `and(1, A000040(n+1))*A062387(A000007(n)+n)`
@@ -7513,6 +7487,29 @@ namespace A034381
 /-- `(n+1)*A058161(n+1)` -/
 def P14963824827748960433.Spec : Prop :=
   ∀ n, P14963824827748960433.a n = A034381 (n + 1)
+
+end A034381
+
+/-! ## A034381.P1640765852642589137
+
+`(n+1)!/A000010(n+1)`
+-/
+
+namespace A034381.P1640765852642589137
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (Nat.factorial (n + 1) : ℚ) / (A000010 (n + 1) : ℚ)
+
+end
+
+end A034381.P1640765852642589137
+
+namespace A034381
+
+/-- `(n+1)!/A000010(n+1)` -/
+def P1640765852642589137.Spec : Prop :=
+  ∀ n, P1640765852642589137.a n = (A034381 (n + 1) : ℚ)
 
 end A034381
 
@@ -9037,30 +9034,6 @@ def P11806970705148832438.Spec : Prop :=
   ∀ n, (P11806970705148832438.a n : ℤ) = A034387 (n + 1)
 
 end A034387
-
-/-!
-# A034388: Smallest prime containing at least n consecutive identical digits.
-
-The programs for A034388, there is no canonical definition to state claims against.
--/
-
-/-! ## A034388.P6389597451039819768
-
-`p?[A131316(n+1)]`
--/
-
-namespace A034388.P6389597451039819768
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A131316 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)
-
-end
-
-end A034388.P6389597451039819768
 
 /-!
 # A034389: Multiplicity of highest weight (or singular) vectors associated with character chi_1 of Monster module.

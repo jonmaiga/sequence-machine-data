@@ -18,49 +18,44 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
-import Seq.B000.C030
+import Seq.B000.C028
 import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C037
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
+import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -419,24 +414,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146805.P14300077899085178837
-
-/-! ## A146805.P2414970966604005232
-
-`filter[A147057(n+1), A089939(#)]`
--/
-
-namespace A146805.P2414970966604005232
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A147057 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A089939 (f1 j).toNat = 1) n)
-
-end
-
-end A146805.P2414970966604005232
 
 /-!
 # A146806: Number of n X n binary arrays symmetric under 180 degree rotation with all ones connected only in a 0110-1100-0111 pattern in any orientation.
@@ -1227,60 +1204,6 @@ end
 
 end A146819.P12335972809477899109
 
-/-! ## A146819.P9858794320148881172
-
-`filter[A147213(n+1), A079421(#)]`
--/
-
-namespace A146819.P9858794320148881172
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A147213 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A079421 (f1 j).toNat = 1) n)
-
-end
-
-end A146819.P9858794320148881172
-
-/-! ## A146819.P18110337063205527900
-
-`filter[A147213(n+1), A122255(#)]`
--/
-
-namespace A146819.P18110337063205527900
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A147213 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A122255 (f1 j).toNat = 1) n)
-
-end
-
-end A146819.P18110337063205527900
-
-/-! ## A146819.P17696514377014750983
-
-`filter[A147213(n+1), A167020(#)]`
--/
-
-namespace A146819.P17696514377014750983
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A147213 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A167020 (f1 j).toNat = 1) n)
-
-end
-
-end A146819.P17696514377014750983
-
 /-!
 # A146820: Number of n X n binary arrays symmetric about the diagonal and under 90 degree rotation with all ones connected only in a 1000-1110-0111 pattern in any orientation.
 
@@ -1673,24 +1596,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146825.P17084767430222909395
-
-/-! ## A146825.P18383427871024236958
-
-`filter[A147172(n+1), A030324(#)]`
--/
-
-namespace A146825.P18383427871024236958
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A147172 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A030324 (f1 j).toNat = 1) n)
-
-end
-
-end A146825.P18383427871024236958
 
 /-!
 # A146826: Number of n X n binary arrays symmetric about main diagonal with all ones connected only in a 1000-1111-0100-0100 pattern in any orientation.
@@ -3348,24 +3253,6 @@ end
 
 end A146851.P5054036071472496008
 
-/-! ## A146851.P5829301531625193067
-
-`filter[A147182(n+1), A071031(#)]`
--/
-
-namespace A146851.P5829301531625193067
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A147182 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A071031 (f1 j).toNat = 1) n)
-
-end
-
-end A146851.P5829301531625193067
-
 /-!
 # A146852: Number of n X n binary arrays symmetric about the diagonal and under 90 degree rotation with all ones connected only in a 1100-1111-0001 pattern in any orientation.
 
@@ -4374,24 +4261,6 @@ end
 
 end A146867.P18190412899458767752
 
-/-! ## A146867.P11319483899514797559
-
-`filter[A146827(n+2), A085357(#)]`
--/
-
-namespace A146867.P11319483899514797559
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146827 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A085357 (f1 j).toNat = 1) n)
-
-end
-
-end A146867.P11319483899514797559
-
 /-!
 # A146869: Number of n X n binary arrays symmetric under 90 degree rotation with all ones connected only in a 1101-1111 pattern in any orientation.
 
@@ -4712,60 +4581,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146875.P15127238806719451453
-
-/-! ## A146875.P5697300260029388383
-
-`filter[A147205(n+1), A071035(#)]`
--/
-
-namespace A146875.P5697300260029388383
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A147205 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A071035 (f1 j).toNat = 1) n)
-
-end
-
-end A146875.P5697300260029388383
-
-/-! ## A146875.P8691757630508790960
-
-`filter[A147205(n+1), A077051(#)]`
--/
-
-namespace A146875.P8691757630508790960
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A147205 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A077051 (f1 j).toNat = 1) n)
-
-end
-
-end A146875.P8691757630508790960
-
-/-! ## A146875.P7055778262345006706
-
-`filter[A147205(n+1), A087755(#)]`
--/
-
-namespace A146875.P7055778262345006706
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A147205 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A087755 (f1 j).toNat = 1) n)
-
-end
-
-end A146875.P7055778262345006706
 
 /-!
 # A146876: Number of n X n binary arrays symmetric about the diagonal and under 90 degree rotation with all ones connected only in a 1110-0100-0111 pattern in any orientation.
@@ -5217,7 +5032,7 @@ end A146881.P6833356643098422690
 /-!
 # A146882: a(n) = 5*(4^(n+1) - 1)/3.
 
-The programs for A146882, the canonical program `A146882.P15500143620439515073` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146882 has offset 0).
+The programs for A146882, the canonical program `A146882.P15500143620439515073` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146882 has offset 0).
 
 The definition of A146882 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5*(4^(n+1)-1)/3` (program `A146882.P13489786538087814931`, by `A146882.P13489786538087814931.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5504,7 +5319,7 @@ end A146882
 
 `4^(n+1)+a(n-1)+4^n` with `a(0)=5`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A146882
@@ -5730,7 +5545,7 @@ end A146882
 /-!
 # A146883: a(n) = 6 * Sum_{m=0..n} 5^m.
 
-The programs for A146883, the canonical program `A146883.P14978134997887096401` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146883 has offset 0).
+The programs for A146883, the canonical program `A146883.P14978134997887096401` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146883 has offset 0).
 
 The definition of A146883 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5762,7 +5577,7 @@ end A146883
 
 `6*A003463(n+1)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A146883
@@ -6215,7 +6030,7 @@ end A146883
 /-!
 # A146884: a(n) = 7*Sum_{k=0..n} 6^k.
 
-The programs for A146884, the canonical program `A146884.P12799212425996541917` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146884 has offset 0).
+The programs for A146884, the canonical program `A146884.P12799212425996541917` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146884 has offset 0).
 
 The definition of A146884 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6265,7 +6080,7 @@ end A146884
 
 `7*a(n-1)-6*a(n-2)` with `a(0)=7, a(1)=49`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A146884
@@ -6640,7 +6455,7 @@ end A146884
 /-!
 # A146885: a(n) = 8*Sum_{k=0..n} 7^k.
 
-The programs for A146885, the canonical program `A146885.P13554045488808289029` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146885 has offset 0).
+The programs for A146885, the canonical program `A146885.P13554045488808289029` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146885 has offset 0).
 
 The definition of A146885 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6690,7 +6505,7 @@ end A146885
 
 `8*a(n-1)-7*a(n-2)` with `a(0)=8, a(1)=64`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A146885
@@ -6967,8 +6782,29 @@ end A146885
 /-!
 # A146887: a(n) = prime(n)*a(n-1) - a(n-2).
 
-The programs for A146887, there is no canonical definition to state claims against.
+The programs for A146887, the canonical program `A146887.P4615594062428850616` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146887 has offset 0).
+
+The definition of A146887 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(n)*a(n-1)-a(n-2)` (program `A146887.P4615594062428850616`, by `A146887.P4615594062428850616.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A146887.P4615594062428850616
+
+`A000040(n)*a(n-1)-a(n-2)` with `a(0)=1, a(1)=1`
+
+The canonical program, it is in `Seq.B001.C006`.
+-/
+
+namespace A146887
+
+/-- `A000040(n)*a(n-1)-a(n-2)` -/
+def P4615594062428850616.Spec : Prop :=
+  ∀ n, P4615594062428850616.a n = A146887 n
+
+theorem P4615594062428850616.correct : P4615594062428850616.Spec := by
+  intro n
+  simp only [A146887]
+
+end A146887
 
 /-! ## A146887.P7857132267255511430
 
@@ -6991,20 +6827,13 @@ end
 
 end A146887.P7857132267255511430
 
-/-! ## A146887.P7407122749649130508
+namespace A146887
 
-`a(n-1)*A000040(n)-a(n-2)` with `a(0)=1, a(1)=1`
--/
+/-- `a(n-1)*record[∑{p}[n, #]]-a(n-2)` -/
+def P7857132267255511430.Spec : Prop :=
+  ∀ n, P7857132267255511430.a n = A146887 n
 
-namespace A146887.P7407122749649130508
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n a =>
-  a (n - 1) * A000040 n - a (n - 2)
-
-end
-
-end A146887.P7407122749649130508
+end A146887
 
 /-! ## A146887.P7555389285194433427
 
@@ -7021,6 +6850,20 @@ end
 
 end A146887.P7555389285194433427
 
+namespace A146887
+
+/-- `(A006093(n)+1)*a(n-1)-a(n-2)` -/
+def P7555389285194433427.Spec : Prop :=
+  ∀ n, P7555389285194433427.a n = A146887 n
+
+theorem P7555389285194433427.correct : P7555389285194433427.Spec := by
+  intro n
+  simp only [A146887, Nat.add_sub_cancel, A146887.P7555389285194433427.a, A146887.P4615594062428850616.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A006093, A006093.P2906174024863549003.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | ((try field_simp); ring_nf)
+
+end A146887
+
 /-! ## A146887.P15446030656259197436
 
 `a(n-1)*A008578(n+1)-a(n-2)` with `a(0)=1, a(1)=1`
@@ -7035,6 +6878,14 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n a =>
 end
 
 end A146887.P15446030656259197436
+
+namespace A146887
+
+/-- `a(n-1)*A008578(n+1)-a(n-2)` -/
+def P15446030656259197436.Spec : Prop :=
+  ∀ n, P15446030656259197436.a n = A146887 n
+
+end A146887
 
 /-!
 # A146892: For definition see comments lines.

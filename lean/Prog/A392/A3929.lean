@@ -6,42 +6,44 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
+import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C018
-import Seq.B000.C021
+import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C033
+import Seq.B000.C036
 import Seq.B000.C038
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C005
-import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C004
+import Seq.B001.C006
+import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B007.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -53,6 +55,7 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
+import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
@@ -806,84 +809,6 @@ end
 end A392915.P867612673267885420
 
 /-!
-# A392916: Expansion of e.g.f. 1/(1 + LambertW(-x*log(1-x)^2)).
-
-The programs for A392916, there is no canonical definition to state claims against.
--/
-
-/-! ## A392916.P2229078550203646333
-
-`filter[A392830(n), A336834(#)]`
--/
-
-namespace A392916.P2229078550203646333
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392830 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A336834 (f1 j).toNat = 1) n)
-
-end
-
-end A392916.P2229078550203646333
-
-/-! ## A392916.P11461474872126686815
-
-`filter[A392830(n), A342005(#)]`
--/
-
-namespace A392916.P11461474872126686815
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392830 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A342005 (f1 j).toNat = 1) n)
-
-end
-
-end A392916.P11461474872126686815
-
-/-! ## A392916.P7818947148221281874
-
-`filter[A392830(n), A354034(#)]`
--/
-
-namespace A392916.P7818947148221281874
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392830 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A354034 (f1 j).toNat = 1) n)
-
-end
-
-end A392916.P7818947148221281874
-
-/-! ## A392916.P9099702237232248519
-
-`filter[A392830(n), A374048(#)]`
--/
-
-namespace A392916.P9099702237232248519
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392830 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A374048 (f1 j).toNat = 1) n)
-
-end
-
-end A392916.P9099702237232248519
-
-/-!
 # A392918: Expansion of e.g.f. -LambertW(x*log(1-x)^3).
 
 The programs for A392918, there is no canonical definition to state claims against.
@@ -988,24 +913,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A392924.P10956996524911817392
-
-/-! ## A392924.P17471522328851008502
-
-`filter[A147785(3*n), A242718(#)]`
--/
-
-namespace A392924.P17471522328851008502
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A147785 (3 * n)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A242718 (f1 j).toNat = 1) n)
-
-end
-
-end A392924.P17471522328851008502
 
 /-!
 # A392926: 
@@ -1140,60 +1047,6 @@ end
 
 end A392927.P10297325629358826310
 
-/-! ## A392927.P9668564190768016656
-
-`filter[A394050(n+1), A174898(#)]`
--/
-
-namespace A392927.P9668564190768016656
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A394050 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A174898 (f1 j).toNat = 1) n)
-
-end
-
-end A392927.P9668564190768016656
-
-/-! ## A392927.P13237020717960831207
-
-`filter[A394050(n+1), A316829(#)]`
--/
-
-namespace A392927.P13237020717960831207
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A394050 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A316829 (f1 j).toNat = 1) n)
-
-end
-
-end A392927.P13237020717960831207
-
-/-! ## A392927.P8704272517100954012
-
-`filter[A394050(n+1), A294937(#)]`
--/
-
-namespace A392927.P8704272517100954012
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A394050 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A294937 (f1 j).toNat = 1) n)
-
-end
-
-end A392927.P8704272517100954012
-
 /-!
 # A392929: E.g.f. A(x) satisfies A(x) = 1 - (1/x) * log(1 - x^2*A(x)).
 
@@ -1271,144 +1124,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A392932.P2175420751236958758
-
-/-!
-# A392933: E.g.f. A(x) satisfies A(x) = 1 - x*A(x) * log(1 - x^2*A(x)^2).
-
-The programs for A392933, there is no canonical definition to state claims against.
--/
-
-/-! ## A392933.P3487099384336298832
-
-`filter[A392931(n), A039963(#)]`
--/
-
-namespace A392933.P3487099384336298832
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392931 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A039963 (f1 j).toNat = 1) n)
-
-end
-
-end A392933.P3487099384336298832
-
-/-! ## A392933.P8450258892998312677
-
-`filter[A392931(n), A071036(#)]`
--/
-
-namespace A392933.P8450258892998312677
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392931 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A071036 (f1 j).toNat = 1) n)
-
-end
-
-end A392933.P8450258892998312677
-
-/-! ## A392933.P9728994721851222300
-
-`filter[A392931(n), A071038(#)]`
--/
-
-namespace A392933.P9728994721851222300
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392931 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A071038 (f1 j).toNat = 1) n)
-
-end
-
-end A392933.P9728994721851222300
-
-/-! ## A392933.P7715459168734283332
-
-`filter[A392931(n), A076213(#)]`
--/
-
-namespace A392933.P7715459168734283332
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392931 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A076213 (f1 j).toNat = 1) n)
-
-end
-
-end A392933.P7715459168734283332
-
-/-!
-# A392934: E.g.f. A(x) satisfies A(x) = 1 - x*A(x)^3 * log(1 - x^2*A(x)^2).
-
-The programs for A392934, there is no canonical definition to state claims against.
--/
-
-/-! ## A392934.P13106822136129158738
-
-`filter[A392958(n), A005713(#)]`
--/
-
-namespace A392934.P13106822136129158738
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392958 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A005713 (f1 j).toNat = 1) n)
-
-end
-
-end A392934.P13106822136129158738
-
-/-! ## A392934.P6588706759019694255
-
-`filter[A392958(n), A040051(#)]`
--/
-
-namespace A392934.P6588706759019694255
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392958 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A040051 (f1 j).toNat = 1) n)
-
-end
-
-end A392934.P6588706759019694255
-
-/-! ## A392934.P14654871399686658183
-
-`filter[A392958(n), A115789(#)]`
--/
-
-namespace A392934.P14654871399686658183
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392958 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A115789 (f1 j).toNat = 1) n)
-
-end
-
-end A392934.P14654871399686658183
 
 /-!
 # A392935: E.g.f. A(x) satisfies A(x) = 1 - x^3*A(x)^5 * log(1 - x^2*A(x)^2).
@@ -1998,84 +1713,6 @@ end
 end A392955.P5469284677592937195
 
 /-!
-# A392957: E.g.f. A(x) satisfies A(x) = 1 + x*A(x) * (exp(x^2*A(x)^2) - 1).
-
-The programs for A392957, there is no canonical definition to state claims against.
--/
-
-/-! ## A392957.P3950411687494925982
-
-`filter[A392955(n), A039963(#)]`
--/
-
-namespace A392957.P3950411687494925982
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392955 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A039963 (f1 j).toNat = 1) n)
-
-end
-
-end A392957.P3950411687494925982
-
-/-! ## A392957.P6260076015579130901
-
-`filter[A392955(n), A071036(#)]`
--/
-
-namespace A392957.P6260076015579130901
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392955 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A071036 (f1 j).toNat = 1) n)
-
-end
-
-end A392957.P6260076015579130901
-
-/-! ## A392957.P13138552039265041323
-
-`filter[A392955(n), A071038(#)]`
--/
-
-namespace A392957.P13138552039265041323
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392955 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A071038 (f1 j).toNat = 1) n)
-
-end
-
-end A392957.P13138552039265041323
-
-/-! ## A392957.P5915135431990813072
-
-`filter[A392955(n), A088911(#)]`
--/
-
-namespace A392957.P5915135431990813072
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392955 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A088911 (f1 j).toNat = 1) n)
-
-end
-
-end A392957.P5915135431990813072
-
-/-!
 # A392958: E.g.f. A(x) satisfies A(x) = 1 + x*A(x)^3 * (exp(x^2*A(x)^2) - 1).
 
 The programs for A392958, there is no canonical definition to state claims against.
@@ -2116,42 +1753,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A392959.P116513212950558847
-
-/-! ## A392959.P15433553052241909591
-
-`filter[A392960(n), A022930(#)]`
--/
-
-namespace A392959.P15433553052241909591
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392960 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A022930 (f1 j).toNat = 1) n)
-
-end
-
-end A392959.P15433553052241909591
-
-/-! ## A392959.P213335935210306281
-
-`filter[A392960(n), A030317(#)]`
--/
-
-namespace A392959.P213335935210306281
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392960 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A030317 (f1 j).toNat = 1) n)
-
-end
-
-end A392959.P213335935210306281
 
 /-!
 # A392961: Numbers k that are the concatenation of two divisors of k.

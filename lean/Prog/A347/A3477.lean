@@ -18,44 +18,49 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
-import Seq.B000.C037
+import Seq.B000.C036
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
@@ -64,7 +69,6 @@ import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2189,7 +2193,7 @@ end A347716.P3252419385190308645
 /-!
 # A347717: Number of states of the minimal deterministic finite automaton that accepts ternary strings that represent numbers that are divisible by n.
 
-The programs for A347717, the canonical program `A347717.P8080422817167573223` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347717 has offset 1).
+The programs for A347717, the canonical program `A347717.P8080422817167573223` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347717 has offset 1).
 
 The definition of A347717 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2198,7 +2202,7 @@ The definition of A347717 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)/3^val(n+1, 3)+val(n+1, 3)`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A347717
@@ -2763,7 +2767,7 @@ end A347724.P5143542894886503930
 /-!
 # A347725: Number of irredundant sets in the (2n-1)-triangular snake graph (for n > 1).
 
-The programs for A347725, the canonical program `A347725.P7197943343108749851` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347725 has offset 1).
+The programs for A347725, the canonical program `A347725.P7197943343108749851` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347725 has offset 1).
 
 The definition of A347725 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2772,7 +2776,7 @@ The definition of A347725 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)+a(n-2)+a(n-3)` with `a(0)=1, a(1)=4, a(2)=10`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A347725
@@ -3899,7 +3903,7 @@ end A347736.P17861218869026311622
 /-!
 # A347737: Zero together with the partial sums of A238005.
 
-The programs for A347737, the canonical program `A347737.P5866675298143105702` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347737 has offset 0).
+The programs for A347737, the canonical program `A347737.P5866675298143105702` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347737 has offset 0).
 
 The definition of A347737 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006463, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3908,7 +3912,7 @@ The definition of A347737 is `conditional`: the Lean definition is an OEIS formu
 
 `A006463(n+1)-A060831(n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A347737
@@ -7803,7 +7807,7 @@ end A347788.P17856142766917649628
 /-!
 # A347789: a(n) is the number of times that only 2 pegs have disks on them during the optimal solution to a Towers of Hanoi problem with n disks.
 
-The programs for A347789, the canonical program `A347789.P16837584105902591356` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347789 has offset 1).
+The programs for A347789, the canonical program `A347789.P16837584105902591356` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347789 has offset 1).
 
 The definition of A347789 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7812,7 +7816,7 @@ The definition of A347789 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*(2+a(n-2))` with `a(0)=0, a(1)=2`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A347789
@@ -7824,6 +7828,29 @@ def P16837584105902591356.Spec : Prop :=
 theorem P16837584105902591356.correct : P16837584105902591356.Spec := by
   intro n
   simp only [A347789, Nat.add_sub_cancel]
+
+end A347789
+
+/-! ## A347789.P15374244689122870982
+
+`(3+(n+1)%2)*2^floor((n+1)/2)-4`
+-/
+
+namespace A347789.P15374244689122870982
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  ((3 + (n + 1) % 2 : ℕ) : ℚ) * (2 : ℚ) ^ (⌊(n + 1 : ℚ) / 2⌋ : ℤ) - 4
+
+end
+
+end A347789.P15374244689122870982
+
+namespace A347789
+
+/-- `(3+(n+1)%2)*2^floor((n+1)/2)-4` -/
+def P15374244689122870982.Spec : Prop :=
+  ∀ n, P15374244689122870982.a n = (A347789 (n + 1) : ℚ)
 
 end A347789
 
@@ -8289,29 +8316,6 @@ def P1090691210993213462.Spec : Prop :=
 
 end A347789
 
-/-! ## A347789.P17163494224509467571
-
-`2*(A029744(n+2)-2)`
--/
-
-namespace A347789.P17163494224509467571
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 * (A029744 (n + 2) - 2)
-
-end
-
-end A347789.P17163494224509467571
-
-namespace A347789
-
-/-- `2*(A029744(n+2)-2)` -/
-def P17163494224509467571.Spec : Prop :=
-  ∀ n, P17163494224509467571.a n = A347789 (n + 1)
-
-end A347789
-
 /-!
 # A347791: Inventory sequence using prime divisors (with multiplicity): Record the number of terms thus far which are divisible by every prime, then the number of terms thus far not divisible by any prime, then the number divisible (once) by a single prime, then 2 (including with multiplicity), then 3 etc until a zero is recorded. Repeat after every zero term.
 
@@ -8366,7 +8370,7 @@ end A347791.P1943130521107972064
 /-!
 # A347792: Beatty sequence for 2^(2/3).
 
-The programs for A347792, the canonical program `A347792.P12031686185813258433` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347792 has offset 0).
+The programs for A347792, the canonical program `A347792.P12031686185813258433` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347792 has offset 0).
 
 The definition of A347792 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8375,7 +8379,7 @@ The definition of A347792 is `conjectured`: the Lean definition is a formula tha
 
 `floor(n*root(4, 3))`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A347792

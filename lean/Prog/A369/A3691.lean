@@ -7,35 +7,35 @@ import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
-import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C035
-import Seq.B000.C038
+import Seq.B000.C036
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
-import Seq.B001.C009
+import Seq.B001.C008
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -50,10 +50,7 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B006.C002
-import Seq.B007.C000
-import Seq.B007.C001
-import Seq.B008.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -89,7 +86,7 @@ import Seq.Opaque.C024
 /-!
 # A369100: Dirichlet g.f.: zeta(s)^3 * (1 - 2^(1-s))^2.
 
-The programs for A369100, the canonical program `A369100.P3381107726307047957` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369100 has offset 1).
+The programs for A369100, the canonical program `A369100.P3381107726307047957` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369100 has offset 1).
 
 The definition of A369100 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -124,7 +121,7 @@ end A369100
 
 `∑{d}[n+1, A115607(#)*A130054((n+1)/#)]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A369100
@@ -319,7 +316,7 @@ end A369102.P9872326874331334291
 /-!
 # A369105: Primes p such that p+2 has only prime factors congruent to -1 modulo 4.
 
-The programs for A369105, the canonical program `A369105.P2590256937605570919` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369105 has offset 1).
+The programs for A369105, the canonical program `A369105.P2590256937605570919` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369105 has offset 1).
 
 The definition of A369105 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1873 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -328,7 +325,7 @@ The definition of A369105 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A004614(n+1)-2, A065091(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A369105
@@ -501,7 +498,7 @@ end A369112.P2314817205164538786
 /-!
 # A369113: Tropical version of Somos-6 sequence A006722.
 
-The programs for A369113, the canonical program `A369113.P14032080905167550968` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369113 has offset 0).
+The programs for A369113, the canonical program `A369113.P14032080905167550968` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369113 has offset 0).
 
 The definition of A369113 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -510,7 +507,7 @@ The definition of A369113 is `conjectured`: the Lean definition is a formula tha
 
 `A001971(n)-A008616(n²)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A369113
@@ -815,8 +812,25 @@ end A369118.P18095425641700801898
 /-!
 # A369119: a(n) = (n + 1)^[is_prime(n + 1)] * n!.
 
-The programs for A369119, there is no canonical definition to state claims against.
+The programs for A369119, the canonical program `A369119.P11770962019808965455` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369119 has offset 0).
+
+The definition of A369119 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010051, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A369119.P11770962019808965455
+
+`(n+1)^A010051(n+1)*n!`
+
+The canonical program, it is in `Seq.B003.C004`.
+-/
+
+namespace A369119
+
+/-- `(n+1)^A010051(n+1)*n!` -/
+def P11770962019808965455.Spec : Prop :=
+  ∀ n, P11770962019808965455.a n = (A369119 n : ℚ)
+
+end A369119
 
 /-! ## A369119.P9263765154681426973
 
@@ -836,6 +850,14 @@ end
 
 end A369119.P9263765154681426973
 
+namespace A369119
+
+/-- `lcm(n!, ∏{p}[n+1, #])` -/
+def P9263765154681426973.Spec : Prop :=
+  ∀ n, (P9263765154681426973.a n : ℤ) = A369119 n
+
+end A369119
+
 /-! ## A369119.P14664109504431548499
 
 `(n!²%(n+1)+n)!`
@@ -850,6 +872,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A369119.P14664109504431548499
+
+namespace A369119
+
+/-- `(n!²%(n+1)+n)!` -/
+def P14664109504431548499.Spec : Prop :=
+  ∀ n, (P14664109504431548499.a n : ℤ) = A369119 n
+
+end A369119
 
 /-! ## A369119.P11811010585571768746
 
@@ -866,6 +896,14 @@ end
 
 end A369119.P11811010585571768746
 
+namespace A369119
+
+/-- `lcm(n+1, n!²)/n!` -/
+def P11811010585571768746.Spec : Prop :=
+  ∀ n, P11811010585571768746.a n = (A369119 n : ℚ)
+
+end A369119
+
 /-! ## A369119.P15571308970155445291
 
 `(n+1)!/gcd(n+1, n!²)`
@@ -881,23 +919,13 @@ end
 
 end A369119.P15571308970155445291
 
-/-! ## A369119.P17862950357293723154
+namespace A369119
 
-`(∑{p}[n+1, val(#, n+1)]+n)!`
--/
+/-- `(n+1)!/gcd(n+1, n!²)` -/
+def P15571308970155445291.Spec : Prop :=
+  ∀ n, P15571308970155445291.a n = (A369119 n : ℚ)
 
-namespace A369119.P17862950357293723154
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.factorial (∑ p ∈ Nat.primeFactors (f1 n), SequenceMachineLib.valuation p (n + 1) + n)
-
-end
-
-end A369119.P17862950357293723154
+end A369119
 
 /-!
 # A369121: a(n) = A369134(n, n).
@@ -1512,7 +1540,7 @@ end A369138.P9294723201997973354
 /-!
 # A369139: Numbers k such that Omega(k) = 1 + Omega(k + 1).
 
-The programs for A369139, the canonical program `A369139.P12055519405445957885` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369139 has offset 1).
+The programs for A369139, the canonical program `A369139.P12055519405445957885` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369139 has offset 1).
 
 The definition of A369139 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6620 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1521,7 +1549,7 @@ The definition of A369139 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A001222(2*(n+2)), A001222(n+1)]+1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A369139
@@ -4523,7 +4551,7 @@ end A369183.P12892388512207118839
 /-!
 # A369185: Numbers k such that Omega(k) = 1 + Omega(k+1) = 2 + Omega(k+2).
 
-The programs for A369185, the canonical program `A369185.P3362833814146370033` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369185 has offset 1).
+The programs for A369185, the canonical program `A369185.P3362833814146370033` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369185 has offset 1).
 
 The definition of A369185 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1395 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4532,7 +4560,7 @@ The definition of A369185 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A369139(n+1)-1, A369139(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A369185

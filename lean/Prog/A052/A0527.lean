@@ -17,7 +17,6 @@ import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
@@ -25,41 +24,39 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C037
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
-import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B005.C000
+import Seq.B004.C003
+import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B007.C000
-import Seq.B007.C001
-import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -67,7 +64,6 @@ import Seq.Opaque.C003
 import Seq.Opaque.C004
 import Seq.Opaque.C005
 import Seq.Opaque.C006
-import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
 import Seq.Opaque.C010
@@ -5873,33 +5869,6 @@ def P10398715381982786229.Spec : Prop :=
 
 end A052752
 
-/-! ## A052752.P821954198373388475
-
-`ceil((comp[or(1, n)]+n+1)^(n-1))`
--/
-
-namespace A052752.P821954198373388475
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.lor 1 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n + n + 1 : ℚ) ^ ((n : ℤ) - 1 : ℤ)⌉
-
-end
-
-end A052752.P821954198373388475
-
-namespace A052752
-
-/-- `ceil((comp[or(1, n)]+n+1)^(n-1))` -/
-def P821954198373388475.Spec : Prop :=
-  ∀ n, P821954198373388475.a n = A052752 n
-
-end A052752
-
 /-!
 # A052753: Expansion of e.g.f.: log(1-x)^4.
 
@@ -6407,7 +6376,7 @@ end A052759.P17777641164942716586
 /-!
 # A052760: Expansion of e.g.f.: x^2*(exp(x)-1)^2.
 
-The programs for A052760, the canonical program `A052760.P5613186736916057001` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052760 has offset 0).
+The programs for A052760, the canonical program `A052760.P5613186736916057001` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052760 has offset 0).
 
 The definition of A052760 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 318 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6485,7 +6454,7 @@ end A052760
 
 `A048487(n)%A011782(n)*A161680(n)`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A052760
@@ -6595,7 +6564,7 @@ end A052760
 /-!
 # A052761: a(n) = 3!*n*S(n-1,3), where S denotes the Stirling numbers of second kind.
 
-The programs for A052761, the canonical program `A052761.P11264414659756684470` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052761 has offset 0).
+The programs for A052761, the canonical program `A052761.P11264414659756684470` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052761 has offset 0).
 
 The definition of A052761 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 206 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6604,7 +6573,7 @@ The definition of A052761 is `conjectured`: the Lean definition is a formula tha
 
 `n*A001117(n+1-2%(n+1))`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A052761
@@ -7615,7 +7584,7 @@ end A052767.P2344982989399411822
 /-!
 # A052768: a(n) = n*(n-1)*(n-2)*(n-3) for n>=5.
 
-The programs for A052768, the canonical program `A052768.P6561578854226774558` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052768 has offset 0).
+The programs for A052768, the canonical program `A052768.P6561578854226774558` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052768 has offset 0).
 
 The definition of A052768 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7720,7 +7689,7 @@ end A052768
 
 `A052762(n)%A001095(A000007(n)+n)`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A052768

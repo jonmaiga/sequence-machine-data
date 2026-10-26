@@ -13,34 +13,37 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
 import Seq.B000.C035
-import Seq.B000.C037
+import Seq.B000.C036
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C002
+import Seq.B001.C004
 import Seq.B001.C006
-import Seq.B001.C009
+import Seq.B001.C007
+import Seq.B001.C008
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -51,11 +54,8 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
-import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -78,7 +78,6 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1242,8 +1241,25 @@ end A203410
 /-!
 # A203411: Discriminant of the cyclotomic binomial period polynomial for an odd prime.
 
-The programs for A203411, there is no canonical definition to state claims against.
+The programs for A203411, the canonical program `A203411.P13415533625920639516` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203411 has offset 2).
+
+The definition of A203411 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A203411.P13415533625920639516
+
+`A000040(n+2)^((A000040(n+2)-3)/2)`
+
+The canonical program, it is in `Seq.B001.C008`.
+-/
+
+namespace A203411
+
+/-- `A000040(n+2)^((A000040(n+2)-3)/2)` -/
+def P13415533625920639516.Spec : Prop :=
+  ∀ n, P13415533625920639516.a n = (A203411 (n + 2) : ℝ)
+
+end A203411
 
 /-! ## A203411.P7165913037652775095
 
@@ -1266,6 +1282,14 @@ end
 
 end A203411.P7165913037652775095
 
+namespace A203411
+
+/-- `record[∑{p}[2*n+3, #^n]]` -/
+def P7165913037652775095.Spec : Prop :=
+  ∀ n, (P7165913037652775095.a n : ℤ) = A203411 (n + 2)
+
+end A203411
+
 /-! ## A203411.P4051035113562380135
 
 `record[∏{d}[2*n+1, #^(#-(n+2))]]`
@@ -1286,6 +1310,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A203411.P4051035113562380135
+
+namespace A203411
+
+/-- `record[∏{d}[2*n+1, #^(#-(n+2))]]` -/
+def P4051035113562380135.Spec : Prop :=
+  ∀ n, P4051035113562380135.a n = (A203411 (n + 2) : ℚ)
+
+end A203411
 
 /-! ## A203411.P4757930969367105142
 
@@ -1308,6 +1340,14 @@ end
 
 end A203411.P4757930969367105142
 
+namespace A203411
+
+/-- `record[∏{p}[2*n+1, #^(#-(n+2))]]` -/
+def P4757930969367105142.Spec : Prop :=
+  ∀ n, P4757930969367105142.a n = (A203411 (n + 2) : ℚ)
+
+end A203411
+
 /-! ## A203411.P8482329037403176900
 
 `A193681(p?[2*n+1])`
@@ -1326,20 +1366,13 @@ end
 
 end A203411.P8482329037403176900
 
-/-! ## A203411.P2788021178136227052
+namespace A203411
 
-`A193681(A045344(n+1))`
--/
+/-- `A193681(p?[2*n+1])` -/
+def P8482329037403176900.Spec : Prop :=
+  ∀ n, P8482329037403176900.a n = A203411 (n + 2)
 
-namespace A203411.P2788021178136227052
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A193681 (A045344 (n + 1)).toNat
-
-end
-
-end A203411.P2788021178136227052
+end A203411
 
 /-!
 # A203413: G.f.: exp( Sum_{n>=1} A203414(n)*x^n/n ) where A203414(n) = n*Pell(n)*Sum_{d|n} 1/(d*Pell(d)).
@@ -3537,7 +3570,7 @@ end A203443.P2534836817657703868
 /-!
 # A203444: Numbers in range of Dedekind Psi function: A001615.
 
-The programs for A203444, the canonical program `A203444.P8004498472754597362` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203444 has offset 1).
+The programs for A203444, the canonical program `A203444.P8004498472754597362` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203444 has offset 1).
 
 The definition of A203444 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1133 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3605,7 +3638,7 @@ end A203444
 
 `lt[0, char[A001615(n+1)]]`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A203444

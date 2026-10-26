@@ -20,55 +20,54 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
-import Seq.B001.C006
+import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -1793,25 +1792,6 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A047012.P7322780341383031588
-
-/-! ## A047012.P10258094336780760405
-
-`char[A114327(n)]*A047010(2*(n²+n))`
--/
-
-namespace A047012.P10258094336780760405
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A114327 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A047010 (2 * (n ^ 2 + n))
-
-end
-
-end A047012.P10258094336780760405
 
 /-! ## A047012.P10483427071688812609
 
@@ -3885,24 +3865,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A047032.P16584750017104344569
-
-/-! ## A047032.P16987320063057818728
-
-`∏{p}[n, A001221(#)]*A047030(A046092(n))`
--/
-
-namespace A047032.P16987320063057818728
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (∏ p ∈ Nat.primeFactors (f1 n), A001221 p) * A047030 (A046092 n).toNat
-
-end
-
-end A047032.P16987320063057818728
 
 /-! ## A047032.P8427102834860931828
 
@@ -7232,25 +7194,6 @@ end
 
 end A047062.P10115818746851835927
 
-/-! ## A047062.P792124320836167814
-
-`char[A246159(n)]*A047060(A046092(n))`
--/
-
-namespace A047062.P792124320836167814
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A246159 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A047060 (A046092 n).toNat
-
-end
-
-end A047062.P792124320836167814
-
 /-! ## A047062.P18249711257269055610
 
 `A047060(A046092(n))*A057427(n+1)`
@@ -7840,25 +7783,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A047068.P16521858065664289549
-
-/-! ## A047068.P10288960038981691634
-
-`A047060(A054000(n+2))+char[A017444(n)]`
--/
-
-namespace A047068.P10288960038981691634
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A017444 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A047060 (A054000 (n + 2)).toNat + ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A047068.P10288960038981691634
 
 /-! ## A047068.P5172183133264537999
 
@@ -8867,7 +8791,7 @@ end A047074
 /-!
 # A047075: All differences C(j)-C(i), j>i, of Catalan numbers A000108.
 
-The programs for A047075, the canonical program `A047075.P16391672911939574512` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047075 has offset 0).
+The programs for A047075, the canonical program `A047075.P16391672911939574512` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047075 has offset 0).
 
 The definition of A047075 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9721 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8876,7 +8800,7 @@ The definition of A047075 is `conjectured`: the Lean definition is a formula tha
 
 `record[A168256(n)-A000108(A025581(n))]`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A047075
@@ -9271,7 +9195,7 @@ end A047077.P10505398179871086862
 /-!
 # A047078: Primes at which difference pattern X2Y (X and Y >= 6) occurs in A001223.
 
-The programs for A047078, the canonical program `A047078.P11719807738729298579` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047078 has offset 1).
+The programs for A047078, the canonical program `A047078.P11719807738729298579` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047078 has offset 1).
 
 The definition of A047078 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1085 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9340,7 +9264,7 @@ end A047078
 
 `∩[A083370(n+1)-2, A134100(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B014.C000`.
 -/
 
 namespace A047078
@@ -11188,44 +11112,6 @@ end
 
 end A047091.P8085063157235275044
 
-/-! ## A047091.P8159490750313380387
-
-`char[A014681(n)]*A047089(A046092(n))`
--/
-
-namespace A047091.P8159490750313380387
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A014681 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A047089 (A046092 n).toNat
-
-end
-
-end A047091.P8159490750313380387
-
-/-! ## A047091.P13345612667781911020
-
-`char[A035043(n)]*A047089(A046092(n))`
--/
-
-namespace A047091.P13345612667781911020
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A035043 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A047089 (A046092 n).toNat
-
-end
-
-end A047091.P13345612667781911020
-
 /-! ## A047091.P2103621110832192907
 
 `A047089(A046092(n))+A000007(n+1)`
@@ -12139,7 +12025,7 @@ end A047097.P2991064447940741843
 /-!
 # A047098: a(n) = 2*binomial(3*n, n) - Sum_{k=0..n} binomial(3*n, k).
 
-The programs for A047098, the canonical program `A047098.P2815314934957914121` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047098 has offset 0).
+The programs for A047098, the canonical program `A047098.P2815314934957914121` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A047098 has offset 0).
 
 The definition of A047098 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A321957, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -12148,7 +12034,7 @@ The definition of A047098 is `conditional`: the Lean definition is an OEIS formu
 
 `A321957(n)+2*C(3*n, n)-8^n`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A047098

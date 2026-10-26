@@ -4,29 +4,27 @@ import Seq.B000.C000
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C018
-import Seq.B000.C037
+import Seq.B000.C030
+import Seq.B000.C038
 import Seq.B000.C039
-import Seq.B001.C001
+import Seq.B000.C040
+import Seq.B001.C000
 import Seq.B001.C002
-import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C010
-import Seq.B002.C000
+import Seq.B001.C012
 import Seq.B002.C001
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C004
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
-import Seq.B008.C001
-import Seq.B009.C000
+import Seq.B008.C000
+import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
-import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
 import Seq.Opaque.C004
@@ -36,8 +34,8 @@ import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C010
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C016
+import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C021
 import Seq.Opaque.C023
@@ -691,7 +689,7 @@ end A398444.P11982846918386522782
 /-!
 # A398446: Number of permutations of [n] avoiding the pattern 1324 with the maximum element n in position n-2.
 
-The programs for A398446, the canonical program `A398446.P5433720991172560056` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398446 has offset 3).
+The programs for A398446, the canonical program `A398446.P5433720991172560056` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398446 has offset 3).
 
 The definition of A398446 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -700,7 +698,7 @@ The definition of A398446 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((n+3)*C(2*(n+3)-6, n)+4^n)/2`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A398446
@@ -938,7 +936,7 @@ end A398453.P7639948180159108014
 /-!
 # A398470: Number of increasing 3-term arithmetic progressions in an n^3 cube.
 
-The programs for A398470, the canonical program `A398470.P15258585584443073451` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398470 has offset 1).
+The programs for A398470, the canonical program `A398470.P15258585584443073451` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398470 has offset 1).
 
 The definition of A398470 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 141 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -947,7 +945,7 @@ The definition of A398470 is `conjectured`: the Lean definition is a formula tha
 
 `A036486(A000982(n+1))-A036486(n+1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A398470
@@ -1089,6 +1087,29 @@ end
 end A398472.P933031046536253884
 
 /-!
+# A398477: Triangle read by rows: T(n, k + 1) = T(n, k) * (n + k + 1) / (n * (k + 2)) for k < n, starting at T(n, 0) = n^n, (row recurrence).
+
+The programs for A398477, the canonical program `A398477.P18378234332377890742` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398477 has offset 0).
+
+The definition of A398477 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+-/
+
+/-! ## A398477.P18378234332377890742
+
+`row(n)^(row(n)-col(n))*(row(n)+col(n))!/((col(n)+1)!*row(n)!)`
+
+The canonical program, it is in `Seq.B000.C040`.
+-/
+
+namespace A398477
+
+/-- `row(n)^(row(n)-col(n))*(row(n)+col(n))!/((col(n)+1)!*row(n)!)` -/
+def P18378234332377890742.Spec : Prop :=
+  ∀ n, P18378234332377890742.a n = (A398477 n : ℚ)
+
+end A398477
+
+/-!
 # A398478: a(n) = Sum_{j=0..n} binomial(n + j, j) * n^(n - j) / (j + 1). Row sums of A398477.
 
 The programs for A398478, there is no canonical definition to state claims against.
@@ -1112,7 +1133,7 @@ end A398478.P5850295454016004459
 /-!
 # A398479: a(n) = (2*n)^n * binomial(3*n, n) / (n + 1). Central terms of A398477.
 
-The programs for A398479, the canonical program `A398479.P8587661814025841451` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398479 has offset 0).
+The programs for A398479, the canonical program `A398479.P8587661814025841451` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398479 has offset 0).
 
 The definition of A398479 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1121,7 +1142,7 @@ The definition of A398479 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2*n)^n*C(3*n, n)/(n+1)`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A398479

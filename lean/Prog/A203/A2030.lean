@@ -10,6 +10,7 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C013
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -19,35 +20,33 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C037
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
-import Seq.B001.C002
-import Seq.B001.C005
+import Seq.B001.C001
+import Seq.B001.C003
+import Seq.B001.C004
+import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B007.C000
-import Seq.B007.C001
-import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -221,6 +220,21 @@ end
 
 end A203007.P14611376775507002541
 
+/-! ## A203007.P6923215346917272224
+
+`A000045(n+2)*a(n-1)+A000045(n+1)*A003266(n)` with `a(0)=1`
+-/
+
+namespace A203007.P6923215346917272224
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  A000045 (n + 2) * a (n - 1) + A000045 (n + 1) * A003266 n
+
+end
+
+end A203007.P6923215346917272224
+
 /-! ## A203007.P4724554332925793556
 
 `record[-A107416(n+2)]`
@@ -257,44 +271,28 @@ end
 
 end A203007.P17686536324737747917
 
-/-! ## A203007.P14275007941606865056
-
-`record[floor(acot(n)²)-A107416(n)]`
--/
-
-namespace A203007.P14275007941606865056
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌊SequenceMachineLib.acot (n : ℝ) ^ 2⌋ - A107416 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A203007.P14275007941606865056
-
 /-!
 # A203008: (n-1)-st elementary symmetric function of the first n odd primes; a(0) = 0.
 
-The programs for A203008, there is no canonical definition to state claims against.
+The programs for A203008, the canonical program `A203008.P4929955156994495110` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203008 has offset 0).
+
+The definition of A203008 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A203008.P4929955156994495110
 
 `1/2*(A024451(1+n)-A070826(1+n))`
+
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
-namespace A203008.P4929955156994495110
-noncomputable section
+namespace A203008
 
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (1 : ℚ) / 2 * (A024451 (1 + n) - A070826 (1 + n) : ℚ)
+/-- `1/2*(A024451(1+n)-A070826(1+n))` -/
+def P4929955156994495110.Spec : Prop :=
+  ∀ n, P4929955156994495110.a n = (A203008 n : ℚ)
 
-end
-
-end A203008.P4929955156994495110
+end A203008
 
 /-! ## A203008.P14935306173979856318
 
@@ -311,6 +309,14 @@ end
 
 end A203008.P14935306173979856318
 
+namespace A203008
+
+/-- `A342921(2^(n+1)-2)` -/
+def P14935306173979856318.Spec : Prop :=
+  ∀ n, P14935306173979856318.a n = A203008 n
+
+end A203008
+
 /-! ## A203008.P5142383575872539160
 
 `A278544(2^(n+1)-2)`
@@ -326,6 +332,14 @@ end
 
 end A203008.P5142383575872539160
 
+namespace A203008
+
+/-- `A278544(2^(n+1)-2)` -/
+def P5142383575872539160.Spec : Prop :=
+  ∀ n, P5142383575872539160.a n = A203008 n
+
+end A203008
+
 /-! ## A203008.P4282577871944221847
 
 `A344028(A020988(n))`
@@ -340,6 +354,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A203008.P4282577871944221847
+
+namespace A203008
+
+/-- `A344028(A020988(n))` -/
+def P4282577871944221847.Spec : Prop :=
+  ∀ n, P4282577871944221847.a n = A203008 n
+
+end A203008
 
 /-!
 # A203009: (n-1)-st elementary symmetric function of first n Lucas numbers, starting with L(0)=2.

@@ -2,6 +2,64 @@
   "oi": 55652,
   "ps": [
     {
+      "d": "2026-10-25",
+      "ix": "col(n)^(row(n)-col(n))+(row(n)-col(n))^col(n)",
+      "mt": 4773,
+      "px": [
+        "n",
+        "col",
+        "n",
+        "row",
+        "n",
+        "col",
+        "sub",
+        "^",
+        "n",
+        "row",
+        "n",
+        "col",
+        "sub",
+        "n",
+        "col",
+        "^",
+        "+"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven",
+        "definition"
+      ]
+    },
+    {
+      "d": "2026-10-25",
+      "ix": "(row(n)-col(n))^col(n)+col(n)^(row(n)-col(n))",
+      "mt": 4773,
+      "px": [
+        "n",
+        "row",
+        "n",
+        "col",
+        "sub",
+        "n",
+        "col",
+        "^",
+        "n",
+        "col",
+        "n",
+        "row",
+        "n",
+        "col",
+        "sub",
+        "^",
+        "+"
+      ],
+      "s": "oeis",
+      "tags": [
+        "proven",
+        "definition"
+      ]
+    },
+    {
       "d": "2022-04-29",
       "ix": "A156354(n)+char[2-4/2]",
       "mt": 4773,

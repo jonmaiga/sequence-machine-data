@@ -25,47 +25,43 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
-import Seq.B000.C027
+import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C030
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C037
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
-import Seq.B001.C008
-import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C006
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B003.C001
+import Seq.B002.C006
+import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -79,6 +75,7 @@ import Seq.Opaque.C009
 import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
+import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
@@ -88,7 +85,7 @@ import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-import Seq.Opaque.C023
+import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -797,7 +794,7 @@ end A138807.P9068749006686898206
 /-!
 # A138810: Expansion of (8 / 7) * (1 - eta(q)^7 / eta(q^7)) - 7 * (eta(q) * eta(q^7))^3 in powers of q.
 
-The programs for A138810, the canonical program `A138810.P12069746356700581126` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138810 has offset 1).
+The programs for A138810, the canonical program `A138810.P12069746356700581126` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138810 has offset 1).
 
 The definition of A138810 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -855,7 +852,7 @@ end A138810
 
 `∑{d}[n+1, #²*A175629(#)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A138810
@@ -1833,7 +1830,7 @@ end A138829
 /-!
 # A138830: Bisection of imperfect numbers A132999.
 
-The programs for A138830, the canonical program `A138830.P7169071661950621730` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138830 has offset 1).
+The programs for A138830, the canonical program `A138830.P7169071661950621730` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138830 has offset 1).
 
 The definition of A138830 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1842,7 +1839,7 @@ The definition of A138830 is `conjectured`: the Lean definition is a formula tha
 
 `A132999(2*(n+1))`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A138830
@@ -2910,7 +2907,7 @@ end A138839.P395731390830238676
 /-!
 # A138840: Concatenation of initial and final digits of n-th prime.
 
-The programs for A138840, the canonical program `A138840.P8735630634193650490` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138840 has offset 1).
+The programs for A138840, the canonical program `A138840.P8735630634193650490` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138840 has offset 1).
 
 The definition of A138840 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2975,7 +2972,7 @@ end A138840
 
 `A073729(A000040(n+1))`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A138840
@@ -4710,42 +4707,6 @@ end
 
 end A138856.P17774901685219590865
 
-/-! ## A138856.P1942180211200080300
-
-`A061395(p?[A138000(n+1)])`
--/
-
-namespace A138856.P1942180211200080300
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A138000 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A061395 (f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)).toNat
-
-end
-
-end A138856.P1942180211200080300
-
-/-! ## A138856.P14211611270243364678
-
-`A066328(p?[A138000(n+1)])`
--/
-
-namespace A138856.P14211611270243364678
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A138000 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A066328 (f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)).toNat
-
-end
-
-end A138856.P14211611270243364678
-
 /-! ## A138856.P6876134497039538448
 
 `∑{d}[A138000(n+1), A061395(#)]`
@@ -5250,6 +5211,21 @@ end A138870.P356996110240358196
 The programs for A138871, there is no canonical definition to state claims against.
 -/
 
+/-! ## A138871.P1848411009116101032
+
+`(2^(A000043(n+1)-1))%1000`
+-/
+
+namespace A138871.P1848411009116101032
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (SequenceMachineLib.roundAway ((2 : ℚ) ^ (A000043 (n + 1) - 1 : ℤ))) 1000
+
+end
+
+end A138871.P1848411009116101032
+
 /-! ## A138871.P5093735266550184356
 
 `A138872(n+1)%(10*A138870(n+1))`
@@ -5309,21 +5285,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A138871.P15988896289333908969
-
-/-! ## A138871.P14664749222640250590
-
-`A126605(A153798(n+1)+1)`
--/
-
-namespace A138871.P14664749222640250590
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A126605 (A153798 (n + 1) + 1).toNat
-
-end
-
-end A138871.P14664749222640250590
 
 /-!
 # A138874: Last two digits of the n-th even perfect number.
@@ -8503,6 +8464,40 @@ end A138894
 
 The programs for A138895, there is no canonical definition to state claims against.
 -/
+
+/-! ## A138895.P6263948129505686027
+
+`A092892(row(n)-col(n))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A138895.P6263948129505686027
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A092892 (SequenceMachineLib.triRow n - SequenceMachineLib.triCol n)
+
+end
+
+end A138895.P6263948129505686027
+
+/-! ## A138895.P3159806590893864786
+
+`A092892(row(n)+1-(col(n)+1))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A138895.P3159806590893864786
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A092892 (SequenceMachineLib.triRow n + 1 - (SequenceMachineLib.triCol n + 1))
+
+end
+
+end A138895.P3159806590893864786
 
 /-! ## A138895.P12142224266501969731
 

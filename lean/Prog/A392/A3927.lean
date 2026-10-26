@@ -9,44 +9,40 @@ import Seq.B000.C008
 import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C022
-import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C030
+import Seq.B000.C024
+import Seq.B000.C026
+import Seq.B000.C028
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
-import Seq.B000.C038
-import Seq.B000.C039
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C040
 import Seq.B001.C000
-import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
-import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C008
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
-import Seq.B004.C001
+import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C001
-import Seq.B006.C001
-import Seq.B007.C000
+import Seq.B005.C002
+import Seq.B006.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
 import Seq.Opaque.C000
@@ -1681,24 +1677,6 @@ end
 
 end A392737.P10349627405976150532
 
-/-! ## A392737.P9001670233602805092
-
-`filter[n+1, A392736(#)]`
--/
-
-namespace A392737.P9001670233602805092
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A392736 (f1 j) = 1) n)
-
-end
-
-end A392737.P9001670233602805092
-
 /-! ## A392737.P14108859095351122414
 
 `A392736(2*n+1)+2*n`
@@ -2843,7 +2821,7 @@ end A392779.P13507389094061907612
 /-!
 # A392781: Length of the longest reduced word in the cyclic group C_n.
 
-The programs for A392781, the canonical program `A392781.P4887849297626016326` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392781 has offset 1).
+The programs for A392781, the canonical program `A392781.P4887849297626016326` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392781 has offset 1).
 
 The definition of A392781 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2852,7 +2830,7 @@ The definition of A392781 is `conjectured`: the Lean definition is a formula tha
 
 `A004526(∑{p}[n+1, #*val(n+1, #)]+1-∑{e}[n+1, #])`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A392781
@@ -3011,7 +2989,7 @@ end A392781
 /-!
 # A392782: Complement of A000792.
 
-The programs for A392782, the canonical program `A392782.P7874202101078099020` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392782 has offset 1).
+The programs for A392782, the canonical program `A392782.P7874202101078099020` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392782 has offset 1).
 
 The definition of A392782 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3020,7 +2998,7 @@ The definition of A392782 is `conjectured`: the Lean definition is a formula tha
 
 `comp[3*a(n-3)]` with `a(0)=0, a(1)=1, a(2)=2, a(3)=4`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A392782
@@ -3368,66 +3346,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A392790.P16710207237991313881
-
-/-!
-# A392794: Expansion of e.g.f. (1/x) * Series_Reversion( x - (exp(x^2) - 1)^2 ).
-
-The programs for A392794, there is no canonical definition to state claims against.
--/
-
-/-! ## A392794.P1396040752396474758
-
-`filter[A392791(n), A071026(#)]`
--/
-
-namespace A392794.P1396040752396474758
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392791 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A071026 (f1 j).toNat = 1) n)
-
-end
-
-end A392794.P1396040752396474758
-
-/-! ## A392794.P114337015950892039
-
-`filter[A392791(n), A104338(#)]`
--/
-
-namespace A392794.P114337015950892039
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392791 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A104338 (f1 j).toNat = 1) n)
-
-end
-
-end A392794.P114337015950892039
-
-/-! ## A392794.P12201051368203504468
-
-`filter[A392791(n), A105597(#)]`
--/
-
-namespace A392794.P12201051368203504468
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A392791 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A105597 (f1 j).toNat = 1) n)
-
-end
-
-end A392794.P12201051368203504468
 
 /-!
 # A392795: Expansion of e.g.f. (1/x) * Series_Reversion( x - (exp(x^3) - 1)^2/x ).

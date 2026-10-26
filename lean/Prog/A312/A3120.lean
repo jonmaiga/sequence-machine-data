@@ -14,61 +14,61 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
+import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C029
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
-import Seq.B008.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -94,7 +94,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1161,24 +1160,6 @@ end A312014.P4148876905959100603
 The programs for A312015, there is no canonical definition to state claims against.
 -/
 
-/-! ## A312015.P18265614391885961004
-
-`record[A312016(n)-A006927(n)]`
--/
-
-namespace A312015.P18265614391885961004
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A312016 n - A006927 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A312015.P18265614391885961004
-
 /-! ## A312015.P8570107652870435851
 
 `A312016(n)-A006927(A033886(n))`
@@ -2048,24 +2029,6 @@ end A312026.P6076201698218499120
 
 The programs for A312027, there is no canonical definition to state claims against.
 -/
-
-/-! ## A312027.P13871497290295980516
-
-`record[A312028(n)-A324095(n+1)]`
--/
-
-namespace A312027.P13871497290295980516
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A312028 n - A324095 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A312027.P13871497290295980516
 
 /-! ## A312027.P4514157452293984943
 
@@ -3158,24 +3121,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A312041.P12599444572851403517
-
-/-! ## A312041.P14247789848182084571
-
-`record[A312042(n)-A007031(n+1)]`
--/
-
-namespace A312041.P14247789848182084571
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A312042 n - A007031 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A312041.P14247789848182084571
 
 /-! ## A312041.P12684531913885764816
 
@@ -4323,24 +4268,6 @@ end
 
 end A312055.P13545492944331000132
 
-/-! ## A312055.P13612872024831536402
-
-`root(A312056(n), ∏{e}[A007900(3*n+1)+1, #])`
--/
-
-namespace A312055.P13612872024831536402
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007900 (3 * n + 1) + 1
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (A312056 n : ℝ) ^ (1 / ((∏ p ∈ Nat.primeFactors (f1 n).natAbs, Nat.factorization (f1 n).natAbs p : ℕ) : ℝ))
-
-end
-
-end A312055.P13612872024831536402
-
 /-!
 # A312056: Coordination sequence Gal.6.126.6 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
@@ -5091,7 +5018,7 @@ end A312064.P16623545740106147839
 /-!
 # A312065: Coordination sequence Gal.3.10.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A312065, the canonical program `A312065.P12266081500591104946` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A312065 has offset 0).
+The programs for A312065, the canonical program `A312065.P12266081500591104946` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A312065 has offset 0).
 
 The definition of A312065 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2543 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5150,7 +5077,7 @@ end A312065
 
 `A047513(n+1)+A008486(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A312065
@@ -5605,24 +5532,6 @@ end
 
 end A312066.P8246550548376441122
 
-/-! ## A312066.P10787590773841784593
-
-`record[A312069(n)-A219745(n+1)]`
--/
-
-namespace A312066.P10787590773841784593
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A312069 n - A219745 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A312066.P10787590773841784593
-
 /-! ## A312066.P5133971789466088119
 
 `A311583(n)+A160380(A348202(n))`
@@ -5752,7 +5661,7 @@ end A312067.P1822520136548898574
 /-!
 # A312068: Coordination sequence Gal.6.119.3 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A312068, the canonical program `A312068.P6869764559260015807` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A312068 has offset 0).
+The programs for A312068, the canonical program `A312068.P6869764559260015807` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A312068 has offset 0).
 
 The definition of A312068 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1313 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6020,7 +5929,7 @@ end A312068
 
 `A311262(2*n)-4*n`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A312068
@@ -6683,60 +6592,6 @@ end
 
 end A312074.P15975963563188138484
 
-/-! ## A312074.P2118670144678552890
-
-`record[A312075(n)-A126085(n+1)]`
--/
-
-namespace A312074.P2118670144678552890
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A312075 n - A126085 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A312074.P2118670144678552890
-
-/-! ## A312074.P2957456981942287626
-
-`record[A312076(n)-A126085(n+1)]`
--/
-
-namespace A312074.P2957456981942287626
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A312076 n - A126085 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A312074.P2957456981942287626
-
-/-! ## A312074.P13068312102018718845
-
-`record[A312075(n)-A324090(n+1)]`
--/
-
-namespace A312074.P13068312102018718845
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A312075 n - A324090 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A312074.P13068312102018718845
-
 /-! ## A312074.P1631756395593861767
 
 `A263283(A005248(n)*A111891(n+1))+char[3]`
@@ -6776,24 +6631,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A312075.P16046198880680817120
-
-/-! ## A312075.P5712487586196180246
-
-`record[A312076(n)-A185213(n)]`
--/
-
-namespace A312075.P5712487586196180246
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A312076 n - A185213 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A312075.P5712487586196180246
 
 /-! ## A312075.P15682600204580688296
 
@@ -6909,7 +6746,7 @@ end A312076.P16406690796970028468
 /-!
 # A312077: Coordination sequence Gal.5.65.1 where Gal.u.t.v denotes the coordination sequence for a vertex of type v in tiling number t in the Galebach list of u-uniform tilings.
 
-The programs for A312077, the canonical program `A312077.P5583150468324327588` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A312077 has offset 0).
+The programs for A312077, the canonical program `A312077.P5583150468324327588` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A312077 has offset 0).
 
 The definition of A312077 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2517 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7062,7 +6899,7 @@ end A312077
 
 `A008574(n)+A004524(A081599(n))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A312077
@@ -8486,24 +8323,6 @@ end A312091.P399916364997190953
 The programs for A312092, there is no canonical definition to state claims against.
 -/
 
-/-! ## A312092.P10436534198077933279
-
-`record[A301676(n)-A007030(n+1)]`
--/
-
-namespace A312092.P10436534198077933279
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A301676 n - A007030 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A312092.P10436534198077933279
-
 /-! ## A312092.P16657600408323187823
 
 `A301676(n)-A262670(A324099(n+1))`
@@ -9285,22 +9104,4 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A312099.P18047918043594447636
-
-/-! ## A312099.P17821192490666566810
-
-`record[A312101(n)-A324415(n+1)]`
--/
-
-namespace A312099.P17821192490666566810
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A312101 n - A324415 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A312099.P17821192490666566810
 

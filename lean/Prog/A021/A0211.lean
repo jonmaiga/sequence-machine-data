@@ -5,21 +5,20 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C009
 import Seq.B000.C016
-import Seq.B000.C019
-import Seq.B000.C024
-import Seq.B000.C028
-import Seq.B000.C031
+import Seq.B000.C020
+import Seq.B000.C025
+import Seq.B000.C029
+import Seq.B000.C032
 import Seq.B001.C000
-import Seq.B002.C000
+import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B004.C000
-import Seq.B014.C000
+import Seq.B005.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C004
 import Seq.Opaque.C009
-import Seq.Opaque.C013
-import Seq.Opaque.C023
+import Seq.Opaque.C022
 
 /-!
 # A021100: Decimal expansion of 1/96.
@@ -472,25 +471,25 @@ end A021114
 /-!
 # A021115: Decimal expansion of 1/111.
 
-The programs for A021115, the canonical program `A021115.P16254005703688202094` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021115 has offset 0).
+The programs for A021115, the canonical program `A021115.P18404869153156329283` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A021115 has offset 0).
 
 The definition of A021115 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
-/-! ## A021115.P16254005703688202094
+/-! ## A021115.P18404869153156329283
 
-`9*A022003(n)`
+`4*n%3-2*(n+1)%3+(n+2)%3`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B000.C004`.
 -/
 
 namespace A021115
 
-/-- `9*A022003(n)` -/
-def P16254005703688202094.Spec : Prop :=
-  ∀ n, P16254005703688202094.a n = A021115 n
+/-- `4*n%3-2*(n+1)%3+(n+2)%3` -/
+def P18404869153156329283.Spec : Prop :=
+  ∀ n, P18404869153156329283.a n = A021115 n
 
-theorem P16254005703688202094.correct : P16254005703688202094.Spec := by
+theorem P18404869153156329283.correct : P18404869153156329283.Spec := by
   intro n
   simp only [A021115]
 

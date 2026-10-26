@@ -17,44 +17,43 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C023
-import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C026
-import Seq.B000.C028
+import Seq.B000.C027
 import Seq.B000.C029
-import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C030
+import Seq.B000.C032
 import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C037
+import Seq.B000.C035
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C009
+import Seq.B001.C007
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
-import Seq.B006.C002
-import Seq.B007.C001
-import Seq.B008.C001
+import Seq.B006.C001
+import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
+import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1011,7 +1010,7 @@ end A366042.P15808768886305495514
 /-!
 # A366043: Number of circular binary sequences of length n with an odd number of 0's and no consecutive 1's.
 
-The programs for A366043, the canonical program `A366043.P18219701237679968499` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366043 has offset 1).
+The programs for A366043, the canonical program `A366043.P18219701237679968499` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366043 has offset 1).
 
 The definition of A366043 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1020,7 +1019,7 @@ The definition of A366043 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+2*a(n-3)+a(n-4)` with `a(0)=1, a(1)=2, a(2)=1, a(3)=4`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A366043
@@ -1490,7 +1489,7 @@ end A366043
 /-!
 # A366044: Number of circular binary sequences of length n with an even number of 0's and no three consecutive 1's.
 
-The programs for A366044, the canonical program `A366044.P16003485002489039509` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366044 has offset 1).
+The programs for A366044, the canonical program `A366044.P16003485002489039509` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366044 has offset 1).
 
 The definition of A366044 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1499,7 +1498,7 @@ The definition of A366044 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+2*a(n-3)+3*a(n-4)+2*a(n-5)+a(n-6)` with `a(0)=0, a(1)=1, a(2)=3, a(3)=7, a(4)=10, a(5)=19`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A366044
@@ -1566,7 +1565,7 @@ end A366044
 /-!
 # A366045: Number of circular binary sequences of length n with an odd number of 0's and no three consecutive 1's.
 
-The programs for A366045, the canonical program `A366045.P8942926436967715460` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366045 has offset 1).
+The programs for A366045, the canonical program `A366045.P8942926436967715460` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366045 has offset 1).
 
 The definition of A366045 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1575,7 +1574,7 @@ The definition of A366045 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-2)+2*a(n-3)+3*a(n-4)+2*a(n-5)+a(n-6)` with `a(0)=1, a(1)=2, a(2)=4, a(3)=4, a(4)=11, a(5)=20`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A366045
@@ -1894,24 +1893,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A366055.P5809927567137146008
-
-/-! ## A366055.P2684080713974156540
-
-`filter[A368932(n), A105597(#)]`
--/
-
-namespace A366055.P2684080713974156540
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A368932 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A105597 (f1 j).toNat = 1) n)
-
-end
-
-end A366055.P2684080713974156540
 
 /-!
 # A366056: Expansion of (1/x) * Series_Reversion( x*(1-x)^4/(1-x+x^4) ).
@@ -2438,7 +2419,7 @@ end A366070.P2230903785122021352
 /-!
 # A366073: The number of composite "Fermi-Dirac primes" (A082522) dividing n.
 
-The programs for A366073, the canonical program `A366073.P5691353184812918535` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366073 has offset 1).
+The programs for A366073, the canonical program `A366073.P5691353184812918535` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366073 has offset 1).
 
 The definition of A366073 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2447,7 +2428,7 @@ The definition of A366073 is `conjectured`: the Lean definition is a formula tha
 
 `∑{e}[n+1, floor(log2(#))]`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A366073
@@ -2701,7 +2682,7 @@ end A366073
 /-!
 # A366074: The number of "Fermi-Dirac primes" (A050376) that are unitary divisors of n.
 
-The programs for A366074, the canonical program `A366074.P15334897605484074236` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366074 has offset 1).
+The programs for A366074, the canonical program `A366074.P15334897605484074236` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366074 has offset 1).
 
 The definition of A366074 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2733,7 +2714,7 @@ end A366074
 
 `∑{e}[n+1, A209229(#)]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A366074
@@ -2869,7 +2850,7 @@ end A366074
 /-!
 # A366075: The number of primes dividing the smallest coreful infinitary divisor of n, counted with multiplicity.
 
-The programs for A366075, the canonical program `A366075.P11503824623898636842` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366075 has offset 1).
+The programs for A366075, the canonical program `A366075.P11503824623898636842` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366075 has offset 1).
 
 The definition of A366075 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2901,7 +2882,7 @@ end A366075
 
 `∑{e}[n+1, and(#, -#)]`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A366075
@@ -3121,7 +3102,7 @@ end A366075
 /-!
 # A366076: The number of prime factors of the largest divisor of n that is a cubefull number (A036966), counted with multiplicity.
 
-The programs for A366076, the canonical program `A366076.P7794237320208997332` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366076 has offset 1).
+The programs for A366076, the canonical program `A366076.P7794237320208997332` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366076 has offset 1).
 
 The definition of A366076 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A360540, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3130,7 +3111,7 @@ The definition of A366076 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(A360540(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A366076
@@ -3364,7 +3345,7 @@ end A366076
 /-!
 # A366077: The number of prime factors of the cubefree part of n (A360539), counted with multiplicity.
 
-The programs for A366077, the canonical program `A366077.P4420565916630601203` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366077 has offset 1).
+The programs for A366077, the canonical program `A366077.P4420565916630601203` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366077 has offset 1).
 
 The definition of A366077 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A366076, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3396,7 +3377,7 @@ end A366077
 
 `A001222(n+1)-A366076(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A366077
@@ -3837,7 +3818,7 @@ end A366077
 /-!
 # A366078: The number of distinct prime factors of the cubefree part of n (A360539).
 
-The programs for A366078, the canonical program `A366078.P11404734746980857531` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366078 has offset 1).
+The programs for A366078, the canonical program `A366078.P11404734746980857531` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366078 has offset 1).
 
 The definition of A366078 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, A295659, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3869,7 +3850,7 @@ end A366078
 
 `A001221(n+1)-A295659(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A366078
@@ -4745,9 +4726,9 @@ end A366091.P7394144913050631768
 /-!
 # A366092: Distance from the sum of the first n primes to the nearest prime.
 
-The programs for A366092, the canonical program `A366092.P5607048064636038311` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366092 has offset 0).
+The programs for A366092, the canonical program `A366092.P5607048064636038311` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366092 has offset 0).
 
-The definition of A366092 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007504, A051699, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A366092 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051699, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A366092.P853214979090628494
@@ -4777,7 +4758,7 @@ end A366092
 
 `A051699(A007504(n))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A366092

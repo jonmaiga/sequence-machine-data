@@ -16,45 +16,41 @@ import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C027
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B007.C001
-import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
 import Seq.B014.C000
@@ -193,6 +189,23 @@ end A291803.P9205989221799639488
 The programs for A291804, there is no canonical definition to state claims against.
 -/
 
+/-! ## A291804.P1041143085502831795
+
+`A000203(A291789(n))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A291804.P1041143085502831795
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000203 (A291789 n).toNat
+
+end
+
+end A291804.P1041143085502831795
+
 /-! ## A291804.P12428257152337853367
 
 `2*A291789(n+1)-A291805(n+1)`
@@ -207,39 +220,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A291804.P12428257152337853367
-
-/-! ## A291804.P12637461737657822874
-
-`∑{d}[A291789(n), #]`
--/
-
-namespace A291804.P12637461737657822874
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A291789 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, d
-
-end
-
-end A291804.P12637461737657822874
-
-/-! ## A291804.P1041143085502831795
-
-`A000203(A291789(n))`
--/
-
-namespace A291804.P1041143085502831795
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000203 (A291789 n).toNat
-
-end
-
-end A291804.P1041143085502831795
 
 /-! ## A291804.P7296900951471253425
 
@@ -281,6 +261,23 @@ end A291804.P5067151702141508719
 The programs for A291805, there is no canonical definition to state claims against.
 -/
 
+/-! ## A291805.P5107400185535502067
+
+`A000010(A291789(n))`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A291805.P5107400185535502067
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000010 (A291789 n).toNat
+
+end
+
+end A291805.P5107400185535502067
+
 /-! ## A291805.P13424783658030604863
 
 `2*A291789(n+1)-A291804(n+1)`
@@ -295,21 +292,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A291805.P13424783658030604863
-
-/-! ## A291805.P5107400185535502067
-
-`A000010(A291789(n))`
--/
-
-namespace A291805.P5107400185535502067
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000010 (A291789 n).toNat
-
-end
-
-end A291805.P5107400185535502067
 
 /-! ## A291805.P12267587991836875591
 
@@ -1998,25 +1980,6 @@ end
 
 end A291846.P7692728488280004197
 
-/-! ## A291846.P9308798452695937888
-
-`char[A002188(n+5)]*A291845(n²+n)`
--/
-
-namespace A291846.P9308798452695937888
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002188 (n + 5)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A291845 (n ^ 2 + n)
-
-end
-
-end A291846.P9308798452695937888
-
 /-! ## A291846.P685383948238939327
 
 `and(A008683(A001097(n+1)), A291845(n²+n))`
@@ -2435,7 +2398,7 @@ end A291855.P15858960899352836044
 /-!
 # A291856: a(0) = -1, a(1) = 1, a(n) = a(n-1) + (n-1)*a(n-2) for n > 1.
 
-The programs for A291856, the canonical program `A291856.P2539508486091874599` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291856 has offset 0).
+The programs for A291856, the canonical program `A291856.P2539508486091874599` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291856 has offset 0).
 
 The definition of A291856 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+(n-1)*a(n-2)` (program `A291856.P2539508486091874599`, by `A291856.P2539508486091874599.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2444,7 +2407,7 @@ The definition of A291856 is `verified`: the Lean definition is proven equivalen
 
 `a(n-1)+(n-1)*a(n-2)` with `a(0)=-1, a(1)=1`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A291856
@@ -3765,7 +3728,7 @@ end A291886.P18109157393641758936
 /-!
 # A291887: Number of symmetrically unique Dyck paths of semilength n and height three.
 
-The programs for A291887, the canonical program `A291887.P7998709455536945116` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291887 has offset 3).
+The programs for A291887, the canonical program `A291887.P7998709455536945116` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A291887 has offset 3).
 
 The definition of A291887 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 239 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3774,7 +3737,7 @@ The definition of A291887 is `conjectured`: the Lean definition is a formula tha
 
 `A005207(n+3)-A005418(n+3)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A291887

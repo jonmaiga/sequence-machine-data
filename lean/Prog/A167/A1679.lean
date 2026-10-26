@@ -15,59 +15,59 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C030
+import Seq.B000.C027
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -745,7 +745,7 @@ end A167910
 /-!
 # A167911: Differences between consecutive non-single (or nonisolated) numbers A167707.
 
-The programs for A167911, the canonical program `A167911.P1051216520771783321` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167911 has offset 1).
+The programs for A167911, the canonical program `A167911.P1051216520771783321` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167911 has offset 1).
 
 The definition of A167911 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A167707, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -754,7 +754,7 @@ The definition of A167911 is `conditional`: the Lean definition is an OEIS formu
 
 `A167707(n+2)-A167707(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A167911
@@ -2907,7 +2907,7 @@ end A167934.P10530075833837203347
 /-!
 # A167936: a(n) = 2^n - A108411(n).
 
-The programs for A167936, the canonical program `A167936.P10180852110118149804` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167936 has offset 0).
+The programs for A167936, the canonical program `A167936.P10180852110118149804` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167936 has offset 0).
 
 The definition of A167936 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2916,7 +2916,7 @@ The definition of A167936 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^n-A108411(n)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A167936
@@ -5584,7 +5584,7 @@ end A167984.P10201943799201013731
 /-!
 # A167990: Elements in A126988 (by row) that are not 1.
 
-The programs for A167990, the canonical program `A167990.P17237278703894071025` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167990 has offset 1).
+The programs for A167990, the canonical program `A167990.P17237278703894071025` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167990 has offset 1).
 
 The definition of A167990 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5593,7 +5593,7 @@ The definition of A167990 is `conjectured`: the Lean definition is a formula tha
 
 `A010766(n+1)*A175992(n+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A167990
@@ -6817,7 +6817,7 @@ end A167993
 /-!
 # A167994: Numbers k with the property that the first digit of 2*k is the last digit of k.
 
-The programs for A167994, the canonical program `A167994.P9212402622745255672` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167994 has offset 1).
+The programs for A167994, the canonical program `A167994.P9212402622745255672` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167994 has offset 1).
 
 The definition of A167994 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 500 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6855,7 +6855,7 @@ end A167994
 
 `eq[n%10, A000030(A005408(n))]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A167994
@@ -6999,7 +6999,7 @@ end A167995.P13928788256603336839
 /-!
 # A167996: Positive numbers n with property that first digit of 3*n = last digit of n.
 
-The programs for A167996, the canonical program `A167996.P17083151300053585305` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167996 has offset 1).
+The programs for A167996, the canonical program `A167996.P17083151300053585305` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167996 has offset 1).
 
 The definition of A167996 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7008,7 +7008,7 @@ The definition of A167996 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A000030(A008486(n)), A010879(n)]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A167996
@@ -7142,7 +7142,7 @@ end A167996
 /-!
 # A167997: Numbers k with property that first digit of 4*k = last digit of k.
 
-The programs for A167997, the canonical program `A167997.P11114227523397276923` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167997 has offset 1).
+The programs for A167997, the canonical program `A167997.P11114227523397276923` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167997 has offset 1).
 
 The definition of A167997 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 249 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7180,7 +7180,7 @@ end A167997
 
 `eq[n%10, A000030(A008574(n))]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A167997
@@ -7227,7 +7227,7 @@ end A167997
 /-!
 # A167998: Numbers k with property that first digit of 5*k = last digit of k.
 
-The programs for A167998, the canonical program `A167998.P18279875355077747579` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167998 has offset 1).
+The programs for A167998, the canonical program `A167998.P18279875355077747579` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167998 has offset 1).
 
 The definition of A167998 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7236,7 +7236,7 @@ The definition of A167998 is `conjectured`: the Lean definition is a formula tha
 
 `10*(n+1)+A000030(5*n+9)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A167998

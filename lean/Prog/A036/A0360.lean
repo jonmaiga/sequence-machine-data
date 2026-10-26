@@ -15,35 +15,37 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
-import Seq.B000.C029
+import Seq.B000.C026
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C035
 import Seq.B000.C038
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C004
 import Seq.B001.C006
+import Seq.B001.C007
+import Seq.B001.C008
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
@@ -55,12 +57,13 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -86,7 +89,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -9447,33 +9449,6 @@ def P7915805351332565296.Spec : Prop :=
 
 end A036086
 
-/-! ## A036086.P475997889774569537
-
-`(A001016(n+1)+A001016(n))*char[A038722(n+1)-1]`
--/
-
-namespace A036086.P475997889774569537
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A038722 (n + 1) - 1
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A001016 (n + 1) + A001016 n) * ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A036086.P475997889774569537
-
-namespace A036086
-
-/-- `(A001016(n+1)+A001016(n))*char[A038722(n+1)-1]` -/
-def P475997889774569537.Spec : Prop :=
-  ∀ n, P475997889774569537.a n = A036086 n
-
-end A036086
-
 /-! ## A036086.P14846868347460947706
 
 `(A001016(n+1)+A001016(n))*A266303(2*n)`
@@ -9576,33 +9551,6 @@ def P3538809476299929749.Spec : Prop :=
 
 end A036087
 
-/-! ## A036087.P8542473708605804876
-
-`(A001017(n+1)+A001017(n))*char[A003188(n)]`
--/
-
-namespace A036087.P8542473708605804876
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003188 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A001017 (n + 1) + A001017 n) * ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A036087.P8542473708605804876
-
-namespace A036087
-
-/-- `(A001017(n+1)+A001017(n))*char[A003188(n)]` -/
-def P8542473708605804876.Spec : Prop :=
-  ∀ n, P8542473708605804876.a n = A036087 n
-
-end A036087
-
 /-! ## A036087.P9830818958550685479
 
 `abs(Δ[A038608(n)^9])`
@@ -9687,33 +9635,6 @@ namespace A036087
 /-- `record[Δ[A001057(n)^9]]` -/
 def P13736089728915146266.Spec : Prop :=
   ∀ n, P13736089728915146266.a n = A036087 n
-
-end A036087
-
-/-! ## A036087.P7680687223766162476
-
-`(A001017(n+1)+A001017(n))*char[A006015(n)]`
--/
-
-namespace A036087.P7680687223766162476
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006015 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (A001017 (n + 1) + A001017 n) * ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A036087.P7680687223766162476
-
-namespace A036087
-
-/-- `(A001017(n+1)+A001017(n))*char[A006015(n)]` -/
-def P7680687223766162476.Spec : Prop :=
-  ∀ n, P7680687223766162476.a n = A036087 n
 
 end A036087
 
@@ -10979,7 +10900,7 @@ end A036098
 /-!
 # A036099: Centered cube numbers: (n+1)^21 + n^21.
 
-The programs for A036099, the canonical program `A036099.P7054077074225571692` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036099 has offset 0).
+The programs for A036099, the canonical program `A036099.P7054077074225571692` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A036099 has offset 0).
 
 The definition of A036099 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)^21+n^21` (program `A036099.P7054077074225571692`, by `A036099.P7054077074225571692.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -10988,7 +10909,7 @@ The definition of A036099 is `verified`: the Lean definition is proven equivalen
 
 `(n+1)^21+n^21`
 
-The canonical program, it is in `Seq.B000.C007`.
+The canonical program, it is in `Seq.B000.C006`.
 -/
 
 namespace A036099

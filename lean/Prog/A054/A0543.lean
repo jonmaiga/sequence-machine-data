@@ -8,6 +8,7 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -19,16 +20,14 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
@@ -36,14 +35,18 @@ import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
+import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -56,21 +59,18 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4399,7 +4399,7 @@ end A054322
 /-!
 # A054323: Fifth column of Lanczos triangle A053125 (decreasing powers).
 
-The programs for A054323, the canonical program `A054323.P5676521096093651374` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054323 has offset 0).
+The programs for A054323, the canonical program `A054323.P5676521096093651374` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054323 has offset 0).
 
 The definition of A054323 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4431,7 +4431,7 @@ end A054323
 
 `4^n*A053126(n+4)`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A054323
@@ -7104,7 +7104,7 @@ end A054328
 /-!
 # A054329: One quarter of fourth unsigned column of Lanczos' triangle A053125.
 
-The programs for A054329, the canonical program `A054329.P8572352450619330285` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054329 has offset 0).
+The programs for A054329, the canonical program `A054329.P8572352450619330285` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054329 has offset 0).
 
 The definition of A054329 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7136,7 +7136,7 @@ end A054329
 
 `A054322(n)/4`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A054329
@@ -7573,7 +7573,7 @@ end A054329
 /-!
 # A054330: One half of sixth unsigned column of Lanczos' triangle A053125.
 
-The programs for A054330, the canonical program `A054330.P8554570175706362975` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054330 has offset 0).
+The programs for A054330, the canonical program `A054330.P8554570175706362975` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054330 has offset 0).
 
 The definition of A054330 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7605,7 +7605,7 @@ end A054330
 
 `A054324(n)/2`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A054330
@@ -8054,7 +8054,7 @@ end A054330
 /-!
 # A054331: One eighth of eighth unsigned column of Lanczos triangle A053125.
 
-The programs for A054331, the canonical program `A054331.P3198170004335640972` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054331 has offset 0).
+The programs for A054331, the canonical program `A054331.P3198170004335640972` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054331 has offset 0).
 
 The definition of A054331 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8086,7 +8086,7 @@ end A054331
 
 `A054326(n)/8`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A054331
@@ -8379,7 +8379,7 @@ end A054331
 /-!
 # A054332: One half of tenth unsigned column of Lanczos triangle A053125 (decreasing powers).
 
-The programs for A054332, the canonical program `A054332.P14236572035809434950` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054332 has offset 0).
+The programs for A054332, the canonical program `A054332.P14236572035809434950` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054332 has offset 0).
 
 The definition of A054332 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8411,7 +8411,7 @@ end A054332
 
 `A054328(n)/2`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A054332
@@ -8881,6 +8881,12 @@ namespace A054333
 /-- `2*A053310(n)-A055843(n)` -/
 def P621925269344459561.Spec : Prop :=
   ∀ n, P621925269344459561.a n = A054333 n
+
+theorem P621925269344459561.correct : P621925269344459561.Spec := by
+  intro n
+  simp only [A054333, Nat.add_sub_cancel, A054333.P621925269344459561.a, A054333.P12017629139080086520.a, A053310, A053310.P18227198859901366220.a, A055843, A055843.P13673213389990630587.a, A055844, A055844.P3977546084257467032.a, SequenceMachineLib.memo_apply]
+  try push_cast
+  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A054333
 
@@ -11321,7 +11327,7 @@ end A054346.P17467316212430718712
 /-!
 # A054347: Partial sums of A000201.
 
-The programs for A054347, the canonical program `A054347.P4966294788488570671` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054347 has offset 0).
+The programs for A054347, the canonical program `A054347.P4966294788488570671` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054347 has offset 0).
 
 The definition of A054347 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11428,7 +11434,7 @@ end A054347
 
 `∑[A004956(n)]-n`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A054347
@@ -14978,7 +14984,7 @@ end A054371.P1050329327411005459
 /-!
 # A054372: Table of resultants for cyclotomic polynomials phi_k(x) and phi_n(x).
 
-The programs for A054372, the canonical program `A054372.P16596843267228174239` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054372 has offset 1).
+The programs for A054372, the canonical program `A054372.P16596843267228174239` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054372 has offset 1).
 
 The definition of A054372 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6424 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14987,7 +14993,7 @@ The definition of A054372 is `conjectured`: the Lean definition is a formula tha
 
 `A020500(A010766(n+1))^A054522(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A054372
@@ -15615,7 +15621,7 @@ end A054384.P11322898772577741813
 /-!
 # A054385: Beatty sequence for e/(e-1); complement of A022843.
 
-The programs for A054385, the canonical program `A054385.P13327735877817480647` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054385 has offset 1).
+The programs for A054385, the canonical program `A054385.P13327735877817480647` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054385 has offset 1).
 
 The definition of A054385 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15808,7 +15814,7 @@ end A054385
 
 `A022843(n+1)-A014246(n+1)`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A054385

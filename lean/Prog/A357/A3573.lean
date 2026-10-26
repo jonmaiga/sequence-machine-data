@@ -11,53 +11,55 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
-import Seq.B000.C033
-import Seq.B000.C037
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B000.C038
+import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -84,6 +86,7 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
+import SequenceMachineLib.Triangle
 
 /-!
 # A357300: a(n) is the smallest number m with exactly n divisors whose first digit equals the first digit of m.
@@ -738,6 +741,33 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A357315.P11939930095446514369
+
+/-!
+# A357316: A distension of the Wythoff array by inclusion of intermediate rows. Square array A(n,k), n >= 0, k >= 0, read by descending antidiagonals. If S is the set such that Sum_{i in S} F_i is the Zeckendorf representation of n then A(n,k) = Sum_{i in S} F_{i+k-2}.
+
+The programs for A357316, the canonical program `A357316.P2864619349203397894` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357316 has offset 0).
+
+The definition of A357316 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003714, A356874, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+-/
+
+/-! ## A357316.P2864619349203397894
+
+`A356874(floor(A003714(col(n))*2^(row(n)-col(n)-1)))`
+
+The canonical program, it is in `Seq.B006.C001`.
+-/
+
+namespace A357316
+
+/-- `A356874(floor(A003714(col(n))*2^(row(n)-col(n)-1)))` -/
+def P2864619349203397894.Spec : Prop :=
+  ∀ n, P2864619349203397894.a n = A357316 n
+
+theorem P2864619349203397894.correct : P2864619349203397894.Spec := by
+  intro n
+  simp only [A357316]
+
+end A357316
 
 /-!
 # A357321: Expansion of e.g.f. -LambertW(log(1 - 2*x)/2).
@@ -1946,10 +1976,33 @@ end A357364.P2669847808646170239
 /-!
 # A357367: Triangle read by rows. T(n, k) = binomial(n - 1, k - 1)*(n + k)! / k!.
 
-The programs for A357367, the canonical program `A357367.P4873515078796916862` is in `Seq.B008.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357367 has offset 0).
+The programs for A357367, the canonical program `A357367.P4873515078796916862` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357367 has offset 0).
 
 The definition of A357367 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1306 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A357367.P14497580912076887539
+
+`2*(row(n)+col(n)-1)*T(n-1,k-1)+(row(n)+2*col(n)-1)*T(n-1,k)` with `a(0)=1`
+-/
+
+namespace A357367.P14497580912076887539
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
+  2 * ((SequenceMachineLib.triRow n + SequenceMachineLib.triCol n : ℤ) - 1) * SequenceMachineLib.triUpLeft a n + ((SequenceMachineLib.triRow n + 2 * SequenceMachineLib.triCol n : ℤ) - 1) * SequenceMachineLib.triUp a n
+
+end
+
+end A357367.P14497580912076887539
+
+namespace A357367
+
+/-- `2*(row(n)+col(n)-1)*T(n-1,k-1)+(row(n)+2*col(n)-1)*T(n-1,k)` -/
+def P14497580912076887539.Spec : Prop :=
+  ∀ n, P14497580912076887539.a n = A357367 n
+
+end A357367
 
 /-! ## A357367.P9735121742734625214
 
@@ -1988,7 +2041,7 @@ end A357367
 
 `A086810(n)*A130493(n+1)`
 
-The canonical program, it is in `Seq.B008.C001`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A357367

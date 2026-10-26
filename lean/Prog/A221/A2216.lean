@@ -13,49 +13,51 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C031
 import Seq.B000.C033
-import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C009
+import Seq.B001.C007
+import Seq.B001.C008
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B007.C001
-import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -76,10 +78,11 @@ import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
+import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C025
+import Seq.Opaque.C024
 
 /-!
 # A221600: Number of nX2 arrays of occupancy after each element moves to some king-move neighbor, without move-in move-out left turns.
@@ -243,7 +246,7 @@ end A221603.P16858430300282446030
 /-!
 # A221604: Number of n X 3 arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor, without move-in move-out left turns.
 
-The programs for A221604, the canonical program `A221604.P6365961932242925290` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221604 has offset 1).
+The programs for A221604, the canonical program `A221604.P6365961932242925290` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221604 has offset 1).
 
 The definition of A221604 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 138 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -252,7 +255,7 @@ The definition of A221604 is `conjectured`: the Lean definition is a formula tha
 
 `6*a(n-1)-4*a(n-2)+2*a(n-3)-2*a(n-4)` with `a(0)=2, a(1)=10, a(2)=54, a(3)=287`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A221604
@@ -2259,7 +2262,7 @@ end A221638.P15570366108095338475
 /-!
 # A221639: a(n) = 5^(5*n+1) + 4^(5*n+2) + 3^(5*n).
 
-The programs for A221639, the canonical program `A221639.P11233895453618504225` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221639 has offset 0).
+The programs for A221639, the canonical program `A221639.P11233895453618504225` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221639 has offset 0).
 
 The definition of A221639 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `5^(5*n+1)+4^(5*n+2)+3^(5*n)` (program `A221639.P11233895453618504225`, by `A221639.P11233895453618504225.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2291,7 +2294,7 @@ end A221639
 
 `5^(5*n+1)+4^(5*n+2)+3^(5*n)`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A221639
@@ -3047,7 +3050,7 @@ end A221650.P2605145286331199837
 /-!
 # A221652: Number of n X 2 arrays of occupancy after each element moves to some horizontal, diagonal or antidiagonal neighbor, without move-in move-out left turns.
 
-The programs for A221652, the canonical program `A221652.P12665017434536375062` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221652 has offset 1).
+The programs for A221652, the canonical program `A221652.P12665017434536375062` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221652 has offset 1).
 
 The definition of A221652 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 189 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3079,7 +3082,7 @@ end A221652
 
 `3*a(n-1)+a(n-2)+a(n-3)` with `a(0)=1, a(1)=4, a(2)=12, a(3)=40`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A221652
@@ -5049,7 +5052,7 @@ end A221675.P220704370359680001
 /-!
 # A221677: Number of 0..2 arrays of length n with each element differing from at least one neighbor by 1 or less, starting with 0.
 
-The programs for A221677, the canonical program `A221677.P5112293346657275236` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221677 has offset 1).
+The programs for A221677, the canonical program `A221677.P5112293346657275236` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221677 has offset 1).
 
 The definition of A221677 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 222 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5081,7 +5084,7 @@ end A221677
 
 `a(n-3)+2*(a(n-1)+a(n-2))` with `a(0)=0, a(1)=2, a(2)=5`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A221677
@@ -5312,7 +5315,7 @@ end A221677
 /-!
 # A221678: Number of 0..3 arrays of length n with each element differing from at least one neighbor by 1 or less, starting with 0.
 
-The programs for A221678, the canonical program `A221678.P11234986961513364289` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221678 has offset 1).
+The programs for A221678, the canonical program `A221678.P11234986961513364289` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221678 has offset 1).
 
 The definition of A221678 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 184 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5344,7 +5347,7 @@ end A221678
 
 `3*a(n-1)+2*a(n-2)-a(n-3)+a(n-4)` with `a(0)=0, a(1)=2, a(2)=5, a(3)=20`
 
-The canonical program, it is in `Seq.B000.C029`.
+The canonical program, it is in `Seq.B000.C030`.
 -/
 
 namespace A221678
@@ -5646,25 +5649,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A221679.P18185477213962509058
-
-/-! ## A221679.P8678377324455624804
-
-`char[A002262(n)]*A221683(A056000(n)+7)`
--/
-
-namespace A221679.P8678377324455624804
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002262 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A221683 (A056000 n + 7).toNat
-
-end
-
-end A221679.P8678377324455624804
 
 /-! ## A221679.P10475516936401624670
 
@@ -6377,24 +6361,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A221689.P11829993590303341375
-
-/-! ## A221689.P15543774348866581360
-
-`record[A221693(A141214(n)+A108104(n))]`
--/
-
-namespace A221689.P15543774348866581360
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A221693 (A141214 n + A108104 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A221689.P15543774348866581360
 
 /-!
 # A221690: Number of nX4 arrays of occupancy after each element stays put or moves to some horizontal or antidiagonal neighbor, without consecutive moves in the same direction.

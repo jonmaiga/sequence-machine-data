@@ -13,47 +13,51 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
+import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
-import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C024
+import Seq.B000.C021
+import Seq.B000.C023
 import Seq.B000.C025
-import Seq.B000.C031
+import Seq.B000.C026
 import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C034
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
-import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B013.C000
+import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2313,7 +2317,7 @@ end A040039
 /-!
 # A040040: Average of twin prime pairs (A014574), divided by 2. Equivalently, 2*a(n)-1 and 2*a(n)+1 are primes.
 
-The programs for A040040, the canonical program `A040040.P16619200629137818045` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040040 has offset 1).
+The programs for A040040, the canonical program `A040040.P16619200629137818045` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040040 has offset 1).
 
 The definition of A040040 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A014574, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2322,7 +2326,7 @@ The definition of A040040 is `conditional`: the Lean definition is an OEIS formu
 
 `A014574(n+1)/2`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A040040
@@ -3418,6 +3422,21 @@ end A040050.P2048003482504277216
 The programs for A040051, there is no canonical definition to state claims against.
 -/
 
+/-! ## A040051.P16146119588395199739
+
+`A000041(n)%2`
+-/
+
+namespace A040051.P16146119588395199739
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A000041 n) 2
+
+end
+
+end A040051.P16146119588395199739
+
 /-! ## A040051.P13336812688557162203
 
 `A000035(A000041(n))`
@@ -3710,21 +3729,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A040051.P16191773685386000907
-
-/-! ## A040051.P5517542899270486453
-
-`A000035(A069935(n))`
--/
-
-namespace A040051.P5517542899270486453
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000035 (A069935 n).toNat
-
-end
-
-end A040051.P5517542899270486453
 
 /-!
 # A040053: a(n) is 1 if and only if Ramanujan's tau(n) > 0.
@@ -4070,33 +4074,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A040056.P2186251652427915302
-
-/-!
-# A040057: Continued fraction for sqrt(66).
-
-The programs for A040057, the canonical program `A040057.P18369166585514238202` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040057 has offset 0).
-
-The definition of A040057 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
--/
-
-/-! ## A040057.P18369166585514238202
-
-`a(n-2)` with `a(0)=8, a(1)=8, a(2)=16`
-
-The canonical program, it is in `Seq.B000.C007`.
--/
-
-namespace A040057
-
-/-- `a(n-2)` -/
-def P18369166585514238202.Spec : Prop :=
-  ∀ n, (P18369166585514238202.a n : ℤ) = A040057 n
-
-theorem P18369166585514238202.correct : P18369166585514238202.Spec := by
-  intro n
-  simp only [A040057]
-
-end A040057
 
 /-!
 # A040058: Primes p such that x^3 = 10 has no solution mod p.
@@ -4944,31 +4921,6 @@ end
 
 end A040068.P508438521858280661
 
-/-! ## A040068.P123042420937462959
-
-`∪[A354936(2*n+5), p?[3*A066385(n+3)+1]]`
--/
-
-namespace A040068.P123042420937462959
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A354936 (2 * n + 5)
-
-def f3 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  3 * A066385 (n + 3) + 1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f3 (SequenceMachineLib.nth (fun j => (f3 j).toNat.Prime) n)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A040068.P123042420937462959
-
 /-!
 # A040069: Primes p such that x^3 = 15 has a solution mod p.
 
@@ -5166,33 +5118,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A040072.P10371471322431480204
-
-/-!
-# A040073: Continued fraction for sqrt(83).
-
-The programs for A040073, the canonical program `A040073.P7626612885380361846` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040073 has offset 0).
-
-The definition of A040073 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
--/
-
-/-! ## A040073.P7626612885380361846
-
-`a(n-2)` with `a(0)=9, a(1)=9, a(2)=18`
-
-The canonical program, it is in `Seq.B000.C007`.
--/
-
-namespace A040073
-
-/-- `a(n-2)` -/
-def P7626612885380361846.Spec : Prop :=
-  ∀ n, (P7626612885380361846.a n : ℤ) = A040073 n
-
-theorem P7626612885380361846.correct : P7626612885380361846.Spec := by
-  intro n
-  simp only [A040073]
-
-end A040073
 
 /-!
 # A040075: 5-fold convolution of A000302 (powers of 4); expansion of 1/(1-4*x)^5.
@@ -6714,33 +6639,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A040090.P13297620836263602385
-
-/-!
-# A040091: Continued fraction for sqrt(102).
-
-The programs for A040091, the canonical program `A040091.P8756136610212090123` is in `Seq.B000.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A040091 has offset 0).
-
-The definition of A040091 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
--/
-
-/-! ## A040091.P8756136610212090123
-
-`a(n-2)` with `a(0)=10, a(1)=10, a(2)=20`
-
-The canonical program, it is in `Seq.B000.C007`.
--/
-
-namespace A040091
-
-/-- `a(n-2)` -/
-def P8756136610212090123.Spec : Prop :=
-  ∀ n, (P8756136610212090123.a n : ℤ) = A040091 n
-
-theorem P8756136610212090123.correct : P8756136610212090123.Spec := by
-  intro n
-  simp only [A040091]
-
-end A040091
 
 /-!
 # A040092: Primes p such that x^3 = 22 has no solution mod p.

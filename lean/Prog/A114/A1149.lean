@@ -17,25 +17,30 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
-import Seq.B000.C024
+import Seq.B000.C022
+import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
-import Seq.B000.C036
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
+import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
@@ -47,13 +52,11 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -79,7 +82,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -2365,7 +2367,7 @@ end A114939.P9835093196901131499
 /-!
 # A114944: a(n) = prime(n) + semiprime(n) + 3almostprime(n) + 4almostprime(n).
 
-The programs for A114944, the canonical program `A114944.P5745295539132009725` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114944 has offset 1).
+The programs for A114944, the canonical program `A114944.P5745295539132009725` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114944 has offset 1).
 
 The definition of A114944 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A014613, A114382, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2374,7 +2376,7 @@ The definition of A114944 is `conditional`: the Lean definition is an OEIS formu
 
 `A014613(n+1)+A114382(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A114944
@@ -4235,7 +4237,7 @@ end A114965
 /-!
 # A114966: Prime(n) + Semiprime(n) + 3AlmostPrime(n) + 4AlmostPrime(n) + 5AlmostPrime(n).
 
-The programs for A114966, the canonical program `A114966.P15379347381698072828` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114966 has offset 1).
+The programs for A114966, the canonical program `A114966.P15379347381698072828` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114966 has offset 1).
 
 The definition of A114966 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A014614, A114944, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4244,7 +4246,7 @@ The definition of A114966 is `conditional`: the Lean definition is an OEIS formu
 
 `A114944(n+1)+A014614(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A114966
@@ -5349,7 +5351,7 @@ end A114987.P17359453343170517347
 /-!
 # A114988: Numbers whose sum of distinct prime factors is 3-almost prime.
 
-The programs for A114988, the canonical program `A114988.P3062223938420162422` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114988 has offset 1).
+The programs for A114988, the canonical program `A114988.P3062223938420162422` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114988 has offset 1).
 
 The definition of A114988 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5358,7 +5360,7 @@ The definition of A114988 is `conjectured`: the Lean definition is a formula tha
 
 `eq[3, A001222(A008472(n+2))]+2`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A114988

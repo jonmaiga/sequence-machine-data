@@ -9,50 +9,54 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C031
+import Seq.B000.C028
 import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C033
+import Seq.B000.C035
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C000
-import Seq.B004.C002
+import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -63,6 +67,7 @@ import Seq.Opaque.C006
 import Seq.Opaque.C007
 import Seq.Opaque.C008
 import Seq.Opaque.C009
+import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
@@ -200,7 +205,7 @@ end A125901.P14519268802891955950
 /-!
 # A125902: a(n) = sum of the first n primes which are coprime to n.
 
-The programs for A125902, the canonical program `A125902.P12495455694751999864` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125902 has offset 1).
+The programs for A125902, the canonical program `A125902.P12495455694751999864` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125902 has offset 1).
 
 The definition of A125902 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -209,7 +214,7 @@ The definition of A125902 is `conjectured`: the Lean definition is a formula tha
 
 `A007504(A229109(n+1))-A008472(n+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A125902
@@ -247,7 +252,7 @@ def P5671670759757282694.Spec : Prop :=
 
 theorem P5671670759757282694.correct : P5671670759757282694.Spec := by
   intro n
-  simp only [A125902, Nat.add_sub_cancel, A125902.P5671670759757282694.a, A125902.P12495455694751999864.a, A001221, A001221.P10258181745752134128.a, A007504, A007504.P16529107901788736493.f1, A007504.P16529107901788736493.a, A008472, A008472.P6567490011312877583.f1, A008472.P6567490011312877583.a, A229109, A229109.P7396241872602068631.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P2666504972441551157.a, A182986, A182986.P2625431067462217415.a, A054541, A054541.P347795157194570387.a, A046930, A046930.P1162450832993365803.f1, A046930.P1162450832993365803.a, SequenceMachineLib.memo_apply]
+  simp only [A125902, Nat.add_sub_cancel, A125902.P5671670759757282694.a, A125902.P12495455694751999864.a, A001221, A001221.P10258181745752134128.a, A007504, A007504.P14310834286015847203.a, A008472, A008472.P6567490011312877583.f1, A008472.P6567490011312877583.a, A229109, A229109.P7396241872602068631.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A014284, A014284.P18183547548072881472.a, A059841, A059841.P7264174615531153985.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | ((try field_simp); ring_nf)
 
@@ -828,8 +833,29 @@ end A125905
 /-!
 # A125906: Riordan array (1/(1 + 5*x + x^2), x/(1 + 5*x + x^2))^(-1); inverse of Riordan array A123967.
 
-The programs for A125906, there is no canonical definition to state claims against.
+The programs for A125906, the canonical program `A125906.P12647423150828054135` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125906 has offset 0).
+
+The definition of A125906 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7382 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
+
+/-! ## A125906.P12647423150828054135
+
+`T(n-1,k-1)+5*T(n-1,k)+T(n-1,k+1)` with `a(0)=1`
+
+The canonical program, it is in `Seq.B000.C018`.
+-/
+
+namespace A125906
+
+/-- `T(n-1,k-1)+5*T(n-1,k)+T(n-1,k+1)` -/
+def P12647423150828054135.Spec : Prop :=
+  ∀ n, (P12647423150828054135.a n : ℤ) = A125906 n
+
+theorem P12647423150828054135.correct : P12647423150828054135.Spec := by
+  intro n
+  simp only [A125906]
+
+end A125906
 
 /-! ## A125906.P17555098785261701239
 
@@ -845,6 +871,14 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A125906.P17555098785261701239
+
+namespace A125906
+
+/-- `gcd(A081187(A324666(n)), A324660(n))` -/
+def P17555098785261701239.Spec : Prop :=
+  ∀ n, (P17555098785261701239.a n : ℤ) = A125906 n
+
+end A125906
 
 /-!
 # A125908: a(n) is the number of nonnegative integers k less than 10^n such that the decimal representation of k lacks the digits 1 and 2 and at least one of digits 3,4,5,6,7,8,9.

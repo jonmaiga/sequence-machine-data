@@ -13,37 +13,40 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
-import Seq.B000.C024
+import Seq.B000.C020
+import Seq.B000.C022
 import Seq.B000.C025
-import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C026
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C035
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C006
+import Seq.B001.C007
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -54,13 +57,10 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -91,7 +91,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -8217,58 +8216,6 @@ def P7183010320661603260.Spec : Prop :=
 
 end A112765
 
-/-! ## A112765.P10904706417124430817
-
-`∑{digits}[val(2*n-(n-1), 5), #]`
--/
-
-namespace A112765.P10904706417124430817
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.valuation ((2 * n : ℤ) - ((n : ℤ) - 1)).toNat 5
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ((SequenceMachineLib.digits10 (f1 n)).map fun (x : ℕ) => x).sum
-
-end
-
-end A112765.P10904706417124430817
-
-namespace A112765
-
-/-- `∑{digits}[val(2*n-(n-1), 5), #]` -/
-def P10904706417124430817.Spec : Prop :=
-  ∀ n, (P10904706417124430817.a n : ℤ) = A112765 (n + 1)
-
-end A112765
-
-/-! ## A112765.P13672327725894364604
-
-`∏{digits}[val(2*n-(n-1), 5), #]`
--/
-
-namespace A112765.P13672327725894364604
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.valuation ((2 * n : ℤ) - ((n : ℤ) - 1)).toNat 5
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ((SequenceMachineLib.digits10 (f1 n)).map fun (x : ℕ) => x).prod
-
-end
-
-end A112765.P13672327725894364604
-
-namespace A112765
-
-/-- `∏{digits}[val(2*n-(n-1), 5), #]` -/
-def P13672327725894364604.Spec : Prop :=
-  ∀ n, (P13672327725894364604.a n : ℤ) = A112765 (n + 1)
-
-end A112765
-
 /-! ## A112765.P1425622597076365164
 
 `Δ[A027868(n)]`
@@ -8588,33 +8535,6 @@ def P17605326756042767488.Spec : Prop :=
   ∀ n, P17605326756042767488.a n = A112765 (n + 1)
 
 end A112765
-
-/-!
-# A112767: Beginning with 2, primes of the form: least multiple of the previous term followed by a 1. Beginning with 2, a(n) is the least prime of the form k*a(n-1)*10 + 1.
-
-The programs for A112767, there is no canonical definition to state claims against.
--/
-
-/-! ## A112767.P15796084926176242909
-
-`p?[∑[20^n]+20^n]`
--/
-
-namespace A112767.P15796084926176242909
-noncomputable section
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  20 ^ n
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j + 20 ^ n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => (f1 j).Prime) n)
-
-end
-
-end A112767.P15796084926176242909
 
 /-!
 # A112768: Sum of terms of continued fraction for prime(n+1)/prime(n).
@@ -9050,7 +8970,7 @@ end A112770.P7802429326063972071
 /-!
 # A112771: Semiprimes of the form 6n + 1.
 
-The programs for A112771, the canonical program `A112771.P9314669823243134138` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112771 has offset 1).
+The programs for A112771, the canonical program `A112771.P9314669823243134138` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112771 has offset 1).
 
 The definition of A112771 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5029 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9138,7 +9058,7 @@ end A112771
 
 `filter[A391330(n+1), A373977(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A112771
@@ -9585,7 +9505,7 @@ end A112771
 /-!
 # A112772: Semiprimes of the form 6n+2.
 
-The programs for A112772, the canonical program `A112772.P11841538556147305833` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112772 has offset 1).
+The programs for A112772, the canonical program `A112772.P11841538556147305833` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112772 has offset 1).
 
 The definition of A112772 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A024892, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9617,7 +9537,7 @@ end A112772
 
 `6*A024892(n+1)+2`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A112772
@@ -10598,7 +10518,7 @@ end A112773
 /-!
 # A112774: Semiprimes of the form 6n+4.
 
-The programs for A112774, the canonical program `A112774.P17976456391943950983` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112774 has offset 1).
+The programs for A112774, the canonical program `A112774.P17976456391943950983` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112774 has offset 1).
 
 The definition of A112774 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003627, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10607,7 +10527,7 @@ The definition of A112774 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A003627(n+1)`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A112774
@@ -11107,7 +11027,7 @@ end A112774
 /-!
 # A112775: Numbers k such that 6k+1 is semiprime.
 
-The programs for A112775, the canonical program `A112775.P2448372271427909734` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112775 has offset 1).
+The programs for A112775, the canonical program `A112775.P2448372271427909734` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112775 has offset 1).
 
 The definition of A112775 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A112771, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11116,7 +11036,7 @@ The definition of A112775 is `conditional`: the Lean definition is an OEIS formu
 
 `(A112771(n+1)-1)/6`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A112775
@@ -11672,7 +11592,7 @@ end A112775
 /-!
 # A112776: Numbers k such that 6k+5 is semiprime.
 
-The programs for A112776, the canonical program `A112776.P15993050069865128161` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112776 has offset 1).
+The programs for A112776, the canonical program `A112776.P15993050069865128161` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112776 has offset 1).
 
 The definition of A112776 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A108172, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11681,7 +11601,7 @@ The definition of A112776 is `conditional`: the Lean definition is an OEIS formu
 
 `(A108172(n+1)-5)/6`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A112776
@@ -13219,42 +13139,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A112798.P2111122421613263573
-
-/-! ## A112798.P14909229239582143737
-
-`A056239(∑{p}[A027746(n+2), #])`
--/
-
-namespace A112798.P14909229239582143737
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027746 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A056239 (∑ p ∈ Nat.primeFactors (f1 n).natAbs, p)
-
-end
-
-end A112798.P14909229239582143737
-
-/-! ## A112798.P15789474232945026897
-
-`A065770(∑{p}[A027746(n+2), #])`
--/
-
-namespace A112798.P15789474232945026897
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A027746 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065770 (∑ p ∈ Nat.primeFactors (f1 n).natAbs, p)
-
-end
-
-end A112798.P15789474232945026897
 
 /-! ## A112798.P12932790705633134997
 

@@ -8,11 +8,11 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
-import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C014
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -30,10 +30,11 @@ import Seq.B000.C029
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C035
+import Seq.B000.C033
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -41,29 +42,28 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -367,24 +367,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A032003.P6702055809765558152
-
-/-! ## A032003.P4085052441444279809
-
-`∏{p}[A005408(A032041(n)-A028310(n)), #]`
--/
-
-namespace A032003.P4085052441444279809
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005408 (A032041 n - A028310 n).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, p
-
-end
-
-end A032003.P4085052441444279809
 
 /-! ## A032003.P7834505663236952089
 
@@ -5037,25 +5019,6 @@ end
 
 end A032058.P13328868015282451230
 
-/-! ## A032058.P2078894743434945013
-
-`(A032020(n)+char[A002251(n)])/2`
--/
-
-namespace A032058.P2078894743434945013
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002251 n
-
-open Classical in
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A032020 n + ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) : ℚ) / 2
-
-end
-
-end A032058.P2078894743434945013
-
 /-! ## A032058.P6634702930693358408
 
 `A216708(n)%A072576(n)/2+1`
@@ -5085,25 +5048,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A032058.P13764941351499091310
-
-/-! ## A032058.P5079455150789361591
-
-`(A032020(n)+char[A065185(n+1)])/2`
--/
-
-namespace A032058.P5079455150789361591
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A065185 (n + 1)
-
-open Classical in
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A032020 n + ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) : ℚ) / 2
-
-end
-
-end A032058.P5079455150789361591
 
 /-! ## A032058.P3699334095437514600
 
@@ -5245,24 +5189,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A032059.P10533335619628153562
-
-/-! ## A032059.P12581013978410179606
-
-`round(A032021(n)/ratio[A011782(n)])`
--/
-
-namespace A032059.P12581013978410179606
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A011782 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.roundAway ((A032021 n : ℚ) / ((f1 (n + 1) : ℚ) / (f1 n : ℚ)))
-
-end
-
-end A032059.P12581013978410179606
 
 /-!
 # A032060: "BGK" (reversible, element, unlabeled) transform of 0,1,1,1,...

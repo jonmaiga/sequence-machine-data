@@ -35,6 +35,10 @@
         "*",
         "sub",
         "*"
+      ],
+      "tags": [
+        "proven",
+        "definition"
       ]
     },
     {

@@ -25,18 +25,19 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
 import Seq.B000.C029
 import Seq.B000.C030
-import Seq.B000.C032
-import Seq.B000.C034
+import Seq.B000.C031
+import Seq.B000.C033
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
@@ -45,34 +46,34 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -191,7 +192,7 @@ end A302401.P9190233209879422783
 /-!
 # A302402: Total domination number of the n-ladder graph.
 
-The programs for A302402, the canonical program `A302402.P7836109694096223322` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302402 has offset 0).
+The programs for A302402, the canonical program `A302402.P7836109694096223322` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302402 has offset 0).
 
 The definition of A302402 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -200,7 +201,7 @@ The definition of A302402 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*floor((n+2)/3)`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A302402
@@ -817,7 +818,7 @@ end A302403.P3752276552897354088
 /-!
 # A302404: Total domination number of the n-Moebius ladder.
 
-The programs for A302404, the canonical program `A302404.P4086242662706649238` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302404 has offset 0).
+The programs for A302404, the canonical program `A302404.P4086242662706649238` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302404 has offset 0).
 
 The definition of A302404 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -826,7 +827,7 @@ The definition of A302404 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-6)+4` with `a(0)=0, a(1)=2, a(2)=2, a(3)=2, a(4)=3, a(5)=4`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A302404
@@ -1298,7 +1299,7 @@ end A302404
 /-!
 # A302405: Total domination number of the n-prism graph.
 
-The programs for A302405, the canonical program `A302405.P6776312788592575446` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302405 has offset 0).
+The programs for A302405, the canonical program `A302405.P6776312788592575446` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302405 has offset 0).
 
 The definition of A302405 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1307,7 +1308,7 @@ The definition of A302405 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-6)+4` with `a(0)=0, a(1)=1, a(2)=2, a(3)=2, a(4)=4, a(5)=4`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A302405
@@ -1774,7 +1775,7 @@ end A302405
 /-!
 # A302406: Total domination number of the n X n torus grid graph.
 
-The programs for A302406, the canonical program `A302406.P10786457506837801270` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302406 has offset 0).
+The programs for A302406, the canonical program `A302406.P10786457506837801270` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302406 has offset 0).
 
 The definition of A302406 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1829,7 +1830,7 @@ end A302406
 
 `A104563(n)-A211521(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A302406
@@ -4871,7 +4872,7 @@ end A302444.P6062352413892040970
 /-!
 # A302445: Triangle read by rows: row n gives primes of form k^2 + n - k for 0 < k < n.
 
-The programs for A302445, the canonical program `A302445.P980944586648019814` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302445 has offset 2).
+The programs for A302445, the canonical program `A302445.P980944586648019814` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302445 has offset 2).
 
 The definition of A302445 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1627 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4880,7 +4881,7 @@ The definition of A302445 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A002260(A038722(n+1))+A002260(n+1)²]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A302445
@@ -5324,7 +5325,7 @@ end A302450.P11710097614173907840
 /-!
 # A302451: a(n) = [x^n] Product_{k>=0} (1 + n*x^(2^k)).
 
-The programs for A302451, the canonical program `A302451.P919645638412412286` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302451 has offset 0).
+The programs for A302451, the canonical program `A302451.P919645638412412286` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302451 has offset 0).
 
 The definition of A302451 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5333,7 +5334,7 @@ The definition of A302451 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n^A000120(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A302451
@@ -8667,7 +8668,7 @@ end A302485.P5918719473483785139
 /-!
 # A302487: Total domination number of the n-Apollonian network.
 
-The programs for A302487, the canonical program `A302487.P8084945391401743994` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302487 has offset 1).
+The programs for A302487, the canonical program `A302487.P8084945391401743994` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302487 has offset 1).
 
 The definition of A302487 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8676,7 +8677,7 @@ The definition of A302487 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*a(n-1)-3*a(n-2)` with `a(0)=2, a(1)=2, a(2)=3, a(3)=4`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A302487
@@ -8884,7 +8885,7 @@ end A302487
 /-!
 # A302488: Total domination number of the n X n grid graph.
 
-The programs for A302488, the canonical program `A302488.P15522168495187512574` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302488 has offset 0).
+The programs for A302488, the canonical program `A302488.P15522168495187512574` is in `Seq.B000.C036`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302488 has offset 0).
 
 The definition of A302488 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8916,7 +8917,7 @@ end A302488
 
 `2*a(n-1)-a(n-2)+a(n-4)-2*a(n-5)+a(n-6)` with `a(0)=0, a(1)=1, a(2)=2, a(3)=3, a(4)=6, a(5)=9`
 
-The canonical program, it is in `Seq.B000.C035`.
+The canonical program, it is in `Seq.B000.C036`.
 -/
 
 namespace A302488
@@ -9468,7 +9469,7 @@ end A302490.P4418974752408423235
 /-!
 # A302491: Prime numbers of squarefree index.
 
-The programs for A302491, the canonical program `A302491.P7760389659930367120` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302491 has offset 1).
+The programs for A302491, the canonical program `A302491.P7760389659930367120` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302491 has offset 1).
 
 The definition of A302491 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005117, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9477,7 +9478,7 @@ The definition of A302491 is `conditional`: the Lean definition is an OEIS formu
 
 `A000040(A005117(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A302491
@@ -10101,7 +10102,7 @@ end A302492.P14778144522240347233
 /-!
 # A302493: Prime numbers of prime-power index.
 
-The programs for A302493, the canonical program `A302493.P13750760026098076296` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302493 has offset 1).
+The programs for A302493, the canonical program `A302493.P13750760026098076296` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302493 has offset 1).
 
 The definition of A302493 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000961, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10110,7 +10111,7 @@ The definition of A302493 is `conditional`: the Lean definition is an OEIS formu
 
 `A000040(A000961(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A302493
@@ -11285,7 +11286,7 @@ end A302497.P5731913572898056736
 /-!
 # A302498: Numbers that are a power of a prime number whose prime index is itself a power of a prime number.
 
-The programs for A302498, the canonical program `A302498.P11061753881118226107` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302498 has offset 1).
+The programs for A302498, the canonical program `A302498.P11061753881118226107` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302498 has offset 1).
 
 The definition of A302498 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11372,7 +11373,7 @@ end A302498
 
 `∩[A000961(n+1), A302593(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A302498

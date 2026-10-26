@@ -11,33 +11,39 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C013
+import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C033
 import Seq.B000.C037
 import Seq.B000.C038
+import Seq.B000.C039
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
+import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -47,14 +53,11 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -70,7 +73,6 @@ import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
-import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
@@ -80,7 +82,7 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-import Seq.Opaque.C025
+import SequenceMachineLib.Triangle
 
 /-!
 # A202900: Number of n X 2 0..1 arrays with every one equal to some NW, E or S neighbor.
@@ -1259,23 +1261,20 @@ end
 
 end A202917.P18396174109758113997
 
-/-! ## A202917.P16038500826119351709
+/-! ## A202917.P8114572342546406473
 
-`gcd(Δ[A006103(n)], A015117(n))`
+`A053657(row(n)+1)/(A053657(col(n)+1)*A053657(row(n)+1-col(n)))`
 -/
 
-namespace A202917.P16038500826119351709
+namespace A202917.P8114572342546406473
 noncomputable section
 
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006103 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (f1 (n + 1) - f1 n) (A015117 n)
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A053657 (SequenceMachineLib.triRow n + 1) : ℚ) / (A053657 (SequenceMachineLib.triCol n + 1) * A053657 (SequenceMachineLib.triRow n + 1 - SequenceMachineLib.triCol n) : ℚ)
 
 end
 
-end A202917.P16038500826119351709
+end A202917.P8114572342546406473
 
 /-!
 # A202918: Number of n X n nonnegative integer arrays with each row and column increasing from zero by 0, 1, 2 or 3.
@@ -2260,63 +2259,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A202932.P3755286274120309914
-
-/-! ## A202932.P13160255890340350800
-
-`char[A008647(n)]*A202939(A001844(n))`
--/
-
-namespace A202932.P13160255890340350800
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008647 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A202939 (A001844 n).toNat
-
-end
-
-end A202932.P13160255890340350800
-
-/-! ## A202932.P3211389252726403687
-
-`char[A026741(n)]*A202939(A001844(n))`
--/
-
-namespace A202932.P3211389252726403687
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A026741 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A202939 (A001844 n).toNat
-
-end
-
-end A202932.P3211389252726403687
-
-/-! ## A202932.P6860710122284539054
-
-`char[A029578(n)]*A202939(A001844(n))`
--/
-
-namespace A202932.P6860710122284539054
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029578 n
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ) * A202939 (A001844 n).toNat
-
-end
-
-end A202932.P6860710122284539054
 
 /-! ## A202932.P346407274934238388
 
@@ -5238,7 +5180,7 @@ end A202963
 /-!
 # A202964: Number of arrays of 4 integers in -n..n with sum zero and adjacent elements differing in absolute value.
 
-The programs for A202964, the canonical program `A202964.P9492632001918835898` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202964 has offset 1).
+The programs for A202964, the canonical program `A202964.P9492632001918835898` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202964 has offset 1).
 
 The definition of A202964 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5247,7 +5189,7 @@ The definition of A202964 is `conjectured`: the Lean definition is a formula tha
 
 `A114254(n)+or(3, A131452(n+1))`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A202964
@@ -7761,25 +7703,25 @@ end A202993.P9931232083958556878
 /-!
 # A202994: a(n) = sigma(n^4).
 
-The programs for A202994, the canonical program `A202994.P5639417088933584221` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202994 has offset 1).
+The programs for A202994, the canonical program `A202994.P11175815109015794068` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202994 has offset 1).
 
-The definition of A202994 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A202994 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000203((n+1)^4)` (program `A202994.P11175815109015794068`, by `A202994.P11175815109015794068.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
-/-! ## A202994.P5639417088933584221
+/-! ## A202994.P11175815109015794068
 
-`A000203(A000583(n+1))`
+`A000203((n+1)^4)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A202994
 
-/-- `A000203(A000583(n+1))` -/
-def P5639417088933584221.Spec : Prop :=
-  ∀ n, P5639417088933584221.a n = A202994 (n + 1)
+/-- `A000203((n+1)^4)` -/
+def P11175815109015794068.Spec : Prop :=
+  ∀ n, P11175815109015794068.a n = A202994 (n + 1)
 
-theorem P5639417088933584221.correct : P5639417088933584221.Spec := by
+theorem P11175815109015794068.correct : P11175815109015794068.Spec := by
   intro n
   simp only [A202994, Nat.add_sub_cancel]
 

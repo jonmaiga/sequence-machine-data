@@ -14,47 +14,51 @@ import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C015
 import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
+import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C004
+import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
@@ -2127,25 +2131,6 @@ end
 
 end A354451.P8555455357503683041
 
-/-! ## A354451.P468154361659628512
-
-`dr(A067742(comp[2*n]))`
--/
-
-namespace A354451.P468154361659628512
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.digitalRoot (A067742 (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n))
-
-end
-
-end A354451.P468154361659628512
-
 /-! ## A354451.P10684374858838266546
 
 `A000005(2*n+1)-A067743(2*n+1)`
@@ -2536,7 +2521,7 @@ end A354452.P5333736229837402943
 /-!
 # A354454: Nearest integer to sqrt(8*Pi*n).
 
-The programs for A354454, the canonical program `A354454.P306548337128537453` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354454 has offset 0).
+The programs for A354454, the canonical program `A354454.P306548337128537453` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354454 has offset 0).
 
 The definition of A354454 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2545,7 +2530,7 @@ The definition of A354454 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(8*π*n)+1/2)`
 
-The canonical program, it is in `Seq.B000.C037`.
+The canonical program, it is in `Seq.B000.C038`.
 -/
 
 namespace A354454
@@ -3071,7 +3056,7 @@ end A354462.P2533915696500986169
 /-!
 # A354463: a(n) is the number of trailing zeros in (2^n)!.
 
-The programs for A354463, the canonical program `A354463.P2239529858229905820` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354463 has offset 0).
+The programs for A354463, the canonical program `A354463.P2239529858229905820` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354463 has offset 0).
 
 The definition of A354463 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3080,7 +3065,7 @@ The definition of A354463 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A027868(A000079(n))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A354463
@@ -3270,7 +3255,7 @@ end A354465.P18176646864440036818
 /-!
 # A354467: Positive integers whose prime factors are congruent to 1 (mod 12).
 
-The programs for A354467, the canonical program `A354467.P1434315419781372648` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354467 has offset 1).
+The programs for A354467, the canonical program `A354467.P1434315419781372648` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354467 has offset 1).
 
 The definition of A354467 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3366 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3279,7 +3264,7 @@ The definition of A354467 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A004611(n+1), A072330(n+1)]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B013.C000`.
 -/
 
 namespace A354467

@@ -20,42 +20,43 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C035
+import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2263,7 +2264,7 @@ end A025019.P1604201023865820507
 /-!
 # A025020: Numbers whose least quadratic nonresidue (A020649) is 2.
 
-The programs for A025020, the canonical program `A025020.P18212951843414993576` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025020 has offset 1).
+The programs for A025020, the canonical program `A025020.P18212951843414993576` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025020 has offset 1).
 
 The definition of A025020 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8588 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2328,7 +2329,7 @@ end A025020
 
 `eq[0, A087780(n+2)]+2`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A025020
@@ -5179,24 +5180,6 @@ end
 
 end A025056.P7720169731591967587
 
-/-! ## A025056.P8629985388729753846
-
-`A025057((n+1)²)-ratio[A011782(n)]`
--/
-
-namespace A025056.P8629985388729753846
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A011782 n
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A025057 ((n + 1) ^ 2) : ℚ) - (f1 (n + 1) : ℚ) / (f1 n : ℚ)
-
-end
-
-end A025056.P8629985388729753846
-
 /-! ## A025056.P5731600113484898011
 
 `A025057((n+1)²)-A036453(n+1)`
@@ -6266,7 +6249,7 @@ end A025076.P10839446361586677904
 /-!
 # A025078: a(n) = s(1)s(n) + s(2)s(n-1) + ... + s(k)s(n-k+1), where k = [ n/2 ] and s = (Fibonacci numbers).
 
-The programs for A025078, the canonical program `A025078.P9952779972674218111` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025078 has offset 1).
+The programs for A025078, the canonical program `A025078.P9952779972674218111` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025078 has offset 1).
 
 The definition of A025078 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 467 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6298,7 +6281,7 @@ end A025078
 
 `A001629(n+3)-A024458(n+2)`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A025078
@@ -6611,7 +6594,7 @@ end A025078
 /-!
 # A025079: s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n-k+1), where k = [ n/2 ], s = (Fibonacci numbers), t = (Lucas numbers).
 
-The programs for A025079, the canonical program `A025079.P6411856452203359211` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025079 has offset 1).
+The programs for A025079, the canonical program `A025079.P6411856452203359211` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025079 has offset 1).
 
 The definition of A025079 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 466 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6689,7 +6672,7 @@ end A025079
 
 `A006498(n)+A008619(n)*A020695(n)`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A025079
@@ -6730,7 +6713,7 @@ end A025079
 /-!
 # A025082: a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n-k+1), where k = [ n/2 ], s = (Fibonacci numbers), t = (F(2), F(3), F(4), ...).
 
-The programs for A025082, the canonical program `A025082.P11802128794640137597` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025082 has offset 1).
+The programs for A025082, the canonical program `A025082.P11802128794640137597` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025082 has offset 1).
 
 The definition of A025082 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 467 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6762,7 +6745,7 @@ end A025082
 
 `A024591(n+1)+A006498(n)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A025082
@@ -6993,7 +6976,7 @@ end A025082
 /-!
 # A025083: a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n-k+1), where k = [ n/2 ], s = (Fibonacci numbers), t = (odd natural numbers).
 
-The programs for A025083, the canonical program `A025083.P14741746701760172126` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025083 has offset 1).
+The programs for A025083, the canonical program `A025083.P14741746701760172126` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025083 has offset 1).
 
 The definition of A025083 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 140 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7002,7 +6985,7 @@ The definition of A025083 is `conjectured`: the Lean definition is a formula tha
 
 `A213768(Δ[A173154(n)])`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A025083
@@ -7604,7 +7587,7 @@ end A025088.P2935983373403392855
 /-!
 # A025089: a(n) = s(1)*s(n) + s(2)*s(n-1) + ... + s(k)*s(n-k+1), where k = [n/2], s = (Lucas numbers).
 
-The programs for A025089, the canonical program `A025089.P5435601216984553650` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025089 has offset 1).
+The programs for A025089, the canonical program `A025089.P5435601216984553650` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025089 has offset 1).
 
 The definition of A025089 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 464 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7613,7 +7596,7 @@ The definition of A025089 is `conjectured`: the Lean definition is a formula tha
 
 `A004799(n+1)-A024469(n+1)`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A025089
@@ -7631,7 +7614,7 @@ end A025089
 /-!
 # A025092: a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n-k+1), where k = [ n/2 ], s = (Lucas numbers), t = (F(2), F(3), F(4), ...).
 
-The programs for A025092, the canonical program `A025092.P5540335712594963880` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025092 has offset 1).
+The programs for A025092, the canonical program `A025092.P5540335712594963880` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025092 has offset 1).
 
 The definition of A025092 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 465 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7663,7 +7646,7 @@ end A025092
 
 `2*(A023610(n+2)-A024458(n+4))-A025082(n+1)`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A025092
@@ -7750,7 +7733,7 @@ end A025092
 /-!
 # A025093: a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n-k+1), where k = [ n/2 ], s = (Lucas numbers), t = (odd natural numbers).
 
-The programs for A025093, the canonical program `A025093.P5417694836519234021` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025093 has offset 1).
+The programs for A025093, the canonical program `A025093.P5417694836519234021` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025093 has offset 1).
 
 The definition of A025093 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 924 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7759,7 +7742,7 @@ The definition of A025093 is `conjectured`: the Lean definition is a formula tha
 
 `A025106(n+1)+A025106(n+1)-A025083(n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A025093
@@ -7882,28 +7865,6 @@ end A025094.P4675391547812971532
 
 The programs for A025095, there is no canonical definition to state claims against.
 -/
-
-/-! ## A025095.P6648230481221084922
-
-`∩[A025119(n+1), A029901(n)]`
--/
-
-namespace A025095.P6648230481221084922
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A025119 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A029901 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A025095.P6648230481221084922
 
 /-! ## A025095.P534058772628779276
 

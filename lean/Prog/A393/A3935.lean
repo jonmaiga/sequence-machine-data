@@ -10,44 +10,47 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C016
+import Seq.B000.C013
 import Seq.B000.C017
-import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C024
-import Seq.B000.C026
+import Seq.B000.C020
+import Seq.B000.C025
 import Seq.B000.C027
-import Seq.B000.C032
+import Seq.B000.C028
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
-import Seq.B000.C038
+import Seq.B000.C036
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
-import Seq.B001.C007
+import Seq.B001.C003
+import Seq.B001.C005
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
-import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C001
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
-import Seq.B008.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -82,7 +85,7 @@ set_option linter.unreachableTactic false
 /-!
 # A393503: Number of paths in the n-necklace graph.
 
-The programs for A393503, the canonical program `A393503.P12262583245712848993` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393503 has offset 1).
+The programs for A393503, the canonical program `A393503.P12262583245712848993` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393503 has offset 1).
 
 The definition of A393503 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -91,7 +94,7 @@ The definition of A393503 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(77*4^(n+1)-128)*(n+1)/6`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A393503
@@ -234,7 +237,7 @@ end A393511.P17323550452197683208
 /-!
 # A393512: a(n) = ((2n)^(2n + 1) + 1)/(2n + 1)^2.
 
-The programs for A393512, the canonical program `A393512.P6697239211401130408` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393512 has offset 0).
+The programs for A393512, the canonical program `A393512.P6697239211401130408` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393512 has offset 0).
 
 The definition of A393512 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -243,7 +246,7 @@ The definition of A393512 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `((2*n)^(2*n+1)+1)/(2*n+1)²`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A393512
@@ -695,7 +698,7 @@ end A393530.P12985738307592308039
 /-!
 # A393532: The difference between the maximum and minimum voucher costs for n distinct positive integer vouchers v_1, v_2, ..., v_n, where the cost is defined as v_1 + v_1*v_2 + v_2*v_3 + ... + v_(n-1)*v_n.
 
-The programs for A393532, the canonical program `A393532.P15979102273837115022` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393532 has offset 1).
+The programs for A393532, the canonical program `A393532.P15979102273837115022` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393532 has offset 1).
 
 The definition of A393532 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -704,7 +707,7 @@ The definition of A393532 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)-2*a(n-2)-2*a(n-3)+3*a(n-4)-a(n-5)` with `a(0)=0, a(1)=1, a(2)=4, a(3)=10, a(4)=22, a(5)=39`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A393532
@@ -1222,7 +1225,7 @@ end A393547.P81672671009576430
 /-!
 # A393548: Number of total dominating sets in K_{2n,2n,2n} minus a perfect matching.
 
-The programs for A393548, the canonical program `A393548.P262370244966247609` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393548 has offset 1).
+The programs for A393548, the canonical program `A393548.P262370244966247609` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393548 has offset 1).
 
 The definition of A393548 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1231,7 +1234,7 @@ The definition of A393548 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(4^(n+1)-1)^3+3*(4^(n+1)-1-(n+1))²`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A393548
@@ -1249,7 +1252,7 @@ end A393548
 /-!
 # A393553: Number of dominating sets in K_{2n,2n,2n} minus a perfect matching.
 
-The programs for A393553, the canonical program `A393553.P4582885726841251083` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393553 has offset 1).
+The programs for A393553, the canonical program `A393553.P4582885726841251083` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393553 has offset 1).
 
 The definition of A393553 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1258,7 +1261,7 @@ The definition of A393553 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*((n+1)²+n+1-4^(n+1)*(n+2))+64^(n+1)+5`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A393553
@@ -1276,7 +1279,7 @@ end A393553
 /-!
 # A393554: Number of ways, up to rotations and reflections, to distribute n guards on the corners and walls of an equilateral triangle castle so that each wall has an equal number of guards.
 
-The programs for A393554, the canonical program `A393554.P14953028031373062451` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393554 has offset 0).
+The programs for A393554, the canonical program `A393554.P14953028031373062451` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393554 has offset 0).
 
 The definition of A393554 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1285,7 +1288,7 @@ The definition of A393554 is `conjectured`: the Lean definition is a formula tha
 
 `A029252(2*n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A393554
@@ -1519,7 +1522,7 @@ end A393559.P9914079486100591746
 /-!
 # A393562: a(n) is the number of unit squares in the square lattice, divided by 4, that have at least one vertex strictly inside and at least one vertex strictly outside the circle x^2 + y^2 = n.
 
-The programs for A393562, the canonical program `A393562.P13338399434190979828` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393562 has offset 0).
+The programs for A393562, the canonical program `A393562.P13338399434190979828` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393562 has offset 0).
 
 The definition of A393562 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1528,7 +1531,7 @@ The definition of A393562 is `conjectured`: the Lean definition is a formula tha
 
 `A247367(n)+A000196(n)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A393562
@@ -1630,7 +1633,7 @@ end A393562
 /-!
 # A393564: a(n) is the number of unit squares in the square lattice, divided by 8, that have 2 vertices strictly inside and 2 vertices strictly outside the circle x^2 + y^2 = n.
 
-The programs for A393564, the canonical program `A393564.P18420932766056836635` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393564 has offset 0).
+The programs for A393564, the canonical program `A393564.P18420932766056836635` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393564 has offset 0).
 
 The definition of A393564 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1639,7 +1642,7 @@ The definition of A393564 is `conjectured`: the Lean definition is a formula tha
 
 `A273190(n)-A025435(n)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A393564
@@ -2091,7 +2094,7 @@ end A393578.P3410273621816302551
 /-!
 # A393579: a(n) = floor(g*n) mod 3, where g = (1+sqrt(5))/2 is the golden ratio.
 
-The programs for A393579, the canonical program `A393579.P9619749412502138219` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393579 has offset 1).
+The programs for A393579, the canonical program `A393579.P9619749412502138219` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393579 has offset 1).
 
 The definition of A393579 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2100,7 +2103,7 @@ The definition of A393579 is `conjectured`: the Lean definition is a formula tha
 
 `floor(ϕ*(n+1))%3`
 
-The canonical program, it is in `Seq.B000.C039`.
+The canonical program, it is in `Seq.B000.C040`.
 -/
 
 namespace A393579

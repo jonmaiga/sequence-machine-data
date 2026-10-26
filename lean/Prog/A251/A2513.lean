@@ -2,45 +2,46 @@ import SequenceMachineLib
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
+import Seq.B000.C010
 import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C018
+import Seq.B000.C016
+import Seq.B000.C017
 import Seq.B000.C019
-import Seq.B000.C022
+import Seq.B000.C020
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C027
-import Seq.B000.C029
+import Seq.B000.C028
 import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C038
+import Seq.B000.C033
+import Seq.B000.C039
 import Seq.B001.C000
-import Seq.B001.C002
+import Seq.B001.C001
 import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C004
+import Seq.B001.C006
+import Seq.B001.C007
+import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C002
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
-import Seq.B007.C001
-import Seq.B010.C000
-import Seq.B013.C000
-import Seq.B014.C000
-import Seq.Opaque.C000
+import Seq.B009.C000
+import Seq.B012.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
 import Seq.Opaque.C003
@@ -54,10 +55,9 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
 import Seq.Opaque.C017
-import Seq.Opaque.C019
-import Seq.Opaque.C021
+import Seq.Opaque.C018
+import Seq.Opaque.C020
 
 /-!
 # A251301: Number of (n+1) X (1+1) 0..3 arrays with no 2 X 2 subblock having the sum of its diagonal elements less than the maximum of its antidiagonal elements.
@@ -425,7 +425,7 @@ end A251309.P5640371354940991947
 /-!
 # A251310: Number of (n+1) X (1+1) 0..1 arrays with no 2 X 2 subblock having the maximum of its diagonal elements greater than the absolute difference of its antidiagonal elements.
 
-The programs for A251310, the canonical program `A251310.P12347251958172288930` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251310 has offset 1).
+The programs for A251310, the canonical program `A251310.P12347251958172288930` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251310 has offset 1).
 
 The definition of A251310 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 255 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -434,7 +434,7 @@ The definition of A251310 is `conjectured`: the Lean definition is a formula tha
 
 `3*a(n-1)-2*a(n-2)+2*a(n-3)-a(n-4)` with `a(0)=10, a(1)=25, a(2)=61, a(3)=149`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A251310
@@ -1165,7 +1165,7 @@ end A251318.P10703125591436231790
 /-!
 # A251319: Number of (n+1) X (1+1) 0..1 arrays with every 2 X 2 subblock having one or two 1s.
 
-The programs for A251319, the canonical program `A251319.P15527386144910276059` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251319 has offset 1).
+The programs for A251319, the canonical program `A251319.P15527386144910276059` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251319 has offset 1).
 
 The definition of A251319 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 221 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1197,7 +1197,7 @@ end A251319
 
 `2*a(n-1)+3*a(n-2)-2*a(n-3)` with `a(0)=10, a(1)=28, a(2)=78`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A251319
@@ -1996,7 +1996,7 @@ end A251327.P16322627685581894680
 /-!
 # A251328: Number of (n+1) X (1+1) 0..2 arrays with every 2 X 2 subblock summing to 2 4 or 6.
 
-The programs for A251328, the canonical program `A251328.P11255029658957582792` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251328 has offset 1).
+The programs for A251328, the canonical program `A251328.P11255029658957582792` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251328 has offset 1).
 
 The definition of A251328 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 148 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2005,7 +2005,7 @@ The definition of A251328 is `conjectured`: the Lean definition is a formula tha
 
 `8*a(n-1)-13*a(n-2)-12*a(n-3)` with `a(0)=39, a(1)=171, a(2)=753`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A251328
@@ -3972,27 +3972,46 @@ end A251358.P10142916078874605100
 /-!
 # A251364: Difference between average of two consecutive odd primes and the sum of all prime factors of the average.
 
-The programs for A251364, the canonical program `A251364.P456730405745834131` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251364 has offset 1).
+The programs for A251364, the canonical program `A251364.P12048531555665159687` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251364 has offset 1).
 
-The definition of A251364 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9591 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A251364 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001414, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
+
+/-! ## A251364.P12048531555665159687
+
+`(A000040(n+2)+A000040(n+3))/2-A001414((A000040(n+2)+A000040(n+3))/2)`
+
+The canonical program, it is in `Seq.B001.C009`.
+-/
+
+namespace A251364
+
+/-- `(A000040(n+2)+A000040(n+3))/2-A001414((A000040(n+2)+A000040(n+3))/2)` -/
+def P12048531555665159687.Spec : Prop :=
+  ∀ n, P12048531555665159687.a n = (A251364 (n + 1) : ℚ)
+
+end A251364
 
 /-! ## A251364.P456730405745834131
 
 `A024675(n+1)-A001414(A024675(n+1))`
-
-The canonical program, it is in `Seq.B003.C003`.
 -/
+
+namespace A251364.P456730405745834131
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A024675 (n + 1) - A001414 (A024675 (n + 1)).toNat
+
+end
+
+end A251364.P456730405745834131
 
 namespace A251364
 
 /-- `A024675(n+1)-A001414(A024675(n+1))` -/
 def P456730405745834131.Spec : Prop :=
   ∀ n, P456730405745834131.a n = A251364 (n + 1)
-
-theorem P456730405745834131.correct : P456730405745834131.Spec := by
-  intro n
-  simp only [A251364, Nat.add_sub_cancel]
 
 end A251364
 
@@ -4164,7 +4183,7 @@ end A251365.P8508598134324256228
 /-!
 # A251366: Number of (n+1) X (1+1) 0..2 arrays with every 2 X 2 subblock summing to 1 2 3 4 5 6 or 7.
 
-The programs for A251366, the canonical program `A251366.P15264486829170277489` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251366 has offset 1).
+The programs for A251366, the canonical program `A251366.P15264486829170277489` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251366 has offset 1).
 
 The definition of A251366 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4173,7 +4192,7 @@ The definition of A251366 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*a(n-1)+7*a(n-2)` with `a(0)=79, a(1)=695`
 
-The canonical program, it is in `Seq.B000.C031`.
+The canonical program, it is in `Seq.B000.C032`.
 -/
 
 namespace A251366

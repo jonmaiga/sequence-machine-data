@@ -17,26 +17,25 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
-import Seq.B000.C021
-import Seq.B000.C023
+import Seq.B000.C020
+import Seq.B000.C022
 import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C026
-import Seq.B000.C030
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C036
+import Seq.B000.C033
+import Seq.B000.C037
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -44,12 +43,9 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -83,26 +79,41 @@ import Seq.Opaque.C025
 The programs for A146100, there is no canonical definition to state claims against.
 -/
 
-/-! ## A146100.P7042562539583864502
+/-! ## A146100.P5563382916504406745
 
-`A146110(n)%10`
+`A000110(n)%10`
 -/
 
-namespace A146100.P7042562539583864502
+namespace A146100.P5563382916504406745
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A146110 n) 10
+  Int.tmod (A000110 n) 10
 
 end
 
-end A146100.P7042562539583864502
+end A146100.P5563382916504406745
 
 /-!
 # A146101: Bell numbers (A000110) read mod 11.
 
 The programs for A146101, there is no canonical definition to state claims against.
 -/
+
+/-! ## A146101.P9905521527198011687
+
+`A000110(n)%11`
+-/
+
+namespace A146101.P9905521527198011687
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A000110 n) 11
+
+end
+
+end A146101.P9905521527198011687
 
 /-! ## A146101.P7101988404147275677
 
@@ -133,21 +144,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146101.P1765871349205374441
-
-/-! ## A146101.P9905521527198011687
-
-`A000110(n)%11`
--/
-
-namespace A146101.P9905521527198011687
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A000110 n) 11
-
-end
-
-end A146101.P9905521527198011687
 
 /-! ## A146101.P17738573243805468802
 
@@ -239,41 +235,26 @@ end A146101.P17347468976220257317
 The programs for A146102, there is no canonical definition to state claims against.
 -/
 
-/-! ## A146102.P4094860490317996745
+/-! ## A146102.P924366332900484755
 
-`A146114(n)%12`
+`A000110(n)%12`
 -/
 
-namespace A146102.P4094860490317996745
+namespace A146102.P924366332900484755
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A146114 n) 12
+  Int.tmod (A000110 n) 12
 
 end
 
-end A146102.P4094860490317996745
+end A146102.P924366332900484755
 
 /-!
 # A146103: Bell numbers (A000110) read mod 13.
 
 The programs for A146103, there is no canonical definition to state claims against.
 -/
-
-/-! ## A146103.P13255090351559857325
-
-`A146116(n)%13`
--/
-
-namespace A146103.P13255090351559857325
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A146116 n) 13
-
-end
-
-end A146103.P13255090351559857325
 
 /-! ## A146103.P18229453342624043212
 
@@ -289,6 +270,21 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146103.P18229453342624043212
+
+/-! ## A146103.P13255090351559857325
+
+`A146116(n)%13`
+-/
+
+namespace A146103.P13255090351559857325
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A146116 n) 13
+
+end
+
+end A146103.P13255090351559857325
 
 /-! ## A146103.P1145670425793034785
 
@@ -437,6 +433,21 @@ end A146103.P2643540490269573721
 The programs for A146104, there is no canonical definition to state claims against.
 -/
 
+/-! ## A146104.P18133127197390847768
+
+`A000110(n)%14`
+-/
+
+namespace A146104.P18133127197390847768
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A000110 n) 14
+
+end
+
+end A146104.P18133127197390847768
+
 /-! ## A146104.P11505189886438911500
 
 `A146118(n)%14`
@@ -466,21 +477,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146104.P12696947026827430274
-
-/-! ## A146104.P18133127197390847768
-
-`A000110(n)%14`
--/
-
-namespace A146104.P18133127197390847768
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A000110 n) 14
-
-end
-
-end A146104.P18133127197390847768
 
 /-! ## A146104.P12411940913485768725
 
@@ -605,6 +601,21 @@ end A146104.P15283200544884733702
 The programs for A146105, there is no canonical definition to state claims against.
 -/
 
+/-! ## A146105.P3535934600374162943
+
+`A000110(n)%15`
+-/
+
+namespace A146105.P3535934600374162943
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (A000110 n) 15
+
+end
+
+end A146105.P3535934600374162943
+
 /-! ## A146105.P6104378178430719765
 
 `A146120(n)%15`
@@ -649,21 +660,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146105.P4812310367456796167
-
-/-! ## A146105.P3535934600374162943
-
-`A000110(n)%15`
--/
-
-namespace A146105.P3535934600374162943
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A000110 n) 15
-
-end
-
-end A146105.P3535934600374162943
 
 /-! ## A146105.P4446892446763741601
 
@@ -755,20 +751,20 @@ end A146105.P5084417621285079091
 The programs for A146106, there is no canonical definition to state claims against.
 -/
 
-/-! ## A146106.P12102623642241809629
+/-! ## A146106.P427579343279374716
 
-`A146122(n)%(32/2)`
+`A000110(n)%16`
 -/
 
-namespace A146106.P12102623642241809629
+namespace A146106.P427579343279374716
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A146122 n) (SequenceMachineLib.roundAway ((32 : ℚ) / 2))
+  Int.tmod (A000110 n) 16
 
 end
 
-end A146106.P12102623642241809629
+end A146106.P427579343279374716
 
 /-!
 # A146107: Bell numbers (A000110) read mod 17.
@@ -4796,27 +4792,6 @@ end
 
 end A146163.P337646147242201936
 
-/-! ## A146163.P9687489538553060743
-
-`ratio[ratio[A057077(n+1)]]*A116494(2*n+1)`
--/
-
-namespace A146163.P9687489538553060743
-noncomputable section
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057077 (n + 1)
-
-def f1 : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (f2 (n + 1) : ℚ) / (f2 n : ℚ)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) / f1 n * (A116494 (2 * n + 1) : ℚ)
-
-end
-
-end A146163.P9687489538553060743
-
 /-! ## A146163.P11526480350133706183
 
 `lcm(A057077(n), A116494(A005408(n)))`
@@ -4846,24 +4821,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146163.P1903387598383706158
-
-/-! ## A146163.P960942683626122234
-
-`ratio[A057077(2*n)]*A116494(2*n+1)`
--/
-
-namespace A146163.P960942683626122234
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057077 (2 * n)
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (f1 (n + 1) : ℚ) / (f1 n : ℚ) * (A116494 (2 * n + 1) : ℚ)
-
-end
-
-end A146163.P960942683626122234
 
 /-! ## A146163.P716456937673046072
 
@@ -5346,24 +5303,6 @@ end
 
 end A146171.P10948975328159034409
 
-/-! ## A146171.P5428898336623673046
-
-`∑{d}[A146173(A080147(n+1)), A000010(#)]`
--/
-
-namespace A146171.P5428898336623673046
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146173 (A080147 (n + 1)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ d ∈ Nat.divisors (f1 n).natAbs, A000010 d
-
-end
-
-end A146171.P5428898336623673046
-
 /-! ## A146171.P13629385308678402767
 
 `A146173(A080147(n+1))^A199523(n+1)`
@@ -5522,24 +5461,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146173.P569747914922003406
-
-/-! ## A146173.P12147904455079766439
-
-`filter[A146190(n+1), A004547(#)]`
--/
-
-namespace A146173.P12147904455079766439
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146190 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A004547 (f1 j).toNat = 1) n)
-
-end
-
-end A146173.P12147904455079766439
 
 /-!
 # A146174: Number of n X n binary arrays symmetric about main diagonal with all ones connected only in a 110-100-111 pattern in any orientation.
@@ -5925,7 +5846,7 @@ end A146178.P5297075386637963486
 /-!
 # A146179: Digit sums of Cullen numbers.
 
-The programs for A146179, the canonical program `A146179.P3940575950661472435` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146179 has offset 1).
+The programs for A146179, the canonical program `A146179.P3940575950661472435` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146179 has offset 1).
 
 The definition of A146179 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 324 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5934,7 +5855,7 @@ The definition of A146179 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[n*2^n+1, #]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A146179
@@ -7086,60 +7007,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146193.P15757734131075741312
-
-/-! ## A146193.P3513153932115471350
-
-`filter[A146844(n+3), A030658(#)]`
--/
-
-namespace A146193.P3513153932115471350
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146844 (n + 3)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A030658 (f1 j).toNat = 1) n)
-
-end
-
-end A146193.P3513153932115471350
-
-/-! ## A146193.P5674576853477078145
-
-`filter[A146844(n+3), A039966(#)]`
--/
-
-namespace A146193.P5674576853477078145
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146844 (n + 3)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A039966 (f1 j).toNat = 1) n)
-
-end
-
-end A146193.P5674576853477078145
-
-/-! ## A146193.P18038006337140723151
-
-`filter[A146844(n+3), A050072(#)]`
--/
-
-namespace A146193.P18038006337140723151
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A146844 (n + 3)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A050072 (f1 j).toNat = 1) n)
-
-end
-
-end A146193.P18038006337140723151
 
 /-!
 # A146195: Number of n X n binary arrays symmetric under 180 degree rotation with all ones connected only in a 101-111-100 pattern in any orientation.

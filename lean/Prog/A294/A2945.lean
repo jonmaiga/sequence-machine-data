@@ -12,56 +12,56 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C025
+import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
-import Seq.B000.C033
+import Seq.B000.C032
 import Seq.B000.C034
 import Seq.B000.C035
+import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C004
+import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -76,7 +76,6 @@ import Seq.Opaque.C010
 import Seq.Opaque.C011
 import Seq.Opaque.C012
 import Seq.Opaque.C013
-import Seq.Opaque.C014
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
@@ -374,8 +373,29 @@ end A294507.P1920029057668710204
 /-!
 # A294508: Regular triangular array read by rows: T(n,m) = pi(n*m) - pi(n)*pi(m) for n > 0 and 0 < m <= n.
 
-The programs for A294508, there is no canonical definition to state claims against.
+The programs for A294508, the canonical program `A294508.P12254308196027608387` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294508 has offset 1).
+
+The definition of A294508 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000720((row(n)+1)*(col(n)+1))-A000720(row(n)+1)*A000720(col(n)+1)` (program `A294508.P12254308196027608387`, by `A294508.P12254308196027608387.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
+
+/-! ## A294508.P12254308196027608387
+
+`A000720((row(n)+1)*(col(n)+1))-A000720(row(n)+1)*A000720(col(n)+1)`
+
+The canonical program, it is in `Seq.B001.C010`.
+-/
+
+namespace A294508
+
+/-- `A000720((row(n)+1)*(col(n)+1))-A000720(row(n)+1)*A000720(col(n)+1)` -/
+def P12254308196027608387.Spec : Prop :=
+  ∀ n, P12254308196027608387.a n = A294508 (n + 1)
+
+theorem P12254308196027608387.correct : P12254308196027608387.Spec := by
+  intro n
+  simp only [A294508, Nat.add_sub_cancel]
+
+end A294508
 
 /-! ## A294508.P6636442819629184791
 
@@ -395,6 +415,14 @@ end
 
 end A294508.P6636442819629184791
 
+namespace A294508
+
+/-- `A257081(A257081(∑[A020706(n)]))` -/
+def P6636442819629184791.Spec : Prop :=
+  ∀ n, P6636442819629184791.a n = A294508 (n + 1)
+
+end A294508
+
 /-! ## A294508.P8060812546317679060
 
 `A303708(A132106(n)+A008864(n+1))`
@@ -409,6 +437,14 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A294508.P8060812546317679060
+
+namespace A294508
+
+/-- `A303708(A132106(n)+A008864(n+1))` -/
+def P8060812546317679060.Spec : Prop :=
+  ∀ n, P8060812546317679060.a n = A294508 (n + 1)
+
+end A294508
 
 /-! ## A294508.P11169166975740349510
 
@@ -425,6 +461,14 @@ end
 
 end A294508.P11169166975740349510
 
+namespace A294508
+
+/-- `A243180(A005897(n+3))%A164358(n)` -/
+def P11169166975740349510.Spec : Prop :=
+  ∀ n, P11169166975740349510.a n = A294508 (n + 1)
+
+end A294508
+
 /-! ## A294508.P51912265426487231
 
 `A196564(A289881(n)+A025877(n))`
@@ -440,20 +484,13 @@ end
 
 end A294508.P51912265426487231
 
-/-! ## A294508.P6315629882371757519
+namespace A294508
 
-`and(A043555(n), A250898(A096277(n+1)))`
--/
+/-- `A196564(A289881(n)+A025877(n))` -/
+def P51912265426487231.Spec : Prop :=
+  ∀ n, P51912265426487231.a n = A294508 (n + 1)
 
-namespace A294508.P6315629882371757519
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A043555 n) (A250898 (A096277 (n + 1)).toNat)
-
-end
-
-end A294508.P6315629882371757519
+end A294508
 
 /-!
 # A294509: a(n) is the least value of pi(n*m) - pi(n)*pi(m) for any positive m <= n.
@@ -1437,24 +1474,6 @@ end
 
 end A294533.P14257575036063319852
 
-/-! ## A294533.P2433724910933489291
-
-`record[A293358(n)-A120659(n)]`
--/
-
-namespace A294533.P2433724910933489291
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A293358 n - A120659 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A294533.P2433724910933489291
-
 /-! ## A294533.P5351424140503969411
 
 `A295965(n)-A000045(A061497(n+1))`
@@ -2273,25 +2292,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A294543.P18163486158876889356
-
-/-! ## A294543.P12370252118415978049
-
-`(A295951(n)+log2(1/2))*char[A006068(n)]`
--/
-
-namespace A294543.P12370252118415978049
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A006068 n
-
-open Classical in
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  ((A295951 n : ℝ) + Real.logb 2 ((1 : ℚ) / 2 : ℝ)) * ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℝ)
-
-end
-
-end A294543.P12370252118415978049
 
 /-! ## A294543.P12625863867280186140
 
@@ -4153,7 +4153,7 @@ end A294565.P15022500756816112439
 /-!
 # A294566: a(n) is the smallest positive integer of length (distance from origin) n in the Cayley graph of the integers generated by all powers of 5.
 
-The programs for A294566, the canonical program `A294566.P5326316582338048329` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294566 has offset 1).
+The programs for A294566, the canonical program `A294566.P5326316582338048329` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294566 has offset 1).
 
 The definition of A294566 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4162,7 +4162,7 @@ The definition of A294566 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+5*a(n-2)-5*a(n-3)` with `a(0)=1, a(1)=2, a(2)=3`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A294566
@@ -4589,7 +4589,7 @@ end A294566
 /-!
 # A294567: a(n) = Sum_{d|n} d^(1 + 2*n/d).
 
-The programs for A294567, the canonical program `A294567.P10563433257385022510` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294567 has offset 1).
+The programs for A294567, the canonical program `A294567.P10563433257385022510` is in `Seq.B000.C035`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294567 has offset 1).
 
 The definition of A294567 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4598,7 +4598,7 @@ The definition of A294567 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `∑{d}[n+1, #^(1+2*(n+1)/#)]`
 
-The canonical program, it is in `Seq.B000.C034`.
+The canonical program, it is in `Seq.B000.C035`.
 -/
 
 namespace A294567

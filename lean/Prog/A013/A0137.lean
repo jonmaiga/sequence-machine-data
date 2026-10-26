@@ -20,23 +20,24 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C022
+import Seq.B000.C021
 import Seq.B000.C023
-import Seq.B000.C025
-import Seq.B000.C027
-import Seq.B000.C029
-import Seq.B000.C032
+import Seq.B000.C024
+import Seq.B000.C026
+import Seq.B000.C028
+import Seq.B000.C030
 import Seq.B000.C033
-import Seq.B000.C036
+import Seq.B000.C034
 import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
-import Seq.B001.C005
+import Seq.B001.C003
+import Seq.B001.C007
 import Seq.B002.C000
-import Seq.B002.C002
-import Seq.B007.C001
-import Seq.B009.C000
+import Seq.B002.C003
+import Seq.B003.C003
+import Seq.B005.C001
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C004
@@ -44,7 +45,7 @@ import Seq.Opaque.C005
 import Seq.Opaque.C006
 import Seq.Opaque.C009
 import Seq.Opaque.C010
-import Seq.Opaque.C015
+import Seq.Opaque.C014
 import Seq.Opaque.C016
 import Seq.Opaque.C018
 
@@ -512,33 +513,6 @@ def P3375563617548179314.Spec : Prop :=
 
 end A013708
 
-/-! ## A013708.P1881019906756435872
-
-`3*3^comp[or(1, n)]`
--/
-
-namespace A013708.P1881019906756435872
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.lor 1 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3 * 3 ^ SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n
-
-end
-
-end A013708.P1881019906756435872
-
-namespace A013708
-
-/-- `3*3^comp[or(1, n)]` -/
-def P1881019906756435872.Spec : Prop :=
-  ∀ n, (P1881019906756435872.a n : ℤ) = A013708 n
-
-end A013708
-
 /-! ## A013708.P2927409517058803188
 
 `(3^(tan(acot(2))+n))²`
@@ -700,36 +674,6 @@ def P5528239377661175644.Spec : Prop :=
 
 end A013708
 
-/-! ## A013708.P3731078857305665921
-
-`3*3^∪[2*n, (2*n)²]`
--/
-
-namespace A013708.P3731078857305665921
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n
-
-def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (2 * n) ^ 2
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  3 * 3 ^ SequenceMachineLib.nth (fun x => (∃ j, f1 j = x) ∨ ∃ j, f2 j = x) n
-
-end
-
-end A013708.P3731078857305665921
-
-namespace A013708
-
-/-- `3*3^∪[2*n, (2*n)²]` -/
-def P3731078857305665921.Spec : Prop :=
-  ∀ n, (P3731078857305665921.a n : ℤ) = A013708 n
-
-end A013708
-
 /-! ## A013708.P17826393288326861732
 
 `Δ[A039306(n)]`
@@ -822,6 +766,29 @@ namespace A013708
 /-- `A199561(n)-1` -/
 def P5635988132899605462.Spec : Prop :=
   ∀ n, P5635988132899605462.a n = A013708 n
+
+end A013708
+
+/-! ## A013708.P803067738716077970
+
+`3*A001019(n)`
+-/
+
+namespace A013708.P803067738716077970
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  3 * A001019 n
+
+end
+
+end A013708.P803067738716077970
+
+namespace A013708
+
+/-- `3*A001019(n)` -/
+def P803067738716077970.Spec : Prop :=
+  ∀ n, P803067738716077970.a n = A013708 n
 
 end A013708
 
@@ -2621,33 +2588,6 @@ namespace A013715
 /-- `lcm(2, 10*(10^n)²)` -/
 def P15939745316481210829.Spec : Prop :=
   ∀ n, (P15939745316481210829.a n : ℤ) = A013715 n
-
-end A013715
-
-/-! ## A013715.P11553321048599430950
-
-`root(10, tan(acot(comp[2*n])))`
--/
-
-namespace A013715.P11553321048599430950
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n
-
-open Classical in
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  (10 : ℝ) ^ (1 / Real.tan (SequenceMachineLib.acot (SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ x) n : ℝ)))
-
-end
-
-end A013715.P11553321048599430950
-
-namespace A013715
-
-/-- `root(10, tan(acot(comp[2*n])))` -/
-def P11553321048599430950.Spec : Prop :=
-  ∀ n, P11553321048599430950.a n = (A013715 n : ℝ)
 
 end A013715
 

@@ -9,34 +9,37 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
-import Seq.B000.C016
+import Seq.B000.C014
 import Seq.B000.C017
 import Seq.B000.C018
+import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C030
+import Seq.B000.C024
 import Seq.B000.C031
-import Seq.B000.C036
+import Seq.B000.C032
+import Seq.B000.C037
+import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
-import Seq.B001.C005
+import Seq.B001.C003
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -45,7 +48,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -70,7 +72,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 import Seq.Opaque.C025
 
 /-!
@@ -3451,16 +3452,16 @@ end A078266.P6003684001372004472
 /-!
 # A078267: Smallest k such that k*N is an integer where N is obtained by placing the string "n" after a decimal point.
 
-The programs for A078267, the canonical program `A078267.P17940789187434632380` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078267 has offset 1).
+The programs for A078267, the canonical program `A078267.P17940789187434632380` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078267 has offset 1).
 
-The definition of A078267 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A055642, A078268, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A078267 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A078268, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A078267.P17940789187434632380
 
 `A078268(n+1)*10^A055642(n+1)/(n+1)`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A078267
@@ -3888,7 +3889,7 @@ end A078267
 /-!
 # A078268: Smallest integer which is an integer multiple of the number N obtained by placing the string "n" after a decimal point.
 
-The programs for A078268, the canonical program `A078268.P12910837297517375735` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078268 has offset 1).
+The programs for A078268, the canonical program `A078268.P12910837297517375735` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078268 has offset 1).
 
 The definition of A078268 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A068822, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3897,7 +3898,7 @@ The definition of A078268 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+1)/A068822(n+1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A078268
@@ -4617,7 +4618,7 @@ end A078284.P9074375901494094388
 /-!
 # A078285: Least nontrivial multiple of the n-th prime beginning with 1.
 
-The programs for A078285, the canonical program `A078285.P17863953192826726886` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078285 has offset 1).
+The programs for A078285, the canonical program `A078285.P17863953192826726886` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A078285 has offset 1).
 
 The definition of A078285 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1229 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4626,7 +4627,7 @@ The definition of A078285 is `conjectured`: the Lean definition is a formula tha
 
 `A377565(A000040(n+1))`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A078285
@@ -4909,32 +4910,6 @@ namespace A078285
 /-- `p?[A007989(n)]*A097327(A008578(n+2))` -/
 def P635215938860485377.Spec : Prop :=
   ∀ n, P635215938860485377.a n = A078285 (n + 1)
-
-end A078285
-
-/-! ## A078285.P14947863671385606028
-
-`A000040(n+1)*A097327(p?[A000040(n+1)])`
--/
-
-namespace A078285.P14947863671385606028
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000040 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000040 (n + 1) * A097327 (f1 (SequenceMachineLib.nth (fun j => (f1 j).toNat.Prime) n)).toNat
-
-end
-
-end A078285.P14947863671385606028
-
-namespace A078285
-
-/-- `A000040(n+1)*A097327(p?[A000040(n+1)])` -/
-def P14947863671385606028.Spec : Prop :=
-  ∀ n, P14947863671385606028.a n = A078285 (n + 1)
 
 end A078285
 

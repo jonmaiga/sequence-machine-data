@@ -4,55 +4,54 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
+import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C015
+import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
-import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
-import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
-import Seq.B000.C030
+import Seq.B000.C029
 import Seq.B000.C031
 import Seq.B000.C032
-import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
+import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
-import Seq.B001.C008
+import Seq.B001.C004
+import Seq.B001.C006
+import Seq.B001.C010
+import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C006
+import Seq.B002.C004
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
-import Seq.B006.C002
-import Seq.B007.C000
 import Seq.B008.C000
+import Seq.B011.C000
+import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -107,7 +106,7 @@ end A371300.P1440302278366495837
 /-!
 # A371301: Expansion of (x^2 + x - 1)/((1 - x)*(2*x^2 + 3*x - 1)). Row sums of A371300.
 
-The programs for A371301, the canonical program `A371301.P12359518584367882938` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371301 has offset 0).
+The programs for A371301, the canonical program `A371301.P12359518584367882938` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371301 has offset 0).
 
 The definition of A371301 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ogf((1-x-x^2)/(1-4x+x^2+2x^3))` (program `A371301.P12359518584367882938`, by `A371301.P12359518584367882938.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -116,7 +115,7 @@ The definition of A371301 is `verified`: the Lean definition is proven equivalen
 
 `ogf((1-x-x^2)/(1-4x+x^2+2x^3))`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A371301
@@ -1050,7 +1049,7 @@ end A371352.P9764841789505396725
 /-!
 # A371355: Minimum diameter of a Cayley graph on the cyclic group Z_n with two generators.
 
-The programs for A371355, the canonical program `A371355.P4954341584235417044` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371355 has offset 1).
+The programs for A371355, the canonical program `A371355.P4954341584235417044` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371355 has offset 1).
 
 The definition of A371355 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1059,7 +1058,7 @@ The definition of A371355 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil((sqrt(2*(n+1)-1)-1)/2)`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A371355
@@ -1583,16 +1582,41 @@ end A371355
 /-!
 # A371357: a(n) = 2^(n - HammingWeight(n)) * binomial(2*n, n).
 
-The programs for A371357, the canonical program `A371357.P11199775498877504883` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371357 has offset 0).
+The programs for A371357, the canonical program `A371357.P11199775498877504883` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371357 has offset 0).
 
 The definition of A371357 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A371357.P335155386575021953
+
+`2^(n-A000120(n))*C(2*n, n)`
+
+The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+-/
+
+namespace A371357.P335155386575021953
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (2 : ℚ) ^ ((n : ℤ) - A000120 n : ℤ) * (Nat.choose (2 * n) n : ℚ)
+
+end
+
+end A371357.P335155386575021953
+
+namespace A371357
+
+/-- `2^(n-A000120(n))*C(2*n, n)` -/
+def P335155386575021953.Spec : Prop :=
+  ∀ n, P335155386575021953.a n = (A371357 n : ℚ)
+
+end A371357
 
 /-! ## A371357.P11199775498877504883
 
 `A060818(n)*A000984(n)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A371357
@@ -2427,7 +2451,7 @@ end A371380.P8719219582230827150
 /-!
 # A371381: Main diagonal of A219875.
 
-The programs for A371381, the canonical program `A371381.P5949282707073329261` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371381 has offset 1).
+The programs for A371381, the canonical program `A371381.P5949282707073329261` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371381 has offset 1).
 
 The definition of A371381 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2436,7 +2460,7 @@ The definition of A371381 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)²+A019446(n+1)²`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A371381
@@ -2592,7 +2616,7 @@ end A371381
 /-!
 # A371382: a(n) = n^2 + q*(q + 1), where q = floor(n*(1 + sqrt(5))/2) = A000201(n).
 
-The programs for A371382, the canonical program `A371382.P2869972747339708103` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371382 has offset 1).
+The programs for A371382, the canonical program `A371382.P2869972747339708103` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371382 has offset 1).
 
 The definition of A371382 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2601,7 +2625,7 @@ The definition of A371382 is `conjectured`: the Lean definition is a formula tha
 
 `floor(ϕ*(n+1))+floor(ϕ*(n+1))²+(n+1)²`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A371382
@@ -3101,7 +3125,7 @@ end A371384.P17023463632438949141
 /-!
 # A371388: a(n) = 2*n*floor(n*(1 + sqrt(5))/2) - n^2. Main diagonal of A340429.
 
-The programs for A371388, the canonical program `A371388.P12283048043086054537` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371388 has offset 1).
+The programs for A371388, the canonical program `A371388.P12283048043086054537` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371388 has offset 1).
 
 The definition of A371388 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*(n+1)*floor((n+1)*(1+sqrt(5))/2)-(n+1)²` (program `A371388.P12283048043086054537`, by `A371388.P12283048043086054537.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3110,7 +3134,7 @@ The definition of A371388 is `verified`: the Lean definition is proven equivalen
 
 `2*(n+1)*floor((n+1)*(1+sqrt(5))/2)-(n+1)²`
 
-The canonical program, it is in `Seq.B000.C038`.
+The canonical program, it is in `Seq.B000.C039`.
 -/
 
 namespace A371388
@@ -3408,8 +3432,25 @@ end A371393.P5182124770565173910
 /-!
 # A371395: Triangle read by rows: T(n, k) = binomial(n + k, k) * binomial(2*n - k, n - k) / (n + 1).
 
-The programs for A371395, there is no canonical definition to state claims against.
+The programs for A371395, the canonical program `A371395.P10557087988676634117` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371395 has offset 0).
+
+The definition of A371395 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
+
+/-! ## A371395.P10557087988676634117
+
+`C(row(n)+col(n), col(n))*C(2*row(n)-col(n), row(n)-col(n))/(row(n)+1)`
+
+The canonical program, it is in `Seq.B000.C039`.
+-/
+
+namespace A371395
+
+/-- `C(row(n)+col(n), col(n))*C(2*row(n)-col(n), row(n)-col(n))/(row(n)+1)` -/
+def P10557087988676634117.Spec : Prop :=
+  ∀ n, P10557087988676634117.a n = (A371395 n : ℚ)
+
+end A371395
 
 /-! ## A371395.P9239782390903320987
 
@@ -3436,6 +3477,14 @@ end
 
 end A371395.P9239782390903320987
 
+namespace A371395
+
+/-- `1/∑[char[∑[n]]]*A371400(n)` -/
+def P9239782390903320987.Spec : Prop :=
+  ∀ n, P9239782390903320987.a n = (A371395 n : ℚ)
+
+end A371395
+
 /-! ## A371395.P11332846233236469200
 
 `A371400(n)/∑[A010054(n)]`
@@ -3454,6 +3503,14 @@ end
 
 end A371395.P11332846233236469200
 
+namespace A371395
+
+/-- `A371400(n)/∑[A010054(n)]` -/
+def P11332846233236469200.Spec : Prop :=
+  ∀ n, P11332846233236469200.a n = (A371395 n : ℚ)
+
+end A371395
+
 /-! ## A371395.P16222000073587100502
 
 `A371400(n)/A002024(n+1)`
@@ -3468,6 +3525,14 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A371395.P16222000073587100502
+
+namespace A371395
+
+/-- `A371400(n)/A002024(n+1)` -/
+def P16222000073587100502.Spec : Prop :=
+  ∀ n, P16222000073587100502.a n = (A371395 n : ℚ)
+
+end A371395
 
 /-! ## A371395.P12332371860306897113
 
@@ -3484,20 +3549,13 @@ end
 
 end A371395.P12332371860306897113
 
-/-! ## A371395.P3202297860086285199
+namespace A371395
 
-`A092392(A061579(n))*A092392(n)/A002024(n+1)`
--/
+/-- `A060693(n)/A001263(n+1)*A088617(n)` -/
+def P12332371860306897113.Spec : Prop :=
+  ∀ n, P12332371860306897113.a n = (A371395 n : ℚ)
 
-namespace A371395.P3202297860086285199
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A092392 (A061579 n).toNat * A092392 n : ℚ) / (A002024 (n + 1) : ℚ)
-
-end
-
-end A371395.P3202297860086285199
+end A371395
 
 /-!
 # A371397: Number of chiral pairs of polyominoes with n cubical cells of the regular tiling with Schläfli symbol {4,3,4}.

@@ -15,24 +15,25 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
-import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
-import Seq.B000.C025
+import Seq.B000.C024
+import Seq.B000.C026
 import Seq.B000.C027
-import Seq.B000.C030
-import Seq.B000.C032
+import Seq.B000.C028
+import Seq.B000.C029
+import Seq.B000.C031
 import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B000.C036
-import Seq.B000.C038
+import Seq.B000.C037
+import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
@@ -43,34 +44,32 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B008.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
 import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4412,12 +4411,6 @@ namespace A091555
 def P10263943428850345491.Spec : Prop :=
   ∀ n, P10263943428850345491.a n = A091555 (n + 1)
 
-theorem P10263943428850345491.correct : P10263943428850345491.Spec := by
-  intro n
-  simp only [A091555, Nat.add_sub_cancel, A091555.P10263943428850345491.f2, A091555.P10263943428850345491.f1, A091555.P10263943428850345491.a, A091555.P1151281054652392036.f1, A091555.P1151281054652392036.a, A002321, A002321.P574617781515155943.f2, A002321.P574617781515155943.f3, A002321.P574617781515155943.f1, A002321.P574617781515155943.a, A007423, A007423.P11782207234129447454.a, A080847, A080847.P15039464906544920582.f1, A080847.P15039464906544920582.f2, A080847.P15039464906544920582.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A091555
 
 /-! ## A091555.P15207890610707215886
@@ -4475,12 +4468,6 @@ namespace A091555
 /-- `∑[∑[A080847(n+1)-2]]` -/
 def P10564182328027028216.Spec : Prop :=
   ∀ n, P10564182328027028216.a n = A091555 (n + 1)
-
-theorem P10564182328027028216.correct : P10564182328027028216.Spec := by
-  intro n
-  simp only [A091555, Nat.add_sub_cancel, A091555.P10564182328027028216.f2, A091555.P10564182328027028216.f1, A091555.P10564182328027028216.a, A091555.P1151281054652392036.f1, A091555.P1151281054652392036.a, A002321, A002321.P574617781515155943.f2, A002321.P574617781515155943.f3, A002321.P574617781515155943.f1, A002321.P574617781515155943.a, A080847, A080847.P15039464906544920582.f1, A080847.P15039464906544920582.f2, A080847.P15039464906544920582.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A091555
 
@@ -4568,12 +4555,6 @@ namespace A091555
 /-- `∑[∑[A231821(n+1)-3]]` -/
 def P6103292539667385055.Spec : Prop :=
   ∀ n, P6103292539667385055.a n = A091555 (n + 1)
-
-theorem P6103292539667385055.correct : P6103292539667385055.Spec := by
-  intro n
-  simp only [A091555, Nat.add_sub_cancel, A091555.P6103292539667385055.f2, A091555.P6103292539667385055.f1, A091555.P6103292539667385055.a, A091555.P1151281054652392036.f1, A091555.P1151281054652392036.a, A002321, A002321.P574617781515155943.f2, A002321.P574617781515155943.f3, A002321.P574617781515155943.f1, A002321.P574617781515155943.a, A231821, A231821.P7119461953702847255.f1, A231821.P7119461953702847255.f2, A231821.P7119461953702847255.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A091555
 
@@ -4687,39 +4668,6 @@ namespace A091555
 /-- `∑[A143443(n+1)/(n+1)]` -/
 def P5881320443072456545.Spec : Prop :=
   ∀ n, P5881320443072456545.a n = (A091555 (n + 1) : ℚ)
-
-end A091555
-
-/-! ## A091555.P7035039823157789587
-
-`∑[∑[A008683(comp[2*n]-n)%2]]`
--/
-
-namespace A091555.P7035039823157789587
-noncomputable section
-
-def f3 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 * n
-
-open Classical in
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A008683 (SequenceMachineLib.nth (fun x => ∀ j, f3 j ≠ x) n - n)) 2
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f2 j
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A091555.P7035039823157789587
-
-namespace A091555
-
-/-- `∑[∑[A008683(comp[2*n]-n)%2]]` -/
-def P7035039823157789587.Spec : Prop :=
-  ∀ n, P7035039823157789587.a n = A091555 (n + 1)
 
 end A091555
 
@@ -6742,7 +6690,7 @@ end A091570
 /-!
 # A091571: Poincaré series [or Poincare series] of the preprojective algebra of an extended Dynkin diagram of type E_8.
 
-The programs for A091571, the canonical program `A091571.P3835739435343640567` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091571 has offset 0).
+The programs for A091571, the canonical program `A091571.P3835739435343640567` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091571 has offset 0).
 
 The definition of A091571 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A087866, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6751,7 +6699,7 @@ The definition of A091571 is `conditional`: the Lean definition is an OEIS formu
 
 `7*(n+1)+2*A087866(n)`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A091571
