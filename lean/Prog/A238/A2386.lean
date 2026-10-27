@@ -37,29 +37,35 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
+import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -670,7 +676,7 @@ end A238604
 /-!
 # A238605: Semiprimes n such that (n+1)/4 also is a semiprime.
 
-The programs for A238605, the canonical program `A238605.P18202506420963735544` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238605 has offset 1).
+The programs for A238605, the canonical program `A238605.P18202506420963735544` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238605 has offset 1).
 
 The definition of A238605 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -813,7 +819,7 @@ end A238605
 
 `∩[A080774(n+1), A114436(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A238605
@@ -5748,7 +5754,7 @@ end
 end A238662.P4911986557107585366
 
 /-!
-# A238663: n-th prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0
+# A238663: n-th prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0<j<n.
 
 The programs for A238663, there is no canonical definition to state claims against.
 -/
@@ -5910,7 +5916,7 @@ end
 end A238664.P2905420545011893000
 
 /-!
-# A238665: Primes p such that (p+3)^2+3 is prime but (p+j)^2+j is not prime for all 0
+# A238665: Primes p such that (p+3)^2+3 is prime but (p+j)^2+j is not prime for all 0<j<3.
 
 The programs for A238665, there is no canonical definition to state claims against.
 -/
@@ -5934,7 +5940,7 @@ end
 end A238665.P5263388668272519061
 
 /-!
-# A238666: Primes p such that (p+4)^2+4 is prime but (p+j)^2+j is not prime for all 0
+# A238666: Primes p such that (p+4)^2+4 is prime but (p+j)^2+j is not prime for all 0<j<4.
 
 The programs for A238666, there is no canonical definition to state claims against.
 -/
@@ -5976,7 +5982,7 @@ end
 end A238666.P10719350578440618880
 
 /-!
-# A238667: Primes p such that (p+5)^2+5 is prime but (p+j)^2+j is not prime for all 0
+# A238667: Primes p such that (p+5)^2+5 is prime but (p+j)^2+j is not prime for all 0<j<5.
 
 The programs for A238667, there is no canonical definition to state claims against.
 -/
@@ -6033,7 +6039,7 @@ end
 end A238667.P5306760723641740485
 
 /-!
-# A238668: Primes p such that (p+6)^2+6 is prime but (p+j)^2+j is not prime for all 0
+# A238668: Primes p such that (p+6)^2+6 is prime but (p+j)^2+j is not prime for all 0<j<6.
 
 The programs for A238668, there is no canonical definition to state claims against.
 -/
@@ -6075,7 +6081,7 @@ end
 end A238668.P10560044910513779091
 
 /-!
-# A238669: Primes p such that (p+7)^2+7 is prime but (p+j)^2+j is not prime for all 0
+# A238669: Primes p such that (p+7)^2+7 is prime but (p+j)^2+j is not prime for all 0<j<7.
 
 The programs for A238669, there is no canonical definition to state claims against.
 -/
@@ -6249,7 +6255,7 @@ end
 end A238669.P5352487941995597507
 
 /-!
-# A238670: Primes p such that (p+8)^2+8 is prime but (p+j)^2+j is not prime for all 0
+# A238670: Primes p such that (p+8)^2+8 is prime but (p+j)^2+j is not prime for all 0<j<8.
 
 The programs for A238670, there is no canonical definition to state claims against.
 -/
@@ -6417,7 +6423,7 @@ end
 end A238670.P16086824819404444659
 
 /-!
-# A238671: Primes p such that (p+9)^2+9 is prime but (p+j)^2+j is not prime for all 0
+# A238671: Primes p such that (p+9)^2+9 is prime but (p+j)^2+j is not prime for all 0<j<9.
 
 The programs for A238671, there is no canonical definition to state claims against.
 -/
@@ -6534,7 +6540,7 @@ end
 end A238671.P5731587320858614235
 
 /-!
-# A238672: Primes p such that (p+10)^2+10 is prime but (p+j)^2+j is not prime for all 0
+# A238672: Primes p such that (p+10)^2+10 is prime but (p+j)^2+j is not prime for all 0<j<10.
 
 The programs for A238672, there is no canonical definition to state claims against.
 -/
@@ -6687,7 +6693,7 @@ end
 end A238672.P4851361330728713890
 
 /-!
-# A238673: First prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0
+# A238673: First prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0<j<n.
 
 The programs for A238673, there is no canonical definition to state claims against.
 -/
@@ -6954,7 +6960,7 @@ end
 end A238673.P3299054511622719758
 
 /-!
-# A238674: Second prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0
+# A238674: Second prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0<j<n.
 
 The programs for A238674, there is no canonical definition to state claims against.
 -/
@@ -7101,7 +7107,7 @@ end
 end A238674.P4559480151773066478
 
 /-!
-# A238675: Third prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0
+# A238675: Third prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0<j<n.
 
 The programs for A238675, there is no canonical definition to state claims against.
 -/
@@ -7230,7 +7236,7 @@ end
 end A238675.P1396407936519962155
 
 /-!
-# A238676: Fourth prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0
+# A238676: Fourth prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0<j<n.
 
 The programs for A238676, there is no canonical definition to state claims against.
 -/
@@ -7398,7 +7404,7 @@ end
 end A238676.P17037688993480409299
 
 /-!
-# A238677: Fifth prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0
+# A238677: Fifth prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0<j<n.
 
 The programs for A238677, there is no canonical definition to state claims against.
 -/
@@ -7497,7 +7503,7 @@ end
 end A238677.P10942376914525473866
 
 /-!
-# A238678: Sixth prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0
+# A238678: Sixth prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0<j<n.
 
 The programs for A238678, there is no canonical definition to state claims against.
 -/
@@ -7518,7 +7524,7 @@ end
 end A238678.P5926559626140573993
 
 /-!
-# A238679: Seventh prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0
+# A238679: Seventh prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0<j<n.
 
 The programs for A238679, there is no canonical definition to state claims against.
 -/
@@ -7674,7 +7680,7 @@ end
 end A238679.P2920539812978399892
 
 /-!
-# A238680: Eighth prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0
+# A238680: Eighth prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0<j<n.
 
 The programs for A238680, there is no canonical definition to state claims against.
 -/
@@ -7830,7 +7836,7 @@ end
 end A238680.P12469559963562872583
 
 /-!
-# A238681: Ninth prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0
+# A238681: Ninth prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0<j<n.
 
 The programs for A238681, there is no canonical definition to state claims against.
 -/
@@ -7971,7 +7977,7 @@ end
 end A238681.P7764707878900092110
 
 /-!
-# A238682: Tenth prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0
+# A238682: Tenth prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0<j<n.
 
 The programs for A238682, there is no canonical definition to state claims against.
 -/
@@ -8622,7 +8628,7 @@ end A238689.P17148716632693698208
 /-!
 # A238690: Let each integer m (1 <= m <= n) be factorized as m = prime_m(1)*prime_m(2)*...*prime_m(bigomega(m)), with the primes sorted in nonincreasing order. Then a(n) is the number of values of m such that each prime_m(i) <= prime_n(i).
 
-The programs for A238690, the canonical program `A238690.P9686778180323937467` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238690 has offset 1).
+The programs for A238690, the canonical program `A238690.P9686778180323937467` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A238690 has offset 1).
 
 The definition of A238690 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A085082, A181821, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8631,7 +8637,7 @@ The definition of A238690 is `conditional`: the Lean definition is an OEIS formu
 
 `A085082(A181821(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A238690

@@ -50,20 +50,22 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -72,9 +74,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -12453,7 +12452,7 @@ end A084091
 /-!
 # A084092: Prime power decimal palindromes.
 
-The programs for A084092, the canonical program `A084092.P651727095925853938` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A084092 has offset 1).
+The programs for A084092, the canonical program `A084092.P651727095925853938` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A084092 has offset 1).
 
 The definition of A084092 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 103 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13024,7 +13023,7 @@ end A084092
 
 `∩[A000961(n+1), A110751(n+1)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A084092

@@ -43,25 +43,27 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C004
+import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -69,8 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7111,9 +7111,9 @@ end A055457
 /-!
 # A055460: Number of primes with odd exponents in the prime power factorization of n!.
 
-The programs for A055460, the canonical program `A055460.P2633110437439138135` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A055460 has offset 1).
+The programs for A055460, the canonical program `A055460.P2633110437439138135` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A055460 has offset 1).
 
-The definition of A055460 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A055460 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, A055204, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A055460.P16385326134232910078
@@ -7137,19 +7137,13 @@ namespace A055460
 def P16385326134232910078.Spec : Prop :=
   ∀ n, P16385326134232910078.a n = A055460 (n + 1)
 
-theorem P16385326134232910078.correct : P16385326134232910078.Spec := by
-  intro n
-  simp only [A055460, Nat.add_sub_cancel, A055460.P16385326134232910078.a, A055460.P2633110437439138135.a, A000720, A000720.P1755771944745605250.f2, A000720.P1755771944745605250.f1, A000720.P1755771944745605250.a, A001221, A001221.P10258181745752134128.a, A055204, A055204.P17370574123234970740.a, A348841, A348841.P490662357377440860.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A055071, A055071.P16321007213921378376.a, A059841, A059841.P7264174615531153985.a, A008833, A008833.P18388074464065390543.a, A007913, A007913.P8131970495124731496.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A055460
 
 /-! ## A055460.P2633110437439138135
 
 `A001221(A055204(n+1))`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A055460
@@ -8820,7 +8814,7 @@ end
 end A055470.P17128875989031336101
 
 /-!
-# A055471: Divisible by the product of its nonzero digits.
+# A055471: Numbers that are divisible by the product of their nonzero digits.
 
 The programs for A055471, the canonical program `A055471.P16961451252425835673` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A055471 has offset 1).
 

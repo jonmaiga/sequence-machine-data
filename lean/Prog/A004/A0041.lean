@@ -51,6 +51,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -58,24 +59,25 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -907,7 +909,7 @@ end
 end A004111.P2111254359571465704
 
 /-!
-# A004112: Numbers k where |cos(k)| (or |cosec(k)| or |cot(k)|) decreases monotonically to 0; also numbers k where |tan(k)| (or |sec(k)|, or |sin(k)|) increases.
+# A004112: Numbers k where |cos(k)| (or |cot(k)|) decreases monotonically to 0 and |cosec(k)| decreases monotonically to 1; also numbers k where |tan(k)| (or |sec(k)|, or |sin(k)|) increases.
 
 The programs for A004112, there is no canonical definition to state claims against.
 -/
@@ -2875,12 +2877,6 @@ namespace A004125
 /-- `A067439(n+1)+A072514(n+1)` -/
 def P12891546058801257474.Spec : Prop :=
   ∀ n, P12891546058801257474.a n = A004125 (n + 1)
-
-theorem P12891546058801257474.correct : P12891546058801257474.Spec := by
-  intro n
-  simp only [A004125, Nat.add_sub_cancel, A004125.P12891546058801257474.a, A004125.P17154347137318566864.a, A067439, A067439.P11811676257442922889.f1, A067439.P11811676257442922889.a, A072514, A072514.P13343322914018552684.a, A111490, A111490.P12273219940558635463.f2, A111490.P12273219940558635463.f1, A111490.P12273219940558635463.a, A055615, A055615.P8993130195977213181.a, A008683, A008683.P18254306604665478110.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A004125
 
@@ -12512,7 +12508,7 @@ end A004168
 /-!
 # A004169: Values of m for which a regular polygon with m sides cannot be constructed with ruler and compass.
 
-The programs for A004169, the canonical program `A004169.P3341630025634182314` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004169 has offset 1).
+The programs for A004169, the canonical program `A004169.P3341630025634182314` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004169 has offset 1).
 
 The definition of A004169 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12633,7 +12629,7 @@ end A004169
 
 `lt[2, A080400(n+1)]+1`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A004169

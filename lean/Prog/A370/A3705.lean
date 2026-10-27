@@ -40,20 +40,24 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -63,12 +67,10 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -95,7 +97,7 @@ import Seq.Opaque.C023
 import Seq.Opaque.C024
 
 /-!
-# A370505: T(n,k) is the difference between the number of k-dist-increasing and (k-1)-dist-increasing permutations of [n], where p is k-dist-increasing if k>=0 and p(i)=0, 0<=k<=n, read by rows.
+# A370505: T(n,k) is the difference between the number of k-dist-increasing and (k-1)-dist-increasing permutations of [n], where p is k-dist-increasing if k>=0 and p(i)<p(i+k) for all i in [n-k]; triangle T(n,k), n>=0, 0<=k<=n, read by rows.
 
 The programs for A370505, there is no canonical definition to state claims against.
 -/
@@ -176,7 +178,7 @@ end
 end A370505.P8366017889621529616
 
 /-!
-# A370506: T(n,k) is the number permutations p of [n] that are j-dist-increasing for exactly k distinct values j in [n], where p is j-dist-increasing if j>=0 and p(i)=0, 0<=k<=n, read by rows.
+# A370506: T(n,k) is the number permutations p of [n] that are j-dist-increasing for exactly k distinct values j in [n], where p is j-dist-increasing if j>=0 and p(i)<p(i+j) for all i in [n-j]; triangle T(n,k), n>=0, 0<=k<=n, read by rows.
 
 The programs for A370506, there is no canonical definition to state claims against.
 -/
@@ -257,7 +259,7 @@ end
 end A370506.P12256900104690833396
 
 /-!
-# A370507: T(n,k) is the number permutations p of [n] that are k-dist-increasing but not j-dist-increasing for any j=0 and p(i)=0, 0<=k<=n, read by rows.
+# A370507: T(n,k) is the number permutations p of [n] that are k-dist-increasing but not j-dist-increasing for any j<k, where p is j-dist-increasing if j>=0 and p(i)<p(i+j) for all i in [n-j]; triangle T(n,k), n>=0, 0<=k<=n, read by rows.
 
 The programs for A370507, there is no canonical definition to state claims against.
 -/
@@ -2043,7 +2045,7 @@ end A370561.P15785185081634084819
 /-!
 # A370564: Size of the group Q_2*/(Q_2*)^n, where Q_2 is the field of 2-adic numbers.
 
-The programs for A370564, the canonical program `A370564.P2151838547854107065` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370564 has offset 1).
+The programs for A370564, the canonical program `A370564.P2151838547854107065` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370564 has offset 1).
 
 The definition of A370564 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2052,7 +2054,7 @@ The definition of A370564 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*A297402(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A370564
@@ -2753,7 +2755,7 @@ end A370565
 /-!
 # A370566: Size of the group Q_5*/(Q_5*)^n, where Q_5 is the field of 5-adic numbers.
 
-The programs for A370566, the canonical program `A370566.P3913357575439077810` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370566 has offset 1).
+The programs for A370566, the canonical program `A370566.P3913357575439077810` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370566 has offset 1).
 
 The definition of A370566 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A370181, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2762,7 +2764,7 @@ The definition of A370566 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+1)*A370181(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A370566
@@ -3329,7 +3331,7 @@ end
 end A370573.P1260989151329693556
 
 /-!
-# A370576: a(n) is the difference between the number of n-dist-increasing and (n-1)-dist-increasing permutations p of [2n], where p is k-dist-increasing if k>=0 and p(i)
+# A370576: a(n) is the difference between the number of n-dist-increasing and (n-1)-dist-increasing permutations p of [2n], where p is k-dist-increasing if k>=0 and p(i)<p(i+k) for all i in [2n-k].
 
 The programs for A370576, the canonical program `A370576.P1576061105044910594` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370576 has offset 0).
 
@@ -3582,7 +3584,7 @@ end A370578.P637533464774235086
 /-!
 # A370579: a(n) = n! * Sum_{d|n} 1/(d-1)!.
 
-The programs for A370579, the canonical program `A370579.P13829268499602601867` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370579 has offset 1).
+The programs for A370579, the canonical program `A370579.P13829268499602601867` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370579 has offset 1).
 
 The definition of A370579 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3591,7 +3593,7 @@ The definition of A370579 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*A087906(n+1)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A370579
@@ -4345,7 +4347,7 @@ end A370595.P6015513798573544132
 /-!
 # A370596: Numbers k such that A007814(k) is a prime number.
 
-The programs for A370596, the canonical program `A370596.P16435059816555867442` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370596 has offset 1).
+The programs for A370596, the canonical program `A370596.P16435059816555867442` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370596 has offset 1).
 
 The definition of A370596 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2073 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4354,7 +4356,7 @@ The definition of A370596 is `conjectured`: the Lean definition is a formula tha
 
 `eq[(-1)^n, A003415(A327491(n))]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A370596
@@ -4764,7 +4766,7 @@ end A370597
 /-!
 # A370598: Characteristic function of exponentially squarefree numbers (A209061).
 
-The programs for A370598, the canonical program `A370598.P3615362313586893228` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370598 has offset 1).
+The programs for A370598, the canonical program `A370598.P3615362313586893228` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370598 has offset 1).
 
 The definition of A370598 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A166234, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4773,7 +4775,7 @@ The definition of A370598 is `conditional`: the Lean definition is an OEIS formu
 
 `abs(A166234(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A370598

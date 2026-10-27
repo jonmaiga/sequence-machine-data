@@ -39,20 +39,23 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -60,9 +63,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3148,7 +3148,7 @@ end A205647.P3309919050283771712
 /-!
 # A205649: Hamming distance between twin primes.
 
-The programs for A205649, the canonical program `A205649.P8452228514460162335` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205649 has offset 1).
+The programs for A205649, the canonical program `A205649.P8452228514460162335` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205649 has offset 1).
 
 The definition of A205649 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3157,7 +3157,7 @@ The definition of A205649 is `conjectured`: the Lean definition is a formula tha
 
 `val(A014574(n+1), 2)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A205649
@@ -5113,7 +5113,7 @@ end
 end A205671.P13530695014516337816
 
 /-!
-# A205673: Prime(A202560(n)), the n-th number s(k) such that 3 divides s(k)-s(j) for some j
+# A205673: Prime(A202560(n)), the n-th number s(k) such that 3 divides s(k)-s(j) for some j<k, where s(j)=prime(j).
 
 The programs for A205673, there is no canonical definition to state claims against.
 -/
@@ -5258,7 +5258,7 @@ end
 end A205673.P645432652221591489
 
 /-!
-# A205674: Prime(A202560(n)), the n-th number s(k) such that 3 divides s(k)-s(j) for some j
+# A205674: Prime(A202560(n)), the n-th number s(k) such that 3 divides s(k)-s(j) for some j<k, where s(j)=prime(j).
 
 The programs for A205674, the canonical program `A205674.P5002100609961987848` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205674 has offset 1).
 
@@ -5646,7 +5646,7 @@ def P10175632765970979984.Spec : Prop :=
 end A205676
 
 /-!
-# A205677: Numbers k for which 4 divides prime(k)-prime(j) for some j
+# A205677: Numbers k for which 4 divides prime(k)-prime(j) for some j<k; each k occurs once for each such j.
 
 The programs for A205677, there is no canonical definition to state claims against.
 -/
@@ -6212,7 +6212,7 @@ def P9966463178698864842.Spec : Prop :=
 end A205678
 
 /-!
-# A205679: Prime(A205677(n)), the n-th number s(k) such that 4 divides s(k)-s(j) for some j
+# A205679: Prime(A205677(n)), the n-th number s(k) such that 4 divides s(k)-s(j) for some j<k, where s(j)=prime(j).
 
 The programs for A205679, there is no canonical definition to state claims against.
 -/
@@ -7131,7 +7131,7 @@ theorem P17912161422184643973.correct : P17912161422184643973.Spec := by
 end A205683
 
 /-!
-# A205684: Numbers k for which 5 divides prime(k)-prime(j) for some j
+# A205684: Numbers k for which 5 divides prime(k)-prime(j) for some j<k; each k occurs once for each such j.
 
 The programs for A205684, there is no canonical definition to state claims against.
 -/
@@ -7503,7 +7503,7 @@ end
 end A205685.P6501929382274497098
 
 /-!
-# A205686: Prime(A205684(n)), the n-th number s(k) such that 5 divides s(k)-s(j) for some j
+# A205686: Prime(A205684(n)), the n-th number s(k) such that 5 divides s(k)-s(j) for some j<k, where s(j)=prime(j).
 
 The programs for A205686, there is no canonical definition to state claims against.
 -/
@@ -8140,7 +8140,7 @@ def P5221690937448415833.Spec : Prop :=
 end A205690
 
 /-!
-# A205691: Numbers k for which 6 divides prime(k)-prime(j) for some j
+# A205691: Numbers k for which 6 divides prime(k)-prime(j) for some j<k; each k occurs once for each such j.
 
 The programs for A205691, there is no canonical definition to state claims against.
 -/
@@ -8717,7 +8717,7 @@ def P16385295384612320251.Spec : Prop :=
 end A205692
 
 /-!
-# A205693: Prime(A205691(n)), the n-th number s(k) such that 6 divides s(k)-s(j) for some j
+# A205693: Prime(A205691(n)), the n-th number s(k) such that 6 divides s(k)-s(j) for some j<k, where s(j)=prime(j).
 
 The programs for A205693, there is no canonical definition to state claims against.
 -/
@@ -9828,7 +9828,7 @@ theorem P9126172670200338830.correct : P9126172670200338830.Spec := by
 end A205697
 
 /-!
-# A205698: Numbers k for which 7 divides prime(k)-prime(j) for some j
+# A205698: Numbers k for which 7 divides prime(k)-prime(j) for some j<k; each k occurs once for each such j.
 
 The programs for A205698, there is no canonical definition to state claims against.
 -/

@@ -47,6 +47,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -55,22 +56,21 @@ import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1393,29 +1393,6 @@ namespace A198017
 /-- `A108928(n+1)%A283394(n)` -/
 def P13456678993155249512.Spec : Prop :=
   ∀ n, P13456678993155249512.a n = A198017 n
-
-end A198017
-
-/-! ## A198017.P5081181519986282757
-
-`A158491(n+1)%A026817(n+1)`
--/
-
-namespace A198017.P5081181519986282757
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A158491 (n + 1)) (A026817 (n + 1))
-
-end
-
-end A198017.P5081181519986282757
-
-namespace A198017
-
-/-- `A158491(n+1)%A026817(n+1)` -/
-def P5081181519986282757.Spec : Prop :=
-  ∀ n, P5081181519986282757.a n = A198017 n
 
 end A198017
 
@@ -3918,7 +3895,7 @@ namespace A198072.P15446373024070279821
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326499 ((A001037 (n + 2)).toNat + 50) + A197708 (n + 1)
+  A326499 ((A001037 (n + 2)).toNat + 51) + A197708 (n + 1)
 
 end
 

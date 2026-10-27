@@ -52,17 +52,16 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -71,8 +70,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2084,7 +2081,7 @@ def P16204543610381791496.Spec : Prop :=
 end A100810
 
 /-!
-# A100812: {a(n)} is monotone increasing, with a(1)=1, a(2)=3 and, for n>2, a(n) is the smallest integer such that a(n) mod a(j) is never a(i) for any pair i,j with 1<=i
+# A100812: {a(n)} is monotone increasing, with a(1)=1, a(2)=3 and, for n>2, a(n) is the smallest integer such that a(n) mod a(j) is never a(i) for any pair i,j with 1<=i<j<n.
 
 The programs for A100812, there is no canonical definition to state claims against.
 -/
@@ -3325,12 +3322,6 @@ namespace A100821
 /-- `1-A100810(n+1)` -/
 def P115697533211136597.Spec : Prop :=
   ∀ n, P115697533211136597.a n = A100821 (n + 1)
-
-theorem P115697533211136597.correct : P115697533211136597.Spec := by
-  intro n
-  simp only [A100821, Nat.add_sub_cancel, A100821.P115697533211136597.a, A100821.P8316936517107752978.a, A062301, A062301.P7583159109600131455.a, A100810, A100810.P14849954687641833243.a, A010051, A010051.P15078252821583414300.a, A075526, A075526.P13453056913313804413.a, A008578, A008578.P3639467937083264764.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, A158611, A158611.P9275629407611603775.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A100821
 

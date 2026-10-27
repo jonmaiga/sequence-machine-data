@@ -23,20 +23,18 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C001
+import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1391,7 +1389,7 @@ end A195758
 /-!
 # A195759: Greater prime factor of n-th Blum number.
 
-The programs for A195759, the canonical program `A195759.P6529059110084723904` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195759 has offset 1).
+The programs for A195759, the canonical program `A195759.P6529059110084723904` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A195759 has offset 1).
 
 The definition of A195759 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1400,7 +1398,7 @@ The definition of A195759 is `conjectured`: the Lean definition is a formula tha
 
 `A016105(n+1)/A195758(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A195759
@@ -1719,7 +1717,7 @@ end
 end A195761.P9893103288376018439
 
 /-!
-# A195762: Right-hand diagonal of A195739.
+# A195762: 
 
 The programs for A195762, there is no canonical definition to state claims against.
 -/

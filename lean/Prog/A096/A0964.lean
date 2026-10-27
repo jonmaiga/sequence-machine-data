@@ -10,7 +10,6 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -35,33 +34,35 @@ import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1080,7 +1081,7 @@ end
 end A096419.P6580762549496209860
 
 /-!
-# A096421: a(1)=1; for n > 1, a(n) = Sum_{1<=j
+# A096421: a(1)=1; for n > 1, a(n) = Sum_{1<=j<n, gcd(j,n)=1} a(j)*a(n-j).
 
 The programs for A096421, there is no canonical definition to state claims against.
 -/
@@ -2122,7 +2123,7 @@ end A096431
 /-!
 # A096432: Let n = 2^e_2 * 3^e_3 * 5^e_5 * ... be the prime factorization of n; sequence gives n such that 1 + max{e_2, e_3, ...} is a prime.
 
-The programs for A096432, the canonical program `A096432.P17831341091393388892` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096432 has offset 1).
+The programs for A096432, the canonical program `A096432.P17831341091393388892` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096432 has offset 1).
 
 The definition of A096432 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2216,7 +2217,7 @@ end A096432
 
 `eq[1, A010051(A051903(n+1)+1)]+1`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A096432
@@ -3213,7 +3214,7 @@ end A096444.P9607752267009252767
 /-!
 # A096445: Number of reduced primitive positive definite binary quadratic forms of determinant n^2.
 
-The programs for A096445, the canonical program `A096445.P14489248109655328566` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096445 has offset 1).
+The programs for A096445, the canonical program `A096445.P14489248109655328566` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096445 has offset 1).
 
 The definition of A096445 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3268,7 +3269,7 @@ end A096445
 
 `∑{d}[n+1, A120630(#)*A145392((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A096445
@@ -6096,7 +6097,7 @@ end A096473.P5496131912936343696
 /-!
 # A096474: Difference prime(q+2) - prime(q) as q runs through the lesser members of twin primes (A001359).
 
-The programs for A096474, the canonical program `A096474.P15193505077618010963` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096474 has offset 1).
+The programs for A096474, the canonical program `A096474.P15193505077618010963` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096474 has offset 1).
 
 The definition of A096474 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A057470, A057473, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6105,7 +6106,7 @@ The definition of A096474 is `conditional`: the Lean definition is an OEIS formu
 
 `A057473(n+1)-A057470(n+1)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A096474
@@ -9440,7 +9441,7 @@ end A096489.P15707941735716799369
 /-!
 # A096490: Numbers k such that sigma_2(k) >= (3/2) * k^2, where sigma_2(k) is the sum of the squares of the divisors of k.
 
-The programs for A096490, the canonical program `A096490.P8790020191321555782` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096490 has offset 1).
+The programs for A096490, the canonical program `A096490.P8790020191321555782` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096490 has offset 1).
 
 The definition of A096490 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 259 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9449,7 +9450,7 @@ The definition of A096490 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A000217(n), A067558(n+1)]+1`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A096490

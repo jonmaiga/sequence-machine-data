@@ -47,13 +47,13 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -70,7 +70,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4007,7 +4006,7 @@ end A165635.P11506274002587933313
 /-!
 # A165636: a(n) = A091137(n)/2^n.
 
-The programs for A165636, the canonical program `A165636.P9527528292599602845` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165636 has offset 0).
+The programs for A165636, the canonical program `A165636.P9527528292599602845` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165636 has offset 0).
 
 The definition of A165636 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A091137, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4016,7 +4015,7 @@ The definition of A165636 is `conditional`: the Lean definition is an OEIS formu
 
 `A091137(n)/2^n`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A165636
@@ -5267,7 +5266,7 @@ end A165640
 /-!
 # A165641: A091137(n) / A001316(n) .
 
-The programs for A165641, the canonical program `A165641.P11964317276887171460` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165641 has offset 0).
+The programs for A165641, the canonical program `A165641.P11964317276887171460` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165641 has offset 0).
 
 The definition of A165641 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A091137, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5276,7 +5275,7 @@ The definition of A165641 is `conditional`: the Lean definition is an OEIS formu
 
 `A091137(n)/A001316(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A165641
@@ -8992,7 +8991,7 @@ end A165679.P7691460154315880403
 /-!
 # A165680: Triangle of the divisors of the coefficients of triangles A138771 and A165675.
 
-The programs for A165680, the canonical program `A165680.P5117045185547673148` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165680 has offset 1).
+The programs for A165680, the canonical program `A165680.P5117045185547673148` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165680 has offset 1).
 
 The definition of A165680 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2627 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9047,7 +9046,7 @@ end A165680
 
 `val(A135293(n), 3)!`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A165680
@@ -10439,7 +10438,7 @@ end A165685.P464077734372613618
 /-!
 # A165686: Dimension of the space of Siegel cusp forms of genus 2 and weight 2k which are not Saito-Kurokawa lifts of forms of genus 1.
 
-The programs for A165686, the canonical program `A165686.P1058354228064450562` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165686 has offset 1).
+The programs for A165686, the canonical program `A165686.P1058354228064450562` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A165686 has offset 1).
 
 The definition of A165686 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10471,7 +10470,7 @@ end A165686
 
 `A165684(n+1)-A152467(A004275(n))`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A165686

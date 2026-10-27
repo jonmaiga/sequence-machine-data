@@ -41,7 +41,9 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -49,10 +51,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -67,8 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -100,7 +102,7 @@ set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
 
 /-!
-# A175900: Number of lattice paths from (0,0) to (n,n) using steps S={(k,0),(0,k),(1,1)|0
+# A175900: Number of lattice paths from (0,0) to (n,n) using steps S={(k,0),(0,k),(1,1)|0<k<=4} which never go above the line y=x.
 
 The programs for A175900, there is no canonical definition to state claims against.
 -/
@@ -912,7 +914,7 @@ end A175914.P6702019127747450049
 /-!
 # A175917: Convert n to binary. NOR each respective digit of binary n and binary A030101(n), where A030101(n) is the reversal of the order of the digits in the binary representation of n (given in decimal). a(n) is the decimal value of the result.
 
-The programs for A175917, the canonical program `A175917.P5961217577201396990` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175917 has offset 0).
+The programs for A175917, the canonical program `A175917.P5961217577201396990` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175917 has offset 0).
 
 The definition of A175917 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -990,7 +992,7 @@ end A175917
 
 `A003817(n)-A175298(n)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A175917
@@ -2069,7 +2071,7 @@ end A175919
 /-!
 # A175920: Convert n to binary. XNOR each respective digit of binary n and binary A030101(n), where A030101(n) is the reversal of the order of the digits in the binary representation of n (given in decimal). a(n) is the decimal value of the result.
 
-The programs for A175920, the canonical program `A175920.P6563318181034372295` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175920 has offset 0).
+The programs for A175920, the canonical program `A175920.P6563318181034372295` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175920 has offset 0).
 
 The definition of A175920 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2078,7 +2080,7 @@ The definition of A175920 is `conjectured`: the Lean definition is a formula tha
 
 `A003817(n)-A175919(n)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A175920
@@ -3158,7 +3160,7 @@ end
 end A175933.P3990570242243612386
 
 /-!
-# A175934: Number of lattice paths from (0,0) to (n,n) using steps S={(1,0),(0,1),(r,r)|0
+# A175934: Number of lattice paths from (0,0) to (n,n) using steps S={(1,0),(0,1),(r,r)|0<r<=2} that never go above the line y=x.
 
 The programs for A175934, there is no canonical definition to state claims against.
 -/
@@ -3197,7 +3199,7 @@ end
 end A175934.P782964653596773899
 
 /-!
-# A175935: Number of lattice paths from (0,0) to (n,n) using steps S={(k,0),(0,k),(r,r)|0
+# A175935: Number of lattice paths from (0,0) to (n,n) using steps S={(k,0),(0,k),(r,r)|0<k<=2,0<r<=2} which never go above the line y=x.
 
 The programs for A175935, there is no canonical definition to state claims against.
 -/
@@ -3236,7 +3238,7 @@ end
 end A175935.P4707081859005722201
 
 /-!
-# A175936: Number of lattice walks from (0,0) to (n,n) using steps S={(k,0),(0,k),(r,r)|0
+# A175936: Number of lattice walks from (0,0) to (n,n) using steps S={(k,0),(0,k),(r,r)|0<k<=3,0<r<=2} which never go above the line y=x.
 
 The programs for A175936, there is no canonical definition to state claims against.
 -/
@@ -3257,7 +3259,7 @@ end
 end A175936.P13510718978633694649
 
 /-!
-# A175937: Number of lattice paths from (0,0) to (n,n) using steps S={(k,0),(0,k),(r,r)|0
+# A175937: Number of lattice paths from (0,0) to (n,n) using steps S={(k,0),(0,k),(r,r)|0<k<=4,0<r<=2} which never go above the line y=x.
 
 The programs for A175937, there is no canonical definition to state claims against.
 -/
@@ -3278,7 +3280,7 @@ end
 end A175937.P14792506032762489299
 
 /-!
-# A175939: Number of lattice paths from (0,0) to (n,n) using steps S={(k,0),(0,k),(r,r)|k>0,0
+# A175939: Number of lattice paths from (0,0) to (n,n) using steps S={(k,0),(0,k),(r,r)|k>0,0<r<=2} which never go above the line y=x.
 
 The programs for A175939, there is no canonical definition to state claims against.
 -/
@@ -3466,7 +3468,7 @@ end A175941.P14153214595938451274
 /-!
 # A175942: Odd numbers k such that 4^k == 4 (mod 3*k) and 2^(k-1) == 4 (mod 3*(k-1)).
 
-The programs for A175942, the canonical program `A175942.P12736010176665163979` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175942 has offset 1).
+The programs for A175942, the canonical program `A175942.P12736010176665163979` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175942 has offset 1).
 
 The definition of A175942 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 118 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3475,7 +3477,7 @@ The definition of A175942 is `conjectured`: the Lean definition is a formula tha
 
 `p?[-A187307(A015921(n+1))]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A175942
@@ -6589,7 +6591,7 @@ end A175966.P9962876547109357242
 /-!
 # A175967: Lexicographically earliest sequence with first differences as increasing sequence of nonprimes A018252.
 
-The programs for A175967, the canonical program `A175967.P17254181130027743458` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175967 has offset 1).
+The programs for A175967, the canonical program `A175967.P17254181130027743458` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175967 has offset 1).
 
 The definition of A175967 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6598,7 +6600,7 @@ The definition of A175967 is `conjectured`: the Lean definition is a formula tha
 
 `A051349(n)+1`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A175967
@@ -9143,7 +9145,7 @@ end A175991
 /-!
 # A175992: Triangle T(n,k) read by rows. If n=k then 0, else if k divides n then 1 else 0.
 
-The programs for A175992, the canonical program `A175992.P4475088882485289309` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175992 has offset 1).
+The programs for A175992, the canonical program `A175992.P4475088882485289309` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175992 has offset 1).
 
 The definition of A175992 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5151 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9201,7 +9203,7 @@ end A175992
 
 `and(A051731(n+1), A071762(n))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A175992

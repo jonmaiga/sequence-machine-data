@@ -37,19 +37,23 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -59,7 +63,6 @@ import Seq.B005.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -495,7 +498,7 @@ end A391613.P9120445186202859897
 /-!
 # A391614: a(4n) = a(2n+a(n)), a(4n+2) = a(2n+1-a(n)) and a(2n+1) = 1-a(2n), with a(0) = 0.
 
-The programs for A391614, the canonical program `A391614.P9333302647466192623` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391614 has offset 0).
+The programs for A391614, the canonical program `A391614.P9333302647466192623` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391614 has offset 0).
 
 The definition of A391614 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -504,7 +507,7 @@ The definition of A391614 is `conjectured`: the Lean definition is a formula tha
 
 `A356874(n)%2`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A391614
@@ -963,7 +966,7 @@ end A391614
 /-!
 # A391616: a(n) = a(n-1) + prime(a(n-1)) + 1 for n > 1, with a(1) = 1.
 
-The programs for A391616, the canonical program `A391616.P3679485652184830836` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391616 has offset 1).
+The programs for A391616, the canonical program `A391616.P3679485652184830836` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391616 has offset 1).
 
 The definition of A391616 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+A000040(a(n-1))+1` (program `A391616.P3679485652184830836`, by `A391616.P3679485652184830836.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -972,7 +975,7 @@ The definition of A391616 is `verified`: the Lean definition is proven equivalen
 
 `a(n-1)+A000040(a(n-1))+1` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A391616
@@ -2529,7 +2532,7 @@ end A391635.P9639776369910258474
 /-!
 # A391637: Partial sums of A094345.
 
-The programs for A391637, the canonical program `A391637.P2302561987821921609` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391637 has offset 0).
+The programs for A391637, the canonical program `A391637.P2302561987821921609` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391637 has offset 0).
 
 The definition of A391637 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A094345, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2538,7 +2541,7 @@ The definition of A391637 is `conditional`: the Lean definition is an OEIS formu
 
 `a(n-1)+A094345(n)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A391637
@@ -3190,7 +3193,7 @@ end A391644.P3065539102344366968
 /-!
 # A391645: Number of integer compositions of n that are not the first sums of any finite nonnegative sequence.
 
-The programs for A391645, the canonical program `A391645.P14068961791253673084` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391645 has offset 1).
+The programs for A391645, the canonical program `A391645.P14068961791253673084` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391645 has offset 1).
 
 The definition of A391645 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3222,7 +3225,7 @@ end A391645
 
 `A027561(n+1)/2`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A391645
@@ -4177,7 +4180,7 @@ end A391678.P9335852667870099300
 /-!
 # A391680: Number of integer compositions of n that are not the first sums of any composition.
 
-The programs for A391680, the canonical program `A391680.P13601625954848121569` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391680 has offset 1).
+The programs for A391680, the canonical program `A391680.P13601625954848121569` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391680 has offset 1).
 
 The definition of A391680 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A391683, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4186,7 +4189,7 @@ The definition of A391680 is `conditional`: the Lean definition is an OEIS formu
 
 `A011782(n+1)-A391683(n+1)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A391680
@@ -4411,7 +4414,7 @@ end A391680
 /-!
 # A391681: Number of integer compositions of n with all parts > 1 that are not the first sums of any composition.
 
-The programs for A391681, the canonical program `A391681.P12481092097052240636` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391681 has offset 1).
+The programs for A391681, the canonical program `A391681.P12481092097052240636` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391681 has offset 1).
 
 The definition of A391681 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A391683, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4420,7 +4423,7 @@ The definition of A391681 is `conditional`: the Lean definition is an OEIS formu
 
 `A212804(n+1)-A391683(n+1)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A391681
@@ -4602,7 +4605,7 @@ end A391681
 /-!
 # A391682: Number of integer compositions of n that are the first sums of more than one nonnegative sequence.
 
-The programs for A391682, the canonical program `A391682.P12413487597952990575` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391682 has offset 1).
+The programs for A391682, the canonical program `A391682.P12413487597952990575` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391682 has offset 1).
 
 The definition of A391682 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 477 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4611,7 +4614,7 @@ The definition of A391682 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A079289(n)]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A391682
@@ -5066,7 +5069,7 @@ end A391682
 /-!
 # A391683: Number of integer compositions of n that are the first sums of some composition.
 
-The programs for A391683, the canonical program `A391683.P9562436176935939481` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391683 has offset 1).
+The programs for A391683, the canonical program `A391683.P9562436176935939481` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391683 has offset 1).
 
 The definition of A391683 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 663 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5075,7 +5078,7 @@ The definition of A391683 is `conjectured`: the Lean definition is a formula tha
 
 `A063759(n)-A164001(n+1)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A391683

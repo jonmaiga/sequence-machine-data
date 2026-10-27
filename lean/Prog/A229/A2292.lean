@@ -38,21 +38,24 @@ import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -63,8 +66,8 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1468,7 +1471,7 @@ end A229220
 /-!
 # A229221: Numbers k such that k - (product of digits of k) is prime.
 
-The programs for A229221, the canonical program `A229221.P13418059073900449142` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229221 has offset 1).
+The programs for A229221, the canonical program `A229221.P13418059073900449142` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229221 has offset 1).
 
 The definition of A229221 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 858 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1564,7 +1567,7 @@ end A229221
 
 `eq[1, A032741(n-A007954(n))]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A229221
@@ -4010,7 +4013,7 @@ end A229252.P15818147149788402579
 /-!
 # A229253: Total number of elements of nonempty subsets of divisors of n.
 
-The programs for A229253, the canonical program `A229253.P10040121674296205229` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229253 has offset 1).
+The programs for A229253, the canonical program `A229253.P10040121674296205229` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229253 has offset 1).
 
 The definition of A229253 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4019,7 +4022,7 @@ The definition of A229253 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001787(A000005(n+1))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A229253
@@ -8388,7 +8391,7 @@ end A229295.P2251752297886239418
 /-!
 # A229296: Number of solutions to x^2 + y^2 == n (mod 2*n) for x,y in [0, 2*n).
 
-The programs for A229296, the canonical program `A229296.P15325507195948055695` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229296 has offset 1).
+The programs for A229296, the canonical program `A229296.P15325507195948055695` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229296 has offset 1).
 
 The definition of A229296 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A086933, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8397,7 +8400,7 @@ The definition of A229296 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A086933(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A229296
@@ -8628,7 +8631,7 @@ end A229296
 /-!
 # A229297: Number of solutions to x^2 == n (mod 2*n) for 0 <= x < 2*n.
 
-The programs for A229297, the canonical program `A229297.P6774960960477572265` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229297 has offset 1).
+The programs for A229297, the canonical program `A229297.P6774960960477572265` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229297 has offset 1).
 
 The definition of A229297 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8660,7 +8663,7 @@ end A229297
 
 `A037213(A235872(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A229297

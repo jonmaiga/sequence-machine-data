@@ -24,7 +24,6 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
-import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C028
@@ -48,7 +47,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -56,11 +55,13 @@ import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -74,8 +75,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -794,7 +793,7 @@ end A343808
 /-!
 # A343809: Divide the positive integers into subsets of lengths given by successive primes, then reverse the order of terms in each subset.
 
-The programs for A343809, the canonical program `A343809.P11687227892759460159` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343809 has offset 1).
+The programs for A343809, the canonical program `A343809.P11687227892759460159` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343809 has offset 1).
 
 The definition of A343809 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2127 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -803,7 +802,7 @@ The definition of A343809 is `conjectured`: the Lean definition is a formula tha
 
 `A114327(eq[1, A143536(n+1)])+1+n`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A343809
@@ -983,9 +982,9 @@ def P13662078129511758105.Spec : Prop :=
 end A343809
 
 /-!
-# A343810: Numbers that contain only the digits 0,4,8. Permutable multiples of 4: numbers k such that every permutation of the digits of k is a multiple of 4.
+# A343810: Numbers that contain only the digits 0,4,8.
 
-The programs for A343810, the canonical program `A343810.P16791698285145293433` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343810 has offset 0).
+The programs for A343810, the canonical program `A343810.P16791698285145293433` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343810 has offset 1).
 
 The definition of A343810 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -994,18 +993,18 @@ The definition of A343810 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*A007089(n)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A343810
 
 /-- `4*A007089(n)` -/
 def P16791698285145293433.Spec : Prop :=
-  ∀ n, P16791698285145293433.a n = A343810 n
+  ∀ n, P16791698285145293433.a n = A343810 (n + 1)
 
 theorem P16791698285145293433.correct : P16791698285145293433.Spec := by
   intro n
-  simp only [A343810]
+  simp only [A343810, Nat.add_sub_cancel]
 
 end A343810
 
@@ -1028,7 +1027,7 @@ namespace A343810
 
 /-- `A007089(n)/(A020985(n)/2)²` -/
 def P10685120214820514865.Spec : Prop :=
-  ∀ n, P10685120214820514865.a n = (A343810 n : ℚ)
+  ∀ n, P10685120214820514865.a n = (A343810 (n + 1) : ℚ)
 
 end A343810
 
@@ -1051,7 +1050,7 @@ namespace A343810
 
 /-- `A007089(n)/(A065357(n)/2)²` -/
 def P6201048022952605825.Spec : Prop :=
-  ∀ n, P6201048022952605825.a n = (A343810 n : ℚ)
+  ∀ n, P6201048022952605825.a n = (A343810 (n + 1) : ℚ)
 
 end A343810
 
@@ -1081,7 +1080,7 @@ namespace A343810
 
 /-- `4*∪[A277964(n+1), A007088(n)]` -/
 def P10584555117592732475.Spec : Prop :=
-  ∀ n, (P10584555117592732475.a n : ℤ) = A343810 n
+  ∀ n, (P10584555117592732475.a n : ℤ) = A343810 (n + 1)
 
 end A343810
 
@@ -1111,7 +1110,7 @@ namespace A343810
 
 /-- `4*∪[A277964(n+1), A109827(n)]` -/
 def P15352522162342464164.Spec : Prop :=
-  ∀ n, (P15352522162342464164.a n : ℤ) = A343810 n
+  ∀ n, (P15352522162342464164.a n : ℤ) = A343810 (n + 1)
 
 end A343810
 
@@ -1134,7 +1133,7 @@ namespace A343810
 
 /-- `A007089(n)/(A008836(n+1)/2)²` -/
 def P17890757488251240478.Spec : Prop :=
-  ∀ n, P17890757488251240478.a n = (A343810 n : ℚ)
+  ∀ n, P17890757488251240478.a n = (A343810 (n + 1) : ℚ)
 
 end A343810
 
@@ -1157,7 +1156,7 @@ namespace A343810
 
 /-- `A007089(n)/(A008683(A014963(n+1))/2)²` -/
 def P17021376863651440173.Spec : Prop :=
-  ∀ n, P17021376863651440173.a n = (A343810 n : ℚ)
+  ∀ n, P17021376863651440173.a n = (A343810 (n + 1) : ℚ)
 
 end A343810
 
@@ -1180,7 +1179,7 @@ namespace A343810
 
 /-- `2*A024635(2*n)` -/
 def P14945454345613291803.Spec : Prop :=
-  ∀ n, P14945454345613291803.a n = A343810 n
+  ∀ n, P14945454345613291803.a n = A343810 (n + 1)
 
 end A343810
 
@@ -1210,7 +1209,7 @@ namespace A343810
 
 /-- `∩[A062015(n+1), A385293(n+1)]` -/
 def P10929483138231590020.Spec : Prop :=
-  ∀ n, (P10929483138231590020.a n : ℤ) = A343810 n
+  ∀ n, (P10929483138231590020.a n : ℤ) = A343810 (n + 1)
 
 end A343810
 
@@ -1233,7 +1232,7 @@ namespace A343810
 
 /-- `4*A024651(3*n)/3` -/
 def P4774263009375528818.Spec : Prop :=
-  ∀ n, P4774263009375528818.a n = (A343810 n : ℚ)
+  ∀ n, P4774263009375528818.a n = (A343810 (n + 1) : ℚ)
 
 end A343810
 
@@ -1256,7 +1255,7 @@ namespace A343810
 
 /-- `4*A007090(A023717(n))` -/
 def P13692024193766251499.Spec : Prop :=
-  ∀ n, P13692024193766251499.a n = A343810 n
+  ∀ n, P13692024193766251499.a n = A343810 (n + 1)
 
 end A343810
 
@@ -1285,7 +1284,7 @@ namespace A343810
 
 /-- `4*A007090(eq[A059906(n), A292372(n)])` -/
 def P17522142100828815874.Spec : Prop :=
-  ∀ n, P17522142100828815874.a n = A343810 n
+  ∀ n, P17522142100828815874.a n = A343810 (n + 1)
 
 end A343810
 
@@ -1315,7 +1314,7 @@ namespace A343810
 
 /-- `∩[A385293(n+1), A061814(n)]` -/
 def P13406205124498084645.Spec : Prop :=
-  ∀ n, (P13406205124498084645.a n : ℤ) = A343810 n
+  ∀ n, (P13406205124498084645.a n : ℤ) = A343810 (n + 1)
 
 end A343810
 
@@ -1345,7 +1344,7 @@ namespace A343810
 
 /-- `∩[2*A014263(n+1), A014263(n+1)]` -/
 def P11704337230405561767.Spec : Prop :=
-  ∀ n, (P11704337230405561767.a n : ℤ) = A343810 n
+  ∀ n, (P11704337230405561767.a n : ℤ) = A343810 (n + 1)
 
 end A343810
 
@@ -1375,7 +1374,7 @@ namespace A343810
 
 /-- `∩[2*A169884(n+1), A169884(n+1)]` -/
 def P1860690762055412944.Spec : Prop :=
-  ∀ n, (P1860690762055412944.a n : ℤ) = A343810 n
+  ∀ n, (P1860690762055412944.a n : ℤ) = A343810 (n + 1)
 
 end A343810
 
@@ -1405,7 +1404,7 @@ namespace A343810
 
 /-- `2*∩[A007091(2*n), A024644(2*n)]` -/
 def P18359571161582301108.Spec : Prop :=
-  ∀ n, (P18359571161582301108.a n : ℤ) = A343810 n
+  ∀ n, (P18359571161582301108.a n : ℤ) = A343810 (n + 1)
 
 end A343810
 
@@ -1435,7 +1434,7 @@ namespace A343810
 
 /-- `2*∩[A007091(2*n), A024657(2*n)]` -/
 def P16683691447011120943.Spec : Prop :=
-  ∀ n, (P16683691447011120943.a n : ℤ) = A343810 n
+  ∀ n, (P16683691447011120943.a n : ℤ) = A343810 (n + 1)
 
 end A343810
 
@@ -1458,7 +1457,7 @@ namespace A343810
 
 /-- `4*A007092(A037454(n))` -/
 def P737334732777286908.Spec : Prop :=
-  ∀ n, P737334732777286908.a n = A343810 n
+  ∀ n, P737334732777286908.a n = A343810 (n + 1)
 
 end A343810
 
@@ -1481,7 +1480,7 @@ namespace A343810
 
 /-- `2*2*A007093(A037455(n))` -/
 def P10708540029573303143.Spec : Prop :=
-  ∀ n, P10708540029573303143.a n = A343810 n
+  ∀ n, P10708540029573303143.a n = A343810 (n + 1)
 
 end A343810
 
@@ -5566,7 +5565,7 @@ end A343858.P10336728497526665278
 /-!
 # A343859: Partial sums of the primes excluding 3.
 
-The programs for A343859, the canonical program `A343859.P4309510753267781368` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343859 has offset 1).
+The programs for A343859, the canonical program `A343859.P4309510753267781368` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343859 has offset 1).
 
 The definition of A343859 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5575,7 +5574,7 @@ The definition of A343859 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A007504(n+2)-3`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A343859
@@ -7036,7 +7035,7 @@ end A343875.P2539115764372525856
 /-!
 # A343876: a(n) = n * Sum_{d|n} d^mu(d).
 
-The programs for A343876, the canonical program `A343876.P1859207970509647468` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343876 has offset 1).
+The programs for A343876, the canonical program `A343876.P1859207970509647468` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343876 has offset 1).
 
 The definition of A343876 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7071,7 +7070,7 @@ end A343876
 
 `∑{d}[n+1, (n+1)/#^A157657(#)]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A343876
@@ -7083,9 +7082,9 @@ def P1859207970509647468.Spec : Prop :=
 end A343876
 
 /-!
-# A343877: Number of pairs (d1, d2) of divisors of n such that d1
+# A343877: Number of pairs (d1, d2) of divisors of n such that d1<d2, d1|n, d2|n, and d1 + d2 <= n.
 
-The programs for A343877, the canonical program `A343877.P7620220508476975172` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343877 has offset 1).
+The programs for A343877, the canonical program `A343877.P7620220508476975172` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343877 has offset 1).
 
 The definition of A343877 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7094,7 +7093,7 @@ The definition of A343877 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1/2*A000005(n+1)²-3/2*A000005(n+1)+1`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A343877
@@ -7395,7 +7394,7 @@ end
 end A343878.P15600710917988459199
 
 /-!
-# A343879: Number of pairs (d1, d2) of divisors of n such that d1
+# A343879: Number of pairs (d1, d2) of divisors of n such that d1<d2, d1|n, d2|n, d1|d2 and d1 + d2 <= n.
 
 The programs for A343879, there is no canonical definition to state claims against.
 -/

@@ -43,6 +43,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -54,10 +55,11 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -66,8 +68,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -321,7 +321,7 @@ end A268601.P15384289943119082878
 /-!
 # A268605: a(1) = 0; a(n+1) is the smallest integer in which the difference between its digits sum and the a(n) digits sum is equal to the n-th prime.
 
-The programs for A268605, the canonical program `A268605.P2485238640013637007` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268605 has offset 1).
+The programs for A268605, the canonical program `A268605.P2485238640013637007` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268605 has offset 1).
 
 The definition of A268605 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -330,7 +330,7 @@ The definition of A268605 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A051885(A007504(n))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A268605
@@ -817,7 +817,7 @@ end A268613
 /-!
 # A268614: Primes p such that p + 1 and p + 2 are squarefree.
 
-The programs for A268614, the canonical program `A268614.P14161750680680178419` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268614 has offset 1).
+The programs for A268614, the canonical program `A268614.P14161750680680178419` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268614 has offset 1).
 
 The definition of A268614 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2089 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -826,7 +826,7 @@ The definition of A268614 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A007675(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A268614
@@ -864,12 +864,6 @@ namespace A268614
 /-- `p?[A228649(n+1)-1]` -/
 def P3925308316362127911.Spec : Prop :=
   ∀ n, P3925308316362127911.a n = A268614 (n + 1)
-
-theorem P3925308316362127911.correct : P3925308316362127911.Spec := by
-  intro n
-  simp only [A268614, Nat.add_sub_cancel, A268614.P3925308316362127911.f1, A268614.P3925308316362127911.a, A268614.P14161750680680178419.f1, A268614.P14161750680680178419.a, A007675, A007675.P4991608707947414915.f1, A007675.P4991608707947414915.f2, A007675.P4991608707947414915.a, A228649, A228649.P13260817488648530651.a, A008683, A008683.P18254306604665478110.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A085357, A085357.P3258697467278337073.a, A106400, A106400.P11201390576172776043.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A268614
 
@@ -2741,7 +2735,7 @@ end A268629.P12088172949980446380
 /-!
 # A268631: Number of ordered pairs (a,b) of positive integers less than n with the property that n divides ab.
 
-The programs for A268631, the canonical program `A268631.P11656545596258421338` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268631 has offset 1).
+The programs for A268631, the canonical program `A268631.P11656545596258421338` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268631 has offset 1).
 
 The definition of A268631 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006579, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2750,7 +2744,7 @@ The definition of A268631 is `conditional`: the Lean definition is an OEIS formu
 
 `A006579(n+1)-n`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A268631

@@ -20,6 +20,7 @@ import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C022
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C031
@@ -35,38 +36,38 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -921,7 +922,7 @@ end A009212.P7982410995983215047
 /-!
 # A009213: a(n) = gcd(d(n), phi(n)), where d is the number of divisors of n (A000005) and phi is Euler's totient function (A000010).
 
-The programs for A009213, the canonical program `A009213.P12402477796330107786` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009213 has offset 1).
+The programs for A009213, the canonical program `A009213.P12402477796330107786` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009213 has offset 1).
 
 The definition of A009213 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -930,7 +931,7 @@ The definition of A009213 is `conditional`: the Lean definition is an OEIS formu
 
 `gcd(A000005(n+1), A000010(n+1))`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A009213
@@ -1557,7 +1558,7 @@ end A009220.P9281837599468762034
 /-!
 # A009223: a(n) = gcd(sigma(n), phi(n)).
 
-The programs for A009223, the canonical program `A009223.P16138447125390320102` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009223 has offset 1).
+The programs for A009223, the canonical program `A009223.P16138447125390320102` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009223 has offset 1).
 
 The definition of A009223 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1566,7 +1567,7 @@ The definition of A009223 is `conditional`: the Lean definition is an OEIS formu
 
 `gcd(A000203(n+1), A000010(n+1))`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A009223
@@ -2679,7 +2680,7 @@ def P8811908998000488724.Spec : Prop :=
 end A009230
 
 /-!
-# A009231: Expansion of exp(sinh(x)*log(1+x)).
+# A009231: Expansion of e.g.f. exp(sinh(x)*log(1+x)).
 
 The programs for A009231, there is no canonical definition to state claims against.
 -/
@@ -4255,7 +4256,7 @@ end A009261.P6905521443422798525
 /-!
 # A009262: a(n) = lcm(n, phi(n)).
 
-The programs for A009262, the canonical program `A009262.P15876951147902980395` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009262 has offset 1).
+The programs for A009262, the canonical program `A009262.P15876951147902980395` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009262 has offset 1).
 
 The definition of A009262 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4287,7 +4288,7 @@ end A009262
 
 `lcm(n+1, A000010(n+1))`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A009262
@@ -6378,7 +6379,7 @@ end A009285.P7555658946222918292
 /-!
 # A009286: a(n) = lcm(sigma(n), phi(n)).
 
-The programs for A009286, the canonical program `A009286.P14437481793621511918` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009286 has offset 1).
+The programs for A009286, the canonical program `A009286.P14437481793621511918` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009286 has offset 1).
 
 The definition of A009286 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6410,7 +6411,7 @@ end A009286
 
 `lcm(A000203(n+1), A000010(n+1))`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A009286

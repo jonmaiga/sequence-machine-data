@@ -55,25 +55,27 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1693,7 +1695,7 @@ end A309717
 /-!
 # A309718: Numbers k such that the sums of the first k and k+2 primes are also prime.
 
-The programs for A309718, the canonical program `A309718.P15639493879307278302` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309718 has offset 1).
+The programs for A309718, the canonical program `A309718.P15639493879307278302` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309718 has offset 1).
 
 The definition of A309718 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1019 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1702,7 +1704,7 @@ The definition of A309718 is `conjectured`: the Lean definition is a formula tha
 
 `A013916(eq[2, Δ[A013916(n+1)]]+1)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A309718
@@ -8665,12 +8667,6 @@ namespace A309790
 /-- `A104895(2*n+3)-A104895(A063946(2*n+2))` -/
 def P3243669426639259935.Spec : Prop :=
   ∀ n, P3243669426639259935.a n = A309790 n
-
-theorem P3243669426639259935.correct : P3243669426639259935.Spec := by
-  intro n
-  simp only [A309790, Nat.add_sub_cancel, A309790.P3243669426639259935.a, A309790.P12506806462962635043.a, A063946, A063946.P14831572246508618093.a, A065620, A065620.P132964274324401119.a, A104895, A104895.P16075429497420938870.a, A010060, A010060.P3080921269106500717.a, A053644, A053644.P1707366427427647095.a, A265263, A265263.P13560857298709796040.a, A000035, A000035.P2023072528413494694.a, A000120, A000120.P2816527436160941581.a, A066194, A066194.P17197319264784136366.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A309790
 

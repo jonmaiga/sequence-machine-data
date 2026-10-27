@@ -46,6 +46,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -54,24 +55,21 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3781,7 +3779,7 @@ end A178223.P5344190445396590378
 /-!
 # A178225: Characteristic function of A006995 (binary palindromes).
 
-The programs for A178225, the canonical program `A178225.P3234126825915487550` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178225 has offset 0).
+The programs for A178225, the canonical program `A178225.P3234126825915487550` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178225 has offset 0).
 
 The definition of A178225 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3869,7 +3867,7 @@ end A178225
 
 `C(2, A175919(n))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A178225
@@ -4275,7 +4273,7 @@ end A178225
 /-!
 # A178226: Characteristic function of A154809 (numbers that are not binary palindromes).
 
-The programs for A178226, the canonical program `A178226.P2137882765149959903` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178226 has offset 0).
+The programs for A178226, the canonical program `A178226.P2137882765149959903` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178226 has offset 0).
 
 The definition of A178226 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A178225, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4284,7 +4282,7 @@ The definition of A178226 is `conditional`: the Lean definition is an OEIS formu
 
 `1-A178225(n)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A178226
@@ -5780,7 +5778,7 @@ end A178243.P3635124631222785869
 /-!
 # A178244: Number of distinct permutations of binary digits (0's and 1's) in n.
 
-The programs for A178244, the canonical program `A178244.P17051318547944785483` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178244 has offset 0).
+The programs for A178244, the canonical program `A178244.P17051318547944785483` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178244 has offset 0).
 
 The definition of A178244 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5818,7 +5816,7 @@ end A178244
 
 `C(A000120(n)+A023416(n), A000120(n))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A178244

@@ -48,9 +48,9 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -58,25 +58,24 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3295,7 +3294,7 @@ end A192816
 /-!
 # A192817: Numbers that are coprime to their 9's complement.
 
-The programs for A192817, the canonical program `A192817.P8246135497186958092` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192817 has offset 1).
+The programs for A192817, the canonical program `A192817.P8246135497186958092` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192817 has offset 1).
 
 The definition of A192817 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3304,7 +3303,7 @@ The definition of A192817 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, gcd(n, A061601(n))]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A192817
@@ -8402,7 +8401,7 @@ end A192861
 /-!
 # A192862: Flat primes: odd primes p such that p+1 is a squarefree number times a power of two.
 
-The programs for A192862, the canonical program `A192862.P1837713112636375079` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192862 has offset 1).
+The programs for A192862, the canonical program `A192862.P1837713112636375079` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192862 has offset 1).
 
 The definition of A192862 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9150 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8411,7 +8410,7 @@ The definition of A192862 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A353627(n+1)+2*n]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A192862
@@ -9384,7 +9383,7 @@ end A192863
 /-!
 # A192864: Lower flat primes: odd primes p such that p-1 is a squarefree number times a power of two.
 
-The programs for A192864, the canonical program `A192864.P4257417878317545726` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192864 has offset 1).
+The programs for A192864, the canonical program `A192864.P4257417878317545726` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192864 has offset 1).
 
 The definition of A192864 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9178 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9393,7 +9392,7 @@ The definition of A192864 is `conjectured`: the Lean definition is a formula tha
 
 `abs(p?[A353627(n+1)+2*(n+1)]-1)+1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A192864
@@ -10023,7 +10022,7 @@ end A192866.P6596284527557869815
 /-!
 # A192868: Thin numbers: odd numbers k > 1 such that k+1 is a prime times a power of two.
 
-The programs for A192868, the canonical program `A192868.P10087640679497259836` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192868 has offset 1).
+The programs for A192868, the canonical program `A192868.P10087640679497259836` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192868 has offset 1).
 
 The definition of A192868 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10032,7 +10031,7 @@ The definition of A192868 is `conjectured`: the Lean definition is a formula tha
 
 `A108144(n+1)-2`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A192868
@@ -10067,12 +10066,6 @@ namespace A192868
 /-- `2*A093641(n+2)-1` -/
 def P4818397749420402938.Spec : Prop :=
   ∀ n, P4818397749420402938.a n = A192868 (n + 1)
-
-theorem P4818397749420402938.correct : P4818397749420402938.Spec := by
-  intro n
-  simp only [A192868, Nat.add_sub_cancel, A192868.P4818397749420402938.a, A192868.P10087640679497259836.a, A093641, A093641.P7151041484961963095.f1, A093641.P7151041484961963095.f2, A093641.P7151041484961963095.a, A108144, A108144.P14357558413651915361.a, A340371, A340371.P1048024966072458263.a, A000265, A000265.P2772582252347773295.a, A080339, A080339.P3185701196739832768.f1, A080339.P3185701196739832768.a, A003602, A003602.P7612175048291952394.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A192868
 
@@ -10554,7 +10547,7 @@ end A192868
 /-!
 # A192869: Thin primes: odd primes p such that p+1 is a prime (or 1) times a power of two.
 
-The programs for A192869, the canonical program `A192869.P9466224486082789538` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192869 has offset 1).
+The programs for A192869, the canonical program `A192869.P9466224486082789538` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192869 has offset 1).
 
 The definition of A192869 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10615,7 +10608,7 @@ end A192869
 
 `p?[2*A093641(n+1)-1]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A192869

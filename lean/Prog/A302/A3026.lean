@@ -38,24 +38,27 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -68,8 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -708,7 +709,7 @@ end A302602.P16010586983146513308
 /-!
 # A302603: Number of total dominating sets in the wheel graph on n nodes.
 
-The programs for A302603, the canonical program `A302603.P13268963148685604734` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302603 has offset 1).
+The programs for A302603, the canonical program `A302603.P13268963148685604734` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302603 has offset 1).
 
 The definition of A302603 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -717,7 +718,7 @@ The definition of A302603 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000032(n)+2*sin((n+1)*π/2)+2^n-1`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A302603
@@ -1425,7 +1426,7 @@ end A302611.P2521565520068774237
 /-!
 # A302612: a(n) = (n+1)*(n^4-4*n^3+11*n^2-8*n+12)/12.
 
-The programs for A302612, the canonical program `A302612.P84146940592871108` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302612 has offset 0).
+The programs for A302612, the canonical program `A302612.P84146940592871108` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302612 has offset 0).
 
 The definition of A302612 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)*(n^4-4*n^3+11*n²-8*n+12)/12` (program `A302612.P2872648606694628759`, by `A302612.P2872648606694628759.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1540,7 +1541,7 @@ end A302612
 
 `A000125(n)*A152947(n+1)-A008911(n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A302612
@@ -5377,7 +5378,7 @@ end A302651.P12854458641002360702
 /-!
 # A302653: Number of minimum total dominating sets in the n-cycle graph.
 
-The programs for A302653, the canonical program `A302653.P12437367069294794384` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302653 has offset 1).
+The programs for A302653, the canonical program `A302653.P12437367069294794384` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302653 has offset 1).
 
 The definition of A302653 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5438,7 +5439,7 @@ end A302653
 
 `gcd(A004442(A057979(n))², A079097(n))`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A302653
@@ -5617,7 +5618,7 @@ end A302653
 /-!
 # A302654: Number of minimum total dominating sets in the n-path graph.
 
-The programs for A302654, the canonical program `A302654.P9699993451691573189` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302654 has offset 1).
+The programs for A302654, the canonical program `A302654.P9699993451691573189` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302654 has offset 1).
 
 The definition of A302654 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5626,7 +5627,7 @@ The definition of A302654 is `conjectured`: the Lean definition is a formula tha
 
 `A110657(n)^∑[1-and(2, n)]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A302654
@@ -6083,7 +6084,7 @@ end A302657.P15222869252182580403
 /-!
 # A302658: Number of minimal total dominating sets in the wheel graph on n nodes.
 
-The programs for A302658, the canonical program `A302658.P14429019079959570714` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302658 has offset 2).
+The programs for A302658, the canonical program `A302658.P14429019079959570714` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302658 has offset 2).
 
 The definition of A302658 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6092,7 +6093,7 @@ The definition of A302658 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A300738(n+1)+n+1`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A302658
@@ -6211,7 +6212,7 @@ end A302658
 /-!
 # A302660: a(n) = (prime(n) mod 9) + (prime(n) mod 10).
 
-The programs for A302660, the canonical program `A302660.P1050621792242828620` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302660 has offset 1).
+The programs for A302660, the canonical program `A302660.P1050621792242828620` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302660 has offset 1).
 
 The definition of A302660 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(n+1)%9+A000040(n+1)%10` (program `A302660.P1050621792242828620`, by `A302660.P1050621792242828620.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6243,7 +6244,7 @@ end A302660
 
 `A000040(n+1)%9+A000040(n+1)%10`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A302660
@@ -9415,7 +9416,7 @@ end A302691.P4171992153289131408
 /-!
 # A302692: Primes p that are the sum of another prime q and the greatest k such that k! < p.
 
-The programs for A302692, the canonical program `A302692.P6992755302281173742` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302692 has offset 1).
+The programs for A302692, the canonical program `A302692.P6992755302281173742` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302692 has offset 1).
 
 The definition of A302692 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 192 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9424,7 +9425,7 @@ The definition of A302692 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A063992(p?[2*n+1])]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A302692

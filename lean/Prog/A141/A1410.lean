@@ -50,7 +50,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -68,16 +68,14 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4878,7 +4876,7 @@ def P8508971328472702071.Spec : Prop :=
 end A141036
 
 /-!
-# A141037: Numbers n where the sum of all of its divisors <= sqrt(n) exceeds the sum of all the divisors of m <= sqrt(m) for all m
+# A141037: Numbers n where the sum of all of its divisors <= sqrt(n) exceeds the sum of all the divisors of m <= sqrt(m) for all m<n.
 
 The programs for A141037, there is no canonical definition to state claims against.
 -/
@@ -7534,7 +7532,7 @@ end A141055.P12391342186531544231
 /-!
 # A141056: 1 followed by A027760, a variant of Bernoulli number denominators.
 
-The programs for A141056, the canonical program `A141056.P945056089172605289` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141056 has offset 0).
+The programs for A141056, the canonical program `A141056.P945056089172605289` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141056 has offset 0).
 
 The definition of A141056 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7543,7 +7541,7 @@ The definition of A141056 is `conjectured`: the Lean definition is a formula tha
 
 `∏{d}[n, A089026(#+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A141056
@@ -7693,12 +7691,6 @@ namespace A141056
 /-- `A176591(n)-A159075(n)` -/
 def P11637660659605034862.Spec : Prop :=
   ∀ n, P11637660659605034862.a n = A141056 n
-
-theorem P11637660659605034862.correct : P11637660659605034862.Spec := by
-  intro n
-  simp only [A141056, Nat.add_sub_cancel, A141056.P11637660659605034862.a, A141056.P945056089172605289.f1, A141056.P945056089172605289.a, A089026, A089026.P9133057752167928232.a, A159075, A159075.P2143252049747790800.f1, A159075.P2143252049747790800.a, A176591, A176591.P1285427356219146765.a, A008683, A008683.P18254306604665478110.a, A014963, A014963.P5975177236000282614.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, A166140, A166140.P17649384582351937107.f1, A166140.P17649384582351937107.a, A166142, A166142.P10122674445425206392.f1, A166142.P10122674445425206392.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A080304, A080304.P9910366703239988167.a, A085357, A085357.P3258697467278337073.a, A106400, A106400.P11201390576172776043.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A141056
 

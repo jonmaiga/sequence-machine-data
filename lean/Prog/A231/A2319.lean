@@ -32,27 +32,29 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1006,7 +1008,7 @@ end A231916.P15634776362981340808
 /-!
 # A231919: a(n) = 3^n + (4^n - 3^n) * (d(n) - 3), where d(n) = A000005(n).
 
-The programs for A231919, the canonical program `A231919.P11069871402188796614` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231919 has offset 1).
+The programs for A231919, the canonical program `A231919.P11069871402188796614` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231919 has offset 1).
 
 The definition of A231919 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1015,7 +1017,7 @@ The definition of A231919 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3^(n+1)+(4^(n+1)-3^(n+1))*(A000005(n+1)-3)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A231919
@@ -2578,7 +2580,7 @@ end A231945.P1717395697205618276
 /-!
 # A231946: Partial sums of the third power of the arithmetic derivative function A003415.
 
-The programs for A231946, the canonical program `A231946.P13868030303102611269` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231946 has offset 1).
+The programs for A231946, the canonical program `A231946.P13868030303102611269` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231946 has offset 1).
 
 The definition of A231946 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2616,7 +2618,7 @@ end A231946
 
 `∑[A003415(n+1)^3]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A231946
@@ -3910,7 +3912,7 @@ end A231958.P11424559130116364834
 /-!
 # A231959: Numbers n dividing the Lucas sequence u(n) defined by u(i) = 3*u(i-1) - u(i-2) with initial conditions u(0)=0, u(1)=1.
 
-The programs for A231959, the canonical program `A231959.P9351094932317826349` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231959 has offset 1).
+The programs for A231959, the canonical program `A231959.P9351094932317826349` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231959 has offset 1).
 
 The definition of A231959 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 310 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3948,7 +3950,7 @@ end A231959
 
 `record[gcd(n+1, A132634(2*(n+1)))]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A231959

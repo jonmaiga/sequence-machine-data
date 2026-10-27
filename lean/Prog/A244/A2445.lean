@@ -41,7 +41,9 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -49,14 +51,14 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -67,8 +69,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -217,7 +217,7 @@ end A244504.P10528786070546431577
 /-!
 # A244505: Greater of twin primes of (40n-23,40n-21).
 
-The programs for A244505, the canonical program `A244505.P9278648048121045581` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244505 has offset 1).
+The programs for A244505, the canonical program `A244505.P9278648048121045581` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244505 has offset 1).
 
 The definition of A244505 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1251 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -346,7 +346,7 @@ end A244505
 
 `∩[A139902(n+1), A181606(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A244505
@@ -3053,7 +3053,7 @@ end A244524.P2924582142540954680
 /-!
 # A244525: Expansion of f(-x^1, -x^7) in powers of x where f(, ) is Ramanujan's general theta function.
 
-The programs for A244525, the canonical program `A244525.P10571466511866612896` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244525 has offset 0).
+The programs for A244525, the canonical program `A244525.P10571466511866612896` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244525 has offset 0).
 
 The definition of A244525 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3062,7 +3062,7 @@ The definition of A244525 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(-1)^n*A214263(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A244525
@@ -8499,7 +8499,7 @@ end A244576
 /-!
 # A244578: Sum of all aliquot divisors of all positive integers <= prime(n).
 
-The programs for A244578, the canonical program `A244578.P4846969564591678736` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244578 has offset 1).
+The programs for A244578, the canonical program `A244578.P4846969564591678736` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244578 has offset 1).
 
 The definition of A244578 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A153485, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8508,7 +8508,7 @@ The definition of A244578 is `conditional`: the Lean definition is an OEIS formu
 
 `A153485(A000040(n+1))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A244578
@@ -9221,7 +9221,7 @@ end A244581.P11708066535143893433
 /-!
 # A244583: a(n) = sum of all divisors of all positive integers <= prime(n).
 
-The programs for A244583, the canonical program `A244583.P1388980908316134735` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244583 has offset 1).
+The programs for A244583, the canonical program `A244583.P1388980908316134735` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244583 has offset 1).
 
 The definition of A244583 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9253,7 +9253,7 @@ end A244583
 
 `A024916(A000040(n+1))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A244583

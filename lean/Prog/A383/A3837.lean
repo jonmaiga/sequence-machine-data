@@ -43,22 +43,24 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -66,12 +68,11 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -220,7 +221,7 @@ end A383703.P13746701747781280330
 /-!
 # A383705: Numerator of Dirichlet g.f.: Sum_{n>=1} a(n)/n^s = zeta(s)^(2/3).
 
-The programs for A383705, the canonical program `A383705.P15354307696166593991` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383705 has offset 1).
+The programs for A383705, the canonical program `A383705.P15354307696166593991` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383705 has offset 1).
 
 The definition of A383705 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -229,7 +230,7 @@ The definition of A383705 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[n+1, A127974(#)]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A383705
@@ -1457,7 +1458,7 @@ end A383717
 /-!
 # A383718: a(n) is the multinomial coefficient (length of n in binary) choose (the lengths of runs in n's binary expansion).
 
-The programs for A383718, the canonical program `A383718.P12402657679353222347` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383718 has offset 0).
+The programs for A383718, the canonical program `A383718.P12402657679353222347` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383718 has offset 0).
 
 The definition of A383718 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1535,7 +1536,7 @@ end A383718
 
 `A318762(A382255(n))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A383718
@@ -3741,7 +3742,7 @@ end
 end A383747.P14299350300883520208
 
 /-!
-# A383748: a(n) = q is the smallest integer, such that the numbers -1/q, i/q, -i/q with i = sqrt(-1), are three zeros of the polynomial P(A783747(n),z) = Sum_{k=1..r} d(k)*z^(k-1) where d(1) < d(2), ..., < d(r) are the r divisors of A383747(n).
+# A383748: a(n) = q is the smallest integer, such that the numbers -1/q, i/q, -i/q with i = sqrt(-1), are three zeros of the polynomial P(A383747(n),z) = Sum_{k=1..r} d(k)*z^(k-1) where d(1) < d(2), ..., < d(r) are the r divisors of A383747(n).
 
 The programs for A383748, there is no canonical definition to state claims against.
 -/
@@ -4491,7 +4492,7 @@ end A383761.P5707995998826994519
 /-!
 # A383762: The number of unitary divisors of n that are exponentially squarefree numbers.
 
-The programs for A383762, the canonical program `A383762.P17957299951470629655` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383762 has offset 1).
+The programs for A383762, the canonical program `A383762.P17957299951470629655` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383762 has offset 1).
 
 The definition of A383762 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4523,7 +4524,7 @@ end A383762
 
 `∏{e}[n+1, A008966(#)+1]`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A383762
@@ -4751,7 +4752,7 @@ end A383762
 /-!
 # A383763: The sum of unitary divisors of n that are exponentially squarefree numbers.
 
-The programs for A383763, the canonical program `A383763.P993383120488087921` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383763 has offset 1).
+The programs for A383763, the canonical program `A383763.P993383120488087921` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383763 has offset 1).
 
 The definition of A383763 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4760,7 +4761,7 @@ The definition of A383763 is `conjectured`: the Lean definition is a formula tha
 
 `A034448(A383764(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A383763
@@ -4870,7 +4871,7 @@ end A383763
 /-!
 # A383764: The largest unitary divisor of n that is an exponentially squarefree number.
 
-The programs for A383764, the canonical program `A383764.P4000777454404002987` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383764 has offset 1).
+The programs for A383764, the canonical program `A383764.P4000777454404002987` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383764 has offset 1).
 
 The definition of A383764 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4879,7 +4880,7 @@ The definition of A383764 is `conjectured`: the Lean definition is a formula tha
 
 `A071974((n+1)*A365683(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A383764
@@ -5588,7 +5589,7 @@ end A383775.P1661630099125360163
 /-!
 # A383776: a(n) = (11*n + 3 + 6/(n+2)) * Catalan(n).
 
-The programs for A383776, the canonical program `A383776.P7136280431778039087` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383776 has offset 0).
+The programs for A383776, the canonical program `A383776.P7136280431778039087` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383776 has offset 0).
 
 The definition of A383776 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5597,7 +5598,7 @@ The definition of A383776 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(11*n+3+6/(n+2))*A000108(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A383776
@@ -5872,7 +5873,7 @@ end A383782.P2517604689626428669
 /-!
 # A383783: a(n) = Sum_{k=1..2^n} mu(k) * (floor(2^n/k)^4 - floor((2^n-1)/k)^4).
 
-The programs for A383783, the canonical program `A383783.P9434858666287389407` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383783 has offset 0).
+The programs for A383783, the canonical program `A383783.P9434858666287389407` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383783 has offset 0).
 
 The definition of A383783 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A344597, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5881,7 +5882,7 @@ The definition of A383783 is `conditional`: the Lean definition is an OEIS formu
 
 `A344597(2^n)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A383783
@@ -5994,7 +5995,7 @@ end A383783
 /-!
 # A383784: Norms of vectors in any regular planar tiling (square or A2 lattice).
 
-The programs for A383784, the canonical program `A383784.P16897109203414652711` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383784 has offset 1).
+The programs for A383784, the canonical program `A383784.P16897109203414652711` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383784 has offset 1).
 
 The definition of A383784 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6063,7 +6064,7 @@ end A383784
 
 `∪[A001481(n+1), A003136(n+1)]`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A383784
@@ -6978,7 +6979,7 @@ end A383794
 /-!
 # A383795: Dirichlet g.f.: zeta(2*s-2) * zeta(s)^2.
 
-The programs for A383795, the canonical program `A383795.P2583133115178924486` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383795 has offset 1).
+The programs for A383795, the canonical program `A383795.P2583133115178924486` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383795 has offset 1).
 
 The definition of A383795 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7065,7 +7066,7 @@ end A383795
 
 `∑{d}[n+1, A007429(#)*A061019((n+1)/#)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A383795

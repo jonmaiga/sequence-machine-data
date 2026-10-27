@@ -48,29 +48,31 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -740,7 +742,7 @@ end A103115
 /-!
 # A103116: a(n) = Sum_{i=1..n} (n-i+1)*phi(i).
 
-The programs for A103116, the canonical program `A103116.P13446593034198861880` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A103116 has offset 0).
+The programs for A103116, the canonical program `A103116.P13446593034198861880` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A103116 has offset 0).
 
 The definition of A103116 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005598, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -749,7 +751,7 @@ The definition of A103116 is `conditional`: the Lean definition is an OEIS formu
 
 `A005598(n)-1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A103116
@@ -1235,7 +1237,7 @@ end A103116
 /-!
 # A103118: Numbers k such that 100*k + 57 is prime.
 
-The programs for A103118, the canonical program `A103118.P10702072525714284161` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A103118 has offset 1).
+The programs for A103118, the canonical program `A103118.P10702072525714284161` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A103118 has offset 1).
 
 The definition of A103118 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 239 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1244,7 +1246,7 @@ The definition of A103118 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A001222(50*(2*n+1)+7), 2]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A103118
@@ -2666,7 +2668,7 @@ end A103129.P5782483789819153555
 /-!
 # A103131: The product of the residues in [1,n] relatively prime to n, taken modulo n.
 
-The programs for A103131, the canonical program `A103131.P5239793970225112123` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A103131 has offset 1).
+The programs for A103131, the canonical program `A103131.P5239793970225112123` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A103131 has offset 1).
 
 The definition of A103131 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2790,7 +2792,7 @@ end A103131
 
 `A057427(n)-A136521(A060594(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A103131

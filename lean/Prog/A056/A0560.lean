@@ -44,13 +44,15 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -67,11 +69,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6176,16 +6174,16 @@ end A056042.P8003389033182071573
 /-!
 # A056043: Let k be largest number such that k^2 divides n!; a(n) = k/floor(n/2)!.
 
-The programs for A056043, the canonical program `A056043.P13365125051087703237` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056043 has offset 1).
+The programs for A056043, the canonical program `A056043.P13365125051087703237` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056043 has offset 1).
 
-The definition of A056043 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A056043 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A055772, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A056043.P13365125051087703237
 
 `A055772(n+1)/A081123(n+1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A056043
@@ -7497,7 +7495,7 @@ end A056055.P13254616461111854466
 /-!
 # A056056: Square root of largest square dividing n-th central binomial coefficient.
 
-The programs for A056056, the canonical program `A056056.P8939201320321533669` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056056 has offset 1).
+The programs for A056056, the canonical program `A056056.P8939201320321533669` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056056 has offset 1).
 
 The definition of A056056 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7506,7 +7504,7 @@ The definition of A056056 is `conjectured`: the Lean definition is a formula tha
 
 `sqrt(A056057(n+1))`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A056056
@@ -7727,16 +7725,16 @@ end A056056
 /-!
 # A056057: The largest square which divides n-th central binomial coefficient.
 
-The programs for A056057, the canonical program `A056057.P2194597549001614042` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056057 has offset 1).
+The programs for A056057, the canonical program `A056057.P2194597549001614042` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056057 has offset 1).
 
-The definition of A056057 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A056057 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008833, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A056057.P2194597549001614042
 
 `A008833(A001405(n+1))`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A056057
@@ -10960,7 +10958,7 @@ end
 end A056096.P8234204279932736027
 
 /-!
-# A056097: Numbers n such that phi(n) + 1 | sigma(n).
+# A056097: Numbers k such that phi(k) + 1 | sigma(k).
 
 The programs for A056097, there is no canonical definition to state claims against.
 -/

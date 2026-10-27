@@ -48,27 +48,23 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
-import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1518,7 +1514,7 @@ end A190007
 /-!
 # A190008: a(n) = n + [n*r/t] + [n*s/t]; r=1, s=sin(Pi/3), t=csc(Pi/3).
 
-The programs for A190008, the canonical program `A190008.P15330482503549292457` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190008 has offset 1).
+The programs for A190008, the canonical program `A190008.P15330482503549292457` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190008 has offset 1).
 
 The definition of A190008 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5774 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1527,7 +1523,7 @@ The definition of A190008 is `conjectured`: the Lean definition is a formula tha
 
 `A047293(n+1)+A008619(A022838(n+1))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A190008
@@ -1796,21 +1792,6 @@ end A190009.P16480354083996630631
 
 The programs for A190010, there is no canonical definition to state claims against.
 -/
-
-/-! ## A190010.P17145100487688043874
-
-`A002632(n+1)-gcd(4, n)%4`
--/
-
-namespace A190010.P17145100487688043874
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002632 (n + 1) - ((Nat.gcd 4 n % 4 : ℕ) : ℤ)
-
-end
-
-end A190010.P17145100487688043874
 
 /-! ## A190010.P10826940280876122718
 
@@ -11988,7 +11969,7 @@ end A190087
 /-!
 # A190088: Triangle of binomial coefficients binomial(3*n-k+1,3*n-3*k+1).
 
-The programs for A190088, the canonical program `A190088.P10356372276694908` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190088 has offset 0).
+The programs for A190088, the canonical program `A190088.P10356372276694908` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A190088 has offset 0).
 
 The definition of A190088 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6509 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11997,7 +11978,7 @@ The definition of A190088 is `conjectured`: the Lean definition is a formula tha
 
 `C(A131894(n), 2*A002262(n))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A190088

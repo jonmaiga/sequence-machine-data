@@ -38,12 +38,13 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,15 +54,16 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -70,8 +72,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2021,7 +2021,7 @@ end A327711.P15045569608063811327
 /-!
 # A327715: a(0) = 0; for n >= 1, a(n) = 1 + a(n-A009191(n)).
 
-The programs for A327715, the canonical program `A327715.P7624630360277358397` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327715 has offset 0).
+The programs for A327715, the canonical program `A327715.P7624630360277358397` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327715 has offset 0).
 
 The definition of A327715 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2030,7 +2030,7 @@ The definition of A327715 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+a(n-A009191(n))` with `a(0)=0, a(1)=1`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A327715
@@ -2702,7 +2702,7 @@ end A327722.P6289622762191896767
 /-!
 # A327724: Product of A003059 and A071797.
 
-The programs for A327724, the canonical program `A327724.P6706824466192336662` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327724 has offset 1).
+The programs for A327724, the canonical program `A327724.P6706824466192336662` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327724 has offset 1).
 
 The definition of A327724 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2711,7 +2711,7 @@ The definition of A327724 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(1+A000196(n))*(n+1-A000196(n)²)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A327724
@@ -3535,7 +3535,7 @@ end A327729.P5774932095223179420
 /-!
 # A327730: a(n) = A060594(2n).
 
-The programs for A327730, the canonical program `A327730.P1577413118058245570` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327730 has offset 1).
+The programs for A327730, the canonical program `A327730.P1577413118058245570` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327730 has offset 1).
 
 The definition of A327730 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A060594, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3544,7 +3544,7 @@ The definition of A327730 is `conditional`: the Lean definition is an OEIS formu
 
 `A060594(2*(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A327730
@@ -4255,7 +4255,7 @@ end
 end A327732.P18041308852535895749
 
 /-!
-# A327734: Number of n-bead bracelet structures using exactly two different colored beads that are not self-equivalent under either a nonzero rotation or reversal (turning over bracelet).
+# A327734: Number of n-bead bracelets of exactly two colors having no nonidentity symmetry under rotation, reflection, and color permutation.
 
 The programs for A327734, there is no canonical definition to state claims against.
 -/
@@ -5376,7 +5376,7 @@ end A327747.P8810967313676768482
 /-!
 # A327748: Primes p such that the sum of p and the prime before p is not a multiple of 3.
 
-The programs for A327748, the canonical program `A327748.P16131196812816451464` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327748 has offset 1).
+The programs for A327748, the canonical program `A327748.P16131196812816451464` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327748 has offset 1).
 
 The definition of A327748 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4021 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5385,7 +5385,7 @@ The definition of A327748 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A054763(n+1)+A045319(n+1)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A327748
@@ -5809,7 +5809,7 @@ end A327751.P10182934426711613407
 /-!
 # A327752: Primes powers (A246655) congruent to 1 mod 5.
 
-The programs for A327752, the canonical program `A327752.P6389492624928042465` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327752 has offset 1).
+The programs for A327752, the canonical program `A327752.P6389492624928042465` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327752 has offset 1).
 
 The definition of A327752 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2429 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5908,7 +5908,7 @@ end A327752
 
 `record[A008475(5*n+11)]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A327752
@@ -6366,7 +6366,7 @@ end A327752
 /-!
 # A327753: Primes powers (A246655) congruent to 4 mod 5.
 
-The programs for A327753, the canonical program `A327753.P1018549127462246212` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327753 has offset 1).
+The programs for A327753, the canonical program `A327753.P1018549127462246212` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327753 has offset 1).
 
 The definition of A327753 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2432 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6435,7 +6435,7 @@ end A327753
 
 `record[A008475(5*n+4)]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A327753
@@ -7781,7 +7781,7 @@ end
 end A327757.P4676663702917609955
 
 /-!
-# A327759: a(1) = 1; a(2) = 2; a(n) = n - max{k
+# A327759: a(1) = 1; a(2) = 2; a(n) = n - max{k<n | a(k) = m(n)}, where m(n) is the largest term so far if a(n-1) is odd, the second largest term so far if a(n-1) is even.
 
 The programs for A327759, there is no canonical definition to state claims against.
 -/
@@ -8423,7 +8423,7 @@ end A327766.P11406952305782581648
 /-!
 # A327767: Period 2: repeat [1, -2].
 
-The programs for A327767, the canonical program `A327767.P14717215174623562762` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327767 has offset 1).
+The programs for A327767, the canonical program `A327767.P14717215174623562762` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327767 has offset 1).
 
 The definition of A327767 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8432,7 +8432,7 @@ The definition of A327767 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `-A168361(n+2)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A327767
@@ -8969,7 +8969,7 @@ end
 end A327771.P1435409665830918978
 
 /-!
-# A327772: Integers for which the Goldbach factorization graph contains exceptional autonomous component (see link for definitions).
+# A327772: Integers for which the Goldbach factorization graph contains an exceptional autonomous component (see link for definitions).
 
 The programs for A327772, there is no canonical definition to state claims against.
 -/

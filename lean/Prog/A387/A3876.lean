@@ -39,18 +39,17 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B006.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
@@ -1739,7 +1738,7 @@ end A387643.P15846025093723496958
 /-!
 # A387644: Complement of A045944.
 
-The programs for A387644, the canonical program `A387644.P12775165900026762` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387644 has offset 1).
+The programs for A387644, the canonical program `A387644.P12775165900026762` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387644 has offset 1).
 
 The definition of A387644 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1835,7 +1834,7 @@ end A387644
 
 `A002264(A092200(A216256(n+1)))+n`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A387644
@@ -1880,7 +1879,7 @@ def P12089103069042187791.Spec : Prop :=
 end A387644
 
 /-!
-# A387645: Detour index of the n X n black bishop graph.
+# A387645: a(n) = m*(m-1)^2/2, where m = ceiling(n^2/2).
 
 The programs for A387645, the canonical program `A387645.P11208717823661659370` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387645 has offset 1).
 
@@ -2865,7 +2864,7 @@ end A387656.P1504517252688798321
 /-!
 # A387657: Array read by ascending antidiagonals: A(n, k) = denominator(k^n/n), with k >= 0.
 
-The programs for A387657, the canonical program `A387657.P982859840005591800` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387657 has offset 1).
+The programs for A387657, the canonical program `A387657.P982859840005591800` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387657 has offset 1).
 
 The definition of A387657 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2874,7 +2873,7 @@ The definition of A387657 is `conjectured`: the Lean definition is a formula tha
 
 `A123275(A056943(n)+1)`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A387657

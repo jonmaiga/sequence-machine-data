@@ -47,6 +47,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -54,11 +55,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -66,15 +69,12 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -508,12 +508,6 @@ namespace A100005
 /-- `A008475(2*n+1)-A078771(2*n+1)` -/
 def P1119384194700376673.Spec : Prop :=
   ∀ n, P1119384194700376673.a n = A100005 (n + 1)
-
-theorem P1119384194700376673.correct : P1119384194700376673.Spec := by
-  intro n
-  simp only [A100005, Nat.add_sub_cancel, A100005.P1119384194700376673.a, A100005.P15980108924789768817.f1, A100005.P15980108924789768817.a, A008475, A008475.P12981903007955240503.f1, A008475.P12981903007955240503.a, A078771, A078771.P8502218742761172896.a, A001414, A001414.P8293929508439252105.f1, A001414.P8293929508439252105.a, A092509, A092509.P8072479887117834933.a, A014683, A014683.P4274130993241959458.a, A048671, A048671.P10271734858964489763.a, A002944, A002944.P11615207776596987764.a, A003418, A003418.P6976248655893080794.a, A010051, A010051.P15078252821583414300.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A100005
 
@@ -1236,12 +1230,6 @@ namespace A100006
 def P17587938818333561151.Spec : Prop :=
   ∀ n, P17587938818333561151.a n = A100006 (n + 1)
 
-theorem P17587938818333561151.correct : P17587938818333561151.Spec := by
-  intro n
-  simp only [A100006, Nat.add_sub_cancel, A100006.P17587938818333561151.a, A100006.P10301543697715186993.f1, A100006.P10301543697715186993.a, A073093, A073093.P258081957281391684.a, A275314, A275314.P16603517016269577307.a, A001222, A001222.P11318177267732088261.a, A001414, A001414.P8293929508439252105.f1, A001414.P8293929508439252105.a, A061395, A061395.P8431317036300486107.a, A122111, A122111.P18124015185857335041.a, A029837, A029837.P1050578713049589.a, A064989, A064989.P13349672914146769936.a, A087207, A087207.P12536008426233777954.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A100006
 
 /-! ## A100006.P16071260092536200896
@@ -1357,7 +1345,7 @@ end A100006
 /-!
 # A100007: Number of unitary divisors of 2n-1 (d such that d divides 2n-1, GCD(d,(2n-1)/d)=1). Bisection of A034444.
 
-The programs for A100007, the canonical program `A100007.P3347003901490045030` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100007 has offset 1).
+The programs for A100007, the canonical program `A100007.P3347003901490045030` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100007 has offset 1).
 
 The definition of A100007 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A068068, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1412,7 +1400,7 @@ end A100007
 
 `A068068(2*n+1)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A100007
@@ -1840,7 +1828,7 @@ end A100007
 /-!
 # A100008: Number of unitary divisors of 2n.
 
-The programs for A100008, the canonical program `A100008.P11065605102889167328` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100008 has offset 1).
+The programs for A100008, the canonical program `A100008.P11065605102889167328` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100008 has offset 1).
 
 The definition of A100008 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A068068, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1849,7 +1837,7 @@ The definition of A100008 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A068068(n+1)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A100008
@@ -11056,7 +11044,7 @@ end A100071
 /-!
 # A100073: Number of representations of n as the difference of two positive squares.
 
-The programs for A100073, the canonical program `A100073.P14220404356122435277` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100073 has offset 1).
+The programs for A100073, the canonical program `A100073.P14220404356122435277` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A100073 has offset 1).
 
 The definition of A100073 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11436,7 +11424,7 @@ end A100073
 
 `ceil(A320111(n+1)-A334954(n+1)/2)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A100073

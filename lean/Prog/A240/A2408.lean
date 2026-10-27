@@ -48,19 +48,20 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -71,11 +72,8 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -108,7 +106,7 @@ set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
 
 /-!
-# A240800: Total number of occurrences of the pattern 1
+# A240800: Total number of occurrences of the pattern 1<2<3 in all preferential arrangements (or ordered partitions) of n elements.
 
 The programs for A240800, there is no canonical definition to state claims against.
 -/
@@ -7367,7 +7365,7 @@ end A240855.P12978049375590609892
 /-!
 # A240857: Triangle read by rows: T(0,0) = 0; T(n+1,k) = T(n,k+1), 0 <= k < n; T(n+1,n) = T(n,0); T(n+1,n+1) = T(n,0)+1.
 
-The programs for A240857, the canonical program `A240857.P5485024977046605687` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240857 has offset 0).
+The programs for A240857, the canonical program `A240857.P5485024977046605687` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240857 has offset 0).
 
 The definition of A240857 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7376,7 +7374,7 @@ The definition of A240857 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A048881(col(n)+row(n))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A240857
@@ -10072,7 +10070,7 @@ end A240876
 /-!
 # A240877: Sum of the denominators of the Farey series of order n (A006843).
 
-The programs for A240877, the canonical program `A240877.P3561136259224989296` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240877 has offset 0).
+The programs for A240877, the canonical program `A240877.P3561136259224989296` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240877 has offset 0).
 
 The definition of A240877 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10130,7 +10128,7 @@ end A240877
 
 `a(n-1)+A046151(n)+1` with `a(0)=1`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A240877
@@ -11356,7 +11354,7 @@ end A240882.P6858587134213999681
 /-!
 # A240883: Central terms of the triangle in A240857.
 
-The programs for A240883, the canonical program `A240883.P5378419761383427474` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240883 has offset 0).
+The programs for A240883, the canonical program `A240883.P5378419761383427474` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240883 has offset 0).
 
 The definition of A240883 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11365,7 +11363,7 @@ The definition of A240883 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A046818(n)-1`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A240883

@@ -34,15 +34,17 @@ import Seq.B000.C038
 import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
@@ -52,6 +54,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -62,12 +65,12 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1289,7 +1292,7 @@ end
 end A381526.P4099946301880410691
 
 /-!
-# A381531: Number of permutations of [n] having the maximal possible number of pairs of integers i
+# A381531: Number of permutations of [n] having the maximal possible number of pairs of integers i<j in [n] such that their cycle minima have opposite sorting order.
 
 The programs for A381531, there is no canonical definition to state claims against.
 -/
@@ -1942,7 +1945,7 @@ end
 end A381538.P12202761028204022738
 
 /-!
-# A381539: Number of permutations of [n] having exactly one pair of integers i
+# A381539: Number of permutations of [n] having exactly one pair of integers i<j in [n] such that their cycle minima have opposite sorting order.
 
 The programs for A381539, there is no canonical definition to state claims against.
 -/
@@ -2351,7 +2354,7 @@ end
 end A381544.P11248760239688674453
 
 /-!
-# A381545: Number of permutations of [n] having exactly n pairs of integers i
+# A381545: Number of permutations of [n] having exactly n pairs of integers i<j in [n] such that their cycle minima have opposite sorting order.
 
 The programs for A381545, there is no canonical definition to state claims against.
 -/
@@ -3997,7 +4000,7 @@ end A381587.P1812653040733364543
 /-!
 # A381588: If n = Product (p_j^k_j) then a(n) = Product (lcm(p_j, k_j)), with a(1) = 1.
 
-The programs for A381588, the canonical program `A381588.P6316090729294100752` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381588 has offset 1).
+The programs for A381588, the canonical program `A381588.P6316090729294100752` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381588 has offset 1).
 
 The definition of A381588 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4006,7 +4009,7 @@ The definition of A381588 is `conjectured`: the Lean definition is a formula tha
 
 `A005361(n+1)*A083346(n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A381588

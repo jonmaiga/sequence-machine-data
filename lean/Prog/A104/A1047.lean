@@ -46,12 +46,14 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -67,7 +69,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1725,7 +1726,7 @@ end A104711.P6279432018688190185
 /-!
 # A104712: Pascal's triangle, with the first two columns removed.
 
-The programs for A104712, the canonical program `A104712.P8393777965278521263` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104712 has offset 2).
+The programs for A104712, the canonical program `A104712.P8393777965278521263` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104712 has offset 2).
 
 The definition of A104712 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1879,7 +1880,7 @@ end A104712
 
 `A168577(n+2)-A014410(n+2)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A104712
@@ -3899,7 +3900,7 @@ end
 end A104719.P308547817426389460
 
 /-!
-# A104720: Expansion of 1/((1-x)(1-x^2)(1-10x)).
+# A104720: Expansion of g.f. 1/((1-x)*(1-x^2)*(1-10*x)).
 
 The programs for A104720, the canonical program `A104720.P5781401691433012438` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104720 has offset 0).
 
@@ -4635,7 +4636,7 @@ end A104721
 /-!
 # A104722: Self-convolution of repeated Catalan numbers.
 
-The programs for A104722, the canonical program `A104722.P17182887965710500432` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104722 has offset 0).
+The programs for A104722, the canonical program `A104722.P17182887965710500432` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104722 has offset 0).
 
 The definition of A104722 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 342 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4644,7 +4645,7 @@ The definition of A104722 is `conjectured`: the Lean definition is a formula tha
 
 `A059348(n+2)-A000007(n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A104722
@@ -4851,7 +4852,7 @@ end A104722
 /-!
 # A104723: Moebius transform of Jacobsthal numbers.
 
-The programs for A104723, the canonical program `A104723.P5041177650715917469` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104723 has offset 0).
+The programs for A104723, the canonical program `A104723.P5041177650715917469` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104723 has offset 0).
 
 The definition of A104723 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4860,7 +4861,7 @@ The definition of A104723 is `conjectured`: the Lean definition is a formula tha
 
 `floor((A027375(n)+n%2)/3)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A104723
@@ -5901,7 +5902,7 @@ end A104732.P10342915569003185233
 /-!
 # A104733: Triangle T(n,k) = sum_{j=k..n} Fibonacci(n-j+1)*Fibonacci(k+1), read by rows, 0<=k<=n.
 
-The programs for A104733, the canonical program `A104733.P14033359084981660770` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104733 has offset 0).
+The programs for A104733, the canonical program `A104733.P14033359084981660770` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104733 has offset 0).
 
 The definition of A104733 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5966,7 +5967,7 @@ end A104733
 
 `A058071(A112367(n))*A104582(n+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A104733
@@ -11986,87 +11987,6 @@ end
 end A104778.P7589593228326515720
 
 /-!
-# A104779: a(n) is the sum of entries of n-th Kostka matrix for the partitions of n.
-
-The programs for A104779, there is no canonical definition to state claims against.
--/
-
-/-! ## A104779.P15142598863549298484
-
-`A178718(floor(acot(n)+n))`
--/
-
-namespace A104779.P15142598863549298484
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A178718 ⌊SequenceMachineLib.acot (n : ℝ) + (n : ℝ)⌋.toNat
-
-end
-
-end A104779.P15142598863549298484
-
-/-! ## A104779.P9148533417672005099
-
-`A178718(n^floor(atan(n)))`
--/
-
-namespace A104779.P9148533417672005099
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A178718 (SequenceMachineLib.roundAway ((n : ℚ) ^ (⌊Real.arctan (n : ℝ)⌋ : ℤ))).toNat
-
-end
-
-end A104779.P9148533417672005099
-
-/-! ## A104779.P11594618297268404109
-
-`A178718(C(n, floor(atan(n))))`
--/
-
-namespace A104779.P11594618297268404109
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A178718 (Nat.choose n ⌊Real.arctan (n : ℝ)⌋.toNat)
-
-end
-
-end A104779.P11594618297268404109
-
-/-! ## A104779.P17213930488561434716
-
-`A178718(and(1, 2^n)+n)`
--/
-
-namespace A104779.P17213930488561434716
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A178718 (Nat.land 1 (2 ^ n) + n)
-
-end
-
-end A104779.P17213930488561434716
-
-/-! ## A104779.P1283926600459676330
-
-`A178718(floor(1/(n+1))+n)`
--/
-
-namespace A104779.P1283926600459676330
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A178718 (⌊1 / (n + 1 : ℚ)⌋ + (n : ℤ)).toNat
-
-end
-
-end A104779.P1283926600459676330
-
-/-!
 # A104782: Smallest n^e (e>1) containing n in decimal representation.
 
 The programs for A104782, there is no canonical definition to state claims against.
@@ -12253,7 +12173,7 @@ end
 end A104788.P10154454878786998306
 
 /-!
-# A104792: Triangle T(n,k) = A000330(n-k), n>=1, 0<=k
+# A104792: Triangle T(n,k) = A000330(n-k), n>=1, 0<=k<n, read by rows.
 
 The programs for A104792, the canonical program `A104792.P1798916067318034261` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104792 has offset 1).
 
@@ -13220,7 +13140,7 @@ end
 end A104794.P16809930737038594592
 
 /-!
-# A104795: Triangle T(n,k) = C(n,k)+1 for k
+# A104795: Triangle T(n,k) = C(n,k)+1 for k<n; T(n,k) = 1 for k=n, read by rows.
 
 The programs for A104795, the canonical program `A104795.P13015670119841549225` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104795 has offset 0).
 
@@ -13947,7 +13867,7 @@ def P15401166261846680824.Spec : Prop :=
 end A104796
 
 /-!
-# A104797: Triangle T(n,k) = Fib(n-k+4)-n-k-3, n>=1, 0<=k
+# A104797: Triangle T(n,k) = Fib(n-k+4)-n-k-3, n>=1, 0<=k<n, read by rows.
 
 The programs for A104797, the canonical program `A104797.P7553578064530354809` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104797 has offset 1).
 

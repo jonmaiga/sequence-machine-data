@@ -42,11 +42,13 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -57,19 +59,18 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -9190,7 +9191,7 @@ end A090182.P15698435915309722046
 /-!
 # A090183: a(n) = (10 - (prime(n+3) mod 10) mod 4) - (n mod 4) + 3.
 
-The programs for A090183, the canonical program `A090183.P6954613765283721954` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090183 has offset 1).
+The programs for A090183, the canonical program `A090183.P6954613765283721954` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090183 has offset 1).
 
 The definition of A090183 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9199,7 +9200,7 @@ The definition of A090183 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(10-A000040(n+4)%10)%4-(n+1)%4+3`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A090183
@@ -9420,7 +9421,7 @@ end A090186.P14411598589707970570
 /-!
 # A090187: Primes of the form 11*n+2.
 
-The programs for A090187, the canonical program `A090187.P17998606559123912834` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090187 has offset 1).
+The programs for A090187, the canonical program `A090187.P17998606559123912834` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090187 has offset 1).
 
 The definition of A090187 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9429,7 +9430,7 @@ The definition of A090187 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A142050(n+1), A142056(n+1)]`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A090187

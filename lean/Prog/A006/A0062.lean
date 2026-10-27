@@ -47,33 +47,32 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C010
+import Seq.B001.C008
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -504,7 +503,7 @@ end A006205.P17032280340616819048
 /-!
 # A006206: Number of aperiodic binary necklaces of length n with no subsequence 00, excluding the necklace "0".
 
-The programs for A006206, the canonical program `A006206.P821304944829276785` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A006206 has offset 1).
+The programs for A006206, the canonical program `A006206.P821304944829276785` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A006206 has offset 1).
 
 The definition of A006206 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 491 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -540,7 +539,7 @@ end A006206
 
 `A063524(n)+A060280(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A006206
@@ -3179,29 +3178,6 @@ namespace A006222
 /-- `(A022269(2*n+1)-n)/2` -/
 def P9343910009890325909.Spec : Prop :=
   ∀ n, P9343910009890325909.a n = (A006222 n : ℚ)
-
-end A006222
-
-/-! ## A006222.P2296741833045365589
-
-`(A026817(2*n+1)-n)/2`
--/
-
-namespace A006222.P2296741833045365589
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A026817 (2 * n + 1) - (n : ℤ) : ℚ) / 2
-
-end
-
-end A006222.P2296741833045365589
-
-namespace A006222
-
-/-- `(A026817(2*n+1)-n)/2` -/
-def P2296741833045365589.Spec : Prop :=
-  ∀ n, P2296741833045365589.a n = (A006222 n : ℚ)
 
 end A006222
 
@@ -8137,7 +8113,7 @@ end
 end A006259.P15215506054867818932
 
 /-!
-# A006260: Second-order Eulerian numbers <>.
+# A006260: Second-order Eulerian numbers <<n,3>>.
 
 The programs for A006260, there is no canonical definition to state claims against.
 -/

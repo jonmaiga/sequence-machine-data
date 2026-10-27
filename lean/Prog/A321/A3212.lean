@@ -41,18 +41,19 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -60,6 +61,7 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -2901,7 +2903,7 @@ end A321233.P17920364431888787352
 /-!
 # A321234: Denominator of series expansion of the hypergeometric series 3F2([1/2, 1, 1], [3/2, 3/2], x).
 
-The programs for A321234, the canonical program `A321234.P1035964924695441674` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321234 has offset 0).
+The programs for A321234, the canonical program `A321234.P1035964924695441674` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321234 has offset 0).
 
 The definition of A321234 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 162 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2910,7 +2912,7 @@ The definition of A321234 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[n²]*A001803(n)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A321234
@@ -3841,7 +3843,7 @@ end A321242.P17660229431179414887
 /-!
 # A321243: a(n) is the product of n and all its decimal digits individually except the leftmost digit.
 
-The programs for A321243, the canonical program `A321243.P16278212693722106823` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321243 has offset 0).
+The programs for A321243, the canonical program `A321243.P16278212693722106823` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321243 has offset 0).
 
 The definition of A321243 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3850,7 +3852,7 @@ The definition of A321243 is `conjectured`: the Lean definition is a formula tha
 
 `A098736(n)/A000030(A028310(n))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A321243
@@ -4526,7 +4528,7 @@ end A321257
 /-!
 # A321258: Square array A(n,k), n >= 1, k >= 0, read by antidiagonals: A(n,k) = sigma_k(n) - n^k.
 
-The programs for A321258, the canonical program `A321258.P10467559747908190419` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321258 has offset 1).
+The programs for A321258, the canonical program `A321258.P10467559747908190419` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321258 has offset 1).
 
 The definition of A321258 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4656 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4535,7 +4537,7 @@ The definition of A321258 is `conjectured`: the Lean definition is a formula tha
 
 `A109974(A061579(n))-A009998(n)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A321258

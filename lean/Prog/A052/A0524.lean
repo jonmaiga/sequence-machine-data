@@ -49,16 +49,18 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -67,12 +69,12 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2158,7 +2160,7 @@ end A052408.P16699009739783397659
 /-!
 # A052409: a(n) = largest integer power m for which a representation of the form n = k^m exists (for some k).
 
-The programs for A052409, the canonical program `A052409.P7338948793466901153` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052409 has offset 1).
+The programs for A052409, the canonical program `A052409.P7338948793466901153` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052409 has offset 1).
 
 The definition of A052409 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2420,7 +2422,7 @@ end A052409
 
 `gcd(A051903(n+1), A051904(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A052409
@@ -6332,7 +6334,7 @@ end
 end A052433.P221007729281676548
 
 /-!
-# A052434: Nearest integer to R(n) - pi(n), where R(x) is the Riemann prime counting function.
+# A052434: Nearest integer to R(n) - pi(n), where R(x) is Riemann's R function.
 
 The programs for A052434, there is no canonical definition to state claims against.
 -/
@@ -13836,7 +13838,7 @@ end
 end A052494.P7194057933471656517
 
 /-!
-# A052495: Take n-th prime p, let P = all primes having same digits; a(n) = q-p where q is smallest prime in P >p if q exists; otherwise a(n) = p-r where r is largest prime in P
+# A052495: Take n-th prime p, let P = all primes having same digits; a(n) = q-p where q is smallest prime in P >p if q exists; otherwise a(n) = p-r where r is largest prime in P <p if r exists; otherwise a(n) = 0.
 
 The programs for A052495, there is no canonical definition to state claims against.
 -/

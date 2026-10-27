@@ -51,19 +51,24 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C005
+import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -74,8 +79,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5581,7 +5584,7 @@ end A087435.P9230472974090775650
 /-!
 # A087436: Number of odd prime factors of n, counted with repetitions.
 
-The programs for A087436, the canonical program `A087436.P13287701826401831056` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A087436 has offset 1).
+The programs for A087436, the canonical program `A087436.P13287701826401831056` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A087436 has offset 1).
 
 The definition of A087436 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5636,7 +5639,7 @@ end A087436
 
 `A001222(n+1)-A007814(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A087436
@@ -6958,7 +6961,7 @@ end A087440
 /-!
 # A087441: Numbers k such that for every prime divisor p of k, p-1 divides k-1.
 
-The programs for A087441, the canonical program `A087441.P11260084284196037132` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A087441 has offset 1).
+The programs for A087441, the canonical program `A087441.P11260084284196037132` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A087441 has offset 1).
 
 The definition of A087441 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6967,7 +6970,7 @@ The definition of A087441 is `conjectured`: the Lean definition is a formula tha
 
 `A226038(n+1)+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A087441
@@ -11757,7 +11760,7 @@ end
 end A087458.P4903607912775460982
 
 /-!
-# A087459: Values (X + Y - Z) sorted on Z, then on Y, where (X,Y,Z) is a primitive Pythagorean triple with X
+# A087459: Values (X + Y - Z) sorted on Z, then on Y, where (X,Y,Z) is a primitive Pythagorean triple with X<Y<Z.
 
 The programs for A087459, there is no canonical definition to state claims against.
 -/

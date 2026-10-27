@@ -33,21 +33,25 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -61,9 +65,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1094,7 +1095,7 @@ end A243912.P16163817539636857256
 /-!
 # A243915: a(n) = sigma(omega(n)).
 
-The programs for A243915, the canonical program `A243915.P6821417702652795590` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243915 has offset 2).
+The programs for A243915, the canonical program `A243915.P6821417702652795590` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243915 has offset 2).
 
 The definition of A243915 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1103,7 +1104,7 @@ The definition of A243915 is `conditional`: the Lean definition is an OEIS formu
 
 `A000203(A001221(n+2))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A243915
@@ -1519,12 +1520,6 @@ namespace A243915
 /-- `A000203(A229109(n+2)-(n+2))` -/
 def P17331277187432674345.Spec : Prop :=
   ∀ n, P17331277187432674345.a n = A243915 (n + 2)
-
-theorem P17331277187432674345.correct : P17331277187432674345.Spec := by
-  intro n
-  simp only [A243915, Nat.add_sub_cancel, A243915.P17331277187432674345.a, A243915.P6821417702652795590.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001221, A001221.P10258181745752134128.a, A229109, A229109.P7396241872602068631.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P7264174615531153985.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A243915
 
@@ -5071,7 +5066,7 @@ end A243979.P15540187985932010617
 /-!
 # A243980: Four times the sum of all divisors of all positive integers <= n.
 
-The programs for A243980, the canonical program `A243980.P11138556836325931032` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243980 has offset 1).
+The programs for A243980, the canonical program `A243980.P11138556836325931032` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243980 has offset 1).
 
 The definition of A243980 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5109,7 +5104,7 @@ end A243980
 
 `4*A024916(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A243980
@@ -6824,7 +6819,7 @@ end A243996.P1992118657832146901
 /-!
 # A243997: a(n) = phi(sigma(n) - phi(n) - d(n)), where phi(n) is the Euler totient function, sigma(n) the sum of divisors of n and d(n) the number of divisors of n.
 
-The programs for A243997, the canonical program `A243997.P13681003671720194849` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243997 has offset 1).
+The programs for A243997, the canonical program `A243997.P13681003671720194849` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243997 has offset 1).
 
 The definition of A243997 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6299 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6833,7 +6828,7 @@ The definition of A243997 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[A046520(n+1), A007431(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A243997

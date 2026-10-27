@@ -46,6 +46,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -68,12 +69,11 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -626,7 +626,7 @@ end
 end A081503.P16480875804110874168
 
 /-!
-# A081504: Numbers n such that there are no primes of the form 2^n+2^i+1 for 0
+# A081504: Numbers n such that there are no primes of the form 2^n+2^i+1 for 0<i<n. In binary: all 3-bit numbers with size n+1 are composite.
 
 The programs for A081504, there is no canonical definition to state claims against.
 -/
@@ -2677,7 +2677,7 @@ end A081528
 /-!
 # A081530: a(n) = running sum of the first n harmonic numbers, multiplied by the LCM of 1..n.
 
-The programs for A081530, the canonical program `A081530.P13171352182732697047` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081530 has offset 1).
+The programs for A081530, the canonical program `A081530.P13171352182732697047` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081530 has offset 1).
 
 The definition of A081530 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2686,7 +2686,7 @@ The definition of A081530 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001705(n+1)/A025527(n+1)`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A081530

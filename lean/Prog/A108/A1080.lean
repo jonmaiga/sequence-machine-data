@@ -44,16 +44,20 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -68,7 +72,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2081,7 +2084,7 @@ def P2456434884992322658.Spec : Prop :=
 end A108031
 
 /-!
-# A108032: Triangle T(n,k), 0<=k<=n, read by rows, defined by : T(0,0) = 1, T(n,k) = 0 if n
+# A108032: Triangle T(n,k), 0<=k<=n, read by rows, defined by : T(0,0) = 1, T(n,k) = 0 if n<k or if k<0, T(n,k) = k*T(n-1, k-1) + (2n-2k-1)*T(n-1, k).
 
 The programs for A108032, the canonical program `A108032.P2889567196329678215` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108032 has offset 0).
 
@@ -7196,7 +7199,7 @@ end A108076.P12456716318609702451
 /-!
 # A108077: Largest prime p such that p-1 divides n.
 
-The programs for A108077, the canonical program `A108077.P8095265619995363254` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108077 has offset 1).
+The programs for A108077, the canonical program `A108077.P8095265619995363254` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108077 has offset 1).
 
 The definition of A108077 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006530, A027760, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7205,7 +7208,7 @@ The definition of A108077 is `conditional`: the Lean definition is an OEIS formu
 
 `A006530(A027760(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A108077

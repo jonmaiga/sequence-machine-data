@@ -42,11 +42,12 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
-import Seq.B001.C011
+import Seq.B001.C009
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -57,10 +58,10 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
@@ -68,8 +69,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -9843,36 +9842,6 @@ namespace A097164
 /-- `xor(A080924(n), A168642(n))` -/
 def P17609942774634539988.Spec : Prop :=
   ∀ n, P17609942774634539988.a n = A097164 n
-
-end A097164
-
-/-! ## A097164.P5949733566828219966
-
-`∪[A083597(n), A155721(n+1)]`
--/
-
-namespace A097164.P5949733566828219966
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A083597 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155721 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∨ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A097164.P5949733566828219966
-
-namespace A097164
-
-/-- `∪[A083597(n), A155721(n+1)]` -/
-def P5949733566828219966.Spec : Prop :=
-  ∀ n, (P5949733566828219966.a n : ℤ) = A097164 n
 
 end A097164
 

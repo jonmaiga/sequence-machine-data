@@ -46,28 +46,28 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C000
-import Seq.B004.C002
+import Seq.B003.C005
+import Seq.B004.C001
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -414,7 +414,7 @@ def P13782943855598212573.Spec : Prop :=
 end A147703
 
 /-!
-# A147704: Diagonal sums of Riordan array ((1-2x)/(1 - 3x + x^2),x(1-x)/(1 - 3x + x^2)).
+# A147704: Diagonal sums of Riordan array ((1-2*x)/(1 - 3*x + x^2), x*(1-x)/(1 - 3*x + x^2)).
 
 The programs for A147704, the canonical program `A147704.P15131477209894475959` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A147704 has offset 0).
 
@@ -5028,7 +5028,7 @@ end A147759
 /-!
 # A147760: a(n) is the smallest positive integer m with exactly n ones in its binary representation and with n represented in binary as a substring of the binary representation of m.
 
-The programs for A147760, the canonical program `A147760.P15763218434351887986` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A147760 has offset 1).
+The programs for A147760, the canonical program `A147760.P15763218434351887986` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A147760 has offset 1).
 
 The definition of A147760 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 327 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5037,7 +5037,7 @@ The definition of A147760 is `conjectured`: the Lean definition is a formula tha
 
 `(n+2)*A060818(n+1)-1`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A147760
@@ -7682,7 +7682,7 @@ def P14755399256591982848.Spec : Prop :=
 end A147792
 
 /-!
-# A147795: If n=A000695(k_n)+2*A000695(l_n), then a(n) is the number of nonnegative integers m
+# A147795: If n=A000695(k_n)+2*A000695(l_n), then a(n) is the number of nonnegative integers m<n such that k_m differs from k_n and l_m differs from l_n.
 
 The programs for A147795, there is no canonical definition to state claims against.
 -/
@@ -7992,7 +7992,7 @@ end A147796
 /-!
 # A147797: The 10^n-th twin prime, A001097(10^n).
 
-The programs for A147797, the canonical program `A147797.P8071727392255312945` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A147797 has offset 0).
+The programs for A147797, the canonical program `A147797.P8071727392255312945` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A147797 has offset 0).
 
 The definition of A147797 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001097, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8001,7 +8001,7 @@ The definition of A147797 is `conditional`: the Lean definition is an OEIS formu
 
 `A001097(10^n)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A147797

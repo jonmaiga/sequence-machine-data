@@ -48,7 +48,6 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
@@ -61,18 +60,18 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3613,7 +3612,7 @@ end
 end A098332.P8530074665437474278
 
 /-!
-# A098333: Expansion of 1/sqrt(1 - 2x + 13x^2).
+# A098333: Expansion of 1/sqrt(1 - 2*x + 13*x^2).
 
 The programs for A098333, there is no canonical definition to state claims against.
 -/
@@ -8157,7 +8156,7 @@ end A098357
 /-!
 # A098358: Multiplication table of the triangular numbers read by antidiagonals.
 
-The programs for A098358, the canonical program `A098358.P610290183917864518` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098358 has offset 0).
+The programs for A098358, the canonical program `A098358.P610290183917864518` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098358 has offset 1).
 
 The definition of A098358 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8173,7 +8172,7 @@ namespace A098358
 
 /-- `(col(n)+1)*(col(n)+2)*(row(n)-col(n)+1)*(row(n)-col(n)+2)/4` -/
 def P610290183917864518.Spec : Prop :=
-  ∀ n, P610290183917864518.a n = (A098358 n : ℚ)
+  ∀ n, P610290183917864518.a n = (A098358 (n + 1) : ℚ)
 
 end A098358
 
@@ -8196,7 +8195,7 @@ namespace A098358
 
 /-- `C(col(n)+2, 2)*C(row(n)-col(n)+2, 2)` -/
 def P13961285992910896797.Spec : Prop :=
-  ∀ n, (P13961285992910896797.a n : ℤ) = A098358 n
+  ∀ n, (P13961285992910896797.a n : ℤ) = A098358 (n + 1)
 
 end A098358
 
@@ -8219,7 +8218,7 @@ namespace A098358
 
 /-- `A000124(A003991(n+1))-A113582(n+1)` -/
 def P2452176885610333568.Spec : Prop :=
-  ∀ n, P2452176885610333568.a n = A098358 n
+  ∀ n, P2452176885610333568.a n = A098358 (n + 1)
 
 end A098358
 
@@ -8242,7 +8241,7 @@ namespace A098358
 
 /-- `A000217(A002260(n+1))*A000217(A004736(n+1))` -/
 def P3987810809155761747.Spec : Prop :=
-  ∀ n, P3987810809155761747.a n = A098358 n
+  ∀ n, P3987810809155761747.a n = A098358 (n + 1)
 
 end A098358
 
@@ -8265,7 +8264,7 @@ namespace A098358
 
 /-- `A000217(A004736(n+1))*A000217(A002262(n)+1)` -/
 def P11748325282812872616.Spec : Prop :=
-  ∀ n, P11748325282812872616.a n = A098358 n
+  ∀ n, P11748325282812872616.a n = A098358 (n + 1)
 
 end A098358
 
@@ -8288,7 +8287,7 @@ namespace A098358
 
 /-- `(A000096(A025581(n))+1)*A000217(A002260(n+1))` -/
 def P1439832693094818743.Spec : Prop :=
-  ∀ n, P1439832693094818743.a n = A098358 n
+  ∀ n, P1439832693094818743.a n = A098358 (n + 1)
 
 end A098358
 
@@ -8311,7 +8310,7 @@ namespace A098358
 
 /-- `A000217(A002260(n+1))*A000217(A025581(n)+1)` -/
 def P5627073482101619873.Spec : Prop :=
-  ∀ n, P5627073482101619873.a n = A098358 n
+  ∀ n, P5627073482101619873.a n = A098358 (n + 1)
 
 end A098358
 
@@ -8334,7 +8333,7 @@ namespace A098358
 
 /-- `A000217(A003983(n+1))*A000217(A051125(n+1))` -/
 def P4081366929126610106.Spec : Prop :=
-  ∀ n, P4081366929126610106.a n = A098358 n
+  ∀ n, P4081366929126610106.a n = A098358 (n + 1)
 
 end A098358
 
@@ -8357,7 +8356,7 @@ namespace A098358
 
 /-- `A213548(n+1)-A213550(n+2)%A213548(n+2)` -/
 def P12265940303362876550.Spec : Prop :=
-  ∀ n, P12265940303362876550.a n = A098358 n
+  ∀ n, P12265940303362876550.a n = A098358 (n + 1)
 
 end A098358
 
@@ -8386,7 +8385,7 @@ namespace A098358
 
 /-- `A268759(lt[0, A268759(n)])` -/
 def P17262801555045379508.Spec : Prop :=
-  ∀ n, P17262801555045379508.a n = A098358 n
+  ∀ n, P17262801555045379508.a n = A098358 (n + 1)
 
 end A098358
 
@@ -8415,7 +8414,7 @@ namespace A098358
 
 /-- `A113582(lt[1, A002262(n)])-1` -/
 def P16671812643803717528.Spec : Prop :=
-  ∀ n, P16671812643803717528.a n = A098358 n
+  ∀ n, P16671812643803717528.a n = A098358 (n + 1)
 
 end A098358
 
@@ -8438,7 +8437,7 @@ namespace A098358
 
 /-- `A000217(A057555(2*n+1))*A000217(A057555(2*(n+1)))` -/
 def P7566125241899596267.Spec : Prop :=
-  ∀ n, P7566125241899596267.a n = A098358 n
+  ∀ n, P7566125241899596267.a n = A098358 (n + 1)
 
 end A098358
 
@@ -8465,7 +8464,7 @@ namespace A098358
 
 /-- `A268759(comp[n-A268759(n)²])` -/
 def P3938976711384274008.Spec : Prop :=
-  ∀ n, P3938976711384274008.a n = A098358 n
+  ∀ n, P3938976711384274008.a n = A098358 (n + 1)
 
 end A098358
 
@@ -8491,7 +8490,7 @@ namespace A098358
 
 /-- `∏{e}[A036561(n), C(#+2, 2)]` -/
 def P6689389736169852976.Spec : Prop :=
-  ∀ n, (P6689389736169852976.a n : ℤ) = A098358 n
+  ∀ n, (P6689389736169852976.a n : ℤ) = A098358 (n + 1)
 
 end A098358
 
@@ -8514,7 +8513,7 @@ namespace A098358
 
 /-- `A000217(A092542(n+1))*A000217(A092543(n+1))` -/
 def P4682773334240790038.Spec : Prop :=
-  ∀ n, P4682773334240790038.a n = A098358 n
+  ∀ n, P4682773334240790038.a n = A098358 (n + 1)
 
 end A098358
 

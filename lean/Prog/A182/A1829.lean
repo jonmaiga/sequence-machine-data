@@ -39,10 +39,9 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -50,13 +49,15 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -67,7 +68,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1393,7 +1393,7 @@ end A182920.P16914950325260888402
 /-!
 # A182921: Sum of exponents in prime-power factorization of the swinging factorial (A056040) n$ = n!/floor(n/2)!^2; also bigomega(n$).
 
-The programs for A182921, the canonical program `A182921.P272631166531236110` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182921 has offset 0).
+The programs for A182921, the canonical program `A182921.P272631166531236110` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182921 has offset 0).
 
 The definition of A182921 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1460,7 +1460,7 @@ end A182921
 
 `A317531(n)+a(n-1)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A182921
@@ -1556,7 +1556,7 @@ end A182921
 /-!
 # A182922: a(n) = n! / A055773(n).
 
-The programs for A182922, the canonical program `A182922.P12836266675832290144` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182922 has offset 0).
+The programs for A182922, the canonical program `A182922.P12836266675832290144` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182922 has offset 0).
 
 The definition of A182922 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A055773, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1565,7 +1565,7 @@ The definition of A182922 is `conditional`: the Lean definition is an OEIS formu
 
 `n!/A055773(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A182922
@@ -1786,7 +1786,7 @@ end A182922
 /-!
 # A182923: a(n) = n$ / A055773(n), where n$ denotes the swinging factorial (A056040).
 
-The programs for A182923, the canonical program `A182923.P17549914405111909947` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182923 has offset 0).
+The programs for A182923, the canonical program `A182923.P17549914405111909947` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182923 has offset 0).
 
 The definition of A182923 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1795,7 +1795,7 @@ The definition of A182923 is `conjectured`: the Lean definition is a formula tha
 
 `A056040(n)/A055773(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A182923
@@ -2641,7 +2641,7 @@ end A182934.P6415958451538648762
 /-!
 # A182936: Greatest common divisor of the proper divisors of n, 0 if there are none.
 
-The programs for A182936, the canonical program `A182936.P4233504524226139086` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182936 has offset 1).
+The programs for A182936, the canonical program `A182936.P4233504524226139086` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182936 has offset 1).
 
 The definition of A182936 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A020500, A061397, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2650,7 +2650,7 @@ The definition of A182936 is `conditional`: the Lean definition is an OEIS formu
 
 `A020500(n+1)-A061397(n+1)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A182936
@@ -3696,7 +3696,7 @@ end A182943.P9479527148272451185
 /-!
 # A182944: Square array A(i,j), i >= 1, j >= 1, of prime powers prime(i)^j, by descending antidiagonals.
 
-The programs for A182944, the canonical program `A182944.P10822648229596895612` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182944 has offset 1).
+The programs for A182944, the canonical program `A182944.P10822648229596895612` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182944 has offset 1).
 
 The definition of A182944 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2643 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3728,7 +3728,7 @@ end A182944
 
 `A000040(1-C(∑[char[∑[n]]], 2)+n)^(C(comp[∑[n]]-n, 2)-n)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A182944

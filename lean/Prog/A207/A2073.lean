@@ -45,16 +45,19 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
+import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -64,9 +67,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2880,7 +2880,7 @@ end A207335.P13423864141577680123
 /-!
 # A207336: One half of smallest positive nontrivial even solution of the congruence x^2 == 1 (mod A001748(n+2)), n>=1.
 
-The programs for A207336, the canonical program `A207336.P470333082275016402` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A207336 has offset 1).
+The programs for A207336, the canonical program `A207336.P470333082275016402` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A207336 has offset 1).
 
 The definition of A207336 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A208296, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2889,7 +2889,7 @@ The definition of A207336 is `conditional`: the Lean definition is an OEIS formu
 
 `(3*A000040(n+3)-A208296(n+1))/2`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A207336
@@ -7743,7 +7743,7 @@ end
 end A207379.P14492809655110803076
 
 /-!
-# A207380: Total area of the shadows of the three views of a three-dimensional version of the modular table of partitions with n shells.
+# A207380: Total area of the shadows of the three views of a three-dimensional version of the modular table of partitions with n sections.
 
 The programs for A207380, there is no canonical definition to state claims against.
 -/

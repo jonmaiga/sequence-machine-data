@@ -52,17 +52,12 @@ import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2739,7 +2734,7 @@ end A180823.P223267847348514858
 /-!
 # A180824: Number of distinct solutions of Sum_{i=1..1} x(2i-1)*x(2i) = 1 (mod n), with x() only in 2..n-2.
 
-The programs for A180824, the canonical program `A180824.P4915511822982714582` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180824 has offset 1).
+The programs for A180824, the canonical program `A180824.P4915511822982714582` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180824 has offset 1).
 
 The definition of A180824 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 420 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2748,7 +2743,7 @@ The definition of A180824 is `conjectured`: the Lean definition is a formula tha
 
 `(A180783(n+1)-2)%A108411(n)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A180824
@@ -6367,7 +6362,7 @@ end
 end A180862.P1987946628559059886
 
 /-!
-# A180863: Wiener index of the n-sun graph.
+# A180863: a(n) = n*(4*n-5).
 
 The programs for A180863, the canonical program `A180863.P2140346056879836369` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180863 has offset 2).
 
@@ -7083,7 +7078,7 @@ end A180864
 /-!
 # A180868: Numbers n such that n and n+1 are semiprime powers.
 
-The programs for A180868, the canonical program `A180868.P7115571650315980028` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180868 has offset 1).
+The programs for A180868, the canonical program `A180868.P7115571650315980028` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180868 has offset 1).
 
 The definition of A180868 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7122,7 +7117,7 @@ end A180868
 
 `A085155(eq[1, A085155(n+2)-A085155(n+1)]+1)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A180868
@@ -7581,7 +7576,7 @@ end A180875.P15992560904201071407
 /-!
 # A180876: a(n) = sopfr(n) - (floor(sqrt(n))*bigomega(n)).
 
-The programs for A180876, the canonical program `A180876.P6197043835918196707` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180876 has offset 1).
+The programs for A180876, the canonical program `A180876.P6197043835918196707` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180876 has offset 1).
 
 The definition of A180876 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A001414, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7590,7 +7585,7 @@ The definition of A180876 is `conditional`: the Lean definition is an OEIS formu
 
 `A001414(n+1)-floor(sqrt(n+1))*A001222(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A180876
@@ -7625,12 +7620,6 @@ namespace A180876
 /-- `A001414(n+1)-A001222(n+1)*A000196(n+1)` -/
 def P15554643865341676063.Spec : Prop :=
   ∀ n, P15554643865341676063.a n = A180876 (n + 1)
-
-theorem P15554643865341676063.correct : P15554643865341676063.Spec := by
-  intro n
-  simp only [A180876, Nat.add_sub_cancel, A180876.P15554643865341676063.a, A180876.P6197043835918196707.a, A000196, A000196.P15434771586934192083.a, A001222, A001222.P11318177267732088261.a, A001414, A001414.P8293929508439252105.f1, A001414.P8293929508439252105.a, A061395, A061395.P8431317036300486107.a, A122111, A122111.P18124015185857335041.a, A029837, A029837.P1050578713049589.a, A064989, A064989.P13349672914146769936.a, A087207, A087207.P12536008426233777954.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A008578, A008578.P3639467937083264764.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A052126, A052126.P1944428405920482243.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A180876
 

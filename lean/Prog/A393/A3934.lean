@@ -32,23 +32,22 @@ import Seq.B001.C002
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1531,7 +1530,7 @@ end A393441
 /-!
 # A393443: Array read by downward antidiagonals: T(n,k) (n>=0, k>=0) = 1+k+2*n*k+k*(k-1)/2+n*(n-1).
 
-The programs for A393443, the canonical program `A393443.P16093483747421340757` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393443 has offset 0).
+The programs for A393443, the canonical program `A393443.P16093483747421340757` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393443 has offset 0).
 
 The definition of A393443 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1540,7 +1539,7 @@ The definition of A393443 is `conjectured`: the Lean definition is a formula tha
 
 `A162609(n+1)+A049780(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A393443
@@ -2855,7 +2854,7 @@ end A393494.P2799645058533174529
 /-!
 # A393496: a(n) is the GCD of the X and Y-coordinates of the n-th point of the square spiral.
 
-The programs for A393496, the canonical program `A393496.P1782685945993566905` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393496 has offset 1).
+The programs for A393496, the canonical program `A393496.P1782685945993566905` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393496 has offset 1).
 
 The definition of A393496 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2864,7 +2863,7 @@ The definition of A393496 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `gcd(A174344(n+1), A274923(n+1))`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A393496

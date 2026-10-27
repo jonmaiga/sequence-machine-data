@@ -42,12 +42,11 @@ import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -55,10 +54,9 @@ import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -67,8 +65,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3609,7 +3606,7 @@ end A298945.P11237947737664388669
 /-!
 # A298946: a(n) = binomial(2*c-1, c-1) (mod c^4), where c is the n-th composite number.
 
-The programs for A298946, the canonical program `A298946.P13261524551093357640` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298946 has offset 1).
+The programs for A298946, the canonical program `A298946.P13261524551093357640` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298946 has offset 1).
 
 The definition of A298946 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8770 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3618,7 +3615,7 @@ The definition of A298946 is `conjectured`: the Lean definition is a formula tha
 
 `A099908(A002808(n+1))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A298946
@@ -3699,12 +3696,6 @@ namespace A298946
 /-- `A099908(A072668(n+1)+1)` -/
 def P17653069308840989652.Spec : Prop :=
   ∀ n, P17653069308840989652.a n = A298946 (n + 1)
-
-theorem P17653069308840989652.correct : P17653069308840989652.Spec := by
-  intro n
-  simp only [A298946, Nat.add_sub_cancel, A298946.P17653069308840989652.a, A298946.P13261524551093357640.a, A002808, A002808.P8130888830651501259.f1, A002808.P8130888830651501259.f2, A002808.P8130888830651501259.a, A072668, A072668.P5648318357023435289.a, A099908, A099908.P1005460411220933810.a, A082023, A082023.P820682903743471019.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A298946
 
@@ -6294,7 +6285,7 @@ end A298970.P10782337059142475103
 /-!
 # A298971: Number of compositions of n that are proper powers of Lyndon words.
 
-The programs for A298971, the canonical program `A298971.P5502893336547545168` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298971 has offset 1).
+The programs for A298971, the canonical program `A298971.P5502893336547545168` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298971 has offset 1).
 
 The definition of A298971 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008965, A059966, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6303,7 +6294,7 @@ The definition of A298971 is `conditional`: the Lean definition is an OEIS formu
 
 `A008965(n+1)-A059966(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A298971

@@ -3,7 +3,6 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -49,11 +48,13 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -63,6 +64,7 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
@@ -71,7 +73,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1402,7 +1403,7 @@ end A288312.P15085920250069188525
 /-!
 # A288313: Let b(k) denote A056240(k); the sequence lists numbers b(2*n) where for all m > n, b(2*m) > b(2*n).
 
-The programs for A288313, the canonical program `A288313.P13212366983752349706` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288313 has offset 1).
+The programs for A288313, the canonical program `A288313.P13212366983752349706` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288313 has offset 1).
 
 The definition of A288313 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1480,7 +1481,7 @@ end A288313
 
 `3*A000040(n%a(n-1))` with `a(0)=2, a(1)=4, a(2)=8`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A288313
@@ -3306,7 +3307,7 @@ end A288339.P11582764056902774765
 /-!
 # A288341: Expansion of 1 / ((1-x)^2*(1-x^2)*(1-x^3)*...*(1-x^6)).
 
-The programs for A288341, the canonical program `A288341.P677461810220747952` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288341 has offset 0).
+The programs for A288341, the canonical program `A288341.P677461810220747952` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288341 has offset 0).
 
 The definition of A288341 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3341,7 +3342,7 @@ end A288341
 
 `∑[∑[A037145(n)]]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A288341
@@ -7395,7 +7396,7 @@ end A288380
 /-!
 # A288381: Fixed point of the mapping 00->0001, 1->11, starting with 00.
 
-The programs for A288381, the canonical program `A288381.P12069710010268549905` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288381 has offset 1).
+The programs for A288381, the canonical program `A288381.P12069710010268549905` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288381 has offset 1).
 
 The definition of A288381 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7431,7 +7432,7 @@ end A288381
 
 `A288132(abs(1-n)+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A288381

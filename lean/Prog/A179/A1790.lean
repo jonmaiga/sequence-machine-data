@@ -51,6 +51,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -58,24 +59,29 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1710,7 +1716,7 @@ end A179011.P4104161097985130689
 /-!
 # A179012: Primes that are the sum of three consecutive composite odd numbers.
 
-The programs for A179012, the canonical program `A179012.P1284403483129430649` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179012 has offset 1).
+The programs for A179012, the canonical program `A179012.P1284403483129430649` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179012 has offset 1).
 
 The definition of A179012 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1719,7 +1725,7 @@ The definition of A179012 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A163631(n+4)-A163631(n+1)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A179012
@@ -2514,7 +2520,7 @@ end A179016.P3385978511446693943
 /-!
 # A179017: Odd numbers c such that c*(c^2 - 1)/4 is squarefree.
 
-The programs for A179017, the canonical program `A179017.P6095337465077806677` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179017 has offset 1).
+The programs for A179017, the canonical program `A179017.P6095337465077806677` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179017 has offset 1).
 
 The definition of A179017 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7776 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2661,7 +2667,7 @@ end A179017
 
 `filter[A295243(n+1), A008966(#)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A179017
@@ -3475,7 +3481,7 @@ end A179018
 /-!
 # A179019: a(n) = (A179017(n)+1)/2.
 
-The programs for A179019, the canonical program `A179019.P4552771100310599832` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179019 has offset 1).
+The programs for A179019, the canonical program `A179019.P4552771100310599832` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179019 has offset 1).
 
 The definition of A179019 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A179017, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3484,7 +3490,7 @@ The definition of A179019 is `conditional`: the Lean definition is an OEIS formu
 
 `(A179017(n+1)+1)/2`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A179019
@@ -3915,7 +3921,7 @@ end A179019
 /-!
 # A179020: Doubled Thue-Morse sequence: the A010059 sequence replacing 0 with 0,0 and 1 with 1,1.
 
-The programs for A179020, the canonical program `A179020.P13298888622046712416` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179020 has offset 0).
+The programs for A179020, the canonical program `A179020.P13298888622046712416` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179020 has offset 0).
 
 The definition of A179020 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3924,7 +3930,7 @@ The definition of A179020 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1-A095190(n)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A179020
@@ -11403,7 +11409,7 @@ end A179065.P14199590314744232340
 /-!
 # A179067: Orders of consecutive clusters of twin primes.
 
-The programs for A179067, the canonical program `A179067.P13388217006194654114` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179067 has offset 1).
+The programs for A179067, the canonical program `A179067.P13388217006194654114` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179067 has offset 1).
 
 The definition of A179067 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11412,7 +11418,7 @@ The definition of A179067 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[comp[A242881(n+1)-1]]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A179067

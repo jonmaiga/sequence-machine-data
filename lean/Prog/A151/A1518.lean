@@ -37,31 +37,30 @@ import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3554,7 +3553,7 @@ def P16629899487774851367.Spec : Prop :=
 end A151842
 
 /-!
-# A151843: a(0)=0; a(1)=0; a(2)=0; for n>=3 if n=2^i + j with 0<=j
+# A151843: a(0)=0; a(1)=0; a(2)=0; for n>=3 if n=2^i + j with 0<=j<2^i then a(n)=a(j) + a(j + 1) except we add 1 if j=2^i-1.
 
 The programs for A151843, there is no canonical definition to state claims against.
 -/
@@ -3872,7 +3871,7 @@ end
 end A151844.P741727832242634829
 
 /-!
-# A151845: a(0)=0; a(1)=1; a(2)=1; for n>=3 if n=2^i + j with 0<=j
+# A151845: a(0)=0; a(1)=1; a(2)=1; for n>=3 if n=2^i + j with 0<=j<2^i then a(n)=a(j) + a(j + 1) except we add 1 if j=2^i-1.
 
 The programs for A151845, there is no canonical definition to state claims against.
 -/
@@ -4199,7 +4198,7 @@ end
 end A151846.P891175169887151746
 
 /-!
-# A151847: a(0)=1; a(1)=0; a(2)=1; for n>=3 if n=2^i + j with 0<=j
+# A151847: a(0)=1; a(1)=0; a(2)=1; for n>=3 if n=2^i + j with 0<=j<2^i then a(n)=a(j) + a(j + 1) except we add 1 if j=2^i-1.
 
 The programs for A151847, there is no canonical definition to state claims against.
 -/
@@ -4502,7 +4501,7 @@ end
 end A151848.P4731396168034941326
 
 /-!
-# A151849: a(0)=1; a(1)=1; a(2)=2; for n>=3 if n=2^i + j with 0<=j
+# A151849: a(0)=1; a(1)=1; a(2)=2; for n>=3 if n=2^i + j with 0<=j<2^i then a(n)=a(j) + a(j + 1) except we add 1 if j=2^i-1.
 
 The programs for A151849, there is no canonical definition to state claims against.
 -/
@@ -4859,7 +4858,7 @@ end
 end A151850.P5183590788340022761
 
 /-!
-# A151851: a(0)=0; a(1)=0; a(2)=0; for n>=3 if n=2^i + j with 0<=j
+# A151851: a(0)=0; a(1)=0; a(2)=0; for n>=3 if n=2^i + j with 0<=j<2^i then a(n)=a(j) + 2*a(j + 1) except we add 1 if j=2^i-1.
 
 The programs for A151851, there is no canonical definition to state claims against.
 -/
@@ -5126,7 +5125,7 @@ end
 end A151852.P18290263109381649838
 
 /-!
-# A151853: a(0)=0; a(1)=1; a(2)=2; for n>=3 if n=2^i + j with 0<=j
+# A151853: a(0)=0; a(1)=1; a(2)=2; for n>=3 if n=2^i + j with 0<=j<2^i then a(n)=a(j) + 2*a(j + 1) except we add 1 if j=2^i-1.
 
 The programs for A151853, there is no canonical definition to state claims against.
 -/
@@ -5408,7 +5407,7 @@ end
 end A151854.P13940811217034144145
 
 /-!
-# A151855: a(0)=1; a(1)=0; a(2)=1; for n>=3 if n=2^i + j with 0<=j
+# A151855: a(0)=1; a(1)=0; a(2)=1; for n>=3 if n=2^i + j with 0<=j<2^i then a(n)=a(j) + 2*a(j + 1) except we add 1 if j=2^i-1.
 
 The programs for A151855, there is no canonical definition to state claims against.
 -/
@@ -5690,7 +5689,7 @@ end
 end A151856.P2401369068921359456
 
 /-!
-# A151857: a(0)=1; a(1)=1; a(2)=3; for n>=3 if n=2^i + j with 0<=j
+# A151857: a(0)=1; a(1)=1; a(2)=3; for n>=3 if n=2^i + j with 0<=j<2^i then a(n)=a(j) + 2*a(j + 1) except we add 1 if j=2^i-1.
 
 The programs for A151857, there is no canonical definition to state claims against.
 -/
@@ -5942,7 +5941,7 @@ end
 end A151858.P741442136750662766
 
 /-!
-# A151859: a(0)=0; a(1)=0; a(2)=0; for n>=3 if n=2^i + j with 0<=j
+# A151859: a(0)=0; a(1)=0; a(2)=0; for n>=3 if n=2^i + j with 0<=j<2^i then a(n)=2*a(j) + a(j + 1) except we add 1 if j=2^i-1.
 
 The programs for A151859, there is no canonical definition to state claims against.
 -/
@@ -6389,7 +6388,7 @@ end
 end A151860.P9415474764349633862
 
 /-!
-# A151861: a(0)=0; a(1)=1; a(2)=1; for n>=3 if n=2^i + j with 0<=j
+# A151861: a(0)=0; a(1)=1; a(2)=1; for n>=3 if n=2^i + j with 0<=j<2^i then a(n)=2*a(j) + a(j + 1) except we add 1 if j=2^i-1.
 
 The programs for A151861, there is no canonical definition to state claims against.
 -/
@@ -6839,7 +6838,7 @@ end
 end A151862.P6490824394516646829
 
 /-!
-# A151863: a(0)=1; a(1)=0; a(2)=2; for n>=3 if n=2^i + j with 0<=j
+# A151863: a(0)=1; a(1)=0; a(2)=2; for n>=3 if n=2^i + j with 0<=j<2^i then a(n)=2*a(j) + a(j + 1) except we add 1 if j=2^i-1.
 
 The programs for A151863, there is no canonical definition to state claims against.
 -/
@@ -7229,7 +7228,7 @@ end
 end A151864.P14248976367292560730
 
 /-!
-# A151865: a(0)=1; a(1)=1; a(2)=3; for n>=3 if n=2^i + j with 0<=j
+# A151865: a(0)=1; a(1)=1; a(2)=3; for n>=3 if n=2^i + j with 0<=j<2^i then a(n)=2*a(j) + a(j + 1) except we add 1 if j=2^i-1.
 
 The programs for A151865, there is no canonical definition to state claims against.
 -/
@@ -7544,7 +7543,7 @@ end
 end A151866.P396833502955517358
 
 /-!
-# A151867: a(0)=0; a(1)=0; a(2)=0; for n>=3 if n=2^i + j with 0<=j
+# A151867: a(0)=0; a(1)=0; a(2)=0; for n>=3 if n=2^i + j with 0<=j<2^i then a(n)=2*a(j) + 2*a(j + 1) except we add 1 if j=2^i-1.
 
 The programs for A151867, there is no canonical definition to state claims against.
 -/
@@ -7856,7 +7855,7 @@ end
 end A151868.P2110518466183157634
 
 /-!
-# A151869: a(0)=0; a(1)=1; a(2)=2; for n>=3 if n=2^i + j with 0<=j
+# A151869: a(0)=0; a(1)=1; a(2)=2; for n>=3 if n=2^i + j with 0<=j<2^i then a(n)=2*a(j) + 2*a(j + 1) except we add 1 if j=2^i-1.
 
 The programs for A151869, there is no canonical definition to state claims against.
 -/
@@ -8198,7 +8197,7 @@ end
 end A151870.P1024946233314685228
 
 /-!
-# A151871: a(0)=1; a(1)=0; a(2)=2; for n>=3 if n=2^i + j with 0<=j
+# A151871: a(0)=1; a(1)=0; a(2)=2; for n>=3 if n=2^i + j with 0<=j<2^i then a(n)=2*a(j) + 2*a(j + 1) except we add 1 if j=2^i-1.
 
 The programs for A151871, there is no canonical definition to state claims against.
 -/
@@ -8525,7 +8524,7 @@ end
 end A151872.P15052089831319142198
 
 /-!
-# A151873: a(0)=1; a(1)=1; a(2)=4; for n>=3 if n=2^i + j with 0<=j
+# A151873: a(0)=1; a(1)=1; a(2)=4; for n>=3 if n=2^i + j with 0<=j<2^i then a(n)=2*a(j) + 2*a(j + 1) except we add 1 if j=2^i-1.
 
 The programs for A151873, there is no canonical definition to state claims against.
 -/

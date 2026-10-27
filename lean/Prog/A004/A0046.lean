@@ -10,7 +10,6 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -48,18 +47,22 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -69,10 +72,9 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -929,7 +931,7 @@ end A004610
 /-!
 # A004611: Divisible only by primes congruent to 1 mod 3.
 
-The programs for A004611, the canonical program `A004611.P11928257504915027012` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004611 has offset 1).
+The programs for A004611, the canonical program `A004611.P11928257504915027012` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004611 has offset 1).
 
 The definition of A004611 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5883 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1210,7 +1212,7 @@ end A004611
 
 `record[(n+1)*A319691(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A004611
@@ -1462,7 +1464,7 @@ end A004611
 /-!
 # A004612: Numbers that are divisible only by primes congruent to 2 mod 3.
 
-The programs for A004612, the canonical program `A004612.P8021407294462197357` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004612 has offset 1).
+The programs for A004612, the canonical program `A004612.P8021407294462197357` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004612 has offset 1).
 
 The definition of A004612 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7375 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1471,7 +1473,7 @@ The definition of A004612 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A088232(n+1), A014578(#)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A004612
@@ -2587,7 +2589,7 @@ end A004613
 /-!
 # A004614: Numbers that are divisible only by primes congruent to 3 mod 4.
 
-The programs for A004614, the canonical program `A004614.P9711491461572912569` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004614 has offset 1).
+The programs for A004614, the canonical program `A004614.P9711491461572912569` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004614 has offset 1).
 
 The definition of A004614 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5176 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2682,7 +2684,7 @@ end A004614
 
 `filter[A081754(n+1), A354036(#)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A004614
@@ -4709,7 +4711,7 @@ end A004626.P15207595973959351213
 /-!
 # A004627: Divisible only by primes congruent to 5 mod 8.
 
-The programs for A004627, the canonical program `A004627.P17803393918126401768` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004627 has offset 1).
+The programs for A004627, the canonical program `A004627.P17803393918126401768` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004627 has offset 1).
 
 The definition of A004627 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 519 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4718,7 +4720,7 @@ The definition of A004627 is `conjectured`: the Lean definition is a formula tha
 
 `record[gcd(A170818(n+1), A331671(n+1))]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A004627

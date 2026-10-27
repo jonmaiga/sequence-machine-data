@@ -40,31 +40,32 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C005
+import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -73,7 +74,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -602,7 +602,7 @@ end
 end A175807.P5486164922873814654
 
 /-!
-# A175808: n-th term is the length of a shortest common superstring of the binary representations of all natural numbers from 1 to n.
+# A175808: a(n) is the length of a shortest common superstring of the binary representations of all natural numbers from 1 to n.
 
 The programs for A175808, there is no canonical definition to state claims against.
 -/
@@ -10166,7 +10166,7 @@ def P14577659323486255059.Spec : Prop :=
 end A175882
 
 /-!
-# A175883: Number of lattice paths from (0,0) to (n,n) using steps S={(k,0),(0,k)|0
+# A175883: Number of lattice paths from (0,0) to (n,n) using steps S={(k,0),(0,k)|0<k<=3} which never go above the line y=x.
 
 The programs for A175883, there is no canonical definition to state claims against.
 -/
@@ -12363,7 +12363,7 @@ end
 end A175888.P608883407719842528
 
 /-!
-# A175891: Number of lattice paths from (0,0) to (n,n) using steps S={(k,0),(0,k)|0
+# A175891: Number of lattice paths from (0,0) to (n,n) using steps S={(k,0),(0,k)|0<k<=4} which never go above the line y=x.
 
 The programs for A175891, there is no canonical definition to state claims against.
 -/
@@ -12563,7 +12563,7 @@ end A175892.P1188584135060041267
 /-!
 # A175893: Numbers m such that 2*prime(m)+prime(m+1) is prime.
 
-The programs for A175893, the canonical program `A175893.P14973154944427096017` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175893 has offset 1).
+The programs for A175893, the canonical program `A175893.P14973154944427096017` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175893 has offset 1).
 
 The definition of A175893 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 505 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12705,7 +12705,7 @@ end A175893
 
 `lt[A000005(A011974(n+2)+A000040(n+1)), 3]+1`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A175893
@@ -12773,7 +12773,7 @@ def P6077585342582350050.Spec : Prop :=
 end A175893
 
 /-!
-# A175895: Number of lattice paths from (0,0) to (n,n) using steps S={(k,0),(0,k),(1,1)|0
+# A175895: Number of lattice paths from (0,0) to (n,n) using steps S={(k,0),(0,k),(1,1)|0<k<=2} which never go above the line y=x.
 
 The programs for A175895, there is no canonical definition to state claims against.
 -/
@@ -12794,7 +12794,7 @@ end
 end A175895.P17517029732605576145
 
 /-!
-# A175896: Number of lattice paths from (0,0) to (n,n) using steps S={(k,0),(0,k),(1,1)|0
+# A175896: Number of lattice paths from (0,0) to (n,n) using steps S={(k,0),(0,k),(1,1)|0<k<=3} which never go above the line y-x.
 
 The programs for A175896, there is no canonical definition to state claims against.
 -/

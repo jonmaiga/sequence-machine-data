@@ -42,17 +42,18 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C001
+import Seq.B003.C004
+import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -60,12 +61,8 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2697,7 +2694,7 @@ end A215725.P18164377561242637198
 /-!
 # A215726: Numbers k such that the k-th triangular number is squarefree.
 
-The programs for A215726, the canonical program `A215726.P9624273629466354318` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215726 has offset 1).
+The programs for A215726, the canonical program `A215726.P9624273629466354318` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215726 has offset 1).
 
 The definition of A215726 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6828 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2729,7 +2726,7 @@ end A215726
 
 `∩[A078779(n+1)-1, A078779(n+1)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A215726
@@ -3831,7 +3828,7 @@ end A215746.P3458985601760369136
 /-!
 # A215747: a(n) = (-2)^n mod n.
 
-The programs for A215747, the canonical program `A215747.P14723553648550715807` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215747 has offset 1).
+The programs for A215747, the canonical program `A215747.P14723553648550715807` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215747 has offset 1).
 
 The definition of A215747 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3840,7 +3837,7 @@ The definition of A215747 is `conjectured`: the Lean definition is a formula tha
 
 `(xor(1, n+1)*A015910(n+1))%(n+1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A215747
@@ -4101,7 +4098,7 @@ end A215748.P3716825723630035005
 /-!
 # A215751: Numbers n such that tau(4n+2)=tau(4n)-2, where tau=A000005 gives the number of divisors.
 
-The programs for A215751, the canonical program `A215751.P5539135677145150358` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215751 has offset 1).
+The programs for A215751, the canonical program `A215751.P5539135677145150358` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215751 has offset 1).
 
 The definition of A215751 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 135 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4110,7 +4107,7 @@ The definition of A215751 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A032741(4*n+2)+2, A032741(4*n)]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A215751
@@ -4271,7 +4268,7 @@ end A215759.P26516001870729581
 /-!
 # A215761: Numbers m with property that 36m+11 is prime.
 
-The programs for A215761, the canonical program `A215761.P3697800326789046983` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215761 has offset 1).
+The programs for A215761, the canonical program `A215761.P3697800326789046983` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215761 has offset 1).
 
 The definition of A215761 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 516 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4396,7 +4393,7 @@ end A215761
 
 `eq[1, A167020(2*A016777(n))]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A215761

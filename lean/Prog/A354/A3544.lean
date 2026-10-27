@@ -36,35 +36,31 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
+import Seq.B005.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3033,7 +3029,7 @@ end
 end A354460.P11959744162762369157
 
 /-!
-# A354462: a(n) is the least number k such that there are exactly n pairs (p,q) of primes with p
+# A354462: a(n) is the least number k such that there are exactly n pairs (p,q) of primes with p<q such that p+q = 2*k and that 2*k+p, 2*k+q, p*q-2*k and p*q+2*k are primes.
 
 The programs for A354462, there is no canonical definition to state claims against.
 -/
@@ -3056,7 +3052,7 @@ end A354462.P2533915696500986169
 /-!
 # A354463: a(n) is the number of trailing zeros in (2^n)!.
 
-The programs for A354463, the canonical program `A354463.P2239529858229905820` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354463 has offset 0).
+The programs for A354463, the canonical program `A354463.P2239529858229905820` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354463 has offset 0).
 
 The definition of A354463 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3065,7 +3061,7 @@ The definition of A354463 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A027868(A000079(n))`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A354463
@@ -3255,7 +3251,7 @@ end A354465.P18176646864440036818
 /-!
 # A354467: Positive integers whose prime factors are congruent to 1 (mod 12).
 
-The programs for A354467, the canonical program `A354467.P1434315419781372648` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354467 has offset 1).
+The programs for A354467, the canonical program `A354467.P1434315419781372648` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354467 has offset 1).
 
 The definition of A354467 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3366 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3264,7 +3260,7 @@ The definition of A354467 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A004611(n+1), A072330(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A354467

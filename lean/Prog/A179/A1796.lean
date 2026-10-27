@@ -43,17 +43,20 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,8 +73,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3544,12 +3545,6 @@ namespace A179620
 def P17970852004551604148.Spec : Prop :=
   ∀ n, P17970852004551604148.a n = A179620 (n + 1)
 
-theorem P17970852004551604148.correct : P17970852004551604148.Spec := by
-  intro n
-  simp only [A179620, Nat.add_sub_cancel, A179620.P17970852004551604148.a, A179620.P6976213543873507641.f1, A179620.P6976213543873507641.a, A002808, A002808.P8130888830651501259.f1, A002808.P8130888830651501259.f2, A002808.P8130888830651501259.a, A072668, A072668.P5648318357023435289.a, A166460, A166460.P3722313716413946598.f1, A166460.P3722313716413946598.f2, A166460.P3722313716413946598.a, A006530, A006530.P13372528560459906635.a, A082023, A082023.P820682903743471019.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, A070229, A070229.P5792893597916963980.a, A028815, A028815.P810525423351225743.a, A061395, A061395.P8431317036300486107.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A179620
 
 /-! ## A179620.P4716594876906421087
@@ -4662,7 +4657,7 @@ end A179636.P9011898776567348049
 /-!
 # A179642: Product of exactly 5 primes, 3 of which are distinct.
 
-The programs for A179642, the canonical program `A179642.P1733193320111504691` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179642 has offset 1).
+The programs for A179642, the canonical program `A179642.P1733193320111504691` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179642 has offset 1).
 
 The definition of A179642 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4697,7 +4692,7 @@ end A179642
 
 `∩[A014614(n+1), A033992(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A179642
@@ -5721,7 +5716,7 @@ end A179643
 /-!
 # A179644: Product of the 4th power of a prime and 2 different distinct primes (p^4*q*r).
 
-The programs for A179644, the canonical program `A179644.P11803984710528431685` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179644 has offset 1).
+The programs for A179644, the canonical program `A179644.P11803984710528431685` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179644 has offset 1).
 
 The definition of A179644 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3259 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5760,7 +5755,7 @@ end A179644
 
 `∩[A030638(n+1), A082294(n+1)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A179644
@@ -10489,7 +10484,7 @@ end A179666.P4234959906034159528
 /-!
 # A179667: Products of the 5th power of a prime and 2 distinct primes (p^5*q*r).
 
-The programs for A179667, the canonical program `A179667.P13137735960818223073` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179667 has offset 1).
+The programs for A179667, the canonical program `A179667.P13137735960818223073` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179667 has offset 1).
 
 The definition of A179667 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1133 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10528,7 +10523,7 @@ end A179667
 
 `∩[A082294(n+1), A137487(n+1)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A179667
@@ -13366,7 +13361,7 @@ end A179689.P5144654774698878804
 /-!
 # A179690: Numbers of the form p^2*q^2*r*s where p, q, r, and s are distinct primes.
 
-The programs for A179690, the canonical program `A179690.P2467920889633160340` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179690 has offset 1).
+The programs for A179690, the canonical program `A179690.P2467920889633160340` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179690 has offset 1).
 
 The definition of A179690 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4475 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13435,7 +13430,7 @@ end A179690
 
 `∩[A350375(n+1), A375144(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A179690
@@ -14508,7 +14503,7 @@ end A179693.P17786121732298500395
 /-!
 # A179694: Numbers of the form p^6*q^3 where p and q are distinct primes.
 
-The programs for A179694, the canonical program `A179694.P2135230186693000708` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179694 has offset 1).
+The programs for A179694, the canonical program `A179694.P2135230186693000708` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179694 has offset 1).
 
 The definition of A179694 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A054753, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -14517,7 +14512,7 @@ The definition of A179694 is `conditional`: the Lean definition is an OEIS formu
 
 `A054753(n+1)^3`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A179694
@@ -14575,12 +14570,6 @@ namespace A179694
 /-- `A054753(n+1)*A189988(n+1)` -/
 def P2619589168734610751.Spec : Prop :=
   ∀ n, P2619589168734610751.a n = A179694 (n + 1)
-
-theorem P2619589168734610751.correct : P2619589168734610751.Spec := by
-  intro n
-  simp only [A179694, Nat.add_sub_cancel, A179694.P2619589168734610751.a, A179694.P2135230186693000708.a, A054753, A054753.P14709416938439353488.f1, A054753.P14709416938439353488.a, A189988, A189988.P7148530891049410471.a, A081619, A081619.P7456844298066121194.f1, A081619.P7456844298066121194.a, A359475, A359475.P3885974890903103559.a, A000005, A000005.P16091521709108585461.a, A005369, A005369.P10796159359873341658.a, A302048, A302048.P8618753497546879016.f1, A302048.P8618753497546879016.a, A359474, A359474.P3439923367546427684.a, A008966, A008966.P884693903657889754.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A359471, A359471.P18375457830657465753.f1, A359471.P18375457830657465753.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A179694
 
@@ -15058,7 +15047,7 @@ end A179695.P1384343476796022925
 /-!
 # A179696: Numbers with prime signature {7,1,1}, i.e., of form p^7*q*r with p, q and r distinct primes.
 
-The programs for A179696, the canonical program `A179696.P11726697368278326928` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179696 has offset 1).
+The programs for A179696, the canonical program `A179696.P11726697368278326928` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179696 has offset 1).
 
 The definition of A179696 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 487 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15097,7 +15086,7 @@ end A179696
 
 `∩[A079712(n+1), A175742(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A179696
@@ -15438,7 +15427,7 @@ end A179698.P3999409478645945455
 /-!
 # A179699: Numbers of the form p^8*q^2 where p and q are distinct primes.
 
-The programs for A179699, the canonical program `A179699.P1483605779152392052` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179699 has offset 1).
+The programs for A179699, the canonical program `A179699.P1483605779152392052` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179699 has offset 1).
 
 The definition of A179699 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15447,7 +15436,7 @@ The definition of A179699 is `conjectured`: the Lean definition is a formula tha
 
 `A178739(n+1)²`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A179699

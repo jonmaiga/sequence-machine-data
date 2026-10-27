@@ -40,19 +40,20 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
+import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -60,13 +61,12 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4357,7 +4357,7 @@ end A242756.P5860353171742582374
 /-!
 # A242757: Partial sums of the number of integers between successive twin prime pairs.
 
-The programs for A242757, the canonical program `A242757.P13009663021335079436` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242757 has offset 1).
+The programs for A242757, the canonical program `A242757.P13009663021335079436` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242757 has offset 1).
 
 The definition of A242757 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001359, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4366,7 +4366,7 @@ The definition of A242757 is `conditional`: the Lean definition is an OEIS formu
 
 `A001359(n+2)-2-3*(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A242757
@@ -4875,7 +4875,7 @@ end A242757
 /-!
 # A242758: Smallest even k such that lpf(k-1) > lpf(k-3) >= prime(n), where lpf=least prime factor (A020639).
 
-The programs for A242758, the canonical program `A242758.P10195906630605869093` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242758 has offset 2).
+The programs for A242758, the canonical program `A242758.P10195906630605869093` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242758 has offset 2).
 
 The definition of A242758 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4884,7 +4884,7 @@ The definition of A242758 is `conjectured`: the Lean definition is a formula tha
 
 `A001359(A082462(n+1)+1)+3`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A242758
@@ -5609,7 +5609,7 @@ end A242766
 /-!
 # A242767: Numbers of repetitions of terms in A242758.
 
-The programs for A242767, the canonical program `A242767.P6276449245007787369` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242767 has offset 2).
+The programs for A242767, the canonical program `A242767.P6276449245007787369` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242767 has offset 2).
 
 The definition of A242767 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5618,7 +5618,7 @@ The definition of A242767 is `conjectured`: the Lean definition is a formula tha
 
 `A027833(round(sqrt(n²+1)))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A242767
@@ -5918,7 +5918,7 @@ end A242767
 /-!
 # A242768: Indices of twin primes in {A242758(n)-3}.
 
-The programs for A242768, the canonical program `A242768.P9991712360003241980` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242768 has offset 2).
+The programs for A242768, the canonical program `A242768.P9991712360003241980` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A242768 has offset 2).
 
 The definition of A242768 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5927,7 +5927,7 @@ The definition of A242768 is `conjectured`: the Lean definition is a formula tha
 
 `A242767(A082462(n+1)+2)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A242768

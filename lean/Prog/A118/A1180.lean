@@ -47,7 +47,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -61,16 +61,14 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1647,7 +1645,7 @@ end A118005
 /-!
 # A118006: Define a sequence of binary words by w(1) = 01 and w(n+1) = w(n)w(n)Reverse[w(n)]. Sequence gives the limiting word w(infinity).
 
-The programs for A118006, the canonical program `A118006.P10735077424851259672` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118006 has offset 1).
+The programs for A118006, the canonical program `A118006.P10735077424851259672` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118006 has offset 1).
 
 The definition of A118006 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1772,7 +1770,7 @@ end A118006
 
 `and(1, A080846(or(1, n))+n)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A118006
@@ -8845,7 +8843,7 @@ end A118071.P13112121576130009924
 /-!
 # A118072: Primes which are the sum of a twin prime pair - 1.
 
-The programs for A118072, the canonical program `A118072.P11241627078805568057` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118072 has offset 1).
+The programs for A118072, the canonical program `A118072.P11241627078805568057` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118072 has offset 1).
 
 The definition of A118072 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8854,7 +8852,7 @@ The definition of A118072 is `conjectured`: the Lean definition is a formula tha
 
 `2*A045536(n+1)+1`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A118072

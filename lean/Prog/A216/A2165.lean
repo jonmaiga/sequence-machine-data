@@ -40,7 +40,8 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -49,9 +50,7 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -62,8 +61,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3276,7 +3274,7 @@ end A216540.P14917209023788110943
 /-!
 # A216541: Product of Lucas and Catalan numbers: a(n) = A000032(n+1)*A000108(n).
 
-The programs for A216541, the canonical program `A216541.P15065327928894304431` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216541 has offset 0).
+The programs for A216541, the canonical program `A216541.P15065327928894304431` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216541 has offset 0).
 
 The definition of A216541 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000032(n+1)*A000108(n)` (program `A216541.P15065327928894304431`, by `A216541.P15065327928894304431.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3285,7 +3283,7 @@ The definition of A216541 is `verified`: the Lean definition is proven equivalen
 
 `A000032(n+1)*A000108(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A216541
@@ -4684,7 +4682,7 @@ end A216555.P13244293951084888680
 /-!
 # A216556: Concatenate decimal digits of n, each increased by 1.
 
-The programs for A216556, the canonical program `A216556.P12733436733351408315` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216556 has offset 0).
+The programs for A216556, the canonical program `A216556.P12733436733351408315` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216556 has offset 0).
 
 The definition of A216556 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4693,7 +4691,7 @@ The definition of A216556 is `conjectured`: the Lean definition is a formula tha
 
 `A053392(A051022(n)+10)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A216556
@@ -7464,7 +7462,7 @@ end A216583.P4326854272034857320
 /-!
 # A216584: a(n) = A002426(n)*A000984(n); product of central trinomial coefficients and central binomial coefficients.
 
-The programs for A216584, the canonical program `A216584.P10493900783905801092` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216584 has offset 0).
+The programs for A216584, the canonical program `A216584.P10493900783905801092` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216584 has offset 0).
 
 The definition of A216584 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7473,7 +7471,7 @@ The definition of A216584 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A002426(n)*A000984(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A216584
@@ -7738,7 +7736,7 @@ end
 end A216585.P14247734710014029549
 
 /-!
-# A216586: G.f.: exp( Sum_{n>=1} A002426(n)/2 * A002426(n) * x^n/n ), where A002426 is the central binomial coefficients and A002426 is the central trinomial coefficients.
+# A216586: G.f.: exp( Sum_{n>=1} A000984(n)/2 * A002426(n) * x^n/n ), where A000984 is the central binomial coefficients and A002426 is the central trinomial coefficients.
 
 The programs for A216586, there is no canonical definition to state claims against.
 -/

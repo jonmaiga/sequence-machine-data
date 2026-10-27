@@ -36,24 +36,28 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -65,8 +69,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -736,7 +738,7 @@ end A309004
 /-!
 # A309005: Odd squarefree composite numbers m such that m+2 is prime.
 
-The programs for A309005, the canonical program `A309005.P3778487510630834579` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309005 has offset 1).
+The programs for A309005, the canonical program `A309005.P3778487510630834579` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309005 has offset 1).
 
 The definition of A309005 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5950 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -901,7 +903,7 @@ end A309005
 
 `filter[A179384(n+3), A359590(#)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A309005
@@ -6874,7 +6876,7 @@ end A309080.P6267975475429003807
 /-!
 # A309081: a(n) = n - floor(n/2^2) + floor(n/3^2) - floor(n/4^2) + ...
 
-The programs for A309081, the canonical program `A309081.P14085195362335014076` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309081 has offset 1).
+The programs for A309081, the canonical program `A309081.P14085195362335014076` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309081 has offset 1).
 
 The definition of A309081 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6883,7 +6885,7 @@ The definition of A309081 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A344299(n+1)]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A309081
@@ -7373,7 +7375,7 @@ end A309082
 /-!
 # A309083: a(n) = n - floor(n/2^4) + floor(n/3^4) - floor(n/4^4) + ...
 
-The programs for A309083, the canonical program `A309083.P4186422859926366372` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309083 has offset 1).
+The programs for A309083, the canonical program `A309083.P4186422859926366372` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309083 has offset 1).
 
 The definition of A309083 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7434,7 +7436,7 @@ end A309083
 
 `∑[A344299(sqrt(A008833(n+1)))]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A309083

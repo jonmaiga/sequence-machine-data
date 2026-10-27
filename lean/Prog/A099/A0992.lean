@@ -45,12 +45,12 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C011
+import Seq.B001.C009
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -59,19 +59,17 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B009.C000
+import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1395,7 +1393,7 @@ def P2658673278409356775.Spec : Prop :=
 end A099212
 
 /-!
-# A099213: a(n) = a(n-1)+a(n-2)+3a(n-3), with a(0)=a(1)=a(2)=1.
+# A099213: a(n) = a(n-1) + a(n-2) + 3*a(n-3), with a(0) = a(1) = a(2) = 1.
 
 The programs for A099213, the canonical program `A099213.P15234927761229543964` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A099213 has offset 0).
 
@@ -13428,7 +13426,7 @@ end
 end A099291.P9840536478394673069
 
 /-!
-# A099297: Number of times the digit 6 appears in the first 10^n digits of Pi.
+# A099297: Number of times the digit 6 appears in the first 10^n digits after the decimal point of Pi.
 
 The programs for A099297, there is no canonical definition to state claims against.
 -/

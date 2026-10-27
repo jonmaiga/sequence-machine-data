@@ -40,21 +40,20 @@ import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
@@ -63,10 +62,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3479,7 +3475,7 @@ end
 end A211024.P6063371424264168844
 
 /-!
-# A211026: Number of segments needed to draw (on the infinite square grid) a diagram of regions and partitions of n.
+# A211026: Number of segments needed to draw on the infinite square grid a diagram of regions and partitions of n.
 
 The programs for A211026, there is no canonical definition to state claims against.
 -/
@@ -7053,7 +7049,7 @@ end A211063.P10495295786294150404
 /-!
 # A211064: Number of 2 X 2 matrices having all terms in {1,...,n} and even determinant.
 
-The programs for A211064, the canonical program `A211064.P13014287104965376940` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211064 has offset 1).
+The programs for A211064, the canonical program `A211064.P13014287104965376940` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211064 has offset 1).
 
 The definition of A211064 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7085,7 +7081,7 @@ end A211064
 
 `A212893(n)+A210370(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211064
@@ -7832,7 +7828,7 @@ end A211067
 /-!
 # A211068: Number of 2 X 2 matrices having all terms in {1,...,n} and positive odd determinant.
 
-The programs for A211068, the canonical program `A211068.P11930798809199669660` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211068 has offset 1).
+The programs for A211068, the canonical program `A211068.P11930798809199669660` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211068 has offset 1).
 
 The definition of A211068 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A211065, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7864,7 +7860,7 @@ end A211068
 
 `A211065(n+1)/2`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211068

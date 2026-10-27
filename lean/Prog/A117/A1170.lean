@@ -39,37 +39,37 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
+import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -102,7 +102,7 @@ set_option linter.unreachableTactic false
 /-!
 # A117000: a(n) = Sum_{d|n} Jacobi(2,d)*d.
 
-The programs for A117000, the canonical program `A117000.P13797727626534501886` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117000 has offset 1).
+The programs for A117000, the canonical program `A117000.P13797727626534501886` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117000 has offset 1).
 
 The definition of A117000 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -180,7 +180,7 @@ end A117000
 
 `A113417(A025480(n))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A117000
@@ -4564,7 +4564,7 @@ end A117060.P7314350510574372793
 /-!
 # A117061: a(n) = (s(n-1))^2+n, with a(1) = 1 and s(k) = A007953(a(k)).
 
-The programs for A117061, the canonical program `A117061.P6783340963500244464` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117061 has offset 1).
+The programs for A117061, the canonical program `A117061.P6783340963500244464` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117061 has offset 1).
 
 The definition of A117061 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4573,7 +4573,7 @@ The definition of A117061 is `conjectured`: the Lean definition is a formula tha
 
 `A118881(a(n-1))+1+n` with `a(0)=1`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A117061
@@ -8443,7 +8443,7 @@ end
 end A117095.P13218255340266573012
 
 /-!
-# A117096: Numbers n such that nextprime(2*n)
+# A117096: Numbers n such that nextprime(2*n)<2*nextprime(n) (if p is prime then nextprime(p)=p).
 
 The programs for A117096, the canonical program `A117096.P17502464881523089586` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A117096 has offset 1).
 
@@ -8584,7 +8584,7 @@ def P2226565814180000841.Spec : Prop :=
 end A117096
 
 /-!
-# A117097: Numbers n such that nextprime(3*n)
+# A117097: Numbers n such that nextprime(3*n)<3*nextprime(n) (if p is prime then nextprime(p)=p).
 
 The programs for A117097, there is no canonical definition to state claims against.
 -/
@@ -8698,7 +8698,7 @@ end
 end A117097.P9163562658932324412
 
 /-!
-# A117098: Numbers k such that nextprime(5*k)
+# A117098: Numbers k such that nextprime(5*k)<5*nextprime(k) (if p is prime then nextprime(p)=p).
 
 The programs for A117098, there is no canonical definition to state claims against.
 -/

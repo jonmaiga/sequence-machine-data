@@ -54,24 +54,25 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -560,7 +561,7 @@ end A141700
 /-!
 # A141701: Triangle read by rows: A001414 interleaved with (k-1) zeros.
 
-The programs for A141701, the canonical program `A141701.P8211479873156200797` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141701 has offset 1).
+The programs for A141701, the canonical program `A141701.P8211479873156200797` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141701 has offset 1).
 
 The definition of A141701 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -569,7 +570,7 @@ The definition of A141701 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[A126988(n+1), A120007(#)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A141701
@@ -5679,7 +5680,7 @@ end
 end A141748.P12210355570045940298
 
 /-!
-# A141751: Triangle, read by rows, where T(n,k) = [T(n-1,k-1)*T(n-1,k) + 1]/T(n-2,k-1) for 0=0 and T(n,0) = Fibonacci(2*n-1) for n>=1.
+# A141751: Triangle, read by rows, where T(n,k) = [T(n-1,k-1)*T(n-1,k) + 1]/T(n-2,k-1) for 0<k<n with T(n,n) = 1 for n>=0 and T(n,0) = Fibonacci(2*n-1) for n>=1.
 
 The programs for A141751, there is no canonical definition to state claims against.
 -/
@@ -12402,12 +12403,6 @@ namespace A141791
 def P14968817666953650570.Spec : Prop :=
   ∀ n, P14968817666953650570.a n = A141791 (n + 1)
 
-theorem P14968817666953650570.correct : P14968817666953650570.Spec := by
-  intro n
-  simp only [A141791, Nat.add_sub_cancel, A141791.P14968817666953650570.f1, A141791.P14968817666953650570.a, A141791.P18036711199778843654.f1, A141791.P18036711199778843654.a, A072668, A072668.P5648318357023435289.a, A073169, A073169.P14738260624206914448.a, A002808, A002808.P8130888830651501259.f1, A002808.P8130888830651501259.f2, A002808.P8130888830651501259.a, A082023, A082023.P820682903743471019.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A141791
 
 /-! ## A141791.P1373056083485224685
@@ -12538,12 +12533,6 @@ namespace A141791
 def P2665335438075501110.Spec : Prop :=
   ∀ n, P2665335438075501110.a n = A141791 (n + 1)
 
-theorem P2665335438075501110.correct : P2665335438075501110.Spec := by
-  intro n
-  simp only [A141791, Nat.add_sub_cancel, A141791.P2665335438075501110.f1, A141791.P2665335438075501110.a, A141791.P18036711199778843654.f1, A141791.P18036711199778843654.a, A073169, A073169.P14738260624206914448.a, A079696, A079696.P2621453534582977077.a, A002808, A002808.P8130888830651501259.f1, A002808.P8130888830651501259.f2, A002808.P8130888830651501259.a, A082023, A082023.P820682903743471019.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A141791
 
 /-! ## A141791.P6554406773226187850
@@ -12569,12 +12558,6 @@ namespace A141791
 /-- `p?[A164028(n+1)+2-n]` -/
 def P6554406773226187850.Spec : Prop :=
   ∀ n, P6554406773226187850.a n = A141791 (n + 1)
-
-theorem P6554406773226187850.correct : P6554406773226187850.Spec := by
-  intro n
-  simp only [A141791, Nat.add_sub_cancel, A141791.P6554406773226187850.f1, A141791.P6554406773226187850.a, A141791.P18036711199778843654.f1, A141791.P18036711199778843654.a, A073169, A073169.P14738260624206914448.a, A164028, A164028.P16722215845011041546.a, A002808, A002808.P8130888830651501259.f1, A002808.P8130888830651501259.f2, A002808.P8130888830651501259.a, A082023, A082023.P820682903743471019.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A141791
 

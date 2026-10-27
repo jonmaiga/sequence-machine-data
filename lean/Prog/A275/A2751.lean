@@ -41,16 +41,15 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -1126,7 +1125,7 @@ end A275111.P6308461308764512286
 /-!
 # A275112: Zero together with the partial sums of A064412.
 
-The programs for A275112, the canonical program `A275112.P4810474057767871080` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A275112 has offset 0).
+The programs for A275112, the canonical program `A275112.P4810474057767871080` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A275112 has offset 0).
 
 The definition of A275112 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1135,7 +1134,7 @@ The definition of A275112 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A064412(A028310(n))]-1`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A275112
@@ -5616,7 +5615,7 @@ end A275160.P6654288300736309974
 /-!
 # A275161: Number of sides of a polygon formed by tiling n squares in a spiral.
 
-The programs for A275161, the canonical program `A275161.P342480281307186842` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A275161 has offset 1).
+The programs for A275161, the canonical program `A275161.P342480281307186842` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A275161 has offset 1).
 
 The definition of A275161 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A240025, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5625,7 +5624,7 @@ The definition of A275161 is `conditional`: the Lean definition is an OEIS formu
 
 `6-2*A240025(n+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A275161

@@ -28,12 +28,12 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C002
-import Seq.B001.C004
-import Seq.B001.C011
+import Seq.B001.C005
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C002
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B004.C001
@@ -42,9 +42,8 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -162,7 +161,7 @@ end A394508.P8919306293270713112
 /-!
 # A394510: a(2*k) = 2*k*(5*k+1)*(10*k+1), a(2*k+1) = 2*(k+1)*(5*k+4)*(10*k+9), with k >= 0.
 
-The programs for A394510, the canonical program `A394510.P16388077156761870700` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394510 has offset 0).
+The programs for A394510, the canonical program `A394510.P16388077156761870700` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394510 has offset 0).
 
 The definition of A394510 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -171,7 +170,7 @@ The definition of A394510 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A132356(n)*A090771(n+1)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A394510
@@ -446,7 +445,7 @@ end A394526
 /-!
 # A394529: Total number of cells under all Dyck paths of semilength n in the first quadrant of the square grid.
 
-The programs for A394529, the canonical program `A394529.P4813404703482126856` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394529 has offset 0).
+The programs for A394529, the canonical program `A394529.P4813404703482126856` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394529 has offset 0).
 
 The definition of A394529 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -455,7 +454,7 @@ The definition of A394529 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n²*A000108(n)+A008549(n))/2`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A394529
@@ -1743,7 +1742,7 @@ def P2586043971973067974.Spec : Prop :=
 end A394572
 
 /-!
-# A394576: a(1) = 1; a(n+1) as the smallest positive integer greater than a(n) that avoids violating the condition a(k) + a(k+1) + a(k+2) is not term.
+# A394576: a(1) = 1; a(n+1) is the smallest positive integer greater than a(n) that avoids violating the condition a(k) + a(k+1) + a(k+2) is not a term.
 
 The programs for A394576, there is no canonical definition to state claims against.
 -/
@@ -1877,7 +1876,7 @@ end A394578.P14802131226059195368
 /-!
 # A394579: Moduli m in which a multiplicative square-root function exists over the ring of integers Z_m.
 
-The programs for A394579, the canonical program `A394579.P10493215658390247642` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394579 has offset 1).
+The programs for A394579, the canonical program `A394579.P10493215658390247642` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394579 has offset 1).
 
 The definition of A394579 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8769 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1912,7 +1911,7 @@ end A394579
 
 `filter[A081754(n+2), A212793(#)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A394579

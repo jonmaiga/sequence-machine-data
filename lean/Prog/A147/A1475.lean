@@ -36,7 +36,7 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C006
-import Seq.B001.C010
+import Seq.B001.C007
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
@@ -45,12 +45,13 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -63,8 +64,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2093,7 +2092,7 @@ def P9446368112891788239.Spec : Prop :=
 end A147534
 
 /-!
-# A147535: a(n) = 2*4^n+4*3^n-2^n.
+# A147535: a(n) = 2*4^n + 4*3^n - 2^n.
 
 The programs for A147535, the canonical program `A147535.P18348654175607518958` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A147535 has offset 0).
 
@@ -8356,7 +8355,7 @@ def P8240959017479032500.Spec : Prop :=
 end A147582
 
 /-!
-# A147583: Number of partitions of n into distinct parts such that 5*u<=v for all pairs (u,v) of parts with u
+# A147583: Number of partitions of n into distinct parts such that 5*u<=v for all pairs (u,v) of parts with u<v.
 
 The programs for A147583, there is no canonical definition to state claims against.
 -/

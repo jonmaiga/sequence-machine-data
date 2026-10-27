@@ -45,6 +45,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,6 +53,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -69,8 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -10397,7 +10397,7 @@ end A023729.P7160946468618239859
 /-!
 # A023730: Numbers with a single 2 in their base 5 expansion.
 
-The programs for A023730, the canonical program `A023730.P4010073991563025299` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023730 has offset 1).
+The programs for A023730, the canonical program `A023730.P4010073991563025299` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023730 has offset 1).
 
 The definition of A023730 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3840 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10406,7 +10406,7 @@ The definition of A023730 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A007432(A194459(n))]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A023730
@@ -11073,7 +11073,7 @@ end A023733
 /-!
 # A023734: Numbers with a single 3 in their base-5 expansion.
 
-The programs for A023734, the canonical program `A023734.P2270528785038764700` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023734 has offset 1).
+The programs for A023734, the canonical program `A023734.P2270528785038764700` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023734 has offset 1).
 
 The definition of A023734 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4096 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11111,7 +11111,7 @@ end A023734
 
 `eq[3, A000265(A338803(n))]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A023734
@@ -12826,7 +12826,7 @@ end A023742
 /-!
 # A023743: Base 5 expansion uses each positive digit just once.
 
-The programs for A023743, the canonical program `A023743.P13743805731837612874` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023743 has offset 1).
+The programs for A023743, the canonical program `A023743.P13743805731837612874` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023743 has offset 1).
 
 The definition of A023743 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 836 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13165,7 +13165,7 @@ end A023743
 
 `∩[A045237(n+1), A045282(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A023743

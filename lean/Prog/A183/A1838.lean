@@ -45,6 +45,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,14 +54,13 @@ import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B007.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6625,7 +6625,7 @@ def P16162830349888681405.Spec : Prop :=
 end A183862
 
 /-!
-# A183863: n-1+ceiling((2/5)(-1/2+n^2)); complement of A183862.
+# A183863: a(n) = n-1+ceiling((2/5)*(-1/2+n^2)); complement of A183862.
 
 The programs for A183863, the canonical program `A183863.P17623151324200419191` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183863 has offset 1).
 
@@ -10969,7 +10969,7 @@ end A183876.P16591244004769375384
 /-!
 # A183877: Number of arrangements of n+2 numbers in 0..2 with each number being the sum mod 3 of two others.
 
-The programs for A183877, the canonical program `A183877.P3935388817591142783` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183877 has offset 1).
+The programs for A183877, the canonical program `A183877.P3935388817591142783` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183877 has offset 1).
 
 The definition of A183877 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 207 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10978,7 +10978,7 @@ The definition of A183877 is `conjectured`: the Lean definition is a formula tha
 
 `abs(record[3^n-A001105(n+1)])`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A183877

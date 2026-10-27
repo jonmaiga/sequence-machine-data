@@ -31,28 +31,29 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
-import Seq.B004.C000
-import Seq.B004.C003
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B005.C000
-import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -251,7 +252,7 @@ end A252501
 /-!
 # A252502: Number of digits of Phi_n(10), or number of digits in base b of Phi_n(b), where Phi is the cyclotomic polynomial.
 
-The programs for A252502, the canonical program `A252502.P779221779202947021` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252502 has offset 1).
+The programs for A252502, the canonical program `A252502.P779221779202947021` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252502 has offset 1).
 
 The definition of A252502 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -292,7 +293,7 @@ end A252502
 
 `A092248(n+1)+Δ[A002088(n)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A252502
@@ -6847,7 +6848,7 @@ end A252592.P11248724394640009528
 /-!
 # A252596: Let a(n-1)=p and k=pi(p); then a(n)=prime(k+mod(p,3)).
 
-The programs for A252596, the canonical program `A252596.P10033558872996091197` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252596 has offset 1).
+The programs for A252596, the canonical program `A252596.P10033558872996091197` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252596 has offset 1).
 
 The definition of A252596 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6204 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6856,7 +6857,7 @@ The definition of A252596 is `conjectured`: the Lean definition is a formula tha
 
 `A008578(A000720(a(n-1)+1)+a(n-1)%3+1)` with `a(0)=5`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A252596

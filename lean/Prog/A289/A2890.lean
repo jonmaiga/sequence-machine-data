@@ -41,18 +41,19 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -66,7 +67,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3982,7 +3982,7 @@ end A289030.P12240869704670716937
 /-!
 # A289031: Number of perfect matchings on n+3 edges which represent RNA secondary folding structures characterized by the Reeder and Giegerich and the Lyngso and Pedersen families, but not the family characterized by Cao and Chen.
 
-The programs for A289031, the canonical program `A289031.P18143589707004328162` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289031 has offset 1).
+The programs for A289031, the canonical program `A289031.P18143589707004328162` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289031 has offset 1).
 
 The definition of A289031 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3991,7 +3991,7 @@ The definition of A289031 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*a(n-1)-a(n-2)+A003517(n+2)` with `a(0)=1, a(1)=8`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A289031
@@ -4218,7 +4218,7 @@ end A289031
 /-!
 # A289034: Fixed point of the morphism 0->010, 1->10 starting with 1.
 
-The programs for A289034, the canonical program `A289034.P3101325627668885776` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289034 has offset 1).
+The programs for A289034, the canonical program `A289034.P3101325627668885776` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289034 has offset 1).
 
 The definition of A289034 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4566,7 +4566,7 @@ end A289034
 
 `1-A189479(n+1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A289034
@@ -5535,7 +5535,7 @@ end A289036
 /-!
 # A289037: Positions of 1 in A289035; complement of A289036.
 
-The programs for A289037, the canonical program `A289037.P8224787134129977398` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289037 has offset 1).
+The programs for A289037, the canonical program `A289037.P8224787134129977398` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289037 has offset 1).
 
 The definition of A289037 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5598,7 +5598,7 @@ end A289037
 
 `∑[A276864(A028310(n))]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A289037

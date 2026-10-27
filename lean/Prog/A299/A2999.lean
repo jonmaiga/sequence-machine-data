@@ -44,17 +44,18 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -66,8 +67,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1392,7 +1391,7 @@ end A299914
 /-!
 # A299915: a(n) = A299914(2n).
 
-The programs for A299915, the canonical program `A299915.P2759897045341595723` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299915 has offset 0).
+The programs for A299915, the canonical program `A299915.P2759897045341595723` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299915 has offset 0).
 
 The definition of A299915 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1424,7 +1423,7 @@ end A299915
 
 `A299914(2*n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A299915
@@ -1647,7 +1646,7 @@ end A299915
 /-!
 # A299916: a(n) = A299914(2n+1).
 
-The programs for A299916, the canonical program `A299916.P12333873613617741462` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299916 has offset 0).
+The programs for A299916, the canonical program `A299916.P12333873613617741462` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299916 has offset 0).
 
 The definition of A299916 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1679,7 +1678,7 @@ end A299916
 
 `A299914(2*n+1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A299916
@@ -1954,7 +1953,7 @@ end A299916
 /-!
 # A299918: Motzkin numbers (A001006) mod 8.
 
-The programs for A299918, the canonical program `A299918.P3752853738902023478` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299918 has offset 0).
+The programs for A299918, the canonical program `A299918.P3752853738902023478` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299918 has offset 0).
 
 The definition of A299918 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 217 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1963,7 +1962,7 @@ The definition of A299918 is `conjectured`: the Lean definition is a formula tha
 
 `A001006(n)%8`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A299918
@@ -2358,7 +2357,7 @@ end A299918
 /-!
 # A299919: Motzkin numbers (A001006) mod 4.
 
-The programs for A299919, the canonical program `A299919.P11614589965171883546` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299919 has offset 0).
+The programs for A299919, the canonical program `A299919.P11614589965171883546` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299919 has offset 0).
 
 The definition of A299919 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2367,7 +2366,7 @@ The definition of A299919 is `conjectured`: the Lean definition is a formula tha
 
 `A299918(n)%4`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A299919
@@ -2822,7 +2821,7 @@ end A299919
 /-!
 # A299920: Motzkin numbers (A001006) mod 6.
 
-The programs for A299920, the canonical program `A299920.P4677145065747022215` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299920 has offset 0).
+The programs for A299920, the canonical program `A299920.P4677145065747022215` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299920 has offset 0).
 
 The definition of A299920 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 217 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2831,7 +2830,7 @@ The definition of A299920 is `conjectured`: the Lean definition is a formula tha
 
 `A001006(n)%6`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A299920

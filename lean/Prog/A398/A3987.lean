@@ -3,14 +3,14 @@ import Seq.B000.C000
 import Seq.B000.C006
 import Seq.B000.C023
 import Seq.B001.C000
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B005.C000
 import Seq.Opaque.C007
 
 /-!
 # A398709: a(n) = floor(((5 + sqrt(17))/2)^n).
 
-The programs for A398709, the canonical program `A398709.P7989658470484696830` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398709 has offset 1).
+The programs for A398709, the canonical program `A398709.P7989658470484696830` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398709 has offset 1).
 
 The definition of A398709 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A159289, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -19,7 +19,7 @@ The definition of A398709 is `conditional`: the Lean definition is an OEIS formu
 
 `A159289(n)-1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A398709

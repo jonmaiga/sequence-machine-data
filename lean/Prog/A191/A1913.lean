@@ -40,6 +40,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -54,6 +55,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -65,7 +67,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -180,7 +181,7 @@ end
 end A191300.P13729758839630990866
 
 /-!
-# A191301: Expansion of exp(x*arcsin(x)) = sum_{n>=0} a(n)*x^(2n)/product(k, 0
+# A191301: Expansion of exp(x*arcsin(x)) = sum_{n>=0} a(n)*x^(2n)/product(k, 0<k<2n).
 
 The programs for A191301, there is no canonical definition to state claims against.
 -/
@@ -449,7 +450,7 @@ end A191306.P14896802407187733114
 /-!
 # A191307: Sum of the heights of the first peaks in all dispersed Dyck paths of length n (i.e., in Motzkin paths of length n with no (1,0)-steps at positive heights).
 
-The programs for A191307, the canonical program `A191307.P5108314988491942072` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191307 has offset 0).
+The programs for A191307, the canonical program `A191307.P5108314988491942072` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191307 has offset 0).
 
 The definition of A191307 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 336 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -458,7 +459,7 @@ The definition of A191307 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A037955(n)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A191307
@@ -1192,7 +1193,7 @@ end
 end A191310.P14992637343007221265
 
 /-!
-# A191311: Numbers m such that exactly half of the a such that 0
+# A191311: Numbers m such that exactly half of the a such that 0<a<m and (a,m)=1 satisfy a^(m-1) == 1 (mod m).
 
 The programs for A191311, there is no canonical definition to state claims against.
 -/
@@ -2459,7 +2460,7 @@ end A191326.P13944919425742299515
 /-!
 # A191329: (Lower Wythoff sequence mod 2)+(Upper Wythoff sequence mod 2).
 
-The programs for A191329, the canonical program `A191329.P14559015055408526172` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191329 has offset 1).
+The programs for A191329, the canonical program `A191329.P14559015055408526172` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191329 has offset 1).
 
 The definition of A191329 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A171587, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2468,7 +2469,7 @@ The definition of A191329 is `conditional`: the Lean definition is an OEIS formu
 
 `A085002(n+1)+A171587(n)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A191329
@@ -10497,7 +10498,7 @@ end A191395.P17224582419325751260
 /-!
 # A191396: Sum of the heights of the base pyramids in all dispersed Dyck paths of length n (i.e., in all Motzkin paths of length n with no (1,0)-steps at positive heights). A base pyramid is a factor of the form U^j D^j (j>0), starting at the horizontal axis. Here U=(1,1) and D=(1,-1).
 
-The programs for A191396, the canonical program `A191396.P7229870374882606009` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191396 has offset 0).
+The programs for A191396, the canonical program `A191396.P7229870374882606009` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191396 has offset 0).
 
 The definition of A191396 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10506,7 +10507,7 @@ The definition of A191396 is `conjectured`: the Lean definition is a formula tha
 
 `A191394(n)+a(n-2)` with `a(0)=0, a(1)=0`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A191396

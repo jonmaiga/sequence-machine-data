@@ -42,8 +42,10 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,6 +54,7 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -59,15 +62,11 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2824,7 +2823,7 @@ end A048513
 /-!
 # A048514: a(n) = T(0,n)+T(1,n-1)+...+T(n,0), array T given by A048505.
 
-The programs for A048514, the canonical program `A048514.P5552065461441350087` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048514 has offset 0).
+The programs for A048514, the canonical program `A048514.P5552065461441350087` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048514 has offset 0).
 
 The definition of A048514 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 317 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2833,7 +2832,7 @@ The definition of A048514 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A001793(n+1)-n*(n+2)]`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A048514
@@ -7568,7 +7567,7 @@ end A048570
 /-!
 # A048571: Triangle read by rows: T(n,k) = number of distinct prime factors of C(n,k).
 
-The programs for A048571, the canonical program `A048571.P4485784298280140691` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048571 has offset 0).
+The programs for A048571, the canonical program `A048571.P4485784298280140691` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048571 has offset 0).
 
 The definition of A048571 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7577,7 +7576,7 @@ The definition of A048571 is `conditional`: the Lean definition is an OEIS formu
 
 `A001221(A007318(n))`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A048571
@@ -15195,7 +15194,7 @@ end A048595.P15796421021221556242
 /-!
 # A048598: Partial sums of the sequence (A001097) of twin primes.
 
-The programs for A048598, the canonical program `A048598.P18321183389515101121` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048598 has offset 1).
+The programs for A048598, the canonical program `A048598.P18321183389515101121` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048598 has offset 1).
 
 The definition of A048598 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15204,7 +15203,7 @@ The definition of A048598 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A001097(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A048598
@@ -15291,12 +15290,6 @@ namespace A048598
 /-- `∑[A161220(n+1)+2*(n+1)]` -/
 def P9187388299938683291.Spec : Prop :=
   ∀ n, P9187388299938683291.a n = A048598 (n + 1)
-
-theorem P9187388299938683291.correct : P9187388299938683291.Spec := by
-  intro n
-  simp only [A048598, Nat.add_sub_cancel, A048598.P9187388299938683291.f1, A048598.P9187388299938683291.a, A048598.P18321183389515101121.f1, A048598.P18321183389515101121.a, A001097, A001097.P321733695451409135.a, A161220, A161220.P17651123597370390187.a, A005843, A005843.P3167286115683555970.a, A280968, A280968.P4817024604496871762.a, A163656, A163656.P15274253072224242917.a, A096281, A096281.P9870488552655544131.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A048598
 

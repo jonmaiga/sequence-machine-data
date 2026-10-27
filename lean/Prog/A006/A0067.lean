@@ -41,24 +41,25 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
-import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
+import Seq.B005.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2806,7 +2807,7 @@ end
 end A006749.P10810577361446780381
 
 /-!
-# A006750: Coefficients of Legendre polynomials.
+# A006750: Coefficient of P_5(x) in the Legendre expansion of x^n.
 
 The programs for A006750, there is no canonical definition to state claims against.
 -/
@@ -3784,7 +3785,7 @@ end
 end A006765.P5533997452783259745
 
 /-!
-# A006766: Number of 3-dimensional polyominoes with n cells.
+# A006766: Number of strictly 3-dimensional polycubes with n cells.
 
 The programs for A006766, there is no canonical definition to state claims against.
 -/

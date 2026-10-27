@@ -28,22 +28,25 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C001
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -56,9 +59,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -92,7 +93,7 @@ set_option linter.unreachableTactic false
 /-!
 # A383000: a(n) = Sum_{d|n} phi(n/d) * (-3)^(d-1).
 
-The programs for A383000, the canonical program `A383000.P9620831116770953657` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383000 has offset 1).
+The programs for A383000, the canonical program `A383000.P9620831116770953657` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383000 has offset 1).
 
 The definition of A383000 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -124,7 +125,7 @@ end A383000
 
 `∑{d}[n+1, A000010(#)*A352779((n+1)/#-1)]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A383000
@@ -1297,7 +1298,7 @@ end A383008
 /-!
 # A383009: Indices of the even terms in the sequence of cubefree numbers.
 
-The programs for A383009, the canonical program `A383009.P8779910049877826587` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383009 has offset 1).
+The programs for A383009, the canonical program `A383009.P8779910049877826587` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383009 has offset 1).
 
 The definition of A383009 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4286 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1306,7 +1307,7 @@ The definition of A383009 is `conjectured`: the Lean definition is a formula tha
 
 `lt[val((A004709(n+1)+1)², 2), 1]+1`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A383009
@@ -2454,7 +2455,7 @@ end A383023.P5121415544979675281
 /-!
 # A383025: Centered pentagonal numbers that are deficient.
 
-The programs for A383025, the canonical program `A383025.P585027559849338286` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383025 has offset 1).
+The programs for A383025, the canonical program `A383025.P585027559849338286` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383025 has offset 1).
 
 The definition of A383025 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 133 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2463,7 +2464,7 @@ The definition of A383025 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A005891(n), A294934(#)]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A383025
@@ -3811,7 +3812,7 @@ end A383033.P5079534776107380003
 /-!
 # A383034: Inverse Weigh transform of 2^(n-1).
 
-The programs for A383034, the canonical program `A383034.P16762733124447717769` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383034 has offset 1).
+The programs for A383034, the canonical program `A383034.P16762733124447717769` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383034 has offset 1).
 
 The definition of A383034 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A209229, A306156, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3820,7 +3821,7 @@ The definition of A383034 is `conditional`: the Lean definition is an OEIS formu
 
 `A306156(n+1)-A209229(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A383034
@@ -4450,7 +4451,7 @@ end A383038.P1735129820761306259
 /-!
 # A383039: Sum of the legs of the unique primitive Pythagorean triple (a,b,c) such that (a-b+c)/2 = A000032(n) and its long leg and hypotenuse are consecutive natural numbers.
 
-The programs for A383039, the canonical program `A383039.P9143552430524653141` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383039 has offset 0).
+The programs for A383039, the canonical program `A383039.P9143552430524653141` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383039 has offset 0).
 
 The definition of A383039 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4459,7 +4460,7 @@ The definition of A383039 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A001254(n)-1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A383039
@@ -5718,7 +5719,7 @@ end A383076.P14186853832527894840
 /-!
 # A383077: Number of n-digit positive integers where all pairs of consecutive digits have a difference of at least 5.
 
-The programs for A383077, the canonical program `A383077.P12520996747514148992` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383077 has offset 1).
+The programs for A383077, the canonical program `A383077.P12520996747514148992` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383077 has offset 1).
 
 The definition of A383077 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 182 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5727,7 +5728,7 @@ The definition of A383077 is `conjectured`: the Lean definition is a formula tha
 
 `A006358(n+1)+Δ[A006358(n)]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A383077
@@ -5745,7 +5746,7 @@ end A383077
 /-!
 # A383078: Number of n-digit positive integers where all pairs of consecutive digits have a difference of at least 6.
 
-The programs for A383078, the canonical program `A383078.P12298779047005222962` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383078 has offset 1).
+The programs for A383078, the canonical program `A383078.P12298779047005222962` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383078 has offset 1).
 
 The definition of A383078 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 217 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5754,7 +5755,7 @@ The definition of A383078 is `conjectured`: the Lean definition is a formula tha
 
 `A373568(n+1)+A373568(n+1)-A006357(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A383078

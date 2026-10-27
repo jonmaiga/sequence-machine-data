@@ -51,13 +51,16 @@ import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -67,9 +70,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2724,7 +2724,7 @@ end A320526
 /-!
 # A320527: Number of chiral pairs of color patterns (set partitions) in a row of length n using exactly 4 colors (subsets).
 
-The programs for A320527, the canonical program `A320527.P1973516301187565761` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320527 has offset 1).
+The programs for A320527, the canonical program `A320527.P1973516301187565761` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320527 has offset 1).
 
 The definition of A320527 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A304974, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2733,7 +2733,7 @@ The definition of A320527 is `conditional`: the Lean definition is an OEIS formu
 
 `A056328(n+1)-A304974(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A320527
@@ -6395,7 +6395,7 @@ def P13378177758870296227.Spec : Prop :=
 end A320570
 
 /-!
-# A320571: a(0) = 1; thereafter a(n) is the smallest prime divisor of the number C(6n+1) formeded from the concatenation of 1,2,3,...,6n+1.
+# A320571: a(0) = 1; thereafter a(n) is the smallest prime divisor of the number C(6n+1) formed from the concatenation of 1,2,3,...,6n+1.
 
 The programs for A320571, there is no canonical definition to state claims against.
 -/
@@ -7042,7 +7042,7 @@ end A320582.P6354108904976302732
 /-!
 # A320584: Numbers whose first digit is prime.
 
-The programs for A320584, the canonical program `A320584.P6049506944665547150` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320584 has offset 1).
+The programs for A320584, the canonical program `A320584.P6049506944665547150` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320584 has offset 1).
 
 The definition of A320584 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4444 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7254,7 +7254,7 @@ end A320584
 
 `eq[1, A003415(A182324(n)-n)]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A320584
@@ -7357,7 +7357,7 @@ end A320584
 /-!
 # A320585: Primes whose first digit is prime.
 
-The programs for A320585, the canonical program `A320585.P11050667382939563471` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320585 has offset 1).
+The programs for A320585, the canonical program `A320585.P11050667382939563471` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320585 has offset 1).
 
 The definition of A320585 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1092 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7366,7 +7366,7 @@ The definition of A320585 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A320584(n+1)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A320585

@@ -41,7 +41,6 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -55,6 +54,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,8 +68,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -104,7 +102,7 @@ set_option linter.unreachableTactic false
 /-!
 # A086700: Euler phi function applied to the triangular numbers.
 
-The programs for A086700, the canonical program `A086700.P4714237021758211860` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086700 has offset 1).
+The programs for A086700, the canonical program `A086700.P4714237021758211860` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086700 has offset 1).
 
 The definition of A086700 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -113,7 +111,7 @@ The definition of A086700 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010((n+1)*(n+2)/2)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A086700
@@ -1152,7 +1150,7 @@ def P7062791658807382244.Spec : Prop :=
 end A086706
 
 /-!
-# A086707: Smallest mode of the sequences n/(n-k)*binomial(n,n-k) (see link).
+# A086707: Smallest mode of the sequences (n/(n-k)) * binomial(n,n-k).
 
 The programs for A086707, the canonical program `A086707.P12983992211245231064` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086707 has offset 1).
 
@@ -7974,7 +7972,7 @@ end
 end A086770.P5265120383553642404
 
 /-!
-# A086772: Store the natural numbers in a triangular array such that values on each row have the same number of bits. Start a new row with the smallest number not yet recorded. a(n) represents the initial terms in the resulting array.
+# A086772: Store the natural numbers in a triangular array such that values on each row have the same number of 1 bits. Start a new row with the smallest number not yet recorded. a(n) represents the initial terms in the resulting array.
 
 The programs for A086772, there is no canonical definition to state claims against.
 -/
@@ -8062,7 +8060,7 @@ end
 end A086772.P14058940010676169621
 
 /-!
-# A086776: Smaller member of a prime pair (n, n+6) with a square sum.
+# A086776: Smaller member of a prime pair (p, p+6) with a square sum.
 
 The programs for A086776, there is no canonical definition to state claims against.
 -/
@@ -9830,7 +9828,7 @@ end A086798.P6409515649480943244
 /-!
 # A086799: Replace all trailing 0's with 1's in binary representation of n.
 
-The programs for A086799, the canonical program `A086799.P9205918305807423925` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086799 has offset 1).
+The programs for A086799, the canonical program `A086799.P9205918305807423925` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086799 has offset 1).
 
 The definition of A086799 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9839,7 +9837,7 @@ The definition of A086799 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `or(n+1, n)`
 
-The canonical program, it is in `Seq.B000.C013`.
+The canonical program, it is in `Seq.B000.C014`.
 -/
 
 namespace A086799

@@ -38,19 +38,24 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C009
-import Seq.B001.C012
+import Seq.B001.C005
+import Seq.B001.C006
+import Seq.B001.C010
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -58,12 +63,10 @@ import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -98,7 +101,7 @@ set_option linter.unreachableTactic false
 /-!
 # A370600: Numbers m such that 4m + k is squarefree for k = 1..3.
 
-The programs for A370600, the canonical program `A370600.P2403494429229605259` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370600 has offset 1).
+The programs for A370600, the canonical program `A370600.P2403494429229605259` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370600 has offset 1).
 
 The definition of A370600 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007675, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -107,7 +110,7 @@ The definition of A370600 is `conditional`: the Lean definition is an OEIS formu
 
 `(A007675(n+1)-1)/4`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A370600
@@ -2472,7 +2475,7 @@ end A370633.P8546501127423230962
 /-!
 # A370634: A135507(n) is the product of the first n terms of this sequence.
 
-The programs for A370634, the canonical program `A370634.P2494409983904551626` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370634 has offset 1).
+The programs for A370634, the canonical program `A370634.P2494409983904551626` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370634 has offset 1).
 
 The definition of A370634 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 122 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2481,7 +2484,7 @@ The definition of A370634 is `conjectured`: the Lean definition is a formula tha
 
 `ratio[A135507(A004273(n)-(n-1))]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A370634
@@ -3468,7 +3471,7 @@ end A370649
 /-!
 # A370650: Numbers whose number of infinitary divisors that are terms of A366242 is equal to the number of infinitary divisors that are terms of A366243.
 
-The programs for A370650, the canonical program `A370650.P533710446170374147` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370650 has offset 1).
+The programs for A370650, the canonical program `A370650.P533710446170374147` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370650 has offset 1).
 
 The definition of A370650 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1797 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3477,7 +3480,7 @@ The definition of A370650 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A000379(n+1), A373975(#)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A370650

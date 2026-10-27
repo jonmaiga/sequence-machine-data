@@ -43,16 +43,18 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
+import Seq.B002.C006
 import Seq.B002.C007
-import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -3616,7 +3618,7 @@ end A375146.P15868328872555913811
 /-!
 # A375148: Expansion of Sum_{k in Z} x^k / (1 - x^(7*k+2)).
 
-The programs for A375148, the canonical program `A375148.P10494542387992813350` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375148 has offset 0).
+The programs for A375148, the canonical program `A375148.P10494542387992813350` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375148 has offset 0).
 
 The definition of A375148 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3625,7 +3627,7 @@ The definition of A375148 is `conjectured`: the Lean definition is a formula tha
 
 `A363852(n+1)-A363857(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A375148
@@ -3735,7 +3737,7 @@ end A375148
 /-!
 # A375149: Expansion of Sum_{k in Z} x^k / (1 - x^(7*k+4)).
 
-The programs for A375149, the canonical program `A375149.P2216572402173144936` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375149 has offset 0).
+The programs for A375149, the canonical program `A375149.P2216572402173144936` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375149 has offset 0).
 
 The definition of A375149 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3744,7 +3746,7 @@ The definition of A375149 is `conjectured`: the Lean definition is a formula tha
 
 `A363850(n+1)-A363855(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A375149
@@ -3854,7 +3856,7 @@ end A375149
 /-!
 # A375150: Expansion of Sum_{k in Z} x^k / (1 - x^(7*k+5)).
 
-The programs for A375150, the canonical program `A375150.P910805378827683235` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375150 has offset 0).
+The programs for A375150, the canonical program `A375150.P910805378827683235` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375150 has offset 0).
 
 The definition of A375150 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3863,7 +3865,7 @@ The definition of A375150 is `conjectured`: the Lean definition is a formula tha
 
 `A362845(n+1)-A363854(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A375150
@@ -4098,7 +4100,7 @@ end A375155
 /-!
 # A375156: In the binary expansion of n: expand bits 1 -> 01 and 0 -> x0 from most to least significant, where x is the complement of the previous bit from n.
 
-The programs for A375156, the canonical program `A375156.P5944505907265701600` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375156 has offset 0).
+The programs for A375156, the canonical program `A375156.P5944505907265701600` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375156 has offset 0).
 
 The definition of A375156 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 256 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4107,7 +4109,7 @@ The definition of A375156 is `conjectured`: the Lean definition is a formula tha
 
 `and(A003188(A374625(n)), A374625(n))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A375156
@@ -4655,7 +4657,7 @@ end A375165
 /-!
 # A375166: Nonsquares congruent to {0, 1, 4, 7} modulo 9.
 
-The programs for A375166, the canonical program `A375166.P13823784569073551818` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375166 has offset 1).
+The programs for A375166, the canonical program `A375166.P13823784569073551818` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375166 has offset 1).
 
 The definition of A375166 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4664,7 +4666,7 @@ The definition of A375166 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A056991(n+3), A049240(#)]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A375166
@@ -5317,7 +5319,7 @@ end A375176.P12293518798005679820
 /-!
 # A375177: a(n) = 1/(n + 1)^2 * Sum_{k = 1..n+1} (k^4)*binomial(n+1, k)^2.
 
-The programs for A375177, the canonical program `A375177.P17845045903573206518` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375177 has offset 1).
+The programs for A375177, the canonical program `A375177.P17845045903573206518` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375177 has offset 1).
 
 The definition of A375177 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 162 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5326,7 +5328,7 @@ The definition of A375177 is `conjectured`: the Lean definition is a formula tha
 
 `A037966(n)+A037965(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A375177
@@ -5803,7 +5805,7 @@ end A375183
 /-!
 # A375184: In the binary expansion of n, complement bits at even positions and to the right of a 0 (the most significant bit corresponding to position 1).
 
-The programs for A375184, the canonical program `A375184.P6361993029201309949` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375184 has offset 0).
+The programs for A375184, the canonical program `A375184.P6361993029201309949` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375184 has offset 0).
 
 The definition of A375184 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1024 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5812,7 +5814,7 @@ The definition of A375184 is `conjectured`: the Lean definition is a formula tha
 
 `A375183(A165199(n))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A375184

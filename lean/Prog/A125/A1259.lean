@@ -33,6 +33,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -40,11 +41,12 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
@@ -53,8 +55,6 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
 import Seq.Opaque.C000
@@ -205,7 +205,7 @@ end A125901.P14519268802891955950
 /-!
 # A125902: a(n) = sum of the first n primes which are coprime to n.
 
-The programs for A125902, the canonical program `A125902.P12495455694751999864` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125902 has offset 1).
+The programs for A125902, the canonical program `A125902.P12495455694751999864` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125902 has offset 1).
 
 The definition of A125902 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -214,7 +214,7 @@ The definition of A125902 is `conjectured`: the Lean definition is a formula tha
 
 `A007504(A229109(n+1))-A008472(n+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A125902
@@ -249,12 +249,6 @@ namespace A125902
 /-- `A007504(A001221(n+1)+n+1)-A008472(n+1)` -/
 def P5671670759757282694.Spec : Prop :=
   ∀ n, P5671670759757282694.a n = A125902 (n + 1)
-
-theorem P5671670759757282694.correct : P5671670759757282694.Spec := by
-  intro n
-  simp only [A125902, Nat.add_sub_cancel, A125902.P5671670759757282694.a, A125902.P12495455694751999864.a, A001221, A001221.P10258181745752134128.a, A007504, A007504.P14310834286015847203.a, A008472, A008472.P6567490011312877583.f1, A008472.P6567490011312877583.a, A229109, A229109.P7396241872602068631.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A014284, A014284.P18183547548072881472.a, A059841, A059841.P7264174615531153985.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A125902
 
@@ -1108,7 +1102,7 @@ end A125910.P871445259688649813
 /-!
 # A125911: Product of the even divisors of n.
 
-The programs for A125911, the canonical program `A125911.P3841651622429786425` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125911 has offset 1).
+The programs for A125911, the canonical program `A125911.P3841651622429786425` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125911 has offset 1).
 
 The definition of A125911 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A136655, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1117,7 +1111,7 @@ The definition of A125911 is `conditional`: the Lean definition is an OEIS formu
 
 `A007955(n+1)/A136655(n+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A125911

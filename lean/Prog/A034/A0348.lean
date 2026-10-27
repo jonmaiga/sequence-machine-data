@@ -49,8 +49,9 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -59,11 +60,13 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -78,8 +81,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3494,16 +3495,16 @@ end A034835.P13645979925653937624
 /-!
 # A034836: Number of ways to write n as n = x*y*z with 1 <= x <= y <= z.
 
-The programs for A034836, the canonical program `A034836.P5569050917274678762` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034836 has offset 1).
+The programs for A034836, the canonical program `A034836.P5569050917274678762` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034836 has offset 1).
 
-The definition of A034836 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007425, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A034836 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007425, A046951, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A034836.P5569050917274678762
 
 `(2*A010057(n+1)+A007425(n+1)+3*A046951(n+1))/6`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A034836
@@ -6633,7 +6634,7 @@ end A034848.P2917594860489926943
 /-!
 # A034849: a(n) = 1 + 2*A034784(n).
 
-The programs for A034849, the canonical program `A034849.P15691742915255427826` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034849 has offset 1).
+The programs for A034849, the canonical program `A034849.P15691742915255427826` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034849 has offset 1).
 
 The definition of A034849 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034784, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6642,7 +6643,7 @@ The definition of A034849 is `conditional`: the Lean definition is an OEIS formu
 
 `1+2*A034784(n+1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A034849
@@ -6678,12 +6679,6 @@ namespace A034849
 def P14173282563400605127.Spec : Prop :=
   ∀ n, P14173282563400605127.a n = A034849 (n + 1)
 
-theorem P14173282563400605127.correct : P14173282563400605127.Spec := by
-  intro n
-  simp only [A034849, Nat.add_sub_cancel, A034849.P14173282563400605127.a, A034849.P15691742915255427826.a, A034784, A034784.P9791422119006832211.f1, A034784.P9791422119006832211.f2, A034784.P9791422119006832211.a, A174166, A174166.P8885773317569641825.a, A010051, A010051.P15078252821583414300.a, A101264, A101264.P9977125953316836564.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
-
 end A034849
 
 /-! ## A034849.P16680906935059707531
@@ -6706,12 +6701,6 @@ namespace A034849
 /-- `A174166(n+1)+A034784(n+1)` -/
 def P16680906935059707531.Spec : Prop :=
   ∀ n, P16680906935059707531.a n = A034849 (n + 1)
-
-theorem P16680906935059707531.correct : P16680906935059707531.Spec := by
-  intro n
-  simp only [A034849, Nat.add_sub_cancel, A034849.P16680906935059707531.a, A034849.P15691742915255427826.a, A034784, A034784.P9791422119006832211.f1, A034784.P9791422119006832211.f2, A034784.P9791422119006832211.a, A174166, A174166.P8885773317569641825.a, A010051, A010051.P15078252821583414300.a, A101264, A101264.P9977125953316836564.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A034849
 
@@ -14684,7 +14673,7 @@ end
 end A034882.P7131445327888271599
 
 /-!
-# A034883: Maximum length of Euclidean algorithm starting with n and any nonnegative i
+# A034883: Maximum length of Euclidean algorithm starting with n and any nonnegative i<n.
 
 The programs for A034883, there is no canonical definition to state claims against.
 -/
@@ -17328,27 +17317,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A034897.P13201074611861620480
-
-/-!
-# A034898: n-th term of A034897 is an a(n)-hyperperfect number.
-
-The programs for A034898, there is no canonical definition to state claims against.
--/
-
-/-! ## A034898.P6438665642136062046
-
-`A339790(A034897(n+1))`
--/
-
-namespace A034898.P6438665642136062046
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A339790 (A034897 (n + 1)).toNat
-
-end
-
-end A034898.P6438665642136062046
 
 /-!
 # A034899: Euler transform of powers of 2 [ 2,4,8,16,... ].

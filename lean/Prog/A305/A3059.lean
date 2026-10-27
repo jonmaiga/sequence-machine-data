@@ -38,31 +38,32 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B007.C000
-import Seq.B008.C000
+import Seq.B007.C001
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1678,7 +1679,7 @@ end A305923.P9996637973010897841
 /-!
 # A305930: Number of digits '0' in 3^n (in base 10).
 
-The programs for A305930, the canonical program `A305930.P16091158982295753828` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305930 has offset 0).
+The programs for A305930, the canonical program `A305930.P16091158982295753828` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305930 has offset 0).
 
 The definition of A305930 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1710,7 +1711,7 @@ end A305930
 
 `∑{digits}[3^n, A000007(#)]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A305930
@@ -5530,7 +5531,7 @@ end
 end A305981.P17608524823285948231
 
 /-!
-# A305982: a(n) = Product_{d|n, d
+# A305982: a(n) = Product_{d|n, d<n} prime(A305793(1+d)-1), where A305973(k) records the prime signature of 2k-1.
 
 The programs for A305982, there is no canonical definition to state claims against.
 -/
@@ -6638,9 +6639,9 @@ end A305993.P4381666979989381156
 /-!
 # A305994: a(n) = ((A000265(3*n + 1) + 1) mod 4)/2.
 
-The programs for A305994, the canonical program `A305994.P11944070299911287273` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305994 has offset 0).
+The programs for A305994, the canonical program `A305994.P11944070299911287273` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305994 has offset 0).
 
-The definition of A305994 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A099545, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A305994 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A305994.P3015042728391332441
@@ -6672,7 +6673,7 @@ end A305994
 
 `A099545(3*n+1)%3`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A305994

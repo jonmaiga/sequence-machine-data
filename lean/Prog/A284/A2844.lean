@@ -44,7 +44,6 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
@@ -53,11 +52,13 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -72,8 +73,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1265,7 +1264,7 @@ end A284410.P10794089663399022933
 /-!
 # A284412: a(1) = 1, a(2) = 2; a(n) is the largest prime <= (a(a(n-1)) + a(n-a(n-1))) for n > 2.
 
-The programs for A284412, the canonical program `A284412.P12322783761233441949` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A284412 has offset 1).
+The programs for A284412, the canonical program `A284412.P12322783761233441949` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A284412 has offset 1).
 
 The definition of A284412 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1274,7 +1273,7 @@ The definition of A284412 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A007917(a(a(n-1)-1)+a(n-a(n-1)))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A284412
@@ -1821,7 +1820,7 @@ end
 end A284416.P8194753715307451639
 
 /-!
-# A284417: Triangular array read by rows. T(n,k) is the number of rooted labeled trees on n nodes with exactly k vertices whose unique descendent is a leaf, n >= 1, 0 <= k <= floor((n-1)/2) + delta_{2,n}.
+# A284417: Triangular array read by rows. T(n,k) is the number of rooted labeled trees on n nodes with exactly k vertices whose unique descendant is a leaf, n >= 1, 0 <= k <= floor((n-1)/2) + delta_{2,n}.
 
 The programs for A284417, there is no canonical definition to state claims against.
 -/
@@ -3236,7 +3235,7 @@ end A284437.P2008516041603472640
 /-!
 # A284438: a(n) = phi(n)^n.
 
-The programs for A284438, the canonical program `A284438.P17089990379882731108` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A284438 has offset 1).
+The programs for A284438, the canonical program `A284438.P17089990379882731108` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A284438 has offset 1).
 
 The definition of A284438 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3245,7 +3244,7 @@ The definition of A284438 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(n+1)^(n+1)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A284438

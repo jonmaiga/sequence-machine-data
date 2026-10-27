@@ -43,30 +43,28 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B003.C000
+import Seq.B002.C007
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1407,7 +1405,7 @@ end A260515.P15615445750133423399
 /-!
 # A260516: Expansion of f(x, x^2) * f(x^2, x^10) in powers of x where f(,) is Ramanujan's general theta function.
 
-The programs for A260516, the canonical program `A260516.P12748464856549383251` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260516 has offset 0).
+The programs for A260516, the canonical program `A260516.P12748464856549383251` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260516 has offset 0).
 
 The definition of A260516 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1416,7 +1414,7 @@ The definition of A260516 is `conjectured`: the Lean definition is a formula tha
 
 `A121444(Δ[n²])`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A260516
@@ -1877,7 +1875,7 @@ end A260516
 /-!
 # A260517: Numbers equidistant from twin prime pairs that are also equidistant from numbers equidistant from twin prime pairs.
 
-The programs for A260517, the canonical program `A260517.P13167705855874762144` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260517 has offset 1).
+The programs for A260517, the canonical program `A260517.P13167705855874762144` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260517 has offset 1).
 
 The definition of A260517 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 310 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1909,7 +1907,7 @@ end A260517
 
 `A074953(eq[Δ[A067829(n+1)], A053319(n+2)]+1)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A260517
@@ -1927,7 +1925,7 @@ end A260517
 /-!
 # A260518: Expansion of psi(x)^2 * f(-x^3)^3 / f(-x) in powers of x where psi(), f() are Ramanujan theta functions.
 
-The programs for A260518, the canonical program `A260518.P2775929053660389639` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260518 has offset 0).
+The programs for A260518, the canonical program `A260518.P2775929053660389639` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260518 has offset 0).
 
 The definition of A260518 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1936,7 +1934,7 @@ The definition of A260518 is `conjectured`: the Lean definition is a formula tha
 
 `A260114(2*n+1)/6`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A260518
@@ -5022,7 +5020,7 @@ end A260575.P4879209790965972697
 /-!
 # A260577: Numbers n for which d(n+d(n)) < d(n), where d(n) is the number of divisors of n.
 
-The programs for A260577, the canonical program `A260577.P8221833800038063480` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260577 has offset 1).
+The programs for A260577, the canonical program `A260577.P8221833800038063480` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260577 has offset 1).
 
 The definition of A260577 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5205,7 +5203,7 @@ end A260577
 
 `lt[A032741(A032741(n)+1+n), A032741(n)]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A260577
@@ -5330,7 +5328,7 @@ end A260580.P5725377103122662512
 /-!
 # A260581: Numbers n for which d(n+d(n)) > d(n), where d(n) is the number of divisors of n.
 
-The programs for A260581, the canonical program `A260581.P3815776299478991622` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260581 has offset 1).
+The programs for A260581, the canonical program `A260581.P3815776299478991622` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260581 has offset 1).
 
 The definition of A260581 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5548,7 +5546,7 @@ end A260581
 
 `lt[A032741(n), A032741(A032741(n)+1+n)]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A260581

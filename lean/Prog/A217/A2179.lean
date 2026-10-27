@@ -41,18 +41,22 @@ import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -60,9 +64,8 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -823,7 +826,7 @@ end A217915.P11448757899233783754
 /-!
 # A217917: Odd numbers that appear in sequence A217916.
 
-The programs for A217917, the canonical program `A217917.P6413253404485104331` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217917 has offset 1).
+The programs for A217917, the canonical program `A217917.P6413253404485104331` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217917 has offset 1).
 
 The definition of A217917 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 286 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -855,7 +858,7 @@ end A217917
 
 `∑[A001223(∑[n+2]-1)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A217917
@@ -1418,7 +1421,7 @@ end A217919.P7868499574630638707
 /-!
 # A217920: Column 1 of A217916 (when formed into a number triangle).
 
-The programs for A217920, the canonical program `A217920.P8141071150989026145` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217920 has offset 1).
+The programs for A217920, the canonical program `A217920.P8141071150989026145` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217920 has offset 1).
 
 The definition of A217920 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 447 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1427,7 +1430,7 @@ The definition of A217920 is `conjectured`: the Lean definition is a formula tha
 
 `A001223(abs(1-∑[n])+1)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A217920
@@ -2930,7 +2933,7 @@ end
 end A217942.P6339794097204405831
 
 /-!
-# A217943: Triangle read by rows: T(n,k) = 2*C(n-1,k)-C(n,k) for k
+# A217943: Triangle read by rows: T(n,k) = 2*C(n-1,k)-C(n,k) for k<n, T(n,n)=-2, where C(n,k) = A216955(n,k).
 
 The programs for A217943, there is no canonical definition to state claims against.
 -/
@@ -3136,7 +3139,7 @@ end A217945.P1064723087875531594
 /-!
 # A217946: a(n) = 4^n*(n+1)*(8*n^2+32*n+33)*P(3/2,n)/(3*P(4,n)) where P(a,n) is the Pochhammer rising factorial.
 
-The programs for A217946, the canonical program `A217946.P4119184011466137260` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217946 has offset 0).
+The programs for A217946, the canonical program `A217946.P4119184011466137260` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217946 has offset 0).
 
 The definition of A217946 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 163 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3145,7 +3148,7 @@ The definition of A217946 is `conjectured`: the Lean definition is a formula tha
 
 `A000245(n+1)+record[A232500(n+5)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A217946

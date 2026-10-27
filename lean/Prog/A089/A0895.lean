@@ -44,6 +44,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -51,26 +52,23 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1087,7 +1085,7 @@ end A089508
 /-!
 # A089509: a(n) = Kronecker(7/n).
 
-The programs for A089509, the canonical program `A089509.P11081170024757819098` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089509 has offset 1).
+The programs for A089509, the canonical program `A089509.P11081170024757819098` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089509 has offset 1).
 
 The definition of A089509 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1194,7 +1192,7 @@ end A089509
 
 `A034947(n+1)*A175629(n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A089509
@@ -1419,7 +1417,7 @@ end A089509
 /-!
 # A089510: A periodic sequence with period length 30.
 
-The programs for A089510, the canonical program `A089510.P5048394269918529553` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089510 has offset 1).
+The programs for A089510, the canonical program `A089510.P5048394269918529553` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089510 has offset 1).
 
 The definition of A089510 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1428,7 +1426,7 @@ The definition of A089510 is `conjectured`: the Lean definition is a formula tha
 
 `A182067(n+1)-A182067(n)`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A089510
@@ -1695,7 +1693,7 @@ end A089514.P4768802395034468658
 /-!
 # A089523: Primes p such that mu(p+1) = 1; that is, p+1 is squarefree and has an even number of distinct prime factors, where mu is the Moebius function.
 
-The programs for A089523, the canonical program `A089523.P7576486393653174238` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089523 has offset 1).
+The programs for A089523, the canonical program `A089523.P7576486393653174238` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089523 has offset 1).
 
 The definition of A089523 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5010 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1734,7 +1732,7 @@ end A089523
 
 `∩[A049097(n+1), A062304(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A089523
@@ -2778,7 +2776,7 @@ end A089529.P4217616766585342879
 /-!
 # A089530: A023204 indexed by A000040.
 
-The programs for A089530, the canonical program `A089530.P4943488569424409347` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089530 has offset 1).
+The programs for A089530, the canonical program `A089530.P4943488569424409347` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089530 has offset 1).
 
 The definition of A089530 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1304 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2920,7 +2918,7 @@ end A089530
 
 `record[(n+1)*A101264(A000040(n+1)+1)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A089530
@@ -6676,7 +6674,7 @@ end A089558.P14552741338065715099
 /-!
 # A089559: Nonnegative numbers n such that 2*n + 15 is prime.
 
-The programs for A089559, the canonical program `A089559.P3372472513908806142` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089559 has offset 1).
+The programs for A089559, the canonical program `A089559.P3372472513908806142` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089559 has offset 1).
 
 The definition of A089559 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A086303, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6685,7 +6683,7 @@ The definition of A089559 is `conditional`: the Lean definition is an OEIS formu
 
 `A086303(n+1)/2`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A089559
@@ -8016,7 +8014,7 @@ end A089580.P8113910952663970826
 /-!
 # A089581: a(n) = prime(2*n-1)*prime(2*n).
 
-The programs for A089581, the canonical program `A089581.P5551055473819022676` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089581 has offset 1).
+The programs for A089581, the canonical program `A089581.P5551055473819022676` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089581 has offset 1).
 
 The definition of A089581 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(2*(n+1)-1)*A000040(2*(n+1))` (program `A089581.P5551055473819022676`, by `A089581.P5551055473819022676.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8025,7 +8023,7 @@ The definition of A089581 is `verified`: the Lean definition is proven equivalen
 
 `A000040(2*(n+1)-1)*A000040(2*(n+1))`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A089581
@@ -8895,7 +8893,7 @@ end
 end A089585.P17351645072804259824
 
 /-!
-# A089586: Number of arborescent (stellar-rational or prysmatic-rational) knots and links.
+# A089586: Number of arborescent (stellar-rational or prismatic-rational) knots and links.
 
 The programs for A089586, there is no canonical definition to state claims against.
 -/

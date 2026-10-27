@@ -21,6 +21,7 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C025
 import Seq.B000.C026
@@ -38,8 +39,10 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
@@ -58,10 +61,10 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -70,8 +73,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3932,7 +3933,7 @@ end A044932.P2602684408370434006
 /-!
 # A044933: Number of runs of even length in the base-2 representation of n.
 
-The programs for A044933, the canonical program `A044933.P16468150021255286257` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044933 has offset 1).
+The programs for A044933, the canonical program `A044933.P16468150021255286257` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044933 has offset 1).
 
 The definition of A044933 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A044942, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3941,7 +3942,7 @@ The definition of A044933 is `conditional`: the Lean definition is an OEIS formu
 
 `A005811(n+1)-A044942(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A044933
@@ -4339,7 +4340,7 @@ end A044933
 /-!
 # A044934: Number of runs of even length in the base 3 representation of n.
 
-The programs for A044934, the canonical program `A044934.P12203436465107615356` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044934 has offset 1).
+The programs for A044934, the canonical program `A044934.P12203436465107615356` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044934 has offset 1).
 
 The definition of A044934 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6561 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4348,7 +4349,7 @@ The definition of A044934 is `conjectured`: the Lean definition is a formula tha
 
 `A044933(A371256(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A044934
@@ -6485,7 +6486,7 @@ end A044941.P12251577937131679137
 /-!
 # A044942: Number of runs of odd length in the base-2 representation of n.
 
-The programs for A044942, the canonical program `A044942.P10877582406640185609` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044942 has offset 1).
+The programs for A044942, the canonical program `A044942.P10877582406640185609` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044942 has offset 1).
 
 The definition of A044942 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6523,7 +6524,7 @@ end A044942
 
 `A257991(A382255(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A044942
@@ -6829,7 +6830,7 @@ end A044942
 /-!
 # A044943: Number of runs of odd length in the base 3 representation of n.
 
-The programs for A044943, the canonical program `A044943.P17156978428470333392` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044943 has offset 1).
+The programs for A044943, the canonical program `A044943.P17156978428470333392` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044943 has offset 1).
 
 The definition of A044943 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6561 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6838,7 +6839,7 @@ The definition of A044943 is `conjectured`: the Lean definition is a formula tha
 
 `A044942(A371256(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A044943
@@ -9718,7 +9719,7 @@ end A044965.P15187514537468344112
 /-!
 # A044966: Numbers whose base-3 representation contains no 0's and exactly one 1.
 
-The programs for A044966, the canonical program `A044966.P1757624402048700845` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044966 has offset 1).
+The programs for A044966, the canonical program `A044966.P1757624402048700845` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044966 has offset 1).
 
 The definition of A044966 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 121 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9757,7 +9758,7 @@ end A044966
 
 `2*A309758(n+1)-1`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A044966
@@ -12190,7 +12191,7 @@ end A044974
 /-!
 # A044975: Numbers whose base-3 representation contains exactly two 0's and no 1's.
 
-The programs for A044975, the canonical program `A044975.P9580616891766218747` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044975 has offset 1).
+The programs for A044975, the canonical program `A044975.P9580616891766218747` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044975 has offset 1).
 
 The definition of A044975 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 286 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12297,7 +12298,7 @@ end A044975
 
 `A005823(eq[3, A008687(n)])`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A044975
@@ -13532,7 +13533,7 @@ end A044979
 /-!
 # A044980: Numbers whose base-3 representation contains exactly three 0's and no 1's.
 
-The programs for A044980, the canonical program `A044980.P4515869477869152908` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044980 has offset 1).
+The programs for A044980, the canonical program `A044980.P4515869477869152908` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A044980 has offset 1).
 
 The definition of A044980 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 718 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13610,7 +13611,7 @@ end A044980
 
 `A005823(eq[4, A008687(n)])`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A044980

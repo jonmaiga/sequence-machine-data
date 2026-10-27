@@ -44,19 +44,22 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,8 +73,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -198,21 +199,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A090901.P3439350893475581793
-
-/-! ## A090901.P16034556596704264014
-
-`A003007(n+1)-A228112(A062298(n+1))`
--/
-
-namespace A090901.P16034556596704264014
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003007 (n + 1) - A228112 (A062298 (n + 1)).toNat
-
-end
-
-end A090901.P16034556596704264014
 
 /-!
 # A090902: a(n) = floor((product of first n triangular numbers)/(sum of first n factorials)).
@@ -3166,7 +3152,7 @@ end A090941.P14862799471024121013
 /-!
 # A090942: n-th arithmetic mean = prime(n).
 
-The programs for A090942, the canonical program `A090942.P13553179152955353035` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090942 has offset 1).
+The programs for A090942, the canonical program `A090942.P13553179152955353035` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090942 has offset 1).
 
 The definition of A090942 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3201,7 +3187,7 @@ end A090942
 
 `Δ[n*A000040(abs(1-n)+1)]`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A090942
@@ -5263,7 +5249,7 @@ end A090957.P2806819191423700419
 /-!
 # A090958: Numbers in increasing order such that the least multiple of prime(n) in the sequence is primorial(n).
 
-The programs for A090958, the canonical program `A090958.P14420008161749182674` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090958 has offset 0).
+The programs for A090958, the canonical program `A090958.P14420008161749182674` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090958 has offset 0).
 
 The definition of A090958 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 412 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5301,7 +5287,7 @@ end A090958
 
 `lt[A061395(A028310(n)), A235224(n)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A090958
@@ -5464,7 +5450,7 @@ end
 end A090960.P3427601384656734750
 
 /-!
-# A090961: Cube root of n-th partial sum of A090960.
+# A090961: Cube root of the n-th partial sum of A090960.
 
 The programs for A090961, there is no canonical definition to state claims against.
 -/
@@ -6830,7 +6816,7 @@ end A090968.P7550158529273268751
 /-!
 # A090969: a(n) = 1/Integral_{x=0..1} (x^5 - x^6)^n.
 
-The programs for A090969, the canonical program `A090969.P461739243111457389` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090969 has offset 0).
+The programs for A090969, the canonical program `A090969.P461739243111457389` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090969 has offset 0).
 
 The definition of A090969 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6839,7 +6825,7 @@ The definition of A090969 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A016921(n)*A004355(n)`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A090969
@@ -7820,7 +7806,7 @@ end A090971
 /-!
 # A090972: Least k such that there are at least n primes between n and n*k.
 
-The programs for A090972, the canonical program `A090972.P8282025296357103097` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090972 has offset 1).
+The programs for A090972, the canonical program `A090972.P8282025296357103097` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090972 has offset 1).
 
 The definition of A090972 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7921,7 +7907,7 @@ end A090972
 
 `floor(A000040(A095117(n+1))/(n+1))+1`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A090972
@@ -7985,7 +7971,7 @@ end A090972
 /-!
 # A090973: a(n) = ceiling(prime(n)/n).
 
-The programs for A090973, the canonical program `A090973.P6773220539697647360` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090973 has offset 1).
+The programs for A090973, the canonical program `A090973.P6773220539697647360` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090973 has offset 1).
 
 The definition of A090973 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `ceil(A000040(n+1)/(n+1))` (program `A090973.P6773220539697647360`, by `A090973.P6773220539697647360.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7994,7 +7980,7 @@ The definition of A090973 is `verified`: the Lean definition is proven equivalen
 
 `ceil(A000040(n+1)/(n+1))`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A090973
@@ -8600,7 +8586,7 @@ end
 end A090977.P5466088601192563128
 
 /-!
-# A090978: a(n) = n + Sum{a(k): 1<=k
+# A090978: a(n) = n + Sum{a(k): 1<=k<n and a(k) divides n}.
 
 The programs for A090978, there is no canonical definition to state claims against.
 -/

@@ -39,17 +39,23 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -58,6 +64,7 @@ import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -71,8 +78,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -684,7 +689,7 @@ end A320003
 /-!
 # A320005: Number of proper divisors of n of the form 6*k + 5.
 
-The programs for A320005, the canonical program `A320005.P17788538960493926001` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320005 has offset 1).
+The programs for A320005, the canonical program `A320005.P17788538960493926001` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320005 has offset 1).
 
 The definition of A320005 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -745,7 +750,7 @@ end A320005
 
 `∑{d}[n+1, A157658(#)*A319995((n+1)/#)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A320005
@@ -6286,7 +6291,7 @@ end A320064.P16502346268246192859
 /-!
 # A320065: a(n) is the smallest integer i such that binomial(2i,i) > n.
 
-The programs for A320065, the canonical program `A320065.P10804250572307599739` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320065 has offset 1).
+The programs for A320065, the canonical program `A320065.P10804250572307599739` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320065 has offset 1).
 
 The definition of A320065 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 103 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6651,7 +6656,7 @@ end A320065
 
 `A244160(∑[A267708(n)])`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A320065
@@ -7006,7 +7011,7 @@ end A320067.P15186060783418578835
 /-!
 # A320071: Number of length n primitive (=aperiodic or period n) 6-ary words which are earlier in lexicographic order than any other word derived by cyclic shifts of the alphabet.
 
-The programs for A320071, the canonical program `A320071.P2683966818165125701` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320071 has offset 1).
+The programs for A320071, the canonical program `A320071.P2683966818165125701` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320071 has offset 1).
 
 The definition of A320071 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 129 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7015,7 +7020,7 @@ The definition of A320071 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A007427(#)*A339686((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A320071
@@ -7264,7 +7269,7 @@ end A320071
 /-!
 # A320072: Number of length n primitive (=aperiodic or period n) 7-ary words which are earlier in lexicographic order than any other word derived by cyclic shifts of the alphabet.
 
-The programs for A320072, the canonical program `A320072.P6136818762582118294` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320072 has offset 1).
+The programs for A320072, the canonical program `A320072.P6136818762582118294` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320072 has offset 1).
 
 The definition of A320072 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 119 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7273,7 +7278,7 @@ The definition of A320072 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A007427(#)*A339687((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A320072
@@ -7455,7 +7460,7 @@ end A320072
 /-!
 # A320073: Number of length n primitive (=aperiodic or period n) 8-ary words which are earlier in lexicographic order than any other word derived by cyclic shifts of the alphabet.
 
-The programs for A320073, the canonical program `A320073.P573126222224900176` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320073 has offset 1).
+The programs for A320073, the canonical program `A320073.P573126222224900176` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320073 has offset 1).
 
 The definition of A320073 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7464,7 +7469,7 @@ The definition of A320073 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A007427(#)*A339688((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A320073
@@ -7623,7 +7628,7 @@ end A320073
 /-!
 # A320074: Number of length n primitive (=aperiodic or period n) 9-ary words which are earlier in lexicographic order than any other word derived by cyclic shifts of the alphabet.
 
-The programs for A320074, the canonical program `A320074.P12082803860178623221` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320074 has offset 1).
+The programs for A320074, the canonical program `A320074.P12082803860178623221` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320074 has offset 1).
 
 The definition of A320074 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7632,7 +7637,7 @@ The definition of A320074 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A007427(#)*A339689((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A320074
@@ -7837,7 +7842,7 @@ end A320074
 /-!
 # A320075: Number of length n primitive (=aperiodic or period n) 10-ary words which are earlier in lexicographic order than any other word derived by cyclic shifts of the alphabet.
 
-The programs for A320075, the canonical program `A320075.P14108991417829388174` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320075 has offset 1).
+The programs for A320075, the canonical program `A320075.P14108991417829388174` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320075 has offset 1).
 
 The definition of A320075 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7950,7 +7955,7 @@ end A320075
 
 `∑{d}[n+1, A007427(#)*A113999((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A320075
@@ -8440,7 +8445,7 @@ end A320085
 /-!
 # A320087: Number of primitive (=aperiodic) ternary words with length less than or equal to n which are earlier in lexicographic order than any other word derived by cyclic shifts of the alphabet.
 
-The programs for A320087, the canonical program `A320087.P4992698850007107004` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320087 has offset 1).
+The programs for A320087, the canonical program `A320087.P4992698850007107004` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320087 has offset 1).
 
 The definition of A320087 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8449,7 +8454,7 @@ The definition of A320087 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A034741(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A320087
@@ -8652,7 +8657,7 @@ end A320087
 /-!
 # A320088: Number of primitive (=aperiodic) 4-ary words with length less than or equal to n which are earlier in lexicographic order than any other word derived by cyclic shifts of the alphabet.
 
-The programs for A320088, the canonical program `A320088.P9801896306864635147` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320088 has offset 1).
+The programs for A320088, the canonical program `A320088.P9801896306864635147` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320088 has offset 1).
 
 The definition of A320088 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 166 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8661,7 +8666,7 @@ The definition of A320088 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A295505(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A320088
@@ -8904,7 +8909,7 @@ end A320088
 /-!
 # A320089: Number of primitive (=aperiodic) 5-ary words with length less than or equal to n which are earlier in lexicographic order than any other word derived by cyclic shifts of the alphabet.
 
-The programs for A320089, the canonical program `A320089.P17205569349605145303` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320089 has offset 1).
+The programs for A320089, the canonical program `A320089.P17205569349605145303` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320089 has offset 1).
 
 The definition of A320089 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 143 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8913,7 +8918,7 @@ The definition of A320089 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A295506(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A320089
@@ -9168,7 +9173,7 @@ end A320089
 /-!
 # A320090: Number of primitive (=aperiodic) 6-ary words with length less than or equal to n which are earlier in lexicographic order than any other word derived by cyclic shifts of the alphabet.
 
-The programs for A320090, the canonical program `A320090.P3982417970067129547` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320090 has offset 1).
+The programs for A320090, the canonical program `A320090.P3982417970067129547` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320090 has offset 1).
 
 The definition of A320090 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 129 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9177,7 +9182,7 @@ The definition of A320090 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A320071(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A320090
@@ -9429,7 +9434,7 @@ end A320090
 /-!
 # A320091: Number of primitive (=aperiodic) 7-ary words with length less than or equal to n which are earlier in lexicographic order than any other word derived by cyclic shifts of the alphabet.
 
-The programs for A320091, the canonical program `A320091.P8454268686105646961` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320091 has offset 1).
+The programs for A320091, the canonical program `A320091.P8454268686105646961` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320091 has offset 1).
 
 The definition of A320091 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 119 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9438,7 +9443,7 @@ The definition of A320091 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A320072(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A320091
@@ -9574,7 +9579,7 @@ end A320091
 /-!
 # A320092: Number of primitive (=aperiodic) 8-ary words with length less than or equal to n which are earlier in lexicographic order than any other word derived by cyclic shifts of the alphabet.
 
-The programs for A320092, the canonical program `A320092.P5508118192219672210` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320092 has offset 1).
+The programs for A320092, the canonical program `A320092.P5508118192219672210` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320092 has offset 1).
 
 The definition of A320092 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9583,7 +9588,7 @@ The definition of A320092 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A320073(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A320092
@@ -9792,7 +9797,7 @@ end A320092
 /-!
 # A320093: Number of primitive (=aperiodic) 9-ary words with length less than or equal to n which are earlier in lexicographic order than any other word derived by cyclic shifts of the alphabet.
 
-The programs for A320093, the canonical program `A320093.P7933028962227537936` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320093 has offset 1).
+The programs for A320093, the canonical program `A320093.P7933028962227537936` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320093 has offset 1).
 
 The definition of A320093 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9801,7 +9806,7 @@ The definition of A320093 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A320074(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A320093
@@ -10053,7 +10058,7 @@ end A320093
 /-!
 # A320094: Number of primitive (=aperiodic) 10-ary words with length less than or equal to n which are earlier in lexicographic order than any other word derived by cyclic shifts of the alphabet.
 
-The programs for A320094, the canonical program `A320094.P14857963571908275776` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320094 has offset 1).
+The programs for A320094, the canonical program `A320094.P14857963571908275776` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320094 has offset 1).
 
 The definition of A320094 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10062,7 +10067,7 @@ The definition of A320094 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A320075(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A320094

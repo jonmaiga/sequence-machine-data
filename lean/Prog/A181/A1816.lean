@@ -45,6 +45,8 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,11 +54,11 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -64,7 +66,6 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
@@ -72,8 +73,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -759,7 +758,7 @@ end A181602
 /-!
 # A181603: Twin primes ending in 1.
 
-The programs for A181603, the canonical program `A181603.P12420885902488205799` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181603 has offset 1).
+The programs for A181603, the canonical program `A181603.P12420885902488205799` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181603 has offset 1).
 
 The definition of A181603 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3330 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -768,7 +767,7 @@ The definition of A181603 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A030430(n+1), A132247(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A181603
@@ -1356,7 +1355,7 @@ end A181603
 /-!
 # A181604: Twin primes ending in 3.
 
-The programs for A181604, the canonical program `A181604.P3897109679359761280` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181604 has offset 1).
+The programs for A181604, the canonical program `A181604.P3897109679359761280` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181604 has offset 1).
 
 The definition of A181604 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1365,7 +1364,7 @@ The definition of A181604 is `conjectured`: the Lean definition is a formula tha
 
 `A282322(n%a(n-1))` with `a(0)=3`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A181604
@@ -1959,7 +1958,7 @@ end A181604
 /-!
 # A181605: Twin primes ending in 7.
 
-The programs for A181605, the canonical program `A181605.P1127411244904129407` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181605 has offset 1).
+The programs for A181605, the canonical program `A181605.P1127411244904129407` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181605 has offset 1).
 
 The definition of A181605 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1968,7 +1967,7 @@ The definition of A181605 is `conjectured`: the Lean definition is a formula tha
 
 `A282323(n%(a(n-1)+val(n, 3)))` with `a(0)=7`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A181605
@@ -2551,7 +2550,7 @@ end A181605
 /-!
 # A181606: Twin primes ending in 9.
 
-The programs for A181606, the canonical program `A181606.P9169201162728271764` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181606 has offset 1).
+The programs for A181606, the canonical program `A181606.P9169201162728271764` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181606 has offset 1).
 
 The definition of A181606 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3310 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2620,7 +2619,7 @@ end A181606
 
 `∩[A030433(n+1), A132247(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A181606
@@ -4100,7 +4099,7 @@ end A181617
 /-!
 # A181618: Number of n-game win/loss/draw series that contain at least one dead game.
 
-The programs for A181618, the canonical program `A181618.P11863935237551342240` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181618 has offset 1).
+The programs for A181618, the canonical program `A181618.P11863935237551342240` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181618 has offset 1).
 
 The definition of A181618 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4109,7 +4108,7 @@ The definition of A181618 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3^(n+1)-3*A002426(n+1)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A181618
@@ -5376,7 +5375,7 @@ end A181634.P7299284451112260739
 /-!
 # A181635: Expansion of 36*x^2*(1+36*x^2-6*x) / ((36*x^2+6*x+1)*(1-6*x)^2).
 
-The programs for A181635, the canonical program `A181635.P11492006392331502600` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181635 has offset 1).
+The programs for A181635, the canonical program `A181635.P11492006392331502600` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181635 has offset 1).
 
 The definition of A181635 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 126 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5385,7 +5384,7 @@ The definition of A181635 is `conjectured`: the Lean definition is a formula tha
 
 `6^(n+1)*A008612(2*n+1)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A181635
@@ -8152,7 +8151,7 @@ end A181657.P13802504060994194560
 /-!
 # A181658: Row sums of A181657.
 
-The programs for A181658, the canonical program `A181658.P2143649759648752811` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181658 has offset 0).
+The programs for A181658, the canonical program `A181658.P2143649759648752811` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181658 has offset 0).
 
 The definition of A181658 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 521 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8161,7 +8160,7 @@ The definition of A181658 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A005409(Δ[A101881(n)])]`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A181658
@@ -9783,7 +9782,7 @@ end A181669.P10940361803277073821
 /-!
 # A181670: Triangle read by rows: T(n,k) = 2^(n-1) mod prime(k), 1 <= k <= n.
 
-The programs for A181670, the canonical program `A181670.P11439897079585404463` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181670 has offset 1).
+The programs for A181670, the canonical program `A181670.P11439897079585404463` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181670 has offset 1).
 
 The definition of A181670 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(2^row(n))%A000040(col(n)+1)` (program `A181670.P11439897079585404463`, by `A181670.P11439897079585404463.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9792,7 +9791,7 @@ The definition of A181670 is `verified`: the Lean definition is proven equivalen
 
 `(2^row(n))%A000040(col(n)+1)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A181670

@@ -5,6 +5,7 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
+import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -23,7 +24,6 @@ import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
 import Seq.B000.C027
-import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C033
 import Seq.B000.C035
@@ -31,14 +31,12 @@ import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C004
-import Seq.B001.C010
-import Seq.B003.C003
+import Seq.B001.C011
+import Seq.B002.C003
+import Seq.B003.C004
 import Seq.B005.C000
-import Seq.B006.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -607,72 +605,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A016725.P11797747698498918986
-
-/-! ## A016725.P7563610337924469267
-
-`A267651(A233583(n+1))%∑[A249589(n+1)]`
--/
-
-namespace A016725.P7563610337924469267
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A249589 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A267651 (A233583 (n + 1)).toNat) (∑ j ∈ Finset.range (n + 1), f1 j)
-
-end
-
-end A016725.P7563610337924469267
-
-/-! ## A016725.P5371639948244567976
-
-`gcd(C(2, n+2), A267651(A004277(n)))`
--/
-
-namespace A016725.P5371639948244567976
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (Nat.choose 2 (n + 2) : ℤ) (A267651 (A004277 n).toNat)
-
-end
-
-end A016725.P5371639948244567976
-
-/-! ## A016725.P7015304517821512581
-
-`A267651(A004277(n))^A178334(n)`
--/
-
-namespace A016725.P7015304517821512581
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A267651 (A004277 n).toNat : ℚ) ^ (A178334 n : ℤ)
-
-end
-
-end A016725.P7015304517821512581
-
-/-! ## A016725.P2413238049860379654
-
-`A267651(A004277(n))%A000040(∑[n+1]+2)`
--/
-
-namespace A016725.P2413238049860379654
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A267651 (A004277 n).toNat) (A000040 (∑ j ∈ Finset.range (n + 1), f1 j + 2))
-
-end
-
-end A016725.P2413238049860379654
 
 /-!
 # A016727: Number of inequivalent solutions to x^2+y^2+z^2 = n^2.

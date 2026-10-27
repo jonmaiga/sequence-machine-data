@@ -29,27 +29,28 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B005.C001
+import Seq.B006.C000
 import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6952,7 +6953,7 @@ end A203397.P17800069873835846001
 /-!
 # A203398: T(n,k), a triangular array read by rows, is the number of classes of equivalent 2-color n-bead necklaces (turning over is not allowed) that have k necklaces.
 
-The programs for A203398, the canonical program `A203398.P16155668990834997632` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203398 has offset 1).
+The programs for A203398, the canonical program `A203398.P16155668990834997632` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203398 has offset 1).
 
 The definition of A203398 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6961,7 +6962,7 @@ The definition of A203398 is `conjectured`: the Lean definition is a formula tha
 
 `A216953(n+1)/(1-C(∑[char[∑[n]]], 2)+n)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A203398

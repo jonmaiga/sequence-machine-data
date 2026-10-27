@@ -43,17 +43,19 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -61,13 +63,11 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2702,7 +2702,7 @@ def P14381613835621462005.Spec : Prop :=
 end A273926
 
 /-!
-# A273928: Amicable 5-tuples: (x1,...,x5) such that sigma(x1)=...=sigma(x5)=x1+...+x5, x1
+# A273928: Amicable 5-tuples: (x1,...,x5) such that sigma(x1)=...=sigma(x5)=x1+...+x5, x1<x2<x3<x4<x5. Sequence gives x1 numbers.
 
 The programs for A273928, there is no canonical definition to state claims against.
 -/
@@ -2785,7 +2785,7 @@ end A273928.P10763836682349673478
 /-!
 # A273929: Numbers that are congruent to {5, 6, 7} mod 8 and are squarefree.
 
-The programs for A273929, the canonical program `A273929.P9327079910848474256` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273929 has offset 1).
+The programs for A273929, the canonical program `A273929.P9327079910848474256` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273929 has offset 1).
 
 The definition of A273929 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2794,7 +2794,7 @@ The definition of A273929 is `conjectured`: the Lean definition is a formula tha
 
 `eq[n, A007913(or(4, n))]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A273929
@@ -3340,7 +3340,7 @@ def P13563593779169487055.Spec : Prop :=
 end A273929
 
 /-!
-# A273930: Amicable 5-tuples: (x1,...,x5) such that sigma(x1)=...=sigma(x5)=x1+...+x5, x1
+# A273930: Amicable 5-tuples: (x1,...,x5) such that sigma(x1)=...=sigma(x5)=x1+...+x5, x1<x2<x3<x4<x5. Sequence gives x2 numbers.
 
 The programs for A273930, there is no canonical definition to state claims against.
 -/
@@ -3421,7 +3421,7 @@ end
 end A273930.P980934698193744006
 
 /-!
-# A273931: Amicable 5-tuples: (x1,...,x5) such that sigma(x1)=...=sigma(x5)=x1+...+x5, x1
+# A273931: Amicable 5-tuples: (x1,...,x5) such that sigma(x1)=...=sigma(x5)=x1+...+x5, x1<x2<x3<x4<x5. Sequence gives x3 numbers.
 
 The programs for A273931, there is no canonical definition to state claims against.
 -/
@@ -3523,7 +3523,7 @@ end
 end A273932.P6512893946983354827
 
 /-!
-# A273933: Amicable 5-tuples: (x1,...,x5) such that sigma(x1)=...=sigma(x5)=x1+...+x5, x1
+# A273933: Amicable 5-tuples: (x1,...,x5) such that sigma(x1)=...=sigma(x5)=x1+...+x5, x1<x2<x3<x4<x5. Sequence gives x4 numbers.
 
 The programs for A273933, there is no canonical definition to state claims against.
 -/
@@ -3604,7 +3604,7 @@ end
 end A273933.P14039670796099287924
 
 /-!
-# A273934: Amicable 5-tuples: (x1,...,x5) such that sigma(x1)=...=sigma(x5)=x1+...+x5, x1
+# A273934: Amicable 5-tuples: (x1,...,x5) such that sigma(x1)=...=sigma(x5)=x1+...+x5, x1<x2<x3<x4<x5. Sequence gives x5 numbers.
 
 The programs for A273934, there is no canonical definition to state claims against.
 -/
@@ -4301,7 +4301,7 @@ end A273938
 /-!
 # A273939: a(0) = 1, a(1) = 2; for k>0, a(2*k) = k*a(2*k-1) + a(2*k-2), a(2*k+1) = a(2*k) + a(2*k-1).
 
-The programs for A273939, the canonical program `A273939.P15009550147313335799` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273939 has offset 0).
+The programs for A273939, the canonical program `A273939.P15009550147313335799` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273939 has offset 0).
 
 The definition of A273939 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056921, A056922, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4310,7 +4310,7 @@ The definition of A273939 is `conditional`: the Lean definition is an OEIS formu
 
 `A056921(n)+A056922(n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A273939
@@ -6376,7 +6376,7 @@ end A273972
 /-!
 # A273973: Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 20", based on the 5-celled von Neumann neighborhood.
 
-The programs for A273973, the canonical program `A273973.P17292048362556108881` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273973 has offset 0).
+The programs for A273973, the canonical program `A273973.P17292048362556108881` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273973 has offset 0).
 
 The definition of A273973 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 423 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6408,7 +6408,7 @@ end A273973
 
 `A133179(Δ[or(1, n²)])`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A273973

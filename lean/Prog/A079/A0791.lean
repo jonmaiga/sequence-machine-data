@@ -47,21 +47,26 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -70,8 +75,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1814,7 +1817,7 @@ end A079111
 /-!
 # A079112: Numbers in binary representation with odd length.
 
-The programs for A079112, the canonical program `A079112.P9511024722204369267` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A079112 has offset 0).
+The programs for A079112, the canonical program `A079112.P9511024722204369267` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A079112 has offset 0).
 
 The definition of A079112 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1823,7 +1826,7 @@ The definition of A079112 is `conjectured`: the Lean definition is a formula tha
 
 `A007088(eq[1, 1-a(floor(n/2))])` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A079112
@@ -5467,7 +5470,7 @@ end A079141.P16687665063585519715
 /-!
 # A079142: Numbers divisible by prime integer parts of their square roots.
 
-The programs for A079142, the canonical program `A079142.P3719242836369458363` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A079142 has offset 0).
+The programs for A079142, the canonical program `A079142.P3719242836369458363` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A079142 has offset 0).
 
 The definition of A079142 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5505,7 +5508,7 @@ end A079142
 
 `record[A014963(A008624(n)+1)*A008624(n+9)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A079142
@@ -8804,7 +8807,7 @@ end A079165
 /-!
 # A079167: Weighted roundness of n. If n = p_1^e_1...p_k^e_k, then a(n) = e_1 + 2*e_2 + ... + k*e_k. Note that p_i < p_j, i < j is assumed.
 
-The programs for A079167, the canonical program `A079167.P10139096328947258355` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A079167 has offset 1).
+The programs for A079167, the canonical program `A079167.P10139096328947258355` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A079167 has offset 1).
 
 The definition of A079167 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8836,7 +8839,7 @@ end A079167
 
 `A056239(A329607(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A079167
@@ -8970,7 +8973,7 @@ def P629386975149925034.Spec : Prop :=
 end A079167
 
 /-!
-# A079168: Weighted quadratic roundness of n. If n=p_1^e_1...p^k_e^k, then a(n) = e_1 + (2^2 * e_2) + ... + (k^2 * e_k). Note that p_i
+# A079168: Weighted quadratic roundness of n. If n=p_1^e_1...p^k_e^k, then a(n) = e_1 + (2^2 * e_2) + ... + (k^2 * e_k). Note that p_i<p_j, i<j, is assumed.
 
 The programs for A079168, there is no canonical definition to state claims against.
 -/

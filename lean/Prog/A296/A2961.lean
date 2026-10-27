@@ -48,16 +48,16 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,8 +70,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -105,7 +103,7 @@ set_option linter.unreachableTactic false
 /-!
 # A296102: Number of total dominating sets in the n-prism graph.
 
-The programs for A296102, the canonical program `A296102.P12593933539464687046` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296102 has offset 1).
+The programs for A296102, the canonical program `A296102.P12593933539464687046` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296102 has offset 1).
 
 The definition of A296102 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 188 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -114,7 +112,7 @@ The definition of A296102 is `conjectured`: the Lean definition is a formula tha
 
 `A001644(lcm(2, n+1))^A000034(n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A296102
@@ -6422,21 +6420,6 @@ end
 
 end A296167.P4889288977299677998
 
-/-! ## A296167.P12199078698153696165
-
-`A174424(A174448(n))+A060016(n+1)`
--/
-
-namespace A296167.P12199078698153696165
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A174424 (A174448 n).toNat + A060016 (n + 1)
-
-end
-
-end A296167.P12199078698153696165
-
 /-! ## A296167.P14580881847229857253
 
 `A234538(A176129(n))`
@@ -8627,7 +8610,7 @@ end A296197
 /-!
 # A296198: Harary index of the n X n black bishop graph.
 
-The programs for A296198, the canonical program `A296198.P2777221350177651624` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296198 has offset 1).
+The programs for A296198, the canonical program `A296198.P2777221350177651624` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296198 has offset 1).
 
 The definition of A296198 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8636,7 +8619,7 @@ The definition of A296198 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A131474(n+1)-or(1, n)]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A296198
@@ -8885,7 +8868,7 @@ end A296198
 /-!
 # A296199: Numerator of the contraharmonic mean of the first n primes.
 
-The programs for A296199, the canonical program `A296199.P13100712386680932036` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296199 has offset 1).
+The programs for A296199, the canonical program `A296199.P13100712386680932036` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296199 has offset 1).
 
 The definition of A296199 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8917,7 +8900,7 @@ end A296199
 
 `A024450(n+1)/gcd(A024450(n+1), A117962(n+1))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A296199

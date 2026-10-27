@@ -43,27 +43,29 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7303,7 +7305,7 @@ end A032088
 /-!
 # A032089: "BHK" (reversible, identity, unlabeled) transform of 1,0,1,0...(odds).
 
-The programs for A032089, the canonical program `A032089.P12573802574290399080` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032089 has offset 1).
+The programs for A032089, the canonical program `A032089.P6842823643242770340` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032089 has offset 1).
 
 The definition of A032089 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 480 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7504,45 +7506,22 @@ def P7951169419080600267.Spec : Prop :=
 
 end A032089
 
-/-! ## A032089.P12573802574290399080
-
-`A052959(n)-A102526(n)`
-
-The canonical program, it is in `Seq.B002.C000`.
--/
-
-namespace A032089
-
-/-- `A052959(n)-A102526(n)` -/
-def P12573802574290399080.Spec : Prop :=
-  ∀ n, P12573802574290399080.a n = A032089 (n + 1)
-
-theorem P12573802574290399080.correct : P12573802574290399080.Spec := by
-  intro n
-  simp only [A032089, Nat.add_sub_cancel]
-
-end A032089
-
 /-! ## A032089.P6842823643242770340
 
 `A052959(n)-A001224(A028310(n))`
+
+The canonical program, it is in `Seq.B001.C001`.
 -/
-
-namespace A032089.P6842823643242770340
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A052959 n - A001224 (A028310 n).toNat
-
-end
-
-end A032089.P6842823643242770340
 
 namespace A032089
 
 /-- `A052959(n)-A001224(A028310(n))` -/
 def P6842823643242770340.Spec : Prop :=
   ∀ n, P6842823643242770340.a n = A032089 (n + 1)
+
+theorem P6842823643242770340.correct : P6842823643242770340.Spec := by
+  intro n
+  simp only [A032089, Nat.add_sub_cancel]
 
 end A032089
 
@@ -7572,7 +7551,7 @@ end A032089
 /-!
 # A032090: "BHK" (reversible, identity, unlabeled) transform of 0,1,1,1...
 
-The programs for A032090, the canonical program `A032090.P1511666356782873879` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032090 has offset 1).
+The programs for A032090, the canonical program `A032090.P1511666356782873879` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032090 has offset 1).
 
 The definition of A032090 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 482 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7581,7 +7560,7 @@ The definition of A032090 is `conjectured`: the Lean definition is a formula tha
 
 `A032089(A028310(n))-(1-n)%2`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A032090

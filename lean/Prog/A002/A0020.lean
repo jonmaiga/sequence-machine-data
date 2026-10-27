@@ -50,6 +50,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -57,11 +58,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -76,9 +79,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2402,7 +2402,7 @@ def P14844813806204235644.Spec : Prop :=
 end A002011
 
 /-!
-# A002012: Almost trivalent maps.
+# A002012: Number of rooted planar maps with three trivalent vertices and a root vertex of degree 2*n - 1.
 
 The programs for A002012, the canonical program `A002012.P2976292898116930831` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002012 has offset 0).
 
@@ -14221,7 +14221,7 @@ end A002086.P2072866392459748283
 /-!
 # A002088: Sum of totient function: a(n) = Sum_{k=1..n} phi(k), cf. A000010.
 
-The programs for A002088, the canonical program `A002088.P8962335469571691680` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002088 has offset 0).
+The programs for A002088, the canonical program `A002088.P11293466613211840242` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002088 has offset 0).
 
 The definition of A002088 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14247,12 +14247,6 @@ namespace A002088
 def P13650539769292343887.Spec : Prop :=
   ∀ n, P13650539769292343887.a n = A002088 n
 
-theorem P13650539769292343887.correct : P13650539769292343887.Spec := by
-  intro n
-  simp only [A002088, Nat.add_sub_cancel, A002088.P13650539769292343887.a, A002088.P8962335469571691680.f2, A002088.P8962335469571691680.f1, A002088.P8962335469571691680.a, A005728, A005728.P12032251568510858139.a, A007431, A007431.P16849793818733668455.f1, A007431.P16849793818733668455.a, A007432, A007432.P16663120023730915232.f1, A007432.P16663120023730915232.a, A007428, A007428.P12532017655611739201.f1, A007428.P12532017655611739201.a, A247343, A247343.P16054937885260863727.f1, A247343.P16054937885260863727.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A002088
 
 /-! ## A002088.P4476418441194142984
@@ -14276,12 +14270,6 @@ namespace A002088
 def P4476418441194142984.Spec : Prop :=
   ∀ n, P4476418441194142984.a n = (A002088 n : ℚ)
 
-theorem P4476418441194142984.correct : P4476418441194142984.Spec := by
-  intro n
-  simp only [A002088, Nat.add_sub_cancel, A002088.P4476418441194142984.a, A002088.P8962335469571691680.f2, A002088.P8962335469571691680.f1, A002088.P8962335469571691680.a, A007431, A007431.P16849793818733668455.f1, A007431.P16849793818733668455.a, A049696, A049696.P12004431397855860570.a, A007432, A007432.P16663120023730915232.f1, A007432.P16663120023730915232.a, A007428, A007428.P12532017655611739201.f1, A007428.P12532017655611739201.a, A247343, A247343.P16054937885260863727.f1, A247343.P16054937885260863727.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A002088
 
 /-! ## A002088.P7233465129194100797
@@ -14304,12 +14292,6 @@ namespace A002088
 /-- `A140466(n)/4` -/
 def P7233465129194100797.Spec : Prop :=
   ∀ n, P7233465129194100797.a n = (A002088 n : ℚ)
-
-theorem P7233465129194100797.correct : P7233465129194100797.Spec := by
-  intro n
-  simp only [A002088, Nat.add_sub_cancel, A002088.P7233465129194100797.a, A002088.P8962335469571691680.f2, A002088.P8962335469571691680.f1, A002088.P8962335469571691680.a, A007431, A007431.P16849793818733668455.f1, A007431.P16849793818733668455.a, A140466, A140466.P2617124052483112329.a, A007432, A007432.P16663120023730915232.f1, A007432.P16663120023730915232.a, A007428, A007428.P12532017655611739201.f1, A007428.P12532017655611739201.a, A247343, A247343.P16054937885260863727.f1, A247343.P16054937885260863727.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A002088
 
@@ -14339,9 +14321,23 @@ end A002088
 /-! ## A002088.P8962335469571691680
 
 `∑[∑{d}[n, A007431(#)]]`
-
-The canonical program, it is in `Seq.B012.C000`.
 -/
+
+namespace A002088.P8962335469571691680
+noncomputable section
+
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n
+
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ d ∈ Nat.divisors (f2 n), A007431 d
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
+
+end
+
+end A002088.P8962335469571691680
 
 namespace A002088
 
@@ -14349,32 +14345,24 @@ namespace A002088
 def P8962335469571691680.Spec : Prop :=
   ∀ n, P8962335469571691680.a n = A002088 n
 
-theorem P8962335469571691680.correct : P8962335469571691680.Spec := by
-  intro n
-  simp only [A002088]
-
 end A002088
 
 /-! ## A002088.P11293466613211840242
 
 `a(n-1)+A000010(n)` with `a(0)=0`
+
+The canonical program, it is in `Seq.B003.C000`.
 -/
-
-namespace A002088.P11293466613211840242
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
-  a (n - 1) + A000010 n
-
-end
-
-end A002088.P11293466613211840242
 
 namespace A002088
 
 /-- `a(n-1)+A000010(n)` -/
 def P11293466613211840242.Spec : Prop :=
   ∀ n, P11293466613211840242.a n = A002088 n
+
+theorem P11293466613211840242.correct : P11293466613211840242.Spec := by
+  intro n
+  simp only [A002088]
 
 end A002088
 

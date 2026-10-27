@@ -32,23 +32,27 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -58,8 +62,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -177,7 +179,7 @@ end A322200.P441953359791197193
 /-!
 # A322201: Main diagonal of square table A322200.
 
-The programs for A322201, the canonical program `A322201.P14556813389480413780` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A322201 has offset 0).
+The programs for A322201, the canonical program `A322201.P14556813389480413780` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A322201 has offset 0).
 
 The definition of A322201 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 169 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -186,7 +188,7 @@ The definition of A322201 is `conjectured`: the Lean definition is a formula tha
 
 `2*∑{d}[n, A081875(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A322201
@@ -3446,7 +3448,7 @@ end
 end A322240.P15827415554332431520
 
 /-!
-# A322242: G.f.: 1/sqrt(1 - 6*x - 7*x^2).
+# A322242: Expansion of g.f. 1/sqrt(1 - 6*x - 7*x^2).
 
 The programs for A322242, there is no canonical definition to state claims against.
 -/
@@ -5741,7 +5743,7 @@ end
 end A322280.P16997026024488997683
 
 /-!
-# A322281: Number of permutations sigma such that |sigma(i+j)-sigma(i)| >= 4 for 1 <= i <= n - j, 1 <= j <= 3.
+# A322281: Number of permutations sigma of [n] such that |sigma(i+j)-sigma(i)| >= 4 for 1 <= i <= n - j, 1 <= j <= 3.
 
 The programs for A322281, there is no canonical definition to state claims against.
 -/
@@ -6216,32 +6218,6 @@ namespace A322284
 /-- `Δ[A005418(n+2)]+n*A011782(n)` -/
 def P10339070086689531321.Spec : Prop :=
   ∀ n, P10339070086689531321.a n = A322284 (n + 1)
-
-end A322284
-
-/-! ## A322284.P3095117540052226814
-
-`A001792(n)+Δ[A135098(n)]-A135098(n)`
--/
-
-namespace A322284.P3095117540052226814
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A135098 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A001792 n + (f1 (n + 1) - f1 n - A135098 n)
-
-end
-
-end A322284.P3095117540052226814
-
-namespace A322284
-
-/-- `A001792(n)+Δ[A135098(n)]-A135098(n)` -/
-def P3095117540052226814.Spec : Prop :=
-  ∀ n, P3095117540052226814.a n = A322284 (n + 1)
 
 end A322284
 

@@ -47,23 +47,25 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3560,7 +3562,7 @@ end A141237.P602684870936612483
 /-!
 # A141241: a(n) = number of divisors of n-th positive integer with a nonprime number of divisors. a(n) = the number of divisors of A139118(n).
 
-The programs for A141241, the canonical program `A141241.P12757171948806850283` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141241 has offset 1).
+The programs for A141241, the canonical program `A141241.P12757171948806850283` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141241 has offset 1).
 
 The definition of A141241 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A139118, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3569,7 +3571,7 @@ The definition of A141241 is `conditional`: the Lean definition is an OEIS formu
 
 `A000005(A139118(n+1))`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A141241
@@ -7959,7 +7961,7 @@ end A141275.P17763231467910305652
 /-!
 # A141276: a(n) = A338038(A002808(n)).
 
-The programs for A141276, the canonical program `A141276.P6145773955166739299` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141276 has offset 1).
+The programs for A141276, the canonical program `A141276.P6145773955166739299` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141276 has offset 1).
 
 The definition of A141276 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, A338038, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7968,7 +7970,7 @@ The definition of A141276 is `conditional`: the Lean definition is an OEIS formu
 
 `A338038(A002808(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A141276

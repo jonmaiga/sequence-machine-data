@@ -44,6 +44,7 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -51,6 +52,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -58,7 +60,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -69,7 +70,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6400,7 +6400,7 @@ end A091235.P12706719376027555361
 /-!
 # A091236: Nonprimes of form 4k+3.
 
-The programs for A091236, the canonical program `A091236.P7558247970017758999` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091236 has offset 1).
+The programs for A091236, the canonical program `A091236.P7558247970017758999` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091236 has offset 1).
 
 The definition of A091236 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6409,7 +6409,7 @@ The definition of A091236 is `conjectured`: the Lean definition is a formula tha
 
 `4*A045752(n+1)-1`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A091236
@@ -10432,7 +10432,7 @@ end A091264
 /-!
 # A091265: Take sequence of prime numbers (A000040) and reverse successive subsequences of lengths 1,2,3,4,...
 
-The programs for A091265, the canonical program `A091265.P3388824324512952485` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091265 has offset 1).
+The programs for A091265, the canonical program `A091265.P3388824324512952485` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091265 has offset 1).
 
 The definition of A091265 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10441,7 +10441,7 @@ The definition of A091265 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000040(A038722(n+1))`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A091265
@@ -13314,7 +13314,7 @@ def P17980415128741819578.Spec : Prop :=
 end A091281
 
 /-!
-# A091282: Exponent of 2 in prime(n)^2 - 1.
+# A091282: Exponent of 2 in the prime factorization of prime(n)^2 - 1.
 
 The programs for A091282, the canonical program `A091282.P45468277352217509` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091282 has offset 1).
 
@@ -13764,7 +13764,7 @@ def P16437266481791605204.Spec : Prop :=
 end A091282
 
 /-!
-# A091283: Exponent of 2 in -1+prime[n]^s, if s is an exponent of the form s=8k-4.
+# A091283: Exponent of 2 in the prime factorization of prime(n)^4 - 1.
 
 The programs for A091283, the canonical program `A091283.P14291136739223741953` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091283 has offset 1).
 
@@ -14255,7 +14255,7 @@ def P9009198393707744253.Spec : Prop :=
 end A091283
 
 /-!
-# A091284: Exponent of 2 in -1+prime[n]^s, if s is an exponent of form 16k-8. Except a(1)=0, a(n)=1+A091283(n).
+# A091284: Exponent of 2 in the prime factorization of prime(n)^8 - 1.
 
 The programs for A091284, there is no canonical definition to state claims against.
 -/

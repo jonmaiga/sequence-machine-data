@@ -53,21 +53,20 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -97,7 +96,7 @@ import Seq.Opaque.C025
 /-!
 # A262401: In prime factorization of n: replace each factor with its largest decimal digit.
 
-The programs for A262401, the canonical program `A262401.P16396674940563330838` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262401 has offset 1).
+The programs for A262401, the canonical program `A262401.P16396674940563330838` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262401 has offset 1).
 
 The definition of A262401 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -106,7 +105,7 @@ The definition of A262401 is `conjectured`: the Lean definition is a formula tha
 
 `∏{d}[n+1, A054055(A014963(#))]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A262401
@@ -696,7 +695,7 @@ end A262405.P14445046487039799060
 /-!
 # A262406: Squarefree k such that phi(k) is a perfect square.
 
-The programs for A262406, the canonical program `A262406.P13591506646915870537` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262406 has offset 1).
+The programs for A262406, the canonical program `A262406.P13591506646915870537` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262406 has offset 1).
 
 The definition of A262406 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3694 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -705,7 +704,7 @@ The definition of A262406 is `conjectured`: the Lean definition is a formula tha
 
 `record[∏{p}[A039770(n+1), #]]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A262406
@@ -3085,7 +3084,7 @@ end
 end A262435.P6926554712086407148
 
 /-!
-# A262436: Number of ways to represent 2n - 1 as p^2 + q^2 + r with p, q, and r prime, and p >= q.
+# A262436: Number of ways to represent 2*n - 1 as p^2 + q^2 + r with p, q, and r prime, and p >= q.
 
 The programs for A262436, there is no canonical definition to state claims against.
 -/
@@ -3153,7 +3152,7 @@ end A262436.P10401092389903411497
 /-!
 # A262438: Number of digits of hexadecimal representation of n.
 
-The programs for A262438, the canonical program `A262438.P5441968165087064476` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262438 has offset 0).
+The programs for A262438, the canonical program `A262438.P5441968165087064476` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262438 has offset 0).
 
 The definition of A262438 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3245,7 +3244,7 @@ end A262438
 
 `A110591(floor(sqrt(n)))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A262438
@@ -3581,7 +3580,7 @@ end A262438
 /-!
 # A262439: Number of primes not exceeding 1+n*(n+1)/2.
 
-The programs for A262439, the canonical program `A262439.P14332100500626004403` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262439 has offset 1).
+The programs for A262439, the canonical program `A262439.P14332100500626004403` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262439 has offset 1).
 
 The definition of A262439 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3590,7 +3589,7 @@ The definition of A262439 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000720(1+(n+1)*(n+2)/2)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A262439
@@ -7660,7 +7659,7 @@ end
 end A262481.P6249152473480126009
 
 /-!
-# A262482: Number of (n+3)X(1+3) 0..1 arrays with each row and column divisible by 13, read as a binary number with top and left being the most significant bits.
+# A262482: Number of (n+3) X (1+3) 0..1 arrays with each row and column divisible by 13, read as a binary number with top and left being the most significant bits.
 
 The programs for A262482, the canonical program `A262482.P2692826768553590871` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A262482 has offset 1).
 

@@ -56,6 +56,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -67,15 +68,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3509,7 +3506,7 @@ def P17969267191207800211.Spec : Prop :=
 end A054115
 
 /-!
-# A054116: T(n,n-1), array T as in A054115.
+# A054116: a(n) = T(n,n-1), array T as in A054115.
 
 The programs for A054116, the canonical program `A054116.P1186045777908171936` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054116 has offset 1).
 
@@ -10882,7 +10879,7 @@ end A054153.P1926737559413663635
 /-!
 # A054154: Moebius transform of A001037 (starting at term 0).
 
-The programs for A054154, the canonical program `A054154.P14939316349495369977` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054154 has offset 0).
+The programs for A054154, the canonical program `A054154.P14939316349495369977` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054154 has offset 0).
 
 The definition of A054154 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 341 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10891,7 +10888,7 @@ The definition of A054154 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A001037(#-1)*A008683((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A054154
@@ -11004,7 +11001,7 @@ end A054154
 /-!
 # A054155: Inverse Moebius transform of A000029 (starting at term 0).
 
-The programs for A054155, the canonical program `A054155.P7253950207557350807` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054155 has offset 0).
+The programs for A054155, the canonical program `A054155.P7253950207557350807` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054155 has offset 0).
 
 The definition of A054155 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 342 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11013,7 +11010,7 @@ The definition of A054155 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000029(#-1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A054155
@@ -11103,7 +11100,7 @@ end A054155
 /-!
 # A054156: Moebius transform of A000029 (starting at term 0).
 
-The programs for A054156, the canonical program `A054156.P13461329148621851711` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054156 has offset 0).
+The programs for A054156, the canonical program `A054156.P13461329148621851711` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054156 has offset 0).
 
 The definition of A054156 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 342 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11112,7 +11109,7 @@ The definition of A054156 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000029(#-1)*A008683((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A054156
@@ -12044,7 +12041,7 @@ end A054167.P16817649668782807963
 /-!
 # A054168: Inverse Moebius transform of A000013 (starting at term 0).
 
-The programs for A054168, the canonical program `A054168.P5904931330468095639` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054168 has offset 0).
+The programs for A054168, the canonical program `A054168.P5904931330468095639` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054168 has offset 0).
 
 The definition of A054168 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 342 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12053,7 +12050,7 @@ The definition of A054168 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000013(#-1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A054168
@@ -12239,7 +12236,7 @@ end A054169.P708911862573638042
 /-!
 # A054170: Moebius transform of A000013 (starting at term 0).
 
-The programs for A054170, the canonical program `A054170.P15719622128540370698` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054170 has offset 0).
+The programs for A054170, the canonical program `A054170.P15719622128540370698` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054170 has offset 0).
 
 The definition of A054170 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 342 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12248,7 +12245,7 @@ The definition of A054170 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000013(#-1)*A008683((n+1)/#)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A054170
@@ -12419,7 +12416,7 @@ end A054171.P6110920488240300047
 /-!
 # A054172: Inverse Moebius transform of A000048 (starting at term 0).
 
-The programs for A054172, the canonical program `A054172.P6329967147542046183` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054172 has offset 0).
+The programs for A054172, the canonical program `A054172.P6329967147542046183` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054172 has offset 0).
 
 The definition of A054172 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 342 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12428,7 +12425,7 @@ The definition of A054172 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000048(#-1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A054172
@@ -12605,7 +12602,7 @@ end A054173.P16168354613736638143
 /-!
 # A054174: Moebius transform of A000048 (starting at term 0).
 
-The programs for A054174, the canonical program `A054174.P10145721077152883775` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054174 has offset 0).
+The programs for A054174, the canonical program `A054174.P10145721077152883775` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054174 has offset 0).
 
 The definition of A054174 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 342 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12614,7 +12611,7 @@ The definition of A054174 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000048(#-1)*A008683((n+1)/#)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A054174
@@ -13219,7 +13216,7 @@ end A054180.P16654547378456658643
 /-!
 # A054181: Inverse Moebius transform of A000011 (starting at term 0).
 
-The programs for A054181, the canonical program `A054181.P17075192393642453761` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054181 has offset 0).
+The programs for A054181, the canonical program `A054181.P17075192393642453761` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054181 has offset 0).
 
 The definition of A054181 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 343 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13228,7 +13225,7 @@ The definition of A054181 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000011(#-1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A054181
@@ -13413,7 +13410,7 @@ end A054182.P10907290727249323850
 /-!
 # A054183: Moebius transform of A000011 (starting at term 0).
 
-The programs for A054183, the canonical program `A054183.P17782024646663310574` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054183 has offset 0).
+The programs for A054183, the canonical program `A054183.P17782024646663310574` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A054183 has offset 0).
 
 The definition of A054183 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 343 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13422,7 +13419,7 @@ The definition of A054183 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000011(#-1)*A008683((n+1)/#)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A054183

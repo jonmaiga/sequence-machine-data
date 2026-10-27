@@ -53,23 +53,22 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2172,7 +2171,7 @@ end
 end A138225.P8566523323045032652
 
 /-!
-# A138226: Number of triples (p,q,r) of primes with pr, q+r>p and r+p>q.
+# A138226: Number of triples (p,q,r) of primes with p<q<r<=prime(n), p+q>r, q+r>p and r+p>q.
 
 The programs for A138226, there is no canonical definition to state claims against.
 -/
@@ -4374,7 +4373,7 @@ end A138238
 /-!
 # A138239: Triangle read by rows: T(n,k) = A000040(k) if A002445(n) mod A000040(k) = 0, otherwise 1.
 
-The programs for A138239, the canonical program `A138239.P3329285066775299196` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138239 has offset 0).
+The programs for A138239, the canonical program `A138239.P3329285066775299196` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138239 has offset 0).
 
 The definition of A138239 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5151 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4383,7 +4382,7 @@ The definition of A138239 is `conjectured`: the Lean definition is a formula tha
 
 `gcd(A002445(A003056(n)), A037126(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A138239
@@ -4565,7 +4564,7 @@ end A138241
 /-!
 # A138242: Prime numbers k such that 12*k - 1, 12*k + 1 are twin primes.
 
-The programs for A138242, the canonical program `A138242.P9271491672774814996` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138242 has offset 1).
+The programs for A138242, the canonical program `A138242.P9271491672774814996` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138242 has offset 1).
 
 The definition of A138242 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 649 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4574,7 +4573,7 @@ The definition of A138242 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A124519(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A138242
@@ -5128,7 +5127,7 @@ end A138242
 /-!
 # A138243: Triangle read by rows: Row products give A027642.
 
-The programs for A138243, the canonical program `A138243.P5727277130700304771` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138243 has offset 0).
+The programs for A138243, the canonical program `A138243.P5727277130700304771` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138243 has offset 0).
 
 The definition of A138243 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5151 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5137,7 +5136,7 @@ The definition of A138243 is `conjectured`: the Lean definition is a formula tha
 
 `gcd(A027642(A003056(n)), A138239(n))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A138243
@@ -6435,7 +6434,7 @@ end A138249.P13265360933490127399
 /-!
 # A138250: Prime numbers k such that 30*k - 1, 30*k + 1 are twin primes.
 
-The programs for A138250, the canonical program `A138250.P13717186710602461343` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138250 has offset 1).
+The programs for A138250, the canonical program `A138250.P13717186710602461343` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138250 has offset 1).
 
 The definition of A138250 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 799 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6444,7 +6443,7 @@ The definition of A138250 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A176114(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A138250

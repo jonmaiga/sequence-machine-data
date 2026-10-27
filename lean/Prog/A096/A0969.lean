@@ -47,6 +47,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
@@ -54,24 +55,24 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -648,7 +649,7 @@ end
 end A096906.P15419725193205242689
 
 /-!
-# A096910: Primitive Pythagorean Quadruples a^2+b^2+c^2=d^2, 0
+# A096910: Primitive Pythagorean Quadruples a^2+b^2+c^2=d^2, 0<a<=b<=c<=d, gcd(a,b,c,d)=1, sorted by d, then c, then b; sequence gives d values.
 
 The programs for A096910, there is no canonical definition to state claims against.
 -/
@@ -10222,7 +10223,7 @@ def P9725930917884955560.Spec : Prop :=
 end A096959
 
 /-!
-# A096960: a(n) = Sum_{0
+# A096960: a(n) = Sum_{0<d|n, n/d odd} d^5.
 
 The programs for A096960, the canonical program `A096960.P12612714756278171164` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096960 has offset 1).
 
@@ -10474,7 +10475,7 @@ def P10995636898030248723.Spec : Prop :=
 end A096960
 
 /-!
-# A096961: a(n) = Sum_{0
+# A096961: a(n) = Sum_{0<d|n, n/d odd} d^7.
 
 The programs for A096961, the canonical program `A096961.P13618465674027357203` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096961 has offset 1).
 
@@ -10775,7 +10776,7 @@ def P6120221296796728162.Spec : Prop :=
 end A096961
 
 /-!
-# A096962: a(n) = Sum_{0
+# A096962: a(n) = Sum_{0<d|n, n/d odd} d^9.
 
 The programs for A096962, the canonical program `A096962.P16075497704585317796` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096962 has offset 1).
 
@@ -11053,9 +11054,9 @@ def P1518162709607397238.Spec : Prop :=
 end A096962
 
 /-!
-# A096963: a(n) = Sum {0
+# A096963: a(n) = Sum {0<d|n, n/d odd} d^11.
 
-The programs for A096963, the canonical program `A096963.P4682834259484350682` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096963 has offset 1).
+The programs for A096963, the canonical program `A096963.P4682834259484350682` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096963 has offset 1).
 
 The definition of A096963 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11080,12 +11081,6 @@ namespace A096963
 /-- `(A321556(n+1)+A013959(n+1))/2` -/
 def P2259142651946140932.Spec : Prop :=
   ∀ n, P2259142651946140932.a n = (A096963 (n + 1) : ℚ)
-
-theorem P2259142651946140932.correct : P2259142651946140932.Spec := by
-  intro n
-  simp only [A096963, Nat.add_sub_cancel, A096963.P2259142651946140932.a, A096963.P4682834259484350682.f1, A096963.P4682834259484350682.a, A000265, A000265.P2772582252347773295.a, A006519, A006519.P10435570611646570274.a, A013959, A013959.P7799579763572069354.f1, A013959.P7799579763572069354.a, A321556, A321556.P12238147563848284171.a, A003602, A003602.P7612175048291952394.a, A171977, A171977.P14092944863121073856.a, A038712, A038712.P3404197303190209645.a, A110963, A110963.P3344771894533151408.a, A025480, A025480.P15873863116418380882.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A096963
 
@@ -11119,7 +11114,7 @@ end A096963
 
 `A006519(n+1)^11*∑{d}[A000265(n+1), #^11]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A096963

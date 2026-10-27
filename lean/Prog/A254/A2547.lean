@@ -44,28 +44,29 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1536,7 +1537,7 @@ end A254707
 /-!
 # A254708: Expansion of (1 + 2*x^2) / (1 - 2*x^2 - x^3 + 2*x^5 + 2*x^6 - x^8 - 2*x^9 + x^11) in powers of x.
 
-The programs for A254708, the canonical program `A254708.P15475653326016787145` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254708 has offset 0).
+The programs for A254708, the canonical program `A254708.P15475653326016787145` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254708 has offset 0).
 
 The definition of A254708 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1545,7 +1546,7 @@ The definition of A254708 is `conjectured`: the Lean definition is a formula tha
 
 `A266755(n)+A254707(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A254708
@@ -4197,9 +4198,9 @@ end A254730
 /-!
 # A254732: a(n) is the least k > n such that n divides k^2.
 
-The programs for A254732, the canonical program `A254732.P8036064587861871874` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254732 has offset 1).
+The programs for A254732, the canonical program `A254732.P8036064587861871874` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254732 has offset 1).
 
-The definition of A254732 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A254732 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000188, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A254732.P17064236381221656999
@@ -4229,7 +4230,7 @@ end A254732
 
 `A019554(n+1)*(A000188(n+1)+1)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A254732
@@ -5105,7 +5106,7 @@ end A254733
 /-!
 # A254734: a(n) is the least k > n such that n divides k^4.
 
-The programs for A254734, the canonical program `A254734.P5864895102281337725` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254734 has offset 1).
+The programs for A254734, the canonical program `A254734.P5864895102281337725` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254734 has offset 1).
 
 The definition of A254734 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5114,7 +5115,7 @@ The definition of A254734 is `conjectured`: the Lean definition is a formula tha
 
 `A053166(n+1)+1+n`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A254734
@@ -6237,7 +6238,7 @@ end A254744.P10766330259333977359
 /-!
 # A254745: Chebyshev polynomials of the second kind, U(n,x)^2, evaluated at x = sqrt(3)/2.
 
-The programs for A254745, the canonical program `A254745.P1476520725255344508` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254745 has offset 0).
+The programs for A254745, the canonical program `A254745.P1476520725255344508` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254745 has offset 0).
 
 The definition of A254745 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6246,7 +6247,7 @@ The definition of A254745 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(-1)^n*A078070(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A254745

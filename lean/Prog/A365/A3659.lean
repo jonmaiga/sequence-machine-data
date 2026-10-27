@@ -42,14 +42,13 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
@@ -59,20 +58,19 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -306,7 +304,7 @@ end
 end A365903.P15837567567129167072
 
 /-!
-# A365904: Triangle read by rows T(n,k) = n^2 - binomial(k+1,2), n>=1, k
+# A365904: Triangle read by rows T(n,k) = n^2 - binomial(k+1,2), n>=1, k<n.
 
 The programs for A365904, the canonical program `A365904.P6336361738146058348` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365904 has offset 1).
 
@@ -3702,7 +3700,7 @@ end A365967
 /-!
 # A365968: Irregular triangle read by rows: T(n,k) (0 <= n, 0 <= k < 2^n). An infinite binary tree with root node 0 in row n = 0. Each node then has left child (2*j) - k - 1 and right child (2*j) - k + 1, where j and k are the values of the parent and grandparent nodes respectively.
 
-The programs for A365968, the canonical program `A365968.P14045950726560360185` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365968 has offset 0).
+The programs for A365968, the canonical program `A365968.P14045950726560360185` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365968 has offset 0).
 
 The definition of A365968 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3757,7 +3755,7 @@ end A365968
 
 `A124757(n+1)-A359400(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A365968

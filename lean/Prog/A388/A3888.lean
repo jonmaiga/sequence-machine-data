@@ -8,7 +8,6 @@ import Seq.B000.C025
 import Seq.B000.C040
 import Seq.B002.C000
 import Seq.B003.C001
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C002

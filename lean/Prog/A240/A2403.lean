@@ -22,7 +22,6 @@ import Seq.B000.C033
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
@@ -33,22 +32,24 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2277,7 +2278,7 @@ end A240330.P7119971275211085746
 /-!
 # A240332: Inverse of 49th cyclotomic polynomial.
 
-The programs for A240332, the canonical program `A240332.P2811997264391864732` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240332 has offset 0).
+The programs for A240332, the canonical program `A240332.P2811997264391864732` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240332 has offset 0).
 
 The definition of A240332 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2048 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2286,7 +2287,7 @@ The definition of A240332 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A014016(n)]*A014016(A003415(n))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A240332
@@ -3434,7 +3435,7 @@ end A240354.P10927224439710313831
 /-!
 # A240355: Inverse of 72nd cyclotomic polynomial.
 
-The programs for A240355, the canonical program `A240355.P8056118770245274033` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240355 has offset 0).
+The programs for A240355, the canonical program `A240355.P8056118770245274033` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240355 has offset 0).
 
 The definition of A240355 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3443,7 +3444,7 @@ The definition of A240355 is `conjectured`: the Lean definition is a formula tha
 
 `A014045(Δ[ceil(C(n, 2)/2)])`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A240355
@@ -4338,7 +4339,7 @@ end A240369.P10133084052836610630
 /-!
 # A240370: Positive integers n such that every element in the ring of integers modulo n can be written as the sum of two squares modulo n.
 
-The programs for A240370, the canonical program `A240370.P5719875248519778256` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240370 has offset 1).
+The programs for A240370, the canonical program `A240370.P5719875248519778256` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240370 has offset 1).
 
 The definition of A240370 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6504 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4376,7 +4377,7 @@ end A240370
 
 `eq[1, A065338(A057521(n+1))]+1`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A240370
@@ -5585,7 +5586,7 @@ end A240386.P3785820892850794971
 /-!
 # A240388: A sequence related to the Stern sequence s(n) (A002487), defined by w(n) = s(3n)/2.
 
-The programs for A240388, the canonical program `A240388.P11621996562073166528` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240388 has offset 0).
+The programs for A240388, the canonical program `A240388.P11621996562073166528` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240388 has offset 0).
 
 The definition of A240388 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5594,7 +5595,7 @@ The definition of A240388 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A002487(3*n)/2`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A240388

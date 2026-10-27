@@ -44,9 +44,9 @@ import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -56,8 +56,8 @@ import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -69,9 +69,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -103,7 +100,7 @@ set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
 
 /-!
-# A272301: Number of set partitions of [n] such that for each pair of blocks (b,c) with b
+# A272301: Number of set partitions of [n] such that for each pair of blocks (b,c) with b<c at least one pair of consecutive numbers (i,i+1) exists with i member of b and i+1 member of c or i member of c and i+1 member of b.
 
 The programs for A272301, there is no canonical definition to state claims against.
 -/
@@ -4321,7 +4318,7 @@ end A272355.P10692794764923823274
 /-!
 # A272356: (Sum_{i=1..n} prime(i)) mod 4.
 
-The programs for A272356, the canonical program `A272356.P12428427733733645423` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272356 has offset 0).
+The programs for A272356, the canonical program `A272356.P12428427733733645423` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272356 has offset 0).
 
 The definition of A272356 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4330,7 +4327,7 @@ The definition of A272356 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A007504(n)%4`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A272356

@@ -40,32 +40,34 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4770,7 +4772,7 @@ end A256151.P15070180065750005319
 /-!
 # A256152: Numbers k such that k is the product of two distinct primes and sigma(k) is a square number.
 
-The programs for A256152, the canonical program `A256152.P5956490634084316170` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256152 has offset 1).
+The programs for A256152, the canonical program `A256152.P5956490634084316170` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256152 has offset 1).
 
 The definition of A256152 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 259 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4857,7 +4859,7 @@ end A256152
 
 `filter[A063937(n+3), A354927(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A256152
@@ -5659,7 +5661,7 @@ end A256161.P10967237521439318810
 /-!
 # A256162: Positive integers a(n) such that number of digits in decimal expansion of a(n)^a(n) is divisible by a(n).
 
-The programs for A256162, the canonical program `A256162.P9949668565681264228` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256162 has offset 1).
+The programs for A256162, the canonical program `A256162.P9949668565681264228` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256162 has offset 1).
 
 The definition of A256162 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 201 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5668,7 +5670,7 @@ The definition of A256162 is `conjectured`: the Lean definition is a formula tha
 
 `A103456(∑[A000035(n)])-A000035(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A256162
@@ -6063,7 +6065,7 @@ end A256172.P6562109440166398173
 /-!
 # A256173: Numbers k such that ceiling(sqrt(k))^2 - k is a square.
 
-The programs for A256173, the canonical program `A256173.P6957340179493702245` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256173 has offset 1).
+The programs for A256173, the canonical program `A256173.P6957340179493702245` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256173 has offset 1).
 
 The definition of A256173 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3254 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6072,7 +6074,7 @@ The definition of A256173 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A053186(ceil(sqrt(n))²-n)]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A256173
@@ -6559,7 +6561,7 @@ end A256177
 /-!
 # A256178: Expansion of exp( Sum_{n >= 1} L(2*n)*L(4*n)*x^n/n ), where L(n) = A000032(n) is a Lucas number.
 
-The programs for A256178, the canonical program `A256178.P4276033605408784369` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256178 has offset 0).
+The programs for A256178, the canonical program `A256178.P4276033605408784369` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256178 has offset 0).
 
 The definition of A256178 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6568,7 +6570,7 @@ The definition of A256178 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1/24*A000045(2*n+2)*A000045(2*n+4)*A000045(2*n+6)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A256178
@@ -7501,7 +7503,7 @@ end A256186.P7788682770062100188
 /-!
 # A256187: First differences of Per Nørgård's "infinity sequence" A004718.
 
-The programs for A256187, the canonical program `A256187.P18267881939555465832` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256187 has offset 0).
+The programs for A256187, the canonical program `A256187.P18267881939555465832` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256187 has offset 0).
 
 The definition of A256187 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7510,7 +7512,7 @@ The definition of A256187 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A004718(n)]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A256187

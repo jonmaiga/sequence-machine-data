@@ -41,9 +41,11 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -52,19 +54,19 @@ import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3707,7 +3709,7 @@ end A235865.P763838359483027221
 /-!
 # A235866: G-cyclic numbers: numbers n such that gcd(n,A060968(n))=1.
 
-The programs for A235866, the canonical program `A235866.P13257973449972346556` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235866 has offset 1).
+The programs for A235866, the canonical program `A235866.P13257973449972346556` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235866 has offset 1).
 
 The definition of A235866 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3716,7 +3718,7 @@ The definition of A235866 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A324873(n+1)]+1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A235866
@@ -4546,7 +4548,7 @@ end A235871.P6166036407123960113
 /-!
 # A235872: Number of solutions to the equation x^2=0 in the ring of Gaussian integers modulo n.
 
-The programs for A235872, the canonical program `A235872.P17023247656904306328` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235872 has offset 1).
+The programs for A235872, the canonical program `A235872.P17023247656904306328` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235872 has offset 1).
 
 The definition of A235872 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4992,7 +4994,7 @@ end A235872
 
 `lcm(A118830(n+1), A358272(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A235872
@@ -6077,7 +6079,7 @@ end A235878
 /-!
 # A235879: Number of (n+1) X (3+1) 0..2 arrays with the minimum plus the upper median equal to the lower median plus the maximum in every 2 X 2 subblock.
 
-The programs for A235879, the canonical program `A235879.P1504288234909662281` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235879 has offset 1).
+The programs for A235879, the canonical program `A235879.P1504288234909662281` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235879 has offset 1).
 
 The definition of A235879 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 208 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6086,7 +6088,7 @@ The definition of A235879 is `conjectured`: the Lean definition is a formula tha
 
 `A183626(n+1)+A305155(n)+1`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A235879

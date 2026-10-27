@@ -5,7 +5,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
@@ -38,26 +37,25 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B009.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1550,7 +1548,7 @@ end A384149.P6120142490498714655
 /-!
 # A384153: a(n) is the number of binary strings of length n whose shortest run of 1s is of length 1.
 
-The programs for A384153, the canonical program `A384153.P11731211239372390351` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384153 has offset 0).
+The programs for A384153, the canonical program `A384153.P11731211239372390351` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384153 has offset 0).
 
 The definition of A384153 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1582,7 +1580,7 @@ end A384153
 
 `2^n-A005251(n+2)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A384153
@@ -1721,7 +1719,7 @@ end A384153
 /-!
 # A384154: a(n) is the number of binary strings of length n whose shortest run of 1s is of length 2.
 
-The programs for A384154, the canonical program `A384154.P3815110510942756679` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384154 has offset 0).
+The programs for A384154, the canonical program `A384154.P3815110510942756679` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384154 has offset 0).
 
 The definition of A384154 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 411 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1730,7 +1728,7 @@ The definition of A384154 is `conjectured`: the Lean definition is a formula tha
 
 `A005251(n+2)-A005252(n+1)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A384154
@@ -2723,7 +2721,7 @@ end
 end A384181.P17016261839036680091
 
 /-!
-# A384186: Number of permutations of 1, 2,..., n with exactly one rising or falling successon, namely (n-1)n or n(n-1).
+# A384186: Number of permutations of 1, 2,..., n with exactly one rising or falling succession, namely (n-1)n or n(n-1).
 
 The programs for A384186, there is no canonical definition to state claims against.
 -/
@@ -3910,9 +3908,9 @@ theorem P10699181949650665304.correct : P10699181949650665304.Spec := by
 end A384195
 
 /-!
-# A384197: The Barret reducer reciprocal mod n.
+# A384197: The Barrett reducer reciprocal mod n.
 
-The programs for A384197, the canonical program `A384197.P16927393950934576976` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384197 has offset 1).
+The programs for A384197, the canonical program `A384197.P16927393950934576976` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384197 has offset 1).
 
 The definition of A384197 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8191 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3921,7 +3919,7 @@ The definition of A384197 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A000302(A070939(n+1))/(n+1))`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A384197

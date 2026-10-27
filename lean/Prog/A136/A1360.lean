@@ -46,6 +46,8 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -58,10 +60,13 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -70,8 +75,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6837,7 +6840,7 @@ end A136035
 /-!
 # A136036: a(n) = A063882(n+1) - A063882(n).
 
-The programs for A136036, the canonical program `A136036.P4686225280415602955` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136036 has offset 1).
+The programs for A136036, the canonical program `A136036.P4686225280415602955` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136036 has offset 1).
 
 The definition of A136036 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A063882(n+2)-A063882(n+1)` (program `A136036.P4686225280415602955`, by `A136036.P4686225280415602955.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6846,7 +6849,7 @@ The definition of A136036 is `verified`: the Lean definition is proven equivalen
 
 `A063882(n+2)-A063882(n+1)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A136036
@@ -9204,7 +9207,7 @@ end A136048.P6322090734644454874
 /-!
 # A136049: a(n)=number of primes p such that (p,p+2) is a pair of twin primes with n^2 + n < p < n^2+3*n+2.
 
-The programs for A136049, the canonical program `A136049.P2253946720504092098` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136049 has offset 1).
+The programs for A136049, the canonical program `A136049.P2253946720504092098` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136049 has offset 1).
 
 The definition of A136049 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 314 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9213,7 +9216,7 @@ The definition of A136049 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A071538((n+1)²+n)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A136049
@@ -9413,7 +9416,7 @@ end A136049
 /-!
 # A136050: Sum of digits of product of twin primes A037074.
 
-The programs for A136050, the canonical program `A136050.P9552292067720199386` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136050 has offset 1).
+The programs for A136050, the canonical program `A136050.P9552292067720199386` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136050 has offset 1).
 
 The definition of A136050 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9422,7 +9425,7 @@ The definition of A136050 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[A037074(n+1), #]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A136050
@@ -9986,7 +9989,7 @@ end A136051.P18434998280047320626
 /-!
 # A136052: Daughter primes of order 3.
 
-The programs for A136052, the canonical program `A136052.P17672628109573547256` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136052 has offset 1).
+The programs for A136052, the canonical program `A136052.P17672628109573547256` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136052 has offset 1).
 
 The definition of A136052 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9995,7 +9998,7 @@ The definition of A136052 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(A136062(n+1)/7)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A136052
@@ -11628,7 +11631,7 @@ end A136058
 /-!
 # A136059: Daughter primes of order 10.
 
-The programs for A136059, the canonical program `A136059.P5455195698059956745` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136059 has offset 1).
+The programs for A136059, the canonical program `A136059.P5455195698059956745` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136059 has offset 1).
 
 The definition of A136059 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2407 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11637,7 +11640,7 @@ The definition of A136059 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A124198(n+1)+1]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A136059
@@ -14480,7 +14483,7 @@ end A136065.P14177662659287079722
 /-!
 # A136066: Mother primes of order 7.
 
-The programs for A136066, the canonical program `A136066.P1749446073161886874` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136066 has offset 1).
+The programs for A136066, the canonical program `A136066.P1749446073161886874` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136066 has offset 1).
 
 The definition of A136066 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2202 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14489,7 +14492,7 @@ The definition of A136066 is `conjectured`: the Lean definition is a formula tha
 
 `p?[15*A000040(n+1)-14]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A136066
@@ -17403,7 +17406,7 @@ end A136072
 /-!
 # A136073: Primes of the form 9*p + 8 with p prime.
 
-The programs for A136073, the canonical program `A136073.P3838515583161840043` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136073 has offset 1).
+The programs for A136073, the canonical program `A136073.P3838515583161840043` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136073 has offset 1).
 
 The definition of A136073 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2099 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -17412,7 +17415,7 @@ The definition of A136073 is `conjectured`: the Lean definition is a formula tha
 
 `p?[9*A000040(n+1)+8]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A136073
@@ -18274,7 +18277,7 @@ end A136074.P4792737733428937223
 /-!
 # A136075: Primes of the form 13*p + 12 with p prime.
 
-The programs for A136075, the canonical program `A136075.P14833966361891239066` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136075 has offset 1).
+The programs for A136075, the canonical program `A136075.P14833966361891239066` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136075 has offset 1).
 
 The definition of A136075 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1763 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18309,7 +18312,7 @@ end A136075
 
 `p?[13*A000040(n+1)+12]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A136075
@@ -19305,7 +19308,7 @@ end A136079
 /-!
 # A136080: Primes of the form 23*p + 22 with p prime.
 
-The programs for A136080, the canonical program `A136080.P3495924471063362038` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136080 has offset 1).
+The programs for A136080, the canonical program `A136080.P3495924471063362038` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136080 has offset 1).
 
 The definition of A136080 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 555 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -19314,7 +19317,7 @@ The definition of A136080 is `conjectured`: the Lean definition is a formula tha
 
 `p?[23*(A000040(n+1)+1)-1]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A136080
@@ -21053,7 +21056,7 @@ end A136089
 /-!
 # A136090: Son primes of order 13.
 
-The programs for A136090, the canonical program `A136090.P14818986857721816505` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136090 has offset 1).
+The programs for A136090, the canonical program `A136090.P14818986857721816505` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136090 has offset 1).
 
 The definition of A136090 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 225 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -21062,7 +21065,7 @@ The definition of A136090 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A006369(A138918(n+1))-1]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A136090

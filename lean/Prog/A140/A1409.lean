@@ -51,12 +51,13 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -68,7 +69,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5369,7 +5369,7 @@ end
 end A140945.P15566007270501937214
 
 /-!
-# A140946: Triangle T(n,k) = (-2)^n*(-1)^k if k
+# A140946: Triangle T(n,k) = (-2)^n*(-1)^k if k<n; T(n,n) = (-1)^(n+1)*A001045(n+1).
 
 The programs for A140946, there is no canonical definition to state claims against.
 -/

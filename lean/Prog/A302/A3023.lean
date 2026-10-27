@@ -42,23 +42,23 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C002
+import Seq.B003.C001
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -66,9 +66,6 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2544,7 +2541,7 @@ end A302322.P11296612147310187154
 /-!
 # A302323: Number of 2Xn 0..1 arrays with every element equal to 0, 1, 2 or 4 horizontally, diagonally or antidiagonally adjacent elements, with upper left element zero.
 
-The programs for A302323, the canonical program `A302323.P569987669017276639` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302323 has offset 1).
+The programs for A302323, the canonical program `A302323.P569987669017276639` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302323 has offset 1).
 
 The definition of A302323 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 229 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2553,7 +2550,7 @@ The definition of A302323 is `conjectured`: the Lean definition is a formula tha
 
 `2*(A131577(n)+A028859(n))`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A302323
@@ -4630,7 +4627,7 @@ end A302345.P13022162960564714426
 /-!
 # A302346: Triangle read by rows. Number of invertible linear operators T on an n-dimensional vector space over GF(2) such that T(U) = U for some given k-dimensional subspace U.
 
-The programs for A302346, the canonical program `A302346.P17985738319529799265` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302346 has offset 0).
+The programs for A302346, the canonical program `A302346.P17985738319529799265` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302346 has offset 0).
 
 The definition of A302346 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4639,7 +4636,7 @@ The definition of A302346 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A002884(col(n))*A002884(row(n)-col(n))*2^(col(n)*(row(n)-col(n)))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A302346
@@ -8239,7 +8236,7 @@ end A302389.P10120104667420353490
 /-!
 # A302390: Triameter of the n-cube-connected cycle graph.
 
-The programs for A302390, the canonical program `A302390.P15472306667370707159` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302390 has offset 3).
+The programs for A302390, the canonical program `A302390.P15472306667370707159` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302390 has offset 3).
 
 The definition of A302390 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9998 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8271,7 +8268,7 @@ end A302390
 
 `round(A016789(n+2)²/A007494(n+3))`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A302390
@@ -8549,7 +8546,7 @@ end A302391.P2054410105951402967
 /-!
 # A302392: Number of odd parts in the partitions of 3n into 3 parts.
 
-The programs for A302392, the canonical program `A302392.P7698044016696591427` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302392 has offset 1).
+The programs for A302392, the canonical program `A302392.P7698044016696591427` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302392 has offset 1).
 
 The definition of A302392 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8558,7 +8555,7 @@ The definition of A302392 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)²+2*A008733(n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A302392
@@ -9011,7 +9008,7 @@ end A302392
 /-!
 # A302393: Number of even parts in the partitions of 3n into 3 parts.
 
-The programs for A302393, the canonical program `A302393.P17459900131682349134` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302393 has offset 1).
+The programs for A302393, the canonical program `A302393.P17459900131682349134` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302393 has offset 1).
 
 The definition of A302393 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9020,7 +9017,7 @@ The definition of A302393 is `conjectured`: the Lean definition is a formula tha
 
 `A238411(n+1)+A166515(n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A302393

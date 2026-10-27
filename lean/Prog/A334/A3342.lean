@@ -44,7 +44,8 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -54,14 +55,17 @@ import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -70,7 +74,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1781,7 +1784,7 @@ end A334207.P2299707756964034495
 /-!
 # A334208: Number of partitions of 2n into two composite parts, (r,s), such that r and s have the same number of primes less than or equal to them.
 
-The programs for A334208, the canonical program `A334208.P8342004109631555367` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334208 has offset 1).
+The programs for A334208, the canonical program `A334208.P8342004109631555367` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334208 has offset 1).
 
 The definition of A334208 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1813,7 +1816,7 @@ end A334208
 
 `A051699(abs(1-n)+2)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A334208
@@ -2416,7 +2419,7 @@ end A334209.P15203924972856996442
 /-!
 # A334210: a(n) = sigma(prime(n) + 1) - sigma(prime(n)).
 
-The programs for A334210, the canonical program `A334210.P14863771200850807590` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334210 has offset 1).
+The programs for A334210, the canonical program `A334210.P14863771200850807590` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334210 has offset 1).
 
 The definition of A334210 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000203(A000040(n+1)+1)-A000203(A000040(n+1))` (program `A334210.P14863771200850807590`, by `A334210.P14863771200850807590.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2448,7 +2451,7 @@ end A334210
 
 `A000203(A000040(n+1)+1)-A000203(A000040(n+1))`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A334210
@@ -2889,7 +2892,7 @@ end A334210
 /-!
 # A334211: a(n) = 1 + a(n-1)*(A007018(n-1) + 1), with a(0) = 1.
 
-The programs for A334211, the canonical program `A334211.P5571320847582038728` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334211 has offset 0).
+The programs for A334211, the canonical program `A334211.P5571320847582038728` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334211 has offset 0).
 
 The definition of A334211 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `1+a(n-1)*(A007018(n-1)+1)` (program `A334211.P5571320847582038728`, by `A334211.P5571320847582038728.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2898,7 +2901,7 @@ The definition of A334211 is `verified`: the Lean definition is proven equivalen
 
 `1+a(n-1)*(A007018(n-1)+1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A334211
@@ -4785,7 +4788,7 @@ end A334237.P1342528501978237636
 /-!
 # A334239: Number of r X s rectangles with composite side lengths such that r + s = 2n, r <= s and r | s.
 
-The programs for A334239, the canonical program `A334239.P2316855968006640335` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334239 has offset 1).
+The programs for A334239, the canonical program `A334239.P2316855968006640335` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334239 has offset 1).
 
 The definition of A334239 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4886,7 +4889,7 @@ end A334239
 
 `A337566(n+1)-A005087(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A334239

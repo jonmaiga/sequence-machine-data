@@ -26,34 +26,32 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
-import Seq.B002.C006
+import Seq.B002.C004
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B013.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1083,7 +1081,7 @@ end
 end A395038.P7497612624304048825
 
 /-!
-# A395039: Numbers k such that the u-th arithmetic derivative of k is zero for some u and A276085(k) has no divisors of the form p^p, otherwise 0, where A276085 is fully additive with a(p) = p#/p.
+# A395039: Numbers k such that the u-th arithmetic derivative of k is zero for some u and A276085(k) has no divisors of the form p^p, where A276085 is fully additive with a(p) = p#/p.
 
 The programs for A395039, there is no canonical definition to state claims against.
 -/
@@ -3480,7 +3478,7 @@ end A395086.P9641810172052158967
 /-!
 # A395088: Fixed point of the morphism 0->011, 1->0.
 
-The programs for A395088, the canonical program `A395088.P1994760081379151259` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395088 has offset 0).
+The programs for A395088, the canonical program `A395088.P1994760081379151259` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395088 has offset 0).
 
 The definition of A395088 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A026465, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3518,7 +3516,7 @@ end A395088
 
 `2-A026465(n+2)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A395088
@@ -3930,7 +3928,7 @@ end A395088
 /-!
 # A395089: Binary complement of A395088.
 
-The programs for A395089, the canonical program `A395089.P12188725371683441728` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395089 has offset 0).
+The programs for A395089, the canonical program `A395089.P12188725371683441728` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395089 has offset 0).
 
 The definition of A395089 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A395088, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3939,7 +3937,7 @@ The definition of A395089 is `conditional`: the Lean definition is an OEIS formu
 
 `1-A395088(n)`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A395089

@@ -54,11 +54,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -67,10 +68,7 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6575,7 +6573,7 @@ end A106254.P3854793129295724285
 /-!
 # A106255: Triangle composed of triangular numbers, row sums = A006918.
 
-The programs for A106255, the canonical program `A106255.P14504416590498202049` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106255 has offset 1).
+The programs for A106255, the canonical program `A106255.P14504416590498202049` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106255 has offset 1).
 
 The definition of A106255 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6860,7 +6858,7 @@ end A106255
 
 `A000217(val(A036561(n), 6)+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A106255
@@ -9713,7 +9711,7 @@ end A106271
 /-!
 # A106272: Antidiagonal sums of number triangle A106270.
 
-The programs for A106272, the canonical program `A106272.P8541491872304346101` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106272 has offset 0).
+The programs for A106272, the canonical program `A106272.P8541491872304346101` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106272 has offset 0).
 
 The definition of A106272 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 172 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9748,7 +9746,7 @@ end A106272
 
 `A106271(n)-a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A106272

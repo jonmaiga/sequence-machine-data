@@ -33,8 +33,9 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
@@ -42,17 +43,14 @@ import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B003.C002
-import Seq.B004.C000
+import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1581,7 +1579,7 @@ end A199713.P17236114529813054546
 /-!
 # A199716: Numbers k such that 6k-5 and 6k-1 are both composite.
 
-The programs for A199716, the canonical program `A199716.P7143510606697811794` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199716 has offset 1).
+The programs for A199716, the canonical program `A199716.P7143510606697811794` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199716 has offset 1).
 
 The definition of A199716 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6916 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1590,7 +1588,7 @@ The definition of A199716 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A046953(n+1), A272902(n+1)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A199716
@@ -1925,7 +1923,7 @@ end A199717
 /-!
 # A199718: Numbers k such that 6*k-5 is composite, but 6*k-1 is prime.
 
-The programs for A199718, the canonical program `A199718.P15975727589693316819` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199718 has offset 1).
+The programs for A199718, the canonical program `A199718.P15975727589693316819` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199718 has offset 1).
 
 The definition of A199718 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3083 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1934,7 +1932,7 @@ The definition of A199718 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A024898(n+2), A046954(n+2)+1]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A199718
@@ -2313,21 +2311,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A199746.P15735252650558166632
-
-/-! ## A199746.P16761837192383587185
-
-`A028310(A248871(n)-A036669(n))`
--/
-
-namespace A199746.P16761837192383587185
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028310 (A248871 n - A036669 n).toNat
-
-end
-
-end A199746.P16761837192383587185
 
 /-!
 # A199747: a(n) = binomial(n*(3*n+1)/2, n).

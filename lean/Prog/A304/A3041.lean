@@ -43,34 +43,38 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -339,7 +343,7 @@ end
 end A304101.P14970444535413940904
 
 /-!
-# A304102: a(n) = Product_{d|n, d
+# A304102: a(n) = Product_{d|n, d<n} prime(A304101(d)-1).
 
 The programs for A304102, there is no canonical definition to state claims against.
 -/
@@ -3991,7 +3995,7 @@ end A304142.P8072602585525088693
 /-!
 # A304143: Number of nX2 0..1 arrays with every element unequal to 1, 2, 3 or 6 king-move adjacent elements, with upper left element zero.
 
-The programs for A304143, the canonical program `A304143.P16625252342008015632` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304143 has offset 1).
+The programs for A304143, the canonical program `A304143.P16625252342008015632` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304143 has offset 1).
 
 The definition of A304143 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 281 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4000,7 +4004,7 @@ The definition of A304143 is `conjectured`: the Lean definition is a formula tha
 
 `A297860(n+3)+A171449(n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A304143
@@ -9537,7 +9541,7 @@ end A304181.P5995539460016016104
 /-!
 # A304182: Number of primitive inequivalent mirror-symmetric sublattices of rectangular lattice of index n.
 
-The programs for A304182, the canonical program `A304182.P17931139108651068119` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304182 has offset 1).
+The programs for A304182, the canonical program `A304182.P17931139108651068119` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304182 has offset 1).
 
 The definition of A304182 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9621,7 +9625,7 @@ end A304182
 
 `∑{d}[n+1, A091379(#)*A284059((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A304182
@@ -9838,7 +9842,7 @@ end A304182
 /-!
 # A304183: Number of primitive inequivalent oblique sublattices of rectangular lattice of index n.
 
-The programs for A304183, the canonical program `A304183.P16998250907067850540` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304183 has offset 1).
+The programs for A304183, the canonical program `A304183.P16998250907067850540` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304183 has offset 1).
 
 The definition of A304183 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A304182, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9847,7 +9851,7 @@ The definition of A304183 is `conditional`: the Lean definition is an OEIS formu
 
 `(A001615(n+1)-A304182(n+1))/2`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A304183

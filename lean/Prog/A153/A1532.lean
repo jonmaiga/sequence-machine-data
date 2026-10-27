@@ -44,18 +44,23 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -69,7 +74,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -291,7 +295,7 @@ end A153206.P15295542626924328831
 /-!
 # A153207: Primes of the form 2*p-1 where p is prime and p-1 is squarefree.
 
-The programs for A153207, the canonical program `A153207.P8862744067160107778` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153207 has offset 1).
+The programs for A153207, the canonical program `A153207.P8862744067160107778` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153207 has offset 1).
 
 The definition of A153207 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1279 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -300,7 +304,7 @@ The definition of A153207 is `conjectured`: the Lean definition is a formula tha
 
 `p?[2*A039787(n+1)-1]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A153207
@@ -1103,7 +1107,7 @@ end A153208.P17726097710190987230
 /-!
 # A153209: Primes of the form 2*p+1 where p is prime and p+1 is squarefree.
 
-The programs for A153209, the canonical program `A153209.P6773077896277111664` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153209 has offset 1).
+The programs for A153209, the canonical program `A153209.P6773077896277111664` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153209 has offset 1).
 
 The definition of A153209 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 633 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1224,7 +1228,7 @@ end A153209
 
 `∩[A065966(n+1), A269844(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A153209
@@ -2300,7 +2304,7 @@ end A153214.P5146723133115990804
 /-!
 # A153215: Primes p such that none of p-2, p-1, p+1, and p+2 is squarefree.
 
-The programs for A153215, the canonical program `A153215.P1043252920232416462` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153215 has offset 1).
+The programs for A153215, the canonical program `A153215.P1043252920232416462` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153215 has offset 1).
 
 The definition of A153215 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 275 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2309,7 +2313,7 @@ The definition of A153215 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A318959(n+1), A319050(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A153215
@@ -2566,7 +2570,7 @@ end A153217
 /-!
 # A153218: Numbers k such that 6k + 7 is prime.
 
-The programs for A153218, the canonical program `A153218.P3785772997736358194` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153218 has offset 1).
+The programs for A153218, the canonical program `A153218.P3785772997736358194` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153218 has offset 1).
 
 The definition of A153218 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2762,7 +2766,7 @@ end A153218
 
 `eq[1, A245838(2*(n+1))]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A153218
@@ -3033,7 +3037,7 @@ end A153218
 /-!
 # A153219: Numbers n such that 6*n + 7 is not prime.
 
-The programs for A153219, the canonical program `A153219.P6113425465272514699` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153219 has offset 1).
+The programs for A153219, the canonical program `A153219.P6113425465272514699` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153219 has offset 1).
 
 The definition of A153219 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3096,7 +3100,7 @@ end A153219
 
 `eq[0, A075743(2*(n+1))]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A153219
@@ -5067,7 +5071,7 @@ end A153235
 /-!
 # A153236: Numbers n such that 8*n + 3 is not prime.
 
-The programs for A153236, the canonical program `A153236.P9988325728927142668` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153236 has offset 1).
+The programs for A153236, the canonical program `A153236.P9988325728927142668` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153236 has offset 1).
 
 The definition of A153236 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5161,7 +5165,7 @@ end A153236
 
 `eq[1, A156707(4*n+1)+1]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A153236
@@ -6079,7 +6083,7 @@ end A153237
 /-!
 # A153238: Numbers k such that 2*k + 3 is composite.
 
-The programs for A153238, the canonical program `A153238.P13831251492164971693` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153238 has offset 1).
+The programs for A153238, the canonical program `A153238.P13831251492164971693` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153238 has offset 1).
 
 The definition of A153238 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6144,7 +6148,7 @@ end A153238
 
 `A153052(n+1)+1`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A153238
@@ -6179,12 +6183,6 @@ namespace A153238
 /-- `A153053(n+1)+2` -/
 def P3049841505152392507.Spec : Prop :=
   ∀ n, P3049841505152392507.a n = A153238 (n + 1)
-
-theorem P3049841505152392507.correct : P3049841505152392507.Spec := by
-  intro n
-  simp only [A153238, Nat.add_sub_cancel, A153238.P3049841505152392507.a, A153238.P13831251492164971693.a, A153052, A153052.P215135875194931627.f1, A153052.P215135875194931627.f2, A153052.P215135875194931627.a, A153053, A153053.P11375225491096847210.a, A101264, A101264.P9977125953316836564.a, A010051, A010051.P15078252821583414300.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A153238
 
@@ -6231,12 +6229,6 @@ namespace A153238
 /-- `A155723(n+1)+3` -/
 def P6142921639734091161.Spec : Prop :=
   ∀ n, P6142921639734091161.a n = A153238 (n + 1)
-
-theorem P6142921639734091161.correct : P6142921639734091161.Spec := by
-  intro n
-  simp only [A153238, Nat.add_sub_cancel, A153238.P6142921639734091161.a, A153238.P13831251492164971693.a, A153052, A153052.P215135875194931627.f1, A153052.P215135875194931627.f2, A153052.P215135875194931627.a, A155723, A155723.P13840957345735942896.a, A101264, A101264.P9977125953316836564.a, A153053, A153053.P11375225491096847210.a, A010051, A010051.P15078252821583414300.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A153238
 
@@ -7135,7 +7127,7 @@ end A153243.P7197520841431904946
 /-!
 # A153245: Numbers n>1 such that 6*n-7 is not prime.
 
-The programs for A153245, the canonical program `A153245.P2590353044541573662` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153245 has offset 1).
+The programs for A153245, the canonical program `A153245.P2590353044541573662` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153245 has offset 1).
 
 The definition of A153245 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7161,19 +7153,13 @@ namespace A153245
 def P3359385606074906047.Spec : Prop :=
   ∀ n, P3359385606074906047.a n = A153245 (n + 1)
 
-theorem P3359385606074906047.correct : P3359385606074906047.Spec := by
-  intro n
-  simp only [A153245, Nat.add_sub_cancel, A153245.P3359385606074906047.a, A153245.P2590353044541573662.a, A046953, A046953.P12772226548913626932.a, A059324, A059324.P9355351555036225255.f1, A059324.P9355351555036225255.f2, A059324.P9355351555036225255.a, A075743, A075743.P8124416718606607743.a, A007310, A007310.P9946423629536973135.a, A010051, A010051.P15078252821583414300.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
-
 end A153245
 
 /-! ## A153245.P2590353044541573662
 
 `A059324(n+1)+2`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A153245
@@ -9530,7 +9516,7 @@ end A153260
 /-!
 # A153261: Primes p such that 3*p-2 is not prime.
 
-The programs for A153261, the canonical program `A153261.P17175385011379704487` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153261 has offset 1).
+The programs for A153261, the canonical program `A153261.P17175385011379704487` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153261 has offset 1).
 
 The definition of A153261 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2647 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9539,7 +9525,7 @@ The definition of A153261 is `conjectured`: the Lean definition is a formula tha
 
 `p?[C(2, A001222(3*(n+1)+1))!+1+n]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A153261
@@ -11542,7 +11528,7 @@ end A153274.P2441167022869695867
 /-!
 # A153275: Numbers n such that 10*n+1 is not prime.
 
-The programs for A153275, the canonical program `A153275.P3519607136667469352` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153275 has offset 1).
+The programs for A153275, the canonical program `A153275.P3519607136667469352` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153275 has offset 1).
 
 The definition of A153275 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A053178, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11551,7 +11537,7 @@ The definition of A153275 is `conditional`: the Lean definition is an OEIS formu
 
 `(A053178(n+1)-1)/10`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A153275
@@ -12048,7 +12034,7 @@ end A153275
 /-!
 # A153276: Numbers n >= 0 such that 5*n+6 is not prime.
 
-The programs for A153276, the canonical program `A153276.P18202283076938886056` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153276 has offset 1).
+The programs for A153276, the canonical program `A153276.P18202283076938886056` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153276 has offset 1).
 
 The definition of A153276 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12111,7 +12097,7 @@ end A153276
 
 `eq[0, A010051(5*n+6)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A153276

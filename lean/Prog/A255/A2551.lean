@@ -41,6 +41,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -57,6 +58,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,7 +72,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1294,7 +1295,7 @@ end A255108
 /-!
 # A255109: Number of length n+2 0..2 arrays with at most one downstep in every n consecutive neighbor pairs.
 
-The programs for A255109, the canonical program `A255109.P13602261014294267061` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255109 has offset 1).
+The programs for A255109, the canonical program `A255109.P13602261014294267061` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255109 has offset 1).
 
 The definition of A255109 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1303,7 +1304,7 @@ The definition of A255109 is `conjectured`: the Lean definition is a formula tha
 
 `A000217(2*(n+2))+A000574(n+4)+A000217(n+1)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A255109
@@ -2788,7 +2789,7 @@ end A255120
 /-!
 # A255121: After zero, each n occurs A255071(n) times.
 
-The programs for A255121, the canonical program `A255121.P16313667486751775912` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255121 has offset 0).
+The programs for A255121, the canonical program `A255121.P16313667486751775912` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255121 has offset 0).
 
 The definition of A255121 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 722 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2892,7 +2893,7 @@ end A255121
 
 `∑[char[A255062(n+1)]]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A255121
@@ -5270,7 +5271,7 @@ end A255138
 /-!
 # A255139: a(n) = n! - Fibonacci(n).
 
-The programs for A255139, the canonical program `A255139.P12832101334896343710` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255139 has offset 0).
+The programs for A255139, the canonical program `A255139.P12832101334896343710` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255139 has offset 0).
 
 The definition of A255139 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n!-A000045(n)` (program `A255139.P12832101334896343710`, by `A255139.P12832101334896343710.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5279,7 +5280,7 @@ The definition of A255139 is `verified`: the Lean definition is proven equivalen
 
 `n!-A000045(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A255139
@@ -8421,7 +8422,7 @@ end A255173.P17667640561271185781
 /-!
 # A255174: a(n) = prime(3*n) - prime(2*n).
 
-The programs for A255174, the canonical program `A255174.P18399948904925372527` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255174 has offset 1).
+The programs for A255174, the canonical program `A255174.P18399948904925372527` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255174 has offset 1).
 
 The definition of A255174 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(3*(n+1))-A000040(2*(n+1))` (program `A255174.P18399948904925372527`, by `A255174.P18399948904925372527.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8430,7 +8431,7 @@ The definition of A255174 is `verified`: the Lean definition is proven equivalen
 
 `A000040(3*(n+1))-A000040(2*(n+1))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A255174
@@ -8860,7 +8861,7 @@ end A255174
 /-!
 # A255175: Expansion of phi(-x) / (1 - x)^2 in powers of x where phi() is a Ramanujan theta function.
 
-The programs for A255175, the canonical program `A255175.P6042656914842276599` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255175 has offset 0).
+The programs for A255175, the canonical program `A255175.P6042656914842276599` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255175 has offset 0).
 
 The definition of A255175 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8974,7 +8975,7 @@ end A255175
 
 `A339265(n)+a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A255175
@@ -9792,7 +9793,7 @@ end A255178
 /-!
 # A255179: Second differences of ninth powers (A001017).
 
-The programs for A255179, the canonical program `A255179.P5015956987194778166` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255179 has offset 0).
+The programs for A255179, the canonical program `A255179.P5015956987194778166` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255179 has offset 0).
 
 The definition of A255179 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7071 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9902,7 +9903,7 @@ end A255179
 
 `Δ[record[Δ[A049472(n)^9]]]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A255179
@@ -9973,7 +9974,7 @@ end A255180.P9164542484559009218
 /-!
 # A255181: Third differences of seventh powers (A001015).
 
-The programs for A255181, the canonical program `A255181.P14353804197790131909` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255181 has offset 0).
+The programs for A255181, the canonical program `A255181.P14353804197790131909` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255181 has offset 0).
 
 The definition of A255181 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9997 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10011,7 +10012,7 @@ end A255181
 
 `Δ[Δ[Δ[A289207(n)^7]]]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A255181
@@ -10029,7 +10030,7 @@ end A255181
 /-!
 # A255182: Third differences of eighth powers (A001016).
 
-The programs for A255182, the canonical program `A255182.P7714813183367637456` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255182 has offset 0).
+The programs for A255182, the canonical program `A255182.P7714813183367637456` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255182 has offset 0).
 
 The definition of A255182 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9997 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10038,7 +10039,7 @@ The definition of A255182 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[Δ[Δ[A289207(n)^8]]]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A255182
@@ -12410,7 +12411,7 @@ end A255197.P11962853630469162079
 /-!
 # A255199: Numbers k such that mu(k) = mu(phi(k)) where mu(k) is the Möbius function and phi(k) is Euler's totient function.
 
-The programs for A255199, the canonical program `A255199.P3048172181705581160` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255199 has offset 1).
+The programs for A255199, the canonical program `A255199.P3048172181705581160` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255199 has offset 1).
 
 The definition of A255199 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12509,7 +12510,7 @@ end A255199
 
 `eq[A008683(A000010(n+1)), A008683(n+1)]+1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A255199

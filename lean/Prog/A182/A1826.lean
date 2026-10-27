@@ -41,6 +41,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
@@ -49,10 +50,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -65,7 +68,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -996,7 +998,7 @@ end A182613.P15745479004317025600
 /-!
 # A182614: Least k such that floor(k/r^n)=n, where r = golden ratio = (1+sqrt(5))/2.
 
-The programs for A182614, the canonical program `A182614.P10153390122333264557` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182614 has offset 1).
+The programs for A182614, the canonical program `A182614.P10153390122333264557` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182614 has offset 1).
 
 The definition of A182614 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 465 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1005,7 +1007,7 @@ The definition of A182614 is `conjectured`: the Lean definition is a formula tha
 
 `A128439(n+1)+1`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A182614
@@ -1200,7 +1202,7 @@ end A182614
 /-!
 # A182615: Greatest k such that floor(k/r^n)=n, where r = golden mean = (1+sqrt(5))/2.
 
-The programs for A182615, the canonical program `A182615.P18328539032038545886` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182615 has offset 1).
+The programs for A182615, the canonical program `A182615.P18328539032038545886` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182615 has offset 1).
 
 The definition of A182615 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 227 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1209,7 +1211,7 @@ The definition of A182615 is `conjectured`: the Lean definition is a formula tha
 
 `floor(sqrt(A000032(2*(n+1))*(n+2)²))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A182615
@@ -2402,7 +2404,7 @@ end A182625.P1389451534823031430
 /-!
 # A182626: a(n) = Hypergeometric([-n, n], [1], 2).
 
-The programs for A182626, the canonical program `A182626.P6575455807757680894` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182626 has offset 0).
+The programs for A182626, the canonical program `A182626.P6575455807757680894` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182626 has offset 0).
 
 The definition of A182626 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 133 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2437,7 +2439,7 @@ end A182626
 
 `or(1, A002002(n)*A033999(n))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A182626
@@ -3190,7 +3192,7 @@ end A182629.P9274225921885367352
 /-!
 # A182630: T(n,k) = A002024(k+1)*n + A002262(k), n >= 0, k >= 0, read by antidiagonals.
 
-The programs for A182630, the canonical program `A182630.P7511109270121733045` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182630 has offset 0).
+The programs for A182630, the canonical program `A182630.P7511109270121733045` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182630 has offset 0).
 
 The definition of A182630 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3199,7 +3201,7 @@ The definition of A182630 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A002024(col(n)+1)*(row(n)-col(n))+A002262(col(n))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A182630
@@ -7278,7 +7280,7 @@ end A182688
 /-!
 # A182691: Composite Beatty sequence of sqrt(2).
 
-The programs for A182691, the canonical program `A182691.P3091554765257165792` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182691 has offset 1).
+The programs for A182691, the canonical program `A182691.P3091554765257165792` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182691 has offset 1).
 
 The definition of A182691 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 291 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7287,7 +7289,7 @@ The definition of A182691 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A341248(n+2), A341250(n+2)]`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A182691

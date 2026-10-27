@@ -37,33 +37,32 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -318,7 +317,7 @@ end A256006.P567186249209569696
 /-!
 # A256007: Numbers k satisfying |k + 1 - 2F| <= 1 for some positive Fibonacci number F.
 
-The programs for A256007, the canonical program `A256007.P10036314069292314353` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256007 has offset 0).
+The programs for A256007, the canonical program `A256007.P10036314069292314353` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256007 has offset 0).
 
 The definition of A256007 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1429 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -327,7 +326,7 @@ The definition of A256007 is `conjectured`: the Lean definition is a formula tha
 
 `record[A019274(floor(n/3)+1)+A010872(n)]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A256007
@@ -3687,7 +3686,7 @@ end A256038.P381456501622794545
 /-!
 # A256041: Triangle read by rows: number of idempotent basis elements of rank k in Brauer monoid B_n.
 
-The programs for A256041, the canonical program `A256041.P8102863058900449500` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256041 has offset 0).
+The programs for A256041, the canonical program `A256041.P8102863058900449500` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256041 has offset 0).
 
 The definition of A256041 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2418 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3696,7 +3695,7 @@ The definition of A256041 is `conjectured`: the Lean definition is a formula tha
 
 `A129684(n)*A329918(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A256041
@@ -4730,7 +4729,7 @@ def P2314738927389788601.Spec : Prop :=
 end A256061
 
 /-!
-# A256062: a(1) = 1; for n>1, a(n) = smallest number > a(n-1) such that the pairwise differences of elements are distinct, and for 1
+# A256062: a(1) = 1; for n>1, a(n) = smallest number > a(n-1) such that the pairwise differences of elements are distinct, and for 1<m<n, a(m) does not divide a(n).
 
 The programs for A256062, there is no canonical definition to state claims against.
 -/
@@ -5789,7 +5788,7 @@ end A256076.P1489879425998961952
 /-!
 # A256077: Repeat 2^d times the repunit A002275(d); d = 1, 2, 3...
 
-The programs for A256077, the canonical program `A256077.P10462771814391243740` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256077 has offset 1).
+The programs for A256077, the canonical program `A256077.P10462771814391243740` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256077 has offset 1).
 
 The definition of A256077 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5844,7 +5843,7 @@ end A256077
 
 `A002275(A000523(n+2))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A256077
@@ -7492,7 +7491,7 @@ end A256096
 /-!
 # A256097: Numerators of a rational guess r(n) for the input for Newton's algorithm to find sqrt(n).
 
-The programs for A256097, the canonical program `A256097.P7490933180745882332` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256097 has offset 1).
+The programs for A256097, the canonical program `A256097.P7490933180745882332` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A256097 has offset 1).
 
 The definition of A256097 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7501,7 +7500,7 @@ The definition of A256097 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(sqrt(n+1)*A256098(n+1))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A256097

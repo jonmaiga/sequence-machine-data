@@ -39,12 +39,14 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,12 +54,14 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,9 +74,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3070,7 +3071,7 @@ end A281017
 /-!
 # A281018: Numbers with a prime number of dots and a prime number of dashes in their International Morse numeral representation.
 
-The programs for A281018, the canonical program `A281018.P7272843195360736797` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281018 has offset 1).
+The programs for A281018, the canonical program `A281018.P7272843195360736797` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281018 has offset 1).
 
 The definition of A281018 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1704 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3079,7 +3080,7 @@ The definition of A281018 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A281015(n+1), A281017(n+1)]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A281018
@@ -3903,7 +3904,7 @@ end A281021.P11330570269200749654
 /-!
 # A281022: Single (or isolated or non-twin) primes that are also safe primes.
 
-The programs for A281022, the canonical program `A281022.P5626948431027533782` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281022 has offset 1).
+The programs for A281022, the canonical program `A281022.P5626948431027533782` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281022 has offset 1).
 
 The definition of A281022 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A230117, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3912,7 +3913,7 @@ The definition of A281022 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A230117(n+2)+1`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A281022
@@ -4500,7 +4501,7 @@ end A281022
 /-!
 # A281023: Partial sums of A067392.
 
-The programs for A281023, the canonical program `A281023.P5406655693289314768` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281023 has offset 1).
+The programs for A281023, the canonical program `A281023.P5406655693289314768` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281023 has offset 1).
 
 The definition of A281023 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4509,7 +4510,7 @@ The definition of A281023 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A067392(n+1)]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A281023
@@ -7082,7 +7083,7 @@ end A281049.P2789470694779622109
 /-!
 # A281050: Number of n X 2 0..1 arrays with no element equal to more than one of its horizontal and antidiagonal neighbors, with the exception of exactly two elements, and with new values introduced in order 0 sequentially upwards.
 
-The programs for A281050, the canonical program `A281050.P15094595003626402173` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281050 has offset 1).
+The programs for A281050, the canonical program `A281050.P15094595003626402173` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281050 has offset 1).
 
 The definition of A281050 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 231 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7091,7 +7092,7 @@ The definition of A281050 is `conjectured`: the Lean definition is a formula tha
 
 `record[A000035(n)*A055243(A052928(n))]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A281050

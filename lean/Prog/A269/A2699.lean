@@ -55,12 +55,15 @@ import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C000
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
@@ -68,7 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5278,7 +5280,7 @@ def P344688518492337219.Spec : Prop :=
 end A269945
 
 /-!
-# A269946: Triangle read by rows, Lah numbers of order 3, T(n,n) = 1, T(n,k) = 0 if kn, otherwise T(n,k) = T(n-1,k-1)+((n-1)^3+k^3)*T(n-1, k), for n>=0 and 0<=k<=n.
+# A269946: Triangle read by rows, Lah numbers of order 3, T(n,n) = 1, T(n,k) = 0 if k<0 or k>n, otherwise T(n,k) = T(n-1,k-1)+((n-1)^3+k^3)*T(n-1, k), for n>=0 and 0<=k<=n.
 
 The programs for A269946, the canonical program `A269946.P2578134015701308639` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269946 has offset 0).
 
@@ -5305,7 +5307,7 @@ theorem P2578134015701308639.correct : P2578134015701308639.Spec := by
 end A269946
 
 /-!
-# A269947: Triangle read by rows, Stirling cycle numbers of order 3, T(n,n) = 1, T(n,k) = 0 if kn, otherwise T(n,k) = T(n-1,k-1)+(n-1)^3*T(n-1,k), for n>=0 and 0<=k<=n.
+# A269947: Triangle read by rows, Stirling cycle numbers of order 3, T(n,n) = 1, T(n,k) = 0 if k<0 or k>n, otherwise T(n,k) = T(n-1,k-1)+(n-1)^3*T(n-1,k), for n>=0 and 0<=k<=n.
 
 The programs for A269947, the canonical program `A269947.P11608401821031612755` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269947 has offset 0).
 
@@ -5427,7 +5429,7 @@ def P14312776462324053302.Spec : Prop :=
 end A269947
 
 /-!
-# A269948: Triangle read by rows, Stirling set numbers of order 3, T(n,n) = 1, T(n,k) = 0 if kn, otherwise T(n,k) = T(n-1,k-1)+k^3*T(n-1, k), for n>=0 and 0<=k<=n.
+# A269948: Triangle read by rows, Stirling set numbers of order 3, T(n,n) = 1, T(n,k) = 0 if k<0 or k>n, otherwise T(n,k) = T(n-1,k-1)+k^3*T(n-1, k), for n>=0 and 0<=k<=n.
 
 The programs for A269948, the canonical program `A269948.P4631686227871307741` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269948 has offset 0).
 

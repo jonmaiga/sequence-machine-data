@@ -4,7 +4,6 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
@@ -41,17 +40,19 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -64,9 +65,9 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -206,7 +207,7 @@ end A365604.P14256853598992146139
 /-!
 # A365605: Characteristic function of numbers without an inferior odd divisor > 1.
 
-The programs for A365605, the canonical program `A365605.P6705090862699678483` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365605 has offset 1).
+The programs for A365605, the canonical program `A365605.P6705090862699678483` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365605 has offset 1).
 
 The definition of A365605 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -215,7 +216,7 @@ The definition of A365605 is `conjectured`: the Lean definition is a formula tha
 
 `C(2, A097974(n+1))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A365605
@@ -2060,7 +2061,7 @@ end A365628
 /-!
 # A365632: The number of divisors of n that are terms of A072873.
 
-The programs for A365632, the canonical program `A365632.P6636790932743859901` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365632 has offset 1).
+The programs for A365632, the canonical program `A365632.P6636790932743859901` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365632 has offset 1).
 
 The definition of A365632 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2069,7 +2070,7 @@ The definition of A365632 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A359552(#)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A365632
@@ -2297,7 +2298,7 @@ end A365632
 /-!
 # A365633: The sum of divisors of n that are terms of A072873.
 
-The programs for A365633, the canonical program `A365633.P7140313679729895633` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365633 has offset 1).
+The programs for A365633, the canonical program `A365633.P7140313679729895633` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365633 has offset 1).
 
 The definition of A365633 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2306,7 +2307,7 @@ The definition of A365633 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[A342007(n+1), #]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A365633
@@ -3869,7 +3870,7 @@ end A365648.P7046732191285201373
 /-!
 # A365649: Dirichlet convolution of sigma with Dedekind psi function.
 
-The programs for A365649, the canonical program `A365649.P18263235050208563119` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365649 has offset 1).
+The programs for A365649, the canonical program `A365649.P18263235050208563119` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365649 has offset 1).
 
 The definition of A365649 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4164,7 +4165,7 @@ end A365649
 
 `∑{d}[n+1, A034761(#)*A271102((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A365649
@@ -4789,7 +4790,7 @@ end
 end A365662.P9273762684257310792
 
 /-!
-# A365664: Expansion of Sum_{0
+# A365664: Expansion of Sum_{0<i<j<k<l} q^(i+j+k+l)/( (1-q^i)*(1-q^j)*(1-q^k)*(1-q^l) )^2.
 
 The programs for A365664, there is no canonical definition to state claims against.
 -/
@@ -4825,7 +4826,7 @@ end
 end A365664.P8870604215839413764
 
 /-!
-# A365665: Expansion of Sum_{0
+# A365665: Expansion of Sum_{0<i<j<k<l<m} q^(i+j+k+l+m)/( (1-q^i)*(1-q^j)*(1-q^k)*(1-q^l)*(1-q^m) )^2.
 
 The programs for A365665, there is no canonical definition to state claims against.
 -/
@@ -4876,7 +4877,7 @@ end
 end A365665.P5542239294741120969
 
 /-!
-# A365666: Expansion of Sum_{0
+# A365666: Expansion of Sum_{0<i<j<k<l} q^(2*(i+j+k+l)-4)/( (1-q^(2*i-1))*(1-q^(2*j-1))*(1-q^(2*k-1))*(1-q^(2*l-1)) )^2.
 
 The programs for A365666, there is no canonical definition to state claims against.
 -/
@@ -4957,7 +4958,7 @@ end
 end A365666.P16209056335415751010
 
 /-!
-# A365667: Expansion of Sum_{0
+# A365667: Expansion of Sum_{0<i<j<k<l<m} q^(2*(i+j+k+l+m)-5)/( (1-q^(2*i-1))*(1-q^(2*j-1))*(1-q^(2*k-1))*(1-q^(2*l-1))*(1-q^(2*m-1)) )^2.
 
 The programs for A365667, there is no canonical definition to state claims against.
 -/
@@ -5756,7 +5757,7 @@ end A365679
 /-!
 # A365680: The number of exponentially squarefree divisors of n.
 
-The programs for A365680, the canonical program `A365680.P3625310981199113847` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365680 has offset 1).
+The programs for A365680, the canonical program `A365680.P3625310981199113847` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365680 has offset 1).
 
 The definition of A365680 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5765,7 +5766,7 @@ The definition of A365680 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A370598(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A365680
@@ -6029,7 +6030,7 @@ end A365681.P9924643379525133896
 /-!
 # A365682: The sum of exponentially squarefree divisors of n.
 
-The programs for A365682, the canonical program `A365682.P17785449757438465592` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365682 has offset 1).
+The programs for A365682, the canonical program `A365682.P17785449757438465592` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365682 has offset 1).
 
 The definition of A365682 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6038,7 +6039,7 @@ The definition of A365682 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A370598(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A365682
@@ -6240,7 +6241,7 @@ end A365682
 /-!
 # A365683: The largest exponentially squarefree divisor of n.
 
-The programs for A365683, the canonical program `A365683.P17416909633654039468` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365683 has offset 1).
+The programs for A365683, the canonical program `A365683.P17416909633654039468` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365683 has offset 1).
 
 The definition of A365683 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6295,7 +6296,7 @@ end A365683
 
 `A000190((n+1)*A053166(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A365683

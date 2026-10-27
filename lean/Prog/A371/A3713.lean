@@ -35,8 +35,8 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
-import Seq.B001.C006
+import Seq.B001.C005
+import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
@@ -46,12 +46,11 @@ import Seq.B002.C004
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B005.C000
+import Seq.B004.C000
+import Seq.B004.C003
 import Seq.B005.C001
+import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -278,27 +277,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A371310.P1255415193405480600
-
-/-! ## A371310.P1390781798580615303
-
-`A277796(lt[1, A277818(n+1)])`
--/
-
-namespace A371310.P1390781798580615303
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A277818 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A277796 (SequenceMachineLib.nth (fun j => (f1 j : ℤ) < f2 j) n)
-
-end
-
-end A371310.P1390781798580615303
 
 /-!
 # A371312: Expansion of e.g.f. Product_{k>=1} 1 / (1 - x^k/k!)^2.
@@ -1582,7 +1560,7 @@ end A371355
 /-!
 # A371357: a(n) = 2^(n - HammingWeight(n)) * binomial(2*n, n).
 
-The programs for A371357, the canonical program `A371357.P11199775498877504883` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371357 has offset 0).
+The programs for A371357, the canonical program `A371357.P11199775498877504883` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371357 has offset 0).
 
 The definition of A371357 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1616,7 +1594,7 @@ end A371357
 
 `A060818(n)*A000984(n)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A371357

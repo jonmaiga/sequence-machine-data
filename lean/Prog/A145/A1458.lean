@@ -1,5 +1,4 @@
 import SequenceMachineLib
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -45,33 +44,30 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -98,10 +94,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import SequenceMachineLib.Triangle
-
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
 
 /-!
 # A145801: Number of islands of ones fitting in an n X n array with all ones connected only either two adjacent vertically or two adjacent horizontally.
@@ -3309,12 +3301,6 @@ namespace A145834
 def P9017032818341302266.Spec : Prop :=
   ∀ n, P9017032818341302266.a n = A145834 (n + 1)
 
-theorem P9017032818341302266.correct : P9017032818341302266.Spec := by
-  intro n
-  simp only [A145834, Nat.add_sub_cancel, A145834.P9017032818341302266.a, A145834.P17774255891438695893.a, A002808, A002808.P8130888830651501259.f1, A002808.P8130888830651501259.f2, A002808.P8130888830651501259.a, A072668, A072668.P5648318357023435289.a, A075255, A075255.P12137973761347593222.a, A001414, A001414.P8293929508439252105.f1, A001414.P8293929508439252105.a, A082023, A082023.P820682903743471019.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A145834
 
 /-! ## A145834.P4947902443750583374
@@ -3497,7 +3483,7 @@ end A145836.P3682378508061740729
 /-!
 # A145837: Indices of primes in A005891(n).
 
-The programs for A145837, the canonical program `A145837.P9524873425089286161` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145837 has offset 1).
+The programs for A145837, the canonical program `A145837.P9524873425089286161` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145837 has offset 1).
 
 The definition of A145837 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 907 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3506,7 +3492,7 @@ The definition of A145837 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A073093(n+1), A102294(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A145837
@@ -3649,7 +3635,7 @@ end A145837
 /-!
 # A145838: Primes in A005891 = Centered pentagonal numbers: (5n^2 + 5n + 2)/2.
 
-The programs for A145838, the canonical program `A145838.P8091719907699711083` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145838 has offset 1).
+The programs for A145838, the canonical program `A145838.P8091719907699711083` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145838 has offset 1).
 
 The definition of A145838 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 907 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3658,7 +3644,7 @@ The definition of A145838 is `conjectured`: the Lean definition is a formula tha
 
 `A005891(A145837(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A145838
@@ -6744,7 +6730,7 @@ end
 end A145870.P16788322906581841694
 
 /-!
-# A145874: Number of permutations of the numbers 1, 2, ..., n such that for all 1 <= k <= n the average of the first k numbers is at least the average of all n numbers.
+# A145874: 
 
 The programs for A145874, there is no canonical definition to state claims against.
 -/

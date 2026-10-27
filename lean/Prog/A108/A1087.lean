@@ -48,7 +48,9 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -56,6 +58,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -74,8 +77,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -109,7 +110,7 @@ set_option linter.unreachableTactic false
 /-!
 # A108700: Number of compositions of n into odd and relatively prime parts.
 
-The programs for A108700, the canonical program `A108700.P4519987503324844312` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108700 has offset 1).
+The programs for A108700, the canonical program `A108700.P4519987503324844312` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108700 has offset 1).
 
 The definition of A108700 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 480 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -118,7 +119,7 @@ The definition of A108700 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000045(#)*A087003((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A108700
@@ -3280,7 +3281,7 @@ end A108724
 /-!
 # A108725: Numbers n such that 11*n + 19 is prime.
 
-The programs for A108725, the canonical program `A108725.P8444148683181042035` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108725 has offset 1).
+The programs for A108725, the canonical program `A108725.P8444148683181042035` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108725 has offset 1).
 
 The definition of A108725 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3289,7 +3290,7 @@ The definition of A108725 is `conjectured`: the Lean definition is a formula tha
 
 `A107992(n+1)-2`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A108725
@@ -3794,7 +3795,7 @@ end A108726
 /-!
 # A108727: Numbers n such that 11*n + 31 is prime.
 
-The programs for A108727, the canonical program `A108727.P5195277566401287610` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108727 has offset 1).
+The programs for A108727, the canonical program `A108727.P5195277566401287610` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108727 has offset 1).
 
 The definition of A108727 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3803,7 +3804,7 @@ The definition of A108727 is `conjectured`: the Lean definition is a formula tha
 
 `A107994(n+1)-3`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A108727
@@ -8243,7 +8244,7 @@ end A108753
 /-!
 # A108754: Difference between partial sum of the first n primes and n^2.
 
-The programs for A108754, the canonical program `A108754.P16448062333260017930` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108754 has offset 1).
+The programs for A108754, the canonical program `A108754.P16448062333260017930` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108754 has offset 1).
 
 The definition of A108754 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8252,7 +8253,7 @@ The definition of A108754 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A007504(n+1)-A000290(n+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A108754
@@ -9304,7 +9305,7 @@ end A108761.P899161334790209611
 /-!
 # A108763: If n-th prime is 8m+1, then a(n) = 8m+3. If n-th prime is 8m+3, then a(n) = 8m+5. If n-th prime is 8m+5, then a(n) = 8m+7. If n-th prime is 8m+7, then a(n) = 8m+1.
 
-The programs for A108763, the canonical program `A108763.P3829992224626505531` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108763 has offset 2).
+The programs for A108763, the canonical program `A108763.P3829992224626505531` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108763 has offset 2).
 
 The definition of A108763 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9362,7 +9363,7 @@ end A108763
 
 `A092486(2*A092486(A067076(n+1)))`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A108763
@@ -12595,7 +12596,7 @@ end A108783.P2674758368506722266
 /-!
 # A108784: Difference between A107757 and A107755.
 
-The programs for A108784, the canonical program `A108784.P11288806968300134608` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108784 has offset 1).
+The programs for A108784, the canonical program `A108784.P11288806968300134608` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108784 has offset 1).
 
 The definition of A108784 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 120 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13062,7 +13063,7 @@ end A108784
 
 `A156706(A000120(n+1)+1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A108784
@@ -13917,7 +13918,7 @@ end A108793.P13956492168986651394
 /-!
 # A108794: Primes whose 10's complement is a semiprime, i.e., p is prime and 10^L - p is a semiprime, where L is the number of digits in p.
 
-The programs for A108794, the canonical program `A108794.P9146368090825541493` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108794 has offset 1).
+The programs for A108794, the canonical program `A108794.P9146368090825541493` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108794 has offset 1).
 
 The definition of A108794 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13926,7 +13927,7 @@ The definition of A108794 is `conjectured`: the Lean definition is a formula tha
 
 `p?[n*A001222(A061601(n)+1)-n]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A108794

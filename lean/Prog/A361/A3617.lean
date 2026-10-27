@@ -37,6 +37,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -48,25 +49,24 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -587,7 +587,7 @@ end A361705.P8535812072248538093
 /-!
 # A361706: Inverse Moebius transform applied twice to primes.
 
-The programs for A361706, the canonical program `A361706.P5557153493187756588` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361706 has offset 1).
+The programs for A361706, the canonical program `A361706.P5557153493187756588` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361706 has offset 1).
 
 The definition of A361706 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -596,7 +596,7 @@ The definition of A361706 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A007445(#)]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A361706
@@ -692,7 +692,7 @@ end A361706
 /-!
 # A361707: Moebius transform applied twice to primes.
 
-The programs for A361707, the canonical program `A361707.P15539805990408773328` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361707 has offset 1).
+The programs for A361707, the canonical program `A361707.P15539805990408773328` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361707 has offset 1).
 
 The definition of A361707 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -701,7 +701,7 @@ The definition of A361707 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000040(#)*A007427((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A361707
@@ -849,7 +849,7 @@ end A361707
 /-!
 # A361708: Inverse Moebius transform of nonprimes.
 
-The programs for A361708, the canonical program `A361708.P9997575083813706434` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361708 has offset 1).
+The programs for A361708, the canonical program `A361708.P9997575083813706434` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361708 has offset 1).
 
 The definition of A361708 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -858,7 +858,7 @@ The definition of A361708 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A018252(#)]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A361708
@@ -928,7 +928,7 @@ end A361708
 /-!
 # A361709: Moebius transform of nonprimes.
 
-The programs for A361709, the canonical program `A361709.P5681278177641899572` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361709 has offset 1).
+The programs for A361709, the canonical program `A361709.P5681278177641899572` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361709 has offset 1).
 
 The definition of A361709 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -963,7 +963,7 @@ end A361709
 
 `∑{d}[n+1, A007427(#)*A361708((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A361709
@@ -1535,21 +1535,6 @@ end A361719
 
 The programs for A361720, there is no canonical definition to state claims against.
 -/
-
-/-! ## A361720.P14680119842797432660
-
-`A084997(a(n-1))-2` with `a(0)=1, a(1)=1`
--/
-
-namespace A361720.P14680119842797432660
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1] fun n a =>
-  A084997 (a (n - 1)).toNat - 2
-
-end
-
-end A361720.P14680119842797432660
 
 /-! ## A361720.P14709177520042040189
 
@@ -5228,7 +5213,7 @@ end A361793
 /-!
 # A361794: Sum of the cubes d^3 of the divisors d satisfying d^2|n.
 
-The programs for A361794, the canonical program `A361794.P451113387851091999` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361794 has offset 1).
+The programs for A361794, the canonical program `A361794.P451113387851091999` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361794 has offset 1).
 
 The definition of A361794 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5237,7 +5222,7 @@ The definition of A361794 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A037213(#)]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A361794

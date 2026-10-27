@@ -38,24 +38,22 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -67,7 +65,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -173,7 +170,7 @@ end A211602.P11902784668098526364
 /-!
 # A211603: Triangular array read by rows: T(n,k) is the number of n-permutations that are pure cycles having exactly k fixed points; n>=2, 0<=k<=n-2.
 
-The programs for A211603, the canonical program `A211603.P4525959663239701488` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211603 has offset 2).
+The programs for A211603, the canonical program `A211603.P4525959663239701488` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211603 has offset 2).
 
 The definition of A211603 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2415 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -228,7 +225,7 @@ end A211603
 
 `A004736(n+1)!*A074909(A007401(n+1))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A211603
@@ -497,7 +494,7 @@ end A211604.P1346448125605315430
 /-!
 # A211606: Total number of inversions over all involutions of length n.
 
-The programs for A211606, the canonical program `A211606.P14225185372203886213` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211606 has offset 0).
+The programs for A211606, the canonical program `A211606.P14225185372203886213` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211606 has offset 0).
 
 The definition of A211606 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -506,7 +503,7 @@ The definition of A211606 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+(n-1)*a(n-2)+A000085(n-2)*(n-1)²` with `a(0)=0, a(1)=0`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211606
@@ -3607,7 +3604,7 @@ end A211627.P9574787250889509572
 /-!
 # A211628: Number of ordered triples (w,x,y) with all terms in {-n,...-1,1,...,n} and 3w+x+y>0.
 
-The programs for A211628, the canonical program `A211628.P10410439621426040313` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211628 has offset 0).
+The programs for A211628, the canonical program `A211628.P10410439621426040313` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211628 has offset 0).
 
 The definition of A211628 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3616,7 +3613,7 @@ The definition of A211628 is `conjectured`: the Lean definition is a formula tha
 
 `A211621(n)+A110654(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211628
@@ -3973,7 +3970,7 @@ end A211633.P14130530744492023115
 /-!
 # A211634: Number of ordered triples (w,x,y) with all terms in {1,...,n} and w^2<=x^2+y^2.
 
-The programs for A211634, the canonical program `A211634.P6971356143893170071` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211634 has offset 0).
+The programs for A211634, the canonical program `A211634.P6971356143893170071` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211634 has offset 0).
 
 The definition of A211634 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 924 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3998,12 +3995,6 @@ namespace A211634
 /-- `n^3-A211637(n)` -/
 def P6770516284892365204.Spec : Prop :=
   ∀ n, P6770516284892365204.a n = A211634 n
-
-theorem P6770516284892365204.correct : P6770516284892365204.Spec := by
-  intro n
-  simp only [A211634, Nat.add_sub_cancel, A211634.P6770516284892365204.a, A211634.P6971356143893170071.a, A028310, A028310.P18130301328277559831.a, A063468, A063468.P15347473074005438293.f1, A063468.P15347473074005438293.a, A211635, A211635.P5977809779673859879.a, A211637, A211637.P14278206662972809609.a, A000265, A000265.P2772582252347773295.a, A092147, A092147.P10469589743159074619.a, A211636, A211636.P2652783068528798878.f1, A211636.P2652783068528798878.a, A003602, A003602.P7612175048291952394.a, A036698, A036698.P3152835247264100802.a, A256452, A256452.P9976460767317744789.a, A014200, A014200.P16970295702573526038.a, A046080, A046080.P16111352627053334427.a, A110963, A110963.P3344771894533151408.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A211634
 
@@ -4080,7 +4071,7 @@ end A211634
 
 `A211635(n)+A063468(A028310(n))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A211634
@@ -4119,7 +4110,7 @@ def P15098146346618223009.Spec : Prop :=
 end A211634
 
 /-!
-# A211635: Number of ordered triples (w,x,y) with all terms in {1,...,n} and w^2
+# A211635: Number of ordered triples (w,x,y) with all terms in {1,...,n} and w^2<x^2+y^2.
 
 The programs for A211635, the canonical program `A211635.P5977809779673859879` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211635 has offset 0).
 
@@ -4260,12 +4251,6 @@ namespace A211635
 /-- `A211634(n)+A211637(n)-A211636(n)` -/
 def P8319159545094422294.Spec : Prop :=
   ∀ n, P8319159545094422294.a n = A211635 n
-
-theorem P8319159545094422294.correct : P8319159545094422294.Spec := by
-  intro n
-  simp only [A211635, Nat.add_sub_cancel, A211635.P8319159545094422294.a, A211635.P5977809779673859879.a, A211634, A211634.P6971356143893170071.a, A211636, A211636.P2652783068528798878.f1, A211636.P2652783068528798878.a, A211637, A211637.P14278206662972809609.a, A028310, A028310.P18130301328277559831.a, A036698, A036698.P3152835247264100802.a, A063468, A063468.P15347473074005438293.f1, A063468.P15347473074005438293.a, A000265, A000265.P2772582252347773295.a, A014200, A014200.P16970295702573526038.a, A092147, A092147.P10469589743159074619.a, A003602, A003602.P7612175048291952394.a, A014198, A014198.P2354480518814049901.a, A256452, A256452.P9976460767317744789.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A211635
 
@@ -5785,7 +5770,7 @@ end
 end A211641.P2180321693834350171
 
 /-!
-# A211642: Number of ordered triples (w,x,y) with all terms in {1,...,n} and w^2+x^2+y^2
+# A211642: Number of ordered triples (w,x,y) with all terms in {1,...,n} and w^2+x^2+y^2<2n.
 
 The programs for A211642, there is no canonical definition to state claims against.
 -/
@@ -6254,7 +6239,7 @@ end
 end A211645.P8212904125069474293
 
 /-!
-# A211646: Number of ordered triples (w,x,y) with all terms in {1,...,n} and w^2+x^2+y^2
+# A211646: Number of ordered triples (w,x,y) with all terms in {1,...,n} and w^2+x^2+y^2<3n.
 
 The programs for A211646, there is no canonical definition to state claims against.
 -/
@@ -7454,7 +7439,7 @@ end
 end A211651.P6695319637956584423
 
 /-!
-# A211652: Number of ordered triples (w,x,y) with all terms in {1,...,n} and w^4
+# A211652: Number of ordered triples (w,x,y) with all terms in {1,...,n} and w^4<x^4+y^4.
 
 The programs for A211652, there is no canonical definition to state claims against.
 -/

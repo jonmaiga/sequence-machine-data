@@ -30,25 +30,28 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -57,7 +60,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -473,7 +475,7 @@ end A271101.P13657892676009182995
 /-!
 # A271102: a(n) is multiplicative with a(p^e) = -1 if e=2, a(p^e) = 0 if e=1 or e>2.
 
-The programs for A271102, the canonical program `A271102.P3010353493992336101` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271102 has offset 1).
+The programs for A271102, the canonical program `A271102.P3010353493992336101` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271102 has offset 1).
 
 The definition of A271102 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -482,7 +484,7 @@ The definition of A271102 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n+1, abs(A008683(#))*A008683((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A271102
@@ -6800,7 +6802,7 @@ end A271184.P4792169246257495968
 /-!
 # A271185: Löschian numbers (A003136) of the form k^3+1.
 
-The programs for A271185, the canonical program `A271185.P10888630706129519928` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271185 has offset 1).
+The programs for A271185, the canonical program `A271185.P10888630706129519928` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271185 has offset 1).
 
 The definition of A271185 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2299 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6809,7 +6811,7 @@ The definition of A271185 is `conjectured`: the Lean definition is a formula tha
 
 `A000578(A003136(n+2)-1)+1`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A271185

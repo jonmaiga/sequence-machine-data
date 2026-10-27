@@ -46,25 +46,27 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1177,7 +1179,7 @@ end A298007.P17701925974590846785
 /-!
 # A298008: a(n) = f(n-1,n) + 10*(n-1), where f(a,b) is the number of primes in the range [10*a,10*b].
 
-The programs for A298008, the canonical program `A298008.P6229877649389155224` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298008 has offset 1).
+The programs for A298008, the canonical program `A298008.P6229877649389155224` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298008 has offset 1).
 
 The definition of A298008 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A038800, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1186,7 +1188,7 @@ The definition of A298008 is `conditional`: the Lean definition is an OEIS formu
 
 `A038800(n)+10*n`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A298008
@@ -1467,7 +1469,7 @@ end A298008
 /-!
 # A298009: a(n) = f(n-1,n)+(n-1)*k, n>=1, where the function f(a,b) gives the number of prime numbers in the range [a*k,b*k[ with k=10^p. For this sequence we use p=2.
 
-The programs for A298009, the canonical program `A298009.P5562014499968808434` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298009 has offset 1).
+The programs for A298009, the canonical program `A298009.P5562014499968808434` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298009 has offset 1).
 
 The definition of A298009 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A038822, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1476,7 +1478,7 @@ The definition of A298009 is `conditional`: the Lean definition is an OEIS formu
 
 `A038822(n)+100*n`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A298009
@@ -4434,7 +4436,7 @@ end A298026
 /-!
 # A298027: Partial sums of A298026.
 
-The programs for A298027, the canonical program `A298027.P18185960904614678095` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298027 has offset 0).
+The programs for A298027, the canonical program `A298027.P18185960904614678095` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298027 has offset 0).
 
 The definition of A298027 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4489,7 +4491,7 @@ end A298027
 
 `A016921(A001318(n))`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A298027
@@ -9297,7 +9299,7 @@ end A298042.P5936871045603430717
 /-!
 # A298043: If n = Sum_{i=1..h} 2^b_i with b_1 > ... > b_h >= 0, then a(n) = Sum_{i=1..h} i * 2^b_i.
 
-The programs for A298043, the canonical program `A298043.P12078883428185430853` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298043 has offset 0).
+The programs for A298043, the canonical program `A298043.P12078883428185430853` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298043 has offset 0).
 
 The definition of A298043 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8193 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9375,7 +9377,7 @@ end A298043
 
 `a(n-A053644(n))+n` with `a(0)=0`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A298043

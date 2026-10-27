@@ -27,15 +27,14 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
@@ -45,6 +44,8 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -56,9 +57,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -984,7 +982,7 @@ end A366119.P6908435476005678587
 /-!
 # A366123: The number of prime factors of the cube root of the largest cube dividing n, counted with multiplicity.
 
-The programs for A366123, the canonical program `A366123.P2071442233333240034` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366123 has offset 1).
+The programs for A366123, the canonical program `A366123.P2071442233333240034` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366123 has offset 1).
 
 The definition of A366123 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A053150, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -993,7 +991,7 @@ The definition of A366123 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(A053150(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A366123
@@ -2595,7 +2593,7 @@ end A366133.P16256757019191957964
 /-!
 # A366135: Expansion of Sum_{k>=1} k^3 * x^k/(1 - x^k)^3.
 
-The programs for A366135, the canonical program `A366135.P4017335287159148948` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366135 has offset 1).
+The programs for A366135, the canonical program `A366135.P4017335287159148948` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366135 has offset 1).
 
 The definition of A366135 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001157, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2604,7 +2602,7 @@ The definition of A366135 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+1)*((n+1)*A000203(n+1)+A001157(n+1))/2`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A366135

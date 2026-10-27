@@ -41,9 +41,11 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -51,11 +53,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -65,10 +69,8 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1414,7 +1416,7 @@ end A246410
 /-!
 # A246411: Positive integers k satisfying csc(k) > csc(k+1) < csc(k+2).
 
-The programs for A246411, the canonical program `A246411.P12957659941039480171` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246411 has offset 1).
+The programs for A246411, the canonical program `A246411.P12957659941039480171` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246411 has offset 1).
 
 The definition of A246411 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9549 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1423,7 +1425,7 @@ The definition of A246411 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A246410(n+1)-1, A246413(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A246411
@@ -1602,7 +1604,7 @@ end A246411
 /-!
 # A246412: Positive integers k satisfying csc(k) > csc(k+1) > csc(k+2) < csc(k+3).
 
-The programs for A246412, the canonical program `A246412.P12923232252521658891` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246412 has offset 1).
+The programs for A246412, the canonical program `A246412.P12923232252521658891` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246412 has offset 1).
 
 The definition of A246412 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 450 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1611,7 +1613,7 @@ The definition of A246412 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A246413(n+1)-1, A246413(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A246412
@@ -1904,7 +1906,7 @@ end A246413
 /-!
 # A246414: Positive integers k satisfying csc(k) < csc(k+1) > csc(k+2).
 
-The programs for A246414, the canonical program `A246414.P8392572628755399728` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246414 has offset 1).
+The programs for A246414, the canonical program `A246414.P8392572628755399728` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246414 has offset 1).
 
 The definition of A246414 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9549 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1936,7 +1938,7 @@ end A246414
 
 `∩[A246410(n+1), A246413(n+1)-1]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A246414
@@ -3636,7 +3638,7 @@ end A246431.P10003295916719843131
 /-!
 # A246432: Convolution inverse of A001700.
 
-The programs for A246432, the canonical program `A246432.P7367098291756528111` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246432 has offset 0).
+The programs for A246432, the canonical program `A246432.P7367098291756528111` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246432 has offset 0).
 
 The definition of A246432 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 174 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3768,7 +3770,7 @@ end A246432
 
 `A120588(n)*A260196(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A246432
@@ -4699,7 +4701,7 @@ end A246436.P17727815245151607558
 /-!
 # A246437: Expansion of (1/2)*(1/(x+1)+1/(sqrt(-3*x^2-2*x+1))).
 
-The programs for A246437, the canonical program `A246437.P8274867833887097828` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246437 has offset 0).
+The programs for A246437, the canonical program `A246437.P8274867833887097828` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246437 has offset 0).
 
 The definition of A246437 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 214 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4708,7 +4710,7 @@ The definition of A246437 is `conjectured`: the Lean definition is a formula tha
 
 `A257520(n)-n%2`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A246437
@@ -16230,7 +16232,7 @@ end A246497.P14318567313239343939
 /-!
 # A246498: Numerator of the harmonic mean of the first n squares.
 
-The programs for A246498, the canonical program `A246498.P3117156610869488528` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246498 has offset 1).
+The programs for A246498, the canonical program `A246498.P3117156610869488528` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246498 has offset 1).
 
 The definition of A246498 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 112 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16239,7 +16241,7 @@ The definition of A246498 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)*A007407(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A246498

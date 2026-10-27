@@ -37,20 +37,26 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -58,12 +64,11 @@ import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2792,7 +2797,7 @@ end A232436.P5225989705270464578
 /-!
 # A232437: Numbers whose square is expressible in only one way as x^2+xy+y^2, with x and y > 0.
 
-The programs for A232437, the canonical program `A232437.P68544861243217390` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232437 has offset 1).
+The programs for A232437, the canonical program `A232437.P68544861243217390` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232437 has offset 1).
 
 The definition of A232437 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4712 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2917,7 +2922,7 @@ end A232437
 
 `eq[2, A000005(A248909(n+1))]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A232437
@@ -3167,7 +3172,7 @@ end A232437
 /-!
 # A232438: Squares or double-squares that are the sum of two distinct nonzero squares in exactly one way.
 
-The programs for A232438, the canonical program `A232438.P17320831510734793226` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232438 has offset 1).
+The programs for A232438, the canonical program `A232438.P17320831510734793226` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232438 has offset 1).
 
 The definition of A232438 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 534 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3176,7 +3181,7 @@ The definition of A232438 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A028982(n+1), A084646(n+1)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A232438
@@ -7320,7 +7325,7 @@ end A232493
 /-!
 # A232494: If n mod 2 = 0 then 2^(n-1)*(3^n+3*3^(n/2)-2) otherwise 2^(n-1)*(3^n+5*3^((n-1)/2)-2).
 
-The programs for A232494, the canonical program `A232494.P6247191816924031342` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232494 has offset 0).
+The programs for A232494, the canonical program `A232494.P6247191816924031342` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232494 has offset 0).
 
 The definition of A232494 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 129 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7329,7 +7334,7 @@ The definition of A232494 is `conjectured`: the Lean definition is a formula tha
 
 `A232493(n)+2*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A232494

@@ -42,7 +42,6 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
@@ -57,22 +56,22 @@ import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3196,7 +3195,7 @@ end A362630.P1568044586877915650
 /-!
 # A362632: a(n) = Sum_{d|n, gcd(d,n/d)=1} d * psi(d), where psi is the Dedekind psi function (A001615).
 
-The programs for A362632, the canonical program `A362632.P2419837277974987510` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362632 has offset 1).
+The programs for A362632, the canonical program `A362632.P2419837277974987510` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362632 has offset 1).
 
 The definition of A362632 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3205,7 +3204,7 @@ The definition of A362632 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A046692(#)*A069546((n+1)/#)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A362632
@@ -5987,7 +5986,7 @@ end A362679.P13801892075470481706
 /-!
 # A362680: a(n) is the number of decimal digits in A173426(n).
 
-The programs for A362680, the canonical program `A362680.P16293648216085454390` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362680 has offset 1).
+The programs for A362680, the canonical program `A362680.P16293648216085454390` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362680 has offset 1).
 
 The definition of A362680 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A058183, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5996,7 +5995,7 @@ The definition of A362680 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A058183(n+1)-A055642(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A362680

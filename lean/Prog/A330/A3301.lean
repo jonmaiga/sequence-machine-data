@@ -44,22 +44,24 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -69,11 +71,8 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1475,7 +1474,7 @@ end A330124.P15529257271739989156
 /-!
 # A330125: Positive integers whose digit-power sum is a prime.
 
-The programs for A330125, the canonical program `A330125.P3362564348567139348` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330125 has offset 1).
+The programs for A330125, the canonical program `A330125.P3362564348567139348` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330125 has offset 1).
 
 The definition of A330125 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1391 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1484,7 +1483,7 @@ The definition of A330125 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2, A000005(A101337(n+1))]+1`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A330125
@@ -2420,7 +2419,7 @@ end A330135.P8465589372511653389
 /-!
 # A330136: Numbers m such that 1 < gcd(m, 6) < m and m does not divide 6^e for e >= 0.
 
-The programs for A330136, the canonical program `A330136.P7111195287136975651` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330136 has offset 1).
+The programs for A330136, the canonical program `A330136.P7111195287136975651` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330136 has offset 1).
 
 The definition of A330136 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7589 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2458,7 +2457,7 @@ end A330136
 
 `∩[A047229(n+1), A081062(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A330136
@@ -5051,7 +5050,7 @@ end A330168.P14031553587823460038
 /-!
 # A330169: a(n) is the total area of all closed Deutsch paths of length n.
 
-The programs for A330169, the canonical program `A330169.P8562627954708430707` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330169 has offset 2).
+The programs for A330169, the canonical program `A330169.P8562627954708430707` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330169 has offset 2).
 
 The definition of A330169 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 209 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5060,7 +5059,7 @@ The definition of A330169 is `conjectured`: the Lean definition is a formula tha
 
 `A055218(n)-a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A330169
@@ -5209,7 +5208,7 @@ end A330170
 /-!
 # A330171: a(n) = n + floor(ns/r) + floor(nt/r), where r = sqrt(2) - 1, s = sqrt(2), t = sqrt(2) + 1.
 
-The programs for A330171, the canonical program `A330171.P1169059455589441269` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330171 has offset 1).
+The programs for A330171, the canonical program `A330171.P1169059455589441269` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330171 has offset 1).
 
 The definition of A330171 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5218,7 +5217,7 @@ The definition of A330171 is `conjectured`: the Lean definition is a formula tha
 
 `A189381(n+1)+1+n`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A330171
@@ -5685,7 +5684,7 @@ end A330171
 /-!
 # A330172: a(n) = n + floor(nr/t) + floor(ns/t), where r = sqrt(2) - 1, s = sqrt(2), t = sqrt(2) + 1.
 
-The programs for A330172, the canonical program `A330172.P5679262320590246351` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330172 has offset 1).
+The programs for A330172, the canonical program `A330172.P5679262320590246351` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330172 has offset 1).
 
 The definition of A330172 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5694,7 +5693,7 @@ The definition of A330172 is `conjectured`: the Lean definition is a formula tha
 
 `A017497(n)-A189381(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A330172
@@ -6389,7 +6388,7 @@ end A330174
 /-!
 # A330175: a(n) = n + floor(ns/r) + floor(nt/r), where r = sqrt(5) - 2, s = sqrt(5) - 1, t = sqrt(5).
 
-The programs for A330175, the canonical program `A330175.P16793899005492460367` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330175 has offset 1).
+The programs for A330175, the canonical program `A330175.P16793899005492460367` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330175 has offset 1).
 
 The definition of A330175 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6398,7 +6397,7 @@ The definition of A330175 is `conjectured`: the Lean definition is a formula tha
 
 `A321371(n+1)+1+n`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A330175
@@ -6675,7 +6674,7 @@ end A330175
 /-!
 # A330176: a(n) = n + floor(nr/t) + floor(ns/t), where r = sqrt(5) - 2, s = sqrt(5) - 1, t = sqrt(5).
 
-The programs for A330176, the canonical program `A330176.P3206787331036609517` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330176 has offset 1).
+The programs for A330176, the canonical program `A330176.P3206787331036609517` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330176 has offset 1).
 
 The definition of A330176 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6684,7 +6683,7 @@ The definition of A330176 is `conjectured`: the Lean definition is a formula tha
 
 `A016885(n)-A189461(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A330176
@@ -6818,7 +6817,7 @@ end A330176
 /-!
 # A330177: a(n) = n + floor(ns/r) + floor(nt/r), where r = e - 2, s = e - 1, t = e.
 
-The programs for A330177, the canonical program `A330177.P3105431535659456884` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330177 has offset 1).
+The programs for A330177, the canonical program `A330177.P3105431535659456884` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330177 has offset 1).
 
 The definition of A330177 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2642 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6827,7 +6826,7 @@ The definition of A330177 is `conjectured`: the Lean definition is a formula tha
 
 `A330178(A279608(n+1)-1)+3`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A330177
@@ -7293,7 +7292,7 @@ end A330179
 /-!
 # A330180: a(n) = n + floor(nr/t) + floor(ns/t), where r = e - 1, s = e, t = e + 1.
 
-The programs for A330180, the canonical program `A330180.P17992768035997716082` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330180 has offset 1).
+The programs for A330180, the canonical program `A330180.P17992768035997716082` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330180 has offset 1).
 
 The definition of A330180 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7302,7 +7301,7 @@ The definition of A330180 is `conjectured`: the Lean definition is a formula tha
 
 `floor(3*A292665(n+1)/2)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A330180
@@ -7458,7 +7457,7 @@ end A330180
 /-!
 # A330181: a(n) = n + floor(ns/r) + floor(nt/r), where r = Pi - 1, s = Pi, t = Pi + 1.
 
-The programs for A330181, the canonical program `A330181.P12400418502170209775` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330181 has offset 1).
+The programs for A330181, the canonical program `A330181.P12400418502170209775` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330181 has offset 1).
 
 The definition of A330181 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7494,7 +7493,7 @@ end A330181
 
 `A054386(2*(n+1))+A054386(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A330181
@@ -7694,7 +7693,7 @@ end A330182.P10765201024582577719
 /-!
 # A330183: a(n) = n + floor(ns/r) + floor(nt/r), where r = sqrt(2) - 1/2, s = sqrt(2), t = sqrt(2) + 1/2.
 
-The programs for A330183, the canonical program `A330183.P6412283818570804675` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330183 has offset 1).
+The programs for A330183, the canonical program `A330183.P6412283818570804675` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330183 has offset 1).
 
 The definition of A330183 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7703,7 +7702,7 @@ The definition of A330183 is `conjectured`: the Lean definition is a formula tha
 
 `A292641(n+1)+A286323(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A330183
@@ -7836,7 +7835,7 @@ end A330183
 /-!
 # A330184: a(n) = n + floor(nr/t) + floor(ns/t), where r = sqrt(2) - 1/2, s = sqrt(2), t = sqrt(2) + 1/2.
 
-The programs for A330184, the canonical program `A330184.P18338956507869684487` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330184 has offset 1).
+The programs for A330184, the canonical program `A330184.P18338956507869684487` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330184 has offset 1).
 
 The definition of A330184 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7845,7 +7844,7 @@ The definition of A330184 is `conjectured`: the Lean definition is a formula tha
 
 `floor(6*A292640(n+1)/4)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A330184
@@ -7978,7 +7977,7 @@ end A330184
 /-!
 # A330185: a(n) = n + floor(n*s/r) + floor(n*t/r), where r = phi - 1/2, s = phi, t = phi + 1/2, and phi is the golden ratio = (1+sqrt(5))/2.
 
-The programs for A330185, the canonical program `A330185.P3671403461841618346` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330185 has offset 1).
+The programs for A330185, the canonical program `A330185.P3671403461841618346` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330185 has offset 1).
 
 The definition of A330185 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7987,7 +7986,7 @@ The definition of A330185 is `conjectured`: the Lean definition is a formula tha
 
 `A189461(n+1)+1+n`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A330185
@@ -9362,7 +9361,7 @@ end A330196.P18224364474703835593
 /-!
 # A330197: Number of scalene triangles whose vertices are the vertices of a regular n-gon.
 
-The programs for A330197, the canonical program `A330197.P9026178766442840738` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330197 has offset 3).
+The programs for A330197, the canonical program `A330197.P9026178766442840738` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330197 has offset 3).
 
 The definition of A330197 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A320577, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9371,7 +9370,7 @@ The definition of A330197 is `conditional`: the Lean definition is an OEIS formu
 
 `C(n+3, 3)-A320577(n+3)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A330197

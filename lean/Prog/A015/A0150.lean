@@ -29,19 +29,20 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B003.C000
+import Seq.B003.C002
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3731,7 +3732,7 @@ end A015050
 /-!
 # A015051: Let m = A013929(n); then a(n) = smallest k such that m divides k^4.
 
-The programs for A015051, the canonical program `A015051.P1678568298610178780` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015051 has offset 1).
+The programs for A015051, the canonical program `A015051.P1678568298610178780` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015051 has offset 1).
 
 The definition of A015051 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A013929, A053166, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3740,7 +3741,7 @@ The definition of A015051 is `conditional`: the Lean definition is an OEIS formu
 
 `A053166(A013929(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A015051
@@ -3972,7 +3973,7 @@ end A015051
 /-!
 # A015052: a(n) is the smallest positive integer m such that m^5 is divisible by n.
 
-The programs for A015052, the canonical program `A015052.P7462831031410711660` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015052 has offset 1).
+The programs for A015052, the canonical program `A015052.P7462831031410711660` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015052 has offset 1).
 
 The definition of A015052 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3981,7 +3982,7 @@ The definition of A015052 is `conjectured`: the Lean definition is a formula tha
 
 `A053166((n+1)/A053164(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A015052

@@ -40,21 +40,25 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -62,8 +66,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -631,7 +634,7 @@ end A136606.P4179116597458907632
 /-!
 # A136610: Number of odd digits in Fibonacci numbers.
 
-The programs for A136610, the canonical program `A136610.P9162835627362272791` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136610 has offset 0).
+The programs for A136610, the canonical program `A136610.P9162835627362272791` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136610 has offset 0).
 
 The definition of A136610 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -663,7 +666,7 @@ end A136610
 
 `A196564(A000045(n))`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A136610
@@ -858,7 +861,7 @@ end A136611.P8707397689982268490
 /-!
 # A136612: a(n) = ((prime(n+3) + prime(n+1)) - (prime(n+2) + prime(n))).
 
-The programs for A136612, the canonical program `A136612.P12132055378552461140` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136612 has offset 1).
+The programs for A136612, the canonical program `A136612.P12132055378552461140` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136612 has offset 1).
 
 The definition of A136612 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(n+4)+A000040(n+2)-(A000040(n+3)+A000040(n+1))` (program `A136612.P12132055378552461140`, by `A136612.P12132055378552461140.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -896,7 +899,7 @@ end A136612
 
 `A000040(n+4)+A000040(n+2)-(A000040(n+3)+A000040(n+1))`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A136612
@@ -5620,7 +5623,7 @@ theorem P17566948881262892148.correct : P17566948881262892148.Spec := by
 end A136670
 
 /-!
-# A136671: Recursion based on Exp[Pi/4]: a(n)=Floor[a(n-1)*Exp[Pi/4]] Angular domain {0,Pi/4} is the smallest self-similar piece of a sine wave.
+# A136671: a(1)=1, a(n) = floor(a(n-1) * exp(Pi/4)).
 
 The programs for A136671, the canonical program `A136671.P13950246451155098980` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136671 has offset 1).
 
@@ -5745,9 +5748,9 @@ def P1366556459937157864.Spec : Prop :=
 end A136671
 
 /-!
-# A136673: Triangle of coefficients from a polynomial recursion for Galois field GF(2^n) polynomials: p(x,n)=(x+1)*p(x,n-1)-x*p(x,n-2); or f(x,n)=x^n+x+1;.
+# A136673: Triangle T(n,k) read by rows: T(n,k) = [x^k] x^n+x+1, 0 <= k <= max(n, 1).
 
-The programs for A136673, the canonical program `A136673.P7357129433119909946` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136673 has offset 1).
+The programs for A136673, the canonical program `A136673.P7357129433119909946` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136673 has offset 0).
 
 The definition of A136673 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(col(n)+1)*T(n-1,k)-col(n)*T(n-1,k)` (program `A136673.P7357129433119909946`, by `A136673.P7357129433119909946.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5763,11 +5766,11 @@ namespace A136673
 
 /-- `(col(n)+1)*T(n-1,k)-col(n)*T(n-1,k)` -/
 def P7357129433119909946.Spec : Prop :=
-  ∀ n, P7357129433119909946.a n = A136673 (n + 1)
+  ∀ n, P7357129433119909946.a n = A136673 n
 
 theorem P7357129433119909946.correct : P7357129433119909946.Spec := by
   intro n
-  simp only [A136673, Nat.add_sub_cancel]
+  simp only [A136673]
 
 end A136673
 
@@ -5792,7 +5795,7 @@ namespace A136673
 
 /-- `(col(n)+1)*T(n-1,k)-col(n)*T(n-2,k)` -/
 def P9733745183999575255.Spec : Prop :=
-  ∀ n, P9733745183999575255.a n = A136673 (n + 1)
+  ∀ n, P9733745183999575255.a n = A136673 n
 
 end A136673
 
@@ -5817,13 +5820,7 @@ namespace A136673
 
 /-- `(col(n)+2)*T(n-1,k)-(col(n)+1)*T(n-1,k)` -/
 def P3278093873721837685.Spec : Prop :=
-  ∀ n, P3278093873721837685.a n = A136673 (n + 1)
-
-theorem P3278093873721837685.correct : P3278093873721837685.Spec := by
-  intro n
-  simp only [A136673, Nat.add_sub_cancel, A136673.P3278093873721837685.a, A136673.P7357129433119909946.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  try (first | ring1 | ring_nf)
+  ∀ n, P3278093873721837685.a n = A136673 n
 
 end A136673
 
@@ -5846,7 +5843,7 @@ namespace A136673
 
 /-- `C(a(n-2), A091866(n))` -/
 def P5679979097930920205.Spec : Prop :=
-  ∀ n, (P5679979097930920205.a n : ℤ) = A136673 (n + 1)
+  ∀ n, (P5679979097930920205.a n : ℤ) = A136673 n
 
 end A136673
 
@@ -5876,7 +5873,7 @@ namespace A136673
 
 /-- `round(A204898(n+1)/comp[∑[2*n]])` -/
 def P5591144084926429961.Spec : Prop :=
-  ∀ n, P5591144084926429961.a n = A136673 (n + 1)
+  ∀ n, P5591144084926429961.a n = A136673 n
 
 end A136673
 
@@ -5899,7 +5896,7 @@ namespace A136673
 
 /-- `round(A123265(n)/A164975(n+1))` -/
 def P2849448891594530211.Spec : Prop :=
-  ∀ n, P2849448891594530211.a n = A136673 (n + 1)
+  ∀ n, P2849448891594530211.a n = A136673 n
 
 end A136673
 
@@ -6928,7 +6925,7 @@ end A136688
 /-!
 # A136689: Triangular sequence of q-Fibonacci polynomials for s=3: F(x,n) = x*F(x,n-1) + s*F(x,n-2).
 
-The programs for A136689, the canonical program `A136689.P9971135850867848831` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136689 has offset 1).
+The programs for A136689, the canonical program `A136689.P9971135850867848831` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136689 has offset 1).
 
 The definition of A136689 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7052,7 +7049,7 @@ end A136689
 
 `A038754(A025581(n))*A168561(n)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A136689
@@ -7185,7 +7182,7 @@ end A136689
 /-!
 # A136690: Final nonzero digit of n! in base 3.
 
-The programs for A136690, the canonical program `A136690.P4761767597379846931` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136690 has offset 0).
+The programs for A136690, the canonical program `A136690.P4761767597379846931` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136690 has offset 0).
 
 The definition of A136690 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A060828, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7223,7 +7220,7 @@ end A136690
 
 `(n!/A060828(n))%3`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A136690
@@ -7662,7 +7659,7 @@ end A136690
 /-!
 # A136691: Final nonzero digit of n! in base 4.
 
-The programs for A136691, the canonical program `A136691.P18423899121827454363` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136691 has offset 0).
+The programs for A136691, the canonical program `A136691.P18423899121827454363` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136691 has offset 0).
 
 The definition of A136691 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3755 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7694,7 +7691,7 @@ end A136691
 
 `A065882(A136702(n))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A136691

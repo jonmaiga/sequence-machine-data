@@ -31,11 +31,12 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C004
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
@@ -45,10 +46,11 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -62,9 +64,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1940,7 +1939,7 @@ end A034015.P2593314502249222916
 /-!
 # A034017: Numbers that are primitively represented by x^2 + xy + y^2.
 
-The programs for A034017, the canonical program `A034017.P9523659926337494725` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034017 has offset 1).
+The programs for A034017, the canonical program `A034017.P9523659926337494725` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034017 has offset 1).
 
 The definition of A034017 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1949,7 +1948,7 @@ The definition of A034017 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A034021(n+1), A045897(n+1)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A034017
@@ -3744,7 +3743,7 @@ end A034022.P1614998699798080549
 /-!
 # A034023: Imprimitively represented by x^2+y^2.
 
-The programs for A034023, the canonical program `A034023.P16116273836108491271` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034023 has offset 0).
+The programs for A034023, the canonical program `A034023.P16116273836108491271` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034023 has offset 0).
 
 The definition of A034023 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3753,7 +3752,7 @@ The definition of A034023 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A034024(n), A034025(n)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A034023
@@ -4269,7 +4268,7 @@ end A034023
 /-!
 # A034024: Imprimitively but not primitively represented by x^2+y^2.
 
-The programs for A034024, the canonical program `A034024.P8684423954840180702` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034024 has offset 0).
+The programs for A034024, the canonical program `A034024.P8684423954840180702` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034024 has offset 0).
 
 The definition of A034024 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2876 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4394,7 +4393,7 @@ end A034024
 
 `filter[A053443(n+1), A229062(#)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A034024
@@ -5408,7 +5407,7 @@ end A034025
 /-!
 # A034026: Numbers that are primitively or imprimitively represented by x^2+y^2, but not both.
 
-The programs for A034026, the canonical program `A034026.P6875606058485551729` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034026 has offset 1).
+The programs for A034026, the canonical program `A034026.P6875606058485551729` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034026 has offset 1).
 
 The definition of A034026 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5417,7 +5416,7 @@ The definition of A034026 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A020893(n+1), A034024(n)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A034026
@@ -8497,7 +8496,7 @@ end A034043.P8844546172433309518
 /-!
 # A034044: Numbers that are primitively but not imprimitively represented by x^2+y^2+z^2.
 
-The programs for A034044, the canonical program `A034044.P6265599758687673652` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034044 has offset 1).
+The programs for A034044, the canonical program `A034044.P6265599758687673652` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034044 has offset 1).
 
 The definition of A034044 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8104 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8610,7 +8609,7 @@ end A034044
 
 `filter[A047449(n+1), A353627(#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A034044

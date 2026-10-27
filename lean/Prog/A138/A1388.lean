@@ -40,8 +40,10 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -49,19 +51,19 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
-import Seq.B004.C000
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1830,7 +1832,7 @@ end A138829
 /-!
 # A138830: Bisection of imperfect numbers A132999.
 
-The programs for A138830, the canonical program `A138830.P7169071661950621730` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138830 has offset 1).
+The programs for A138830, the canonical program `A138830.P7169071661950621730` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138830 has offset 1).
 
 The definition of A138830 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1839,7 +1841,7 @@ The definition of A138830 is `conjectured`: the Lean definition is a formula tha
 
 `A132999(2*(n+1))`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A138830
@@ -8617,21 +8619,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A138895.P15594623872762563857
-
-/-! ## A138895.P10579202455837533376
-
-`A092892(A006666(A138846(n)))`
--/
-
-namespace A138895.P10579202455837533376
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A092892 (A006666 (A138846 n).toNat).toNat
-
-end
-
-end A138895.P10579202455837533376
 
 /-!
 # A138896: Ratio of (2n-1)! to number of zeros in Sylvester matrix of polynomial of n degree with all nonzero coefficients.

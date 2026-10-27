@@ -38,8 +38,8 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -49,23 +49,18 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C000
+import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -851,7 +846,7 @@ end A240913.P14497765387753664467
 /-!
 # A240914: Semiprimes of the form S(n) + T(n) where S(n) and T(n) are the n-th square and the n-th triangular numbers.
 
-The programs for A240914, the canonical program `A240914.P651125426119913968` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240914 has offset 1).
+The programs for A240914, the canonical program `A240914.P651125426119913968` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240914 has offset 1).
 
 The definition of A240914 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 407 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -860,7 +855,7 @@ The definition of A240914 is `conjectured`: the Lean definition is a formula tha
 
 `record[A051544(n+3)*A072505(n+3)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A240914
@@ -3620,7 +3615,7 @@ end
 end A240935.P14686996683612633443
 
 /-!
-# A240936: Number of ways to partition the (vertex) set {1,2,...,n} into any number of classes and then select some unordered pairs (edges) such that a and b are in distinct classes of the partition.
+# A240936: Number of ways to partition the (vertex) set {1,2,...,n} into any number of classes and then select some unordered pairs (edges) <a,b> such that a and b are in distinct classes of the partition.
 
 The programs for A240936, there is no canonical definition to state claims against.
 -/
@@ -5209,7 +5204,7 @@ end A240958.P13234560106262606158
 /-!
 # A240960: Numbers m such that sigma(m) - phi(m) = tau(m)^omega(m), where sigma=A000203, phi=A000010, tau=A000005 and omega=A001221.
 
-The programs for A240960, the canonical program `A240960.P3834821827547813831` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240960 has offset 1).
+The programs for A240960, the canonical program `A240960.P3834821827547813831` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240960 has offset 1).
 
 The definition of A240960 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5276,7 +5271,7 @@ end A240960
 
 `filter[A062972(n+1), A296211(#)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A240960
@@ -7237,7 +7232,7 @@ end A240981.P4755667687244333203
 /-!
 # A240983: Integers of the form 2^p*p^2 where p is the lesser of a pair of twin primes.
 
-The programs for A240983, the canonical program `A240983.P4765799281226653439` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240983 has offset 1).
+The programs for A240983, the canonical program `A240983.P4765799281226653439` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240983 has offset 1).
 
 The definition of A240983 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001359, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7246,7 +7241,7 @@ The definition of A240983 is `conditional`: the Lean definition is an OEIS formu
 
 `A007758(A001359(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A240983

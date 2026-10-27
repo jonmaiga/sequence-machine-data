@@ -37,6 +37,7 @@ import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -49,24 +50,23 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3546,7 +3546,7 @@ end A122736.P11566490861488443369
 /-!
 # A122737: Expansion of 1 - 3*x - sqrt(1 - 6*x + 5*x^2).
 
-The programs for A122737, the canonical program `A122737.P5352890692816768516` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122737 has offset 1).
+The programs for A122737, the canonical program `A122737.P5352890692816768516` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122737 has offset 1).
 
 The definition of A122737 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 148 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3607,7 +3607,7 @@ end A122737
 
 `record[Δ[2*A055879(n+1)]]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A122737
@@ -4023,7 +4023,7 @@ def P10932473976113821284.Spec : Prop :=
 end A122737
 
 /-!
-# A122739: Numbers of perifusenes with one internal vertex (see Cyvin et al. for precise definition).
+# A122739: 
 
 The programs for A122739, there is no canonical definition to state claims against.
 -/
@@ -4115,21 +4115,6 @@ end
 
 end A122740.P12143420567566228149
 
-/-! ## A122740.P17690766369066219294
-
-`A122739(n+3)-A122741(n+3)`
--/
-
-namespace A122740.P17690766369066219294
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122739 (n + 3) - A122741 (n + 3)
-
-end
-
-end A122740.P17690766369066219294
-
 /-!
 # A122741: Numbers of helicenes with one internal vertex made of n hexagons.
 
@@ -4150,36 +4135,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A122741.P6151541676058425038
-
-/-! ## A122741.P8245143848076194218
-
-`A122739(n+3)-A122740(n+3)`
--/
-
-namespace A122741.P8245143848076194218
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A122739 (n + 3) - A122740 (n + 3)
-
-end
-
-end A122741.P8245143848076194218
-
-/-! ## A122741.P7453971148629343514
-
-`(A122739(n+3)%A122740(n+3))%A000142(n)`
--/
-
-namespace A122741.P7453971148629343514
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (Int.tmod (A122739 (n + 3)) (A122740 (n + 3))) (A000142 n)
-
-end
-
-end A122741.P7453971148629343514
 
 /-!
 # A122742: Numbers of polypentagons with two connected internal vertices (see Cyvin et al. for precise definition).
@@ -5824,7 +5779,7 @@ end A122753.P1768510880842511060
 /-!
 # A122754: a(n) = 10*n - A101306(n).
 
-The programs for A122754, the canonical program `A122754.P1087166714470174862` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122754 has offset 1).
+The programs for A122754, the canonical program `A122754.P1087166714470174862` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122754 has offset 1).
 
 The definition of A122754 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A101306, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5859,7 +5814,7 @@ end A122754
 
 `10*(n+1)-A101306(n+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A122754
@@ -7175,7 +7130,7 @@ end A122758
 /-!
 # A122759: Triangle T(n,m) read by rows: 3^n if m is odd, 0 if m is even.
 
-The programs for A122759, the canonical program `A122759.P12807643020116895536` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122759 has offset 1).
+The programs for A122759, the canonical program `A122759.P12807643020116895536` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122759 has offset 1).
 
 The definition of A122759 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7260,7 +7215,7 @@ end A122759
 
 `A254006(A211197(n+1)-1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A122759
@@ -8399,7 +8354,7 @@ end A122765
 /-!
 # A122766: Triangle read by rows: let p(n, x) = x*p(n-1, x) - p(n-2, x), then T(n, x) = d^2/dx^2 (p(n, x)).
 
-The programs for A122766, the canonical program `A122766.P7340364842892422262` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122766 has offset 1).
+The programs for A122766, the canonical program `A122766.P7340364842892422262` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122766 has offset 1).
 
 The definition of A122766 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1275 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8408,7 +8363,7 @@ The definition of A122766 is `conjectured`: the Lean definition is a formula tha
 
 `A008619(A108872(n+1))*A122765(n+1)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A122766

@@ -35,25 +35,28 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3944,7 +3947,7 @@ end
 end A229652.P8274642909806017994
 
 /-!
-# A229653: Trisection a(3n+k) gives k-th differences of a for k=0..2 with a(n)=0 for n
+# A229653: Trisection a(3n+k) gives k-th differences of a for k=0..2 with a(n)=0 for n<2 and a(2)=1.
 
 The programs for A229653, there is no canonical definition to state claims against.
 -/
@@ -3965,7 +3968,7 @@ end
 end A229653.P5016995289735016319
 
 /-!
-# A229659: 9-section a(9n+k) gives k-th differences of a for k=0..8 with a(n)=0 for n
+# A229659: 9-section a(9n+k) gives k-th differences of a for k=0..8 with a(n)=0 for n<8 and a(8)=1.
 
 The programs for A229659, there is no canonical definition to state claims against.
 -/

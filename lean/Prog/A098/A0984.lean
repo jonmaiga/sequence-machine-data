@@ -45,7 +45,9 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -70,8 +72,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2134,7 +2134,7 @@ end A098411.P2507529064491533324
 /-!
 # A098412: Greatest members p of prime triples (p-6, p-4, p).
 
-The programs for A098412, the canonical program `A098412.P17347800589930056568` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098412 has offset 1).
+The programs for A098412, the canonical program `A098412.P17347800589930056568` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098412 has offset 1).
 
 The definition of A098412 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2143,7 +2143,7 @@ The definition of A098412 is `conjectured`: the Lean definition is a formula tha
 
 `4+A073648(n+1)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A098412
@@ -3107,7 +3107,7 @@ end
 end A098413.P9041310367151768402
 
 /-!
-# A098414: Middle members q of prime triples (p,q,r) with p
+# A098414: Middle members q of prime triples (p,q,r) with p<q<r=p+6.
 
 The programs for A098414, there is no canonical definition to state claims against.
 -/
@@ -3461,7 +3461,7 @@ end
 end A098414.P15427338133026838316
 
 /-!
-# A098415: Greatest members r of prime triples (p,q,r) with p
+# A098415: Greatest members r of prime triples (p,q,r) with p<q<r=p+6.
 
 The programs for A098415, there is no canonical definition to state claims against.
 -/
@@ -4121,7 +4121,7 @@ end
 end A098417.P12134352788292989006
 
 /-!
-# A098419: Primes not occurring in prime triples (p,q,r) with p
+# A098419: Primes not occurring in prime triples (p,q,r) with p<q<r=p+6.
 
 The programs for A098419, there is no canonical definition to state claims against.
 -/
@@ -4341,7 +4341,7 @@ end
 end A098420.P6980280241380727585
 
 /-!
-# A098421: Primes occurring in exactly one prime triple (p,q,r) with p
+# A098421: Primes occurring in exactly one prime triple (p,q,r) with p<q<r=p+6.
 
 The programs for A098421, there is no canonical definition to state claims against.
 -/
@@ -4452,7 +4452,7 @@ end
 end A098421.P8152578779102811883
 
 /-!
-# A098422: Primes occurring in exactly two prime triples (p,q,r) with p
+# A098422: Primes occurring in exactly two prime triples (p,q,r) with p<q<r=p+6.
 
 The programs for A098422, there is no canonical definition to state claims against.
 -/
@@ -4560,7 +4560,7 @@ end
 end A098422.P12435568273212060300
 
 /-!
-# A098423: Primes occurring in exactly three prime triples (p,q,r) with p
+# A098423: Primes occurring in exactly three prime triples (p,q,r) with p<q<r=p+6.
 
 The programs for A098423, there is no canonical definition to state claims against.
 -/
@@ -4669,7 +4669,7 @@ end
 end A098423.P10418866253750361853
 
 /-!
-# A098424: Number of prime triples (p,q,r) <= n with p
+# A098424: Number of prime triples (p,q,r) <= n with p<q<r=p+6.
 
 The programs for A098424, the canonical program `A098424.P715005042480859429` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098424 has offset 1).
 
@@ -4890,7 +4890,7 @@ end A098427.P16275510199683325610
 /-!
 # A098428: Number of sexy prime pairs (p, p+6) with p <= n.
 
-The programs for A098428, the canonical program `A098428.P10066825699657563365` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098428 has offset 1).
+The programs for A098428, the canonical program `A098428.P10066825699657563365` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098428 has offset 1).
 
 The definition of A098428 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4989,7 +4989,7 @@ end A098428
 
 `∑[and(A010051(n+7), A010051(n+1))]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A098428
@@ -8834,7 +8834,7 @@ end A098462
 /-!
 # A098464: Numbers k such that lcm(1,2,3,...,k) equals the denominator of the k-th harmonic number H(k).
 
-The programs for A098464, the canonical program `A098464.P17154748706034331019` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098464 has offset 1).
+The programs for A098464, the canonical program `A098464.P17154748706034331019` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A098464 has offset 1).
 
 The definition of A098464 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2641 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8843,7 +8843,7 @@ The definition of A098464 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A110566(n+1)]+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A098464

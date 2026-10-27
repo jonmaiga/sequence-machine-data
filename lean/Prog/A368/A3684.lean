@@ -21,14 +21,12 @@ import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -39,8 +37,10 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -53,9 +53,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -134,7 +132,7 @@ end A368402
 /-!
 # A368403: Starts of runs of 3 consecutive integers in A268375.
 
-The programs for A368403, the canonical program `A368403.P10694540058155907726` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368403 has offset 1).
+The programs for A368403, the canonical program `A368403.P10694540058155907726` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368403 has offset 1).
 
 The definition of A368403 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 558 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -143,7 +141,7 @@ The definition of A368403 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A368402(n+1)-1, A368402(n+1)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A368403
@@ -3771,7 +3769,7 @@ end A368472
 /-!
 # A368473: Product of exponents of prime factorization of the exponentially 2^n-numbers (A138302).
 
-The programs for A368473, the canonical program `A368473.P11836645701216829903` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368473 has offset 1).
+The programs for A368473, the canonical program `A368473.P11836645701216829903` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368473 has offset 1).
 
 The definition of A368473 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A138302, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3780,7 +3778,7 @@ The definition of A368473 is `conditional`: the Lean definition is an OEIS formu
 
 `A005361(A138302(n+1))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A368473
@@ -4026,7 +4024,7 @@ end A368473
 /-!
 # A368474: Product of exponents of prime factorization of the numbers whose exponents in their prime power factorization are squares (A197680).
 
-The programs for A368474, the canonical program `A368474.P7622636264866400950` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368474 has offset 1).
+The programs for A368474, the canonical program `A368474.P7622636264866400950` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A368474 has offset 1).
 
 The definition of A368474 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A197680, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4035,7 +4033,7 @@ The definition of A368474 is `conditional`: the Lean definition is an OEIS formu
 
 `A005361(A197680(n+1))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A368474

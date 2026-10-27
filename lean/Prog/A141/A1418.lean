@@ -40,12 +40,14 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,10 +55,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,8 +74,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2978,7 +2980,7 @@ end A141845
 /-!
 # A141846: Triangle read by rows: A051731 * A051953^(n-k) * 0^(n-k), 1 <= k <= n.
 
-The programs for A141846, the canonical program `A141846.P12023117412264450593` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141846 has offset 1).
+The programs for A141846, the canonical program `A141846.P12023117412264450593` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141846 has offset 1).
 
 The definition of A141846 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3010,7 +3012,7 @@ end A141846
 
 `∑{d}[A127093(n+1), A062790(#)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A141846
@@ -3045,12 +3047,6 @@ namespace A141846
 /-- `A127093(n+1)-A054522(n+1)` -/
 def P16381389136069169928.Spec : Prop :=
   ∀ n, P16381389136069169928.a n = A141846 (n + 1)
-
-theorem P16381389136069169928.correct : P16381389136069169928.Spec := by
-  intro n
-  simp only [A141846, Nat.add_sub_cancel, A141846.P16381389136069169928.a, A141846.P12023117412264450593.f1, A141846.P12023117412264450593.a, A054522, A054522.P13001746357644342535.a, A062790, A062790.P5415624989759604668.a, A127093, A127093.P1089623250187861217.a, A000010, A000010.P4673923239450215316.a, A007431, A007431.P16849793818733668455.f1, A007431.P16849793818733668455.a, A003557, A003557.P6364735403900941810.a, A007432, A007432.P16663120023730915232.f1, A007432.P16663120023730915232.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007428, A007428.P12532017655611739201.f1, A007428.P12532017655611739201.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A141846
 

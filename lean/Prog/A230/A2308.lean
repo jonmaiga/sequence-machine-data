@@ -45,19 +45,21 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -69,7 +71,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3749,7 +3750,7 @@ end A230840.P4673429340156406421
 /-!
 # A230843: Cubefree numbers which in their canonical prime factorization have mutually distinct exponents.
 
-The programs for A230843, the canonical program `A230843.P11108055546362958893` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230843 has offset 1).
+The programs for A230843, the canonical program `A230843.P11108055546362958893` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230843 has offset 1).
 
 The definition of A230843 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3758,7 +3759,7 @@ The definition of A230843 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A054753(n+1), A166684(n+1)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A230843
@@ -5293,7 +5294,7 @@ end A230847
 /-!
 # A230849: A075526 and A000012 interleaved.
 
-The programs for A230849, the canonical program `A230849.P4568427976746247957` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230849 has offset 1).
+The programs for A230849, the canonical program `A230849.P4568427976746247957` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230849 has offset 1).
 
 The definition of A230849 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5325,7 +5326,7 @@ end A230849
 
 `A001223(gcd(n, ceil(abs((1-n)/2))))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A230849
@@ -6204,7 +6205,7 @@ def P14226525501517760109.Spec : Prop :=
 end A230851
 
 /-!
-# A230852: Smallest k
+# A230852: Smallest k<3*2^n such that 3*2^n+k is the smallest of four consecutive primes in arithmetic progression or 0 if no solution.
 
 The programs for A230852, there is no canonical definition to state claims against.
 -/
@@ -7126,7 +7127,7 @@ end A230864.P9624422365128701460
 /-!
 # A230865: a(n) = n + (sum of digits in base-5 representation of n).
 
-The programs for A230865, the canonical program `A230865.P13351572211588276155` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230865 has offset 0).
+The programs for A230865, the canonical program `A230865.P13351572211588276155` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230865 has offset 0).
 
 The definition of A230865 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7135,7 +7136,7 @@ The definition of A230865 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+A053824(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A230865

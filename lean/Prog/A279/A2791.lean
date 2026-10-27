@@ -37,29 +37,28 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3165,7 +3164,7 @@ end
 end A279125.P3596340781118122924
 
 /-!
-# A279127: a(n) = Sum_{0<=m
+# A279127: a(n) = Sum_{0<=m<n} Product_{-m<=j<=m} (n-j).
 
 The programs for A279127, there is no canonical definition to state claims against.
 -/
@@ -3978,7 +3977,7 @@ end A279135.P5917898159791304182
 /-!
 # A279136: a(n) = n*Sum_{i=0..n-1} binomial(n,i)*binomial(i-1,n-i-1)/(n-i).
 
-The programs for A279136, the canonical program `A279136.P12562316986369065531` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279136 has offset 0).
+The programs for A279136, the canonical program `A279136.P12562316986369065531` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279136 has offset 0).
 
 The definition of A279136 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 213 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3987,7 +3986,7 @@ The definition of A279136 is `conjectured`: the Lean definition is a formula tha
 
 `A000035(n)+3*A097861(n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A279136

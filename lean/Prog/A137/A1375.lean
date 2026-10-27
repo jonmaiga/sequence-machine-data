@@ -54,25 +54,25 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -107,7 +107,7 @@ set_option linter.unreachableTactic false
 /-!
 # A137500: Binomial transform of b(n) = (0, 0, A007910).
 
-The programs for A137500, the canonical program `A137500.P10173415657923203167` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A137500 has offset 0).
+The programs for A137500, the canonical program `A137500.P10173415657923203167` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A137500 has offset 0).
 
 The definition of A137500 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -116,7 +116,7 @@ The definition of A137500 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*a(n-1)+A009545(n-1)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A137500
@@ -2562,7 +2562,7 @@ end A137519.P9390949948829111458
 /-!
 # A137521: Prime numbers concatenated with 45.
 
-The programs for A137521, the canonical program `A137521.P15071082635701805979` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A137521 has offset 1).
+The programs for A137521, the canonical program `A137521.P15071082635701805979` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A137521 has offset 1).
 
 The definition of A137521 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2571,7 +2571,7 @@ The definition of A137521 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `100*A000040(n+1)+45`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A137521
@@ -2792,7 +2792,7 @@ def P1151337499853946766.Spec : Prop :=
 end A137521
 
 /-!
-# A137522: A triangular sequence from an expansion of coefficients of the function: p(x,t)=Exp(x*g*(t))*(1-f(t)^2);f(t)=1/Sqrt[1 - 14*t^4 + t^8];g(t)=t. (Based on the Weierstrass functions of Schwarz's minimal surface which is identified with a cube.)
+# A137522: Triangle read by rows: T(n, k) = n! * [t^n*x^k] (1-1/(1-14*t^4+t^8)) * exp(t*x).
 
 The programs for A137522, there is no canonical definition to state claims against.
 -/
@@ -3030,7 +3030,7 @@ end
 end A137524.P9274157504526650573
 
 /-!
-# A137526: A triangular sequence of coefficients based on an expansion of a Enneper like Sheffer expansion function: g(t) = t; f(t) = t; p(x,t) = Exp[x*(t)]*(1 - f(t)2).
+# A137526: Triangle read by rows: T(n,k) = n! * [t^n*x^k] (1-t^2) * exp(t*x).
 
 The programs for A137526, there is no canonical definition to state claims against.
 -/
@@ -5185,7 +5185,7 @@ end A137557.P10389417510455021443
 /-!
 # A137558: A137521(n)/5.
 
-The programs for A137558, the canonical program `A137558.P7502320317032024637` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A137558 has offset 1).
+The programs for A137558, the canonical program `A137558.P7502320317032024637` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A137558 has offset 1).
 
 The definition of A137558 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5225,7 +5225,7 @@ end A137558
 
 `20*A000040(n+1)+9`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A137558

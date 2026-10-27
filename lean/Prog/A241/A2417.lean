@@ -16,7 +16,6 @@ import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C019
 import Seq.B000.C020
@@ -44,7 +43,8 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,20 +53,20 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4751,29 +4751,6 @@ def P7591568999390105690.Spec : Prop :=
 
 end A241765
 
-/-! ## A241765.P1168412477198159158
-
-`A101357(n)+A002492(n)`
--/
-
-namespace A241765.P1168412477198159158
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A101357 n + A002492 n
-
-end
-
-end A241765.P1168412477198159158
-
-namespace A241765
-
-/-- `A101357(n)+A002492(n)` -/
-def P1168412477198159158.Spec : Prop :=
-  ∀ n, P1168412477198159158.a n = A241765 n
-
-end A241765
-
 /-! ## A241765.P10992351699030786334
 
 `A162148(n)+A002817(n)`
@@ -6976,7 +6953,7 @@ end A241785.P15086131341487286992
 /-!
 # A241787: Triangular numbers which have one or more occurrences of exactly four different digits.
 
-The programs for A241787, the canonical program `A241787.P16146905243210860616` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241787 has offset 1).
+The programs for A241787, the canonical program `A241787.P16146905243210860616` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241787 has offset 1).
 
 The definition of A241787 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1511 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6985,7 +6962,7 @@ The definition of A241787 is `conjectured`: the Lean definition is a formula tha
 
 `A000217(eq[4, A118668(n)])`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A241787
@@ -7155,7 +7132,7 @@ end A241787
 /-!
 # A241788: Triangular numbers which have one or more occurrences of exactly five different digits.
 
-The programs for A241788, the canonical program `A241788.P3599826419977953969` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241788 has offset 1).
+The programs for A241788, the canonical program `A241788.P3599826419977953969` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241788 has offset 1).
 
 The definition of A241788 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7164,7 +7141,7 @@ The definition of A241788 is `conjectured`: the Lean definition is a formula tha
 
 `A000217(eq[5, A118668(n)])`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A241788
@@ -7269,7 +7246,7 @@ end A241788
 /-!
 # A241789: Triangular numbers which have one or more occurrences of exactly six different digits.
 
-The programs for A241789, the canonical program `A241789.P11600652055916222523` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241789 has offset 1).
+The programs for A241789, the canonical program `A241789.P11600652055916222523` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241789 has offset 1).
 
 The definition of A241789 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2500 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7278,7 +7255,7 @@ The definition of A241789 is `conjectured`: the Lean definition is a formula tha
 
 `A000217(eq[6, A118668(n)])`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A241789
@@ -7296,7 +7273,7 @@ end A241789
 /-!
 # A241790: Triangular numbers which have one or more occurrences of exactly seven different digits.
 
-The programs for A241790, the canonical program `A241790.P16074744630349264971` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241790 has offset 1).
+The programs for A241790, the canonical program `A241790.P16074744630349264971` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A241790 has offset 1).
 
 The definition of A241790 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1124 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7305,7 +7282,7 @@ The definition of A241790 is `conjectured`: the Lean definition is a formula tha
 
 `A000217(eq[7, A118668(n)])`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A241790

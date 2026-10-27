@@ -42,11 +42,12 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C009
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -55,8 +56,8 @@ import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -64,13 +65,12 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4254,7 +4254,7 @@ end A317743.P6908167590455350964
 /-!
 # A317745: Square array T(n,k) (n >= 1, k >= 1) read by antidiagonals: first row and column are A085090, other entries equal sum of entries in first row and first column.
 
-The programs for A317745, the canonical program `A317745.P4957751422514425376` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317745 has offset 1).
+The programs for A317745, the canonical program `A317745.P4957751422514425376` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317745 has offset 1).
 
 The definition of A317745 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A085090, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4263,7 +4263,7 @@ The definition of A317745 is `conditional`: the Lean definition is an OEIS formu
 
 `A085090(col(n)+1)+A085090(row(n)-col(n)+1)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A317745
@@ -4646,7 +4646,7 @@ end A317749
 /-!
 # A317751: Number of divisors d of n such that there exists a factorization of n into factors > 1 with GCD d.
 
-The programs for A317751, the canonical program `A317751.P3394042211911026629` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317751 has offset 1).
+The programs for A317751, the canonical program `A317751.P3394042211911026629` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317751 has offset 1).
 
 The definition of A317751 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4678,7 +4678,7 @@ end A317751
 
 `A219977(A034444(n+1))+A046951(n+1)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A317751
@@ -8662,7 +8662,7 @@ end A317795.P4010064330514817616
 /-!
 # A317797: Sum of the norm of divisors of n over Gaussian integers, with associated divisors counted only once.
 
-The programs for A317797, the canonical program `A317797.P6848879990228861065` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317797 has offset 1).
+The programs for A317797, the canonical program `A317797.P6848879990228861065` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317797 has offset 1).
 
 The definition of A317797 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8723,7 +8723,7 @@ end A317797
 
 `∑{d}[n+1, A034676(#)*A111938((n+1)/#)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A317797

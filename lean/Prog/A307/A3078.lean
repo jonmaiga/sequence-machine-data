@@ -34,24 +34,29 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -59,9 +64,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4909,7 +4911,7 @@ end
 end A307880.P13801515416182771480
 
 /-!
-# A307881: 2*a(n) is the least number where k sets a new record such that 2*a(n)-k and 2*a(n)+k are prime and at least one of 2*a(n)-j and 2*a(n)+j is composite for all 0
+# A307881: 2*a(n) is the least number where k sets a new record such that 2*a(n)-k and 2*a(n)+k are prime and at least one of 2*a(n)-j and 2*a(n)+j is composite for all 0<j<k.
 
 The programs for A307881, there is no canonical definition to state claims against.
 -/

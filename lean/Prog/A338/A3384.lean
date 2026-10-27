@@ -38,21 +38,22 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -61,8 +62,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2272,7 +2271,7 @@ end A338433.P7425841961021627256
 /-!
 # A338434: Sum of the numbers less than or equal to sqrt(n) whose square does not divide n.
 
-The programs for A338434, the canonical program `A338434.P8736284508359745579` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338434 has offset 1).
+The programs for A338434, the canonical program `A338434.P8736284508359745579` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338434 has offset 1).
 
 The definition of A338434 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2281,7 +2280,7 @@ The definition of A338434 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(sqrt(n+1))*(floor(sqrt(n+1))+1)/2-A000203(sqrt((n+1)/A007913(n+1)))`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A338434
@@ -2711,7 +2710,7 @@ end
 end A338440.P8373392848552547796
 
 /-!
-# A338445: Numbers m with integer solution to x^x == (x+1)^(x+1) (mod m) with 1<=x
+# A338445: Numbers m with integer solution to x^x == (x+1)^(x+1) (mod m) with 1<=x<m.
 
 The programs for A338445, there is no canonical definition to state claims against.
 -/
@@ -3777,7 +3776,7 @@ end A338465.P10286370636168398636
 /-!
 # A338467: a(n+1) = prime(n) + 2*n - a(n). a(1) = 1.
 
-The programs for A338467, the canonical program `A338467.P10429500536160376014` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338467 has offset 1).
+The programs for A338467, the canonical program `A338467.P10429500536160376014` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338467 has offset 1).
 
 The definition of A338467 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3786,7 +3785,7 @@ The definition of A338467 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000040(n)+2*n-a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A338467
@@ -4124,7 +4123,7 @@ end A338468.P14608139528570137864
 /-!
 # A338469: Products of three odd prime numbers of odd index.
 
-The programs for A338469, the canonical program `A338469.P2285265360204035828` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338469 has offset 1).
+The programs for A338469, the canonical program `A338469.P2285265360204035828` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338469 has offset 1).
 
 The definition of A338469 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1696 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4133,7 +4132,7 @@ The definition of A338469 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A338471(n+1), A038513(n)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A338469
@@ -4780,7 +4779,7 @@ end A338470.P6065125011692687828
 /-!
 # A338471: Products of three prime numbers of odd index.
 
-The programs for A338471, the canonical program `A338471.P15632408290352518697` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338471 has offset 1).
+The programs for A338471, the canonical program `A338471.P15632408290352518697` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338471 has offset 1).
 
 The definition of A338471 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1851 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4789,7 +4788,7 @@ The definition of A338471 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A014612(n+1), A066208(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A338471
@@ -5834,7 +5833,7 @@ end A338488.P13510127327023571578
 /-!
 # A338489: Let t be the closest triangular number to n! (in case n=2, the only case where we have a tie, take the larger t); then a(n) = n! - t.
 
-The programs for A338489, the canonical program `A338489.P10710303634164486303` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338489 has offset 0).
+The programs for A338489, the canonical program `A338489.P10710303634164486303` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338489 has offset 0).
 
 The definition of A338489 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5843,7 +5842,7 @@ The definition of A338489 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000142(n)-A000217(A129960(n))`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A338489
@@ -5909,7 +5908,7 @@ end A338489
 
 The programs for A338490, the canonical program `A338490.P6074584885069442355` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338490 has offset 1).
 
-The definition of A338490 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000265, A066328, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A338490 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A066328, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A338490.P6074584885069442355

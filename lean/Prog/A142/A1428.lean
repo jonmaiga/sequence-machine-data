@@ -48,6 +48,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -55,22 +56,25 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5223,7 +5227,7 @@ end A142818
 /-!
 # A142819: Primes congruent to 21 mod 61.
 
-The programs for A142819, the canonical program `A142819.P2383881570244080223` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142819 has offset 1).
+The programs for A142819, the canonical program `A142819.P2383881570244080223` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142819 has offset 1).
 
 The definition of A142819 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1320 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5232,7 +5236,7 @@ The definition of A142819 is `conjectured`: the Lean definition is a formula tha
 
 `p?[61*n+21]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A142819
@@ -5722,7 +5726,7 @@ end A142819
 /-!
 # A142820: Primes congruent to 22 mod 61.
 
-The programs for A142820, the canonical program `A142820.P8547957382570766057` is in `Seq.B000.C021`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142820 has offset 1).
+The programs for A142820, the canonical program `A142820.P8547957382570766057` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142820 has offset 1).
 
 The definition of A142820 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1315 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5731,7 +5735,7 @@ The definition of A142820 is `conjectured`: the Lean definition is a formula tha
 
 `p?[61*n+22]`
 
-The canonical program, it is in `Seq.B000.C021`.
+The canonical program, it is in `Seq.B000.C022`.
 -/
 
 namespace A142820
@@ -17534,7 +17538,7 @@ end A142862
 /-!
 # A142863: Semiprimes n (A001358) for which A000001(n) is 2.
 
-The programs for A142863, the canonical program `A142863.P620794168205063834` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142863 has offset 1).
+The programs for A142863, the canonical program `A142863.P620794168205063834` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A142863 has offset 1).
 
 The definition of A142863 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18004,7 +18008,7 @@ end A142863
 
 `∩[A037143(n+1), A060679(n+1)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A142863

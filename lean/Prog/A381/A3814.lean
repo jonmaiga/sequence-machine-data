@@ -31,12 +31,13 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -45,8 +46,9 @@ import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -55,13 +57,11 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -96,7 +96,7 @@ set_option linter.unreachableTactic false
 /-!
 # A381401: a(n) is the number of (possibly non-distinct) prime elements in the multiset of bases and exponents in the prime factorization of n.
 
-The programs for A381401, the canonical program `A381401.P17306812054606808102` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381401 has offset 1).
+The programs for A381401, the canonical program `A381401.P17306812054606808102` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381401 has offset 1).
 
 The definition of A381401 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -105,7 +105,7 @@ The definition of A381401 is `conjectured`: the Lean definition is a formula tha
 
 `∑{e}[n+1, A010051(#)+1]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A381401
@@ -3145,7 +3145,7 @@ end A381463.P145894224476971108
 /-!
 # A381465: Semiprimes k such that 6*k + 1 is also a semiprime.
 
-The programs for A381465, the canonical program `A381465.P7545123986284215144` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381465 has offset 1).
+The programs for A381465, the canonical program `A381465.P7545123986284215144` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381465 has offset 1).
 
 The definition of A381465 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2491 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3180,7 +3180,7 @@ end A381465
 
 `∩[A001358(n+1), A112775(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A381465
@@ -3837,7 +3837,7 @@ end A381482.P14617033979473904476
 /-!
 # A381483: Area of the unique primitive Pythagorean triple whose inradius is A000108(n) and such that its long leg and its hypotenuse are consecutive natural numbers.
 
-The programs for A381483, the canonical program `A381483.P13239247248519645367` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381483 has offset 0).
+The programs for A381483, the canonical program `A381483.P13239247248519645367` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381483 has offset 0).
 
 The definition of A381483 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3846,7 +3846,7 @@ The definition of A381483 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000108(n)*(A000108(n)+1)*(2*A000108(n)+1)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A381483
@@ -4063,7 +4063,7 @@ end A381487.P7281762785457994747
 /-!
 # A381488: Pentagonal numbers that are deficient.
 
-The programs for A381488, the canonical program `A381488.P698145488236481017` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381488 has offset 1).
+The programs for A381488, the canonical program `A381488.P698145488236481017` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381488 has offset 1).
 
 The definition of A381488 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 140 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4072,7 +4072,7 @@ The definition of A381488 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A000326(n+1), A294934(#)]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A381488

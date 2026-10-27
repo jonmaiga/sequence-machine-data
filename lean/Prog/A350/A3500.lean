@@ -38,29 +38,34 @@ import Seq.B001.C006
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
+import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2318,7 +2323,7 @@ end A350042
 /-!
 # A350044: Loop starting at 187 in the Collatz-like map {x -> 3x+5 if x is odd, x/2 otherwise}.
 
-The programs for A350044, the canonical program `A350044.P9518103623702551074` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A350044 has offset 1).
+The programs for A350044, the canonical program `A350044.P9518103623702551074` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A350044 has offset 1).
 
 The definition of A350044 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2327,7 +2332,7 @@ The definition of A350044 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A181762(a(n-1))` with `a(0)=187`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A350044
@@ -3086,7 +3091,7 @@ end A350053
 /-!
 # A350054: a(n) = (4^(3*n+2) - 7)/9.
 
-The programs for A350054, the canonical program `A350054.P8731163603145964891` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A350054 has offset 1).
+The programs for A350054, the canonical program `A350054.P8731163603145964891` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A350054 has offset 1).
 
 The definition of A350054 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3095,7 +3100,7 @@ The definition of A350054 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `112*A133853(n+1)+1`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A350054
@@ -6641,7 +6646,7 @@ end A350086.P17756164901491749056
 /-!
 # A350090: a(n) is the number of indices i in the range 0 <= i <= n-1 such that A003215(n) - A003215(i) is an oblong number (A002378), where A003215 are the hex numbers.
 
-The programs for A350090, the canonical program `A350090.P13885599348416703739` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A350090 has offset 0).
+The programs for A350090, the canonical program `A350090.P13885599348416703739` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A350090 has offset 0).
 
 The definition of A350090 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6650,7 +6655,7 @@ The definition of A350090 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000005(3*n*n+3*n+1)-1`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A350090
@@ -7113,7 +7118,7 @@ end A350090
 /-!
 # A350091: a(n) = a(floor(n/4)) for n == 2 (mod 4), otherwise n.
 
-The programs for A350091, the canonical program `A350091.P9691971184485335330` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A350091 has offset 0).
+The programs for A350091, the canonical program `A350091.P9691971184485335330` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A350091 has offset 0).
 
 The definition of A350091 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A347840, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7122,7 +7127,7 @@ The definition of A350091 is `conditional`: the Lean definition is an OEIS formu
 
 `(A347840(n+1)-1)/2`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A350091
@@ -7511,7 +7516,7 @@ end A350092
 /-!
 # A350093: a(n) = Sum_{k=0..n} n OR k where OR is the bitwise logical OR operator (A003986).
 
-The programs for A350093, the canonical program `A350093.P14782896136260405665` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A350093 has offset 0).
+The programs for A350093, the canonical program `A350093.P14782896136260405665` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A350093 has offset 0).
 
 The definition of A350093 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001196, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7520,7 +7525,7 @@ The definition of A350093 is `conditional`: the Lean definition is an OEIS formu
 
 `((3*n+2)*n+A001196(n))/4`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A350093
@@ -7791,7 +7796,7 @@ end A350093
 /-!
 # A350094: a(n) = Sum_{k=0..n} n CNIMPL k where CNIMPL = NOT(n) AND k is the bitwise logical converse non-implication operator (A102037).
 
-The programs for A350094, the canonical program `A350094.P14552447069989124011` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A350094 has offset 0).
+The programs for A350094, the canonical program `A350094.P14552447069989124011` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A350094 has offset 0).
 
 The definition of A350094 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001196, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7800,7 +7805,7 @@ The definition of A350094 is `conditional`: the Lean definition is an OEIS formu
 
 `(A001196(n)-n*(n+2))/4`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A350094

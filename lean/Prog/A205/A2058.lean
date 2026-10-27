@@ -39,7 +39,8 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
@@ -49,17 +50,15 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
-import Seq.B007.C000
+import Seq.B006.C001
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3691,7 +3690,7 @@ end
 end A205836.P3242283512211338655
 
 /-!
-# A205837: Numbers k for which 2 divides s(k)-s(j) for some j
+# A205837: Numbers k for which 2 divides s(k)-s(j) for some j<k; each k occurs once for each such j; s(k) denotes the (k+1)-st Fibonacci number.
 
 The programs for A205837, the canonical program `A205837.P9311824850182704817` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205837 has offset 1).
 
@@ -3885,7 +3884,7 @@ end A205837
 /-!
 # A205838: The least number j such that 2 divides s(k)-s(j), where k(n)=A205720(n).
 
-The programs for A205838, the canonical program `A205838.P10030448835299135618` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205838 has offset 1).
+The programs for A205838, the canonical program `A205838.P10030448835299135618` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205838 has offset 1).
 
 The definition of A205838 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6275 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3894,7 +3893,7 @@ The definition of A205838 is `conjectured`: the Lean definition is a formula tha
 
 `A002260(A205556(n+1))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A205838
@@ -4004,7 +4003,7 @@ end A205838
 /-!
 # A205839: s(k)-s(j), where the pairs (k,j) are given by A205837 and A205838.
 
-The programs for A205839, the canonical program `A205839.P13121133368626487098` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205839 has offset 1).
+The programs for A205839, the canonical program `A205839.P13121133368626487098` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205839 has offset 1).
 
 The definition of A205839 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5539 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4105,7 +4104,7 @@ end A205839
 
 `A204922(A205556(n+1))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A205839
@@ -4474,7 +4473,7 @@ end A205840
 /-!
 # A205841: Positions of multiples of 3 in A204922 (differences of Fibonacci numbers).
 
-The programs for A205841, the canonical program `A205841.P12637503451452630609` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205841 has offset 1).
+The programs for A205841, the canonical program `A205841.P12637503451452630609` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205841 has offset 1).
 
 The definition of A205841 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3401 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4483,7 +4482,7 @@ The definition of A205841 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A204922(n+1)%3]+1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A205841
@@ -4644,7 +4643,7 @@ def P15924933341217727219.Spec : Prop :=
 end A205841
 
 /-!
-# A205842: Numbers k for which 3 divides s(k)-s(j) for some j
+# A205842: Numbers k for which 3 divides s(k)-s(j) for some j<k; each k occurs once for each such j; s(k) denotes the (k+1)-st Fibonacci number.
 
 The programs for A205842, the canonical program `A205842.P9868123877778087869` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205842 has offset 1).
 
@@ -5233,7 +5232,7 @@ end A205845.P14239191747281121099
 /-!
 # A205846: Positions of multiples of 4 in A204922 (differences of Fibonacci numbers).
 
-The programs for A205846, the canonical program `A205846.P12741801419809068897` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205846 has offset 1).
+The programs for A205846, the canonical program `A205846.P12741801419809068897` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205846 has offset 1).
 
 The definition of A205846 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3285 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5242,7 +5241,7 @@ The definition of A205846 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A204922(n+1)%4]+1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A205846
@@ -5316,7 +5315,7 @@ def P7355473395358755546.Spec : Prop :=
 end A205846
 
 /-!
-# A205847: Numbers k for which 4 divides s(k)-s(j) for some j
+# A205847: Numbers k for which 4 divides s(k)-s(j) for some j<k; each k occurs once for each such j; s(k) denotes the (k+1)-st Fibonacci number.
 
 The programs for A205847, the canonical program `A205847.P17021187226599039684` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205847 has offset 1).
 
@@ -5970,7 +5969,7 @@ end A205850.P17672358414472814040
 /-!
 # A205851: Positions of multiples of 5 in A204922 (differences of Fibonacci numbers).
 
-The programs for A205851, the canonical program `A205851.P4676341939490958117` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205851 has offset 1).
+The programs for A205851, the canonical program `A205851.P4676341939490958117` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205851 has offset 1).
 
 The definition of A205851 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1943 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5979,7 +5978,7 @@ The definition of A205851 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A204922(n+1)%5]+1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A205851
@@ -6111,7 +6110,7 @@ def P6669321163363343268.Spec : Prop :=
 end A205851
 
 /-!
-# A205852: Numbers k for which 5 divides s(k)-s(j) for some j
+# A205852: Numbers k for which 5 divides s(k)-s(j) for some j<k; each k occurs once for each such j; s(k) denotes the (k+1)-st Fibonacci number.
 
 The programs for A205852, the canonical program `A205852.P2970175676094598334` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205852 has offset 1).
 
@@ -6686,7 +6685,7 @@ def P5558229087434807154.Spec : Prop :=
 end A205856
 
 /-!
-# A205857: Numbers k for which 6 divides s(k)-s(j) for some j
+# A205857: Numbers k for which 6 divides s(k)-s(j) for some j<k; each k occurs once for each such j; s(k) denotes the (k+1)-st Fibonacci number.
 
 The programs for A205857, the canonical program `A205857.P17589815892520553844` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205857 has offset 1).
 
@@ -7176,7 +7175,7 @@ end A205860.P13744139176444886873
 /-!
 # A205861: Positions of multiples of 7 in A204922 (differences of Fibonacci numbers).
 
-The programs for A205861, the canonical program `A205861.P14361197420685489071` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205861 has offset 1).
+The programs for A205861, the canonical program `A205861.P14361197420685489071` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205861 has offset 1).
 
 The definition of A205861 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1738 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7185,7 +7184,7 @@ The definition of A205861 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A204922(n+1)%7, 1]+1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A205861
@@ -7230,7 +7229,7 @@ def P11012270582674207385.Spec : Prop :=
 end A205861
 
 /-!
-# A205862: Numbers k for which 7 divides s(k)-s(j) for some j
+# A205862: Numbers k for which 7 divides s(k)-s(j) for some j<k; each k occurs once for each such j; s(k) denotes the (k+1)-st Fibonacci number.
 
 The programs for A205862, the canonical program `A205862.P9229607814627541584` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205862 has offset 1).
 
@@ -7734,7 +7733,7 @@ end
 end A205866.P17014533126435997632
 
 /-!
-# A205867: Numbers k for which 8 divides s(k)-s(j) for some j
+# A205867: Numbers k for which 8 divides s(k)-s(j) for some j<k; each k occurs once for each such j; s(k) denotes the (k+1)-st Fibonacci number.
 
 The programs for A205867, there is no canonical definition to state claims against.
 -/
@@ -8121,7 +8120,7 @@ end
 end A205870.P7409124804276453840
 
 /-!
-# A205872: Numbers k for which 9 divides s(k)-s(j) for some j
+# A205872: Numbers k for which 9 divides s(k)-s(j) for some j<k; each k occurs once for each such j; s(k) denotes the (k+1)-st Fibonacci number.
 
 The programs for A205872, there is no canonical definition to state claims against.
 -/
@@ -8547,7 +8546,7 @@ def P5887001810236261327.Spec : Prop :=
 end A205876
 
 /-!
-# A205877: Numbers k for which 10 divides s(k)-s(j) for some j
+# A205877: Numbers k for which 10 divides s(k)-s(j) for some j<k; each k occurs once for each such j; s(k) denotes the (k+1)-st Fibonacci number.
 
 The programs for A205877, the canonical program `A205877.P15389907545694943149` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205877 has offset 1).
 

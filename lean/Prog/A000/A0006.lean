@@ -39,30 +39,32 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2336,7 +2338,7 @@ end
 end A000614.P12842198208860445665
 
 /-!
-# A000615: Threshold functions of exactly n variables.
+# A000615: Number of threshold functions of exactly n variables.
 
 The programs for A000615, there is no canonical definition to state claims against.
 -/
@@ -3839,105 +3841,6 @@ end
 end A000632.P16358076416734699979
 
 /-!
-# A000633: Number of acyclic quaternary ammonium ions with n carbon atoms.
-
-The programs for A000633, there is no canonical definition to state claims against.
--/
-
-/-! ## A000633.P9137986365963838313
-
-`A036669(n+5)`
--/
-
-namespace A000633.P9137986365963838313
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036669 (n + 5)
-
-end
-
-end A000633.P9137986365963838313
-
-/-! ## A000633.P14222350080100709779
-
-`gcd(A000038(n), A036669(A020710(n)))`
--/
-
-namespace A000633.P14222350080100709779
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A000038 n) (A036669 (A020710 n).toNat)
-
-end
-
-end A000633.P14222350080100709779
-
-/-! ## A000633.P13604945115096870669
-
-`or(A000007(n), A036669(A020710(n)))`
--/
-
-namespace A000633.P13604945115096870669
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A000007 n) (A036669 (A020710 n).toNat)
-
-end
-
-end A000633.P13604945115096870669
-
-/-! ## A000633.P17518877155050402365
-
-`A036669(A020710(n))%Δ[A000302(n)]`
--/
-
-namespace A000633.P17518877155050402365
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000302 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A036669 (A020710 n).toNat) (f1 (n + 1) - f1 n)
-
-end
-
-end A000633.P17518877155050402365
-
-/-! ## A000633.P2659388204022699833
-
-`A036669(A020710(n))*A057427(A133263(n))`
--/
-
-namespace A000633.P2659388204022699833
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036669 (A020710 n).toNat * A057427 (A133263 n).toNat
-
-end
-
-end A000633.P2659388204022699833
-
-/-! ## A000633.P2478857262426684595
-
-`A036669(A020710(n))%A332172(n)`
--/
-
-namespace A000633.P2478857262426684595
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A036669 (A020710 n).toNat) (A332172 n)
-
-end
-
-end A000633.P2478857262426684595
-
-/-!
 # A000634: Number of glycols with n carbon atoms.
 
 The programs for A000634, there is no canonical definition to state claims against.
@@ -4434,21 +4337,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A000642.P16402355163497179969
-
-/-! ## A000642.P14578643112020574808
-
-`A000678(n)-(A036669(n)+A000600(n))`
--/
-
-namespace A000642.P14578643112020574808
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000678 n - (A036669 n + A000600 n)
-
-end
-
-end A000642.P14578643112020574808
 
 /-! ## A000642.P18234273790744565711
 
@@ -7294,87 +7182,6 @@ def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
 end
 
 end A000677.P3847268001004023062
-
-/-!
-# A000678: Number of carbon (rooted) trees with n carbon atoms = unordered 4-tuples of ternary trees.
-
-The programs for A000678, there is no canonical definition to state claims against.
--/
-
-/-! ## A000678.P958275819901328724
-
-`A000598(n)+A036669(n)-A000007(n)`
--/
-
-namespace A000678.P958275819901328724
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000598 n + (A036669 n - A000007 n)
-
-end
-
-end A000678.P958275819901328724
-
-/-! ## A000678.P11304209457334142877
-
-`A036669(n)+A000598(n)*A057427(n)`
--/
-
-namespace A000678.P11304209457334142877
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036669 n + A000598 n * A057427 n
-
-end
-
-end A000678.P11304209457334142877
-
-/-! ## A000678.P659347043088436412
-
-`A036669(n)-A000598(n)*A057428(n)`
--/
-
-namespace A000678.P659347043088436412
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036669 n - A000598 n * A057428 n
-
-end
-
-end A000678.P659347043088436412
-
-/-! ## A000678.P2798570474879751678
-
-`(A036669(n)+A000598(n))%A036996(n)`
--/
-
-namespace A000678.P2798570474879751678
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A036669 n + A000598 n) (A036996 n)
-
-end
-
-end A000678.P2798570474879751678
-
-/-! ## A000678.P14942379926785682348
-
-`A036669(n)+A000598(n)%A004054(n)`
--/
-
-namespace A000678.P14942379926785682348
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036669 n + Int.tmod (A000598 n) (A004054 n)
-
-end
-
-end A000678.P14942379926785682348
 
 /-!
 # A000679: Number of groups of order 2^n.

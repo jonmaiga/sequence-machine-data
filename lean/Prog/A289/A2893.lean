@@ -32,25 +32,29 @@ import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
@@ -58,8 +62,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -604,7 +607,7 @@ end A289317.P10871052168258540978
 /-!
 # A289320: a(n) = A289310(n)^2 + A289311(n)^2.
 
-The programs for A289320, the canonical program `A289320.P2991685240031938222` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289320 has offset 1).
+The programs for A289320, the canonical program `A289320.P2991685240031938222` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289320 has offset 1).
 
 The definition of A289320 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -638,7 +641,7 @@ end A289320
 
 `∏{d}[n+1, A120007(#)²+1]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A289320
@@ -1346,7 +1349,7 @@ end A289335.P10190898455642419883
 /-!
 # A289336: a(n) = numerator of (sigma(n) / phi(n)).
 
-The programs for A289336, the canonical program `A289336.P13059549218811230367` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289336 has offset 1).
+The programs for A289336, the canonical program `A289336.P13059549218811230367` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289336 has offset 1).
 
 The definition of A289336 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1436,7 +1439,7 @@ end A289336
 
 `Δ[A160664(n)]/A009223(n+1)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A289336
@@ -3157,7 +3160,7 @@ end A289355.P15385994218782702340
 /-!
 # A289356: Least number k such that n^2 + n + k is prime.
 
-The programs for A289356, the canonical program `A289356.P270311075941156718` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289356 has offset 0).
+The programs for A289356, the canonical program `A289356.P270311075941156718` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289356 has offset 0).
 
 The definition of A289356 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A013632, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3166,7 +3169,7 @@ The definition of A289356 is `conditional`: the Lean definition is an OEIS formu
 
 `A013632(A002378(n))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A289356
@@ -3630,7 +3633,7 @@ end A289356
 /-!
 # A289357: Least number k such that n^2 + n - k is prime.
 
-The programs for A289357, the canonical program `A289357.P7446358913802547436` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289357 has offset 1).
+The programs for A289357, the canonical program `A289357.P7446358913802547436` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289357 has offset 1).
 
 The definition of A289357 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3639,7 +3642,7 @@ The definition of A289357 is `conjectured`: the Lean definition is a formula tha
 
 `(n*A161550(n+1))%(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A289357
@@ -3998,7 +4001,7 @@ end A289361.P9536647426041538294
 /-!
 # A289363: Primes p such that p^2 + p - 1 is composite.
 
-The programs for A289363, the canonical program `A289363.P17304641566808962649` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289363 has offset 1).
+The programs for A289363, the canonical program `A289363.P17304641566808962649` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289363 has offset 1).
 
 The definition of A289363 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 972 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4219,7 +4222,7 @@ end A289363
 
 `p?[2-A108151(n+1)+n]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A289363
@@ -5650,7 +5653,7 @@ end A289383.P17297298399304628502
 /-!
 # A289387: a(n) = Sum_{k>=0} (-1)^k*binomial(n, 5*k+2).
 
-The programs for A289387, the canonical program `A289387.P12260547900688232206` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289387 has offset 0).
+The programs for A289387, the canonical program `A289387.P12260547900688232206` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289387 has offset 0).
 
 The definition of A289387 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 358 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5659,7 +5662,7 @@ The definition of A289387 is `conjectured`: the Lean definition is a formula tha
 
 `A289321(n-1)+a(n-1)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A289387
@@ -5839,7 +5842,7 @@ end A289387
 /-!
 # A289388: a(n) = Sum_{k>=0} (-1)^k*binomial(n,5*k+3).
 
-The programs for A289388, the canonical program `A289388.P9088607596143187835` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289388 has offset 0).
+The programs for A289388, the canonical program `A289388.P9088607596143187835` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289388 has offset 0).
 
 The definition of A289388 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 357 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5874,7 +5877,7 @@ end A289388
 
 `Δ[Δ[-A289306(n)]]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A289388

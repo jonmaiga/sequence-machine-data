@@ -44,11 +44,11 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -62,9 +62,9 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -72,13 +72,11 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2446,33 +2444,6 @@ def P5552971337628032499.Spec : Prop :=
 
 end A060312
 
-/-! ## A060312.P7425344105073533038
-
-`A102526(n+1)-char[1]`
--/
-
-namespace A060312.P7425344105073533038
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  1
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102526 (n + 1) - ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A060312.P7425344105073533038
-
-namespace A060312
-
-/-- `A102526(n+1)-char[1]` -/
-def P7425344105073533038.Spec : Prop :=
-  ∀ n, P7425344105073533038.a n = A060312 (n + 1)
-
-end A060312
-
 /-! ## A060312.P185850764840798922
 
 `A001224(n+1)/(char[1]+1)`
@@ -2497,52 +2468,6 @@ namespace A060312
 /-- `A001224(n+1)/(char[1]+1)` -/
 def P185850764840798922.Spec : Prop :=
   ∀ n, P185850764840798922.a n = (A060312 (n + 1) : ℚ)
-
-end A060312
-
-/-! ## A060312.P8119201191402847249
-
-`A102526(A326178(n))`
--/
-
-namespace A060312.P8119201191402847249
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102526 (A326178 n).toNat
-
-end
-
-end A060312.P8119201191402847249
-
-namespace A060312
-
-/-- `A102526(A326178(n))` -/
-def P8119201191402847249.Spec : Prop :=
-  ∀ n, P8119201191402847249.a n = A060312 (n + 1)
-
-end A060312
-
-/-! ## A060312.P18164596801164891560
-
-`A102526(A184985(n+1))`
--/
-
-namespace A060312.P18164596801164891560
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102526 (A184985 (n + 1)).toNat
-
-end
-
-end A060312.P18164596801164891560
-
-namespace A060312
-
-/-- `A102526(A184985(n+1))` -/
-def P18164596801164891560.Spec : Prop :=
-  ∀ n, P18164596801164891560.a n = A060312 (n + 1)
 
 end A060312
 
@@ -2775,29 +2700,6 @@ namespace A060312
 /-- `A001224(n+1)-A224226(A053182(n+1))` -/
 def P7543542299457983965.Spec : Prop :=
   ∀ n, P7543542299457983965.a n = A060312 (n + 1)
-
-end A060312
-
-/-! ## A060312.P4000559326133697437
-
-`A102526(A322832(n²+1))`
--/
-
-namespace A060312.P4000559326133697437
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102526 (A322832 (n ^ 2 + 1)).toNat
-
-end
-
-end A060312.P4000559326133697437
-
-namespace A060312
-
-/-- `A102526(A322832(n²+1))` -/
-def P4000559326133697437.Spec : Prop :=
-  ∀ n, P4000559326133697437.a n = A060312 (n + 1)
 
 end A060312
 
@@ -4838,7 +4740,7 @@ end A060329
 /-!
 # A060330: Primes that are the sum of five consecutive composite numbers.
 
-The programs for A060330, the canonical program `A060330.P16314601193088272172` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060330 has offset 1).
+The programs for A060330, the canonical program `A060330.P16314601193088272172` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060330 has offset 1).
 
 The definition of A060330 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 156 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4847,7 +4749,7 @@ The definition of A060330 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A051349(n+5)-A051349(n)]`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A060330
@@ -4975,7 +4877,7 @@ end A060330
 /-!
 # A060331: Primes the sum of six consecutive composite numbers.
 
-The programs for A060331, the canonical program `A060331.P1042131893594704924` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060331 has offset 1).
+The programs for A060331, the canonical program `A060331.P1042131893594704924` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060331 has offset 1).
 
 The definition of A060331 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 479 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4984,7 +4886,7 @@ The definition of A060331 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A051349(n+6)-A051349(n)]`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A060331
@@ -5112,7 +5014,7 @@ end A060331
 /-!
 # A060332: Primes the sum of seven consecutive composite numbers.
 
-The programs for A060332, the canonical program `A060332.P4845676544807101824` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060332 has offset 1).
+The programs for A060332, the canonical program `A060332.P4845676544807101824` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060332 has offset 1).
 
 The definition of A060332 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 947 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5121,7 +5023,7 @@ The definition of A060332 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A051349(n+7)-A051349(n)]`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A060332
@@ -5257,7 +5159,7 @@ end A060332
 /-!
 # A060333: Primes which are the sum of eight consecutive composite numbers.
 
-The programs for A060333, the canonical program `A060333.P11127970401652711580` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060333 has offset 1).
+The programs for A060333, the canonical program `A060333.P11127970401652711580` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060333 has offset 1).
 
 The definition of A060333 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 961 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5266,7 +5168,7 @@ The definition of A060333 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A051349(n+8)-A051349(n)]`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A060333
@@ -8640,7 +8542,7 @@ end A060361
 /-!
 # A060367: Average order of an element in a cyclic group of order n rounded down.
 
-The programs for A060367, the canonical program `A060367.P9155873147261738328` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060367 has offset 1).
+The programs for A060367, the canonical program `A060367.P9155873147261738328` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060367 has offset 1).
 
 The definition of A060367 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A057660, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8649,7 +8551,7 @@ The definition of A060367 is `conditional`: the Lean definition is an OEIS formu
 
 `floor(A057660(n+1)/(n+1))`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A060367

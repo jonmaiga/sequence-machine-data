@@ -42,12 +42,12 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -60,12 +60,14 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -73,8 +75,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -995,21 +995,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A245116.P16653855850533155432
-
-/-! ## A245116.P2778737549173134437
-
-`or(A084997(a(n-1))-2, a(n-2))` with `a(0)=1, a(1)=1, a(2)=1`
--/
-
-namespace A245116.P2778737549173134437
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 1, 1] fun n a =>
-  Int.lor (A084997 (a (n - 1)).toNat - 2) (a (n - 2))
-
-end
-
-end A245116.P2778737549173134437
 
 /-!
 # A245117: E.g.f.: (cos(2*x) + sin(2*x)*exp(x)) / (cos(2*x)*exp(x) - sin(2*x)).
@@ -9299,7 +9284,7 @@ end A245195
 /-!
 # A245196: Write n>=1 as either n=2^k-2^r with 0 <= r <= k-1, in which case a(2^k-2^r)=wt(k-r-1), or as n=2^k-2^r+j with 2 <= r <= k-1, 1 <= j < 2^r-1, in which case a(2^k-2^r+j)=a(j)*wt(k-r-1) (where wt(i) = A000120(i)).
 
-The programs for A245196, the canonical program `A245196.P10632712264817359951` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245196 has offset 1).
+The programs for A245196, the canonical program `A245196.P10632712264817359951` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245196 has offset 1).
 
 The definition of A245196 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9380,7 +9365,7 @@ end A245196
 
 `∑{e}[A090996(A322015(n)), #]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A245196
@@ -9809,7 +9794,7 @@ end A245197.P14827002516649423294
 /-!
 # A245199: Numbers n where phi(n) and tau(n) are perfect squares.
 
-The programs for A245199, the canonical program `A245199.P15657518765040660811` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245199 has offset 1).
+The programs for A245199, the canonical program `A245199.P15657518765040660811` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245199 has offset 1).
 
 The definition of A245199 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 239 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9818,7 +9803,7 @@ The definition of A245199 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A036436(n+1), A039770(n+1)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A245199

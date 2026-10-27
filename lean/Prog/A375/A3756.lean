@@ -33,11 +33,12 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -45,21 +46,21 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2314,7 +2315,7 @@ end A375665.P11291018371229199684
 /-!
 # A375667: The maximum exponent in the prime factorization of the 5-rough numbers (A007310).
 
-The programs for A375667, the canonical program `A375667.P6684781765441991120` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375667 has offset 1).
+The programs for A375667, the canonical program `A375667.P6684781765441991120` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375667 has offset 1).
 
 The definition of A375667 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051903, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2323,7 +2324,7 @@ The definition of A375667 is `conditional`: the Lean definition is an OEIS formu
 
 `A051903(A007310(n+1))`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A375667
@@ -2663,7 +2664,7 @@ end A375667
 /-!
 # A375668: The maximum exponent in the prime factorization of the 7-rough numbers (A007775).
 
-The programs for A375668, the canonical program `A375668.P7310849845523855614` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375668 has offset 1).
+The programs for A375668, the canonical program `A375668.P7310849845523855614` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375668 has offset 1).
 
 The definition of A375668 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051903, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2672,7 +2673,7 @@ The definition of A375668 is `conditional`: the Lean definition is an OEIS formu
 
 `A051903(A007775(n+1))`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A375668
@@ -2897,16 +2898,16 @@ end A375668
 /-!
 # A375669: The maximum exponent in the prime factorization of the largest odd divisor of n.
 
-The programs for A375669, the canonical program `A375669.P4375013482018991559` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375669 has offset 1).
+The programs for A375669, the canonical program `A375669.P4375013482018991559` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375669 has offset 1).
 
-The definition of A375669 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000265, A051903, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A375669 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051903, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A375669.P4375013482018991559
 
 `A051903(A000265(n+1))`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A375669
@@ -3177,7 +3178,7 @@ end A375669
 /-!
 # A375670: The maximum exponent in the prime factorization of the largest 5-rough divisor of n.
 
-The programs for A375670, the canonical program `A375670.P18259153866628924363` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375670 has offset 1).
+The programs for A375670, the canonical program `A375670.P18259153866628924363` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375670 has offset 1).
 
 The definition of A375670 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051903, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3186,7 +3187,7 @@ The definition of A375670 is `conditional`: the Lean definition is an OEIS formu
 
 `A051903(A065330(n+1))`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A375670

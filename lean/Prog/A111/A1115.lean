@@ -46,15 +46,16 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C004
+import Seq.B003.C002
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -64,9 +65,6 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -847,7 +845,7 @@ end A111503.P9681526572742256202
 /-!
 # A111505: Right half of Pascal's triangle (A007318) with zeros.
 
-The programs for A111505, the canonical program `A111505.P11919683708089814919` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A111505 has offset 0).
+The programs for A111505, the canonical program `A111505.P11919683708089814919` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A111505 has offset 0).
 
 The definition of A111505 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -879,7 +877,7 @@ end A111505
 
 `A007318(n)*A101688(n)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A111505
@@ -2601,7 +2599,7 @@ end A111526
 /-!
 # A111527: Inverse of A111526. Row sums have general term C(n,floor(n/2))*(cos(Pi*n/2) + sin(Pi*n/2)).
 
-The programs for A111527, the canonical program `A111527.P12584013183539316242` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A111527 has offset 0).
+The programs for A111527, the canonical program `A111527.P12584013183539316242` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A111527 has offset 0).
 
 The definition of A111527 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2610,7 +2608,7 @@ The definition of A111527 is `conjectured`: the Lean definition is a formula tha
 
 `A117178(n)*A117568(n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A111527
@@ -11039,7 +11037,7 @@ end A111594
 /-!
 # A111596: The matrix inverse of the unsigned Lah numbers A271703.
 
-The programs for A111596, the canonical program `A111596.P6007535604357986319` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A111596 has offset 0).
+The programs for A111596, the canonical program `A111596.P6007535604357986319` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A111596 has offset 0).
 
 The definition of A111596 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2351 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11048,7 +11046,7 @@ The definition of A111596 is `conjectured`: the Lean definition is a formula tha
 
 `A097807(n)*A271703(n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A111596

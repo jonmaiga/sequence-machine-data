@@ -45,7 +45,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -54,20 +54,18 @@ import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4489,7 +4487,7 @@ end A240051.P10894906164699481234
 /-!
 # A240052: 2nd arithmetic derivative of products of 2 successive prime numbers (A006094).
 
-The programs for A240052, the canonical program `A240052.P5517115470621218941` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240052 has offset 1).
+The programs for A240052, the canonical program `A240052.P5517115470621218941` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240052 has offset 1).
 
 The definition of A240052 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A068346, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4498,7 +4496,7 @@ The definition of A240052 is `conditional`: the Lean definition is an OEIS formu
 
 `A068346(A006094(n+1))`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A240052
@@ -4798,7 +4796,7 @@ end A240052
 /-!
 # A240053: 3rd arithmetic derivation of products of 2 successive prime numbers (A006094).
 
-The programs for A240053, the canonical program `A240053.P14038067904992536959` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240053 has offset 1).
+The programs for A240053, the canonical program `A240053.P14038067904992536959` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240053 has offset 1).
 
 The definition of A240053 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003415, A240052, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4807,7 +4805,7 @@ The definition of A240053 is `conditional`: the Lean definition is an OEIS formu
 
 `A003415(A240052(n+1))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A240053
@@ -5061,7 +5059,7 @@ end A240053
 /-!
 # A240054: 4th arithmetic derivative of products of 2 successive prime numbers (A006094).
 
-The programs for A240054, the canonical program `A240054.P9237913273188116088` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240054 has offset 1).
+The programs for A240054, the canonical program `A240054.P9237913273188116088` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240054 has offset 1).
 
 The definition of A240054 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 429 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5070,7 +5068,7 @@ The definition of A240054 is `conjectured`: the Lean definition is a formula tha
 
 `A099306(Δ[A061802(n)])`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A240054
@@ -9123,7 +9121,7 @@ end A240085.P14064931009232304350
 /-!
 # A240086: a(n) = Sum_{prime p|n} phi(gcd(p, n/p)) where phi is Euler's totient function.
 
-The programs for A240086, the canonical program `A240086.P8018606740492469687` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240086 has offset 1).
+The programs for A240086, the canonical program `A240086.P8018606740492469687` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240086 has offset 1).
 
 The definition of A240086 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9181,7 +9179,7 @@ end A240086
 
 `A056169(n+1)+A055631(A085731(n+1))`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A240086

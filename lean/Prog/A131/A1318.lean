@@ -42,11 +42,12 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -54,6 +55,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -71,9 +73,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -352,7 +351,7 @@ end A131802.P16667468203704595028
 /-!
 # A131804: Antidiagonal sums of triangular array T: T(j,k) = -(k+1)/2 for odd k, T(j,k) = 0 for k = 0, T(j,k) = j+1-k/2 for even k > 0; 0 <= k <= j.
 
-The programs for A131804, the canonical program `A131804.P17602890700223811981` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131804 has offset 0).
+The programs for A131804, the canonical program `A131804.P17602890700223811981` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131804 has offset 0).
 
 The definition of A131804 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -361,7 +360,7 @@ The definition of A131804 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A131505(abs(1-n))]+1`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A131804
@@ -7802,7 +7801,7 @@ end A131847.P17993336052815383581
 /-!
 # A131848: Least nonnegative number which when added to the n-th semiprime gives a multiple of n.
 
-The programs for A131848, the canonical program `A131848.P17070811832609888748` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131848 has offset 1).
+The programs for A131848, the canonical program `A131848.P17070811832609888748` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131848 has offset 1).
 
 The definition of A131848 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7857,7 +7856,7 @@ end A131848
 
 `(n*A100493(n+1))%(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A131848
@@ -8638,7 +8637,7 @@ end A131851
 /-!
 # A131852: Imaginary part of the function z defined in A131851.
 
-The programs for A131852, the canonical program `A131852.P12166633739623928702` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131852 has offset 0).
+The programs for A131852, the canonical program `A131852.P12166633739623928702` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131852 has offset 0).
 
 The definition of A131852 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8647,7 +8646,7 @@ The definition of A131852 is `conjectured`: the Lean definition is a formula tha
 
 `A131851(floor(n/2))`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A131852
@@ -10021,7 +10020,7 @@ end A131854
 /-!
 # A131855: Numbers m such that A131852(m) = 0.
 
-The programs for A131855, the canonical program `A131855.P13915583757753673603` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131855 has offset 1).
+The programs for A131855, the canonical program `A131855.P13915583757753673603` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131855 has offset 1).
 
 The definition of A131855 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5584 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10030,7 +10029,7 @@ The definition of A131855 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, abs(A131851(floor(n/2)))]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A131855
@@ -11005,7 +11004,7 @@ end A131856
 /-!
 # A131857: Numbers m such that A131852(m) = 1.
 
-The programs for A131857, the canonical program `A131857.P16455021157410317938` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131857 has offset 1).
+The programs for A131857, the canonical program `A131857.P16455021157410317938` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131857 has offset 1).
 
 The definition of A131857 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5322 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11014,7 +11013,7 @@ The definition of A131857 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A131851(floor(n/2))-1]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A131857
@@ -11380,7 +11379,7 @@ end A131857
 /-!
 # A131858: Numbers m such that z(m)=(1,0) with z as defined in A131851.
 
-The programs for A131858, the canonical program `A131858.P9447570660414659243` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131858 has offset 1).
+The programs for A131858, the canonical program `A131858.P9447570660414659243` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131858 has offset 1).
 
 The definition of A131858 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2669 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11415,7 +11414,7 @@ end A131858
 
 `∩[A131859(n+1), A016861(n)]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A131858
@@ -16777,7 +16776,7 @@ end A131886.P9464302722097272028
 /-!
 # A131887: Number of Khalimsky-continuous functions with a three-point codomain.
 
-The programs for A131887, the canonical program `A131887.P13103123280659706922` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131887 has offset 1).
+The programs for A131887, the canonical program `A131887.P13103123280659706922` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131887 has offset 1).
 
 The definition of A131887 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 349 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16809,7 +16808,7 @@ end A131887
 
 `2*∑[A002530(n+1)]+1`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A131887

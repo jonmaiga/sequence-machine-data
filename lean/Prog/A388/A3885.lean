@@ -5,8 +5,8 @@ import Seq.B000.C012
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B001.C000
-import Seq.B001.C003
-import Seq.B002.C007
+import Seq.B002.C008
+import Seq.B003.C001
 import Seq.B005.C002
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -95,7 +95,7 @@ end A388533.P5156146038510954976
 /-!
 # A388539: Sum of decimal digits of Fibonacci(n)^2.
 
-The programs for A388539, the canonical program `A388539.P17116264068590608702` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388539 has offset 0).
+The programs for A388539, the canonical program `A388539.P17116264068590608702` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388539 has offset 0).
 
 The definition of A388539 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -104,7 +104,7 @@ The definition of A388539 is `conditional`: the Lean definition is an OEIS formu
 
 `A007953(A007598(n))`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A388539

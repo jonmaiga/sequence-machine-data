@@ -36,28 +36,28 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C000
+import Seq.B003.C005
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B007.C000
-import Seq.B009.C000
-import Seq.B010.C000
+import Seq.B006.C001
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3508,7 +3508,7 @@ def P18034796598093607370.Spec : Prop :=
 end A214153
 
 /-!
-# A214154: Number of ways to represent 2n as the sum of two distinct k-almost primes: #{m
+# A214154: Number of ways to represent 2n as the sum of two distinct k-almost primes: #{m<n | A001222(m)=A001222(2n-m)}.
 
 The programs for A214154, there is no canonical definition to state claims against.
 -/
@@ -3911,7 +3911,7 @@ end A214166.P15524902787062175560
 /-!
 # A214167: Number of 0..5 colorings of a 1 X (n+1) array circular in the n+1 direction with new values 0..5 introduced in row major order.
 
-The programs for A214167, the canonical program `A214167.P16007822320014085442` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214167 has offset 1).
+The programs for A214167, the canonical program `A214167.P16007822320014085442` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214167 has offset 1).
 
 The definition of A214167 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 146 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3920,7 +3920,7 @@ The definition of A214167 is `conjectured`: the Lean definition is a formula tha
 
 `A056272(n+1)-a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A214167
@@ -4457,7 +4457,7 @@ end A214175.P15528917136519314552
 /-!
 # A214178: Triangle T(n,k) by rows: the k-th derivative of the Fibonacci Polynomial F_n(x) evaluated at x=1.
 
-The programs for A214178, the canonical program `A214178.P11403430696683666468` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214178 has offset 0).
+The programs for A214178, the canonical program `A214178.P11403430696683666468` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214178 has offset 0).
 
 The definition of A214178 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2555 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4466,7 +4466,7 @@ The definition of A214178 is `conjectured`: the Lean definition is a formula tha
 
 `A155161(n+1)*A233543(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A214178
@@ -5414,7 +5414,7 @@ end A214193.P1215157319321669415
 /-!
 # A214195: Numbers with the number of distinct prime factors a multiple of 3.
 
-The programs for A214195, the canonical program `A214195.P1409231567041737422` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214195 has offset 1).
+The programs for A214195, the canonical program `A214195.P1409231567041737422` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214195 has offset 1).
 
 The definition of A214195 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5452,7 +5452,7 @@ end A214195
 
 `eq[(n+1)^3, A290480(n+1)]+1`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A214195

@@ -3,7 +3,6 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -25,28 +24,30 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C006
-import Seq.B003.C000
+import Seq.B002.C004
+import Seq.B002.C007
 import Seq.B003.C001
-import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1527,7 +1528,7 @@ end A384518.P12798357064982748654
 /-!
 # A384519: Numbers whose powerful part (A057521) is greater than 1 and is equal to a squarefree number raised to an even power (A384517).
 
-The programs for A384519, the canonical program `A384519.P13348821675057678145` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384519 has offset 1).
+The programs for A384519, the canonical program `A384519.P13348821675057678145` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384519 has offset 1).
 
 The definition of A384519 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7347 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1536,7 +1537,7 @@ The definition of A384519 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A072587(n+1), A375142(n+1)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A384519
@@ -1643,7 +1644,7 @@ end A384519
 /-!
 # A384520: Numbers whose powerful part (A057521) is greater than 1 and is equal to a squarefree number raised to an odd power (A384518).
 
-The programs for A384520, the canonical program `A384520.P4473728622954603946` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384520 has offset 1).
+The programs for A384520, the canonical program `A384520.P4473728622954603946` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384520 has offset 1).
 
 The definition of A384520 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2653 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1652,7 +1653,7 @@ The definition of A384520 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A375142(n+1), A295316(#)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A384520
@@ -2156,7 +2157,7 @@ end A384530.P6334419515457651898
 /-!
 # A384531: Multiplicative sequence a(n) with a(p^e) = ((2*e+1) * p - 2*e) * p^(e-1) for prime p and e >= 0.
 
-The programs for A384531, the canonical program `A384531.P15070268753136582785` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384531 has offset 1).
+The programs for A384531, the canonical program `A384531.P15070268753136582785` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384531 has offset 1).
 
 The definition of A384531 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2191,7 +2192,7 @@ end A384531
 
 `∑{d}[n+1, A018804(#)*A173557((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A384531
@@ -2622,7 +2623,7 @@ end A384539.P10651586810407839351
 /-!
 # A384543: Number of distinct values from the bitwise operation i XOR j for all integers i and j in the range [1, n].
 
-The programs for A384543, the canonical program `A384543.P10493386867404407549` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384543 has offset 1).
+The programs for A384543, the canonical program `A384543.P10493386867404407549` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384543 has offset 1).
 
 The definition of A384543 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2500 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2654,7 +2655,7 @@ end A384543
 
 `A352228(A352228(3*n+1)+A004755(n+1))`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A384543
@@ -2824,7 +2825,7 @@ end A384554.P8153309357269738141
 /-!
 # A384555: The largest infinitary divisor of n that is cubefree.
 
-The programs for A384555, the canonical program `A384555.P15004222589011881551` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384555 has offset 1).
+The programs for A384555, the canonical program `A384555.P15004222589011881551` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384555 has offset 1).
 
 The definition of A384555 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2948,7 +2949,7 @@ end A384555
 
 `A053165((n+1)/A062378(A053165(n+1)))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A384555
@@ -2989,7 +2990,7 @@ end A384555
 /-!
 # A384556: The sum of the exponential divisors of n that are cubefree.
 
-The programs for A384556, the canonical program `A384556.P16064934496788693992` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384556 has offset 1).
+The programs for A384556, the canonical program `A384556.P16064934496788693992` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384556 has offset 1).
 
 The definition of A384556 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2998,7 +2999,7 @@ The definition of A384556 is `conjectured`: the Lean definition is a formula tha
 
 `A003968(A066990(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A384556
@@ -3170,7 +3171,7 @@ end A384558.P11032656814873253444
 /-!
 # A384561: One fourth of the number of permutations of [n] with |p(i+1) - p(i)| >= 2, for i = 1..(n-1) and n appears at position i = 1 or i = n.
 
-The programs for A384561, the canonical program `A384561.P5420392690080599210` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384561 has offset 5).
+The programs for A384561, the canonical program `A384561.P5420392690080599210` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384561 has offset 5).
 
 The definition of A384561 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3179,7 +3180,7 @@ The definition of A384561 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A382644(n+4)/2`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A384561

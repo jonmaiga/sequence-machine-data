@@ -34,22 +34,22 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
-import Seq.B001.C008
+import Seq.B001.C007
+import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C005
+import Seq.B003.C004
+import Seq.B003.C006
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
@@ -59,12 +59,10 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -831,7 +829,7 @@ end A385609
 /-!
 # A385610: Galileo sequence with ratio k = 2: a(1) = 1, a(2) = k, a(2*n-1) = floor(((k + 1)*a(n) -1)/2), and a(2*n) = floor((k + 1)*a(n)/2) + 1 for n > 2.
 
-The programs for A385610, the canonical program `A385610.P4272775089795650141` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385610 has offset 1).
+The programs for A385610, the canonical program `A385610.P4272775089795650141` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385610 has offset 1).
 
 The definition of A385610 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -840,7 +838,7 @@ The definition of A385610 is `conjectured`: the Lean definition is a formula tha
 
 `A006368(2*a(floor(n/2))-(-1)^n)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A385610
@@ -1990,7 +1988,7 @@ end A385640
 /-!
 # A385641: Partial sums of A097893.
 
-The programs for A385641, the canonical program `A385641.P16422059336115816604` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385641 has offset 0).
+The programs for A385641, the canonical program `A385641.P16422059336115816604` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385641 has offset 0).
 
 The definition of A385641 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A211278, A247287, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2022,7 +2020,7 @@ end A385641
 
 `A211278(n)+A247287(n)`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A385641
@@ -2556,7 +2554,7 @@ end A385654.P14430143159713056959
 /-!
 # A385656: Numbers k such that the sum of the decimal digits of k^2 divides k^2.
 
-The programs for A385656, the canonical program `A385656.P8934032101623162455` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385656 has offset 1).
+The programs for A385656, the canonical program `A385656.P8934032101623162455` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385656 has offset 1).
 
 The definition of A385656 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1769 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2565,7 +2563,7 @@ The definition of A385656 is `conjectured`: the Lean definition is a formula tha
 
 `lt[(n+1)²%A004159(n+1), 1]+1`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A385656
@@ -3023,7 +3021,7 @@ end A385663
 /-!
 # A385665: Triangle read by rows: T(n,k) is the number of 2n-bead balanced bicolor necklaces that can be rotated into their complements in k different ways.
 
-The programs for A385665, the canonical program `A385665.P17067247565846425678` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385665 has offset 1).
+The programs for A385665, the canonical program `A385665.P17067247565846425678` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385665 has offset 1).
 
 The definition of A385665 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 528 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3032,7 +3030,7 @@ The definition of A385665 is `conjectured`: the Lean definition is a formula tha
 
 `A000048(A054531(n+1))*A051731(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A385665
@@ -3365,7 +3363,7 @@ end A385679.P8363246633011088196
 /-!
 # A385682: a(n) = (n - 1) * Sum_{k=2..n} A000010(k).
 
-The programs for A385682, the canonical program `A385682.P9546998427617128553` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385682 has offset 1).
+The programs for A385682, the canonical program `A385682.P9546998427617128553` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385682 has offset 1).
 
 The definition of A385682 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002088, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3374,7 +3372,7 @@ The definition of A385682 is `conditional`: the Lean definition is an OEIS formu
 
 `n*(A002088(n+1)-1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A385682
@@ -3409,12 +3407,6 @@ namespace A385682
 /-- `n*A015614(n+1)` -/
 def P215283985457388976.Spec : Prop :=
   ∀ n, P215283985457388976.a n = A385682 (n + 1)
-
-theorem P215283985457388976.correct : P215283985457388976.Spec := by
-  intro n
-  simp only [A385682, Nat.add_sub_cancel, A385682.P215283985457388976.a, A385682.P9546998427617128553.a, A002088, A002088.P8962335469571691680.f2, A002088.P8962335469571691680.f1, A002088.P8962335469571691680.a, A015614, A015614.P13535555482679389419.a, A000217, A000217.P10269402890581615239.a, A007431, A007431.P16849793818733668455.f1, A007431.P16849793818733668455.a, A185670, A185670.P7671735460308608982.a, A007432, A007432.P16663120023730915232.f1, A007432.P16663120023730915232.a, A063985, A063985.P3942861327483730228.a, A100613, A100613.P7468063633472476903.a, A007428, A007428.P12532017655611739201.f1, A007428.P12532017655611739201.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A385682
 
@@ -3462,12 +3454,6 @@ namespace A385682
 def P9502218596144274658.Spec : Prop :=
   ∀ n, P9502218596144274658.a n = A385682 (n + 1)
 
-theorem P9502218596144274658.correct : P9502218596144274658.Spec := by
-  intro n
-  simp only [A385682, Nat.add_sub_cancel, A385682.P9502218596144274658.a, A385682.P9546998427617128553.a, A002088, A002088.P8962335469571691680.f2, A002088.P8962335469571691680.f1, A002088.P8962335469571691680.a, A005728, A005728.P12032251568510858139.a, A007431, A007431.P16849793818733668455.f1, A007431.P16849793818733668455.a, A007432, A007432.P16663120023730915232.f1, A007432.P16663120023730915232.a, A007428, A007428.P12532017655611739201.f1, A007428.P12532017655611739201.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A385682
 
 /-! ## A385682.P11515778627668312541
@@ -3490,12 +3476,6 @@ namespace A385682
 /-- `n*(A015613(n+1)+n)` -/
 def P11515778627668312541.Spec : Prop :=
   ∀ n, P11515778627668312541.a n = A385682 (n + 1)
-
-theorem P11515778627668312541.correct : P11515778627668312541.Spec := by
-  intro n
-  simp only [A385682, Nat.add_sub_cancel, A385682.P11515778627668312541.a, A385682.P9546998427617128553.a, A002088, A002088.P8962335469571691680.f2, A002088.P8962335469571691680.f1, A002088.P8962335469571691680.a, A015613, A015613.P10342117008868844032.a, A007431, A007431.P16849793818733668455.f1, A007431.P16849793818733668455.a, A007432, A007432.P16663120023730915232.f1, A007432.P16663120023730915232.a, A007428, A007428.P12532017655611739201.f1, A007428.P12532017655611739201.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A385682
 

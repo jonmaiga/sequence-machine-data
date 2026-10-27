@@ -32,27 +32,29 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B007.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -803,7 +805,7 @@ end
 end A233623.P18191545754862819089
 
 /-!
-# A233626: Least member of an amicable n-tuple: (x[1],...,x[n]) such that sigma(x[1])=...=sigma(x[n])=x[1]+...+x[n], x[i]
+# A233626: Least member of an amicable n-tuple: (x[1],...,x[n]) such that sigma(x[1])=...=sigma(x[n])=x[1]+...+x[n], x[i]<x[i+1].
 
 The programs for A233626, there is no canonical definition to state claims against.
 -/
@@ -4955,7 +4957,7 @@ end A233670.P1265036514959554931
 /-!
 # A233671: Numbers k such that prime(k)^2 < prime(k-1)*prime(k+1).
 
-The programs for A233671, the canonical program `A233671.P2639350309273888819` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233671 has offset 1).
+The programs for A233671, the canonical program `A233671.P2639350309273888819` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233671 has offset 1).
 
 The definition of A233671 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4993,7 +4995,7 @@ end A233671
 
 `lt[(1/3)², A036263(n+1)]+2`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A233671

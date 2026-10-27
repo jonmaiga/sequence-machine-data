@@ -36,7 +36,6 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -51,17 +50,15 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2094,7 +2091,7 @@ def P11952134458589777641.Spec : Prop :=
 end A208324
 
 /-!
-# A208325: Primes p such that all p-k!! are composite for 1<=k!!
+# A208325: Primes p such that all p-k!! are composite for 1<=k!!<p.
 
 The programs for A208325, there is no canonical definition to state claims against.
 -/

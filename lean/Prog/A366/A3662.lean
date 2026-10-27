@@ -27,21 +27,25 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C002
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
@@ -57,8 +61,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3291,7 +3293,7 @@ end A366255
 /-!
 # A366256: Positions of odd numbers in May code (A303767).
 
-The programs for A366256, the canonical program `A366256.P9552359015136623183` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366256 has offset 1).
+The programs for A366256, the canonical program `A366256.P9552359015136623183` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366256 has offset 1).
 
 The definition of A366256 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3300,7 +3302,7 @@ The definition of A366256 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A366255(n)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A366256
@@ -3606,7 +3608,7 @@ end A366256
 /-!
 # A366257: Positions of even numbers in May code (A303767).
 
-The programs for A366257, the canonical program `A366257.P194233725417520756` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366257 has offset 1).
+The programs for A366257, the canonical program `A366257.P194233725417520756` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366257 has offset 1).
 
 The definition of A366257 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3615,7 +3617,7 @@ The definition of A366257 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A366255(n)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A366257
@@ -4829,7 +4831,7 @@ end A366275
 /-!
 # A366276: Permutation of nonnegative integers: a(n) = A057889(A243071(n)).
 
-The programs for A366276, the canonical program `A366276.P1012939785362767709` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366276 has offset 1).
+The programs for A366276, the canonical program `A366276.P1012939785362767709` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366276 has offset 1).
 
 The definition of A366276 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A057889, A243071, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4838,7 +4840,7 @@ The definition of A366276 is `conditional`: the Lean definition is an OEIS formu
 
 `A057889(A243071(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A366276
@@ -5056,7 +5058,7 @@ end A366277.P10294457020036267122
 /-!
 # A366279: The least number with same prime signature as A366275, where A366275(n) = A163511(A057889(n)).
 
-The programs for A366279, the canonical program `A366279.P1626075147796417593` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366279 has offset 0).
+The programs for A366279, the canonical program `A366279.P1626075147796417593` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366279 has offset 0).
 
 The definition of A366279 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A057889, A278531, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5065,7 +5067,7 @@ The definition of A366279 is `conditional`: the Lean definition is an OEIS formu
 
 `A278531(A057889(n))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A366279

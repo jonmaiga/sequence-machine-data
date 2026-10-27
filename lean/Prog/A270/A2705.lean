@@ -45,6 +45,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,21 +53,20 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2260,7 +2260,7 @@ end A270534.P1819074590680415524
 /-!
 # A270535: Integers k such that A001359(k) + A001359(k+3) = A001359(k+1) + A001359(k+2).
 
-The programs for A270535, the canonical program `A270535.P6281251138440400066` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270535 has offset 1).
+The programs for A270535, the canonical program `A270535.P6281251138440400066` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270535 has offset 1).
 
 The definition of A270535 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 310 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2269,7 +2269,7 @@ The definition of A270535 is `conjectured`: the Lean definition is a formula tha
 
 `eq[Δ[A067829(n+1)], A053319(n+2)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A270535
@@ -2523,7 +2523,7 @@ end A270539.P2901168104711980168
 /-!
 # A270541: a(n) = A001359(n) - A001359(n+1) - A001359(n+2) + A001359(n+3).
 
-The programs for A270541, the canonical program `A270541.P10360061445331281267` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270541 has offset 1).
+The programs for A270541, the canonical program `A270541.P10360061445331281267` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270541 has offset 1).
 
 The definition of A270541 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001359, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2561,7 +2561,7 @@ end A270541
 
 `A001359(n+1)-A001359(n+2)-A001359(n+3)+A001359(n+4)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A270541
@@ -2870,7 +2870,7 @@ end A270542.P12461268883074664906
 /-!
 # A270543: Number of ordered pairs (i,j) of integers with |i|, |j| <= n, |i * j| <= n, and i even.
 
-The programs for A270543, the canonical program `A270543.P5734163756768148192` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270543 has offset 0).
+The programs for A270543, the canonical program `A270543.P5734163756768148192` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270543 has offset 0).
 
 The definition of A270543 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A226355, A270544, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2879,7 +2879,7 @@ The definition of A270543 is `conditional`: the Lean definition is an OEIS formu
 
 `A226355(n)-A270544(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A270543

@@ -39,18 +39,21 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C004
+import Seq.B001.C006
+import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -67,8 +70,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -294,21 +295,6 @@ end A363203.P6445146909857471475
 
 The programs for A363204, there is no canonical definition to state claims against.
 -/
-
-/-! ## A363204.P16021006603180485733
-
-`A003056(A145874(n+1)+1)`
--/
-
-namespace A363204.P16021006603180485733
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A003056 (A145874 (n + 1) + 1).toNat
-
-end
-
-end A363204.P16021006603180485733
 
 /-! ## A363204.P18020470064545512538
 
@@ -8253,7 +8239,7 @@ end A363288
 /-!
 # A363289: Sum of the divisor complements of the unitary squarefree divisors of n.
 
-The programs for A363289, the canonical program `A363289.P16353969291732176041` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363289 has offset 1).
+The programs for A363289, the canonical program `A363289.P16353969291732176041` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363289 has offset 1).
 
 The definition of A363289 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8337,7 +8323,7 @@ end A363289
 
 `∑{d}[A055231(n+1), #]*A057521(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A363289
@@ -8456,7 +8442,7 @@ end A363289
 /-!
 # A363291: Sum of divisors of 4*n-1 of form 4*k+1.
 
-The programs for A363291, the canonical program `A363291.P5280356287079717182` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363291 has offset 1).
+The programs for A363291, the canonical program `A363291.P5280356287079717182` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363291 has offset 1).
 
 The definition of A363291 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A050449, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8465,7 +8451,7 @@ The definition of A363291 is `conditional`: the Lean definition is an OEIS formu
 
 `A050449(4*(n+1)-1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A363291

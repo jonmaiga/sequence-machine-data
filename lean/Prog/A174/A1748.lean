@@ -39,8 +39,8 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
@@ -50,18 +50,19 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -69,9 +70,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -322,7 +320,7 @@ end A174800.P18435575375878948000
 /-!
 # A174801: Prime(n)+1 is prime or semiprime.
 
-The programs for A174801, the canonical program `A174801.P13411173935637715079` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174801 has offset 1).
+The programs for A174801, the canonical program `A174801.P13411173935637715079` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174801 has offset 1).
 
 The definition of A174801 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 704 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -331,7 +329,7 @@ The definition of A174801 is `conjectured`: the Lean definition is a formula tha
 
 `record[root(n+1, A023514(n+1))²]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A174801
@@ -2740,7 +2738,7 @@ end A174812.P1073677805661985106
 /-!
 # A174813: a(n) = number whose product of digits equals a power of 3.
 
-The programs for A174813, the canonical program `A174813.P5082787198500863838` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174813 has offset 1).
+The programs for A174813, the canonical program `A174813.P5082787198500863838` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174813 has offset 1).
 
 The definition of A174813 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 201 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2749,7 +2747,7 @@ The definition of A174813 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A039132(n+1), A136333(n+1)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A174813
@@ -4984,7 +4982,7 @@ end A174832.P14428557127892705467
 /-!
 # A174834: Triangle read by rows: T(n,k) = (Stirling1(n,k) + Stirling1(n,n-k)) * binomial(n,k) with T(0,0)=1.
 
-The programs for A174834, the canonical program `A174834.P23583234180718487` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174834 has offset 0).
+The programs for A174834, the canonical program `A174834.P23583234180718487` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174834 has offset 0).
 
 The definition of A174834 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2154 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5062,7 +5060,7 @@ end A174834
 
 `(A014473(n)+1)*A154843(A028310(n))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A174834
@@ -11345,7 +11343,7 @@ end A174890.P1378200209548832883
 /-!
 # A174891: All positive numbers except those that are the product of an odd number of distinct primes.
 
-The programs for A174891, the canonical program `A174891.P1764680800722521875` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174891 has offset 1).
+The programs for A174891, the canonical program `A174891.P1764680800722521875` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174891 has offset 1).
 
 The definition of A174891 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11354,7 +11352,7 @@ The definition of A174891 is `conjectured`: the Lean definition is a formula tha
 
 `lt[0, A061669(n+1)]+1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A174891

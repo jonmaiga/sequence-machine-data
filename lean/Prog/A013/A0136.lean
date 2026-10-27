@@ -43,12 +43,12 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -56,18 +56,18 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3107,7 +3107,7 @@ def P13059330546631250791.Spec : Prop :=
 end A013611
 
 /-!
-# A013612: Triangle of coefficients in expansion of (1+5x)^n.
+# A013612: Triangle of coefficients in expansion of (1+5*x)^n.
 
 The programs for A013612, the canonical program `A013612.P15260993261497830762` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A013612 has offset 0).
 
@@ -3570,7 +3570,7 @@ def P2061232424045436306.Spec : Prop :=
 end A013612
 
 /-!
-# A013613: Triangle of coefficients in expansion of (1+6x)^n.
+# A013613: Triangle of coefficients in expansion of (1+6*x)^n.
 
 The programs for A013613, the canonical program `A013613.P7409468563020744688` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A013613 has offset 0).
 
@@ -4044,7 +4044,7 @@ def P2249239155024100893.Spec : Prop :=
 end A013613
 
 /-!
-# A013614: Triangle of coefficients in expansion of (1+7x)^n.
+# A013614: Triangle of coefficients in expansion of (1+7*x)^n.
 
 The programs for A013614, the canonical program `A013614.P2472947764433084484` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A013614 has offset 0).
 
@@ -4478,7 +4478,7 @@ def P3714078324258958978.Spec : Prop :=
 end A013614
 
 /-!
-# A013615: Triangle of coefficients in expansion of (1+8x)^n.
+# A013615: Triangle of coefficients in expansion of (1+8*x)^n.
 
 The programs for A013615, the canonical program `A013615.P5041340170745269079` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A013615 has offset 0).
 
@@ -4952,7 +4952,7 @@ def P721529254075772751.Spec : Prop :=
 end A013615
 
 /-!
-# A013616: Triangle of coefficients in expansion of (1+9x)^n.
+# A013616: Triangle of coefficients in expansion of (1+9*x)^n.
 
 The programs for A013616, the canonical program `A013616.P12238347047684720050` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A013616 has offset 0).
 
@@ -5416,7 +5416,7 @@ def P5628436551861263781.Spec : Prop :=
 end A013616
 
 /-!
-# A013617: Triangle of coefficients in expansion of (1+10x)^n.
+# A013617: Triangle of coefficients in expansion of (1+10*x)^n.
 
 The programs for A013617, the canonical program `A013617.P9066571055645517890` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A013617 has offset 0).
 
@@ -5890,7 +5890,7 @@ def P1751357242615308610.Spec : Prop :=
 end A013617
 
 /-!
-# A013618: Triangle of coefficients in expansion of (1+11x)^n.
+# A013618: Triangle of coefficients in expansion of (1+11*x)^n.
 
 The programs for A013618, the canonical program `A013618.P387738794400138058` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A013618 has offset 0).
 
@@ -6285,7 +6285,7 @@ def P17949512256023655387.Spec : Prop :=
 end A013618
 
 /-!
-# A013619: Triangle of coefficients in expansion of (1+12x)^n.
+# A013619: Triangle of coefficients in expansion of (1+12*x)^n.
 
 The programs for A013619, the canonical program `A013619.P11563524332984274693` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A013619 has offset 0).
 
@@ -6755,7 +6755,7 @@ def P9437562889355647755.Spec : Prop :=
 end A013619
 
 /-!
-# A013620: Triangle of coefficients in expansion of (2+3x)^n.
+# A013620: Triangle of coefficients in expansion of (2+3*x)^n.
 
 The programs for A013620, the canonical program `A013620.P18211303655879049424` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A013620 has offset 0).
 
@@ -7225,7 +7225,7 @@ def P16234988799547553389.Spec : Prop :=
 end A013620
 
 /-!
-# A013621: Triangle of coefficients in expansion of (2+5x)^n.
+# A013621: Triangle of coefficients in expansion of (2+5*x)^n.
 
 The programs for A013621, the canonical program `A013621.P15224404741451774442` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A013621 has offset 0).
 
@@ -7666,7 +7666,7 @@ def P10596485162411507878.Spec : Prop :=
 end A013621
 
 /-!
-# A013622: Triangle of coefficients in expansion of (3+5x)^n.
+# A013622: Triangle of coefficients in expansion of (3+5*x)^n.
 
 The programs for A013622, the canonical program `A013622.P17777939334217247743` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A013622 has offset 0).
 
@@ -9123,7 +9123,7 @@ def P13104381721034356436.Spec : Prop :=
 end A013625
 
 /-!
-# A013626: Triangle of coefficients in expansion of (5+7x)^n.
+# A013626: Triangle of coefficients in expansion of (5+7*x)^n.
 
 The programs for A013626, the canonical program `A013626.P7478277466104224450` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A013626 has offset 0).
 
@@ -9314,7 +9314,7 @@ def P5419490194327983291.Spec : Prop :=
 end A013626
 
 /-!
-# A013627: Triangle of coefficients in expansion of (6+7x)^n.
+# A013627: Triangle of coefficients in expansion of (6+7*x)^n.
 
 The programs for A013627, the canonical program `A013627.P4308516248732266953` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A013627 has offset 0).
 
@@ -10567,7 +10567,7 @@ def P3520616279722135707.Spec : Prop :=
 end A013632
 
 /-!
-# A013633: nextprime(n) - prevprime(n).
+# A013633: a(n) = nextprime(n) - prevprime(n).
 
 The programs for A013633, the canonical program `A013633.P247593154449879367` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A013633 has offset 3).
 

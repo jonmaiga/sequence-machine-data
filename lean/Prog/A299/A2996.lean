@@ -38,33 +38,32 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B013.C000
+import Seq.B008.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2412,7 +2411,7 @@ end A299643.P15553870696126666822
 /-!
 # A299644: a(n) = prime(prime(n+1)) + prime(prime(n)).
 
-The programs for A299644, the canonical program `A299644.P5470854347893814731` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299644 has offset 1).
+The programs for A299644, the canonical program `A299644.P5470854347893814731` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299644 has offset 1).
 
 The definition of A299644 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(A000040(n+2))+A000040(A000040(n+1))` (program `A299644.P5470854347893814731`, by `A299644.P5470854347893814731.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2444,7 +2443,7 @@ end A299644
 
 `A000040(A000040(n+2))+A000040(A000040(n+1))`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A299644
@@ -8072,7 +8071,7 @@ end A299690.P1781042344149982772
 /-!
 # A299692: a(n) is the total area that is visible in the perspective view of the stepped pyramid with n levels described in A245092.
 
-The programs for A299692, the canonical program `A299692.P2407571763722409211` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299692 has offset 1).
+The programs for A299692, the canonical program `A299692.P2407571763722409211` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299692 has offset 1).
 
 The definition of A299692 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8110,7 +8109,7 @@ end A299692
 
 `A024916(n+1)+A002378(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A299692

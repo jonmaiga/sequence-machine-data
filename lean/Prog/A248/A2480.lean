@@ -41,21 +41,23 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -69,8 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -346,7 +346,7 @@ end A248002.P13507730852243851448
 /-!
 # A248003: a(n) = (sum of totatives of n ) / (2^(omega(n)-1)); a(n) = A023896(n) / A007875(n).
 
-The programs for A248003, the canonical program `A248003.P1176382946806919218` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248003 has offset 1).
+The programs for A248003, the canonical program `A248003.P1176382946806919218` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248003 has offset 1).
 
 The definition of A248003 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007875, A023896, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -355,7 +355,7 @@ The definition of A248003 is `conditional`: the Lean definition is an OEIS formu
 
 `A023896(n+1)/A007875(n+1)`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A248003
@@ -1029,7 +1029,7 @@ end
 end A248010.P17373808387829047964
 
 /-!
-# A248012: a(n)=p1^(p2^(p3^(p4^...)))... where p1
+# A248012: a(n)=p1^(p2^(p3^(p4^...)))... where p1<p2<p3<... are the distinct prime factors of n.
 
 The programs for A248012, there is no canonical definition to state claims against.
 -/
@@ -3916,7 +3916,7 @@ end A248055.P16185100519980197314
 /-!
 # A248056: Positions of 0,0 in the Thue-Morse sequence (A010060).
 
-The programs for A248056, the canonical program `A248056.P11690070156917874997` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248056 has offset 1).
+The programs for A248056, the canonical program `A248056.P11690070156917874997` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248056 has offset 1).
 
 The definition of A248056 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A091785, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3954,7 +3954,7 @@ end A248056
 
 `2*A091785(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A248056
@@ -4394,7 +4394,7 @@ end A248056
 /-!
 # A248057: Positions of 1,1 in the Thue-Morse sequence (A010060).
 
-The programs for A248057, the canonical program `A248057.P14508397276911672393` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248057 has offset 1).
+The programs for A248057, the canonical program `A248057.P14508397276911672393` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248057 has offset 1).
 
 The definition of A248057 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A157971, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4403,7 +4403,7 @@ The definition of A248057 is `conditional`: the Lean definition is an OEIS formu
 
 `A157971(n+1)+1`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A248057
@@ -5999,7 +5999,7 @@ end
 end A248075.P6993211802944163508
 
 /-!
-# A248076: Partial sums of the sum of the 5th powers of the divisors of n: Sum_{i=1..n} sigma_5(i).
+# A248076: Partial sums of A001160: Sum_{j=1..n} sigma_5(j).
 
 The programs for A248076, the canonical program `A248076.P13847461762608899525` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248076 has offset 1).
 

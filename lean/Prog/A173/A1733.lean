@@ -49,13 +49,14 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -70,8 +71,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5672,7 +5672,7 @@ end A173326.P417596046776706461
 /-!
 # A173327: Numbers k such that tau(phi(k))= sopf(k).
 
-The programs for A173327, the canonical program `A173327.P8802107638902619474` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173327 has offset 1).
+The programs for A173327, the canonical program `A173327.P8802107638902619474` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173327 has offset 1).
 
 The definition of A173327 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 126 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5681,7 +5681,7 @@ The definition of A173327 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A000005(A000010(n+1)), A008472(n+1)]+1`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A173327
@@ -8282,7 +8282,7 @@ end
 end A173355.P14464858491574983594
 
 /-!
-# A173380: Number of n-step walks on square lattice (no points repeated, no adjacent points unless consecutive in path).
+# A173380: Number of n-step self-avoiding walks on the square lattice having no pair of nonconsecutive vertices that are adjacent in the lattice.
 
 The programs for A173380, there is no canonical definition to state claims against.
 -/
@@ -8348,7 +8348,7 @@ end
 end A173380.P9643487997198939774
 
 /-!
-# A173381: a(n) = b_n(p_(n+1)) where p_n is the n-th prime, b_n(1)=1, b_n(2)=p_n, and for k>=3, b_n(k) is the smallest number larger than b_n(k-1) such that, for all i
+# A173381: a(n) = b_n(p_(n+1)) where p_n is the n-th prime, b_n(1)=1, b_n(2)=p_n, and for k>=3, b_n(k) is the smallest number larger than b_n(k-1) such that, for all i<k, b_n(k) is relatively prime to b_n(i) iff k is relatively prime to i.
 
 The programs for A173381, there is no canonical definition to state claims against.
 -/
@@ -8659,7 +8659,7 @@ end A173383.P2459693491355251793
 /-!
 # A173384: a(n) = 2^(2*n - HammingWeight(n)) * [x^n] ((x-1)^(-1) + (1-x)^(-3/2)).
 
-The programs for A173384, the canonical program `A173384.P18329896187983106844` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173384 has offset 0).
+The programs for A173384, the canonical program `A173384.P18329896187983106844` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173384 has offset 0).
 
 The definition of A173384 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8668,7 +8668,7 @@ The definition of A173384 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001803(n)-A046161(n)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A173384
@@ -9204,7 +9204,7 @@ end A173385.P14914563545798428910
 /-!
 # A173386: The absolute values of n-th natural noncomposite number minus n-th number k such that 6*k +- 1 is a twin prime pair.
 
-The programs for A173386, the canonical program `A173386.P16068600266942827119` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173386 has offset 1).
+The programs for A173386, the canonical program `A173386.P16068600266942827119` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173386 has offset 1).
 
 The definition of A173386 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002822, A008578, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9213,7 +9213,7 @@ The definition of A173386 is `conditional`: the Lean definition is an OEIS formu
 
 `abs(A008578(n+1)-A002822(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A173386
@@ -9378,7 +9378,7 @@ end A173386
 /-!
 # A173387: The absolute value of n-th prime number minus n-th number k such that 6*k-+1 is a twin prime pair.
 
-The programs for A173387, the canonical program `A173387.P5209001471711871624` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173387 has offset 1).
+The programs for A173387, the canonical program `A173387.P5209001471711871624` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173387 has offset 1).
 
 The definition of A173387 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002822, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9387,7 +9387,7 @@ The definition of A173387 is `conditional`: the Lean definition is an OEIS formu
 
 `abs(A000040(n+1)-A002822(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A173387
@@ -11316,7 +11316,7 @@ end A173395
 /-!
 # A173396: a(n) = A046161(n) + A001803(n).
 
-The programs for A173396, the canonical program `A173396.P12524725615118793413` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173396 has offset 0).
+The programs for A173396, the canonical program `A173396.P12524725615118793413` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173396 has offset 0).
 
 The definition of A173396 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11354,7 +11354,7 @@ end A173396
 
 `A046161(n)+A001803(n)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A173396

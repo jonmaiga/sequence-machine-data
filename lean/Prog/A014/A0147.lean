@@ -51,12 +51,11 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
@@ -76,8 +75,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1257,7 +1254,7 @@ end A014708.P14733406461186430566
 /-!
 # A014709: The regular paper-folding (or dragon curve) sequence. Alphabet {1,2}.
 
-The programs for A014709, the canonical program `A014709.P17697236550507046541` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A014709 has offset 0).
+The programs for A014709, the canonical program `A014709.P17697236550507046541` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A014709 has offset 0).
 
 The definition of A014709 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A065339, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1266,7 +1263,7 @@ The definition of A014709 is `conditional`: the Lean definition is an OEIS formu
 
 `1+A065339(n+1)%2`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A014709
@@ -13672,7 +13669,7 @@ end A014758.P17671276848361853570
 /-!
 # A014759: Squares of numbers in array formed from even elements to the right of middle of rows of triangle of Eulerian numbers.
 
-The programs for A014759, the canonical program `A014759.P13884157367853310932` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A014759 has offset 1).
+The programs for A014759, the canonical program `A014759.P13884157367853310932` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A014759 has offset 1).
 
 The definition of A014759 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A014472, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -13681,7 +13678,7 @@ The definition of A014759 is `conditional`: the Lean definition is an OEIS formu
 
 `A014472(n+1)²`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A014759

@@ -41,7 +41,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,19 +52,17 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B006.C000
+import Seq.B005.C001
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -119,7 +117,7 @@ end A145700.P9818018342172553996
 /-!
 # A145701: Lesser p of twin primes (p,q) such that there exists an integer between sqrt(2p) and sqrt(2q).
 
-The programs for A145701, the canonical program `A145701.P7702607531929037586` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145701 has offset 1).
+The programs for A145701, the canonical program `A145701.P7702607531929037586` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145701 has offset 1).
 
 The definition of A145701 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 150 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -188,7 +186,7 @@ end A145701
 
 `∩[A001359(n+1), A047838(n+2)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A145701
@@ -1753,7 +1751,7 @@ end A145713.P2076403279066560461
 /-!
 # A145714: a(n) = ceiling(sqrt(2*A145701(n))).
 
-The programs for A145714, the canonical program `A145714.P7947912181771072227` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145714 has offset 1).
+The programs for A145714, the canonical program `A145714.P7947912181771072227` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145714 has offset 1).
 
 The definition of A145714 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A145701, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1762,7 +1760,7 @@ The definition of A145714 is `conditional`: the Lean definition is an OEIS formu
 
 `ceil(sqrt(2*A145701(n+1)))`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A145714
@@ -3934,7 +3932,7 @@ end A145737
 /-!
 # A145738: a(n) = squarefree part of A145609(n).
 
-The programs for A145738, the canonical program `A145738.P10793220673153802030` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145738 has offset 1).
+The programs for A145738, the canonical program `A145738.P10793220673153802030` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145738 has offset 1).
 
 The definition of A145738 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 116 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3943,7 +3941,7 @@ The definition of A145738 is `conjectured`: the Lean definition is a formula tha
 
 `A145609(n+1)/A145737(n+1)²`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A145738
@@ -6484,7 +6482,7 @@ end A145783.P16365019425787090265
 /-!
 # A145784: Numbers with property that their number of prime factors counted with multiplicity is a multiple of 3.
 
-The programs for A145784, the canonical program `A145784.P2286800360752801613` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145784 has offset 1).
+The programs for A145784, the canonical program `A145784.P2286800360752801613` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145784 has offset 1).
 
 The definition of A145784 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6493,7 +6491,7 @@ The definition of A145784 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A001222(n+1)%3]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A145784

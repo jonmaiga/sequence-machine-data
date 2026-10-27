@@ -30,22 +30,25 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -57,10 +60,7 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -480,7 +480,7 @@ end A068806.P7238071304689934429
 /-!
 # A068807: Primes whose sum of digits is a power of 2.
 
-The programs for A068807, the canonical program `A068807.P3891556660410364740` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068807 has offset 1).
+The programs for A068807, the canonical program `A068807.P3891556660410364740` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068807 has offset 1).
 
 The definition of A068807 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1409 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -489,7 +489,7 @@ The definition of A068807 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A028838(n+1)]`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A068807
@@ -1362,7 +1362,7 @@ end A068810.P14404969818992466238
 /-!
 # A068811: Numbers k such that k and its 10's complement (10^d-k, where d is the number of digits in k) are both primes.
 
-The programs for A068811, the canonical program `A068811.P10074877036579306103` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068811 has offset 1).
+The programs for A068811, the canonical program `A068811.P10074877036579306103` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068811 has offset 1).
 
 The definition of A068811 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1715 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1397,7 +1397,7 @@ end A068811
 
 `p?[A000040(n+1)*A001222(A160668(n+1))]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A068811
@@ -4940,7 +4940,7 @@ end A068867.P4356490601931464728
 /-!
 # A068869: Smallest number k such that n! + k is a square.
 
-The programs for A068869, the canonical program `A068869.P17738796255132670994` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068869 has offset 1).
+The programs for A068869, the canonical program `A068869.P17738796255132670994` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068869 has offset 1).
 
 The definition of A068869 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4972,7 +4972,7 @@ end A068869
 
 `A055228(n+1)²-(n+1)!`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A068869

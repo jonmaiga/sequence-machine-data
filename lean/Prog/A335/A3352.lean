@@ -44,6 +44,7 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,6 +53,7 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -71,8 +73,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1072,7 +1072,7 @@ end
 end A335212.P1636412827180236340
 
 /-!
-# A335213: a(n) = C(n)*b(n), where C(n) is the n-th Catalan number and b(n) is the probability p_n(x
+# A335213: a(n) = C(n)*b(n), where C(n) is the n-th Catalan number and b(n) is the probability p_n(x<y) closest to 1/2 with x,y taken from the Catalan poset P_n.
 
 The programs for A335213, there is no canonical definition to state claims against.
 -/
@@ -7556,7 +7556,7 @@ end A335284.P13287795820212063768
 /-!
 # A335285: a(n) is the greatest possible greatest part of any partition of n into prime parts.
 
-The programs for A335285, the canonical program `A335285.P3875651009046137375` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335285 has offset 2).
+The programs for A335285, the canonical program `A335285.P3875651009046137375` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335285 has offset 2).
 
 The definition of A335285 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7565,7 +7565,7 @@ The definition of A335285 is `conjectured`: the Lean definition is a formula tha
 
 `A007917(xor(1, n-1)%(n+1)+2)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A335285

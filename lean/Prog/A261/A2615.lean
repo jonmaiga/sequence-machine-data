@@ -38,38 +38,35 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1120,7 +1117,7 @@ end A261516.P16165448386394641041
 /-!
 # A261518: a(n+1) = prime(n + a(n)) - prime(n), a(1) = 1.
 
-The programs for A261518, the canonical program `A261518.P12902224163147285735` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261518 has offset 1).
+The programs for A261518, the canonical program `A261518.P12902224163147285735` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261518 has offset 1).
 
 The definition of A261518 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1129,7 +1126,7 @@ The definition of A261518 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000040(n+a(n-1))-A000040(n)` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A261518
@@ -2178,7 +2175,7 @@ end A261531.P10576002667408670032
 /-!
 # A261533: Primes p such that p+2 is prime with prime(p+2)-prime(p)=6.
 
-The programs for A261533, the canonical program `A261533.P11461223256659698925` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261533 has offset 1).
+The programs for A261533, the canonical program `A261533.P11461223256659698925` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261533 has offset 1).
 
 The definition of A261533 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 227 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2187,7 +2184,7 @@ The definition of A261533 is `conjectured`: the Lean definition is a formula tha
 
 `A001359(lt[A096474(n+1), 7]+1)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A261533
@@ -3527,7 +3524,7 @@ end A261542.P1856633301556035164
 /-!
 # A261543: Numbers of the form (prime(k) + Fibonacci(k))/2.
 
-The programs for A261543, the canonical program `A261543.P5396845939734437462` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261543 has offset 1).
+The programs for A261543, the canonical program `A261543.P5396845939734437462` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261543 has offset 1).
 
 The definition of A261543 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3536,7 +3533,7 @@ The definition of A261543 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(A000040(A001651(n+2))+A000045(A001651(n+2)))/2`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A261543
@@ -5673,7 +5670,7 @@ end A261559.P14382123041422519887
 /-!
 # A261560: Semiprimes sp such that (sum of digits of (sp)) + (product of digits of (sp)) is also semiprime.
 
-The programs for A261560, the canonical program `A261560.P15660056080494388851` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261560 has offset 1).
+The programs for A261560, the canonical program `A261560.P15660056080494388851` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A261560 has offset 1).
 
 The definition of A261560 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2605 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5858,7 +5855,7 @@ end A261560
 
 `∩[A260523(n+4), A100493(n+1)-(n+1)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A261560

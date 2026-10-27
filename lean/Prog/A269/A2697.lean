@@ -40,20 +40,23 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -66,9 +69,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2486,29 +2487,6 @@ def P13233344301738432361.Spec : Prop :=
 
 end A269716
 
-/-! ## A269716.P15381071114976410183
-
-`and(A135098(2*n+1)+A083318(2*n), A135098(2*n))`
--/
-
-namespace A269716.P15381071114976410183
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A135098 (2 * n + 1) + A083318 (2 * n)) (A135098 (2 * n))
-
-end
-
-end A269716.P15381071114976410183
-
-namespace A269716
-
-/-- `and(A135098(2*n+1)+A083318(2*n), A135098(2*n))` -/
-def P15381071114976410183.Spec : Prop :=
-  ∀ n, P15381071114976410183.a n = A269716 n
-
-end A269716
-
 /-!
 # A269717: Partial sums of the number of active (ON, black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 22", based on the 5-celled von Neumann neighborhood.
 
@@ -2656,7 +2634,7 @@ end
 end A269718.P17943147482614106664
 
 /-!
-# A269719: Numbers whose arithmetic derivative is equal to the sum of some fixed power of their digits.
+# A269719: Numbers >= 3 whose arithmetic derivative is equal to the sum of some fixed power of their digits.
 
 The programs for A269719, there is no canonical definition to state claims against.
 -/

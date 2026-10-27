@@ -33,19 +33,20 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C003
+import Seq.B003.C001
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -58,7 +59,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6524,7 +6524,7 @@ end A352597.P3282901510023769207
 /-!
 # A352598: a(n) is the product of the squares of the nonzero digits of n.
 
-The programs for A352598, the canonical program `A352598.P1905536074837033519` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352598 has offset 1).
+The programs for A352598, the canonical program `A352598.P1905536074837033519` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352598 has offset 1).
 
 The definition of A352598 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051801, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6533,7 +6533,7 @@ The definition of A352598 is `conditional`: the Lean definition is an OEIS formu
 
 `A051801(n+1)²`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A352598

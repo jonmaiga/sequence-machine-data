@@ -52,14 +52,17 @@ import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -73,8 +76,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -935,29 +936,6 @@ def P3128695714783084533.Spec : Prop :=
 
 end A005207
 
-/-! ## A005207.P5410666633680848654
-
-`A102526(A004275(n))`
--/
-
-namespace A005207.P5410666633680848654
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102526 (A004275 n).toNat
-
-end
-
-end A005207.P5410666633680848654
-
-namespace A005207
-
-/-- `A102526(A004275(n))` -/
-def P5410666633680848654.Spec : Prop :=
-  ∀ n, P5410666633680848654.a n = A005207 n
-
-end A005207
-
 /-! ## A005207.P8144849618400838445
 
 `A060312(A004271(n+1))`
@@ -1001,29 +979,6 @@ namespace A005207
 /-- `A060312(A004278(n+1))` -/
 def P349764796559586576.Spec : Prop :=
   ∀ n, P349764796559586576.a n = A005207 n
-
-end A005207
-
-/-! ## A005207.P18098440935850488319
-
-`A102526(A058992(n+1))`
--/
-
-namespace A005207.P18098440935850488319
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102526 (A058992 (n + 1)).toNat
-
-end
-
-end A005207.P18098440935850488319
-
-namespace A005207
-
-/-- `A102526(A058992(n+1))` -/
-def P18098440935850488319.Spec : Prop :=
-  ∀ n, P18098440935850488319.a n = A005207 n
 
 end A005207
 
@@ -6251,12 +6206,6 @@ namespace A005238
 def P16896655742902478360.Spec : Prop :=
   ∀ n, P16896655742902478360.a n = A005238 (n + 1)
 
-theorem P16896655742902478360.correct : P16896655742902478360.Spec := by
-  intro n
-  simp only [A005238, Nat.add_sub_cancel, A005238.P16896655742902478360.a, A005238.P2704022991964426185.f1, A005238.P2704022991964426185.f2, A005238.P2704022991964426185.a, A075039, A075039.P15668940356083047975.f1, A075039.P15668940356083047975.f2, A075039.P15668940356083047975.a, A169834, A169834.P3285917251730372984.a, A171666, A171666.P5620257782220050246.f1, A171666.P5620257782220050246.f2, A171666.P5620257782220050246.a, A006073, A006073.P326677615052813534.f1, A006073.P326677615052813534.f3, A006073.P326677615052813534.f2, A006073.P326677615052813534.a, A073251, A073251.P16935436493994467128.f1, A073251.P16935436493994467128.f2, A073251.P16935436493994467128.a, A171665, A171665.P4832445183620559262.f1, A171665.P4832445183620559262.f2, A171665.P4832445183620559262.a, A005237, A005237.P9029700576997496255.f1, A005237.P9029700576997496255.a, A006049, A006049.P14504587564879316839.f1, A006049.P14504587564879316839.f2, A006049.P14504587564879316839.a, A121495, A121495.P8991942477691651037.f1, A121495.P8991942477691651037.f2, A121495.P8991942477691651037.a, A357077, A357077.P18209968260014703734.f1, A357077.P18209968260014703734.f2, A357077.P18209968260014703734.a, A001221, A001221.P10258181745752134128.a, A033942, A033942.P4752248338100259006.f1, A033942.P4752248338100259006.f2, A033942.P4752248338100259006.a, A120944, A120944.P15601852327349088346.f1, A120944.P15601852327349088346.f2, A120944.P15601852327349088346.a, A140128, A140128.P9211484001941945419.f1, A140128.P9211484001941945419.f3, A140128.P9211484001941945419.f2, A140128.P9211484001941945419.a, A361022, A361022.P13909982394743935794.f1, A361022.P13909982394743935794.f2, A361022.P13909982394743935794.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A005238
 
 /-! ## A005238.P11707998169151342266
@@ -6787,7 +6736,7 @@ end A005238
 /-!
 # A005239: Irregular triangle of Section I numbers. Row n contains numbers k with 2^n < k < 2^(n+1) and phi^n(k) = 2, where phi^n means n iterations of Euler's totient function.
 
-The programs for A005239, the canonical program `A005239.P866751852362025790` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005239 has offset 1).
+The programs for A005239, the canonical program `A005239.P866751852362025790` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005239 has offset 1).
 
 The definition of A005239 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 305 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6796,7 +6745,7 @@ The definition of A005239 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A003434(A029579(n)), A070939(n)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A005239
@@ -12269,7 +12218,7 @@ end
 end A005269.P16360407285688784184
 
 /-!
-# A005270: Number of sequences s of length n with s[1]=1, s[2]=1, s[j-1]=3.
+# A005270: Number of sequences s of length n with s[1]=1, s[2]=1, s[j-1]<s[j]<=s[j-2]+s[j-1] for j>=3.
 
 The programs for A005270, there is no canonical definition to state claims against.
 -/
@@ -12445,7 +12394,7 @@ end A005276.P13324092643135234890
 /-!
 # A005277: Nontotients: even numbers k such that phi(m) = k has no solution.
 
-The programs for A005277, the canonical program `A005277.P10634562769707838481` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005277 has offset 1).
+The programs for A005277, the canonical program `A005277.P10634562769707838481` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005277 has offset 1).
 
 The definition of A005277 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12477,7 +12426,7 @@ end A005277
 
 `eq[1, A355451(n+1)]+1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A005277

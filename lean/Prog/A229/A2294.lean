@@ -37,6 +37,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -45,6 +46,7 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
@@ -59,8 +61,6 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1731,7 +1731,7 @@ end A229422
 /-!
 # A229423: Number of n X 3 0..2 arrays with horizontal differences mod 3 never 1, vertical differences mod 3 never -1, rows lexicographically nondecreasing, and columns lexicographically nonincreasing.
 
-The programs for A229423, the canonical program `A229423.P15058870928533988016` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229423 has offset 1).
+The programs for A229423, the canonical program `A229423.P15058870928533988016` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229423 has offset 1).
 
 The definition of A229423 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1740,7 +1740,7 @@ The definition of A229423 is `conjectured`: the Lean definition is a formula tha
 
 `A252815(n+1)+A062748(n)+1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A229423
@@ -6059,7 +6059,7 @@ end A229472
 /-!
 # A229473: Number of defective 4-colorings of an n X 2 0..3 array connected horizontally, antidiagonally and vertically with exactly one mistake, and colors introduced in row-major 0..3 order.
 
-The programs for A229473, the canonical program `A229473.P15385143365646390287` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229473 has offset 1).
+The programs for A229473, the canonical program `A229473.P15385143365646390287` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229473 has offset 1).
 
 The definition of A229473 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 163 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6114,7 +6114,7 @@ end A229473
 
 `A133086(A004277(n)-1)+A002699(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A229473
@@ -7989,7 +7989,7 @@ end A229494.P6689955731209556636
 /-!
 # A229496: Primes p of the form prime(n+1)^2-prime(n)^2+1.
 
-The programs for A229496, the canonical program `A229496.P8914308033381578582` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229496 has offset 1).
+The programs for A229496, the canonical program `A229496.P8914308033381578582` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229496 has offset 1).
 
 The definition of A229496 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 567 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7998,7 +7998,7 @@ The definition of A229496 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A069482(n+1)+1]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A229496

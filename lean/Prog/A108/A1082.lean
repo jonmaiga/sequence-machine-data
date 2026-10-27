@@ -8,6 +8,7 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -41,8 +42,9 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -54,9 +56,9 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -66,7 +68,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3028,7 +3029,7 @@ end A108219.P3573926705176111564
 /-!
 # A108221: Primes of the form ceiling(sqrt(prime(n))).
 
-The programs for A108221, the canonical program `A108221.P9472332214346116562` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108221 has offset 1).
+The programs for A108221, the canonical program `A108221.P9472332214346116562` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108221 has offset 1).
 
 The definition of A108221 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A108222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3037,7 +3038,7 @@ The definition of A108221 is `conditional`: the Lean definition is an OEIS formu
 
 `ceil(sqrt(A108222(n+1)))`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A108221
@@ -3312,7 +3313,7 @@ end A108221
 /-!
 # A108222: Primes p such that ceiling(sqrt(p)) = prime.
 
-The programs for A108222, the canonical program `A108222.P17402844413063193059` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108222 has offset 1).
+The programs for A108222, the canonical program `A108222.P17402844413063193059` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108222 has offset 1).
 
 The definition of A108222 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 270 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3408,7 +3409,7 @@ end A108222
 
 `eq[A005171(n+1)+1, A010051(A075119(n+1)+1)]+1`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A108222
@@ -4408,7 +4409,7 @@ def P1705649048448721354.Spec : Prop :=
 end A108229
 
 /-!
-# A108230: a(1) = 0, a(n) = order of prime A088387(n).
+# A108230: a(1) = 0, a(n) = prime index of A088387(n).
 
 The programs for A108230, there is no canonical definition to state claims against.
 -/

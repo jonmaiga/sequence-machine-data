@@ -35,33 +35,33 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2291,7 +2291,7 @@ end
 end A247047.P2958290881306530963
 
 /-!
-# A247049: Rectangular array read upwards by columns: T = T(n,k) = number of paths from (0,0) to (n,k), where 0 >= k <= 2, consisting of segments given by the vectors (1,1), (1,2), (1,-1).
+# A247049: Rectangular array read upwards by columns: T = T(n,k) = number of paths from (0,0) to (n,k), where 0 <= k <= 2, consisting of segments given by the vectors (1,1), (1,2), (1,-1).
 
 The programs for A247049, the canonical program `A247049.P13080191214481174710` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247049 has offset 0).
 
@@ -2528,7 +2528,7 @@ def P12758289627392505615.Spec : Prop :=
 end A247049
 
 /-!
-# A247050: Rectangular array read upwards by columns: T = T(n,k) = number of paths from (0,1) to (n,k), where 0 >= k <= 2, consisting of segments given by the vectors (,1,1), (1,2), (1,-1).
+# A247050: Rectangular array read upwards by columns: T = T(n,k) = number of paths from (0,1) to (n,k), where 0 <= k <= 2, consisting of segments given by the vectors (1,1), (1,2), (1,-1).
 
 The programs for A247050, the canonical program `A247050.P18232162876544826186` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247050 has offset 0).
 
@@ -6370,7 +6370,7 @@ end A247073.P6250135915111209240
 /-!
 # A247074: a(n) = phi(n)/(Product_{primes p dividing n } gcd(p - 1, n - 1)).
 
-The programs for A247074, the canonical program `A247074.P1287193648648202640` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247074 has offset 1).
+The programs for A247074, the canonical program `A247074.P1287193648648202640` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247074 has offset 1).
 
 The definition of A247074 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A063994, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6379,7 +6379,7 @@ The definition of A247074 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(n+1)/A063994(n+1)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A247074
@@ -7046,7 +7046,7 @@ end
 end A247081.P379716374225447391
 
 /-!
-# A247082: E.g.f.: (8 - 7*cosh(x)) / (13 - 12*cosh(x)).
+# A247082: Expansion of e.g.f. (8 - 7*cosh(x)) / (13 - 12*cosh(x)).
 
 The programs for A247082, there is no canonical definition to state claims against.
 -/
@@ -7881,7 +7881,7 @@ end
 end A247094.P12339016417184069777
 
 /-!
-# A247096: Numbers n such that (n^2 - 2) and (n^2 + 2) are not squarefree.
+# A247096: Numbers k such that (k^2 - 2) and (k^2 + 2) are not squarefree.
 
 The programs for A247096, there is no canonical definition to state claims against.
 -/

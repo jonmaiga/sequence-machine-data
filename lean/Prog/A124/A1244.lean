@@ -50,9 +50,11 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C007
@@ -61,9 +63,11 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
@@ -71,8 +75,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1046,7 +1048,7 @@ end
 end A124405.P4241952969104615709
 
 /-!
-# A124407: For n >= 1, 1 = Sum_{n/2<=k
+# A124407: For n >= 1, 1 = Sum_{n/2<=k<n, gcd(k,n)=1} a(k).
 
 The programs for A124407, there is no canonical definition to state claims against.
 -/
@@ -3007,7 +3009,7 @@ end A124427.P12303330311558795239
 /-!
 # A124428: Triangle, read by rows: T(n,k) = binomial(floor(n/2),k)*binomial(floor((n+1)/2),k).
 
-The programs for A124428, the canonical program `A124428.P14380578597492988547` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124428 has offset 0).
+The programs for A124428, the canonical program `A124428.P14380578597492988547` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124428 has offset 0).
 
 The definition of A124428 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9901 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3016,7 +3018,7 @@ The definition of A124428 is `conjectured`: the Lean definition is a formula tha
 
 `A152198(comp[(n+1)²])*A152198(n)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A124428
@@ -4352,7 +4354,7 @@ end A124437
 /-!
 # A124438: Numbers that are not divisible by at least one of the (positive) exponents in their prime factorization.
 
-The programs for A124438, the canonical program `A124438.P3966376689597900397` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124438 has offset 1).
+The programs for A124438, the canonical program `A124438.P3966376689597900397` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124438 has offset 1).
 
 The definition of A124438 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7645 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4361,7 +4363,7 @@ The definition of A124438 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A136176(n+1), A001221(n+1)]+1`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A124438
@@ -9610,7 +9612,7 @@ end
 end A124489.P14270815773540098714
 
 /-!
-# A124490: Numbers n such that 2n-1, 4n-1, 6n-1, 8n-1, 10n-1, 12n-1 and 14n-1 are primes.
+# A124490: Numbers k such that 2k-1, 4k-1, 6k-1, 8k-1, 10k-1, 12k-1 and 14k-1 are primes.
 
 The programs for A124490, there is no canonical definition to state claims against.
 -/

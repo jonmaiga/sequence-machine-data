@@ -43,16 +43,18 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -72,8 +74,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -129,7 +129,7 @@ end A175002.P9300853618973141199
 /-!
 # A175004: Interspersion related to the Wythoff Array.
 
-The programs for A175004, the canonical program `A175004.P13038235216757040563` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175004 has offset 1).
+The programs for A175004, the canonical program `A175004.P13038235216757040563` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175004 has offset 1).
 
 The definition of A175004 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 530 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -138,7 +138,7 @@ The definition of A175004 is `conjectured`: the Lean definition is a formula tha
 
 `A035513(A066182(n+1)+1)-1`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A175004
@@ -11483,7 +11483,7 @@ end A175076.P12937849354057892583
 /-!
 # A175077: Final number reached by iterating r -> A049711(r) starting at r = n.
 
-The programs for A175077, the canonical program `A175077.P1987853210808797040` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175077 has offset 1).
+The programs for A175077, the canonical program `A175077.P1987853210808797040` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175077 has offset 1).
 
 The definition of A175077 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 106 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11492,7 +11492,7 @@ The definition of A175077 is `conjectured`: the Lean definition is a formula tha
 
 `a(A064722(n))` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A175077
@@ -11844,7 +11844,7 @@ end A175077
 /-!
 # A175078: Number of iterations of {r mod (max prime p < r)} needed to reach 1 or 2 starting at r = n.
 
-The programs for A175078, the canonical program `A175078.P8983791659663241691` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175078 has offset 1).
+The programs for A175078, the canonical program `A175078.P8983791659663241691` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A175078 has offset 1).
 
 The definition of A175078 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11853,7 +11853,7 @@ The definition of A175078 is `conjectured`: the Lean definition is a formula tha
 
 `a(A064722(n))+1` with `a(0)=0, a(1)=0`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A175078

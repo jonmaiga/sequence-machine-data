@@ -42,26 +42,28 @@ import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6142,7 +6144,7 @@ end A243288.P968161609179268504
 /-!
 # A243289: n minus the index of the greatest prime dividing n-th squarefree number: a(n) = n - A243290(n).
 
-The programs for A243289, the canonical program `A243289.P8731399377446764644` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243289 has offset 1).
+The programs for A243289, the canonical program `A243289.P8731399377446764644` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243289 has offset 1).
 
 The definition of A243289 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A243290, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6151,7 +6153,7 @@ The definition of A243289 is `conditional`: the Lean definition is an OEIS formu
 
 `n+1-A243290(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A243289
@@ -6209,12 +6211,6 @@ namespace A243289
 /-- `1-A061395(A005117(n+1))+n` -/
 def P13197920464399101861.Spec : Prop :=
   ∀ n, P13197920464399101861.a n = A243289 (n + 1)
-
-theorem P13197920464399101861.correct : P13197920464399101861.Spec := by
-  intro n
-  simp only [A243289, Nat.add_sub_cancel, A243289.P13197920464399101861.a, A243289.P8731399377446764644.a, A005117, A005117.P6531558222696957500.a, A061395, A061395.P8431317036300486107.a, A243290, A243290.P623710756399021785.a, A029837, A029837.P1050578713049589.a, A087207, A087207.P12536008426233777954.a, A161203, A161203.P4346863006830516735.f1, A161203.P4346863006830516735.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A055615, A055615.P8993130195977213181.a, A008683, A008683.P18254306604665478110.a, A297108, A297108.P15990807296291497671.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A243289
 
@@ -6414,7 +6410,7 @@ end A243289
 /-!
 # A243290: The index of the greatest prime dividing the n-th squarefree number: a(n) = A061395(A005117(n)).
 
-The programs for A243290, the canonical program `A243290.P623710756399021785` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243290 has offset 1).
+The programs for A243290, the canonical program `A243290.P623710756399021785` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243290 has offset 1).
 
 The definition of A243290 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005117, A061395, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6423,7 +6419,7 @@ The definition of A243290 is `conditional`: the Lean definition is an OEIS formu
 
 `A061395(A005117(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A243290
@@ -6458,12 +6454,6 @@ namespace A243290
 /-- `1-A243289(n+1)+n` -/
 def P11306935156957972967.Spec : Prop :=
   ∀ n, P11306935156957972967.a n = A243290 (n + 1)
-
-theorem P11306935156957972967.correct : P11306935156957972967.Spec := by
-  intro n
-  simp only [A243290, Nat.add_sub_cancel, A243290.P11306935156957972967.a, A243290.P623710756399021785.a, A005117, A005117.P6531558222696957500.a, A061395, A061395.P8431317036300486107.a, A243289, A243289.P8731399377446764644.a, A029837, A029837.P1050578713049589.a, A087207, A087207.P12536008426233777954.a, A161203, A161203.P4346863006830516735.f1, A161203.P4346863006830516735.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A055615, A055615.P8993130195977213181.a, A008683, A008683.P18254306604665478110.a, A297108, A297108.P15990807296291497671.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A243290
 
@@ -6582,12 +6572,6 @@ namespace A243290
 /-- `A061395(A243348(n+1)+1+n)` -/
 def P16729841016452630181.Spec : Prop :=
   ∀ n, P16729841016452630181.a n = A243290 (n + 1)
-
-theorem P16729841016452630181.correct : P16729841016452630181.Spec := by
-  intro n
-  simp only [A243290, Nat.add_sub_cancel, A243290.P16729841016452630181.a, A243290.P623710756399021785.a, A005117, A005117.P6531558222696957500.a, A061395, A061395.P8431317036300486107.a, A243348, A243348.P5579662287376898014.a, A029837, A029837.P1050578713049589.a, A087207, A087207.P12536008426233777954.a, A161203, A161203.P4346863006830516735.f1, A161203.P4346863006830516735.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A055615, A055615.P8993130195977213181.a, A008683, A008683.P18254306604665478110.a, A297108, A297108.P15990807296291497671.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A243290
 

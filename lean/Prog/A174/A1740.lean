@@ -47,16 +47,19 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -65,13 +68,12 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5889,7 +5891,7 @@ end A174034.P7739940424750624391
 /-!
 # A174035: Triangle read by rows: T(n,m) = binomial(n, m) + floor(Eulerian(n + 1, m)/2).
 
-The programs for A174035, the canonical program `A174035.P9243138014454562383` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174035 has offset 0).
+The programs for A174035, the canonical program `A174035.P9243138014454562383` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174035 has offset 0).
 
 The definition of A174035 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2516 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5898,7 +5900,7 @@ The definition of A174035 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A141689(n+1)+A007318(n)/2)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A174035
@@ -7549,7 +7551,7 @@ end A174045.P16562500050910812032
 /-!
 # A174047: Numbers k such that exactly one of 2*k-1 and 2*k+1 is prime.
 
-The programs for A174047, the canonical program `A174047.P2449345490950928052` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174047 has offset 1).
+The programs for A174047, the canonical program `A174047.P2449345490950928052` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174047 has offset 1).
 
 The definition of A174047 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7588,7 +7590,7 @@ end A174047
 
 `record[(n+1)*xor(A101264(n+1), A101264(n))]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A174047
@@ -11093,16 +11095,16 @@ end A174085.P9767732606134649010
 /-!
 # A174088: Number of pairs (i,j) such that i*j == 0 (mod k), 0 <= i <= j < k.
 
-The programs for A174088, the canonical program `A174088.P3336557888488504044` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174088 has offset 1).
+The programs for A174088, the canonical program `A174088.P3336557888488504044` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174088 has offset 1).
 
-The definition of A174088 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A018804, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A174088 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000188, A018804, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A174088.P3336557888488504044
 
 `(A018804(n+1)+A000188(n+1))/2`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A174088

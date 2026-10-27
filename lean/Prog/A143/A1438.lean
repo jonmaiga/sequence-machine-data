@@ -42,12 +42,11 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
@@ -56,11 +55,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -73,9 +73,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1749,7 +1746,7 @@ end
 end A143810.P17902959440269617227
 
 /-!
-# A143811: Number of numbers k
+# A143811: Number of numbers k<p such that k^(p-1)-1 is divisible by p^2, p = prime(n).
 
 The programs for A143811, there is no canonical definition to state claims against.
 -/
@@ -1914,7 +1911,7 @@ end
 end A143813.P14834477079840479738
 
 /-!
-# A143814: Triangle T(n,m) read along rows: T(n,m) = n^2 - (m+1)^2 for 1<=m
+# A143814: Triangle T(n,m) read along rows: T(n,m) = n^2 - (m+1)^2 for 1<=m<n-1, T(n,n-1) = n^2-1.
 
 The programs for A143814, the canonical program `A143814.P4129932359816056538` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143814 has offset 2).
 
@@ -2455,21 +2452,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A143818.P3755279257388347667
-
-/-! ## A143818.P6867563583503064243
-
-`A143816(n)+A143817(n)*A339792(A283711(n+1))`
--/
-
-namespace A143818.P6867563583503064243
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A143816 n + A143817 n * A339792 (A283711 (n + 1)).toNat
-
-end
-
-end A143818.P6867563583503064243
 
 /-! ## A143818.P14179711177457062624
 
@@ -11336,7 +11318,7 @@ end A143866.P4299433822520566115
 /-!
 # A143869: An integer k is called regular (mod n) if there is an integer x such that k^2 x == k (mod n). Then these numbers are the sum of regular integers k (mod n) such that 1 <= k <= n for n=1,2,... .
 
-The programs for A143869, the canonical program `A143869.P7252286459323011956` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143869 has offset 1).
+The programs for A143869, the canonical program `A143869.P7252286459323011956` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143869 has offset 1).
 
 The definition of A143869 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A055653, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11345,7 +11327,7 @@ The definition of A143869 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+1)*(A055653(n+1)+1)/2`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A143869

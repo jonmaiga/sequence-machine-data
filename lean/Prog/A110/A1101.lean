@@ -51,12 +51,15 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -65,11 +68,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2053,7 +2056,7 @@ end A110125.P16548420966321497923
 /-!
 # A110127: Number of EE's crossing the line y = x (i.e., two consecutive E steps from the line y = x+1 to the line y = x-1) in all Delannoy paths of length n.
 
-The programs for A110127, the canonical program `A110127.P5274012538628892863` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110127 has offset 0).
+The programs for A110127, the canonical program `A110127.P5274012538628892863` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110127 has offset 0).
 
 The definition of A110127 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 132 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2085,7 +2088,7 @@ end A110127
 
 `A001109(n)-A002002(n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A110127
@@ -2300,7 +2303,7 @@ def P17527555964622343660.Spec : Prop :=
 end A110127
 
 /-!
-# A110128: Number of permutations p of 1,2,...,n satisfying |p(i+2)-p(i)| not equal to 2 for all 0
+# A110128: Number of permutations p of 1,2,...,n satisfying |p(i+2)-p(i)| not equal to 2 for all 0<i<n-1.
 
 The programs for A110128, there is no canonical definition to state claims against.
 -/
@@ -5291,7 +5294,7 @@ end A110156.P9062185877382445846
 /-!
 # A110157: a(n) = a(rad(n) - 1) + 1, where rad(n) is the squarefree kernel of n, rad=A007947.
 
-The programs for A110157, the canonical program `A110157.P10802214154555131762` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110157 has offset 0).
+The programs for A110157, the canonical program `A110157.P10802214154555131762` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110157 has offset 0).
 
 The definition of A110157 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(A007947(n)-1)+1` (program `A110157.P10802214154555131762`, by `A110157.P10802214154555131762.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5329,7 +5332,7 @@ end A110157
 
 `a(A007947(n)-1)+1` with `a(0)=0`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A110157
@@ -5921,7 +5924,7 @@ end A110161
 /-!
 # A110162: Riordan array ((1-x)/(1+x), x/(1+x)^2).
 
-The programs for A110162, the canonical program `A110162.P15690801050727080128` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110162 has offset 0).
+The programs for A110162, the canonical program `A110162.P15690801050727080128` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110162 has offset 0).
 
 The definition of A110162 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6183,7 +6186,7 @@ end A110162
 
 `A028326(n)/A029635(n)*A129818(n)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A110162
@@ -7235,7 +7238,7 @@ end A110169
 /-!
 # A110170: First differences of the central Delannoy numbers (A001850).
 
-The programs for A110170, the canonical program `A110170.P5706490004854284683` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110170 has offset 0).
+The programs for A110170, the canonical program `A110170.P5706490004854284683` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110170 has offset 0).
 
 The definition of A110170 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 133 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7469,7 +7472,7 @@ end A110170
 
 `A000007(n)+2*A002002(n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A110170
@@ -7700,7 +7703,7 @@ end A110170
 /-!
 # A110171: Triangle read by rows: T(n,k) (0 <= k <= n) is the number of Delannoy paths of length n that start with exactly k (0,1) steps (or, equivalently, with exactly k (1,0) steps).
 
-The programs for A110171, the canonical program `A110171.P161833235087680388` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110171 has offset 0).
+The programs for A110171, the canonical program `A110171.P161833235087680388` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110171 has offset 0).
 
 The definition of A110171 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2556 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7709,7 +7712,7 @@ The definition of A110171 is `conjectured`: the Lean definition is a formula tha
 
 `A266213(A245300(A061579(n)))`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A110171
@@ -7859,7 +7862,7 @@ end
 end A110172.P5075855442588899360
 
 /-!
-# A110174: Number of solutions 0
+# A110174: Number of solutions 0<k<n to the equation phi(n) = phi(k) + phi(n-k), where phi is Euler's totient function.
 
 The programs for A110174, there is no canonical definition to state claims against.
 -/
@@ -7925,7 +7928,7 @@ end
 end A110174.P18308760464683173083
 
 /-!
-# A110177: Number of solutions 0
+# A110177: Number of solutions 0<k<n to the equation sigma(n) = sigma(k) + sigma(n-k), where sigma is the sum of divisors function.
 
 The programs for A110177, there is no canonical definition to state claims against.
 -/
@@ -9143,7 +9146,7 @@ end A110187
 /-!
 # A110188: 3-almost primes p * q * r not relatively prime to p+q+r.
 
-The programs for A110188, the canonical program `A110188.P16314448030047574102` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110188 has offset 1).
+The programs for A110188, the canonical program `A110188.P16314448030047574102` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110188 has offset 1).
 
 The definition of A110188 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3849 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9152,7 +9155,7 @@ The definition of A110188 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A014612(n+1), A370354(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A110188
@@ -9276,7 +9279,7 @@ end A110189.P16123695746664896385
 /-!
 # A110190: Number of (1,0)-steps on the lines y=0 and y=1 in all Schroeder paths of length 2n (a Schroeder path of length 2n is a path from (0,0) to (2n,0), consisting of steps U=(1,1), D=(1,-1) and H=(2,0) and never going below the x-axis).
 
-The programs for A110190, the canonical program `A110190.P6697669461290794768` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110190 has offset 0).
+The programs for A110190, the canonical program `A110190.P6697669461290794768` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110190 has offset 0).
 
 The definition of A110190 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 135 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9285,7 +9288,7 @@ The definition of A110190 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A106579(A027379(n))]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A110190
@@ -9614,7 +9617,7 @@ end A110194.P17296161539342016829
 /-!
 # A110195: a(n) = 11^((n^2-n)/2).
 
-The programs for A110195, the canonical program `A110195.P17809634770385540874` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110195 has offset 0).
+The programs for A110195, the canonical program `A110195.P17809634770385540874` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110195 has offset 0).
 
 The definition of A110195 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9648,7 +9651,7 @@ end A110195
 
 `A001020(A161680(n))`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A110195
@@ -10178,7 +10181,7 @@ end A110198.P18067148127703785603
 /-!
 # A110199: a(n) = Sum_{k=0..floor(n/2)} Catalan(k).
 
-The programs for A110199, the canonical program `A110199.P14169950119371139962` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110199 has offset 0).
+The programs for A110199, the canonical program `A110199.P14169950119371139962` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110199 has offset 0).
 
 The definition of A110199 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 344 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10213,7 +10216,7 @@ end A110199
 
 `A014137(floor(n/2))`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A110199

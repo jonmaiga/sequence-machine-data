@@ -29,13 +29,13 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C002
-import Seq.B003.C000
-import Seq.B003.C001
+import Seq.B002.C003
 import Seq.B003.C002
 import Seq.B004.C000
 import Seq.B004.C001
@@ -44,9 +44,8 @@ import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4389,21 +4388,6 @@ end
 
 end A252354.P903382407364075109
 
-/-! ## A252354.P1342135933375471244
-
-`A317097(n+1)+A165878(A036669(n))`
--/
-
-namespace A252354.P1342135933375471244
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A317097 (n + 1) + A165878 (A036669 n).toNat
-
-end
-
-end A252354.P1342135933375471244
-
 /-! ## A252354.P3255982610443037344
 
 `A317097(n+1)+A165878(A179006(n))`
@@ -5577,7 +5561,7 @@ end
 end A252371.P48127514581294399
 
 /-!
-# A252372: Characteristic function for A251726: a(n) = 1 if n > 1 and gpf(n) < spf(n)^2, otherwise 0; here spf(n) and gpf(n) (smallest and greatest prime factor of n) are sequences A020639(n) and A006530(n).
+# A252372: Characteristic function for A251726: a(n) = 1 if n > 1 and gpf(n) < lpf(n)^2, otherwise 0; here lpf(n) and gpf(n) (least and greatest prime factor of n) are sequences A020639(n) and A006530(n).
 
 The programs for A252372, there is no canonical definition to state claims against.
 -/
@@ -6027,7 +6011,7 @@ end
 end A252373.P9206825563263541617
 
 /-!
-# A252374: a(n) = exponent k for the smallest r such that r^k <= spf(n) and gpf(n) < r^(k+1), for some k >= 0, where spf and gpf (smallest and greatest prime factor of n) are given by A020639(n) and A006530(n).
+# A252374: a(n) = exponent k for the smallest r such that r^k <= lpf(n) and gpf(n) < r^(k+1), for some k >= 0, where lpf and gpf (least and greatest prime factor of n) are given by A020639(n) and A006530(n).
 
 The programs for A252374, there is no canonical definition to state claims against.
 -/
@@ -6108,7 +6092,7 @@ end
 end A252374.P9367946487906672959
 
 /-!
-# A252375: a(n) = smallest r such that r^k <= spf(n) and gpf(n) < r^(k+1), for some k >= 0, where spf and gpf (smallest and greatest prime factor of n) are given by A020639(n) and A006530(n).
+# A252375: a(n) = smallest r such that r^k <= lpf(n) and gpf(n) < r^(k+1), for some k >= 0, where lpf and gpf (least and greatest prime factor of n) are given by A020639(n) and A006530(n).
 
 The programs for A252375, there is no canonical definition to state claims against.
 -/

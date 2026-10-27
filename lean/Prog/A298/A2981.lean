@@ -40,24 +40,22 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
-import Seq.B006.C001
-import Seq.B008.C000
+import Seq.B005.C002
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
@@ -6925,7 +6923,7 @@ end A298184.P5764435106259581843
 /-!
 # A298185: Number of nX6 0..1 arrays with every element equal to 3, 5, 7 or 8 king-move adjacent elements, with upper left element zero.
 
-The programs for A298185, the canonical program `A298185.P5748684928581742112` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298185 has offset 1).
+The programs for A298185, the canonical program `A298185.P5748684928581742112` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298185 has offset 1).
 
 The definition of A298185 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 481 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6934,7 +6932,7 @@ The definition of A298185 is `conjectured`: the Lean definition is a formula tha
 
 `A003269(n)+A057427(n)*A157726(n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A298185

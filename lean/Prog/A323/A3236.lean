@@ -42,33 +42,39 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3046,7 +3052,7 @@ def P16547640725912917923.Spec : Prop :=
 end A323639
 
 /-!
-# A323640: Numbers m having at least one pair (x,y) of divisors with x
+# A323640: Numbers m having at least one pair (x,y) of divisors with x<y such that x+y is also a divisor of m but no proper divisor of m has this property.
 
 The programs for A323640, there is no canonical definition to state claims against.
 -/
@@ -5191,7 +5197,7 @@ end A323650
 /-!
 # A323651: Number of elements added at n-th stage to the toothpick structure of A323650.
 
-The programs for A323651, the canonical program `A323651.P5601353070125800456` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323651 has offset 1).
+The programs for A323651, the canonical program `A323651.P5601353070125800456` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323651 has offset 1).
 
 The definition of A323651 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5226,7 +5232,7 @@ end A323651
 
 `(n%2+1)*A147582(or(1, n))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A323651

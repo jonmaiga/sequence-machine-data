@@ -22,25 +22,26 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C004
-import Seq.B001.C005
-import Seq.B001.C007
+import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
+import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -88,7 +89,7 @@ end
 end A396600.P8944289067799115218
 
 /-!
-# A396607: Lexicographically earliest sequence of distinct nonegative integers whose binary values, when written on a square spiral, one bit per square, high order bits first, contain no pair of 1 bits that are diagonally adjacent.
+# A396607: Lexicographically earliest sequence of distinct nonnegative integers whose binary values, when written on a square spiral, one bit per square, high order bits first, contain no pair of 1 bits that are diagonally adjacent.
 
 The programs for A396607, there is no canonical definition to state claims against.
 -/
@@ -440,7 +441,7 @@ end A396633.P15188283068226841854
 /-!
 # A396637: Number of elements of geodesic length n in the braid group B_3.
 
-The programs for A396637, the canonical program `A396637.P18262143251193077548` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396637 has offset 0).
+The programs for A396637, the canonical program `A396637.P18262143251193077548` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396637 has offset 0).
 
 The definition of A396637 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 330 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -449,7 +450,7 @@ The definition of A396637 is `conjectured`: the Lean definition is a formula tha
 
 `A068293(n+1)-A168193(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A396637
@@ -599,7 +600,7 @@ end A396640.P18055120932106097806
 /-!
 # A396641: Centered hexagonal numbers h such that 7*h is also a centered hexagonal number.
 
-The programs for A396641, the canonical program `A396641.P2215949741411272717` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396641 has offset 1).
+The programs for A396641, the canonical program `A396641.P2215949741411272717` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396641 has offset 1).
 
 The definition of A396641 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -608,7 +609,7 @@ The definition of A396641 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(6*A253880(n+1)+1)/7`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A396641
@@ -1757,7 +1758,7 @@ end A396685.P12999569349515440281
 /-!
 # A396686: a(n) = floor(2*log_2(n)) + 2.
 
-The programs for A396686, the canonical program `A396686.P3676614447419960955` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396686 has offset 1).
+The programs for A396686, the canonical program `A396686.P3676614447419960955` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396686 has offset 1).
 
 The definition of A396686 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1791,7 +1792,7 @@ end A396686
 
 `A070939(2*(n+1)²)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A396686
@@ -1999,7 +2000,7 @@ end A396686
 /-!
 # A396689: Numbers k such that binomial(x + 4, 5) - binomial(x, 5) = k^2 for some integer x >= 5.
 
-The programs for A396689, the canonical program `A396689.P6792333059227703695` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396689 has offset 1).
+The programs for A396689, the canonical program `A396689.P6792333059227703695` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396689 has offset 1).
 
 The definition of A396689 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2008,7 +2009,7 @@ The definition of A396689 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A216073(n+2)*A080806(n+2)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A396689

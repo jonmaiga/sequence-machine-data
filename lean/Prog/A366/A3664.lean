@@ -31,11 +31,10 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
-import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
@@ -43,15 +42,16 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -62,9 +62,8 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -470,7 +469,7 @@ end A366411.P11910000262347704575
 /-!
 # A366413: Squarefree composite k such that the smallest nondivisor prime is less than the greatest prime factor, i.e., A053669(k) < A006530(k).
 
-The programs for A366413, the canonical program `A366413.P3991422571957207343` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366413 has offset 1).
+The programs for A366413, the canonical program `A366413.P3991422571957207343` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366413 has offset 1).
 
 The definition of A366413 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -479,7 +478,7 @@ The definition of A366413 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A024556(n+1), A073486(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A366413
@@ -2383,7 +2382,7 @@ end A366439
 /-!
 # A366440: The sum of divisors of the cubefree numbers (A004709).
 
-The programs for A366440, the canonical program `A366440.P8490838854557306201` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366440 has offset 1).
+The programs for A366440, the canonical program `A366440.P8490838854557306201` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366440 has offset 1).
 
 The definition of A366440 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004709, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2392,7 +2391,7 @@ The definition of A366440 is `conditional`: the Lean definition is an OEIS formu
 
 `A000203(A004709(n+1))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A366440
@@ -3536,7 +3535,7 @@ end A366444
 /-!
 # A366445: Triangle read by rows: T(n,k) = A023900(n/k)*phi(k) if k divides n, T(n,k) = 0 otherwise (n >= 1, 1 <= k <= n).
 
-The programs for A366445, the canonical program `A366445.P4284588940328719007` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366445 has offset 1).
+The programs for A366445, the canonical program `A366445.P4284588940328719007` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A366445 has offset 1).
 
 The definition of A366445 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3545,7 +3544,7 @@ The definition of A366445 is `conjectured`: the Lean definition is a formula tha
 
 `A054522(n+1)*A129691(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A366445

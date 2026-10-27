@@ -41,27 +41,30 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2083,7 +2086,7 @@ end
 end A212414.P4633638055177837621
 
 /-!
-# A212415: Number of (w,x,y,z) with all terms in {1,...,n} and w=y<=z.
+# A212415: Number of (w,x,y,z) with all terms in {1,...,n} and w<x>=y<=z.
 
 The programs for A212415, the canonical program `A212415.P18343313608320936492` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212415 has offset 0).
 
@@ -2646,7 +2649,7 @@ end
 end A212416.P4066903823912312838
 
 /-!
-# A212417: Size of the equivalence class of S_n containing the identity permutation under transformations of positionally adjacent elements of the form abc <--> acb <--> bac where a
+# A212417: Size of the equivalence class of S_n containing the identity permutation under transformations of positionally adjacent elements of the form abc <--> acb <--> bac where a<b<c.
 
 The programs for A212417, there is no canonical definition to state claims against.
 -/
@@ -2712,7 +2715,7 @@ end
 end A212417.P7315948458253091302
 
 /-!
-# A212418: Size of the equivalence class of S_n containing the identity permutation under transformations of positionally adjacent elements of the form abc <--> acb <--> cba where a
+# A212418: Size of the equivalence class of S_n containing the identity permutation under transformations of positionally adjacent elements of the form abc <--> acb <--> cba where a<b<c.
 
 The programs for A212418, there is no canonical definition to state claims against.
 -/
@@ -2766,7 +2769,7 @@ end
 end A212418.P10483188305189691458
 
 /-!
-# A212419: Size of the equivalence class of S_n containing the identity permutation under transformations of positionally adjacent elements of the form abc <--> acb <--> bac <--> cba, where a
+# A212419: Size of the equivalence class of S_n containing the identity permutation under transformations of positionally adjacent elements of the form abc <--> acb <--> bac <--> cba, where a<b<c.
 
 The programs for A212419, there is no canonical definition to state claims against.
 -/
@@ -5219,7 +5222,7 @@ end
 end A212431.P4220405612925243172
 
 /-!
-# A212432: Number of equivalence classes of S_n under transformations of positionally and numerically adjacent elements of the form abc <--> acb <--> cba where a
+# A212432: Number of equivalence classes of S_n under transformations of positionally and numerically adjacent elements of the form abc <--> acb <--> cba where a<b<c.
 
 The programs for A212432, there is no canonical definition to state claims against.
 -/
@@ -5270,7 +5273,7 @@ end
 end A212432.P17857509798060472335
 
 /-!
-# A212433: Number of equivalence classes of S_n under transformations of positionally and numerically adjacent elements of the form abc <--> acb <--> bac <--> cba, where a
+# A212433: Number of equivalence classes of S_n under transformations of positionally and numerically adjacent elements of the form abc <--> acb <--> bac <--> cba, where a<b<c.
 
 The programs for A212433, there is no canonical definition to state claims against.
 -/
@@ -6123,7 +6126,7 @@ end
 end A212440.P8574647039236166076
 
 /-!
-# A212441: Numbers with odd curling numbers of their binary representations, cf. A181935.
+# A212441: Numbers whose binary representations have odd curling numbers, cf. A181935.
 
 The programs for A212441, there is no canonical definition to state claims against.
 -/
@@ -9507,7 +9510,7 @@ end A212458
 /-!
 # A212459: a(n) = ceiling(2n*log(2n)).
 
-The programs for A212459, the canonical program `A212459.P26555317986704549` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212459 has offset 1).
+The programs for A212459, the canonical program `A212459.P26555317986704549` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212459 has offset 1).
 
 The definition of A212459 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9541,7 +9544,7 @@ end A212459
 
 `A050502(2*(n+1))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A212459
@@ -9746,7 +9749,7 @@ end A212459
 /-!
 # A212460: a(n) = ceiling(3n*log(3n)).
 
-The programs for A212460, the canonical program `A212460.P16391224027189866396` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212460 has offset 1).
+The programs for A212460, the canonical program `A212460.P16391224027189866396` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212460 has offset 1).
 
 The definition of A212460 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9780,7 +9783,7 @@ end A212460
 
 `A050502(3*(n+1))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A212460
@@ -9867,7 +9870,7 @@ end A212460
 /-!
 # A212461: a(n) = ceiling(4n*log(4n)).
 
-The programs for A212461, the canonical program `A212461.P17580356082621958318` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212461 has offset 1).
+The programs for A212461, the canonical program `A212461.P17580356082621958318` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212461 has offset 1).
 
 The definition of A212461 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9901,7 +9904,7 @@ end A212461
 
 `A050502(4*(n+1))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A212461
@@ -10083,7 +10086,7 @@ end A212461
 /-!
 # A212462: a(n) = ceiling(5n*log(5n)).
 
-The programs for A212462, the canonical program `A212462.P7359789239239952366` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212462 has offset 1).
+The programs for A212462, the canonical program `A212462.P7359789239239952366` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212462 has offset 1).
 
 The definition of A212462 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10117,7 +10120,7 @@ end A212462
 
 `A050502(5*(n+1))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A212462
@@ -10428,7 +10431,7 @@ end A212463
 /-!
 # A212464: a(n) = floor( Pi^(n/3) ).
 
-The programs for A212464, the canonical program `A212464.P8922990978344617064` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212464 has offset 1).
+The programs for A212464, the canonical program `A212464.P8922990978344617064` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212464 has offset 1).
 
 The definition of A212464 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 603 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10460,7 +10463,7 @@ end A212464
 
 `A212463(n+1)-1`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A212464
@@ -13193,7 +13196,7 @@ end A212495
 /-!
 # A212496: a(n) = Sum_{k=1..n} (-1)^(k-Omega(k)) with Omega(k) the total number of prime factors of k (counted with multiplicity).
 
-The programs for A212496, the canonical program `A212496.P12538457052188032369` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212496 has offset 1).
+The programs for A212496, the canonical program `A212496.P12538457052188032369` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212496 has offset 1).
 
 The definition of A212496 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13332,7 +13335,7 @@ end A212496
 
 `∑[1-A359770(n+1)-A359770(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A212496

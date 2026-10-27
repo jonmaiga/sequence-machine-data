@@ -39,15 +39,18 @@ import Seq.B001.C006
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -55,12 +58,12 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -111,7 +114,7 @@ end A383600.P13423505713192240898
 /-!
 # A383601: Expansion of 1/( (1-x) * (1-10*x)^2 )^(1/3).
 
-The programs for A383601, the canonical program `A383601.P257771129488146488` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383601 has offset 0).
+The programs for A383601, the canonical program `A383601.P257771129488146488` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383601 has offset 0).
 
 The definition of A383601 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -120,7 +123,7 @@ The definition of A383601 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A377233(n)]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A383601
@@ -1434,7 +1437,7 @@ end A383638.P6006346263891765464
 /-!
 # A383641: a(n) is the difference between the sum of even composites and the sum of the odd composites in the first n positive integers.
 
-The programs for A383641, the canonical program `A383641.P12370481159656482094` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383641 has offset 1).
+The programs for A383641, the canonical program `A383641.P12370481159656482094` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383641 has offset 1).
 
 The definition of A383641 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1443,7 +1446,7 @@ The definition of A383641 is `conjectured`: the Lean definition is a formula tha
 
 `∑[(A010051(n+1)-1)*A131738(n)]`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A383641
@@ -1963,7 +1966,7 @@ end A383656.P16973692299745242393
 /-!
 # A383657: Numerator of Dirichlet g.f.: Sum_{n>=1} a(n)/n^s = zeta(s)^(3/2).
 
-The programs for A383657, the canonical program `A383657.P13992406352732443113` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383657 has offset 1).
+The programs for A383657, the canonical program `A383657.P13992406352732443113` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383657 has offset 1).
 
 The definition of A383657 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1972,7 +1975,7 @@ The definition of A383657 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[n+1, A001803(#)]`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A383657
@@ -2398,7 +2401,7 @@ end A383666
 /-!
 # A383667: Binary words beginning with 1 in which no binary digit occurs only once.
 
-The programs for A383667, the canonical program `A383667.P532673511746496279` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383667 has offset 1).
+The programs for A383667, the canonical program `A383667.P532673511746496279` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383667 has offset 1).
 
 The definition of A383667 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2407,7 +2410,7 @@ The definition of A383667 is `conjectured`: the Lean definition is a formula tha
 
 `A007088(A383666(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A383667
@@ -2974,7 +2977,7 @@ end A383669.P3957292724726596409
 /-!
 # A383670: Limiting word, as a sequence, obtained by prefixing with 0 the limiting sequence of s(n) defined by s(0) = 0, s(1) = 12, s(n) = the concatenation of s(n - 1) and s(n - 2).
 
-The programs for A383670, the canonical program `A383670.P12936080934003293389` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383670 has offset 1).
+The programs for A383670, the canonical program `A383670.P12936080934003293389` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383670 has offset 1).
 
 The definition of A383670 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3029,7 +3032,7 @@ end A383670
 
 `A188432(n+1)+A188432(n+1)+A003849(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A383670

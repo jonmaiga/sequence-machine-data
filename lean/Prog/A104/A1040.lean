@@ -46,20 +46,21 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -68,8 +69,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -103,7 +102,7 @@ set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
 
 /-!
-# A104001: Triangle T(n,k) read by rows: number of permutations in S_n avoiding all k-length patterns starting with fixed m, 2
+# A104001: Triangle T(n,k) read by rows: number of permutations in S_n avoiding all k-length patterns starting with fixed m, 2<k<=n, 1<=m<=k.
 
 The programs for A104001, the canonical program `A104001.P9549142774925648266` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104001 has offset 3).
 
@@ -2824,7 +2823,7 @@ end A104010
 /-!
 # A104011: Number of prime factors (with multiplicity) of centered dodecahedral numbers (A005904).
 
-The programs for A104011, the canonical program `A104011.P4122418357011977733` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104011 has offset 0).
+The programs for A104011, the canonical program `A104011.P4122418357011977733` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104011 has offset 0).
 
 The definition of A104011 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2833,7 +2832,7 @@ The definition of A104011 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222((2*n+1)*(5*n²+5*n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A104011
@@ -4269,7 +4268,7 @@ end
 end A104023.P14062315707267433388
 
 /-!
-# A104025: Least number k that can be written as k^2 * j with 0 < j <= k and gcd(k, j) = 1 in n ways.
+# A104025: Least number k that can be written as k^2 * j with 0 < j <= k and gcd(k, j) = 1 in exactly n ways.
 
 The programs for A104025, there is no canonical definition to state claims against.
 -/
@@ -4862,7 +4861,7 @@ end
 end A104034.P5552888439524726720
 
 /-!
-# A104035: Triangle T(n,k), 0 <= k <= n, read by rows, defined by T(0,0) = 1; T(0,k) = 0 if k>0 or if k
+# A104035: Triangle T(n,k), 0 <= k <= n, read by rows, defined by T(0,0) = 1; T(0,k) = 0 if k>0 or if k<0; T(n,k) = k*T(n-1,k-1) + (k+1)*T(n-1,k+1).
 
 The programs for A104035, the canonical program `A104035.P7784052156440195014` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104035 has offset 0).
 
@@ -5370,7 +5369,7 @@ end A104037
 /-!
 # A104039: Number of primitive roots modulo prime(n)^2, where prime(n) is n-th prime.
 
-The programs for A104039, the canonical program `A104039.P17593394278328231830` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104039 has offset 1).
+The programs for A104039, the canonical program `A104039.P17593394278328231830` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104039 has offset 1).
 
 The definition of A104039 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008330, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5379,7 +5378,7 @@ The definition of A104039 is `conditional`: the Lean definition is an OEIS formu
 
 `A006093(n+1)*A008330(n+1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A104039

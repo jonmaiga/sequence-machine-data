@@ -41,12 +41,13 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -58,6 +59,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -71,7 +73,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3979,7 +3980,7 @@ end A109123
 /-!
 # A109127: Expansion of q^(-1/8) * (eta(q^3) - eta(q)^3) / 3 in powers of q.
 
-The programs for A109127, the canonical program `A109127.P1890116283645381104` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109127 has offset 1).
+The programs for A109127, the canonical program `A109127.P1890116283645381104` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109127 has offset 1).
 
 The definition of A109127 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3988,7 +3989,7 @@ The definition of A109127 is `conjectured`: the Lean definition is a formula tha
 
 `round(-(A010816(n+1)/3))`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A109127
@@ -4287,7 +4288,7 @@ def P13242968244082866381.Spec : Prop :=
 end A109127
 
 /-!
-# A109128: Triangle read by rows: T(n,k) = T(n-1,k-1) + T(n-1,k) + 1 for 0
+# A109128: Triangle read by rows: T(n,k) = T(n-1,k-1) + T(n-1,k) + 1 for 0<k<n, T(n,0) = T(n,n) = 1.
 
 The programs for A109128, the canonical program `A109128.P7867596798531783597` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109128 has offset 0).
 
@@ -5014,7 +5015,7 @@ end A109129
 /-!
 # A109130: Magic constant of smallest order-n perfect magic cube.
 
-The programs for A109130, the canonical program `A109130.P2980007611023544684` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109130 has offset 1).
+The programs for A109130, the canonical program `A109130.P2980007611023544684` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109130 has offset 1).
 
 The definition of A109130 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5023,7 +5024,7 @@ The definition of A109130 is `conjectured`: the Lean definition is a formula tha
 
 `A027441((n+1)*A185114(n))`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A109130
@@ -5136,7 +5137,7 @@ end A109130
 /-!
 # A109133: Numbers k such that (sum of digits)*(number of digits) + 1 is prime.
 
-The programs for A109133, the canonical program `A109133.P7922993941714005852` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109133 has offset 1).
+The programs for A109133, the canonical program `A109133.P7922993941714005852` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109133 has offset 1).
 
 The definition of A109133 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4048 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5145,7 +5146,7 @@ The definition of A109133 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A001222(A307629(n)+A007953(n)+1)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A109133
@@ -5215,12 +5216,6 @@ namespace A109133
 /-- `eq[1, A001222(A007953(n)*A055642(n)+1)]` -/
 def P11692495944724530441.Spec : Prop :=
   ∀ n, (P11692495944724530441.a n : ℤ) = A109133 (n + 1)
-
-theorem P11692495944724530441.correct : P11692495944724530441.Spec := by
-  intro n
-  simp only [A109133, Nat.add_sub_cancel, A109133.P11692495944724530441.f1, A109133.P11692495944724530441.f2, A109133.P11692495944724530441.a, A109133.P7922993941714005852.f1, A109133.P7922993941714005852.f2, A109133.P7922993941714005852.a, A001222, A001222.P11318177267732088261.a, A007953, A007953.P3472751987379697826.a, A055642, A055642.P2478179801723442865.a, A307629, A307629.P2074332402500536225.a, A054899, A054899.P10770181254942084517.a, A061395, A061395.P8431317036300486107.a, A122111, A122111.P18124015185857335041.a, A196563, A196563.P12192156625480906411.a, A196564, A196564.P8945567313368503187.a, A029837, A029837.P1050578713049589.a, A064989, A064989.P13349672914146769936.a, A087207, A087207.P12536008426233777954.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A008578, A008578.P3639467937083264764.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A052126, A052126.P1944428405920482243.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A109133
 

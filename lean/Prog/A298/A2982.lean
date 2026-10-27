@@ -41,24 +41,25 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1327,7 +1328,7 @@ end A298214.P7627915876245745367
 /-!
 # A298215: Number of nX2 0..1 arrays with every element equal to 0, 1, 2, 4 or 5 king-move adjacent elements, with upper left element zero.
 
-The programs for A298215, the canonical program `A298215.P6096607446506039463` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298215 has offset 1).
+The programs for A298215, the canonical program `A298215.P6096607446506039463` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298215 has offset 1).
 
 The definition of A298215 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 264 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1336,7 +1337,7 @@ The definition of A298215 is `conjectured`: the Lean definition is a formula tha
 
 `A304349(n+1)+and(-2, 2^n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A298215
@@ -4302,7 +4303,7 @@ end A298249.P10243572036759105457
 /-!
 # A298252: Even integers n such that n-3 is prime.
 
-The programs for A298252, the canonical program `A298252.P859259455876682479` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298252 has offset 1).
+The programs for A298252, the canonical program `A298252.P859259455876682479` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298252 has offset 1).
 
 The definition of A298252 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4311,7 +4312,7 @@ The definition of A298252 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A113935(n+2)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A298252

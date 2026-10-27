@@ -44,26 +44,24 @@ import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4609,7 +4607,7 @@ end A257170
 /-!
 # A257171: Sum of numbers on n-th segment of Ulam's spiral.
 
-The programs for A257171, the canonical program `A257171.P14186307090277198213` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257171 has offset 0).
+The programs for A257171, the canonical program `A257171.P14186307090277198213` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257171 has offset 0).
 
 The definition of A257171 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 345 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4618,7 +4616,7 @@ The definition of A257171 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A000217(A267531(n)-A004275(n))]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A257171
@@ -7660,7 +7658,7 @@ end A257198
 /-!
 # A257199: a(n) = n*(n+1)*(n+2)*(n^2+2*n+17)/120.
 
-The programs for A257199, the canonical program `A257199.P10199747995127377042` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257199 has offset 1).
+The programs for A257199, the canonical program `A257199.P10199747995127377042` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257199 has offset 1).
 
 The definition of A257199 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(n+1)*(n+2)*(n+3)*((n+1)²+2*(n+1)+17)/120` (program `A257199.P37273670153753991`, by `A257199.P37273670153753991.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7818,7 +7816,7 @@ end A257199
 
 `A000292(n+1)+C(n+4, 5)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A257199

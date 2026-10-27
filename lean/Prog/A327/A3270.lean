@@ -39,21 +39,21 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
-import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -65,9 +65,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2347,7 +2344,7 @@ end A327029.P11354104304629474616
 /-!
 # A327030: a(n) = Sum_{d|n} phi(d)*(n/d)! for n > 0, a(0) = 0.
 
-The programs for A327030, the canonical program `A327030.P6329466770021811722` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327030 has offset 0).
+The programs for A327030, the canonical program `A327030.P6329466770021811722` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327030 has offset 0).
 
 The definition of A327030 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2356,7 +2353,7 @@ The definition of A327030 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n, A000010(#)*(n/#)!]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A327030
@@ -7190,7 +7187,7 @@ end A327094.P14074897500986472678
 /-!
 # A327095: Expansion of Sum_{k>=1} k * x^k * (1 - x^k + x^(2*k)) / (1 - x^(4*k)).
 
-The programs for A327095, the canonical program `A327095.P17468697000068290047` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327095 has offset 1).
+The programs for A327095, the canonical program `A327095.P17468697000068290047` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327095 has offset 1).
 
 The definition of A327095 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7199,7 +7196,7 @@ The definition of A327095 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A316631(#)]`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A327095
@@ -7675,7 +7672,7 @@ end A327095
 /-!
 # A327096: Expansion of Sum_{k>=1} sigma(k) * x^k / (1 - x^(2*k)), where sigma = A000203.
 
-The programs for A327096, the canonical program `A327096.P11519137177335428529` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327096 has offset 1).
+The programs for A327096, the canonical program `A327096.P11519137177335428529` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A327096 has offset 1).
 
 The definition of A327096 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007429, A288417, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7684,7 +7681,7 @@ The definition of A327096 is `conditional`: the Lean definition is an OEIS formu
 
 `(A007429(n+1)+A288417(n+1))/2`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A327096

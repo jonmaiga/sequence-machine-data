@@ -49,26 +49,28 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -77,8 +79,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -9509,7 +9509,7 @@ end A155058
 /-!
 # A155067: First differences of A031368.
 
-The programs for A155067, the canonical program `A155067.P7765073929489632747` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155067 has offset 1).
+The programs for A155067, the canonical program `A155067.P7765073929489632747` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155067 has offset 1).
 
 The definition of A155067 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9570,7 +9570,7 @@ end A155067
 
 `A031131(2*n+1)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A155067
@@ -10463,7 +10463,7 @@ end A155069
 /-!
 # A155070: Primes with nonprime largest digit.
 
-The programs for A155070, the canonical program `A155070.P18385671949588106025` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155070 has offset 1).
+The programs for A155070, the canonical program `A155070.P18385671949588106025` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155070 has offset 1).
 
 The definition of A155070 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 860 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10472,7 +10472,7 @@ The definition of A155070 is `conjectured`: the Lean definition is a formula tha
 
 `p?[(n+1)*A049076(A262401(n+1))]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A155070
@@ -10539,7 +10539,7 @@ end A155070
 /-!
 # A155071: Primes with two odd digits.
 
-The programs for A155071, the canonical program `A155071.P6054164492315748015` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155071 has offset 1).
+The programs for A155071, the canonical program `A155071.P6054164492315748015` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155071 has offset 1).
 
 The definition of A155071 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10548,7 +10548,7 @@ The definition of A155071 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A294601(n+2)+1]`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A155071

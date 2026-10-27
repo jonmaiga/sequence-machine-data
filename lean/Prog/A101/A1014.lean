@@ -49,19 +49,24 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -71,7 +76,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5740,12 +5744,6 @@ namespace A101436
 def P2841115426138498948.Spec : Prop :=
   ∀ n, P2841115426138498948.a n = A101436 (n + 1)
 
-theorem P2841115426138498948.correct : P2841115426138498948.Spec := by
-  intro n
-  simp only [A101436, Nat.add_sub_cancel, A101436.P2841115426138498948.a, A101436.P2181373059902386332.a, A049599, A049599.P10458558030046678201.f1, A049599.P10458558030046678201.a, A123391, A123391.P18124121775959414335.f1, A123391.P18124121775959414335.a, A125029, A125029.P11221732944019236443.f1, A125029.P11221732944019236443.a, A125030, A125030.P7178529687584953587.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A061397, A061397.P17730824645895443051.a, A080339, A080339.P3185701196739832768.f1, A080339.P3185701196739832768.a, A000027, A000027.P10331202704469894836.a, A010051, A010051.P15078252821583414300.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
-
 end A101436
 
 /-! ## A101436.P12829787749979151530
@@ -9911,7 +9909,7 @@ end A101471
 /-!
 # A101472: Numbers k such that the number k33 is prime.
 
-The programs for A101472, the canonical program `A101472.P2445389395897336608` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101472 has offset 1).
+The programs for A101472, the canonical program `A101472.P2445389395897336608` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101472 has offset 1).
 
 The definition of A101472 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 236 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9978,7 +9976,7 @@ end A101472
 
 `eq[1, A001222(A045803(4*(n+1)))]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A101472

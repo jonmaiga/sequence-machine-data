@@ -19,17 +19,19 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B001.C006
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C007
+import Seq.B002.C003
+import Seq.B002.C008
 import Seq.B003.C000
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B005.C000
+import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -62,7 +64,7 @@ set_option linter.unreachableTactic false
 /-!
 # A397801: 3-adic valuation of the quadruple factorial of n.
 
-The programs for A397801, the canonical program `A397801.P10674669512506407556` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397801 has offset 0).
+The programs for A397801, the canonical program `A397801.P10674669512506407556` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397801 has offset 0).
 
 The definition of A397801 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -71,7 +73,7 @@ The definition of A397801 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-4)+A007949(n)` with `a(0)=0, a(1)=0, a(2)=0, a(3)=1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A397801
@@ -333,7 +335,7 @@ end A397828.P14551379013751165094
 /-!
 # A397833: Number of binary words of length n containing the consecutive word abab.
 
-The programs for A397833, the canonical program `A397833.P6945550512634513775` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397833 has offset 0).
+The programs for A397833, the canonical program `A397833.P6945550512634513775` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397833 has offset 0).
 
 The definition of A397833 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -342,7 +344,7 @@ The definition of A397833 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^n-A118870(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A397833
@@ -539,7 +541,7 @@ end A397834.P3795183880392678450
 /-!
 # A397835: Number of ternary words of length n over {a,b,c} containing the consecutive word abcabc.
 
-The programs for A397835, the canonical program `A397835.P15543943406779029277` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397835 has offset 0).
+The programs for A397835, the canonical program `A397835.P15543943406779029277` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397835 has offset 0).
 
 The definition of A397835 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -548,7 +550,7 @@ The definition of A397835 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3^n-A397837(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A397835
@@ -1378,7 +1380,7 @@ end A397889.P9119353961040733124
 /-!
 # A397890: Minimum binary length of a standard-order composition with n distinct runs; bit length of A351015(n).
 
-The programs for A397890, the canonical program `A397890.P17401045601756210256` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397890 has offset 0).
+The programs for A397890, the canonical program `A397890.P17401045601756210256` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397890 has offset 0).
 
 The definition of A397890 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1453,7 +1455,7 @@ end A397890
 
 `∑[A061017(n+1)]-A061017(n+1)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A397890
@@ -1559,7 +1561,7 @@ end A397894.P17743835769584153988
 /-!
 # A397897: a(n) = Sum_{j=1..n} (-1)^(j+1) * j * prime(n-j+1).
 
-The programs for A397897, the canonical program `A397897.P2133859419162163201` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397897 has offset 0).
+The programs for A397897, the canonical program `A397897.P2133859419162163201` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397897 has offset 0).
 
 The definition of A397897 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1568,7 +1570,7 @@ The definition of A397897 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000040(n)-2*a(n-1)-a(n-2)` with `a(0)=0, a(1)=2`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A397897

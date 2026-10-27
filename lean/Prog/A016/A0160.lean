@@ -44,21 +44,23 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,8 +72,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7014,7 +7014,7 @@ end
 end A016044.P11837082652436214568
 
 /-!
-# A016045: a(n) is the smallest prime p(k) such that the gaps between the primes p(k), p(k+1), p(k+2), ..., p(k+n) are 2, 4, 6, ... 2n.
+# A016045: a(n) is the smallest prime prime(k) such that the gaps between the primes prime(k), prime(k+1), prime(k+2), ..., prime(k+n) are 2, 4, 6, ... 2n.
 
 The programs for A016045, there is no canonical definition to state claims against.
 -/

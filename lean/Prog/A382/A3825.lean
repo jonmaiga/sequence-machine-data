@@ -10,7 +10,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -25,26 +24,28 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C005
 import Seq.B001.C008
-import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C004
+import Seq.B003.C001
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B005.C000
+import Seq.B004.C003
+import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -267,7 +268,7 @@ end A382505.P4720772077890069181
 /-!
 # A382509: Integers s = (p1+p2)/4 such that p1 and p2 are consecutive primes and s can be written in the form p*2^k with k>=0 and p>2 prime.
 
-The programs for A382509, the canonical program `A382509.P1592332629180381026` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382509 has offset 1).
+The programs for A382509, the canonical program `A382509.P1592332629180381026` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382509 has offset 1).
 
 The definition of A382509 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 911 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -276,7 +277,7 @@ The definition of A382509 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A390789(n+1), A353670(#)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A382509
@@ -324,7 +325,7 @@ end A382509
 /-!
 # A382511: Expansion of Sum_{p prime} x^p / (1 - x^p)^3.
 
-The programs for A382511, the canonical program `A382511.P17328053456808510659` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382511 has offset 1).
+The programs for A382511, the canonical program `A382511.P17328053456808510659` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382511 has offset 1).
 
 The definition of A382511 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A069359, A322078, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -333,7 +334,7 @@ The definition of A382511 is `conditional`: the Lean definition is an OEIS formu
 
 `(A069359(n+1)+A322078(n+1))/2`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A382511
@@ -1312,7 +1313,7 @@ end A382526.P5422501282169998768
 /-!
 # A382527: a(n) = Sum_{j = 1..n} (-1)^(n+j) * j^(2*n+4) * binomial(2*n, n-j).
 
-The programs for A382527, the canonical program `A382527.P17963097231273716000` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382527 has offset 1).
+The programs for A382527, the canonical program `A382527.P17963097231273716000` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A382527 has offset 1).
 
 The definition of A382527 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1321,7 +1322,7 @@ The definition of A382527 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2*(n+1))!/2*A060493(n+1)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A382527

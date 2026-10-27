@@ -45,20 +45,23 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -66,8 +69,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7177,7 +7178,7 @@ end
 end A236966.P5935522130351526063
 
 /-!
-# A236967: Expansion of (1+3*x)^2/(1-3*x)^2.
+# A236967: Expansion of g.f. (1+3*x)^2/(1-3*x)^2.
 
 The programs for A236967, the canonical program `A236967.P11485579401680264996` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236967 has offset 0).
 
@@ -9583,16 +9584,16 @@ end A236998.P2440081110999062773
 /-!
 # A236999: Odd part of n*(n+3)/2-1 (A034856).
 
-The programs for A236999, the canonical program `A236999.P18015192940983009174` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236999 has offset 1).
+The programs for A236999, the canonical program `A236999.P18015192940983009174` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236999 has offset 1).
 
-The definition of A236999 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000265, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A236999 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A236999.P18015192940983009174
 
 `A000265(A034856(n+1))`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A236999

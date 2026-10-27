@@ -40,26 +40,25 @@ import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C004
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5004,9 +5003,9 @@ end
 end A020886.P4705581832223492056
 
 /-!
-# A020887: Ordered set of a + b - c as (a,b,c) runs through all primitive Pythagorean triples with a
+# A020887: Ordered set of a + b - c as (a,b,c) runs through all primitive Pythagorean triples with a<b<c.
 
-The programs for A020887, the canonical program `A020887.P8491908464742690034` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020887 has offset 1).
+The programs for A020887, the canonical program `A020887.P8491908464742690034` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020887 has offset 1).
 
 The definition of A020887 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A020888, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5015,7 +5014,7 @@ The definition of A020887 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A020888(n+1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A020887
@@ -5050,12 +5049,6 @@ namespace A020887
 /-- `A120427(n+1)/2` -/
 def P16302314816976265756.Spec : Prop :=
   ∀ n, P16302314816976265756.a n = (A020887 (n + 1) : ℚ)
-
-theorem P16302314816976265756.correct : P16302314816976265756.Spec := by
-  intro n
-  simp only [A020887, Nat.add_sub_cancel, A020887.P16302314816976265756.a, A020887.P8491908464742690034.a, A020888, A020888.P7815334307482986800.f3, A020888.P7815334307482986800.f2, A020888.P7815334307482986800.f1, A020888.P7815334307482986800.a, A120427, A120427.P17896066987903461565.a, A068068, A068068.P4574816363977512760.a, A034444, A034444.P6574915864346323298.a, A001221, A001221.P10258181745752134128.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A020887
 
@@ -5129,12 +5122,6 @@ namespace A020887
 /-- `A120427(n+1)-A020888(n+1)-A020888(n+1)` -/
 def P5799819052042367922.Spec : Prop :=
   ∀ n, P5799819052042367922.a n = A020887 (n + 1)
-
-theorem P5799819052042367922.correct : P5799819052042367922.Spec := by
-  intro n
-  simp only [A020887, Nat.add_sub_cancel, A020887.P5799819052042367922.a, A020887.P8491908464742690034.a, A020888, A020888.P7815334307482986800.f3, A020888.P7815334307482986800.f2, A020888.P7815334307482986800.f1, A020888.P7815334307482986800.a, A120427, A120427.P17896066987903461565.a, A068068, A068068.P4574816363977512760.a, A034444, A034444.P6574915864346323298.a, A001221, A001221.P10258181745752134128.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A020887
 
@@ -5355,9 +5342,9 @@ def P4305262749162614388.Spec : Prop :=
 end A020887
 
 /-!
-# A020888: Ordered set of (a + b - c)/2 as (a,b,c) runs through all primitive Pythagorean triples with a
+# A020888: Ordered set of (a + b - c)/2 as (a,b,c) runs through all primitive Pythagorean triples with a<b<c.
 
-The programs for A020888, the canonical program `A020888.P7815334307482986800` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020888 has offset 1).
+The programs for A020888, the canonical program `A020888.P7815334307482986800` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020888 has offset 1).
 
 The definition of A020888 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5383,12 +5370,6 @@ namespace A020888
 def P3138670577662192774.Spec : Prop :=
   ∀ n, P3138670577662192774.a n = (A020888 (n + 1) : ℚ)
 
-theorem P3138670577662192774.correct : P3138670577662192774.Spec := by
-  intro n
-  simp only [A020888, Nat.add_sub_cancel, A020888.P3138670577662192774.a, A020888.P7815334307482986800.f3, A020888.P7815334307482986800.f2, A020888.P7815334307482986800.f1, A020888.P7815334307482986800.a, A020887, A020887.P8491908464742690034.a, A068068, A068068.P4574816363977512760.a, A034444, A034444.P6574915864346323298.a, A001221, A001221.P10258181745752134128.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P7264174615531153985.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A020888
 
 /-! ## A020888.P6985416844738900163
@@ -5412,19 +5393,13 @@ namespace A020888
 def P6985416844738900163.Spec : Prop :=
   ∀ n, P6985416844738900163.a n = (A020888 (n + 1) : ℚ)
 
-theorem P6985416844738900163.correct : P6985416844738900163.Spec := by
-  intro n
-  simp only [A020888, Nat.add_sub_cancel, A020888.P6985416844738900163.a, A020888.P7815334307482986800.f3, A020888.P7815334307482986800.f2, A020888.P7815334307482986800.f1, A020888.P7815334307482986800.a, A068068, A068068.P4574816363977512760.a, A120427, A120427.P17896066987903461565.a, A034444, A034444.P6574915864346323298.a, A001221, A001221.P10258181745752134128.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P7264174615531153985.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A020888
 
 /-! ## A020888.P7815334307482986800
 
 `∑[char[∑[A068068(n+1)]]]+1`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A020888
@@ -5565,7 +5540,7 @@ def P2443877405259456161.Spec : Prop :=
 end A020888
 
 /-!
-# A020889: Ordered set of b + c - a as (a,b,c) runs through all primitive Pythagorean triples with a
+# A020889: Ordered set of b + c - a as (a,b,c) runs through all primitive Pythagorean triples with a<b<c.
 
 The programs for A020889, there is no canonical definition to state claims against.
 -/
@@ -5802,7 +5777,7 @@ end
 end A020890.P7727816986232951128
 
 /-!
-# A020891: Ordered set of c + a - b as (a,b,c) runs through all primitive Pythagorean triples with a
+# A020891: Ordered set of c + a - b as (a,b,c) runs through all primitive Pythagorean triples with a<b<c.
 
 The programs for A020891, there is no canonical definition to state claims against.
 -/
@@ -5898,7 +5873,7 @@ end
 end A020891.P13348214647140436609
 
 /-!
-# A020892: Ordered set of (c + a - b)/2 as (a,b,c) runs through all primitive Pythagorean triples with a
+# A020892: Ordered set of (c + a - b)/2 as (a,b,c) runs through all primitive Pythagorean triples with a<b<c.
 
 The programs for A020892, there is no canonical definition to state claims against.
 -/
@@ -6056,7 +6031,7 @@ end A020892.P8925306042635356870
 /-!
 # A020893: Squarefree sums of two squares; or squarefree numbers with no prime factors of the form 4k+3.
 
-The programs for A020893, the canonical program `A020893.P11290844334682551427` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020893 has offset 1).
+The programs for A020893, the canonical program `A020893.P11290844334682551427` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020893 has offset 1).
 
 The definition of A020893 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9316 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6147,7 +6122,7 @@ end A020893
 
 `filter[A008784(n+1), A359377(#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A020893

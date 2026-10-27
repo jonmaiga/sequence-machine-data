@@ -43,21 +43,22 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -65,14 +66,13 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2918,7 +2918,7 @@ end A317623.P15539274585760801806
 /-!
 # A317625: a(n) = Sum_{k=1..n} phi(floor(n/k)) where phi is the Euler totient function.
 
-The programs for A317625, the canonical program `A317625.P3423125929766715326` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317625 has offset 1).
+The programs for A317625, the canonical program `A317625.P3423125929766715326` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317625 has offset 1).
 
 The definition of A317625 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2927,7 +2927,7 @@ The definition of A317625 is `conjectured`: the Lean definition is a formula tha
 
 `∑[1-A092843(n+1)+n]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A317625
@@ -6935,7 +6935,7 @@ end A317670.P4076908204362709128
 /-!
 # A317673: Moebius transform of A129502.
 
-The programs for A317673, the canonical program `A317673.P16095288745684130217` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317673 has offset 1).
+The programs for A317673, the canonical program `A317673.P16095288745684130217` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317673 has offset 1).
 
 The definition of A317673 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7059,7 +7059,7 @@ end A317673
 
 `A001511(n+1)*A209635(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A317673

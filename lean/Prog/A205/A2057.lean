@@ -46,6 +46,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,24 +54,23 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -101,7 +101,7 @@ set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
 
 /-!
-# A205700: Prime(A205698(n)), the n-th number s(k) such that 7 divides s(k)-s(j) for some j
+# A205700: Prime(A205698(n)), the n-th number s(k) such that 7 divides s(k)-s(j) for some j<k, where s(j)=prime(j).
 
 The programs for A205700, there is no canonical definition to state claims against.
 -/
@@ -625,7 +625,7 @@ end
 end A205703.P6443848638904388077
 
 /-!
-# A205705: Numbers k for which 8 divides prime(k)-prime(j) for some j
+# A205705: Numbers k for which 8 divides prime(k)-prime(j) for some j<k; each k occurs once for each such j.
 
 The programs for A205705, there is no canonical definition to state claims against.
 -/
@@ -1045,7 +1045,7 @@ end
 end A205706.P3064736967233211673
 
 /-!
-# A205707: Prime(A205705(n)), the n-th number s(k) such that 8 divides s(k)-s(j) for some j
+# A205707: Prime(A205705(n)), the n-th number s(k) such that 8 divides s(k)-s(j) for some j<k, where s(j)=prime(j).
 
 The programs for A205707, there is no canonical definition to state claims against.
 -/
@@ -1630,7 +1630,7 @@ def P16863741059464020480.Spec : Prop :=
 end A205711
 
 /-!
-# A205712: Numbers k for which 9 divides prime(k)-prime(j) for some j
+# A205712: Numbers k for which 9 divides prime(k)-prime(j) for some j<k; each k occurs once for each such j.
 
 The programs for A205712, there is no canonical definition to state claims against.
 -/
@@ -2143,7 +2143,7 @@ end
 end A205713.P1625929304246540568
 
 /-!
-# A205714: Prime(A205712(n)), the n-th number s(k) such that 9 divides s(k)-s(j) for some j
+# A205714: Prime(A205712(n)), the n-th number s(k) such that 9 divides s(k)-s(j) for some j<k, where s(j)=prime(j).
 
 The programs for A205714, there is no canonical definition to state claims against.
 -/
@@ -2926,7 +2926,7 @@ end
 end A205719.P3453288610060573829
 
 /-!
-# A205720: Numbers k for which 10 divides prime(k)-prime(j) for some j
+# A205720: Numbers k for which 10 divides prime(k)-prime(j) for some j<k; each k occurs once for each such j.
 
 The programs for A205720, there is no canonical definition to state claims against.
 -/
@@ -3343,7 +3343,7 @@ end
 end A205721.P12601393601617002727
 
 /-!
-# A205722: Prime(A205720(n)), the n-th number s(k) such that 10 divides s(k)-s(j) for some j
+# A205722: Prime(A205720(n)), the n-th number s(k) such that 10 divides s(k)-s(j) for some j<k, where s(j)=prime(j).
 
 The programs for A205722, there is no canonical definition to state claims against.
 -/

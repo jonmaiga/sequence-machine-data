@@ -26,16 +26,16 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C008
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -44,13 +44,10 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -153,7 +150,7 @@ end
 end A057201.P4597944395372555020
 
 /-!
-# A057202: Numbers n such that 2^n - 21 is prime.
+# A057202: Numbers k such that |2^k - 21| is prime.
 
 The programs for A057202, there is no canonical definition to state claims against.
 -/
@@ -2308,7 +2305,7 @@ end
 end A057221.P5625028798868857416
 
 /-!
-# A057222: Number of 4 X n binary matrices with 1 unit column up to row and column permutations.
+# A057222: Number of 4 X n binary matrices with exactly 1 singleton column up to row and column permutations.
 
 The programs for A057222, there is no canonical definition to state claims against.
 -/
@@ -2335,7 +2332,7 @@ end
 end A057222.P17279318724694367021
 
 /-!
-# A057223: Number of 4 X n binary matrices without unit columns up to row and column permutations.
+# A057223: Number of 4 X n binary matrices without singleton columns up to row and column permutations.
 
 The programs for A057223, there is no canonical definition to state claims against.
 -/
@@ -3248,7 +3245,7 @@ end
 end A057238.P4455144360953074401
 
 /-!
-# A057239: Numbers n such that n | 12^n + 11^n + 10^n + 9^n.
+# A057239: Numbers k such that k | 12^k + 11^k + 10^k + 9^k.
 
 The programs for A057239, there is no canonical definition to state claims against.
 -/

@@ -32,15 +32,14 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
 import Seq.B001.C008
-import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -48,20 +47,20 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1549,7 +1548,7 @@ end A398164.P1167755506007045653
 /-!
 # A398165: Numbers k such that all the exponents in the prime factorizations of k and k+1 are powers of 2.
 
-The programs for A398165, the canonical program `A398165.P11536307954340140639` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398165 has offset 1).
+The programs for A398165, the canonical program `A398165.P11536307954340140639` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398165 has offset 1).
 
 The definition of A398165 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8631 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1558,7 +1557,7 @@ The definition of A398165 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A138302(n+1)-1, A138302(n+1)]`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A398165
@@ -1740,7 +1739,7 @@ end A398165
 /-!
 # A398167: Squarefree numbers k such that k+1 is cubefree.
 
-The programs for A398167, the canonical program `A398167.P15155754403201331677` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398167 has offset 1).
+The programs for A398167, the canonical program `A398167.P15155754403201331677` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398167 has offset 1).
 
 The definition of A398167 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7076 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1775,7 +1774,7 @@ end A398167
 
 `filter[A340152(n+1), A295316(#)]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C004`.
 -/
 
 namespace A398167
@@ -2261,7 +2260,7 @@ end A398167
 /-!
 # A398168: Cubefree numbers k such that k+1 is squarefree.
 
-The programs for A398168, the canonical program `A398168.P16108428066764494187` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398168 has offset 1).
+The programs for A398168, the canonical program `A398168.P16108428066764494187` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398168 has offset 1).
 
 The definition of A398168 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4800 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2270,7 +2269,7 @@ The definition of A398168 is `conjectured`: the Lean definition is a formula tha
 
 `eq[(n+1)/∏{p}[n+1, #], char[A004709(n+1)]]`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A398168
@@ -2979,7 +2978,7 @@ def P11947829238824706239.Spec : Prop :=
 end A398169
 
 /-!
-# A398170: Exponentially odd numbers numbers k such that k+1 is squarefree.
+# A398170: Exponentially odd numbers k such that k+1 is squarefree.
 
 The programs for A398170, there is no canonical definition to state claims against.
 -/

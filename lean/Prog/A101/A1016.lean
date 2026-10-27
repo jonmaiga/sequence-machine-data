@@ -51,6 +51,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -63,7 +64,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -74,11 +75,8 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1992,12 +1990,6 @@ namespace A101606
 def P7963443284991596867.Spec : Prop :=
   ∀ n, P7963443284991596867.a n = A101606 (n + 1)
 
-theorem P7963443284991596867.correct : P7963443284991596867.Spec := by
-  intro n
-  simp only [A101606, Nat.add_sub_cancel, A101606.P7963443284991596867.a, A101606.P17365113457941405446.f1, A101606.P17365113457941405446.a, A101605, A101605.P6889417430511911463.f1, A101605.P6889417430511911463.a, A350331, A350331.P13927814064560633855.a, A350338, A350338.P228181022738579611.a, A001221, A001221.P10258181745752134128.a, A086971, A086971.P8267424955413097261.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A056170, A056170.P910878729848546389.a, A059841, A059841.P7264174615531153985.a, A079275, A079275.P13384608062085188173.a, A056169, A056169.P17430176249366647977.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A101606
 
 /-! ## A101606.P8927419742665712480
@@ -2072,12 +2064,6 @@ namespace A101606
 /-- `A350338(n+1)-(A086971(n+1)+A001221(n+1))` -/
 def P5988272913837902769.Spec : Prop :=
   ∀ n, P5988272913837902769.a n = A101606 (n + 1)
-
-theorem P5988272913837902769.correct : P5988272913837902769.Spec := by
-  intro n
-  simp only [A101606, Nat.add_sub_cancel, A101606.P5988272913837902769.a, A101606.P17365113457941405446.f1, A101606.P17365113457941405446.a, A001221, A001221.P10258181745752134128.a, A086971, A086971.P8267424955413097261.a, A101605, A101605.P6889417430511911463.f1, A101605.P6889417430511911463.a, A350338, A350338.P228181022738579611.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A056170, A056170.P910878729848546389.a, A059841, A059841.P7264174615531153985.a, A079275, A079275.P13384608062085188173.a, A350331, A350331.P13927814064560633855.a, A056169, A056169.P17430176249366647977.a, A055231, A055231.P8962300905713718501.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A101606
 
@@ -15723,7 +15709,7 @@ end
 end A101695.P16273878311953751225
 
 /-!
-# A101696: a(n) = sum(i=1,n)(i-th i-almost prime). Cumulative sums of A101695.
+# A101696: a(n) = Sum_{i=1,n} (i-th i-almost prime). Cumulative sums of A101695.
 
 The programs for A101696, there is no canonical definition to state claims against.
 -/

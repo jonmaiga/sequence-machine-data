@@ -42,30 +42,33 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5523,7 +5526,7 @@ end A255444.P2122096576630140970
 /-!
 # A255445: Number of ON cells after n generations of the odd-rule cellular automaton defined by OddRule 037 when started with a single ON cell.
 
-The programs for A255445, the canonical program `A255445.P15327031489863029675` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255445 has offset 0).
+The programs for A255445, the canonical program `A255445.P15327031489863029675` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255445 has offset 0).
 
 The definition of A255445 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5532,7 +5535,7 @@ The definition of A255445 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[A278222(n), A001834(#)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A255445
@@ -6605,7 +6608,7 @@ end A255457
 /-!
 # A255458: Number of ON cells after n generations of the odd-rule cellular automaton defined by OddRule 255 when started with a single ON cell.
 
-The programs for A255458, the canonical program `A255458.P9682255118928481286` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255458 has offset 0).
+The programs for A255458, the canonical program `A255458.P9682255118928481286` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255458 has offset 0).
 
 The definition of A255458 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6614,7 +6617,7 @@ The definition of A255458 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[A278222(n), A255459(#)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A255458
@@ -7143,7 +7146,7 @@ end A255461.P9334914423286322362
 /-!
 # A255462: Number of ON cells after n generations of the odd-rule cellular automaton defined by OddRule 365 when started with a single ON cell.
 
-The programs for A255462, the canonical program `A255462.P1799679290061478263` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255462 has offset 0).
+The programs for A255462, the canonical program `A255462.P1799679290061478263` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255462 has offset 0).
 
 The definition of A255462 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7152,7 +7155,7 @@ The definition of A255462 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[A278222(n), A255463(#)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A255462
@@ -7498,7 +7501,7 @@ end A255463
 /-!
 # A255464: Number of ON cells after n generations of the odd-rule cellular automaton defined by OddRule 137 when started with a single ON cell.
 
-The programs for A255464, the canonical program `A255464.P10753955913467884624` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255464 has offset 0).
+The programs for A255464, the canonical program `A255464.P10753955913467884624` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255464 has offset 0).
 
 The definition of A255464 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7507,7 +7510,7 @@ The definition of A255464 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[A005940(n+1), A255465(#)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A255464
@@ -8715,7 +8718,7 @@ end A255469.P3048278194794282941
 /-!
 # A255470: Number of ON cells after n generations of the odd-rule cellular automaton defined by OddRule 176 when started with a single ON cell.
 
-The programs for A255470, the canonical program `A255470.P3773530374719199959` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255470 has offset 0).
+The programs for A255470, the canonical program `A255470.P3773530374719199959` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255470 has offset 0).
 
 The definition of A255470 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8724,7 +8727,7 @@ The definition of A255470 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[A278222(n), A255471(#)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A255470
@@ -10846,7 +10849,7 @@ end A255489.P10609780851419574980
 /-!
 # A255490: The subsequence A247649(2^n-1).
 
-The programs for A255490, the canonical program `A255490.P13741243257840323374` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255490 has offset 0).
+The programs for A255490, the canonical program `A255490.P13741243257840323374` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255490 has offset 0).
 
 The definition of A255490 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10903,7 +10906,7 @@ end A255490
 
 `xor(A120462(n), A133190(n))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A255490

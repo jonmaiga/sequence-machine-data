@@ -52,12 +52,13 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,9 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3963,7 +3961,7 @@ end A177852
 /-!
 # A177853: Partial sums of A018805.
 
-The programs for A177853, the canonical program `A177853.P6963506388651497221` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177853 has offset 1).
+The programs for A177853, the canonical program `A177853.P6963506388651497221` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177853 has offset 1).
 
 The definition of A177853 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3998,7 +3996,7 @@ end A177853
 
 `∑[∑[A140434(n+1)]]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A177853
@@ -8096,7 +8094,7 @@ end A177890
 /-!
 # A177891: Numbers n such that sum of proper (or aliquot) divisors of n is a semiprime.
 
-The programs for A177891, the canonical program `A177891.P10399352112052943989` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177891 has offset 1).
+The programs for A177891, the canonical program `A177891.P10399352112052943989` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177891 has offset 1).
 
 The definition of A177891 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7695 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8105,7 +8103,7 @@ The definition of A177891 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2, A001222(A000203(n+2)-(n+2))]+2`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A177891
@@ -8271,12 +8269,6 @@ namespace A177891
 /-- `eq[2, A001222(A001065(n+2))]+2` -/
 def P13105603288546136933.Spec : Prop :=
   ∀ n, (P13105603288546136933.a n : ℤ) = A177891 (n + 1)
-
-theorem P13105603288546136933.correct : P13105603288546136933.Spec := by
-  intro n
-  simp only [A177891, Nat.add_sub_cancel, A177891.P13105603288546136933.f1, A177891.P13105603288546136933.f2, A177891.P13105603288546136933.a, A177891.P10399352112052943989.f1, A177891.P10399352112052943989.f2, A177891.P10399352112052943989.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001065, A001065.P4097147489331274860.a, A001222, A001222.P11318177267732088261.a, A061395, A061395.P8431317036300486107.a, A122111, A122111.P18124015185857335041.a, A029837, A029837.P1050578713049589.a, A064989, A064989.P13349672914146769936.a, A087207, A087207.P12536008426233777954.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A008578, A008578.P3639467937083264764.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A052126, A052126.P1944428405920482243.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A177891
 

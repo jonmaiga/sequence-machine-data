@@ -40,7 +40,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
+import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
@@ -49,24 +49,25 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -763,7 +764,7 @@ end A122409.P15679723183350615907
 /-!
 # A122410: a(n) is the sum of j's for those k's, 1 <= k <= n, where gcd(k,n) = p^j, p = prime.
 
-The programs for A122410, the canonical program `A122410.P12302092588494273292` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122410 has offset 1).
+The programs for A122410, the canonical program `A122410.P12302092588494273292` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122410 has offset 1).
 
 The definition of A122410 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -772,7 +773,7 @@ The definition of A122410 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000010(#)*A100995((n+1)/#)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A122410
@@ -859,7 +860,7 @@ end A122410
 /-!
 # A122411: a(n) is the sum of primes p for those k's, 2 <= k <= n, where gcd(k,n) = p^j > 1. (a(1) = 0.)
 
-The programs for A122411, the canonical program `A122411.P10607431199644283672` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122411 has offset 1).
+The programs for A122411, the canonical program `A122411.P10607431199644283672` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122411 has offset 1).
 
 The definition of A122411 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A116512, A390608, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -868,7 +869,7 @@ The definition of A122411 is `conditional`: the Lean definition is an OEIS formu
 
 `A390608(n+1)+A116512(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A122411
@@ -978,12 +979,6 @@ namespace A122411
 /-- `A116512(n+1)+A000010(n+1)*A001221(n+1)` -/
 def P9957114853856761217.Spec : Prop :=
   ∀ n, P9957114853856761217.a n = A122411 (n + 1)
-
-theorem P9957114853856761217.correct : P9957114853856761217.Spec := by
-  intro n
-  simp only [A122411, Nat.add_sub_cancel, A122411.P9957114853856761217.a, A122411.P10607431199644283672.a, A000010, A000010.P4673923239450215316.a, A001221, A001221.P10258181745752134128.a, A116512, A116512.P13906908477700417415.f1, A116512.P13906908477700417415.a, A390608, A390608.P15575497196567576275.a, A001222, A001222.P11318177267732088261.a, A003557, A003557.P6364735403900941810.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A007431, A007431.P16849793818733668455.f1, A007431.P16849793818733668455.a, A059841, A059841.P7264174615531153985.a, A173557, A173557.P15666735857375843373.a, A007432, A007432.P16663120023730915232.f1, A007432.P16663120023730915232.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A061395, A061395.P8431317036300486107.a, A122111, A122111.P18124015185857335041.a, A007428, A007428.P12532017655611739201.f1, A007428.P12532017655611739201.a, A029837, A029837.P1050578713049589.a, A064989, A064989.P13349672914146769936.a, A087207, A087207.P12536008426233777954.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A122411
 
@@ -1202,7 +1197,7 @@ end A122413.P13513502311025155162
 /-!
 # A122414: Triangle T(n,k) for 1 <= k <= n read by rows, where T(n,k) = 1 if gcd(n,k) is prime, 0 otherwise.
 
-The programs for A122414, the canonical program `A122414.P2301085849404796156` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122414 has offset 1).
+The programs for A122414, the canonical program `A122414.P2301085849404796156` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122414 has offset 1).
 
 The definition of A122414 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1211,7 +1206,7 @@ The definition of A122414 is `conjectured`: the Lean definition is a formula tha
 
 `A010051(A050873(n+1))`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A122414
@@ -1397,7 +1392,7 @@ end A122414
 /-!
 # A122415: Triangle T(n,k) for 1 < k < n read by rows, where T(n,k) = 1 if gcd(n,k) is prime, 0 otherwise.
 
-The programs for A122415, the canonical program `A122415.P16839992297758686135` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122415 has offset 3).
+The programs for A122415, the canonical program `A122415.P16839992297758686135` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122415 has offset 3).
 
 The definition of A122415 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1406,7 +1401,7 @@ The definition of A122415 is `conjectured`: the Lean definition is a formula tha
 
 `val(A077478(comp[∑[n]]+1)+1, 3)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A122415
@@ -3615,7 +3610,7 @@ end A122431
 /-!
 # A122432: Riordan array (1/(1+x)^3,x).
 
-The programs for A122432, the canonical program `A122432.P16515211422386222308` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122432 has offset 0).
+The programs for A122432, the canonical program `A122432.P16515211422386222308` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122432 has offset 0).
 
 The definition of A122432 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3700,7 +3695,7 @@ end A122432
 
 `-A089594(A004736(n+1))`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A122432
@@ -4961,7 +4956,7 @@ end A122443.P11852741923577256946
 /-!
 # A122444: Greatest prime factor of powers of semiprimes.
 
-The programs for A122444, the canonical program `A122444.P13311351632682091971` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122444 has offset 1).
+The programs for A122444, the canonical program `A122444.P13311351632682091971` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122444 has offset 1).
 
 The definition of A122444 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006530, A085155, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4970,7 +4965,7 @@ The definition of A122444 is `conditional`: the Lean definition is an OEIS formu
 
 `A006530(A085155(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A122444
@@ -7844,7 +7839,7 @@ def P578315352595975895.Spec : Prop :=
 end A122467
 
 /-!
-# A122471: a(n) = 7*a(n-1)-n for n> 0, a(0)=1.
+# A122471: a(n) = 7*a(n-1) - n for n>0, a(0)=1.
 
 The programs for A122471, the canonical program `A122471.P11162068097845124348` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122471 has offset 0).
 
@@ -8074,7 +8069,7 @@ end
 end A122478.P16988008866280712482
 
 /-!
-# A122479: Triangle T(n,k), 0<=k<=n, defined by T(n,k) = 0 if kn, T(0,0) = 1, T(n,k) = T(n,k-1)+T(n-1,k-1)+T(n-1,k)+T(n-1,k+1).
+# A122479: Triangle T(n,k), 0<=k<=n, defined by T(n,k) = 0 if k<0 or k>n, T(0,0) = 1, T(n,k) = T(n,k-1)+T(n-1,k-1)+T(n-1,k)+T(n-1,k+1).
 
 The programs for A122479, there is no canonical definition to state claims against.
 -/

@@ -1,5 +1,4 @@
 import SequenceMachineLib
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -44,7 +43,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -63,10 +62,10 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -95,14 +94,10 @@ import Seq.Opaque.C024
 import Seq.Opaque.C025
 import SequenceMachineLib.Triangle
 
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
-
 /-!
 # A193900: Mirror of the triangle A193899.
 
-The programs for A193900, the canonical program `A193900.P308567548711973632` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193900 has offset 0).
+The programs for A193900, the canonical program `A193900.P308567548711973632` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193900 has offset 0).
 
 The definition of A193900 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -111,7 +106,7 @@ The definition of A193900 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A130329(n)/A001222(2*A006530(n+1)))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A193900
@@ -4565,7 +4560,7 @@ end A193928.P15499225650199490015
 /-!
 # A193929: Number of prime factors of n^4 + 1, counted with multiplicity.
 
-The programs for A193929, the canonical program `A193929.P1130408973914528788` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193929 has offset 0).
+The programs for A193929, the canonical program `A193929.P1130408973914528788` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193929 has offset 0).
 
 The definition of A193929 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4574,7 +4569,7 @@ The definition of A193929 is `conditional`: the Lean definition is an OEIS formu
 
 `A001221(n^4+1)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A193929
@@ -12618,12 +12613,6 @@ namespace A193990
 def P9243873507040350777.Spec : Prop :=
   ∀ n, P9243873507040350777.a n = A193990 (n + 1)
 
-theorem P9243873507040350777.correct : P9243873507040350777.Spec := by
-  intro n
-  simp only [A193990, Nat.add_sub_cancel, A193990.P9243873507040350777.a, A193990.P7884612137994625744.a, A060208, A060208.P7183975736576041079.a, A067434, A067434.P13929793644750032362.a, A071854, A071854.P11151984717235714317.a, A108954, A108954.P13763132661793771575.a, A000720, A000720.P1755771944745605250.f2, A000720.P1755771944745605250.f1, A000720.P1755771944745605250.a, A056173, A056173.P15098762460861555107.a, A056175, A056175.P9200230780470454519.a, A001221, A001221.P10258181745752134128.a, A001405, A001405.P5205018418992951678.a, A056057, A056057.P2194597549001614042.a, A056169, A056169.P17430176249366647977.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A008833, A008833.P18388074464065390543.a, A055231, A055231.P8962300905713718501.a, A059841, A059841.P7264174615531153985.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A193990
 
 /-! ## A193990.P8151254132404836311
@@ -12810,7 +12799,7 @@ end
 end A193994.P6206622591906806253
 
 /-!
-# A193995: Maximum number of terms required to determine whether a number is happy or not (A007770 or A031177).
+# A193995: a(n) = number of (distinct) terms required to determine whether n is a happy number or not (A007770 or A031177).
 
 The programs for A193995, there is no canonical definition to state claims against.
 -/

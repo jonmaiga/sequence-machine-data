@@ -44,9 +44,9 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -54,9 +54,11 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C001
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -69,8 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1570,7 +1570,7 @@ end A342334.P16483667230236979501
 /-!
 # A342337: Number of integer partitions of n with all adjacent parts (x, y) satisfying either x = y or x = 2y.
 
-The programs for A342337, the canonical program `A342337.P4685969559606466656` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342337 has offset 0).
+The programs for A342337, the canonical program `A342337.P4685969559606466656` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342337 has offset 0).
 
 The definition of A342337 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1579,7 +1579,7 @@ The definition of A342337 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[A028310(n), A033485(A065033(#))]`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A342337
@@ -2342,7 +2342,7 @@ end A342351.P4059554257277914776
 /-!
 # A342352: Expansion of e.g.f. (exp(x)-1)*(exp(x) - x^2/2 - x - 1).
 
-The programs for A342352, the canonical program `A342352.P10878956096041233773` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342352 has offset 0).
+The programs for A342352, the canonical program `A342352.P10878956096041233773` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342352 has offset 0).
 
 The definition of A342352 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2490,7 +2490,7 @@ end A342352
 
 `A296965(n)-A186783(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A342352
@@ -4853,7 +4853,7 @@ end A342378.P3024034399324537014
 /-!
 # A342379: Expansion of e.g.f. (exp(x)-1)*(exp(x) - x^3/6 - x^2/2 - x - 1).
 
-The programs for A342379, the canonical program `A342379.P15174878887060137686` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342379 has offset 0).
+The programs for A342379, the canonical program `A342379.P15174878887060137686` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342379 has offset 0).
 
 The definition of A342379 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4885,7 +4885,7 @@ end A342379
 
 `A057428(A002265(n))+A002663(n)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A342379
@@ -5090,7 +5090,7 @@ end A342379
 /-!
 # A342380: Expansion of e.g.f. (exp(x)-1)*(exp(x) - x^4/24 - x^3/6 - x^2/2 - x - 1).
 
-The programs for A342380, the canonical program `A342380.P14192390627142983996` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342380 has offset 0).
+The programs for A342380, the canonical program `A342380.P14192390627142983996` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342380 has offset 0).
 
 The definition of A342380 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5122,7 +5122,7 @@ end A342380
 
 `A000225(n)-(A057427(A130496(n))+A055795(n+1))`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A342380
@@ -5284,7 +5284,7 @@ end A342380
 /-!
 # A342381: Triangle read by rows: T(n,k) is the number of symmetries of the n-dimensional hypercube that fix exactly 2*k facets; n,k >= 0.
 
-The programs for A342381, the canonical program `A342381.P14301980402529714952` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342381 has offset 0).
+The programs for A342381, the canonical program `A342381.P14301980402529714952` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342381 has offset 0).
 
 The definition of A342381 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5293,7 +5293,7 @@ The definition of A342381 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000354(row(n)-col(n))*C(row(n), col(n))`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A342381
@@ -5933,7 +5933,7 @@ end A342390.P17168398017371590420
 /-!
 # A342392: Cubefree numbers a > 1 such that the ring of integers of Q(a^(1/3)) is Z[a^(1/3)].
 
-The programs for A342392, the canonical program `A342392.P17975330160258914894` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342392 has offset 1).
+The programs for A342392, the canonical program `A342392.P17975330160258914894` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342392 has offset 1).
 
 The definition of A342392 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6844 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6020,7 +6020,7 @@ end A342392
 
 `∩[A005117(n+1), A275910(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A342392

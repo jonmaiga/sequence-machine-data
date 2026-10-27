@@ -44,19 +44,22 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -67,12 +70,11 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1065,7 +1067,7 @@ end A255606
 /-!
 # A255607: Numbers n such that both 4*n+1 and 6*n+1 are primes.
 
-The programs for A255607, the canonical program `A255607.P13320469364282797644` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255607 has offset 1).
+The programs for A255607, the canonical program `A255607.P13320469364282797644` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255607 has offset 1).
 
 The definition of A255607 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A130800, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1074,7 +1076,7 @@ The definition of A255607 is `conditional`: the Lean definition is an OEIS formu
 
 `A130800(n+1)/2`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A255607
@@ -5970,7 +5972,7 @@ end A255645
 /-!
 # A255646: Odd triprimes modulo 10.
 
-The programs for A255646, the canonical program `A255646.P5317724431047081380` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255646 has offset 1).
+The programs for A255646, the canonical program `A255646.P5317724431047081380` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255646 has offset 1).
 
 The definition of A255646 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5979,7 +5981,7 @@ The definition of A255646 is `conjectured`: the Lean definition is a formula tha
 
 `A046316(n+1)%10`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A255646
@@ -7424,7 +7426,7 @@ end A255654.P4676180081626538949
 /-!
 # A255655: The sum of the odd terms in row n of A050873.
 
-The programs for A255655, the canonical program `A255655.P17610219700829856514` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255655 has offset 1).
+The programs for A255655, the canonical program `A255655.P17610219700829856514` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255655 has offset 1).
 
 The definition of A255655 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7652,7 +7654,7 @@ end A255655
 
 `∑{d}[n+1, A007427(#)*A109386((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A255655
@@ -11868,7 +11870,7 @@ end
 end A255693.P17567183785193380805
 
 /-!
-# A255696: Decimal expansion of the Plouffe sum S(1,2) = Sum_{n >= 0} 1/(n*(exp(2*Pi*n)-1)).
+# A255696: 
 
 The programs for A255696, there is no canonical definition to state claims against.
 -/

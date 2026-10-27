@@ -11,18 +11,16 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C037
 import Seq.B001.C000
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
-import Seq.B003.C000
-import Seq.B003.C002
+import Seq.B002.C004
 import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B009.C000
+import Seq.B005.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -37,7 +35,6 @@ import Seq.Opaque.C011
 import Seq.Opaque.C015
 import Seq.Opaque.C018
 import Seq.Opaque.C019
-import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 
@@ -995,21 +992,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A012654.P1528222878510481448
-
-/-! ## A012654.P9849001301500939156
-
-`A009269(n)+A009172(n)*A339791(A055377(n+4))`
--/
-
-namespace A012654.P9849001301500939156
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A009269 n + A009172 n * A339791 (A055377 (n + 4)).toNat
-
-end
-
-end A012654.P9849001301500939156
 
 /-!
 # A012659: Expansion of e.g.f. arcsin(tanh(x) * exp(x)).

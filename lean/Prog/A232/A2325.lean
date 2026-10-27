@@ -49,35 +49,30 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
-import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4007,7 +4002,7 @@ end A232532.P2631281437151756497
 /-!
 # A232533: a(n) = Sum_{i=1...n} Sum_{j=1..i} lcm(i,j)/i.
 
-The programs for A232533, the canonical program `A232533.P1925257348327096795` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232533 has offset 1).
+The programs for A232533, the canonical program `A232533.P1925257348327096795` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232533 has offset 1).
 
 The definition of A232533 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4016,7 +4011,7 @@ The definition of A232533 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A057661(n+1)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A232533
@@ -4054,12 +4049,6 @@ namespace A232533
 /-- `∑[A332049(n+1)+1]` -/
 def P5093954627419799002.Spec : Prop :=
   ∀ n, P5093954627419799002.a n = A232533 (n + 1)
-
-theorem P5093954627419799002.correct : P5093954627419799002.Spec := by
-  intro n
-  simp only [A232533, Nat.add_sub_cancel, A232533.P5093954627419799002.f1, A232533.P5093954627419799002.a, A232533.P1925257348327096795.f1, A232533.P1925257348327096795.a, A057661, A057661.P8562176095648835282.a, A332049, A332049.P9341534089412861099.a, A057660, A057660.P308819105178745283.a, A000290, A000290.P12206242496348924484.a, A001157, A001157.P6892814788348726787.a, A065764, A065764.P16236740945723656355.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A035316, A035316.P17845884678165723091.f1, A035316.P17845884678165723091.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A232533
 

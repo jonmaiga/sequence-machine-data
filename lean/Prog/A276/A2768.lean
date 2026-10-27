@@ -44,12 +44,14 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -57,11 +59,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -69,13 +73,13 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2980,27 +2984,6 @@ end
 
 end A276822.P9059550374500944427
 
-/-! ## A276822.P14951824128507011117
-
-`lt[sqrt(A329267(n)), A225693(n)]`
--/
-
-namespace A276822.P14951824128507011117
-noncomputable section
-
-def f1 : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.sqrt (A329267 n : ℝ)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A225693 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < (f2 j : ℝ)) n
-
-end
-
-end A276822.P14951824128507011117
-
 /-! ## A276822.P8731988814553969381
 
 `lt[log2(A117462(n+1)), A225693(n)]`
@@ -3067,7 +3050,7 @@ end A276822.P1469050516527263479
 /-!
 # A276824: a(n) = p-s, where s = Sum_{i=1..n} prime(i) and p = primepi(prime(n)^2).
 
-The programs for A276824, the canonical program `A276824.P1865868106888623118` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276824 has offset 1).
+The programs for A276824, the canonical program `A276824.P1865868106888623118` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276824 has offset 1).
 
 The definition of A276824 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3076,7 +3059,7 @@ The definition of A276824 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000879(n+1)-A007504(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A276824
@@ -12634,7 +12617,7 @@ end A276878.P4688257656192206092
 /-!
 # A276879: Sums-complement of the Beatty sequence for 1 + sqrt(2).
 
-The programs for A276879, the canonical program `A276879.P10970740228062955951` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276879 has offset 1).
+The programs for A276879, the canonical program `A276879.P10970740228062955951` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276879 has offset 1).
 
 The definition of A276879 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2266 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12643,7 +12626,7 @@ The definition of A276879 is `conjectured`: the Lean definition is a formula tha
 
 `A188042(A188298(2*n+1)+n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A276879

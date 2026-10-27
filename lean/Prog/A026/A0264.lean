@@ -47,6 +47,7 @@ import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -54,25 +55,26 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -97,7 +99,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
-import Seq.Opaque.C024
 
 set_option linter.unusedSimpArgs false
 set_option linter.unusedTactic false
@@ -1393,7 +1394,7 @@ end
 end A026416.P16147128731403892965
 
 /-!
-# A026417: a(n) = least positive integer > a(n-1) and not a(i)*a(j) for 1<=i
+# A026417: a(n) = least positive integer > a(n-1) and not a(i)*a(j) for 1<=i<j<=n, with initial terms 1,3.
 
 The programs for A026417, there is no canonical definition to state claims against.
 -/
@@ -1657,7 +1658,7 @@ end
 end A026418.P5808698749113733532
 
 /-!
-# A026419: a(n) = least positive integer > a(n-1) and not a(i)*a(j) for 1<=i
+# A026419: a(n) = least positive integer > a(n-1) and not a(i)*a(j) for 1<=i<j<=n, with initial terms 1,4.
 
 The programs for A026419, there is no canonical definition to state claims against.
 -/
@@ -1738,7 +1739,7 @@ end
 end A026419.P5384799677689352064
 
 /-!
-# A026420: a(n) = least positive integer > a(n-1) and not a(i)*a(j) for 1<=i
+# A026420: a(n) = least positive integer > a(n-1) and not a(i)*a(j) for 1<=i<j<=n, with initial terms 2,4.
 
 The programs for A026420, there is no canonical definition to state claims against.
 -/
@@ -1810,7 +1811,7 @@ end
 end A026420.P14515915381999197532
 
 /-!
-# A026421: a(n) = least positive integer > a(n-1) and not a(i)*a(j) for 1<=i
+# A026421: a(n) = least positive integer > a(n-1) and not a(i)*a(j) for 1<=i<j<=n, with initial terms 3,4.
 
 The programs for A026421, there is no canonical definition to state claims against.
 -/
@@ -1977,7 +1978,7 @@ end A026421.P14570635663298984083
 /-!
 # A026422: a(n) = least positive integer > a(n-1) and not a(i)*a(j) for 1 <= i <= j < n.
 
-The programs for A026422, the canonical program `A026422.P17430373393506009573` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026422 has offset 1).
+The programs for A026422, the canonical program `A026422.P17430373393506009573` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026422 has offset 1).
 
 The definition of A026422 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2231,7 +2232,7 @@ end A026422
 
 `A026424(floor(C(n, a(n-1))/2+n))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A026422
@@ -2755,7 +2756,7 @@ end A026423.P10759319965205511647
 /-!
 # A026424: Number of prime divisors (counted with multiplicity) is odd; Liouville function lambda(n) (A008836) is negative.
 
-The programs for A026424, the canonical program `A026424.P11341999496382344124` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026424 has offset 1).
+The programs for A026424, the canonical program `A026424.P11341999496382344124` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026424 has offset 1).
 
 The definition of A026424 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2781,19 +2782,13 @@ namespace A026424
 def P7246533517946548917.Spec : Prop :=
   ∀ n, P7246533517946548917.a n = (A026424 (n + 1) : ℚ)
 
-theorem P7246533517946548917.correct : P7246533517946548917.Spec := by
-  intro n
-  simp only [A026424, Nat.add_sub_cancel, A026424.P7246533517946548917.a, A026424.P11341999496382344124.f1, A026424.P11341999496382344124.a, A061019, A061019.P3085281496578978067.a, A063745, A063745.P6674532134331063017.a, A008836, A008836.P691704047226663751.a, A001222, A001222.P11318177267732088261.a, A033999, A033999.P17703899380244199787.a, A061395, A061395.P8431317036300486107.a, A122111, A122111.P18124015185857335041.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A026424
 
 /-! ## A026424.P11341999496382344124
 
 `record[-A061019(n+2)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A026424
@@ -4303,7 +4298,7 @@ def P7754919905992547770.Spec : Prop :=
 end A026430
 
 /-!
-# A026431: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-1 for 1<=i
+# A026431: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-1 for 1<=i<j<=n, with initial terms 1,2.
 
 The programs for A026431, there is no canonical definition to state claims against.
 -/
@@ -4624,7 +4619,7 @@ end
 end A026431.P9065985361007198393
 
 /-!
-# A026432: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-1 for 1<=i
+# A026432: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-1 for 1<=i<j<=n, with initial terms 1,3.
 
 The programs for A026432, there is no canonical definition to state claims against.
 -/
@@ -4832,7 +4827,7 @@ end
 end A026432.P6239325506442901731
 
 /-!
-# A026433: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-1 for 1<=i
+# A026433: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-1 for 1<=i<j<=n, with initial terms 2,3.
 
 The programs for A026433, there is no canonical definition to state claims against.
 -/
@@ -4979,7 +4974,7 @@ end
 end A026433.P14751589510284388083
 
 /-!
-# A026434: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-1 for 1<=i
+# A026434: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-1 for 1<=i<j<=n, with initial terms 1,4.
 
 The programs for A026434, there is no canonical definition to state claims against.
 -/
@@ -5018,7 +5013,7 @@ end
 end A026434.P16941280223023753247
 
 /-!
-# A026435: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-1 for 1<=i
+# A026435: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-1 for 1<=i<j<=n, with initial terms 2,4.
 
 The programs for A026435, there is no canonical definition to state claims against.
 -/
@@ -5129,7 +5124,7 @@ end
 end A026435.P2659698528837590309
 
 /-!
-# A026436: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-1 for 1<=i
+# A026436: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-1 for 1<=i<j<=n, with initial terms 3,4.
 
 The programs for A026436, there is no canonical definition to state claims against.
 -/
@@ -5729,27 +5724,6 @@ end A026438.P10321963630965787025
 The programs for A026439, there is no canonical definition to state claims against.
 -/
 
-/-! ## A026439.P8384684316672834571
-
-`eq[A339790(A165886(n)), A377384(n+1)]`
--/
-
-namespace A026439.P8384684316672834571
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A339790 (A165886 n).toNat
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A377384 (n + 1)
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A026439.P8384684316672834571
-
 /-! ## A026439.P8236020557008919975
 
 `lt[A351266(A325828(2*n+1)), (3*n)²]`
@@ -6138,7 +6112,7 @@ end
 end A026442.P10435224520115202816
 
 /-!
-# A026443: a(n) = least positive integer > a(n-1) and not a(i)*a(j)+2 for 1<=i
+# A026443: a(n) = least positive integer > a(n-1) and not a(i)*a(j)+2 for 1<=i<j<=n, with initial terms 1,2.
 
 The programs for A026443, there is no canonical definition to state claims against.
 -/
@@ -6204,7 +6178,7 @@ end
 end A026443.P1202794998506597719
 
 /-!
-# A026444: a(n) = least positive integer > a(n-1) and not a(i)*a(j)+2 for 1<=i
+# A026444: a(n) = least positive integer > a(n-1) and not a(i)*a(j)+2 for 1<=i<j<=n, with initial terms 1,3.
 
 The programs for A026444, there is no canonical definition to state claims against.
 -/
@@ -6303,7 +6277,7 @@ end
 end A026444.P14402685736878877562
 
 /-!
-# A026445: a(n) = least positive integer > a(n-1) and not a(i)*a(j)+2 for 1<=i
+# A026445: a(n) = least positive integer > a(n-1) and not a(i)*a(j)+2 for 1<=i<j<=n, with initial terms 2,3.
 
 The programs for A026445, there is no canonical definition to state claims against.
 -/
@@ -6396,7 +6370,7 @@ end
 end A026445.P14432037337985043173
 
 /-!
-# A026446: a(n) = least positive integer > a(n-1) and not a(i)*a(j)+2 for 1<=i
+# A026446: a(n) = least positive integer > a(n-1) and not a(i)*a(j)+2 for 1<=i<j<=n, with initial terms 2,4.
 
 The programs for A026446, there is no canonical definition to state claims against.
 -/
@@ -6507,7 +6481,7 @@ end
 end A026446.P8537702338435064397
 
 /-!
-# A026447: a(n) = least positive integer > a(n-1) and not a(i)*a(j)+2 for 1<=i
+# A026447: a(n) = least positive integer > a(n-1) and not a(i)*a(j)+2 for 1<=i<j<=n, with initial terms 3,4.
 
 The programs for A026447, there is no canonical definition to state claims against.
 -/
@@ -6931,7 +6905,7 @@ end
 end A026452.P17305042343892644197
 
 /-!
-# A026453: a(n) = least positive integer > a(n-1) and not equal to a(i)*a(j)-2 for 1<=i
+# A026453: a(n) = least positive integer > a(n-1) and not equal to a(i)*a(j)-2 for 1<=i<j<=n-1.
 
 The programs for A026453, there is no canonical definition to state claims against.
 -/
@@ -7263,7 +7237,7 @@ end
 end A026453.P14689543776051309412
 
 /-!
-# A026454: a(n) = least positive integer > a(n-1) and not equal to a(i)*a(j)-2 for 1<=i
+# A026454: a(n) = least positive integer > a(n-1) and not equal to a(i)*a(j)-2 for 1<=i<j<=n.
 
 The programs for A026454, there is no canonical definition to state claims against.
 -/
@@ -7501,7 +7475,7 @@ end
 end A026454.P5227973055597453737
 
 /-!
-# A026455: a(n) = least positive integer < a(n-1) and not a(i)*a(j)-2 for 1<=i
+# A026455: a(n) = least positive integer < a(n-1) and not a(i)*a(j)-2 for 1<=i<j<=n.
 
 The programs for A026455, there is no canonical definition to state claims against.
 -/
@@ -7609,7 +7583,7 @@ end
 end A026455.P5009384028295857660
 
 /-!
-# A026456: a(n) = least positive integer < a(n-1) and not a(i)*a(j)-2 for 1<=i
+# A026456: a(n) = least positive integer < a(n-1) and not a(i)*a(j)-2 for 1<=i<j<=n.
 
 The programs for A026456, there is no canonical definition to state claims against.
 -/
@@ -7726,7 +7700,7 @@ end
 end A026456.P11523214934305073706
 
 /-!
-# A026457: a(n) = least positive integer < a(n-1) and not a(i)*a(j)-2 for 1<=i
+# A026457: a(n) = least positive integer < a(n-1) and not a(i)*a(j)-2 for 1<=i<j<=n.
 
 The programs for A026457, there is no canonical definition to state claims against.
 -/
@@ -7780,7 +7754,7 @@ end
 end A026457.P911093584961382526
 
 /-!
-# A026458: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-2 for 1<=i
+# A026458: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-2 for 1<=i<j<=n.
 
 The programs for A026458, there is no canonical definition to state claims against.
 -/
@@ -8565,7 +8539,7 @@ def P8558584549597460965.Spec : Prop :=
 end A026465
 
 /-!
-# A026467: a(n) = least positive integer > a(n-1) and not a(i)^2 + a(j)^2 for 1<=i
+# A026467: a(n) = least positive integer > a(n-1) and not a(i)^2 + a(j)^2 for 1<=i<j<=n.
 
 The programs for A026467, there is no canonical definition to state claims against.
 -/
@@ -9103,7 +9077,7 @@ def P2579664061234854798.Spec : Prop :=
 end A026472
 
 /-!
-# A026474: a(n) = least positive integer > a(n-1) and not equal to a(i)+a(j) or a(i)+a(j)+a(k) for 1<=i
+# A026474: a(n) = least positive integer > a(n-1) and not equal to a(i)+a(j) or a(i)+a(j)+a(k) for 1<=i<j<k<n (a 3-Stohr sequence).
 
 The programs for A026474, the canonical program `A026474.P150883873465480160` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026474 has offset 1).
 
@@ -9430,9 +9404,9 @@ end
 end A026477.P10263423357366968100
 
 /-!
-# A026478: a(n) = least positive integer > a(n-1) and not of form a(i)*a(j)*a(k) for 1<=i<=j<=k
+# A026478: a(n) = least positive integer > a(n-1) and not of form a(i)*a(j)*a(k) for 1<=i<=j<=k<n.
 
-The programs for A026478, the canonical program `A026478.P3875536101854945334` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026478 has offset 1).
+The programs for A026478, the canonical program `A026478.P3875536101854945334` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026478 has offset 1).
 
 The definition of A026478 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9441,7 +9415,7 @@ The definition of A026478 is `conjectured`: the Lean definition is a formula tha
 
 `lt[(A001222(n+1)-1)%3, 1]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A026478
@@ -9726,7 +9700,7 @@ def P17216590884491130623.Spec : Prop :=
 end A026478
 
 /-!
-# A026479: a(n) = least positive integer > a(n-1) and not a(i)*a(j)*a(k) for 1<=i
+# A026479: a(n) = least positive integer > a(n-1) and not a(i)*a(j)*a(k) for 1<=i<j<k<n.
 
 The programs for A026479, there is no canonical definition to state claims against.
 -/
@@ -9936,7 +9910,7 @@ end
 end A026480.P14563746644471844000
 
 /-!
-# A026481: a(n) = least positive integer > a(n-1) and not a(i)*a(j)*a(k) for 1<=i
+# A026481: a(n) = least positive integer > a(n-1) and not a(i)*a(j)*a(k) for 1<=i<j<k<n.
 
 The programs for A026481, there is no canonical definition to state claims against.
 -/
@@ -10024,7 +9998,7 @@ end
 end A026481.P9234808203528909006
 
 /-!
-# A026482: a(n) = least positive integer > a(n-1) and not equal to a(i)*a(j)*a(k) for 1<=i<=j<=k
+# A026482: a(n) = least positive integer > a(n-1) and not equal to a(i)*a(j)*a(k) for 1<=i<=j<=k<n.
 
 The programs for A026482, there is no canonical definition to state claims against.
 -/
@@ -10130,7 +10104,7 @@ end
 end A026482.P12650886922151402245
 
 /-!
-# A026483: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-a(k) for 1<=i
+# A026483: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-a(k) for 1<=i<j<k<=n.
 
 The programs for A026483, there is no canonical definition to state claims against.
 -/
@@ -10296,7 +10270,7 @@ end
 end A026483.P1183798097728020339
 
 /-!
-# A026485: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-a(k) for 1<=i
+# A026485: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-a(k) for 1<=i<j<k<n.
 
 The programs for A026485, there is no canonical definition to state claims against.
 -/
@@ -10332,7 +10306,7 @@ end
 end A026485.P17022096043371419114
 
 /-!
-# A026486: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-a(k) for 1<=i<=j<=k
+# A026486: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-a(k) for 1<=i<=j<=k<n.
 
 The programs for A026486, there is no canonical definition to state claims against.
 -/
@@ -10356,7 +10330,7 @@ end
 end A026486.P10798272386219206237
 
 /-!
-# A026487: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-a(k) for 1<=i
+# A026487: a(n) = least positive integer > a(n-1) and not a(i)*a(j)-a(k) for 1<=i<j<k<n.
 
 The programs for A026487, there is no canonical definition to state claims against.
 -/
@@ -10594,7 +10568,7 @@ theorem P17900518215499171744.correct : P17900518215499171744.Spec := by
 end A026488
 
 /-!
-# A026489: a(n) = least positive integer > a(n-1) and not a(i)*a(j)+a(k) for 1<=i
+# A026489: a(n) = least positive integer > a(n-1) and not a(i)*a(j)+a(k) for 1<=i<j<k<=n.
 
 The programs for A026489, there is no canonical definition to state claims against.
 -/

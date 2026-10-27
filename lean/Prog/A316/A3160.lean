@@ -35,37 +35,39 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -4445,7 +4447,7 @@ end
 end A316073.P4080739134468560293
 
 /-!
-# A316074: Sequence a_k of column k shifts left k places under Weigh transform and equals signum(n) for n=1, 1<=k<=n, read by rows.
+# A316074: Sequence a_k of column k shifts left k places under Weigh transform and equals signum(n) for n<k; triangle T(n,k), n>=1, 1<=k<=n, read by rows.
 
 The programs for A316074, there is no canonical definition to state claims against.
 -/
@@ -4526,7 +4528,7 @@ end
 end A316074.P15398669660769093959
 
 /-!
-# A316075: Sequence shifts left three places under Weigh transform with a(n) = signum(n) for n
+# A316075: Sequence shifts left three places under Weigh transform with a(n) = signum(n) for n<3.
 
 The programs for A316075, there is no canonical definition to state claims against.
 -/
@@ -4641,7 +4643,7 @@ end
 end A316075.P9409605665646165250
 
 /-!
-# A316076: Sequence shifts left four places under Weigh transform with a(n) = signum(n) for n
+# A316076: Sequence shifts left four places under Weigh transform with a(n) = signum(n) for n<4.
 
 The programs for A316076, there is no canonical definition to state claims against.
 -/
@@ -4707,7 +4709,7 @@ end
 end A316076.P5117172078975122107
 
 /-!
-# A316077: Sequence shifts left five places under Weigh transform with a(n) = signum(n) for n
+# A316077: Sequence shifts left five places under Weigh transform with a(n) = signum(n) for n<5.
 
 The programs for A316077, there is no canonical definition to state claims against.
 -/
@@ -5320,7 +5322,7 @@ end A316094.P10736831136138502745
 /-!
 # A316095: Numbers m such that A(m+1) = A(m) + 3, where A() = A005101() are the abundant numbers.
 
-The programs for A316095, the canonical program `A316095.P1509550343665641608` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316095 has offset 1).
+The programs for A316095, the canonical program `A316095.P1509550343665641608` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316095 has offset 1).
 
 The definition of A316095 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 171 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5352,7 +5354,7 @@ end A316095
 
 `eq[3, A125115(A028310(n))]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A316095
@@ -5370,7 +5372,7 @@ end A316095
 /-!
 # A316096: Numbers m such that A(m+1) = A(m) + 4, where A() = A005101() are the abundant numbers.
 
-The programs for A316096, the canonical program `A316096.P2456358805564774649` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316096 has offset 1).
+The programs for A316096, the canonical program `A316096.P2456358805564774649` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316096 has offset 1).
 
 The definition of A316096 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3055 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5402,7 +5404,7 @@ end A316096
 
 `eq[4, A125115(n+1)]+1`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A316096
@@ -5603,7 +5605,7 @@ end A316096
 /-!
 # A316097: Numbers m such that A(m+1) = A(m) + 6, where A() = A005101() are the abundant numbers.
 
-The programs for A316097, the canonical program `A316097.P17193600129069061208` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316097 has offset 1).
+The programs for A316097, the canonical program `A316097.P17193600129069061208` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A316097 has offset 1).
 
 The definition of A316097 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3517 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5635,7 +5637,7 @@ end A316097
 
 `lt[4, A061496(n+1)]+1`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A316097

@@ -5,6 +5,7 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C013
 import Seq.B000.C014
@@ -24,22 +25,25 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -51,7 +55,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -1475,7 +1478,7 @@ end A392114
 /-!
 # A392116: a(n) = f(n+1) - f(n), where f(n) = floor(prime(n)/5).
 
-The programs for A392116, the canonical program `A392116.P7884063924206955522` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392116 has offset 1).
+The programs for A392116, the canonical program `A392116.P7884063924206955522` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392116 has offset 1).
 
 The definition of A392116 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1484,7 +1487,7 @@ The definition of A392116 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[floor(A000040(n+1)/5)]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A392116
@@ -2283,7 +2286,7 @@ end A392164.P11145821442236347357
 /-!
 # A392166: The Dedekind psi function value of the smallest number whose square is divisible by n.
 
-The programs for A392166, the canonical program `A392166.P416411638160611915` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392166 has offset 1).
+The programs for A392166, the canonical program `A392166.P416411638160611915` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392166 has offset 1).
 
 The definition of A392166 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2292,7 +2295,7 @@ The definition of A392166 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001615(A019554(n+1))`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A392166
@@ -3626,7 +3629,7 @@ end A392170
 /-!
 # A392171: The Dedekind psi function value of the smallest cubefull number that is a multiple of n.
 
-The programs for A392171, the canonical program `A392171.P17248236630189717362` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392171 has offset 1).
+The programs for A392171, the canonical program `A392171.P17248236630189717362` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392171 has offset 1).
 
 The definition of A392171 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A356193, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3635,7 +3638,7 @@ The definition of A392171 is `conditional`: the Lean definition is an OEIS formu
 
 `A001615(A356193(n+1))`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A392171
@@ -4823,7 +4826,7 @@ end A392197.P12410349971603025577
 /-!
 # A392199: Positive integers k such that gcd(k, sigma(k)) is prime.
 
-The programs for A392199, the canonical program `A392199.P2791920592181297903` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392199 has offset 1).
+The programs for A392199, the canonical program `A392199.P2791920592181297903` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392199 has offset 1).
 
 The definition of A392199 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4832,7 +4835,7 @@ The definition of A392199 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A341523(n+1)]+1`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A392199

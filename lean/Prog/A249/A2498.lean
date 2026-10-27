@@ -41,9 +41,11 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
@@ -52,24 +54,25 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3772,7 +3775,7 @@ end A249823
 /-!
 # A249824: Permutation of natural numbers: a(n) = A078898(A003961(A003961(2*n))).
 
-The programs for A249824, the canonical program `A249824.P7083060918856720053` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249824 has offset 1).
+The programs for A249824, the canonical program `A249824.P7083060918856720053` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249824 has offset 1).
 
 The definition of A249824 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A243071, A275716, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3827,7 +3830,7 @@ end A249824
 
 `A275716(A243071(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A249824
@@ -4054,7 +4057,7 @@ end A249824
 /-!
 # A249825: Permutation of natural numbers: a(n) = A246277(A084968(n)).
 
-The programs for A249825, the canonical program `A249825.P17560769283108158928` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249825 has offset 1).
+The programs for A249825, the canonical program `A249825.P17560769283108158928` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249825 has offset 1).
 
 The definition of A249825 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A249823, A250475, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4063,7 +4066,7 @@ The definition of A249825 is `conditional`: the Lean definition is an OEIS formu
 
 `A249823(A250475(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A249825

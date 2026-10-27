@@ -43,6 +43,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
@@ -58,6 +59,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,9 +70,8 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -960,7 +961,7 @@ end
 end A236307.P15973702852663153740
 
 /-!
-# A236309: Total number of distinct least common multiples of (i,j) with 1<=i
+# A236309: Total number of distinct least common multiples of (i,j) with 1<=i<j<=n.
 
 The programs for A236309, there is no canonical definition to state claims against.
 -/
@@ -3444,7 +3445,7 @@ end A236332
 /-!
 # A236333: The (n-2)-th (n>=3) triple of terms gives coefficients of double trinomial P_n(x) = ((n-2)^2*x^2 + n*x + 2)/2 (see comment).
 
-The programs for A236333, the canonical program `A236333.P4796533297437747585` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236333 has offset 3).
+The programs for A236333, the canonical program `A236333.P4796533297437747585` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236333 has offset 3).
 
 The definition of A236333 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3453,7 +3454,7 @@ The definition of A236333 is `conjectured`: the Lean definition is a formula tha
 
 `A080425(n)+A109595(n+1)/A008620(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A236333
@@ -5285,7 +5286,7 @@ end A236345.P3953179205664604616
 /-!
 # A236346: Manhattan distances between n^2 and (n+1)^2 in a left-aligned triangle with next M natural numbers in row M: 1, 2 3, 4 5 6, 7 8 9 10, etc.
 
-The programs for A236346, the canonical program `A236346.P11164933767683975448` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236346 has offset 1).
+The programs for A236346, the canonical program `A236346.P11164933767683975448` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236346 has offset 1).
 
 The definition of A236346 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5294,7 +5295,7 @@ The definition of A236346 is `conjectured`: the Lean definition is a formula tha
 
 `abs(1-Δ[A057050(n+1)])+1`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A236346
@@ -9258,7 +9259,7 @@ end
 end A236389.P12315456509271252856
 
 /-!
-# A236392: G.f.: (x+x^3+x^4)/(1-x-x^3-2*x^4).
+# A236392: Expansion of g.f. (x+x^3+x^4)/(1-x-x^3-2*x^4).
 
 The programs for A236392, the canonical program `A236392.P10552106702680846997` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236392 has offset 0).
 

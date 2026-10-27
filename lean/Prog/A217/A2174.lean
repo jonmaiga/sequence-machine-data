@@ -35,32 +35,33 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1590,7 +1591,7 @@ end A217441
 /-!
 # A217442: Numbers n such that d(prime(n) - 1) | n, where d(k) is the number of divisors of k.
 
-The programs for A217442, the canonical program `A217442.P11818262742147486345` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217442 has offset 1).
+The programs for A217442, the canonical program `A217442.P11818262742147486345` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217442 has offset 1).
 
 The definition of A217442 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 803 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1599,7 +1600,7 @@ The definition of A217442 is `conjectured`: the Lean definition is a formula tha
 
 `lt[(n+1)%A000005(A006093(n+1)), 1]+1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A217442
@@ -1806,7 +1807,7 @@ end A217444
 /-!
 # A217445: Numbers n such that n! has the same number of terminating zeros in bases 3 and 4.
 
-The programs for A217445, the canonical program `A217445.P645570032554833675` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217445 has offset 1).
+The programs for A217445, the canonical program `A217445.P645570032554833675` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217445 has offset 1).
 
 The definition of A217445 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2702 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1815,7 +1816,7 @@ The definition of A217445 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, or(A057427(n), A180017(n))]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A217445
@@ -4073,7 +4074,7 @@ end A217466.P16107173994797782391
 /-!
 # A217467: a(1) = 1; for n > 1, the maximum exponent k such that n^k divides the double factorial n!!.
 
-The programs for A217467, the canonical program `A217467.P1457232228138321781` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217467 has offset 1).
+The programs for A217467, the canonical program `A217467.P1457232228138321781` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217467 has offset 1).
 
 The definition of A217467 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 120 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4082,7 +4083,7 @@ The definition of A217467 is `conjectured`: the Lean definition is a formula tha
 
 `val(A006882(abs(1-n)+2), abs(1-n)+2)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A217467
@@ -4811,7 +4812,7 @@ end A217476.P5094011872081461581
 /-!
 # A217477: Z-sequence for the Riordan triangle A111125.
 
-The programs for A217477, the canonical program `A217477.P11172635933459327032` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217477 has offset 0).
+The programs for A217477, the canonical program `A217477.P11172635933459327032` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217477 has offset 0).
 
 The definition of A217477 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 168 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4893,7 +4894,7 @@ end A217477
 
 `(A004277(n)+2)*A168491(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A217477

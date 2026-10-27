@@ -38,21 +38,25 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -67,8 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1478,7 +1480,7 @@ end A124925
 /-!
 # A124926: Triangle read by rows: T(n,k) = binomial(n,k)*r(k), where r(k) are the Riordan numbers (r(k) = A005043(k); 0 <= k <= n).
 
-The programs for A124926, the canonical program `A124926.P9374051233560020075` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124926 has offset 0).
+The programs for A124926, the canonical program `A124926.P9374051233560020075` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124926 has offset 0).
 
 The definition of A124926 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5151 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1487,7 +1489,7 @@ The definition of A124926 is `conjectured`: the Lean definition is a formula tha
 
 `A091867(A061579(n))`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A124926
@@ -5083,7 +5085,7 @@ end A124941
 /-!
 # A124942: Numbers k such that k and k+5 are 5-almost primes.
 
-The programs for A124942, the canonical program `A124942.P16309435582127969892` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124942 has offset 1).
+The programs for A124942, the canonical program `A124942.P16309435582127969892` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124942 has offset 1).
 
 The definition of A124942 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 633 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5092,7 +5094,7 @@ The definition of A124942 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A014614(n+1)-5, A014614(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A124942
@@ -6321,7 +6323,7 @@ end A124960
 /-!
 # A124961: Triangle read by rows: T(n,k) = mobius(k)*T(n-1,k) + T(n-1,k-1).
 
-The programs for A124961, the canonical program `A124961.P13095389198274275718` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124961 has offset 1).
+The programs for A124961, the canonical program `A124961.P13095389198274275718` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124961 has offset 1).
 
 The definition of A124961 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6330,7 +6332,7 @@ The definition of A124961 is `conditional`: the Lean definition is an OEIS formu
 
 `A008683(col(n)+1)*T(n-1,k)+T(n-1,k-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A124961
@@ -6459,7 +6461,7 @@ end
 end A124962.P4205147759709525652
 
 /-!
-# A124963: Sum of numbers of (directed) Hamiltonian paths for all simple graphs of order n.
+# A124963: 
 
 The programs for A124963, there is no canonical definition to state claims against.
 -/
@@ -6484,7 +6486,7 @@ end
 end A124963.P17251144708594174906
 
 /-!
-# A124964: Total counts of distinct (directed) Hamiltonian cycles for all simple graphs of order n.
+# A124964: Total number of (directed) Hamiltonian cycles for all simple graphs of order n.
 
 The programs for A124964, there is no canonical definition to state claims against.
 -/

@@ -49,21 +49,23 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -73,9 +75,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -9442,7 +9441,7 @@ end A002443.P12996524024261228165
 /-!
 # A002444: Denominator in Feinler's formula for unsigned Bernoulli number |B_{2n}|.
 
-The programs for A002444, the canonical program `A002444.P12837809495973367521` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002444 has offset 0).
+The programs for A002444, the canonical program `A002444.P12837809495973367521` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002444 has offset 0).
 
 The definition of A002444 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4560 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9451,7 +9450,7 @@ The definition of A002444 is `conjectured`: the Lean definition is a formula tha
 
 `(2*n+1)*A363596(2*n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A002444
@@ -9564,7 +9563,7 @@ end A002444
 /-!
 # A002445: Denominators of Bernoulli numbers B_{2n}.
 
-The programs for A002445, the canonical program `A002445.P10846769026289059065` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002445 has offset 0).
+The programs for A002445, the canonical program `A002445.P10846769026289059065` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002445 has offset 0).
 
 The definition of A002445 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A027642, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9573,7 +9572,7 @@ The definition of A002445 is `conditional`: the Lean definition is an OEIS formu
 
 `A027642(2*n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A002445
@@ -15313,16 +15312,16 @@ end A002471.P17674737075418717821
 /-!
 # A002472: Number of pairs x,y such that y-x=2, (x,n)=1, (y,n)=1 and 1 <= x <= n.
 
-The programs for A002472, the canonical program `A002472.P6913863358796282125` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002472 has offset 1).
+The programs for A002472, the canonical program `A002472.P6913863358796282125` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002472 has offset 1).
 
-The definition of A002472 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000265, A058026, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A002472 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A058026, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A002472.P6913863358796282125
 
 `A160467(n+1)*A058026(A000265(n+1))`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A002472
@@ -20793,7 +20792,7 @@ end A002495.P4503677800205729814
 /-!
 # A002496: Primes of the form k^2 + 1.
 
-The programs for A002496, the canonical program `A002496.P13667531374760205001` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002496 has offset 1).
+The programs for A002496, the canonical program `A002496.P13667531374760205001` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002496 has offset 1).
 
 The definition of A002496 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -20900,7 +20899,7 @@ end A002496
 
 `A121326(n%a(n-1))` with `a(0)=2`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A002496

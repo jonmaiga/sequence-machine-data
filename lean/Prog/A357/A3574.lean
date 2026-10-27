@@ -34,29 +34,28 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C004
 import Seq.B001.C006
-import Seq.B001.C009
+import Seq.B001.C007
+import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
-import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5306,7 +5305,7 @@ end A357497.P6874499508126268059
 /-!
 # A357498: Triangle read by rows where each term in row n is the next greater multiple of n..1 divided by n..1.
 
-The programs for A357498, the canonical program `A357498.P11020466044338297942` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357498 has offset 1).
+The programs for A357498, the canonical program `A357498.P11020466044338297942` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357498 has offset 1).
 
 The definition of A357498 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9870 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5315,7 +5314,7 @@ The definition of A357498 is `conjectured`: the Lean definition is a formula tha
 
 `A357431(n+1)/A004736(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A357498

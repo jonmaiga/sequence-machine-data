@@ -35,10 +35,12 @@ import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
@@ -51,7 +53,6 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -62,9 +63,9 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1281,7 +1282,7 @@ end A287720.P7972693648803001973
 /-!
 # A287722: {0->1, 1->010}-transform of the infinite Fibonacci word A003849.
 
-The programs for A287722, the canonical program `A287722.P15445179942749685933` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287722 has offset 1).
+The programs for A287722, the canonical program `A287722.P15445179942749685933` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287722 has offset 1).
 
 The definition of A287722 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1290,7 +1291,7 @@ The definition of A287722 is `conjectured`: the Lean definition is a formula tha
 
 `char[A287724(n+1)-1]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A287722
@@ -1475,7 +1476,7 @@ end A287722
 /-!
 # A287723: Positions of 0 in A287722; complement of A287724.
 
-The programs for A287723, the canonical program `A287723.P11608785159484584755` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287723 has offset 1).
+The programs for A287723, the canonical program `A287723.P11608785159484584755` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287723 has offset 1).
 
 The definition of A287723 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1748,7 +1749,7 @@ end A287723
 
 `∑[A001468(A142150(n))+1]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A287723
@@ -1984,7 +1985,7 @@ end A287723
 /-!
 # A287724: Positions of 1 in A287722; complement of A287723.
 
-The programs for A287724, the canonical program `A287724.P16226668830565031982` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287724 has offset 1).
+The programs for A287724, the canonical program `A287724.P16226668830565031982` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287724 has offset 1).
 
 The definition of A287724 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2133,7 +2134,7 @@ end A287724
 
 `∑[A001468(A005206(n))]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A287724
@@ -2514,7 +2515,7 @@ end A287724
 /-!
 # A287725: {0->1, 1->011}-transform of the infinite Fibonacci word A003849.
 
-The programs for A287725, the canonical program `A287725.P381442669331044004` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287725 has offset 1).
+The programs for A287725, the canonical program `A287725.P381442669331044004` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287725 has offset 1).
 
 The definition of A287725 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2577,7 +2578,7 @@ end A287725
 
 `A287722(n+1)+A221151(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A287725
@@ -3273,7 +3274,7 @@ end A287726
 /-!
 # A287727: Positions of 1 in A287725; complement of A287726.
 
-The programs for A287727, the canonical program `A287727.P18038201456973574914` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287727 has offset 1).
+The programs for A287727, the canonical program `A287727.P18038201456973574914` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287727 has offset 1).
 
 The definition of A287727 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3368,7 +3369,7 @@ end A287727
 
 `A383422(n)+A287770(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A287727
@@ -5961,7 +5962,7 @@ end A287740.P3982803324045857831
 /-!
 # A287742: Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 342", based on the 5-celled von Neumann neighborhood.
 
-The programs for A287742, the canonical program `A287742.P2808893076939197849` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287742 has offset 0).
+The programs for A287742, the canonical program `A287742.P2808893076939197849` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287742 has offset 0).
 
 The definition of A287742 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 200 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6075,7 +6076,7 @@ end A287742
 
 `A289404(n)-a(n-2)` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A287742
@@ -6208,7 +6209,7 @@ end A287742
 /-!
 # A287743: Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 342", based on the 5-celled von Neumann neighborhood.
 
-The programs for A287743, the canonical program `A287743.P4852823348231064615` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287743 has offset 0).
+The programs for A287743, the canonical program `A287743.P4852823348231064615` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287743 has offset 0).
 
 The definition of A287743 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6217,7 +6218,7 @@ The definition of A287743 is `conjectured`: the Lean definition is a formula tha
 
 `lcm(A286508(n), A287742(n))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A287743
@@ -6834,7 +6835,7 @@ end A287744
 /-!
 # A287745: Decimal representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 342", based on the 5-celled von Neumann neighborhood.
 
-The programs for A287745, the canonical program `A287745.P15680675513556340977` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287745 has offset 0).
+The programs for A287745, the canonical program `A287745.P15680675513556340977` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287745 has offset 0).
 
 The definition of A287745 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6843,7 +6844,7 @@ The definition of A287745 is `conjectured`: the Lean definition is a formula tha
 
 `A032085(n+2)-4*a(n-2)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A287745
@@ -6976,7 +6977,7 @@ end A287745
 /-!
 # A287746: First differences of A154293.
 
-The programs for A287746, the canonical program `A287746.P908048233123958262` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287746 has offset 1).
+The programs for A287746, the canonical program `A287746.P908048233123958262` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287746 has offset 1).
 
 The definition of A287746 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A287733, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6985,7 +6986,7 @@ The definition of A287746 is `conditional`: the Lean definition is an OEIS formu
 
 `A287733(n+1)/6`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A287746
@@ -8612,21 +8613,6 @@ end
 
 end A287767.P8918079102227145914
 
-/-! ## A287767.P14978213830994357103
-
-`A276040(A026817(n+2))`
--/
-
-namespace A287767.P14978213830994357103
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A276040 (A026817 (n + 2)).toNat
-
-end
-
-end A287767.P14978213830994357103
-
 /-!
 # A287769: {0->1, 1->110}-transform of the infinite Fibonacci word A003849.
 
@@ -8867,7 +8853,7 @@ end A287769
 /-!
 # A287770: Positions of 1 in A287769; complement of A276855.
 
-The programs for A287770, the canonical program `A287770.P11237212306429765726` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287770 has offset 1).
+The programs for A287770, the canonical program `A287770.P11237212306429765726` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287770 has offset 1).
 
 The definition of A287770 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9065,7 +9051,7 @@ end A287770
 
 `ceil(A195121(n+1)/5+n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A287770
@@ -9473,7 +9459,7 @@ end A287771
 /-!
 # A287772: {0->1, 1->00}-transform of the infinite Fibonacci word A003849.
 
-The programs for A287772, the canonical program `A287772.P12816254190753866578` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287772 has offset 1).
+The programs for A287772, the canonical program `A287772.P12816254190753866578` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287772 has offset 1).
 
 The definition of A287772 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9557,7 +9543,7 @@ end A287772
 
 `A230603(a(n-1)+n)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A287772
@@ -9943,7 +9929,7 @@ end A287772
 /-!
 # A287773: {0->010, 1->101}-transform of the infinite Fibonacci word A003849.
 
-The programs for A287773, the canonical program `A287773.P9347372102348700689` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287773 has offset 1).
+The programs for A287773, the canonical program `A287773.P9347372102348700689` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287773 has offset 1).
 
 The definition of A287773 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A287795, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9952,7 +9938,7 @@ The definition of A287773 is `conditional`: the Lean definition is an OEIS formu
 
 `1-A287795(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A287773
@@ -10183,7 +10169,7 @@ end A287773
 /-!
 # A287774: Positions of 0 in A287773; complement of A287777.
 
-The programs for A287774, the canonical program `A287774.P8513331073826968044` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287774 has offset 1).
+The programs for A287774, the canonical program `A287774.P8513331073826968044` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287774 has offset 1).
 
 The definition of A287774 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10223,7 +10209,7 @@ end A287774
 
 `a(n-1)+A187944(n)+1` with `a(0)=1`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A287774
@@ -10667,7 +10653,7 @@ end A287774
 /-!
 # A287775: Positions of 0 in A287772; complement of A050140 (conjectured and proved).
 
-The programs for A287775, the canonical program `A287775.P13905753593983467473` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287775 has offset 1).
+The programs for A287775, the canonical program `A287775.P13905753593983467473` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287775 has offset 1).
 
 The definition of A287775 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10993,7 +10979,7 @@ end A287775
 
 `A000201(A008619(n))+1+n`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A287775
@@ -11253,7 +11239,7 @@ end A287776.P10686931603965251753
 /-!
 # A287777: Positions of 1 in A287773; complement of A287774.
 
-The programs for A287777, the canonical program `A287777.P3751153092046747703` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287777 has offset 1).
+The programs for A287777, the canonical program `A287777.P3751153092046747703` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287777 has offset 1).
 
 The definition of A287777 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11292,7 +11278,7 @@ end A287777
 
 `A187945(n+1)+1+n`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A287777
@@ -12342,7 +12328,7 @@ end A287788.P14830032119325169063
 /-!
 # A287790: {0->001, 1->110}-transform of the infinite Fibonacci word A003849.
 
-The programs for A287790, the canonical program `A287790.P4979616440180160803` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287790 has offset 1).
+The programs for A287790, the canonical program `A287790.P4979616440180160803` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287790 has offset 1).
 
 The definition of A287790 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12378,7 +12364,7 @@ end A287790
 
 `A287657(A004396(n+1))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A287790
@@ -12465,7 +12451,7 @@ end A287790
 /-!
 # A287791: Positions of 0 in A287790; complement of A287792.
 
-The programs for A287791, the canonical program `A287791.P11213097191955050961` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287791 has offset 1).
+The programs for A287791, the canonical program `A287791.P11213097191955050961` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287791 has offset 1).
 
 The definition of A287791 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12500,7 +12486,7 @@ end A287791
 
 `A050140(A001950(n+1)-A050140(n+1))+n`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A287791
@@ -12810,7 +12796,7 @@ end A287791
 /-!
 # A287792: Positions of 1 in A287790; complement of A287791.
 
-The programs for A287792, the canonical program `A287792.P12296564877876071040` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287792 has offset 1).
+The programs for A287792, the canonical program `A287792.P12296564877876071040` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287792 has offset 1).
 
 The definition of A287792 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6910 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12819,7 +12805,7 @@ The definition of A287792 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A287802(n+1)+1, A287802(n+1)]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A287792
@@ -12976,7 +12962,7 @@ end A287792
 /-!
 # A287795: {0->101, 1->010}-transform of the infinite Fibonacci word A003849.
 
-The programs for A287795, the canonical program `A287795.P10719789566400101505` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287795 has offset 1).
+The programs for A287795, the canonical program `A287795.P10719789566400101505` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A287795 has offset 1).
 
 The definition of A287795 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13014,7 +13000,7 @@ end A287795
 
 `1-A287657(A133310(n))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A287795

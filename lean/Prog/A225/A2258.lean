@@ -56,15 +56,16 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -75,8 +76,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1974,7 +1973,7 @@ end A225819.P2007308199230996866
 /-!
 # A225821: a(n) = Product_{p | p is prime and p, p-1 both divide n}.
 
-The programs for A225821, the canonical program `A225821.P8890908099529802054` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225821 has offset 1).
+The programs for A225821, the canonical program `A225821.P8890908099529802054` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225821 has offset 1).
 
 The definition of A225821 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A027642, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1983,7 +1982,7 @@ The definition of A225821 is `conditional`: the Lean definition is an OEIS formu
 
 `gcd(n+1, A027642(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A225821
@@ -4133,7 +4132,7 @@ end A225834.P5210655773278753970
 /-!
 # A225836: Numbers of form 2^j*(4k+1), j >= 0, k >= 1.
 
-The programs for A225836, the canonical program `A225836.P17130056112689041821` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225836 has offset 1).
+The programs for A225836, the canonical program `A225836.P17130056112689041821` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225836 has offset 1).
 
 The definition of A225836 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4142,7 +4141,7 @@ The definition of A225836 is `conjectured`: the Lean definition is a formula tha
 
 `lt[1, A093178(A103391(n+1)-1)]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A225836
@@ -5274,7 +5273,7 @@ end A225837
 /-!
 # A225838: Numbers of form 2^i*3^j*(6k+5), i, j, k >= 0.
 
-The programs for A225838, the canonical program `A225838.P9291105408956679938` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225838 has offset 1).
+The programs for A225838, the canonical program `A225838.P9291105408956679938` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225838 has offset 1).
 
 The definition of A225838 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4974 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5486,7 +5485,7 @@ end A225838
 
 `eq[2, A065330(n+1)%3]+1`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A225838
@@ -7587,7 +7586,7 @@ end A225857
 /-!
 # A225858: Numbers of the form 2^i*3^j*(12k+7) or 2^i*3^j*(12k+11), i, j, k >= 0.
 
-The programs for A225858, the canonical program `A225858.P8779142669579381779` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225858 has offset 1).
+The programs for A225858, the canonical program `A225858.P8779142669579381779` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225858 has offset 1).
 
 The definition of A225858 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4963 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7654,7 +7653,7 @@ end A225858
 
 `lt[1, A065330(n+1)%4]+1`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A225858
@@ -8100,7 +8099,7 @@ end A225861
 /-!
 # A225862: Primes of the form (n + prime(n))/2.
 
-The programs for A225862, the canonical program `A225862.P12697072099318197817` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225862 has offset 1).
+The programs for A225862, the canonical program `A225862.P12697072099318197817` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A225862 has offset 1).
 
 The definition of A225862 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 507 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8135,7 +8134,7 @@ end A225862
 
 `p?[A111333(2*n+1)+n]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A225862
@@ -10999,7 +10998,7 @@ end
 end A225888.P10051406008242597841
 
 /-!
-# A225889: Least prime p_m such that n = p_m-p_{m-1}+...+(-1)^(m-k)*p_k for some 0
+# A225889: Least prime p_m such that n = p_m-p_{m-1}+...+(-1)^(m-k)*p_k for some 0<k<m, where p_j denotes the j-th prime.
 
 The programs for A225889, there is no canonical definition to state claims against.
 -/

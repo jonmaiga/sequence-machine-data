@@ -46,12 +46,15 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C003
 import Seq.B003.C004
@@ -67,7 +70,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4509,7 +4511,7 @@ end A279048.P14743480702174469160
 /-!
 # A279051: Sum of odd nonprime divisors of n.
 
-The programs for A279051, the canonical program `A279051.P13470628447190644571` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279051 has offset 1).
+The programs for A279051, the canonical program `A279051.P13470628447190644571` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279051 has offset 1).
 
 The definition of A279051 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4587,7 +4589,7 @@ end A279051
 
 `A300893(A153733(n)+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A279051
@@ -6450,7 +6452,7 @@ end
 end A279065.P14153655922401533717
 
 /-!
-# A279066: Least prime q such that (q-p)/(r-q), where p
+# A279066: Least prime q such that (q-p)/(r-q), where p<q<r are three consecutive primes, produces a new ratio <= 1, arranged by Farey fractions A038566/A038567.
 
 The programs for A279066, there is no canonical definition to state claims against.
 -/
@@ -6698,7 +6700,7 @@ end A279069.P11928405306256347576
 /-!
 # A279071: Numbers k such that Fibonacci(k) == +-1 (mod k).
 
-The programs for A279071, the canonical program `A279071.P17899804211645114015` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279071 has offset 1).
+The programs for A279071, the canonical program `A279071.P17899804211645114015` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279071 has offset 1).
 
 The definition of A279071 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6707,7 +6709,7 @@ The definition of A279071 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A023162(n+1), A023173(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A279071
@@ -8152,7 +8154,7 @@ end A279080
 /-!
 # A279081: Number of divisors of the n-th tetrahedral number.
 
-The programs for A279081, the canonical program `A279081.P11202189863760932497` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279081 has offset 1).
+The programs for A279081, the canonical program `A279081.P11202189863760932497` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279081 has offset 1).
 
 The definition of A279081 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8161,7 +8163,7 @@ The definition of A279081 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000005((n+1)*(n+2)*(n+3)/6)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A279081

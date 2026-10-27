@@ -44,7 +44,6 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -57,16 +56,18 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
@@ -74,7 +75,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3355,7 +3355,7 @@ end
 end A085014.P7113239849668421341
 
 /-!
-# A085015: Multiplicity of the root 1 in the characteristic polynomial mod 2 of the n X n matrix with entries binomial(i+j,i), 0<=i,j
+# A085015: Multiplicity of the root 1 in the characteristic polynomial mod 2 of the n X n matrix with entries binomial(i+j,i), 0<=i,j<n.
 
 The programs for A085015, there is no canonical definition to state claims against.
 -/
@@ -3523,7 +3523,7 @@ end
 end A085016.P13283799296222242894
 
 /-!
-# A085018: Numbers n such that there is no divisor m of n with m
+# A085018: Numbers n such that there is no divisor m of n with m<n and A083752(n) = (n/m)A083752(m).
 
 The programs for A085018, there is no canonical definition to state claims against.
 -/
@@ -3668,7 +3668,7 @@ end A085019.P5458229588863204209
 /-!
 # A085020: a(n) = Sum_{d|n, (d+1) prime} (d + 1).
 
-The programs for A085020, the canonical program `A085020.P16835461110342014279` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085020 has offset 1).
+The programs for A085020, the canonical program `A085020.P16835461110342014279` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085020 has offset 1).
 
 The definition of A085020 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3729,7 +3729,7 @@ end A085020
 
 `∑{d}[n+1, (#+1)*A010051(#+1)]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A085020
@@ -3825,7 +3825,7 @@ end A085020
 /-!
 # A085021: Number of prime factors of cyclotomic(n,2), which is A019320(n), the value of the n-th cyclotomic polynomial evaluated at x=2.
 
-The programs for A085021, the canonical program `A085021.P7535736726841233516` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085021 has offset 1).
+The programs for A085021, the canonical program `A085021.P7535736726841233516` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085021 has offset 1).
 
 The definition of A085021 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1206 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3834,7 +3834,7 @@ The definition of A085021 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A008683(#)*A046051((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A085021
@@ -5595,7 +5595,7 @@ end A085028.P6367095135030181660
 /-!
 # A085029: Number of prime factors of cyclotomic(n,4), which is A019322(n), the value of the n-th cyclotomic polynomial evaluated at x=4.
 
-The programs for A085029, the canonical program `A085029.P8212246544220823481` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085029 has offset 1).
+The programs for A085029, the canonical program `A085029.P8212246544220823481` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085029 has offset 1).
 
 The definition of A085029 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 112 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5604,7 +5604,7 @@ The definition of A085029 is `conjectured`: the Lean definition is a formula tha
 
 `A051903(5^∑{d}[n+1, A008683(#)*A057957((n+1)/#)])`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A085029
@@ -11383,7 +11383,7 @@ end A085089
 /-!
 # A085090: If 2n-1 is prime then a(n) = 2n-1, otherwise a(n) = 0.
 
-The programs for A085090, the canonical program `A085090.P1638787628522915575` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085090 has offset 1).
+The programs for A085090, the canonical program `A085090.P1638787628522915575` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085090 has offset 1).
 
 The definition of A085090 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A101264, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11392,7 +11392,7 @@ The definition of A085090 is `conditional`: the Lean definition is an OEIS formu
 
 `(2*(n+1)-1)*A101264(n)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A085090
@@ -11938,7 +11938,7 @@ end A085091.P1661442205986557949
 /-!
 # A085097: Ramanujan sum c_n(3).
 
-The programs for A085097, the canonical program `A085097.P69014794838746479` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085097 has offset 1).
+The programs for A085097, the canonical program `A085097.P69014794838746479` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085097 has offset 1).
 
 The definition of A085097 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A008683, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11947,7 +11947,7 @@ The definition of A085097 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(n+1)*A008683((n+1)/gcd(n+1, 3))/A000010((n+1)/gcd(n+1, 3))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A085097

@@ -46,7 +46,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -54,15 +54,17 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -71,7 +73,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4227,7 +4228,7 @@ end A097245.P12776350885366369584
 
 The programs for A097246, the canonical program `A097246.P2470047970217943753` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097246 has offset 1).
 
-The definition of A097246 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003961, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A097246 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000188, A003961, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A097246.P2470047970217943753
@@ -8838,7 +8839,7 @@ end A097271.P6485977788462041634
 
 The programs for A097272, the canonical program `A097272.P984936321937266580` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097272 has offset 1).
 
-The definition of A097272 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000265, A003961, A046523, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A097272 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003961, A046523, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A097272.P984936321937266580
@@ -8903,12 +8904,6 @@ namespace A097272
 /-- `A003961(A336158(n+1))*A006519(n+1)` -/
 def P835923418145014536.Spec : Prop :=
   ∀ n, P835923418145014536.a n = A097272 (n + 1)
-
-theorem P835923418145014536.correct : P835923418145014536.Spec := by
-  intro n
-  simp only [A097272, Nat.add_sub_cancel, A097272.P835923418145014536.a, A097272.P984936321937266580.a, A000265, A000265.P2772582252347773295.a, A003961, A003961.P5996473960037614004.a, A006519, A006519.P10435570611646570274.a, A046523, A046523.P3407874444772092792.a, A336158, A336158.P5052491878283479858.a, A003602, A003602.P7612175048291952394.a, A171977, A171977.P14092944863121073856.a, A181819, A181819.P15090535388863431201.a, A181821, A181821.P11277667539367847379.a, A253885, A253885.P8852473244354028115.f1, A253885.P8852473244354028115.a, A001511, A001511.P17146462531039486101.a, A008578, A008578.P3639467937083264764.a, A038712, A038712.P3404197303190209645.a, A064989, A064989.P13349672914146769936.a, A108951, A108951.P1294613322156543690.a, A110963, A110963.P3344771894533151408.a, A122111, A122111.P18124015185857335041.a, A252749, A252749.P15054942815197957636.a, A025480, A025480.P15873863116418380882.a, A052126, A052126.P1944428405920482243.a, A061395, A061395.P8431317036300486107.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, A158611, A158611.P9275629407611603775.a, A252748, A252748.P16209281916487994805.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A097272
 
@@ -9079,7 +9074,7 @@ end A097272
 /-!
 # A097273: Least integer with each "mod 2 prime signature".
 
-The programs for A097273, the canonical program `A097273.P8244494821502162053` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097273 has offset 1).
+The programs for A097273, the canonical program `A097273.P8244494821502162053` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097273 has offset 1).
 
 The definition of A097273 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 149 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9195,7 +9190,7 @@ end A097273
 
 `eq[1, A003963(A319627(n+1))]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A097273
@@ -9289,7 +9284,7 @@ def P6913255354285206460.Spec : Prop :=
 end A097273
 
 /-!
-# A097277: a(n) = number of permutations of , such that p(k) > p(k-1) when k is composite and p(k) < p(k-1) when k is prime.
+# A097277: a(n) = number of permutations <p(1), p(2), ..., p(n)> of <1, 2, ..., n>, such that p(k) > p(k-1) when k is composite and p(k) < p(k-1) when k is prime.
 
 The programs for A097277, there is no canonical definition to state claims against.
 -/
@@ -10835,7 +10830,7 @@ end
 end A097292.P1692148698612890573
 
 /-!
-# A097293: Contains exactly once every triple i,j,k such that 0
+# A097293: Contains exactly once every triple i,j,k such that 0<i<j<k.
 
 The programs for A097293, there is no canonical definition to state claims against.
 -/

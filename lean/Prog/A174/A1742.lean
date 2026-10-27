@@ -41,6 +41,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
@@ -51,11 +52,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -69,9 +72,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1319,7 +1319,7 @@ end A174217.P10083169907401815222
 /-!
 # A174219: Integers equal to sqrt of A147846(n) + A147846(n+1).
 
-The programs for A174219, the canonical program `A174219.P9674562942544645615` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174219 has offset 1).
+The programs for A174219, the canonical program `A174219.P9674562942544645615` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174219 has offset 1).
 
 The definition of A174219 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1538,7 +1538,7 @@ end A174219
 
 `∩[A093515(n+1)-1, A093515(n+1)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A174219
@@ -1906,7 +1906,7 @@ end A174219
 /-!
 # A174223: Add to 2n+1 the next three primes > 2n+1.
 
-The programs for A174223, the canonical program `A174223.P16110964862743191397` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174223 has offset 0).
+The programs for A174223, the canonical program `A174223.P16110964862743191397` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174223 has offset 0).
 
 The definition of A174223 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1915,7 +1915,7 @@ The definition of A174223 is `conjectured`: the Lean definition is a formula tha
 
 `A034961(A000720(2*n+1)+1)+2*n+1`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A174223
@@ -7433,7 +7433,7 @@ end A174274.P10033021947580892049
 /-!
 # A174275: a(n) = 2^(n-1) mod M(n) where M(n) = A014963(n) is the exponential of the Mangoldt function.
 
-The programs for A174275, the canonical program `A174275.P7115137012869006625` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174275 has offset 1).
+The programs for A174275, the canonical program `A174275.P7115137012869006625` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174275 has offset 1).
 
 The definition of A174275 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A014963, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7442,7 +7442,7 @@ The definition of A174275 is `conditional`: the Lean definition is an OEIS formu
 
 `A000079(n)%A014963(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A174275
@@ -8254,7 +8254,7 @@ end A174281.P3169228893129931955
 /-!
 # A174282: a(n) = 3^n mod M(n) where M(n) = A014963(n) is the exponential of the Mangoldt function.
 
-The programs for A174282, the canonical program `A174282.P8316846200560944201` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174282 has offset 1).
+The programs for A174282, the canonical program `A174282.P8316846200560944201` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174282 has offset 1).
 
 The definition of A174282 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A014963, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8263,7 +8263,7 @@ The definition of A174282 is `conditional`: the Lean definition is an OEIS formu
 
 `A000244(n)%A014963(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A174282

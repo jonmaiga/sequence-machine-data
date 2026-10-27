@@ -37,8 +37,8 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
@@ -46,6 +46,7 @@ import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -53,6 +54,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -66,8 +68,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -545,7 +545,7 @@ end A307303.P15164943733813142863
 /-!
 # A307304: Number of inequivalent ways of placing 2 nonattacking rooks on n X n board up to rotations and reflections of the board.
 
-The programs for A307304, the canonical program `A307304.P16711502216985444807` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307304 has offset 1).
+The programs for A307304, the canonical program `A307304.P16711502216985444807` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307304 has offset 1).
 
 The definition of A307304 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -713,7 +713,7 @@ end A307304
 
 `A109900(n)+A011863(n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A307304
@@ -1234,16 +1234,16 @@ end A307312.P10126057460894318139
 /-!
 # A307313: a(n) is the denominator of n/2^(length of the binary representation of n).
 
-The programs for A307313, the canonical program `A307313.P17841615215202485845` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307313 has offset 1).
+The programs for A307313, the canonical program `A307313.P17841615215202485845` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307313 has offset 1).
 
-The definition of A307313 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A070940, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A307313 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A307313.P17841615215202485845
 
 `2^A070940(n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A307313
@@ -1694,7 +1694,7 @@ end A307313
 /-!
 # A307314: Number of divisors d of 2n such that adding d to 2n in binary requires no carries.
 
-The programs for A307314, the canonical program `A307314.P7749159603707739801` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307314 has offset 1).
+The programs for A307314, the canonical program `A307314.P7749159603707739801` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307314 has offset 1).
 
 The definition of A307314 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1703,7 +1703,7 @@ The definition of A307314 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000007(and(#, 2*(n+1)))]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A307314
@@ -4002,7 +4002,7 @@ end A307346.P8365673221951263603
 /-!
 # A307349: a(n) = Sum_{i=1..n} Sum_{j=1..n} (-1)^(i+j) * (i+j)!/(2!*i!*j!).
 
-The programs for A307349, the canonical program `A307349.P9464959732630918459` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307349 has offset 0).
+The programs for A307349, the canonical program `A307349.P9464959732630918459` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307349 has offset 0).
 
 The definition of A307349 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A120305, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4011,7 +4011,7 @@ The definition of A307349 is `conditional`: the Lean definition is an OEIS formu
 
 `(A120305(n)-(-1)^n)/2`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A307349
@@ -5019,7 +5019,7 @@ end A307359.P3479616079789025537
 /-!
 # A307360: A sequence in which every divisor other than 1 is used at most three times.
 
-The programs for A307360, the canonical program `A307360.P8284333854152591718` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307360 has offset 1).
+The programs for A307360, the canonical program `A307360.P8284333854152591718` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307360 has offset 1).
 
 The definition of A307360 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5028,7 +5028,7 @@ The definition of A307360 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A089581(n+1), A166684(n+1)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A307360
@@ -6607,7 +6607,7 @@ end A307380.P9751120593684348815
 /-!
 # A307381: Number of sextic primitive Dirichlet characters modulo n.
 
-The programs for A307381, the canonical program `A307381.P12662117091474292687` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307381 has offset 1).
+The programs for A307381, the canonical program `A307381.P12662117091474292687` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307381 has offset 1).
 
 The definition of A307381 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6616,7 +6616,7 @@ The definition of A307381 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A008683(#)*A319100((n+1)/#)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A307381

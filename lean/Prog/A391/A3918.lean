@@ -30,22 +30,26 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C005
+import Seq.B002.C003
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -57,9 +61,8 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1472,7 +1475,7 @@ end A391825.P1411411007190068077
 /-!
 # A391826: Number of partitions of the vertices of the n-ladder graph into dominating sets.
 
-The programs for A391826, the canonical program `A391826.P2783923816481553111` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391826 has offset 1).
+The programs for A391826, the canonical program `A391826.P2783923816481553111` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391826 has offset 1).
 
 The definition of A391826 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A180762, A230813, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1481,7 +1484,7 @@ The definition of A391826 is `conditional`: the Lean definition is an OEIS formu
 
 `1+A180762(n+1)+A230813(n+1)/2`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A391826
@@ -1779,7 +1782,7 @@ end A391838.P17059668758236458957
 /-!
 # A391840: Base 16 sum of digits of prime(n).
 
-The programs for A391840, the canonical program `A391840.P6091312888853669410` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391840 has offset 1).
+The programs for A391840, the canonical program `A391840.P6091312888853669410` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391840 has offset 1).
 
 The definition of A391840 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A053836, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1788,7 +1791,7 @@ The definition of A391840 is `conditional`: the Lean definition is an OEIS formu
 
 `A053836(A000040(n+1))`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A391840
@@ -3845,7 +3848,7 @@ end A391864.P13376465630425161802
 /-!
 # A391868: Start with the list of positive integers 1,2,3,... . After each integer k, insert k empty positions. Fill these positions, from left to right, with the positive integers in order. Repeat this spacing-and-filling process indefinitely. The sequence consists of the positions of the last occurrence of 1 after each step.
 
-The programs for A391868, the canonical program `A391868.P15801713376637900617` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391868 has offset 1).
+The programs for A391868, the canonical program `A391868.P15801713376637900617` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391868 has offset 1).
 
 The definition of A391868 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3854,7 +3857,7 @@ The definition of A391868 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+A006893(n-1)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A391868
@@ -4104,7 +4107,7 @@ end A391878.P2029988473201524770
 /-!
 # A391883: a(n) = A000010(n) mod A048865(n).
 
-The programs for A391883, the canonical program `A391883.P2614756072055188463` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391883 has offset 3).
+The programs for A391883, the canonical program `A391883.P2614756072055188463` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391883 has offset 3).
 
 The definition of A391883 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A048865, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4113,7 +4116,7 @@ The definition of A391883 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(n+3)%A048865(n+3)`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A391883
@@ -4911,7 +4914,7 @@ end A391898.P11018964781191581943
 /-!
 # A391899: The maximum exponent in the prime factorization of the exponentially squarefree numbers (A209061).
 
-The programs for A391899, the canonical program `A391899.P10823638519009848898` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391899 has offset 1).
+The programs for A391899, the canonical program `A391899.P10823638519009848898` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391899 has offset 1).
 
 The definition of A391899 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051903, A209061, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4920,7 +4923,7 @@ The definition of A391899 is `conditional`: the Lean definition is an OEIS formu
 
 `A051903(A209061(n+1))`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A391899

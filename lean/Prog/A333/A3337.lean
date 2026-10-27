@@ -39,21 +39,24 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -61,14 +64,13 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1023,7 +1025,7 @@ end A333713.P10791591645201295352
 /-!
 # A333714: Squares visited by a chess king moving on a square-spiral numbered board where the king moves to the adjacent unvisited square containing the spiral number with the most divisors. In case of a tie it chooses the square with the highest spiral number.
 
-The programs for A333714, the canonical program `A333714.P4434585446613422265` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333714 has offset 1).
+The programs for A333714, the canonical program `A333714.P4434585446613422265` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333714 has offset 1).
 
 The definition of A333714 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 112 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1293,7 +1295,7 @@ end A333714
 
 `lt[1/2, A098108(C(2, C(3, n²))+n)]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A333714
@@ -3082,7 +3084,7 @@ end A333743.P7895945324826390385
 /-!
 # A333747: Numbers that are either the product of two consecutive primes or two primes with a prime in between.
 
-The programs for A333747, the canonical program `A333747.P4087527684996294402` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333747 has offset 1).
+The programs for A333747, the canonical program `A333747.P4087527684996294402` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333747 has offset 1).
 
 The definition of A333747 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3091,7 +3093,7 @@ The definition of A333747 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000040(ceil((n+1)/2))*A000040(ceil((n+4)/2))`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A333747
@@ -3595,7 +3597,7 @@ end A333749.P14515614072788273318
 /-!
 # A333750: Number of prime power divisors of n that are <= sqrt(n).
 
-The programs for A333750, the canonical program `A333750.P13112265574583452252` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333750 has offset 1).
+The programs for A333750, the canonical program `A333750.P13112265574583452252` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333750 has offset 1).
 
 The definition of A333750 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3604,7 +3606,7 @@ The definition of A333750 is `conjectured`: the Lean definition is a formula tha
 
 `∑{e}[A072504(n+1), #]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A333750
@@ -4043,7 +4045,7 @@ end A333752.P13213659158355446965
 /-!
 # A333753: Sum of prime power divisors of n that are <= sqrt(n).
 
-The programs for A333753, the canonical program `A333753.P1428503214538916222` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333753 has offset 1).
+The programs for A333753, the canonical program `A333753.P1428503214538916222` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333753 has offset 1).
 
 The definition of A333753 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4052,7 +4054,7 @@ The definition of A333753 is `conjectured`: the Lean definition is a formula tha
 
 `A023889(A072504(n+1))`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A333753
@@ -5817,7 +5819,7 @@ end A333770.P8592123963882336254
 /-!
 # A333771: Triangular numbers that are the product of four distinct primes.
 
-The programs for A333771, the canonical program `A333771.P212505724064706080` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333771 has offset 1).
+The programs for A333771, the canonical program `A333771.P212505724064706080` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333771 has offset 1).
 
 The definition of A333771 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3390 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5886,7 +5888,7 @@ end A333771
 
 `A000217(∩[A114435(n+1), A215726(n+1)])`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A333771
@@ -7958,7 +7960,7 @@ end A333786.P7657682689772603914
 /-!
 # A333787: Fully multiplicative with a(2) = 2 and a(p) = p-1 for odd primes p.
 
-The programs for A333787, the canonical program `A333787.P7563771657480233851` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333787 has offset 1).
+The programs for A333787, the canonical program `A333787.P7563771657480233851` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A333787 has offset 1).
 
 The definition of A333787 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003958, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7967,7 +7969,7 @@ The definition of A333787 is `conditional`: the Lean definition is an OEIS formu
 
 `A003958(n+1)*A006519(n+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A333787

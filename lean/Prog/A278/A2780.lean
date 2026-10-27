@@ -51,16 +51,19 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -68,8 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2424,7 +2425,7 @@ end A278027.P16305141431761525121
 /-!
 # A278029: a(1) = 0; for n > 1, a(n) = k if n is a non-perfect-power, A007916(k); or 0 if n is a perfect power.
 
-The programs for A278029, the canonical program `A278029.P1112025626637894235` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278029 has offset 1).
+The programs for A278029, the canonical program `A278029.P1112025626637894235` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278029 has offset 1).
 
 The definition of A278029 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2433,7 +2434,7 @@ The definition of A278029 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A000124(n-A076411(n+1))]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A278029
@@ -2680,7 +2681,7 @@ end A278035.P12232829848303885294
 /-!
 # A278038: Binary vectors not containing three consecutive 1's; or, representation of n in the tribonacci base.
 
-The programs for A278038, the canonical program `A278038.P15952078169272648163` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278038 has offset 0).
+The programs for A278038, the canonical program `A278038.P15952078169272648163` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278038 has offset 0).
 
 The definition of A278038 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2689,7 +2690,7 @@ The definition of A278038 is `conjectured`: the Lean definition is a formula tha
 
 `A007088(eq[0, and(n, 2*and(n, 2*n))])`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A278038
@@ -4422,7 +4423,7 @@ end A278041
 /-!
 # A278042: Number of 0's in tribonacci representation of n (cf. A278038).
 
-The programs for A278042, the canonical program `A278042.P17948730681649741485` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278042 has offset 0).
+The programs for A278042, the canonical program `A278042.P17948730681649741485` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278042 has offset 0).
 
 The definition of A278042 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4431,7 +4432,7 @@ The definition of A278042 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[A278038(n), 1-#]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A278042
@@ -4914,7 +4915,7 @@ end A278042
 /-!
 # A278043: Number of 1's in tribonacci representation of n (cf. A278038).
 
-The programs for A278043, the canonical program `A278043.P1081770688957329620` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278043 has offset 0).
+The programs for A278043, the canonical program `A278043.P1081770688957329620` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278043 has offset 0).
 
 The definition of A278043 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003726, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4923,7 +4924,7 @@ The definition of A278043 is `conditional`: the Lean definition is an OEIS formu
 
 `A000120(A003726(n+1))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A278043
@@ -5508,7 +5509,7 @@ end A278044
 /-!
 # A278045: Number of trailing 0's in tribonacci representation of n (cf. A278038).
 
-The programs for A278045, the canonical program `A278045.P7038591754817271268` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278045 has offset 0).
+The programs for A278045, the canonical program `A278045.P7038591754817271268` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278045 has offset 0).
 
 The definition of A278045 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5540,7 +5541,7 @@ end A278045
 
 `val(A003726(n+1)+A000038(n), 2)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A278045
@@ -5780,7 +5781,7 @@ end A278048.P2753835701742114178
 /-!
 # A278049: a(n) = 3*(Sum_{k=1..n} phi(k)) - 1, where phi = A000010.
 
-The programs for A278049, the canonical program `A278049.P11985461488246088473` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278049 has offset 1).
+The programs for A278049, the canonical program `A278049.P11985461488246088473` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278049 has offset 1).
 
 The definition of A278049 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5821,7 +5822,7 @@ end A278049
 
 `∑[A200905(n+1)]-1`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A278049
@@ -5978,12 +5979,6 @@ namespace A278049
 def P13753440748518710314.Spec : Prop :=
   ∀ n, P13753440748518710314.a n = A278049 (n + 1)
 
-theorem P13753440748518710314.correct : P13753440748518710314.Spec := by
-  intro n
-  simp only [A278049, Nat.add_sub_cancel, A278049.P13753440748518710314.f1, A278049.P13753440748518710314.a, A278049.P11985461488246088473.f1, A278049.P11985461488246088473.a, A109606, A109606.P2415810041766612210.a, A200905, A200905.P16128160975711994279.a, A000010, A000010.P4673923239450215316.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A278049
 
 /-! ## A278049.P16970025922863942292
@@ -6009,12 +6004,6 @@ namespace A278049
 /-- `∑[3*(A039649(n+1)-1)]-1` -/
 def P16970025922863942292.Spec : Prop :=
   ∀ n, P16970025922863942292.a n = A278049 (n + 1)
-
-theorem P16970025922863942292.correct : P16970025922863942292.Spec := by
-  intro n
-  simp only [A278049, Nat.add_sub_cancel, A278049.P16970025922863942292.f1, A278049.P16970025922863942292.a, A278049.P11985461488246088473.f1, A278049.P11985461488246088473.a, A039649, A039649.P16717312505280968063.a, A200905, A200905.P16128160975711994279.a, A000010, A000010.P4673923239450215316.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A278049
 
@@ -8110,7 +8099,7 @@ end A278081.P14988939225954164106
 /-!
 # A278083: a(n) is 1/6 of the number of primitive integral quadruples with sum = 2*m and sum of squares = 2*m^2, where m = 2*n-1.
 
-The programs for A278083, the canonical program `A278083.P13856348263400599348` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278083 has offset 1).
+The programs for A278083, the canonical program `A278083.P13856348263400599348` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278083 has offset 1).
 
 The definition of A278083 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 500 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8119,7 +8108,7 @@ The definition of A278083 is `conjectured`: the Lean definition is a formula tha
 
 `A060968(Δ[n²])`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A278083
@@ -8475,7 +8464,7 @@ end A278084.P11180170778322473576
 /-!
 # A278085: 1/4 of the number of primitive integral quadruples with sum = 3*n and sum of squares = 3*n^2.
 
-The programs for A278085, the canonical program `A278085.P490881361197768056` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278085 has offset 1).
+The programs for A278085, the canonical program `A278085.P490881361197768056` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278085 has offset 1).
 
 The definition of A278085 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 500 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8484,7 +8473,7 @@ The definition of A278085 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A193356(#)*A365428((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A278085

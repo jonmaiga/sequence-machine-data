@@ -38,14 +38,11 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -54,12 +51,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -71,7 +68,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3020,7 +3016,7 @@ end A280636.P4334806086731852580
 /-!
 # A280637: Sum of the digits of n^2+1.
 
-The programs for A280637, the canonical program `A280637.P11576806203191940515` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280637 has offset 0).
+The programs for A280637, the canonical program `A280637.P11576806203191940515` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280637 has offset 0).
 
 The definition of A280637 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3029,7 +3025,7 @@ The definition of A280637 is `conditional`: the Lean definition is an OEIS formu
 
 `A007953(n²+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A280637
@@ -6222,7 +6218,7 @@ end A280683.P10452003928332684046
 /-!
 # A280684: a(n) = number of divisors of the product of the divisors of n.
 
-The programs for A280684, the canonical program `A280684.P8623937446844403101` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280684 has offset 1).
+The programs for A280684, the canonical program `A280684.P8623937446844403101` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280684 has offset 1).
 
 The definition of A280684 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6231,7 +6227,7 @@ The definition of A280684 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000005(A007955(n+1))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A280684
@@ -6353,7 +6349,7 @@ end A280684
 /-!
 # A280685: a(n) = sum of the divisors of the product of the divisors of n.
 
-The programs for A280685, the canonical program `A280685.P17876969319558057215` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280685 has offset 1).
+The programs for A280685, the canonical program `A280685.P17876969319558057215` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A280685 has offset 1).
 
 The definition of A280685 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6362,7 +6358,7 @@ The definition of A280685 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000203(A007955(n+1))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A280685

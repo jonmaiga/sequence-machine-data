@@ -55,7 +55,6 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -63,22 +62,17 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -11581,90 +11575,6 @@ def P18267576657807911819.Spec : Prop :=
   ∀ n, P18267576657807911819.a n = A147678 (n + 1)
 
 end A147678
-
-/-!
-# A147681: Late-growing permutations: number of permutations of 1..n with every partial sum <= the same partial sum averaged over all permutations.
-
-The programs for A147681, there is no canonical definition to state claims against.
--/
-
-/-! ## A147681.P17169247783460980233
-
-`A145874(abs(1-n)+1)`
--/
-
-namespace A147681.P17169247783460980233
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A145874 (|1 - (n : ℤ)| + 1).toNat
-
-end
-
-end A147681.P17169247783460980233
-
-/-! ## A147681.P8896524179545363967
-
-`or(1, A145874(A028310(n)))`
--/
-
-namespace A147681.P8896524179545363967
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 1 (A145874 (A028310 n).toNat)
-
-end
-
-end A147681.P8896524179545363967
-
-/-! ## A147681.P110982534756425899
-
-`A145874(A028310(n))%A002110(n+3)`
--/
-
-namespace A147681.P110982534756425899
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A145874 (A028310 n).toNat) (A002110 (n + 3))
-
-end
-
-end A147681.P110982534756425899
-
-/-! ## A147681.P13569936531296241558
-
-`A005171(2*(n+2))*A145874(A028310(n))`
--/
-
-namespace A147681.P13569936531296241558
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A005171 (2 * (n + 2)) * A145874 (A028310 n).toNat
-
-end
-
-end A147681.P13569936531296241558
-
-/-! ## A147681.P10769765078207833757
-
-`∏{e}[2^n, A145874(#)]`
--/
-
-namespace A147681.P10769765078207833757
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 ^ n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n), A145874 (Nat.factorization (f1 n) p)
-
-end
-
-end A147681.P10769765078207833757
 
 /-!
 # A147682: Late-growing permutations: number of permutations of 2 indistinguishable copies of 1..n with every partial sum <= the same partial sum averaged over all permutations.

@@ -47,17 +47,21 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -71,9 +75,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1476,7 +1477,7 @@ end A298822
 /-!
 # A298823: Number of minimal total dominating sets in the n-dipyramidal graph.
 
-The programs for A298823, the canonical program `A298823.P17623720946952442995` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298823 has offset 1).
+The programs for A298823, the canonical program `A298823.P17623720946952442995` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298823 has offset 1).
 
 The definition of A298823 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 818 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1514,7 +1515,7 @@ end A298823
 
 `A300738(n+1)+2*(n+1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A298823
@@ -5499,7 +5500,7 @@ end A298861
 /-!
 # A298862: Rank of n-th twice-prime when all the primes and twice-primes are jointly ranked.
 
-The programs for A298862, the canonical program `A298862.P8575127337279644587` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298862 has offset 1).
+The programs for A298862, the canonical program `A298862.P8575127337279644587` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298862 has offset 1).
 
 The definition of A298862 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5508,7 +5509,7 @@ The definition of A298862 is `conjectured`: the Lean definition is a formula tha
 
 `A020900(n+1)+1+n`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A298862
@@ -6008,7 +6009,7 @@ end A298862
 /-!
 # A298863: Ranks of primes p when all primes p and products 3*p are jointly ranked.
 
-The programs for A298863, the canonical program `A298863.P4980415507089431462` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298863 has offset 1).
+The programs for A298863, the canonical program `A298863.P4980415507089431462` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298863 has offset 1).
 
 The definition of A298863 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7275 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6017,7 +6018,7 @@ The definition of A298863 is `conjectured`: the Lean definition is a formula tha
 
 `eq[char[A298864(n+1)], A000007(n)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A298863
@@ -6147,7 +6148,7 @@ end A298863
 /-!
 # A298864: Ranks of products 3*p when all primes p and products 3*p are jointly ranked.
 
-The programs for A298864, the canonical program `A298864.P5884613117295893309` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298864 has offset 1).
+The programs for A298864, the canonical program `A298864.P5884613117295893309` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298864 has offset 1).
 
 The definition of A298864 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6156,7 +6157,7 @@ The definition of A298864 is `conjectured`: the Lean definition is a formula tha
 
 `A020901(n+1)+1+n`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A298864
@@ -6488,7 +6489,7 @@ end A298864
 /-!
 # A298865: The primes p and products 4*p in increasing order.
 
-The programs for A298865, the canonical program `A298865.P11176209337828573366` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298865 has offset 1).
+The programs for A298865, the canonical program `A298865.P11176209337828573366` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298865 has offset 1).
 
 The definition of A298865 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6637,7 +6638,7 @@ end A298865
 
 `eq[1, A032741(n/A010121(n))]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A298865
@@ -6829,7 +6830,7 @@ end A298865
 /-!
 # A298866: Positions of primes p when all p and 4*p are arranged in increasing order.
 
-The programs for A298866, the canonical program `A298866.P6502617962773511093` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298866 has offset 1).
+The programs for A298866, the canonical program `A298866.P6502617962773511093` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298866 has offset 1).
 
 The definition of A298866 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6896,7 +6897,7 @@ end A298866
 
 `A230980(A075518(n+1))+1+n`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A298866

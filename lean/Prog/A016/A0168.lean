@@ -20,9 +20,9 @@ import Seq.B000.C033
 import Seq.B000.C034
 import Seq.B000.C036
 import Seq.B001.C003
-import Seq.B001.C004
-import Seq.B004.C000
-import Seq.B004.C001
+import Seq.B001.C005
+import Seq.B002.C001
+import Seq.B002.C003
 import Seq.B005.C001
 import Seq.Opaque.C017
 import Seq.Opaque.C020
@@ -10448,7 +10448,7 @@ end
 end A016837.P148156309039298830
 
 /-!
-# A016838: a(n) = (4n + 3)^2.
+# A016838: a(n) = (4*n + 3)^2.
 
 The programs for A016838, the canonical program `A016838.P1946869396513697861` is in `Seq.B000.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A016838 has offset 0).
 

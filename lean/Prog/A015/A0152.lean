@@ -46,22 +46,23 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C004
+import Seq.B003.C001
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -287,7 +288,7 @@ end A015207
 /-!
 # A015208: Inverse of 1199th cyclotomic polynomial.
 
-The programs for A015208, the canonical program `A015208.P2311126354841875546` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015208 has offset 0).
+The programs for A015208, the canonical program `A015208.P2311126354841875546` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A015208 has offset 0).
 
 The definition of A015208 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 109 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -296,7 +297,7 @@ The definition of A015208 is `conjectured`: the Lean definition is a formula tha
 
 `abs(A105567(n+1))*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A015208

@@ -43,10 +43,9 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -54,10 +53,11 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -71,7 +71,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -549,7 +548,7 @@ end A113704
 /-!
 # A113705: Inverse Moebius transform of powers of 10.
 
-The programs for A113705, the canonical program `A113705.P14451842261117549684` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113705 has offset 0).
+The programs for A113705, the canonical program `A113705.P14451842261117549684` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113705 has offset 0).
 
 The definition of A113705 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -610,7 +609,7 @@ end A113705
 
 `A000007(n)+∑{d}[n, A011557(#)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A113705
@@ -4156,7 +4155,7 @@ end A113752.P4170492811582175889
 /-!
 # A113753: a(n) = Fibonacci(n-1) + prime(n).
 
-The programs for A113753, the canonical program `A113753.P13707205483835590104` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113753 has offset 1).
+The programs for A113753, the canonical program `A113753.P13707205483835590104` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113753 has offset 1).
 
 The definition of A113753 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000045(n)+A000040(n+1)` (program `A113753.P13707205483835590104`, by `A113753.P13707205483835590104.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4165,7 +4164,7 @@ The definition of A113753 is `verified`: the Lean definition is proven equivalen
 
 `A000045(n)+A000040(n+1)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A113753
@@ -5012,7 +5011,7 @@ end A113754
 /-!
 # A113755: Sequence implicit in Jaroma's corollary to Nagura's theorem on primes.
 
-The programs for A113755, the canonical program `A113755.P11953505609422766994` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113755 has offset 1).
+The programs for A113755, the canonical program `A113755.P11953505609422766994` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113755 has offset 1).
 
 The definition of A113755 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5021,7 +5020,7 @@ The definition of A113755 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((6/5)^(n+1)-A000040(n+1))`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A113755
@@ -8468,7 +8467,7 @@ end A113788.P6010368555851524865
 /-!
 # A113789: Numbers n such that n, n+1 and n+2 are products of exactly 3 primes.
 
-The programs for A113789, the canonical program `A113789.P9130721561676906998` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113789 has offset 1).
+The programs for A113789, the canonical program `A113789.P9130721561676906998` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113789 has offset 1).
 
 The definition of A113789 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2226 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8537,7 +8536,7 @@ end A113789
 
 `A259504(eq[1, A259504(n+2)-A259504(n+1)]+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A113789
@@ -9354,7 +9353,7 @@ end A113791.P6888235938136081953
 /-!
 # A113793: Triangle read by rows: T(n,m) = phi(n - m + 1) * phi(m), n >= 1, m >= 1.
 
-The programs for A113793, the canonical program `A113793.P17835450932075285636` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113793 has offset 1).
+The programs for A113793, the canonical program `A113793.P17835450932075285636` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113793 has offset 1).
 
 The definition of A113793 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9386,7 +9385,7 @@ end A113793
 
 `A000010(row(n)+1-(col(n)+1)+1)*A000010(col(n)+1)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A113793

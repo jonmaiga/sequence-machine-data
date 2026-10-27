@@ -37,7 +37,6 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
@@ -45,21 +44,21 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -663,7 +662,7 @@ end A181207
 /-!
 # A181208: Number of n X 4 binary matrices with no two 1's adjacent diagonally or antidiagonally.
 
-The programs for A181208, the canonical program `A181208.P7735863262485493887` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181208 has offset 1).
+The programs for A181208, the canonical program `A181208.P7735863262485493887` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181208 has offset 1).
 
 The definition of A181208 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 126 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -672,7 +671,7 @@ The definition of A181208 is `conjectured`: the Lean definition is a formula tha
 
 `A052528(n+2)²`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A181208
@@ -6012,7 +6011,7 @@ end A181281
 /-!
 # A181282: a(n) is the number of associate Rota-Baxter words in one idempotent generator x and one idempotent operator P of degree n. Such words are Rota-Baxter words that begin and/or end with x, and P is applied n times in the word.
 
-The programs for A181282, the canonical program `A181282.P12816364877972098295` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181282 has offset 0).
+The programs for A181282, the canonical program `A181282.P12816364877972098295` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181282 has offset 0).
 
 The definition of A181282 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 115 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6067,7 +6066,7 @@ end A181282
 
 `floor(3*2^(n-1)*A000108(n))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A181282
@@ -7637,7 +7636,7 @@ end A181289
 /-!
 # A181290: The sum of the lengths of the 2-compositions of n. A 2-composition of n is a nonnegative matrix with two rows, such that each column has at least one nonzero entry and whose entries sum up to n. The length of the 2-composition is the number of columns.
 
-The programs for A181290, the canonical program `A181290.P6424768068439069294` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181290 has offset 0).
+The programs for A181290, the canonical program `A181290.P6424768068439069294` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181290 has offset 0).
 
 The definition of A181290 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 185 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7669,7 +7668,7 @@ end A181290
 
 `A181300(n)+A181296(n)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A181290
@@ -8127,7 +8126,7 @@ end A181291.P17491066377329048641
 /-!
 # A181292: The sum of the entries in the top rows of all 2-compositions of n. A 2-composition of n is a nonnegative matrix with two rows, such that each column has at least one nonzero entry and whose entries sum up to n.
 
-The programs for A181292, the canonical program `A181292.P306821892681239711` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181292 has offset 0).
+The programs for A181292, the canonical program `A181292.P306821892681239711` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A181292 has offset 0).
 
 The definition of A181292 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 185 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8136,7 +8135,7 @@ The definition of A181292 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A054146(n)]`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A181292

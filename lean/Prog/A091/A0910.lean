@@ -42,6 +42,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
@@ -50,17 +51,21 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -68,8 +73,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3488,7 +3491,7 @@ def P16065450683317728686.Spec : Prop :=
 end A091018
 
 /-!
-# A091019: Denominators of the Taylor series of arccosh(z)/sqrt(2(x-1)) about 1.
+# A091019: Denominators of the coefficients in the expansion of arccosh(x)/sqrt(2*(x-1)) about x=1.
 
 The programs for A091019, there is no canonical definition to state claims against.
 -/
@@ -4946,7 +4949,7 @@ end A091030
 /-!
 # A091031: Third to last entries in rows of array A090452 (scaled (3,2)-Stirling2).
 
-The programs for A091031, the canonical program `A091031.P1799831255807100485` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091031 has offset 2).
+The programs for A091031, the canonical program `A091031.P1799831255807100485` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091031 has offset 2).
 
 The definition of A091031 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4955,7 +4958,7 @@ The definition of A091031 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(9*(n+2)²-19*(n+2)+8)*(n+1)*A000108(n+2)/(4*(2*(n+2)-1))`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A091031
@@ -11761,7 +11764,7 @@ end A091078.P1936150858123920043
 /-!
 # A091084: a(n) = A001045(n) mod 10.
 
-The programs for A091084, the canonical program `A091084.P61175056823892316` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091084 has offset 0).
+The programs for A091084, the canonical program `A091084.P61175056823892316` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091084 has offset 0).
 
 The definition of A091084 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A001045(n)%10` (program `A091084.P61175056823892316`, by `A091084.P61175056823892316.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -11793,7 +11796,7 @@ end A091084
 
 `A001045(n)%10`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A091084
@@ -11811,7 +11814,7 @@ end A091084
 /-!
 # A091085: a(n) = mod(A078008(n),10).
 
-The programs for A091085, the canonical program `A091085.P2851260985975410493` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091085 has offset 0).
+The programs for A091085, the canonical program `A091085.P2851260985975410493` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091085 has offset 0).
 
 The definition of A091085 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A078008(n)%10` (program `A091085.P2851260985975410493`, by `A091085.P2851260985975410493.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -11820,7 +11823,7 @@ The definition of A091085 is `verified`: the Lean definition is proven equivalen
 
 `A078008(n)%10`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A091085
@@ -11838,7 +11841,7 @@ end A091085
 /-!
 # A091086: a(n) = A000975(n) mod 10.
 
-The programs for A091086, the canonical program `A091086.P11305774635944394107` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091086 has offset 0).
+The programs for A091086, the canonical program `A091086.P11305774635944394107` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091086 has offset 0).
 
 The definition of A091086 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11847,7 +11850,7 @@ The definition of A091086 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000975(n)%10`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A091086

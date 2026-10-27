@@ -35,36 +35,36 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4265,7 +4265,7 @@ end
 end A093464.P6377456573058255359
 
 /-!
-# A093466: Triangle read by rows: T[n,k] = number of n X n binary matrices with k=0...n^2 ones, distinct up to cyclic shifts of rows and columns; reflection through any vertical or horizontal axis; and reflection through the main diagonal. Also, quasi-n-ominoes on a torus divided into a k X k grid.
+# A093466: Triangle read by rows: T(n,k) is the number of n X n binary matrices with k=0...n^2 ones, distinct up to cyclic shifts of rows and columns; reflection through any vertical or horizontal axis; and reflection through the main diagonal. Also, quasi-n-ominoes on a torus divided into a k X k grid.
 
 The programs for A093466, there is no canonical definition to state claims against.
 -/

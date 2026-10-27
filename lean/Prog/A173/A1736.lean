@@ -37,11 +37,13 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -50,25 +52,24 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2381,7 +2382,7 @@ end
 end A173634.P5635783637695154712
 
 /-!
-# A173635: Period 5 sequence: 1, 1, 4, 4, 2, ...
+# A173635: Period 5: repeat [1, 1, 4, 4, 2].
 
 The programs for A173635, the canonical program `A173635.P17609885823078534944` is in `Seq.B000.C025`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173635 has offset 0).
 
@@ -2602,7 +2603,7 @@ end A173638.P18033289399108375559
 /-!
 # A173639: Numbers n such that the sum of the digits of 11*n is odd.
 
-The programs for A173639, the canonical program `A173639.P4181958568565848688` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173639 has offset 1).
+The programs for A173639, the canonical program `A173639.P4181958568565848688` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173639 has offset 1).
 
 The definition of A173639 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2634,7 +2635,7 @@ end A173639
 
 `eq[0, A059841(A245627(n))]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A173639
@@ -5724,7 +5725,7 @@ end A173666.P3936182520765813266
 /-!
 # A173667: Number of real zeros of the polynomial whose coefficients are the decimal expansion of n.
 
-The programs for A173667, the canonical program `A173667.P1180978088914052584` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173667 has offset 1).
+The programs for A173667, the canonical program `A173667.P1180978088914052584` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173667 has offset 1).
 
 The definition of A173667 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6018,7 +6019,7 @@ end A173667
 
 `A004216(n+1)-A199560(n)%A055642(n)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A173667
@@ -8037,7 +8038,7 @@ end A173682.P12458241433884908833
 /-!
 # A173683: Sum of n mod p, for p = 2, 3, 5, ..., smallest prime >= n.
 
-The programs for A173683, the canonical program `A173683.P3255351781956052033` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173683 has offset 1).
+The programs for A173683, the canonical program `A173683.P3255351781956052033` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173683 has offset 1).
 
 The definition of A173683 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8046,7 +8047,7 @@ The definition of A173683 is `conjectured`: the Lean definition is a formula tha
 
 `A024934(n+1)+1-∑{p}[n+1, C(#, n)]+n`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A173683

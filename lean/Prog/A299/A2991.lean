@@ -36,38 +36,33 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -452,7 +447,7 @@ end A299109.P4730555203318396885
 /-!
 # A299110: Prime(r) for r such that prime(r) - prime(r-1) = 12 and prime(r-1) - prime(r-2) = 2.
 
-The programs for A299110, the canonical program `A299110.P14728169400088016933` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299110 has offset 1).
+The programs for A299110, the canonical program `A299110.P14728169400088016933` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299110 has offset 1).
 
 The definition of A299110 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1181 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -491,7 +486,7 @@ end A299110
 
 `∩[A031931(n+1), A088176(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A299110
@@ -4237,16 +4232,16 @@ end A299148.P11573612500398792809
 /-!
 # A299149: Numerators of the positive solution to n = Sum_{d|n} a(d) * a(n/d).
 
-The programs for A299149, the canonical program `A299149.P8105708395331444992` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299149 has offset 1).
+The programs for A299149, the canonical program `A299149.P8105708395331444992` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299149 has offset 1).
 
-The definition of A299149 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000265, A317848, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A299149 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A317848, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A299149.P8105708395331444992
 
 `A000265((n+1)*A317848(n+1))`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A299149
@@ -4632,7 +4627,7 @@ end A299149
 /-!
 # A299150: Denominators of the positive solution to n = Sum_{d|n} a(d) * a(n/d).
 
-The programs for A299150, the canonical program `A299150.P3795475608102794918` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299150 has offset 1).
+The programs for A299150, the canonical program `A299150.P3795475608102794918` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A299150 has offset 1).
 
 The definition of A299150 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A046644, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4664,7 +4659,7 @@ end A299150
 
 `A046644(n+1)/A006519(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A299150

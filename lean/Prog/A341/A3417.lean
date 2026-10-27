@@ -39,37 +39,40 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -104,7 +107,7 @@ set_option linter.unreachableTactic false
 /-!
 # A341700: Sum of the primes p satisfying n < p <= 2n.
 
-The programs for A341700, the canonical program `A341700.P6811357210950876321` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341700 has offset 1).
+The programs for A341700, the canonical program `A341700.P6811357210950876321` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341700 has offset 1).
 
 The definition of A341700 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034387, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -113,7 +116,7 @@ The definition of A341700 is `conditional`: the Lean definition is an OEIS formu
 
 `A034387(2*(n+1))-A034387(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A341700
@@ -868,7 +871,7 @@ end A341705
 /-!
 # A341706: Row 2 of semigroup multiplication table shown in A341317 and A341318.
 
-The programs for A341706, the canonical program `A341706.P8453003018031914151` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341706 has offset 0).
+The programs for A341706, the canonical program `A341706.P8453003018031914151` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341706 has offset 0).
 
 The definition of A341706 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -877,7 +880,7 @@ The definition of A341706 is `conjectured`: the Lean definition is a formula tha
 
 `A000326(round(sqrt(2*n)))+n`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A341706
@@ -2933,7 +2936,7 @@ end A341731.P1252855279621209877
 /-!
 # A341732: Row 2 of array in A341731.
 
-The programs for A341732, the canonical program `A341732.P13236215540058293646` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341732 has offset 4).
+The programs for A341732, the canonical program `A341732.P13236215540058293646` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341732 has offset 4).
 
 The definition of A341732 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 339 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2942,7 +2945,7 @@ The definition of A341732 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A128634(n+1)+A001453(n+2), A128634(n+2)]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A341732
@@ -6212,7 +6215,7 @@ end A341764.P8817735903492240198
 /-!
 # A341765: Consider gaps between successive odd primes from 3 up to prime(n+2). Let k1 be number of gaps congruent to 2 (mod 6) and let k2 be number of gaps congruent to 4 (mod 6). Then a(n) = k1 - k2.
 
-The programs for A341765, the canonical program `A341765.P1181486014391266501` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341765 has offset 1).
+The programs for A341765, the canonical program `A341765.P1181486014391266501` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341765 has offset 1).
 
 The definition of A341765 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6221,7 +6224,7 @@ The definition of A341765 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3-A039701(n+3)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A341765
@@ -7066,7 +7069,7 @@ end A341771.P5747187766453957135
 /-!
 # A341772: a(n) = Sum_{d|n} phi(d) * J_2(n/d).
 
-The programs for A341772, the canonical program `A341772.P16346253428948690978` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341772 has offset 1).
+The programs for A341772, the canonical program `A341772.P16346253428948690978` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341772 has offset 1).
 
 The definition of A341772 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7075,7 +7078,7 @@ The definition of A341772 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A321322((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A341772
@@ -8385,7 +8388,7 @@ end A341782.P16017963306584091399
 /-!
 # A341783: Absolute values of norms of prime elements in Z[(1+sqrt(5))/2], the ring of integers of Q(sqrt(5)).
 
-The programs for A341783, the canonical program `A341783.P13358980128243009545` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341783 has offset 1).
+The programs for A341783, the canonical program `A341783.P13358980128243009545` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341783 has offset 1).
 
 The definition of A341783 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8394,7 +8397,7 @@ The definition of A341783 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A003631(n+1)², A038872(n+1)]`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A341783
@@ -8442,7 +8445,7 @@ end A341783
 /-!
 # A341784: Norms of prime elements in Z[sqrt(-2)], the ring of integers of Q(sqrt(-2)).
 
-The programs for A341784, the canonical program `A341784.P7806599191344346021` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341784 has offset 1).
+The programs for A341784, the canonical program `A341784.P7806599191344346021` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341784 has offset 1).
 
 The definition of A341784 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8451,7 +8454,7 @@ The definition of A341784 is `conjectured`: the Lean definition is a formula tha
 
 `∪[p?[or(5, 6*n)]², A033203(n+1)]`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A341784

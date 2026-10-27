@@ -34,11 +34,12 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C009
+import Seq.B001.C007
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -46,9 +47,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -56,13 +60,12 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -628,7 +631,7 @@ end A323012.P18070471320112028587
 /-!
 # A323014: a(1) = 0; a(prime) = 1; otherwise a(n) = 1 + a(A181819(n)).
 
-The programs for A323014, the canonical program `A323014.P15768753901453877617` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323014 has offset 1).
+The programs for A323014, the canonical program `A323014.P15768753901453877617` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323014 has offset 1).
 
 The definition of A323014 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -687,7 +690,7 @@ end A323014
 
 `A182850(n+1)+C(C(2, n), 2)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A323014
@@ -1910,7 +1913,7 @@ end
 end A323035.P7548520351655489400
 
 /-!
-# A323037: Coefficients arising in the enumeration of configurations of linear chains.
+# A323037: Number of equivalence classes under rotations and reflections of n-step self-avoiding walks on the 4-dimensional hypercubic lattice that use all four coordinate axes and have no pair of nonconsecutive vertices that are adjacent in the lattice.
 
 The programs for A323037, there is no canonical definition to state claims against.
 -/
@@ -3227,7 +3230,7 @@ end
 end A323062.P4990464128440287974
 
 /-!
-# A323063: Coefficients arising in the enumeration of configurations of linear chains.
+# A323063: Number of equivalence classes under rotations and reflections of n-step self-avoiding walks on the 5-dimensional hypercubic lattice that use all five coordinate axes and have no pair of nonconsecutive vertices that are adjacent in the lattice.
 
 The programs for A323063, there is no canonical definition to state claims against.
 -/

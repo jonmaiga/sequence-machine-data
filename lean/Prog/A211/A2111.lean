@@ -37,35 +37,32 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -612,7 +609,7 @@ end A211111.P10883557541434931875
 /-!
 # A211114: Number of (n+1) X (n+1) -2..2 symmetric matrices with every 2 X 2 subblock having sum zero and one or three distinct values.
 
-The programs for A211114, the canonical program `A211114.P4923214750086786376` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211114 has offset 1).
+The programs for A211114, the canonical program `A211114.P4923214750086786376` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211114 has offset 1).
 
 The definition of A211114 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 329 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -621,7 +618,7 @@ The definition of A211114 is `conjectured`: the Lean definition is a formula tha
 
 `A211476(n+1)+2`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211114
@@ -2739,7 +2736,7 @@ end A211151.P14323690680649961411
 /-!
 # A211154: Number of 2 X 2 matrices having all terms in {-n,...,0,..,n} and even determinant.
 
-The programs for A211154, the canonical program `A211154.P10033703333360363186` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211154 has offset 0).
+The programs for A211154, the canonical program `A211154.P10033703333360363186` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211154 has offset 0).
 
 The definition of A211154 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2748,7 +2745,7 @@ The definition of A211154 is `conjectured`: the Lean definition is a formula tha
 
 `(2*n+1)²²-A211155(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211154
@@ -3260,7 +3257,7 @@ end A211157.P12969599283774073501
 /-!
 # A211158: Number of 2 X 2 matrices having all terms in {-n,...,0,..,n} and positive odd determinant.
 
-The programs for A211158, the canonical program `A211158.P10757789982355930020` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211158 has offset 1).
+The programs for A211158, the canonical program `A211158.P10757789982355930020` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211158 has offset 1).
 
 The definition of A211158 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3292,7 +3289,7 @@ end A211158
 
 `A211155(n+1)/2`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211158
@@ -3373,9 +3370,9 @@ def P4318324008525797713.Spec : Prop :=
 end A211158
 
 /-!
-# A211159: Number of integer pairs (x,y) such that 0
+# A211159: Number of integer pairs (x,y) such that 0<x<y<=n and x*y=n+1.
 
-The programs for A211159, the canonical program `A211159.P13436548848108563631` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211159 has offset 1).
+The programs for A211159, the canonical program `A211159.P13436548848108563631` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211159 has offset 1).
 
 The definition of A211159 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A200213, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3384,7 +3381,7 @@ The definition of A211159 is `conditional`: the Lean definition is an OEIS formu
 
 `A200213(n+2)/2`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211159
@@ -3847,7 +3844,7 @@ end A211159
 /-!
 # A211161: Table T(n,k) = n, if k is odd, k/2 if k is even; n, k > 0, read by antidiagonals.
 
-The programs for A211161, the canonical program `A211161.P13877356950491930230` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211161 has offset 1).
+The programs for A211161, the canonical program `A211161.P13877356950491930230` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211161 has offset 1).
 
 The definition of A211161 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3856,7 +3853,7 @@ The definition of A211161 is `conjectured`: the Lean definition is a formula tha
 
 `A209279(n+1)-A142150(A025581(n))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A211161
@@ -4982,7 +4979,7 @@ end A211170
 /-!
 # A211171: Exponent of general linear group GL(n,2).
 
-The programs for A211171, the canonical program `A211171.P11473024902200988714` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211171 has offset 1).
+The programs for A211171, the canonical program `A211171.P11473024902200988714` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211171 has offset 1).
 
 The definition of A211171 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4991,7 +4988,7 @@ The definition of A211171 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A034268(n+1)*A062383(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211171
@@ -5084,7 +5081,7 @@ end A211171
 /-!
 # A211173: a(n) = (2n)!^n (modulo 2n+1).
 
-The programs for A211173, the canonical program `A211173.P7488017100782827256` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211173 has offset 0).
+The programs for A211173, the canonical program `A211173.P7488017100782827256` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211173 has offset 0).
 
 The definition of A211173 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5142,7 +5139,7 @@ end A211173
 
 `A101264(n)*A266303(n)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A211173
@@ -6545,7 +6542,7 @@ end A211196.P17303515318645709900
 /-!
 # A211197: Table T(n,k) = 2*n + ((-1)^n)*(1/2 - (k-1) mod 2) - 1/2; n, k > 0, read by antidiagonals.
 
-The programs for A211197, the canonical program `A211197.P9481613499707772193` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211197 has offset 1).
+The programs for A211197, the canonical program `A211197.P9481613499707772193` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211197 has offset 1).
 
 The definition of A211197 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6579,7 +6576,7 @@ end A211197
 
 `2*A002260(n+1)-A057211(n+1)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A211197

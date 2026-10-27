@@ -41,19 +41,20 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -61,11 +62,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3605,7 +3606,7 @@ end A177119.P6272052794117790547
 /-!
 # A177121: Square array T(n,k) read by antidiagonals up: T(n,k) = 1 if n=1; otherwise if n divides k then T(n,k) = -n+1; otherwise T(n,k) = 1.
 
-The programs for A177121, the canonical program `A177121.P3320387375115592110` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177121 has offset 1).
+The programs for A177121, the canonical program `A177121.P3320387375115592110` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177121 has offset 1).
 
 The definition of A177121 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3861,7 +3862,7 @@ end A177121
 
 `A035214(n+1)-A127093(A099375(n)+1+n)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A177121
@@ -4457,7 +4458,7 @@ end A177138.P3384820410496166892
 /-!
 # A177139: Numbers k such that (3*k-4, 3*k-2) is a twin prime pair.
 
-The programs for A177139, the canonical program `A177139.P7505367858712148291` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177139 has offset 1).
+The programs for A177139, the canonical program `A177139.P7505367858712148291` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177139 has offset 1).
 
 The definition of A177139 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A167379, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4466,7 +4467,7 @@ The definition of A177139 is `conditional`: the Lean definition is an OEIS formu
 
 `1+A167379(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A177139

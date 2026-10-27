@@ -42,9 +42,10 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,24 +53,26 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -104,7 +107,7 @@ set_option linter.unreachableTactic false
 /-!
 # A176500: a(n) = 2*Farey(Fibonacci(n + 1)) - 3.
 
-The programs for A176500, the canonical program `A176500.P10455789036156632366` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176500 has offset 1).
+The programs for A176500, the canonical program `A176500.P10455789036156632366` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176500 has offset 1).
 
 The definition of A176500 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A176499, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -113,7 +116,7 @@ The definition of A176500 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A176499(n+1)-3`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A176500
@@ -8751,7 +8754,7 @@ end A176583.P3165690248531831398
 /-!
 # A176587: Numbers such that arithmetic mean of distinct prime factors is not an integer.
 
-The programs for A176587, the canonical program `A176587.P16048929400543809882` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176587 has offset 1).
+The programs for A176587, the canonical program `A176587.P16048929400543809882` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176587 has offset 1).
 
 The definition of A176587 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9655 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8760,7 +8763,7 @@ The definition of A176587 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A078174(n+1)-1]+1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A176587
@@ -9196,7 +9199,7 @@ end A176590.P11543228250708018648
 /-!
 # A176591: Bernoulli denominators A141056(n), with the exception a(1)=1.
 
-The programs for A176591, the canonical program `A176591.P1285427356219146765` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176591 has offset 0).
+The programs for A176591, the canonical program `A176591.P1285427356219146765` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176591 has offset 0).
 
 The definition of A176591 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9262,7 +9265,7 @@ end A176591
 
 `A159075(n)+A141056(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A176591

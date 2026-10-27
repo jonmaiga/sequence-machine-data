@@ -29,31 +29,34 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C010
+import Seq.B001.C008
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C005
+import Seq.B003.C003
+import Seq.B003.C006
+import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B013.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -529,7 +532,7 @@ end A391124.P11545367876540353799
 /-!
 # A391125: Expansion of g^2/(2 - g), where g = 1+x*g^3 is the g.f. of A001764.
 
-The programs for A391125, the canonical program `A391125.P9418888809291049878` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391125 has offset 0).
+The programs for A391125, the canonical program `A391125.P9418888809291049878` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391125 has offset 0).
 
 The definition of A391125 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 124 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -561,7 +564,7 @@ end A391125
 
 `A047098(n)+A047098(n)-A001764(n)`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A391125
@@ -869,7 +872,7 @@ end A391132.P8712762748825140533
 /-!
 # A391134: Expansion of g^2/(1 - x^2*g), where g = 1+x*g^2 is the g.f. of A000108.
 
-The programs for A391134, the canonical program `A391134.P1699678046192407440` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391134 has offset 0).
+The programs for A391134, the canonical program `A391134.P1699678046192407440` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391134 has offset 0).
 
 The definition of A391134 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 171 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -878,7 +881,7 @@ The definition of A391134 is `conjectured`: the Lean definition is a formula tha
 
 `A030238(n+1)-A132364(n+1)`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A391134
@@ -2256,7 +2259,7 @@ end A391160.P12483292816712810078
 /-!
 # A391163: Numbers whose final digit is at most 2.
 
-The programs for A391163, the canonical program `A391163.P12705108012069157976` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391163 has offset 0).
+The programs for A391163, the canonical program `A391163.P12705108012069157976` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391163 has offset 0).
 
 The definition of A391163 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2288,7 +2291,7 @@ end A391163
 
 `10*A002264(n)+A010872(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A391163
@@ -2772,7 +2775,7 @@ end A391163
 /-!
 # A391164: Numbers whose final digit is at most 5.
 
-The programs for A391164, the canonical program `A391164.P14227226670676293853` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391164 has offset 0).
+The programs for A391164, the canonical program `A391164.P14227226670676293853` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391164 has offset 0).
 
 The definition of A391164 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2804,7 +2807,7 @@ end A391164
 
 `10*A152467(n)+A010875(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A391164
@@ -3892,7 +3895,7 @@ end A391187.P14783170243092817805
 /-!
 # A391188: a(n) = floor( prime(n) / floor(log(prime(n))) ), where prime(n) is the n-th prime.
 
-The programs for A391188, the canonical program `A391188.P16383289770167184422` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391188 has offset 2).
+The programs for A391188, the canonical program `A391188.P16383289770167184422` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391188 has offset 2).
 
 The definition of A391188 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(A000040(n+2)/floor(log(A000040(n+2))))` (program `A391188.P16383289770167184422`, by `A391188.P16383289770167184422.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3901,7 +3904,7 @@ The definition of A391188 is `verified`: the Lean definition is proven equivalen
 
 `floor(A000040(n+2)/floor(log(A000040(n+2))))`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A391188

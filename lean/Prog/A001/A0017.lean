@@ -48,14 +48,17 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -64,6 +67,7 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -72,9 +76,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -11506,12 +11507,6 @@ namespace A001747
 def P16201853830420218640.Spec : Prop :=
   ∀ n, P16201853830420218640.a n = A001747 (n + 1)
 
-theorem P16201853830420218640.correct : P16201853830420218640.Spec := by
-  intro n
-  simp only [A001747, Nat.add_sub_cancel, A001747.P16201853830420218640.a, A001747.P198467477273308856.a, A008578, A008578.P3639467937083264764.a, A014238, A014238.P784091901909873668.a, A022798, A022798.P9273272214686499992.a, A002808, A002808.P8130888830651501259.f1, A002808.P8130888830651501259.f2, A002808.P8130888830651501259.a, A158611, A158611.P9275629407611603775.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A082023, A082023.P820682903743471019.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A001747
 
 /-!
@@ -16799,7 +16794,7 @@ end A001765.P16482773358402271531
 /-!
 # A001766: Index of (the image of) the modular group Gamma(n) in PSL_2(Z).
 
-The programs for A001766, the canonical program `A001766.P5829202588675829785` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001766 has offset 1).
+The programs for A001766, the canonical program `A001766.P5829202588675829785` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001766 has offset 1).
 
 The definition of A001766 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16877,7 +16872,7 @@ end A001766
 
 `A000056(n+1)/A014963(A060594(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A001766
@@ -24019,7 +24014,7 @@ def P17564289659255684344.Spec : Prop :=
 end A001794
 
 /-!
-# A001795: Coefficients of Legendre polynomials.
+# A001795: Coefficient of P_0(x) in the Legendre expansion of x^n.
 
 The programs for A001795, there is no canonical definition to state claims against.
 -/
@@ -24187,7 +24182,7 @@ end
 end A001795.P6514698162386152947
 
 /-!
-# A001796: Coefficients of Legendre polynomials.
+# A001796: Coefficient of P_1(x) in the Legendre expansion of x^n.
 
 The programs for A001796, there is no canonical definition to state claims against.
 -/
@@ -24334,7 +24329,7 @@ end
 end A001796.P7483301624188487121
 
 /-!
-# A001797: Coefficients of Legendre polynomials.
+# A001797: Coefficient of P_2(x) in the Legendre expansion of x^n.
 
 The programs for A001797, there is no canonical definition to state claims against.
 -/
@@ -24370,7 +24365,7 @@ end
 end A001797.P1779095801520130196
 
 /-!
-# A001798: Coefficients of Legendre polynomials.
+# A001798: Coefficient of P_3(x) in the Legendre expansion of x^n.
 
 The programs for A001798, there is no canonical definition to state claims against.
 -/
@@ -24409,7 +24404,7 @@ end
 end A001798.P1828118869388593071
 
 /-!
-# A001799: Coefficients of Legendre polynomials.
+# A001799: Coefficient of P_4(x) in the Legendre expansion of x^n.
 
 The programs for A001799, there is no canonical definition to state claims against.
 -/

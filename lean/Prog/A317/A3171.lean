@@ -41,25 +41,26 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C004
+import Seq.B003.C002
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -67,8 +68,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7274,7 +7273,7 @@ def P7981910952106536079.Spec : Prop :=
 end A317187
 
 /-!
-# A317188: a(n) = 1 + 2 * (a(n-1) + a(n-4) + a(n-6)) + a(n-7) for n>3, with initial values 0 if n
+# A317188: a(n) = 1 + 2 * (a(n-1) + a(n-4) + a(n-6)) + a(n-7) for n>3, with initial values 0 if n<0, and 1,3,8,18 for n=0..3.
 
 The programs for A317188, the canonical program `A317188.P10174428341642169334` is in `Seq.B000.C037`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317188 has offset 0).
 
@@ -8010,7 +8009,7 @@ end A317191.P17983361949495806514
 /-!
 # A317192: A140100(n) - A140102(n).
 
-The programs for A317192, the canonical program `A317192.P13018773747405505076` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317192 has offset 1).
+The programs for A317192, the canonical program `A317192.P13018773747405505076` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317192 has offset 1).
 
 The definition of A317192 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A140100, A140102, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8019,7 +8018,7 @@ The definition of A317192 is `conditional`: the Lean definition is an OEIS formu
 
 `A140100(n+1)-A140102(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A317192
@@ -8478,7 +8477,7 @@ end A317192
 /-!
 # A317193: First differences of A317192.
 
-The programs for A317193, the canonical program `A317193.P13677178970524234186` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317193 has offset 1).
+The programs for A317193, the canonical program `A317193.P13677178970524234186` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317193 has offset 1).
 
 The definition of A317193 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8885,7 +8884,7 @@ end A317193
 
 `A057078(2*A278045(n+1))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A317193

@@ -35,12 +35,10 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
@@ -49,19 +47,20 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -719,7 +718,7 @@ end
 end A112011.P12267995369263598057
 
 /-!
-# A112012: Numbers n such that there exists at least one number j and pi(m) = d_1 d_2 ... d_j*d_(j+1) d_(j+2) ... d_k where d_1 d_2 ...d_k is the decimal expansion of n.
+# A112012: Numbers k such that there exists at least one number j and pi(k) = d(1) d(2) ... d(j)*d(j+1) d(j+2) ... d(t) where d(1) d(2) ... d(t) is the decimal expansion of k.
 
 The programs for A112012, there is no canonical definition to state claims against.
 -/
@@ -3148,7 +3147,7 @@ end A112038.P16018008742926219593
 /-!
 # A112039: Let b(0)=1/2, b(n) = b(n-1) + Prime[n]/2; a(n)=b(2*n).
 
-The programs for A112039, the canonical program `A112039.P8022561423127945551` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112039 has offset 1).
+The programs for A112039, the canonical program `A112039.P8022561423127945551` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112039 has offset 1).
 
 The definition of A112039 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3157,7 +3156,7 @@ The definition of A112039 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(1+A007504(2*(n+1)))/2`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A112039
@@ -3494,7 +3493,7 @@ end A112044.P14705297204920950529
 /-!
 # A112045: Positions of primes (A000040) among nonsquares A000037.
 
-The programs for A112045, the canonical program `A112045.P4691997246529510817` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112045 has offset 1).
+The programs for A112045, the canonical program `A112045.P4691997246529510817` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112045 has offset 1).
 
 The definition of A112045 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3503,7 +3502,7 @@ The definition of A112045 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A028391(A000040(n+1))`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A112045

@@ -48,16 +48,16 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -66,16 +66,16 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -8059,7 +8059,7 @@ end A094049.P6203718696509996819
 /-!
 # A094051: a(n) = phi(phi(p))/2 where p = prime(n).
 
-The programs for A094051, the canonical program `A094051.P17874121840297430644` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094051 has offset 3).
+The programs for A094051, the canonical program `A094051.P17874121840297430644` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094051 has offset 3).
 
 The definition of A094051 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008330, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8068,7 +8068,7 @@ The definition of A094051 is `conditional`: the Lean definition is an OEIS formu
 
 `A008330(n+3)/2`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A094051
@@ -10343,7 +10343,7 @@ end A094065.P3493386639054073845
 /-!
 # A094068: Lessers of twin prime pairs whose greater has a prime prime index.
 
-The programs for A094068, the canonical program `A094068.P5395445372690592856` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094068 has offset 1).
+The programs for A094068, the canonical program `A094068.P5395445372690592856` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094068 has offset 1).
 
 The definition of A094068 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4249 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10352,7 +10352,7 @@ The definition of A094068 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A001359(n+1), A006450(n+1)-2]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A094068

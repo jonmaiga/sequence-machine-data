@@ -48,29 +48,31 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
-import Seq.B002.C004
+import Seq.B002.C002
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6421,7 +6423,7 @@ end A227269.P374106889099828256
 /-!
 # A227270: Numbers m such that Sum_{i= 1..k} 1/d(i) + Product_{i= 1..k} 1/d(i) = 1, where d(i) are the k prime distinct divisors of m.
 
-The programs for A227270, the canonical program `A227270.P54051348116262805` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227270 has offset 1).
+The programs for A227270, the canonical program `A227270.P54051348116262805` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227270 has offset 1).
 
 The definition of A227270 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 106 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6430,7 +6432,7 @@ The definition of A227270 is `conjectured`: the Lean definition is a formula tha
 
 `record[A003557(n+1)*A225821(A225821(n+1))]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A227270
@@ -6628,7 +6630,7 @@ end
 end A227273.P9795506450493339299
 
 /-!
-# A227276: Primes p for which p^2 + p - 1 = q*r (q
+# A227276: Primes p for which p^2 + p - 1 = q*r (q<r) such that q, r, p^2 + q - 1 and p^2 + r - 1 are primes.
 
 The programs for A227276, there is no canonical definition to state claims against.
 -/
@@ -7969,7 +7971,7 @@ end A227289.P10102717507195630657
 /-!
 # A227291: Characteristic function of squarefree numbers squared (A062503).
 
-The programs for A227291, the canonical program `A227291.P15541895303528652524` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227291 has offset 1).
+The programs for A227291, the canonical program `A227291.P15541895303528652524` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227291 has offset 1).
 
 The definition of A227291 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008966, A010052, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7978,7 +7980,7 @@ The definition of A227291 is `conditional`: the Lean definition is an OEIS formu
 
 `A010052(n+1)*A008966(A000196(n+1))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A227291

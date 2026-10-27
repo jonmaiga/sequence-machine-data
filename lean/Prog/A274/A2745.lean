@@ -51,16 +51,18 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,14 +70,11 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -689,7 +688,7 @@ end A274504.P11901491768598191056
 /-!
 # A274505: Primes p such that 3*p-10 and 3*p+10 are prime numbers.
 
-The programs for A274505, the canonical program `A274505.P2443972878676266277` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274505 has offset 1).
+The programs for A274505, the canonical program `A274505.P2443972878676266277` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274505 has offset 1).
 
 The definition of A274505 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2514 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -698,7 +697,7 @@ The definition of A274505 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A023211(n+1), A230227(n+1)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A274505
@@ -1241,7 +1240,7 @@ end A274512.P14751815469275187404
 /-!
 # A274515: a(n) is the number of times that the value of ternary n when read as hyperbinary occurs in the set of hyperbinary representations.
 
-The programs for A274515, the canonical program `A274515.P13101901733059160930` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274515 has offset 0).
+The programs for A274515, the canonical program `A274515.P13101901733059160930` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274515 has offset 0).
 
 The definition of A274515 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1250,7 +1249,7 @@ The definition of A274515 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A002487(A065361(n)+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A274515
@@ -2896,21 +2895,6 @@ end
 
 end A274531.P10923520662165505093
 
-/-! ## A274531.P10225892036042685518
-
-`abs(A273261(n+1)%A084997(n+1))`
--/
-
-namespace A274531.P10225892036042685518
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  |Int.tmod (A273261 (n + 1)) (A084997 (n + 1))|
-
-end
-
-end A274531.P10225892036042685518
-
 /-! ## A274531.P6142284150699827497
 
 `abs(A273261(n+1))%A066539(A113988(n))`
@@ -4491,7 +4475,7 @@ end A274545.P15519446267847162001
 /-!
 # A274546: Numbers m such that 5*m is squarefree.
 
-The programs for A274546, the canonical program `A274546.P10366663639167439236` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274546 has offset 1).
+The programs for A274546, the canonical program `A274546.P10366663639167439236` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274546 has offset 1).
 
 The definition of A274546 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4529,7 +4513,7 @@ end A274546
 
 `filter[A005117(n+1), A011558(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A274546
@@ -5950,7 +5934,7 @@ end A274574.P7253976828280696829
 /-!
 # A274575: For m=1,2,3,... write all the 2^m binary vectors of length m in increasing order, and replace each vector with (number of 1's) - (number of 0's). Start with an initial 0 for the empty vector.
 
-The programs for A274575, the canonical program `A274575.P18445276803397930196` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274575 has offset 0).
+The programs for A274575, the canonical program `A274575.P18445276803397930196` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274575 has offset 0).
 
 The definition of A274575 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5982,7 +5966,7 @@ end A274575
 
 `A000120(n+1)-A008687(n+2)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A274575

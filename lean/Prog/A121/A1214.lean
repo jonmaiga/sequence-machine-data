@@ -47,6 +47,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -60,11 +61,14 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -72,8 +76,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4294,7 +4296,7 @@ end A121444
 /-!
 # A121446: Number of ternary trees with n edges and such that the first leaf in the preorder traversal is at level 1.
 
-The programs for A121446, the canonical program `A121446.P4493713673701244054` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121446 has offset 1).
+The programs for A121446, the canonical program `A121446.P4493713673701244054` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121446 has offset 1).
 
 The definition of A121446 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 125 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4510,7 +4512,7 @@ end A121446
 
 `A006013(A028310(n))+A001764(n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A121446
@@ -4689,7 +4691,7 @@ end A121446
 /-!
 # A121447: Level of the first leaf (in preorder traversal) of a ternary tree, summed over all ternary trees with n edges. A ternary tree is a rooted tree in which each vertex has at most three children and each child of a vertex is designated as its left or middle or right child.
 
-The programs for A121447, the canonical program `A121447.P1797565767739298032` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121447 has offset 1).
+The programs for A121447, the canonical program `A121447.P1797565767739298032` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121447 has offset 1).
 
 The definition of A121447 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 123 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4698,7 +4700,7 @@ The definition of A121447 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A006630(n)]-record[A000139(n)]`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A121447
@@ -5313,7 +5315,7 @@ end A121449
 /-!
 # A121450: Expansion of (theta_4(q^3)^2 - theta_4(q)^2)/4 in powers of q.
 
-The programs for A121450, the canonical program `A121450.P5061707180200879465` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121450 has offset 1).
+The programs for A121450, the canonical program `A121450.P5061707180200879465` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121450 has offset 1).
 
 The definition of A121450 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5348,7 +5350,7 @@ end A121450
 
 `A033999(n)*A113446(n+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A121450
@@ -6434,7 +6436,7 @@ end A121453
 /-!
 # A121454: Expansion of q * psi(-q) * psi(-q^7) in powers of q where psi(q) is a Ramanujan theta function.
 
-The programs for A121454, the canonical program `A121454.P16119568103753494855` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121454 has offset 1).
+The programs for A121454, the canonical program `A121454.P16119568103753494855` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121454 has offset 1).
 
 The definition of A121454 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A035162, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6443,7 +6445,7 @@ The definition of A121454 is `conditional`: the Lean definition is an OEIS formu
 
 `(-1)^(n+2)*A035162(n+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A121454
@@ -6622,7 +6624,7 @@ end A121454
 /-!
 # A121455: Expansion of q*(phi(-q)psi(q^4))^2 in powers of q where phi(), psi() are Ramanujan theta functions.
 
-The programs for A121455, the canonical program `A121455.P9993949302773689099` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121455 has offset 1).
+The programs for A121455, the canonical program `A121455.P9993949302773689099` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121455 has offset 1).
 
 The definition of A121455 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6654,7 +6656,7 @@ end A121455
 
 `and(5, (n+1)²)*A115607(n+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A121455
@@ -7095,7 +7097,7 @@ end A121455
 /-!
 # A121456: Expansion of q*(psi(-q)*psi(-q^3))^2 in powers of q where psi() is a Ramanujan theta function.
 
-The programs for A121456, the canonical program `A121456.P5897424446692227850` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121456 has offset 1).
+The programs for A121456, the canonical program `A121456.P5897424446692227850` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121456 has offset 1).
 
 The definition of A121456 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A111932, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7104,7 +7106,7 @@ The definition of A121456 is `conditional`: the Lean definition is an OEIS formu
 
 `(-1)^(n+2)*A111932(n+1)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A121456
@@ -9746,7 +9748,7 @@ end A121478.P2157708097986850477
 /-!
 # A121479: Triangular numbers with more than three distinct prime factors.
 
-The programs for A121479, the canonical program `A121479.P12523290855419051886` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121479 has offset 1).
+The programs for A121479, the canonical program `A121479.P12523290855419051886` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121479 has offset 1).
 
 The definition of A121479 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9755,7 +9757,7 @@ The definition of A121479 is `conjectured`: the Lean definition is a formula tha
 
 `A253145(lt[3, A069903(n+1)])`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A121479
@@ -11271,7 +11273,7 @@ end A121493.P7844497264728426033
 /-!
 # A121494: Composite numbers k such that tau(k) = tau(2k+1).
 
-The programs for A121494, the canonical program `A121494.P12392596324607679124` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121494 has offset 1).
+The programs for A121494, the canonical program `A121494.P12392596324607679124` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121494 has offset 1).
 
 The definition of A121494 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9206 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11280,7 +11282,7 @@ The definition of A121494 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A074821(n+2), A005171(#)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A121494
@@ -11561,7 +11563,7 @@ end A121494
 /-!
 # A121495: Numbers k such that k and k+1 are composite and squarefree.
 
-The programs for A121495, the canonical program `A121495.P8991942477691651037` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121495 has offset 1).
+The programs for A121495, the canonical program `A121495.P8991942477691651037` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121495 has offset 1).
 
 The definition of A121495 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4813 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11688,7 +11690,7 @@ end A121495
 
 `A120944(eq[1, A120944(n+2)-A120944(n+1)]+1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A121495

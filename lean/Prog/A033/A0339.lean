@@ -5,7 +5,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -40,27 +39,31 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C006
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -70,9 +73,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6699,7 +6699,7 @@ end A033946
 /-!
 # A033948: Numbers that have a primitive root (k such that the multiplicative group modulo k is cyclic).
 
-The programs for A033948, the canonical program `A033948.P5912959351970205991` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033948 has offset 1).
+The programs for A033948, the canonical program `A033948.P5912959351970205991` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033948 has offset 1).
 
 The definition of A033948 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6708,7 +6708,7 @@ The definition of A033948 is `conjectured`: the Lean definition is a formula tha
 
 `record[n*A211487(n+1)+1]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A033948
@@ -7277,7 +7277,7 @@ end A033948
 /-!
 # A033949: Positive integers that do not have a primitive root.
 
-The programs for A033949, the canonical program `A033949.P11842067900504890488` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033949 has offset 1).
+The programs for A033949, the canonical program `A033949.P11842067900504890488` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033949 has offset 1).
 
 The definition of A033949 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7286,7 +7286,7 @@ The definition of A033949 is `conjectured`: the Lean definition is a formula tha
 
 `lt[1, A072273(n+1)]+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A033949
@@ -10445,7 +10445,7 @@ end
 end A033956.P914075453431682832
 
 /-!
-# A033958: In the '3x+1' problem, these values for the starting value set new records for number of steps to reach 1.
+# A033958: In the '3x+1' problem, these starting values set new records for number of tripling steps to reach a power of 2.
 
 The programs for A033958, there is no canonical definition to state claims against.
 -/
@@ -13453,7 +13453,7 @@ end A033991
 /-!
 # A033992: Numbers that are divisible by exactly three different primes.
 
-The programs for A033992, the canonical program `A033992.P9984028461934439090` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033992 has offset 1).
+The programs for A033992, the canonical program `A033992.P9984028461934439090` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033992 has offset 1).
 
 The definition of A033992 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13520,7 +13520,7 @@ end A033992
 
 `A214195(n+2)`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A033992
@@ -13968,7 +13968,7 @@ end A033992
 /-!
 # A033993: Numbers that are divisible by exactly four different primes.
 
-The programs for A033993, the canonical program `A033993.P4887346013842753932` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033993 has offset 1).
+The programs for A033993, the canonical program `A033993.P4887346013842753932` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033993 has offset 1).
 
 The definition of A033993 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13977,7 +13977,7 @@ The definition of A033993 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A046386(n+1), A200521(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A033993

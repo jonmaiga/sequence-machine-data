@@ -1,5 +1,4 @@
 import SequenceMachineLib
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -38,9 +37,11 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
@@ -49,24 +50,24 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -91,10 +92,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
-
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
 
 /-!
 # A255704: Number T(n,k) of n-node rooted trees in which the maximal number of nodes in paths starting at a leaf and ending at the first branching node or at the root equals k; triangle T(n,k), n>=1, 1<=k<=n, read by rows.
@@ -5196,7 +5193,7 @@ end A255747.P17527276083404753595
 /-!
 # A255748: Total number of ON states after n generations of cellular automaton based on triangles in a 60-degree wedge (see Comments lines for definition).
 
-The programs for A255748, the canonical program `A255748.P2587341688457865238` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255748 has offset 1).
+The programs for A255748, the canonical program `A255748.P2587341688457865238` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255748 has offset 1).
 
 The definition of A255748 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A063915, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5228,7 +5225,7 @@ end A255748
 
 `2*A063915(n)-A000217(n+1)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A255748
@@ -6821,7 +6818,7 @@ end A255762.P11766878050288324349
 /-!
 # A255763: Odd numbers that are not twin primes.
 
-The programs for A255763, the canonical program `A255763.P6358197639438820287` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255763 has offset 1).
+The programs for A255763, the canonical program `A255763.P6358197639438820287` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255763 has offset 1).
 
 The definition of A255763 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6856,7 +6853,7 @@ end A255763
 
 `record[(2*n+1)*A283265(2*n+1)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A255763
@@ -7389,7 +7386,7 @@ end A255763
 /-!
 # A255764: Partial sums of A255743.
 
-The programs for A255764, the canonical program `A255764.P9577008536080855973` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255764 has offset 1).
+The programs for A255764, the canonical program `A255764.P9577008536080855973` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255764 has offset 1).
 
 The definition of A255764 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7398,7 +7395,7 @@ The definition of A255764 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A255743(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A255764
@@ -7601,7 +7598,7 @@ end A255764
 /-!
 # A255765: Partial sums of A255744.
 
-The programs for A255765, the canonical program `A255765.P11578663823581225176` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255765 has offset 1).
+The programs for A255765, the canonical program `A255765.P11578663823581225176` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255765 has offset 1).
 
 The definition of A255765 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7610,7 +7607,7 @@ The definition of A255765 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A255744(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A255765
@@ -8261,12 +8258,6 @@ namespace A255769
 /-- `p?[A002808(A008578(n+2))+1]` -/
 def P754689625844707782.Spec : Prop :=
   ∀ n, P754689625844707782.a n = A255769 (n + 1)
-
-theorem P754689625844707782.correct : P754689625844707782.Spec := by
-  intro n
-  simp only [A255769, Nat.add_sub_cancel, A255769.P754689625844707782.f1, A255769.P754689625844707782.a, A255769.P10219843264777276091.f1, A255769.P10219843264777276091.a, A002808, A002808.P8130888830651501259.f1, A002808.P8130888830651501259.f2, A002808.P8130888830651501259.a, A008578, A008578.P3639467937083264764.a, A022449, A022449.P12153620208137609378.a, A082023, A082023.P820682903743471019.a, A158611, A158611.P9275629407611603775.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A255769
 

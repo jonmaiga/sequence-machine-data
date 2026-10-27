@@ -40,6 +40,7 @@ import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -60,7 +61,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C000
+import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
@@ -72,7 +73,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1607,7 +1607,7 @@ end A274610.P15891813900206936987
 /-!
 # A274611: a(n) = n/8 if A007814(n) == 3 (mod 4), else a(n) = 2*n.
 
-The programs for A274611, the canonical program `A274611.P10471680084800426065` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274611 has offset 1).
+The programs for A274611, the canonical program `A274611.P10471680084800426065` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274611 has offset 1).
 
 The definition of A274611 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1639,7 +1639,7 @@ end A274611
 
 `(n+1)/A053165(n+1)*A053165(2*(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A274611
@@ -1722,7 +1722,7 @@ end A274611
 /-!
 # A274612: Numbers not divisible by 10 with at least one zero but no two adjacent 0's among its decimal digits.
 
-The programs for A274612, the canonical program `A274612.P12827660095432405851` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274612 has offset 1).
+The programs for A274612, the canonical program `A274612.P12827660095432405851` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274612 has offset 1).
 
 The definition of A274612 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1539 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1731,7 +1731,7 @@ The definition of A274612 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A043489(n+1), A168184(#)]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A274612
@@ -7477,7 +7477,7 @@ end A274661.P16071966788364151073
 /-!
 # A274663: Sum of n-th powers of the roots of x^3 + 4*x^2 - 11*x - 1.
 
-The programs for A274663, the canonical program `A274663.P13727613085558383025` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274663 has offset 0).
+The programs for A274663, the canonical program `A274663.P13727613085558383025` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274663 has offset 0).
 
 The definition of A274663 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 131 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7486,7 +7486,7 @@ The definition of A274663 is `conjectured`: the Lean definition is a formula tha
 
 `A094648(3*n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A274663
@@ -9225,7 +9225,7 @@ end A274682
 /-!
 # A274685: Odd numbers n such that sigma(n) is divisible by 5.
 
-The programs for A274685, the canonical program `A274685.P1074266660649065575` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274685 has offset 1).
+The programs for A274685, the canonical program `A274685.P1074266660649065575` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274685 has offset 1).
 
 The definition of A274685 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4521 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9264,7 +9264,7 @@ end A274685
 
 `filter[A274397(n+1), A379952(#)]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A274685
@@ -10443,7 +10443,7 @@ end A274697.P5037692099220046757
 /-!
 # A274698: a(n)=prime(n)-(2*last digit of prime(n)).
 
-The programs for A274698, the canonical program `A274698.P9145926141844344103` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274698 has offset 1).
+The programs for A274698, the canonical program `A274698.P9145926141844344103` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274698 has offset 1).
 
 The definition of A274698 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10478,7 +10478,7 @@ end A274698
 
 `A000040(n+1)-2*A007652(n+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A274698

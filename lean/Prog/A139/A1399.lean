@@ -26,6 +26,7 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B001.C001
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -40,12 +41,14 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -53,8 +56,8 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B011.C000
-import Seq.B013.C000
+import Seq.B009.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2341,7 +2344,7 @@ end A139911.P12277015531894746217
 /-!
 # A139912: Primes of the form 14x^2+14xy+23y^2.
 
-The programs for A139912, the canonical program `A139912.P2269059861818370027` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139912 has offset 1).
+The programs for A139912, the canonical program `A139912.P2269059861818370027` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139912 has offset 1).
 
 The definition of A139912 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1268 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2530,7 +2533,7 @@ end A139912
 
 `∩[A038917(n+1), A102273(n+1)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A139912
@@ -11068,7 +11071,7 @@ end A139932.P13021751550994280195
 /-!
 # A139933: Primes of the form 11x^2+30y^2.
 
-The programs for A139933, the canonical program `A139933.P14771844273237704820` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139933 has offset 1).
+The programs for A139933, the canonical program `A139933.P14771844273237704820` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139933 has offset 1).
 
 The definition of A139933 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11077,7 +11080,7 @@ The definition of A139933 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A140004(n+1), A140013(n+1)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A139933
@@ -28031,7 +28034,7 @@ end A139990
 /-!
 # A139991: Primes of the form 15x^2+56y^2.
 
-The programs for A139991, the canonical program `A139991.P14427523625073511135` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139991 has offset 1).
+The programs for A139991, the canonical program `A139991.P14427523625073511135` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139991 has offset 1).
 
 The definition of A139991 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2511 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -28460,7 +28463,7 @@ end A139991
 
 `∩[A107148(n+1), A139850(n+1)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A139991

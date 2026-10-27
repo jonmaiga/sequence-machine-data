@@ -37,32 +37,35 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3082,7 +3085,7 @@ end A216835.P15502841266189454743
 /-!
 # A216836: Numbers n such that sum of decimal digits of n divides phi(n).
 
-The programs for A216836, the canonical program `A216836.P6437354700397976852` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216836 has offset 1).
+The programs for A216836, the canonical program `A216836.P6437354700397976852` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216836 has offset 1).
 
 The definition of A216836 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2688 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3091,7 +3094,7 @@ The definition of A216836 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A000010(n+1)%A007953(n+1)]+1`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A216836
@@ -4851,7 +4854,7 @@ end A216848.P16229941034527661534
 /-!
 # A216850: Number of distinct infinite sets of primes congruent to a subset of 1..n mod n.
 
-The programs for A216850, the canonical program `A216850.P1387506290551560808` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216850 has offset 1).
+The programs for A216850, the canonical program `A216850.P1387506290551560808` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216850 has offset 1).
 
 The definition of A216850 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A001221, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4860,7 +4863,7 @@ The definition of A216850 is `conditional`: the Lean definition is an OEIS formu
 
 `(2^A000010(n+1)-1)*2^A001221(n+1)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A216850
@@ -5645,16 +5648,16 @@ end A216862.P4381948242946717810
 /-!
 # A216864: Number of squares that divide the product of divisors of n.
 
-The programs for A216864, the canonical program `A216864.P16380076787172319000` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216864 has offset 1).
+The programs for A216864, the canonical program `A216864.P16380076787172319000` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216864 has offset 1).
 
-The definition of A216864 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A216864 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A046951, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A216864.P16380076787172319000
 
 `A046951(A007955(n+1))`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A216864
@@ -7139,7 +7142,7 @@ end A216883.P130390515315664094
 /-!
 # A216884: Primes p such that x^61 = 2 has a solution mod p.
 
-The programs for A216884, the canonical program `A216884.P17864295657923968855` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216884 has offset 1).
+The programs for A216884, the canonical program `A216884.P17864295657923968855` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216884 has offset 1).
 
 The definition of A216884 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7177,7 +7180,7 @@ end A216884
 
 `A000040(A323048(n+1)+char[A323048(n+1)])`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A216884
@@ -7365,7 +7368,7 @@ end A216885.P9622653903062562019
 /-!
 # A216887: Primes p such that x^67 = 2 has a solution mod p.
 
-The programs for A216887, the canonical program `A216887.P7016313047720049362` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216887 has offset 1).
+The programs for A216887, the canonical program `A216887.P7016313047720049362` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A216887 has offset 1).
 
 The definition of A216887 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 113 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7432,7 +7435,7 @@ end A216887
 
 `eq[A003415(A050376(2*(n+2))), A003415(n)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A216887

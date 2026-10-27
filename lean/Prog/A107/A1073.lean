@@ -46,16 +46,14 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
@@ -64,6 +62,7 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -72,7 +71,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1878,7 +1876,7 @@ end A107307
 /-!
 # A107308: Numbers k such that (29*k - 31) is prime.
 
-The programs for A107308, the canonical program `A107308.P4460867256935608592` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107308 has offset 1).
+The programs for A107308, the canonical program `A107308.P4460867256935608592` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107308 has offset 1).
 
 The definition of A107308 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 340 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1887,7 +1885,7 @@ The definition of A107308 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A001222(A161714(n+4)+n+1)]+5`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A107308
@@ -6277,7 +6275,7 @@ end A107346.P4028187003729101073
 /-!
 # A107347: Number of even semiprimes strictly between prime(n) and 2*prime(n).
 
-The programs for A107347, the canonical program `A107347.P12472760092274587029` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107347 has offset 1).
+The programs for A107347, the canonical program `A107347.P12472760092274587029` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107347 has offset 1).
 
 The definition of A107347 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A294602, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6286,7 +6284,7 @@ The definition of A107347 is `conditional`: the Lean definition is an OEIS formu
 
 `A294602(A000040(n+1))`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A107347
@@ -11574,7 +11572,7 @@ end A107389
 /-!
 # A107390: Composite Fibonacci sequence: each term is the composite with index equal to the sum of the previous two terms.
 
-The programs for A107390, the canonical program `A107390.P7923518412452108324` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107390 has offset 1).
+The programs for A107390, the canonical program `A107390.P7923518412452108324` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107390 has offset 1).
 
 The definition of A107390 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11583,7 +11581,7 @@ The definition of A107390 is `conditional`: the Lean definition is an OEIS formu
 
 `A002808(a(n-1)+a(n-2))` with `a(0)=4, a(1)=6`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A107390

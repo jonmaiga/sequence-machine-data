@@ -26,34 +26,36 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C007
+import Seq.B001.C005
+import Seq.B001.C008
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C006
+import Seq.B002.C004
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3583,7 +3585,7 @@ end A367451.P11668871244258063786
 /-!
 # A367452: Number of semiprime divisors of the n-th squarefree number (A005117).
 
-The programs for A367452, the canonical program `A367452.P7767134623481376132` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367452 has offset 1).
+The programs for A367452, the canonical program `A367452.P7767134623481376132` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367452 has offset 1).
 
 The definition of A367452 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005117, A086971, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3592,7 +3594,7 @@ The definition of A367452 is `conditional`: the Lean definition is an OEIS formu
 
 `A086971(A005117(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A367452
@@ -3827,7 +3829,7 @@ end A367452
 /-!
 # A367455: Numbers not divisible by 6 that are neither squarefree nor prime powers.
 
-The programs for A367455, the canonical program `A367455.P9702420708223161966` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367455 has offset 1).
+The programs for A367455, the canonical program `A367455.P9702420708223161966` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367455 has offset 1).
 
 The definition of A367455 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7021 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3888,7 +3890,7 @@ end A367455
 
 `filter[A126706(n+1), A097325(#)]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A367455
@@ -5543,7 +5545,7 @@ end
 end A367494.P13538037974482812554
 
 /-!
-# A367495: Number of up-down permutations p of [n] such that for all ii+1 differs from the number of elements p(k) between p(i+1) and p(i+2) for k>i+2.
+# A367495: Number of up-down permutations p of [n] such that for all i<n-1 the number of elements p(j) between p(i) and p(i+1) for j>i+1 differs from the number of elements p(k) between p(i+1) and p(i+2) for k>i+2.
 
 The programs for A367495, there is no canonical definition to state claims against.
 -/

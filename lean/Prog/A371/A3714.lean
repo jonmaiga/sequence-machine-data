@@ -26,23 +26,28 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
-import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -50,13 +55,13 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3690,27 +3695,6 @@ end
 
 end A371464.P11121377433337535503
 
-/-! ## A371464.P12448721738705159923
-
-`eq[A054054(n), A329267(n)]`
--/
-
-namespace A371464.P12448721738705159923
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A054054 n
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A329267 n
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j = f2 j) n
-
-end
-
-end A371464.P12448721738705159923
-
 /-!
 # A371470: Triangle read by rows: for 1 <= k <= n, T(n,k) is the least sum of decimal digits of numbers with n binary digits and binary weight k.
 
@@ -4280,7 +4264,7 @@ end A371490.P17228457577113698841
 /-!
 # A371491: a(n) = Sum_{1 <= x_1, x_2, x_3, x_4, x_5 <= n} ( n/gcd(x_1, x_2, x_3, x_4, x_5, n) )^3.
 
-The programs for A371491, the canonical program `A371491.P18626456264356765` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371491 has offset 1).
+The programs for A371491, the canonical program `A371491.P18626456264356765` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371491 has offset 1).
 
 The definition of A371491 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4289,7 +4273,7 @@ The definition of A371491 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A013956(#)*A334659((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A371491
@@ -4359,7 +4343,7 @@ end A371491
 /-!
 # A371492: a(n) = Sum_{1 <= x_1, x_2, x_3 <= n} ( gcd(x_1, n)/gcd(x_1, x_2, x_3, n) )^2.
 
-The programs for A371492, the canonical program `A371492.P8329581871496110581` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371492 has offset 1).
+The programs for A371492, the canonical program `A371492.P8329581871496110581` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371492 has offset 1).
 
 The definition of A371492 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4368,7 +4352,7 @@ The definition of A371492 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A053191(#)*A084218((n+1)/#)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A371492

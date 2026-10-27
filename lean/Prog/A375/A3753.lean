@@ -1,5 +1,4 @@
 import SequenceMachineLib.Basic
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -39,23 +38,23 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
-import Seq.B001.C011
+import Seq.B001.C009
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -65,12 +64,11 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -97,10 +95,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
 
 /-!
 # A375300: Triangle T(n,k) read by rows that has the A001710(n)-th lexicographic permutation of [1,...,n] as row n.
@@ -485,7 +479,7 @@ end A375307
 /-!
 # A375308: a(n) = Sum_{k=0..floor(2*n/3)} binomial(4*n-4*k,2*k).
 
-The programs for A375308, the canonical program `A375308.P15703181248884195186` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375308 has offset 0).
+The programs for A375308, the canonical program `A375308.P15703181248884195186` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375308 has offset 0).
 
 The definition of A375308 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -494,7 +488,7 @@ The definition of A375308 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A375279(2*n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A375308
@@ -1679,7 +1673,7 @@ end A375325
 /-!
 # A375337: a(n) = binomial(prime(n), phi(prime(n) + 1)).
 
-The programs for A375337, the canonical program `A375337.P16252604061458685989` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375337 has offset 1).
+The programs for A375337, the canonical program `A375337.P16252604061458685989` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375337 has offset 1).
 
 The definition of A375337 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1688,7 +1682,7 @@ The definition of A375337 is `conditional`: the Lean definition is an OEIS formu
 
 `C(A000040(n+1), A000010(A000040(n+1)+1))`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A375337
@@ -1793,12 +1787,6 @@ namespace A375337
 def P2507150279346295851.Spec : Prop :=
   ∀ n, (P2507150279346295851.a n : ℤ) = A375337 (n + 1)
 
-theorem P2507150279346295851.correct : P2507150279346295851.Spec := by
-  intro n
-  simp only [A375337, Nat.add_sub_cancel, A375337.P2507150279346295851.a, A375337.P16252604061458685989.a, A000010, A000010.P4673923239450215316.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A008864, A008864.P9177617808325052279.a, A040976, A040976.P11599754272797435513.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P7264174615531153985.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A375337
 
 /-! ## A375337.P7180295745693315843
@@ -1845,12 +1833,6 @@ namespace A375337
 def P10091500293656906556.Spec : Prop :=
   ∀ n, (P10091500293656906556.a n : ℤ) = A375337 (n + 1)
 
-theorem P10091500293656906556.correct : P10091500293656906556.Spec := by
-  intro n
-  simp only [A375337, Nat.add_sub_cancel, A375337.P10091500293656906556.a, A375337.P16252604061458685989.a, A000010, A000010.P4673923239450215316.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A008864, A008864.P9177617808325052279.a, A014692, A014692.P2004927767556050134.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P7264174615531153985.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A375337
 
 /-! ## A375337.P14287265454678155055
@@ -1879,7 +1861,7 @@ end A375337
 /-!
 # A375339: If n has exactly one non-unitary prime factor then a(n) is the exponent of the highest power of this prime that divides n, otherwise a(n) = 0.
 
-The programs for A375339, the canonical program `A375339.P15531892333472399892` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375339 has offset 1).
+The programs for A375339, the canonical program `A375339.P15531892333472399892` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375339 has offset 1).
 
 The definition of A375339 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A359466, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1888,7 +1870,7 @@ The definition of A375339 is `conditional`: the Lean definition is an OEIS formu
 
 `A005361(n+1)*A359466(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A375339
@@ -2204,7 +2186,7 @@ end A375341
 /-!
 # A375342: The maximum exponent in the prime factorization of the numbers whose powerful part is a power of a squarefree number that is larger than 1.
 
-The programs for A375342, the canonical program `A375342.P14847801276659262859` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375342 has offset 1).
+The programs for A375342, the canonical program `A375342.P14847801276659262859` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375342 has offset 1).
 
 The definition of A375342 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051903, A375142, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2213,7 +2195,7 @@ The definition of A375342 is `conditional`: the Lean definition is an OEIS formu
 
 `A051903(A375142(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A375342
@@ -2336,7 +2318,7 @@ end A375345.P1614397438784937277
 /-!
 # A375349: a(n) is the parity of the n-th cubefree number.
 
-The programs for A375349, the canonical program `A375349.P12087631011185153804` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375349 has offset 1).
+The programs for A375349, the canonical program `A375349.P12087631011185153804` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375349 has offset 1).
 
 The definition of A375349 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004709, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2368,7 +2350,7 @@ end A375349
 
 `A000035(A004709(n+1))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A375349
@@ -3420,7 +3402,7 @@ end A375358.P17757727743849648045
 /-!
 # A375359: The maximum exponent in the prime factorization of the smallest number whose square is divisible by n.
 
-The programs for A375359, the canonical program `A375359.P18365082364199674777` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375359 has offset 1).
+The programs for A375359, the canonical program `A375359.P18365082364199674777` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375359 has offset 1).
 
 The definition of A375359 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051903, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3429,7 +3411,7 @@ The definition of A375359 is `conditional`: the Lean definition is an OEIS formu
 
 `ceil(A051903(n+1)/2)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A375359
@@ -3884,7 +3866,7 @@ end A375359
 /-!
 # A375360: The maximum exponent in the prime factorization of the smallest exponentially odd number that is divisible by n.
 
-The programs for A375360, the canonical program `A375360.P7444135275151362843` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375360 has offset 1).
+The programs for A375360, the canonical program `A375360.P7444135275151362843` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375360 has offset 1).
 
 The definition of A375360 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051903, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3893,7 +3875,7 @@ The definition of A375360 is `conditional`: the Lean definition is an OEIS formu
 
 `A051903(A356191(n+1))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A375360
@@ -5391,7 +5373,7 @@ end A375376.P4419871959562848924
 /-!
 # A375378: Value of the power tower formed by the numbers in the n-th composition (in standard order).
 
-The programs for A375378, the canonical program `A375378.P14882579800046314677` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375378 has offset 0).
+The programs for A375378, the canonical program `A375378.P14882579800046314677` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375378 has offset 0).
 
 The definition of A375378 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A065120, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5400,7 +5382,7 @@ The definition of A375378 is `conditional`: the Lean definition is an OEIS formu
 
 `A065120(n)^a(A053645(n))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A375378
@@ -5506,7 +5488,7 @@ end A375378
 /-!
 # A375379: Value of the power tower formed by the numbers obtained by adding 1 to the terms in the n-th composition (in standard order).
 
-The programs for A375379, the canonical program `A375379.P12503235433013472216` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375379 has offset 0).
+The programs for A375379, the canonical program `A375379.P12503235433013472216` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A375379 has offset 0).
 
 The definition of A375379 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A065120, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5515,7 +5497,7 @@ The definition of A375379 is `conditional`: the Lean definition is an OEIS formu
 
 `(A065120(n)+1)^a(A053645(n))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A375379

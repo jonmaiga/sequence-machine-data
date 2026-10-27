@@ -42,10 +42,8 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -54,16 +52,17 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
@@ -72,7 +71,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2509,7 +2507,7 @@ end A156624.P17165218929140865217
 /-!
 # A156625: Floor(integral of log(x) from 1 to n).
 
-The programs for A156625, the canonical program `A156625.P9818569217592863471` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156625 has offset 2).
+The programs for A156625, the canonical program `A156625.P9818569217592863471` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156625 has offset 2).
 
 The definition of A156625 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2518,7 +2516,7 @@ The definition of A156625 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A050504(n+2)-(n+2)+1`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A156625
@@ -2883,7 +2881,7 @@ end A156626
 /-!
 # A156627: a(n) = 4394*n - 1820.
 
-The programs for A156627, the canonical program `A156627.P2115852716161736592` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156627 has offset 1).
+The programs for A156627, the canonical program `A156627.P2115852716161736592` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156627 has offset 1).
 
 The definition of A156627 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2892,7 +2890,7 @@ The definition of A156627 is `conjectured`: the Lean definition is a formula tha
 
 `26*A156718(2*(n+1))`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A156627
@@ -3602,7 +3600,7 @@ end A156635
 /-!
 # A156636: a(n) = 4394*n + 1820.
 
-The programs for A156636, the canonical program `A156636.P2324365661510684648` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156636 has offset 0).
+The programs for A156636, the canonical program `A156636.P2324365661510684648` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156636 has offset 0).
 
 The definition of A156636 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3611,7 +3609,7 @@ The definition of A156636 is `conjectured`: the Lean definition is a formula tha
 
 `26*A156718(2*n+1)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A156636
@@ -4425,7 +4423,7 @@ end A156640
 /-!
 # A156641: a(n) = 13*(100^(n+1) - 1)/99.
 
-The programs for A156641, the canonical program `A156641.P17900009512747102704` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156641 has offset 0).
+The programs for A156641, the canonical program `A156641.P17900009512747102704` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156641 has offset 0).
 
 The definition of A156641 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4434,7 +4432,7 @@ The definition of A156641 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `13*A094028(n)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A156641
@@ -5523,7 +5521,7 @@ end A156653.P2232663446138205727
 /-!
 # A156655: Primes of the form 1000*k + 1.
 
-The programs for A156655, the canonical program `A156655.P1351968691735993926` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156655 has offset 1).
+The programs for A156655, the canonical program `A156655.P1351968691735993926` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156655 has offset 1).
 
 The definition of A156655 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 880 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5532,7 +5530,7 @@ The definition of A156655 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A008853(2*n+1)+A008853(2*(n+1)), A179231(n+2)]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A156655
@@ -5972,7 +5970,7 @@ end A156655
 /-!
 # A156657: Numbers that are not safe primes.
 
-The programs for A156657, the canonical program `A156657.P13599752432908791123` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156657 has offset 1).
+The programs for A156657, the canonical program `A156657.P13599752432908791123` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156657 has offset 1).
 
 The definition of A156657 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6062,7 +6060,7 @@ end A156657
 
 `comp[p?[A072055(n+1)]]`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A156657
@@ -6770,7 +6768,7 @@ end A156658
 /-!
 # A156659: Characteristic function of safe primes.
 
-The programs for A156659, the canonical program `A156659.P9694102179594452160` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156659 has offset 0).
+The programs for A156659, the canonical program `A156659.P9694102179594452160` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156659 has offset 0).
 
 The definition of A156659 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7277,7 +7275,7 @@ end A156659
 
 `A156660(A057979(n))`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A156659
@@ -7373,7 +7371,7 @@ end A156659
 /-!
 # A156660: Characteristic function of Sophie Germain primes.
 
-The programs for A156660, the canonical program `A156660.P13297999666719804209` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156660 has offset 0).
+The programs for A156660, the canonical program `A156660.P13297999666719804209` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156660 has offset 0).
 
 The definition of A156660 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7838,7 +7836,7 @@ end A156660
 
 `and(A101264(n), A105700(n))`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A156660
@@ -8043,7 +8041,7 @@ end A156661.P17209542645347646399
 /-!
 # A156663: Triangle by columns, powers of 2 interleaved with zeros.
 
-The programs for A156663, the canonical program `A156663.P8756800367634588388` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156663 has offset 0).
+The programs for A156663, the canonical program `A156663.P8756800367634588388` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156663 has offset 0).
 
 The definition of A156663 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8195,7 +8193,7 @@ end A156663
 
 `A077957(A025581(n))`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A156663
@@ -8542,7 +8540,7 @@ end A156663
 /-!
 # A156664: Binomial transform of A052551.
 
-The programs for A156664, the canonical program `A156664.P8435972975703296166` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156664 has offset 0).
+The programs for A156664, the canonical program `A156664.P8435972975703296166` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156664 has offset 0).
 
 The definition of A156664 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8551,7 +8549,7 @@ The definition of A156664 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A000129(n+1)-2^n`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A156664
@@ -10250,7 +10248,7 @@ def P15149704219153989922.Spec : Prop :=
 end A156677
 
 /-!
-# A156678: Consider primitive Pythagorean triangles (A^2 + B^2 = C^2, gcd (A, B) = 1, A < B
+# A156678: Consider primitive Pythagorean triangles (A^2 + B^2 = C^2, gcd (A, B) = 1, A < B<C); sequence gives values of B, sorted to correspond to increasing A (A020884(n)).
 
 The programs for A156678, there is no canonical definition to state claims against.
 -/
@@ -10391,7 +10389,7 @@ end
 end A156678.P346633277538828943
 
 /-!
-# A156679: Consider primitive Pythagorean triangles (A^2 + B^2 = C^2, gcd (A, B) = 1, A < B
+# A156679: Consider primitive Pythagorean triangles (A^2 + B^2 = C^2, gcd (A, B) = 1, A < B<C); sequence gives values of C, sorted to correspond to increasing A (A020884(n)).
 
 The programs for A156679, there is no canonical definition to state claims against.
 -/
@@ -10490,7 +10488,7 @@ end
 end A156679.P4758855778140606730
 
 /-!
-# A156680: Consider primitive Pythagorean triangles (A^2 + B^2 = C^2, gcd (A, B) = 1, A < B
+# A156680: Consider primitive Pythagorean triangles (A^2 + B^2 = C^2, gcd (A, B) = 1, A < B<C); sequence gives values of B-A, sorted to correspond to increasing A (A020884(n)).
 
 The programs for A156680, there is no canonical definition to state claims against.
 -/
@@ -10667,7 +10665,7 @@ end
 end A156681.P5009350263491212354
 
 /-!
-# A156682: Consider all Pythagorean triangles A^2 + B^2 = C^2 with A
+# A156682: Consider all Pythagorean triangles A^2 + B^2 = C^2 with A<B<C; sequence gives values of C, sorted to correspond to increasing A (A009004(n)).
 
 The programs for A156682, there is no canonical definition to state claims against.
 -/
@@ -10705,7 +10703,7 @@ end A156682.P14960481131855874603
 /-!
 # A156683: Integers that can occur as either leg in more than one primitive Pythagorean triple.
 
-The programs for A156683, the canonical program `A156683.P11389173112947492787` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156683 has offset 1).
+The programs for A156683, the canonical program `A156683.P11389173112947492787` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156683 has offset 1).
 
 The definition of A156683 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10714,7 +10712,7 @@ The definition of A156683 is `conjectured`: the Lean definition is a formula tha
 
 `lt[1, A024361(n+1)]+1`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A156683
@@ -11529,7 +11527,7 @@ end A156684.P1300734991228585420
 /-!
 # A156685: Number of primitive Pythagorean triples A^2 + B^2 = C^2 with 0 < A < B < C and gcd(A,B)=1 that have a hypotenuse C that is less than or equal to n.
 
-The programs for A156685, the canonical program `A156685.P11810782186417547600` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156685 has offset 1).
+The programs for A156685, the canonical program `A156685.P11810782186417547600` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156685 has offset 1).
 
 The definition of A156685 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11642,7 +11640,7 @@ end A156685
 
 `A004526(∑[A350872(n+1)])`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A156685
@@ -11892,7 +11890,7 @@ def P5883846473848676821.Spec : Prop :=
 end A156685
 
 /-!
-# A156686: The ordered set of a + b - c as (a,b,c) runs through all Pythagorean triples with a
+# A156686: The ordered set of a + b - c as (a,b,c) runs through all Pythagorean triples with a<b<c.
 
 The programs for A156686, there is no canonical definition to state claims against.
 -/
@@ -12188,7 +12186,7 @@ end A156687.P16034381770077822519
 /-!
 # A156688: The total number of distinct Pythagorean triples with an area numerically equal to n times their perimeters.
 
-The programs for A156688, the canonical program `A156688.P15753806741140365688` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156688 has offset 1).
+The programs for A156688, the canonical program `A156688.P15753806741140365688` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A156688 has offset 1).
 
 The definition of A156688 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12220,7 +12218,7 @@ end A156688
 
 `A000005(8*(n+1)²)/2`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A156688
@@ -12652,7 +12650,7 @@ def P884978062664580036.Spec : Prop :=
 end A156688
 
 /-!
-# A156689: Inradii of primitive Pythagorean triples a^2+b^2=c^2, 0
+# A156689: Inradii of primitive Pythagorean triples a^2+b^2=c^2, 0<a<b<c with gcd(a,b)=1, and sorted to correspond to increasing a (given in A020884).
 
 The programs for A156689, there is no canonical definition to state claims against.
 -/

@@ -44,9 +44,11 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -56,11 +58,11 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,12 +70,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1834,7 +1835,7 @@ end A228120.P18413713325529982647
 /-!
 # A228121: Numbers n such that 3n - 4 is prime.
 
-The programs for A228121, the canonical program `A228121.P1458711502036451659` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228121 has offset 1).
+The programs for A228121, the canonical program `A228121.P1458711502036451659` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228121 has offset 1).
 
 The definition of A228121 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A024893, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1843,7 +1844,7 @@ The definition of A228121 is `conditional`: the Lean definition is an OEIS formu
 
 `A024893(n+1)+2`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A228121
@@ -4810,7 +4811,7 @@ end
 end A228139.P4628100357365338234
 
 /-!
-# A228140: Numbers n such that n^2 - 2 is not squarefree.
+# A228140: Numbers k such that k^2 - 2 is not squarefree.
 
 The programs for A228140, there is no canonical definition to state claims against.
 -/
@@ -8783,7 +8784,7 @@ end A228179
 /-!
 # A228180: The number of single edges on the boundary of ordered trees with n edges.
 
-The programs for A228180, the canonical program `A228180.P57070728468080363` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228180 has offset 0).
+The programs for A228180, the canonical program `A228180.P57070728468080363` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228180 has offset 0).
 
 The definition of A228180 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 172 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8815,7 +8816,7 @@ end A228180
 
 `A131428(n)-abs(∑[A115140(n)])`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A228180
@@ -9027,7 +9028,7 @@ end A228186
 /-!
 # A228187: Positive numbers which when decremented by the product of their digits produce a square.
 
-The programs for A228187, the canonical program `A228187.P1035965118323279461` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228187 has offset 1).
+The programs for A228187, the canonical program `A228187.P1035965118323279461` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228187 has offset 1).
 
 The definition of A228187 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 103 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9036,7 +9037,7 @@ The definition of A228187 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A000038(n), A053186(A070565(n))]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A228187
@@ -10004,7 +10005,7 @@ end A228197
 /-!
 # A228198: Smallest of five consecutive primes whose sum is not a prime.
 
-The programs for A228198, the canonical program `A228198.P4684972850257953238` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228198 has offset 1).
+The programs for A228198, the canonical program `A228198.P4684972850257953238` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A228198 has offset 1).
 
 The definition of A228198 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1126 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10013,7 +10014,7 @@ The definition of A228198 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A006093(n+1)+A005171(A034964(n+1))]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A228198

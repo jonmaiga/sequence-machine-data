@@ -40,27 +40,26 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
-import Seq.B006.C001
+import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -201,7 +200,7 @@ end A209801.P1086766748100733731
 /-!
 # A209802: Partial sums of exponential Möbius function, A166234.
 
-The programs for A209802, the canonical program `A209802.P15698415580135976079` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209802 has offset 1).
+The programs for A209802, the canonical program `A209802.P15698415580135976079` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209802 has offset 1).
 
 The definition of A209802 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -210,7 +209,7 @@ The definition of A209802 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A166234(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A209802
@@ -1177,7 +1176,7 @@ end
 end A209813.P137946634100632578
 
 /-!
-# A209815: Number of partitions of 2n in which every part is
+# A209815: Number of partitions of 2n in which every part is <n; also, the number of partitions of 2 into rational numbers a/b such that 0<a<b<=n and b divides n.
 
 The programs for A209815, there is no canonical definition to state claims against.
 -/
@@ -1434,21 +1433,6 @@ end
 
 end A209815.P8449017589611227713
 
-/-! ## A209815.P14070495938979016090
-
-`A233771(2*(n+1))`
--/
-
-namespace A209815.P14070495938979016090
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A233771 (2 * (n + 1))
-
-end
-
-end A209815.P14070495938979016090
-
 /-! ## A209815.P11969084277691272210
 
 `A182616(n+1)-A100824(2*n+1)`
@@ -1480,7 +1464,7 @@ end
 end A209815.P14671416535929463823
 
 /-!
-# A209816: Number of partitions of 2n in which every part is
+# A209816: Number of partitions of 2n in which every part is <n+1; also, the number of partitions of 2 into rational numbers a/b such that 0<a<=b<=n and b divides n.
 
 The programs for A209816, there is no canonical definition to state claims against.
 -/
@@ -1689,21 +1673,6 @@ end
 
 end A209816.P17780752917605824948
 
-/-! ## A209816.P11884092877875147096
-
-`A233771(2*(n+1))+A000041(n+1)`
--/
-
-namespace A209816.P11884092877875147096
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A233771 (2 * (n + 1)) + A000041 (n + 1)
-
-end
-
-end A209816.P11884092877875147096
-
 /-! ## A209816.P14058842686417478124
 
 `A058696(n+1)-A100824(2*n+1)`
@@ -1735,7 +1704,7 @@ end
 end A209816.P4696047043574921416
 
 /-!
-# A209817: Number of partitions of 3n in which every part is
+# A209817: Number of partitions of 3n in which every part is <n.
 
 The programs for A209817, there is no canonical definition to state claims against.
 -/
@@ -4687,7 +4656,7 @@ end A209856.P9367979134180575189
 /-!
 # A209859: Rewrite the binary expansion of n from the most significant end, 1 -> 1, 0+1 (one or more zeros followed by one) -> 0, drop the trailing zeros of the original n.
 
-The programs for A209859, the canonical program `A209859.P17593637001217111861` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209859 has offset 0).
+The programs for A209859, the canonical program `A209859.P17593637001217111861` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209859 has offset 0).
 
 The definition of A209859 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 109 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4696,7 +4665,7 @@ The definition of A209859 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A209639(n)/2)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A209859
@@ -8172,7 +8141,7 @@ end A209897.P13867153908326158193
 /-!
 # A209898: T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with every 2X2 subblock having one or four distinct clockwise edge differences.
 
-The programs for A209898, the canonical program `A209898.P13299415237245453239` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209898 has offset 1).
+The programs for A209898, the canonical program `A209898.P13299415237245453239` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209898 has offset 1).
 
 The definition of A209898 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1512 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8181,7 +8150,7 @@ The definition of A209898 is `conjectured`: the Lean definition is a formula tha
 
 `4*A209727(n+1)+3`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A209898

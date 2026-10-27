@@ -43,26 +43,23 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1813,7 +1810,7 @@ end A231424.P8609820258735199962
 /-!
 # A231425: The Schramm triangle: T(n,k) = f(gcd(n,k)), where f = Dirichlet inverse of Euler totient.
 
-The programs for A231425, the canonical program `A231425.P12620415110256571272` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231425 has offset 1).
+The programs for A231425, the canonical program `A231425.P12620415110256571272` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231425 has offset 1).
 
 The definition of A231425 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A023900, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1822,7 +1819,7 @@ The definition of A231425 is `conditional`: the Lean definition is an OEIS formu
 
 `A023900(gcd(row(n)+1, col(n)+1))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A231425
@@ -5784,7 +5781,7 @@ end A231473.P1010323526551081071
 /-!
 # A231474: Primes whose base-3 representation is also the base-5 representation of a prime.
 
-The programs for A231474, the canonical program `A231474.P10822810244799036707` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231474 has offset 1).
+The programs for A231474, the canonical program `A231474.P10822810244799036707` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231474 has offset 1).
 
 The definition of A231474 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 134 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5793,7 +5790,7 @@ The definition of A231474 is `conjectured`: the Lean definition is a formula tha
 
 `p?[(n+1)*A001222(A037453(n+1))]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A231474
@@ -6257,7 +6254,7 @@ end A231478.P6040272438659156418
 /-!
 # A231479: Primes whose base-7 representation is also the base-9 representation of a prime.
 
-The programs for A231479, the canonical program `A231479.P10423907028065435007` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231479 has offset 1).
+The programs for A231479, the canonical program `A231479.P10423907028065435007` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231479 has offset 1).
 
 The definition of A231479 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 278 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6266,7 +6263,7 @@ The definition of A231479 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A001222(A037475(n+1))*(n+1)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A231479
@@ -6423,7 +6420,7 @@ end A231479
 /-!
 # A231480: Primes whose base-8 representation is also the base-9 representation of a prime.
 
-The programs for A231480, the canonical program `A231480.P6782408155422875025` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231480 has offset 1).
+The programs for A231480, the canonical program `A231480.P6782408155422875025` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231480 has offset 1).
 
 The definition of A231480 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 149 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6432,7 +6429,7 @@ The definition of A231480 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A038548(n+1), A347954(A037477(n)+1)]+1`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A231480

@@ -37,22 +37,24 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
@@ -61,8 +63,8 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -224,7 +226,7 @@ end
 end A178007.P4394567438249414985
 
 /-!
-# A178008: Number of permutations of 1..n with no element e[i>=2]
+# A178008: Number of permutations of 1..n with no element e[i>=2]<e[1+floor((i-2)/3)] (3-way heap).
 
 The programs for A178008, there is no canonical definition to state claims against.
 -/
@@ -278,7 +280,7 @@ end
 end A178008.P1431357498692507566
 
 /-!
-# A178009: Number of permutations of 1..n with no element e[i>=2]
+# A178009: Number of permutations of 1..n with no element e[i>=2]<e[1+floor((i-2)/4)] (4-way heap).
 
 The programs for A178009, there is no canonical definition to state claims against.
 -/
@@ -386,7 +388,7 @@ end
 end A178009.P12306578953633240462
 
 /-!
-# A178010: Number of permutations of 1..n with no element e[i>=2]
+# A178010: Number of permutations of 1..n with no element e[i>=2]<e[1+floor((i-2)/5)] (5-way heap).
 
 The programs for A178010, there is no canonical definition to state claims against.
 -/
@@ -554,7 +556,7 @@ end
 end A178010.P8043557855860096975
 
 /-!
-# A178011: Number of permutations of 1..n with no element e[i>=2]
+# A178011: Number of permutations of 1..n with no element e[i>=2]<e[1+floor((i-2)/6)] (6-way heap).
 
 The programs for A178011, there is no canonical definition to state claims against.
 -/
@@ -686,7 +688,7 @@ end
 end A178011.P13421068028186507886
 
 /-!
-# A178012: Number of permutations of 2 copies of 1..n with no element e[i>=2]
+# A178012: Number of permutations of 2 copies of 1..n with no element e[i>=2]<e[1+floor((i-2)/2)] (2-way heap).
 
 The programs for A178012, there is no canonical definition to state claims against.
 -/
@@ -713,7 +715,7 @@ end
 end A178012.P14990348555071559912
 
 /-!
-# A178013: Number of permutations of 2 copies of 1..n with no element e[i>=2]
+# A178013: Number of permutations of 2 copies of 1..n with no element e[i>=2]<e[1+floor((i-2)/3)] (3-way heap).
 
 The programs for A178013, there is no canonical definition to state claims against.
 -/
@@ -737,7 +739,7 @@ end
 end A178013.P752990890166227245
 
 /-!
-# A178014: Number of permutations of 2 copies of 1..n with no element e[i>=2]
+# A178014: Number of permutations of 2 copies of 1..n with no element e[i>=2]<e[1+floor((i-2)/4)] (4-way heap).
 
 The programs for A178014, there is no canonical definition to state claims against.
 -/
@@ -764,7 +766,7 @@ end
 end A178014.P12765310164253150660
 
 /-!
-# A178016: Number of permutations of 2 copies of 1..n with no element e[i>=2]
+# A178016: Number of permutations of 2 copies of 1..n with no element e[i>=2]<e[1+floor((i-2)/6)] (6-way heap).
 
 The programs for A178016, there is no canonical definition to state claims against.
 -/
@@ -1426,7 +1428,7 @@ end A178032.P9159204696656299407
 /-!
 # A178034: a(n) = binomial(n*Omega(n),Omega(n)) / n.
 
-The programs for A178034, the canonical program `A178034.P16898512593069456651` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178034 has offset 1).
+The programs for A178034, the canonical program `A178034.P16898512593069456651` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178034 has offset 1).
 
 The definition of A178034 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1435,7 +1437,7 @@ The definition of A178034 is `conditional`: the Lean definition is an OEIS formu
 
 `C((n+1)*A001222(n+1), A001222(n+1))/(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A178034
@@ -3276,7 +3278,7 @@ end A178057.P6253082591032178088
 /-!
 # A178058: Number of 1's in the Gray code for binomial(n,m).
 
-The programs for A178058, the canonical program `A178058.P1320891361642740791` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178058 has offset 0).
+The programs for A178058, the canonical program `A178058.P1320891361642740791` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178058 has offset 0).
 
 The definition of A178058 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3285,7 +3287,7 @@ The definition of A178058 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A005811(C(row(n), col(n)))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A178058
@@ -3530,7 +3532,7 @@ end A178058
 /-!
 # A178059: Triangle read by rows: Number of 1's in the Gray code of Eulerian(n,m), 1<=m<=n.
 
-The programs for A178059, the canonical program `A178059.P15288762009250662244` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178059 has offset 1).
+The programs for A178059, the canonical program `A178059.P15288762009250662244` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178059 has offset 1).
 
 The definition of A178059 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008292, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3539,7 +3541,7 @@ The definition of A178059 is `conditional`: the Lean definition is an OEIS formu
 
 `A005811(A008292(n+1))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A178059
@@ -7243,7 +7245,7 @@ end A178085.P12902542880187092854
 /-!
 # A178086: Triangle T(n,m) = - phi(n+1) + phi(m+1) + phi(n-m+1), 0<=m<=n, where phi = A000010 is Euler's totient.
 
-The programs for A178086, the canonical program `A178086.P8331180815501630969` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178086 has offset 0).
+The programs for A178086, the canonical program `A178086.P8331180815501630969` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178086 has offset 0).
 
 The definition of A178086 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7252,7 +7254,7 @@ The definition of A178086 is `conditional`: the Lean definition is an OEIS formu
 
 `-A000010(row(n)+1)+A000010(col(n)+1)+A000010(row(n)-col(n)+1)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A178086
@@ -7365,7 +7367,7 @@ end
 end A178087.P10802414348064881440
 
 /-!
-# A178088: Let Sn=p1+....+pn and zn=Sn/pn. (zn) is not increasing; we have z1
+# A178088: Let Sn=p1+....+pn and zn=Sn/pn. (zn) is not increasing; we have z1<z2<...<z30 then zn<zn-1 for the first time for p31=127, the second time for p35=149 and so on...
 
 The programs for A178088, there is no canonical definition to state claims against.
 -/

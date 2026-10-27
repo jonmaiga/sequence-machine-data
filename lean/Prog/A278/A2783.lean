@@ -35,27 +35,25 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C000
 import Seq.B004.C002
-import Seq.B005.C001
+import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -89,7 +87,7 @@ set_option linter.unreachableTactic false
 /-!
 # A278301: Number of permutations of length n in the class of juxtapositions of 321-avoiders with 21-avoiders.
 
-The programs for A278301, the canonical program `A278301.P979363314421420552` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278301 has offset 0).
+The programs for A278301, the canonical program `A278301.P979363314421420552` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278301 has offset 0).
 
 The definition of A278301 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 148 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -98,7 +96,7 @@ The definition of A278301 is `conjectured`: the Lean definition is a formula tha
 
 `A007317(n+1)-A000245(n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A278301
@@ -1449,7 +1447,7 @@ end A278316.P2695317565384027364
 /-!
 # A278317: Number of neighbors of each new term in a right triangle read by rows.
 
-The programs for A278317, the canonical program `A278317.P17917219794750219579` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278317 has offset 1).
+The programs for A278317, the canonical program `A278317.P17917219794750219579` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278317 has offset 1).
 
 The definition of A278317 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1481,7 +1479,7 @@ end A278317
 
 `a(n-A141419(n))+2` with `a(0)=0, a(1)=1`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A278317
@@ -3656,7 +3654,7 @@ end A278349.P9561658693790237623
 /-!
 # A278350: Cototient of Fibonacci(n).
 
-The programs for A278350, the canonical program `A278350.P8625627632809308465` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278350 has offset 1).
+The programs for A278350, the canonical program `A278350.P8625627632809308465` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278350 has offset 1).
 
 The definition of A278350 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3688,7 +3686,7 @@ end A278350
 
 `A051953(A000045(n+1))`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A278350
@@ -3891,7 +3889,7 @@ end A278351.P9311772839283287466
 /-!
 # A278354: Number of neighbors of each new term in a square spiral.
 
-The programs for A278354, the canonical program `A278354.P2699865306502681676` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278354 has offset 1).
+The programs for A278354, the canonical program `A278354.P2699865306502681676` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278354 has offset 1).
 
 The definition of A278354 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9802 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3900,7 +3898,7 @@ The definition of A278354 is `conjectured`: the Lean definition is a formula tha
 
 `A265359(A080037(n)-1)-A265359(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A278354

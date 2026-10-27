@@ -40,18 +40,22 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -64,7 +68,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2321,7 +2324,7 @@ end A276728.P6342522886285006155
 /-!
 # A276729: Number of nonprime digits in the decimal expansion of n.
 
-The programs for A276729, the canonical program `A276729.P16499400846689770455` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276729 has offset 0).
+The programs for A276729, the canonical program `A276729.P16499400846689770455` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276729 has offset 0).
 
 The definition of A276729 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2330,7 +2333,7 @@ The definition of A276729 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A055642(n)-A193238(n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A276729
@@ -3025,7 +3028,7 @@ end A276730.P7977677804240204960
 /-!
 # A276732: Primes p such that (p + 1)/10 is also prime.
 
-The programs for A276732, the canonical program `A276732.P8742035922757632699` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276732 has offset 1).
+The programs for A276732, the canonical program `A276732.P8742035922757632699` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276732 has offset 1).
 
 The definition of A276732 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A158017, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3034,7 +3037,7 @@ The definition of A276732 is `conditional`: the Lean definition is an OEIS formu
 
 `10*A158017(n+1)-1`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A276732
@@ -3733,7 +3736,7 @@ end A276735.P12175123669676590018
 /-!
 # A276736: a(n) = numerator of Sum_{d|n} tau(d)/d.
 
-The programs for A276736, the canonical program `A276736.P6839819516574191289` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276736 has offset 1).
+The programs for A276736, the canonical program `A276736.P6839819516574191289` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276736 has offset 1).
 
 The definition of A276736 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3742,7 +3745,7 @@ The definition of A276736 is `conjectured`: the Lean definition is a formula tha
 
 `lcm(n+1, A007429(n+1))/(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A276736
@@ -3825,7 +3828,7 @@ end A276736
 /-!
 # A276737: a(n) = denominator of Sum_{d|n} tau(d)/d.
 
-The programs for A276737, the canonical program `A276737.P10584001989765576024` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276737 has offset 1).
+The programs for A276737, the canonical program `A276737.P10584001989765576024` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276737 has offset 1).
 
 The definition of A276737 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3834,7 +3837,7 @@ The definition of A276737 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)/gcd(n+1, A007429(n+1))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A276737

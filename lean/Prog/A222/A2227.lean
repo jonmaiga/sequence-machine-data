@@ -38,25 +38,27 @@ import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1616,7 +1618,7 @@ end A222714.P3938021435533880080
 /-!
 # A222715: The number of binary pattern classes in the (2,n)-rectangular grid with 5 '1's and (2n-5) '0's: two patterns are in same class if one of them can be obtained by a reflection or 180-degree rotation of the other.
 
-The programs for A222715, the canonical program `A222715.P3900084338169479973` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222715 has offset 3).
+The programs for A222715, the canonical program `A222715.P3900084338169479973` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222715 has offset 3).
 
 The definition of A222715 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1625,7 +1627,7 @@ The definition of A222715 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A005900(n+1)+(n+1)*A178946(n+1)]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A222715
@@ -1721,7 +1723,7 @@ end A222715
 /-!
 # A222716: Numbers which are both the sum of n+1 consecutive triangular numbers and the sum of the n-1 immediately following triangular numbers.
 
-The programs for A222716, the canonical program `A222716.P15093168432039899886` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222716 has offset 1).
+The programs for A222716, the canonical program `A222716.P15093168432039899886` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222716 has offset 1).
 
 The definition of A222716 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1759,7 +1761,7 @@ end A222716
 
 `10*A024166(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A222716
@@ -5656,7 +5658,7 @@ end A222738.P17013652239038121058
 /-!
 # A222740: Denominators of 1/16 - 1/(4 + 8*n)^2.
 
-The programs for A222740, the canonical program `A222740.P1638837219687918471` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222740 has offset 0).
+The programs for A222740, the canonical program `A222740.P1638837219687918471` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222740 has offset 0).
 
 The definition of A222740 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A014695, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5665,7 +5667,7 @@ The definition of A222740 is `conditional`: the Lean definition is an OEIS formu
 
 `A014695(n)*A016754(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A222740

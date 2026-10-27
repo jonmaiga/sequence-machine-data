@@ -35,25 +35,27 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -487,7 +489,7 @@ end A115402
 /-!
 # A115403: Numbers k such that k^3+1 is 3-almost prime (product of three primes).
 
-The programs for A115403, the canonical program `A115403.P13733478826157625303` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115403 has offset 1).
+The programs for A115403, the canonical program `A115403.P13733478826157625303` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115403 has offset 1).
 
 The definition of A115403 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 945 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -496,7 +498,7 @@ The definition of A115403 is `conjectured`: the Lean definition is a formula tha
 
 `eq[8, A278251(n)+A086568(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A115403
@@ -630,7 +632,7 @@ end A115403
 /-!
 # A115404: Numbers n such that n^4+1 is a 4-almost prime (product of four primes).
 
-The programs for A115404, the canonical program `A115404.P9169398074652638064` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115404 has offset 1).
+The programs for A115404, the canonical program `A115404.P9169398074652638064` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115404 has offset 1).
 
 The definition of A115404 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2205 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -639,7 +641,7 @@ The definition of A115404 is `conjectured`: the Lean definition is a formula tha
 
 `eq[4, A193929(n)]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A115404
@@ -2984,7 +2986,7 @@ end A115422
 /-!
 # A115423: Integers n > 0 such that n XOR 30*n = 31*n.
 
-The programs for A115423, the canonical program `A115423.P7439849481679969083` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115423 has offset 1).
+The programs for A115423, the canonical program `A115423.P7439849481679969083` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115423 has offset 1).
 
 The definition of A115423 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2993,7 +2995,7 @@ The definition of A115423 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A115422(n+1), A115795(n+1)]`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A115423
@@ -4445,7 +4447,7 @@ end A115451
 /-!
 # A115454: Composite positive integers written in base 2.
 
-The programs for A115454, the canonical program `A115454.P7778183975533024959` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115454 has offset 1).
+The programs for A115454, the canonical program `A115454.P7778183975533024959` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115454 has offset 1).
 
 The definition of A115454 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, A007088, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4454,7 +4456,7 @@ The definition of A115454 is `conditional`: the Lean definition is an OEIS formu
 
 `A007088(A002808(n+1))`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A115454
@@ -5019,253 +5021,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A115455.P10614431175527108430
-
-/-!
-# A115457: Number of monic irreducible polynomials of degree n in GF(2)[x,y].
-
-The programs for A115457, there is no canonical definition to state claims against.
--/
-
-/-! ## A115457.P1142677669021111211
-
-`∏{e}[2^n, A152128(#)]`
--/
-
-namespace A115457.P1142677669021111211
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 ^ n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n), A152128 (Nat.factorization (f1 n) p)
-
-end
-
-end A115457.P1142677669021111211
-
-/-! ## A115457.P7254289417224089319
-
-`C(A152128(n), ceil(sin(n)²))`
--/
-
-namespace A115457.P7254289417224089319
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A152128 n).toNat ⌈Real.sin (n : ℝ) ^ 2⌉.toNat
-
-end
-
-end A115457.P7254289417224089319
-
-/-! ## A115457.P18122534736851968360
-
-`A152128(n)+A000007(n)`
--/
-
-namespace A115457.P18122534736851968360
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152128 n + A000007 n
-
-end
-
-end A115457.P18122534736851968360
-
-/-! ## A115457.P9119292177302837596
-
-`A152128(n)+A076710(n)`
--/
-
-namespace A115457.P9119292177302837596
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152128 n + A076710 n
-
-end
-
-end A115457.P9119292177302837596
-
-/-! ## A115457.P14099593352150041805
-
-`A152128(n)^A178334(n)`
--/
-
-namespace A115457.P14099593352150041805
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A152128 n : ℚ) ^ (A178334 n : ℤ)
-
-end
-
-end A115457.P14099593352150041805
-
-/-!
-# A115461: Number of monic irreducible polynomials of degree n in GF(3)[x,y].
-
-The programs for A115461, there is no canonical definition to state claims against.
--/
-
-/-! ## A115461.P18276525370066017340
-
-`∏{e}[2^n, A152129(#)]`
--/
-
-namespace A115461.P18276525370066017340
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  2 ^ n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n), A152129 (Nat.factorization (f1 n) p)
-
-end
-
-end A115461.P18276525370066017340
-
-/-! ## A115461.P9988477928721451164
-
-`A152129(n)+char[(8*n)²]`
--/
-
-namespace A115461.P9988477928721451164
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (8 * n) ^ 2
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152129 n + ((if ∃ j, f1 j = n then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A115461.P9988477928721451164
-
-/-! ## A115461.P5401555424276363116
-
-`A152129(n%a(n-1))` with `a(0)=1, a(1)=12`
--/
-
-namespace A115461.P5401555424276363116
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 12] fun n a =>
-  A152129 (Int.tmod (n : ℤ) (a (n - 1))).toNat
-
-end
-
-end A115461.P5401555424276363116
-
-/-! ## A115461.P9653843656418273433
-
-`A152129(n)^A178334(n)`
--/
-
-namespace A115461.P9653843656418273433
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A152129 n : ℚ) ^ (A178334 n : ℤ)
-
-end
-
-end A115461.P9653843656418273433
-
-/-! ## A115461.P16078856168598224807
-
-`gcd(A076710(n), A152129(n))`
--/
-
-namespace A115461.P16078856168598224807
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A076710 n) (A152129 n)
-
-end
-
-end A115461.P16078856168598224807
-
-/-!
-# A115465: Number of monic irreducible polynomials of degree n in GF(5)[x,y].
-
-The programs for A115465, there is no canonical definition to state claims against.
--/
-
-/-! ## A115465.P1921498672101037719
-
-`C(A152131(n), ceil(sin(n)²))`
--/
-
-namespace A115465.P1921498672101037719
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A152131 n).toNat ⌈Real.sin (n : ℝ) ^ 2⌉.toNat
-
-end
-
-end A115465.P1921498672101037719
-
-/-! ## A115465.P17608778533688388681
-
-`∏{e}[A000079(n), A152131(#)]`
--/
-
-namespace A115465.P17608778533688388681
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000079 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, A152131 (Nat.factorization (f1 n).natAbs p)
-
-end
-
-end A115465.P17608778533688388681
-
-/-! ## A115465.P8372292873353570444
-
-`∏{e}[A008862(n), A152131(#)]`
--/
-
-namespace A115465.P8372292873353570444
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A008862 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∏ p ∈ Nat.primeFactors (f1 n).natAbs, A152131 (Nat.factorization (f1 n).natAbs p)
-
-end
-
-end A115465.P8372292873353570444
-
-/-! ## A115465.P13381259905520592167
-
-`A152140(∑[n])+A152131(n)`
--/
-
-namespace A115465.P13381259905520592167
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A152140 (∑ j ∈ Finset.range (n + 1), f1 j) + A152131 n
-
-end
-
-end A115465.P13381259905520592167
 
 /-!
 # A115473: Number of monic irreducible polynomials of degree 2 in GF(2)[x1,...,xn].

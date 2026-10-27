@@ -41,27 +41,24 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4153,7 +4150,7 @@ end A231753.P9983113350866077236
 /-!
 # A231754: Products of distinct primes congruent to 1 modulo 4 (A002144).
 
-The programs for A231754, the canonical program `A231754.P1945507588168497190` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231754 has offset 1).
+The programs for A231754, the canonical program `A231754.P1945507588168497190` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231754 has offset 1).
 
 The definition of A231754 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7751 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4344,7 +4341,7 @@ end A231754
 
 `filter[A057653(n+1), A359377(#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A231754
@@ -6069,7 +6066,7 @@ end A231771.P11980190041557521425
 /-!
 # A231773: Numbers k such that there are no numbers with k primitive roots.
 
-The programs for A231773, the canonical program `A231773.P13203328181478767103` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231773 has offset 1).
+The programs for A231773, the canonical program `A231773.P13203328181478767103` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A231773 has offset 1).
 
 The definition of A231773 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7299 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6078,7 +6075,7 @@ The definition of A231773 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A072209(n+1)-1]+1`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A231773

@@ -35,10 +35,12 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
@@ -48,12 +50,15 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -64,8 +69,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1644,7 +1647,7 @@ end
 end A177933.P16286162582917693992
 
 /-!
-# A177938: Triangle T(n,k) = (-1)^(k+n)*A054655(n,n-k), 0<=k
+# A177938: Triangle T(n,k) = (-1)^(k+n)*A054655(n,n-k), 0<=k<n, read by rows.
 
 The programs for A177938, there is no canonical definition to state claims against.
 -/
@@ -3780,7 +3783,7 @@ end A177956.P2768358391079395906
 /-!
 # A177959: n-th prime minus number of 0's in binary representation of n-th prime.
 
-The programs for A177959, the canonical program `A177959.P3892879503494814762` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177959 has offset 1).
+The programs for A177959, the canonical program `A177959.P3892879503494814762` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177959 has offset 1).
 
 The definition of A177959 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A035103, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3789,7 +3792,7 @@ The definition of A177959 is `conditional`: the Lean definition is an OEIS formu
 
 `A000040(n+1)-A035103(n+1)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A177959
@@ -4536,7 +4539,7 @@ end A177961.P3712950653500701211
 /-!
 # A177962: Number of distinct transpositions of prime factors of n-th composite number.
 
-The programs for A177962, the canonical program `A177962.P7538067305498914461` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177962 has offset 1).
+The programs for A177962, the canonical program `A177962.P7538067305498914461` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177962 has offset 1).
 
 The definition of A177962 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, A008480, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4545,7 +4548,7 @@ The definition of A177962 is `conditional`: the Lean definition is an OEIS formu
 
 `A008480(A002808(n+1))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A177962
@@ -6474,7 +6477,7 @@ end A177968.P7438259061820702240
 /-!
 # A177970: Array T(n,m) = A177944(2*n,2*m) read by antidiagonals.
 
-The programs for A177970, the canonical program `A177970.P282440303243635367` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177970 has offset 0).
+The programs for A177970, the canonical program `A177970.P282440303243635367` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177970 has offset 0).
 
 The definition of A177970 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2550 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6483,7 +6486,7 @@ The definition of A177970 is `conjectured`: the Lean definition is a formula tha
 
 `A003506(A185868(n+1))-A279891(n)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A177970
@@ -8848,7 +8851,7 @@ end A177990
 /-!
 # A177991: Triangle read by rows, A070909 * A177990.
 
-The programs for A177991, the canonical program `A177991.P11359817822590575411` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177991 has offset 0).
+The programs for A177991, the canonical program `A177991.P11359817822590575411` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177991 has offset 0).
 
 The definition of A177991 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8880,7 +8883,7 @@ end A177991
 
 `A115514(n+1)/A177994(n)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A177991

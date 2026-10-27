@@ -42,29 +42,31 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3295,7 +3297,7 @@ end A113043.P4890538389905324851
 /-!
 # A113045: Number triangle binomial(n,floor((n-k)/2)) mod 3.
 
-The programs for A113045, the canonical program `A113045.P12851557519336962224` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113045 has offset 0).
+The programs for A113045, the canonical program `A113045.P12851557519336962224` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113045 has offset 0).
 
 The definition of A113045 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3304,7 +3306,7 @@ The definition of A113045 is `conjectured`: the Lean definition is a formula tha
 
 `A061554(n)%3`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A113045
@@ -5520,7 +5522,7 @@ end A113060.P16083807546734817884
 /-!
 # A113061: Sum of cube divisors of n.
 
-The programs for A113061, the canonical program `A113061.P11150295760055610552` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113061 has offset 1).
+The programs for A113061, the canonical program `A113061.P11150295760055610552` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113061 has offset 1).
 
 The definition of A113061 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5529,7 +5531,7 @@ The definition of A113061 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A010057(#)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A113061
@@ -6115,7 +6117,7 @@ end A113062.P9342566651357722188
 /-!
 # A113063: Associated with theta series of hexagonal net with respect to a node.
 
-The programs for A113063, the canonical program `A113063.P2944476771486333311` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113063 has offset 1).
+The programs for A113063, the canonical program `A113063.P2944476771486333311` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113063 has offset 1).
 
 The definition of A113063 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6147,7 +6149,7 @@ end A113063
 
 `lcm(xor(n, n+1)%3, A255648(n+1))`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A113063
@@ -8378,7 +8380,7 @@ end
 end A113083.P16201855262898152946
 
 /-!
-# A113085: Number of 3-tournament sequences: a(n) gives the number of increasing sequences of n positive integers (t_1,t_2,...,t_n) such that t_1 = 1 and t_i = 1 (mod 2) and t_{i+1} <= 3*t_i for 1
+# A113085: Number of 3-tournament sequences: a(n) gives the number of increasing sequences of n positive integers (t_1,t_2,...,t_n) such that t_1 = 1 and t_i = 1 (mod 2) and t_{i+1} <= 3*t_i for 1<i<n.
 
 The programs for A113085, there is no canonical definition to state claims against.
 -/
@@ -8634,7 +8636,7 @@ end
 end A113088.P14149295661818911805
 
 /-!
-# A113089: Number of 3-tournament sequences: a(n) gives the number of increasing sequences of n positive integers (t_1,t_2,...,t_n) such that t_1 = 2 and t_i = 2 (mod 2) and t_{i+1} <= 3*t_i for 1
+# A113089: Number of 3-tournament sequences: a(n) gives the number of increasing sequences of n positive integers (t_1,t_2,...,t_n) such that t_1 = 2 and t_i = 2 (mod 2) and t_{i+1} <= 3*t_i for 1<i<n.
 
 The programs for A113089, there is no canonical definition to state claims against.
 -/
@@ -8875,7 +8877,7 @@ end
 end A113093.P10850775604810816812
 
 /-!
-# A113096: Number of 4-tournament sequences: a(n) gives the number of increasing sequences of n positive integers (t_1,t_2,...,t_n) such that t_1 = 1 and t_i = 1 (mod 3) and t_{i+1} <= 4*t_i for 1
+# A113096: Number of 4-tournament sequences: a(n) gives the number of increasing sequences of n positive integers (t_1,t_2,...,t_n) such that t_1 = 1 and t_i = 1 (mod 3) and t_{i+1} <= 4*t_i for 1<i<n.
 
 The programs for A113096, there is no canonical definition to state claims against.
 -/
@@ -9010,7 +9012,7 @@ end
 end A113097.P5959669199240883189
 
 /-!
-# A113098: Number of 4-tournament sequences: a(n) gives the number of increasing sequences of n positive integers (t_1,t_2,...,t_n) such that t_1 = 2 and t_i = 2 (mod 3) and t_{i+1} <= 4*t_i for 1
+# A113098: Number of 4-tournament sequences: a(n) gives the number of increasing sequences of n positive integers (t_1,t_2,...,t_n) such that t_1 = 2 and t_i = 2 (mod 3) and t_{i+1} <= 4*t_i for 1<i<n.
 
 The programs for A113098, there is no canonical definition to state claims against.
 -/

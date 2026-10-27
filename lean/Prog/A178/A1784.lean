@@ -44,17 +44,16 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -63,17 +62,17 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -580,7 +579,7 @@ end A178403.P12641494317814831083
 /-!
 # A178404: Numbers such that the rounded up arithmetic mean of their digits equals their digital root.
 
-The programs for A178404, the canonical program `A178404.P8715085228926204478` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178404 has offset 1).
+The programs for A178404, the canonical program `A178404.P8715085228926204478` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178404 has offset 1).
 
 The definition of A178404 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -616,7 +615,7 @@ end A178404
 
 `eq[dr(n), A004427(n)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A178404
@@ -1051,7 +1050,7 @@ end A178409.P2046754829262787399
 /-!
 # A178411: a(1)=2, a(2)=1; for n>=3, a(n) is defined by recursion: Sum_{d|n}((-1)^(n/d))*a(d) = -1.
 
-The programs for A178411, the canonical program `A178411.P2790653243536418880` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178411 has offset 1).
+The programs for A178411, the canonical program `A178411.P2790653243536418880` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178411 has offset 1).
 
 The definition of A178411 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1060,7 +1059,7 @@ The definition of A178411 is `conjectured`: the Lean definition is a formula tha
 
 `A008683(n+1)+Δ[or(n, a(n-1))]` with `a(0)=0`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A178411
@@ -4442,7 +4441,7 @@ end A178447.P16692083595749393952
 /-!
 # A178448: Dirichlet inverse of A001160, sigma_5.
 
-The programs for A178448, the canonical program `A178448.P888281708996163110` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178448 has offset 1).
+The programs for A178448, the canonical program `A178448.P888281708996163110` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178448 has offset 1).
 
 The definition of A178448 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4451,7 +4450,7 @@ The definition of A178448 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A007427(#)*A189923((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A178448
@@ -4561,7 +4560,7 @@ end A178448
 /-!
 # A178450: Dirichlet inverse of A034448 (unitary sigma).
 
-The programs for A178450, the canonical program `A178450.P13297792227575131152` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178450 has offset 1).
+The programs for A178450, the canonical program `A178450.P13297792227575131152` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178450 has offset 1).
 
 The definition of A178450 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4645,7 +4644,7 @@ end A178450
 
 `∑{d}[n+1, A327960(#)*A340774((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A178450
@@ -7165,7 +7164,7 @@ end A178471.P13389033853838420423
 /-!
 # A178472: Number of compositions (ordered partitions) of n where the gcd of the part sizes is not 1.
 
-The programs for A178472, the canonical program `A178472.P12067930664029615455` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178472 has offset 1).
+The programs for A178472, the canonical program `A178472.P12067930664029615455` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178472 has offset 1).
 
 The definition of A178472 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000740, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7197,7 +7196,7 @@ end A178472
 
 `2^n-A000740(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A178472
@@ -7383,12 +7382,6 @@ namespace A178472
 def P3202110177881775220.Spec : Prop :=
   ∀ n, P3202110177881775220.a n = A178472 (n + 1)
 
-theorem P3202110177881775220.correct : P3202110177881775220.Spec := by
-  intro n
-  simp only [A178472, Nat.add_sub_cancel, A178472.P3202110177881775220.a, A178472.P12067930664029615455.a, A000225, A000225.P6535533121115206393.a, A000740, A000740.P14835443835842648949.a, A027375, A027375.P9636017658255068744.f1, A027375.P9636017658255068744.a, A008683, A008683.P18254306604665478110.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A178472
 
 /-! ## A178472.P2710765303465305313
@@ -7411,12 +7404,6 @@ namespace A178472
 /-- `A000918(n)+2-A000740(n+1)` -/
 def P2710765303465305313.Spec : Prop :=
   ∀ n, P2710765303465305313.a n = A178472 (n + 1)
-
-theorem P2710765303465305313.correct : P2710765303465305313.Spec := by
-  intro n
-  simp only [A178472, Nat.add_sub_cancel, A178472.P2710765303465305313.a, A178472.P12067930664029615455.a, A000740, A000740.P14835443835842648949.a, A000918, A000918.P14329454465793069288.a, A027375, A027375.P9636017658255068744.f1, A027375.P9636017658255068744.a, A008683, A008683.P18254306604665478110.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A178472
 
@@ -7591,12 +7578,6 @@ namespace A178472
 def P5020544981326051287.Spec : Prop :=
   ∀ n, P5020544981326051287.a n = A178472 (n + 1)
 
-theorem P5020544981326051287.correct : P5020544981326051287.Spec := by
-  intro n
-  simp only [A178472, Nat.add_sub_cancel, A178472.P5020544981326051287.a, A178472.P12067930664029615455.a, A000740, A000740.P14835443835842648949.a, A008965, A008965.P16924218572130557635.a, A329145, A329145.P597576007734421068.a, A000031, A000031.P16543801865445953573.f1, A000031.P16543801865445953573.a, A027375, A027375.P9636017658255068744.f1, A027375.P9636017658255068744.a, A008683, A008683.P18254306604665478110.a, A059966, A059966.P16360813507758205577.f1, A059966.P16360813507758205577.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A178472
 
 /-! ## A178472.P13485774840124870474
@@ -7764,7 +7745,7 @@ end A178473.P15132044844968870825
 /-!
 # A178474: Triangle T(n,m) read by rows: the denominator of the coefficient [x^m] of the inverse Euler polynomial E^{-1}(n,x), 0<=m<=n.
 
-The programs for A178474, the canonical program `A178474.P4753274214124290616` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178474 has offset 0).
+The programs for A178474, the canonical program `A178474.P4753274214124290616` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178474 has offset 0).
 
 The definition of A178474 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 120 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7899,7 +7880,7 @@ end A178474
 
 `∏{p}[A166453(n), #]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A178474

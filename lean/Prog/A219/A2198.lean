@@ -37,24 +37,28 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C000
-import Seq.B004.C001
+import Seq.B003.C004
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B009.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1548,7 +1552,7 @@ end
 end A219822.P11639599459521063337
 
 /-!
-# A219823: Number of nX3 arrays of the minimum value of corresponding elements and their horizontal, diagonal or antidiagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and columns, 0..3 nX3 array.
+# A219823: Number of n X 3 arrays of the minimum value of corresponding elements and their horizontal, diagonal or antidiagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and columns, 0..3 n X 3 array.
 
 The programs for A219823, there is no canonical definition to state claims against.
 -/
@@ -2202,7 +2206,7 @@ end A219838.P5301828589664320063
 /-!
 # A219839: a(n) is the number of odd integers in 2..(n-1) that have a common factor (other than 1) with n.
 
-The programs for A219839, the canonical program `A219839.P1850322905401694183` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219839 has offset 1).
+The programs for A219839, the canonical program `A219839.P1850322905401694183` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219839 has offset 1).
 
 The definition of A219839 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2211,7 +2215,7 @@ The definition of A219839 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A176095(n+1)/2)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A219839
@@ -2655,7 +2659,7 @@ end A219840.P7880288248905020927
 /-!
 # A219843: Rows of A219463 seen as numbers in binary representation.
 
-The programs for A219843, the canonical program `A219843.P18379057056590791838` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219843 has offset 0).
+The programs for A219843, the canonical program `A219843.P18379057056590791838` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219843 has offset 0).
 
 The definition of A219843 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2664,7 +2668,7 @@ The definition of A219843 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000225(n+1)-A001317(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A219843
@@ -6766,7 +6770,7 @@ end A219897.P14744414683359478689
 /-!
 # A219898: Record values in A214551.
 
-The programs for A219898, the canonical program `A219898.P16621012416536321040` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219898 has offset 1).
+The programs for A219898, the canonical program `A219898.P16621012416536321040` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219898 has offset 1).
 
 The definition of A219898 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 698 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6775,7 +6779,7 @@ The definition of A219898 is `conjectured`: the Lean definition is a formula tha
 
 `record[A214551(n)]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A219898

@@ -40,17 +40,18 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -63,11 +64,7 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -389,7 +386,7 @@ end
 end A217309.P2776984993516304066
 
 /-!
-# A217310: The number of meandering curves of order n, with only one extremity covered by its arcs.
+# A217310: The number of meandering curves of order n with only one extremity covered by their arcs.
 
 The programs for A217310, there is no canonical definition to state claims against.
 -/
@@ -848,7 +845,7 @@ end
 end A217317.P231828870340885529
 
 /-!
-# A217318: The number of meandering curves of order n, with both extremity covered by its arcs.
+# A217318: The number of meandering curves of order n with both extremities covered by their arcs.
 
 The programs for A217318, there is no canonical definition to state claims against.
 -/
@@ -1654,7 +1651,7 @@ end A217322.P12486879341129743337
 /-!
 # A217323: Number of self-inverse permutations in S_n with longest increasing subsequence of length 3.
 
-The programs for A217323, the canonical program `A217323.P5893074591576963473` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217323 has offset 3).
+The programs for A217323, the canonical program `A217323.P5893074591576963473` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217323 has offset 3).
 
 The definition of A217323 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1663,7 +1660,7 @@ The definition of A217323 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001006(n+3)-A001405(n+3)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A217323
@@ -4708,7 +4705,7 @@ end A217358.P3497629977571971165
 /-!
 # A217360: a(n) = 2^n*binomial(4*n, n)/(3*n+1).
 
-The programs for A217360, the canonical program `A217360.P18313722497906122328` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217360 has offset 0).
+The programs for A217360, the canonical program `A217360.P18313722497906122328` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217360 has offset 0).
 
 The definition of A217360 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4765,7 +4762,7 @@ end A217360
 
 `8^n*A060706(n)/A100089(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A217360
@@ -4964,7 +4961,7 @@ end A217362.P18292792108933660211
 /-!
 # A217363: Series reversion of x - 3*x^3.
 
-The programs for A217363, the canonical program `A217363.P13716447321066378103` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217363 has offset 1).
+The programs for A217363, the canonical program `A217363.P13716447321066378103` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217363 has offset 1).
 
 The definition of A217363 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4973,7 +4970,7 @@ The definition of A217363 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3^n*A001764(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A217363
@@ -6172,7 +6169,7 @@ end
 end A217368.P7400954104230756149
 
 /-!
-# A217373: Numbers n the representation of which in base 3 ends in 2*k or 2*k+1 zeros, where k is odd.
+# A217373: Numbers m the representation of which in base 3 ends in 2*k or 2*k+1 zeros, where k is odd.
 
 The programs for A217373, there is no canonical definition to state claims against.
 -/

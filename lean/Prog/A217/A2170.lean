@@ -34,11 +34,11 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -46,11 +46,10 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -62,8 +61,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -573,7 +570,7 @@ end A217005.P15712495811490170105
 /-!
 # A217006: Numbers k such that phi(k-6) = phi(k) = phi(k+6).
 
-The programs for A217006, the canonical program `A217006.P11652602790585966678` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217006 has offset 1).
+The programs for A217006, the canonical program `A217006.P11652602790585966678` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217006 has offset 1).
 
 The definition of A217006 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 289 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -582,7 +579,7 @@ The definition of A217006 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A179188(n+1)+6, A179188(n+4)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A217006
@@ -630,7 +627,7 @@ end A217006
 /-!
 # A217009: Multiples of 7 in base 8.
 
-The programs for A217009, the canonical program `A217009.P14255670570923127505` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217009 has offset 1).
+The programs for A217009, the canonical program `A217009.P14255670570923127505` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217009 has offset 1).
 
 The definition of A217009 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007094, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -639,7 +636,7 @@ The definition of A217009 is `conditional`: the Lean definition is an OEIS formu
 
 `A007094(A008589(n+1))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A217009
@@ -3317,7 +3314,7 @@ end A217036.P9115515525332851312
 /-!
 # A217038: Number of powerful numbers < n.
 
-The programs for A217038, the canonical program `A217038.P18316143875162456827` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217038 has offset 1).
+The programs for A217038, the canonical program `A217038.P18316143875162456827` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217038 has offset 1).
 
 The definition of A217038 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3419,7 +3416,7 @@ end A217038
 
 `A112526(n)+a(n-1)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A217038

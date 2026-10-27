@@ -31,8 +31,8 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C004
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -42,20 +42,22 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B009.C000
+import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1679,7 +1681,7 @@ end A282318.P6300611093229812109
 /-!
 # A282321: Lesser of twin primes congruent to 11 (mod 30).
 
-The programs for A282321, the canonical program `A282321.P10473487783987751182` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282321 has offset 1).
+The programs for A282321, the canonical program `A282321.P10473487783987751182` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282321 has offset 1).
 
 The definition of A282321 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6482 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1740,7 +1742,7 @@ end A282321
 
 `∩[A001359(n+1), A030430(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A282321
@@ -2263,7 +2265,7 @@ end A282321
 /-!
 # A282322: Greater of twin primes congruent to 13 (mod 30).
 
-The programs for A282322, the canonical program `A282322.P3045035046457869279` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282322 has offset 1).
+The programs for A282322, the canonical program `A282322.P3045035046457869279` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282322 has offset 1).
 
 The definition of A282322 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2272,7 +2274,7 @@ The definition of A282322 is `conjectured`: the Lean definition is a formula tha
 
 `A282321(n+1)+2`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A282322
@@ -2845,7 +2847,7 @@ end A282322
 /-!
 # A282323: Lesser of twin primes congruent to 17 (mod 30).
 
-The programs for A282323, the canonical program `A282323.P15721145604606359382` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282323 has offset 1).
+The programs for A282323, the canonical program `A282323.P15721145604606359382` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282323 has offset 1).
 
 The definition of A282323 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6494 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2877,7 +2879,7 @@ end A282323
 
 `∩[A001359(n+1), A030433(n+1)-2]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A282323
@@ -3419,7 +3421,7 @@ end A282323
 /-!
 # A282324: Greater of twin primes congruent to 19 (mod 30).
 
-The programs for A282324, the canonical program `A282324.P8074953035641554398` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282324 has offset 1).
+The programs for A282324, the canonical program `A282324.P8074953035641554398` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282324 has offset 1).
 
 The definition of A282324 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3474,7 +3476,7 @@ end A282324
 
 `p?[A030432(n+1)+2]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A282324
@@ -4052,7 +4054,7 @@ end A282325.P5298961370497396318
 /-!
 # A282326: Greater of twin primes congruent to 1 (mod 30).
 
-The programs for A282326, the canonical program `A282326.P5010439827126536252` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282326 has offset 1).
+The programs for A282326, the canonical program `A282326.P5010439827126536252` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282326 has offset 1).
 
 The definition of A282326 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4061,7 +4063,7 @@ The definition of A282326 is `conjectured`: the Lean definition is a formula tha
 
 `A060229(n+1)+2`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A282326
@@ -8111,7 +8113,7 @@ end A282386
 /-!
 # A282388: Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 462", based on the 5-celled von Neumann neighborhood.
 
-The programs for A282388, the canonical program `A282388.P15003936815126334606` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282388 has offset 0).
+The programs for A282388, the canonical program `A282388.P15003936815126334606` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282388 has offset 0).
 
 The definition of A282388 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 422 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8120,7 +8122,7 @@ The definition of A282388 is `conjectured`: the Lean definition is a formula tha
 
 `A133179(Δ[n²])`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A282388

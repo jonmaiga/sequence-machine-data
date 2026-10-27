@@ -31,20 +31,21 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -55,8 +56,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4040,7 +4040,7 @@ end A043440.P16612075054023581428
 /-!
 # A043441: Numbers having one 5 in base 8.
 
-The programs for A043441, the canonical program `A043441.P6379859131163105572` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043441 has offset 1).
+The programs for A043441, the canonical program `A043441.P6379859131163105572` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043441 has offset 1).
 
 The definition of A043441 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1372 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4049,7 +4049,7 @@ The definition of A043441 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A316866(A007094(n))]`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A043441
@@ -4326,7 +4326,7 @@ end A043444.P879094116859982426
 /-!
 # A043445: Numbers having exactly one 6 in base 8.
 
-The programs for A043445, the canonical program `A043445.P5603443380075508067` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043445 has offset 1).
+The programs for A043445, the canonical program `A043445.P5603443380075508067` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043445 has offset 1).
 
 The definition of A043445 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1372 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4335,7 +4335,7 @@ The definition of A043445 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A316867(A007094(n))]`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A043445
@@ -4719,7 +4719,7 @@ end A043449
 /-!
 # A043450: Numbers having two 7's in base 8.
 
-The programs for A043450, the canonical program `A043450.P5047331127486138788` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043450 has offset 1).
+The programs for A043450, the canonical program `A043450.P5047331127486138788` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043450 has offset 1).
 
 The definition of A043450 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 294 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4728,7 +4728,7 @@ The definition of A043450 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2, A102679(A007094(n))]`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A043450
@@ -4866,7 +4866,7 @@ end A043451.P9123610746394997106
 /-!
 # A043453: Numbers having one 0 in base 9.
 
-The programs for A043453, the canonical program `A043453.P3959600562205998710` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043453 has offset 1).
+The programs for A043453, the canonical program `A043453.P3959600562205998710` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043453 has offset 1).
 
 The definition of A043453 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1672 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4875,7 +4875,7 @@ The definition of A043453 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A055641(A007095(n)), A057427(n)]`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A043453
@@ -6571,7 +6571,7 @@ end A043465
 /-!
 # A043466: Numbers having two 3's in base 9.
 
-The programs for A043466, the canonical program `A043466.P4392991474352702089` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043466 has offset 1).
+The programs for A043466, the canonical program `A043466.P4392991474352702089` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043466 has offset 1).
 
 The definition of A043466 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 384 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6580,7 +6580,7 @@ The definition of A043466 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2, A316864(A007095(n))]`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A043466
@@ -6794,7 +6794,7 @@ end A043468.P12723989294447886655
 /-!
 # A043469: Numbers having one 4 in base 9.
 
-The programs for A043469, the canonical program `A043469.P1102294554062349445` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043469 has offset 1).
+The programs for A043469, the canonical program `A043469.P1102294554062349445` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043469 has offset 1).
 
 The definition of A043469 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2048 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6832,7 +6832,7 @@ end A043469
 
 `eq[1, A316865(A007095(n))]`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A043469
@@ -7153,7 +7153,7 @@ end A043472.P2776834080882356385
 /-!
 # A043473: Numbers having exactly one 5 in base 9.
 
-The programs for A043473, the canonical program `A043473.P2283782173635327789` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043473 has offset 1).
+The programs for A043473, the canonical program `A043473.P2283782173635327789` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043473 has offset 1).
 
 The definition of A043473 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2048 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7191,7 +7191,7 @@ end A043473
 
 `eq[1, A316866(A007095(n))]`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A043473
@@ -7267,7 +7267,7 @@ end A043473
 /-!
 # A043474: Numbers having two 5's in base 9.
 
-The programs for A043474, the canonical program `A043474.P3675095178451187142` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043474 has offset 1).
+The programs for A043474, the canonical program `A043474.P3675095178451187142` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043474 has offset 1).
 
 The definition of A043474 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 501 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7276,7 +7276,7 @@ The definition of A043474 is `conjectured`: the Lean definition is a formula tha
 
 `eq[4, A286361(A338882(n))]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A043474
@@ -7922,7 +7922,7 @@ end A043480.P1652941018355532552
 /-!
 # A043481: Numbers having one 7 in base 9.
 
-The programs for A043481, the canonical program `A043481.P16324422325216548464` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043481 has offset 1).
+The programs for A043481, the canonical program `A043481.P16324422325216548464` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043481 has offset 1).
 
 The definition of A043481 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2048 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7960,7 +7960,7 @@ end A043481
 
 `eq[1, A316868(A007095(n))]`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A043481

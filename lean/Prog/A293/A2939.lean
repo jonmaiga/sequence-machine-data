@@ -39,29 +39,29 @@ import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -180,7 +180,7 @@ end A293900.P13911543415530641866
 /-!
 # A293901: Sum of proper divisors of n of the form 4k+1.
 
-The programs for A293901, the canonical program `A293901.P14790839592899706069` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293901 has offset 1).
+The programs for A293901, the canonical program `A293901.P14790839592899706069` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293901 has offset 1).
 
 The definition of A293901 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -218,7 +218,7 @@ end A293901
 
 `A050449(n+1)%(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A293901
@@ -276,12 +276,6 @@ namespace A293901
 /-- `(A000593(n+1)-A050452(n+1))%(n+1)` -/
 def P4595218172945319976.Spec : Prop :=
   ∀ n, P4595218172945319976.a n = A293901 (n + 1)
-
-theorem P4595218172945319976.correct : P4595218172945319976.Spec := by
-  intro n
-  simp only [A293901, Nat.add_sub_cancel, A293901.P4595218172945319976.a, A293901.P14790839592899706069.a, A000593, A000593.P13640346029616979906.a, A050449, A050449.P3812122387069373176.f1, A050449.P3812122387069373176.a, A050452, A050452.P8848155708238405563.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A038712, A038712.P3404197303190209645.a, A082052, A082052.P17956952017327585217.f1, A082052.P17956952017327585217.a, A166486, A166486.P13501783531280266850.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A293901
 

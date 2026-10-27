@@ -47,6 +47,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -55,20 +56,18 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -647,7 +646,7 @@ end A099102
 /-!
 # A099103: Natural numbers n with more digits than Euler totient phi(n).
 
-The programs for A099103, the canonical program `A099103.P14963529761325271933` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A099103 has offset 1).
+The programs for A099103, the canonical program `A099103.P14963529761325271933` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A099103 has offset 1).
 
 The definition of A099103 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 103 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -656,7 +655,7 @@ The definition of A099103 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A055642(A225530(n)), A055642(n)]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A099103
@@ -11308,7 +11307,7 @@ end A099183.P9005850091224833991
 /-!
 # A099184: Heavy primes: primes p such that p-1 has more than 2 divisors with multiplicity.
 
-The programs for A099184, the canonical program `A099184.P11748216234505321066` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A099184 has offset 2).
+The programs for A099184, the canonical program `A099184.P11748216234505321066` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A099184 has offset 2).
 
 The definition of A099184 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9998 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11317,7 +11316,7 @@ The definition of A099184 is `conjectured`: the Lean definition is a formula tha
 
 `A059456(n+3)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A099184

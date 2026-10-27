@@ -45,17 +45,13 @@ import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3266,7 +3262,7 @@ end A269025
 /-!
 # A269027: Parity of the number of 1's in A039724(n).
 
-The programs for A269027, the canonical program `A269027.P11463476603679121488` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269027 has offset 0).
+The programs for A269027, the canonical program `A269027.P11463476603679121488` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269027 has offset 0).
 
 The definition of A269027 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005351, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3275,7 +3271,7 @@ The definition of A269027 is `conditional`: the Lean definition is an OEIS formu
 
 `A010060(A005351(n))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A269027

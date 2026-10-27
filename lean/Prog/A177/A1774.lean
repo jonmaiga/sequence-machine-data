@@ -1,5 +1,4 @@
 import SequenceMachineLib
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C003
@@ -40,34 +39,31 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C008
+import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -93,10 +89,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
 
 /-!
 # A177400: a(n) = binomial(n*2^n, n).
@@ -869,7 +861,7 @@ end A177415.P11580235948396688358
 /-!
 # A177416: Triangle read by rows: T(n,k) = 2^A141468(n) mod prime(k).
 
-The programs for A177416, the canonical program `A177416.P16700719177921399123` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177416 has offset 1).
+The programs for A177416, the canonical program `A177416.P16700719177921399123` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177416 has offset 1).
 
 The definition of A177416 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A141468, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -878,7 +870,7 @@ The definition of A177416 is `conditional`: the Lean definition is an OEIS formu
 
 `(2^A141468(row(n)+1))%A000040(col(n)+1)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A177416
@@ -1778,7 +1770,7 @@ end A177425
 /-!
 # A177426: Average of twin prime pairs with multiple and strictly distinct powers.
 
-The programs for A177426, the canonical program `A177426.P13907797116987976749` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177426 has offset 1).
+The programs for A177426, the canonical program `A177426.P13907797116987976749` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177426 has offset 1).
 
 The definition of A177426 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 155 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1787,7 +1779,7 @@ The definition of A177426 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A342028(n+1), A370395(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A177426
@@ -5460,7 +5452,7 @@ end
 end A177479.P7579752306522978935
 
 /-!
-# A177480: Number of permutations of order n avoiding the consecutive pattern egfh with e
+# A177480: Number of permutations of order n avoiding the consecutive pattern egfh with e<f, e<h, g<f and g<h.
 
 The programs for A177480, there is no canonical definition to state claims against.
 -/
@@ -5496,7 +5488,7 @@ end
 end A177480.P1353533797738987099
 
 /-!
-# A177481: Number of permutations of order n avoiding the consecutive pattern efgh with e
+# A177481: Number of permutations of order n avoiding the consecutive pattern efgh with e<f, e<h, g<f and g<h.
 
 The programs for A177481, there is no canonical definition to state claims against.
 -/
@@ -5547,7 +5539,7 @@ end
 end A177481.P15387985632766108808
 
 /-!
-# A177482: Suppose e
+# A177482: Suppose e<f, e<h, g<f and g<h. To avoid fegh means not to have four consecutive letters such that the second and the third letters are less than the first and the fourth letters.
 
 The programs for A177482, there is no canonical definition to state claims against.
 -/
@@ -5978,7 +5970,7 @@ end A177487.P5081643402317197926
 /-!
 # A177492: Products of squares of 2 or more distinct primes.
 
-The programs for A177492, the canonical program `A177492.P17512611008382585647` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177492 has offset 1).
+The programs for A177492, the canonical program `A177492.P17512611008382585647` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177492 has offset 1).
 
 The definition of A177492 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A120944, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5987,7 +5979,7 @@ The definition of A177492 is `conditional`: the Lean definition is an OEIS formu
 
 `A120944(n+1)²`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A177492
@@ -6499,7 +6491,7 @@ end A177492
 /-!
 # A177493: Products of cubes of 2 or more distinct primes.
 
-The programs for A177493, the canonical program `A177493.P9951410185934880408` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177493 has offset 1).
+The programs for A177493, the canonical program `A177493.P9951410185934880408` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A177493 has offset 1).
 
 The definition of A177493 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A120944, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6508,7 +6500,7 @@ The definition of A177493 is `conditional`: the Lean definition is an OEIS formu
 
 `A120944(n+1)^3`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A177493
@@ -6566,12 +6558,6 @@ namespace A177493
 /-- `A120944(n+1)*A177492(n+1)` -/
 def P5494887695761544864.Spec : Prop :=
   ∀ n, P5494887695761544864.a n = A177493 (n + 1)
-
-theorem P5494887695761544864.correct : P5494887695761544864.Spec := by
-  intro n
-  simp only [A177493, Nat.add_sub_cancel, A177493.P5494887695761544864.a, A177493.P9951410185934880408.a, A120944, A120944.P15601852327349088346.f1, A120944.P15601852327349088346.f2, A120944.P15601852327349088346.a, A177492, A177492.P17512611008382585647.a, A005171, A005171.P15860856746370777121.a, A051903, A051903.P13920478898438787932.f1, A051903.P13920478898438787932.a, A010051, A010051.P15078252821583414300.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A177493
 

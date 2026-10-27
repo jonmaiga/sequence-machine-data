@@ -41,20 +41,24 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -67,9 +71,8 @@ import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
+import Seq.B010.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3917,12 +3920,6 @@ namespace A057723
 def P5414608046403433019.Spec : Prop :=
   ∀ n, P5414608046403433019.a n = A057723 (n + 1)
 
-theorem P5414608046403433019.correct : P5414608046403433019.Spec := by
-  intro n
-  simp only [A057723, Nat.add_sub_cancel, A057723.P5414608046403433019.a, A057723.P9092718560045484766.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A003557, A003557.P6364735403900941810.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A048146, A048146.P9985884013456677192.a, A389170, A389170.P11666675562721126669.a, A034448, A034448.P17017727775393200719.a, A064971, A064971.P12456317125098901049.f1, A064971.P12456317125098901049.a, A053825, A053825.P3529766841853861707.f1, A053825.P3529766841853861707.a, A379812, A379812.P10955070158037639960.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A057723
 
 /-! ## A057723.P15530881045293897290
@@ -6436,7 +6433,7 @@ end
 end A057751.P7036531394863536060
 
 /-!
-# A057752: Difference between nearest integer to Li(10^n) and pi(10^n), where Li(x) = integral of log(x) and pi(10^n) = number of primes <= 10^n (A006880).
+# A057752: Difference between nearest integer to Li(10^n) and pi(10^n), where Li(x) is the principal-value integral of 1/log(t) from 0 to x and pi(10^n) = number of primes <= 10^n (A006880).
 
 The programs for A057752, there is no canonical definition to state claims against.
 -/
@@ -6926,7 +6923,7 @@ end A057762
 /-!
 # A057764: Triangle T(n,k) = number of nonzero elements of multiplicative order k in Galois field GF(2^n) (n >= 1, 1 <= k <= 2^n-1).
 
-The programs for A057764, the canonical program `A057764.P12807561923847807720` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057764 has offset 1).
+The programs for A057764, the canonical program `A057764.P12807561923847807720` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057764 has offset 1).
 
 The definition of A057764 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 134 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6935,7 +6932,7 @@ The definition of A057764 is `conjectured`: the Lean definition is a formula tha
 
 `A054522(∑[comp[floor(2^(n-1))]])`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A057764
@@ -10442,7 +10439,7 @@ end A057788
 /-!
 # A057789: a(n) = Sum_{k = 1..n, gcd(k,n)=1} k*(n-k).
 
-The programs for A057789, the canonical program `A057789.P16127120602619535770` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057789 has offset 1).
+The programs for A057789, the canonical program `A057789.P16127120602619535770` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057789 has offset 1).
 
 The definition of A057789 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A023896, A053818, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10451,7 +10448,7 @@ The definition of A057789 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+1)*A023896(n+1)-A053818(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A057789

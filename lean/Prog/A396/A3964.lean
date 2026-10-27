@@ -1,6 +1,7 @@
 import SequenceMachineLib.Basic
 import Mathlib.Tactic
 import Seq.B000.C000
+import Seq.B000.C001
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C009
@@ -10,31 +11,29 @@ import Seq.B000.C020
 import Seq.B000.C030
 import Seq.B000.C035
 import Seq.B000.C040
-import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
-import Seq.B001.C008
-import Seq.B001.C012
+import Seq.B001.C009
+import Seq.B001.C013
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C003
+import Seq.B004.C002
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B008.C000
-import Seq.B011.C000
-import Seq.B013.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -384,7 +383,7 @@ end A396405.P300461148432744624
 /-!
 # A396409: Number of iterations of x -> x XOR 2^A000120(x) from x = n to reach a number of the form 2^m-1.
 
-The programs for A396409, the canonical program `A396409.P16372428509261204668` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396409 has offset 0).
+The programs for A396409, the canonical program `A396409.P16372428509261204668` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396409 has offset 0).
 
 The definition of A396409 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -416,7 +415,7 @@ end A396409
 
 `A326730(A025480(n))`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C004`.
 -/
 
 namespace A396409
@@ -1408,7 +1407,7 @@ end A396466.P8623689427781504741
 /-!
 # A396467: a(n) is the number of distinct triples of triangles chosen from n^2 unit triangles of a triangular grid up to rotation and excluding the centers of three triangles in a same symmetrical axis.
 
-The programs for A396467, the canonical program `A396467.P1293345253100451359` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396467 has offset 1).
+The programs for A396467, the canonical program `A396467.P1293345253100451359` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396467 has offset 1).
 
 The definition of A396467 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1417,7 +1416,7 @@ The definition of A396467 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A396285(n+1)-C(n+1, 3)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A396467

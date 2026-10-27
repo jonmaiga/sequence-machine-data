@@ -38,14 +38,14 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,10 +53,11 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,10 +71,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5364,7 +5361,7 @@ end A006953.P10846024310435109694
 /-!
 # A006954: Denominators of Bernoulli numbers B_0, B_1, B_2, B_4, B_6, ...
 
-The programs for A006954, the canonical program `A006954.P4373113173166877548` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A006954 has offset 0).
+The programs for A006954, the canonical program `A006954.P4373113173166877548` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A006954 has offset 0).
 
 The definition of A006954 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 653 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5581,7 +5578,7 @@ end A006954
 
 `A176591(2*n+1-3%(n+2))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A006954
@@ -5897,7 +5894,7 @@ end A006954
 /-!
 # A006955: Denominator of (2n+1) B_{2n}, where B_n are the Bernoulli numbers.
 
-The programs for A006955, the canonical program `A006955.P9434307626100429128` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A006955 has offset 0).
+The programs for A006955, the canonical program `A006955.P9434307626100429128` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A006955 has offset 0).
 
 The definition of A006955 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5929,7 +5926,7 @@ end A006955
 
 `A326580(n)/Δ[n²]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A006955

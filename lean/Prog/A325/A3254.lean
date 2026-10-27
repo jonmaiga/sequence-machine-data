@@ -36,6 +36,7 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -43,6 +44,7 @@ import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -51,16 +53,19 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -68,8 +73,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -834,7 +837,7 @@ end A325402
 /-!
 # A325403: Number of permutations of the multiset of prime factors of 2n whose first part is not 2.
 
-The programs for A325403, the canonical program `A325403.P18375620770384998092` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325403 has offset 1).
+The programs for A325403, the canonical program `A325403.P18375620770384998092` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325403 has offset 1).
 
 The definition of A325403 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A325392, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -843,7 +846,7 @@ The definition of A325403 is `conditional`: the Lean definition is an OEIS formu
 
 `A325392(2*(n+1))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A325403
@@ -1934,7 +1937,7 @@ end A325420.P18002489840686693152
 /-!
 # A325421: Numbers k coprime to 10 such that there are exactly two values of A for which k^2+4*A and k^2-4*A are perfect squares.
 
-The programs for A325421, the canonical program `A325421.P4803804597475767812` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325421 has offset 1).
+The programs for A325421, the canonical program `A325421.P4803804597475767812` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325421 has offset 1).
 
 The definition of A325421 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 124 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1943,7 +1946,7 @@ The definition of A325421 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A084646(n+1), A100490(n)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A325421
@@ -4285,7 +4288,7 @@ end A325434.P6476719435443087818
 /-!
 # A325435: Numbers m such that m! / sigma(m) is an integer.
 
-The programs for A325435, the canonical program `A325435.P4849477700169915760` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325435 has offset 1).
+The programs for A325435, the canonical program `A325435.P4849477700169915760` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325435 has offset 1).
 
 The definition of A325435 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4390,7 +4393,7 @@ end A325435
 
 `A163162(n+2-C(2, n+2))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A325435
@@ -4610,7 +4613,7 @@ end A325436.P16978607938983267802
 /-!
 # A325437: Final digit of primes of the form k^2 + 1.
 
-The programs for A325437, the canonical program `A325437.P15815788262768055512` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325437 has offset 1).
+The programs for A325437, the canonical program `A325437.P15815788262768055512` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A325437 has offset 1).
 
 The definition of A325437 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002496, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4619,7 +4622,7 @@ The definition of A325437 is `conditional`: the Lean definition is an OEIS formu
 
 `A002496(n+1)%10`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A325437

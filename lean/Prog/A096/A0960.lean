@@ -54,27 +54,29 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1966,31 +1968,27 @@ end A096008.P17003109799841964135
 /-!
 # A096010: Number of different cycles computed with the generalized 3x+1 problem using C=2, B=Cn+m, A=C^m.
 
-The programs for A096010, the canonical program `A096010.P4903496547079153273` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096010 has offset 1).
+The programs for A096010, the canonical program `A096010.P2772366757510892005` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096010 has offset 1).
 
-The definition of A096010 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 340 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A096010 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000016, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A096010.P2772366757510892005
 
 `A000016(n+1)+1`
+
+The canonical program, it is in `Seq.B008.C000`.
 -/
-
-namespace A096010.P2772366757510892005
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000016 (n + 1) + 1
-
-end
-
-end A096010.P2772366757510892005
 
 namespace A096010
 
 /-- `A000016(n+1)+1` -/
 def P2772366757510892005.Spec : Prop :=
   ∀ n, P2772366757510892005.a n = A096010 (n + 1)
+
+theorem P2772366757510892005.correct : P2772366757510892005.Spec := by
+  intro n
+  simp only [A096010, Nat.add_sub_cancel]
 
 end A096010
 
@@ -2069,9 +2067,17 @@ end A096010
 /-! ## A096010.P4903496547079153273
 
 `A063776(n+1)/2+1`
-
-The canonical program, it is in `Seq.B013.C000`.
 -/
+
+namespace A096010.P4903496547079153273
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (A063776 (n + 1) : ℚ) / 2 + 1
+
+end
+
+end A096010.P4903496547079153273
 
 namespace A096010
 
@@ -5506,7 +5512,7 @@ end
 end A096029.P12574201246078659826
 
 /-!
-# A096030: Values (y-x-1)/2, where x^2+y^2=p,(x
+# A096030: Values (y-x-1)/2, where x^2+y^2=p,(x<y) runs over the Pythagorean primes A002144.
 
 The programs for A096030, there is no canonical definition to state claims against.
 -/
@@ -9326,7 +9332,7 @@ def P12280065855791138226.Spec : Prop :=
 end A096046
 
 /-!
-# A096047: a(n)=B(2n,4)/B(2n) (see comment).
+# A096047: a(n) = B(2n,4)/B(2n) (see comment).
 
 The programs for A096047, the canonical program `A096047.P14202442922924104543` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096047 has offset 0).
 
@@ -9597,7 +9603,7 @@ def P1552381452088283825.Spec : Prop :=
 end A096047
 
 /-!
-# A096048: a(n)=B(2n,6)/B(2n) (see comment).
+# A096048: a(n) = B(2n,6)/B(2n) (see comment).
 
 The programs for A096048, the canonical program `A096048.P4833163765496580445` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096048 has offset 0).
 
@@ -10786,7 +10792,7 @@ def P9950819157370498201.Spec : Prop :=
 end A096058
 
 /-!
-# A096059: Numbers n such that for all k, (n^k-1)/(n-1) is not prime.
+# A096059: Numbers m such that for all k, (m^k-1)/(m-1) is not prime.
 
 The programs for A096059, there is no canonical definition to state claims against.
 -/

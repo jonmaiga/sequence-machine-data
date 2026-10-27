@@ -38,29 +38,34 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C006
+import Seq.B002.C002
+import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2918,7 +2923,7 @@ end A349047.P15993591978888353405
 /-!
 # A349049: Number of prime factors (with multiplicity) of the denominator of the harmonic number H(n) = Sum_{k=1..n} 1/k.
 
-The programs for A349049, the canonical program `A349049.P16880800046104447687` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349049 has offset 1).
+The programs for A349049, the canonical program `A349049.P16880800046104447687` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349049 has offset 1).
 
 The definition of A349049 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1092 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2927,7 +2932,7 @@ The definition of A349049 is `conjectured`: the Lean definition is a formula tha
 
 `A025528(n+1)-A001222(A110566(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A349049
@@ -2962,12 +2967,6 @@ namespace A349049
 /-- `A065515(n+1)-A073093(A110566(n+1))` -/
 def P11512910399827860177.Spec : Prop :=
   ∀ n, P11512910399827860177.a n = A349049 (n + 1)
-
-theorem P11512910399827860177.correct : P11512910399827860177.Spec := by
-  intro n
-  simp only [A349049, Nat.add_sub_cancel, A349049.P11512910399827860177.a, A349049.P16880800046104447687.a, A001222, A001222.P11318177267732088261.a, A025528, A025528.P16007803137134117632.f1, A025528.P16007803137134117632.a, A065515, A065515.P15129427044826637405.a, A073093, A073093.P258081957281391684.a, A110566, A110566.P11658579506260881929.a, A001008, A001008.P14452720140578332173.a, A025529, A025529.P10152674282350827364.f1, A025529.P10152674282350827364.f2, A025529.P10152674282350827364.a, A061395, A061395.P8431317036300486107.a, A069513, A069513.P10236214883623494276.f1, A069513.P10236214883623494276.a, A122111, A122111.P18124015185857335041.a, A000254, A000254.P9428527937712228311.a, A014963, A014963.P5975177236000282614.a, A029837, A029837.P1050578713049589.a, A064989, A064989.P13349672914146769936.a, A087207, A087207.P12536008426233777954.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A008578, A008578.P3639467937083264764.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A052126, A052126.P1944428405920482243.a, A166140, A166140.P17649384582351937107.f1, A166140.P17649384582351937107.a, A166142, A166142.P10122674445425206392.f1, A166142.P10122674445425206392.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A349049
 
@@ -3564,7 +3563,7 @@ end A349054.P7546517141536777337
 /-!
 # A349055: Number of multisets of size n that have an alternating permutation and cover an initial interval of positive integers.
 
-The programs for A349055, the canonical program `A349055.P1187177284476940018` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349055 has offset 0).
+The programs for A349055, the canonical program `A349055.P1187177284476940018` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349055 has offset 0).
 
 The definition of A349055 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A349050, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3573,7 +3572,7 @@ The definition of A349055 is `conditional`: the Lean definition is an OEIS formu
 
 `A011782(n)-A349050(n)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A349055
@@ -6067,7 +6066,7 @@ end A349093.P12983442344316740058
 /-!
 # A349094: a(n) = 2^(n-1) - tau(n) where tau(n) is the number of divisors of n.
 
-The programs for A349094, the canonical program `A349094.P5473457884382026223` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349094 has offset 1).
+The programs for A349094, the canonical program `A349094.P5473457884382026223` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A349094 has offset 1).
 
 The definition of A349094 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^n-A000005(n+1)` (program `A349094.P5473457884382026223`, by `A349094.P5473457884382026223.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6076,7 +6075,7 @@ The definition of A349094 is `verified`: the Lean definition is proven equivalen
 
 `2^n-A000005(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A349094

@@ -44,7 +44,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
@@ -54,11 +54,14 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -72,9 +75,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2104,12 +2104,6 @@ namespace A137921
 /-- `A072627(n+1)+A072628(n+1)-A129308(n+1)` -/
 def P5554874813552234581.Spec : Prop :=
   ∀ n, P5554874813552234581.a n = A137921 (n + 1)
-
-theorem P5554874813552234581.correct : P5554874813552234581.Spec := by
-  intro n
-  simp only [A137921, Nat.add_sub_cancel, A137921.P5554874813552234581.a, A137921.P4123784932500151371.a, A000005, A000005.P16091521709108585461.a, A072627, A072627.P14863741919564884877.f1, A072627.P14863741919564884877.a, A072628, A072628.P15487048248922606126.a, A129308, A129308.P2055734380787893719.a, A010051, A010051.P15078252821583414300.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A059841, A059841.P7264174615531153985.a, A088722, A088722.P5735559043475420597.f1, A088722.P5735559043475420597.a, A007862, A007862.P13725744150973773245.f1, A007862.P13725744150973773245.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A010054, A010054.P18347828677204923252.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A137921
 
@@ -6654,7 +6648,7 @@ end
 end A137945.P17056401691869355928
 
 /-!
-# A137946: Triangle of coefficients associate with the expansion of the K_3 graph matric characteristic polynomial as a Sheffer sequence: M = {{0, 1, 1}, {1, 0, 1}, {1, 1, 0}} f(t)=-t^3+3t+2 p(x,t)=1/(2*t^3+3*t^2-1)^x=1/(t^3*f(1/t))^x.
+# A137946: Triangle of coefficients associated with the expansion of the K_3 graph matrix characteristic polynomial as a Sheffer sequence: M = {{0, 1, 1}, {1, 0, 1}, {1, 1, 0}} f(t)=-t^3+3t+2 p(x,t)=1/(2*t^3+3*t^2-1)^x=1/(t^3*f(1/t))^x.
 
 The programs for A137946, there is no canonical definition to state claims against.
 -/

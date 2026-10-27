@@ -34,14 +34,16 @@ import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,6 +54,7 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -63,8 +66,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4243,7 +4244,7 @@ end
 end A194353.P14688420123848773815
 
 /-!
-# A194354: Up-down permutations on [n] whose peaks have k rises.
+# A194354: Number of up-down permutations on [n] whose peaks have k rises.
 
 The programs for A194354, there is no canonical definition to state claims against.
 -/
@@ -5359,7 +5360,7 @@ end
 end A194367.P10150486111450549959
 
 /-!
-# A194368: Numbers m such that Sum_{k=1..m} ( - ) = 0, where r=sqrt(2) and < > denotes fractional part.
+# A194368: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) = 0, where r=sqrt(2) and < > denotes fractional part.
 
 The programs for A194368, there is no canonical definition to state claims against.
 -/
@@ -5650,7 +5651,7 @@ end
 end A194369.P7232887224737039029
 
 /-!
-# A194370: Numbers m such that Sum_{k=1..m} ( - ) > 0, where r=sqrt(2) and < > denotes fractional part.
+# A194370: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) > 0, where r=sqrt(2) and < > denotes fractional part.
 
 The programs for A194370, the canonical program `A194370.P18385211741053095968` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194370 has offset 1).
 
@@ -5954,7 +5955,7 @@ def P12204959216439805324.Spec : Prop :=
 end A194370
 
 /-!
-# A194371: Numbers m such that Sum_{k=1..m} ( - ) < 0, where r=sqrt(3) and fractional part is denoted by < >.
+# A194371: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) < 0, where r=sqrt(3) and fractional part is denoted by < >.
 
 The programs for A194371, the canonical program `A194371.P12996466738484531238` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194371 has offset 1).
 
@@ -6097,7 +6098,7 @@ def P4214016552969234557.Spec : Prop :=
 end A194371
 
 /-!
-# A194372: Numbers m such that Sum_{k=1..m} ( - ) = 0, where r=sqrt(3) and < > denotes fractional part.
+# A194372: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) = 0, where r=sqrt(3) and < > denotes fractional part.
 
 The programs for A194372, there is no canonical definition to state claims against.
 -/
@@ -6202,7 +6203,7 @@ end
 end A194372.P12827962073166682236
 
 /-!
-# A194373: Numbers m such that Sum_{k=1..m} ( - ) > 0, where r=sqrt(3) and < > denotes fractional part.
+# A194373: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) > 0, where r=sqrt(3) and < > denotes fractional part.
 
 The programs for A194373, the canonical program `A194373.P2131192760433905498` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194373 has offset 1).
 
@@ -6345,7 +6346,7 @@ def P7084876104396230128.Spec : Prop :=
 end A194373
 
 /-!
-# A194374: Numbers m such that Sum_{k=1..m} ( - ) = 0, where r=sqrt(5) and < > denotes fractional part.
+# A194374: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) = 0, where r=sqrt(5) and < > denotes fractional part.
 
 The programs for A194374, there is no canonical definition to state claims against.
 -/
@@ -6450,7 +6451,7 @@ end
 end A194374.P13894274764165010033
 
 /-!
-# A194375: Numbers m such that Sum_{k=1..m} ( - ) > 0, where r=sqrt(5) and < > denotes fractional part.
+# A194375: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) > 0, where r=sqrt(5) and < > denotes fractional part.
 
 The programs for A194375, there is no canonical definition to state claims against.
 -/
@@ -6667,7 +6668,7 @@ end
 end A194375.P15262381901467045079
 
 /-!
-# A194376: Numbers m such that Sum_{k=1..m} ( - ) = 0, where r=sqrt(6) and < > denotes fractional part.
+# A194376: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) = 0, where r=sqrt(6) and < > denotes fractional part.
 
 The programs for A194376, the canonical program `A194376.P8742211185253626047` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194376 has offset 1).
 
@@ -6910,7 +6911,7 @@ end
 end A194377.P15267864771002448509
 
 /-!
-# A194378: Numbers m such that Sum_{k=1..m} ( - ) < 0, where r=sqrt(7) and < > denotes fractional part.
+# A194378: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) < 0, where r=sqrt(7) and < > denotes fractional part.
 
 The programs for A194378, there is no canonical definition to state claims against.
 -/
@@ -6937,7 +6938,7 @@ end
 end A194378.P10527202395442358157
 
 /-!
-# A194379: Numbers m such that Sum_{k=1..m} ( - ) = 0, where r=sqrt(7) and < > denotes fractional part.
+# A194379: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) = 0, where r=sqrt(7) and < > denotes fractional part.
 
 The programs for A194379, there is no canonical definition to state claims against.
 -/
@@ -6964,7 +6965,7 @@ end
 end A194379.P1998771857396286988
 
 /-!
-# A194381: Numbers m such that Sum_{k=1..m} ( - ) < 0, where r=sqrt(8) and < > denotes fractional part.
+# A194381: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) < 0, where r=sqrt(8) and < > denotes fractional part.
 
 The programs for A194381, the canonical program `A194381.P1450577894410993002` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194381 has offset 1).
 
@@ -7110,7 +7111,7 @@ def P12727596502817008615.Spec : Prop :=
 end A194381
 
 /-!
-# A194382: Numbers m such that Sum_{k=1..m} ( - ) = 0, where r=sqrt(8) and < > denotes fractional part.
+# A194382: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) = 0, where r=sqrt(8) and < > denotes fractional part.
 
 The programs for A194382, there is no canonical definition to state claims against.
 -/
@@ -7379,7 +7380,7 @@ end
 end A194383.P9528237355066708361
 
 /-!
-# A194384: Numbers m such that Sum_{k=1..m} ( - ) > 0, where r=sqrt(8) and < > denotes fractional part.
+# A194384: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) > 0, where r=sqrt(8) and < > denotes fractional part.
 
 The programs for A194384, there is no canonical definition to state claims against.
 -/
@@ -7461,7 +7462,7 @@ end
 end A194384.P5660649712891105862
 
 /-!
-# A194385: Numbers m such that Sum_{k=1..m} ( - ) = 0, where r=sqrt(10) and < > denotes fractional part.
+# A194385: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) = 0, where r=sqrt(10) and < > denotes fractional part.
 
 The programs for A194385, there is no canonical definition to state claims against.
 -/
@@ -7563,7 +7564,7 @@ end
 end A194385.P11429954535051573452
 
 /-!
-# A194386: Numbers m such that Sum_{k=1..m} ( - ) > 0, where r=sqrt(10) and < > denotes fractional part.
+# A194386: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) > 0, where r=sqrt(10) and < > denotes fractional part.
 
 The programs for A194386, there is no canonical definition to state claims against.
 -/
@@ -7779,7 +7780,7 @@ end
 end A194386.P6667846798366724091
 
 /-!
-# A194387: Numbers m such that Sum_{k=1..m} ( - ) < 0, where r=sqrt(11) and < > denotes fractional part.
+# A194387: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) < 0, where r=sqrt(11) and < > denotes fractional part.
 
 The programs for A194387, there is no canonical definition to state claims against.
 -/
@@ -7893,7 +7894,7 @@ end
 end A194387.P6567937264508852645
 
 /-!
-# A194388: Numbers m such that Sum_{k=1..m} ( - ) = 0, where r=sqrt(11) and < > denotes fractional part.
+# A194388: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) = 0, where r=sqrt(11) and < > denotes fractional part.
 
 The programs for A194388, the canonical program `A194388.P17628058412744009852` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194388 has offset 1).
 
@@ -8030,7 +8031,7 @@ def P7138993257058017613.Spec : Prop :=
 end A194388
 
 /-!
-# A194389: Numbers m such that Sum_{k=1..m} ( - ) > 0, where r=sqrt(11) and < > denotes fractional part.
+# A194389: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) > 0, where r=sqrt(11) and < > denotes fractional part.
 
 The programs for A194389, there is no canonical definition to state claims against.
 -/
@@ -8057,7 +8058,7 @@ end
 end A194389.P8225608959206145061
 
 /-!
-# A194390: Numbers m such that Sum_{k=1..m} ( - ) = 0, where r=sqrt(12) and < > denotes fractional part.
+# A194390: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) = 0, where r=sqrt(12) and < > denotes fractional part.
 
 The programs for A194390, there is no canonical definition to state claims against.
 -/
@@ -8168,7 +8169,7 @@ end
 end A194390.P5457705614759209327
 
 /-!
-# A194391: Numbers m such that Sum_{k=1..m} ( - ) > 0, where r=sqrt(12) and < > denotes fractional part.
+# A194391: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) > 0, where r=sqrt(12) and < > denotes fractional part.
 
 The programs for A194391, there is no canonical definition to state claims against.
 -/
@@ -8363,7 +8364,7 @@ end
 end A194391.P14749755226122356582
 
 /-!
-# A194392: Numbers m such that Sum_{k=1..m} ( - ) < 0, where r=sqrt(13) and < > denotes fractional part.
+# A194392: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) < 0, where r=sqrt(13) and < > denotes fractional part.
 
 The programs for A194392, there is no canonical definition to state claims against.
 -/
@@ -8432,7 +8433,7 @@ end
 end A194392.P6237450992734418532
 
 /-!
-# A194393: Numbers m such that Sum_{k=1..m} ( - ) = 0, where r=sqrt(13) and < > denotes fractional part.
+# A194393: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) = 0, where r=sqrt(13) and < > denotes fractional part.
 
 The programs for A194393, there is no canonical definition to state claims against.
 -/
@@ -8534,7 +8535,7 @@ end
 end A194393.P10830010915674836464
 
 /-!
-# A194395: Numbers m such that Sum_{k=1..m} ( - ) < 0, where r=sqrt(14) and < > denotes fractional part.
+# A194395: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) < 0, where r=sqrt(14) and < > denotes fractional part.
 
 The programs for A194395, there is no canonical definition to state claims against.
 -/
@@ -8654,7 +8655,7 @@ end
 end A194395.P12900471957653583620
 
 /-!
-# A194396: Numbers m such that Sum_{k=1..m} ( - ) = 0, where r=sqrt(14) and < > denotes fractional part.
+# A194396: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) = 0, where r=sqrt(14) and < > denotes fractional part.
 
 The programs for A194396, there is no canonical definition to state claims against.
 -/
@@ -8750,7 +8751,7 @@ end
 end A194396.P18055505525833212987
 
 /-!
-# A194397: Numbers m such that Sum_{k=1..m} ( - ) > 0, where r=sqrt(14) and < > denotes fractional part.
+# A194397: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) > 0, where r=sqrt(14) and < > denotes fractional part.
 
 The programs for A194397, there is no canonical definition to state claims against.
 -/
@@ -8837,7 +8838,7 @@ end
 end A194397.P7845886118433031583
 
 /-!
-# A194398: Numbers m such that Sum_{k=1..m} ( - ) < 0, where r=sqrt(15) and < > denotes fractional part.
+# A194398: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) < 0, where r=sqrt(15) and < > denotes fractional part.
 
 The programs for A194398, there is no canonical definition to state claims against.
 -/
@@ -8942,7 +8943,7 @@ end
 end A194398.P17646599770682816314
 
 /-!
-# A194399: Numbers m such that Sum_{k=1..m} ( - ) = 0, where r=sqrt(15) and < > denotes fractional part.
+# A194399: Numbers m such that Sum_{k=1..m} (<1/2 + k*r> - <k*r>) = 0, where r=sqrt(15) and < > denotes fractional part.
 
 The programs for A194399, there is no canonical definition to state claims against.
 -/

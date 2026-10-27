@@ -41,7 +41,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -49,9 +49,10 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
@@ -63,9 +64,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1213,7 +1211,7 @@ end A281923.P10410465942393929397
 /-!
 # A281925: Numbers that are the product of exactly 4 primes and are of the form prime(k) + prime(k + 1).
 
-The programs for A281925, the canonical program `A281925.P16287795133733270560` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281925 has offset 1).
+The programs for A281925, the canonical program `A281925.P16287795133733270560` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281925 has offset 1).
 
 The definition of A281925 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 961 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1341,7 +1339,7 @@ end A281925
 
 `filter[A001043(n+1), A101637(#)]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A281925
@@ -6109,28 +6107,6 @@ end
 
 end A281993.P10444567481261711695
 
-/-! ## A281993.P494911207954610526
-
-`∩[A097214(n+1), A135098(n+2)]`
--/
-
-namespace A281993.P494911207954610526
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A097214 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A135098 (n + 2)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A281993.P494911207954610526
-
 /-! ## A281993.P11683794463638163389
 
 `A097215(eq[A069646(n), A281988(n+1)])`
@@ -6151,28 +6127,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A281993.P11683794463638163389
-
-/-! ## A281993.P4372701108779928838
-
-`∩[A060326(n+1), A135098(n)]`
--/
-
-namespace A281993.P4372701108779928838
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A060326 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A135098 n
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A281993.P4372701108779928838
 
 /-!
 # A281994: Number of set partitions of [n] into subsets whose element sums are squares.
@@ -6258,7 +6212,7 @@ end A281994.P15603063898703236447
 /-!
 # A281995: Squarefree numbers that, when added to the sum of their prime factors, remain squarefree.
 
-The programs for A281995, the canonical program `A281995.P16123693745508675808` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281995 has offset 1).
+The programs for A281995, the canonical program `A281995.P16123693745508675808` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281995 has offset 1).
 
 The definition of A281995 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2208 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6267,7 +6221,7 @@ The definition of A281995 is `conjectured`: the Lean definition is a formula tha
 
 `record[A007913(n+1)/A003557(A075254(n+1))]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A281995

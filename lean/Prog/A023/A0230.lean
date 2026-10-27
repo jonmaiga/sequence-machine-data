@@ -35,6 +35,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C011
@@ -43,16 +44,15 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B007.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3208,7 +3208,7 @@ end A023021.P10096558869912774877
 /-!
 # A023022: Number of partitions of n into two relatively prime parts. After initial term, this is the "half-totient" function phi(n)/2 (A000010(n)/2).
 
-The programs for A023022, the canonical program `A023022.P11386116983089774469` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023022 has offset 2).
+The programs for A023022, the canonical program `A023022.P11386116983089774469` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023022 has offset 2).
 
 The definition of A023022 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3240,7 +3240,7 @@ end A023022
 
 `round(Δ[A002088(n+1)]/2)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A023022
@@ -3684,7 +3684,7 @@ end A023022
 /-!
 # A023023: Number of partitions of n into 3 unordered relatively prime parts.
 
-The programs for A023023, the canonical program `A023023.P8312334667224594781` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023023 has offset 3).
+The programs for A023023, the canonical program `A023023.P8312334667224594781` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023023 has offset 3).
 
 The definition of A023023 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3693,7 +3693,7 @@ The definition of A023023 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(A000114(n+3)/3)/2`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A023023
@@ -4639,7 +4639,7 @@ end A023030.P12415896446111093613
 /-!
 # A023031: Number of compositions of n into 6 ordered relatively prime parts.
 
-The programs for A023031, the canonical program `A023031.P8515490498603588078` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023031 has offset 6).
+The programs for A023031, the canonical program `A023031.P8515490498603588078` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023031 has offset 6).
 
 The definition of A023031 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4648,7 +4648,7 @@ The definition of A023031 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n+6, C(#-1, 5)*A008683((n+6)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A023031
@@ -4735,7 +4735,7 @@ end A023031
 /-!
 # A023032: Number of compositions of n into 7 ordered relatively prime parts.
 
-The programs for A023032, the canonical program `A023032.P11766389031338610264` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023032 has offset 7).
+The programs for A023032, the canonical program `A023032.P11766389031338610264` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023032 has offset 7).
 
 The definition of A023032 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4744,7 +4744,7 @@ The definition of A023032 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n+7, C(#-1, 6)*A008683((n+7)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A023032
@@ -4862,7 +4862,7 @@ end A023032
 /-!
 # A023033: Number of compositions of n into 8 ordered relatively prime parts.
 
-The programs for A023033, the canonical program `A023033.P8731895386715046614` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023033 has offset 8).
+The programs for A023033, the canonical program `A023033.P8731895386715046614` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023033 has offset 8).
 
 The definition of A023033 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4871,7 +4871,7 @@ The definition of A023033 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n+8, C(#-1, 7)*A008683((n+8)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A023033
@@ -4981,7 +4981,7 @@ end A023033
 /-!
 # A023034: Number of compositions of n into 9 ordered relatively prime parts.
 
-The programs for A023034, the canonical program `A023034.P16354485590653427709` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023034 has offset 9).
+The programs for A023034, the canonical program `A023034.P16354485590653427709` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023034 has offset 9).
 
 The definition of A023034 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4990,7 +4990,7 @@ The definition of A023034 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n+9, C(#-1, 8)*A008683((n+9)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A023034
@@ -5106,7 +5106,7 @@ end A023034
 /-!
 # A023035: Number of compositions of n into 10 ordered relatively prime parts.
 
-The programs for A023035, the canonical program `A023035.P16679167125478681102` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023035 has offset 10).
+The programs for A023035, the canonical program `A023035.P16679167125478681102` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023035 has offset 10).
 
 The definition of A023035 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5115,7 +5115,7 @@ The definition of A023035 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n+10, C(#-1, 9)*A008683((n+10)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A023035

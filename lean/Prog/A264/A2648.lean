@@ -47,31 +47,32 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1064,7 +1065,7 @@ end A264803.P5758195968290250256
 /-!
 # A264810: Number of numbers k <= n such that phi(m) = k for some m.
 
-The programs for A264810, the canonical program `A264810.P5749480952070146331` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264810 has offset 1).
+The programs for A264810, the canonical program `A264810.P5749480952070146331` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264810 has offset 1).
 
 The definition of A264810 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1073,7 +1074,7 @@ The definition of A264810 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A264739(n+1)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A264810
@@ -1186,12 +1187,6 @@ namespace A264810
 /-- `1-A180639(n+1)+n` -/
 def P13088295923996552394.Spec : Prop :=
   ∀ n, P13088295923996552394.a n = A264810 (n + 1)
-
-theorem P13088295923996552394.correct : P13088295923996552394.Spec := by
-  intro n
-  simp only [A264810, Nat.add_sub_cancel, A264810.P13088295923996552394.a, A264810.P5749480952070146331.f1, A264810.P5749480952070146331.a, A180639, A180639.P15369991327257143544.a, A264739, A264739.P12611076801907111291.f1, A264739.P12611076801907111291.a, A000010, A000010.P4673923239450215316.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A264810
 
@@ -2375,7 +2370,7 @@ end A264822
 /-!
 # A264823: Centered 16-gonal (or hexadecagonal) primes.
 
-The programs for A264823, the canonical program `A264823.P5478907989442003670` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264823 has offset 1).
+The programs for A264823, the canonical program `A264823.P5478907989442003670` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264823 has offset 1).
 
 The definition of A264823 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3674 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2414,7 +2409,7 @@ end A264823
 
 `∩[A256917(n+1), a(n-1)+16*n]` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A264823
@@ -10725,7 +10720,7 @@ end A264889.P4720368461604654593
 /-!
 # A264891: a(n) = n*(5*n - 3)*(25*n^2 - 15*n - 6)/8.
 
-The programs for A264891, the canonical program `A264891.P1113913307012413225` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264891 has offset 0).
+The programs for A264891, the canonical program `A264891.P1113913307012413225` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264891 has offset 0).
 
 The definition of A264891 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10759,7 +10754,7 @@ end A264891
 
 `A000566(A000566(n))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A264891
@@ -11307,7 +11302,7 @@ end A264893
 /-!
 # A264894: a(n) = n*(7*n - 5)*(49*n^2 - 35*n - 10)/8.
 
-The programs for A264894, the canonical program `A264894.P11466025763062126121` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264894 has offset 0).
+The programs for A264894, the canonical program `A264894.P11466025763062126121` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264894 has offset 0).
 
 The definition of A264894 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11341,7 +11336,7 @@ end A264894
 
 `A001106(A001106(n))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A264894

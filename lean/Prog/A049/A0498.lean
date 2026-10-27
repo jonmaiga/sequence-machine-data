@@ -37,35 +37,38 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -813,7 +816,7 @@ end A049805.P17090397762133303806
 /-!
 # A049806: Number of Farey fractions of order n that are <=1/2; cf. A049805.
 
-The programs for A049806, the canonical program `A049806.P8436587211597941545` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049806 has offset 1).
+The programs for A049806, the canonical program `A049806.P8436587211597941545` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049806 has offset 1).
 
 The definition of A049806 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1181,7 +1184,7 @@ end A049806
 
 `∑[A055034(A026741(n+1))]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A049806
@@ -1329,7 +1332,7 @@ end A049806
 /-!
 # A049807: a(n)=number of Farey fractions of order n that are <=1/3; cf. A049805.
 
-The programs for A049807, the canonical program `A049807.P8313610108641097684` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049807 has offset 1).
+The programs for A049807, the canonical program `A049807.P8313610108641097684` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049807 has offset 1).
 
 The definition of A049807 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 974 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1368,7 +1371,7 @@ end A049807
 
 `∑[A133755(n+1)+A084091(C(2, n))]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A049807
@@ -1657,7 +1660,7 @@ end A049812.P13496877362885849875
 /-!
 # A049815: a(n) = Sum_{k=1..n} T(n,k), array T as in A049805.
 
-The programs for A049815, the canonical program `A049815.P7841907269452352483` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049815 has offset 1).
+The programs for A049815, the canonical program `A049815.P7841907269452352483` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049815 has offset 1).
 
 The definition of A049815 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 981 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1692,7 +1695,7 @@ end A049815
 
 `∑[∑{d}[n+1, A332684(#)]+1]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A049815
@@ -10128,7 +10131,7 @@ end A049864
 /-!
 # A049865: Number of iterations of unitary totient function (A047994) required to reach 1 from n.
 
-The programs for A049865, the canonical program `A049865.P13992076794767324350` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049865 has offset 1).
+The programs for A049865, the canonical program `A049865.P13992076794767324350` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049865 has offset 1).
 
 The definition of A049865 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10137,7 +10140,7 @@ The definition of A049865 is `conjectured`: the Lean definition is a formula tha
 
 `a(A047994(n+1)-1)+1` with `a(0)=0`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A049865

@@ -42,23 +42,25 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
@@ -2778,7 +2780,7 @@ end A274436
 /-!
 # A274437: Numbers having more distinct prime factors of form 3*k+1 than of the form 3*k+2.
 
-The programs for A274437, the canonical program `A274437.P16973748106690964927` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274437 has offset 1).
+The programs for A274437, the canonical program `A274437.P16973748106690964927` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274437 has offset 1).
 
 The definition of A274437 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2085 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2787,7 +2789,7 @@ The definition of A274437 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A005090(n+1), A005088(n+1)]+1`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A274437
@@ -3886,7 +3888,7 @@ end A274463.P3597995556818967379
 /-!
 # A274465: Primes which are the sum of cousin prime pairs - 1.
 
-The programs for A274465, the canonical program `A274465.P13282728255068810620` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274465 has offset 1).
+The programs for A274465, the canonical program `A274465.P13282728255068810620` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274465 has offset 1).
 
 The definition of A274465 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1427 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3895,7 +3897,7 @@ The definition of A274465 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A072669(n+1), A145471(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A274465
@@ -4555,7 +4557,7 @@ end A274472.P1763890723502801180
 /-!
 # A274473: Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 22", based on the 5-celled von Neumann neighborhood.
 
-The programs for A274473, the canonical program `A274473.P317316573485528462` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274473 has offset 0).
+The programs for A274473, the canonical program `A274473.P317316573485528462` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274473 has offset 0).
 
 The definition of A274473 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4587,7 +4589,7 @@ end A274473
 
 `and(A001317(A042948(n)), A126646(n))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A274473

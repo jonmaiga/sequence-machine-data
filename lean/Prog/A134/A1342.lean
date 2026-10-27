@@ -39,8 +39,8 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -51,6 +51,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -59,7 +60,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4322,7 +4322,7 @@ end A134234
 /-!
 # A134235: Triangle read by rows: a(1) = 1; then n-th row = n terms of (n+2), (n+4), (n+6), ..., n.
 
-The programs for A134235, the canonical program `A134235.P14170243155562586124` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134235 has offset 1).
+The programs for A134235, the canonical program `A134235.P14170243155562586124` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134235 has offset 1).
 
 The definition of A134235 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4331,7 +4331,7 @@ The definition of A134235 is `conjectured`: the Lean definition is a formula tha
 
 `∑[char[∑[n]]]+2*A048151(n+1)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A134235
@@ -4664,7 +4664,7 @@ end A134235
 /-!
 # A134237: Triangle read by rows, a(1) = 1, n-th row n terms of: (2n-1, 2n, 2n+1, ..., followed by n).
 
-The programs for A134237, the canonical program `A134237.P3810954821933463137` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134237 has offset 1).
+The programs for A134237, the canonical program `A134237.P3810954821933463137` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134237 has offset 1).
 
 The definition of A134237 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4673,7 +4673,7 @@ The definition of A134237 is `conjectured`: the Lean definition is a formula tha
 
 `A131421(n+2)-(A002260(n+1)+1)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A134237
@@ -8279,7 +8279,7 @@ end A134268.P13657146120985717428
 /-!
 # A134269: Number of solutions to the equation p^k - p^(k-1) = n, where k is a positive integer and p is prime.
 
-The programs for A134269, the canonical program `A134269.P13392884201192576431` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134269 has offset 1).
+The programs for A134269, the canonical program `A134269.P13392884201192576431` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134269 has offset 1).
 
 The definition of A134269 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8314,7 +8314,7 @@ end A134269
 
 `∑{d}[n+1, floor(A000010(n+1+#)/(n+1))]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A134269

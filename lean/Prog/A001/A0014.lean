@@ -48,6 +48,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -61,18 +62,17 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3002,12 +3002,6 @@ namespace A001414
 /-- `A059975(n+1)+A001222(n+1)` -/
 def P7313962865598862449.Spec : Prop :=
   ∀ n, P7313962865598862449.a n = A001414 (n + 1)
-
-theorem P7313962865598862449.correct : P7313962865598862449.Spec := by
-  intro n
-  simp only [A001414, Nat.add_sub_cancel, A001414.P7313962865598862449.a, A001414.P8293929508439252105.f1, A001414.P8293929508439252105.a, A001222, A001222.P11318177267732088261.a, A059975, A059975.P3594971538098503590.a, A061395, A061395.P8431317036300486107.a, A122111, A122111.P18124015185857335041.a, A029837, A029837.P1050578713049589.a, A064989, A064989.P13349672914146769936.a, A087207, A087207.P12536008426233777954.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A008578, A008578.P3639467937083264764.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A052126, A052126.P1944428405920482243.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A001414
 
@@ -9042,7 +9036,7 @@ end A001460
 /-!
 # A001461: Partial sums of A006206.
 
-The programs for A001461, the canonical program `A001461.P15334845350633274781` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001461 has offset 1).
+The programs for A001461, the canonical program `A001461.P15334845350633274781` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A001461 has offset 1).
 
 The definition of A001461 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 489 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9077,7 +9071,7 @@ end A001461
 
 `A060280(n+1)+a(n-1)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A001461

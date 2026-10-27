@@ -35,28 +35,31 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -65,9 +68,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -999,7 +999,7 @@ end A369307
 /-!
 # A369308: The number of square divisors d of n such that n/d is also a square.
 
-The programs for A369308, the canonical program `A369308.P10334454097414286885` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369308 has offset 1).
+The programs for A369308, the canonical program `A369308.P10334454097414286885` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369308 has offset 1).
 
 The definition of A369308 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1008,7 +1008,7 @@ The definition of A369308 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A113215(n)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A369308
@@ -4673,7 +4673,7 @@ end
 end A369365.P4720729941799930580
 
 /-!
-# A369368: Numerator of the maximum expected number of steps of a random walk on the cells of the hexagonal lattice before it lands on a mined cell, given that all but n cells are mined.
+# A369368: a(n) is the numerator of the maximum expected number of steps until a random walker falls into the sea when walking on the cells of an n-celled polyhex island.
 
 The programs for A369368, there is no canonical definition to state claims against.
 -/
@@ -4709,7 +4709,7 @@ end
 end A369368.P7014623146715625339
 
 /-!
-# A369370: Numerator of the maximum expected number of steps of a random walk on the cells of the triangular lattice before it lands on a mined cell, given that all but n cells are mined.
+# A369370: a(n) is the numerator of the maximum expected number of steps until a random walker falls into the sea when walking on the cells of an n-celled polyiamond island.
 
 The programs for A369370, there is no canonical definition to state claims against.
 -/

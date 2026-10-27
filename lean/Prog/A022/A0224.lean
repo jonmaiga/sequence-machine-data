@@ -46,6 +46,7 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -57,8 +58,8 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -69,7 +70,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -10766,7 +10766,7 @@ end A022446.P4488771127881494112
 /-!
 # A022447: Fractal sequence of the dispersion of the primes.
 
-The programs for A022447, the canonical program `A022447.P13400589638145703350` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A022447 has offset 1).
+The programs for A022447, the canonical program `A022447.P13400589638145703350` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A022447 has offset 1).
 
 The definition of A022447 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10798,7 +10798,7 @@ end A022447
 
 `A062298(A288469(n+1)+A000007(n))`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A022447
@@ -11096,12 +11096,6 @@ namespace A022449
 /-- `A002808(A028815(n)-1)` -/
 def P11602421821315577861.Spec : Prop :=
   ∀ n, P11602421821315577861.a n = A022449 (n + 1)
-
-theorem P11602421821315577861.correct : P11602421821315577861.Spec := by
-  intro n
-  simp only [A022449, Nat.add_sub_cancel, A022449.P11602421821315577861.a, A022449.P12153620208137609378.a, A002808, A002808.P8130888830651501259.f1, A002808.P8130888830651501259.f2, A002808.P8130888830651501259.a, A008578, A008578.P3639467937083264764.a, A028815, A028815.P810525423351225743.a, A082023, A082023.P820682903743471019.a, A158611, A158611.P9275629407611603775.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A022449
 
@@ -11419,12 +11413,6 @@ namespace A022449
 /-- `A002808(A167136(n+1)-n)` -/
 def P4691336844270596194.Spec : Prop :=
   ∀ n, P4691336844270596194.a n = A022449 (n + 1)
-
-theorem P4691336844270596194.correct : P4691336844270596194.Spec := by
-  intro n
-  simp only [A022449, Nat.add_sub_cancel, A022449.P4691336844270596194.a, A022449.P12153620208137609378.a, A002808, A002808.P8130888830651501259.f1, A002808.P8130888830651501259.f2, A002808.P8130888830651501259.a, A008578, A008578.P3639467937083264764.a, A167136, A167136.P17162096113252504066.a, A082023, A082023.P820682903743471019.a, A158611, A158611.P9275629407611603775.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A022449
 

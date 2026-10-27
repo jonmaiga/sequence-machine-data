@@ -46,6 +46,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,11 +54,11 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -66,12 +67,10 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -355,7 +354,7 @@ end A201004
 /-!
 # A201006: The Isis problem: Array a(i,j) (by antidiagonals) of differences between area and perimeter of rectangle with sides (i,j).
 
-The programs for A201006, the canonical program `A201006.P1343337819579742184` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201006 has offset 0).
+The programs for A201006, the canonical program `A201006.P1343337819579742184` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201006 has offset 1).
 
 The definition of A201006 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -386,7 +385,7 @@ namespace A201006
 
 /-- `n-(A176270(n)+comp[∑[n]])` -/
 def P112380357253578742.Spec : Prop :=
-  ∀ n, P112380357253578742.a n = A201006 n
+  ∀ n, P112380357253578742.a n = A201006 (n + 1)
 
 end A201006
 
@@ -419,7 +418,7 @@ namespace A201006
 
 /-- `A004247(n)-(∑[char[∑[n]]]+2)` -/
 def P12312616376909246634.Spec : Prop :=
-  ∀ n, P12312616376909246634.a n = A201006 n
+  ∀ n, P12312616376909246634.a n = A201006 (n + 1)
 
 end A201006
 
@@ -452,7 +451,7 @@ namespace A201006
 
 /-- `A077028(n)-(∑[char[∑[n]]]+3)` -/
 def P16796331052996163519.Spec : Prop :=
-  ∀ n, P16796331052996163519.a n = A201006 n
+  ∀ n, P16796331052996163519.a n = A201006 (n + 1)
 
 end A201006
 
@@ -485,7 +484,7 @@ namespace A201006
 
 /-- `Δ[n²]-A215630(comp[∑[n]]+1)` -/
 def P13370684863172376785.Spec : Prop :=
-  ∀ n, P13370684863172376785.a n = A201006 n
+  ∀ n, P13370684863172376785.a n = A201006 (n + 1)
 
 end A201006
 
@@ -518,7 +517,7 @@ namespace A201006
 
 /-- `A059036(n)-(∑[2*char[∑[n]]]+1)` -/
 def P14763010720021318079.Spec : Prop :=
-  ∀ n, P14763010720021318079.a n = A201006 n
+  ∀ n, P14763010720021318079.a n = A201006 (n + 1)
 
 end A201006
 
@@ -533,11 +532,11 @@ namespace A201006
 
 /-- `A004247(n)-3-A003056(n)` -/
 def P1343337819579742184.Spec : Prop :=
-  ∀ n, P1343337819579742184.a n = A201006 n
+  ∀ n, P1343337819579742184.a n = A201006 (n + 1)
 
 theorem P1343337819579742184.correct : P1343337819579742184.Spec := by
   intro n
-  simp only [A201006]
+  simp only [A201006, Nat.add_sub_cancel]
 
 end A201006
 
@@ -560,7 +559,7 @@ namespace A201006
 
 /-- `A141432(n+1)-A143971(n+1)` -/
 def P11451420042493021473.Spec : Prop :=
-  ∀ n, P11451420042493021473.a n = A201006 n
+  ∀ n, P11451420042493021473.a n = A201006 (n + 1)
 
 end A201006
 
@@ -583,7 +582,7 @@ namespace A201006
 
 /-- `A129312(n+1)-A173395(n+1)` -/
 def P6809077777623245759.Spec : Prop :=
-  ∀ n, P6809077777623245759.a n = A201006 n
+  ∀ n, P6809077777623245759.a n = A201006 (n + 1)
 
 end A201006
 
@@ -606,7 +605,7 @@ namespace A201006
 
 /-- `A004247(n)-2-A002024(n+1)` -/
 def P5159145988926685298.Spec : Prop :=
-  ∀ n, P5159145988926685298.a n = A201006 n
+  ∀ n, P5159145988926685298.a n = A201006 (n + 1)
 
 end A201006
 
@@ -629,7 +628,7 @@ namespace A201006
 
 /-- `A004247(n)-1-A003057(n+2)` -/
 def P10027426315905902234.Spec : Prop :=
-  ∀ n, P10027426315905902234.a n = A201006 n
+  ∀ n, P10027426315905902234.a n = A201006 (n + 1)
 
 end A201006
 
@@ -655,7 +654,7 @@ namespace A201006
 
 /-- `A003991(n+1)-∑[2*A073423(n)]` -/
 def P14418131563859846135.Spec : Prop :=
-  ∀ n, P14418131563859846135.a n = A201006 n
+  ∀ n, P14418131563859846135.a n = A201006 (n + 1)
 
 end A201006
 
@@ -678,7 +677,7 @@ namespace A201006
 
 /-- `A209297(n+1)-(A092283(n+1)+2)` -/
 def P7876147988983848837.Spec : Prop :=
-  ∀ n, P7876147988983848837.a n = A201006 n
+  ∀ n, P7876147988983848837.a n = A201006 (n + 1)
 
 end A201006
 
@@ -701,7 +700,7 @@ namespace A201006
 
 /-- `A003991(n+1)-2*A003057(n+2)` -/
 def P10506780336559617250.Spec : Prop :=
-  ∀ n, P10506780336559617250.a n = A201006 n
+  ∀ n, P10506780336559617250.a n = A201006 (n + 1)
 
 end A201006
 
@@ -724,7 +723,7 @@ namespace A201006
 
 /-- `A003991(n+1)-2*(A003056(n)+2)` -/
 def P8492108420527961030.Spec : Prop :=
-  ∀ n, P8492108420527961030.a n = A201006 n
+  ∀ n, P8492108420527961030.a n = A201006 (n + 1)
 
 end A201006
 
@@ -753,7 +752,7 @@ namespace A201006
 
 /-- `A003991(n+1)-lt[1, A007318(n)]+n` -/
 def P4743971057264361953.Spec : Prop :=
-  ∀ n, P4743971057264361953.a n = A201006 n
+  ∀ n, P4743971057264361953.a n = A201006 (n + 1)
 
 end A201006
 
@@ -783,7 +782,7 @@ namespace A201006
 
 /-- `A003991(n+1)-A005843(comp[∑[n]]-n)` -/
 def P17164365201990713682.Spec : Prop :=
-  ∀ n, P17164365201990713682.a n = A201006 n
+  ∀ n, P17164365201990713682.a n = A201006 (n + 1)
 
 end A201006
 
@@ -806,7 +805,7 @@ namespace A201006
 
 /-- `A023445(A004247(n))-A003056(n)` -/
 def P7781182626392422801.Spec : Prop :=
-  ∀ n, P7781182626392422801.a n = A201006 n
+  ∀ n, P7781182626392422801.a n = A201006 (n + 1)
 
 end A201006
 
@@ -829,7 +828,7 @@ namespace A201006
 
 /-- `A005843(A004247(n))-(A003991(n+1)+2)` -/
 def P12918339845614337287.Spec : Prop :=
-  ∀ n, P12918339845614337287.a n = A201006 n
+  ∀ n, P12918339845614337287.a n = A201006 (n + 1)
 
 end A201006
 
@@ -852,7 +851,7 @@ namespace A201006
 
 /-- `A003991(n+1)-A014132(A014132(n+1))+n` -/
 def P15804771369111399460.Spec : Prop :=
-  ∀ n, P15804771369111399460.a n = A201006 n
+  ∀ n, P15804771369111399460.a n = A201006 (n + 1)
 
 end A201006
 

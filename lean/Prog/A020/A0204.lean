@@ -24,32 +24,33 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -11554,7 +11555,7 @@ end A020477.P16520393596369326793
 /-!
 # A020478: Number of singular 2 X 2 matrices over Z(n) (i.e., with determinant = 0).
 
-The programs for A020478, the canonical program `A020478.P13030858516864996585` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020478 has offset 1).
+The programs for A020478, the canonical program `A020478.P13030858516864996585` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020478 has offset 1).
 
 The definition of A020478 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A069097, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11563,7 +11564,7 @@ The definition of A020478 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+1)*A069097(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A020478
@@ -12043,7 +12044,7 @@ end A020478
 /-!
 # A020479: Number of noninvertible 2 X 2 matrices over Z/nZ (determinant is a divisor of 0).
 
-The programs for A020479, the canonical program `A020479.P12170762038309436866` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020479 has offset 2).
+The programs for A020479, the canonical program `A020479.P12170762038309436866` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020479 has offset 2).
 
 The definition of A020479 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000252, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -12052,7 +12053,7 @@ The definition of A020479 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+2)^4-A000252(n+2)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A020479
@@ -12087,12 +12088,6 @@ namespace A020479
 /-- `A005353(n+2)+A020478(n+2)-A000252(n+2)` -/
 def P15899006740419184905.Spec : Prop :=
   ∀ n, P15899006740419184905.a n = A020479 (n + 2)
-
-theorem P15899006740419184905.correct : P15899006740419184905.Spec := by
-  intro n
-  simp only [A020479, Nat.add_sub_cancel, A020479.P15899006740419184905.a, A020479.P12170762038309436866.a, A000252, A000252.P10509989210323719014.a, A005353, A005353.P13530675845642685918.a, A020478, A020478.P13030858516864996585.a, A000010, A000010.P4673923239450215316.a, A000056, A000056.P18166110637332708364.a, A069097, A069097.P10375503292735525789.f1, A069097.P10375503292735525789.a, A003557, A003557.P6364735403900941810.a, A007434, A007434.P3432859153295839493.a, A173557, A173557.P15666735857375843373.a, A341772, A341772.P16346253428948690978.f1, A341772.P16346253428948690978.a, A001221, A001221.P10258181745752134128.a, A001615, A001615.P12078511981713404634.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A321322, A321322.P14680156201706380527.f1, A321322.P14680156201706380527.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A020479
 
@@ -13877,7 +13872,7 @@ end A020487.P13156622376762635114
 /-!
 # A020491: Numbers k such that sigma_0(k) divides phi(k).
 
-The programs for A020491, the canonical program `A020491.P2100325304569936286` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020491 has offset 1).
+The programs for A020491, the canonical program `A020491.P2100325304569936286` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020491 has offset 1).
 
 The definition of A020491 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13915,7 +13910,7 @@ end A020491
 
 `comp[A015733(n+1)-1]+1`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A020491

@@ -39,20 +39,25 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -60,7 +65,7 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
+import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3840,7 +3845,7 @@ end A358675.P17153220786468202291
 /-!
 # A358678: a(n) = 1 if n is odd and sigma(n) == 2 mod 4, otherwise 0.
 
-The programs for A358678, the canonical program `A358678.P8777088749171866875` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358678 has offset 1).
+The programs for A358678, the canonical program `A358678.P8777088749171866875` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358678 has offset 1).
 
 The definition of A358678 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A353812, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3849,7 +3854,7 @@ The definition of A358678 is `conditional`: the Lean definition is an OEIS formu
 
 `A000035(n+1)*A353812(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A358678
@@ -4487,7 +4492,7 @@ end A358679.P8668015235119960287
 /-!
 # A358680: a(n) = 1 if the arithmetic derivative of n is even, 0 otherwise.
 
-The programs for A358680, the canonical program `A358680.P17815025508061281044` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358680 has offset 0).
+The programs for A358680, the canonical program `A358680.P17815025508061281044` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358680 has offset 0).
 
 The definition of A358680 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A353494, A353495, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4519,7 +4524,7 @@ end A358680
 
 `A353494(n)+A353495(n)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A358680

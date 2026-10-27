@@ -41,10 +41,10 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
@@ -53,13 +53,16 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
@@ -67,9 +70,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4411,7 +4411,7 @@ end
 end A187233.P8061374705124767901
 
 /-!
-# A187234: Numbers such that Sum_{i
+# A187234: Numbers such that Sum_{i<j, i,j =1..r} d(i)*d(j) is a prime number, where the d(i) are digits of n (n = concatenation of d(1), ..., d(r)).
 
 The programs for A187234, there is no canonical definition to state claims against.
 -/
@@ -6848,7 +6848,7 @@ end A187261.P11354963704453386697
 /-!
 # A187263: Number of nonempty subsets of {1, 2, ..., n} with <=2 pairwise coprime elements.
 
-The programs for A187263, the canonical program `A187263.P3388945961355388323` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187263 has offset 1).
+The programs for A187263, the canonical program `A187263.P3388945961355388323` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187263 has offset 1).
 
 The definition of A187263 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6938,7 +6938,7 @@ end A187263
 
 `A092249(n+1)+n`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A187263
@@ -9458,7 +9458,7 @@ end A187282.P11928812006438236321
 /-!
 # A187284: a(n) = round(log(lcm(1,...,n))) - n.
 
-The programs for A187284, the canonical program `A187284.P2001770761397353711` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187284 has offset 0).
+The programs for A187284, the canonical program `A187284.P2001770761397353711` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187284 has offset 0).
 
 The definition of A187284 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9467,7 +9467,7 @@ The definition of A187284 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `round(log(A003418(n)))-n`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A187284

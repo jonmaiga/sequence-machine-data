@@ -40,9 +40,9 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -50,23 +50,22 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1660,7 +1659,7 @@ end A155822
 /-!
 # A155825: Triangle T(n, k) = (-1)^n * n! * StirlingS1(n, k)*StirlingS1(n, n-k)/binomial(n, k), read by rows.
 
-The programs for A155825, the canonical program `A155825.P7344650631331625546` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155825 has offset 0).
+The programs for A155825, the canonical program `A155825.P7344650631331625546` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155825 has offset 0).
 
 The definition of A155825 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 753 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1669,7 +1668,7 @@ The definition of A155825 is `conjectured`: the Lean definition is a formula tha
 
 `A098361(n)*A155742(n)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A155825
@@ -1779,7 +1778,7 @@ end A155825
 /-!
 # A155826: Triangle T(n, k) = binomial(n, k) + binomial(k*(n-k), n) + 2*(-1)^n*StirlingS1(n, k)*StirlingS1(n, n-k), read by rows.
 
-The programs for A155826, the canonical program `A155826.P9065841637278000591` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155826 has offset 0).
+The programs for A155826, the canonical program `A155826.P9065841637278000591` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155826 has offset 0).
 
 The definition of A155826 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1401 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1788,7 +1787,7 @@ The definition of A155826 is `conjectured`: the Lean definition is a formula tha
 
 `A155798(n)+2*A155742(n)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A155826
@@ -1875,7 +1874,7 @@ end A155826
 /-!
 # A155828: Number of integers k in {1,2,3,..,n} such that kn+1 is a square.
 
-The programs for A155828, the canonical program `A155828.P14308889291480101554` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155828 has offset 1).
+The programs for A155828, the canonical program `A155828.P14308889291480101554` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155828 has offset 1).
 
 The definition of A155828 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A060594, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1884,7 +1883,7 @@ The definition of A155828 is `conditional`: the Lean definition is an OEIS formu
 
 `A060594(n+1)-1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A155828
@@ -3150,7 +3149,7 @@ end A155853
 /-!
 # A155854: Numbers k such that 13*k + 3 is not prime.
 
-The programs for A155854, the canonical program `A155854.P8987642405607699949` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155854 has offset 1).
+The programs for A155854, the canonical program `A155854.P8987642405607699949` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155854 has offset 1).
 
 The definition of A155854 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3159,7 +3158,7 @@ The definition of A155854 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A155853(n+1)]`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A155854
@@ -4396,7 +4395,7 @@ end A155862.P15490878710328972028
 /-!
 # A155863: Triangle T(n,k) = n*(n^2 - 1)*binomial(n-2, k-1) for 1 <= k <= n-1, n >= 2, and T(n,0) = T(n,n) = 1 for n >= 0, read by rows.
 
-The programs for A155863, the canonical program `A155863.P6306218083756010822` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155863 has offset 0).
+The programs for A155863, the canonical program `A155863.P6306218083756010822` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155863 has offset 0).
 
 The definition of A155863 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4405,7 +4404,7 @@ The definition of A155863 is `conjectured`: the Lean definition is a formula tha
 
 `gcd(A068606(n)*A130595(n), A103452(n))`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A155863
@@ -4772,7 +4771,7 @@ end A155864
 /-!
 # A155865: Triangle T(n,k) = (n-1)*binomial(n-2, k-1) for 1 <= k <= n-1, n >= 2, and T(n,0) = T(n,n) = 1 for n >= 0, read by rows.
 
-The programs for A155865, the canonical program `A155865.P6741079026207357977` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155865 has offset 0).
+The programs for A155865, the canonical program `A155865.P6741079026207357977` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155865 has offset 0).
 
 The definition of A155865 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4781,7 +4780,7 @@ The definition of A155865 is `conjectured`: the Lean definition is a formula tha
 
 `A134399(A056943(n))`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A155865
@@ -5174,7 +5173,7 @@ end A155867.P55386452755602569
 /-!
 # A155868: Triangle T(n, k) = (-1)^n*StirlingS1(n, j)*StirlingS1(n, n-j), with T(n, 0) = T(n, n) = 1, read by rows.
 
-The programs for A155868, the canonical program `A155868.P6714465511170270872` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155868 has offset 0).
+The programs for A155868, the canonical program `A155868.P6714465511170270872` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155868 has offset 0).
 
 The definition of A155868 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1402 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5206,7 +5205,7 @@ end A155868
 
 `gcd(A103452(n), A155742(n))`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A155868
@@ -5992,7 +5991,7 @@ end A155879.P10312491907072806505
 /-!
 # A155881: a(n) is the number of zeros needed to write the integers 1 through Fibonacci(n).
 
-The programs for A155881, the canonical program `A155881.P7949998546200455293` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155881 has offset 1).
+The programs for A155881, the canonical program `A155881.P7949998546200455293` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155881 has offset 1).
 
 The definition of A155881 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A061217, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6001,7 +6000,7 @@ The definition of A155881 is `conditional`: the Lean definition is an OEIS formu
 
 `A061217(A000045(n+1))`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A155881

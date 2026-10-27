@@ -50,6 +50,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -63,18 +64,21 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -504,7 +508,7 @@ end A268404.P3575771290565836295
 /-!
 # A268407: Number of North-East lattice paths that do not bounce off the diagonal y = x to the right.
 
-The programs for A268407, the canonical program `A268407.P14441244389955032681` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268407 has offset 0).
+The programs for A268407, the canonical program `A268407.P14441244389955032681` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268407 has offset 0).
 
 The definition of A268407 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 171 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -542,7 +546,7 @@ end A268407
 
 `A109263(n+1)+A000108(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A268407
@@ -4451,7 +4455,7 @@ end
 end A268433.P80865200207081304
 
 /-!
-# A268434: Triangle read by rows, Lah numbers of order 2, T(n,n) = 1, T(n,k) = 0 if kn, otherwise T(n,k) = T(n-1,k-1)+((n-1)^2+k^2)*T(n-1,k), for n>=0 and 0<=k<=n.
+# A268434: Triangle read by rows, Lah numbers of order 2, T(n,n) = 1, T(n,k) = 0 if k<0 or k>n, otherwise T(n,k) = T(n-1,k-1)+((n-1)^2+k^2)*T(n-1,k), for n>=0 and 0<=k<=n.
 
 The programs for A268434, the canonical program `A268434.P14588526688602039649` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268434 has offset 0).
 
@@ -4526,7 +4530,7 @@ end A268434
 /-!
 # A268435: Triangle read by rows, T(n,k) = RF(n-k+1,n-k)*S2(n,k) where RF denotes the rising factorial and S2 the Stirling set numbers, for n>=0 and 0<=k<=n.
 
-The programs for A268435, the canonical program `A268435.P14958959519372401851` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268435 has offset 0).
+The programs for A268435, the canonical program `A268435.P14958959519372401851` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268435 has offset 0).
 
 The definition of A268435 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1040 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4535,7 +4539,7 @@ The definition of A268435 is `conjectured`: the Lean definition is a formula tha
 
 `A001813(A025581(n))*A048993(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A268435
@@ -4789,7 +4793,7 @@ end A268435
 /-!
 # A268436: Triangle read by rows, T(n,k) = RF(n-k+1, n-k) * S1(n,k) where RF denotes the rising factorial and S1 the Stirling cycle numbers, for n>=0 and 0<=k<=n.
 
-The programs for A268436, the canonical program `A268436.P8542834231434746933` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268436 has offset 0).
+The programs for A268436, the canonical program `A268436.P8542834231434746933` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268436 has offset 0).
 
 The definition of A268436 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 667 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4798,7 +4802,7 @@ The definition of A268436 is `conjectured`: the Lean definition is a formula tha
 
 `A001813(A025581(n))*A132393(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A268436
@@ -4931,7 +4935,7 @@ end A268436
 /-!
 # A268437: Triangle read by rows, T(n,k) = (-1)^k*(2*n)!*P[n,k](1/(n+1)) where P is the P-transform, for n>=0 and 0<=k<=n.
 
-The programs for A268437, the canonical program `A268437.P10753366001924145829` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268437 has offset 0).
+The programs for A268437, the canonical program `A268437.P10753366001924145829` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268437 has offset 0).
 
 The definition of A268437 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 719 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4963,7 +4967,7 @@ end A268437
 
 `A269939(n)*A357013(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A268437
@@ -5491,7 +5495,7 @@ end A268441.P8120798323841706705
 /-!
 # A268443: a(n) = (A005705(n) - A268444(n))/4.
 
-The programs for A268443, the canonical program `A268443.P9208057385295223950` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268443 has offset 0).
+The programs for A268443, the canonical program `A268443.P9208057385295223950` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268443 has offset 0).
 
 The definition of A268443 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A268444, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5500,7 +5504,7 @@ The definition of A268443 is `conditional`: the Lean definition is an OEIS formu
 
 `(A005705(n)-A268444(n))/4`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A268443
@@ -10674,7 +10678,7 @@ end
 end A268493.P7268208036728913726
 
 /-!
-# A268494: Indices n of "late birds" (a(n)n) in A268630 (= a(n)^2+a(n+1) is prime).
+# A268494: Indices n of "late birds" (a(n)<a(k) for all k>n) in A268630 (= a(n)^2+a(n+1) is prime).
 
 The programs for A268494, there is no canonical definition to state claims against.
 -/
@@ -10764,7 +10768,7 @@ end
 end A268494.P11684501431983824995
 
 /-!
-# A268495: "Late birds" (a(n)n) in A268630 (= a(n)^2+a(n+1) is prime).
+# A268495: "Late birds" (a(n)<a(k) for all k>n) in A268630 (= a(n)^2+a(n+1) is prime).
 
 The programs for A268495, there is no canonical definition to state claims against.
 -/

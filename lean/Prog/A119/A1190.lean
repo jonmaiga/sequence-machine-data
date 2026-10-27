@@ -30,29 +30,26 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C005
-import Seq.B004.C000
+import Seq.B003.C002
+import Seq.B003.C006
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -68,7 +65,6 @@ import Seq.Opaque.C012
 import Seq.Opaque.C013
 import Seq.Opaque.C014
 import Seq.Opaque.C015
-import Seq.Opaque.C016
 import Seq.Opaque.C017
 import Seq.Opaque.C018
 import Seq.Opaque.C019
@@ -591,7 +587,7 @@ end A119011.P4030364113748239087
 /-!
 # A119012: Number of valleys strictly above the x-axis in all hill-free Dyck paths of semilength n (a hill in a Dyck path is a peak at level 1).
 
-The programs for A119012, the canonical program `A119012.P17349838365231914682` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119012 has offset 1).
+The programs for A119012, the canonical program `A119012.P17349838365231914682` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119012 has offset 1).
 
 The definition of A119012 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 169 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -623,7 +619,7 @@ end A119012
 
 `A114515(n+1)-A114495(n+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A119012
@@ -1794,39 +1790,6 @@ end
 
 end A119026.P10328208401677325172
 
-/-! ## A119026.P7713450493851157761
-
-`A269625(n)+a(n-1)` with `a(0)=0`
--/
-
-namespace A119026.P7713450493851157761
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
-  A269625 n + a (n - 1)
-
-end
-
-end A119026.P7713450493851157761
-
-/-! ## A119026.P5896405811803317791
-
-`∑[A269625(abs(1-n)+1)]`
--/
-
-namespace A119026.P5896405811803317791
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A269625 (|1 - (n : ℤ)| + 1).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A119026.P5896405811803317791
-
 /-! ## A119026.P16883019312652947115
 
 `A118605(round(acot(n)+n))+a(n-1)` with `a(0)=0, a(1)=1`
@@ -1841,24 +1804,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [0, 1] fun n a =>
 end
 
 end A119026.P16883019312652947115
-
-/-! ## A119026.P13302738580624150707
-
-`∑[A269625(A028310(n))]-1`
--/
-
-namespace A119026.P13302738580624150707
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A269625 (A028310 n).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j - 1
-
-end
-
-end A119026.P13302738580624150707
 
 /-! ## A119026.P8430121489988488209
 
@@ -1875,42 +1820,6 @@ end
 
 end A119026.P8430121489988488209
 
-/-! ## A119026.P10287592200959270726
-
-`∑[A269625(A004277(n)-n)]-1`
--/
-
-namespace A119026.P10287592200959270726
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A269625 (A004277 n - (n : ℤ)).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j - 1
-
-end
-
-end A119026.P10287592200959270726
-
-/-! ## A119026.P16573515659576289645
-
-`∑[A269625(n+1)]-A269625(n+1)`
--/
-
-namespace A119026.P16573515659576289645
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A269625 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j - A269625 (n + 1)
-
-end
-
-end A119026.P16573515659576289645
-
 /-! ## A119026.P12140264947951424486
 
 `a(n-1)+and(A004273(n), A118605(n))` with `a(0)=0`
@@ -1925,24 +1834,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
 end
 
 end A119026.P12140264947951424486
-
-/-! ## A119026.P18101938849540953871
-
-`∑[A057427(n*A269625(A028310(n)))]`
--/
-
-namespace A119026.P18101938849540953871
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A057427 ((n : ℤ) * A269625 (A028310 n).toNat).toNat
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A119026.P18101938849540953871
 
 /-!
 # A119027: Value of the concatenation of the first n+1 terms of A118605, seen as a binary number.
@@ -1964,36 +1855,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
 end
 
 end A119027.P8844624796896058437
-
-/-! ## A119027.P12257561799220641761
-
-`A269625(n)+2*a(n-1)` with `a(0)=0`
--/
-
-namespace A119027.P12257561799220641761
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
-  A269625 n + 2 * a (n - 1)
-
-end
-
-end A119027.P12257561799220641761
-
-/-! ## A119027.P13041584003401713001
-
-`xor(2*a(n-1), A269625(A028310(n)))` with `a(0)=0`
--/
-
-namespace A119027.P13041584003401713001
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
-  Int.xor (2 * a (n - 1)) (A269625 (A028310 n).toNat)
-
-end
-
-end A119027.P13041584003401713001
 
 /-! ## A119027.P16456094220013694966
 

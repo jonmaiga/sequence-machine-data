@@ -28,12 +28,13 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C001
@@ -46,8 +47,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3611,7 +3610,7 @@ end A252647.P14570275544603282892
 /-!
 # A252649: Number of positive integers that are less than or equal to n and have a primitive root.
 
-The programs for A252649, the canonical program `A252649.P11680988129779242489` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252649 has offset 1).
+The programs for A252649, the canonical program `A252649.P11680988129779242489` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252649 has offset 1).
 
 The definition of A252649 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3650,7 +3649,7 @@ end A252649
 
 `∑[A211487(n+1)]+1`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A252649
@@ -7256,7 +7255,7 @@ end A252697.P4232715882828017462
 /-!
 # A252698: Number of strings of length n over a 5-letter alphabet that do not begin with a palindrome.
 
-The programs for A252698, the canonical program `A252698.P9922927271270455625` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252698 has offset 0).
+The programs for A252698, the canonical program `A252698.P9922927271270455625` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252698 has offset 0).
 
 The definition of A252698 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 144 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7265,7 +7264,7 @@ The definition of A252698 is `conjectured`: the Lean definition is a formula tha
 
 `5*a(n-1)-a(A065033(n))` with `a(0)=0, a(1)=5`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A252698

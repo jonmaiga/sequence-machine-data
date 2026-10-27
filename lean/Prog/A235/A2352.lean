@@ -42,28 +42,26 @@ import Seq.B001.C003
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1653,7 +1651,7 @@ end A235222.P12669953259788572722
 /-!
 # A235224: a(0) = 0, and for n > 0, a(n) = largest k such that A002110(k-1) <= n, where A002110(k) gives the k-th primorial number.
 
-The programs for A235224, the canonical program `A235224.P9540919302901513135` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235224 has offset 0).
+The programs for A235224, the canonical program `A235224.P9540919302901513135` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235224 has offset 0).
 
 The definition of A235224 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1805,7 +1803,7 @@ end A235224
 
 `∑[char[A300951(n)]]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A235224
@@ -3291,7 +3289,7 @@ end A235226
 /-!
 # A235227: Numbers whose sum of digits is 16.
 
-The programs for A235227, the canonical program `A235227.P8259672704330077809` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235227 has offset 1).
+The programs for A235227, the canonical program `A235227.P8259672704330077809` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235227 has offset 1).
 
 The definition of A235227 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3675 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3300,7 +3298,7 @@ The definition of A235227 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A028838(n+1), A017245(n)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A235227
@@ -7139,7 +7137,7 @@ end A235264.P2962687242638898537
 /-!
 # A235265: Primes whose base-3 representation also is the base-2 representation of a prime.
 
-The programs for A235265, the canonical program `A235265.P1717586972171710680` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235265 has offset 1).
+The programs for A235265, the canonical program `A235265.P1717586972171710680` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235265 has offset 1).
 
 The definition of A235265 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 169 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7359,7 +7357,7 @@ end A235265
 
 `p?[A004793(A000040(n+1))]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A235265

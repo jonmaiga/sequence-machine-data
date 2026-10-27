@@ -38,27 +38,29 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
@@ -66,8 +68,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -196,7 +196,7 @@ end
 end A026500.P18366779820164699120
 
 /-!
-# A026501: a(n) = least positive integer > a(n-1) and not a(j)*a(k) + a(k)*a(i) + a(i)*a(j) for 1<=i
+# A026501: a(n) = least positive integer > a(n-1) and not a(j)*a(k) + a(k)*a(i) + a(i)*a(j) for 1<=i<j<k<n.
 
 The programs for A026501, there is no canonical definition to state claims against.
 -/
@@ -220,7 +220,7 @@ end
 end A026501.P14384343763091053580
 
 /-!
-# A026503: a(n) = least positive integer > a(n-1) and not a(j)*a(k) + a(k)*a(i) + a(i)*a(j) for 1<=i
+# A026503: a(n) = least positive integer > a(n-1) and not a(j)*a(k) + a(k)*a(i) + a(i)*a(j) for 1<=i<j<k<=n.
 
 The programs for A026503, there is no canonical definition to state claims against.
 -/
@@ -640,7 +640,7 @@ end
 end A026508.P15565654165754693563
 
 /-!
-# A026509: a(n) = least positive integer > a(n-1) and not (a(i)+a(j))^2 - a(k)^2 for 1<=i
+# A026509: a(n) = least positive integer > a(n-1) and not (a(i)+a(j))^2 - a(k)^2 for 1<=i<j<k<=n.
 
 The programs for A026509, there is no canonical definition to state claims against.
 -/

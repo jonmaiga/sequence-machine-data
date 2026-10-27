@@ -29,14 +29,14 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B004.C000
 import Seq.B004.C001
@@ -47,7 +47,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1483,7 +1482,7 @@ def P16573603354694921681.Spec : Prop :=
 end A029105
 
 /-!
-# A029106: Expansion of 1/((1-x)(1-x^6)(1-x^7)(1-x^8)).
+# A029106: Expansion of 1/((1-x)*(1-x^6)*(1-x^7)*(1-x^8)).
 
 The programs for A029106, the canonical program `A029106.P8689150288756614468` is in `Seq.B000.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029106 has offset 0).
 

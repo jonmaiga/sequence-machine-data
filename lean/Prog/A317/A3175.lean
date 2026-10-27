@@ -24,6 +24,7 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C031
 import Seq.B000.C033
@@ -32,12 +33,16 @@ import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -45,23 +50,27 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2315,7 +2324,7 @@ end A317527.P3664796956981935107
 /-!
 # A317528: Expansion of Sum_{k>=1} mu(k)^2*x^k/(1 + x^k), where mu() is the Moebius function (A008683).
 
-The programs for A317528, the canonical program `A317528.P12745314278989265988` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317528 has offset 1).
+The programs for A317528, the canonical program `A317528.P12745314278989265988` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317528 has offset 1).
 
 The definition of A317528 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2607,7 +2616,7 @@ end A317528
 
 `A034444(n+1)-A010673(n)*A034444(A008619(n))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A317528
@@ -2717,7 +2726,7 @@ end A317528
 /-!
 # A317529: Expansion of Sum_{k>=1} x^(k^2)/(1 + x^(k^2)).
 
-The programs for A317529, the canonical program `A317529.P1429029592004012439` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317529 has offset 1).
+The programs for A317529, the canonical program `A317529.P1429029592004012439` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317529 has offset 1).
 
 The definition of A317529 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2801,7 +2810,7 @@ end A317529
 
 `∑{d}[n+1, A076752(#)*A117212((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A317529
@@ -3053,7 +3062,7 @@ end A317529
 /-!
 # A317531: Expansion of Sum_{p prime, k>=1} x^(p^k)/(1 + x^(p^k)).
 
-The programs for A317531, the canonical program `A317531.P16080676606467659442` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317531 has offset 1).
+The programs for A317531, the canonical program `A317531.P16080676606467659442` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A317531 has offset 1).
 
 The definition of A317531 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3134,7 +3143,7 @@ end A317531
 
 `∑{d}[n+1, A095112(#)*A117212((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A317531
@@ -7161,7 +7170,7 @@ end
 end A317580.P492227494485040223
 
 /-!
-# A317581: a(1) = 1; a(n > 1) = 1 + Sum_{d|n, d
+# A317581: a(1) = 1; a(n > 1) = 1 + Sum_{d|n, d<n} mu(n/d) a(d).
 
 The programs for A317581, there is no canonical definition to state claims against.
 -/

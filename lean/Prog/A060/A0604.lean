@@ -48,18 +48,22 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C012
+import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -69,9 +73,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1975,7 +1976,7 @@ end A060416
 /-!
 # A060417: Number of different decimal digits in n-th prime.
 
-The programs for A060417, the canonical program `A060417.P7466247361308045604` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060417 has offset 1).
+The programs for A060417, the canonical program `A060417.P7466247361308045604` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060417 has offset 1).
 
 The definition of A060417 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1229 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1984,7 +1985,7 @@ The definition of A060417 is `conjectured`: the Lean definition is a formula tha
 
 `A043537(Δ[A007504(n)])`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A060417
@@ -8622,7 +8623,7 @@ end A060460
 /-!
 # A060461: Numbers k such that 6*k-1 and 6*k+1 are twin composites.
 
-The programs for A060461, the canonical program `A060461.P10262298228971221195` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060461 has offset 1).
+The programs for A060461, the canonical program `A060461.P10262298228971221195` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060461 has offset 1).
 
 The definition of A060461 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8689,7 +8690,7 @@ end A060461
 
 `A171696(n+2)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A060461
@@ -10218,7 +10219,7 @@ end
 end A060468.P15117946034400839515
 
 /-!
-# A060469: Smallest positive a(n) such that number of solutions to a(n) = a(j)+a(k) j
+# A060469: Smallest positive a(n) such that number of solutions to a(n) = a(j)+a(k) j<k<n is one or less.
 
 The programs for A060469, the canonical program `A060469.P17771194765734652220` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060469 has offset 1).
 
@@ -10363,7 +10364,7 @@ def P5625333685475435507.Spec : Prop :=
 end A060469
 
 /-!
-# A060470: Smallest positive a(n) such that number of solutions to a(n)=a(j)+a(k) j
+# A060470: Smallest positive a(n) such that number of solutions to a(n)=a(j)+a(k) j<k<n is two or less.
 
 The programs for A060470, there is no canonical definition to state claims against.
 -/
@@ -10479,7 +10480,7 @@ end
 end A060470.P9925789673621268066
 
 /-!
-# A060471: Smallest positive a(n) such that number of solutions to a(n)=a(j)+a(k) j
+# A060471: Smallest positive a(n) such that number of solutions to a(n)=a(j)+a(k) j<k<n is three or less.
 
 The programs for A060471, there is no canonical definition to state claims against.
 -/
@@ -10567,7 +10568,7 @@ end
 end A060471.P6946161829303707868
 
 /-!
-# A060472: Smallest positive a(n) such that the number of solutions to a(n)=a(j)+a(k), j
+# A060472: Smallest positive a(n) such that the number of solutions to a(n)=a(j)+a(k), j<k<n is four or less.
 
 The programs for A060472, there is no canonical definition to state claims against.
 -/
@@ -10862,7 +10863,7 @@ end A060473
 /-!
 # A060474: a(n) = denominator of phi(n)/(n+1), where phi(n) is Euler's phi, A000010.
 
-The programs for A060474, the canonical program `A060474.P1792175694855090900` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060474 has offset 1).
+The programs for A060474, the canonical program `A060474.P1792175694855090900` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060474 has offset 1).
 
 The definition of A060474 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10871,7 +10872,7 @@ The definition of A060474 is `conjectured`: the Lean definition is a formula tha
 
 `(n+2)/A058656(n+1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A060474
@@ -11321,7 +11322,7 @@ end A060475.P17088902153732962244
 /-!
 # A060476: Let n = 2^e_2 * 3^e_3 * 5^e_5 * ... be the prime factorization of n; sequence gives n such that 1 + max{e_2, e_3, ...} is nonprime.
 
-The programs for A060476, the canonical program `A060476.P15326547790520508984` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060476 has offset 1).
+The programs for A060476, the canonical program `A060476.P15326547790520508984` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060476 has offset 1).
 
 The definition of A060476 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11330,7 +11331,7 @@ The definition of A060476 is `conjectured`: the Lean definition is a formula tha
 
 `record[(n+1)*A005171(A051903(n+1)+1)]`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A060476
@@ -11456,12 +11457,6 @@ namespace A060476
 def P4242463480175823874.Spec : Prop :=
   ∀ n, P4242463480175823874.a n = A060476 (n + 1)
 
-theorem P4242463480175823874.correct : P4242463480175823874.Spec := by
-  intro n
-  simp only [A060476, Nat.add_sub_cancel, A060476.P4242463480175823874.f1, A060476.P4242463480175823874.a, A060476.P15326547790520508984.f1, A060476.P15326547790520508984.a, A000027, A000027.P10331202704469894836.a, A005171, A005171.P15860856746370777121.a, A051903, A051903.P13920478898438787932.f1, A051903.P13920478898438787932.a, A067132, A067132.P2149404699775634079.a, A010051, A010051.P15078252821583414300.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
-
 end A060476
 
 /-! ## A060476.P11233557681910664935
@@ -11493,7 +11488,7 @@ end A060476
 /-!
 # A060477: Number of orbits of length n in map whose periodic points are A000051.
 
-The programs for A060477, the canonical program `A060477.P12484986106392669418` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060477 has offset 1).
+The programs for A060477, the canonical program `A060477.P12484986106392669418` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060477 has offset 1).
 
 The definition of A060477 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 340 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11529,7 +11524,7 @@ end A060477
 
 `or(C(n, a(n-1)), A059966(n+1))` with `a(0)=3`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A060477

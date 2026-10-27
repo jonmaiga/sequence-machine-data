@@ -49,17 +49,19 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
@@ -69,7 +71,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4000,21 +4001,6 @@ end
 
 end A208644.P16986759497894704105
 
-/-! ## A208644.P17719110951017390101
-
-`gcd(A074044(n+1), A083907(n+1))`
--/
-
-namespace A208644.P17719110951017390101
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Int.gcd (A074044 (n + 1)) (A083907 (n + 1))
-
-end
-
-end A208644.P17719110951017390101
-
 /-!
 # A208645: Least x>0 such that x^2+x+n is not prime.
 
@@ -4053,21 +4039,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A208645.P2473009796231406878
-
-/-! ## A208645.P10944150151338794966
-
-`A138702(A176549(n+1)+A024935(n+2))`
--/
-
-namespace A208645.P10944150151338794966
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A138702 (A176549 (n + 1) + A024935 (n + 2)).toNat
-
-end
-
-end A208645.P10944150151338794966
 
 /-! ## A208645.P9599126515157448688
 
@@ -4931,7 +4902,7 @@ end A208656
 /-!
 # A208657: Triangular array read by rows: n*binomial(n,n-k+1)-binomial(n-1,n-k) with k = 1..n, n >= 1.
 
-The programs for A208657, the canonical program `A208657.P11812723099242280050` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208657 has offset 1).
+The programs for A208657, the canonical program `A208657.P11812723099242280050` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208657 has offset 1).
 
 The definition of A208657 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4963,7 +4934,7 @@ end A208657
 
 `∑[A010054(n)]*A074909(n)-A007318(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A208657
@@ -6127,7 +6098,7 @@ end A208659
 /-!
 # A208660: Triangle of coefficients of polynomials u(n,x) jointly generated with A208904; see the Formula section.
 
-The programs for A208660, the canonical program `A208660.P14427275204864668988` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208660 has offset 1).
+The programs for A208660, the canonical program `A208660.P14427275204864668988` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208660 has offset 1).
 
 The definition of A208660 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6159,7 +6130,7 @@ end A208660
 
 `(2-A010054(n))*A114188(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A208660
@@ -6705,7 +6676,7 @@ end A208664.P15516553154590516986
 /-!
 # A208665: Numbers that match odd ternary polynomials; see Comments.
 
-The programs for A208665, the canonical program `A208665.P1447488627337888995` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208665 has offset 1).
+The programs for A208665, the canonical program `A208665.P1447488627337888995` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208665 has offset 1).
 
 The definition of A208665 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6714,7 +6685,7 @@ The definition of A208665 is `conjectured`: the Lean definition is a formula tha
 
 `∑[3*A120437(n+1)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A208665
@@ -7192,7 +7163,7 @@ end A208666.P14730108165865240631
 /-!
 # A208667: Number of 2n-bead necklaces labeled with numbers 1..4 allowing reversal, with neighbors differing by exactly 1.
 
-The programs for A208667, the canonical program `A208667.P16891552016121104606` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208667 has offset 1).
+The programs for A208667, the canonical program `A208667.P16891552016121104606` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208667 has offset 1).
 
 The definition of A208667 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A208723, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7201,7 +7172,7 @@ The definition of A208667 is `conditional`: the Lean definition is an OEIS formu
 
 `(2*A208723(n+1)+A090991(n+1))/4`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A208667

@@ -34,6 +34,7 @@ import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C004
@@ -42,17 +43,17 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -79,7 +80,7 @@ import Seq.Opaque.C022
 /-!
 # A234100: Products p*q*r of distinct primes for which (p*q*r - 1)/2 is prime.
 
-The programs for A234100, the canonical program `A234100.P10458591407678790924` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234100 has offset 1).
+The programs for A234100, the canonical program `A234100.P10458591407678790924` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234100 has offset 1).
 
 The definition of A234100 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 274 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -111,7 +112,7 @@ end A234100
 
 `2*p?[floor(A046389(n+2)/2)]+1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A234100
@@ -1213,7 +1214,7 @@ end A234101
 /-!
 # A234102: Integers of the form (p*q*r + 1)/2, where p, q, r are distinct primes.
 
-The programs for A234102, the canonical program `A234102.P1827764588803365079` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234102 has offset 1).
+The programs for A234102, the canonical program `A234102.P1827764588803365079` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234102 has offset 1).
 
 The definition of A234102 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A234099, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1222,7 +1223,7 @@ The definition of A234102 is `conditional`: the Lean definition is an OEIS formu
 
 `A234099(n+1)+1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A234102
@@ -1643,7 +1644,7 @@ end A234103.P3007217469259732383
 /-!
 # A234104: Primes of the form (p*q*r + 1)/2, where p, q, r are distinct primes.
 
-The programs for A234104, the canonical program `A234104.P3107958626754215840` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234104 has offset 1).
+The programs for A234104, the canonical program `A234104.P3107958626754215840` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234104 has offset 1).
 
 The definition of A234104 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1191 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1652,7 +1653,7 @@ The definition of A234104 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A234102(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A234104

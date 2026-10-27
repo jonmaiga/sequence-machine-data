@@ -27,16 +27,18 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C009
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -46,7 +48,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -113,7 +114,7 @@ end
 end A394610.P17482085368583949326
 
 /-!
-# A394611: a(1) = 0. For n > 1, a(n) is the number of ways to write a(n-1) as the sum of two previous terms with distinct positions in the sequence.
+# A394611: 
 
 The programs for A394611, there is no canonical definition to state claims against.
 -/
@@ -1140,12 +1141,6 @@ namespace A394651
 def P18056739804961925858.Spec : Prop :=
   ∀ n, P18056739804961925858.a n = A394651 (n + 1)
 
-theorem P18056739804961925858.correct : P18056739804961925858.Spec := by
-  intro n
-  simp only [A394651, Nat.add_sub_cancel, A394651.P18056739804961925858.a, A394651.P12518876512393771500.a, A000005, A000005.P16091521709108585461.a, A007503, A007503.P13484425310514315912.a, A056169, A056169.P17430176249366647977.a, A063956, A063956.P13509344762830228615.f2, A063956.P13509344762830228615.f4, A063956.P13509344762830228615.f3, A063956.P13509344762830228615.f1, A063956.P13509344762830228615.a, A394085, A394085.P10152136709517601280.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001221, A001221.P10258181745752134128.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A055231, A055231.P8962300905713718501.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A059841, A059841.P7264174615531153985.a, A071773, A071773.P10551485978970375506.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A394651
 
 /-!
@@ -2078,7 +2073,7 @@ end A394681
 /-!
 # A394683: a(n) = (m*p)^2 + 1 where p = A002496(n) is the n-th prime of the form m^2 + 1.
 
-The programs for A394683, the canonical program `A394683.P11002460213357766663` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394683 has offset 1).
+The programs for A394683, the canonical program `A394683.P11002460213357766663` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394683 has offset 1).
 
 The definition of A394683 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A382617, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2087,7 +2082,7 @@ The definition of A394683 is `conditional`: the Lean definition is an OEIS formu
 
 `A382617(n+1)²+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A394683

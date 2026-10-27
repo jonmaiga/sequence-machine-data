@@ -36,13 +36,11 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C004
-import Seq.B004.C002
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B005.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4004,7 +4002,7 @@ end
 end A031035.P3505016949784804945
 
 /-!
-# A031036: Position of n-th 0 in A031035.
+# A031036: Position of the n-th 0 in A031035.
 
 The programs for A031036, there is no canonical definition to state claims against.
 -/
@@ -11432,7 +11430,7 @@ end
 end A031092.P15796448031064162264
 
 /-!
-# A031093: Position of n-th 5 in A031087.
+# A031093: Position of the n-th 5 in A031087.
 
 The programs for A031093, there is no canonical definition to state claims against.
 -/

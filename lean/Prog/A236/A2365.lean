@@ -39,9 +39,9 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -51,22 +51,20 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4840,7 +4838,7 @@ end A236561.P17615519959871010072
 /-!
 # A236562: Numbers n such that A049820(x) = n has a solution.
 
-The programs for A236562, the canonical program `A236562.P16099528287106471554` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236562 has offset 1).
+The programs for A236562, the canonical program `A236562.P16099528287106471554` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236562 has offset 1).
 
 The definition of A236562 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4934,7 +4932,7 @@ end A236562
 
 `comp[A045765(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A236562
@@ -5442,7 +5440,7 @@ end A236563.P683771679993002939
 /-!
 # A236564: Difference between 2^(2n-1) and the nearest square.
 
-The programs for A236564, the canonical program `A236564.P10217388441294843712` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236564 has offset 1).
+The programs for A236564, the canonical program `A236564.P10217388441294843712` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236564 has offset 1).
 
 The definition of A236564 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5451,7 +5449,7 @@ The definition of A236564 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A238455(n)]-A238455(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A236564
@@ -5834,7 +5832,7 @@ end A236567.P13150078978957582045
 /-!
 # A236568: Primes p with prime(p + 2) + 2 prime.
 
-The programs for A236568, the canonical program `A236568.P5918031760574523688` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236568 has offset 1).
+The programs for A236568, the canonical program `A236568.P5918031760574523688` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236568 has offset 1).
 
 The definition of A236568 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6764 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5843,7 +5841,7 @@ The definition of A236568 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A029707(n+1)-2]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A236568
@@ -6112,12 +6110,6 @@ namespace A236568
 def P2404589832374582313.Spec : Prop :=
   ∀ n, P2404589832374582313.a n = A236568 (n + 1)
 
-theorem P2404589832374582313.correct : P2404589832374582313.Spec := by
-  intro n
-  simp only [A236568, Nat.add_sub_cancel, A236568.P2404589832374582313.f1, A236568.P2404589832374582313.a, A236568.P5918031760574523688.f1, A236568.P5918031760574523688.a, A029707, A029707.P9157915946838587551.f1, A029707.P9157915946838587551.a, A155752, A155752.P6228689506561445427.a, A242767, A242767.P6276449245007787369.a, A027833, A027833.P2673229578852313683.f2, A027833.P2673229578852313683.f3, A027833.P2673229578852313683.f1, A027833.P2673229578852313683.a, A001223, A001223.P5034056745985311719.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
-
 end A236568
 
 /-! ## A236568.P10996943691491906554
@@ -6143,12 +6135,6 @@ namespace A236568
 /-- `p?[A107770(n+1)-3]` -/
 def P10996943691491906554.Spec : Prop :=
   ∀ n, P10996943691491906554.a n = A236568 (n + 1)
-
-theorem P10996943691491906554.correct : P10996943691491906554.Spec := by
-  intro n
-  simp only [A236568, Nat.add_sub_cancel, A236568.P10996943691491906554.f1, A236568.P10996943691491906554.a, A236568.P5918031760574523688.f1, A236568.P5918031760574523688.a, A029707, A029707.P9157915946838587551.f1, A029707.P9157915946838587551.a, A107770, A107770.P17401578179323890031.a, A242767, A242767.P6276449245007787369.a, A027833, A027833.P2673229578852313683.f2, A027833.P2673229578852313683.f3, A027833.P2673229578852313683.f1, A027833.P2673229578852313683.a, A001223, A001223.P5034056745985311719.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A236568
 

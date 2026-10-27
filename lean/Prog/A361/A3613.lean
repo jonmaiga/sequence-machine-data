@@ -27,30 +27,30 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2700,7 +2700,7 @@ end
 end A361359.P11203833003068482749
 
 /-!
-# A361360: Number of nonequivalent noncrossing caterpillars with n edges up to rotation and relection.
+# A361360: Number of nonequivalent noncrossing caterpillars with n edges up to rotation and reflection.
 
 The programs for A361360, there is no canonical definition to state claims against.
 -/
@@ -2888,7 +2888,7 @@ end A361365.P15931132975476254194
 /-!
 # A361373: Number of prime powers p^m <= n such that p | n.
 
-The programs for A361373, the canonical program `A361373.P6551413180594676313` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361373 has offset 1).
+The programs for A361373, the canonical program `A361373.P6551413180594676313` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361373 has offset 1).
 
 The definition of A361373 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2897,7 +2897,7 @@ The definition of A361373 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(A064446(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A361373
@@ -4057,7 +4057,7 @@ end A361392.P8318317793866121073
 /-!
 # A361393: Positive integers k such that 2*omega(k) > bigomega(k).
 
-The programs for A361393, the canonical program `A361393.P16245078394977915268` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361393 has offset 1).
+The programs for A361393, the canonical program `A361393.P16245078394977915268` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361393 has offset 1).
 
 The definition of A361393 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4066,7 +4066,7 @@ The definition of A361393 is `conjectured`: the Lean definition is a formula tha
 
 `comp[∪[A361204(n+1), A001014(n)]]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A361393

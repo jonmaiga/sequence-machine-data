@@ -44,33 +44,32 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2212,7 +2211,7 @@ end A224417.P182439090218986043
 /-!
 # A224419: Numbers k such that triangular(k) + triangular(2*k) is a square.
 
-The programs for A224419, the canonical program `A224419.P4392876810021397207` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224419 has offset 1).
+The programs for A224419, the canonical program `A224419.P4392876810021397207` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224419 has offset 1).
 
 The definition of A224419 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2221,7 +2220,7 @@ The definition of A224419 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(A228209(2*(n+1)-1)-3)/10`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A224419
@@ -2740,7 +2739,7 @@ end A224439.P1548298349519450701
 /-!
 # A224440: a(n) = sigma(n)^(n-1).
 
-The programs for A224440, the canonical program `A224440.P7654101212196881365` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224440 has offset 1).
+The programs for A224440, the canonical program `A224440.P7654101212196881365` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224440 has offset 1).
 
 The definition of A224440 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000203(n+1)^n` (program `A224440.P7654101212196881365`, by `A224440.P7654101212196881365.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2749,7 +2748,7 @@ The definition of A224440 is `verified`: the Lean definition is proven equivalen
 
 `A000203(n+1)^n`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A224440
@@ -6375,7 +6374,7 @@ end A224478.P9465995269550343920
 /-!
 # A224479: a(n) = Product_{k=1..n} Product_{i=1..k-1} gcd(k,i).
 
-The programs for A224479, the canonical program `A224479.P1414813410862480078` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224479 has offset 0).
+The programs for A224479, the canonical program `A224479.P1414813410862480078` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224479 has offset 0).
 
 The definition of A224479 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A092287, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6384,7 +6383,7 @@ The definition of A224479 is `conditional`: the Lean definition is an OEIS formu
 
 `sqrt(A092287(n)/n!)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A224479
@@ -7795,7 +7794,7 @@ end A224493.P17063800223244723163
 /-!
 # A224497: a(n) = sqrt(floor(n/2)! * Product_{k=1..n} Product_{i=1..k-1} gcd(k,i)).
 
-The programs for A224497, the canonical program `A224497.P9599545819491647864` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224497 has offset 0).
+The programs for A224497, the canonical program `A224497.P9599545819491647864` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224497 has offset 0).
 
 The definition of A224497 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A224479, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7804,7 +7803,7 @@ The definition of A224497 is `conditional`: the Lean definition is an OEIS formu
 
 `sqrt(floor(n/2)!*A224479(n))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A224497

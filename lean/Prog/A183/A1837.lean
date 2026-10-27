@@ -1,5 +1,4 @@
 import SequenceMachineLib
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -42,13 +41,11 @@ import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -69,10 +66,6 @@ import Seq.Opaque.C018
 import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
-
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
 
 /-!
 # A183701: 
@@ -3151,7 +3144,7 @@ end A183758.P7202384197766005608
 /-!
 # A183761: Number of 2 X 2 nonsingular 0..n matrices with rows in increasing order.
 
-The programs for A183761, the canonical program `A183761.P5340774791652619797` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183761 has offset 1).
+The programs for A183761, the canonical program `A183761.P5340774791652619797` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183761 has offset 1).
 
 The definition of A183761 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A062801, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3160,7 +3153,7 @@ The definition of A183761 is `conditional`: the Lean definition is an OEIS formu
 
 `A062801(n+1)/2`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A183761
@@ -3611,7 +3604,7 @@ end A183763.P2434236291806363991
 /-!
 # A183764: Number of 2 X 2 singular 0..n matrices with a(1,1) <= a(1,2) <= a(2,1) <= a(2,2).
 
-The programs for A183764, the canonical program `A183764.P17512530686883695841` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183764 has offset 1).
+The programs for A183764, the canonical program `A183764.P17512530686883695841` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A183764 has offset 1).
 
 The definition of A183764 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 200 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3620,7 +3613,7 @@ The definition of A183764 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A180772(n+1)]+(n+2)²`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A183764
@@ -3736,12 +3729,6 @@ namespace A183764
 /-- `A000290(n+2)+∑[A180772(n+1)]` -/
 def P11603593894742423637.Spec : Prop :=
   ∀ n, P11603593894742423637.a n = A183764 (n + 1)
-
-theorem P11603593894742423637.correct : P11603593894742423637.Spec := by
-  intro n
-  simp only [A183764, Nat.add_sub_cancel, A183764.P11603593894742423637.f1, A183764.P11603593894742423637.a, A183764.P17512530686883695841.f1, A183764.P17512530686883695841.a, A000290, A000290.P12206242496348924484.a, A180772, A180772.P1089154253406948827.a, A174088, A174088.P3336557888488504044.a, A000188, A000188.P7486858720566838181.a, A018804, A018804.P15177010680010264719.f1, A018804.P15177010680010264719.a, A007429, A007429.P3226404755406933578.f1, A007429.P3226404755406933578.a, A007432, A007432.P16663120023730915232.f1, A007432.P16663120023730915232.a, A008833, A008833.P18388074464065390543.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A183764
 

@@ -41,12 +41,13 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -56,7 +57,6 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -64,12 +64,10 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4488,7 +4486,7 @@ end A171373
 /-!
 # A171374: Solutions to the equation M(n) = -6 (M = Mertens's function A002321).
 
-The programs for A171374, the canonical program `A171374.P8825294617670790026` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171374 has offset 1).
+The programs for A171374, the canonical program `A171374.P8825294617670790026` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171374 has offset 1).
 
 The definition of A171374 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 901 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4497,7 +4495,7 @@ The definition of A171374 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A008683(n)+a(n-1)]` with `a(0)=6`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A171374
@@ -6372,7 +6370,7 @@ end A171382
 /-!
 # A171384: a(n) = A140475(n) - A167707(n).
 
-The programs for A171384, the canonical program `A171384.P1462568005675599005` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171384 has offset 1).
+The programs for A171384, the canonical program `A171384.P1462568005675599005` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171384 has offset 1).
 
 The definition of A171384 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A140475, A167707, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6381,7 +6379,7 @@ The definition of A171384 is `conditional`: the Lean definition is an OEIS formu
 
 `A140475(n+1)-A167707(n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A171384

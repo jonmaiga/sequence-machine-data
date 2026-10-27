@@ -41,7 +41,6 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -51,29 +50,30 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B005.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2136,7 +2136,7 @@ end A247622.P2900249654276117024
 /-!
 # A247623: Number of paths from (0,0) to the line x = n, each segment given by a vector (1,1), (1,-1), or (2,0), not crossing the x-axis, and including no horizontal segment on the x-axis.
 
-The programs for A247623, the canonical program `A247623.P11285414761676532068` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247623 has offset 0).
+The programs for A247623, the canonical program `A247623.P11285414761676532068` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247623 has offset 0).
 
 The definition of A247623 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 265 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2145,7 +2145,7 @@ The definition of A247623 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(A110110(n)/2)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A247623
@@ -8282,7 +8282,7 @@ end A247666.P18390592459360100479
 /-!
 # A247676: Odd composite numbers congruent to 2 modulo 9.
 
-The programs for A247676, the canonical program `A247676.P15700024140662741661` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247676 has offset 1).
+The programs for A247676, the canonical program `A247676.P15700024140662741661` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247676 has offset 1).
 
 The definition of A247676 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3334 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8291,7 +8291,7 @@ The definition of A247676 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A092256(n+1), A017185(n)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A247676
@@ -9371,7 +9371,7 @@ end A247678
 /-!
 # A247679: Composite numbers congruent to 17 modulo 18.
 
-The programs for A247679, the canonical program `A247679.P17770235383496582350` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247679 has offset 1).
+The programs for A247679, the canonical program `A247679.P17770235383496582350` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247679 has offset 1).
 
 The definition of A247679 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3956 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9380,7 +9380,7 @@ The definition of A247679 is `conjectured`: the Lean definition is a formula tha
 
 `record[A171435(A239129(n+2))]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A247679
@@ -9912,7 +9912,7 @@ end A247679
 /-!
 # A247681: Odd nonprimes congruent to 1 modulo 9.
 
-The programs for A247681, the canonical program `A247681.P16071207118859784125` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247681 has offset 1).
+The programs for A247681, the canonical program `A247681.P16071207118859784125` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247681 has offset 1).
 
 The definition of A247681 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7283 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9970,7 +9970,7 @@ end A247681
 
 `A161705(A153400(n+1))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A247681
@@ -10446,7 +10446,7 @@ end A247681
 /-!
 # A247682: Odd composite numbers congruent to 5 modulo 9.
 
-The programs for A247682, the canonical program `A247682.P4172309602348026969` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247682 has offset 1).
+The programs for A247682, the canonical program `A247682.P4172309602348026969` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247682 has offset 1).
 
 The definition of A247682 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3952 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10455,7 +10455,7 @@ The definition of A247682 is `conjectured`: the Lean definition is a formula tha
 
 `record[A171435(A242215(n+4))]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A247682
@@ -10990,7 +10990,7 @@ end A247682
 /-!
 # A247683: Odd composite numbers congruent to 7 modulo 9.
 
-The programs for A247683, the canonical program `A247683.P2843368647040740458` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247683 has offset 1).
+The programs for A247683, the canonical program `A247683.P2843368647040740458` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247683 has offset 1).
 
 The definition of A247683 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3965 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10999,7 +10999,7 @@ The definition of A247683 is `conjectured`: the Lean definition is a formula tha
 
 `record[A171435(A242215(n+1)+2)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A247683
@@ -11037,12 +11037,6 @@ namespace A247683
 /-- `record[A171435(A239129(n+1)+8)]` -/
 def P10787101869960224993.Spec : Prop :=
   ∀ n, P10787101869960224993.a n = A247683 (n + 1)
-
-theorem P10787101869960224993.correct : P10787101869960224993.Spec := by
-  intro n
-  simp only [A247683, Nat.add_sub_cancel, A247683.P10787101869960224993.f1, A247683.P10787101869960224993.a, A247683.P2843368647040740458.f1, A247683.P2843368647040740458.a, A171435, A171435.P13410132754094429905.a, A239129, A239129.P3711433288767926292.a, A242215, A242215.P1960096412807353825.a, A113646, A113646.P14709912826224621284.a, A299149, A299149.P8105708395331444992.a, A000265, A000265.P2772582252347773295.a, A014683, A014683.P4274130993241959458.a, A317848, A317848.P7082509478538958365.f1, A317848.P7082509478538958365.a, A003602, A003602.P7612175048291952394.a, A010051, A010051.P15078252821583414300.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A247683
 

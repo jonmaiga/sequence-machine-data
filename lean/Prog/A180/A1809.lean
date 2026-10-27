@@ -47,6 +47,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -57,24 +58,21 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -891,7 +889,7 @@ end
 end A180906.P3882621779642867915
 
 /-!
-# A180907: Number of sequences of n integers p(i) i=0..n-1 with 0<=p(i)<=2*i and -2
+# A180907: Number of sequences of n integers p(i) i=0..n-1 with 0<=p(i)<=2*i and -2<p(i)-p(i-1)<=2.
 
 The programs for A180907, there is no canonical definition to state claims against.
 -/
@@ -1023,7 +1021,7 @@ end
 end A180907.P15812783686063389186
 
 /-!
-# A180908: Number of sequences of n integers p(i) i=0..n-1 with 0<=p(i)<=3*i and -3
+# A180908: Number of sequences of n integers p(i) i=0..n-1 with 0<=p(i)<=3*i and -3<p(i)-p(i-1)<=3.
 
 The programs for A180908, there is no canonical definition to state claims against.
 -/
@@ -1155,7 +1153,7 @@ end
 end A180908.P14336392138501333758
 
 /-!
-# A180909: Number of sequences of n integers p(i) i=0..n-1 with 0<=p(i)<=4*i and -4
+# A180909: Number of sequences of n integers p(i) i=0..n-1 with 0<=p(i)<=4*i and -4<p(i)-p(i-1)<=4.
 
 The programs for A180909, there is no canonical definition to state claims against.
 -/
@@ -1341,7 +1339,7 @@ end
 end A180909.P14184226249336787089
 
 /-!
-# A180910: Number of sequences of n integers p(i) i=0..n-1 with 0<=p(i)<=5*i and -5
+# A180910: Number of sequences of n integers p(i) i=0..n-1 with 0<=p(i)<=5*i and -5<p(i)-p(i-1)<=5.
 
 The programs for A180910, there is no canonical definition to state claims against.
 -/
@@ -1482,7 +1480,7 @@ end
 end A180910.P11655602213830002421
 
 /-!
-# A180911: Number of sequences of n integers p(i) i=0..n-1 with 0<=p(i)<=6*i and -6
+# A180911: Number of sequences of n integers p(i) i=0..n-1 with 0<=p(i)<=6*i and -6<p(i)-p(i-1)<=6.
 
 The programs for A180911, there is no canonical definition to state claims against.
 -/
@@ -1662,7 +1660,7 @@ end
 end A180911.P6606896745060292586
 
 /-!
-# A180912: Number of sequences of n integers p(i) i=0..n-1 with 0<=p(i)<=7*i and -7
+# A180912: Number of sequences of n integers p(i) i=0..n-1 with 0<=p(i)<=7*i and -7<p(i)-p(i-1)<=7.
 
 The programs for A180912, there is no canonical definition to state claims against.
 -/
@@ -1782,7 +1780,7 @@ end
 end A180912.P13947616662330017884
 
 /-!
-# A180913: Number of sequences of n integers p(i) i=0..n-1 with 0<=p(i)<=8*i and -8
+# A180913: Number of sequences of n integers p(i) i=0..n-1 with 0<=p(i)<=8*i and -8<p(i)-p(i-1)<=8.
 
 The programs for A180913, there is no canonical definition to state claims against.
 -/
@@ -1887,7 +1885,7 @@ end
 end A180913.P16503279740779435370
 
 /-!
-# A180914: Number of sequences of n integers p(i) i=0..n-1 with 0<=p(i)<=9*i and -9
+# A180914: Number of sequences of n integers p(i) i=0..n-1 with 0<=p(i)<=9*i and -9<p(i)-p(i-1)<=9.
 
 The programs for A180914, there is no canonical definition to state claims against.
 -/
@@ -1986,7 +1984,7 @@ end
 end A180914.P14373080786369800431
 
 /-!
-# A180915: T(n,k)=number of sequences of n integers p(i) i=0..n-1 0<=p(i)<=k*i and -k
+# A180915: T(n,k)=number of sequences of n integers p(i) i=0..n-1 0<=p(i)<=k*i and -k<p(i+1)-p(i)<=k.
 
 The programs for A180915, there is no canonical definition to state claims against.
 -/
@@ -4294,7 +4292,7 @@ end A180948
 /-!
 # A180950: Smallest prime such that the sum of successive 11 primes is a prime.
 
-The programs for A180950, the canonical program `A180950.P1869690007245267391` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180950 has offset 1).
+The programs for A180950, the canonical program `A180950.P1869690007245267391` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180950 has offset 1).
 
 The definition of A180950 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 251 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4303,7 +4301,7 @@ The definition of A180950 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A000040(n+1)*A001222(A127338(n+1))]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A180950

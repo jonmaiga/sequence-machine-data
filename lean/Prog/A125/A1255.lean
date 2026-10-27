@@ -31,32 +31,35 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C005
+import Seq.B002.C003
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1617,7 +1620,7 @@ end A125516.P16706312758999834503
 /-!
 # A125518: a(n) = tau(n) * prime(n).
 
-The programs for A125518, the canonical program `A125518.P17286790597070241048` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125518 has offset 1).
+The programs for A125518, the canonical program `A125518.P17286790597070241048` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125518 has offset 1).
 
 The definition of A125518 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000005(n+1)*A000040(n+1)` (program `A125518.P17286790597070241048`, by `A125518.P17286790597070241048.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1626,7 +1629,7 @@ The definition of A125518 is `verified`: the Lean definition is proven equivalen
 
 `A000005(n+1)*A000040(n+1)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A125518
@@ -6277,7 +6280,7 @@ end A125573.P16948226586525505920
 /-!
 # A125575: Initial digit of squares of primes.
 
-The programs for A125575, the canonical program `A125575.P7635791061298922058` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125575 has offset 1).
+The programs for A125575, the canonical program `A125575.P7635791061298922058` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125575 has offset 1).
 
 The definition of A125575 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000030, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6286,7 +6289,7 @@ The definition of A125575 is `conditional`: the Lean definition is an OEIS formu
 
 `A000030(A001248(n+1))`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A125575
@@ -7225,7 +7228,7 @@ end A125577
 /-!
 # A125585: Array of constant-spaced integers read by antidiagonals.
 
-The programs for A125585, the canonical program `A125585.P572809714441068377` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125585 has offset 1).
+The programs for A125585, the canonical program `A125585.P572809714441068377` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125585 has offset 1).
 
 The definition of A125585 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7234,7 +7237,7 @@ The definition of A125585 is `conjectured`: the Lean definition is a formula tha
 
 `A077264(n)+1`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A125585

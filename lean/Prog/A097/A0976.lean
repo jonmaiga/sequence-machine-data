@@ -37,35 +37,37 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
-import Seq.B004.C000
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -879,7 +881,7 @@ end A097603.P6317969119125252452
 /-!
 # A097604: a(n) = floor( phi(n)*sqrt(2*n) ) - n.
 
-The programs for A097604, the canonical program `A097604.P5712816953416192181` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097604 has offset 1).
+The programs for A097604, the canonical program `A097604.P5712816953416192181` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097604 has offset 1).
 
 The definition of A097604 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -888,7 +890,7 @@ The definition of A097604 is `conditional`: the Lean definition is an OEIS formu
 
 `floor(sqrt(2*(n+1))*A000010(n+1))-(n+1)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A097604
@@ -960,7 +962,7 @@ end A097604
 /-!
 # A097605: Numbers n such that phi(n) divides n^2 - 1, where phi(n) (A000010) is number of positive integers <= n and coprime to n.
 
-The programs for A097605, the canonical program `A097605.P4373069648380416805` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097605 has offset 1).
+The programs for A097605, the canonical program `A097605.P4373069648380416805` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097605 has offset 1).
 
 The definition of A097605 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5153 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1104,7 +1106,7 @@ end A097605
 
 `lt[(n*(n+2))%A000010(n+1)+1, 2]+1`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A097605
@@ -4496,87 +4498,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A097645.P4745450454908743907
-
-/-!
-# A097646: Numbers n such that n = phi(phi(n) + sigma(n)).
-
-The programs for A097646, there is no canonical definition to state claims against.
--/
-
-/-! ## A097646.P5859250538613344852
-
-`A077081(A077084(n+1))`
--/
-
-namespace A097646.P5859250538613344852
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A077081 (A077084 (n + 1)).toNat
-
-end
-
-end A097646.P5859250538613344852
-
-/-! ## A097646.P3552859649496975896
-
-`A077084(A132264(n+1))`
--/
-
-namespace A097646.P3552859649496975896
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A077084 (A132264 (n + 1)).toNat
-
-end
-
-end A097646.P3552859649496975896
-
-/-! ## A097646.P13878892238641232406
-
-`A077084(A351576(n+1))`
--/
-
-namespace A097646.P13878892238641232406
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A077084 (A351576 (n + 1)).toNat
-
-end
-
-end A097646.P13878892238641232406
-
-/-! ## A097646.P2461741810116591452
-
-`A077084(A381610(n+1))`
--/
-
-namespace A097646.P2461741810116591452
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A077084 (A381610 (n + 1)).toNat
-
-end
-
-end A097646.P2461741810116591452
-
-/-! ## A097646.P15561821854473870432
-
-`A077084(A370133(n+2))`
--/
-
-namespace A097646.P15561821854473870432
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A077084 (A370133 (n + 2)).toNat
-
-end
-
-end A097646.P15561821854473870432
 
 /-!
 # A097650: a(n) is the smallest number m such that phi(10^n + m) = 10^n.

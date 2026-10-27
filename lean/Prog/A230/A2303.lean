@@ -47,6 +47,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
@@ -57,6 +58,7 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -69,9 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -105,7 +104,7 @@ set_option linter.unreachableTactic false
 /-!
 # A230300: a(n) = n + wt(n-1), where wt() = A000120() is the binary weight.
 
-The programs for A230300, the canonical program `A230300.P756127149429480426` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230300 has offset 1).
+The programs for A230300, the canonical program `A230300.P756127149429480426` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230300 has offset 1).
 
 The definition of A230300 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -114,7 +113,7 @@ The definition of A230300 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+1+A000120(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A230300
@@ -1543,7 +1542,7 @@ end
 end A230308.P766996952126887286
 
 /-!
-# A230309: Sum_{0<=a
+# A230309: Sum_{0<=a<24*n, 0<=b<24*n} (a+b*i)^(24*n) (mod 24*n), where i is the imaginary unit.
 
 The programs for A230309, there is no canonical definition to state claims against.
 -/
@@ -6627,7 +6626,7 @@ end A230367.P9562116637465183189
 /-!
 # A230368: A strong divisibility sequence associated with the algebraic integer 1 + i.
 
-The programs for A230368, the canonical program `A230368.P17810546015416859750` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230368 has offset 1).
+The programs for A230368, the canonical program `A230368.P17810546015416859750` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230368 has offset 1).
 
 The definition of A230368 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 667 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6636,7 +6635,7 @@ The definition of A230368 is `conjectured`: the Lean definition is a formula tha
 
 `abs(A106664(n*and(1, n)))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A230368

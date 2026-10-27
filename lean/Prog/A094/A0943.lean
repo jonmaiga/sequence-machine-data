@@ -49,18 +49,16 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -73,9 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4420,7 +4415,7 @@ end A094337.P17378027344689165290
 /-!
 # A094338: (Sum of composites among next n numbers)-(sum of primes among next n numbers).
 
-The programs for A094338, the canonical program `A094338.P8537157207539536951` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094338 has offset 1).
+The programs for A094338, the canonical program `A094338.P8537157207539536951` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094338 has offset 1).
 
 The definition of A094338 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 140 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4429,7 +4424,7 @@ The definition of A094338 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A051352(A179865(n+1))]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A094338
@@ -6311,7 +6306,7 @@ end
 end A094349.P3439228360794781346
 
 /-!
-# A094350: Numbers n such that A094291(n) is not a square.
+# A094350: Numbers k such that A094291(k) is not a square.
 
 The programs for A094350, there is no canonical definition to state claims against.
 -/

@@ -46,6 +46,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,10 +54,11 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -67,8 +69,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1947,7 +1947,7 @@ end A095232.P3156759126876094707
 /-!
 # A095233: a(n) = a(n-1) + Sum(floor(n/p): p prime), a(1) = 1.
 
-The programs for A095233, the canonical program `A095233.P12555546131037091696` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095233 has offset 1).
+The programs for A095233, the canonical program `A095233.P12555546131037091696` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095233 has offset 1).
 
 The definition of A095233 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A013939, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1956,7 +1956,7 @@ The definition of A095233 is `conditional`: the Lean definition is an OEIS formu
 
 `a(n-1)+A013939(n+1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A095233
@@ -7093,7 +7093,7 @@ end A095276
 /-!
 # A095277: Numbers k such that 4*k + 3 is composite.
 
-The programs for A095277, the canonical program `A095277.P5907375442901881161` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095277 has offset 1).
+The programs for A095277, the canonical program `A095277.P5907375442901881161` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A095277 has offset 1).
 
 The definition of A095277 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A091236, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7102,7 +7102,7 @@ The definition of A095277 is `conditional`: the Lean definition is an OEIS formu
 
 `(A091236(n+1)-3)/4`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A095277

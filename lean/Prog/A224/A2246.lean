@@ -42,21 +42,17 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
-import Seq.B004.C000
+import Seq.B003.C004
 import Seq.B004.C001
-import Seq.B006.C001
+import Seq.B005.C000
+import Seq.B005.C002
 import Seq.B007.C000
-import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1007,7 +1003,7 @@ end A224610.P11990049560173397425
 /-!
 # A224613: a(n) = sigma(6*n).
 
-The programs for A224613, the canonical program `A224613.P5083964264052453916` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224613 has offset 1).
+The programs for A224613, the canonical program `A224613.P5083964264052453916` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224613 has offset 1).
 
 The definition of A224613 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000203(6*(n+1))` (program `A224613.P5083964264052453916`, by `A224613.P5083964264052453916.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1016,7 +1012,7 @@ The definition of A224613 is `verified`: the Lean definition is proven equivalen
 
 `A000203(6*(n+1))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A224613

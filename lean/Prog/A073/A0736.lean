@@ -40,7 +40,9 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -68,8 +70,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5146,7 +5146,7 @@ end A073646.P10848928253060030999
 /-!
 # A073648: Middle members of prime triples {p, p+2, p+6}.
 
-The programs for A073648, the canonical program `A073648.P13149246164954547153` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073648 has offset 1).
+The programs for A073648, the canonical program `A073648.P13149246164954547153` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073648 has offset 1).
 
 The definition of A073648 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A022004, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5155,7 +5155,7 @@ The definition of A073648 is `conditional`: the Lean definition is an OEIS formu
 
 `A022004(n+1)+2`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A073648
@@ -6125,7 +6125,7 @@ end A073649.P6139789530099098107
 /-!
 # A073650: Define the composite field of a prime q to be f(q) = (t,s) if p, q, r are three consecutive primes and q-p = t and r-q = s. This is a sequence of primes q with field (2,6).
 
-The programs for A073650, the canonical program `A073650.P10655186245204518636` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073650 has offset 1).
+The programs for A073650, the canonical program `A073650.P10655186245204518636` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A073650 has offset 1).
 
 The definition of A073650 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6134,7 +6134,7 @@ The definition of A073650 is `conjectured`: the Lean definition is a formula tha
 
 `A049437(n+2)+2`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A073650

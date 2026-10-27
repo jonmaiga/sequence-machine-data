@@ -43,19 +43,22 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C006
+import Seq.B002.C004
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,8 +71,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1520,7 +1521,7 @@ end
 end A191614.P13893571754591878061
 
 /-!
-# A191615: a(1) = 1; a(n) is the smallest number such that a(n)-a(n-1) = A085392 (m), where A085392(m) is the largest noncomposite divisor
+# A191615: a(1) = 1; a(n) is the smallest number such that a(n)-a(n-1) = A085392 (m), where A085392(m) is the largest noncomposite divisor <m of m.
 
 The programs for A191615, there is no canonical definition to state claims against.
 -/
@@ -1981,7 +1982,7 @@ end A191625.P5354463949897081554
 /-!
 # A191626: Integers n such that both 6n and 36n fall between pairs of twin primes, that is, 6n-1, 6n+1, 36n-1, and 36n+1 are prime.
 
-The programs for A191626, the canonical program `A191626.P15638970992533597585` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191626 has offset 1).
+The programs for A191626, the canonical program `A191626.P15638970992533597585` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191626 has offset 1).
 
 The definition of A191626 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 227 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2020,7 +2021,7 @@ end A191626
 
 `∩[A002822(n+1), A014574(n+1)]/6`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A191626

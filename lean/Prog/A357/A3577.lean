@@ -38,31 +38,33 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C005
+import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -834,7 +836,7 @@ end A357713.P1694547786549858433
 /-!
 # A357714: a(n) is the number of equations in the set E_{n,b} := {x+2^b*y=n^b, 2^b*x+3^b*y=n^b, ..., k^b*x+(k+1)^b*y=n^b, ..., n^b*x+(n+1)^b*y=n^b} which admit at least one nonnegative integer solution when b is sufficiently large.
 
-The programs for A357714, the canonical program `A357714.P11822585714675304720` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357714 has offset 1).
+The programs for A357714, the canonical program `A357714.P11822585714675304720` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357714 has offset 1).
 
 The definition of A357714 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -843,7 +845,7 @@ The definition of A357714 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `ceil(sqrt(n+1)-3/2)+A000005(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A357714
@@ -2151,7 +2153,7 @@ end A357730.P14529314278980727593
 /-!
 # A357731: Number of partitions of n into 2 distinct positive Fibonacci numbers (with a single type of 1).
 
-The programs for A357731, the canonical program `A357731.P9040152959614539463` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357731 has offset 3).
+The programs for A357731, the canonical program `A357731.P9040152959614539463` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357731 has offset 3).
 
 The definition of A357731 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2306,7 +2308,7 @@ end A357731
 
 `A010056(A194029(n+2))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A357731
@@ -3493,7 +3495,7 @@ end A357753
 /-!
 # A357754: a(n) is the largest square with n binary digits.
 
-The programs for A357754, the canonical program `A357754.P3306282147274652731` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357754 has offset 3).
+The programs for A357754, the canonical program `A357754.P3306282147274652731` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357754 has offset 3).
 
 The definition of A357754 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3525,7 +3527,7 @@ end A357754
 
 `2^(n+3)-A056007(n+3)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A357754
@@ -4655,7 +4657,7 @@ end A357773.P10997337904468827459
 /-!
 # A357774: Binary expansions of odd numbers with two zeros in their binary expansion.
 
-The programs for A357774, the canonical program `A357774.P7410309054543883889` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357774 has offset 1).
+The programs for A357774, the canonical program `A357774.P7410309054543883889` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357774 has offset 1).
 
 The definition of A357774 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4774,7 +4776,7 @@ end A357774
 
 `A099821(eq[3, A008687(n)])`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A357774

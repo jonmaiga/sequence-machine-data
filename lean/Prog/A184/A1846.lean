@@ -41,28 +41,26 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -71,8 +69,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1694,7 +1691,7 @@ end A184615
 /-!
 # A184616: Negated negative parts of the nonadjacent forms.
 
-The programs for A184616, the canonical program `A184616.P11536552118196738147` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184616 has offset 0).
+The programs for A184616, the canonical program `A184616.P11536552118196738147` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184616 has offset 0).
 
 The definition of A184616 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A184615, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1703,7 +1700,7 @@ The definition of A184616 is `conditional`: the Lean definition is an OEIS formu
 
 `A184615(n)-n`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A184616
@@ -2047,7 +2044,7 @@ end A184616
 /-!
 # A184617: With nonadjacent forms: A184615(n) + A184616(n).
 
-The programs for A184617, the canonical program `A184617.P6500714334577552436` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184617 has offset 0).
+The programs for A184617, the canonical program `A184617.P6500714334577552436` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184617 has offset 0).
 
 The definition of A184617 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2056,7 +2053,7 @@ The definition of A184617 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A178729(n)/2`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A184617
@@ -4405,7 +4402,7 @@ end A184625
 /-!
 # A184626: floor(nr+h), where r=sqrt(3), h=1/4; complement of A184627.
 
-The programs for A184626, the canonical program `A184626.P17588970043243414211` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184626 has offset 1).
+The programs for A184626, the canonical program `A184626.P17588970043243414211` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184626 has offset 1).
 
 The definition of A184626 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2886 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4414,7 +4411,7 @@ The definition of A184626 is `conjectured`: the Lean definition is a formula tha
 
 `A004526(A198268(n+1))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A184626
@@ -7327,7 +7324,7 @@ end A184637
 /-!
 # A184638: floor(nr+h), where r=sqrt(3), h=-1/2; complement of A184653.
 
-The programs for A184638, the canonical program `A184638.P10162494678616007917` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184638 has offset 1).
+The programs for A184638, the canonical program `A184638.P10162494678616007917` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184638 has offset 1).
 
 The definition of A184638 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7359,7 +7356,7 @@ end A184638
 
 `abs(1-A022847(n+1))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A184638
@@ -8575,7 +8572,7 @@ end A184651.P14997674336434341528
 /-!
 # A184653: floor(n*s+h-h*s), where s=(3+sqrt(3))/2, h=-1/2; complement of A184638.
 
-The programs for A184653, the canonical program `A184653.P5190902005474955621` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184653 has offset 1).
+The programs for A184653, the canonical program `A184653.P5190902005474955621` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184653 has offset 1).
 
 The definition of A184653 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8607,7 +8604,7 @@ end A184653
 
 `ceil(A180124(n+1)/2)+n+1`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A184653
@@ -9343,7 +9340,7 @@ end A184655
 /-!
 # A184656: floor(nr+h), where r=(1+sqrt(5))/2, h=-1/2; complement of A184657.
 
-The programs for A184656, the canonical program `A184656.P5168837873934125938` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184656 has offset 1).
+The programs for A184656, the canonical program `A184656.P5168837873934125938` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184656 has offset 1).
 
 The definition of A184656 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9593,7 +9590,7 @@ end A184656
 
 `floor((A022839(n+1)+n)/2)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A184656

@@ -52,6 +52,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -59,9 +60,10 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -69,13 +71,11 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -355,24 +355,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A038701.P14993838272706537660
-
-/-! ## A038701.P7645427161632471608
-
-`A000961(∑[A126969(n)%A339790(n+1)+1]+1)`
--/
-
-namespace A038701.P7645427161632471608
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A126969 n) (A339790 (n + 1)) + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000961 (∑ j ∈ Finset.range (n + 1), f1 j + 1).toNat
-
-end
-
-end A038701.P7645427161632471608
 
 /-!
 # A038702: a(n) = prime(n)^2 mod prime(n-1).
@@ -11270,7 +11252,7 @@ end
 end A038747.P141159654248892579
 
 /-!
-# A038748: Coefficients arising in the enumeration of configurations of linear chains.
+# A038748: Number of equivalence classes under rotations and reflections of nonplanar n-step self-avoiding walks on the simple cubic lattice having no pair of nonconsecutive vertices that are adjacent in the lattice.
 
 The programs for A038748, there is no canonical definition to state claims against.
 -/
@@ -11321,7 +11303,7 @@ end
 end A038748.P1270466500977362612
 
 /-!
-# A038749: Coefficients arising in the enumeration of configurations of linear chains.
+# A038749: Number of equivalence classes under rotations and reflections of n-step self-avoiding walks on the cubic lattice that use all three coordinate axes and have exactly one pair of nonconsecutive vertices adjacent in the lattice.
 
 The programs for A038749, there is no canonical definition to state claims against.
 -/
@@ -17327,7 +17309,7 @@ end
 end A038794.P444302197180582521
 
 /-!
-# A038795: T(n,n-5), array T as in A038792.
+# A038795: a(n) = T(n,n-5), array T as in A038792.
 
 The programs for A038795, there is no canonical definition to state claims against.
 -/

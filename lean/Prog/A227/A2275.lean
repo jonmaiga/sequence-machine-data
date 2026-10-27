@@ -53,22 +53,24 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -154,7 +156,7 @@ end A227500.P8987125706321926454
 /-!
 # A227501: Number of non-congruent solutions of x^2 - xy + y^2 == 1 (mod n).
 
-The programs for A227501, the canonical program `A227501.P13056102669558752893` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227501 has offset 1).
+The programs for A227501, the canonical program `A227501.P13056102669558752893` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227501 has offset 1).
 
 The definition of A227501 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -163,7 +165,7 @@ The definition of A227501 is `conjectured`: the Lean definition is a formula tha
 
 `(n%3)!*A227128(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A227501
@@ -3698,7 +3700,7 @@ end A227552.P13157269688676706969
 /-!
 # A227553: Number of solutions to x^2 - y^2 - z^2 == 1 (mod n).
 
-The programs for A227553, the canonical program `A227553.P11896763355419445799` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227553 has offset 1).
+The programs for A227553, the canonical program `A227553.P11896763355419445799` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227553 has offset 1).
 
 The definition of A227553 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2500 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3707,7 +3709,7 @@ The definition of A227553 is `conjectured`: the Lean definition is a formula tha
 
 `A087784(n+1)/A093148(n)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A227553
@@ -4426,7 +4428,7 @@ end A227558.P15215456172683300372
 /-!
 # A227559: Number of partitions of n into distinct parts with boundary size 2.
 
-The programs for A227559, the canonical program `A227559.P17297700120002775526` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227559 has offset 3).
+The programs for A227559, the canonical program `A227559.P17297700120002775526` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227559 has offset 3).
 
 The definition of A227559 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 998 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4458,7 +4460,7 @@ end A227559
 
 `A091954(n+3)-ceil(n/2)+n`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A227559

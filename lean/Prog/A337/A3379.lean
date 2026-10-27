@@ -45,11 +45,12 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -59,20 +60,20 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -108,7 +109,7 @@ set_option linter.unreachableTactic false
 /-!
 # A337900: The number of walks of length 2n on the square lattice that start from the origin (0,0) and end at the vertex (2,0).
 
-The programs for A337900, the canonical program `A337900.P10145934000007285920` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337900 has offset 1).
+The programs for A337900, the canonical program `A337900.P10145934000007285920` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337900 has offset 1).
 
 The definition of A337900 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -140,7 +141,7 @@ end A337900
 
 `A001791(n+1)²`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A337900
@@ -357,7 +358,7 @@ end A337900
 /-!
 # A337901: The number of walks of length 2n+1 on the square lattice that start from the origin (0,0) and end at the vertex (3,0).
 
-The programs for A337901, the canonical program `A337901.P16979721480480869146` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337901 has offset 1).
+The programs for A337901, the canonical program `A337901.P16979721480480869146` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337901 has offset 1).
 
 The definition of A337901 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -395,7 +396,7 @@ end A337901
 
 `A002054(n+1)²`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A337901
@@ -624,7 +625,7 @@ end A337901
 /-!
 # A337902: The number of walks of length 2n+1 on the square lattice that start from the origin (0,0) and end at the vertex (2,1).
 
-The programs for A337902, the canonical program `A337902.P6258484226495236165` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337902 has offset 1).
+The programs for A337902, the canonical program `A337902.P6258484226495236165` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337902 has offset 1).
 
 The definition of A337902 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -662,7 +663,7 @@ end A337902
 
 `A002054(n+1)*A001700(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A337902
@@ -1023,7 +1024,7 @@ end A337908.P17559578107975746971
 /-!
 # A337909: Distinct terms of A080079 in the order in which they appear.
 
-The programs for A337909, the canonical program `A337909.P8516175673074773938` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337909 has offset 1).
+The programs for A337909, the canonical program `A337909.P8516175673074773938` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337909 has offset 1).
 
 The definition of A337909 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004761, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1032,7 +1033,7 @@ The definition of A337909 is `conditional`: the Lean definition is an OEIS formu
 
 `A080079(A004761(n+2))`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A337909
@@ -1717,7 +1718,7 @@ end A337919.P15442324527018661104
 /-!
 # A337920: Numbers k such that d(k) = d(k+1), where d(k) = A058312(k) is the denominator of the k-th alternating harmonic number.
 
-The programs for A337920, the canonical program `A337920.P550460882590583654` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337920 has offset 1).
+The programs for A337920, the canonical program `A337920.P550460882590583654` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337920 has offset 1).
 
 The definition of A337920 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1726,7 +1727,7 @@ The definition of A337920 is `conjectured`: the Lean definition is a formula tha
 
 `eq[n+2, A335023(n+1)]+1`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A337920
@@ -4552,7 +4553,7 @@ end A337936.P4167595713205868431
 /-!
 # A337937: a(n) = Euler totient function phi = A000010 evaluated at N(n) = floor((3*n-1)/2) = A001651(n), for n >= 1.
 
-The programs for A337937, the canonical program `A337937.P1586791548103088812` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337937 has offset 1).
+The programs for A337937, the canonical program `A337937.P1586791548103088812` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337937 has offset 1).
 
 The definition of A337937 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4561,7 +4562,7 @@ The definition of A337937 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(floor((3*(n+1)-1)/2))`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A337937
@@ -4983,7 +4984,7 @@ end A337937
 /-!
 # A337938: Irregular triangle read by rows: T(n, k) gives the primitive period of the sequence {k (Modd n)}_{k >= 0}, for n >= 1.
 
-The programs for A337938, the canonical program `A337938.P14082378837235000955` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337938 has offset 1).
+The programs for A337938, the canonical program `A337938.P14082378837235000955` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337938 has offset 1).
 
 The definition of A337938 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 107 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4992,7 +4993,7 @@ The definition of A337938 is `conjectured`: the Lean definition is a formula tha
 
 `abs(A038760(n+3)%(2^n))`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A337938
@@ -6139,7 +6140,7 @@ end A337953
 /-!
 # A337954: Number of chiral pairs of colorings of the 16 tetrahedral facets of a hyperoctahedron or of the 16 vertices of a tesseract.
 
-The programs for A337954, the canonical program `A337954.P3236094688740596925` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337954 has offset 1).
+The programs for A337954, the canonical program `A337954.P3236094688740596925` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337954 has offset 1).
 
 The definition of A337954 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6148,7 +6149,7 @@ The definition of A337954 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A128767(n+1)-A337955(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A337954
@@ -6373,7 +6374,7 @@ end A337955
 /-!
 # A337956: Number of oriented colorings of the 8 cubic facets of a tesseract or of the 8 vertices of a hyperoctahedron.
 
-The programs for A337956, the canonical program `A337956.P8025992555973306915` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337956 has offset 1).
+The programs for A337956, the canonical program `A337956.P8025992555973306915` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337956 has offset 1).
 
 The definition of A337956 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6411,7 +6412,7 @@ end A337956
 
 `2*A337957(n+1)-A337958(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A337956
@@ -7358,7 +7359,7 @@ end A337958
 /-!
 # A337959: Number of chiral pairs of colorings of the 30 triangular faces of a regular icosahedron or the 30 vertices of a regular dodecahedron using n or fewer colors.
 
-The programs for A337959, the canonical program `A337959.P2573182081801534291` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337959 has offset 1).
+The programs for A337959, the canonical program `A337959.P2573182081801534291` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337959 has offset 1).
 
 The definition of A337959 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7413,7 +7414,7 @@ end A337959
 
 `(A054472(n+1)-A337960(n+1))/2`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A337959
@@ -7565,7 +7566,7 @@ end A337960
 /-!
 # A337961: Number of chiral pairs of colorings of the 12 pentagonal faces of a regular dodecahedron or the 12 vertices of a regular icosahedron using n or fewer colors.
 
-The programs for A337961, the canonical program `A337961.P17187151773324132767` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337961 has offset 1).
+The programs for A337961, the canonical program `A337961.P17187151773324132767` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337961 has offset 1).
 
 The definition of A337961 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7597,7 +7598,7 @@ end A337961
 
 `A000545(n+1)-A252705(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A337961
@@ -7690,7 +7691,7 @@ end A337961
 /-!
 # A337962: Number of achiral colorings of the 12 pentagonal faces of a regular dodecahedron or the 12 vertices of a regular icosahedron using n or fewer colors.
 
-The programs for A337962, the canonical program `A337962.P3428884001016566755` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337962 has offset 1).
+The programs for A337962, the canonical program `A337962.P3428884001016566755` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337962 has offset 1).
 
 The definition of A337962 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7722,7 +7723,7 @@ end A337962
 
 `A252705(n+1)-A337961(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A337962
@@ -8446,7 +8447,7 @@ end A337976.P5670143974139510097
 /-!
 # A337978: a(n) = n + pi(n) - pi(n + pi(n)), where pi(n) is the prime count of n (n>=1).
 
-The programs for A337978, the canonical program `A337978.P10607209113422942817` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337978 has offset 1).
+The programs for A337978, the canonical program `A337978.P10607209113422942817` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337978 has offset 1).
 
 The definition of A337978 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n+1+A000720(n+1)-A000720(n+1+A000720(n+1))` (program `A337978.P10607209113422942817`, by `A337978.P10607209113422942817.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8455,7 +8456,7 @@ The definition of A337978 is `verified`: the Lean definition is proven equivalen
 
 `n+1+A000720(n+1)-A000720(n+1+A000720(n+1))`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A337978
@@ -8946,7 +8947,7 @@ end A337978
 /-!
 # A337979: Define a map f(n):= n-> n + pi(n) - pi(n + pi(n)), where pi(n) is the prime count of n (n>=1). a(n) is the number of steps for n to reach 1 under repeated iteration of f.
 
-The programs for A337979, the canonical program `A337979.P12003257843865772320` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337979 has offset 1).
+The programs for A337979, the canonical program `A337979.P12003257843865772320` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337979 has offset 1).
 
 The definition of A337979 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8978,7 +8979,7 @@ end A337979
 
 `a(A337978(n+1)-1)+1` with `a(0)=0, a(1)=1`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A337979

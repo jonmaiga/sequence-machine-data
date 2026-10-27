@@ -37,26 +37,25 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
-import Seq.B003.C005
+import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -430,7 +429,7 @@ end A393308.P7457399246445100349
 /-!
 # A393309: a(n) = floor(n! / prime(n)).
 
-The programs for A393309, the canonical program `A393309.P12315744972852364962` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393309 has offset 1).
+The programs for A393309, the canonical program `A393309.P12315744972852364962` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393309 has offset 1).
 
 The definition of A393309 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor((n+1)!/A000040(n+1))` (program `A393309.P12315744972852364962`, by `A393309.P12315744972852364962.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -439,7 +438,7 @@ The definition of A393309 is `verified`: the Lean definition is proven equivalen
 
 `floor((n+1)!/A000040(n+1))`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A393309
@@ -1723,7 +1722,7 @@ end A393332.P7871758971364421473
 /-!
 # A393336: a(n) is the sum of positions of 1's minus sum of positions of 0's in the binary expansion of n.
 
-The programs for A393336, the canonical program `A393336.P13809973050334025134` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393336 has offset 0).
+The programs for A393336, the canonical program `A393336.P13809973050334025134` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393336 has offset 0).
 
 The definition of A393336 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A029931, A359400, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1732,7 +1731,7 @@ The definition of A393336 is `conditional`: the Lean definition is an OEIS formu
 
 `A029931(n)-A359400(n)`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A393336
@@ -3007,7 +3006,7 @@ end A393348
 /-!
 # A393350: a(n) is the number of primes between A005101(n) and A005101(n + 1).
 
-The programs for A393350, the canonical program `A393350.P4719086423447970445` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393350 has offset 1).
+The programs for A393350, the canonical program `A393350.P4719086423447970445` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393350 has offset 1).
 
 The definition of A393350 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3016,7 +3015,7 @@ The definition of A393350 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A000720(A005101(n+1))]`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A393350
@@ -3057,7 +3056,7 @@ end A393350
 /-!
 # A393352: Number of circular parking functions of length n avoiding the patterns 123 and 132.
 
-The programs for A393352, the canonical program `A393352.P18340008047549982157` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393352 has offset 0).
+The programs for A393352, the canonical program `A393352.P18340008047549982157` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393352 has offset 0).
 
 The definition of A393352 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3066,7 +3065,7 @@ The definition of A393352 is `conjectured`: the Lean definition is a formula tha
 
 `A053635(n)/2-(n-1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A393352

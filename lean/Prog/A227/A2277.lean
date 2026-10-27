@@ -42,11 +42,13 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -59,6 +61,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -71,8 +74,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2867,7 +2868,7 @@ end A227724.P18377292880827650625
 /-!
 # A227726: a(n) = [x^n] (1 + x)/(1 - x)^(2*n+1).
 
-The programs for A227726, the canonical program `A227726.P7304249674244244616` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227726 has offset 0).
+The programs for A227726, the canonical program `A227726.P7304249674244244616` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227726 has offset 0).
 
 The definition of A227726 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 123 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2899,7 +2900,7 @@ end A227726
 
 `A025174(n)+A005809(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A227726
@@ -9783,7 +9784,7 @@ end
 end A227783.P2321023829758114402
 
 /-!
-# A227786: Take squares larger than 1, subtract 3 from even squares and 2 from odd squares; a(n) = a(n-1) + A168276(n+1) (with a(1) = 1).
+# A227786: Take squares larger than 1, subtract 3 from even squares and 2 from odd squares.
 
 The programs for A227786, the canonical program `A227786.P3604459538263968663` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227786 has offset 1).
 

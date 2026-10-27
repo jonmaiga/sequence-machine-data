@@ -1,5 +1,4 @@
 import SequenceMachineLib
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -44,6 +43,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -51,14 +51,14 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -67,9 +67,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -95,10 +92,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
 
 /-!
 # A355200: Numbers k that can be written as the sum of 3 divisors of k (not necessarily distinct).
@@ -3335,16 +3328,16 @@ end A355260.P8233187416696610188
 /-!
 # A355261: a(n) = largest-nth-power(n, 2) * radical(n) = A000188(n) * A007947(n), where largest-nth-power(n, e) is the largest positive integer b such that b^e divides n.
 
-The programs for A355261, the canonical program `A355261.P9102816155030024956` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355261 has offset 1).
+The programs for A355261, the canonical program `A355261.P9102816155030024956` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355261 has offset 1).
 
-The definition of A355261 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A355261 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000188, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A355261.P9102816155030024956
 
 `A000188(n+1)*A007947(n+1)`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A355261
@@ -4420,16 +4413,16 @@ end A355263
 /-!
 # A355264: a(n) = n * largest-nth-power(n, 2) = n * A000188(n), where largest-nth-power(n, e) is the largest positive integer b such that b^e divides n.
 
-The programs for A355264, the canonical program `A355264.P11732837253981206670` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355264 has offset 1).
+The programs for A355264, the canonical program `A355264.P11732837253981206670` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355264 has offset 1).
 
-The definition of A355264 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A355264 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000188, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A355264.P11732837253981206670
 
 `(n+1)*A000188(n+1)`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A355264
@@ -4585,12 +4578,6 @@ namespace A355264
 /-- `(n+1)*(A057918(n+1)+1)` -/
 def P9542720457420396748.Spec : Prop :=
   ∀ n, P9542720457420396748.a n = A355264 (n + 1)
-
-theorem P9542720457420396748.correct : P9542720457420396748.Spec := by
-  intro n
-  simp only [A355264, Nat.add_sub_cancel, A355264.P9542720457420396748.a, A355264.P11732837253981206670.a, A000188, A000188.P7486858720566838181.a, A057918, A057918.P8779601029509101892.a, A008833, A008833.P18388074464065390543.a, A007913, A007913.P8131970495124731496.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A355264
 
@@ -5491,7 +5478,7 @@ end A355274.P2307970255488959895
 /-!
 # A355275: Numbers having more odd than even digits when written in base 3.
 
-The programs for A355275, the canonical program `A355275.P3750325120269682961` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355275 has offset 1).
+The programs for A355275, the canonical program `A355275.P3750325120269682961` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355275 has offset 1).
 
 The definition of A355275 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1872 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5500,7 +5487,7 @@ The definition of A355275 is `conjectured`: the Lean definition is a formula tha
 
 `lt[3/acot(n), 9^A062756(n)]`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A355275
@@ -6945,7 +6932,7 @@ end A355295.P17362668397334730426
 /-!
 # A355297: a(n) = A007088(n) mod n.
 
-The programs for A355297, the canonical program `A355297.P15393121531957987038` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355297 has offset 1).
+The programs for A355297, the canonical program `A355297.P15393121531957987038` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355297 has offset 1).
 
 The definition of A355297 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007088, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6954,7 +6941,7 @@ The definition of A355297 is `conditional`: the Lean definition is an OEIS formu
 
 `A007088(n+1)%(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A355297

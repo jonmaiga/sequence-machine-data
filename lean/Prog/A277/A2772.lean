@@ -38,6 +38,7 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -46,16 +47,17 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -63,15 +65,12 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1237,7 +1236,7 @@ end A277214.P1258767888605476684
 /-!
 # A277216: Product of decimal digits of sum of divisors of n.
 
-The programs for A277216, the canonical program `A277216.P4779686101066146694` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277216 has offset 1).
+The programs for A277216, the canonical program `A277216.P4779686101066146694` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277216 has offset 1).
 
 The definition of A277216 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007954, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1246,7 +1245,7 @@ The definition of A277216 is `conditional`: the Lean definition is an OEIS formu
 
 `A007954(A000203(n+1))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A277216
@@ -7077,7 +7076,7 @@ end
 end A277258.P8645071096397548813
 
 /-!
-# A277263: a(1)=2, a(n+1)=a(n)+p, where p is the largest prime a(n) if a(n) is even.
+# A277263: a(1)=2, a(n+1)=a(n)+p, where p is the largest prime <a(n) if a(n) is odd or the smallest prime >a(n) if a(n) is even.
 
 The programs for A277263, there is no canonical definition to state claims against.
 -/
@@ -7217,7 +7216,7 @@ end A277264.P2306451722735599565
 /-!
 # A277267: Minimum number of single-direction edges in leveled binary trees with n nodes.
 
-The programs for A277267, the canonical program `A277267.P1918104767288043109` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277267 has offset 1).
+The programs for A277267, the canonical program `A277267.P1918104767288043109` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277267 has offset 1).
 
 The definition of A277267 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7226,7 +7225,7 @@ The definition of A277267 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n-A279521(n+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A277267

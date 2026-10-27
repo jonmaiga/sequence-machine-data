@@ -30,7 +30,6 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C002
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -38,13 +37,11 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B004.C000
+import Seq.B003.C001
 import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B009.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3831,7 +3828,7 @@ end A223658.P11817558393448670198
 /-!
 # A223659: Number of unimodal maps [1..n]->[0..3].
 
-The programs for A223659, the canonical program `A223659.P6840941151427606144` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223659 has offset 0).
+The programs for A223659, the canonical program `A223659.P6840941151427606144` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223659 has offset 0).
 
 The definition of A223659 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3863,7 +3860,7 @@ end A223659
 
 `abs(∑[∑[A223718(n)]]-n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A223659

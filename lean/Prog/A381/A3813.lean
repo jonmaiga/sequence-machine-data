@@ -29,19 +29,23 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -51,14 +55,11 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -341,7 +342,7 @@ end A381310.P1162509848547166741
 /-!
 # A381311: Numbers whose powerful part (A057521) is a power of a prime with an even exponent >= 2.
 
-The programs for A381311, the canonical program `A381311.P15638410083589362284` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381311 has offset 1).
+The programs for A381311, the canonical program `A381311.P15638410083589362284` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381311 has offset 1).
 
 The definition of A381311 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9170 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -350,7 +351,7 @@ The definition of A381311 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A162645(n+1), A359466(#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A381311
@@ -562,7 +563,7 @@ end A381311
 /-!
 # A381312: Numbers whose powerful part (A057521) is a power of a prime with an odd exponent >= 3 (A056824).
 
-The programs for A381312, the canonical program `A381312.P9121051860855082325` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381312 has offset 1).
+The programs for A381312, the canonical program `A381312.P9121051860855082325` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381312 has offset 1).
 
 The definition of A381312 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8129 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -649,7 +650,7 @@ end A381312
 
 `filter[A377844(n+1), A359466(#)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A381312
@@ -1063,7 +1064,7 @@ end A381312
 /-!
 # A381313: Numbers that are divisible by the cube of an odd prime.
 
-The programs for A381313, the canonical program `A381313.P16274540658270787532` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381313 has offset 1).
+The programs for A381313, the canonical program `A381313.P16274540658270787532` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381313 has offset 1).
 
 The definition of A381313 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 490 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1101,7 +1102,7 @@ end A381313
 
 `lt[2, A375669(n+1)]+1`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A381313
@@ -1466,7 +1467,7 @@ end A381314
 /-!
 # A381315: Numbers whose prime factorization exponents include exactly one 3 and no exponent greater than 3.
 
-The programs for A381315, the canonical program `A381315.P9914003275205982349` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381315 has offset 1).
+The programs for A381315, the canonical program `A381315.P9914003275205982349` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381315 has offset 1).
 
 The definition of A381315 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7798 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1505,7 +1506,7 @@ end A381315
 
 `∩[A375072(n+1), A377844(n+1)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A381315
@@ -1986,7 +1987,7 @@ end A381315
 /-!
 # A381316: Numbers whose powerful part (A057521) is a power of a prime with an exponent >= 3 (A246549).
 
-The programs for A381316, the canonical program `A381316.P10823107300725866756` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381316 has offset 1).
+The programs for A381316, the canonical program `A381316.P10823107300725866756` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381316 has offset 1).
 
 The definition of A381316 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8345 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1995,7 +1996,7 @@ The definition of A381316 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A375145(n+1), A359466(#)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A381316
@@ -2567,7 +2568,7 @@ end A381317.P17524525074179575663
 /-!
 # A381319: Order of linear recurrence with constant coefficients of solutions of k satisfying k^(n-1) == 1 (mod n^2) for a given n.
 
-The programs for A381319, the canonical program `A381319.P14834546129870653751` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381319 has offset 2).
+The programs for A381319, the canonical program `A381319.P14834546129870653751` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381319 has offset 2).
 
 The definition of A381319 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A063994, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2576,7 +2577,7 @@ The definition of A381319 is `conditional`: the Lean definition is an OEIS formu
 
 `1+A063994(n+2)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A381319
@@ -2692,12 +2693,6 @@ namespace A381319
 /-- `A039649(n+2)-A318840(n+2)` -/
 def P18147696620559336949.Spec : Prop :=
   ∀ n, P18147696620559336949.a n = A381319 (n + 2)
-
-theorem P18147696620559336949.correct : P18147696620559336949.Spec := by
-  intro n
-  simp only [A381319, Nat.add_sub_cancel, A381319.P18147696620559336949.a, A381319.P14834546129870653751.a, A039649, A039649.P16717312505280968063.a, A063994, A063994.P16689841622396858113.f1, A063994.P16689841622396858113.a, A318840, A318840.P4824797439622119668.a, A000010, A000010.P4673923239450215316.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A381319
 

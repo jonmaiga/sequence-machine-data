@@ -44,25 +44,21 @@ import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5456,7 +5452,7 @@ end A250748.P17097893681479295065
 /-!
 # A250749: Number of (n+1) X (2+1) 0..2 arrays with nondecreasing x(i,j)-x(i,j-1) in the i direction and nondecreasing x(i,j)+x(i-1,j) in the j direction.
 
-The programs for A250749, the canonical program `A250749.P8795832410189814382` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250749 has offset 1).
+The programs for A250749, the canonical program `A250749.P8795832410189814382` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250749 has offset 1).
 
 The definition of A250749 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 206 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5465,7 +5461,7 @@ The definition of A250749 is `conjectured`: the Lean definition is a formula tha
 
 `A122695(n+5)+1`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A250749
@@ -5791,7 +5787,7 @@ end A250750
 /-!
 # A250751: Number of (n+1) X (4+1) 0..2 arrays with nondecreasing x(i,j)-x(i,j-1) in the i direction and nondecreasing x(i,j)+x(i-1,j) in the j direction.
 
-The programs for A250751, the canonical program `A250751.P8916526449828887815` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250751 has offset 1).
+The programs for A250751, the canonical program `A250751.P8916526449828887815` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250751 has offset 1).
 
 The definition of A250751 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 205 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5800,7 +5796,7 @@ The definition of A250751 is `conjectured`: the Lean definition is a formula tha
 
 `5*A056182(n+3)+13`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A250751
@@ -9073,7 +9069,7 @@ end A250777
 /-!
 # A250778: Number of (n+1) X (3+1) 0..1 arrays with nondecreasing x(i,j)+x(i,j-1) in the i direction and nondecreasing absolute value of x(i,j)-x(i-1,j) in the j direction.
 
-The programs for A250778, the canonical program `A250778.P5723308156067218095` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250778 has offset 1).
+The programs for A250778, the canonical program `A250778.P5723308156067218095` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250778 has offset 1).
 
 The definition of A250778 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 327 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9082,7 +9078,7 @@ The definition of A250778 is `conjectured`: the Lean definition is a formula tha
 
 `A247618(n+3)+1`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A250778

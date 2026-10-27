@@ -13,7 +13,6 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -39,12 +38,10 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -57,22 +54,22 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6198,7 +6195,7 @@ end
 end A245760.P6286863935762860730
 
 /-!
-# A245762: Maximal number of edges in a C_4 free subgraph of the n-cube.
+# A245762: Maximum number of edges in a C_4 free subgraph of the n-cube.
 
 The programs for A245762, there is no canonical definition to state claims against.
 -/
@@ -7259,9 +7256,9 @@ def P15864327325205463796.Spec : Prop :=
 end A245769
 
 /-!
-# A245773: a(n) = n*sigma(n) - Sum_{(d
+# A245773: a(n) = n*sigma(n) - Sum_{(d<n)|n} d*sigma(d).
 
-The programs for A245773, the canonical program `A245773.P11491610189230660149` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245773 has offset 1).
+The programs for A245773, the canonical program `A245773.P11491610189230660149` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245773 has offset 1).
 
 The definition of A245773 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A245484, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7270,7 +7267,7 @@ The definition of A245773 is `conditional`: the Lean definition is an OEIS formu
 
 `A064987(n+1)-A245484(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A245773
@@ -9122,7 +9119,7 @@ end A245797.P13164758010015173661
 /-!
 # A245798: Catalan number analogs for totienomial coefficients (A238453).
 
-The programs for A245798, the canonical program `A245798.P156287280549702739` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245798 has offset 0).
+The programs for A245798, the canonical program `A245798.P156287280549702739` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245798 has offset 0).
 
 The definition of A245798 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 173 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9131,7 +9128,7 @@ The definition of A245798 is `conjectured`: the Lean definition is a formula tha
 
 `2*A072451(n)/A055034(n+1)*a(n-1)` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A245798

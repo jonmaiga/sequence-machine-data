@@ -44,19 +44,22 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
@@ -64,12 +67,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -10605,7 +10607,7 @@ end
 end A084676.P14975124325722952332
 
 /-!
-# A084678: a(n) = b(n,n) with b(n,1) = n and b(n,k) = binomial(b(n,k-1),d(n,n-k+1)) for 1
+# A084678: a(n) = b(n,n) with b(n,1) = n and b(n,k) = binomial(b(n,k-1),d(n,n-k+1)) for 1<k<=n, where d(n,i) are the divisors of n, d(i)<d(j), 1<=i<j<=A000005(n).
 
 The programs for A084678, there is no canonical definition to state claims against.
 -/
@@ -12337,7 +12339,7 @@ end A084686.P12941456490272778020
 /-!
 # A084694: Squarefree numbers which are products of three consecutive numbers. I.e., squarefree numbers of the form k^3 - k.
 
-The programs for A084694, the canonical program `A084694.P9348049789336525681` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A084694 has offset 1).
+The programs for A084694, the canonical program `A084694.P9348049789336525681` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A084694 has offset 1).
 
 The definition of A084694 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007675, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -12346,7 +12348,7 @@ The definition of A084694 is `conditional`: the Lean definition is an OEIS formu
 
 `A007531(A007675(n+1)+2)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A084694
@@ -12505,12 +12507,6 @@ namespace A084694
 /-- `A007531(A228649(n+1)+1)` -/
 def P16581857151998475307.Spec : Prop :=
   ∀ n, P16581857151998475307.a n = A084694 (n + 1)
-
-theorem P16581857151998475307.correct : P16581857151998475307.Spec := by
-  intro n
-  simp only [A084694, Nat.add_sub_cancel, A084694.P16581857151998475307.a, A084694.P9348049789336525681.a, A007531, A007531.P15538264737483534371.a, A007675, A007675.P4991608707947414915.f1, A007675.P4991608707947414915.f2, A007675.P4991608707947414915.a, A228649, A228649.P13260817488648530651.a, A008683, A008683.P18254306604665478110.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A085357, A085357.P3258697467278337073.a, A106400, A106400.P11201390576172776043.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A084694
 

@@ -11,7 +11,6 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
-import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C016
 import Seq.B000.C017
@@ -34,9 +33,9 @@ import Seq.B001.C004
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
@@ -47,7 +46,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -712,36 +710,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A028508.P5804915762326059431
-
-/-! ## A028508.P5352418712630796767
-
-`A028232(n+1)-A000035(A075656(n+1))`
--/
-
-namespace A028508.P5352418712630796767
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A028232 (n + 1) - A000035 (A075656 (n + 1)).toNat
-
-end
-
-end A028508.P5352418712630796767
-
-/-! ## A028508.P9672086457522832312
-
-`xor(A000035(A075656(n+1)+2), A028232(n+1))`
--/
-
-namespace A028508.P9672086457522832312
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.xor (A000035 (A075656 (n + 1) + 2).toNat) (A028232 (n + 1))
-
-end
-
-end A028508.P9672086457522832312
 
 /-! ## A028508.P17452955378401635700
 

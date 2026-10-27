@@ -25,11 +25,11 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B004.C000
 import Seq.B005.C000
@@ -39,7 +39,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
 import Seq.Opaque.C004
@@ -3128,7 +3127,7 @@ end A025916
 /-!
 # A025917: Expansion of 1/((1-x^7)*(1-x^11)*(1-x^12)).
 
-The programs for A025917, the canonical program `A025917.P17801303751830098508` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025917 has offset 0).
+The programs for A025917, the canonical program `A025917.P17801303751830098508` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025917 has offset 0).
 
 The definition of A025917 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3183,7 +3182,7 @@ end A025917
 
 `A029402(n)+A029422(n)-A029382(n)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A025917
@@ -3909,7 +3908,7 @@ end A025921
 /-!
 # A025922: Expansion of 1/((1-x^8)*(1-x^11)*(1-x^12)).
 
-The programs for A025922, the canonical program `A025922.P6708222772634296198` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025922 has offset 0).
+The programs for A025922, the canonical program `A025922.P6708222772634296198` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A025922 has offset 0).
 
 The definition of A025922 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3918,7 +3917,7 @@ The definition of A025922 is `conjectured`: the Lean definition is a formula tha
 
 `A029240(n)+A029427(n)-A029225(n)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A025922

@@ -38,22 +38,25 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -65,7 +68,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1626,7 +1628,7 @@ end A253513
 /-!
 # A253514: Centered heptagonal numbers (A069099) which are also centered octagonal numbers (A016754).
 
-The programs for A253514, the canonical program `A253514.P4068282425341631059` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253514 has offset 1).
+The programs for A253514, the canonical program `A253514.P4068282425341631059` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253514 has offset 1).
 
 The definition of A253514 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1635,7 +1637,7 @@ The definition of A253514 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A157877(n+1)²`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A253514
@@ -6739,7 +6741,7 @@ end A253560
 /-!
 # A253561: Square array read by antidiagonals: A(row,col) = A122111(A246278(row,col)).
 
-The programs for A253561, the canonical program `A253561.P16567728595898521275` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253561 has offset 2).
+The programs for A253561, the canonical program `A253561.P16567728595898521275` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253561 has offset 2).
 
 The definition of A253561 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 102 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6771,7 +6773,7 @@ end A253561
 
 `A253563(A253551(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A253561
@@ -7770,7 +7772,7 @@ end A253565
 /-!
 # A253566: Permutation of natural numbers: a(n) = A243071(A122111(n)).
 
-The programs for A253566, the canonical program `A253566.P9103107584596957047` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253566 has offset 1).
+The programs for A253566, the canonical program `A253566.P9103107584596957047` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253566 has offset 1).
 
 The definition of A253566 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1223 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7827,7 +7829,7 @@ end A253566
 
 `A055010(A252464(n+1))-A253564(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A253566
@@ -8286,12 +8288,6 @@ namespace A253568
 /-- `A000027(2*(n+1))-A352491(2*(n+1))` -/
 def P13554601641541527512.Spec : Prop :=
   ∀ n, P13554601641541527512.a n = A253568 (n + 1)
-
-theorem P13554601641541527512.correct : P13554601641541527512.Spec := by
-  intro n
-  simp only [A253568, Nat.add_sub_cancel, A253568.P13554601641541527512.a, A253568.P15723991707843801248.a, A000027, A000027.P10331202704469894836.a, A122111, A122111.P18124015185857335041.a, A352491, A352491.P13151427470145142033.a, A064989, A064989.P13349672914146769936.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, A008578, A008578.P3639467937083264764.a, A052126, A052126.P1944428405920482243.a, A061395, A061395.P8431317036300486107.a, A006530, A006530.P13372528560459906635.a, A029837, A029837.P1050578713049589.a, A087207, A087207.P12536008426233777954.a, A158611, A158611.P9275629407611603775.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A253568
 

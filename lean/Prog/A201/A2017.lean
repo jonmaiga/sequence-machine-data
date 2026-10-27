@@ -37,6 +37,7 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
@@ -45,17 +46,17 @@ import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C001
+import Seq.B006.C001
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4752,7 +4753,7 @@ end A201733.P3872107323947729248
 /-!
 # A201734: Numbers n such that 90*n + 47 is prime.
 
-The programs for A201734, the canonical program `A201734.P3143725369021031847` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201734 has offset 1).
+The programs for A201734, the canonical program `A201734.P3143725369021031847` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A201734 has offset 1).
 
 The definition of A201734 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 401 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4761,7 +4762,7 @@ The definition of A201734 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A075743(A128468(n)-2)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A201734
@@ -4802,12 +4803,6 @@ namespace A201734
 /-- `eq[1, A075743(A082369(n+1)+2)]` -/
 def P18308644808880214159.Spec : Prop :=
   ∀ n, (P18308644808880214159.a n : ℤ) = A201734 (n + 1)
-
-theorem P18308644808880214159.correct : P18308644808880214159.Spec := by
-  intro n
-  simp only [A201734, Nat.add_sub_cancel, A201734.P18308644808880214159.f1, A201734.P18308644808880214159.f2, A201734.P18308644808880214159.a, A201734.P3143725369021031847.f1, A201734.P3143725369021031847.f2, A201734.P3143725369021031847.a, A075743, A075743.P8124416718606607743.a, A082369, A082369.P8225602124362448131.a, A128468, A128468.P7859043567182606606.a, A007310, A007310.P9946423629536973135.a, A010051, A010051.P15078252821583414300.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A201734
 

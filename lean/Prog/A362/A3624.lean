@@ -44,14 +44,19 @@ import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -60,9 +65,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -495,7 +497,7 @@ end A362408.P13130993087811164221
 /-!
 # A362412: The number of prime factors of the square root of the largest square dividing n, counted with multiplicity.
 
-The programs for A362412, the canonical program `A362412.P10869923801910997708` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362412 has offset 1).
+The programs for A362412, the canonical program `A362412.P10869923801910997708` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362412 has offset 1).
 
 The definition of A362412 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A162642, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -550,7 +552,7 @@ end A362412
 
 `(A001222(n+1)-A162642(n+1))/2`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A362412
@@ -767,7 +769,7 @@ end A362413.P17312313505179349474
 /-!
 # A362414: a(n) = gcd(n, phi(n)^2) / gcd(n, phi(n)).
 
-The programs for A362414, the canonical program `A362414.P9769977352830913817` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362414 has offset 1).
+The programs for A362414, the canonical program `A362414.P9769977352830913817` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362414 has offset 1).
 
 The definition of A362414 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A009195, A127473, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -776,7 +778,7 @@ The definition of A362414 is `conditional`: the Lean definition is an OEIS formu
 
 `gcd(n+1, A127473(n+1))/A009195(n+1)`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A362414
@@ -1262,7 +1264,7 @@ end A362416.P1810315414048794588
 /-!
 # A362419: Partial sum of the first n even semiprimes.
 
-The programs for A362419, the canonical program `A362419.P12067227853908555658` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362419 has offset 1).
+The programs for A362419, the canonical program `A362419.P12067227853908555658` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362419 has offset 1).
 
 The definition of A362419 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1271,7 +1273,7 @@ The definition of A362419 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A007504(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A362419
@@ -1970,7 +1972,7 @@ end A362420
 /-!
 # A362421: Number of nonisomorphic vector spaces consisting of n elements.
 
-The programs for A362421, the canonical program `A362421.P15476662405559426444` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362421 has offset 2).
+The programs for A362421, the canonical program `A362421.P15476662405559426444` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362421 has offset 2).
 
 The definition of A362421 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2080,7 +2082,7 @@ end A362421
 
 `A049419(n+2)*A069513(n+2)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A362421

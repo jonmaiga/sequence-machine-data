@@ -41,6 +41,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -49,21 +50,19 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3777,7 +3776,7 @@ end A218136.P14712005158767151351
 /-!
 # A218137: Sum of absolute values of real and imaginary parts of the coefficients in the expansion of 1 / (1 - x - I*x^2), where I^2=-1.
 
-The programs for A218137, the canonical program `A218137.P9424650878617103806` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218137 has offset 0).
+The programs for A218137, the canonical program `A218137.P9424650878617103806` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218137 has offset 0).
 
 The definition of A218137 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 625 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3786,7 +3785,7 @@ The definition of A218137 is `conjectured`: the Lean definition is a formula tha
 
 `abs(A201837(n))+abs(A201838(n))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A218137
@@ -4443,7 +4442,7 @@ end A218146.P14986537784723190198
 /-!
 # A218147: Degree of minimal polynomial satisfied by exp(8*Pi*phi_2(1/n,1/n)), where phi_2 is defined in the Comments.
 
-The programs for A218147, the canonical program `A218147.P2989802918495991465` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218147 has offset 3).
+The programs for A218147, the canonical program `A218147.P2989802918495991465` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218147 has offset 3).
 
 The definition of A218147 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A079458, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4452,7 +4451,7 @@ The definition of A218147 is `conditional`: the Lean definition is an OEIS formu
 
 `A079458(n+3)/4`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A218147
@@ -6520,7 +6519,7 @@ end A218171
 /-!
 # A218172: Centered 12-gonal numbers which are semiprimes, intersection of A003154 and A001358.
 
-The programs for A218172, the canonical program `A218172.P8365730826295416542` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218172 has offset 1).
+The programs for A218172, the canonical program `A218172.P8365730826295416542` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218172 has offset 1).
 
 The definition of A218172 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 175 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6529,7 +6528,7 @@ The definition of A218172 is `conjectured`: the Lean definition is a formula tha
 
 `A322462(eq[2, ∑{e}[A322462(n), #]])`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A218172

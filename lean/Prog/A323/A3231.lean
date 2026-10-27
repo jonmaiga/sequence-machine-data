@@ -43,20 +43,22 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C000
+import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
@@ -65,12 +67,11 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3820,7 +3821,7 @@ end A323153
 /-!
 # A323154: a(n) = 1 if n divides A048146(n) = (sigma(n)-usigma(n)), 0 otherwise.
 
-The programs for A323154, the canonical program `A323154.P14116477510633869356` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323154 has offset 1).
+The programs for A323154, the canonical program `A323154.P14116477510633869356` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323154 has offset 1).
 
 The definition of A323154 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3852,7 +3853,7 @@ end A323154
 
 `A000007(A048146(n+1)%(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A323154
@@ -4278,7 +4279,7 @@ end A323157.P11166424128366682017
 /-!
 # A323158: If n is a square, a(n) = 1-(n mod 2), otherwise a(n) = (n mod 2); a(n) = A049820(n) mod 2, where A049820(n) = n - number of divisors of n.
 
-The programs for A323158, the canonical program `A323158.P16175357172864216776` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323158 has offset 1).
+The programs for A323158, the canonical program `A323158.P16175357172864216776` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323158 has offset 1).
 
 The definition of A323158 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4287,7 +4288,7 @@ The definition of A323158 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A049820(n+1)%2`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A323158
@@ -4729,16 +4730,16 @@ end A323158
 /-!
 # A323159: Greatest common divisor of product (1+(p^e)) and product (1+p), where p ranges over prime factors of n, with e corresponding exponent; a(n) = gcd(A034448(n), A048250(n)).
 
-The programs for A323159, the canonical program `A323159.P15063359225251792079` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323159 has offset 1).
+The programs for A323159, the canonical program `A323159.P15063359225251792079` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323159 has offset 1).
 
-The definition of A323159 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034448, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A323159 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034448, A048250, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A323159.P15063359225251792079
 
 `gcd(A034448(n+1), A048250(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A323159
@@ -5130,7 +5131,7 @@ end A323159
 /-!
 # A323160: a(n) = gcd(n, A323159(n)) = gcd(n, A034448(n), A048250(n)).
 
-The programs for A323160, the canonical program `A323160.P16832328256614807770` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323160 has offset 1).
+The programs for A323160, the canonical program `A323160.P16832328256614807770` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323160 has offset 1).
 
 The definition of A323160 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A323159, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5139,7 +5140,7 @@ The definition of A323160 is `conditional`: the Lean definition is an OEIS formu
 
 `gcd(n+1, A323159(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A323160
@@ -5955,7 +5956,7 @@ end A323162
 /-!
 # A323163: Greatest common divisor of product (1+(p^e)) and product p^(e-1), where p ranges over prime factors of n, with e corresponding exponent; a(n) = gcd(A034448(n), A003557(n)).
 
-The programs for A323163, the canonical program `A323163.P4975270130842201010` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323163 has offset 1).
+The programs for A323163, the canonical program `A323163.P4975270130842201010` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323163 has offset 1).
 
 The definition of A323163 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034448, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5987,7 +5988,7 @@ end A323163
 
 `gcd(A034448(n+1), A003557(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A323163
@@ -6373,7 +6374,7 @@ end A323165.P5290408165361223807
 /-!
 # A323166: Greatest common divisor of Product (1+(p_i^e_i)) and n, when n = Product (p_i^e_i); a(n) = gcd(A034448(n), n).
 
-The programs for A323166, the canonical program `A323166.P16503976483329097000` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323166 has offset 1).
+The programs for A323166, the canonical program `A323166.P16503976483329097000` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323166 has offset 1).
 
 The definition of A323166 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034448, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6405,7 +6406,7 @@ end A323166
 
 `gcd(A034448(n+1), n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A323166
@@ -6578,12 +6579,6 @@ namespace A323166
 /-- `gcd(A345451(n+1)+1, A000027(n+1))` -/
 def P6193974763310818830.Spec : Prop :=
   ∀ n, (P6193974763310818830.a n : ℤ) = A323166 (n + 1)
-
-theorem P6193974763310818830.correct : P6193974763310818830.Spec := by
-  intro n
-  simp only [A323166, Nat.add_sub_cancel, A323166.P6193974763310818830.a, A323166.P16503976483329097000.a, A000027, A000027.P10331202704469894836.a, A034448, A034448.P17017727775393200719.a, A345451, A345451.P7254326500789221208.a, A064971, A064971.P12456317125098901049.f1, A064971.P12456317125098901049.a, A053825, A053825.P3529766841853861707.f1, A053825.P3529766841853861707.a, A379812, A379812.P10955070158037639960.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001157, A001157.P6892814788348726787.a, A007427, A007427.P16363569186413612215.f1, A007427.P16363569186413612215.a, A063453, A063453.P7272092198875575783.f1, A063453.P7272092198875575783.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A323166
 
@@ -7609,7 +7604,7 @@ end A323170
 /-!
 # A323171: Numerator of the average of distinct prime factors of n (A008472(n)/A001221(n)).
 
-The programs for A323171, the canonical program `A323171.P17163858999531441399` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323171 has offset 2).
+The programs for A323171, the canonical program `A323171.P17163858999531441399` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323171 has offset 2).
 
 The definition of A323171 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7618,7 +7613,7 @@ The definition of A323171 is `conjectured`: the Lean definition is a formula tha
 
 `A123528(∏{p}[n+2, #])`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A323171
@@ -7843,7 +7838,7 @@ end A323171
 /-!
 # A323172: Denominator of the average of distinct prime factors of n (A008472(n)/A001221(n)).
 
-The programs for A323172, the canonical program `A323172.P1211456420547319738` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323172 has offset 2).
+The programs for A323172, the canonical program `A323172.P1211456420547319738` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323172 has offset 2).
 
 The definition of A323172 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7852,7 +7847,7 @@ The definition of A323172 is `conjectured`: the Lean definition is a formula tha
 
 `A001221(n+2)/A008472(n+2)*A323171(n+2)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A323172

@@ -48,19 +48,22 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -69,9 +72,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1860,7 +1861,7 @@ end A307714.P2265979393459653919
 /-!
 # A307716: Denominator of the barycenter of first n primes defined as a(n) = denominator(Sum_{i=1..n} (i*prime(i)) / Sum_{i=1..n} prime(i)).
 
-The programs for A307716, the canonical program `A307716.P13840358709468437809` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307716 has offset 1).
+The programs for A307716, the canonical program `A307716.P13840358709468437809` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307716 has offset 1).
 
 The definition of A307716 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1892,7 +1893,7 @@ end A307716
 
 `∑[A000040(n+1)]/A309036(n+1)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A307716
@@ -3902,7 +3903,7 @@ end A307741.P10413271019174950619
 /-!
 # A307742: Quasi-logarithm A064097(n) of von Mangoldt's exponential function A014963(n).
 
-The programs for A307742, the canonical program `A307742.P17097547645030697459` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307742 has offset 1).
+The programs for A307742, the canonical program `A307742.P17097547645030697459` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307742 has offset 1).
 
 The definition of A307742 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A014963, A064097, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3911,7 +3912,7 @@ The definition of A307742 is `conditional`: the Lean definition is an OEIS formu
 
 `A064097(A014963(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A307742
@@ -4234,7 +4235,7 @@ end A307742
 /-!
 # A307743: a(n) = Sum_{k=1..n} A307742(k).
 
-The programs for A307743, the canonical program `A307743.P12638932795451399698` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307743 has offset 1).
+The programs for A307743, the canonical program `A307743.P12638932795451399698` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307743 has offset 1).
 
 The definition of A307743 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4243,7 +4244,7 @@ The definition of A307743 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A307742(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A307743

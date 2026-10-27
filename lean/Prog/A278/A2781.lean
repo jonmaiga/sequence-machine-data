@@ -3,7 +3,6 @@ import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
-import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
@@ -44,19 +43,19 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,8 +67,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4717,7 +4714,7 @@ end A278157.P3527446544502860
 /-!
 # A278159: Run length transform of primorials, A002110.
 
-The programs for A278159, the canonical program `A278159.P1523932836907847359` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278159 has offset 0).
+The programs for A278159, the canonical program `A278159.P1523932836907847359` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278159 has offset 0).
 
 The definition of A278159 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005940, A124859, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4726,7 +4723,7 @@ The definition of A278159 is `conditional`: the Lean definition is an OEIS formu
 
 `A124859(A005940(1+n))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A278159
@@ -5278,16 +5275,16 @@ end A278160
 /-!
 # A278161: Run length transform of A008619 (floor(n/2)+1).
 
-The programs for A278161, the canonical program `A278161.P11501400355849923107` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278161 has offset 0).
+The programs for A278161, the canonical program `A278161.P11501400355849923107` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278161 has offset 0).
 
-The definition of A278161 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005940, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A278161 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005940, A046951, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A278161.P11501400355849923107
 
 `A046951(A005940(1+n))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A278161
@@ -6289,7 +6286,7 @@ end A278163
 /-!
 # A278164: Irregular triangle read by rows: row n (n >= 0) is obtained by listing numbers 0 .. A000123(n)-1.
 
-The programs for A278164, the canonical program `A278164.P857982996237124715` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278164 has offset 1).
+The programs for A278164, the canonical program `A278164.P857982996237124715` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A278164 has offset 1).
 
 The definition of A278164 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5307 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6298,7 +6295,7 @@ The definition of A278164 is `conjectured`: the Lean definition is a formula tha
 
 `A277904(2*n-a(n-1))` with `a(0)=0`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A278164

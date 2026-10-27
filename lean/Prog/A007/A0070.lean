@@ -52,6 +52,7 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -65,6 +66,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -75,8 +77,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6848,7 +6848,7 @@ end A007054
 /-!
 # A007055: Let S denote the palindromes in the language {0,1}*; a(n) = number of words of length n in the language SS.
 
-The programs for A007055, the canonical program `A007055.P13796273063229323987` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007055 has offset 0).
+The programs for A007055, the canonical program `A007055.P13796273063229323987` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007055 has offset 0).
 
 The definition of A007055 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 645 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6857,7 +6857,7 @@ The definition of A007055 is `conjectured`: the Lean definition is a formula tha
 
 `(A057427(n)+1)*A180249(A028310(n))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A007055
@@ -13052,12 +13052,6 @@ namespace A007089
 /-- `A343810(n)/4` -/
 def P4691319833990132328.Spec : Prop :=
   ∀ n, P4691319833990132328.a n = (A007089 n : ℚ)
-
-theorem P4691319833990132328.correct : P4691319833990132328.Spec := by
-  intro n
-  simp only [A007089, Nat.add_sub_cancel, A007089.P4691319833990132328.a, A007089.P15426934171605968316.a, A343810, A343810.P16791698285145293433.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A007089
 

@@ -38,7 +38,9 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -46,20 +48,19 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3724,7 +3725,7 @@ def P11832707808881736483.Spec : Prop :=
 end A051350
 
 /-!
-# A051351: a(n) = a(n-1) + sum of digits of n-th prime.
+# A051351: a(n) = a(n-1) + sum of digits of n-th prime; a(0) = 0.
 
 The programs for A051351, the canonical program `A051351.P6493723572968094148` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051351 has offset 0).
 
@@ -4151,7 +4152,7 @@ end A051351
 /-!
 # A051352: a(0) = 0; for n>0, a(n) = a(n-1) + n if n not prime else a(n-1) - n.
 
-The programs for A051352, the canonical program `A051352.P2247896589470806278` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051352 has offset 0).
+The programs for A051352, the canonical program `A051352.P2247896589470806278` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051352 has offset 0).
 
 The definition of A051352 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010051, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4177,19 +4178,13 @@ namespace A051352
 def P16011337839627457097.Spec : Prop :=
   ∀ n, P16011337839627457097.a n = A051352 n
 
-theorem P16011337839627457097.correct : P16011337839627457097.Spec := by
-  intro n
-  simp only [A051352, Nat.add_sub_cancel, A051352.P16011337839627457097.a, A051352.P2247896589470806278.a, A005171, A005171.P15860856746370777121.a, A010051, A010051.P15078252821583414300.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
-
 end A051352
 
 /-! ## A051352.P2247896589470806278
 
 `a(n-1)+n*(1-2*A010051(n))` with `a(0)=0`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A051352
@@ -4224,12 +4219,6 @@ namespace A051352
 /-- `a(n-1)+n*(A005171(n)-A010051(n))` -/
 def P11296582860705370969.Spec : Prop :=
   ∀ n, P11296582860705370969.a n = A051352 n
-
-theorem P11296582860705370969.correct : P11296582860705370969.Spec := by
-  intro n
-  simp only [A051352, Nat.add_sub_cancel, A051352.P11296582860705370969.a, A051352.P2247896589470806278.a, A005171, A005171.P15860856746370777121.a, A010051, A010051.P15078252821583414300.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A051352
 
@@ -4412,7 +4401,7 @@ end A051352
 /-!
 # A051353: a(n) = a(n-1) + n^2 if n prime else a(n-1) - n, starting with a(0) = 0.
 
-The programs for A051353, the canonical program `A051353.P4884144329668290276` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051353 has offset 0).
+The programs for A051353, the canonical program `A051353.P4884144329668290276` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051353 has offset 0).
 
 The definition of A051353 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010051, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4421,7 +4410,7 @@ The definition of A051353 is `conditional`: the Lean definition is an OEIS formu
 
 `a(n-1)+n*(A010051(n)*(n+1)-1)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A051353

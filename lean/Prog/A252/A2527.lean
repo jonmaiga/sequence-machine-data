@@ -1,5 +1,4 @@
 import SequenceMachineLib
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -34,18 +33,21 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C004
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B003.C000
+import Seq.B002.C007
 import Seq.B003.C001
 import Seq.B004.C002
 import Seq.B005.C000
@@ -57,7 +59,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -83,10 +84,6 @@ import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
-
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
 
 /-!
 # A252700: Number of strings of length n over a 7-letter alphabet that do not begin with a palindrome.
@@ -4920,12 +4917,6 @@ namespace A252748
 def P11379446649687384341.Spec : Prop :=
   ∀ n, P11379446649687384341.a n = A252748 (n + 1)
 
-theorem P11379446649687384341.correct : P11379446649687384341.Spec := by
-  intro n
-  simp only [A252748, Nat.add_sub_cancel, A252748.P11379446649687384341.a, A252748.P16209281916487994805.a, A156552, A156552.P4268073137713085227.a, A252750, A252750.P12930142929614438506.a, A336853, A336853.P1645042944242011250.a, A005940, A005940.P5942875842694471387.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A122111, A122111.P18124015185857335041.a, A253563, A253563.P3695549317124564486.a, A364557, A364557.P16113127302810243144.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A000120, A000120.P2816527436160941581.a, A025480, A025480.P15873863116418380882.a, A064989, A064989.P13349672914146769936.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, A297167, A297167.P13113550866660970867.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A252748
 
 /-! ## A252748.P18176929447541034285
@@ -5210,7 +5201,7 @@ end A252748
 /-!
 # A252749: Partial sums of A252748: a(0) = 0, a(n) = A252748(n) + a(n-1).
 
-The programs for A252749, the canonical program `A252749.P15054942815197957636` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252749 has offset 0).
+The programs for A252749, the canonical program `A252749.P15054942815197957636` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252749 has offset 0).
 
 The definition of A252749 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A252748, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5219,7 +5210,7 @@ The definition of A252749 is `conditional`: the Lean definition is an OEIS formu
 
 `A252748(n)+a(n-1)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A252749
@@ -5390,7 +5381,7 @@ end A252749
 /-!
 # A252750: a(n) = A003961(A005940(n+1)) - 2 * A005940(n+1).
 
-The programs for A252750, the canonical program `A252750.P12930142929614438506` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252750 has offset 0).
+The programs for A252750, the canonical program `A252750.P12930142929614438506` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252750 has offset 0).
 
 The definition of A252750 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5470,7 +5461,7 @@ end A252750
 
 `A005940(2*n+1)-A005940(2*(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A252750
@@ -6982,7 +6973,7 @@ end A252763.P15746571262156475278
 /-!
 # A252764: Number of length n primitive (=aperiodic or period n) n-ary words.
 
-The programs for A252764, the canonical program `A252764.P5086795476631920370` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252764 has offset 1).
+The programs for A252764, the canonical program `A252764.P5086795476631920370` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252764 has offset 1).
 
 The definition of A252764 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7014,7 +7005,7 @@ end A252764
 
 `∑{d}[n+1, (n+1)^#*A008683((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A252764

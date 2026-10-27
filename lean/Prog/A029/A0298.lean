@@ -36,16 +36,20 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -57,9 +61,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1406,7 +1407,7 @@ end A029828.P6071448919539905677
 /-!
 # A029832: A discrete version of the Mangoldt function: if n is prime then ceiling(log(n)) else 0.
 
-The programs for A029832, the canonical program `A029832.P6927503962102262836` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029832 has offset 1).
+The programs for A029832, the canonical program `A029832.P6927503962102262836` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029832 has offset 1).
 
 The definition of A029832 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1611,7 +1612,7 @@ end A029832
 
 `A004233(n+1)*A010051(n+1)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A029832
@@ -1839,7 +1840,7 @@ end A029832
 /-!
 # A029833: A discrete version of the Mangoldt function: if n is prime then round(log(n)) else 0.
 
-The programs for A029833, the canonical program `A029833.P5806842988776949731` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029833 has offset 1).
+The programs for A029833, the canonical program `A029833.P5806842988776949731` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029833 has offset 1).
 
 The definition of A029833 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2021,7 +2022,7 @@ end A029833
 
 `A000193(n+1)*A010051(n+1)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A029833
@@ -8215,7 +8216,7 @@ end A029880.P5469368897718965534
 /-!
 # A029881: Möbius transform of Thue-Morse sequence A001285 (when shifted once right).
 
-The programs for A029881, the canonical program `A029881.P9354089517218192674` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029881 has offset 1).
+The programs for A029881, the canonical program `A029881.P9354089517218192674` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A029881 has offset 1).
 
 The definition of A029881 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8273,7 +8274,7 @@ end A029881
 
 `∑{d}[n+1, A007427(#)*A029882((n+1)/#-1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A029881

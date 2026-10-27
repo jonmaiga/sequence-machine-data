@@ -41,19 +41,20 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -64,10 +65,8 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -599,7 +598,7 @@ end A213906.P8291113216111358304
 /-!
 # A213908: Minimal number of terms in the series 1/n + 1/(n+1) + 1/(n+2) + ... to obtain a sum >= 1.
 
-The programs for A213908, the canonical program `A213908.P5623755903322932494` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213908 has offset 1).
+The programs for A213908, the canonical program `A213908.P5623755903322932494` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213908 has offset 1).
 
 The definition of A213908 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -608,7 +607,7 @@ The definition of A213908 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A103762(n+1)-n`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A213908
@@ -2578,7 +2577,7 @@ end A213924.P2538742490353646155
 /-!
 # A213926: prime(n^2) - prime(n).
 
-The programs for A213926, the canonical program `A213926.P7531459219814302167` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213926 has offset 1).
+The programs for A213926, the canonical program `A213926.P7531459219814302167` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213926 has offset 1).
 
 The definition of A213926 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040((n+1)²)-A000040(n+1)` (program `A213926.P7531459219814302167`, by `A213926.P7531459219814302167.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2587,7 +2586,7 @@ The definition of A213926 is `verified`: the Lean definition is proven equivalen
 
 `A000040((n+1)²)-A000040(n+1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A213926
@@ -3561,7 +3560,7 @@ end A213936.P7276573246890556403
 /-!
 # A213937: Row sums a(n) of triangle A213936: number of representative necklaces with n beads (C_N symmetry) corresponding to all color signatures given by the partitions [1^n], [2,1^(n-2)], ..., [n-1,1], [n].
 
-The programs for A213937, the canonical program `A213937.P14672044274802373282` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213937 has offset 1).
+The programs for A213937, the canonical program `A213937.P14672044274802373282` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213937 has offset 1).
 
 The definition of A213937 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3570,7 +3569,7 @@ The definition of A213937 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+A002627(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A213937
@@ -6046,7 +6045,7 @@ end
 end A213978.P10916916913374637217
 
 /-!
-# A213980: Let n = prime(1)^c_1 * prime(2)^c_2 * ... * prime(k)^c_k be the prime factorization of n. Set f(n) = n - 1 + c_1 + c_2 + ... + c_k and f_i, i>=0 (f_0(n) = n, f_1=f) is i-th iteration of f. a(n) is the minimal i such that f_i(n) is prime.
+# A213980: a(n) is the minimum number of iterations of f(n) = n + Omega(n) - 1 that results in a prime number, where Omega(n) is the number of prime factors of n, counted with multiplicity, or A001222(n).
 
 The programs for A213980, there is no canonical definition to state claims against.
 -/

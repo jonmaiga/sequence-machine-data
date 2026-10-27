@@ -41,10 +41,10 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
@@ -56,6 +56,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,9 +69,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2839,7 +2837,7 @@ end A026118.P11242059830166298556
 /-!
 # A026119: Bisection of A000016 (also of A000013).
 
-The programs for A026119, the canonical program `A026119.P9134211509856780869` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026119 has offset 0).
+The programs for A026119, the canonical program `A026119.P9134211509856780869` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026119 has offset 0).
 
 The definition of A026119 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 171 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2874,7 +2872,7 @@ end A026119
 
 `A000016(Δ[n²])`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A026119
@@ -14187,7 +14185,7 @@ def P405392515728453879.Spec : Prop :=
 end A026168
 
 /-!
-# A026169: a(n) = s(k), where k is the n-th number k such that s(j)
+# A026169: a(n) = s(k), where k is the n-th number k such that s(j)<s(k) for all j<k, where s = A026166.
 
 The programs for A026169, the canonical program `A026169.P10383142877277565433` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026169 has offset 1).
 
@@ -15385,7 +15383,7 @@ def P1038989355504139537.Spec : Prop :=
 end A026179
 
 /-!
-# A026180: a(n) = s(k), where k is the n-th number such that s(j)
+# A026180: a(n) = s(k), where k is the n-th number such that s(j)<s(k) for all j<k, where s = A026177.
 
 The programs for A026180, the canonical program `A026180.P967544915775524490` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026180 has offset 1).
 

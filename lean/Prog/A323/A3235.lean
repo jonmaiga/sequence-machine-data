@@ -37,32 +37,33 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -621,7 +622,7 @@ end A323504
 /-!
 # A323505: Mirror image of (denominators of) Bernoulli tree, A106831.
 
-The programs for A323505, the canonical program `A323505.P2579351898169798948` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323505 has offset 0).
+The programs for A323505, the canonical program `A323505.P2579351898169798948` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323505 has offset 0).
 
 The definition of A323505 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -725,7 +726,7 @@ end A323505
 
 `a(floor(n/2))*A091090(2*n+1)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A323505
@@ -4138,7 +4139,7 @@ end A323527
 /-!
 # A323528: Numbers whose sum of prime indices is a perfect square.
 
-The programs for A323528, the canonical program `A323528.P7448635072449163044` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323528 has offset 1).
+The programs for A323528, the canonical program `A323528.P7448635072449163044` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A323528 has offset 1).
 
 The definition of A323528 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 742 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4147,7 +4148,7 @@ The definition of A323528 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A010052(A056239(n+1))]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A323528
@@ -8859,12 +8860,6 @@ namespace A323599
 /-- `A180253(n+1)-(A329375(n+1)+A328260(n+1))` -/
 def P4163397712745529511.Spec : Prop :=
   ∀ n, P4163397712745529511.a n = A323599 (n + 1)
-
-theorem P4163397712745529511.correct : P4163397712745529511.Spec := by
-  intro n
-  simp only [A323599, Nat.add_sub_cancel, A323599.P4163397712745529511.a, A323599.P7337034044960425061.f1, A323599.P7337034044960425061.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A180253, A180253.P5766954473390724664.f1, A180253.P5766954473390724664.a, A328260, A328260.P5916290271217475718.a, A329375, A329375.P559970247339746563.a, A001221, A001221.P10258181745752134128.a, A065967, A065967.P9165261899428571397.f1, A065967.P9165261899428571397.a, A329354, A329354.P424931253356111511.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P7264174615531153985.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A323599
 

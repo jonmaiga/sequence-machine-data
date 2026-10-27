@@ -17,21 +17,23 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
-import Seq.B002.C006
-import Seq.B003.C000
+import Seq.B002.C005
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B005.C001
+import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -588,7 +590,7 @@ end A395820.P7497265546091422852
 /-!
 # A395827: a(n) is the number of possible outcomes having a run of 2 or more sixes when a die is rolled n times.
 
-The programs for A395827, the canonical program `A395827.P16679499213790510204` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395827 has offset 0).
+The programs for A395827, the canonical program `A395827.P16679499213790510204` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395827 has offset 0).
 
 The definition of A395827 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -597,7 +599,7 @@ The definition of A395827 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `6^n-A180033(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A395827
@@ -615,7 +617,7 @@ end A395827
 /-!
 # A395828: Number of septenary strings of length n that contain a specific string xx (where x is a single digit).
 
-The programs for A395828, the canonical program `A395828.P2810719931447247323` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395828 has offset 0).
+The programs for A395828, the canonical program `A395828.P2810719931447247323` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395828 has offset 0).
 
 The definition of A395828 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -624,7 +626,7 @@ The definition of A395828 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `7^n-A180167(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A395828
@@ -642,7 +644,7 @@ end A395828
 /-!
 # A395829: Number of octal strings of length n that contain a specific string xx (where x is a single digit).
 
-The programs for A395829, the canonical program `A395829.P11120994273887423255` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395829 has offset 0).
+The programs for A395829, the canonical program `A395829.P11120994273887423255` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395829 has offset 0).
 
 The definition of A395829 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A395831, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -651,7 +653,7 @@ The definition of A395829 is `conditional`: the Lean definition is an OEIS formu
 
 `8^n-A395831(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A395829

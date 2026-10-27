@@ -47,24 +47,27 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -73,8 +76,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -213,7 +214,7 @@ end A174404
 /-!
 # A174405: Partial sums of Sum_{k=1..n} n/gcd(n,k), or partial sums of Sum_{d|n} d*phi(d) (see A057660).
 
-The programs for A174405, the canonical program `A174405.P5773883220253665986` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174405 has offset 1).
+The programs for A174405, the canonical program `A174405.P5773883220253665986` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174405 has offset 1).
 
 The definition of A174405 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -222,7 +223,7 @@ The definition of A174405 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A057660(n+1)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A174405
@@ -289,12 +290,6 @@ namespace A174405
 /-- `∑[A365076(n+1)-1]` -/
 def P656416331658480154.Spec : Prop :=
   ∀ n, P656416331658480154.a n = A174405 (n + 1)
-
-theorem P656416331658480154.correct : P656416331658480154.Spec := by
-  intro n
-  simp only [A174405, Nat.add_sub_cancel, A174405.P656416331658480154.f1, A174405.P656416331658480154.a, A174405.P5773883220253665986.f1, A174405.P5773883220253665986.a, A057660, A057660.P308819105178745283.a, A365076, A365076.P14072161056249924003.a, A000290, A000290.P12206242496348924484.a, A001157, A001157.P6892814788348726787.a, A065764, A065764.P16236740945723656355.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A035316, A035316.P17845884678165723091.f1, A035316.P17845884678165723091.a, A037213, A037213.P7544062464691828526.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A174405
 
@@ -1049,7 +1044,7 @@ end
 end A174412.P6279655217074794476
 
 /-!
-# A174413: Triangle T(n,m) with the denominator of 1/(n-m)^2-1/n^2, read by rows, 1<=m
+# A174413: Triangle T(n,m) with the denominator of 1/(n-m)^2-1/n^2, read by rows, 1<=m<n.
 
 The programs for A174413, there is no canonical definition to state claims against.
 -/
@@ -1406,7 +1401,7 @@ end A174415
 /-!
 # A174416: Numbers whose binary expansion is a decimal nonprime.
 
-The programs for A174416, the canonical program `A174416.P8387947686332241441` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174416 has offset 1).
+The programs for A174416, the canonical program `A174416.P8387947686332241441` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174416 has offset 1).
 
 The definition of A174416 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9518 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1442,7 +1437,7 @@ end A174416
 
 `eq[1, A089026(A077809(n+1))]+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A174416
@@ -1692,7 +1687,7 @@ end A174416
 /-!
 # A174417: Nonprimes that contain digits 0 and 1 only.
 
-The programs for A174417, the canonical program `A174417.P8480129885250661453` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174417 has offset 1).
+The programs for A174417, the canonical program `A174417.P8480129885250661453` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174417 has offset 1).
 
 The definition of A174417 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1701,7 +1696,7 @@ The definition of A174417 is `conjectured`: the Lean definition is a formula tha
 
 `A007088(A174416(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A174417
@@ -2309,25 +2304,10 @@ end
 end A174422.P3069425619861029118
 
 /-!
-# A174423: Number of "iterative" n x n adjacency matrices of sphere packings in R^3.
+# A174423: 
 
 The programs for A174423, there is no canonical definition to state claims against.
 -/
-
-/-! ## A174423.P564563904350153090
-
-`A173715(n+1)-A174424(n+1)`
--/
-
-namespace A174423.P564563904350153090
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A173715 (n + 1) - A174424 (n + 1)
-
-end
-
-end A174423.P564563904350153090
 
 /-! ## A174423.P12587906001735490068
 
@@ -2390,7 +2370,7 @@ end
 end A174423.P2337131934542959319
 
 /-!
-# A174424: Number of "non-iterative" n x n adjacency matrices of sphere packings in R^3.
+# A174424: 
 
 The programs for A174424, there is no canonical definition to state claims against.
 -/
@@ -2424,21 +2404,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A174424.P1683794728485561925
-
-/-! ## A174424.P6311112139365788466
-
-`A173715(n+1)-A174423(n+1)`
--/
-
-namespace A174424.P6311112139365788466
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A173715 (n + 1) - A174423 (n + 1)
-
-end
-
-end A174424.P6311112139365788466
 
 /-! ## A174424.P14707206055329145416
 
@@ -4765,7 +4730,7 @@ end A174439.P8359248869171984169
 /-!
 # A174440: Partial sums of A022544.
 
-The programs for A174440, the canonical program `A174440.P16633761848471278973` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174440 has offset 1).
+The programs for A174440, the canonical program `A174440.P16633761848471278973` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174440 has offset 1).
 
 The definition of A174440 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4804,7 +4769,7 @@ end A174440
 
 `∑[A022544(n+1)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A174440
@@ -8522,7 +8487,7 @@ end A174467.P13819645446339637200
 /-!
 # A174468: a(n) = Sum_{d|n} d*sigma(n/d)*sigma(d).
 
-The programs for A174468, the canonical program `A174468.P1929796918282499277` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174468 has offset 1).
+The programs for A174468, the canonical program `A174468.P1929796918282499277` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174468 has offset 1).
 
 The definition of A174468 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8531,7 +8496,7 @@ The definition of A174468 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A007429(#)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A174468

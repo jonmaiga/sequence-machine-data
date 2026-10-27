@@ -39,33 +39,31 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -549,7 +547,7 @@ end A114001
 /-!
 # A114002: Expansion of g.f. x^k(1+x^(k+1))/(1-x^(k+1)).
 
-The programs for A114002, the canonical program `A114002.P11087141496141675113` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114002 has offset 0).
+The programs for A114002, the canonical program `A114002.P11087141496141675113` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114002 has offset 0).
 
 The definition of A114002 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -818,7 +816,7 @@ end A114002
 
 `2*A051731(n+1)-A023531(n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A114002
@@ -876,12 +874,6 @@ namespace A114002
 /-- `A051731(n+1)+A134673(n+1)-A127448(n+1)` -/
 def P16891781599468982092.Spec : Prop :=
   ∀ n, P16891781599468982092.a n = A114002 n
-
-theorem P16891781599468982092.correct : P16891781599468982092.Spec := by
-  intro n
-  simp only [A114002, Nat.add_sub_cancel, A114002.P16891781599468982092.a, A114002.P11087141496141675113.a, A023531, A023531.P13036811505051547859.a, A051731, A051731.P11318043630102858095.a, A127448, A127448.P10553008276063831497.a, A134673, A134673.P11906740047459928108.a, A000007, A000007.P6599383543502402472.a, A002260, A002260.P9170571874073898642.a, A010054, A010054.P18347828677204923252.a, A048158, A048158.P1757030368331788429.a, A054525, A054525.P5010349066179246070.f1, A054525.P5010349066179246070.a, A005369, A005369.P10796159359873341658.a, A007427, A007427.P16363569186413612215.f1, A007427.P16363569186413612215.a, A126988, A126988.P9816827205040377566.a, A008683, A008683.P18254306604665478110.a, A010766, A010766.P13358049683493517902.f1, A010766.P13358049683493517902.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A114002
 
@@ -2148,7 +2140,7 @@ end
 end A114006.P664221478542109494
 
 /-!
-# A114007: Distinct primes in increasing order interleaved with primes of the form concatenation two or more previous terms say all a(i), a(j) i
+# A114007: Distinct primes in increasing order interleaved with primes of the form concatenation two or more previous terms say all a(i), a(j) i<j, then all a(i), a(j), a(k) i < j < k etc. Once all the concatenations have exhausted then the least prime that has not occurred earlier.
 
 The programs for A114007, there is no canonical definition to state claims against.
 -/
@@ -6141,7 +6133,7 @@ end A114062.P16507527755244000703
 /-!
 # A114073: Numbers k such that phi(k) + k is a square.
 
-The programs for A114073, the canonical program `A114073.P9867924632758766548` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114073 has offset 1).
+The programs for A114073, the canonical program `A114073.P9867924632758766548` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114073 has offset 1).
 
 The definition of A114073 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 247 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6150,7 +6142,7 @@ The definition of A114073 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A007913(A000010(n+1)+n+1)]+1`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A114073
@@ -7703,7 +7695,7 @@ end A114091
 /-!
 # A114092: Number of partitions of n into parts that are distinct mod 4.
 
-The programs for A114092, the canonical program `A114092.P14494973868737545162` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114092 has offset 0).
+The programs for A114092, the canonical program `A114092.P14494973868737545162` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A114092 has offset 0).
 
 The definition of A114092 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6055 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7712,7 +7704,7 @@ The definition of A114092 is `conjectured`: the Lean definition is a formula tha
 
 `A117142(A152271(n))*A175686(A158416(n))`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A114092

@@ -50,10 +50,9 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C012
-import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -63,13 +62,10 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -421,7 +417,7 @@ theorem P590882224961103684.correct : P590882224961103684.Spec := by
 end A158404
 
 /-!
-# A158405: Triangle T(n,m) = 1+2*m of odd numbers read along rows, 0<=m
+# A158405: Triangle T(n,m) = 1+2*m of odd numbers read along rows, 0<=m<n.
 
 The programs for A158405, the canonical program `A158405.P5173674940907569791` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158405 has offset 1).
 
@@ -6608,7 +6604,7 @@ theorem P5249787521121238985.correct : P5249787521121238985.Spec := by
 end A158455
 
 /-!
-# A158456: Signature sequence for log(3)/log(2).
+# A158456: 
 
 The programs for A158456, there is no canonical definition to state claims against.
 -/
@@ -6709,36 +6705,6 @@ end
 
 end A158456.P2526000531686253194
 
-/-! ## A158456.P18153950347300104743
-
-`A227861(n+1)-A134583(n+1)`
--/
-
-namespace A158456.P18153950347300104743
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A227861 (n + 1) - A134583 (n + 1)
-
-end
-
-end A158456.P18153950347300104743
-
-/-! ## A158456.P15088854899239576104
-
-`A086416(n+1)/A134583(n+1)`
--/
-
-namespace A158456.P15088854899239576104
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A086416 (n + 1) : ℚ) / (A134583 (n + 1) : ℚ)
-
-end
-
-end A158456.P15088854899239576104
-
 /-! ## A158456.P11115703933879176542
 
 `A069352(n+1)+1-A022329(n+1)`
@@ -6799,21 +6765,6 @@ end
 
 end A158456.P10332244567850693242
 
-/-! ## A158456.P17371391110998172419
-
-`A134583(A372744(n+1))`
--/
-
-namespace A158456.P17371391110998172419
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134583 (A372744 (n + 1)).toNat
-
-end
-
-end A158456.P17371391110998172419
-
 /-! ## A158456.P10317714051062129003
 
 `val(A000423(n+3), 2)`
@@ -6844,21 +6795,6 @@ end
 
 end A158456.P14687330613899096703
 
-/-! ## A158456.P940365718258122652
-
-`A000005(A003586(n+1))/A134583(n+1)`
--/
-
-namespace A158456.P940365718258122652
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A000005 (A003586 (n + 1)).toNat : ℚ) / (A134583 (n + 1) : ℚ)
-
-end
-
-end A158456.P940365718258122652
-
 /-! ## A158456.P1735376519936125216
 
 `A001222(A003586(n+1))+1-A022329(n+1)`
@@ -6877,7 +6813,7 @@ end A158456.P1735376519936125216
 /-!
 # A158458: Numbers k such that k + bigomega(k) is prime.
 
-The programs for A158458, the canonical program `A158458.P15651152556799792412` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158458 has offset 1).
+The programs for A158458, the canonical program `A158458.P15651152556799792412` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158458 has offset 1).
 
 The definition of A158458 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5309 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6915,7 +6851,7 @@ end A158458
 
 `eq[1, A001222(A001222(n+1)+1+n)]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A158458
@@ -9341,7 +9277,7 @@ end A158474
 /-!
 # A158475: Denominator of Bernoulli(n, 1/7).
 
-The programs for A158475, the canonical program `A158475.P13120440846538858082` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158475 has offset 0).
+The programs for A158475, the canonical program `A158475.P13120440846538858082` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158475 has offset 0).
 
 The definition of A158475 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 112 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9350,7 +9286,7 @@ The definition of A158475 is `conjectured`: the Lean definition is a formula tha
 
 `lcm(7^n, A027642(n))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A158475
@@ -14921,7 +14857,7 @@ end A158494
 /-!
 # A158495: Expansion of ((1-4*x) + sqrt(1-4*x))/(2*(1-2*x)).
 
-The programs for A158495, the canonical program `A158495.P10891886949087608278` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158495 has offset 0).
+The programs for A158495, the canonical program `A158495.P10891886949087608278` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158495 has offset 0).
 
 The definition of A158495 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 173 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14953,7 +14889,7 @@ end A158495
 
 `A158499(n)-A155559(n)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A158495

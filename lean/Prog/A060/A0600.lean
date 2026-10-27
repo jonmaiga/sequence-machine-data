@@ -42,20 +42,18 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -68,9 +66,6 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -733,29 +728,6 @@ def P15771789640768723761.Spec : Prop :=
 
 end A060008
 
-/-! ## A060008.P11818529911750100359
-
-`A062026(n)+A341703(n)-A101357(n+1)`
--/
-
-namespace A060008.P11818529911750100359
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A062026 n + (A341703 n - A101357 (n + 1))
-
-end
-
-end A060008.P11818529911750100359
-
-namespace A060008
-
-/-- `A062026(n)+A341703(n)-A101357(n+1)` -/
-def P11818529911750100359.Spec : Prop :=
-  ∀ n, P11818529911750100359.a n = A060008 n
-
-end A060008
-
 /-! ## A060008.P3142768344347018988
 
 `Δ[9*A000389(n)]`
@@ -785,29 +757,6 @@ theorem P3142768344347018988.correct : P3142768344347018988.Spec := by
   simp only [A060008, Nat.add_sub_cancel, A060008.P3142768344347018988.f1, A060008.P3142768344347018988.a, A060008.P5269451932416479602.a, A000389, A000389.P15450220129395289428.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
-
-end A060008
-
-/-! ## A060008.P1346293369893482596
-
-`A101357(n)+A341703(n)-A060354(n+1)`
--/
-
-namespace A060008.P1346293369893482596
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A101357 n + (A341703 n - A060354 (n + 1))
-
-end
-
-end A060008.P1346293369893482596
-
-namespace A060008
-
-/-- `A101357(n)+A341703(n)-A060354(n+1)` -/
-def P1346293369893482596.Spec : Prop :=
-  ∀ n, P1346293369893482596.a n = A060008 n
 
 end A060008
 
@@ -5534,7 +5483,7 @@ def P3593581458267594535.Spec : Prop :=
 end A060037
 
 /-!
-# A060038: Triangle T(n,k) = 0 if k-th prime is a square mod the n-th prime, otherwise 1, for 1<=k
+# A060038: Triangle T(n,k) = 0 if k-th prime is a square mod the n-th prime, otherwise 1, for 1<=k<n.
 
 The programs for A060038, there is no canonical definition to state claims against.
 -/
@@ -5756,7 +5705,7 @@ end
 end A060038.P10757138146468920666
 
 /-!
-# A060039: Triangle T(n,k) = 1 if k-th prime is a square mod the n-th prime, otherwise 0, for 1<=k
+# A060039: Triangle T(n,k) = 1 if k-th prime is a square mod the n-th prime, otherwise 0, for 1<=k<n.
 
 The programs for A060039, there is no canonical definition to state claims against.
 -/
@@ -6358,21 +6307,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A060050.P14714455033084473513
-
-/-! ## A060050.P17567419585549453322
-
-`A134583(A224917(n))-A060576(n)`
--/
-
-namespace A060050.P17567419585549453322
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A134583 (A224917 n).toNat - A060576 n
-
-end
-
-end A060050.P17567419585549453322
 
 /-! ## A060050.P2552544915827763336
 
@@ -10496,7 +10430,7 @@ end
 end A060098.P8449449419250636833
 
 /-!
-# A060099: G.f.: 1/((1-x^2)^3*(1-x)^4).
+# A060099: Expansion of g.f. 1/((1-x^2)^3*(1-x)^4).
 
 The programs for A060099, the canonical program `A060099.P8454151791043827126` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060099 has offset 0).
 

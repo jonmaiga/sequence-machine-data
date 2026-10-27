@@ -37,27 +37,33 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2581,7 +2587,7 @@ end A184116
 /-!
 # A184117: Lower s-Wythoff sequence, where s(n) = 2n + 1.
 
-The programs for A184117, the canonical program `A184117.P11570288483414038940` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184117 has offset 1).
+The programs for A184117, the canonical program `A184117.P11570288483414038940` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184117 has offset 1).
 
 The definition of A184117 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2777,7 +2783,7 @@ end A184117
 
 `A184118(n+1)%A144396(n+1)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A184117
@@ -4828,7 +4834,7 @@ end A184136.P5268548898923809494
 /-!
 # A184138: Number of n X 3 binary arrays with rows and columns in nondecreasing order.
 
-The programs for A184138, the canonical program `A184138.P16659584735667142756` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184138 has offset 1).
+The programs for A184138, the canonical program `A184138.P16659584735667142756` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184138 has offset 1).
 
 The definition of A184138 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4837,7 +4843,7 @@ The definition of A184138 is `conjectured`: the Lean definition is a formula tha
 
 `A145129(n+1)-∑[∑[A000124(n)]]`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A184138
@@ -4951,7 +4957,7 @@ def P4074744749984073069.Spec : Prop :=
 end A184138
 
 /-!
-# A184139: Number of nX4 binary arrays with rows and columns in nondecreasing order.
+# A184139: Number of n X 4 binary arrays with rows and columns in nondecreasing order.
 
 The programs for A184139, there is no canonical definition to state claims against.
 -/
@@ -5035,7 +5041,7 @@ end
 end A184139.P15234358712445704084
 
 /-!
-# A184140: Number of nX5 binary arrays with rows and columns in nondecreasing order.
+# A184140: Number of n X 5 binary arrays with rows and columns in nondecreasing order.
 
 The programs for A184140, there is no canonical definition to state claims against.
 -/
@@ -5134,7 +5140,7 @@ end
 end A184140.P18126241276564687876
 
 /-!
-# A184141: Number of nX6 binary arrays with rows and columns in nondecreasing order.
+# A184141: Number of n X 6 binary arrays with rows and columns in nondecreasing order.
 
 The programs for A184141, there is no canonical definition to state claims against.
 -/
@@ -5224,7 +5230,7 @@ end
 end A184141.P10908109259396834708
 
 /-!
-# A184142: Number of nX7 binary arrays with rows and columns in nondecreasing order.
+# A184142: Number of n X 7 binary arrays with rows and columns in nondecreasing order.
 
 The programs for A184142, there is no canonical definition to state claims against.
 -/
@@ -5323,7 +5329,7 @@ end
 end A184142.P11466134679087014816
 
 /-!
-# A184143: Number of nX8 binary arrays with rows and columns in nondecreasing order.
+# A184143: Number of n X 8 binary arrays with rows and columns in nondecreasing order.
 
 The programs for A184143, there is no canonical definition to state claims against.
 -/

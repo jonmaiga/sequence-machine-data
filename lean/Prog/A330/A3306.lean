@@ -39,25 +39,27 @@ import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
+import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -65,15 +67,12 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2579,7 +2578,7 @@ end A330631.P10093623763824998019
 /-!
 # A330632: Number of n-bead bracelets using exactly three colors with no adjacent beads having the same color.
 
-The programs for A330632, the canonical program `A330632.P13103444434143927249` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330632 has offset 1).
+The programs for A330632, the canonical program `A330632.P13103444434143927249` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330632 has offset 1).
 
 The definition of A330632 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 341 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2588,7 +2587,7 @@ The definition of A330632 is `conjectured`: the Lean definition is a formula tha
 
 `A091696(n+1)-A256217(A141310(n))`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A330632
@@ -2913,7 +2912,7 @@ end A330637.P6195179569670101838
 /-!
 # A330638: a(n) = P(n)*a(n-1) + a(n-2), with a(0) = 0, a(1) = 1 where P(n) is the n-th Pell number.
 
-The programs for A330638, the canonical program `A330638.P2324242124826982898` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330638 has offset 0).
+The programs for A330638, the canonical program `A330638.P2324242124826982898` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330638 has offset 0).
 
 The definition of A330638 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2922,7 +2921,7 @@ The definition of A330638 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000129(n)*a(n-1)+a(n-2)` with `a(0)=0, a(1)=1`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A330638

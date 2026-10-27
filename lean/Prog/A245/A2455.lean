@@ -48,8 +48,10 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -59,7 +61,6 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
@@ -77,7 +78,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7048,7 +7048,7 @@ end A245564
 /-!
 # A245565: a(n) = Product_{i in row n of A245562} Pell(i+1).
 
-The programs for A245565, the canonical program `A245565.P8152710951243314242` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245565 has offset 0).
+The programs for A245565, the canonical program `A245565.P8152710951243314242` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245565 has offset 0).
 
 The definition of A245565 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7080,7 +7080,7 @@ end A245565
 
 `∏{e}[A005940(n+1), A000129(#+1)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A245565
@@ -7257,7 +7257,7 @@ end A245567.P2203307508937210798
 /-!
 # A245568: Initial members of prime quadruples (n, n+2, n+24, n+26).
 
-The programs for A245568, the canonical program `A245568.P4853739884766155698` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245568 has offset 1).
+The programs for A245568, the canonical program `A245568.P4853739884766155698` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245568 has offset 1).
 
 The definition of A245568 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 992 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7266,7 +7266,7 @@ The definition of A245568 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A001359(n+1)-24, A001359(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A245568
@@ -7750,7 +7750,7 @@ end A245573
 /-!
 # A245574: Minimal coin changing sequence for denominations 1, 2, 5, 10, 20 and 50 cents.
 
-The programs for A245574, the canonical program `A245574.P5854510550737387433` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245574 has offset 0).
+The programs for A245574, the canonical program `A245574.P5854510550737387433` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245574 has offset 0).
 
 The definition of A245574 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7759,7 +7759,7 @@ The definition of A245574 is `conjectured`: the Lean definition is a formula tha
 
 `lcm(ceil(n/98), A057536(n))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A245574
@@ -8874,12 +8874,6 @@ namespace A245579
 /-- `A367870(n+1)+A000593(n+1)` -/
 def P13632283996076445496.Spec : Prop :=
   ∀ n, P13632283996076445496.a n = A245579 (n + 1)
-
-theorem P13632283996076445496.correct : P13632283996076445496.Spec := by
-  intro n
-  simp only [A245579, Nat.add_sub_cancel, A245579.P13632283996076445496.a, A245579.P1038564678599800465.a, A000593, A000593.P13640346029616979906.a, A001227, A001227.P17291574635237243988.f1, A001227.P17291574635237243988.a, A367870, A367870.P3261918350467240858.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A038712, A038712.P3404197303190209645.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A245579
 

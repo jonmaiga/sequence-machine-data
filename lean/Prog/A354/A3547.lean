@@ -21,6 +21,7 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C023
+import Seq.B000.C024
 import Seq.B000.C025
 import Seq.B000.C027
 import Seq.B000.C029
@@ -35,14 +36,14 @@ import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -56,11 +57,11 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -68,7 +69,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1165,16 +1165,16 @@ end A354712.P11471092685657782942
 /-!
 # A354713: Number of solutions (n, D) for Pell equation n^2 - D*y^2 = 1 with fixed n.
 
-The programs for A354713, the canonical program `A354713.P17399075421712042557` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354713 has offset 2).
+The programs for A354713, the canonical program `A354713.P17399075421712042557` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354713 has offset 2).
 
-The definition of A354713 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A354713 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000188, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A354713.P17399075421712042557
 
 `A000005(A000188((n+2)²-1))`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A354713
@@ -1610,7 +1610,7 @@ end A354714.P8508368277010720916
 /-!
 # A354715: Numbers k such that the number of divisors of k divides k-2.
 
-The programs for A354715, the canonical program `A354715.P10103640764323870773` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354715 has offset 1).
+The programs for A354715, the canonical program `A354715.P10103640764323870773` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354715 has offset 1).
 
 The definition of A354715 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1619,7 +1619,7 @@ The definition of A354715 is `conjectured`: the Lean definition is a formula tha
 
 `record[gcd(n+1, (n-1)%A000005(n+1))]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A354715
@@ -3937,7 +3937,7 @@ end A354765.P14608366242151931174
 /-!
 # A354766: 1/4 of the total number of integral quadruples with sum = n and sum of squares = n^2.
 
-The programs for A354766, the canonical program `A354766.P686189450615748879` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354766 has offset 1).
+The programs for A354766, the canonical program `A354766.P686189450615748879` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354766 has offset 1).
 
 The definition of A354766 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 650 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3946,7 +3946,7 @@ The definition of A354766 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000593(#)*A365428((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A354766

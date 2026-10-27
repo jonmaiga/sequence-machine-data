@@ -30,34 +30,28 @@ import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
+import Seq.B001.C007
+import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
-import Seq.B004.C000
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -306,7 +300,7 @@ end A159801.P7837611087375164158
 /-!
 # A159802: Number of primes q with (2m)^2+1 <= q < (2m+1)^2-2m.
 
-The programs for A159802, the canonical program `A159802.P4422141938552360417` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159802 has offset 1).
+The programs for A159802, the canonical program `A159802.P4422141938552360417` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159802 has offset 1).
 
 The definition of A159802 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -315,7 +309,7 @@ The definition of A159802 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000720((2*(n+1)+1)²-2*(n+1)-1)-A000720((2*(n+1))²)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A159802
@@ -2109,7 +2103,7 @@ end A159833
 /-!
 # A159834: Coefficient array of Hermite_H(n, (x-1)/sqrt(2))/(sqrt(2))^n.
 
-The programs for A159834, the canonical program `A159834.P5970022671989589812` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159834 has offset 0).
+The programs for A159834, the canonical program `A159834.P5970022671989589812` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159834 has offset 0).
 
 The definition of A159834 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001464, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2118,7 +2112,7 @@ The definition of A159834 is `conditional`: the Lean definition is an OEIS formu
 
 `C(row(n), col(n))*A001464(row(n)-col(n))`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A159834
@@ -3342,7 +3336,7 @@ end A159852
 /-!
 # A159853: Riordan array ((1-2*x+2*x^2)/(1-x), x/(1-x)).
 
-The programs for A159853, the canonical program `A159853.P10122269261997446491` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159853 has offset 0).
+The programs for A159853, the canonical program `A159853.P10122269261997446491` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159853 has offset 0).
 
 The definition of A159853 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3443,7 +3437,7 @@ end A159853
 
 `A097805(n)+Δ[A097805(A083920(n))]`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A159853
@@ -3905,7 +3899,7 @@ end A159854
 /-!
 # A159855: Riordan array ((1-2*x-x^2)/(1-x), x/(1-x)).
 
-The programs for A159855, the canonical program `A159855.P15097114354535819429` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159855 has offset 0).
+The programs for A159855, the canonical program `A159855.P15097114354535819429` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159855 has offset 0).
 
 The definition of A159855 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4078,7 +4072,7 @@ end A159855
 
 `A112467(n)-A097805(A103517(n)%A181133(n+1))`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A159855
@@ -4595,7 +4589,7 @@ end A159867.P10566189726651763949
 /-!
 # A159876: Inverse Mobius transform of the rabbit sequence, A051731 * A005614.
 
-The programs for A159876, the canonical program `A159876.P18135579079725230870` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159876 has offset 1).
+The programs for A159876, the canonical program `A159876.P18135579079725230870` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A159876 has offset 1).
 
 The definition of A159876 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4604,7 +4598,7 @@ The definition of A159876 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A096270(#)]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A159876

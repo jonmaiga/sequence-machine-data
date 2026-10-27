@@ -35,22 +35,22 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C007
+import Seq.B002.C006
+import Seq.B002.C008
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -60,8 +60,6 @@ import Seq.B005.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -262,7 +260,7 @@ end A288202.P15611844551927840622
 /-!
 # A288203: Fixed point of the mapping 00->0010, 1->010, starting with 00.
 
-The programs for A288203, the canonical program `A288203.P3805704853841922969` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288203 has offset 1).
+The programs for A288203, the canonical program `A288203.P3805704853841922969` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288203 has offset 1).
 
 The definition of A288203 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -385,7 +383,7 @@ end A288203
 
 `(∑[∑[A138591(n+1)]]+1)%2`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A288203
@@ -1207,7 +1205,7 @@ end A288204
 /-!
 # A288205: Positions of 1 in A288203; complement of A288204.
 
-The programs for A288205, the canonical program `A288205.P4532469448324624174` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288205 has offset 1).
+The programs for A288205, the canonical program `A288205.P4532469448324624174` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288205 has offset 1).
 
 The definition of A288205 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1273,7 +1271,7 @@ end A288205
 
 `∑[A267442(n)+2]+n`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A288205
@@ -2211,7 +2209,7 @@ end A288210.P5474993728241415508
 /-!
 # A288213: Fixed point of the mapping 00->0010, 1->011, starting with 00.
 
-The programs for A288213, the canonical program `A288213.P7703768301411406808` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288213 has offset 1).
+The programs for A288213, the canonical program `A288213.P7703768301411406808` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288213 has offset 1).
 
 The definition of A288213 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2345,7 +2343,7 @@ end A288213
 
 `gcd(2, A001954(n))-1`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A288213
@@ -2662,7 +2660,7 @@ end A288213
 /-!
 # A288214: Positions of 0 in A288213; complement of A288215.
 
-The programs for A288214, the canonical program `A288214.P3478425868225490797` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288214 has offset 1).
+The programs for A288214, the canonical program `A288214.P3478425868225490797` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288214 has offset 1).
 
 The definition of A288214 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2671,7 +2669,7 @@ The definition of A288214 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A288215(n+1)-1]+1`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A288214
@@ -3056,7 +3054,7 @@ end A288214
 /-!
 # A288215: Positions of 1 in A288213; complement of A288215.
 
-The programs for A288215, the canonical program `A288215.P5485610025847874001` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288215 has offset 1).
+The programs for A288215, the canonical program `A288215.P5485610025847874001` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288215 has offset 1).
 
 The definition of A288215 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3100,7 +3098,7 @@ end A288215
 
 `A190764(n+1)+1`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A288215

@@ -34,23 +34,24 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
-import Seq.B001.C011
+import Seq.B001.C009
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
@@ -63,7 +64,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -540,29 +540,6 @@ theorem P13558960247306671832.correct : P13558960247306671832.Spec := by
   simp only [A352405, Nat.add_sub_cancel, A352405.P13558960247306671832.a, A352405.P8942584792095966573.a, A066375, A066375.P8305533867417825506.a, SequenceMachineLib.memo_apply]
   try push_cast
   first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
-
-end A352405
-
-/-! ## A352405.P7405262442367400204
-
-`A101357(n)+A002817(n)`
--/
-
-namespace A352405.P7405262442367400204
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A101357 n + A002817 n
-
-end
-
-end A352405.P7405262442367400204
-
-namespace A352405
-
-/-- `A101357(n)+A002817(n)` -/
-def P7405262442367400204.Spec : Prop :=
-  ∀ n, P7405262442367400204.a n = A352405 (n + 1)
 
 end A352405
 
@@ -2673,7 +2650,7 @@ end A352448.P17881740649519944938
 /-!
 # A352449: 2^k appears in the binary expansion of a(n) iff 2^k appears in the binary expansion of n and k AND n = k (where AND denotes the bitwise AND operator).
 
-The programs for A352449, the canonical program `A352449.P2406120621837797886` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352449 has offset 0).
+The programs for A352449, the canonical program `A352449.P2406120621837797886` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352449 has offset 0).
 
 The definition of A352449 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 845 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2682,7 +2659,7 @@ The definition of A352449 is `conjectured`: the Lean definition is a formula tha
 
 `and(n, A133179(n))`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A352449
@@ -4218,7 +4195,7 @@ end A352472.P9337705097725881833
 /-!
 # A352474: a(n) is the number of different ways to partition the set of vertices of a convex n-gon into 3 intersecting polygons.
 
-The programs for A352474, the canonical program `A352474.P3840502231361590685` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352474 has offset 9).
+The programs for A352474, the canonical program `A352474.P3840502231361590685` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352474 has offset 9).
 
 The definition of A352474 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4227,7 +4204,7 @@ The definition of A352474 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A272982(n+9)-A350116(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A352474
@@ -4566,7 +4543,7 @@ end A352480.P8308230760459585325
 /-!
 # A352482: Denominator of (n-d)/n*d where d = A000005(n) is the number of divisors of n.
 
-The programs for A352482, the canonical program `A352482.P1047364551664792945` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352482 has offset 1).
+The programs for A352482, the canonical program `A352482.P1047364551664792945` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352482 has offset 1).
 
 The definition of A352482 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4575,7 +4552,7 @@ The definition of A352482 is `conjectured`: the Lean definition is a formula tha
 
 `A038040(n+1)/gcd(A038040(n+1), A049820(n+1))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A352482

@@ -52,27 +52,26 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6337,7 +6336,7 @@ def P10210131314394604905.Spec : Prop :=
 end A024152
 
 /-!
-# A024153: Number of integer-sided triangles with sides a,b,c, a
+# A024153: Number of integer-sided triangles with sides a,b,c, a<b<c, a+b+c=n that have integer area.
 
 The programs for A024153, there is no canonical definition to state claims against.
 -/
@@ -6463,7 +6462,7 @@ end
 end A024153.P15170210489757497841
 
 /-!
-# A024154: Number of integer-sided triangles with sides a,b,c, a
+# A024154: Number of integer-sided triangles with sides a,b,c, a<b<c, a+b+c=n that are acute.
 
 The programs for A024154, there is no canonical definition to state claims against.
 -/
@@ -6622,7 +6621,7 @@ end
 end A024154.P1801338060396023618
 
 /-!
-# A024155: Number of integer-sided triangles with sides a,b,c, a
+# A024155: Number of integer-sided triangles with sides a,b,c, a<b<c, a+b+c=n that are right triangles.
 
 The programs for A024155, there is no canonical definition to state claims against.
 -/
@@ -6805,7 +6804,7 @@ end
 end A024155.P9813785518912726172
 
 /-!
-# A024156: Number of integer-sided triangles with sides a,b,c, a
+# A024156: Number of integer-sided triangles with sides a,b,c, a<b<c, a+b+c=n that are obtuse.
 
 The programs for A024156, there is no canonical definition to state claims against.
 -/
@@ -6967,7 +6966,7 @@ end
 end A024156.P10383612101127450441
 
 /-!
-# A024157: Number of integer-sided triangles with sides a,b,c, a
+# A024157: Number of integer-sided triangles with sides a,b,c, a<b<c, a+b+c=n such that n divides abc.
 
 The programs for A024157, there is no canonical definition to state claims against.
 -/
@@ -7048,7 +7047,7 @@ end
 end A024157.P17952793656009691673
 
 /-!
-# A024159: Number of integer-sided triangles with sides a,b,c, a
+# A024159: Number of integer-sided triangles with sides a,b,c, a<b<c, a+b+c=n such that n divides a^3 + b^3 + c^3.
 
 The programs for A024159, there is no canonical definition to state claims against.
 -/
@@ -7129,7 +7128,7 @@ end
 end A024159.P15105706179557637980
 
 /-!
-# A024160: Number of integer-sided triangles with sides a,b,c, a
+# A024160: Number of integer-sided triangles with sides a,b,c, a<b<c, a+b+c=n such that (c-b)(c-a)(b-a) divides (c+b)(c+a)(b+a).
 
 The programs for A024160, there is no canonical definition to state claims against.
 -/
@@ -7478,7 +7477,7 @@ end
 end A024161.P10212432338400262354
 
 /-!
-# A024162: Number of incongruent integer-sided triangles with sides a,b,c, a
+# A024162: Number of incongruent integer-sided triangles with sides a,b,c, a<b<c, a+b+c=n such that gcd(a,b,c)=1.
 
 The programs for A024162, there is no canonical definition to state claims against.
 -/
@@ -7529,7 +7528,7 @@ end
 end A024162.P2114968385600741309
 
 /-!
-# A024163: Number of integer-sided triangles with sides a,b,c, a
+# A024163: Number of integer-sided triangles with sides a,b,c, a<b<c, a+b+c=n such that c - b < b - a.
 
 The programs for A024163, the canonical program `A024163.P18280227848947536241` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024163 has offset 1).
 
@@ -7815,7 +7814,7 @@ def P615260354733511867.Spec : Prop :=
 end A024163
 
 /-!
-# A024164: Number of integer-sided triangles with sides a,b,c, a
+# A024164: Number of integer-sided triangles with sides a,b,c, a<b<c, a+b+c=n such that c - b = b - a.
 
 The programs for A024164, the canonical program `A024164.P8438582726836098068` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024164 has offset 1).
 
@@ -8291,7 +8290,7 @@ def P12503226871746859192.Spec : Prop :=
 end A024164
 
 /-!
-# A024165: Number of integer-sided triangles with sides a,b,c, a b - a.
+# A024165: Number of integer-sided triangles with sides a,b,c, a<b<c, a+b+c=n such that c - b > b - a.
 
 The programs for A024165, the canonical program `A024165.P2736460532015738690` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024165 has offset 1).
 
@@ -12880,7 +12879,7 @@ end A024184
 /-!
 # A024185: Fourth elementary symmetric function of 3,4,...,n+5.
 
-The programs for A024185, the canonical program `A024185.P1210130069556380647` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024185 has offset 1).
+The programs for A024185, the canonical program `A024185.P1210130069556380647` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024185 has offset 1).
 
 The definition of A024185 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12889,7 +12888,7 @@ The definition of A024185 is `conjectured`: the Lean definition is a formula tha
 
 `∑[(n+6)*A024184(n+1)]`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A024185
@@ -14960,7 +14959,7 @@ end A024196
 /-!
 # A024197: a(n) = 3rd elementary symmetric function of the first n+2 odd positive integers.
 
-The programs for A024197, the canonical program `A024197.P962166605197728149` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024197 has offset 1).
+The programs for A024197, the canonical program `A024197.P962166605197728149` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024197 has offset 1).
 
 The definition of A024197 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -14992,7 +14991,7 @@ end A024197
 
 `A004320(n+1)*A028387(n+1)`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A024197
@@ -15137,7 +15136,7 @@ end A024197
 /-!
 # A024198: 4th elementary symmetric function of the first n+3 odd positive integers.
 
-The programs for A024198, the canonical program `A024198.P17444069839274153440` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024198 has offset 1).
+The programs for A024198, the canonical program `A024198.P17444069839274153440` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024198 has offset 1).
 
 The definition of A024198 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -15146,7 +15145,7 @@ The definition of A024198 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000332(n+4)*(15*(n+1)^4+150*(n+1)^3+515*(n+1)²+672*(n+1)+223)/15`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A024198

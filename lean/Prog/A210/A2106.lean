@@ -41,15 +41,16 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -61,7 +62,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5229,7 +5229,7 @@ end
 end A210666.P11065172011379611046
 
 /-!
-# A210667: Number of equivalence classes of S_n under transformations of positionally adjacent elements of the form abc <--> acb where a
+# A210667: Number of equivalence classes of S_n under transformations of positionally adjacent elements of the form abc <--> acb where a<b<c.
 
 The programs for A210667, there is no canonical definition to state claims against.
 -/
@@ -5280,7 +5280,7 @@ end
 end A210667.P13691140732419111774
 
 /-!
-# A210668: Number of equivalence classes of S_n under transformations of positionally adjacent elements of the form abc <--> cba where a
+# A210668: Number of equivalence classes of S_n under transformations of positionally adjacent elements of the form abc <--> cba where a<b<c.
 
 The programs for A210668, there is no canonical definition to state claims against.
 -/
@@ -5526,7 +5526,7 @@ end
 end A210670.P14731203833590833181
 
 /-!
-# A210671: Number of equivalence classes of S_n under transformations of positionally adjacent elements of the form abc <--> acb <--> bac <--> cba, where a
+# A210671: Number of equivalence classes of S_n under transformations of positionally adjacent elements of the form abc <--> acb <--> bac <--> cba, where a<b<c.
 
 The programs for A210671, there is no canonical definition to state claims against.
 -/

@@ -32,26 +32,25 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C004
-import Seq.B004.C000
+import Seq.B003.C005
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1521,7 +1520,7 @@ end A354625.P8099461023519279015
 /-!
 # A354626: Numbers that can't be written as the sum of a Fibonacci number and the square of a Fibonacci number.
 
-The programs for A354626, the canonical program `A354626.P396020870782513592` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354626 has offset 1).
+The programs for A354626, the canonical program `A354626.P396020870782513592` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A354626 has offset 1).
 
 The definition of A354626 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1557,7 +1556,7 @@ end A354626
 
 `comp[A141169(n)+A141169(A099375(n))²]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A354626
@@ -2676,7 +2675,7 @@ end
 end A354662.P15389068764529938766
 
 /-!
-# A354665: Triangle read by rows, T(n,k) = T(n-1,k) + T(n-1,k-1) - T(n-2,k-1) + T(n-2,k-2) + T(n-3,k-1) - T(n-3,k-3) + delta(n,0)*delta(k,0) - delta(n,1)*delta(k,1), T(n
+# A354665: Triangle read by rows, T(n,k) = T(n-1,k) + T(n-1,k-1) - T(n-2,k-1) + T(n-2,k-2) + T(n-3,k-1) - T(n-3,k-3) + delta(n,0)*delta(k,0) - delta(n,1)*delta(k,1), T(n<k,k) = T(n,k<0) = 0.
 
 The programs for A354665, there is no canonical definition to state claims against.
 -/
@@ -2757,7 +2756,7 @@ end
 end A354665.P9681638771398694719
 
 /-!
-# A354666: Triangle read by rows, T(n,k) = T(n-1,k) + T(n-2,k-1) + 2*T(n-2,k-2) - T(n-3,k-1) - T(n-3,k-2) + T(n-4,k-1) + T(n-4,k-2) - T(n-4,k-3) - T(n-4,k-4) + delta(n,0)*delta(k,0) - delta(n,2)*(delta(k,1) + delta(k,2)), T(n
+# A354666: Triangle read by rows, T(n,k) = T(n-1,k) + T(n-2,k-1) + 2*T(n-2,k-2) - T(n-3,k-1) - T(n-3,k-2) + T(n-4,k-1) + T(n-4,k-2) - T(n-4,k-3) - T(n-4,k-4) + delta(n,0)*delta(k,0) - delta(n,2)*(delta(k,1) + delta(k,2)), T(n<k,k) = T(n,k<0) = 0.
 
 The programs for A354666, there is no canonical definition to state claims against.
 -/

@@ -36,19 +36,21 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -65,8 +67,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -536,7 +536,7 @@ end
 end A254603.P2466883435091545542
 
 /-!
-# A254605: The minimum absolute difference between k*m1 and m2 (m1
+# A254605: The minimum absolute difference between k*m1 and m2 (m1<m2), where m1*m2 is the n-th term of A075362.
 
 The programs for A254605, there is no canonical definition to state claims against.
 -/
@@ -617,7 +617,7 @@ end
 end A254605.P14595600157872050745
 
 /-!
-# A254606: The minimum absolute difference between k*p1 and p2 (p1
+# A254606: The minimum absolute difference between k*p1 and p2 (p1<p2), where p1*p2 is the n-th term of A087112.
 
 The programs for A254606, there is no canonical definition to state claims against.
 -/
@@ -3870,7 +3870,7 @@ end A254631.P15497234185237037082
 /-!
 # A254632: Triangle read by rows, T(n, k) = 4^n*[x^k]hypergeometric([3/2, -n], [3], -x), n>=0, 0<=k<=n.
 
-The programs for A254632, the canonical program `A254632.P3228446956241715925` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254632 has offset 0).
+The programs for A254632, the canonical program `A254632.P3228446956241715925` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254632 has offset 0).
 
 The definition of A254632 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3879,7 +3879,7 @@ The definition of A254632 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4^(row(n)-col(n))*C(row(n), col(n))*A000108(col(n)+1)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A254632
@@ -3992,7 +3992,7 @@ end A254632
 /-!
 # A254633: a(n) = 16^n*[x^n]hypergeometric([3/2, -2*n], [3], -x).
 
-The programs for A254633, the canonical program `A254633.P6403475487283811037` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254633 has offset 0).
+The programs for A254633, the canonical program `A254633.P6403475487283811037` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254633 has offset 0).
 
 The definition of A254633 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4024,7 +4024,7 @@ end A254633
 
 `4^n*A172392(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A254633
@@ -9772,7 +9772,7 @@ end A254674
 /-!
 # A254675: Indices of centered triangular numbers (A005448) which are also heptagonal numbers (A000566).
 
-The programs for A254675, the canonical program `A254675.P15256847148252224553` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254675 has offset 1).
+The programs for A254675, the canonical program `A254675.P15256847148252224553` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254675 has offset 1).
 
 The definition of A254675 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 112 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9810,7 +9810,7 @@ end A254675
 
 `∑[A001091(n)*A010684(n)]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A254675

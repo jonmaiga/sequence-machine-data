@@ -25,24 +25,23 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C002
+import Seq.B002.C003
+import Seq.B002.C004
+import Seq.B002.C006
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
-import Seq.B003.C004
-import Seq.B003.C005
+import Seq.B003.C003
+import Seq.B003.C006
 import Seq.B004.C001
 import Seq.B004.C003
-import Seq.B005.C000
-import Seq.B007.C000
-import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -121,7 +120,7 @@ end A395203.P15378015833273392676
 /-!
 # A395204: a(n) = (2*n)! * [x^(2*n)] (f(x)^2 + f(-x)^2)/2 and f(x) = 1/sqrt(1 + 2*sqrt(2)*x + x^2).
 
-The programs for A395204, the canonical program `A395204.P11909722987938007791` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395204 has offset 0).
+The programs for A395204, the canonical program `A395204.P11909722987938007791` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395204 has offset 0).
 
 The definition of A395204 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -130,7 +129,7 @@ The definition of A395204 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2*n)!*A002315(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A395204
@@ -1422,7 +1421,7 @@ end A395245
 /-!
 # A395251: a(n) gives positions k >= 1 where the equation b(b(k)+b(k-1)) = k fails, for b(k) = floor(k/sqrt(2) + 2*(sqrt(2)-1)).
 
-The programs for A395251, the canonical program `A395251.P13720670033681036438` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395251 has offset 1).
+The programs for A395251, the canonical program `A395251.P13720670033681036438` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395251 has offset 1).
 
 The definition of A395251 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1034 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1431,7 +1430,7 @@ The definition of A395251 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A288997(2*n+3)+1, A288997(n+1)]`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A395251
@@ -2342,7 +2341,7 @@ end A395269.P14073233540131694555
 /-!
 # A395270: Numbers that are radicals of abundant numbers.
 
-The programs for A395270, the canonical program `A395270.P17244589602935654934` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395270 has offset 1).
+The programs for A395270, the canonical program `A395270.P17244589602935654934` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395270 has offset 1).
 
 The definition of A395270 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2351,7 +2350,7 @@ The definition of A395270 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A005117(n+1), A323170(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A395270
@@ -2950,7 +2949,7 @@ end A395278.P1189076713013327875
 /-!
 # A395282: a(n) = Sum_{d|n} mu(d)*Fibonacci(2*(n/d)+1).
 
-The programs for A395282, the canonical program `A395282.P4869537209626327474` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395282 has offset 1).
+The programs for A395282, the canonical program `A395282.P4869537209626327474` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395282 has offset 1).
 
 The definition of A395282 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 239 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2959,7 +2958,7 @@ The definition of A395282 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A008683(#)*A048575((n+1)/#-1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A395282

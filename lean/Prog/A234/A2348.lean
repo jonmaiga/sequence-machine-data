@@ -41,10 +41,11 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -56,8 +57,6 @@ import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2538,7 +2537,7 @@ end
 end A234840.P10962814338418350309
 
 /-!
-# A234841: Integers n such that digits in n and n^2 are in nondecreasing order.
+# A234841: Integers k such that the digits of k and k^2 are in nondecreasing order.
 
 The programs for A234841, there is no canonical definition to state claims against.
 -/
@@ -3003,7 +3002,7 @@ end A234848.P6280332752519390151
 /-!
 # A234850: Primes in A014692, i.e., of the form prime(k)-k+1, for some k.
 
-The programs for A234850, the canonical program `A234850.P3773910976127958889` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234850 has offset 1).
+The programs for A234850, the canonical program `A234850.P3773910976127958889` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234850 has offset 1).
 
 The definition of A234850 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 974 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3012,7 +3011,7 @@ The definition of A234850 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A014692(n+1)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A234850
@@ -3488,7 +3487,7 @@ end A234850
 /-!
 # A234851: Indices of primes in A014692, i.e., numbers k such that prime(k)-k+1 is prime.
 
-The programs for A234851, the canonical program `A234851.P8996763833196832844` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234851 has offset 1).
+The programs for A234851, the canonical program `A234851.P8996763833196832844` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234851 has offset 1).
 
 The definition of A234851 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 974 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3497,7 +3496,7 @@ The definition of A234851 is `conjectured`: the Lean definition is a formula tha
 
 `lt[(1-∑{e}[A014692(n+1), #])², 1]+1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A234851
@@ -3904,7 +3903,7 @@ end A234852
 /-!
 # A234853: Indices of primes in A234851.
 
-The programs for A234853, the canonical program `A234853.P5781389149874838194` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234853 has offset 1).
+The programs for A234853, the canonical program `A234853.P5781389149874838194` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234853 has offset 1).
 
 The definition of A234853 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1731 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3913,7 +3912,7 @@ The definition of A234853 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A001222(A234851(n+1))]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A234853

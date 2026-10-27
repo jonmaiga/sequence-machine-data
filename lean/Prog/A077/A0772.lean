@@ -47,29 +47,29 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -895,7 +895,7 @@ end A077217.P3973785477194349125
 /-!
 # A077218: Sum of numbers of prime factors (counted with multiplicities) of numbers between n-th and (n+1)-st prime.
 
-The programs for A077218, the canonical program `A077218.P785408297749336745` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077218 has offset 1).
+The programs for A077218, the canonical program `A077218.P785408297749336745` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077218 has offset 1).
 
 The definition of A077218 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9591 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -946,12 +946,6 @@ namespace A077218
 /-- `A080084(n+2)-(A080084(n+1)+1)` -/
 def P536175828272294699.Spec : Prop :=
   ∀ n, P536175828272294699.a n = A077218 (n + 1)
-
-theorem P536175828272294699.correct : P536175828272294699.Spec := by
-  intro n
-  simp only [A077218, Nat.add_sub_cancel, A077218.P536175828272294699.a, A077218.P785408297749336745.f1, A077218.P785408297749336745.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A022559, A022559.P10554250414511796107.a, A080084, A080084.P6247052819730457464.a, A001222, A001222.P11318177267732088261.a, A061395, A061395.P8431317036300486107.a, A122111, A122111.P18124015185857335041.a, A029837, A029837.P1050578713049589.a, A064989, A064989.P13349672914146769936.a, A087207, A087207.P12536008426233777954.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A077218
 
@@ -1011,7 +1005,7 @@ end A077218
 
 `Δ[A022559(A000040(n+1))]-1`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A077218
@@ -1719,7 +1713,7 @@ end
 end A077225.P16778243905386865571
 
 /-!
-# A077227: Triangle of compositions of n into exactly k parts each no more than k.
+# A077227: Triangle T(n,k) of compositions of n into exactly k parts each no more than k.
 
 The programs for A077227, there is no canonical definition to state claims against.
 -/

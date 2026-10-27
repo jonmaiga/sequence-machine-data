@@ -42,6 +42,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -56,24 +57,21 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -631,7 +629,7 @@ end A045802
 /-!
 # A045803: 3-ish numbers (end in 17, 19, 31, 33).
 
-The programs for A045803, the canonical program `A045803.P1981501651766823381` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045803 has offset 1).
+The programs for A045803, the canonical program `A045803.P1981501651766823381` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045803 has offset 1).
 
 The definition of A045803 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -715,7 +713,7 @@ end A045803
 
 `A045800(n+1)+A045807(n+1)-A045809(n+2)`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A045803
@@ -1969,7 +1967,7 @@ end A045812.P15800899806799118063
 /-!
 # A045819: Theta series of E_8 lattice with respect to midpoint of edge.
 
-The programs for A045819, the canonical program `A045819.P6609454256046327521` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045819 has offset 0).
+The programs for A045819, the canonical program `A045819.P6609454256046327521` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045819 has offset 0).
 
 The definition of A045819 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A045823, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1978,7 +1976,7 @@ The definition of A045819 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A045823(n)`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A045819
@@ -4576,7 +4574,7 @@ end A045828.P11148197919094658920
 /-!
 # A045829: Catafusenes (see reference for precise definition).
 
-The programs for A045829, the canonical program `A045829.P12089540855350358845` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045829 has offset 1).
+The programs for A045829, the canonical program `A045829.P12089540855350358845` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045829 has offset 1).
 
 The definition of A045829 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 141 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4608,7 +4606,7 @@ end A045829
 
 `A057427(A004524(n))*A091965(A152950(n+1))`
 
-The canonical program, it is in `Seq.B002.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A045829
@@ -14499,7 +14497,7 @@ end A045896
 /-!
 # A045897: Has both a primitive and imprimitive representation as x^2 + xy + y^2.
 
-The programs for A045897, the canonical program `A045897.P3711161811653789737` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045897 has offset 1).
+The programs for A045897, the canonical program `A045897.P3711161811653789737` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A045897 has offset 1).
 
 The definition of A045897 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 256 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14808,7 +14806,7 @@ end A045897
 
 `∩[A053850(n+1), A057128(n+1)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A045897

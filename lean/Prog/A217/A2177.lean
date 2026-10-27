@@ -53,10 +53,12 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,8 +70,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3420,7 +3420,7 @@ end A217734.P2132817388057154223
 /-!
 # A217736: Sum of first n squares of semiprimes.
 
-The programs for A217736, the canonical program `A217736.P10962452601645080754` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217736 has offset 1).
+The programs for A217736, the canonical program `A217736.P10962452601645080754` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217736 has offset 1).
 
 The definition of A217736 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3617,7 +3617,7 @@ end A217736
 
 `∑[(n+1-A100493(n+1))²]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A217736
@@ -3965,7 +3965,7 @@ end A217736
 /-!
 # A217737: a(n) = Fibonacci(n) mod n*(n+1).
 
-The programs for A217737, the canonical program `A217737.P7492651503515147840` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217737 has offset 1).
+The programs for A217737, the canonical program `A217737.P7492651503515147840` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217737 has offset 1).
 
 The definition of A217737 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3974,7 +3974,7 @@ The definition of A217737 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000045(n+1)%((n+1)*(n+2))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A217737
@@ -4598,7 +4598,7 @@ end A217738.P17008341294374987259
 /-!
 # A217740: Abundant numbers with abundant subscripts.
 
-The programs for A217740, the canonical program `A217740.P8591975626272247519` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217740 has offset 1).
+The programs for A217740, the canonical program `A217740.P8591975626272247519` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217740 has offset 1).
 
 The definition of A217740 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2488 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4607,7 +4607,7 @@ The definition of A217740 is `conjectured`: the Lean definition is a formula tha
 
 `A005101(A005101(n+1))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A217740
@@ -6394,7 +6394,7 @@ end A217757
 /-!
 # A217758: Triangular numbers of the form k^2 + k - 1.
 
-The programs for A217758, the canonical program `A217758.P12814183908713255576` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217758 has offset 1).
+The programs for A217758, the canonical program `A217758.P12814183908713255576` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217758 has offset 1).
 
 The definition of A217758 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6403,7 +6403,7 @@ The definition of A217758 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(A075841(n+1)²-5)/4`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A217758
@@ -6750,7 +6750,7 @@ end A217761.P2122112568098706690
 /-!
 # A217762: Square array T, read by antidiagonals: T(n,k) = F(n) + 2*F(k) where F(n) is the n-th Fibonacci number.
 
-The programs for A217762, the canonical program `A217762.P2739721227807284907` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217762 has offset 0).
+The programs for A217762, the canonical program `A217762.P2739721227807284907` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217762 has offset 0).
 
 The definition of A217762 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000045(col(n))+2*A000045(row(n)-col(n))` (program `A217762.P2739721227807284907`, by `A217762.P2739721227807284907.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6759,7 +6759,7 @@ The definition of A217762 is `verified`: the Lean definition is proven equivalen
 
 `A000045(col(n))+2*A000045(row(n)-col(n))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A217762
@@ -9140,7 +9140,7 @@ def P13157803982453266799.Spec : Prop :=
 end A217778
 
 /-!
-# A217779: Expansion of (1-4x+4*x^2)/((1-5x+5*x^2)*(1-3x+x^2)).
+# A217779: Expansion of (1 - 4*x + 4*x^2)/((1 - 5*x + 5*x^2)*(1 - 3*x + x^2)).
 
 The programs for A217779, the canonical program `A217779.P15082564209878692397` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217779 has offset 0).
 
@@ -9838,7 +9838,7 @@ end
 end A217781.P11101646381589664857
 
 /-!
-# A217782: Expansion of (1-x)*(1-2x)*(1-3x)/((1-5x+5*x^2)*(1-3x+x^2)).
+# A217782: Expansion of (1 - x)*(1 - 2*x)*(1 - 3*x)/((1 - 5*x + 5*x^2)*(1 - 3*x + x^2)).
 
 The programs for A217782, the canonical program `A217782.P81773627060442644` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217782 has offset 0).
 
@@ -10332,7 +10332,7 @@ def P5643075684148906019.Spec : Prop :=
 end A217782
 
 /-!
-# A217783: Expansion of (1-x)*(1-2x)/((1-5x+5*x^2)*(1-3x+x^2)).
+# A217783: Expansion of (1 - x)*(1 - 2*x)/((1 - 5*x + 5*x^2)*(1 - 3*x + x^2)).
 
 The programs for A217783, the canonical program `A217783.P15524789956156823881` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217783 has offset 0).
 
@@ -11952,7 +11952,7 @@ end A217794.P3846931142135108378
 /-!
 # A217795: Numbers n such that n^4+1 and (n+2)^4+1 are both prime.
 
-The programs for A217795, the canonical program `A217795.P8087682452368100650` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217795 has offset 1).
+The programs for A217795, the canonical program `A217795.P8087682452368100650` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217795 has offset 1).
 
 The definition of A217795 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12014,7 +12014,7 @@ end A217795
 
 `A000068(eq[2, A000068(n+2)-A000068(n+1)]+1)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A217795
@@ -12126,7 +12126,7 @@ end A217795
 /-!
 # A217796: Primes of the form n^4+1 such that (n+2)^4+1 is also prime.
 
-The programs for A217796, the canonical program `A217796.P16724628216371701300` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217796 has offset 1).
+The programs for A217796, the canonical program `A217796.P16724628216371701300` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217796 has offset 1).
 
 The definition of A217796 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12135,7 +12135,7 @@ The definition of A217796 is `conjectured`: the Lean definition is a formula tha
 
 `A217795(n+1)^4+1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A217796
@@ -12362,7 +12362,7 @@ def P3214243330039305918.Spec : Prop :=
 end A217796
 
 /-!
-# A217798: Numbers n such that n^2 + 1 and (n+1)^2 + 1 are divisible by a square.
+# A217798: Numbers k such that k^2 + 1 and (k+1)^2 + 1 are divisible by a square.
 
 The programs for A217798, there is no canonical definition to state claims against.
 -/

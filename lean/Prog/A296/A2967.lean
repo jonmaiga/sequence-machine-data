@@ -41,7 +41,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -49,20 +49,20 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7656,7 +7656,7 @@ end A296768.P17176631279689297819
 /-!
 # A296770: Row sums of A050158.
 
-The programs for A296770, the canonical program `A296770.P4976538490288116259` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296770 has offset 0).
+The programs for A296770, the canonical program `A296770.P4976538490288116259` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296770 has offset 0).
 
 The definition of A296770 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7665,7 +7665,7 @@ The definition of A296770 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A002457(n)-A008549(n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A296770
@@ -9119,7 +9119,7 @@ end A296776.P879967076818783285
 /-!
 # A296779: Detour index of the n X n grid graph.
 
-The programs for A296779, the canonical program `A296779.P9301073313345564947` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296779 has offset 1).
+The programs for A296779, the canonical program `A296779.P9301073313345564947` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296779 has offset 1).
 
 The definition of A296779 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A296819, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9128,7 +9128,7 @@ The definition of A296779 is `conditional`: the Lean definition is an OEIS formu
 
 `A296819((n+1)²)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A296779
@@ -9501,7 +9501,7 @@ end A296779
 /-!
 # A296780: Detour index of the n X n X n grid graph.
 
-The programs for A296780, the canonical program `A296780.P16757499617915711286` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296780 has offset 1).
+The programs for A296780, the canonical program `A296780.P16757499617915711286` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296780 has offset 1).
 
 The definition of A296780 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A296819, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9510,7 +9510,7 @@ The definition of A296780 is `conditional`: the Lean definition is an OEIS formu
 
 `A296819((n+1)^3)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A296780
@@ -9632,7 +9632,7 @@ end A296780
 /-!
 # A296785: Detour index for the n-transposition graph.
 
-The programs for A296785, the canonical program `A296785.P8825007694404590711` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296785 has offset 1).
+The programs for A296785, the canonical program `A296785.P8825007694404590711` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296785 has offset 1).
 
 The definition of A296785 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A296819, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9641,7 +9641,7 @@ The definition of A296785 is `conditional`: the Lean definition is an OEIS formu
 
 `A296819((n+1)!)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A296785

@@ -30,15 +30,16 @@ import Seq.B000.C033
 import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
@@ -49,11 +50,8 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2584,7 +2582,7 @@ end A224138.P14313029363023266774
 /-!
 # A224139: Double 1's in binary representations of 2*n-1, converting to decimal and dividing by maximal possible power of 3.
 
-The programs for A224139, the canonical program `A224139.P389130663444024273` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224139 has offset 1).
+The programs for A224139, the canonical program `A224139.P389130663444024273` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224139 has offset 1).
 
 The definition of A224139 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2593,7 +2591,7 @@ The definition of A224139 is `conjectured`: the Lean definition is a formula tha
 
 `A038502(A048678(Δ[n²]))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A224139

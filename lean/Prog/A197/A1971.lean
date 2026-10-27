@@ -47,7 +47,7 @@ import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
@@ -61,8 +61,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4694,7 +4692,7 @@ end A197190.P13414702779287139117
 /-!
 # A197191: a(n) = phi(Lucas(n^2)).
 
-The programs for A197191, the canonical program `A197191.P15605299056805201229` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197191 has offset 0).
+The programs for A197191, the canonical program `A197191.P15605299056805201229` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197191 has offset 0).
 
 The definition of A197191 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4703,7 +4701,7 @@ The definition of A197191 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A000032(n²))`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A197191

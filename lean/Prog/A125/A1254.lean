@@ -15,22 +15,26 @@ import Seq.B000.C031
 import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B001.C000
-import Seq.B001.C004
+import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B012.C000
 import Seq.Opaque.C003
@@ -1235,7 +1239,7 @@ end
 end A125484.P4871017066961332503
 
 /-!
-# A125490: Amicable triples: numbers such that sigma(x) = sigma(y) = sigma(z) = x+y+z, x
+# A125490: Amicable triples: numbers such that sigma(x) = sigma(y) = sigma(z) = x+y+z, x<y<z. We order these triples according to the common value of sigma. Sequence gives x numbers.
 
 The programs for A125490, there is no canonical definition to state claims against.
 -/
@@ -1256,7 +1260,7 @@ end
 end A125490.P5288077118770459243
 
 /-!
-# A125491: Amicable triples: numbers such that sigma(x) = sigma(y) = sigma(z) = x+y+z, x
+# A125491: Amicable triples: numbers such that sigma(x) = sigma(y) = sigma(z) = x+y+z, x<y<z. We order these triples according to the common value of sigma. Sequence gives y numbers.
 
 The programs for A125491, there is no canonical definition to state claims against.
 -/
@@ -1277,7 +1281,7 @@ end
 end A125491.P10450856030834257381
 
 /-!
-# A125492: Amicable triples: numbers such that sigma(x) = sigma(y) = sigma(z) = x+y+z, x
+# A125492: Amicable triples: numbers such that sigma(x) = sigma(y) = sigma(z) = x+y+z, x<y<z. We order these triples according to the common value of sigma. Sequence gives z numbers.
 
 The programs for A125492, there is no canonical definition to state claims against.
 -/
@@ -1315,7 +1319,7 @@ end A125492.P5542579047647792505
 /-!
 # A125493: Composite deficient numbers.
 
-The programs for A125493, the canonical program `A125493.P739186552021714544` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125493 has offset 1).
+The programs for A125493, the canonical program `A125493.P739186552021714544` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125493 has offset 1).
 
 The definition of A125493 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1405,7 +1409,7 @@ end A125493
 
 `record[A191558(A005100(n+4))]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A125493
@@ -2261,7 +2265,7 @@ end A125494
 /-!
 # A125495: Composite odious numbers.
 
-The programs for A125495, the canonical program `A125495.P14051159433659481115` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125495 has offset 1).
+The programs for A125495, the canonical program `A125495.P14051159433659481115` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125495 has offset 1).
 
 The definition of A125495 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8717 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2319,7 +2323,7 @@ end A125495
 
 `filter[A000069(n+2), A005171(#)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A125495
@@ -3012,7 +3016,7 @@ end A125497
 /-!
 # A125498: Odious cubes.
 
-The programs for A125498, the canonical program `A125498.P12583085300510792170` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125498 has offset 1).
+The programs for A125498, the canonical program `A125498.P12583085300510792170` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125498 has offset 1).
 
 The definition of A125498 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4949 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3021,7 +3025,7 @@ The definition of A125498 is `conjectured`: the Lean definition is a formula tha
 
 `record[(n*n²)^and(1, A192085(n))]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A125498
@@ -3148,7 +3152,7 @@ end A125498
 /-!
 # A125499: Deficient even numbers.
 
-The programs for A125499, the canonical program `A125499.P3483996585675288903` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125499 has offset 1).
+The programs for A125499, the canonical program `A125499.P3483996585675288903` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125499 has offset 1).
 
 The definition of A125499 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3375 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3243,7 +3247,7 @@ end A125499
 
 `filter[A005100(n+1), A120325(#)]`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A125499

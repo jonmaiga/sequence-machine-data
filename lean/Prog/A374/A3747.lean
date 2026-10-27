@@ -36,32 +36,30 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B005.C000
+import Seq.B004.C003
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1581,7 +1579,7 @@ end A374729.P11503530016661107500
 /-!
 # A374730: a(n) = n * binomial(floor(log_2(n)) + 1, 2).
 
-The programs for A374730, the canonical program `A374730.P15477775403620783569` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374730 has offset 0).
+The programs for A374730, the canonical program `A374730.P15477775403620783569` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374730 has offset 0).
 
 The definition of A374730 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1590,7 +1588,7 @@ The definition of A374730 is `conjectured`: the Lean definition is a formula tha
 
 `n*C(A070939(n), 2)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A374730
@@ -2845,7 +2843,7 @@ end A374748.P17603466011546038024
 /-!
 # A374749: Number of zygodrome numbers in base-10 (A033023) with n or fewer digits.
 
-The programs for A374749, the canonical program `A374749.P9126795584612520576` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374749 has offset 1).
+The programs for A374749, the canonical program `A374749.P9126795584612520576` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374749 has offset 1).
 
 The definition of A374749 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2854,7 +2852,7 @@ The definition of A374749 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A015445(n+1)-1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A374749

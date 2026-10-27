@@ -14,7 +14,6 @@ import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
-import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
@@ -40,18 +39,22 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C010
+import Seq.B001.C008
+import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -65,8 +68,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1681,7 +1682,7 @@ theorem P13930585651522891822.correct : P13930585651522891822.Spec := by
 end A112713
 
 /-!
-# A112714: Numbers of the form k*2^m-1 with k
+# A112714: Numbers of the form k*2^m-1 with k<2^m and k odd.
 
 The programs for A112714, the canonical program `A112714.P4485868673494609304` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112714 has offset 1).
 
@@ -9505,7 +9506,7 @@ end A112771
 /-!
 # A112772: Semiprimes of the form 6n+2.
 
-The programs for A112772, the canonical program `A112772.P11841538556147305833` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112772 has offset 1).
+The programs for A112772, the canonical program `A112772.P11841538556147305833` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112772 has offset 1).
 
 The definition of A112772 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A024892, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9537,7 +9538,7 @@ end A112772
 
 `6*A024892(n+1)+2`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A112772
@@ -9978,7 +9979,7 @@ end A112772
 /-!
 # A112773: 3 together with primes multiplied by 3.
 
-The programs for A112773, the canonical program `A112773.P44553575666953962` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112773 has offset 1).
+The programs for A112773, the canonical program `A112773.P44553575666953962` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112773 has offset 1).
 
 The definition of A112773 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008578, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9987,7 +9988,7 @@ The definition of A112773 is `conditional`: the Lean definition is an OEIS formu
 
 `3*A008578(n+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A112773
@@ -10518,7 +10519,7 @@ end A112773
 /-!
 # A112774: Semiprimes of the form 6n+4.
 
-The programs for A112774, the canonical program `A112774.P17976456391943950983` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112774 has offset 1).
+The programs for A112774, the canonical program `A112774.P17976456391943950983` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112774 has offset 1).
 
 The definition of A112774 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003627, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10527,7 +10528,7 @@ The definition of A112774 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A003627(n+1)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A112774
@@ -12870,7 +12871,7 @@ end A112792.P11339156342640124065
 /-!
 # A112794: Primes such that the sum of the predecessor and successor primes is divisible by 5.
 
-The programs for A112794, the canonical program `A112794.P1002080450273918995` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112794 has offset 1).
+The programs for A112794, the canonical program `A112794.P1002080450273918995` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112794 has offset 1).
 
 The definition of A112794 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12879,7 +12880,7 @@ The definition of A112794 is `conjectured`: the Lean definition is a formula tha
 
 `A000040(eq[0, A048448(n)%5])`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A112794

@@ -40,9 +40,9 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -50,11 +50,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -66,7 +67,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -801,9 +801,9 @@ end
 end A067110.P7694359155813592728
 
 /-!
-# A067111: Floor[ Product of first n primes / Sum of first n primes].
+# A067111: a(n) = floor( product of first n primes / sum of first n primes ).
 
-The programs for A067111, the canonical program `A067111.P10972520331582121734` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067111 has offset 1).
+The programs for A067111, the canonical program `A067111.P10972520331582121734` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067111 has offset 1).
 
 The definition of A067111 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -812,7 +812,7 @@ The definition of A067111 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(A002110(n+1)/A007504(n+1))`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A067111
@@ -4344,7 +4344,7 @@ def P538803339422899989.Spec : Prop :=
 end A067147
 
 /-!
-# A067148: Fibonacci-like sequences. a(n) is the number of pairs of integers (n,i), 02, of a sequence {b(k)} satisfying b(1)=1, b(2)>0 and b(k)=b(k-1)+b(k-2) for all k>2.
+# A067148: Fibonacci-like sequences. a(n) is the number of pairs of integers (n,i), 0<i<n, with Property F: i and n are consecutive terms i=b(j-1) and n=b(j), for some j>2, of a sequence {b(k)} satisfying b(1)=1, b(2)>0 and b(k)=b(k-1)+b(k-2) for all k>2.
 
 The programs for A067148, there is no canonical definition to state claims against.
 -/
@@ -8659,7 +8659,7 @@ end
 end A067194.P18194528338318003656
 
 /-!
-# A067196: Numbers n such that M(n) = Sum_{i=1..n} mu(phi(i)) where M(n) is the Mertens function A002321(n).
+# A067196: Numbers k such that M(k) = Sum_{i=1..k} mu(phi(i)) where M(k) is the Mertens function A002321(k).
 
 The programs for A067196, there is no canonical definition to state claims against.
 -/
@@ -8682,7 +8682,7 @@ end A067196.P7634871477535450279
 /-!
 # A067197: Numbers k such that k*(k+1)/2 is not squarefree.
 
-The programs for A067197, the canonical program `A067197.P14256898239862614097` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067197 has offset 1).
+The programs for A067197, the canonical program `A067197.P14256898239862614097` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A067197 has offset 1).
 
 The definition of A067197 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8718,7 +8718,7 @@ end A067197
 
 `∪[A046790(n+1)-1, A046790(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A067197

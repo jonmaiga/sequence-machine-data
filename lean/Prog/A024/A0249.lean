@@ -8,6 +8,7 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -43,8 +44,10 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,11 +55,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -71,8 +76,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7870,7 +7873,7 @@ end A024917
 /-!
 # A024918: Partial sums of the sequence of prime powers (A000961).
 
-The programs for A024918, the canonical program `A024918.P7300264531747899281` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024918 has offset 1).
+The programs for A024918, the canonical program `A024918.P7300264531747899281` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024918 has offset 1).
 
 The definition of A024918 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9701 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8113,7 +8116,7 @@ end A024918
 
 `∑[record[A008475(n+1)]]+1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A024918
@@ -11528,7 +11531,7 @@ end A024933.P1842909169952426940
 /-!
 # A024934: Sum of remainders n mod p, over all primes p < n.
 
-The programs for A024934, the canonical program `A024934.P986363156688133824` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024934 has offset 0).
+The programs for A024934, the canonical program `A024934.P986363156688133824` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024934 has offset 0).
 
 The definition of A024934 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A105221, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11537,7 +11540,7 @@ The definition of A024934 is `conditional`: the Lean definition is an OEIS formu
 
 `a(n-1)+A000720(n-1)-A105221(n)` with `a(0)=0, a(1)=0`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A024934
@@ -11737,7 +11740,7 @@ def P1555795442039369307.Spec : Prop :=
 end A024934
 
 /-!
-# A024935: a(n) = minimal length of any partition of n into distinct primes.
+# A024935: 
 
 The programs for A024935, there is no canonical definition to state claims against.
 -/

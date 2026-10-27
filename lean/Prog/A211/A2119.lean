@@ -42,30 +42,31 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1077,7 +1078,7 @@ end A211910.P12807879445119818027
 /-!
 # A211911: Number of lower triangular n X n arrays colored with integers 0 upwards introduced in row major order, with no element equal to any horizontal, vertical, diagonal or antidiagonal neighbor, and containing the value n(n+1)/2-2.
 
-The programs for A211911, the canonical program `A211911.P14031019345413723703` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211911 has offset 1).
+The programs for A211911, the canonical program `A211911.P14031019345413723703` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211911 has offset 1).
 
 The definition of A211911 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1119,7 +1120,7 @@ end A211911
 
 `abs(2*n-A212031(n+1))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211911
@@ -1509,7 +1510,7 @@ end
 end A211915.P3892686301691054311
 
 /-!
-# A211917: Number of (w,x,y,z) with all terms in {1,...,n} and w*x
+# A211917: Number of (w,x,y,z) with all terms in {1,...,n} and w*x<3*y*z.
 
 The programs for A211917, there is no canonical definition to state claims against.
 -/
@@ -2375,7 +2376,7 @@ end
 end A211919.P4976065485013155171
 
 /-!
-# A211920: Number of (w,x,y,z) with all terms in {1,...,n} and 2*w*x
+# A211920: Number of (w,x,y,z) with all terms in {1,...,n} and 2*w*x<3*y*z.
 
 The programs for A211920, there is no canonical definition to state claims against.
 -/
@@ -4583,7 +4584,7 @@ end A211954.P13172529717700352680
 /-!
 # A211955: Triangle of coefficients of a polynomial sequence related to the Morgan-Voyce polynomials A085478.
 
-The programs for A211955, the canonical program `A211955.P3134734577332514007` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211955 has offset 0).
+The programs for A211955, the canonical program `A211955.P3134734577332514007` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211955 has offset 0).
 
 The definition of A211955 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4592,7 +4593,7 @@ The definition of A211955 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(A123519(n)/2)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211955
@@ -5121,7 +5122,7 @@ end A211957
 /-!
 # A211958: Number of lower triangular n X n arrays colored with integers 0 upwards introduced in row major order, with no element equal to any diagonal or antidiagonal neighbor, and containing the value n(n+1)/2-2.
 
-The programs for A211958, the canonical program `A211958.P12613187305550750918` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211958 has offset 1).
+The programs for A211958, the canonical program `A211958.P12613187305550750918` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211958 has offset 1).
 
 The definition of A211958 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5163,7 +5164,7 @@ end A211958
 
 `(A211924(n+1)+A000217(n))%∑[n+3]²`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211958
@@ -7657,7 +7658,7 @@ end
 end A211978.P131447733333365494
 
 /-!
-# A211980: Triangle read by rows: T(n,k) = total number of regions in the last n-k+1 shells of n.
+# A211980: Triangle read by rows: T(n,k) is the total number of regions in the last n-k+1 sections of the modular table of partitions of n.
 
 The programs for A211980, there is no canonical definition to state claims against.
 -/
@@ -8767,7 +8768,7 @@ end A211990.P1720412422573851993
 /-!
 # A211991: Difference between the arithmetic derivative of n and the sum of proper divisors of n.
 
-The programs for A211991, the canonical program `A211991.P15084257827643114560` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211991 has offset 1).
+The programs for A211991, the canonical program `A211991.P15084257827643114560` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211991 has offset 1).
 
 The definition of A211991 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003415, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8776,7 +8777,7 @@ The definition of A211991 is `conditional`: the Lean definition is an OEIS formu
 
 `A003415(n+1)-A001065(n+1)`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A211991
@@ -9599,7 +9600,7 @@ end A211995
 /-!
 # A211996: Number of ordered pairs (i,j) such that i*j=n and i+j is a square.
 
-The programs for A211996, the canonical program `A211996.P16059164976447169302` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211996 has offset 1).
+The programs for A211996, the canonical program `A211996.P16059164976447169302` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211996 has offset 1).
 
 The definition of A211996 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9608,7 +9609,7 @@ The definition of A211996 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A010052((n+1)/#+#)]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211996

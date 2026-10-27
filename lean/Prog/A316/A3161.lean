@@ -29,7 +29,6 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
@@ -38,18 +37,18 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -317,7 +316,7 @@ end
 end A316100.P3825227677597082645
 
 /-!
-# A316101: Sequence a_k of column k shifts left when Weigh transform is applied k times with a_k(n) = n for n=0, k>=0, read by antidiagonals.
+# A316101: Sequence a_k of column k shifts left when Weigh transform is applied k times with a_k(n) = n for n<2; square array A(n,k), n>=0, k>=0, read by antidiagonals.
 
 The programs for A316101, there is no canonical definition to state claims against.
 -/
@@ -512,7 +511,7 @@ end
 end A316102.P3087109880221113669
 
 /-!
-# A316103: Sequence shifts left when Weigh transform is applied three times with a(n) = n for n
+# A316103: Sequence shifts left when Weigh transform is applied three times with a(n) = n for n<2.
 
 The programs for A316103, there is no canonical definition to state claims against.
 -/
@@ -611,7 +610,7 @@ end
 end A316103.P7067046829700108503
 
 /-!
-# A316104: Sequence shifts left when Weigh transform is applied four times with a(n) = n for n
+# A316104: Sequence shifts left when Weigh transform is applied four times with a(n) = n for n<2.
 
 The programs for A316104, there is no canonical definition to state claims against.
 -/
@@ -755,7 +754,7 @@ end
 end A316104.P7015386035728924173
 
 /-!
-# A316105: Sequence shifts left when Weigh transform is applied five times with a(n) = n for n
+# A316105: Sequence shifts left when Weigh transform is applied five times with a(n) = n for n<2.
 
 The programs for A316105, there is no canonical definition to state claims against.
 -/
@@ -923,7 +922,7 @@ end
 end A316105.P2755965738478159131
 
 /-!
-# A316106: Sequence shifts left when Weigh transform is applied six times with a(n) = n for n
+# A316106: Sequence shifts left when Weigh transform is applied six times with a(n) = n for n<2.
 
 The programs for A316106, there is no canonical definition to state claims against.
 -/
@@ -1040,7 +1039,7 @@ end
 end A316106.P7630564792830713908
 
 /-!
-# A316107: Sequence shifts left when Weigh transform is applied seven times with a(n) = n for n
+# A316107: Sequence shifts left when Weigh transform is applied seven times with a(n) = n for n<2.
 
 The programs for A316107, there is no canonical definition to state claims against.
 -/
@@ -1136,7 +1135,7 @@ end
 end A316107.P3566783845684537509
 
 /-!
-# A316108: Sequence shifts left when Weigh transform is applied eight times with a(n) = n for n
+# A316108: Sequence shifts left when Weigh transform is applied eight times with a(n) = n for n<2.
 
 The programs for A316108, there is no canonical definition to state claims against.
 -/
@@ -1217,7 +1216,7 @@ end
 end A316108.P5884457734575971099
 
 /-!
-# A316109: Sequence shifts left when Weigh transform is applied nine times with a(n) = n for n
+# A316109: Sequence shifts left when Weigh transform is applied nine times with a(n) = n for n<2.
 
 The programs for A316109, there is no canonical definition to state claims against.
 -/
@@ -1298,7 +1297,7 @@ end
 end A316109.P4074620109265026435
 
 /-!
-# A316110: Sequence shifts left when Weigh transform is applied ten times with a(n) = n for n
+# A316110: Sequence shifts left when Weigh transform is applied ten times with a(n) = n for n<2.
 
 The programs for A316110, there is no canonical definition to state claims against.
 -/

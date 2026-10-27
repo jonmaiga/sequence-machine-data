@@ -47,29 +47,29 @@ import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1003,7 +1003,7 @@ end A122608
 /-!
 # A122609: Product of the first n 5-almost primes (A014614), divided by product of the first n primes, rounded down.
 
-The programs for A122609, the canonical program `A122609.P7320944427291612846` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122609 has offset 1).
+The programs for A122609, the canonical program `A122609.P7320944427291612846` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122609 has offset 1).
 
 The definition of A122609 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 248 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1035,7 +1035,7 @@ end A122609
 
 `floor(∏[A014614(n+1)/A000040(n+1)])`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A122609
@@ -1072,7 +1072,7 @@ end
 end A122611.P5104555373312789709
 
 /-!
-# A122612: Sums of cubes of primes.
+# A122612: 
 
 The programs for A122612, there is no canonical definition to state claims against.
 -/
@@ -3616,21 +3616,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A122640.P11283782986035165077
-
-/-! ## A122640.P16511457616325755223
-
-`A339791(A014963(n+1))+A122641(n+1)`
--/
-
-namespace A122640.P16511457616325755223
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A339791 (A014963 (n + 1)).toNat + A122641 (n + 1)
-
-end
-
-end A122640.P16511457616325755223
 
 /-!
 # A122641: {2n+1}_n.
@@ -9396,7 +9381,7 @@ end
 end A122696.P17869430405758098968
 
 /-!
-# A122698: a(1)=a(2)=1 then a(n) = Sum_{d|n, 1
+# A122698: a(1)=a(2)=1 then a(n) = Sum_{d|n, 1<d<n} a(d)*a(n/d).
 
 The programs for A122698, the canonical program `A122698.P18060644383630824103` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A122698 has offset 1).
 

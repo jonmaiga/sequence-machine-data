@@ -52,6 +52,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -59,10 +60,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -8212,7 +8215,7 @@ end
 end A097341.P9237139389260265562
 
 /-!
-# A097343: Triangle read by rows in which row n gives Legendre symbol (k,p) for 0
+# A097343: Triangle read by rows in which row n gives Legendre symbol (k,p) for 0<k<=p where p = n-th prime.
 
 The programs for A097343, there is no canonical definition to state claims against.
 -/
@@ -11896,7 +11899,7 @@ end A097378
 /-!
 # A097379: Numbers m such that 1+SquareFreeKernel(m) is prime.
 
-The programs for A097379, the canonical program `A097379.P7297816214369488730` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097379 has offset 1).
+The programs for A097379, the canonical program `A097379.P7297816214369488730` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097379 has offset 1).
 
 The definition of A097379 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6214 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11905,7 +11908,7 @@ The definition of A097379 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A010051(A007947(n+1)+1)]+1`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A097379
@@ -12188,7 +12191,7 @@ end A097379
 /-!
 # A097380: Numbers m such that 1+CubeFreeKernel(m) is prime.
 
-The programs for A097380, the canonical program `A097380.P15856719573966793796` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097380 has offset 1).
+The programs for A097380, the canonical program `A097380.P15856719573966793796` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097380 has offset 1).
 
 The definition of A097380 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1352 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12226,7 +12229,7 @@ end A097380
 
 `eq[1, A001222(A097377(n+1))]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A097380

@@ -37,6 +37,7 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -45,6 +46,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -56,6 +58,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -63,15 +66,11 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -105,7 +104,7 @@ set_option linter.unreachableTactic false
 /-!
 # A134100: Primes p > 3 such that neither p-2 nor p-4 are prime.
 
-The programs for A134100, the canonical program `A134100.P16893923253376579022` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134100 has offset 1).
+The programs for A134100, the canonical program `A134100.P16893923253376579022` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134100 has offset 1).
 
 The definition of A134100 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8567 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -114,7 +113,7 @@ The definition of A134100 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A025584(n+1), A067833(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A134100
@@ -3419,7 +3418,7 @@ end
 end A134132.P789809699058171743
 
 /-!
-# A134133: Triange T(n,k) read by rows: product of the factorials of the parts of the k-th partition of n listed in Abramowitz and Stegun order, 1 <= k <= A000041(n).
+# A134133: Triangle T(n,k) read by rows: product of the factorials of the parts of the k-th partition of n listed in Abramowitz and Stegun order, 1 <= k <= A000041(n).
 
 The programs for A134133, there is no canonical definition to state claims against.
 -/
@@ -10442,7 +10441,7 @@ end A134181.P6001897490307478263
 /-!
 # A134183: A Hankel transform of a Catalan product.
 
-The programs for A134183, the canonical program `A134183.P8466557060232572687` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134183 has offset 0).
+The programs for A134183, the canonical program `A134183.P8466557060232572687` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134183 has offset 0).
 
 The definition of A134183 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10474,7 +10473,7 @@ end A134183
 
 `A053763(n)*A001787(n)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A134183

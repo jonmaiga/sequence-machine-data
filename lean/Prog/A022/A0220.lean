@@ -32,33 +32,33 @@ import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -273,7 +273,7 @@ end A022003
 /-!
 # A022004: Initial members of prime triples (p, p+2, p+6).
 
-The programs for A022004, the canonical program `A022004.P15960404509347598822` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A022004 has offset 1).
+The programs for A022004, the canonical program `A022004.P15960404509347598822` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A022004 has offset 1).
 
 The definition of A022004 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5537 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -369,7 +369,7 @@ end A022004
 
 `∩[A001359(n+1), A341357(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A022004
@@ -4270,7 +4270,7 @@ def P689223138346547490.Spec : Prop :=
 end A022035
 
 /-!
-# A022036: Define the sequence T(a_0,a_1) by a_{n+2} is the greatest integer such that a_{n+2}/a_{n+1}= 0. This is T(7,43).
+# A022036: Define the sequence T(a_0,a_1) by a_{n+2} is the greatest integer such that a_{n+2}/a_{n+1}<a_{n+1}/a_n for n >= 0. This is T(7,43).
 
 The programs for A022036, the canonical program `A022036.P14718652148872808596` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A022036 has offset 0).
 
@@ -4393,7 +4393,7 @@ def P15879780035237225662.Spec : Prop :=
 end A022037
 
 /-!
-# A022038: Define the sequence T(a_0,a_1) by a_{n+2} is the greatest integer such that a_{n+2}/a_{n+1}= 0. This is T(8,57).
+# A022038: Define the sequence T(a_0,a_1) by a_{n+2} is the greatest integer such that a_{n+2}/a_{n+1}<a_{n+1}/a_n for n >= 0. This is T(8,57).
 
 The programs for A022038, the canonical program `A022038.P11441735502848458594` is in `Seq.B000.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A022038 has offset 0).
 

@@ -36,20 +36,19 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -60,8 +59,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -362,7 +359,7 @@ end A214303.P14970802667757840648
 /-!
 # A214304: Expansion of phi(q) + phi(q^2) - phi(q^4) in powers of q where phi() is a Ramanujan theta function.
 
-The programs for A214304, the canonical program `A214304.P9342972882783353441` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214304 has offset 0).
+The programs for A214304, the canonical program `A214304.P9342972882783353441` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214304 has offset 0).
 
 The definition of A214304 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -440,7 +437,7 @@ end A214304
 
 `A000122(gcd(n, ∑[n]))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A214304
@@ -1194,7 +1191,7 @@ end A214307.P16711477036059930175
 /-!
 # A214308: a(n) is the number of all two colored bracelets (necklaces with turning over allowed) with n beads with the two colors from a repertoire of n distinct colors, for n>=2.
 
-The programs for A214308, the canonical program `A214308.P10181968617676243158` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214308 has offset 2).
+The programs for A214308, the canonical program `A214308.P10181968617676243158` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214308 has offset 2).
 
 The definition of A214308 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056342, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1203,7 +1200,7 @@ The definition of A214308 is `conditional`: the Lean definition is an OEIS formu
 
 `C(n+2, 2)*A056342(n+2)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A214308
@@ -1400,7 +1397,7 @@ end A214309.P16429942721348602217
 /-!
 # A214310: a(n) is the number of all three-color bracelets (necklaces with turning over allowed) with n beads and the three colors are from a repertoire of n distinct colors, for n >= 3.
 
-The programs for A214310, the canonical program `A214310.P15213884711492918839` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214310 has offset 3).
+The programs for A214310, the canonical program `A214310.P15213884711492918839` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214310 has offset 3).
 
 The definition of A214310 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056343, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1409,7 +1406,7 @@ The definition of A214310 is `conditional`: the Lean definition is an OEIS formu
 
 `C(n+3, 3)*A056343(n+3)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A214310
@@ -1603,7 +1600,7 @@ end A214311.P4557399666739476312
 /-!
 # A214312: a(n) is the number of all four-color bracelets (necklaces with turning over allowed) with n beads and the four colors are from a repertoire of n distinct colors, for n >= 4.
 
-The programs for A214312, the canonical program `A214312.P14561936420459692274` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214312 has offset 4).
+The programs for A214312, the canonical program `A214312.P14561936420459692274` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214312 has offset 4).
 
 The definition of A214312 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A056344, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1612,7 +1609,7 @@ The definition of A214312 is `conditional`: the Lean definition is an OEIS formu
 
 `C(n+4, 4)*A056344(n+4)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A214312
@@ -2057,7 +2054,7 @@ end A214316.P17327856571838880420
 /-!
 # A214317: a(n) = length-n prefix of the Fibonacci word A003842.
 
-The programs for A214317, the canonical program `A214317.P1350936880509777613` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214317 has offset 1).
+The programs for A214317, the canonical program `A214317.P1350936880509777613` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214317 has offset 1).
 
 The definition of A214317 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2115,7 +2112,7 @@ end A214317
 
 `10*a(n-1)+2-A005614(n)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A214317
@@ -2211,7 +2208,7 @@ end A214317
 /-!
 # A214318: Replace the word A214317(n) with its position in A007931.
 
-The programs for A214318, the canonical program `A214318.P2534198729933058842` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214318 has offset 1).
+The programs for A214318, the canonical program `A214318.P2534198729933058842` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214318 has offset 1).
 
 The definition of A214318 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2243,7 +2240,7 @@ end A214318
 
 `2*a(n-1)+A003842(n)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A214318
@@ -2699,7 +2696,7 @@ end A214318
 /-!
 # A214319: First differences of A182028.
 
-The programs for A214319, the canonical program `A214319.P793865802162299093` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214319 has offset 0).
+The programs for A214319, the canonical program `A214319.P793865802162299093` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214319 has offset 0).
 
 The definition of A214319 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2708,7 +2705,7 @@ The definition of A214319 is `conjectured`: the Lean definition is a formula tha
 
 `A182028(n)+A003849(n+1)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A214319
@@ -4177,7 +4174,7 @@ end A214329.P13727185502933043330
 /-!
 # A214330: a(n) = A214551(n) mod 2.
 
-The programs for A214330, the canonical program `A214330.P6414671182902841973` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214330 has offset 0).
+The programs for A214330, the canonical program `A214330.P6414671182902841973` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214330 has offset 0).
 
 The definition of A214330 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4186,7 +4183,7 @@ The definition of A214330 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A214551(n)%2`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A214330
@@ -7721,27 +7718,6 @@ end
 end A214372.P16391958483513998243
 
 /-!
-# A214373: Irregular array T(n,k) of the numbers of non-extendable (complete) non-self-adjacent simple paths ending at each of a minimal subset of nodes within a square lattice bounded by rectangles with nodal dimensions n and 7, n >= 2.
-
-The programs for A214373, there is no canonical definition to state claims against.
--/
-
-/-! ## A214373.P13790681080849996945
-
-`A113831(n+2)*A159984(A195569(n+1))`
--/
-
-namespace A214373.P13790681080849996945
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A113831 (n + 2) * A159984 (A195569 (n + 1)).toNat
-
-end
-
-end A214373.P13790681080849996945
-
-/-!
 # A214374: G.f. satisfies: A(x) = 1 + x*A(x)^3*A(-x)*A(I*x)*A(-I*x).
 
 The programs for A214374, there is no canonical definition to state claims against.
@@ -9626,7 +9602,7 @@ end A214395
 /-!
 # A214398: Triangle where the g.f. of column k is 1/(1-x)^(k^2) for k>=1, as read by rows n>=1.
 
-The programs for A214398, the canonical program `A214398.P18344074257619641285` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214398 has offset 1).
+The programs for A214398, the canonical program `A214398.P18344074257619641285` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A214398 has offset 1).
 
 The definition of A214398 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1035 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9635,7 +9611,7 @@ The definition of A214398 is `conjectured`: the Lean definition is a formula tha
 
 `C(A185910(n+1)-1, A025581(n))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A214398

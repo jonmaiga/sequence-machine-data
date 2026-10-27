@@ -41,34 +41,35 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6389,7 +6390,7 @@ end A321165.P2340057568207491029
 /-!
 # A321167: The e-unitary Euler function: a(1) = 1, a(n) = Product uphi(e(i)) for n = Product p(i)^e(i), where uphi is the unitary totient function (A047994).
 
-The programs for A321167, the canonical program `A321167.P10161724176455158981` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321167 has offset 1).
+The programs for A321167, the canonical program `A321167.P10161724176455158981` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321167 has offset 1).
 
 The definition of A321167 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6398,7 +6399,7 @@ The definition of A321167 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[n+1, A047994(#)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A321167
@@ -7343,7 +7344,7 @@ end
 end A321177.P15706306261155040993
 
 /-!
-# A321178: One-half the sum of the first 2n + 1 primes.
+# A321178: One-half the sum of the first 2*n + 1 primes.
 
 The programs for A321178, the canonical program `A321178.P14007840561554074392` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321178 has offset 0).
 
@@ -8417,7 +8418,7 @@ end A321192.P11944248911700953773
 /-!
 # A321193: Even numbers with no more than one odd prime factor, not counting multiplicity.
 
-The programs for A321193, the canonical program `A321193.P431441058952180868` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321193 has offset 1).
+The programs for A321193, the canonical program `A321193.P431441058952180868` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A321193 has offset 1).
 
 The definition of A321193 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8455,7 +8456,7 @@ end A321193
 
 `2*(lt[A001221(2*(n+1)), 3]+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A321193

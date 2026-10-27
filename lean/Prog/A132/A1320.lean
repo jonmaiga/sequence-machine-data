@@ -47,17 +47,18 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -69,9 +70,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -210,7 +208,7 @@ end A132000.P10372957927625573306
 /-!
 # A132001: Expansion of 1 - (1/3) * b(q) * b(q^2) * c(q)^2 / c(q^2) in powers of q where b(), c() are cubic AGM functions.
 
-The programs for A132001, the canonical program `A132001.P4609221565505308167` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132001 has offset 1).
+The programs for A132001, the canonical program `A132001.P4609221565505308167` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132001 has offset 1).
 
 The definition of A132001 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -435,7 +433,7 @@ end A132001
 
 `∑{d}[n+1, #*A100050(#)]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A132001
@@ -1689,7 +1687,7 @@ end
 end A132009.P12440163075513059987
 
 /-!
-# A132011: Number of partitions of n into distinct parts such that 3*u<=v for all pairs (u,v) of parts with u
+# A132011: Number of partitions of n into distinct parts such that 3*u<=v for all pairs (u,v) of parts with u<v.
 
 The programs for A132011, there is no canonical definition to state claims against.
 -/
@@ -2862,7 +2860,7 @@ def P15094898656190436743.Spec : Prop :=
 end A132014
 
 /-!
-# A132015: Number of partitions of n into distinct parts such that u^2 < v for all pairs (u,v) of parts with u
+# A132015: Number of partitions of n into distinct parts such that u^2 < v for all pairs (u,v) of parts with u<v.
 
 The programs for A132015, there is no canonical definition to state claims against.
 -/
@@ -4551,7 +4549,7 @@ end A132043.P16474001438953282035
 /-!
 # A132044: Triangle T(n,k) = binomial(n, k) - 1 with T(n,0) = T(n,n) = 1, read by rows.
 
-The programs for A132044, the canonical program `A132044.P15988424649038964214` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132044 has offset 0).
+The programs for A132044, the canonical program `A132044.P15988424649038964214` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132044 has offset 0).
 
 The definition of A132044 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4583,7 +4581,7 @@ end A132044
 
 `floor(sqrt(A007318(n)²+4))-1`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A132044
@@ -9434,7 +9432,7 @@ end A132076.P12071795023345621960
 /-!
 # A132077: Numbers having in decimal representation exactly the same number of distinct digits as number of divisors.
 
-The programs for A132077, the canonical program `A132077.P1434144127974677461` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132077 has offset 1).
+The programs for A132077, the canonical program `A132077.P1434144127974677461` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132077 has offset 1).
 
 The definition of A132077 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1255 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9443,7 +9441,7 @@ The definition of A132077 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A000005(n+1), A043537(n+1)]+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A132077
@@ -10528,7 +10526,7 @@ end A132083.P10041292273864119171
 /-!
 # A132084: A051717(2n).
 
-The programs for A132084, the canonical program `A132084.P7606522136446694232` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132084 has offset 0).
+The programs for A132084, the canonical program `A132084.P7606522136446694232` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132084 has offset 0).
 
 The definition of A132084 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 646 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10658,7 +10656,7 @@ end A132084
 
 `2*A001897(n)/A141044(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A132084
@@ -10995,7 +10993,7 @@ def P10549993020737296078.Spec : Prop :=
 end A132084
 
 /-!
-# A132085: Number of partitions of n into distinct parts such that (u+1)^2 <= v for all pairs (u,v) of parts with u
+# A132085: Number of partitions of n into distinct parts such that (u+1)^2 <= v for all pairs (u,v) of parts with u<v.
 
 The programs for A132085, there is no canonical definition to state claims against.
 -/
@@ -12211,7 +12209,7 @@ end A132094.P16077138650089779887
 /-!
 # A132095: Denominators of expansion of e.g.f. x^2/(2*(cos(x)-1)), even powers only.
 
-The programs for A132095, the canonical program `A132095.P11457684862104196906` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132095 has offset 0).
+The programs for A132095, the canonical program `A132095.P11457684862104196906` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132095 has offset 0).
 
 The definition of A132095 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12220,7 +12218,7 @@ The definition of A132095 is `conjectured`: the Lean definition is a formula tha
 
 `A176591(2*n)/gcd(A014681(2*n), A176591(2*n))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A132095

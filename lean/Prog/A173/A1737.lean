@@ -53,6 +53,7 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -60,10 +61,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -71,11 +74,7 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2800,87 +2799,6 @@ def P7145138456292458313.Spec : Prop :=
   ∀ n, P7145138456292458313.a n = A173714 n
 
 end A173714
-
-/-!
-# A173715: Number of minimally rigid n x n adjacency matrices of sphere packings in R^3.
-
-The programs for A173715, there is no canonical definition to state claims against.
--/
-
-/-! ## A173715.P12554016893889268981
-
-`A174424(n+1)+A174423(n+1)`
--/
-
-namespace A173715.P12554016893889268981
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A174424 (n + 1) + A174423 (n + 1)
-
-end
-
-end A173715.P12554016893889268981
-
-/-! ## A173715.P13684583418034514325
-
-`A376788(A253889(n+1))+A174423(n+1)`
--/
-
-namespace A173715.P13684583418034514325
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A376788 (A253889 (n + 1)).toNat + A174423 (n + 1)
-
-end
-
-end A173715.P13684583418034514325
-
-/-! ## A173715.P4699301039721915565
-
-`A174423(n+1)+A291252(n)%A124740(n+1)`
--/
-
-namespace A173715.P4699301039721915565
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A174423 (n + 1) + Int.tmod (A291252 n) (A124740 (n + 1))
-
-end
-
-end A173715.P4699301039721915565
-
-/-! ## A173715.P2991199919362843107
-
-`A174423(n+1)+C(A099560(n), A241283(n+1)%5)`
--/
-
-namespace A173715.P2991199919362843107
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A174423 (n + 1) + (Nat.choose (A099560 n).toNat (Int.tmod (A241283 (n + 1)) 5).toNat : ℤ)
-
-end
-
-end A173715.P2991199919362843107
-
-/-! ## A173715.P11302024407186974355
-
-`A174423(n+1)+round(A036679(n)/A260687(n+5)²)`
--/
-
-namespace A173715.P11302024407186974355
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A174423 (n + 1) + SequenceMachineLib.roundAway ((A036679 n : ℚ) / (A260687 (n + 5) ^ 2 : ℚ))
-
-end
-
-end A173715.P11302024407186974355
 
 /-!
 # A173718: Numbers n such that (9^n - 2^n)/7 is prime.
@@ -8585,7 +8503,7 @@ end A173742
 /-!
 # A173743: Numbers k such that phi(tau(k)) = tau(rad(k)).
 
-The programs for A173743, the canonical program `A173743.P4929656854599200138` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173743 has offset 1).
+The programs for A173743, the canonical program `A173743.P4929656854599200138` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173743 has offset 1).
 
 The definition of A173743 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1429 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8594,7 +8512,7 @@ The definition of A173743 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A034444(n+1), A163109(n+1)]+1`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A173743
@@ -14485,7 +14403,7 @@ end A173785
 /-!
 # A173786: Triangle read by rows: T(n,k) = 2^n + 2^k, 0 <= k <= n.
 
-The programs for A173786, the canonical program `A173786.P17698000632262255612` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173786 has offset 0).
+The programs for A173786, the canonical program `A173786.P17698000632262255612` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173786 has offset 0).
 
 The definition of A173786 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048645, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -14544,7 +14462,7 @@ end A173786
 
 `A048645(n+2)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A173786

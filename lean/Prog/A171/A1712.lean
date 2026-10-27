@@ -41,6 +41,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -50,20 +51,17 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
-import Seq.B008.C000
+import Seq.B007.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2526,7 +2524,7 @@ end A171227.P17549299249142435185
 /-!
 # A171228: n^(p-n) where p is smallest prime > n.
 
-The programs for A171228, the canonical program `A171228.P4419088175126916163` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171228 has offset 0).
+The programs for A171228, the canonical program `A171228.P4419088175126916163` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171228 has offset 0).
 
 The definition of A171228 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1327 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2535,7 +2533,7 @@ The definition of A171228 is `conjectured`: the Lean definition is a formula tha
 
 `n^A013632(n)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A171228
@@ -3326,7 +3324,7 @@ end A171231
 /-!
 # A171232: Array read by antidiagonals, T(n,k) = 2*(n/k) - 1, if n mod k = 0; otherwise, T(n,k) = 1.
 
-The programs for A171232, the canonical program `A171232.P120387607848267038` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171232 has offset 1).
+The programs for A171232, the canonical program `A171232.P120387607848267038` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171232 has offset 1).
 
 The definition of A171232 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3617,7 +3615,7 @@ end A171232
 
 `A004277(A003988(n+1)*A077049(n+1))-A077049(n+1)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A171232
@@ -4011,7 +4009,7 @@ end A171234.P14223613947280612920
 /-!
 # A171235: Solutions to the equation M(n) = -4 (M = Mertens's function A002321).
 
-The programs for A171235, the canonical program `A171235.P3919789132326738972` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171235 has offset 1).
+The programs for A171235, the canonical program `A171235.P3919789132326738972` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171235 has offset 1).
 
 The definition of A171235 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1064 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4020,7 +4018,7 @@ The definition of A171235 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A008683(n)+a(n-1)]` with `a(0)=4`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A171235
@@ -4270,7 +4268,7 @@ end A171235
 /-!
 # A171236: Solutions to the equation M(n) = -5 (M = Mertens's function A002321).
 
-The programs for A171236, the canonical program `A171236.P17951238614423559107` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171236 has offset 1).
+The programs for A171236, the canonical program `A171236.P17951238614423559107` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171236 has offset 1).
 
 The definition of A171236 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1036 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4279,7 +4277,7 @@ The definition of A171236 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A008683(n)+a(n-1)]` with `a(0)=5`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A171236
@@ -5073,21 +5071,6 @@ end
 
 end A171239.P10776243809366670819
 
-/-! ## A171239.P10567410989800090506
-
-`A002260(n+1)*A351202(A131031(n))`
--/
-
-namespace A171239.P10567410989800090506
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002260 (n + 1) * A351202 (A131031 n).toNat
-
-end
-
-end A171239.P10567410989800090506
-
 /-! ## A171239.P16914742443043808730
 
 `A001222(A340316(n+1)^A101566(n))`
@@ -5121,7 +5104,7 @@ end A171239.P14774651598589646392
 /-!
 # A171240: a(n) = n^d+d^n where d = A013632(n) is the distance to the next prime.
 
-The programs for A171240, the canonical program `A171240.P10536427391965387438` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171240 has offset 1).
+The programs for A171240, the canonical program `A171240.P10536427391965387438` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171240 has offset 1).
 
 The definition of A171240 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 112 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5130,7 +5113,7 @@ The definition of A171240 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)^A013632(n+1)+A013632(n+1)^(n+1)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A171240
@@ -6584,7 +6567,7 @@ end A171260.P1944605605416054196
 /-!
 # A171262: Numbers k such that phi(k) = 2*phi(k+1).
 
-The programs for A171262, the canonical program `A171262.P14994919271324457303` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171262 has offset 1).
+The programs for A171262, the canonical program `A171262.P14994919271324457303` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A171262 has offset 1).
 
 The definition of A171262 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 389 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6593,7 +6576,7 @@ The definition of A171262 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2*A000010(n+2), A000010(n+1)]+1`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A171262
@@ -6964,7 +6947,7 @@ def P16331930039640359694.Spec : Prop :=
 end A171270
 
 /-!
-# A171271: Numbers n such that phi(n)=2*phi(n-1).
+# A171271: Numbers k such that phi(k) = 2*phi(k-1).
 
 The programs for A171271, there is no canonical definition to state claims against.
 -/

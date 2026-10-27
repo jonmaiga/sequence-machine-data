@@ -44,19 +44,23 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,10 +72,8 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B011.C000
+import Seq.B010.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1220,7 +1222,7 @@ end A246916
 /-!
 # A246920: The number of distinct lengths of nontrivial integral cevians of an equilateral triangle of side n that divide an edge into two integral parts.
 
-The programs for A246920, the canonical program `A246920.P9162283999492987608` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246920 has offset 1).
+The programs for A246920, the canonical program `A246920.P9162283999492987608` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246920 has offset 1).
 
 The definition of A246920 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1252,7 +1254,7 @@ end A246920
 
 `A115878(A038502(n+1))+A115878(n+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A246920
@@ -7507,7 +7509,7 @@ end A246959.P4437194423740170537
 /-!
 # A246960: Directions of the lines in the (Heighway) Dragon Curve.
 
-The programs for A246960, the canonical program `A246960.P13943913027465924161` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246960 has offset 0).
+The programs for A246960, the canonical program `A246960.P13943913027465924161` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A246960 has offset 0).
 
 The definition of A246960 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7545,7 +7547,7 @@ end A246960
 
 `A005811(n)%4`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A246960
@@ -9171,21 +9173,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A246984.P5842431408458321426
-
-/-! ## A246984.P17834094602075145076
-
-`A102530(A102526(n+2))-A332815(n)`
--/
-
-namespace A246984.P17834094602075145076
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A102530 (A102526 (n + 2)).toNat - A332815 n
-
-end
-
-end A246984.P17834094602075145076
 
 /-! ## A246984.P13780920377850224191
 

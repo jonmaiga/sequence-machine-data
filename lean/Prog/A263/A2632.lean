@@ -37,29 +37,32 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -598,7 +601,7 @@ end A263200
 /-!
 # A263204: Number of twin prime pairs between n^2 and (n+2)^2.
 
-The programs for A263204, the canonical program `A263204.P2115118568935714077` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263204 has offset 1).
+The programs for A263204, the canonical program `A263204.P2115118568935714077` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263204 has offset 1).
 
 The definition of A263204 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 314 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -607,7 +610,7 @@ The definition of A263204 is `conjectured`: the Lean definition is a formula tha
 
 `A071538((n+3)²)-A071538((n+1)²)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A263204
@@ -9163,7 +9166,7 @@ end A263296.P4321190952103224591
 /-!
 # A263297: The greater of bigomega(n) and maximal prime index in the prime factorization of n.
 
-The programs for A263297, the canonical program `A263297.P13367388864379357855` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263297 has offset 1).
+The programs for A263297, the canonical program `A263297.P13367388864379357855` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263297 has offset 1).
 
 The definition of A263297 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6074 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9189,12 +9192,6 @@ namespace A263297
 def P8379474612760603380.Spec : Prop :=
   ∀ n, P8379474612760603380.a n = A263297 (n + 1)
 
-theorem P8379474612760603380.correct : P8379474612760603380.Spec := by
-  intro n
-  simp only [A263297, Nat.add_sub_cancel, A263297.P8379474612760603380.a, A263297.P13367388864379357855.a, A000265, A000265.P2772582252347773295.a, A056239, A056239.P11316688788989965672.a, A061395, A061395.P8431317036300486107.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, A325223, A325223.P14926081058052058470.a, A003602, A003602.P7612175048291952394.a, A008578, A008578.P3639467937083264764.a, A029837, A029837.P1050578713049589.a, A087207, A087207.P12536008426233777954.a, A156552, A156552.P4268073137713085227.a, A161511, A161511.P16266007976091900386.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A048896, A048896.P6461019053085857547.a, A110963, A110963.P3344771894533151408.a, A158611, A158611.P9275629407611603775.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A025480, A025480.P15873863116418380882.a, A048881, A048881.P16567064232951496228.a, A297108, A297108.P15990807296291497671.a, A364557, A364557.P16113127302810243144.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A263297
 
 /-! ## A263297.P12070635949358953050
@@ -9218,19 +9215,13 @@ namespace A263297
 def P12070635949358953050.Spec : Prop :=
   ∀ n, P12070635949358953050.a n = A263297 (n + 1)
 
-theorem P12070635949358953050.correct : P12070635949358953050.Spec := by
-  intro n
-  simp only [A263297, Nat.add_sub_cancel, A263297.P12070635949358953050.a, A263297.P13367388864379357855.a, A000265, A000265.P2772582252347773295.a, A001222, A001222.P11318177267732088261.a, A061395, A061395.P8431317036300486107.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, A325225, A325225.P14443977259877716091.a, A003602, A003602.P7612175048291952394.a, A008578, A008578.P3639467937083264764.a, A029837, A029837.P1050578713049589.a, A087207, A087207.P12536008426233777954.a, A122111, A122111.P18124015185857335041.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A064989, A064989.P13349672914146769936.a, A110963, A110963.P3344771894533151408.a, A158611, A158611.P9275629407611603775.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A025480, A025480.P15873863116418380882.a, A052126, A052126.P1944428405920482243.a, A297108, A297108.P15990807296291497671.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A263297
 
 /-! ## A263297.P13367388864379357855
 
 `A061395(A000265(n+1)*A105560(n+1))`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A263297

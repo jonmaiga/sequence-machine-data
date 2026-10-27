@@ -34,18 +34,21 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C002
+import Seq.B003.C001
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -55,8 +58,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1091,7 +1092,7 @@ end A265804
 /-!
 # A265805: Coefficient of x in minimal polynomial of the continued fraction [1^n,5,1,1,1,...], where 1^n means n ones.
 
-The programs for A265805, the canonical program `A265805.P10099621625771147693` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265805 has offset 0).
+The programs for A265805, the canonical program `A265805.P10099621625771147693` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265805 has offset 0).
 
 The definition of A265805 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 236 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1100,7 +1101,7 @@ The definition of A265805 is `conjectured`: the Lean definition is a formula tha
 
 `A265804(n)-Δ[A265804(n+1)]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A265805
@@ -5834,7 +5835,7 @@ end A265889.P1525871956797723548
 /-!
 # A265890: Array read by ascending antidiagonals: A(n,k) = A099563(A265609(n,k)), with n as row >= 0, k as column >= 0; the most significant digit in the factorial base representation of rising factorial n^(k) = (n+k-1)!/(n-1)!.
 
-The programs for A265890, the canonical program `A265890.P7956634040998674457` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265890 has offset 0).
+The programs for A265890, the canonical program `A265890.P7956634040998674457` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265890 has offset 0).
 
 The definition of A265890 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A099563, A265609, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5843,7 +5844,7 @@ The definition of A265890 is `conditional`: the Lean definition is an OEIS formu
 
 `A099563(A265609(n))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A265890

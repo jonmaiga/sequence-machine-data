@@ -17,31 +17,29 @@ import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C006
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C007
+import Seq.B002.C006
+import Seq.B002.C008
 import Seq.B003.C000
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C000
+import Seq.B003.C005
 import Seq.B004.C003
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C003
@@ -993,7 +991,7 @@ end A388268.P11833222503671910556
 /-!
 # A388270: a(n) = d(n) * gcd(n, sigma(n)), where d is the number of divisors function (A000005), and sigma is the sum of divisors.
 
-The programs for A388270, the canonical program `A388270.P10233009455192801401` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388270 has offset 1).
+The programs for A388270, the canonical program `A388270.P10233009455192801401` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388270 has offset 1).
 
 The definition of A388270 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1002,7 +1000,7 @@ The definition of A388270 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000005(n+1)*A009194(n+1)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A388270
@@ -1858,7 +1856,7 @@ end A388282.P902685135472657378
 /-!
 # A388283: Numerator of (3*n - sigma(n)) / n.
 
-The programs for A388283, the canonical program `A388283.P448465908817760903` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388283 has offset 1).
+The programs for A388283, the canonical program `A388283.P448465908817760903` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388283 has offset 1).
 
 The definition of A388283 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1867,7 +1865,7 @@ The definition of A388283 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A033885(n+1)/A009194(n+1)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A388283
@@ -2157,7 +2155,7 @@ end A388285.P13216885670173711987
 /-!
 # A388286: Möbius transform of A325973, where A325973 is the arithmetic mean of {sum of unitary divisors} and {sum of squarefree divisors}.
 
-The programs for A388286, the canonical program `A388286.P13565212649214377843` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388286 has offset 1).
+The programs for A388286, the canonical program `A388286.P13565212649214377843` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388286 has offset 1).
 
 The definition of A388286 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A055615, A254503, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2189,7 +2187,7 @@ end A388286
 
 `1/2*(A254503(n+1)+abs(A055615(n+1)))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A388286
@@ -2273,7 +2271,7 @@ def P8521154244551253808.Spec : Prop :=
 end A388286
 
 /-!
-# A388289: One half of the even Markoff nunbers.
+# A388289: One half of the even Markoff numbers.
 
 The programs for A388289, there is no canonical definition to state claims against.
 -/

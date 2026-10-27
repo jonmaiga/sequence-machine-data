@@ -40,16 +40,21 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -60,10 +65,8 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -488,7 +491,7 @@ end
 end A088113.P2665668773925484132
 
 /-!
-# A088114: Smallest palindrome which can be expressed as the product of n palindromes > 1 (not necessarily distinct).
+# A088114: 
 
 The programs for A088114, there is no canonical definition to state claims against.
 -/
@@ -595,7 +598,7 @@ end A088115.P3174604111346751628
 /-!
 # A088116: Let n = abc..., where a, b, c, are digits of n. a(n) = a*bc...+b*ac...+c*ab...+..., i.e., a(n) = sum, over all the digits, of the product (number obtained by deleting a digit multiplied by the deleted digit).
 
-The programs for A088116, the canonical program `A088116.P1923574354677651035` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088116 has offset 0).
+The programs for A088116, the canonical program `A088116.P1923574354677651035` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088116 has offset 0).
 
 The definition of A088116 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 110 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -604,7 +607,7 @@ The definition of A088116 is `conjectured`: the Lean definition is a formula tha
 
 `A171765(n)+A118759(A054899(n)*A217657(n))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A088116
@@ -789,7 +792,7 @@ end A088116
 /-!
 # A088117: Let the decimal expansion of n be abcd...; then a(n) = (a*bcd... + b*acd... + c*abd... + d*abc... + ...) + (ab*cd... + bc*ad... + cd*ab... + ...) + ... . That is, a(n) = sum over all the digit strings of the product (number obtained by deleting a digit string) * (deleted digit string).
 
-The programs for A088117, the canonical program `A088117.P85729162113141528` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088117 has offset 0).
+The programs for A088117, the canonical program `A088117.P85729162113141528` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088117 has offset 0).
 
 The definition of A088117 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 110 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -798,7 +801,7 @@ The definition of A088117 is `conjectured`: the Lean definition is a formula tha
 
 `A118759(A054899(n)*A217657(n))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A088117
@@ -3463,7 +3466,7 @@ def P3373515114434783108.Spec : Prop :=
 end A088139
 
 /-!
-# A088141: a(n) = the largest k such that, if k samples are taken from a group of n items, with replacement, a duplication is unlikely (p
+# A088141: a(n) = the largest k such that, if k samples are taken from a group of n items, with replacement, a duplication is unlikely (p<1/2).
 
 The programs for A088141, there is no canonical definition to state claims against.
 -/
@@ -7207,7 +7210,7 @@ end A088174.P6268665531012768803
 /-!
 # A088175: Primes such that the next two primes are a twin prime pair.
 
-The programs for A088175, the canonical program `A088175.P18306801926919079175` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088175 has offset 1).
+The programs for A088175, the canonical program `A088175.P18306801926919079175` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088175 has offset 1).
 
 The definition of A088175 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7239,7 +7242,7 @@ end A088175
 
 `A014574(n+1)-(A084290(n+1)+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A088175
@@ -7651,7 +7654,7 @@ end A088175
 /-!
 # A088176: Primes such that the previous two primes are a twin prime pair.
 
-The programs for A088176, the canonical program `A088176.P508922277924974894` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088176 has offset 1).
+The programs for A088176, the canonical program `A088176.P508922277924974894` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088176 has offset 1).
 
 The definition of A088176 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7660,7 +7663,7 @@ The definition of A088176 is `conjectured`: the Lean definition is a formula tha
 
 `A084291(n+1)+A006512(n+1)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A088176
@@ -8800,7 +8803,7 @@ end
 end A088180.P11145533287239169325
 
 /-!
-# A088181: E.g.f.: 1/(1-sinh(x)-x).
+# A088181: Expansion of e.g.f.: 1/(1-sinh(x)-x).
 
 The programs for A088181, there is no canonical definition to state claims against.
 -/
@@ -9377,7 +9380,7 @@ end A088185.P6553908206841709082
 /-!
 # A088186: Sums of twin primes and their indices.
 
-The programs for A088186, the canonical program `A088186.P11333614658990135480` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088186 has offset 0).
+The programs for A088186, the canonical program `A088186.P11333614658990135480` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088186 has offset 0).
 
 The definition of A088186 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1270 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9386,7 +9389,7 @@ The definition of A088186 is `conjectured`: the Lean definition is a formula tha
 
 `A054735(n+1)+A005408(A029707(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A088186
@@ -9496,7 +9499,7 @@ end A088186
 /-!
 # A088187: Primes that are a sum of twin primes and their indices.
 
-The programs for A088187, the canonical program `A088187.P6253673112261701668` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088187 has offset 1).
+The programs for A088187, the canonical program `A088187.P6253673112261701668` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088187 has offset 1).
 
 The definition of A088187 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 666 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9505,7 +9508,7 @@ The definition of A088187 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A088186(n)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A088187

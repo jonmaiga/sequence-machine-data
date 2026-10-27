@@ -32,15 +32,14 @@ import Seq.B001.C003
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -50,7 +49,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -981,7 +979,7 @@ end A296805
 /-!
 # A296806: Take a prime, convert it to base 2, remove its most significant digit and its least significant digit and convert it back to base 10. Sequence lists primes that generate another prime by this process.
 
-The programs for A296806, the canonical program `A296806.P9586310270846408031` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296806 has offset 1).
+The programs for A296806, the canonical program `A296806.P9586310270846408031` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296806 has offset 1).
 
 The definition of A296806 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 389 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1042,7 +1040,7 @@ end A296806
 
 `p?[A005408(n)*A032741(n-A053644(n))]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A296806
@@ -1238,7 +1236,7 @@ end A296817
 /-!
 # A296819: Maximum detour index of any bipartite graph on n nodes.
 
-The programs for A296819, the canonical program `A296819.P11695686937393646933` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296819 has offset 1).
+The programs for A296819, the canonical program `A296819.P11695686937393646933` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296819 has offset 1).
 
 The definition of A296819 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1247,7 +1245,7 @@ The definition of A296819 is `conjectured`: the Lean definition is a formula tha
 
 `ceil((n/2)²*A014601(n))`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A296819

@@ -40,11 +40,11 @@ import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
@@ -56,7 +56,7 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
@@ -65,8 +65,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -473,7 +471,7 @@ end
 end A276206.P9812102542225688940
 
 /-!
-# A276207: a(0) = a(1) = 0. For n>1 a(n) is the smallest nonnegative integer such that there is no arithmetic progression m_1,m_2,...,m_i,n (2<=i
+# A276207: a(0) = a(1) = 0. For n>1 a(n) is the smallest nonnegative integer such that there is no arithmetic progression m_1,m_2,...,m_i,n (2<=i<n) such that a(m_1)+a(m_2)+...+a(m_i) = a(n).
 
 The programs for A276207, there is no canonical definition to state claims against.
 -/
@@ -496,7 +494,7 @@ end A276207.P12794673746081883128
 /-!
 # A276208: Position of n! in the joint ranking of {2^h} and {k!}, where h >= 0, k >= 0.
 
-The programs for A276208, the canonical program `A276208.P11970610108144692030` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276208 has offset 1).
+The programs for A276208, the canonical program `A276208.P11970610108144692030` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276208 has offset 1).
 
 The definition of A276208 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -505,7 +503,7 @@ The definition of A276208 is `conjectured`: the Lean definition is a formula tha
 
 `A028310(A067850(n+1)+n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A276208
@@ -6463,7 +6461,7 @@ end A276261.P3082570626188710961
 /-!
 # A276262: Centered 22-gonal primes.
 
-The programs for A276262, the canonical program `A276262.P9385478510724947906` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276262 has offset 1).
+The programs for A276262, the canonical program `A276262.P9385478510724947906` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276262 has offset 1).
 
 The definition of A276262 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 106 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6472,7 +6470,7 @@ The definition of A276262 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A141849(n+1), A195043(n)]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A276262

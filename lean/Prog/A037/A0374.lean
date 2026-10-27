@@ -44,7 +44,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
@@ -54,9 +54,11 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -69,8 +71,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4775,7 +4775,7 @@ end A037448
 /-!
 # A037449: Discriminant of quadratic field Q(sqrt(n)).
 
-The programs for A037449, the canonical program `A037449.P5379136438379684916` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037449 has offset 1).
+The programs for A037449, the canonical program `A037449.P5379136438379684916` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037449 has offset 1).
 
 The definition of A037449 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4807,7 +4807,7 @@ end A037449
 
 `lcm(A014709(n)², A302138(A007913(n+1)))`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A037449
@@ -6921,7 +6921,7 @@ end A037454.P5209388827676328786
 /-!
 # A037455: a(n)=Sum{d(i)*7^i: i=0,1,...,m}, where Sum{d(i)*3^i: i=0,1,...,m} is the base 3 representation of n.
 
-The programs for A037455, the canonical program `A037455.P4163353995444016703` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037455 has offset 0).
+The programs for A037455, the canonical program `A037455.P4163353995444016703` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037455 has offset 0).
 
 The definition of A037455 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 486 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6956,7 +6956,7 @@ end A037455
 
 `record[gcd(A037466(2*n), A037466(n))]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A037455
@@ -10213,7 +10213,7 @@ end A037466
 /-!
 # A037467: Sum{d(i)*8^i: i=0,1,...,m}, where Sum{d(i)*5^i: i=0,1,...,m} is the base 5 representation of n.
 
-The programs for A037467, the canonical program `A037467.P2964122890397976009` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037467 has offset 0).
+The programs for A037467, the canonical program `A037467.P2964122890397976009` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037467 has offset 0).
 
 The definition of A037467 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2655 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10305,7 +10305,7 @@ end A037467
 
 `A037474(A037466(n))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A037467
@@ -10569,7 +10569,7 @@ end A037467
 /-!
 # A037468: a(n)=Sum{d(i)*9^i: i=0,1,...,m}, where Sum{d(i)*5^i: i=0,1,...,m} is the base 5 representation of n.
 
-The programs for A037468, the canonical program `A037468.P8981474126117510266` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037468 has offset 0).
+The programs for A037468, the canonical program `A037468.P8981474126117510266` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037468 has offset 0).
 
 The definition of A037468 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2654 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10601,7 +10601,7 @@ end A037468
 
 `A037475(A037466(n))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A037468

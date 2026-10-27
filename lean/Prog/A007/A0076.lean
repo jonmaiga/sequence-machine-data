@@ -58,25 +58,24 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4227,7 +4226,7 @@ end A007616.P5729719104869242831
 /-!
 # A007617: Values not in range of Euler phi function.
 
-The programs for A007617, the canonical program `A007617.P12649734713111644015` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007617 has offset 1).
+The programs for A007617, the canonical program `A007617.P12649734713111644015` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007617 has offset 1).
 
 The definition of A007617 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4317,7 +4316,7 @@ end A007617
 
 `comp[A000010(n+1)-1]+1`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A007617
@@ -6911,7 +6910,7 @@ end
 end A007628.P5078229956177013468
 
 /-!
-# A007629: Keith numbers, or Repfigit (REPlicating FIbonnaci diGIT) numbers.
+# A007629: Keith numbers, or Repfigit (REPlicating FIbonacci diGIT) numbers.
 
 The programs for A007629, there is no canonical definition to state claims against.
 -/
@@ -6969,7 +6968,7 @@ end
 end A007629.P13033819975435027470
 
 /-!
-# A007630: A queens problem.
+# A007630: 
 
 The programs for A007630, there is no canonical definition to state claims against.
 -/
@@ -8590,7 +8589,7 @@ end A007639
 /-!
 # A007640: Numbers k such that 2*k^2 - 2*k + 19 is composite.
 
-The programs for A007640, the canonical program `A007640.P6533582036686519537` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007640 has offset 1).
+The programs for A007640, the canonical program `A007640.P6533582036686519537` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007640 has offset 1).
 
 The definition of A007640 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 106 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8715,7 +8714,7 @@ end A007640
 
 `eq[0, A010051(A051890(n)+17)]`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A007640
@@ -13787,7 +13786,7 @@ end A007674
 /-!
 # A007675: Numbers m such that m, m+1 and m+2 are squarefree.
 
-The programs for A007675, the canonical program `A007675.P4991608707947414915` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007675 has offset 1).
+The programs for A007675, the canonical program `A007675.P4991608707947414915` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007675 has offset 1).
 
 The definition of A007675 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6285 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13812,12 +13811,6 @@ namespace A007675
 /-- `A228649(n+1)-1` -/
 def P5022685015753051496.Spec : Prop :=
   ∀ n, P5022685015753051496.a n = A007675 (n + 1)
-
-theorem P5022685015753051496.correct : P5022685015753051496.Spec := by
-  intro n
-  simp only [A007675, Nat.add_sub_cancel, A007675.P5022685015753051496.a, A007675.P4991608707947414915.f1, A007675.P4991608707947414915.f2, A007675.P4991608707947414915.a, A008683, A008683.P18254306604665478110.a, A228649, A228649.P13260817488648530651.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A085357, A085357.P3258697467278337073.a, A106400, A106400.P11201390576172776043.a, A005940, A005940.P5942875842694471387.a, A008966, A008966.P884693903657889754.a, A010060, A010060.P3080921269106500717.a, A364557, A364557.P16113127302810243144.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A007675
 
@@ -13894,7 +13887,7 @@ end A007675
 
 `eq[2, n+1-lcm(a(n-1), A008683(n+2))]` with `a(0)=0`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A007675

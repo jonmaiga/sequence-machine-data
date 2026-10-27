@@ -45,6 +45,7 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -54,8 +55,9 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,7 +72,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -927,7 +928,7 @@ end A339215.P3227040045883524289
 /-!
 # A339216: Numbers k such that k and k+2 are both binary self numbers (A010061).
 
-The programs for A339216, the canonical program `A339216.P9172300973887636102` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339216 has offset 1).
+The programs for A339216, the canonical program `A339216.P9172300973887636102` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339216 has offset 1).
 
 The definition of A339216 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4022 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -966,7 +967,7 @@ end A339216
 
 `A010061(eq[2, A010061(n+2)-A010061(n+1)]+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A339216
@@ -1100,7 +1101,7 @@ end A339216
 /-!
 # A339217: a(n) = Sum_{k=1..n} floor((2*n-k)/k).
 
-The programs for A339217, the canonical program `A339217.P11568586104941741007` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339217 has offset 0).
+The programs for A339217, the canonical program `A339217.P11568586104941741007` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339217 has offset 0).
 
 The definition of A339217 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1132,7 +1133,7 @@ end A339217
 
 `A099055(n)-Δ[n²]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A339217
@@ -3315,7 +3316,7 @@ end A339246.P10910321252136973617
 /-!
 # A339247: The primes that yield twice a prime when each bit of their binary expansion is inverted.
 
-The programs for A339247, the canonical program `A339247.P7181091707471005680` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339247 has offset 1).
+The programs for A339247, the canonical program `A339247.P7181091707471005680` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339247 has offset 1).
 
 The definition of A339247 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 392 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3376,7 +3377,7 @@ end A339247
 
 `p?[(2*n+1)*A032741(n-A006257(n))]`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A339247

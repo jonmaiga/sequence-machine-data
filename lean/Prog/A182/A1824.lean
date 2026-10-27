@@ -49,30 +49,30 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -105,7 +105,7 @@ set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
 
 /-!
-# A182400: Integral factorial ratio sequence: a(n) = (2*n)!*(8*n)!/(n!*(4*n)!*(5*n)!).
+# A182400: a(n) = (2*n)!*(8*n)!/(n!*(4*n)!*(5*n)!).
 
 The programs for A182400, the canonical program `A182400.P8312788928048292282` is in `Seq.B000.C026`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182400 has offset 0).
 
@@ -222,7 +222,7 @@ end A182400
 /-!
 # A182401: Number of paths from (0,0) to (n,0), never going below the x-axis, using steps U=(1,1), H=(1,0) and D=(1,-1), where the H steps come in five colors.
 
-The programs for A182401, the canonical program `A182401.P6929664157933137665` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182401 has offset 0).
+The programs for A182401, the canonical program `A182401.P6929664157933137665` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182401 has offset 0).
 
 The definition of A182401 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 122 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -231,7 +231,7 @@ The definition of A182401 is `conjectured`: the Lean definition is a formula tha
 
 `A125906(∑[n])`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A182401
@@ -3554,7 +3554,7 @@ end A182433.P13864176059230816194
 /-!
 # A182434: Number of primes p < n such that 4*p+1 is also prime.
 
-The programs for A182434, the canonical program `A182434.P10432546062453886706` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182434 has offset 1).
+The programs for A182434, the canonical program `A182434.P10432546062453886706` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182434 has offset 1).
 
 The definition of A182434 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3675,7 +3675,7 @@ end A182434
 
 `∑[and(A061007(n+1), A101264(2*(n+1)))]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A182434
@@ -6503,7 +6503,7 @@ end A182458
 /-!
 # A182459: a(n) is the number of initial persons such that the n-th person survives in the duck-duck-goose game.
 
-The programs for A182459, the canonical program `A182459.P10129799007268171558` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182459 has offset 1).
+The programs for A182459, the canonical program `A182459.P10129799007268171558` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182459 has offset 1).
 
 The definition of A182459 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A081615, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6512,7 +6512,7 @@ The definition of A182459 is `conditional`: the Lean definition is an OEIS formu
 
 `A081615(n+1)-1`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A182459
@@ -10771,7 +10771,7 @@ end A182469.P8786015143789145752
 /-!
 # A182471: If n = Product (p_j^k_j), j=1 to m, then a(n) = Floor( Sum (p_j + k_j) / 2m ) (a(1) = 0 by convention).
 
-The programs for A182471, the canonical program `A182471.P3637716054381294582` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182471 has offset 1).
+The programs for A182471, the canonical program `A182471.P3637716054381294582` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A182471 has offset 1).
 
 The definition of A182471 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10780,7 +10780,7 @@ The definition of A182471 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A008474(n+1)/A000026(A034444(n+1)))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A182471

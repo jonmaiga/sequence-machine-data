@@ -41,14 +41,14 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
@@ -56,11 +56,11 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6142,7 +6142,7 @@ end
 end A205371.P5896084288454319751
 
 /-!
-# A205372: Least s(k) such that n divides s(k)-s(j) for some j
+# A205372: Least s(k) such that n divides s(k)-s(j) for some j<k, where s=A024675.
 
 The programs for A205372, there is no canonical definition to state claims against.
 -/
@@ -6765,7 +6765,7 @@ end
 end A205377.P11355357611190448918
 
 /-!
-# A205378: Least k such that n divides s(k)-s(j) for some j
+# A205378: Least k such that n divides s(k)-s(j) for some j<k, where s(j)=(2j-1)^2.
 
 The programs for A205378, there is no canonical definition to state claims against.
 -/
@@ -6891,7 +6891,7 @@ end
 end A205378.P1603763882111352643
 
 /-!
-# A205379: The index j
+# A205379: The index j<k such that n divides s(k)-s(j) for some j, where s(j)=(2j-1)^2.
 
 The programs for A205379, there is no canonical definition to state claims against.
 -/
@@ -7077,7 +7077,7 @@ end
 end A205379.P5362380506422981634
 
 /-!
-# A205380: Least s(k) such that n divides s(k)-s(j) for some j
+# A205380: Least s(k) such that n divides s(k)-s(j) for some j<k, where s(j)=(2j-1)^2.
 
 The programs for A205380, there is no canonical definition to state claims against.
 -/
@@ -8072,7 +8072,7 @@ end
 end A205385.P3939989817164306693
 
 /-!
-# A205386: Least k such that n divides s(k)-s(j) for some j
+# A205386: Least k such that n divides s(k)-s(j) for some j<k, where s(j)=(1/2)C(2j,j).
 
 The programs for A205386, there is no canonical definition to state claims against.
 -/
@@ -8273,7 +8273,7 @@ end
 end A205386.P7381581669152666720
 
 /-!
-# A205387: The index j
+# A205387: The index j<k such that n divides s(k)-s(j) for some j, where s(j)=(1/2)C(2j,j).
 
 The programs for A205387, there is no canonical definition to state claims against.
 -/
@@ -8369,7 +8369,7 @@ end
 end A205387.P9593470155393442763
 
 /-!
-# A205388: Least s(k) such that n divides s(k)-s(j) for some j
+# A205388: Least s(k) such that n divides s(k)-s(j) for some j<k, where s(j)=(1/2)C(2j,j).
 
 The programs for A205388, there is no canonical definition to state claims against.
 -/
@@ -9241,7 +9241,7 @@ def P18242760237975072472.Spec : Prop :=
 end A205392
 
 /-!
-# A205394: Least k such that n divides s(k)-s(j) for some j
+# A205394: Least k such that n divides s(k)-s(j) for some j<k, where s(j)=ceiling(j^2/2).
 
 The programs for A205394, there is no canonical definition to state claims against.
 -/
@@ -9382,7 +9382,7 @@ end
 end A205394.P12000355837301201416
 
 /-!
-# A205395: The index j
+# A205395: The index j<k such that n divides s(k)-s(j) for some j, where s(j)=ceiling(j^2/2), and k is the least index for which such an index j exists.
 
 The programs for A205395, there is no canonical definition to state claims against.
 -/
@@ -9568,7 +9568,7 @@ end
 end A205395.P10404327366998054453
 
 /-!
-# A205396: Least s(k) such that n divides s(k)-s(j) for some j
+# A205396: Least s(k) such that n divides s(k)-s(j) for some j<k, where s(j)=ceiling(j^2/2).
 
 The programs for A205396, there is no canonical definition to state claims against.
 -/

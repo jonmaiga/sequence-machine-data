@@ -53,7 +53,7 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B005.C001
@@ -64,8 +64,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2944,7 +2942,7 @@ end A174726.P4209269181056450238
 /-!
 # A174727: a(n) = A091137(n+1)/(n+1).
 
-The programs for A174727, the canonical program `A174727.P14657394569459786489` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174727 has offset 0).
+The programs for A174727, the canonical program `A174727.P14657394569459786489` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174727 has offset 0).
 
 The definition of A174727 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A091137, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2953,7 +2951,7 @@ The definition of A174727 is `conditional`: the Lean definition is an OEIS formu
 
 `A091137(n+1)/(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A174727
@@ -9738,7 +9736,7 @@ end A174792
 /-!
 # A174793: Triangle read by rows: R(n,k) = n mod 2^Omega(k), where Omega( ) is number of prime divisors counted with multiplicity and 1 <= k <= n.
 
-The programs for A174793, the canonical program `A174793.P12417411942468083534` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174793 has offset 1).
+The programs for A174793, the canonical program `A174793.P12417411942468083534` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174793 has offset 1).
 
 The definition of A174793 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9747,7 +9745,7 @@ The definition of A174793 is `conditional`: the Lean definition is an OEIS formu
 
 `(row(n)+1)%(2^A001222(col(n)+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A174793
@@ -10619,69 +10617,6 @@ end A174798.P12848277246144787328
 
 The programs for A174799, there is no canonical definition to state claims against.
 -/
-
-/-! ## A174799.P16087634278352815708
-
-`∑[A024935(n+2)]`
--/
-
-namespace A174799.P16087634278352815708
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A024935 (n + 2)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A174799.P16087634278352815708
-
-/-! ## A174799.P1142868295183514981
-
-`a(n-1)+A024935(n+2)+A000007(n)` with `a(0)=1`
--/
-
-namespace A174799.P1142868295183514981
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  a (n - 1) + (A024935 (n + 2) + A000007 n)
-
-end
-
-end A174799.P1142868295183514981
-
-/-! ## A174799.P15610433774789855522
-
-`A024935(n+2)+A000041(C(2, n+2))*a(n-1)` with `a(0)=1`
--/
-
-namespace A174799.P15610433774789855522
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A024935 (n + 2) + A000041 (Nat.choose 2 (n + 2)) * a (n - 1)
-
-end
-
-end A174799.P15610433774789855522
-
-/-! ## A174799.P16371650442524122337
-
-`A028310(a(n-1))+A024935(n+2)` with `a(0)=1`
--/
-
-namespace A174799.P16371650442524122337
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1] fun n a =>
-  A028310 (a (n - 1)).toNat + A024935 (n + 2)
-
-end
-
-end A174799.P16371650442524122337
 
 /-! ## A174799.P17455266293403763652
 

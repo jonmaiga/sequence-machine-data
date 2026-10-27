@@ -45,17 +45,16 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -69,9 +68,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3712,7 +3708,7 @@ end
 end A260332.P4732405348173521479
 
 /-!
-# A260335: Prime determinants of forms with class number > 2.
+# A260335: Prime determinants of forms with class number greater than 2.
 
 The programs for A260335, there is no canonical definition to state claims against.
 -/
@@ -6133,7 +6129,7 @@ end A260373
 /-!
 # A260374: The distance between n! and the nearest perfect square.
 
-The programs for A260374, the canonical program `A260374.P11691029667165819522` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260374 has offset 0).
+The programs for A260374, the canonical program `A260374.P11691029667165819522` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260374 has offset 0).
 
 The definition of A260374 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6165,7 +6161,7 @@ end A260374
 
 `abs(n!-A260373(n))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A260374
@@ -6825,7 +6821,7 @@ end A260378.P4948433066648220908
 /-!
 # A260379: Primes having only {1, 3, 7} as digits.
 
-The programs for A260379, the canonical program `A260379.P15405294900718504998` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260379 has offset 1).
+The programs for A260379, the canonical program `A260379.P15405294900718504998` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A260379 has offset 1).
 
 The definition of A260379 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1552 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6924,7 +6920,7 @@ end A260379
 
 `∩[A091633(n+1), A386025(n+1)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A260379

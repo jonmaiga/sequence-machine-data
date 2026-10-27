@@ -17,6 +17,7 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
+import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
@@ -35,33 +36,38 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B006.C001
+import Seq.B005.C002
+import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -481,7 +487,7 @@ end A120105.P15116862773945417804
 /-!
 # A120106: a(n) = Sum_{k=0..n} lcm(1..2n+2)/lcm(1..2k+2).
 
-The programs for A120106, the canonical program `A120106.P17285156561798854868` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120106 has offset 0).
+The programs for A120106, the canonical program `A120106.P17285156561798854868` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120106 has offset 0).
 
 The definition of A120106 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 116 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -490,7 +496,7 @@ The definition of A120106 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)*A120114(n-1)+1` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A120106
@@ -508,7 +514,7 @@ end A120106
 /-!
 # A120108: Number triangle T(n,k) = lcm(1,..,n+1)/lcm(1,..,k+1).
 
-The programs for A120108, the canonical program `A120108.P13431050358684570806` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120108 has offset 0).
+The programs for A120108, the canonical program `A120108.P13431050358684570806` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120108 has offset 0).
 
 The definition of A120108 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5051 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -540,7 +546,7 @@ end A120108
 
 `A003418(A002024(n+1))/a(A112367(n))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A120108
@@ -820,7 +826,7 @@ end A120109
 /-!
 # A120111: Bi-diagonal inverse matrix of A120108.
 
-The programs for A120111, the canonical program `A120111.P13519720952501436584` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120111 has offset 0).
+The programs for A120111, the canonical program `A120111.P13519720952501436584` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120111 has offset 0).
 
 The definition of A120111 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5151 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -829,7 +835,7 @@ The definition of A120111 is `conjectured`: the Lean definition is a formula tha
 
 `char[∑[n-1]]-A140579(n+2)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A120111
@@ -2509,7 +2515,7 @@ end
 end A120115.P5579773972501224305
 
 /-!
-# A120116: Numbers n such that sigma(uphi(n)) = n where uphi is the unitary totient (or unitary phi) function (see A047994).
+# A120116: Numbers k such that sigma(uphi(k)) = k where uphi is the unitary totient (or unitary phi) function (see A047994).
 
 The programs for A120116, there is no canonical definition to state claims against.
 -/

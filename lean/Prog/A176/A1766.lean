@@ -44,23 +44,23 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -71,8 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7622,35 +7620,27 @@ end A176655.P17000094145648054109
 /-!
 # A176656: The positions of single (or isolated or non-twin) primes in A000040.
 
-The programs for A176656, the canonical program `A176656.P7092438726384079930` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176656 has offset 1).
+The programs for A176656, the canonical program `A176656.P6862990091630044346` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176656 has offset 1).
 
-The definition of A176656 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7145 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The definition of A176656 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A176656.P6862990091630044346
 
 `comp[A334142(n+1)-1]+1`
+
+The canonical program, it is in `Seq.B011.C000`.
 -/
-
-namespace A176656.P6862990091630044346
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A334142 (n + 1) - 1
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => ∀ j, f1 j ≠ (x : ℤ)) n + 1
-
-end
-
-end A176656.P6862990091630044346
 
 namespace A176656
 
 /-- `comp[A334142(n+1)-1]+1` -/
 def P6862990091630044346.Spec : Prop :=
   ∀ n, (P6862990091630044346.a n : ℤ) = A176656 (n + 1)
+
+theorem P6862990091630044346.correct : P6862990091630044346.Spec := by
+  intro n
+  simp only [A176656, Nat.add_sub_cancel]
 
 end A176656
 
@@ -7686,19 +7676,23 @@ end A176656
 /-! ## A176656.P7092438726384079930
 
 `A000720(A007510(n+1))`
-
-The canonical program, it is in `Seq.B014.C000`.
 -/
+
+namespace A176656.P7092438726384079930
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A000720 (A007510 (n + 1)).toNat
+
+end
+
+end A176656.P7092438726384079930
 
 namespace A176656
 
 /-- `A000720(A007510(n+1))` -/
 def P7092438726384079930.Spec : Prop :=
   ∀ n, P7092438726384079930.a n = A176656 (n + 1)
-
-theorem P7092438726384079930.correct : P7092438726384079930.Spec := by
-  intro n
-  simp only [A176656, Nat.add_sub_cancel]
 
 end A176656
 
@@ -7843,7 +7837,7 @@ end A176656
 /-!
 # A176657: Numbers k such that prime(k) is not a twin prime and prime(prime(k)) is a twin prime.
 
-The programs for A176657, the canonical program `A176657.P12577566922255081420` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176657 has offset 1).
+The programs for A176657, the canonical program `A176657.P12577566922255081420` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176657 has offset 1).
 
 The definition of A176657 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 761 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7852,7 +7846,7 @@ The definition of A176657 is `conjectured`: the Lean definition is a formula tha
 
 `A000720(∩[A007510(n+1), A334142(n+1)])`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A176657

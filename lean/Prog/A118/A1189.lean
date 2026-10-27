@@ -43,9 +43,8 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -57,8 +56,10 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -67,9 +68,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3279,7 +3277,7 @@ end
 end A118936.P13483163939396026364
 
 /-!
-# A118937: Sub-Kaprekar numbers (1): n such that n=q-r and n^2=q*10^m+r, for some m>=1, q>=0, 0<=r
+# A118937: Sub-Kaprekar numbers (1): n such that n=q-r and n^2=q*10^m+r, for some m>=1, q>=0, 0<=r<10^m, with n not a power of 10.
 
 The programs for A118937, there is no canonical definition to state claims against.
 -/
@@ -3329,7 +3327,7 @@ end
 end A118937.P17614726461931933168
 
 /-!
-# A118938: Sub-Kaprekar numbers (2): n such that n=r-q and n^2=q*10^m+r, for some m>=1, q>=0, 0<=r
+# A118938: Sub-Kaprekar numbers (2): n such that n=r-q and n^2=q*10^m+r, for some m>=1, q>=0, 0<=r<10^m, with n not a power of 10.
 
 The programs for A118938, there is no canonical definition to state claims against.
 -/
@@ -5273,7 +5271,7 @@ end A118950
 /-!
 # A118951: Numbers containing at least one composite digit.
 
-The programs for A118951, the canonical program `A118951.P16210819713689529076` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118951 has offset 1).
+The programs for A118951, the canonical program `A118951.P16210819713689529076` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118951 has offset 1).
 
 The definition of A118951 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5282,7 +5280,7 @@ The definition of A118951 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A202267(n+1)]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A118951
@@ -5962,7 +5960,7 @@ end A118952
 /-!
 # A118953: Number of ways to write the n-th prime as 2^k + p, where p is prime and p < 2^k.
 
-The programs for A118953, the canonical program `A118953.P11235668260339629374` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118953 has offset 1).
+The programs for A118953, the canonical program `A118953.P11235668260339629374` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118953 has offset 1).
 
 The definition of A118953 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5971,7 +5969,7 @@ The definition of A118953 is `conjectured`: the Lean definition is a formula tha
 
 `A107279(A091931(n+1))`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A118953
@@ -7212,7 +7210,7 @@ end A118957.P12896564064008638745
 /-!
 # A118958: Primes that cannot be written as 2^k + p with p prime < 2^k.
 
-The programs for A118958, the canonical program `A118958.P10422470674657479766` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118958 has offset 1).
+The programs for A118958, the canonical program `A118958.P10422470674657479766` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118958 has offset 1).
 
 The definition of A118958 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1253 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7221,7 +7219,7 @@ The definition of A118958 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A107279(A091931(n+1))+A000040(n+1)]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A118958
@@ -9646,7 +9644,7 @@ end A118972.P4671227139020036872
 /-!
 # A118973: Number of hill-free Dyck paths of semilength n+2 and having length of first descent equal to 2 (a hill in a Dyck path is a peak at level 1).
 
-The programs for A118973, the canonical program `A118973.P16395577257869652124` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118973 has offset 0).
+The programs for A118973, the canonical program `A118973.P16395577257869652124` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118973 has offset 0).
 
 The definition of A118973 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 172 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9863,7 +9861,7 @@ end A118973
 
 `A000957(n+1)+A000958(n+1)-A000108(n)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A118973
@@ -10200,7 +10198,7 @@ end A118975.P888959269984795742
 /-!
 # A118976: Triangle read by rows: T(n,k) = binomial(n-1,k-1)*binomial(n,k-1)/k + binomial(n-1,k)*binomial(n,k)/(k+1) (1 <= k <= n). In other words, to each entry of the Narayana triangle (A001263) add the entry on its right.
 
-The programs for A118976, the canonical program `A118976.P8420611041753619682` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118976 has offset 1).
+The programs for A118976, the canonical program `A118976.P8420611041753619682` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118976 has offset 1).
 
 The definition of A118976 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10209,7 +10207,7 @@ The definition of A118976 is `conjectured`: the Lean definition is a formula tha
 
 `A001263(n+1)+A001263(n+2)-A010054(n+1)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A118976

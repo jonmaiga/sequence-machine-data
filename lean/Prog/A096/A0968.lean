@@ -39,25 +39,25 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4540,7 +4540,7 @@ end A096852.P8417223477878040314
 /-!
 # A096853: a(n) = A062401(2^n-1).
 
-The programs for A096853, the canonical program `A096853.P9612521034690238778` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096853 has offset 1).
+The programs for A096853, the canonical program `A096853.P9612521034690238778` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096853 has offset 1).
 
 The definition of A096853 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A062401, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4595,7 +4595,7 @@ end A096853
 
 `A062401(2^(n+1)-1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A096853
@@ -4665,7 +4665,7 @@ end A096853
 /-!
 # A096854: a(n) = A062402(2^n-1).
 
-The programs for A096854, the canonical program `A096854.P16261224724697573173` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096854 has offset 1).
+The programs for A096854, the canonical program `A096854.P16261224724697573173` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096854 has offset 1).
 
 The definition of A096854 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A062402, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4720,7 +4720,7 @@ end A096854
 
 `A062402(2^(n+1)-1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A096854
@@ -4793,7 +4793,7 @@ end A096854
 /-!
 # A096855: a(n) = A062401(2^n + 1).
 
-The programs for A096855, the canonical program `A096855.P4288218702433459592` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096855 has offset 0).
+The programs for A096855, the canonical program `A096855.P4288218702433459592` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096855 has offset 0).
 
 The definition of A096855 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A062401, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4802,7 +4802,7 @@ The definition of A096855 is `conditional`: the Lean definition is an OEIS formu
 
 `A062401(2^n+1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A096855
@@ -4918,7 +4918,7 @@ end A096855
 /-!
 # A096856: a(n) = A062402(2^n+1).
 
-The programs for A096856, the canonical program `A096856.P6825072489695385686` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096856 has offset 0).
+The programs for A096856, the canonical program `A096856.P6825072489695385686` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096856 has offset 0).
 
 The definition of A096856 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A062402, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4973,7 +4973,7 @@ end A096856
 
 `A062402(2^n+1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A096856

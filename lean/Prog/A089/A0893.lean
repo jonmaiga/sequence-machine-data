@@ -39,33 +39,35 @@ import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
@@ -73,7 +75,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -511,7 +512,7 @@ end A089304.P5999324532837902856
 /-!
 # A089306: Smallest prime of the form n + (n+1)+ (n+2)+...+(n+k), or 0 if no such prime exists.
 
-The programs for A089306, the canonical program `A089306.P13013484817223251864` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089306 has offset 1).
+The programs for A089306, the canonical program `A089306.P13013484817223251864` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089306 has offset 1).
 
 The definition of A089306 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -520,7 +521,7 @@ The definition of A089306 is `conjectured`: the Lean definition is a formula tha
 
 `A061397(A191558(n+1)+n+3-C(2, ∑{e}[n+1, #])!)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A089306
@@ -781,7 +782,7 @@ def P1030319199065552740.Spec : Prop :=
 end A089306
 
 /-!
-# A089307: Smallest prime of the form 1+n*(n+n_2)*...*(n+n_n) with 1<=n_2
+# A089307: Smallest prime of the form 1+n*(n+n_2)*...*(n+n_n) with 1<=n_2<n_3<...<n_n. A089308 gives terms of products.
 
 The programs for A089307, there is no canonical definition to state claims against.
 -/
@@ -4368,7 +4369,7 @@ end A089351.P7039509184161970207
 /-!
 # A089352: Numbers that are divisible by the sum of their distinct prime factors (A008472).
 
-The programs for A089352, the canonical program `A089352.P4755244017656261528` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089352 has offset 1).
+The programs for A089352, the canonical program `A089352.P4755244017656261528` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A089352 has offset 1).
 
 The definition of A089352 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6080 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4497,7 +4498,7 @@ end A089352
 
 `eq[n+1, lcm(n+1, A008472(n+1))]+1`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A089352

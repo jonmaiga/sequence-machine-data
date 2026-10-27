@@ -47,26 +47,28 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -987,7 +989,7 @@ end A230605.P11836970296235797948
 /-!
 # A230606: Numbers n such that sigma(n) = k*(n+1) for some integer k.
 
-The programs for A230606, the canonical program `A230606.P12267848131961719917` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230606 has offset 1).
+The programs for A230606, the canonical program `A230606.P12267848131961719917` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230606 has offset 1).
 
 The definition of A230606 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -996,7 +998,7 @@ The definition of A230606 is `conjectured`: the Lean definition is a formula tha
 
 `record[A339964(n+2)-1]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A230606
@@ -3597,7 +3599,7 @@ end A230630
 /-!
 # A230631: a(n) = n + (sum of digits in base-4 representation of n).
 
-The programs for A230631, the canonical program `A230631.P4210711857821606968` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230631 has offset 0).
+The programs for A230631, the canonical program `A230631.P4210711857821606968` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230631 has offset 0).
 
 The definition of A230631 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3606,7 +3608,7 @@ The definition of A230631 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A053737(n)+n`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A230631
@@ -4740,7 +4742,7 @@ end A230640.P1577137167910525121
 /-!
 # A230641: a(n) = n + (sum of digits in base-3 representation of n).
 
-The programs for A230641, the canonical program `A230641.P12572480448472300178` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230641 has offset 0).
+The programs for A230641, the canonical program `A230641.P12572480448472300178` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230641 has offset 0).
 
 The definition of A230641 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4749,7 +4751,7 @@ The definition of A230641 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+A053735(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A230641
@@ -8846,7 +8848,7 @@ end
 end A230697.P3363199437974315888
 
 /-!
-# A230698: Triangle read by rows: T(n,k) = T(n-1,k-1) + n*T(n-2,k); T(0,0) = T(1,0) = T(1,1) = 1, T(n,k) = 0 if k>n or if k
+# A230698: Triangle read by rows: T(n,k) = T(n-1,k-1) + n*T(n-2,k); T(0,0) = T(1,0) = T(1,1) = 1, T(n,k) = 0 if k>n or if k<0.
 
 The programs for A230698, the canonical program `A230698.P5513965054141912987` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230698 has offset 0).
 

@@ -39,8 +39,9 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -51,10 +52,10 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -62,8 +63,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7970,7 +7969,7 @@ end
 end A050792.P7044336206009715770
 
 /-!
-# A050793: Consider the Diophantine equation x^3 + y^3 = z^3 + 1 (1
+# A050793: Consider the Diophantine equation x^3 + y^3 = z^3 + 1 (1<x<y<z) or 'Fermat near misses'. Arrange solutions by increasing values of z (see A050791), and increasing values of y in case of ties. Sequence gives values of y.
 
 The programs for A050793, there is no canonical definition to state claims against.
 -/
@@ -8783,7 +8782,7 @@ end A050797.P6526044916122594359
 /-!
 # A050798: Numbers n such that m = n^2 + 1 is expressible as the sum of two nonzero squares in exactly two ways.
 
-The programs for A050798, the canonical program `A050798.P8630715380825418408` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050798 has offset 1).
+The programs for A050798, the canonical program `A050798.P8630715380825418408` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050798 has offset 1).
 
 The definition of A050798 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3816 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8792,7 +8791,7 @@ The definition of A050798 is `conjectured`: the Lean definition is a formula tha
 
 `eq[gcd(6, A158478(n)), A193330(n)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A050798

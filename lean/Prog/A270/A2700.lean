@@ -36,8 +36,10 @@ import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -45,22 +47,20 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
+import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -201,7 +201,7 @@ end A270002.P13467495825991230419
 /-!
 # A270003: Least prime p such that n = p + q - r for some primes q and r with q > p.
 
-The programs for A270003, the canonical program `A270003.P10437175995415337876` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270003 has offset 1).
+The programs for A270003, the canonical program `A270003.P10437175995415337876` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270003 has offset 1).
 
 The definition of A270003 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -210,7 +210,7 @@ The definition of A270003 is `conjectured`: the Lean definition is a formula tha
 
 `A143545(n+1)%2+2`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A270003
@@ -5227,7 +5227,7 @@ end A270049
 /-!
 # A270050: Numbers of the form 2 * (x^2 + xy + y^2).
 
-The programs for A270050, the canonical program `A270050.P15374850051776029815` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270050 has offset 1).
+The programs for A270050, the canonical program `A270050.P15374850051776029815` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270050 has offset 1).
 
 The definition of A270050 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003136, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5236,7 +5236,7 @@ The definition of A270050 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A003136(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A270050

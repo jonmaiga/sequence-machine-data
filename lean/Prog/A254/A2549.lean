@@ -39,7 +39,9 @@ import Seq.B001.C003
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -48,21 +50,22 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2326,7 +2329,7 @@ end A254924.P5293445492799159397
 /-!
 # A254926: There are a(n) numbers m such that 1 <= m <= n and gcd(m,n) is cubefree.
 
-The programs for A254926, the canonical program `A254926.P1478616090771883199` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254926 has offset 1).
+The programs for A254926, the canonical program `A254926.P1478616090771883199` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254926 has offset 1).
 
 The definition of A254926 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2439,7 +2442,7 @@ end A254926
 
 `∑{d}[n+1, A007432(#)*A226602((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A254926
@@ -4518,7 +4521,7 @@ end A254947.P7773829944551568508
 /-!
 # A254948: Number of length 1 1..(n+1) arrays with every leading partial sum divisible by 2, 3, 5, 7 or 11.
 
-The programs for A254948, the canonical program `A254948.P14189672227231438604` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254948 has offset 1).
+The programs for A254948, the canonical program `A254948.P14189672227231438604` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254948 has offset 1).
 
 The definition of A254948 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4527,7 +4530,7 @@ The definition of A254948 is `conjectured`: the Lean definition is a formula tha
 
 `∑[char[lt[A014963(n+2), 12]]]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A254948
@@ -5613,7 +5616,7 @@ end A254954.P7845326978231204623
 /-!
 # A254955: Prime numbers indexed by oblong numbers.
 
-The programs for A254955, the canonical program `A254955.P17498072834296787727` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254955 has offset 1).
+The programs for A254955, the canonical program `A254955.P17498072834296787727` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254955 has offset 1).
 
 The definition of A254955 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5622,7 +5625,7 @@ The definition of A254955 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000040(n+1+(n+1)²)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A254955
@@ -8078,7 +8081,7 @@ end A254977.P4584153084183810999
 /-!
 # A254981: a(n) is the sum of the divisors d of n such that n/d is cubefree.
 
-The programs for A254981, the canonical program `A254981.P1738555244851722157` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254981 has offset 1).
+The programs for A254981, the canonical program `A254981.P1738555244851722157` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254981 has offset 1).
 
 The definition of A254981 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8087,7 +8090,7 @@ The definition of A254981 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A254926(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A254981

@@ -26,18 +26,17 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C008
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B003.C000
-import Seq.B004.C000
-import Seq.B004.C002
-import Seq.B005.C002
-import Seq.B011.C000
+import Seq.B003.C004
+import Seq.B004.C003
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -9561,7 +9560,7 @@ end
 end A050049.P6646177548691637473
 
 /-!
-# A050050: a(n) = a(n-1)+a(m), where m=n-1-2^p and 2^p= 4.
+# A050050: a(n) = a(n-1)+a(m), where m=n-1-2^p and 2^p<n-1<=2^(p+1), for n >= 4.
 
 The programs for A050050, there is no canonical definition to state claims against.
 -/
@@ -11965,7 +11964,7 @@ end
 end A050057.P11952841163274010096
 
 /-!
-# A050058: a(n) = a(n-1)+a(m), where m=n-1-2^p and 2^p= 4.
+# A050058: a(n) = a(n-1)+a(m), where m=n-1-2^p and 2^p<n-1<=2^(p+1), for n >= 4.
 
 The programs for A050058, there is no canonical definition to state claims against.
 -/
@@ -12256,7 +12255,7 @@ end
 end A050058.P6601658739249636926
 
 /-!
-# A050059: a(n)=a(n-1)+a(m), where m=2n-2-2^(p+1) and 2^p= 4.
+# A050059: a(n)=a(n-1)+a(m), where m=2n-2-2^(p+1) and 2^p<n-1<=2^(p+1), for n >= 4.
 
 The programs for A050059, there is no canonical definition to state claims against.
 -/
@@ -13122,7 +13121,7 @@ end
 end A050061.P13148657405029037203
 
 /-!
-# A050062: a(n) = a(n-1)+a(m), where m=n-1-2^p and 2^p= 4.
+# A050062: a(n) = a(n-1)+a(m), where m=n-1-2^p and 2^p<n-1<=2^(p+1), for n >= 4.
 
 The programs for A050062, there is no canonical definition to state claims against.
 -/
@@ -13428,7 +13427,7 @@ end
 end A050062.P2636729144379708169
 
 /-!
-# A050063: a(n)=a(n-1)+a(m), where m=2n-2-2^(p+1) and 2^p= 4.
+# A050063: a(n)=a(n-1)+a(m), where m=2n-2-2^(p+1) and 2^p<n-1<=2^(p+1), for n >= 4.
 
 The programs for A050063, there is no canonical definition to state claims against.
 -/
@@ -14660,7 +14659,7 @@ end
 end A050066.P12649723657520544431
 
 /-!
-# A050067: a(n)=a(n-1)+a(m), where m=2n-2-2^(p+1) and 2^p= 4.
+# A050067: a(n)=a(n-1)+a(m), where m=2n-2-2^(p+1) and 2^p<n-1<=2^(p+1), for n >= 4.
 
 The programs for A050067, there is no canonical definition to state claims against.
 -/
@@ -15582,7 +15581,7 @@ end
 end A050069.P9360833430916637852
 
 /-!
-# A050070: a(n) = a(n-1)+a(m), where m=n-1-2^p and 2^p= 4.
+# A050070: a(n) = a(n-1)+a(m), where m=n-1-2^p and 2^p<n-1<=2^(p+1), for m >= 4.
 
 The programs for A050070, there is no canonical definition to state claims against.
 -/
@@ -15888,7 +15887,7 @@ end
 end A050070.P4205297951920238882
 
 /-!
-# A050071: a(n) = a(n-1)+a(m), where m=2n-2-2^(p+1) and 2^p= 4.
+# A050071: a(n) = a(n-1)+a(m), where m=2n-2-2^(p+1) and 2^p<n-1<=2^(p+1), for n >= 4.
 
 The programs for A050071, there is no canonical definition to state claims against.
 -/

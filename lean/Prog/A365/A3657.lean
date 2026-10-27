@@ -34,35 +34,34 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3616,7 +3615,7 @@ end A365782.P15840077672321602609
 /-!
 # A365783: a(n) = squarefree kernel of A126706(n).
 
-The programs for A365783, the canonical program `A365783.P2702609335400610260` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365783 has offset 1).
+The programs for A365783, the canonical program `A365783.P2702609335400610260` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365783 has offset 1).
 
 The definition of A365783 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A126706, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3625,7 +3624,7 @@ The definition of A365783 is `conditional`: the Lean definition is an OEIS formu
 
 `A007947(A126706(n+1))`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A365783
@@ -4122,7 +4121,7 @@ end A365783
 /-!
 # A365784: a(n) = A126706(n) divided by its squarefree kernel.
 
-The programs for A365784, the canonical program `A365784.P9414466859234964261` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365784 has offset 1).
+The programs for A365784, the canonical program `A365784.P9414466859234964261` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365784 has offset 1).
 
 The definition of A365784 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A126706, A365783, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4131,7 +4130,7 @@ The definition of A365784 is `conditional`: the Lean definition is an OEIS formu
 
 `A126706(n+1)/A365783(n+1)`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A365784
@@ -4329,7 +4328,7 @@ end A365784
 /-!
 # A365785: a(n) = k such that A120944(k) is the squarefree kernel of A126706(n).
 
-The programs for A365785, the canonical program `A365785.P6855440073540334258` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365785 has offset 1).
+The programs for A365785, the canonical program `A365785.P6855440073540334258` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365785 has offset 1).
 
 The definition of A365785 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7774 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4338,7 +4337,7 @@ The definition of A365785 is `conjectured`: the Lean definition is a formula tha
 
 `A387944(A365783(n+1))`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A365785

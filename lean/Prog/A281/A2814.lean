@@ -40,6 +40,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -51,9 +52,9 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -65,9 +66,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -9958,7 +9956,7 @@ end A281497
 /-!
 # A281499: Write n in binary reflected Gray code, interchange the 1's and 0's, reverse the code and convert it back to decimal.
 
-The programs for A281499, the canonical program `A281499.P7725258825879446995` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281499 has offset 0).
+The programs for A281499, the canonical program `A281499.P7725258825879446995` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281499 has offset 0).
 
 The definition of A281499 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A036044, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9967,7 +9965,7 @@ The definition of A281499 is `conditional`: the Lean definition is an OEIS formu
 
 `A036044(A003188(n))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A281499

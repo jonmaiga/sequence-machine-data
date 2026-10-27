@@ -47,6 +47,7 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
@@ -57,10 +58,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -69,13 +72,12 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3333,7 +3335,7 @@ end A130210
 /-!
 # A130211: Triangle read by rows: matrix product A054522 * A000012.
 
-The programs for A130211, the canonical program `A130211.P14688960179644469380` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130211 has offset 1).
+The programs for A130211, the canonical program `A130211.P14688960179644469380` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130211 has offset 1).
 
 The definition of A130211 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3342,7 +3344,7 @@ The definition of A130211 is `conjectured`: the Lean definition is a formula tha
 
 `A004736(∑[A054522(abs(1-n)+1)])`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A130211
@@ -3458,7 +3460,7 @@ end A130211
 /-!
 # A130212: T(k, n) = sum_(1 <= j <= k) [j | k] j mu(k / j) floor(n / k), triangle read by rows.
 
-The programs for A130212, the canonical program `A130212.P13341498629550544317` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130212 has offset 1).
+The programs for A130212, the canonical program `A130212.P13341498629550544317` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130212 has offset 1).
 
 The definition of A130212 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3490,7 +3492,7 @@ end A130212
 
 `A010766(n+1)*A054526(n+1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A130212
@@ -20467,7 +20469,7 @@ end A130285.P11907226794846712545
 /-!
 # A130286: Strongly-single primes: primes p such that neither previousprime(p) nor nextprime(p) is a twin prime.
 
-The programs for A130286, the canonical program `A130286.P5033588012465865576` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130286 has offset 1).
+The programs for A130286, the canonical program `A130286.P5033588012465865576` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130286 has offset 1).
 
 The definition of A130286 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5414 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -20476,7 +20478,7 @@ The definition of A130286 is `conjectured`: the Lean definition is a formula tha
 
 `A008578(∩[A176656(n+1)+2, A176656(n+1)])`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A130286

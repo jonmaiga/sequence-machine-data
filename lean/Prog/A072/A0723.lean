@@ -42,16 +42,20 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -63,14 +67,16 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -125,7 +131,7 @@ end A072301.P10904057520845219546
 /-!
 # A072303: Numbers n for which n is congruent to n^2 mod phi(n).
 
-The programs for A072303, the canonical program `A072303.P6106614484039131218` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A072303 has offset 1).
+The programs for A072303, the canonical program `A072303.P6106614484039131218` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A072303 has offset 1).
 
 The definition of A072303 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5376 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -163,7 +169,7 @@ end A072303
 
 `lt[(n²+n)%A000010(n+1), 1]+1`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A072303
@@ -2413,7 +2419,7 @@ end A072336.P11007690257010134247
 /-!
 # A072337: Inverse EULER transform of A064831 (with its initial 1 omitted).
 
-The programs for A072337, the canonical program `A072337.P6973343561193604984` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A072337 has offset 0).
+The programs for A072337, the canonical program `A072337.P6973343561193604984` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A072337 has offset 0).
 
 The definition of A072337 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 245 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2422,7 +2428,7 @@ The definition of A072337 is `conjectured`: the Lean definition is a formula tha
 
 `or(C(2, n), A032170(A028310(n)))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A072337
@@ -7520,7 +7526,7 @@ end A072374
 /-!
 # A072375: Number of cubefree numbers <= n which are nonsquares having exactly one square in their factorization.
 
-The programs for A072375, the canonical program `A072375.P16248227479690323833` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A072375 has offset 1).
+The programs for A072375, the canonical program `A072375.P16248227479690323833` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A072375 has offset 1).
 
 The definition of A072375 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7529,7 +7535,7 @@ The definition of A072375 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A359475(n+1)]`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A072375

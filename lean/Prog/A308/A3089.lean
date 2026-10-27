@@ -26,15 +26,17 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B001.C000
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -47,14 +49,11 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2590,7 +2589,7 @@ end A308943.P5858757221078611975
 /-!
 # A308944: a(n) = Product_{k=1..n} lcm(n,k) / (k * gcd(n,k)).
 
-The programs for A308944, the canonical program `A308944.P15802844504427371943` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308944 has offset 1).
+The programs for A308944, the canonical program `A308944.P15802844504427371943` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308944 has offset 1).
 
 The definition of A308944 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A127553, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2622,7 +2621,7 @@ end A308944
 
 `A127553(n+1)/(n+1)!`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A308944
@@ -3819,7 +3818,7 @@ end A308966.P12119185040010114630
 /-!
 # A308967: Number of prime factors (with multiplicity) of the numerator A001008 of the harmonic number H(n) = Sum_{k=1..n} 1/k.
 
-The programs for A308967, the canonical program `A308967.P12006305153293851796` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308967 has offset 1).
+The programs for A308967, the canonical program `A308967.P12006305153293851796` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308967 has offset 1).
 
 The definition of A308967 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3828,7 +3827,7 @@ The definition of A308967 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(A001008(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A308967
@@ -5368,7 +5367,7 @@ end A308992.P6558129541137838656
 /-!
 # A308993: Multiplicative with a(p) = 1 and a(p^e) = p^a(e) for any e > 1 and prime number p.
 
-The programs for A308993, the canonical program `A308993.P18444456858046890751` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308993 has offset 1).
+The programs for A308993, the canonical program `A308993.P18444456858046890751` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308993 has offset 1).
 
 The definition of A308993 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 483 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5377,7 +5376,7 @@ The definition of A308993 is `conjectured`: the Lean definition is a formula tha
 
 `A066990(A057521(n+1)*A071974(n+1))`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A308993

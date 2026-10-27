@@ -37,14 +37,15 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,12 +53,15 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -67,8 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2041,7 +2043,7 @@ end A320627
 /-!
 # A320628: Products of primes of nonprime index.
 
-The programs for A320628, the canonical program `A320628.P4089143697387148501` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320628 has offset 1).
+The programs for A320628, the canonical program `A320628.P4089143697387148501` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320628 has offset 1).
 
 The definition of A320628 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6921 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2137,7 +2139,7 @@ end A320628
 
 `eq[0, A257994(n+1)]+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A320628
@@ -2610,7 +2612,7 @@ end A320628
 /-!
 # A320629: Products of odd primes of nonprime index.
 
-The programs for A320629, the canonical program `A320629.P3731624852528716769` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320629 has offset 1).
+The programs for A320629, the canonical program `A320629.P3731624852528716769` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320629 has offset 1).
 
 The definition of A320629 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4976 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2649,7 +2651,7 @@ end A320629
 
 `record[A000265(A320628(n+1))]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A320629
@@ -3634,7 +3636,7 @@ end A320632
 /-!
 # A320633: Composite numbers whose prime indices are also composite.
 
-The programs for A320633, the canonical program `A320633.P2840693626555454014` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320633 has offset 1).
+The programs for A320633, the canonical program `A320633.P2840693626555454014` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320633 has offset 1).
 
 The definition of A320633 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3643,7 +3645,7 @@ The definition of A320633 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A320629(n+1), A066247(#)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A320633
@@ -6072,39 +6074,6 @@ end
 
 end A320656.P2456353411955344389
 
-/-! ## A320656.P3839490855179797845
-
-`C(A343943(2^val(n+1, 2)), A096826(n+1))`
--/
-
-namespace A320656.P3839490855179797845
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A343943 (2 ^ SequenceMachineLib.valuation (n + 1) 2)).toNat (A096826 (n + 1)).toNat
-
-end
-
-end A320656.P3839490855179797845
-
-/-! ## A320656.P15132088122984505876
-
-`C(A343943(∏{e}[n+1, 2^#-1]), A096826(n+1))`
--/
-
-namespace A320656.P15132088122984505876
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  Nat.choose (A343943 (∏ p ∈ Nat.primeFactors (f1 n), ((2 ^ Nat.factorization (f1 n) p : ℤ) - 1)).toNat).toNat (A096826 (n + 1)).toNat
-
-end
-
-end A320656.P15132088122984505876
-
 /-! ## A320656.P10798672682673700934
 
 `C(A304118(A096827(n+1)), A096826(n+1))`
@@ -6944,7 +6913,7 @@ end A320666
 /-!
 # A320667: First differences of A066194.
 
-The programs for A320667, the canonical program `A320667.P12312987098822007039` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320667 has offset 1).
+The programs for A320667, the canonical program `A320667.P12312987098822007039` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A320667 has offset 1).
 
 The definition of A320667 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A066194, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6953,7 +6922,7 @@ The definition of A320667 is `conditional`: the Lean definition is an OEIS formu
 
 `A066194(n+2)-A066194(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A320667

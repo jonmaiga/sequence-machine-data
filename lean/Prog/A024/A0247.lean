@@ -39,11 +39,13 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -60,8 +62,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -556,7 +556,7 @@ end A024700
 /-!
 # A024701: a(n) = (-1 + prime(n+1)^2)/4.
 
-The programs for A024701, the canonical program `A024701.P16562914718329030570` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024701 has offset 1).
+The programs for A024701, the canonical program `A024701.P16562914718329030570` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024701 has offset 1).
 
 The definition of A024701 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -565,7 +565,7 @@ The definition of A024701 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(-1+A000040(n+2)²)/4`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A024701
@@ -1499,7 +1499,7 @@ end A024702
 /-!
 # A024703: Prime divisors, including repetitions, of n-th term of A024702.
 
-The programs for A024703, the canonical program `A024703.P14754064723573950428` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024703 has offset 3).
+The programs for A024703, the canonical program `A024703.P14754064723573950428` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024703 has offset 3).
 
 The definition of A024703 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9998 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1508,7 +1508,7 @@ The definition of A024703 is `conjectured`: the Lean definition is a formula tha
 
 `A239669(n+3)-4`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A024703
@@ -2428,7 +2428,7 @@ end A024704
 /-!
 # A024705: Positions of odd numbers in A024702.
 
-The programs for A024705, the canonical program `A024705.P14488417451146961327` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024705 has offset 1).
+The programs for A024705, the canonical program `A024705.P14488417451146961327` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024705 has offset 1).
 
 The definition of A024705 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4807 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2553,7 +2553,7 @@ end A024705
 
 `A000720(p?[8*n-a(n-1)])` with `a(0)=1, a(1)=5`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A024705
@@ -3646,7 +3646,7 @@ end A024707
 /-!
 # A024708: Number of distinct prime divisors of n-th term of A024702.
 
-The programs for A024708, the canonical program `A024708.P5871249470200672772` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024708 has offset 3).
+The programs for A024708, the canonical program `A024708.P5871249470200672772` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024708 has offset 3).
 
 The definition of A024708 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 652 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3655,7 +3655,7 @@ The definition of A024708 is `conjectured`: the Lean definition is a formula tha
 
 `∑{p}[A024702(n+3), A001222(#)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A024708

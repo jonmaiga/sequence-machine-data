@@ -43,12 +43,15 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -58,15 +61,13 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -74,8 +75,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3972,7 +3971,7 @@ end A179929.P2091216587743501479
 /-!
 # A179930: a(n) = gcd(n, A001157(n)).
 
-The programs for A179930, the canonical program `A179930.P8969113194631761570` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179930 has offset 1).
+The programs for A179930, the canonical program `A179930.P8969113194631761570` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179930 has offset 1).
 
 The definition of A179930 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001157, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3981,7 +3980,7 @@ The definition of A179930 is `conditional`: the Lean definition is an OEIS formu
 
 `gcd(n+1, A001157(n+1))`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A179930
@@ -4137,7 +4136,7 @@ end A179930
 /-!
 # A179931: a(n) = gcd(sigma(n), sigma_2(n)).
 
-The programs for A179931, the canonical program `A179931.P16697246869239466930` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179931 has offset 1).
+The programs for A179931, the canonical program `A179931.P16697246869239466930` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179931 has offset 1).
 
 The definition of A179931 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001157, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4146,7 +4145,7 @@ The definition of A179931 is `conditional`: the Lean definition is an OEIS formu
 
 `gcd(A000203(n+1), A001157(n+1))`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A179931
@@ -5072,7 +5071,7 @@ end A179937.P181274330781082016
 /-!
 # A179938: Third largest prime factor of numbers that are divisible by at least three different primes (A000977).
 
-The programs for A179938, the canonical program `A179938.P14437235628728930020` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179938 has offset 1).
+The programs for A179938, the canonical program `A179938.P14437235628728930020` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179938 has offset 1).
 
 The definition of A179938 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 120 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5081,7 +5080,7 @@ The definition of A179938 is `conjectured`: the Lean definition is a formula tha
 
 `A006530(A000977(n+1)/A179312(A000977(n+1)))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A179938
@@ -10641,7 +10640,7 @@ end A179994
 /-!
 # A179995: Generating function A(5,t)(1+t+t^2)/(1-t)^6, where A(5,t) is an Eulerian polynomial.
 
-The programs for A179995, the canonical program `A179995.P15855146455058339385` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179995 has offset 0).
+The programs for A179995, the canonical program `A179995.P15855146455058339385` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179995 has offset 0).
 
 The definition of A179995 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10650,7 +10649,7 @@ The definition of A179995 is `conjectured`: the Lean definition is a formula tha
 
 `A101098(n+1)+3*A000584(n)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A179995

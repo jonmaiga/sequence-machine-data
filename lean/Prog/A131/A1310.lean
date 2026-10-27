@@ -46,9 +46,11 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -60,20 +62,18 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3039,7 +3039,7 @@ theorem P3953955354232934061.correct : P3953955354232934061.Spec := by
 end A131030
 
 /-!
-# A131031: Triangle read by rows: A097806 * A130321.
+# A131031: 
 
 The programs for A131031, there is no canonical definition to state claims against.
 -/
@@ -14122,7 +14122,7 @@ end A131087
 /-!
 # A131088: 2*A051731 - A054525 as infinite lower triangular matrices.
 
-The programs for A131088, the canonical program `A131088.P15408998772554303099` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131088 has offset 1).
+The programs for A131088, the canonical program `A131088.P15408998772554303099` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131088 has offset 1).
 
 The definition of A131088 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14131,7 +14131,7 @@ The definition of A131088 is `conjectured`: the Lean definition is a formula tha
 
 `lcm(2, A114002(n))-A054525(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A131088
@@ -16647,21 +16647,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A131097.P16910251237311028194
-
-/-! ## A131097.P9951244018223614288
-
-`A261009(A158456(n+1)-1)`
--/
-
-namespace A131097.P9951244018223614288
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A261009 (A158456 (n + 1) - 1).toNat
-
-end
-
-end A131097.P9951244018223614288
 
 /-! ## A131097.P3718528443904549612
 

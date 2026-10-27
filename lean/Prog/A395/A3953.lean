@@ -26,14 +26,15 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C003
@@ -41,7 +42,6 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -154,12 +154,6 @@ namespace A395301
 /-- `A000005(n+1)+A345266(n+1)-A001221(n+1)` -/
 def P13526377194841282050.Spec : Prop :=
   ∀ n, P13526377194841282050.a n = A395301 (n + 1)
-
-theorem P13526377194841282050.correct : P13526377194841282050.Spec := by
-  intro n
-  simp only [A395301, Nat.add_sub_cancel, A395301.P13526377194841282050.a, A395301.P11832353311031738574.a, A000005, A000005.P16091521709108585461.a, A001221, A001221.P10258181745752134128.a, A033273, A033273.P18420659424697249895.a, A345266, A345266.P10002656146987510819.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A056169, A056169.P17430176249366647977.a, A059841, A059841.P7264174615531153985.a, A063958, A063958.P8283110959988242133.a, A008472, A008472.P6567490011312877583.f1, A008472.P6567490011312877583.a, A055231, A055231.P8962300905713718501.a, A063956, A063956.P13509344762830228615.f2, A063956.P13509344762830228615.f4, A063956.P13509344762830228615.f3, A063956.P13509344762830228615.f1, A063956.P13509344762830228615.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A071773, A071773.P10551485978970375506.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A395301
 
@@ -858,7 +852,7 @@ end A395329.P17039584450948025610
 /-!
 # A395330: Symmetric array read by antidiagonals: A(n,k) = tau(n*k), where tau = A000005.
 
-The programs for A395330, the canonical program `A395330.P17136906903227382088` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395330 has offset 1).
+The programs for A395330, the canonical program `A395330.P17136906903227382088` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A395330 has offset 1).
 
 The definition of A395330 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000005((col(n)+1)*(row(n)-col(n)+1))` (program `A395330.P17136906903227382088`, by `A395330.P17136906903227382088.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -867,7 +861,7 @@ The definition of A395330 is `verified`: the Lean definition is proven equivalen
 
 `A000005((col(n)+1)*(row(n)-col(n)+1))`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A395330

@@ -49,6 +49,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -56,14 +57,14 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -75,7 +76,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3182,7 +3182,7 @@ end A005116.P9820174421406108956
 /-!
 # A005117: Squarefree numbers: numbers that are not divisible by a square greater than 1.
 
-The programs for A005117, the canonical program `A005117.P6531558222696957500` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005117 has offset 1).
+The programs for A005117, the canonical program `A005117.P8954503998193661401` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005117 has offset 1).
 
 The definition of A005117 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3292,26 +3292,19 @@ end A005117
 /-! ## A005117.P8954503998193661401
 
 `record[A007947(n+1)]`
+
+The canonical program, it is in `Seq.B001.C000`.
 -/
-
-namespace A005117.P8954503998193661401
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A007947 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => ∀ l < j, f1 l < f1 j) n)
-
-end
-
-end A005117.P8954503998193661401
 
 namespace A005117
 
 /-- `record[A007947(n+1)]` -/
 def P8954503998193661401.Spec : Prop :=
   ∀ n, P8954503998193661401.a n = A005117 (n + 1)
+
+theorem P8954503998193661401.correct : P8954503998193661401.Spec := by
+  intro n
+  simp only [A005117, Nat.add_sub_cancel]
 
 end A005117
 
@@ -3414,12 +3407,6 @@ namespace A005117
 def P7932785405563101613.Spec : Prop :=
   ∀ n, P7932785405563101613.a n = A005117 (n + 1)
 
-theorem P7932785405563101613.correct : P7932785405563101613.Spec := by
-  intro n
-  simp only [A005117, Nat.add_sub_cancel, A005117.P7932785405563101613.a, A005117.P6531558222696957500.a, A161203, A161203.P4346863006830516735.f1, A161203.P4346863006830516735.a, A243348, A243348.P5579662287376898014.a, A055615, A055615.P8993130195977213181.a, A008683, A008683.P18254306604665478110.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A005117
 
 /-! ## A005117.P13747517874483829690
@@ -3483,19 +3470,23 @@ end A005117
 /-! ## A005117.P6531558222696957500
 
 `A161203(n+1)-(n+1)²`
-
-The canonical program, it is in `Seq.B011.C000`.
 -/
+
+namespace A005117.P6531558222696957500
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A161203 (n + 1) - ((n + 1) ^ 2 : ℤ)
+
+end
+
+end A005117.P6531558222696957500
 
 namespace A005117
 
 /-- `A161203(n+1)-(n+1)²` -/
 def P6531558222696957500.Spec : Prop :=
   ∀ n, P6531558222696957500.a n = A005117 (n + 1)
-
-theorem P6531558222696957500.correct : P6531558222696957500.Spec := by
-  intro n
-  simp only [A005117, Nat.add_sub_cancel]
 
 end A005117
 
@@ -10527,7 +10518,7 @@ end A005169.P12008610737360017906
 /-!
 # A005171: Characteristic function of nonprimes: 0 if n is prime, else 1.
 
-The programs for A005171, the canonical program `A005171.P15860856746370777121` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005171 has offset 1).
+The programs for A005171, the canonical program `A005171.P15860856746370777121` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005171 has offset 1).
 
 The definition of A005171 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010051, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10536,7 +10527,7 @@ The definition of A005171 is `conditional`: the Lean definition is an OEIS formu
 
 `1-A010051(n+1)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A005171

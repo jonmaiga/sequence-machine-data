@@ -37,21 +37,23 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
@@ -66,7 +68,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3896,7 +3897,7 @@ end A270651.P1887945663456364069
 /-!
 # A270652: Max(i,j), where p(i)*p(j) is the n-th term of A006881.
 
-The programs for A270652, the canonical program `A270652.P2129090608778527896` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270652 has offset 1).
+The programs for A270652, the canonical program `A270652.P2129090608778527896` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270652 has offset 1).
 
 The definition of A270652 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 314 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3928,7 +3929,7 @@ end A270652
 
 `A061395(A006881(n+1)*A126865(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A270652
@@ -4934,7 +4935,7 @@ end A270666.P5680158872072826509
 /-!
 # A270667: Nonprime and squarefree Löschian numbers (A003136).
 
-The programs for A270667, the canonical program `A270667.P10723528526090859367` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270667 has offset 1).
+The programs for A270667, the canonical program `A270667.P10723528526090859367` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270667 has offset 1).
 
 The definition of A270667 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5770 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4943,7 +4944,7 @@ The definition of A270667 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A034021(n+2), A354108(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A270667
@@ -5645,7 +5646,7 @@ end A270671.P14818155681744119146
 /-!
 # A270672: Löschian numbers (A003136) that are multiples of 3.
 
-The programs for A270672, the canonical program `A270672.P7077653201386938758` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270672 has offset 1).
+The programs for A270672, the canonical program `A270672.P7077653201386938758` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270672 has offset 1).
 
 The definition of A270672 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5654,7 +5655,7 @@ The definition of A270672 is `conjectured`: the Lean definition is a formula tha
 
 `3*A003136(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A270672

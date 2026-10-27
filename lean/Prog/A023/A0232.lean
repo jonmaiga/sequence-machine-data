@@ -31,10 +31,12 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -42,9 +44,11 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -56,8 +60,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4625,7 +4627,7 @@ end A023210
 /-!
 # A023211: Primes p such that 3*p + 10 is also prime.
 
-The programs for A023211, the canonical program `A023211.P15510924814259681776` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023211 has offset 1).
+The programs for A023211, the canonical program `A023211.P15510924814259681776` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023211 has offset 1).
 
 The definition of A023211 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2941 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4634,7 +4636,7 @@ The definition of A023211 is `conjectured`: the Lean definition is a formula tha
 
 `p?[n-A245838(n+2)²]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A023211
@@ -10402,7 +10404,7 @@ end A023221
 /-!
 # A023222: Primes p such that 6*p + 7 is also prime.
 
-The programs for A023222, the canonical program `A023222.P6978621992250826147` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023222 has offset 1).
+The programs for A023222, the canonical program `A023222.P6978621992250826147` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023222 has offset 1).
 
 The definition of A023222 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1152 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10489,7 +10491,7 @@ end A023222
 
 `p?[eq[1, A245838(2*(n+1))]]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A023222
@@ -21182,7 +21184,7 @@ end A023246.P11752738719521198350
 /-!
 # A023247: Primes p such that 3*p + 4 and 9*p + 16 are also prime.
 
-The programs for A023247, the canonical program `A023247.P8495313482969675933` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023247 has offset 1).
+The programs for A023247, the canonical program `A023247.P8495313482969675933` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023247 has offset 1).
 
 The definition of A023247 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 188 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -21191,7 +21193,7 @@ The definition of A023247 is `conjectured`: the Lean definition is a formula tha
 
 `p?[eq[A075743(n+1), A245838(3*n+5)]]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A023247
@@ -23927,7 +23929,7 @@ end A023267.P16137896018592316781
 /-!
 # A023269: Primes that remain prime through 2 iterations of function f(x) = 10x + 3.
 
-The programs for A023269, the canonical program `A023269.P10197537875240591780` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023269 has offset 1).
+The programs for A023269, the canonical program `A023269.P10197537875240591780` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A023269 has offset 1).
 
 The definition of A023269 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 381 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -23996,7 +23998,7 @@ end A023269
 
 `p?[∩[A101472(n+1), A102338(n+1)]]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A023269

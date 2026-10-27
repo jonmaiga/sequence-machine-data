@@ -35,26 +35,28 @@ import Seq.B001.C003
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C006
-import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B002.C007
+import Seq.B003.C000
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
-import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2811,7 +2813,7 @@ end A389554.P17365590331426254586
 /-!
 # A389556: The number of primitive Pythagorean triples (PPTs) that lie within the first n rows of an irregular triangular array of PPTs defined in comments and whose even leg of the integer right triangle formed from the PPT is greater than its odd leg.
 
-The programs for A389556, the canonical program `A389556.P5725981755648961475` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A389556 has offset 1).
+The programs for A389556, the canonical program `A389556.P5725981755648961475` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A389556 has offset 1).
 
 The definition of A389556 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2820,7 +2822,7 @@ The definition of A389556 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A070099(2*n+3)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A389556
@@ -4039,7 +4041,7 @@ end A389593.P14432097609474981347
 /-!
 # A389594: a(1) = 1; a(n+1) = a(n)-th positive integer that is not a power of 2.
 
-The programs for A389594, the canonical program `A389594.P16283464142215270582` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A389594 has offset 1).
+The programs for A389594, the canonical program `A389594.P16283464142215270582` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A389594 has offset 1).
 
 The definition of A389594 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A057716, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4048,7 +4050,7 @@ The definition of A389594 is `conditional`: the Lean definition is an OEIS formu
 
 `A057716(a(n-1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A389594

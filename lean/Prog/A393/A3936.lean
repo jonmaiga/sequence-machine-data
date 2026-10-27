@@ -36,36 +36,36 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -223,7 +223,7 @@ end A393607.P5482622161919485052
 /-!
 # A393608: Rectangular array R read by descending antidiagonals: R(n,k) = prime(k) mod n, for n>=2.
 
-The programs for A393608, the canonical program `A393608.P4231341936800649805` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393608 has offset 2).
+The programs for A393608, the canonical program `A393608.P4231341936800649805` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393608 has offset 2).
 
 The definition of A393608 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -232,7 +232,7 @@ The definition of A393608 is `conjectured`: the Lean definition is a formula tha
 
 `A104887(n+1)%(A002260(n+1)+1)`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A393608
@@ -273,7 +273,7 @@ end A393608
 /-!
 # A393609: Square array A read by descending antidiagonals: A(n,k) = prime(A035513(n, k)).
 
-The programs for A393609, the canonical program `A393609.P11922313531072709366` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393609 has offset 1).
+The programs for A393609, the canonical program `A393609.P11922313531072709366` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393609 has offset 1).
 
 The definition of A393609 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A035513, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -282,7 +282,7 @@ The definition of A393609 is `conditional`: the Lean definition is an OEIS formu
 
 `A000040(A035513(n+1))`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A393609
@@ -4632,7 +4632,7 @@ end A393695.P3432735448759374879
 /-!
 # A393697: a(n) is the number of unit squares in the square lattice, divided by 4, that have 1 vertex strictly inside and 3 vertices strictly outside the circle x^2 + y^2 = n.
 
-The programs for A393697, the canonical program `A393697.P7831953345102612304` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393697 has offset 0).
+The programs for A393697, the canonical program `A393697.P7831953345102612304` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393697 has offset 0).
 
 The definition of A393697 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4641,7 +4641,7 @@ The definition of A393697 is `conjectured`: the Lean definition is a formula tha
 
 `A393562(n)-A172471(n)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A393697

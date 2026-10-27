@@ -40,11 +40,10 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,11 +52,13 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -65,13 +66,13 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -693,7 +694,7 @@ end A069807.P16516389097489306127
 /-!
 # A069809: Numbers k such that gcd(k, phi(k)) = tau(k).
 
-The programs for A069809, the canonical program `A069809.P15229151927026619136` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069809 has offset 1).
+The programs for A069809, the canonical program `A069809.P15229151927026619136` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069809 has offset 1).
 
 The definition of A069809 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1278 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -702,7 +703,7 @@ The definition of A069809 is `conjectured`: the Lean definition is a formula tha
 
 `eq[gcd(n+1, A000010(n+1)), A000005(n+1)]+1`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A069809
@@ -1963,7 +1964,7 @@ end A069812
 /-!
 # A069813: Maximum number of triangles in polyiamond with perimeter n.
 
-The programs for A069813, the canonical program `A069813.P8808270607885708704` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069813 has offset 3).
+The programs for A069813, the canonical program `A069813.P8808270607885708704` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069813 has offset 3).
 
 The definition of A069813 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1972,7 +1973,7 @@ The definition of A069813 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A056829(n+3)-A097325(n+3)`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A069813
@@ -4266,16 +4267,16 @@ end A069832.P12972294293514355156
 /-!
 # A069834: a(n) = n-th reduced triangular number: n*(n+1)/{2^k} where 2^k is the largest power of 2 that divides product n*(n+1).
 
-The programs for A069834, the canonical program `A069834.P1511118200551447947` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069834 has offset 1).
+The programs for A069834, the canonical program `A069834.P1511118200551447947` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069834 has offset 1).
 
-The definition of A069834 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000265, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A069834 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A069834.P1511118200551447947
 
 `A000265(n+1)*A000265(n+2)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A069834
@@ -6364,7 +6365,7 @@ end
 end A069858.P3276766104108247213
 
 /-!
-# A069859: (Largest prime factor of n) modulo (smallest prime factor of n).
+# A069859: a(n) = (greatest prime factor of n) modulo (least prime factor of n).
 
 The programs for A069859, there is no canonical definition to state claims against.
 -/

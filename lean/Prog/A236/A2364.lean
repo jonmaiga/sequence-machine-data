@@ -47,7 +47,6 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -55,7 +54,8 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -63,14 +63,13 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4912,7 +4911,7 @@ end A236456.P8929474590402468965
 /-!
 # A236457: Primes p with q = p + 2 and prime(q) + 2 both prime.
 
-The programs for A236457, the canonical program `A236457.P1164662496828918779` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236457 has offset 1).
+The programs for A236457, the canonical program `A236457.P1164662496828918779` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236457 has offset 1).
 
 The definition of A236457 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1044 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4981,7 +4980,7 @@ end A236457
 
 `∩[A001359(n+1), A096478(n+1)-2]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A236457
@@ -6489,7 +6488,7 @@ end A236464
 /-!
 # A236467: Primes p with p + 2 and prime(p) - 2 both prime.
 
-The programs for A236467, the canonical program `A236467.P8483166501229439060` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236467 has offset 1).
+The programs for A236467, the canonical program `A236467.P8483166501229439060` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A236467 has offset 1).
 
 The definition of A236467 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 453 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6498,7 +6497,7 @@ The definition of A236467 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A029707(n+1), A144834(n+1)]+1`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A236467

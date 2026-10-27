@@ -35,16 +35,16 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
-import Seq.B002.C001
-import Seq.B002.C003
+import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -54,6 +54,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -62,7 +63,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -13367,7 +13367,7 @@ end A038990
 /-!
 # A038991: Number of sublattices of index n in generic 4-dimensional lattice.
 
-The programs for A038991, the canonical program `A038991.P10290637620050896521` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038991 has offset 1).
+The programs for A038991, the canonical program `A038991.P10290637620050896521` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038991 has offset 1).
 
 The definition of A038991 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13402,7 +13402,7 @@ end A038991
 
 `∑{d}[n+1, A000290(#)*A027847((n+1)/#)]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A038991
@@ -13706,7 +13706,7 @@ end A038991
 /-!
 # A038992: Number of sublattices of index n in generic 5-dimensional lattice.
 
-The programs for A038992, the canonical program `A038992.P6853481220545635755` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038992 has offset 1).
+The programs for A038992, the canonical program `A038992.P6853481220545635755` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038992 has offset 1).
 
 The definition of A038992 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13715,7 +13715,7 @@ The definition of A038992 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A038991(#)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A038992
@@ -13906,7 +13906,7 @@ end A038992
 /-!
 # A038993: Number of sublattices of index n in generic 6-dimensional lattice.
 
-The programs for A038993, the canonical program `A038993.P17198785173542543802` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038993 has offset 1).
+The programs for A038993, the canonical program `A038993.P17198785173542543802` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038993 has offset 1).
 
 The definition of A038993 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13915,7 +13915,7 @@ The definition of A038993 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A038992(#)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A038993
@@ -14080,7 +14080,7 @@ end A038993
 /-!
 # A038994: Number of sublattices of index n in generic 7-dimensional lattice.
 
-The programs for A038994, the canonical program `A038994.P9699052350017523539` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038994 has offset 1).
+The programs for A038994, the canonical program `A038994.P9699052350017523539` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038994 has offset 1).
 
 The definition of A038994 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14089,7 +14089,7 @@ The definition of A038994 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A038993(#)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A038994
@@ -14205,7 +14205,7 @@ end A038994
 /-!
 # A038995: Number of sublattices of index n in generic 8-dimensional lattice.
 
-The programs for A038995, the canonical program `A038995.P4021492533092847162` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038995 has offset 1).
+The programs for A038995, the canonical program `A038995.P4021492533092847162` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038995 has offset 1).
 
 The definition of A038995 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14214,7 +14214,7 @@ The definition of A038995 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A038994(#)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A038995
@@ -14347,7 +14347,7 @@ end A038995
 /-!
 # A038996: Number of sublattices of index n in generic 9-dimensional lattice.
 
-The programs for A038996, the canonical program `A038996.P3767443640505695253` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038996 has offset 1).
+The programs for A038996, the canonical program `A038996.P3767443640505695253` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038996 has offset 1).
 
 The definition of A038996 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14356,7 +14356,7 @@ The definition of A038996 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A038995(#)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A038996
@@ -14489,7 +14489,7 @@ end A038996
 /-!
 # A038997: Number of sublattices of index n in generic 10-dimensional lattice.
 
-The programs for A038997, the canonical program `A038997.P11352540964168427061` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038997 has offset 1).
+The programs for A038997, the canonical program `A038997.P11352540964168427061` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038997 has offset 1).
 
 The definition of A038997 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14498,7 +14498,7 @@ The definition of A038997 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A038996(#)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A038997
@@ -14608,7 +14608,7 @@ end A038997
 /-!
 # A038998: Sublattices of index n in generic 11-dimensional lattice.
 
-The programs for A038998, the canonical program `A038998.P13847443061910831702` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038998 has offset 1).
+The programs for A038998, the canonical program `A038998.P13847443061910831702` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038998 has offset 1).
 
 The definition of A038998 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14617,7 +14617,7 @@ The definition of A038998 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A038997(#)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A038998
@@ -14768,7 +14768,7 @@ end A038998
 /-!
 # A038999: Sublattices of index n in generic 12-dimensional lattice.
 
-The programs for A038999, the canonical program `A038999.P5888438867194418494` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038999 has offset 1).
+The programs for A038999, the canonical program `A038999.P5888438867194418494` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A038999 has offset 1).
 
 The definition of A038999 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14777,7 +14777,7 @@ The definition of A038999 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A038998(#)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A038999

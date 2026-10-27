@@ -49,6 +49,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -61,21 +62,20 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3406,7 +3406,7 @@ end A020640.P10385970630402393091
 /-!
 # A020641: a(n)-th prime is sum of first k primes for some k.
 
-The programs for A020641, the canonical program `A020641.P10934862193577514092` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020641 has offset 1).
+The programs for A020641, the canonical program `A020641.P10934862193577514092` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020641 has offset 1).
 
 The definition of A020641 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 377 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3415,7 +3415,7 @@ The definition of A020641 is `conjectured`: the Lean definition is a formula tha
 
 `A061568(A013916(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A020641
@@ -3549,7 +3549,7 @@ end A020641
 /-!
 # A020642: n-th composite is sum of first k composites for some k.
 
-The programs for A020642, the canonical program `A020642.P1879843505214688540` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020642 has offset 1).
+The programs for A020642, the canonical program `A020642.P1879843505214688540` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020642 has offset 1).
 
 The definition of A020642 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 351 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3558,7 +3558,7 @@ The definition of A020642 is `conjectured`: the Lean definition is a formula tha
 
 `A305801(A013921(n+1))-3`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A020642

@@ -63,6 +63,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -77,8 +78,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5764,7 +5763,7 @@ end A357683.P1337872974862636057
 /-!
 # A357684: The squarefree part (A007913) of numbers whose squarefree part is a unitary divisor (A335275).
 
-The programs for A357684, the canonical program `A357684.P3972615468113836153` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357684 has offset 1).
+The programs for A357684, the canonical program `A357684.P3972615468113836153` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357684 has offset 1).
 
 The definition of A357684 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8816 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5828,7 +5827,7 @@ end A357684
 
 `A007913(record[A056192(n+1)])`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A357684
@@ -6210,7 +6209,7 @@ end A357685
 /-!
 # A357686: Nonsquarefree numbers k such that A293228(k) > k.
 
-The programs for A357686, the canonical program `A357686.P10772089169183460672` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357686 has offset 1).
+The programs for A357686, the canonical program `A357686.P10772089169183460672` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357686 has offset 1).
 
 The definition of A357686 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2194 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6275,7 +6274,7 @@ end A357686
 
 `∩[A081770(n+1), A224907(n+1)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A357686
@@ -6878,7 +6877,7 @@ end A357688.P17314193264966402689
 /-!
 # A357689: a(n) = n/A204455(n), where A204455(n) is the product of odd noncomposite divisors of n.
 
-The programs for A357689, the canonical program `A357689.P3293934987701122531` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357689 has offset 1).
+The programs for A357689, the canonical program `A357689.P3293934987701122531` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357689 has offset 1).
 
 The definition of A357689 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6887,7 +6886,7 @@ The definition of A357689 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)/A204455(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A357689

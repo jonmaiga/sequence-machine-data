@@ -44,21 +44,25 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -69,7 +73,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -391,7 +394,7 @@ end A064503.P1638716362865619714
 /-!
 # A064505: Interchange primes and their squares.
 
-The programs for A064505, the canonical program `A064505.P8463286174945145263` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064505 has offset 1).
+The programs for A064505, the canonical program `A064505.P8463286174945145263` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064505 has offset 1).
 
 The definition of A064505 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -400,7 +403,7 @@ The definition of A064505 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)*A014963(n+1)^A189021(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A064505
@@ -1968,7 +1971,7 @@ end A064521.P2215003778263743401
 /-!
 # A064522: For an integer n with prime factorization p1*p2*p3* ... *pn let n* = (p1-1)*(p2-1)*(p3-1)* ... *(pn-1) (A003958); sequence gives n such that n is divisible by n*.
 
-The programs for A064522, the canonical program `A064522.P867871108322155119` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064522 has offset 1).
+The programs for A064522, the canonical program `A064522.P867871108322155119` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064522 has offset 1).
 
 The definition of A064522 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 245 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1977,7 +1980,7 @@ The definition of A064522 is `conjectured`: the Lean definition is a formula tha
 
 `lt[(n+1)%A003958(n+1), 1]+1`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A064522
@@ -2782,7 +2785,7 @@ end A064528
 /-!
 # A064531: Number of connected components remaining when decimal expansion of the number n is cut from a piece of paper.
 
-The programs for A064531, the canonical program `A064531.P14938962011606256932` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064531 has offset 0).
+The programs for A064531, the canonical program `A064531.P14938962011606256932` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064531 has offset 0).
 
 The definition of A064531 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2846,7 +2849,7 @@ end A064531
 
 `A064693(n)-A316865(n)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A064531
@@ -4650,7 +4653,7 @@ end A064547
 /-!
 # A064548: Numbers k for which the sum of the binary digits equals the number of prime factors of k + 1 counted with multiplicity.
 
-The programs for A064548, the canonical program `A064548.P7567526874951451872` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064548 has offset 1).
+The programs for A064548, the canonical program `A064548.P7567526874951451872` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064548 has offset 1).
 
 The definition of A064548 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1427 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4659,7 +4662,7 @@ The definition of A064548 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A000079(A001222(n+2)), A001316(n+1)]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A064548
@@ -10832,7 +10835,7 @@ end A064592.P1499407691805039525
 /-!
 # A064594: Nonunitary multiply perfect numbers: the sum of the nonunitary divisors of n is a multiple of n; i.e., n divides sigma(n) - usigma(n).
 
-The programs for A064594, the canonical program `A064594.P14338933010286859949` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064594 has offset 1).
+The programs for A064594, the canonical program `A064594.P14338933010286859949` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064594 has offset 1).
 
 The definition of A064594 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10870,7 +10873,7 @@ end A064594
 
 `record[gcd(n+1, A048146(n+1))]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A064594
@@ -11328,7 +11331,7 @@ end A064595.P1691856542087443376
 /-!
 # A064597: Nonunitary abundant numbers: the sum of the nonunitary divisors of k is larger than k; i.e., sigma(k) - usigma(k) > k.
 
-The programs for A064597, the canonical program `A064597.P7941161019768686173` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064597 has offset 1).
+The programs for A064597, the canonical program `A064597.P7941161019768686173` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064597 has offset 1).
 
 The definition of A064597 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4045 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11337,7 +11340,7 @@ The definition of A064597 is `conjectured`: the Lean definition is a formula tha
 
 `lt[n+1, A048146(n+1)]+1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A064597
@@ -11616,7 +11619,7 @@ end A064597
 /-!
 # A064598: Nonunitary deficient numbers: the sum of the nonunitary divisors of n is less than n; i.e., sigma(n) - usigma(n) < n.
 
-The programs for A064598, the canonical program `A064598.P8686075922530309048` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064598 has offset 1).
+The programs for A064598, the canonical program `A064598.P8686075922530309048` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A064598 has offset 1).
 
 The definition of A064598 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11654,7 +11657,7 @@ end A064598
 
 `lt[A048146(n+1), n+1]+1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A064598

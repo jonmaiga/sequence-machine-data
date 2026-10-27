@@ -51,20 +51,25 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -75,9 +80,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4782,7 +4784,7 @@ end
 end A107222.P10213082753249249498
 
 /-!
-# A107223: Floor(Pi*Floor(n*Pi)).
+# A107223: a(n) = floor(Pi*floor(n*Pi)).
 
 The programs for A107223, the canonical program `A107223.P1811295383278374313` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107223 has offset 1).
 
@@ -6632,7 +6634,7 @@ end A107231
 /-!
 # A107232: Expansion of (1+x*c(x^2))^3/sqrt(1-4*x^2), c(x) the g.f. of A000108.
 
-The programs for A107232, the canonical program `A107232.P7835727660416448204` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107232 has offset 0).
+The programs for A107232, the canonical program `A107232.P7835727660416448204` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107232 has offset 0).
 
 The definition of A107232 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 335 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6664,7 +6666,7 @@ end A107232
 
 `A026010(n)+Δ[A001405(n)]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A107232
@@ -10251,7 +10253,7 @@ end A107251
 /-!
 # A107252: a(n) = Product_{k=0..n-1} (n+k)!/(k+1)!.
 
-The programs for A107252, the canonical program `A107252.P9629950069383118717` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107252 has offset 0).
+The programs for A107252, the canonical program `A107252.P9629950069383118717` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107252 has offset 0).
 
 The definition of A107252 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10260,7 +10262,7 @@ The definition of A107252 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A107251(n)/A000108(n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A107252
@@ -12026,7 +12028,7 @@ end A107278.P11060093537771915869
 /-!
 # A107279: a(n) = 1 if n is an odd prime, a(n) = 2 if n is a nonzero even number, otherwise a(n) = 0.
 
-The programs for A107279, the canonical program `A107279.P5813486238703992788` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107279 has offset 0).
+The programs for A107279, the canonical program `A107279.P5813486238703992788` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107279 has offset 0).
 
 The definition of A107279 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12035,7 +12037,7 @@ The definition of A107279 is `conjectured`: the Lean definition is a formula tha
 
 `(A014683(xor(1, n)+1)+1)%(n+1)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A107279
@@ -12989,7 +12991,7 @@ end A107287
 /-!
 # A107288: Primes whose digit sum is a square.
 
-The programs for A107288, the canonical program `A107288.P2457429078809289937` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107288 has offset 1).
+The programs for A107288, the canonical program `A107288.P2457429078809289937` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107288 has offset 1).
 
 The definition of A107288 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1248 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12998,7 +13000,7 @@ The definition of A107288 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A028839(n+1)]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A107288
@@ -13775,7 +13777,7 @@ end
 end A107289.P6437839895505012520
 
 /-!
-# A107290: Numbers (M_k+2)/3 where M_k is a Mersenne prime > 6.
+# A107290: a(n) = (M_n + 2)/3 where M_n is the n-th Mersenne prime.
 
 The programs for A107290, there is no canonical definition to state claims against.
 -/

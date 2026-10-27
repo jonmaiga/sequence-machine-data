@@ -43,6 +43,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -50,9 +51,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -60,11 +64,8 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3161,7 +3162,7 @@ end A302940.P2210319852451688277
 /-!
 # A302941: Number of total dominating sets in the 2n-crossed prism graph.
 
-The programs for A302941, the canonical program `A302941.P10962283102722459246` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302941 has offset 1).
+The programs for A302941, the canonical program `A302941.P10962283102722459246` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302941 has offset 1).
 
 The definition of A302941 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3170,7 +3171,7 @@ The definition of A302941 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A006497(n+1)²`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A302941
@@ -6650,7 +6651,7 @@ end A302975
 /-!
 # A302976: a(n) = tau(n)^n mod n^tau(n).
 
-The programs for A302976, the canonical program `A302976.P5479475706883622577` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302976 has offset 1).
+The programs for A302976, the canonical program `A302976.P5479475706883622577` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A302976 has offset 1).
 
 The definition of A302976 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(A000005(n+1)^(n+1))%((n+1)^A000005(n+1))` (program `A302976.P5479475706883622577`, by `A302976.P5479475706883622577.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6659,7 +6660,7 @@ The definition of A302976 is `verified`: the Lean definition is proven equivalen
 
 `(A000005(n+1)^(n+1))%((n+1)^A000005(n+1))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A302976

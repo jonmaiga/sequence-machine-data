@@ -34,22 +34,21 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -58,7 +57,6 @@ import Seq.B003.C004
 import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -70,9 +68,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -723,7 +718,7 @@ end A335109.P8016660125040527879
 /-!
 # A335110: a(n) = Sum_{k=0..n} (Stirling1(n,k) mod 2) * k.
 
-The programs for A335110, the canonical program `A335110.P6397140420705515931` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335110 has offset 0).
+The programs for A335110, the canonical program `A335110.P6397140420705515931` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335110 has offset 0).
 
 The definition of A335110 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -732,7 +727,7 @@ The definition of A335110 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((3*n+1)/2)*2^(A000120(floor(n/2))-1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A335110
@@ -953,7 +948,7 @@ end A335110
 /-!
 # A335111: a(n) = n! * Sum_{k=0..n-1} (-2)^k / k!.
 
-The programs for A335111, the canonical program `A335111.P10838613545657729623` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335111 has offset 0).
+The programs for A335111, the canonical program `A335111.P10838613545657729623` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335111 has offset 0).
 
 The definition of A335111 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -962,7 +957,7 @@ The definition of A335111 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000023(n)-A122803(n)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A335111
@@ -1214,7 +1209,7 @@ end A335113.P3018965352169460318
 /-!
 # A335114: a(n) is the greatest k > 0 such that Sum_{j=1..n} j*(-k)^j/(k+n) is an integer, for n > 1 and a(n) != n + 1.
 
-The programs for A335114, the canonical program `A335114.P10721775443141183759` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335114 has offset 2).
+The programs for A335114, the canonical program `A335114.P10721775443141183759` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335114 has offset 2).
 
 The definition of A335114 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1223,7 +1218,7 @@ The definition of A335114 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A335112(n+2)+2*(n+2)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A335114
@@ -3373,7 +3368,7 @@ end A335129
 /-!
 # A335131: a(n) = Sum_{k=1..n} phi(k)*phi(k+1)*phi(k+2), where phi(k) = A000010(k) is Euler's totient function.
 
-The programs for A335131, the canonical program `A335131.P11771733375200101273` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335131 has offset 1).
+The programs for A335131, the canonical program `A335131.P11771733375200101273` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335131 has offset 1).
 
 The definition of A335131 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3382,7 +3377,7 @@ The definition of A335131 is `conjectured`: the Lean definition is a formula tha
 
 `∑[(n+1)/∏{p}[n+1, #]*∏{p}[n+1, #-1]*A083542(n+2)]`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A335131
@@ -5599,7 +5594,7 @@ end A335149.P139031924322706121
 /-!
 # A335150: Perimeters of Heronian triangles whose smallest side length is coprime to their middle side and whose middle side length divides their perimeter.
 
-The programs for A335150, the canonical program `A335150.P2848983247666895770` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335150 has offset 1).
+The programs for A335150, the canonical program `A335150.P2848983247666895770` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335150 has offset 1).
 
 The definition of A335150 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6287 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5608,7 +5603,7 @@ The definition of A335150 is `conjectured`: the Lean definition is a formula tha
 
 `6*∩[A057128(n+1), A319838(n+2)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A335150
@@ -5915,7 +5910,7 @@ end A335152.P14145498017237564043
 /-!
 # A335153: a(1)=0; thereafter a(n) = (n-1)*sigma(n)-n*sigma(n-1) where sigma is the sum-of-divisors function A000203.
 
-The programs for A335153, the canonical program `A335153.P11890562424750733531` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335153 has offset 1).
+The programs for A335153, the canonical program `A335153.P11890562424750733531` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335153 has offset 1).
 
 The definition of A335153 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5924,7 +5919,7 @@ The definition of A335153 is `conjectured`: the Lean definition is a formula tha
 
 `n*A000203(n+1)-(n+1)*∑{d}[n, #]`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A335153
@@ -8427,7 +8422,7 @@ end A335182
 /-!
 # A335184: a(n) is the number of subsets of {1,2,...,n} with at least two elements and the difference between successive elements at least 6.
 
-The programs for A335184, the canonical program `A335184.P12685914524627014550` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335184 has offset 0).
+The programs for A335184, the canonical program `A335184.P12685914524627014550` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335184 has offset 0).
 
 The definition of A335184 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 916 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8436,7 +8431,7 @@ The definition of A335184 is `conjectured`: the Lean definition is a formula tha
 
 `record[A017900(n)]-(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A335184
@@ -8720,7 +8715,7 @@ end
 end A335186.P8200720807565333151
 
 /-!
-# A335188: Total surface area of all rectangular prisms with dimensions p X q X q, where p and q are prime, n = p+q and p
+# A335188: Total surface area of all rectangular prisms with dimensions p X q X q, where p and q are prime, n = p+q and p<q.
 
 The programs for A335188, there is no canonical definition to state claims against.
 -/

@@ -47,6 +47,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -58,8 +59,9 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C000
+import Seq.B003.C005
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
@@ -68,8 +70,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7129,7 +7129,7 @@ end A106632
 /-!
 # A106633: Number of ways to express n as k+l*m, with k, l, m all in the range [0..n].
 
-The programs for A106633, the canonical program `A106633.P11456217349808284816` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106633 has offset 0).
+The programs for A106633, the canonical program `A106633.P11456217349808284816` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106633 has offset 0).
 
 The definition of A106633 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7138,7 +7138,7 @@ The definition of A106633 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A005408(n)+A006218(n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A106633
@@ -10227,7 +10227,7 @@ end
 end A106654.P11193731152719287712
 
 /-!
-# A106664: Expansion of g.f.: (1-3*x+x^2)/((1-x)*(1+x)*(1-2*x+2*x^2)).
+# A106664: Expansion of g.f.: (1-3*x+x^2)/((x-1)*(x+1)*(2*x^2-2*x+1)).
 
 The programs for A106664, the canonical program `A106664.P3827320183996834941` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106664 has offset 0).
 

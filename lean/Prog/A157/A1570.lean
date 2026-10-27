@@ -44,33 +44,33 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -103,7 +103,7 @@ set_option linter.unreachableTactic false
 /-!
 # A157000: Triangle T(n,k) = (n/k)*binomial(n-k-1, k-1) read by rows.
 
-The programs for A157000, the canonical program `A157000.P11256171497413587724` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157000 has offset 2).
+The programs for A157000, the canonical program `A157000.P11256171497413587724` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157000 has offset 2).
 
 The definition of A157000 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9801 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -135,7 +135,7 @@ end A157000
 
 `A011973(A049068(n+1))+A011973(n)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A157000
@@ -853,7 +853,7 @@ end A157004.P17075333414495891595
 /-!
 # A157005: A Somos-4 variant.
 
-The programs for A157005, the canonical program `A157005.P3245455919645198880` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157005 has offset 0).
+The programs for A157005, the canonical program `A157005.P3245455919645198880` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157005 has offset 0).
 
 The definition of A157005 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -862,7 +862,7 @@ The definition of A157005 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^n*A006720(n+2)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A157005
@@ -1918,7 +1918,7 @@ end
 end A157017.P18353485751289191853
 
 /-!
-# A157018: Triangle T(n,k) read by rows: number of k-lists (ordered k-sets) of disjoint 2-subsets of an n-set, n>1, 0
+# A157018: Triangle T(n,k) read by rows: number of k-lists (ordered k-sets) of disjoint 2-subsets of an n-set, n>1, 0<k<=floor(n/2).
 
 The programs for A157018, the canonical program `A157018.P3626897528591336089` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157018 has offset 2).
 
@@ -2961,7 +2961,7 @@ end
 end A157029.P3032702271509469070
 
 /-!
-# A157030: Triangle read by rows, A156834 * A054521.
+# A157030: Triangle read by rows, A156348 * A054521.
 
 The programs for A157030, there is no canonical definition to state claims against.
 -/
@@ -3620,7 +3620,7 @@ end A157036.P10496540955572928017
 /-!
 # A157037: Numbers with prime arithmetic derivative A003415.
 
-The programs for A157037, the canonical program `A157037.P548713860299042765` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157037 has offset 1).
+The programs for A157037, the canonical program `A157037.P548713860299042765` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157037 has offset 1).
 
 The definition of A157037 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4464 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3655,7 +3655,7 @@ end A157037
 
 `eq[2, A229341(n+2)]+2`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A157037
@@ -4587,7 +4587,7 @@ end A157041.P439968319527854704
 /-!
 # A157042: Primes p such that 6p-7, 6p-5, 6p-1 are all prime.
 
-The programs for A157042, the canonical program `A157042.P479054277220309854` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157042 has offset 1).
+The programs for A157042, the canonical program `A157042.P479054277220309854` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157042 has offset 1).
 
 The definition of A157042 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 434 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4756,7 +4756,7 @@ end A157042
 
 `∩[A089151(n+1), A158015(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A157042
@@ -4976,7 +4976,7 @@ end A157042
 /-!
 # A157043: Primes p such that 6p-7, 6p-5, 6p-3, 6p-1 are not prime.
 
-The programs for A157043, the canonical program `A157043.P17041722274976320511` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157043 has offset 1).
+The programs for A157043, the canonical program `A157043.P17041722274976320511` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157043 has offset 1).
 
 The definition of A157043 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 763 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4985,7 +4985,7 @@ The definition of A157043 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A153319(n+1), A199716(n+1)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A157043
@@ -7888,7 +7888,7 @@ end A157078.P5636209680006748179
 /-!
 # A157079: a(n) = 32805000*n^2 - 10513800*n + 842401.
 
-The programs for A157079, the canonical program `A157079.P4834609474634695311` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157079 has offset 1).
+The programs for A157079, the canonical program `A157079.P4834609474634695311` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157079 has offset 1).
 
 The definition of A157079 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 200 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7897,7 +7897,7 @@ The definition of A157079 is `conjectured`: the Lean definition is a formula tha
 
 `A157509(A053742(n)+17)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A157079
@@ -7994,7 +7994,7 @@ end A157079
 /-!
 # A157080: a(n) = 32805000*n^2 - 16200*n + 1.
 
-The programs for A157080, the canonical program `A157080.P15307887305720561026` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157080 has offset 1).
+The programs for A157080, the canonical program `A157080.P15307887305720561026` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157080 has offset 1).
 
 The definition of A157080 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8003,7 +8003,7 @@ The definition of A157080 is `conjectured`: the Lean definition is a formula tha
 
 `round(sqrt(A156855(n+1))*A156867(n+1))`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A157080

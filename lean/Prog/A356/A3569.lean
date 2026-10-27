@@ -33,7 +33,6 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C012
 import Seq.B002.C000
@@ -45,10 +44,9 @@ import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C001
 import Seq.B006.C000
@@ -59,7 +57,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4560,7 +4557,7 @@ end A356984.P8246941381647821476
 /-!
 # A356986: a(n) = (A283869(n)-1)/60.
 
-The programs for A356986, the canonical program `A356986.P9479318731163578880` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356986 has offset 1).
+The programs for A356986, the canonical program `A356986.P9479318731163578880` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356986 has offset 1).
 
 The definition of A356986 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A283869, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4569,7 +4566,7 @@ The definition of A356986 is `conditional`: the Lean definition is an OEIS formu
 
 `(A283869(n+1)-1)/60`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A356986

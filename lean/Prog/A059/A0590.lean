@@ -48,19 +48,21 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -71,9 +73,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5679,7 +5678,7 @@ end A059027.P7215303813195704250
 /-!
 # A059028: Row sums of A059026: a(n) = Sum_{m=1..n} (lcm(n,m)/n + lcm(n,m)/m - 1).
 
-The programs for A059028, the canonical program `A059028.P10481110246671892895` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059028 has offset 1).
+The programs for A059028, the canonical program `A059028.P10481110246671892895` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059028 has offset 1).
 
 The definition of A059028 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5705,19 +5704,13 @@ namespace A059028
 def P13440091924975898209.Spec : Prop :=
   ∀ n, P13440091924975898209.a n = A059028 (n + 1)
 
-theorem P13440091924975898209.correct : P13440091924975898209.Spec := by
-  intro n
-  simp only [A059028, Nat.add_sub_cancel, A059028.P13440091924975898209.a, A059028.P10481110246671892895.a, A057661, A057661.P8562176095648835282.a, A332049, A332049.P9341534089412861099.a, A057660, A057660.P308819105178745283.a, A000290, A000290.P12206242496348924484.a, A001157, A001157.P6892814788348726787.a, A065764, A065764.P16236740945723656355.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A035316, A035316.P17845884678165723091.f1, A035316.P17845884678165723091.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A059028
 
 /-! ## A059028.P10481110246671892895
 
 `3*A057661(n+1)-(n+2)`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A059028
@@ -8982,7 +8975,7 @@ end A059052.P2902989185685773683
 /-!
 # A059053: Number of chiral pairs of necklaces with n beads and two colors (color complements being equivalent); i.e., turning the necklace over neither leaves it unchanged nor simply swaps the colors.
 
-The programs for A059053, the canonical program `A059053.P13144788230309501113` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059053 has offset 0).
+The programs for A059053, the canonical program `A059053.P13144788230309501113` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059053 has offset 0).
 
 The definition of A059053 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000013, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9037,7 +9030,7 @@ end A059053
 
 `(A000013(n)-A016116(n))/2`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A059053
@@ -10717,7 +10710,7 @@ end A059074.P16637998479435804188
 /-!
 # A059076: Number of pairs of orientable necklaces with n beads and two colors; i.e., turning the necklace over does not leave it unchanged.
 
-The programs for A059076, the canonical program `A059076.P1559801332482280449` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059076 has offset 0).
+The programs for A059076, the canonical program `A059076.P1559801332482280449` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059076 has offset 0).
 
 The definition of A059076 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000031, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10772,7 +10765,7 @@ end A059076
 
 `(A000031(n)-A029744(n+1))/2`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A059076
@@ -10974,7 +10967,7 @@ end A059077.P8672412861722639753
 /-!
 # A059078: Number of orientable necklaces with 2n beads and two colors which when turned over produce their own color complement.
 
-The programs for A059078, the canonical program `A059078.P12967757561561579669` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059078 has offset 0).
+The programs for A059078, the canonical program `A059078.P12967757561561579669` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059078 has offset 0).
 
 The definition of A059078 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A059053, A059076, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10983,7 +10976,7 @@ The definition of A059078 is `conditional`: the Lean definition is an OEIS formu
 
 `A059076(2*n)-2*A059053(2*n)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A059078
@@ -11959,7 +11952,7 @@ def P16915370506299430683.Spec : Prop :=
 end A059098
 
 /-!
-# A059099: Expansion of exp(exp(x)-1)/(2-exp(x)).
+# A059099: Expansion of e.g.f. exp(exp(x)-1)/(2-exp(x)).
 
 The programs for A059099, there is no canonical definition to state claims against.
 -/

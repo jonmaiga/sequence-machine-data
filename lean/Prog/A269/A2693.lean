@@ -40,10 +40,10 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -51,22 +51,22 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2571,7 +2571,7 @@ end A269342
 /-!
 # A269345: Smaller of two consecutive odd numbers that are composites.
 
-The programs for A269345, the canonical program `A269345.P4206844201345878076` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269345 has offset 1).
+The programs for A269345, the canonical program `A269345.P4206844201345878076` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269345 has offset 1).
 
 The definition of A269345 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A061673, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2580,7 +2580,7 @@ The definition of A269345 is `conditional`: the Lean definition is an OEIS formu
 
 `A061673(n+1)-1`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A269345
@@ -3095,7 +3095,7 @@ end A269345
 /-!
 # A269346: Perfect cubes that are not the difference of two primes.
 
-The programs for A269346, the canonical program `A269346.P749959525114442858` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269346 has offset 1).
+The programs for A269346, the canonical program `A269346.P749959525114442858` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269346 has offset 1).
 
 The definition of A269346 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4480 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3104,7 +3104,7 @@ The definition of A269346 is `conjectured`: the Lean definition is a formula tha
 
 `A016755(lt[2, A121842(2*n+1)])`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A269346
@@ -4276,7 +4276,7 @@ end A269360.P11004151625208636350
 /-!
 # A269362: Least monotonic left inverse of A269389.
 
-The programs for A269362, the canonical program `A269362.P8803330186499929129` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269362 has offset 1).
+The programs for A269362, the canonical program `A269362.P8803330186499929129` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269362 has offset 1).
 
 The definition of A269362 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A269849, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4285,7 +4285,7 @@ The definition of A269362 is `conditional`: the Lean definition is an OEIS formu
 
 `A269849(n+7)-6`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A269362
@@ -7388,7 +7388,7 @@ end A269388.P9265737110505878428
 /-!
 # A269389: Numbers n for which prime(n+7)-prime(n+6) is not a multiple of three.
 
-The programs for A269389, the canonical program `A269389.P385461570029580666` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269389 has offset 1).
+The programs for A269389, the canonical program `A269389.P385461570029580666` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A269389 has offset 1).
 
 The definition of A269389 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A270189, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7397,7 +7397,7 @@ The definition of A269389 is `conditional`: the Lean definition is an OEIS formu
 
 `A270189(n+7)-6`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A269389

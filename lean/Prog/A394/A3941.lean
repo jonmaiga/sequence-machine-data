@@ -27,21 +27,22 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
-import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
-import Seq.B003.C005
+import Seq.B003.C002
+import Seq.B003.C004
+import Seq.B003.C006
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B012.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -71,7 +72,7 @@ import Seq.Opaque.C025
 /-!
 # A394110: a(n) = binomial(3*n, n)*(7*n+3)/((n+1)*(2*n+1)).
 
-The programs for A394110, the canonical program `A394110.P1967582314872625174` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394110 has offset 0).
+The programs for A394110, the canonical program `A394110.P1967582314872625174` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394110 has offset 0).
 
 The definition of A394110 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -80,7 +81,7 @@ The definition of A394110 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A006013(n)+A001764(n)`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A394110
@@ -192,7 +193,7 @@ end A394110
 /-!
 # A394111: a(n) = binomial(3*n, n)*(5*n+3)/((n+1)*(2*n+1)).
 
-The programs for A394111, the canonical program `A394111.P11665560195545579973` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394111 has offset 0).
+The programs for A394111, the canonical program `A394111.P11665560195545579973` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394111 has offset 0).
 
 The definition of A394111 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -201,7 +202,7 @@ The definition of A394111 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A006013(n)+2*A001764(n)`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A394111
@@ -2015,7 +2016,7 @@ end A394177.P10303610088145838789
 /-!
 # A394178: Triangle read by rows: T(n, k) is the Frobenius number for n and k if n and k coprime, and 0 otherwise, for 1 <= k <= n.
 
-The programs for A394178, the canonical program `A394178.P7172377896833367133` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394178 has offset 1).
+The programs for A394178, the canonical program `A394178.P7172377896833367133` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394178 has offset 1).
 
 The definition of A394178 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2024,7 +2025,7 @@ The definition of A394178 is `conjectured`: the Lean definition is a formula tha
 
 `A054521(n+1)*A144204(n+1)`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A394178

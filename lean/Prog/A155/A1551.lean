@@ -47,17 +47,20 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -66,15 +69,10 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4245,7 +4243,7 @@ end A155122.P14877886749235004860
 /-!
 # A155124: Triangle T(n, k) = 1-n if k=0 else 2, read by rows.
 
-The programs for A155124, the canonical program `A155124.P11009308192955337438` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155124 has offset 0).
+The programs for A155124, the canonical program `A155124.P11009308192955337438` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155124 has offset 0).
 
 The definition of A155124 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4366,7 +4364,7 @@ end A155124
 
 `A195084(A198954(n))`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A155124
@@ -4477,7 +4475,7 @@ def P1769817448821192160.Spec : Prop :=
 end A155124
 
 /-!
-# A155126: Indices of Bernoulli numbers of the form 4k+2 whose fractional part is < 2/3 and is incrementally smallest.
+# A155126: Indices n = 4*k+2 of Bernoulli numbers B_n whose fractional parts lie strictly between 1/6 and 2/3 and set successive record lows.
 
 The programs for A155126, there is no canonical definition to state claims against.
 -/
@@ -9381,7 +9379,7 @@ def P6957334932434622270.Spec : Prop :=
 end A155162
 
 /-!
-# A155163: Triangle T(n,k): the coefficient of [x^k] of the series -(x-1)^(2*n+1) *Sum_{j>=0} (j+1)^n *binomial(j,n) * x^(j-n); columns 0<=k
+# A155163: Triangle T(n,k): the coefficient of [x^k] of the series -(x-1)^(2*n+1) *Sum_{j>=0} (j+1)^n *binomial(j,n) * x^(j-n); columns 0<=k<n.
 
 The programs for A155163, there is no canonical definition to state claims against.
 -/
@@ -11982,7 +11980,7 @@ end A155187.P526899207738541526
 /-!
 # A155188: Sophie Germain primes that are also strong primes and lesser of twin prime pairs.
 
-The programs for A155188, the canonical program `A155188.P10073715610909491198` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155188 has offset 1).
+The programs for A155188, the canonical program `A155188.P10073715610909491198` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155188 has offset 1).
 
 The definition of A155188 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9998 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11991,7 +11989,7 @@ The definition of A155188 is `conjectured`: the Lean definition is a formula tha
 
 `A045536(n+3)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A155188

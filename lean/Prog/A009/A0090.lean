@@ -32,25 +32,25 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C000
+import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -894,7 +894,7 @@ end A009002.P2647546584797992666
 /-!
 # A009003: Hypotenuse numbers (squares are sums of 2 nonzero squares).
 
-The programs for A009003, the canonical program `A009003.P4153996351455582682` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009003 has offset 1).
+The programs for A009003, the canonical program `A009003.P4153996351455582682` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009003 has offset 1).
 
 The definition of A009003 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1030,7 +1030,7 @@ end A009003
 
 `comp[A004144(n+1)-1]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A009003
@@ -2944,7 +2944,7 @@ end A009040.P1236521718396883739
 /-!
 # A009041: Ordered legs of Pythagorean triangles.
 
-The programs for A009041, the canonical program `A009041.P2318627232109113920` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009041 has offset 1).
+The programs for A009041, the canonical program `A009041.P2318627232109113920` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009041 has offset 1).
 
 The definition of A009041 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2953,7 +2953,7 @@ The definition of A009041 is `conjectured`: the Lean definition is a formula tha
 
 `∑[char[∑[A046079(n+1)]]]+2`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A009041
@@ -4135,7 +4135,7 @@ end A009069.P1264084373348320477
 /-!
 # A009070: Ordered sides of Pythagorean triangles.
 
-The programs for A009070, the canonical program `A009070.P3709477787699467726` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009070 has offset 1).
+The programs for A009070, the canonical program `A009070.P3709477787699467726` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A009070 has offset 1).
 
 The definition of A009070 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4144,7 +4144,7 @@ The definition of A009070 is `conjectured`: the Lean definition is a formula tha
 
 `∑[char[∑[A046081(n+1)]]]+2`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A009070

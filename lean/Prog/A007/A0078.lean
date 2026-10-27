@@ -46,7 +46,6 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
@@ -56,14 +55,17 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -73,8 +75,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2939,12 +2939,6 @@ namespace A007821
 /-- `A168271(n+1)+A144570(n+1)` -/
 def P7151189786631961152.Spec : Prop :=
   ∀ n, P7151189786631961152.a n = A007821 (n + 1)
-
-theorem P7151189786631961152.correct : P7151189786631961152.Spec := by
-  intro n
-  simp only [A007821, Nat.add_sub_cancel, A007821.P7151189786631961152.a, A007821.P9323765795172173596.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A018252, A018252.P16557407491482004301.f1, A018252.P16557407491482004301.a, A144570, A144570.P11118034758568014224.a, A168271, A168271.P11427339168696885429.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A141468, A141468.P11281748312058034280.a, A054546, A054546.P12235855701833693749.a, A000038, A000038.P13734959004655594922.a, A065310, A065310.P13031903484145223612.f1, A065310.P13031903484145223612.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A007821
 
@@ -8717,7 +8711,7 @@ end A007874.P13188440210783910464
 /-!
 # A007875: Number of ways of writing n as p*q, with p <= q, gcd(p, q) = 1.
 
-The programs for A007875, the canonical program `A007875.P1743519679505570737` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007875 has offset 1).
+The programs for A007875, the canonical program `A007875.P1743519679505570737` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007875 has offset 1).
 
 The definition of A007875 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8801,7 +8795,7 @@ end A007875
 
 `A163109(∏{p}[n+1, #])`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A007875
@@ -10161,7 +10155,7 @@ theorem P11938197841474887063.correct : P11938197841474887063.Spec := by
 end A007887
 
 /-!
-# A007889: Number of intransitive (or alternating, or Stanley) trees: vertices are [0,n] and for no i
+# A007889: Number of intransitive (or alternating, or Stanley) trees: vertices are [0,n] and for no i<j<k are both (i,j) and (j,k) edges.
 
 The programs for A007889, there is no canonical definition to state claims against.
 -/

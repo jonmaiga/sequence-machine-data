@@ -37,33 +37,33 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -863,7 +863,7 @@ end A068206.P5709214386074351378
 /-!
 # A068207: Numbers k such that the number of divisors of k^2-1 equals the number of divisors of k.
 
-The programs for A068207, the canonical program `A068207.P7943942854021389993` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068207 has offset 1).
+The programs for A068207, the canonical program `A068207.P7943942854021389993` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068207 has offset 1).
 
 The definition of A068207 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 457 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -872,7 +872,7 @@ The definition of A068207 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A129296(n+1), A292286(n+1)]+1`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A068207
@@ -1862,7 +1862,7 @@ def P6544153954661735437.Spec : Prop :=
 end A068212
 
 /-!
-# A068215: Denominator of Borwein integral of order 2n+1, as defined by Weisstein.
+# A068215: Denominator of Borwein integral of order 2n+1 in MathWorld's normalization.
 
 The programs for A068215, there is no canonical definition to state claims against.
 -/
@@ -2403,7 +2403,7 @@ end A068217
 /-!
 # A068219: Denominators of coefficients in log(1+x)*(1+x)^(1/3) power series.
 
-The programs for A068219, the canonical program `A068219.P5528515115272368905` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068219 has offset 1).
+The programs for A068219, the canonical program `A068219.P5528515115272368905` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068219 has offset 1).
 
 The definition of A068219 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2412,7 +2412,7 @@ The definition of A068219 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*A060819(n+1)`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A068219
@@ -3203,7 +3203,7 @@ end A068226.P5401882443193347647
 /-!
 # A068227: The "genity" sequence of the primes, i.e., a(n) = g(p) = ((p mod 4) + (p mod 6))/2, where p is the n-th prime.
 
-The programs for A068227, the canonical program `A068227.P12771326181274987571` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068227 has offset 1).
+The programs for A068227, the canonical program `A068227.P12771326181274987571` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068227 has offset 1).
 
 The definition of A068227 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3212,7 +3212,7 @@ The definition of A068227 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(A000040(n+1)%4+A000040(n+1)%6)/2`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A068227
@@ -5995,7 +5995,7 @@ end A068237.P5143990364121565263
 /-!
 # A068238: Denominators of arithmetic derivative of 1/n: -A003415(n)/n^2.
 
-The programs for A068238, the canonical program `A068238.P5212387660254963000` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068238 has offset 1).
+The programs for A068238, the canonical program `A068238.P5212387660254963000` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068238 has offset 1).
 
 The definition of A068238 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6004,7 +6004,7 @@ The definition of A068238 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)²/gcd((n+1)², ∑[A258057(n)])`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A068238
@@ -6144,7 +6144,7 @@ end A068240.P14723706001212421087
 /-!
 # A068244: 1/6 the number of colorings of a 3 X 3 rhombic- or staggered- hexagonal array with n colors.
 
-The programs for A068244, the canonical program `A068244.P4361570666989602982` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068244 has offset 3).
+The programs for A068244, the canonical program `A068244.P4361570666989602982` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068244 has offset 3).
 
 The definition of A068244 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6176,7 +6176,7 @@ end A068244
 
 `(A060888(n+1)+n)*∑[∑[n+1]]`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A068244

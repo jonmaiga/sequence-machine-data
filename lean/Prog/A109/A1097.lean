@@ -43,23 +43,25 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
+import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C000
+import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
@@ -67,14 +69,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -952,7 +951,7 @@ end A109711.P5333246321240580624
 /-!
 # A109712: UnitarySigmaUnitaryPhi(n) or USUP(n).
 
-The programs for A109712, the canonical program `A109712.P3623470777701250285` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109712 has offset 1).
+The programs for A109712, the canonical program `A109712.P3623470777701250285` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109712 has offset 1).
 
 The definition of A109712 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034448, A047994, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -961,7 +960,7 @@ The definition of A109712 is `conditional`: the Lean definition is an OEIS formu
 
 `A034448(A006519(n+1))*A047994((n+1)/A006519(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A109712
@@ -1404,7 +1403,7 @@ end A109721.P6501005258636415587
 /-!
 # A109722: Sum of first 2n primes.
 
-The programs for A109722, the canonical program `A109722.P10188503146465590831` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109722 has offset 0).
+The programs for A109722, the canonical program `A109722.P10188503146465590831` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109722 has offset 0).
 
 The definition of A109722 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1413,7 +1412,7 @@ The definition of A109722 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A007504(2*n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A109722
@@ -1898,7 +1897,7 @@ end A109722
 /-!
 # A109723: Sum of the first 2n+1 primes.
 
-The programs for A109723, the canonical program `A109723.P9563710613651025040` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109723 has offset 0).
+The programs for A109723, the canonical program `A109723.P9563710613651025040` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109723 has offset 0).
 
 The definition of A109723 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1907,7 +1906,7 @@ The definition of A109723 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A007504(2*n+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A109723
@@ -2685,7 +2684,7 @@ end A109724
 /-!
 # A109725: Divide primes in groups with 2n+1 elements and add together.
 
-The programs for A109725, the canonical program `A109725.P13056055185361958747` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109725 has offset 0).
+The programs for A109725, the canonical program `A109725.P13056055185361958747` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109725 has offset 0).
 
 The definition of A109725 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2717,7 +2716,7 @@ end A109725
 
 `A007504((n+1)²)-A007504(n²)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A109725
@@ -2927,7 +2926,7 @@ end A109725
 /-!
 # A109726: Divide primes in groups with 2n elements and add together.
 
-The programs for A109726, the canonical program `A109726.P14787538916744219353` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109726 has offset 0).
+The programs for A109726, the canonical program `A109726.P14787538916744219353` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109726 has offset 0).
 
 The definition of A109726 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2936,7 +2935,7 @@ The definition of A109726 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A007504(n*(n+1))-A007504(n*(n-1))`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A109726
@@ -4735,7 +4734,7 @@ end
 end A109752.P6665583901801888337
 
 /-!
-# A109753: n^3 mod 8; the periodic sequence {0,1,0,3,0,5,0,7}.
+# A109753: a(n) = n^3 mod 8; the periodic sequence {0,1,0,3,0,5,0,7}.
 
 The programs for A109753, the canonical program `A109753.P9858240629842598785` is in `Seq.B000.C017`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109753 has offset 0).
 
@@ -5388,7 +5387,7 @@ end A109762.P3127598568626201811
 /-!
 # A109763: Primes repeated.
 
-The programs for A109763, the canonical program `A109763.P2938367627261034310` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109763 has offset 1).
+The programs for A109763, the canonical program `A109763.P2938367627261034310` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109763 has offset 1).
 
 The definition of A109763 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5397,7 +5396,7 @@ The definition of A109763 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000040(ceil((n+1)/2))`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A109763
@@ -9379,7 +9378,7 @@ end A109790.P17110839005892015603
 /-!
 # A109791: a(n) = prime(n^4).
 
-The programs for A109791, the canonical program `A109791.P6113470772709236306` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109791 has offset 1).
+The programs for A109791, the canonical program `A109791.P6113470772709236306` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109791 has offset 1).
 
 The definition of A109791 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040((n+1)^4)` (program `A109791.P6113470772709236306`, by `A109791.P6113470772709236306.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -9388,7 +9387,7 @@ The definition of A109791 is `verified`: the Lean definition is proven equivalen
 
 `A000040((n+1)^4)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A109791

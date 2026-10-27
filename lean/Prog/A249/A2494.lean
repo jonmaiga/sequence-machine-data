@@ -47,30 +47,27 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1899,7 +1896,7 @@ end A249423.P12501116244585081736
 /-!
 # A249424: Odd integers n such that A249151(n) = (n-1)/2.
 
-The programs for A249424, the canonical program `A249424.P5276109729741823829` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249424 has offset 1).
+The programs for A249424, the canonical program `A249424.P5276109729741823829` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249424 has offset 1).
 
 The definition of A249424 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 310 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1908,7 +1905,7 @@ The definition of A249424 is `conjectured`: the Lean definition is a formula tha
 
 `2*A249428(n+1)+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A249424
@@ -2816,7 +2813,7 @@ end A249427.P13734376798670209139
 /-!
 # A249428: Numbers n such that A249151(2n+1) = n.
 
-The programs for A249428, the canonical program `A249428.P3847306228098961032` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249428 has offset 1).
+The programs for A249428, the canonical program `A249428.P3847306228098961032` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249428 has offset 1).
 
 The definition of A249428 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 310 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3109,7 +3106,7 @@ end A249428
 
 `eq[A062790(n+1), A093148(n)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A249428
@@ -5054,7 +5051,7 @@ end A249448.P17542865081898382399
 /-!
 # A249450: a(n) = Fibonacci(2*n) - 2.
 
-The programs for A249450, the canonical program `A249450.P8410916202522237215` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249450 has offset 0).
+The programs for A249450, the canonical program `A249450.P8410916202522237215` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249450 has offset 0).
 
 The definition of A249450 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000045(2*n)-2` (program `A249450.P8410916202522237215`, by `A249450.P8410916202522237215.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5063,7 +5060,7 @@ The definition of A249450 is `verified`: the Lean definition is proven equivalen
 
 `A000045(2*n)-2`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A249450
@@ -5572,7 +5569,7 @@ end A249450
 /-!
 # A249452: Numbers k such that A249441(k) = 3.
 
-The programs for A249452, the canonical program `A249452.P2619371724854992228` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249452 has offset 1).
+The programs for A249452, the canonical program `A249452.P2619371724854992228` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249452 has offset 1).
 
 The definition of A249452 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5581,7 +5578,7 @@ The definition of A249452 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `16*A029744(n+1)-1`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A249452
@@ -6207,7 +6204,7 @@ end A249454.P5963206509245265221
 /-!
 # A249457: The numerator of curvatures of touching circles inscribed in a special way in the larger segment of a unit circle divided by a chord of length sqrt(84)/5.
 
-The programs for A249457, the canonical program `A249457.P4380148840988544029` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249457 has offset 0).
+The programs for A249457, the canonical program `A249457.P4380148840988544029` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249457 has offset 0).
 
 The definition of A249457 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6216,7 +6213,7 @@ The definition of A249457 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*(A249862(n)+3^n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A249457
@@ -6234,7 +6231,7 @@ end A249457
 /-!
 # A249458: The numerators of curvatures of touching circles inscribed in a special way in the smaller segment of unit circle divided by a chord of length sqrt(84)/5.
 
-The programs for A249458, the canonical program `A249458.P10090392725250684682` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249458 has offset 0).
+The programs for A249458, the canonical program `A249458.P10090392725250684682` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249458 has offset 0).
 
 The definition of A249458 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6243,7 +6240,7 @@ The definition of A249458 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*(A249864(n)+7^n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A249458
@@ -8617,7 +8614,7 @@ end A249484.P12238536719985249150
 /-!
 # A249485: Numbers n such that sigma(n) - 2 is prime.
 
-The programs for A249485, the canonical program `A249485.P3309504854679943155` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249485 has offset 1).
+The programs for A249485, the canonical program `A249485.P3309504854679943155` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249485 has offset 1).
 
 The definition of A249485 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 118 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8626,7 +8623,7 @@ The definition of A249485 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A001222(A000203(n+2)-2)]+2`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A249485

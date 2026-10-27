@@ -29,14 +29,13 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -45,27 +44,27 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
-import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
-import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -5728,7 +5727,7 @@ end A391353.P1934145425402535759
 /-!
 # A391354: Numbers k such that 4*k - (greatest prime < 4*k) < (least prime > 4*k) - 4*k.
 
-The programs for A391354, the canonical program `A391354.P10099738109848602557` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391354 has offset 1).
+The programs for A391354, the canonical program `A391354.P10099738109848602557` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391354 has offset 1).
 
 The definition of A391354 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2175 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5737,7 +5736,7 @@ The definition of A391354 is `conjectured`: the Lean definition is a formula tha
 
 `record[A246277(A390788(n+1))]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A391354
@@ -5755,7 +5754,7 @@ end A391354
 /-!
 # A391357: Rectangular array R read by falling antidiagonals: R(n,k) = prime(n) + prime(n+k).
 
-The programs for A391357, the canonical program `A391357.P12193417330402299816` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391357 has offset 1).
+The programs for A391357, the canonical program `A391357.P12193417330402299816` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391357 has offset 1).
 
 The definition of A391357 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(col(n)+1)+A000040(col(n)+1+row(n)-col(n)+1)` (program `A391357.P12193417330402299816`, by `A391357.P12193417330402299816.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5764,7 +5763,7 @@ The definition of A391357 is `verified`: the Lean definition is proven equivalen
 
 `A000040(col(n)+1)+A000040(col(n)+1+row(n)-col(n)+1)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A391357
@@ -5999,7 +5998,7 @@ end A391357
 /-!
 # A391358: Rectangular array R read by falling antidiagonals: R(n,k) = prime(k) + prime(n+k).
 
-The programs for A391358, the canonical program `A391358.P13111860119989259958` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391358 has offset 1).
+The programs for A391358, the canonical program `A391358.P13111860119989259958` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391358 has offset 1).
 
 The definition of A391358 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(row(n)-col(n)+1)+A000040(col(n)+1+row(n)-col(n)+1)` (program `A391358.P13111860119989259958`, by `A391358.P13111860119989259958.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6008,7 +6007,7 @@ The definition of A391358 is `verified`: the Lean definition is proven equivalen
 
 `A000040(row(n)-col(n)+1)+A000040(col(n)+1+row(n)-col(n)+1)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A391358
@@ -6770,7 +6769,7 @@ end A391383.P13388911807144086567
 /-!
 # A391384: Primes p such that p - 1 has exactly as many odd divisors as p + 1.
 
-The programs for A391384, the canonical program `A391384.P18148672950887766433` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391384 has offset 1).
+The programs for A391384, the canonical program `A391384.P18148672950887766433` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391384 has offset 1).
 
 The definition of A391384 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 792 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6779,7 +6778,7 @@ The definition of A391384 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A275418(n+1)]`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A391384

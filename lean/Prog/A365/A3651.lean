@@ -34,23 +34,24 @@ import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -58,8 +59,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2666,7 +2665,7 @@ end A365169.P9869291539718329518
 /-!
 # A365170: The sum of divisors d of n such that gcd(d, n/d) is squarefree.
 
-The programs for A365170, the canonical program `A365170.P4762611898248662452` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365170 has offset 1).
+The programs for A365170, the canonical program `A365170.P4762611898248662452` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365170 has offset 1).
 
 The definition of A365170 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2675,7 +2674,7 @@ The definition of A365170 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A254503(#)*A295295((n+1)/#)]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A365170
@@ -2693,7 +2692,7 @@ end A365170
 /-!
 # A365171: The number of divisors d of n such that gcd(d, n/d) is a square.
 
-The programs for A365171, the canonical program `A365171.P15755108315260376590` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365171 has offset 1).
+The programs for A365171, the canonical program `A365171.P15755108315260376590` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365171 has offset 1).
 
 The definition of A365171 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2702,7 +2701,7 @@ The definition of A365171 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A353519(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A365171
@@ -3154,7 +3153,7 @@ end A365173
 /-!
 # A365174: The sum of divisors d of n such that gcd(d, n/d) is an exponentially odd number (A268335).
 
-The programs for A365174, the canonical program `A365174.P1377516069112288599` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365174 has offset 1).
+The programs for A365174, the canonical program `A365174.P1377516069112288599` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365174 has offset 1).
 
 The definition of A365174 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3163,7 +3162,7 @@ The definition of A365174 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A254503(#)*A365336((n+1)/#)]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A365174

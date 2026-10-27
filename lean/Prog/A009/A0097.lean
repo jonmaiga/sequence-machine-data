@@ -27,8 +27,9 @@ import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C006
-import Seq.B001.C008
+import Seq.B001.C003
+import Seq.B001.C007
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
@@ -36,16 +37,15 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B004.C001
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3326,7 +3326,7 @@ def P12799862040333534287.Spec : Prop :=
 end A009759
 
 /-!
-# A009763: a(n) is (n+1)!*(n+2)! times coefficient of x^n in (log(1-x))^-1.
+# A009763: a(n) is (n+1)!*(n+2)! times Gregory's coefficient G_n, the coefficient of x^n in 1/log(1-x).
 
 The programs for A009763, there is no canonical definition to state claims against.
 -/

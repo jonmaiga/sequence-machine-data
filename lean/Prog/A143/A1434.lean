@@ -40,27 +40,24 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,12 +65,12 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2170,7 +2167,7 @@ end A143423.P12301781640206536224
 /-!
 # A143424: Triangle read by rows, A054525 * A130123, 1<=k<=n.
 
-The programs for A143424, the canonical program `A143424.P11284984421560187409` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143424 has offset 1).
+The programs for A143424, the canonical program `A143424.P11284984421560187409` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143424 has offset 1).
 
 The definition of A143424 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2212,7 +2209,7 @@ end A143424
 
 `A054525(n+1)*A059268(n)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A143424
@@ -4579,7 +4576,7 @@ end A143439.P5744102823260427562
 /-!
 # A143442: Triangle read by rows, A127648 * A000012 * A128407, 1 <= k <= n.
 
-The programs for A143442, the canonical program `A143442.P15593702494414460611` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143442 has offset 1).
+The programs for A143442, the canonical program `A143442.P15593702494414460611` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143442 has offset 1).
 
 The definition of A143442 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4588,7 +4585,7 @@ The definition of A143442 is `conjectured`: the Lean definition is a formula tha
 
 `∑[char[∑[n]]]*A054527(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A143442
@@ -5420,7 +5417,7 @@ end A143443
 /-!
 # A143444: A054525 * the primes prefaced by 0.
 
-The programs for A143444, the canonical program `A143444.P8311283723443882101` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143444 has offset 1).
+The programs for A143444, the canonical program `A143444.P8311283723443882101` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143444 has offset 1).
 
 The definition of A143444 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5429,7 +5426,7 @@ The definition of A143444 is `conjectured`: the Lean definition is a formula tha
 
 `A030013(n+1)-round(1/∏{e}[n+1, -#²])`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A143444
@@ -5487,12 +5484,6 @@ namespace A143444
 /-- `A007444(n+1)-A333471(n+1)` -/
 def P17977413160541906714.Spec : Prop :=
   ∀ n, P17977413160541906714.a n = A143444 (n + 1)
-
-theorem P17977413160541906714.correct : P17977413160541906714.Spec := by
-  intro n
-  simp only [A143444, Nat.add_sub_cancel, A143444.P17977413160541906714.a, A143444.P8311283723443882101.f1, A143444.P8311283723443882101.a, A007444, A007444.P105140508511523845.f1, A007444.P105140508511523845.a, A030013, A030013.P3659823557313004055.f1, A030013.P3659823557313004055.a, A333471, A333471.P5176765363356701147.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A007427, A007427.P16363569186413612215.f1, A007427.P16363569186413612215.a, A008683, A008683.P18254306604665478110.a, A030014, A030014.P14052116061962603541.f1, A030014.P14052116061962603541.a, A008578, A008578.P3639467937083264764.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A085357, A085357.P3258697467278337073.a, A106400, A106400.P11201390576172776043.a, A158611, A158611.P9275629407611603775.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A143444
 
@@ -8856,7 +8847,7 @@ end A143466
 /-!
 # A143467: Triangle read by rows, A143315 * A128407, 1<=k<=n.
 
-The programs for A143467, the canonical program `A143467.P10375842645312805045` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143467 has offset 1).
+The programs for A143467, the canonical program `A143467.P10375842645312805045` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143467 has offset 1).
 
 The definition of A143467 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8865,7 +8856,7 @@ The definition of A143467 is `conjectured`: the Lean definition is a formula tha
 
 `A054524(n+1)*A143315(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A143467
@@ -8998,7 +8989,7 @@ end A143467
 /-!
 # A143468: Triangle read by rows, A054525 * A127775, 1<=k<=n.
 
-The programs for A143468, the canonical program `A143468.P8235683988876298013` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143468 has offset 1).
+The programs for A143468, the canonical program `A143468.P8235683988876298013` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143468 has offset 1).
 
 The definition of A143468 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9040,7 +9031,7 @@ end A143468
 
 `A054525(n+1)*A134560(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A143468
@@ -9265,7 +9256,7 @@ end A143468
 /-!
 # A143469: Triangle read by rows, A000012 * A143315 * A128407, 1<=k<=1.
 
-The programs for A143469, the canonical program `A143469.P17550600215004347923` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143469 has offset 1).
+The programs for A143469, the canonical program `A143469.P17550600215004347923` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143469 has offset 1).
 
 The definition of A143469 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9274,7 +9265,7 @@ The definition of A143469 is `conjectured`: the Lean definition is a formula tha
 
 `A010766(n+1)*A143349(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A143469
@@ -9333,12 +9324,6 @@ namespace A143469
 def P10464143694168172918.Spec : Prop :=
   ∀ n, P10464143694168172918.a n = A143469 (n + 1)
 
-theorem P10464143694168172918.correct : P10464143694168172918.Spec := by
-  intro n
-  simp only [A143469, Nat.add_sub_cancel, A143469.P10464143694168172918.a, A143469.P17550600215004347923.a, A010766, A010766.P13358049683493517902.f1, A010766.P13358049683493517902.a, A054527, A054527.P17064266443214321045.a, A143349, A143349.P6165175952052510639.a, A008683, A008683.P18254306604665478110.a, A074909, A074909.P6402560185863182536.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A085357, A085357.P3258697467278337073.a, A106400, A106400.P11201390576172776043.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A143469
 
 /-! ## A143469.P18198055531536907414
@@ -9365,7 +9350,7 @@ def P18198055531536907414.Spec : Prop :=
 end A143469
 
 /-!
-# A143470: Triangle read by rows, A000012 * A143316, 1<=k<=n.
+# A143470: 
 
 The programs for A143470, there is no canonical definition to state claims against.
 -/

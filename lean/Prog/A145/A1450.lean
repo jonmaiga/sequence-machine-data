@@ -47,16 +47,18 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -69,9 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7710,7 +7709,7 @@ end A145060.P11246397684698762677
 /-!
 # A145061: Number of pairs of odd numbers that separate two consecutive twin prime pairs.
 
-The programs for A145061, the canonical program `A145061.P9301229147611085` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145061 has offset 1).
+The programs for A145061, the canonical program `A145061.P9301229147611085` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145061 has offset 1).
 
 The definition of A145061 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001359, A006512, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7719,7 +7718,7 @@ The definition of A145061 is `conditional`: the Lean definition is an OEIS formu
 
 `(A001359(n+2)-A006512(n+1))/2`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A145061
@@ -13663,7 +13662,7 @@ end A145097.P5349574569994612239
 /-!
 # A145099: a(n) = 1 if the largest proper divisor of Mersenne composite A145097(n) is prime and a(n) = 0 in opposite case.
 
-The programs for A145099, the canonical program `A145099.P2105751496265712381` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145099 has offset 1).
+The programs for A145099, the canonical program `A145099.P2105751496265712381` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145099 has offset 1).
 
 The definition of A145099 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 183 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13672,7 +13671,7 @@ The definition of A145099 is `conjectured`: the Lean definition is a formula tha
 
 `C(2, A135975(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A145099

@@ -38,13 +38,12 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,15 +51,16 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -68,9 +68,7 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1988,7 +1986,7 @@ end A180016.P9018366297319864642
 /-!
 # A180017: Difference of sums of digits of n in ternary and in binary.
 
-The programs for A180017, the canonical program `A180017.P1955405444060819929` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180017 has offset 0).
+The programs for A180017, the canonical program `A180017.P1955405444060819929` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180017 has offset 0).
 
 The definition of A180017 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2020,7 +2018,7 @@ end A180017
 
 `A011371(n)-2*A054861(n)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A180017
@@ -7070,7 +7068,7 @@ end A180053.P14688953354732924452
 /-!
 # A180054: In binary expansion, number of 1's in 3n is less than in n.
 
-The programs for A180054, the canonical program `A180054.P16889925413695154586` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180054 has offset 1).
+The programs for A180054, the canonical program `A180054.P16889925413695154586` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180054 has offset 1).
 
 The definition of A180054 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4677 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7079,7 +7077,7 @@ The definition of A180054 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A001316(3*n), 2*a(and(n, n-1))]` with `a(0)=1`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A180054
@@ -7648,7 +7646,7 @@ end A180054
 /-!
 # A180055: Numbers k such that in binary expansion, the number of 1's in 5*k is less than the number of 1's in k.
 
-The programs for A180055, the canonical program `A180055.P17108974151974231138` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180055 has offset 1).
+The programs for A180055, the canonical program `A180055.P17108974151974231138` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A180055 has offset 1).
 
 The definition of A180055 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2211 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7657,7 +7655,7 @@ The definition of A180055 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A001316(5*n), A001316(n)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A180055
@@ -8923,7 +8921,7 @@ end
 end A180073.P1238728426248536088
 
 /-!
-# A180074: Squarefree semiprimes s=p*q, p
+# A180074: Squarefree semiprimes s=p*q, p<q, such that 2^s mod s = 2^p.
 
 The programs for A180074, there is no canonical definition to state claims against.
 -/

@@ -46,8 +46,8 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -55,10 +55,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -73,7 +75,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4658,7 +4659,7 @@ end A141639.P12012807693152900732
 /-!
 # A141640: Additive nonprimes: odd sum of digits is a nonprime.
 
-The programs for A141640, the canonical program `A141640.P11678069343335363324` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141640 has offset 1).
+The programs for A141640, the canonical program `A141640.P11678069343335363324` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141640 has offset 1).
 
 The definition of A141640 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4723,7 +4724,7 @@ end A141640
 
 `eq[A000007(n), A107279(A007953(n))]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A141640
@@ -13520,7 +13521,7 @@ theorem P14688773505282126803.correct : P14688773505282126803.Spec := by
 end A141694
 
 /-!
-# A141695: Triangle T(n,m) = A120070(n,m)-A143814(n,m) read by rows, 1<=m
+# A141695: Triangle T(n,m) = A120070(n,m)-A143814(n,m) read by rows, 1<=m<n.
 
 The programs for A141695, there is no canonical definition to state claims against.
 -/

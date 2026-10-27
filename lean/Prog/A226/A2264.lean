@@ -48,27 +48,27 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2674,7 +2674,7 @@ end A226428.P5740741655231676027
 /-!
 # A226431: The number of permutations of length n in a particular geometric grid class.
 
-The programs for A226431, the canonical program `A226431.P13429507690692959901` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226431 has offset 1).
+The programs for A226431, the canonical program `A226431.P13429507690692959901` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226431 has offset 1).
 
 The definition of A226431 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2683,7 +2683,7 @@ The definition of A226431 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*A001871(n)-A001871(n+1)+2*A001906(n+1)+2^n+1`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A226431
@@ -2747,7 +2747,7 @@ end A226431
 /-!
 # A226432: The number of simple permutations of length n in a particular geometric grid class.
 
-The programs for A226432, the canonical program `A226432.P6741597299688805071` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226432 has offset 1).
+The programs for A226432, the canonical program `A226432.P6741597299688805071` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226432 has offset 1).
 
 The definition of A226432 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 471 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2756,7 +2756,7 @@ The definition of A226432 is `conjectured`: the Lean definition is a formula tha
 
 `A208354(A233583(n+1))-A006355(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A226432
@@ -2869,7 +2869,7 @@ end A226432
 /-!
 # A226433: The number of permutations of length n in a particular geometric grid class.
 
-The programs for A226433, the canonical program `A226433.P15475771026139554794` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226433 has offset 1).
+The programs for A226433, the canonical program `A226433.P15475771026139554794` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226433 has offset 1).
 
 The definition of A226433 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 239 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2878,7 +2878,7 @@ The definition of A226433 is `conjectured`: the Lean definition is a formula tha
 
 `A142586(n)+A054452(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A226433
@@ -10742,7 +10742,7 @@ end A226492
 /-!
 # A226493: Closed walks of length n in K_4 graph.
 
-The programs for A226493, the canonical program `A226493.P13246878929426534135` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226493 has offset 1).
+The programs for A226493, the canonical program `A226493.P13246878929426534135` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A226493 has offset 1).
 
 The definition of A226493 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10774,7 +10774,7 @@ end A226493
 
 `12*A015518(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A226493

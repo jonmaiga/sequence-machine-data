@@ -42,30 +42,25 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B014.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -431,12 +426,6 @@ namespace A020500
 /-- `A182936(n+1)+A061397(n+1)` -/
 def P7035765432559277659.Spec : Prop :=
   ∀ n, P7035765432559277659.a n = A020500 (n + 1)
-
-theorem P7035765432559277659.correct : P7035765432559277659.Spec := by
-  intro n
-  simp only [A020500, Nat.add_sub_cancel, A020500.P7035765432559277659.a, A020500.P12751166166803317150.f1, A020500.P12751166166803317150.a, A061397, A061397.P17730824645895443051.a, A182936, A182936.P4233504524226139086.a, A000027, A000027.P10331202704469894836.a, A010051, A010051.P15078252821583414300.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A020500
 
@@ -6716,7 +6705,7 @@ theorem P16255641208895921571.correct : P16255641208895921571.Spec := by
 end A020544
 
 /-!
-# A020545: 3rd Bernoulli polynomial evaluated at x=n!.
+# A020545: Third Bernoulli polynomial evaluated at x=n!.
 
 The programs for A020545, there is no canonical definition to state claims against.
 -/
@@ -7434,7 +7423,7 @@ theorem P6900322562292607526.correct : P6900322562292607526.Spec := by
 end A020551
 
 /-!
-# A020552: 6th Fibonacci polynomial evaluated at x=n!.
+# A020552: Sixth Fibonacci polynomial evaluated at x=n!.
 
 The programs for A020552, there is no canonical definition to state claims against.
 -/

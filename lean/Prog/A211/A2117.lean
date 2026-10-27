@@ -40,15 +40,20 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -59,10 +64,10 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3307,7 +3312,7 @@ end A211772.P1591310229478376561
 /-!
 # A211773: Prime-generating polynomial: a(n) = 2*n^2 - 108*n + 1259.
 
-The programs for A211773, the canonical program `A211773.P11947353139444891531` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211773 has offset 0).
+The programs for A211773, the canonical program `A211773.P11947353139444891531` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211773 has offset 0).
 
 The definition of A211773 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3316,7 +3321,7 @@ The definition of A211773 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A023479(n)+n]+A023478(n)²`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211773
@@ -3958,7 +3963,7 @@ def P15531546414167890253.Spec : Prop :=
 end A211776
 
 /-!
-# A211777: Numbers k such that Sum_{d_
+# A211777: Numbers k such that Sum_{d_<k | k} phi(d_<k) / (d_<k) is an integer, where d_<k = divisors of k that are less than k, phi(x) = A000010(x).
 
 The programs for A211777, there is no canonical definition to state claims against.
 -/
@@ -4140,7 +4145,7 @@ end
 end A211777.P3527211424801340853
 
 /-!
-# A211778: Composite numbers n such that Sum_{d_
+# A211778: Composite numbers n such that Sum_{d_<n | n} phi(d_<n) / (d_<n) is an integer, where d_<n = divisors of n that are less than n, phi(x) = A000010(x).
 
 The programs for A211778, there is no canonical definition to state claims against.
 -/
@@ -4218,7 +4223,7 @@ end
 end A211778.P11034944219404931758
 
 /-!
-# A211779: a(n) = Sum_{d_
+# A211779: a(n) = Sum_{d_<n | n} sigma(d_<n), where d_<n = divisors of n that are less than n, sigma(x) = A000203(x).
 
 The programs for A211779, the canonical program `A211779.P11493622072280912374` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211779 has offset 1).
 
@@ -4456,12 +4461,6 @@ namespace A211779
 def P2718762663593251983.Spec : Prop :=
   ∀ n, P2718762663593251983.a n = A211779 (n + 1)
 
-theorem P2718762663593251983.correct : P2718762663593251983.Spec := by
-  intro n
-  simp only [A211779, Nat.add_sub_cancel, A211779.P2718762663593251983.a, A211779.P11493622072280912374.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A007429, A007429.P3226404755406933578.f1, A007429.P3226404755406933578.a, A091818, A091818.P1536144604709334989.a, A296074, A296074.P13795180973919370839.a, A001065, A001065.P4097147489331274860.a, A033879, A033879.P11735613842914743111.a, A296075, A296075.P11175105171194449082.a, A033880, A033880.P6005875780263802708.a, A074400, A074400.P16312391460013478761.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A211779
 
 /-! ## A211779.P6026268507181115899
@@ -4484,12 +4483,6 @@ namespace A211779
 /-- `A318445(n+1)-A318447(n+1)` -/
 def P6026268507181115899.Spec : Prop :=
   ∀ n, P6026268507181115899.a n = A211779 (n + 1)
-
-theorem P6026268507181115899.correct : P6026268507181115899.Spec := by
-  intro n
-  simp only [A211779, Nat.add_sub_cancel, A211779.P6026268507181115899.a, A211779.P11493622072280912374.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A007429, A007429.P3226404755406933578.f1, A007429.P3226404755406933578.a, A318445, A318445.P14423617105751206309.a, A318447, A318447.P10080329051014422547.a, A001065, A001065.P4097147489331274860.a, A292257, A292257.P4438175682071365739.a, A296074, A296074.P13795180973919370839.a, A000120, A000120.P2816527436160941581.a, A033879, A033879.P11735613842914743111.a, A192895, A192895.P9345364931797933177.f1, A192895.P9345364931797933177.a, A296075, A296075.P11175105171194449082.a, A005187, A005187.P3874015513960485494.a, A005843, A005843.P3167286115683555970.a, A033880, A033880.P6005875780263802708.a, A074400, A074400.P16312391460013478761.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A211779
 
@@ -4763,7 +4756,7 @@ def P17492697937461359605.Spec : Prop :=
 end A211779
 
 /-!
-# A211780: a(n) = Sum_{d|n, d
+# A211780: a(n) = Sum_{d|n, d<n} d * tau(n / d), where tau = A000005 is the number of divisors.
 
 The programs for A211780, the canonical program `A211780.P8877674507974761173` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211780 has offset 1).
 
@@ -5053,16 +5046,10 @@ namespace A211780
 def P6901063559995747375.Spec : Prop :=
   ∀ n, P6901063559995747375.a n = A211780 (n + 1)
 
-theorem P6901063559995747375.correct : P6901063559995747375.Spec := by
-  intro n
-  simp only [A211780, Nat.add_sub_cancel, A211780.P6901063559995747375.a, A211780.P8877674507974761173.a, A001065, A001065.P4097147489331274860.a, A007429, A007429.P3226404755406933578.f1, A007429.P3226404755406933578.a, A318445, A318445.P14423617105751206309.a, A318447, A318447.P10080329051014422547.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A211779, A211779.P11493622072280912374.a, A292257, A292257.P4438175682071365739.a, A296074, A296074.P13795180973919370839.a, A000120, A000120.P2816527436160941581.a, A033879, A033879.P11735613842914743111.a, A192895, A192895.P9345364931797933177.f1, A192895.P9345364931797933177.a, A296075, A296075.P11175105171194449082.a, A005187, A005187.P3874015513960485494.a, A005843, A005843.P3167286115683555970.a, A033880, A033880.P6005875780263802708.a, A074400, A074400.P16312391460013478761.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A211780
 
 /-!
-# A211781: Numbers n such that Sum_(d_
+# A211781: Numbers n such that Sum_(d_<n | n) tau(d_<n) / (d_<n) is an integer, where d_<n = divisors of n that are less than n, tau(x) = A000005(x).
 
 The programs for A211781, there is no canonical definition to state claims against.
 -/
@@ -6226,7 +6213,7 @@ end
 end A211789.P12995543467796958482
 
 /-!
-# A211790: Rectangular array: R(k,n) = number of ordered triples (w,x,y) with all terms in {1,...,n} and w^k
+# A211790: Rectangular array: R(k,n) = number of ordered triples (w,x,y) with all terms in {1,...,n} and w^k<x^k+y^k.
 
 The programs for A211790, there is no canonical definition to state claims against.
 -/
@@ -7399,7 +7386,7 @@ end
 end A211797.P7160485239940714315
 
 /-!
-# A211799: Rectangular array: R(k,n) = number of ordered triples (w,x,y) with all terms in {1,...,n} and w^k<=x^k+y
+# A211799: Rectangular array: R(k,n) = number of ordered triples (w,x,y) with all terms in {1,...,n} and w^k<=x^k+y<k.
 
 The programs for A211799, there is no canonical definition to state claims against.
 -/

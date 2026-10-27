@@ -42,8 +42,8 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
@@ -54,7 +54,6 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -64,8 +63,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2914,7 +2911,7 @@ end A055528
 /-!
 # A055529: Number of bits needed in mantissa to express n! exactly.
 
-The programs for A055529, the canonical program `A055529.P12508370460568413740` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A055529 has offset 0).
+The programs for A055529, the canonical program `A055529.P12508370460568413740` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A055529 has offset 0).
 
 The definition of A055529 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2923,7 +2920,7 @@ The definition of A055529 is `conjectured`: the Lean definition is a formula tha
 
 `A072831(n)-A011371(n)`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A055529
@@ -2958,12 +2955,6 @@ namespace A055529
 /-- `A067850(n)+1-A011371(n)` -/
 def P7775548179528342237.Spec : Prop :=
   ∀ n, P7775548179528342237.a n = A055529 n
-
-theorem P7775548179528342237.correct : P7775548179528342237.Spec := by
-  intro n
-  simp only [A055529, Nat.add_sub_cancel, A055529.P7775548179528342237.a, A055529.P12508370460568413740.a, A011371, A011371.P8892659874704383252.a, A067850, A067850.P433127479858209906.a, A072831, A072831.P2075451572801131696.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A055529
 
@@ -10472,7 +10463,7 @@ end A055596
 /-!
 # A055597: Exponent of the highest power of 2 dividing phi(n!).
 
-The programs for A055597, the canonical program `A055597.P13990031299968115871` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A055597 has offset 1).
+The programs for A055597, the canonical program `A055597.P13990031299968115871` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A055597 has offset 1).
 
 The definition of A055597 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10533,7 +10524,7 @@ end A055597
 
 `∑[val(1-A010051(n+1)+n, 2)]`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A055597
@@ -10650,12 +10641,6 @@ namespace A055597
 /-- `A055656(n+1)+A011371(n+1)` -/
 def P4026972265934517240.Spec : Prop :=
   ∀ n, P4026972265934517240.a n = A055597 (n + 1)
-
-theorem P4026972265934517240.correct : P4026972265934517240.Spec := by
-  intro n
-  simp only [A055597, Nat.add_sub_cancel, A055597.P4026972265934517240.a, A055597.P13990031299968115871.f1, A055597.P13990031299968115871.a, A010051, A010051.P15078252821583414300.a, A011371, A011371.P8892659874704383252.a, A055656, A055656.P11271106632421425074.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A055597
 

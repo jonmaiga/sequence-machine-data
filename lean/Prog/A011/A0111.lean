@@ -30,10 +30,8 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C004
-import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B002.C000
-import Seq.B009.C000
-import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C004

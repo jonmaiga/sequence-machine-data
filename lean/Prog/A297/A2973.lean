@@ -31,13 +31,16 @@ import Seq.B000.C031
 import Seq.B000.C032
 import Seq.B000.C036
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -46,19 +49,20 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
+import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6416,7 +6420,7 @@ end A297381
 /-!
 # A297382: Denominator of -A023900(n)/2.
 
-The programs for A297382, the canonical program `A297382.P17234500139329436849` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A297382 has offset 1).
+The programs for A297382, the canonical program `A297382.P17234500139329436849` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A297382 has offset 1).
 
 The definition of A297382 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A209229, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6425,7 +6429,7 @@ The definition of A297382 is `conditional`: the Lean definition is an OEIS formu
 
 `1+A209229(n+1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A297382
@@ -6908,7 +6912,7 @@ end A297382
 /-!
 # A297384: Number of Eulerian cycles in the n-antiprism graph.
 
-The programs for A297384, the canonical program `A297384.P12971683271013436262` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A297384 has offset 1).
+The programs for A297384, the canonical program `A297384.P12971683271013436262` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A297384 has offset 1).
 
 The definition of A297384 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6917,7 +6921,7 @@ The definition of A297384 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^(n+1)*A003500(n+1)-2/3*(2+4^(n+1))`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A297384

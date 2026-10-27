@@ -8,6 +8,7 @@ import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C007
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -35,7 +36,6 @@ import Seq.B000.C037
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
@@ -45,25 +45,21 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
+import Seq.B002.C002
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C002
-import Seq.B004.C003
+import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4259,7 +4255,7 @@ end A203848
 /-!
 # A203849: a(n) = sigma_2(n)*Fibonacci(n), where sigma_2(n) = A001157(n), the sum of squares of divisors of n.
 
-The programs for A203849, the canonical program `A203849.P5663793052223685031` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203849 has offset 1).
+The programs for A203849, the canonical program `A203849.P5663793052223685031` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203849 has offset 1).
 
 The definition of A203849 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001157, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4268,7 +4264,7 @@ The definition of A203849 is `conditional`: the Lean definition is an OEIS formu
 
 `A001157(n+1)*A000045(n+1)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A203849
@@ -4378,12 +4374,6 @@ namespace A203849
 /-- `(A063477(n+1)-A074283(n+1))*A001157(n+1)` -/
 def P17363456030950859284.Spec : Prop :=
   ∀ n, P17363456030950859284.a n = A203849 (n + 1)
-
-theorem P17363456030950859284.correct : P17363456030950859284.Spec := by
-  intro n
-  simp only [A203849, Nat.add_sub_cancel, A203849.P17363456030950859284.a, A203849.P5663793052223685031.a, A000045, A000045.P11838749114346432762.a, A001157, A001157.P6892814788348726787.a, A063477, A063477.P7827917804109814506.a, A074283, A074283.P13789611695152124336.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A035316, A035316.P17845884678165723091.f1, A035316.P17845884678165723091.a, A037213, A037213.P7544062464691828526.a, A000196, A000196.P15434771586934192083.a, A010052, A010052.P917763524850441347.f1, A010052.P917763524850441347.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A203849
 
@@ -4601,7 +4591,7 @@ end A203852.P4638916403513520706
 /-!
 # A203853: a(n) = (1/n) * Sum_{d|n} moebius(n/d) * Lucas(d)^2, where Lucas(n) = A000204(n).
 
-The programs for A203853, the canonical program `A203853.P2380919053175103754` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203853 has offset 1).
+The programs for A203853, the canonical program `A203853.P2380919053175103754` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A203853 has offset 1).
 
 The definition of A203853 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 244 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4610,7 +4600,7 @@ The definition of A203853 is `conjectured`: the Lean definition is a formula tha
 
 `A032170(n+1)*A373565(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A203853

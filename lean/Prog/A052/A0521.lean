@@ -44,17 +44,21 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
-import Seq.B001.C012
+import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,9 +72,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -103,7 +104,7 @@ set_option linter.unreachableTactic false
 /-!
 # A052100: a(n) = lcm(n, phi(n), n - phi(n)).
 
-The programs for A052100, the canonical program `A052100.P4818620463333782499` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052100 has offset 1).
+The programs for A052100, the canonical program `A052100.P4818620463333782499` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052100 has offset 1).
 
 The definition of A052100 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A009195, A051953, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -112,7 +113,7 @@ The definition of A052100 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+1)*A000010(n+1)*A051953(n+1)/A009195(n+1)²`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A052100
@@ -1787,7 +1788,7 @@ end A052105.P18117593064148536882
 /-!
 # A052106: a(n) = lcm(n, n - phi(n)).
 
-The programs for A052106, the canonical program `A052106.P2973224665383898621` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052106 has offset 1).
+The programs for A052106, the canonical program `A052106.P2973224665383898621` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052106 has offset 1).
 
 The definition of A052106 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1819,7 +1820,7 @@ end A052106
 
 `lcm(n+1, n+1-A000010(n+1))`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A052106
@@ -3288,7 +3289,7 @@ end
 end A052125.P14826282531673976496
 
 /-!
-# A052126: a(1) = 1; for n>1, a(n)=n/(largest prime dividing n).
+# A052126: a(1) = 1; for n>1, a(n)=n/(greatest prime dividing n).
 
 The programs for A052126, the canonical program `A052126.P1944428405920482243` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052126 has offset 1).
 
@@ -9423,7 +9424,7 @@ end A052158
 /-!
 # A052159: Lower prime of a difference of 6 (G-minor-6 primes) between consecutive primes of 6k+5 form.
 
-The programs for A052159, the canonical program `A052159.P16139146045707292468` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052159 has offset 1).
+The programs for A052159, the canonical program `A052159.P16139146045707292468` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052159 has offset 1).
 
 The definition of A052159 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2442 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9432,7 +9433,7 @@ The definition of A052159 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A015914(n+1), A121762(n+1)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A052159
@@ -11073,7 +11074,7 @@ end A052162.P16741478578881378622
 /-!
 # A052164: Primes at which the difference pattern X42Y (X and Y >= 6) occurs in A001223.
 
-The programs for A052164, the canonical program `A052164.P18395530735648300715` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052164 has offset 1).
+The programs for A052164, the canonical program `A052164.P18395530735648300715` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052164 has offset 1).
 
 The definition of A052164 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11082,7 +11083,7 @@ The definition of A052164 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A025584(n+1), A210360(n+1)-4]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A052164

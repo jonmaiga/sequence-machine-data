@@ -4,7 +4,6 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
-import Seq.B000.C004
 import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
@@ -27,12 +26,14 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
+import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -43,8 +44,8 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -53,13 +54,13 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -309,7 +310,7 @@ end A373005.P10129448875525788906
 /-!
 # A373007: a(n) = Sum_{1 <= x_1, x_2, x_3, x_4, x_5 <= n} ( n/gcd(x_1, x_2, x_3, x_4, x_5, n) )^2.
 
-The programs for A373007, the canonical program `A373007.P1458280276416540724` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373007 has offset 1).
+The programs for A373007, the canonical program `A373007.P1458280276416540724` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373007 has offset 1).
 
 The definition of A373007 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -318,7 +319,7 @@ The definition of A373007 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A013955(#)*A334657((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A373007
@@ -1255,7 +1256,7 @@ end A373038.P3776311124625282652
 /-!
 # A373039: a(n) = (A372966(n) - 1)/240.
 
-The programs for A373039, the canonical program `A373039.P3502463588210789433` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373039 has offset 1).
+The programs for A373039, the canonical program `A373039.P3502463588210789433` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373039 has offset 1).
 
 The definition of A373039 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A372966, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1264,7 +1265,7 @@ The definition of A373039 is `conditional`: the Lean definition is an OEIS formu
 
 `(A372966(n+1)-1)/240`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A373039
@@ -1304,7 +1305,7 @@ end A373039
 /-!
 # A373040: a(n) = (A084218(n) - 1)/12.
 
-The programs for A373040, the canonical program `A373040.P10623131507799743519` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373040 has offset 1).
+The programs for A373040, the canonical program `A373040.P10623131507799743519` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373040 has offset 1).
 
 The definition of A373040 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A084218, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1313,7 +1314,7 @@ The definition of A373040 is `conditional`: the Lean definition is an OEIS formu
 
 `(A084218(n+1)-1)/12`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A373040
@@ -1419,7 +1420,7 @@ end A373040
 /-!
 # A373041: 2*a(n) is the number of triangles with integer sides (x, y, n), x < y < n, and gcd(x, y, n) = 1.
 
-The programs for A373041, the canonical program `A373041.P17794873688395257527` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373041 has offset 5).
+The programs for A373041, the canonical program `A373041.P17794873688395257527` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373041 has offset 5).
 
 The definition of A373041 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A023022, A123323, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1451,7 +1452,7 @@ end A373041
 
 `(A123323(n+5)-3*A023022(n+5))/2`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A373041
@@ -1915,7 +1916,7 @@ end A373046
 /-!
 # A373048: Number of squares between n! and (n+1)!, exclusive.
 
-The programs for A373048, the canonical program `A373048.P12956872335884234756` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373048 has offset 0).
+The programs for A373048, the canonical program `A373048.P12956872335884234756` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373048 has offset 0).
 
 The definition of A373048 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1924,7 +1925,7 @@ The definition of A373048 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A055226(n+1)-A055226(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A373048
@@ -2229,7 +2230,7 @@ end A373056.P12904660884652025651
 /-!
 # A373058: The sum of the aliquot coreful divisors of the nonsquarefree numbers.
 
-The programs for A373058, the canonical program `A373058.P8412675158221474829` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373058 has offset 1).
+The programs for A373058, the canonical program `A373058.P8412675158221474829` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373058 has offset 1).
 
 The definition of A373058 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A013929, A336563, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2238,7 +2239,7 @@ The definition of A373058 is `conditional`: the Lean definition is an OEIS formu
 
 `A336563(A013929(n+1))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A373058
@@ -2388,7 +2389,7 @@ end A373058
 /-!
 # A373059: a(n) = Sum_{1 <= x_1, x_2 <= n} gcd(x_1, n)/gcd(x_1, x_2, n).
 
-The programs for A373059, the canonical program `A373059.P5067458892054263835` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373059 has offset 1).
+The programs for A373059, the canonical program `A373059.P5067458892054263835` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373059 has offset 1).
 
 The definition of A373059 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2449,7 +2450,7 @@ end A373059
 
 `∑{d}[n+1, A034714(#)*A101035((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A373059
@@ -2545,7 +2546,7 @@ end A373059
 /-!
 # A373060: a(n) = Sum_{1 <= x_1, x_2, x_3 <= n} gcd(x_1, n)/gcd(x_1, x_2, x_3, n).
 
-The programs for A373060, the canonical program `A373060.P5015462163291241472` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373060 has offset 1).
+The programs for A373060, the canonical program `A373060.P5015462163291241472` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373060 has offset 1).
 
 The definition of A373060 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2580,7 +2581,7 @@ end A373060
 
 `∑{d}[n+1, A053191(#)*A350156((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A373060
@@ -2650,7 +2651,7 @@ end A373060
 /-!
 # A373061: a(n) = Sum_{1 <= x_1, x_2, x_3 <= n} gcd(x_1, x_2, n)/gcd(x_1, x_2, x_3, n).
 
-The programs for A373061, the canonical program `A373061.P4996465783766224626` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373061 has offset 1).
+The programs for A373061, the canonical program `A373061.P4996465783766224626` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373061 has offset 1).
 
 The definition of A373061 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2659,7 +2660,7 @@ The definition of A373061 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A341772(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A373061
@@ -4011,7 +4012,7 @@ end A373086.P17784445044213902082
 /-!
 # A373087: k is a term if k is a square and its odd part is divisible by exactly two distinct primes.
 
-The programs for A373087, the canonical program `A373087.P7180067676949029928` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373087 has offset 1).
+The programs for A373087, the canonical program `A373087.P7180067676949029928` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373087 has offset 1).
 
 The definition of A373087 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4020,7 +4021,7 @@ The definition of A373087 is `conjectured`: the Lean definition is a formula tha
 
 `(eq[3, A001221(2*(n+1))]+1)²`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A373087
@@ -4319,7 +4320,7 @@ end A373094.P16474047380911381217
 /-!
 # A373095: a(n) = a[n/4] + a[n/8] + a[n/16] + ..., where a(0) = 0, a(1) = 1, and [ ] = floor.
 
-The programs for A373095, the canonical program `A373095.P265184573945990704` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373095 has offset 0).
+The programs for A373095, the canonical program `A373095.P265184573945990704` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373095 has offset 0).
 
 The definition of A373095 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4374,7 +4375,7 @@ end A373095
 
 `A000045((2*n)%A324400(2*n+1))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A373095
@@ -4624,7 +4625,7 @@ end A373096.P9979829380808595725
 /-!
 # A373098: Last digit of n*2^n.
 
-The programs for A373098, the canonical program `A373098.P15756619585325101319` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373098 has offset 0).
+The programs for A373098, the canonical program `A373098.P15756619585325101319` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A373098 has offset 0).
 
 The definition of A373098 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4633,7 +4634,7 @@ The definition of A373098 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A373099(n)-1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A373098

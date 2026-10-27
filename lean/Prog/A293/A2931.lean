@@ -42,24 +42,25 @@ import Seq.B001.C002
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -2142,7 +2143,7 @@ end A293123.P16948206891173897789
 /-!
 # A293125: Expansion of e.g.f.: exp(-x/(1+x)).
 
-The programs for A293125, the canonical program `A293125.P13067584911367898446` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293125 has offset 0).
+The programs for A293125, the canonical program `A293125.P13067584911367898446` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293125 has offset 0).
 
 The definition of A293125 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2151,7 +2152,7 @@ The definition of A293125 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(-1)^n*A000262(n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A293125
@@ -3896,7 +3897,7 @@ end A293143
 /-!
 # A293144: Number of vertices in a Menger Sponge constructed from a cubic lattice: a(n) = 20*a(n-1) - 24*A293143(n-1).
 
-The programs for A293144, the canonical program `A293144.P1598588345983364731` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293144 has offset 0).
+The programs for A293144, the canonical program `A293144.P1598588345983364731` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293144 has offset 0).
 
 The definition of A293144 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3928,7 +3929,7 @@ end A293144
 
 `20*a(n-1)-24*A293143(n-1)` with `a(0)=8`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A293144
@@ -4740,21 +4741,6 @@ end
 
 end A293160.P2256339469943008308
 
-/-! ## A293160.P11257895479308265817
-
-`A294443(n)`
--/
-
-namespace A293160.P11257895479308265817
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A294443 n
-
-end
-
-end A293160.P11257895479308265817
-
 /-! ## A293160.P12003331430891154984
 
 `A295783(n)+a(n-1)` with `a(0)=1`
@@ -4808,21 +4794,6 @@ end
 
 end A293161.P17076713148118012675
 
-/-! ## A293161.P9190244151737505923
-
-`ceil(A294443(n+1)/2)`
--/
-
-namespace A293161.P9190244151737505923
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(A294443 (n + 1) : ℚ) / 2⌉
-
-end
-
-end A293161.P9190244151737505923
-
 /-! ## A293161.P1745556646006224238
 
 `floor(∑[A295783(n+1)]/2)+1`
@@ -4859,7 +4830,7 @@ end A293161.P17170414271617077100
 /-!
 # A293162: Take every third term of the {0,1}-version of the Thue-Morse sequence: a(n) = A010060(3n).
 
-The programs for A293162, the canonical program `A293162.P16567619776842325743` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293162 has offset 0).
+The programs for A293162, the canonical program `A293162.P16567619776842325743` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293162 has offset 0).
 
 The definition of A293162 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A010060(3*n)` (program `A293162.P16567619776842325743`, by `A293162.P16567619776842325743.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -4891,7 +4862,7 @@ end A293162
 
 `A010060(3*n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A293162
@@ -5327,7 +5298,7 @@ end A293162
 /-!
 # A293163: a(n) = A010060(3n+1).
 
-The programs for A293163, the canonical program `A293163.P4132471224215771802` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293163 has offset 0).
+The programs for A293163, the canonical program `A293163.P4132471224215771802` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293163 has offset 0).
 
 The definition of A293163 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A010060(3*n+1)` (program `A293163.P4132471224215771802`, by `A293163.P4132471224215771802.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5336,7 +5307,7 @@ The definition of A293163 is `verified`: the Lean definition is proven equivalen
 
 `A010060(3*n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A293163
@@ -5794,7 +5765,7 @@ end A293163
 /-!
 # A293164: a(n) = A010060(3n+2).
 
-The programs for A293164, the canonical program `A293164.P10087759990100678830` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293164 has offset 0).
+The programs for A293164, the canonical program `A293164.P10087759990100678830` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293164 has offset 0).
 
 The definition of A293164 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A010060(3*n+2)` (program `A293164.P10087759990100678830`, by `A293164.P10087759990100678830.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5803,7 +5774,7 @@ The definition of A293164 is `verified`: the Lean definition is proven equivalen
 
 `A010060(3*n+2)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A293164
@@ -6276,21 +6247,6 @@ end
 
 end A293165.P9684236779877013877
 
-/-! ## A293165.P5611710382500104354
-
-`A294443(n)+1`
--/
-
-namespace A293165.P5611710382500104354
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A294443 n + 1
-
-end
-
-end A293165.P5611710382500104354
-
 /-! ## A293165.P15749946856114591030
 
 `A295783(n)+a(n-1)` with `a(0)=2`
@@ -6593,7 +6549,7 @@ end A293167
 /-!
 # A293168: Partial sums of A054868.
 
-The programs for A293168, the canonical program `A293168.P10275927370229923913` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293168 has offset 0).
+The programs for A293168, the canonical program `A293168.P10275927370229923913` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293168 has offset 0).
 
 The definition of A293168 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6602,7 +6558,7 @@ The definition of A293168 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A054868(n)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A293168
@@ -7013,7 +6969,7 @@ end A293168
 /-!
 # A293169: a(n) = Sum_{k=0..n} binomial(k, 6*(n-k)).
 
-The programs for A293169, the canonical program `A293169.P10636581363963723716` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293169 has offset 0).
+The programs for A293169, the canonical program `A293169.P10636581363963723716` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293169 has offset 0).
 
 The definition of A293169 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 363 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7022,7 +6978,7 @@ The definition of A293169 is `conjectured`: the Lean definition is a formula tha
 
 `A392253(2*n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A293169

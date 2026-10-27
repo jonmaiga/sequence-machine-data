@@ -37,9 +37,10 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -47,15 +48,16 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B003.C000
+import Seq.B002.C007
+import Seq.B003.C001
 import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1578,7 +1580,7 @@ end A264118.P12574792357410843891
 /-!
 # A264119: Look and say for Fibonacci word A003842.
 
-The programs for A264119, the canonical program `A264119.P17883340675905039687` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264119 has offset 0).
+The programs for A264119, the canonical program `A264119.P17883340675905039687` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264119 has offset 0).
 
 The definition of A264119 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1587,7 +1589,7 @@ The definition of A264119 is `conjectured`: the Lean definition is a formula tha
 
 `gcd(∑[n], A001468(A174571(n)))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A264119
@@ -3580,7 +3582,7 @@ end A264146.P2705913057422685559
 /-!
 # A264147: a(n) = n*F(n+1) - (n+1)*F(n), where F = A000045.
 
-The programs for A264147, the canonical program `A264147.P9936490276008260745` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264147 has offset 0).
+The programs for A264147, the canonical program `A264147.P9936490276008260745` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264147 has offset 0).
 
 The definition of A264147 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*A000045(n+1)-(n+1)*A000045(n)` (program `A264147.P9936490276008260745`, by `A264147.P9936490276008260745.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -3635,7 +3637,7 @@ end A264147
 
 `n*A000045(n+1)-(n+1)*A000045(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A264147
@@ -4197,7 +4199,7 @@ end A264151.P15155719108050672278
 /-!
 # A264152: a(n) = (2^floor(n+n/2)/sqrt(Pi)^mod(n+1,2))*Gamma(n+1/2)/Gamma(n/2+1).
 
-The programs for A264152, the canonical program `A264152.P11680780030930013707` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264152 has offset 0).
+The programs for A264152, the canonical program `A264152.P11680780030930013707` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A264152 has offset 0).
 
 The definition of A264152 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4206,7 +4208,7 @@ The definition of A264152 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001813(n)/A006882(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A264152

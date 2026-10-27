@@ -34,27 +34,29 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3663,7 +3665,7 @@ end A249240.P14765779072043190286
 /-!
 # A249242: Squarefree primitive abundant numbers (using the second definition: having no abundant proper divisors, cf. A091191).
 
-The programs for A249242, the canonical program `A249242.P1072947971439864743` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249242 has offset 1).
+The programs for A249242, the canonical program `A249242.P1072947971439864743` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249242 has offset 1).
 
 The definition of A249242 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1992 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3784,7 +3786,7 @@ end A249242
 
 `filter[A357696(n+1), A008966(#)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A249242
@@ -4623,7 +4625,7 @@ end A249249.P10372086425401866418
 /-!
 # A249250: Triangular array: row n gives the coefficients of the polynomial p(n,x) defined in Comments.
 
-The programs for A249250, the canonical program `A249250.P10036823079148551915` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249250 has offset 0).
+The programs for A249250, the canonical program `A249250.P10036823079148551915` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249250 has offset 0).
 
 The definition of A249250 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5151 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4632,7 +4634,7 @@ The definition of A249250 is `conjectured`: the Lean definition is a formula tha
 
 `A122016(A099375(n)+1+n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A249250
@@ -7192,7 +7194,7 @@ end A249289.P8442871518305088623
 /-!
 # A249291: Number of length 1+3 0..n arrays with no four consecutive terms having the sum of any three elements equal to three times the fourth.
 
-The programs for A249291, the canonical program `A249291.P11440317869399723647` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249291 has offset 1).
+The programs for A249291, the canonical program `A249291.P11440317869399723647` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249291 has offset 1).
 
 The definition of A249291 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7201,7 +7203,7 @@ The definition of A249291 is `conjectured`: the Lean definition is a formula tha
 
 `(n+2)^4-A248538(n+1)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A249291

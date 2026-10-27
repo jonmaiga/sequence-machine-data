@@ -30,29 +30,31 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
+import Seq.B010.C000
 import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -88,7 +90,7 @@ set_option linter.unreachableTactic false
 /-!
 # A378100: Number of involutions in the symmetric group S_n with at least one fixed point.
 
-The programs for A378100, the canonical program `A378100.P5253957062667002361` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378100 has offset 0).
+The programs for A378100, the canonical program `A378100.P5253957062667002361` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378100 has offset 0).
 
 The definition of A378100 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -97,7 +99,7 @@ The definition of A378100 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000085(n)-A123023(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A378100
@@ -1822,12 +1824,6 @@ namespace A378123
 def P5774972436789557136.Spec : Prop :=
   ∀ n, P5774972436789557136.a n = A378123 (n + 1)
 
-theorem P5774972436789557136.correct : P5774972436789557136.Spec := by
-  intro n
-  simp only [A378123, Nat.add_sub_cancel, A378123.P5774972436789557136.a, A378123.P719144829619954669.a, A001221, A001221.P10258181745752134128.a, A071148, A071148.P13630786703162267389.a, A237589, A237589.P15064465826932885110.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A007504, A007504.P14310834286015847203.a, A014284, A014284.P18183547548072881472.a, A059841, A059841.P7264174615531153985.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A378123
 
 /-! ## A378123.P13055781827137597618
@@ -1873,12 +1869,6 @@ namespace A378123
 /-- `A001221(A101301(n+2)+n)` -/
 def P14802736552733156352.Spec : Prop :=
   ∀ n, P14802736552733156352.a n = A378123 (n + 1)
-
-theorem P14802736552733156352.correct : P14802736552733156352.Spec := by
-  intro n
-  simp only [A378123, Nat.add_sub_cancel, A378123.P14802736552733156352.a, A378123.P719144829619954669.a, A001221, A001221.P10258181745752134128.a, A071148, A071148.P13630786703162267389.a, A101301, A101301.P12618163721935666644.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A007504, A007504.P14310834286015847203.a, A059841, A059841.P7264174615531153985.a, A014284, A014284.P18183547548072881472.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A378123
 
@@ -2673,7 +2663,7 @@ end A378144.P2190836014238517276
 /-!
 # A378145: Riordan triangle (1 + x * C(x), x * C(x)), where C(x) is g.f. of A000108.
 
-The programs for A378145, the canonical program `A378145.P15300547793781424143` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378145 has offset 0).
+The programs for A378145, the canonical program `A378145.P15300547793781424143` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378145 has offset 0).
 
 The definition of A378145 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2682,7 +2672,7 @@ The definition of A378145 is `conjectured`: the Lean definition is a formula tha
 
 `A106566(n+1)+A106566(n)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A378145
@@ -4038,7 +4028,7 @@ end A378180.P2149373611389565419
 /-!
 # A378181: a(1) = 0, a(n) = binomial(bigomega(n) + omega(n) - 1, omega(n)), where bigomega = A001222 and omega = A001221.
 
-The programs for A378181, the canonical program `A378181.P11540481461231249369` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378181 has offset 1).
+The programs for A378181, the canonical program `A378181.P11540481461231249369` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378181 has offset 1).
 
 The definition of A378181 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4047,7 +4037,7 @@ The definition of A378181 is `conjectured`: the Lean definition is a formula tha
 
 `A376567(n+1)-A377071(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A378181
@@ -4256,7 +4246,7 @@ end A378182.P13565712737761942709
 /-!
 # A378183: a(n) = rad(n)^binomial(omega(n) + bigomega(n) - 1, bigomega(n) - 2), where rad = A007947, bigomega = A001222, and omega = A001221.
 
-The programs for A378183, the canonical program `A378183.P5487560436969933485` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378183 has offset 1).
+The programs for A378183, the canonical program `A378183.P5487560436969933485` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A378183 has offset 1).
 
 The definition of A378183 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A377073, A377379, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4265,7 +4255,7 @@ The definition of A378183 is `conditional`: the Lean definition is an OEIS formu
 
 `A377379(n+1)/A377073(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A378183

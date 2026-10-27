@@ -37,12 +37,13 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -50,22 +51,21 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1931,7 +1931,7 @@ end A363826.P12018355506389947248
 /-!
 # A363827: Highest power of 2 dividing n which is <= sqrt(n).
 
-The programs for A363827, the canonical program `A363827.P5433554095545495330` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363827 has offset 1).
+The programs for A363827, the canonical program `A363827.P5433554095545495330` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363827 has offset 1).
 
 The definition of A363827 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4468 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1940,7 +1940,7 @@ The definition of A363827 is `conjectured`: the Lean definition is a formula tha
 
 `A006519(A072504(n+1))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A363827
@@ -2806,7 +2806,7 @@ end A363832
 /-!
 # A363833: Number of prime factors of A000129(n) (Pell numbers) (counted with multiplicity).
 
-The programs for A363833, the canonical program `A363833.P13375782529791038344` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363833 has offset 1).
+The programs for A363833, the canonical program `A363833.P13375782529791038344` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363833 has offset 1).
 
 The definition of A363833 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2815,7 +2815,7 @@ The definition of A363833 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(A000129(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A363833
@@ -4297,7 +4297,7 @@ end A363855
 /-!
 # A363856: Number of divisors of 7*n-4 of form 7*k+6.
 
-The programs for A363856, the canonical program `A363856.P13165153229678481958` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363856 has offset 1).
+The programs for A363856, the canonical program `A363856.P13165153229678481958` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363856 has offset 1).
 
 The definition of A363856 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A363806, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4306,7 +4306,7 @@ The definition of A363856 is `conditional`: the Lean definition is an OEIS formu
 
 `A363806(7*(n+1)-4)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A363856
@@ -4800,7 +4800,7 @@ end A363859
 /-!
 # A363860: Number of divisors of 7*n-1 of form 7*k+4.
 
-The programs for A363860, the canonical program `A363860.P4900529535923147109` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363860 has offset 1).
+The programs for A363860, the canonical program `A363860.P4900529535923147109` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363860 has offset 1).
 
 The definition of A363860 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A363806, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4809,7 +4809,7 @@ The definition of A363860 is `conditional`: the Lean definition is an OEIS formu
 
 `A363806(7*(n+1)-1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A363860
@@ -5937,7 +5937,7 @@ end A363877
 /-!
 # A363878: Number of divisors of 7*n-4 of form 7*k+2.
 
-The programs for A363878, the canonical program `A363878.P17368432943258259261` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363878 has offset 1).
+The programs for A363878, the canonical program `A363878.P17368432943258259261` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363878 has offset 1).
 
 The definition of A363878 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A363795, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5946,7 +5946,7 @@ The definition of A363878 is `conditional`: the Lean definition is an OEIS formu
 
 `A363795(7*(n+1)-4)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A363878
@@ -6056,7 +6056,7 @@ end A363878
 /-!
 # A363879: Number of divisors of 7*n-6 of form 7*k+2.
 
-The programs for A363879, the canonical program `A363879.P16011273899818667065` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363879 has offset 1).
+The programs for A363879, the canonical program `A363879.P16011273899818667065` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363879 has offset 1).
 
 The definition of A363879 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A363795, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6065,7 +6065,7 @@ The definition of A363879 is `conditional`: the Lean definition is an OEIS formu
 
 `A363795(7*n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A363879
@@ -6462,7 +6462,7 @@ end A363884.P12161841739115914225
 /-!
 # A363885: Number of divisors of 7*n-3 of form 7*k+2.
 
-The programs for A363885, the canonical program `A363885.P8366996725641736141` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363885 has offset 1).
+The programs for A363885, the canonical program `A363885.P8366996725641736141` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363885 has offset 1).
 
 The definition of A363885 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A363795, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6471,7 +6471,7 @@ The definition of A363885 is `conditional`: the Lean definition is an OEIS formu
 
 `A363795(7*(n+1)-3)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A363885
@@ -6713,7 +6713,7 @@ end A363887
 /-!
 # A363888: Number of divisors of 7*n-5 of form 7*k+4.
 
-The programs for A363888, the canonical program `A363888.P18119979700684300847` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363888 has offset 1).
+The programs for A363888, the canonical program `A363888.P18119979700684300847` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363888 has offset 1).
 
 The definition of A363888 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A363806, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6722,7 +6722,7 @@ The definition of A363888 is `conditional`: the Lean definition is an OEIS formu
 
 `A363806(7*(n+1)-5)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A363888
@@ -6928,7 +6928,7 @@ end A363889
 /-!
 # A363890: Sum of divisors of 3*n-1 of form 3*k+2.
 
-The programs for A363890, the canonical program `A363890.P10152016517738257759` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363890 has offset 1).
+The programs for A363890, the canonical program `A363890.P10152016517738257759` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363890 has offset 1).
 
 The definition of A363890 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A078182, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6937,7 +6937,7 @@ The definition of A363890 is `conditional`: the Lean definition is an OEIS formu
 
 `A078182(3*(n+1)-1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A363890
@@ -7047,7 +7047,7 @@ end A363890
 /-!
 # A363891: Sum of divisors of 3*n-2 of form 3*k+2.
 
-The programs for A363891, the canonical program `A363891.P3580145014683779225` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363891 has offset 1).
+The programs for A363891, the canonical program `A363891.P3580145014683779225` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363891 has offset 1).
 
 The definition of A363891 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A078182, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7056,7 +7056,7 @@ The definition of A363891 is `conditional`: the Lean definition is an OEIS formu
 
 `A078182(3*n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A363891
@@ -7202,7 +7202,7 @@ end A363893.P15946859680379199246
 /-!
 # A363895: Floor of the average of the distinct prime factors of n.
 
-The programs for A363895, the canonical program `A363895.P17868009645910452837` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363895 has offset 2).
+The programs for A363895, the canonical program `A363895.P17868009645910452837` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363895 has offset 2).
 
 The definition of A363895 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A323171, A323172, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7234,7 +7234,7 @@ end A363895
 
 `floor(A323171(n+2)/A323172(n+2))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A363895

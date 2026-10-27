@@ -38,6 +38,7 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -45,6 +46,7 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,11 +54,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -69,8 +72,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1209,7 +1210,7 @@ end A230114.P18087439218822403607
 /-!
 # A230115: Numbers n such that tau(n+1) - tau(n) = 2; where tau(n) = the number of divisors of n (A000005).
 
-The programs for A230115, the canonical program `A230115.P1180303606197959416` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230115 has offset 1).
+The programs for A230115, the canonical program `A230115.P1180303606197959416` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230115 has offset 1).
 
 The definition of A230115 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1218,7 +1219,7 @@ The definition of A230115 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A000005(n+1)+2, A000005(n+2)]+1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A230115
@@ -1757,7 +1758,7 @@ end A230116.P15101925345942061007
 /-!
 # A230117: Primes p such that 2*p+1 is prime and 2*p+3 is not prime.
 
-The programs for A230117, the canonical program `A230117.P7534826294184350368` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230117 has offset 1).
+The programs for A230117, the canonical program `A230117.P7534826294184350368` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230117 has offset 1).
 
 The definition of A230117 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1235 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1826,7 +1827,7 @@ end A230117
 
 `∩[A163769(n+1), A215751(n+1)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A230117
@@ -2600,7 +2601,7 @@ end A230122.P13955166436680988811
 /-!
 # A230124: Squarefree evil numbers.
 
-The programs for A230124, the canonical program `A230124.P9922372933548285315` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230124 has offset 1).
+The programs for A230124, the canonical program `A230124.P9922372933548285315` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230124 has offset 1).
 
 The definition of A230124 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5907 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2635,7 +2636,7 @@ end A230124
 
 `∩[A001969(n+1), A005117(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A230124
@@ -4926,7 +4927,7 @@ end A230137
 /-!
 # A230138: List of those primes p with p + 2 and 2*p - 5 both prime.
 
-The programs for A230138, the canonical program `A230138.P14470204290748473805` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230138 has offset 1).
+The programs for A230138, the canonical program `A230138.P14470204290748473805` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230138 has offset 1).
 
 The definition of A230138 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4566 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4935,7 +4936,7 @@ The definition of A230138 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A001359(n+1), A063909(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A230138

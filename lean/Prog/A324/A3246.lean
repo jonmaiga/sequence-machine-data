@@ -45,16 +45,16 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
@@ -1752,7 +1752,7 @@ end
 end A324620.P7211163921161149439
 
 /-!
-# A324621: Number of permutations p of [1+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(1+n)*[i
+# A324621: Number of permutations p of [1+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(1+n)*[i<p(i)]].
 
 The programs for A324621, there is no canonical definition to state claims against.
 -/
@@ -1839,7 +1839,7 @@ end
 end A324621.P4576714203289088854
 
 /-!
-# A324622: Number of permutations p of [2+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(2+n)*[i
+# A324622: Number of permutations p of [2+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(2+n)*[i<p(i)]].
 
 The programs for A324622, there is no canonical definition to state claims against.
 -/
@@ -1923,7 +1923,7 @@ end
 end A324622.P16187714438554270139
 
 /-!
-# A324623: Number of permutations p of [3+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(3+n)*[i
+# A324623: Number of permutations p of [3+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(3+n)*[i<p(i)]].
 
 The programs for A324623, there is no canonical definition to state claims against.
 -/
@@ -2007,7 +2007,7 @@ end
 end A324623.P16538656328667680933
 
 /-!
-# A324624: Number of permutations p of [4+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(4+n)*[i
+# A324624: Number of permutations p of [4+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(4+n)*[i<p(i)]].
 
 The programs for A324624, there is no canonical definition to state claims against.
 -/
@@ -2094,7 +2094,7 @@ end
 end A324624.P12626045257405092369
 
 /-!
-# A324625: Number of permutations p of [5+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(5+n)*[i
+# A324625: Number of permutations p of [5+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(5+n)*[i<p(i)]].
 
 The programs for A324625, there is no canonical definition to state claims against.
 -/
@@ -2196,7 +2196,7 @@ end
 end A324625.P11027050130510225664
 
 /-!
-# A324626: Number of permutations p of [6+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(6+n)*[i
+# A324626: Number of permutations p of [6+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(6+n)*[i<p(i)]].
 
 The programs for A324626, there is no canonical definition to state claims against.
 -/
@@ -2307,7 +2307,7 @@ end
 end A324626.P15485972194396293278
 
 /-!
-# A324627: Number of permutations p of [7+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(7+n)*[i
+# A324627: Number of permutations p of [7+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(7+n)*[i<p(i)]].
 
 The programs for A324627, there is no canonical definition to state claims against.
 -/
@@ -2412,7 +2412,7 @@ end
 end A324627.P5431380275611944767
 
 /-!
-# A324628: Number of permutations p of [8+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(8+n)*[i
+# A324628: Number of permutations p of [8+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(8+n)*[i<p(i)]].
 
 The programs for A324628, there is no canonical definition to state claims against.
 -/
@@ -2523,7 +2523,7 @@ end
 end A324628.P7396383263248463450
 
 /-!
-# A324629: Number of permutations p of [9+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(9+n)*[i
+# A324629: Number of permutations p of [9+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(9+n)*[i<p(i)]].
 
 The programs for A324629, there is no canonical definition to state claims against.
 -/
@@ -2613,7 +2613,7 @@ end
 end A324629.P17447054607014512340
 
 /-!
-# A324630: Number of permutations p of [10+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(10+n)*[i
+# A324630: Number of permutations p of [10+n] such that n is the maximum of the number of elements in any integer interval [p(i)..i+(10+n)*[i<p(i)]].
 
 The programs for A324630, there is no canonical definition to state claims against.
 -/
@@ -2703,7 +2703,7 @@ end
 end A324630.P15174759790210582518
 
 /-!
-# A324631: Number of permutations p of [n] such that four is the maximum of the number of elements in any integer interval [p(i)..i+n*[i
+# A324631: Number of permutations p of [n] such that four is the maximum of the number of elements in any integer interval [p(i)..i+n*[i<p(i)]].
 
 The programs for A324631, the canonical program `A324631.P5598610693582606053` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324631 has offset 4).
 
@@ -2822,7 +2822,7 @@ def P17021441084946589983.Spec : Prop :=
 end A324631
 
 /-!
-# A324632: Number of permutations p of [n] such that five is the maximum of the number of elements in any integer interval [p(i)..i+n*[i
+# A324632: Number of permutations p of [n] such that five is the maximum of the number of elements in any integer interval [p(i)..i+n*[i<p(i)]].
 
 The programs for A324632, there is no canonical definition to state claims against.
 -/
@@ -2909,7 +2909,7 @@ end
 end A324632.P14193130923816902493
 
 /-!
-# A324633: Number of permutations p of [n] such that six is the maximum of the number of elements in any integer interval [p(i)..i+n*[i
+# A324633: Number of permutations p of [n] such that six is the maximum of the number of elements in any integer interval [p(i)..i+n*[i<p(i)]].
 
 The programs for A324633, there is no canonical definition to state claims against.
 -/
@@ -3020,7 +3020,7 @@ end
 end A324633.P2243092653741158942
 
 /-!
-# A324634: Number of permutations p of [n] such that seven is the maximum of the number of elements in any integer interval [p(i)..i+n*[i
+# A324634: Number of permutations p of [n] such that seven is the maximum of the number of elements in any integer interval [p(i)..i+n*[i<p(i)]].
 
 The programs for A324634, there is no canonical definition to state claims against.
 -/
@@ -3110,7 +3110,7 @@ end
 end A324634.P11250672496130098209
 
 /-!
-# A324635: Number of permutations p of [n] such that eight is the maximum of the number of elements in any integer interval [p(i)..i+n*[i
+# A324635: Number of permutations p of [n] such that eight is the maximum of the number of elements in any integer interval [p(i)..i+n*[i<p(i)]].
 
 The programs for A324635, there is no canonical definition to state claims against.
 -/
@@ -3221,7 +3221,7 @@ end
 end A324635.P11411678856423920832
 
 /-!
-# A324636: Number of permutations p of [n] such that nine is the maximum of the number of elements in any integer interval [p(i)..i+n*[i
+# A324636: Number of permutations p of [n] such that nine is the maximum of the number of elements in any integer interval [p(i)..i+n*[i<p(i)]].
 
 The programs for A324636, there is no canonical definition to state claims against.
 -/
@@ -3326,7 +3326,7 @@ end
 end A324636.P5384142282001880901
 
 /-!
-# A324637: Number of permutations p of [n] such that ten is the maximum of the number of elements in any integer interval [p(i)..i+n*[i
+# A324637: Number of permutations p of [n] such that ten is the maximum of the number of elements in any integer interval [p(i)..i+n*[i<p(i)]].
 
 The programs for A324637, there is no canonical definition to state claims against.
 -/
@@ -3437,7 +3437,7 @@ end
 end A324637.P13322678599814746789
 
 /-!
-# A324638: Number of permutations p of [2n] such that n is the maximum of 0 and the number of elements in any integer interval [p(i)..i+2n*[i
+# A324638: Number of permutations p of [2n] such that n is the maximum of 0 and the number of elements in any integer interval [p(i)..i+2n*[i<p(i)]].
 
 The programs for A324638, there is no canonical definition to state claims against.
 -/
@@ -4756,7 +4756,7 @@ end A324646.P7134382678471724042
 /-!
 # A324648: a(n) = n - A318458(n), where A318458(n) is bitwise-AND of n and the sum of proper divisors of n (sigma(n)-n).
 
-The programs for A324648, the canonical program `A324648.P5203091077092456117` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324648 has offset 1).
+The programs for A324648, the canonical program `A324648.P5203091077092456117` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324648 has offset 1).
 
 The definition of A324648 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4765,7 +4765,7 @@ The definition of A324648 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+1-A318458(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A324648
@@ -5051,7 +5051,7 @@ end A324648
 /-!
 # A324649: Numbers k such that A318458(k) (bitwise-AND of k and sigma(k)-k) is equal to k.
 
-The programs for A324649, the canonical program `A324649.P3122999716778518876` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324649 has offset 1).
+The programs for A324649, the canonical program `A324649.P3122999716778518876` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324649 has offset 1).
 
 The definition of A324649 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 622 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5060,7 +5060,7 @@ The definition of A324649 is `conjectured`: the Lean definition is a formula tha
 
 `eq[n+1, A318458(n+1)]+1`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A324649

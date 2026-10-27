@@ -39,9 +39,9 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -50,10 +50,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -65,7 +67,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -138,7 +139,7 @@ end
 end A123601.P13581021029454416509
 
 /-!
-# A123603: Triangle T(n,k), 0<=k<=n, read by rows, with T(0,0) = 1, T(n,k) = 0 if kn, T(n,k) = T(n-1,k-1) + T(n-1,k) + T(n-2,k-2) - T(n-2,k-1) + T(n-2,k).
+# A123603: Triangle T(n,k), 0<=k<=n, read by rows, with T(0,0) = 1, T(n,k) = 0 if k<0 or if k>n, T(n,k) = T(n-1,k-1) + T(n-1,k) + T(n-2,k-2) - T(n-2,k-1) + T(n-2,k).
 
 The programs for A123603, there is no canonical definition to state claims against.
 -/
@@ -248,7 +249,7 @@ end A123607.P17517268739786060900
 /-!
 # A123608: Numbers k such that k, k+1 and 2*k+1 are composite.
 
-The programs for A123608, the canonical program `A123608.P17223732889640698517` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123608 has offset 1).
+The programs for A123608, the canonical program `A123608.P17223732889640698517` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123608 has offset 1).
 
 The definition of A123608 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -335,7 +336,7 @@ end A123608
 
 `∩[A002808(n+1), A166602(n+1)]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A123608
@@ -7049,7 +7050,7 @@ end A123666
 /-!
 # A123667: a(n) = n * 2^bigomega(n).
 
-The programs for A123667, the canonical program `A123667.P10077469845532265586` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123667 has offset 1).
+The programs for A123667, the canonical program `A123667.P10077469845532265586` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123667 has offset 1).
 
 The definition of A123667 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A061142, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7058,7 +7059,7 @@ The definition of A123667 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+1)*A061142(n+1)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A123667

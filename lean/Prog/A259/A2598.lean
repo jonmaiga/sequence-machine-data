@@ -38,17 +38,18 @@ import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -56,13 +57,12 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1479,7 +1479,7 @@ end A259825.P11043300145182915727
 /-!
 # A259826: Numbers n such that n is a multiple of 6 and both n-1 and n+1 are composite.
 
-The programs for A259826, the canonical program `A259826.P6433926168437489858` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259826 has offset 1).
+The programs for A259826, the canonical program `A259826.P6433926168437489858` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259826 has offset 1).
 
 The definition of A259826 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A060461, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1488,7 +1488,7 @@ The definition of A259826 is `conditional`: the Lean definition is an OEIS formu
 
 `6*A060461(n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A259826
@@ -2264,7 +2264,7 @@ end A259828
 /-!
 # A259829: a(n) = (-1)^floor(n/2) * A035185(n).
 
-The programs for A259829, the canonical program `A259829.P12670832268435850877` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259829 has offset 1).
+The programs for A259829, the canonical program `A259829.P12670832268435850877` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259829 has offset 1).
 
 The definition of A259829 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A035185, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2273,7 +2273,7 @@ The definition of A259829 is `conditional`: the Lean definition is an OEIS formu
 
 `(-1)^floor((n+1)/2)*A035185(n+1)`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A259829
@@ -3051,7 +3051,7 @@ end A259849.P15665405422554056937
 /-!
 # A259852: Numerators of the terms of Lehmer's series S_2(2), where S_k(x) = Sum_{n>=1} n^k*x^n/binomial(2*n, n).
 
-The programs for A259852, the canonical program `A259852.P5187732436782759166` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259852 has offset 1).
+The programs for A259852, the canonical program `A259852.P5187732436782759166` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259852 has offset 1).
 
 The definition of A259852 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 173 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3060,7 +3060,7 @@ The definition of A259852 is `conjectured`: the Lean definition is a formula tha
 
 `A014477(n)/gcd(A000108(n), A014477(n))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A259852
@@ -3614,7 +3614,7 @@ end A259860
 /-!
 # A259861: a(n+8)+34*a(n+4)+a(n)=0 with a(0)-a(7) as shown.
 
-The programs for A259861, the canonical program `A259861.P7990060494959987818` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259861 has offset 0).
+The programs for A259861, the canonical program `A259861.P7990060494959987818` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259861 has offset 0).
 
 The definition of A259861 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 261 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3623,7 +3623,7 @@ The definition of A259861 is `conjectured`: the Lean definition is a formula tha
 
 `round((sqrt(2)+2)*a(n-1))-A259860(n)` with `a(0)=2`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A259861
@@ -6179,7 +6179,7 @@ end A259896.P7704890796867698493
 /-!
 # A259897: a(n) is the 2-adic valuation of phi(binomial(2*n,n)).
 
-The programs for A259897, the canonical program `A259897.P2407533474827309403` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259897 has offset 0).
+The programs for A259897, the canonical program `A259897.P2407533474827309403` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A259897 has offset 0).
 
 The definition of A259897 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 170 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6188,7 +6188,7 @@ The definition of A259897 is `conjectured`: the Lean definition is a formula tha
 
 `val(A066973(round(sqrt(n²+1))), 2)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A259897

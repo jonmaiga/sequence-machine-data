@@ -53,20 +53,21 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -436,7 +437,7 @@ end A128707.P3430093084541860917
 /-!
 # A128708: Let j(n) be the Jacobsthal function, A048669. Then a(n) is the number of times that the gap j(n) appears between consecutive numbers <= n+1 and coprime to n.
 
-The programs for A128708, the canonical program `A128708.P6544148237693271811` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128708 has offset 1).
+The programs for A128708, the canonical program `A128708.P6544148237693271811` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128708 has offset 1).
 
 The definition of A128708 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 242 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -514,7 +515,7 @@ end A128708
 
 `A000188(gcd(A000082(n+1), A065958(n+1)))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A128708
@@ -2236,7 +2237,7 @@ end A128716.P3085533513430055927
 /-!
 # A128717: Primes that yield another prime if one adds either the sum of its digits or the product of its digits.
 
-The programs for A128717, the canonical program `A128717.P661086661280849448` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128717 has offset 1).
+The programs for A128717, the canonical program `A128717.P661086661280849448` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128717 has offset 1).
 
 The definition of A128717 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1317 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2245,7 +2246,7 @@ The definition of A128717 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A048519(n+1), A157677(n+1)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A128717
@@ -4559,7 +4560,7 @@ end A128745.P4541914811579907248
 /-!
 # A128746: Height of the last peak summed over all skew Dyck paths of semilength n.
 
-The programs for A128746, the canonical program `A128746.P14051206347353493942` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128746 has offset 1).
+The programs for A128746, the canonical program `A128746.P14051206347353493942` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128746 has offset 1).
 
 The definition of A128746 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 147 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4568,7 +4569,7 @@ The definition of A128746 is `conjectured`: the Lean definition is a formula tha
 
 `A045445(n+1)+∑[A045890(n)]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A128746

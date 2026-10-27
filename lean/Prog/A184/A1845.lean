@@ -44,9 +44,12 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
@@ -54,23 +57,22 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1093,7 +1095,7 @@ end A184514
 /-!
 # A184515: Upper s-Wythoff sequence, where s=4n-1. Complement of A184514.
 
-The programs for A184515, the canonical program `A184515.P9567241075721048045` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184515 has offset 1).
+The programs for A184515, the canonical program `A184515.P9567241075721048045` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184515 has offset 1).
 
 The definition of A184515 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1125,7 +1127,7 @@ end A184515
 
 `A184514(n+1)+A004767(n)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A184515
@@ -3431,7 +3433,7 @@ end A184521.P16479461972446333323
 /-!
 # A184522: Upper s-Wythoff sequence, where s=5n. Complement of A184523.
 
-The programs for A184522, the canonical program `A184522.P14639484135176890682` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184522 has offset 1).
+The programs for A184522, the canonical program `A184522.P14639484135176890682` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184522 has offset 1).
 
 The definition of A184522 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3440,7 +3442,7 @@ The definition of A184522 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A184523(n+1)-1]+1`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A184522
@@ -12948,7 +12950,7 @@ end A184583
 /-!
 # A184584: floor[(n-1/3)r], where r=sqrt(5); complement of A184585.
 
-The programs for A184584, the canonical program `A184584.P4544522844543927769` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184584 has offset 1).
+The programs for A184584, the canonical program `A184584.P4544522844543927769` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184584 has offset 1).
 
 The definition of A184584 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1491 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12957,7 +12959,7 @@ The definition of A184584 is `conjectured`: the Lean definition is a formula tha
 
 `A002264(A022839(3*n+2))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A184584

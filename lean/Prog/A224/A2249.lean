@@ -45,24 +45,24 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -70,8 +70,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -300,7 +298,7 @@ end A224902.P9483741934571611946
 /-!
 # A224903: a(n) = sigma(2*n^4) - sigma(n^4).
 
-The programs for A224903, the canonical program `A224903.P17948938627814820977` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224903 has offset 1).
+The programs for A224903, the canonical program `A224903.P17948938627814820977` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224903 has offset 1).
 
 The definition of A224903 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000203(2*(n+1)^4)-A000203((n+1)^4)` (program `A224903.P17948938627814820977`, by `A224903.P17948938627814820977.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -309,7 +307,7 @@ The definition of A224903 is `verified`: the Lean definition is proven equivalen
 
 `A000203(2*(n+1)^4)-A000203((n+1)^4)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A224903
@@ -528,7 +526,7 @@ end A224904.P17814393339845351965
 /-!
 # A224907: Numbers n such that the sum of reciprocals of even divisors of n > 1.
 
-The programs for A224907, the canonical program `A224907.P17184024121669876912` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224907 has offset 1).
+The programs for A224907, the canonical program `A224907.P17184024121669876912` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224907 has offset 1).
 
 The definition of A224907 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005101, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -537,7 +535,7 @@ The definition of A224907 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A005101(n+1)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A224907
@@ -2186,7 +2184,7 @@ end A224920.P5897824034806218878
 /-!
 # A224921: Number of Pythagorean triples (a, b, c) with a^2 + b^2 = c^2 and 0 < a < b < c < n.
 
-The programs for A224921, the canonical program `A224921.P7973326342640336391` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224921 has offset 1).
+The programs for A224921, the canonical program `A224921.P7973326342640336391` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224921 has offset 1).
 
 The definition of A224921 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2247,7 +2245,7 @@ end A224921
 
 `A063468(A028310(n))/2`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A224921
@@ -6046,7 +6044,7 @@ end A224975.P11278808635751351162
 /-!
 # A224976: L.g.f.: log( 1 + Sum_{n>=1} x^(n*(3*n-1)/2) + x^(n*(3*n+1)/2) ) = Sum_{n>=1} a(n)*x^n/n.
 
-The programs for A224976, the canonical program `A224976.P11584365082941137146` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224976 has offset 1).
+The programs for A224976, the canonical program `A224976.P11584365082941137146` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224976 has offset 1).
 
 The definition of A224976 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A111932, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6055,7 +6053,7 @@ The definition of A224976 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A111932(n+1)-A000203(n+1)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A224976

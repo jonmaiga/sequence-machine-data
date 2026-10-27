@@ -38,13 +38,16 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,11 +55,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -64,14 +69,13 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -259,7 +263,7 @@ end A123705.P2451633507334031030
 /-!
 # A123706: Matrix inverse of triangle A010766, where A010766(n,k) = [n/k], for n>=k>=1.
 
-The programs for A123706, the canonical program `A123706.P7339613672439894422` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123706 has offset 1).
+The programs for A123706, the canonical program `A123706.P7339613672439894422` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123706 has offset 1).
 
 The definition of A123706 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -268,7 +272,7 @@ The definition of A123706 is `conjectured`: the Lean definition is a formula tha
 
 `A054525(n+1)-A054525(n+2)*A177978(n+2)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A123706
@@ -559,7 +563,7 @@ end A123706
 /-!
 # A123707: a(n) = Sum_{k=1..n} A123706(n,k)*2^(k-1).
 
-The programs for A123707, the canonical program `A123707.P12126468004863991091` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123707 has offset 1).
+The programs for A123707, the canonical program `A123707.P12126468004863991091` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123707 has offset 1).
 
 The definition of A123707 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -617,7 +621,7 @@ end A123707
 
 `(A231821(n+1)-3+2^n-A178472(n+1))/2`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A123707
@@ -4401,7 +4405,7 @@ end A123736.P6263235808084924143
 /-!
 # A123737: Partial sums of (-1)^floor(n*sqrt(2)).
 
-The programs for A123737, the canonical program `A123737.P586469183867328966` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123737 has offset 1).
+The programs for A123737, the canonical program `A123737.P586469183867328966` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123737 has offset 1).
 
 The definition of A123737 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4469,7 +4473,7 @@ end A123737
 
 `n+1-2*A083036(n+1)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A123737
@@ -5611,7 +5615,7 @@ end A123745.P15672538902085666372
 /-!
 # A123746: Numerators of partial sums of a series for 1/sqrt(2).
 
-The programs for A123746, the canonical program `A123746.P16894433032032204393` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123746 has offset 0).
+The programs for A123746, the canonical program `A123746.P16894433032032204393` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123746 has offset 0).
 
 The definition of A123746 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5620,7 +5624,7 @@ The definition of A123746 is `conjectured`: the Lean definition is a formula tha
 
 `A091520(n)/A001316(n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A123746
@@ -5772,7 +5776,7 @@ end A123746
 /-!
 # A123747: Numerators of partial sums of a series for sqrt(5).
 
-The programs for A123747, the canonical program `A123747.P11724577684491997392` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123747 has offset 0).
+The programs for A123747, the canonical program `A123747.P11724577684491997392` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123747 has offset 0).
 
 The definition of A123747 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 143 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5781,7 +5785,7 @@ The definition of A123747 is `conjectured`: the Lean definition is a formula tha
 
 `A144635(n)/gcd(A000351(n), A144635(n))`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A123747
@@ -5795,7 +5799,7 @@ end A123747
 /-!
 # A123748: Denominators of partial sums of a series for sqrt(5).
 
-The programs for A123748, the canonical program `A123748.P791566555730532304` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123748 has offset 0).
+The programs for A123748, the canonical program `A123748.P791566555730532304` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A123748 has offset 0).
 
 The definition of A123748 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 143 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5804,7 +5808,7 @@ The definition of A123748 is `conjectured`: the Lean definition is a formula tha
 
 `A000351(n)/gcd(A000351(n), A144635(n))`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A123748

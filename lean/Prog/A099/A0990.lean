@@ -51,31 +51,30 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -15184,7 +15183,7 @@ def P3140938444989390821.Spec : Prop :=
 end A099089
 
 /-!
-# A099091: Riordan array (1,2+3x).
+# A099091: Riordan array (1, 2+3x).
 
 The programs for A099091, the canonical program `A099091.P16410805521126483773` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A099091 has offset 0).
 
@@ -15968,7 +15967,7 @@ def P10741633867561954838.Spec : Prop :=
 end A099092
 
 /-!
-# A099093: Riordan array (1, 3+3x).
+# A099093: Riordan array (1, 3+3*x).
 
 The programs for A099093, the canonical program `A099093.P10696492888509174617` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A099093 has offset 0).
 

@@ -42,17 +42,18 @@ import Seq.B001.C004
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -66,8 +67,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4812,7 +4811,7 @@ end A369454.P8613742867718500781
 /-!
 # A369455: Dirichlet convolution of A083345 with A055615 (Dirichlet inverse of n), where A083345(n) = (n'/gcd(n,n')) and n' is the arithmetic derivative of n.
 
-The programs for A369455, the canonical program `A369455.P1460672139557752697` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369455 has offset 1).
+The programs for A369455, the canonical program `A369455.P1460672139557752697` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369455 has offset 1).
 
 The definition of A369455 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4821,7 +4820,7 @@ The definition of A369455 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A055615(#)*A083345((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A369455
@@ -4937,7 +4936,7 @@ end A369455
 /-!
 # A369456: a(n) = A083345(A005940(1+n)), where A083345(n) = (n'/gcd(n,n')), n' means the arithmetic derivative of n (A003415), and A005940 is the Doudna-sequence.
 
-The programs for A369456, the canonical program `A369456.P1336314732339854060` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369456 has offset 0).
+The programs for A369456, the canonical program `A369456.P1336314732339854060` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369456 has offset 0).
 
 The definition of A369456 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005940, A083345, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4946,7 +4945,7 @@ The definition of A369456 is `conditional`: the Lean definition is an OEIS formu
 
 `A083345(A005940(1+n))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A369456
@@ -5079,7 +5078,7 @@ end A369456
 /-!
 # A369458: Arithmetic derivative of the odd part of n, permuted by A163511 ("Doudna-sequence mirrored").
 
-The programs for A369458, the canonical program `A369458.P12459843309324393945` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369458 has offset 0).
+The programs for A369458, the canonical program `A369458.P12459843309324393945` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369458 has offset 0).
 
 The definition of A369458 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A163511, A369465, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5088,7 +5087,7 @@ The definition of A369458 is `conditional`: the Lean definition is an OEIS formu
 
 `A369465(A163511(n))`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A369458
@@ -5847,16 +5846,16 @@ end A369464.P1780299912675487506
 /-!
 # A369465: Arithmetic derivative of the odd part of n: a(n) = A003415(A000265(n)).
 
-The programs for A369465, the canonical program `A369465.P18253036522274647247` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369465 has offset 1).
+The programs for A369465, the canonical program `A369465.P18253036522274647247` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369465 has offset 1).
 
-The definition of A369465 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000265, A003415, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A369465 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003415, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A369465.P18253036522274647247
 
 `A003415(A000265(n+1))`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A369465
@@ -6293,7 +6292,7 @@ end A369471.P8607989116197999845
 /-!
 # A369472: Number of achiral polyominoes composed of n pentagonal cells of the hyperbolic regular tiling with Schläfli symbol {5,oo}.
 
-The programs for A369472, the canonical program `A369472.P6414223032634442109` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369472 has offset 1).
+The programs for A369472, the canonical program `A369472.P6414223032634442109` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A369472 has offset 1).
 
 The definition of A369472 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 212 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6325,7 +6324,7 @@ end A369472
 
 `A069270(A101881(n))`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A369472

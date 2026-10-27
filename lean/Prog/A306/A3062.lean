@@ -50,6 +50,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -57,11 +58,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -69,15 +71,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2000,7 +1998,7 @@ end
 end A306229.P901749667485745388
 
 /-!
-# A306230: Lexicographically earliest sequence of distinct positive terms such that for any n > 0, G(n) <> G(a(n)) (where G denotes the Golomb's sequence A001462).
+# A306230: Lexicographically earliest sequence of distinct positive terms such that for any n > 0, G(n) <> G(a(n)) (where G denotes Golomb's sequence A001462).
 
 The programs for A306230, there is no canonical definition to state claims against.
 -/
@@ -2146,7 +2144,7 @@ end A306236.P16467996683113310993
 /-!
 # A306237: a(n) = primorial prime(n)#/prime(n - 1).
 
-The programs for A306237, the canonical program `A306237.P9842382789925021475` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306237 has offset 2).
+The programs for A306237, the canonical program `A306237.P9842382789925021475` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306237 has offset 2).
 
 The definition of A306237 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2155,7 +2153,7 @@ The definition of A306237 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A002110(n+2)/A000040(n+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A306237
@@ -7188,7 +7186,7 @@ end A306285
 /-!
 # A306286: a(n) is the product of the positions of the ones in the binary expansion of n (the most significant bit having position 1).
 
-The programs for A306286, the canonical program `A306286.P7034646562799688644` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306286 has offset 0).
+The programs for A306286, the canonical program `A306286.P7034646562799688644` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306286 has offset 0).
 
 The definition of A306286 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7289,7 +7287,7 @@ end A306286
 
 `a(A029578(n))*A070939(A093178(n))` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A306286
@@ -8660,7 +8658,7 @@ end A306296.P6889097334185136847
 /-!
 # A306298: Numbers k such that k^2-1 is divisible by exactly two distinct primes.
 
-The programs for A306298, the canonical program `A306298.P5813132135022434998` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306298 has offset 1).
+The programs for A306298, the canonical program `A306298.P5813132135022434998` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A306298 has offset 1).
 
 The definition of A306298 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 237 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8669,7 +8667,7 @@ The definition of A306298 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2, A082863(n+2)]+2`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A306298

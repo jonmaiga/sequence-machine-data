@@ -20,13 +20,13 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C005
 import Seq.B001.C008
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
+import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B004.C000
 import Seq.B005.C000
@@ -35,10 +35,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C003
@@ -123,7 +119,7 @@ end
 end A393700.P4492005655876699446
 
 /-!
-# A393702: First number to occur at least n times in Weinstein's W sequence (A394611).
+# A393702: First number to occur at least n times in Weinstein's W sequence (A399995).
 
 The programs for A393702, there is no canonical definition to state claims against.
 -/

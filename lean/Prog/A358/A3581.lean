@@ -2,6 +2,7 @@ import SequenceMachineLib
 import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
+import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C008
@@ -23,22 +24,22 @@ import Seq.B000.C035
 import Seq.B000.C038
 import Seq.B000.C040
 import Seq.B001.C000
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -54,7 +55,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1421,7 +1421,7 @@ end A358125
 /-!
 # A358126: Replace 2^k in binary expansion of n with 2^(2^k).
 
-The programs for A358126, the canonical program `A358126.P18184850716581158338` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358126 has offset 0).
+The programs for A358126, the canonical program `A358126.P18184850716581158338` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358126 has offset 0).
 
 The definition of A358126 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1430,7 +1430,7 @@ The definition of A358126 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A253317(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A358126
@@ -3405,7 +3405,7 @@ end A358176.P7456791016919551310
 /-!
 # A358179: Prime numbers with prime indices in A333244.
 
-The programs for A358179, the canonical program `A358179.P5604913156474970621` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358179 has offset 1).
+The programs for A358179, the canonical program `A358179.P5604913156474970621` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A358179 has offset 1).
 
 The definition of A358179 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A262275, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3414,7 +3414,7 @@ The definition of A358179 is `conditional`: the Lean definition is an OEIS formu
 
 `A038580(A262275(n+1))`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A358179

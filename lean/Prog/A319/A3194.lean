@@ -41,11 +41,13 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -63,6 +65,7 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -74,8 +77,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2183,7 +2184,7 @@ end
 end A319415.P9874632309209571891
 
 /-!
-# A319416: Cuts-resistance of n: number of applications of Lernormand's "raboter" map needed to transform the binary expansion of n to the empty string.
+# A319416: Cuts-resistance of n: number of applications of Lenormand's "raboter" map needed to transform the binary expansion of n to the empty string.
 
 The programs for A319416, there is no canonical definition to state claims against.
 -/
@@ -5480,7 +5481,7 @@ end A319439.P17501202362615445395
 /-!
 # A319440: Squares of non-palindromic number.
 
-The programs for A319440, the canonical program `A319440.P13665761079487371990` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319440 has offset 1).
+The programs for A319440, the canonical program `A319440.P13665761079487371990` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319440 has offset 1).
 
 The definition of A319440 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A029742, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5489,7 +5490,7 @@ The definition of A319440 is `conditional`: the Lean definition is an OEIS formu
 
 `A029742(n+1)²`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A319440
@@ -6021,7 +6022,7 @@ end A319440
 /-!
 # A319441: Cubes of non-palindromic numbers.
 
-The programs for A319441, the canonical program `A319441.P373140411895671791` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319441 has offset 1).
+The programs for A319441, the canonical program `A319441.P373140411895671791` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319441 has offset 1).
 
 The definition of A319441 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A029742, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6030,7 +6031,7 @@ The definition of A319441 is `conditional`: the Lean definition is an OEIS formu
 
 `A029742(n+1)^3`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A319441
@@ -6287,7 +6288,7 @@ end A319441
 /-!
 # A319442: Number of divisors of n over the Eisenstein integers.
 
-The programs for A319442, the canonical program `A319442.P11992192506322077877` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319442 has offset 1).
+The programs for A319442, the canonical program `A319442.P11992192506322077877` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319442 has offset 1).
 
 The definition of A319442 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6426,7 +6427,7 @@ end A319442
 
 `A002265(A054584(n+1)*A054584(A248909(n+1)))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A319442
@@ -7028,7 +7029,7 @@ end A319443
 /-!
 # A319444: Total number of factors in a factorization of n into Eisenstein primes.
 
-The programs for A319444, the canonical program `A319444.P14641291008283883018` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319444 has offset 1).
+The programs for A319444, the canonical program `A319444.P14641291008283883018` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319444 has offset 1).
 
 The definition of A319444 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7083,7 +7084,7 @@ end A319444
 
 `2*A001222(n+1)-A001222(A343430(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A319444
@@ -7308,7 +7309,7 @@ end A319444
 /-!
 # A319445: Number of Eisenstein integers in a reduced system modulo n.
 
-The programs for A319445, the canonical program `A319445.P13237704803151138138` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319445 has offset 1).
+The programs for A319445, the canonical program `A319445.P13237704803151138138` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319445 has offset 1).
 
 The definition of A319445 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7513,7 +7514,7 @@ end A319445
 
 `sqrt(Δ[A049454(n)])*A227128(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A319445
@@ -8195,7 +8196,7 @@ end A319449
 /-!
 # A319450: Numbers k such that k and k + 1 both have primitive roots.
 
-The programs for A319450, the canonical program `A319450.P261748575354384773` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319450 has offset 1).
+The programs for A319450, the canonical program `A319450.P261748575354384773` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A319450 has offset 1).
 
 The definition of A319450 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8234,7 +8235,7 @@ end A319450
 
 `A033948(eq[1, A033948(n+2)-A033948(n+1)]+1)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A319450

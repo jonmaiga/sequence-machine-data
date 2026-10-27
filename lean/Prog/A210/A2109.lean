@@ -45,16 +45,16 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
@@ -70,8 +70,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1680,7 +1678,7 @@ end A210930.P10148484977404723411
 /-!
 # A210934: Sum of prime factors of prime(n)+1 (counted with multiplicity).
 
-The programs for A210934, the canonical program `A210934.P6617217077888488102` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210934 has offset 1).
+The programs for A210934, the canonical program `A210934.P6617217077888488102` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210934 has offset 1).
 
 The definition of A210934 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001414, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1689,7 +1687,7 @@ The definition of A210934 is `conditional`: the Lean definition is an OEIS formu
 
 `A001414(A008864(n+1))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A210934
@@ -2219,7 +2217,7 @@ end A210935.P18372026344850430695
 /-!
 # A210936: Sum of prime factors of prime(n)-1 (counted with multiplicity).
 
-The programs for A210936, the canonical program `A210936.P14296701000802497448` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210936 has offset 1).
+The programs for A210936, the canonical program `A210936.P14296701000802497448` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210936 has offset 1).
 
 The definition of A210936 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001414, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2228,7 +2226,7 @@ The definition of A210936 is `conditional`: the Lean definition is an OEIS formu
 
 `A001414(A006093(n+1))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A210936
@@ -4092,7 +4090,7 @@ end
 end A210950.P11066529672732393386
 
 /-!
-# A210951: Triangle read by rows: T(n,k) = number of parts in the k-th column of the modular table of partitions considering only the n-th shell and with its parts aligned to the right margin.
+# A210951: Triangle read by rows: T(n,k) is the number of parts in the k-th column of the modular table of partitions considering only the n-th section and with its parts aligned to the right margin.
 
 The programs for A210951, there is no canonical definition to state claims against.
 -/
@@ -4716,7 +4714,7 @@ end
 end A210959.P5835945339718068325
 
 /-!
-# A210960: Tetrahedron T(j,n,k) in which the slice j is a finite triangle read by rows T(n,k) which list the number of parts in the columns of the modular table of partitions with n shells mentioned in A210970.
+# A210960: Tetrahedron T(j,n,k) in which the slice j is a finite triangle read by rows T(n,k) which lists the number of parts in the columns of the modular table of partitions with n sections mentioned in A210970.
 
 The programs for A210960, there is no canonical definition to state claims against.
 -/
@@ -4800,7 +4798,7 @@ end
 end A210960.P8660251073367511983
 
 /-!
-# A210961: Tetrahedron T(j,n,k) in which the slice j is a finite triangle read by rows T(n,k) which lists the sums of the columns of the modular table of partitions with n shells mentioned in A210970.
+# A210961: Tetrahedron T(j,n,k) in which the slice j is a finite triangle read by rows T(n,k) which lists the sums of the columns of the modular table of partitions with n sections mentioned in A210970.
 
 The programs for A210961, there is no canonical definition to state claims against.
 -/
@@ -5061,7 +5059,7 @@ end
 end A210969.P13271908655551999792
 
 /-!
-# A210970: Total area of the shadows of the three views of a three-dimensional version of the modular table of partitions with n shells.
+# A210970: Total area of the shadows of the three views of a three-dimensional version of the modular table of partitions with n sections, where the area of the shadows are A006128(n), A006128(n) and A000217(n).
 
 The programs for A210970, there is no canonical definition to state claims against.
 -/
@@ -9436,7 +9434,7 @@ end A210998.P3894011038645442871
 /-!
 # A210999: Composite numbers that are in the gap between an odd-indexed prime and an even-indexed prime.
 
-The programs for A210999, the canonical program `A210999.P457972312276480137` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210999 has offset 1).
+The programs for A210999, the canonical program `A210999.P457972312276480137` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210999 has offset 1).
 
 The definition of A210999 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9740,7 +9738,7 @@ end A210999
 
 `filter[A005451(n+1), A131378(#)]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A210999

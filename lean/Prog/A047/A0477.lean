@@ -40,7 +40,6 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -49,13 +48,15 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
@@ -66,10 +67,7 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7929,7 +7927,7 @@ end
 end A047758.P1410776728614953855
 
 /-!
-# A047760: Number of dissectable polyhedra with n tetrahedral cells and symmetry of type F.
+# A047760: Number of dissectible polyhedra with n tetrahedral cells and symmetry of type F.
 
 The programs for A047760, there is no canonical definition to state claims against.
 -/
@@ -9736,7 +9734,7 @@ end
 end A047773.P7314639626633607159
 
 /-!
-# A047774: Number of chiral pairs of dissectable polyhedra with n tetrahedral cells and symmetry of type C.
+# A047774: Number of chiral pairs of dissectible polyhedra with n tetrahedral cells and symmetry of type C.
 
 The programs for A047774, there is no canonical definition to state claims against.
 -/

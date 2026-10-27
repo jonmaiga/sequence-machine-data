@@ -48,7 +48,9 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -61,22 +63,20 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -100,7 +100,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
-import Seq.Opaque.C025
 import SequenceMachineLib.Triangle
 
 set_option linter.unusedSimpArgs false
@@ -12682,87 +12681,6 @@ end
 end A095173.P9373449838624526642
 
 /-!
-# A095175: Denominator of b(n) given by b(1) = 1, b(2) = 2; for n >= 3, b(n) = (-1)^n (2n-1) ((n-2)!!)^2/((n-1)!!)^2, where n!! is the double factorial A006882.
-
-The programs for A095175, there is no canonical definition to state claims against.
--/
-
-/-! ## A095175.P18366440527204535521
-
-`A110256(A387109(n))`
--/
-
-namespace A095175.P18366440527204535521
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110256 (A387109 n).toNat
-
-end
-
-end A095175.P18366440527204535521
-
-/-! ## A095175.P14804773148965899786
-
-`A110256(A094759(n+1))`
--/
-
-namespace A095175.P14804773148965899786
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110256 (A094759 (n + 1)).toNat
-
-end
-
-end A095175.P14804773148965899786
-
-/-! ## A095175.P15773089989025430709
-
-`A110256(A214701(n+1))`
--/
-
-namespace A095175.P15773089989025430709
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110256 (A214701 (n + 1)).toNat
-
-end
-
-end A095175.P15773089989025430709
-
-/-! ## A095175.P10567155086111634149
-
-`A110256(A326200(n+1))`
--/
-
-namespace A095175.P10567155086111634149
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110256 (A326200 (n + 1)).toNat
-
-end
-
-end A095175.P10567155086111634149
-
-/-! ## A095175.P12644605363272288125
-
-`A110256(A389006(n+1))`
--/
-
-namespace A095175.P12644605363272288125
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110256 (A389006 (n + 1)).toNat
-
-end
-
-end A095175.P12644605363272288125
-
-/-!
 # A095177: E.g.f.: exp(x)/(1-x)^5.
 
 The programs for A095177, there is no canonical definition to state claims against.
@@ -14437,7 +14355,7 @@ end
 end A095194.P3761487933512280796
 
 /-!
-# A095195: T(n,0) = prime(n), T(n,k) = T(n,k-1)-T(n-1,k-1), 0<=k
+# A095195: T(n,0) = prime(n), T(n,k) = T(n,k-1)-T(n-1,k-1), 0<=k<n, triangle read by rows.
 
 The programs for A095195, there is no canonical definition to state claims against.
 -/

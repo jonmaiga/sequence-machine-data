@@ -52,16 +52,15 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
@@ -3429,7 +3428,7 @@ end A075925.P1211265694289897333
 /-!
 # A075926: List of codewords in binary lexicode with Hamming distance 3 written as decimal numbers.
 
-The programs for A075926, the canonical program `A075926.P12171091474890289077` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075926 has offset 0).
+The programs for A075926, the canonical program `A075926.P12171091474890289077` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075926 has offset 0).
 
 The definition of A075926 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2048 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3438,7 +3437,7 @@ The definition of A075926 is `conjectured`: the Lean definition is a formula tha
 
 `eq[n, A341273(n)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A075926
@@ -3821,7 +3820,7 @@ end A075927.P14099525367043313068
 /-!
 # A075928: List of codewords in binary lexicode with Hamming distance 4 written as decimal numbers.
 
-The programs for A075928, the canonical program `A075928.P14773802074895312158` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075928 has offset 0).
+The programs for A075928, the canonical program `A075928.P14773802074895312158` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075928 has offset 0).
 
 The definition of A075928 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 626 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3830,7 +3829,7 @@ The definition of A075928 is `conjectured`: the Lean definition is a formula tha
 
 `A001969(A075926(n)+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A075928
@@ -9176,7 +9175,7 @@ def P9600309867361952574.Spec : Prop :=
 end A075997
 
 /-!
-# A075998: Product{: k=1,2,...,n}, where denotes the integer second nearest to x. (For x=(2h+1)/2, is defined to be h, not h+1; if x is an integer, then is defined to be x+1.)
+# A075998: Product{<n/k>: k=1,2,...,n}, where <x> denotes the integer second nearest to x. (For x=(2h+1)/2, <x> is defined to be h, not h+1; if x is an integer, then <x> is defined to be x+1.)
 
 The programs for A075998, there is no canonical definition to state claims against.
 -/

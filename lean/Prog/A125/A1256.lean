@@ -51,8 +51,8 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -63,7 +63,7 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
@@ -75,9 +75,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3822,7 +3819,7 @@ end
 end A125644.P11152335548164571871
 
 /-!
-# A125650: Numerator of n(n+3)/(4(n+1)(n+2)) = sum(k=1..n, 1/(k(k+1)(k+2)) ).
+# A125650: Numerator of n*(n+3)/(4*(n+1)*(n+2)) = Sum_{k=1..n} 1/(k*(k+1)*(k+2)).
 
 The programs for A125650, the canonical program `A125650.P9186956251778564931` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125650 has offset 0).
 
@@ -4542,7 +4539,7 @@ end A125651
 /-!
 # A125652: Numbers m such that m^2=A125650(k) for some k (belonging A125651).
 
-The programs for A125652, the canonical program `A125652.P12154372188380910291` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125652 has offset 1).
+The programs for A125652, the canonical program `A125652.P12154372188380910291` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125652 has offset 1).
 
 The definition of A125652 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4551,7 +4548,7 @@ The definition of A125652 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `sqrt(A125650(A125651(n+1)))`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A125652
@@ -6094,7 +6091,7 @@ end
 end A125669.P15775975217215707431
 
 /-!
-# A125670: Number of bicyclic skeletons with n carbon atoms and the parameter 'alpha' having the value of 1. See the paper by Hendrickson and Parks for details.
+# A125670: The number of saturated spiro hydrocarbons C_nH_(2n-2) with two rings sharing one carbon atom (spiro[a.b]alkanes and their alkyl derivatives), not counting stereoisomers.
 
 The programs for A125670, there is no canonical definition to state claims against.
 -/

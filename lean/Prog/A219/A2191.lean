@@ -44,31 +44,34 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1505,7 +1508,7 @@ end A219113
 /-!
 # A219115: Numbers whose squares have at least one 1 and one 2 in ternary representation.
 
-The programs for A219115, the canonical program `A219115.P3938868494519214556` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219115 has offset 1).
+The programs for A219115, the canonical program `A219115.P3938868494519214556` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219115 has offset 1).
 
 The definition of A219115 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 147 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1543,7 +1546,7 @@ end A219115
 
 `lt[A039966(round(and(-2, n²)/3)), 1]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A219115
@@ -4766,7 +4769,7 @@ end
 end A219155.P11636681568303810731
 
 /-!
-# A219157: Number of prime pairs {p,q} with p>q and p-2,q+2 also prime such that p+(1+mod(-n,6))q=n if n is not congruent to 2 mod 6, and p-q=n and q
+# A219157: Number of prime pairs {p,q} with p>q and p-2,q+2 also prime such that p+(1+mod(-n,6))q=n if n is not congruent to 2 mod 6, and p-q=n and q<n/2 if n=2 (mod 6).
 
 The programs for A219157, there is no canonical definition to state claims against.
 -/
@@ -5520,7 +5523,7 @@ end A219172.P17420060371358188821
 /-!
 # A219174: Numbers that have no other prime factors than 2 and/or Mersenne primes.
 
-The programs for A219174, the canonical program `A219174.P8041433782300055859` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219174 has offset 1).
+The programs for A219174, the canonical program `A219174.P8041433782300055859` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219174 has offset 1).
 
 The definition of A219174 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 409 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5581,7 +5584,7 @@ end A219174
 
 `eq[1, A364252(n+1)]+1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A219174
@@ -6864,7 +6867,7 @@ end
 end A219185.P3665130595842947996
 
 /-!
-# A219186: Positive integers n such that 1+(k-2)*U_m(k,1)^2 does not divide n-k for any 3<=k=1, where U(k,1) is a Lucas sequence.
+# A219186: Positive integers n such that 1+(k-2)*U_m(k,1)^2 does not divide n-k for any 3<=k<n and m>=1, where U(k,1) is a Lucas sequence.
 
 The programs for A219186, there is no canonical definition to state claims against.
 -/
@@ -6968,7 +6971,7 @@ end A219186.P1103430667271677587
 /-!
 # A219187: Sum of distinct prime divisors of Lucas(n).
 
-The programs for A219187, the canonical program `A219187.P5831013217263437135` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219187 has offset 0).
+The programs for A219187, the canonical program `A219187.P5831013217263437135` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219187 has offset 0).
 
 The definition of A219187 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008472, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6977,7 +6980,7 @@ The definition of A219187 is `conditional`: the Lean definition is an OEIS formu
 
 `A008472(A000032(n))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A219187
@@ -7099,7 +7102,7 @@ end A219187
 /-!
 # A219188: Sum of prime divisors (with repetition) of Lucas(n).
 
-The programs for A219188, the canonical program `A219188.P878986242386710256` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219188 has offset 1).
+The programs for A219188, the canonical program `A219188.P878986242386710256` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219188 has offset 1).
 
 The definition of A219188 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001414, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7108,7 +7111,7 @@ The definition of A219188 is `conditional`: the Lean definition is an OEIS formu
 
 `A001414(A000032(n+1))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A219188
@@ -7982,7 +7985,7 @@ end A219190
 /-!
 # A219191: Numbers of the form k*(7*k+1), where k = 0,-1,1,-2,2,-3,3,...
 
-The programs for A219191, the canonical program `A219191.P9095047944895296053` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219191 has offset 1).
+The programs for A219191, the canonical program `A219191.P9095047944895296053` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219191 has offset 1).
 
 The definition of A219191 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8014,7 +8017,7 @@ end A219191
 
 `2*A057570(n+1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A219191
@@ -8800,7 +8803,7 @@ end A219195.P18284830051367832688
 /-!
 # A219196: A subsequence of the denominators of the Bernoulli numbers: a(n) = A027642(A131577(n)).
 
-The programs for A219196, the canonical program `A219196.P3293474457564128278` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219196 has offset 0).
+The programs for A219196, the canonical program `A219196.P3293474457564128278` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219196 has offset 0).
 
 The definition of A219196 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A027642, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8809,7 +8812,7 @@ The definition of A219196 is `conditional`: the Lean definition is an OEIS formu
 
 `A027642(A131577(n))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A219196

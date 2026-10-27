@@ -49,18 +49,20 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C000
+import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
@@ -68,12 +70,11 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -8680,7 +8681,7 @@ def P3281951075587836694.Spec : Prop :=
 end A204890
 
 /-!
-# A204892: Least k such that n divides s(k)-s(j) for some j in [1,k), where s(k)=prime(k).
+# A204892: Least k such that n divides s(k)-s(j) for some j in [1,k), where s(k) = prime(k).
 
 The programs for A204892, there is no canonical definition to state claims against.
 -/
@@ -8939,7 +8940,7 @@ end
 end A204892.P13441125054921163003
 
 /-!
-# A204893: The index j
+# A204893: The index j<k such that n divides s(k)-s(j), where k is the least index (A204892) for which such j exists, and s(k)=prime(k).
 
 The programs for A204893, there is no canonical definition to state claims against.
 -/
@@ -9170,7 +9171,7 @@ end
 end A204893.P15912058111029591186
 
 /-!
-# A204894: Least prime p such that n divides p-q for some prime q
+# A204894: Least prime p such that n divides p-q for some prime q<p.
 
 The programs for A204894, there is no canonical definition to state claims against.
 -/

@@ -43,9 +43,9 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,23 +53,22 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3736,7 +3735,7 @@ end A281841.P3637682135712660918
 /-!
 # A281842: Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 401", based on the 5-celled von Neumann neighborhood.
 
-The programs for A281842, the canonical program `A281842.P12528366148186742293` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281842 has offset 0).
+The programs for A281842, the canonical program `A281842.P12528366148186742293` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281842 has offset 0).
 
 The definition of A281842 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3745,7 +3744,7 @@ The definition of A281842 is `conjectured`: the Lean definition is a formula tha
 
 `xor(A077896(A053438(n)), A289768(2*n))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A281842
@@ -4910,7 +4909,7 @@ end A281855.P16165836621491012777
 /-!
 # A281856: One fourth of the order of the abelian non-cyclic groups (Z/A033949(n)*Z)^x.
 
-The programs for A281856, the canonical program `A281856.P11104635091588111363` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281856 has offset 1).
+The programs for A281856, the canonical program `A281856.P11104635091588111363` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281856 has offset 1).
 
 The definition of A281856 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A033949, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4919,7 +4918,7 @@ The definition of A281856 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A033949(n+1))/4`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A281856
@@ -7340,7 +7339,7 @@ end A281879.P8662358361540024041
 /-!
 # A281881: Triangle read by rows: T(n,k) (n>=1, 2<=k<=n+1) is the number of k-sequences of balls colored with at most n colors such that exactly one ball is of a color seen previously in the sequence.
 
-The programs for A281881, the canonical program `A281881.P16857394866510108787` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281881 has offset 1).
+The programs for A281881, the canonical program `A281881.P16857394866510108787` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281881 has offset 1).
 
 The definition of A281881 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2410 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7349,7 +7348,7 @@ The definition of A281881 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A010054(n)]*A267849(n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A281881

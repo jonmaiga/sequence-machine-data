@@ -39,13 +39,13 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,23 +53,21 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -535,7 +533,7 @@ end A341207.P16284244797596297163
 /-!
 # A341208: a(n) = F(n+4) * F(n+1) - 4 * (-1)^n where F(n) = A000045(n) are the Fibonacci numbers.
 
-The programs for A341208, the canonical program `A341208.P9618019616997038028` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341208 has offset 1).
+The programs for A341208, the canonical program `A341208.P9618019616997038028` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341208 has offset 1).
 
 The definition of A341208 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000045(n+5)*A000045(n+2)-4*(-1)^(n+1)` (program `A341208.P9618019616997038028`, by `A341208.P9618019616997038028.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -544,7 +542,7 @@ The definition of A341208 is `verified`: the Lean definition is proven equivalen
 
 `A000045(n+5)*A000045(n+2)-4*(-1)^(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A341208
@@ -3188,7 +3186,7 @@ end A341238.P4531943008243206371
 /-!
 # A341239: a(n) = floor(r*floor(s*n)), where r = 1 + sqrt(2) and s = sqrt(2).
 
-The programs for A341239, the canonical program `A341239.P9386503938490555449` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341239 has offset 1).
+The programs for A341239, the canonical program `A341239.P9386503938490555449` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341239 has offset 1).
 
 The definition of A341239 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3220,7 +3218,7 @@ end A341239
 
 `A007069(n+1)+A001951(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A341239
@@ -5176,7 +5174,7 @@ end A341248
 /-!
 # A341249: a(n) = floor(r*floor(s*n)), where r = 2 + sqrt(2) and s = sqrt(2).
 
-The programs for A341249, the canonical program `A341249.P10730097604345596581` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341249 has offset 1).
+The programs for A341249, the canonical program `A341249.P10730097604345596581` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341249 has offset 1).
 
 The definition of A341249 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5208,7 +5206,7 @@ end A341249
 
 `A286909(n+1)+A007069(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A341249
@@ -6098,7 +6096,7 @@ end A341253.P12410537051730200831
 /-!
 # A341254: a(n) = floor(r*floor(r*n)), where r = (2 + sqrt(5))/2.
 
-The programs for A341254, the canonical program `A341254.P15874538325871161202` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341254 has offset 1).
+The programs for A341254, the canonical program `A341254.P15874538325871161202` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341254 has offset 1).
 
 The definition of A341254 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6107,7 +6105,7 @@ The definition of A341254 is `conjectured`: the Lean definition is a formula tha
 
 `A193766(n+1)+2*A194151(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A341254
@@ -7699,7 +7697,7 @@ end A341268.P5235103474588068454
 /-!
 # A341273: If A261283(n) = 0, then a(n) = n, otherwise a(n) is obtained by flipping the A261283(n)-th rightmost bit in the binary expansion of n.
 
-The programs for A341273, the canonical program `A341273.P10577388597316029777` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341273 has offset 0).
+The programs for A341273, the canonical program `A341273.P10577388597316029777` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341273 has offset 0).
 
 The definition of A341273 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8191 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7708,7 +7706,7 @@ The definition of A341273 is `conjectured`: the Lean definition is a formula tha
 
 `xor(n, A131577(A261283(n)))`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A341273
@@ -7770,7 +7768,7 @@ end A341274.P3231764418210204223
 /-!
 # A341276: a(n) = 1 + 3*n*(n+1) - Sum_{k=1..n} d(k), where d(k) is the number of divisors of k.
 
-The programs for A341276, the canonical program `A341276.P16530414387472096334` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341276 has offset 0).
+The programs for A341276, the canonical program `A341276.P16530414387472096334` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A341276 has offset 0).
 
 The definition of A341276 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7779,7 +7777,7 @@ The definition of A341276 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+A028896(n)-A006218(n)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A341276

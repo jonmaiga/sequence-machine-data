@@ -36,12 +36,13 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -50,15 +51,19 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -66,8 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -574,7 +577,7 @@ end
 end A277505.P8141355525332572557
 
 /-!
-# A277506: E.g.f.: 1/((1+LambertW(-x))*(1-x)).
+# A277506: Expansion of e.g.f. 1/((1+LambertW(-x))*(1-x)).
 
 The programs for A277506, the canonical program `A277506.P4403017340033506939` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277506 has offset 0).
 
@@ -1024,7 +1027,7 @@ end A277511.P4629563248498860008
 /-!
 # A277513: Irregular triangle read by rows: T(n,k) is the number of integers greater than 4 such that they have n trits and 2k+1 (k>=1) nonzero trits in their balanced ternary representation, with n>=3 and 1<=k<=(j-1)/2.
 
-The programs for A277513, the canonical program `A277513.P97478074551810804` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277513 has offset 3).
+The programs for A277513, the canonical program `A277513.P97478074551810804` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277513 has offset 3).
 
 The definition of A277513 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4894 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1033,7 +1036,7 @@ The definition of A277513 is `conjectured`: the Lean definition is a formula tha
 
 `A013609(eq[A035214(n), A132728(n)])`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A277513
@@ -2890,7 +2893,7 @@ end A277544
 /-!
 # A277545: a(n) = n/7^m mod 7, where 7^m is the greatest power of 7 that divides n.
 
-The programs for A277545, the canonical program `A277545.P12409738716283908751` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277545 has offset 1).
+The programs for A277545, the canonical program `A277545.P12409738716283908751` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277545 has offset 1).
 
 The definition of A277545 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2899,7 +2902,7 @@ The definition of A277545 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A242603(n+1)%7`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A277545
@@ -3578,7 +3581,7 @@ end A277547
 /-!
 # A277548: Numbers k such that k/5^m == 4 (mod 5), where 5^m is the greatest power of 5 that divides k.
 
-The programs for A277548, the canonical program `A277548.P8976666866191349016` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277548 has offset 1).
+The programs for A277548, the canonical program `A277548.P8976666866191349016` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277548 has offset 1).
 
 The definition of A277548 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2499 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3587,7 +3590,7 @@ The definition of A277548 is `conjectured`: the Lean definition is a formula tha
 
 `eq[4, A277543(n+1)]+1`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A277548
@@ -3950,7 +3953,7 @@ end A277548
 /-!
 # A277549: Numbers k such that k/4^m == 1 (mod 4), where 4^m is the greatest power of 4 that divides k.
 
-The programs for A277549, the canonical program `A277549.P6170443303380261541` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277549 has offset 1).
+The programs for A277549, the canonical program `A277549.P6170443303380261541` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277549 has offset 1).
 
 The definition of A277549 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3959,7 +3962,7 @@ The definition of A277549 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, and(3, A007913(n+1))]+1`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A277549
@@ -4506,7 +4509,7 @@ end A277549
 /-!
 # A277550: Numbers k such that k/5^m == 1 (mod 5), where 5^m is the greatest power of 5 that divides k.
 
-The programs for A277550, the canonical program `A277550.P8262281964553815661` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277550 has offset 1).
+The programs for A277550, the canonical program `A277550.P8262281964553815661` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277550 has offset 1).
 
 The definition of A277550 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2501 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4515,7 +4518,7 @@ The definition of A277550 is `conjectured`: the Lean definition is a formula tha
 
 `1+eq[1, A277543(n+1)]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A277550
@@ -4953,7 +4956,7 @@ end A277550
 /-!
 # A277551: Numbers k such that k/5^m == 2 (mod 5), where 5^m is the greatest power of 5 that divides k.
 
-The programs for A277551, the canonical program `A277551.P2486715914550172884` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277551 has offset 1).
+The programs for A277551, the canonical program `A277551.P2486715914550172884` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277551 has offset 1).
 
 The definition of A277551 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3750 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4962,7 +4965,7 @@ The definition of A277551 is `conjectured`: the Lean definition is a formula tha
 
 `record[A000217(A277548(n+1))%A277548(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A277551
@@ -5355,7 +5358,7 @@ end A277553.P13515734707496457145
 /-!
 # A277555: Numbers k such that k/5^m == 3 (mod 5), where 5^m is the greatest power of 5 that divides k.
 
-The programs for A277555, the canonical program `A277555.P18235990996721503234` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277555 has offset 1).
+The programs for A277555, the canonical program `A277555.P18235990996721503234` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277555 has offset 1).
 
 The definition of A277555 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2500 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5364,7 +5367,7 @@ The definition of A277555 is `conjectured`: the Lean definition is a formula tha
 
 `eq[3, A277543(n+1)]+1`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A277555
@@ -10433,7 +10436,7 @@ end A277582.P17108608297267530767
 /-!
 # A277584: a(n) = binomial(3*n-1, n-1)^2.
 
-The programs for A277584, the canonical program `A277584.P4075816236948862761` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277584 has offset 0).
+The programs for A277584, the canonical program `A277584.P4075816236948862761` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277584 has offset 0).
 
 The definition of A277584 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A025174, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10442,7 +10445,7 @@ The definition of A277584 is `conditional`: the Lean definition is an OEIS formu
 
 `A025174(n)²`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A277584
@@ -11705,7 +11708,7 @@ end A277591.P16362421223235136236
 /-!
 # A277592: Numbers k such that k/10^m == 5 mod 10, where 10^m is the greatest power of 10 that divides n.
 
-The programs for A277592, the canonical program `A277592.P12084105617845741953` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277592 has offset 1).
+The programs for A277592, the canonical program `A277592.P12084105617845741953` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A277592 has offset 1).
 
 The definition of A277592 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11714,7 +11717,7 @@ The definition of A277592 is `conjectured`: the Lean definition is a formula tha
 
 `5*A277599(n+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A277592

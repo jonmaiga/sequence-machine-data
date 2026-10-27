@@ -48,21 +48,23 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
 import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -70,9 +72,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2430,7 +2429,7 @@ end A125820
 /-!
 # A125821: Numbers k for which 8*k+5 and 8*k+7 are twin primes.
 
-The programs for A125821, the canonical program `A125821.P16599126941155596659` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125821 has offset 1).
+The programs for A125821, the canonical program `A125821.P16599126941155596659` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125821 has offset 1).
 
 The definition of A125821 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2520,7 +2519,7 @@ end A125821
 
 `∑[A076536(Δ[A205172(n+1)])]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A125821
@@ -3251,7 +3250,7 @@ end A125823
 /-!
 # A125824: Denominator of n!/3^n.
 
-The programs for A125824, the canonical program `A125824.P17644202284966607848` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125824 has offset 0).
+The programs for A125824, the canonical program `A125824.P17644202284966607848` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125824 has offset 0).
 
 The definition of A125824 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3260,7 +3259,7 @@ The definition of A125824 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3^A089792(n)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A125824
@@ -8380,7 +8379,7 @@ end A125865.P8360847989381964602
 /-!
 # A125866: Odd numbers k such that cos(2*Pi/k) is an algebraic number of a 3-smooth degree, but not 2-smooth.
 
-The programs for A125866, the canonical program `A125866.P959070150198838405` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125866 has offset 1).
+The programs for A125866, the canonical program `A125866.P959070150198838405` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125866 has offset 1).
 
 The definition of A125866 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 923 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8419,7 +8418,7 @@ end A125866
 
 `record[A000265(A051913(n+1))]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A125866

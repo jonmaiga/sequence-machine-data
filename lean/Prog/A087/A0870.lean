@@ -45,7 +45,9 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,26 +55,28 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -224,7 +228,7 @@ end A087000.P9393365560704722282
 /-!
 # A087003: a(2n) = 0 and a(2n+1) = mu(2n+1); also the sum of Mobius function values computed for terms of 3x+1 trajectory started at n, provided that Collatz conjecture is true.
 
-The programs for A087003, the canonical program `A087003.P9157037938585938204` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A087003 has offset 1).
+The programs for A087003, the canonical program `A087003.P9157037938585938204` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A087003 has offset 1).
 
 The definition of A087003 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A099991, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -233,7 +237,7 @@ The definition of A087003 is `conditional`: the Lean definition is an OEIS formu
 
 `-A099991(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A087003
@@ -291,12 +295,6 @@ namespace A087003
 /-- `A008683(n+1)+A292273(n+1)` -/
 def P2355549681051811414.Spec : Prop :=
   ∀ n, P2355549681051811414.a n = A087003 (n + 1)
-
-theorem P2355549681051811414.correct : P2355549681051811414.Spec := by
-  intro n
-  simp only [A087003, Nat.add_sub_cancel, A087003.P2355549681051811414.a, A087003.P9157037938585938204.a, A008683, A008683.P18254306604665478110.a, A099991, A099991.P17886857990683475515.a, A292273, A292273.P2848483939684823190.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A085357, A085357.P3258697467278337073.a, A106400, A106400.P11201390576172776043.a, A005940, A005940.P5942875842694471387.a, A008966, A008966.P884693903657889754.a, A010060, A010060.P3080921269106500717.a, A364557, A364557.P16113127302810243144.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A087003
 
@@ -1556,7 +1554,7 @@ end A087009
 /-!
 # A087010: Number of primes of form 4*k+1 between n and 2n (inclusive).
 
-The programs for A087010, the canonical program `A087010.P3140519343605400597` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A087010 has offset 1).
+The programs for A087010, the canonical program `A087010.P3140519343605400597` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A087010 has offset 1).
 
 The definition of A087010 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1588,7 +1586,7 @@ end A087010
 
 `A066339(2*(n+1))-A066339(A028310(n))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A087010
@@ -1698,7 +1696,7 @@ end A087010
 /-!
 # A087011: Number of primes of form 4*k+3 between n and 2n (inclusive).
 
-The programs for A087011, the canonical program `A087011.P18029174612393828854` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A087011 has offset 1).
+The programs for A087011, the canonical program `A087011.P18029174612393828854` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A087011 has offset 1).
 
 The definition of A087011 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1707,7 +1705,7 @@ The definition of A087011 is `conjectured`: the Lean definition is a formula tha
 
 `A035250(n+1)-A087010(n+1)^round(atan(n)/2)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A087011
@@ -1813,7 +1811,7 @@ end A087011
 /-!
 # A087012: Numbers m such that the number of primes of form 4*k+1 between m and 2*m equals the number of primes of form 4*k+3 between m and 2*m (inclusive).
 
-The programs for A087012, the canonical program `A087012.P10846444027220297516` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A087012 has offset 1).
+The programs for A087012, the canonical program `A087012.P10846444027220297516` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A087012 has offset 1).
 
 The definition of A087012 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 608 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1822,7 +1820,7 @@ The definition of A087012 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A087010(n+1), A087011(n+1)]+1`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A087012
@@ -6499,7 +6497,7 @@ end A087049
 
 The programs for A087050, the canonical program `A087050.P17786858087998487882` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A087050 has offset 1).
 
-The definition of A087050 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A013929, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A087050 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000188, A013929, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A087050.P17786858087998487882

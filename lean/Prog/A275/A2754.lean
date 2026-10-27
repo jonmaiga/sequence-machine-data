@@ -45,23 +45,24 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
@@ -69,7 +70,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -737,7 +737,7 @@ end
 end A275406.P6118502118469399171
 
 /-!
-# A275407: Let e_n(k)>=0 denote the exponent of prime(k) in the prime power representation of n. The sequence lists 1 followed by numbers n for which e_n(2*i-1)=e_n(2*i), for all i>=1.
+# A275407: Let e_m(k) >= 0 denote the exponent of prime(k) in the prime power representation of m. The sequence lists 1 followed by numbers m for which e_m(2*i-1) = e_m(2*i), for all i >= 1.
 
 The programs for A275407, there is no canonical definition to state claims against.
 -/
@@ -1158,7 +1158,7 @@ end A275417.P8270616153860311183
 /-!
 # A275418: Numbers n such that n - 1 has exactly as many odd divisors as n + 1.
 
-The programs for A275418, the canonical program `A275418.P17647390156546014803` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A275418 has offset 1).
+The programs for A275418, the canonical program `A275418.P17647390156546014803` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A275418 has offset 1).
 
 The definition of A275418 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1167,7 +1167,7 @@ The definition of A275418 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A054844(n+3), A054844(n+1)]+2`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A275418
@@ -3813,21 +3813,6 @@ end
 
 end A275451.P1854707279246721890
 
-/-! ## A275451.P17680716273148052367
-
-`val(A322527(n), A000096(A131031(n)))`
--/
-
-namespace A275451.P17680716273148052367
-noncomputable section
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.valuation (A322527 n).toNat (A000096 (A131031 n).toNat).toNat
-
-end
-
-end A275451.P17680716273148052367
-
 /-! ## A275451.P15991557605260800423
 
 `A106665(A371594(n+1)^A227186(n))`
@@ -5277,7 +5262,7 @@ end
 end A275473.P5035139228891158659
 
 /-!
-# A275474: Numbers n for which e_n(2*i)=e_n(2*i+1), for all i>=1, where e_n(k)>=0 denote the exponent of prime(k) in the prime power representation of n.
+# A275474: Numbers m for which e_m(2*i) = e_m(2*i+1), for all i >= 1, where e_m(k) >= 0 denote the exponent of prime(k) in the prime power representation of m.
 
 The programs for A275474, there is no canonical definition to state claims against.
 -/
@@ -6210,7 +6195,7 @@ end A275494.P17601799835342980621
 /-!
 # A275495: a(n) = Sum_{k=2..n} floor(n/k) - 2*floor(n/(2*k)).
 
-The programs for A275495, the canonical program `A275495.P16205694111153463026` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A275495 has offset 1).
+The programs for A275495, the canonical program `A275495.P16205694111153463026` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A275495 has offset 1).
 
 The definition of A275495 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A059851, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6219,7 +6204,7 @@ The definition of A275495 is `conditional`: the Lean definition is an OEIS formu
 
 `A059851(n+1)-(n+1)%2`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A275495

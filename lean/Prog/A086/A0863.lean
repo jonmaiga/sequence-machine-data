@@ -61,20 +61,21 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -107,7 +108,7 @@ set_option linter.unreachableTactic false
 /-!
 # A086300: Arithmetic derivative of 7-smooth numbers.
 
-The programs for A086300, the canonical program `A086300.P13309129529402629296` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086300 has offset 1).
+The programs for A086300, the canonical program `A086300.P13309129529402629296` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086300 has offset 1).
 
 The definition of A086300 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 338 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -139,7 +140,7 @@ end A086300
 
 `A003415(record[A071785(n+1)])`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A086300
@@ -1731,7 +1732,7 @@ def P6919457901788436196.Spec : Prop :=
 end A086304
 
 /-!
-# A086305: Numbers such that two successive terms have no common digit and have distinct prime signature.
+# A086305: Lexicographically earliest sequence of distinct numbers such that two successive terms have no common digit and have distinct prime signature.
 
 The programs for A086305, there is no canonical definition to state claims against.
 -/
@@ -3773,7 +3774,7 @@ end
 end A086335.P9593139147830120981
 
 /-!
-# A086337: Numbers n such that n, n-1 and n-2 have the same prime signature.
+# A086337: Numbers k such that k, k-1 and k-2 have the same prime signature.
 
 The programs for A086337, there is no canonical definition to state claims against.
 -/
@@ -7542,7 +7543,7 @@ theorem P8974172340659135165.correct : P8974172340659135165.Spec := by
 end A086358
 
 /-!
-# A086359: Fixed point if [decimal-digit-sum]-function at initial-value=A000984(n)=C[2n,n] is iterated.
+# A086359: Fixed point if the decimal-digit-sum function is iterated starting from A000984(n) = C(2n,n).
 
 The programs for A086359, the canonical program `A086359.P1098304662819681129` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086359 has offset 1).
 
@@ -8142,7 +8143,7 @@ end
 end A086362.P10577523670693463338
 
 /-!
-# A086364: Triangle read by rows: S_D(n,k) = `Type D' Stirling numbers of the second kind.
+# A086364: Triangle read by rows: S_D(n,k) = "Type D" Stirling numbers of the second kind.
 
 The programs for A086364, there is no canonical definition to state claims against.
 -/

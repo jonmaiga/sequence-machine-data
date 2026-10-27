@@ -53,27 +53,27 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
+import Seq.B005.C002
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -10767,11 +10767,9 @@ end
 end A101874.P8167239942422992365
 
 /-!
-# A101875: Number of Abelian groups of order 4n+2.
+# A101875: 
 
-The programs for A101875, the canonical program `A101875.P2083392782665870718` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101875 has offset 0).
-
-The definition of A101875 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 105 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The programs for A101875, there is no canonical definition to state claims against.
 -/
 
 /-! ## A101875.P11015625180463139677
@@ -10795,14 +10793,6 @@ end
 
 end A101875.P11015625180463139677
 
-namespace A101875
-
-/-- `ceil(sqrt(∏{e}[Δ[n²], #!]))` -/
-def P11015625180463139677.Spec : Prop :=
-  ∀ n, P11015625180463139677.a n = A101875 n
-
-end A101875
-
 /-! ## A101875.P10967601163003095710
 
 `∏{e}[2*n+1, ceil(sqrt(#!))]`
@@ -10820,14 +10810,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A101875.P10967601163003095710
-
-namespace A101875
-
-/-- `∏{e}[2*n+1, ceil(sqrt(#!))]` -/
-def P10967601163003095710.Spec : Prop :=
-  ∀ n, P10967601163003095710.a n = A101875 n
-
-end A101875
 
 /-! ## A101875.P3934025424151099566
 
@@ -10847,14 +10829,6 @@ end
 
 end A101875.P3934025424151099566
 
-namespace A101875
-
-/-- `round(sqrt(cosh(∏{e}[2*n+1, #])))` -/
-def P3934025424151099566.Spec : Prop :=
-  ∀ n, P3934025424151099566.a n = A101875 n
-
-end A101875
-
 /-! ## A101875.P10991510720545262330
 
 `round(sqrt(sinh(∏{e}[2*n+1, #])))`
@@ -10872,14 +10846,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A101875.P10991510720545262330
-
-namespace A101875
-
-/-- `round(sqrt(sinh(∏{e}[2*n+1, #])))` -/
-def P10991510720545262330.Spec : Prop :=
-  ∀ n, P10991510720545262330.a n = A101875 n
-
-end A101875
 
 /-! ## A101875.P15424875296952526764
 
@@ -10899,32 +10865,26 @@ end
 
 end A101875.P15424875296952526764
 
-namespace A101875
-
-/-- `round(log2(cosh(∏{e}[2*n+1, #])))` -/
-def P15424875296952526764.Spec : Prop :=
-  ∀ n, P15424875296952526764.a n = A101875 n
-
-end A101875
-
 /-! ## A101875.P2083392782665870718
 
 `floor(log2(∏{e}[Δ[n²], #!]))+1`
-
-The canonical program, it is in `Seq.B000.C016`.
 -/
 
-namespace A101875
+namespace A101875.P2083392782665870718
+noncomputable section
 
-/-- `floor(log2(∏{e}[Δ[n²], #!]))+1` -/
-def P2083392782665870718.Spec : Prop :=
-  ∀ n, (P2083392782665870718.a n : ℤ) = A101875 n
+def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  n ^ 2
 
-theorem P2083392782665870718.correct : P2083392782665870718.Spec := by
-  intro n
-  simp only [A101875]
+def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  (f2 (n + 1) : ℤ) - (f2 n : ℤ)
 
-end A101875
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  Nat.log 2 (∏ p ∈ Nat.primeFactors (f1 n).natAbs, Nat.factorial (Nat.factorization (f1 n).natAbs p)) + 1
+
+end
+
+end A101875.P2083392782665870718
 
 /-! ## A101875.P13647161646061168012
 
@@ -10944,14 +10904,6 @@ end
 
 end A101875.P13647161646061168012
 
-namespace A101875
-
-/-- `∏{e}[2*n+1, val(#, 4)+#]` -/
-def P13647161646061168012.Spec : Prop :=
-  ∀ n, (P13647161646061168012.a n : ℤ) = A101875 n
-
-end A101875
-
 /-! ## A101875.P15970467620868985858
 
 `∏{e}[2*n+1, C(#, 4)+#]`
@@ -10969,14 +10921,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A101875.P15970467620868985858
-
-namespace A101875
-
-/-- `∏{e}[2*n+1, C(#, 4)+#]` -/
-def P15970467620868985858.Spec : Prop :=
-  ∀ n, (P15970467620868985858.a n : ℤ) = A101875 n
-
-end A101875
 
 /-! ## A101875.P11604332698829912086
 
@@ -10996,14 +10940,6 @@ end
 
 end A101875.P11604332698829912086
 
-namespace A101875
-
-/-- `∏{e}[2*n+1, or(#, #%3)]` -/
-def P11604332698829912086.Spec : Prop :=
-  ∀ n, (P11604332698829912086.a n : ℤ) = A101875 n
-
-end A101875
-
 /-! ## A101875.P2252632206418720603
 
 `∏{e}[2*n+1, floor(5*#/4)]`
@@ -11021,14 +10957,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A101875.P2252632206418720603
-
-namespace A101875
-
-/-- `∏{e}[2*n+1, floor(5*#/4)]` -/
-def P2252632206418720603.Spec : Prop :=
-  ∀ n, P2252632206418720603.a n = A101875 n
-
-end A101875
 
 /-! ## A101875.P7649457748514031165
 
@@ -11048,14 +10976,6 @@ end
 
 end A101875.P7649457748514031165
 
-namespace A101875
-
-/-- `round(5^(∏{e}[2*n+1, #]/4))` -/
-def P7649457748514031165.Spec : Prop :=
-  ∀ n, P7649457748514031165.a n = A101875 n
-
-end A101875
-
 /-! ## A101875.P537375260343786991
 
 `ceil(ϕ^∑{e}[2*n+1, #-1])`
@@ -11073,14 +10993,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A101875.P537375260343786991
-
-namespace A101875
-
-/-- `ceil(ϕ^∑{e}[2*n+1, #-1])` -/
-def P537375260343786991.Spec : Prop :=
-  ∀ n, P537375260343786991.a n = A101875 n
-
-end A101875
 
 /-! ## A101875.P1574335232382663856
 
@@ -11100,14 +11012,6 @@ end
 
 end A101875.P1574335232382663856
 
-namespace A101875
-
-/-- `ceil(∏{e}[2*n+1, ϕ^(#-1)])` -/
-def P1574335232382663856.Spec : Prop :=
-  ∀ n, P1574335232382663856.a n = A101875 n
-
-end A101875
-
 /-! ## A101875.P834169947445268449
 
 `ceil(∏{e}[2*n+1, #^ϕ]/2)`
@@ -11125,14 +11029,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A101875.P834169947445268449
-
-namespace A101875
-
-/-- `ceil(∏{e}[2*n+1, #^ϕ]/2)` -/
-def P834169947445268449.Spec : Prop :=
-  ∀ n, P834169947445268449.a n = A101875 n
-
-end A101875
 
 /-! ## A101875.P10890972969777344832
 
@@ -11155,14 +11051,6 @@ end
 
 end A101875.P10890972969777344832
 
-namespace A101875
-
-/-- `∑{e}[∏{e}[2*n+1, #!], #]+1` -/
-def P10890972969777344832.Spec : Prop :=
-  ∀ n, (P10890972969777344832.a n : ℤ) = A101875 n
-
-end A101875
-
 /-! ## A101875.P1286946150922766148
 
 `A295879(Δ[n²])`
@@ -11180,14 +11068,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A101875.P1286946150922766148
-
-namespace A101875
-
-/-- `A295879(Δ[n²])` -/
-def P1286946150922766148.Spec : Prop :=
-  ∀ n, P1286946150922766148.a n = A101875 n
-
-end A101875
 
 /-! ## A101875.P3007180446548343210
 
@@ -11207,14 +11087,6 @@ end
 
 end A101875.P3007180446548343210
 
-namespace A101875
-
-/-- `A322453(Δ[n²])` -/
-def P3007180446548343210.Spec : Prop :=
-  ∀ n, P3007180446548343210.a n = A101875 n
-
-end A101875
-
 /-! ## A101875.P1922556466475599259
 
 `A351219(Δ[n²])`
@@ -11232,14 +11104,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A101875.P1922556466475599259
-
-namespace A101875
-
-/-- `A351219(Δ[n²])` -/
-def P1922556466475599259.Spec : Prop :=
-  ∀ n, P1922556466475599259.a n = A101875 n
-
-end A101875
 
 /-! ## A101875.P1092049516659856202
 
@@ -11259,14 +11123,6 @@ end
 
 end A101875.P1092049516659856202
 
-namespace A101875
-
-/-- `A358780(Δ[n²])` -/
-def P1092049516659856202.Spec : Prop :=
-  ∀ n, P1092049516659856202.a n = A101875 n
-
-end A101875
-
 /-! ## A101875.P9622915096542230142
 
 `A381455(Δ[n²])`
@@ -11284,14 +11140,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A101875.P9622915096542230142
-
-namespace A101875
-
-/-- `A381455(Δ[n²])` -/
-def P9622915096542230142.Spec : Prop :=
-  ∀ n, P9622915096542230142.a n = A101875 n
-
-end A101875
 
 /-!
 # A101876: Number of Abelian groups of order 4n.
@@ -11480,7 +11328,7 @@ end
 end A101876.P16937214496520324320
 
 /-!
-# A101877: a(n) = k implies that there exists a set S of positive integers such that Sum_{ s_i in S } 1/s_i = n, max(S) = k and no set S' exists with the same sum and a smaller maximal element.
+# A101877: a(n) = k implies that there exists a set S of positive integers such that Sum_{s in S} 1/s = n, max(S) = k and no set S' exists with the same sum and a smaller maximal element.
 
 The programs for A101877, there is no canonical definition to state claims against.
 -/

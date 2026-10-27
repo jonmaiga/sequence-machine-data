@@ -36,26 +36,30 @@ import Seq.B000.C036
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,8 +74,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1006,7 +1008,7 @@ end
 end A307010.P12444988206139507152
 
 /-!
-# A307011: First coordinate in a redundant hexagonal coordinate system of the points of a counterclockwise spiral on an hexagonal grid. Second and third coordinates are given in A307012 and A345978.
+# A307011: First coordinate in a redundant hexagonal coordinate system of the points of a counterclockwise spiral on a hexagonal grid. Second and third coordinates are given in A307012 and A345978.
 
 The programs for A307011, the canonical program `A307011.P16481018969621470149` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307011 has offset 0).
 
@@ -1248,9 +1250,9 @@ def P18332223257515619017.Spec : Prop :=
 end A307011
 
 /-!
-# A307012: Second coordinate in a redundant hexagonal coordinate system of the points of a counterclockwise spiral on an hexagonal grid. First and third coordinates are given in A307011 and A345978.
+# A307012: Second coordinate in a redundant hexagonal coordinate system of the points of a counterclockwise spiral on a hexagonal grid. First and third coordinates are given in A307011 and A345978.
 
-The programs for A307012, the canonical program `A307012.P6050295120128097672` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307012 has offset 0).
+The programs for A307012, the canonical program `A307012.P6050295120128097672` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307012 has offset 0).
 
 The definition of A307012 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1288,7 +1290,7 @@ end A307012
 
 `∑[-A128834(A036496(n))]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A307012
@@ -1518,9 +1520,9 @@ theorem P9953130771109983674.correct : P9953130771109983674.Spec := by
 end A307012
 
 /-!
-# A307013: Third coordinate (asymmetric variant) in a redundant hexagonal coordinate system of the points of a counterclockwise spiral on an hexagonal grid. First and second coordinates are given in A307011 and A307012.
+# A307013: Third coordinate (asymmetric variant) in a redundant hexagonal coordinate system of the points of a counterclockwise spiral on a hexagonal grid. First and second coordinates are given in A307011 and A307012.
 
-The programs for A307013, the canonical program `A307013.P16025431409212704238` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307013 has offset 0).
+The programs for A307013, the canonical program `A307013.P16025431409212704238` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307013 has offset 0).
 
 The definition of A307013 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A307011, A307012, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1529,7 +1531,7 @@ The definition of A307013 is `conditional`: the Lean definition is an OEIS formu
 
 `A307011(n)+A307012(n)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A307013
@@ -3845,7 +3847,7 @@ end A307035
 /-!
 # A307037: The unitary analog of the alternating sum-of-divisors function (A206369).
 
-The programs for A307037, the canonical program `A307037.P8535599594476544073` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307037 has offset 1).
+The programs for A307037, the canonical program `A307037.P8535599594476544073` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A307037 has offset 1).
 
 The definition of A307037 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3854,7 +3856,7 @@ The definition of A307037 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A074722(#)*A295295((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A307037

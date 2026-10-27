@@ -48,23 +48,21 @@ import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7737,7 +7735,7 @@ end A033455
 /-!
 # A033457: GCD-convolution of squares A000290 with themselves.
 
-The programs for A033457, the canonical program `A033457.P6058291552115705490` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033457 has offset 0).
+The programs for A033457, the canonical program `A033457.P6058291552115705490` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033457 has offset 0).
 
 The definition of A033457 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A069097, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7746,7 +7744,7 @@ The definition of A033457 is `conditional`: the Lean definition is an OEIS formu
 
 `A069097(n+2)-(n+2)²`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A033457
@@ -8976,7 +8974,7 @@ end A033468.P8386015704459781407
 /-!
 # A033469: Denominator of Bernoulli(2n,1/2).
 
-The programs for A033469, the canonical program `A033469.P2277892960336040949` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033469 has offset 0).
+The programs for A033469, the canonical program `A033469.P2277892960336040949` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033469 has offset 0).
 
 The definition of A033469 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002445, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8985,7 +8983,7 @@ The definition of A033469 is `conditional`: the Lean definition is an OEIS formu
 
 `A081294(n)*A002445(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A033469
@@ -9207,12 +9205,6 @@ namespace A033469
 /-- `A027642(2*n)*A081294(n)` -/
 def P14337483706324718310.Spec : Prop :=
   ∀ n, P14337483706324718310.a n = A033469 n
-
-theorem P14337483706324718310.correct : P14337483706324718310.Spec := by
-  intro n
-  simp only [A033469, Nat.add_sub_cancel, A033469.P14337483706324718310.a, A033469.P2277892960336040949.a, A002445, A002445.P10846769026289059065.a, A027642, A027642.P11573445315954727429.a, A081294, A081294.P14054507065107062197.a, A141056, A141056.P945056089172605289.f1, A141056.P945056089172605289.a, A266591, A266591.P9570154135479766223.f1, A266591.P9570154135479766223.a, A089026, A089026.P9133057752167928232.a, A008683, A008683.P18254306604665478110.a, A014963, A014963.P5975177236000282614.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A033469
 

@@ -17,6 +17,7 @@ import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C020
 import Seq.B000.C023
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C031
@@ -32,18 +33,20 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -52,6 +55,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -66,8 +70,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -187,7 +189,7 @@ end
 end A387103.P1200458115207701403
 
 /-!
-# A387107: a(n) = psi(2^n-1), where psi = A002322.
+# A387107: a(n) = psi(2^n-1), where psi = A002322 is the Carmichael (lambda) function.
 
 The programs for A387107, there is no canonical definition to state claims against.
 -/
@@ -3333,7 +3335,7 @@ end A387156
 /-!
 # A387157: a(n) = A173557(sigma(n)), where A173557(n) is multiplicative with a(p^e) = p-1 and sigma is the sum of divisors function.
 
-The programs for A387157, the canonical program `A387157.P17255716611215200488` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387157 has offset 1).
+The programs for A387157, the canonical program `A387157.P17255716611215200488` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387157 has offset 1).
 
 The definition of A387157 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A173557, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3365,7 +3367,7 @@ end A387157
 
 `A173557(A000203(n+1))`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A387157
@@ -3547,12 +3549,6 @@ namespace A387157
 /-- `A173557(A001065(n+1)+n+1)` -/
 def P4306870334268274206.Spec : Prop :=
   ∀ n, P4306870334268274206.a n = A387157 (n + 1)
-
-theorem P4306870334268274206.correct : P4306870334268274206.Spec := by
-  intro n
-  simp only [A387157, Nat.add_sub_cancel, A387157.P4306870334268274206.a, A387157.P17255716611215200488.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001065, A001065.P4097147489331274860.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P7264174615531153985.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A387157
 
@@ -5288,7 +5284,7 @@ end
 end A387183.P2609719688700968729
 
 /-!
-# A387184: Numbers d such that a!*b!*c!*d! is a perfect square for some 1<=a
+# A387184: Numbers d such that a!*b!*c!*d! is a perfect square for some 1<=a<b<c<d.
 
 The programs for A387184, there is no canonical definition to state claims against.
 -/

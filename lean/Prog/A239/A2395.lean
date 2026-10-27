@@ -39,9 +39,11 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -49,20 +51,17 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4956,32 +4955,6 @@ namespace A239568
 /-- `∑[n+1]²-A004255(n+1)` -/
 def P11032605705597808813.Spec : Prop :=
   ∀ n, P11032605705597808813.a n = A239568 (n + 2)
-
-end A239568
-
-/-! ## A239568.P11484839394791239902
-
-`∑[n+1]²-A101357(n+1)`
--/
-
-namespace A239568.P11484839394791239902
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (((∑ j ∈ Finset.range (n + 1), f1 j) ^ 2 : ℕ) : ℤ) - A101357 (n + 1)
-
-end
-
-end A239568.P11484839394791239902
-
-namespace A239568
-
-/-- `∑[n+1]²-A101357(n+1)` -/
-def P11484839394791239902.Spec : Prop :=
-  ∀ n, P11484839394791239902.a n = A239568 (n + 2)
 
 end A239568
 

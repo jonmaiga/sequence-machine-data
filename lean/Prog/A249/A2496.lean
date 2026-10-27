@@ -11,7 +11,6 @@ import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
-import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
@@ -44,23 +43,28 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -68,8 +72,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4880,7 +4882,7 @@ end
 end A249663.P17867362321839760452
 
 /-!
-# A249666: Numbers n such that the sum of n and the largest prime
+# A249666: Numbers n such that the sum of n and the largest prime<n (A151799(n)) is prime.
 
 The programs for A249666, the canonical program `A249666.P16235947781865661960` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249666 has offset 1).
 
@@ -4988,7 +4990,7 @@ def P16968579285831381837.Spec : Prop :=
 end A249666
 
 /-!
-# A249667: Numbers n such that the sum of n and the largest primen is also prime.
+# A249667: Numbers n such that the sum of n and the largest prime<n is prime, and the sum of n and the least prime>n is also prime.
 
 The programs for A249667, there is no canonical definition to state claims against.
 -/
@@ -5099,7 +5101,7 @@ end A249668.P8852990640862976755
 /-!
 # A249669: a(n) = floor(prime(n)^(1+1/n)).
 
-The programs for A249669, the canonical program `A249669.P1996961454374342907` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249669 has offset 1).
+The programs for A249669, the canonical program `A249669.P1996961454374342907` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249669 has offset 1).
 
 The definition of A249669 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `floor(A000040(n+1)^(1+1/(n+1)))` (program `A249669.P1996961454374342907`, by `A249669.P1996961454374342907.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -5108,7 +5110,7 @@ The definition of A249669 is `verified`: the Lean definition is proven equivalen
 
 `floor(A000040(n+1)^(1+1/(n+1)))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A249669
@@ -6249,7 +6251,7 @@ end A249677
 /-!
 # A249679: Terms of A007504 divisible by 3.
 
-The programs for A249679, the canonical program `A249679.P425418324060059187` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249679 has offset 1).
+The programs for A249679, the canonical program `A249679.P425418324060059187` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249679 has offset 1).
 
 The definition of A249679 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6258,7 +6260,7 @@ The definition of A249679 is `conjectured`: the Lean definition is a formula tha
 
 `A007504(eq[0, A007504(n)%3])`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A249679

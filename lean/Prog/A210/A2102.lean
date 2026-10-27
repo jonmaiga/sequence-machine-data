@@ -50,20 +50,20 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -262,7 +262,7 @@ end A210200
 /-!
 # A210204: Triangle of coefficients of polynomials v(n,x) jointly generated with A210203; see the Formula section.
 
-The programs for A210204, the canonical program `A210204.P16826536876454018621` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210204 has offset 1).
+The programs for A210204, the canonical program `A210204.P16826536876454018621` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210204 has offset 1).
 
 The definition of A210204 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -271,7 +271,7 @@ The definition of A210204 is `conjectured`: the Lean definition is a formula tha
 
 `2*A038207(n)-A010054(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A210204
@@ -626,7 +626,7 @@ end A210208.P10103214939757377148
 /-!
 # A210209: GCD of all sums of n consecutive Fibonacci numbers.
 
-The programs for A210209, the canonical program `A210209.P313208653193592595` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210209 has offset 0).
+The programs for A210209, the canonical program `A210209.P313208653193592595` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210209 has offset 0).
 
 The definition of A210209 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -635,7 +635,7 @@ The definition of A210209 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `gcd(A000045(n+1)-1, A000045(n))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A210209
@@ -3600,7 +3600,7 @@ end A210239.P3824074973923309609
 /-!
 # A210241: Partial sums of A073093.
 
-The programs for A210241, the canonical program `A210241.P362842857671069038` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210241 has offset 1).
+The programs for A210241, the canonical program `A210241.P362842857671069038` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210241 has offset 1).
 
 The definition of A210241 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A022559, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3609,7 +3609,7 @@ The definition of A210241 is `conditional`: the Lean definition is an OEIS formu
 
 `A022559(n+1)+n+1`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A210241

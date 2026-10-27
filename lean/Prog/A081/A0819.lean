@@ -45,28 +45,30 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C010
+import Seq.B001.C008
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5463,7 +5465,7 @@ end A081945.P15781674233467382588
 /-!
 # A081946: a(n) = Sum_{i=1..n} floor(r*floor(i/r)), where r=sqrt(2).
 
-The programs for A081946, the canonical program `A081946.P1126091367602098836` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081946 has offset 1).
+The programs for A081946, the canonical program `A081946.P1126091367602098836` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081946 has offset 1).
 
 The definition of A081946 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5558,7 +5560,7 @@ end A081946
 
 `∑[A001951(A049472(n+1))]`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A081946
@@ -8330,7 +8332,7 @@ end A081987.P18017306225826229544
 /-!
 # A081988: Product of digits + 1 is a prime.
 
-The programs for A081988, the canonical program `A081988.P13950426844741901832` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081988 has offset 1).
+The programs for A081988, the canonical program `A081988.P13950426844741901832` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081988 has offset 1).
 
 The definition of A081988 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3124 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8464,7 +8466,7 @@ end A081988
 
 `eq[1, A001065(A007954(n)+1)]`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A081988
@@ -8917,7 +8919,7 @@ end A081988
 /-!
 # A081989: Numbers k such that 1 + product of digits of k is a square greater than 1.
 
-The programs for A081989, the canonical program `A081989.P12347566630486416426` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081989 has offset 1).
+The programs for A081989, the canonical program `A081989.P12347566630486416426` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081989 has offset 1).
 
 The definition of A081989 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 998 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8926,7 +8928,7 @@ The definition of A081989 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A267866(A007954(n))]`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A081989

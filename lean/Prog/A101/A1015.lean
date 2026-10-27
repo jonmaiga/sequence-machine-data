@@ -36,10 +36,12 @@ import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -47,23 +49,23 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -870,7 +872,7 @@ def P15608138711656154196.Spec : Prop :=
 end A101503
 
 /-!
-# A101504: a(n+1)=a(n)/x+x, with x = Max(a(k): 0<=k
+# A101504: a(n+1)=a(n)/x+x, with x = Max(a(k): 0<=k<n and a(k)|a(n)), a(0)=a(1)=1.
 
 The programs for A101504, there is no canonical definition to state claims against.
 -/
@@ -1119,7 +1121,7 @@ end
 end A101505.P7842888241756052476
 
 /-!
-# A101506: Numbers n such that log(n!) is closer to an integer than is log(m!) for any m with 2
+# A101506: Numbers n such that log(n!) is closer to an integer than is log(m!) for any m with 2<m<n.
 
 The programs for A101506, there is no canonical definition to state claims against.
 -/
@@ -1140,7 +1142,7 @@ end
 end A101506.P11717734973886549209
 
 /-!
-# A101507: Numbers n such that exp(n) has a smaller relative error abs(exp(n)/m!-1) in approximating the closest factorial m!>1 than exp(k) for any k with 1
+# A101507: Numbers n such that exp(n) has a smaller relative error abs(exp(n)/m!-1) in approximating the closest factorial m!>1 than exp(k) for any k with 1<k<n.
 
 The programs for A101507, there is no canonical definition to state claims against.
 -/
@@ -9197,7 +9199,7 @@ end A101593.P7503901103419920358
 /-!
 # A101594: Numbers with exactly two distinct decimal digits, neither of which is 0.
 
-The programs for A101594, the canonical program `A101594.P7821641441831105580` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101594 has offset 1).
+The programs for A101594, the canonical program `A101594.P7821641441831105580` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101594 has offset 1).
 
 The definition of A101594 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 872 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9206,7 +9208,7 @@ The definition of A101594 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A031955(n+1), A052382(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A101594
@@ -10045,7 +10047,7 @@ end A101597.P13558583438357195953
 /-!
 # A101598: Triangle read by rows: T(n,k) = number of distinct digits in decimal representation of binomial(n,k), 0<=k<=n.
 
-The programs for A101598, the canonical program `A101598.P7160477343613944611` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101598 has offset 0).
+The programs for A101598, the canonical program `A101598.P7160477343613944611` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101598 has offset 0).
 
 The definition of A101598 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A043537, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10054,7 +10056,7 @@ The definition of A101598 is `conditional`: the Lean definition is an OEIS formu
 
 `A043537(A007318(n))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A101598

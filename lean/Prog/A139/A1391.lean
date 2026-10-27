@@ -25,7 +25,6 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -36,11 +35,12 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -52,7 +52,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -187,7 +186,7 @@ end A139101.P8233794715888286019
 /-!
 # A139102: Numbers whose binary representation shows the distribution of prime numbers up to the n-th prime minus 1, using "0" for primes and "1" for nonprime numbers.
 
-The programs for A139102, the canonical program `A139102.P10379063909804235442` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139102 has offset 1).
+The programs for A139102, the canonical program `A139102.P10379063909804235442` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139102 has offset 1).
 
 The definition of A139102 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A139104, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -196,7 +195,7 @@ The definition of A139102 is `conditional`: the Lean definition is an OEIS formu
 
 `A139104(n+1)/2`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A139102
@@ -528,7 +527,7 @@ end A139103.P16192556489428587558
 /-!
 # A139104: Numbers whose binary representation shows the distribution of prime numbers up to the n-th prime, using "0" for primes and "1" for nonprime numbers.
 
-The programs for A139104, the canonical program `A139104.P15577029041380592062` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139104 has offset 1).
+The programs for A139104, the canonical program `A139104.P15577029041380592062` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139104 has offset 1).
 
 The definition of A139104 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A118255, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -560,7 +559,7 @@ end A139104
 
 `A118255(A000040(n+1))`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A139104
@@ -773,12 +772,6 @@ namespace A139104
 def P12353957314932302895.Spec : Prop :=
   ∀ n, P12353957314932302895.a n = A139104 (n + 1)
 
-theorem P12353957314932302895.correct : P12353957314932302895.Spec := by
-  intro n
-  simp only [A139104, Nat.add_sub_cancel, A139104.P12353957314932302895.a, A139104.P15577029041380592062.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A006093, A006093.P2906174024863549003.a, A118255, A118255.P6599881384483095827.a, A000225, A000225.P6535533121115206393.a, A072762, A072762.P10691074695677222829.a, A010051, A010051.P15078252821583414300.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
-
 end A139104
 
 /-!
@@ -829,7 +822,7 @@ end A139106.P13366836054658306172
 /-!
 # A139107: Bisection of A139102.
 
-The programs for A139107, the canonical program `A139107.P14608379276421399089` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139107 has offset 1).
+The programs for A139107, the canonical program `A139107.P14608379276421399089` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139107 has offset 1).
 
 The definition of A139107 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A139102, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -838,7 +831,7 @@ The definition of A139107 is `conditional`: the Lean definition is an OEIS formu
 
 `A139102(2*n+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A139107
@@ -951,7 +944,7 @@ end A139107
 /-!
 # A139108: Bisection of A139102.
 
-The programs for A139108, the canonical program `A139108.P8819243163543541878` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139108 has offset 1).
+The programs for A139108, the canonical program `A139108.P8819243163543541878` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139108 has offset 1).
 
 The definition of A139108 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A139102, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -960,7 +953,7 @@ The definition of A139108 is `conditional`: the Lean definition is an OEIS formu
 
 `A139102(2*(n+1))`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A139108
@@ -1617,7 +1610,7 @@ end A139117.P1609548026254405915
 /-!
 # A139118: Numbers with a nonprime number of divisors.
 
-The programs for A139118, the canonical program `A139118.P11844917898150596679` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139118 has offset 1).
+The programs for A139118, the canonical program `A139118.P11844917898150596679` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139118 has offset 1).
 
 The definition of A139118 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1685,7 +1678,7 @@ end A139118
 
 `eq[0, A010051(A100995(n+1)+1)]+1`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A139118

@@ -1,5 +1,4 @@
 import SequenceMachineLib
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -32,32 +31,34 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C003
-import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B005.C000
+import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -85,10 +86,6 @@ import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
 import SequenceMachineLib.Triangle
-
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
 
 /-!
 # A376800: 3-brilliant numbers with distinct prime factors.
@@ -888,7 +885,7 @@ end A376826.P16211455368012338039
 /-!
 # A376827: T(n, k) = binomial(n, k)*hypergeom([(1 - n)/2, -n/2], [1], 4).
 
-The programs for A376827, the canonical program `A376827.P12684542555165258029` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A376827 has offset 0).
+The programs for A376827, the canonical program `A376827.P12684542555165258029` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A376827 has offset 0).
 
 The definition of A376827 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -897,7 +894,7 @@ The definition of A376827 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `C(row(n), col(n))*A002426(row(n))`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A376827
@@ -2632,7 +2629,7 @@ end A376862.P14726514024169755865
 /-!
 # A376868: a(n) = n! * 4^binomial(n, 2).
 
-The programs for A376868, the canonical program `A376868.P7740210885381345666` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A376868 has offset 0).
+The programs for A376868, the canonical program `A376868.P7740210885381345666` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A376868 has offset 0).
 
 The definition of A376868 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2689,7 +2686,7 @@ end A376868
 
 `A000142(n)*A053763(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A376868
@@ -4172,7 +4169,7 @@ end A376889.P2965095916040679793
 /-!
 # A376890: Alternating sum of twin primes (A001097).
 
-The programs for A376890, the canonical program `A376890.P3945601980111199333` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A376890 has offset 1).
+The programs for A376890, the canonical program `A376890.P3945601980111199333` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A376890 has offset 1).
 
 The definition of A376890 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4181,7 +4178,7 @@ The definition of A376890 is `conjectured`: the Lean definition is a formula tha
 
 `∑[(-1)^n*A001097(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A376890
@@ -4220,12 +4217,6 @@ namespace A376890
 def P2276694110720245039.Spec : Prop :=
   ∀ n, P2276694110720245039.a n = A376890 (n + 1)
 
-theorem P2276694110720245039.correct : P2276694110720245039.Spec := by
-  intro n
-  simp only [A376890, Nat.add_sub_cancel, A376890.P2276694110720245039.f1, A376890.P2276694110720245039.a, A376890.P3945601980111199333.f1, A376890.P3945601980111199333.a, A001097, A001097.P321733695451409135.a, A033999, A033999.P17703899380244199787.a, A280968, A280968.P4817024604496871762.a, A163656, A163656.P15274253072224242917.a, A096281, A096281.P9870488552655544131.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A376890
 
 /-! ## A376890.P16635054890165307089
@@ -4251,12 +4242,6 @@ namespace A376890
 /-- `∑[A001097(n+1)*A062157(n+1)]` -/
 def P16635054890165307089.Spec : Prop :=
   ∀ n, P16635054890165307089.a n = A376890 (n + 1)
-
-theorem P16635054890165307089.correct : P16635054890165307089.Spec := by
-  intro n
-  simp only [A376890, Nat.add_sub_cancel, A376890.P16635054890165307089.f1, A376890.P16635054890165307089.a, A376890.P3945601980111199333.f1, A376890.P3945601980111199333.a, A001097, A001097.P321733695451409135.a, A062157, A062157.P13834877263571195293.a, A280968, A280968.P4817024604496871762.a, A163656, A163656.P15274253072224242917.a, A096281, A096281.P9870488552655544131.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A376890
 

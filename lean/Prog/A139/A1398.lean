@@ -38,6 +38,7 @@ import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -51,12 +52,14 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -69,10 +72,8 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -29957,7 +29958,7 @@ end A139888.P2264965960028824412
 /-!
 # A139889: Primes of the form 5x^2+42y^2.
 
-The programs for A139889, the canonical program `A139889.P4754066223454395904` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139889 has offset 1).
+The programs for A139889, the canonical program `A139889.P4754066223454395904` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139889 has offset 1).
 
 The definition of A139889 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -29966,7 +29967,7 @@ The definition of A139889 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A139986(n+1), A139992(n+1)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A139889
@@ -30194,7 +30195,7 @@ end A139889
 /-!
 # A139890: Primes of the form 6x^2+35y^2.
 
-The programs for A139890, the canonical program `A139890.P459811890116219402` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139890 has offset 1).
+The programs for A139890, the canonical program `A139890.P459811890116219402` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139890 has offset 1).
 
 The definition of A139890 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -30203,7 +30204,7 @@ The definition of A139890 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A139994(n+1), A139995(n+1)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A139890
@@ -30791,7 +30792,7 @@ end A139890
 /-!
 # A139891: Primes of the form 7x^2+30y^2.
 
-The programs for A139891, the canonical program `A139891.P13905630513339276774` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139891 has offset 1).
+The programs for A139891, the canonical program `A139891.P13905630513339276774` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139891 has offset 1).
 
 The definition of A139891 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -30800,7 +30801,7 @@ The definition of A139891 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A139987(n+1), A139996(n+1)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A139891

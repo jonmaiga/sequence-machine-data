@@ -35,28 +35,25 @@ import Seq.B000.C035
 import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
+import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2117,7 +2114,7 @@ def P10949581225685455360.Spec : Prop :=
 end A155606
 
 /-!
-# A155607: a(n) = 9^n+3^n-1.
+# A155607: a(n) = 9^n + 3^n - 1.
 
 The programs for A155607, the canonical program `A155607.P13592015036391020534` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155607 has offset 0).
 
@@ -19415,7 +19412,7 @@ end A155674
 /-!
 # A155689: a(n) = Sum_{k >= 1} floor(n * sqrt(2) / 2^k).
 
-The programs for A155689, the canonical program `A155689.P2139899322435435333` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155689 has offset 1).
+The programs for A155689, the canonical program `A155689.P2139899322435435333` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A155689 has offset 1).
 
 The definition of A155689 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -19447,7 +19444,7 @@ end A155689
 
 `A020965(n+1)-A005187(n+1)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A155689

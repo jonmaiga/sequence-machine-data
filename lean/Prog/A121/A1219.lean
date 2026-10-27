@@ -44,8 +44,9 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,15 +54,14 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
@@ -4555,7 +4555,7 @@ def P645865539951472839.Spec : Prop :=
 end A121930
 
 /-!
-# A121932: Enumeration of Cayley graphs. See page 24 of Marni Mishna's Master's thesis for details.
+# A121932: 
 
 The programs for A121932, there is no canonical definition to state claims against.
 -/
@@ -8696,7 +8696,7 @@ def P11359803198444648737.Spec : Prop :=
 end A121989
 
 /-!
-# A121990: Expansion of x*(1+9*x+2*x^2)/((1-x)*(1-3*x+x^2)).
+# A121990: Expansion of g.f. x*(1+9*x+2*x^2)/((1-x)*(1-3*x+x^2)).
 
 The programs for A121990, the canonical program `A121990.P15410883855078638926` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121990 has offset 1).
 
@@ -9531,7 +9531,7 @@ end A121997.P3176921513260170127
 /-!
 # A121998: Table, n-th row gives numbers between 1 and n that have a common factor with n.
 
-The programs for A121998, the canonical program `A121998.P10241062648816022235` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121998 has offset 2).
+The programs for A121998, the canonical program `A121998.P10241062648816022235` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121998 has offset 2).
 
 The definition of A121998 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3915 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9540,7 +9540,7 @@ The definition of A121998 is `conjectured`: the Lean definition is a formula tha
 
 `A002260(eq[0, A054521(n+1)]+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A121998

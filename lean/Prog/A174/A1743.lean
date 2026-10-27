@@ -47,9 +47,10 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -57,11 +58,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -74,9 +77,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1637,7 +1637,7 @@ def P18224021300972196332.Spec : Prop :=
 end A174318
 
 /-!
-# A174319: Number of n-step walks on cubic lattice (no points repeated, no adjacent points unless consecutive in path).
+# A174319: Number of n-step self-avoiding walks on the simple cubic lattice having no pair of nonconsecutive vertices that are adjacent in the lattice.
 
 The programs for A174319, there is no canonical definition to state claims against.
 -/
@@ -3262,7 +3262,7 @@ end A174339
 /-!
 # A174340: a(n) = mu(Fibonacci(n)), where mu is the Moebius function A008683, n >=1.
 
-The programs for A174340, the canonical program `A174340.P15059880175067187029` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174340 has offset 1).
+The programs for A174340, the canonical program `A174340.P15059880175067187029` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174340 has offset 1).
 
 The definition of A174340 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3271,7 +3271,7 @@ The definition of A174340 is `conditional`: the Lean definition is an OEIS formu
 
 `A008683(A000045(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A174340
@@ -4805,7 +4805,7 @@ end A174350.P11462292233243845903
 /-!
 # A174351: a(n) = lambda(Fibonacci(n)).
 
-The programs for A174351, the canonical program `A174351.P9013167995020315106` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174351 has offset 1).
+The programs for A174351, the canonical program `A174351.P9013167995020315106` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174351 has offset 1).
 
 The definition of A174351 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4814,7 +4814,7 @@ The definition of A174351 is `conditional`: the Lean definition is an OEIS formu
 
 `(-1)^A001222(A000045(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A174351
@@ -5281,7 +5281,7 @@ end A174357.P15859499922925611517
 /-!
 # A174359: Numbers n such that 6n-1, 6n+1, and 6n+5 are prime.
 
-The programs for A174359, the canonical program `A174359.P9829414694496532461` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174359 has offset 1).
+The programs for A174359, the canonical program `A174359.P9829414694496532461` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174359 has offset 1).
 
 The definition of A174359 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5290,7 +5290,7 @@ The definition of A174359 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A073648(n+1)/6)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A174359
@@ -6609,7 +6609,7 @@ end A174372.P4651435163501490898
 /-!
 # A174373: Triangle T(n,m) = nextprime(binomial(n,m)) read by rows.
 
-The programs for A174373, the canonical program `A174373.P18021089655363768877` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174373 has offset 0).
+The programs for A174373, the canonical program `A174373.P18021089655363768877` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174373 has offset 0).
 
 The definition of A174373 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007918, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6618,7 +6618,7 @@ The definition of A174373 is `conditional`: the Lean definition is an OEIS formu
 
 `A007918(A007318(n))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A174373
@@ -7786,7 +7786,7 @@ end A174376
 /-!
 # A174377: Triangle T(n, k) = n!*q^k/(n-k)! if floor(n/2) > k-1 otherwise n!*q^(n-k)/k!, with q = 3, read by rows.
 
-The programs for A174377, the canonical program `A174377.P13587580538317066246` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174377 has offset 0).
+The programs for A174377, the canonical program `A174377.P13587580538317066246` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174377 has offset 0).
 
 The definition of A174377 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1326 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7841,7 +7841,7 @@ end A174377
 
 `A108411(A157458(n))*A159623(n)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A174377

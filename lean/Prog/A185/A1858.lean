@@ -15,6 +15,7 @@ import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
 import Seq.B000.C017
+import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
@@ -41,13 +42,15 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -4947,7 +4950,7 @@ end A185868
 /-!
 # A185869: (Odd,even)-polka dot array in the natural number array A000027; read by antidiagonals.
 
-The programs for A185869, the canonical program `A185869.P6524959697424845596` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185869 has offset 1).
+The programs for A185869, the canonical program `A185869.P6524959697424845596` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185869 has offset 1).
 
 The definition of A185869 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5067,7 +5070,7 @@ end A185869
 
 `abs(Δ[n²]+A002024(n+1)²)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A185869
@@ -5902,7 +5905,7 @@ end A185870
 /-!
 # A185871: (Even,even)-polka dot array in the natural number array A000027, by antidiagonals.
 
-The programs for A185871, the canonical program `A185871.P8543721373781251179` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185871 has offset 1).
+The programs for A185871, the canonical program `A185871.P8543721373781251179` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185871 has offset 1).
 
 The definition of A185871 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5974,7 +5977,7 @@ end A185871
 
 `∑[A198954(A066182(n+1))+2]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A185871

@@ -9,15 +9,14 @@ import Seq.B000.C026
 import Seq.B000.C034
 import Seq.B000.C035
 import Seq.B001.C000
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B002.C000
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B005.C001
+import Seq.B004.C002
 import Seq.B005.C002
-import Seq.B009.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -107,7 +106,7 @@ end A011367
 /-!
 # A011371: a(n) = n minus (number of 1's in binary expansion of n). Also highest power of 2 dividing n!.
 
-The programs for A011371, the canonical program `A011371.P8892659874704383252` is in `Seq.B000.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011371 has offset 0).
+The programs for A011371, the canonical program `A011371.P12398255777927387864` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011371 has offset 0).
 
 The definition of A011371 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -115,9 +114,17 @@ The definition of A011371 is `assumedProven` (OEIS-proven): the Lean definition 
 /-! ## A011371.P8892659874704383252
 
 `floor(n/2)+a(floor(n/2))` with `a(0)=0`
-
-The canonical program, it is in `Seq.B000.C002`.
 -/
+
+namespace A011371.P8892659874704383252
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.rec [0] fun n a =>
+  ⌊(n : ℚ) / 2⌋ + a ⌊(n : ℚ) / 2⌋.toNat
+
+end
+
+end A011371.P8892659874704383252
 
 namespace A011371
 
@@ -125,32 +132,24 @@ namespace A011371
 def P8892659874704383252.Spec : Prop :=
   ∀ n, P8892659874704383252.a n = A011371 n
 
-theorem P8892659874704383252.correct : P8892659874704383252.Spec := by
-  intro n
-  simp only [A011371]
-
 end A011371
 
 /-! ## A011371.P12398255777927387864
 
 `n-A000120(n)`
+
+The canonical program, it is in `Seq.B002.C000`.
 -/
-
-namespace A011371.P12398255777927387864
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n : ℤ) - A000120 n
-
-end
-
-end A011371.P12398255777927387864
 
 namespace A011371
 
 /-- `n-A000120(n)` -/
 def P12398255777927387864.Spec : Prop :=
   ∀ n, P12398255777927387864.a n = A011371 n
+
+theorem P12398255777927387864.correct : P12398255777927387864.Spec := by
+  intro n
+  simp only [A011371]
 
 end A011371
 

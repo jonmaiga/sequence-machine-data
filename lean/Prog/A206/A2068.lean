@@ -37,34 +37,39 @@ import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -455,9 +460,9 @@ def P16978883267488118476.Spec : Prop :=
 end A206802
 
 /-!
-# A206803: Sum_{0
+# A206803: Sum_{0<j<k<=n} P(k)-P(j), where P(j)=A065091(j) is the j-th odd prime.
 
-The programs for A206803, the canonical program `A206803.P2151029632934271645` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206803 has offset 2).
+The programs for A206803, the canonical program `A206803.P2151029632934271645` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206803 has offset 2).
 
 The definition of A206803 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -489,7 +494,7 @@ end A206803
 
 `∑[2*A206802(n+2)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A206803
@@ -736,7 +741,7 @@ end A206803
 /-!
 # A206804: (1/2)*A206803.
 
-The programs for A206804, the canonical program `A206804.P1242575260079652548` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206804 has offset 2).
+The programs for A206804, the canonical program `A206804.P1242575260079652548` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206804 has offset 2).
 
 The definition of A206804 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -745,7 +750,7 @@ The definition of A206804 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A206802(n+2)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A206804
@@ -1129,7 +1134,7 @@ def P12868727236364827445.Spec : Prop :=
 end A206805
 
 /-!
-# A206806: Sum_{0
+# A206806: Sum_{0<j<k<=n} s(k)-s(j), where s(j)=A002620(j) is the j-th quarter-square.
 
 The programs for A206806, the canonical program `A206806.P12091066182297734802` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206806 has offset 2).
 
@@ -2020,7 +2025,7 @@ def P1808696613902534116.Spec : Prop :=
 end A206807
 
 /-!
-# A206808: a(n) = Sum_{0
+# A206808: a(n) = Sum_{0<j<n} n^3-j^3.
 
 The programs for A206808, the canonical program `A206808.P8864800927167030145` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206808 has offset 2).
 
@@ -2531,7 +2536,7 @@ def P4857643085128594888.Spec : Prop :=
 end A206808
 
 /-!
-# A206809: a(n) = Sum_{0
+# A206809: a(n) = Sum_{0<j<k<=n} k^3-j^3.
 
 The programs for A206809, the canonical program `A206809.P10901274060693480734` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206809 has offset 2).
 
@@ -2685,7 +2690,7 @@ def P10270494745592666678.Spec : Prop :=
 end A206809
 
 /-!
-# A206810: Sum_{0
+# A206810: Sum_{0<j<n} (n^4-j^4).
 
 The programs for A206810, the canonical program `A206810.P10427238831301241698` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206810 has offset 2).
 
@@ -2835,7 +2840,7 @@ def P12251877886596959482.Spec : Prop :=
 end A206810
 
 /-!
-# A206811: Sum_{0
+# A206811: Sum_{0<j<k<=n} (k^4-j^4).
 
 The programs for A206811, the canonical program `A206811.P11509137746891594197` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206811 has offset 2).
 
@@ -3746,7 +3751,7 @@ end
 end A206815.P3655308542698794114
 
 /-!
-# A206816: a(n) = Sum_{0
+# A206816: a(n) = Sum_{0<j<n} (n!-j!).
 
 The programs for A206816, the canonical program `A206816.P9772308617466538774` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206816 has offset 2).
 
@@ -4016,7 +4021,7 @@ def P5930310717090862607.Spec : Prop :=
 end A206816
 
 /-!
-# A206817: Sum_{0
+# A206817: Sum_{0<j<k<=n} (k!-j!).
 
 The programs for A206817, there is no canonical definition to state claims against.
 -/
@@ -4532,7 +4537,7 @@ end A206823.P3911879214931882992
 /-!
 # A206824: Number of solutions (n,k) of s(k) = s(n) (mod n), where 1 <= k < n and s(k) = k(k+1)/2.
 
-The programs for A206824, the canonical program `A206824.P14274703909039369394` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206824 has offset 2).
+The programs for A206824, the canonical program `A206824.P14274703909039369394` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206824 has offset 2).
 
 The definition of A206824 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4564,7 +4569,7 @@ end A206824
 
 `A091954(∏{p}[n+2, #])`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A206824
@@ -5000,9 +5005,9 @@ def P5613381332861949755.Spec : Prop :=
 end A206824
 
 /-!
-# A206825: Number of solutions (n,k) of k^4=n^4 (mod n), where 1<=k
+# A206825: Number of solutions (n,k) of k^4=n^4 (mod n), where 1<=k<n.
 
-The programs for A206825, the canonical program `A206825.P6734815729562977131` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206825 has offset 2).
+The programs for A206825, the canonical program `A206825.P6734815729562977131` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206825 has offset 2).
 
 The definition of A206825 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5011,7 +5016,7 @@ The definition of A206825 is `conjectured`: the Lean definition is a formula tha
 
 `A000190(A057521(n+2))-1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A206825
@@ -5315,7 +5320,7 @@ def P16994534260891802846.Spec : Prop :=
 end A206825
 
 /-!
-# A206826: Number of solutions (n,k) of s(k)=s(n) (mod n), where 1<=k
+# A206826: Number of solutions (n,k) of s(k)=s(n) (mod n), where 1<=k<n and s(k)=k(k+1)(k+2)/6.
 
 The programs for A206826, there is no canonical definition to state claims against.
 -/
@@ -5423,7 +5428,7 @@ end
 end A206827.P4824343489507636734
 
 /-!
-# A206828: Number of solutions k of C(2k,k)=C(2n,n) (mod n), where 1<=k
+# A206828: Number of solutions k of C(2k,k)=C(2n,n) (mod n), where 1<=k<n.
 
 The programs for A206828, there is no canonical definition to state claims against.
 -/

@@ -40,18 +40,18 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -60,9 +60,8 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6613,7 +6612,7 @@ end
 end A198663.P6739020348512372117
 
 /-!
-# A198664: Number of nX3 0..4 arrays with values 0..4 introduced in row major order and each element equal to one or two horizontal and vertical neighbors.
+# A198664: Number of n X 3 0..4 arrays with values 0..4 introduced in row major order and each element equal to one or two horizontal and vertical neighbors.
 
 The programs for A198664, there is no canonical definition to state claims against.
 -/

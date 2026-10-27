@@ -38,23 +38,25 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B004.C000
 import Seq.B005.C000
-import Seq.B006.C000
+import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -82,7 +84,7 @@ set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
 
 /-!
-# A205100: The index j
+# A205100: The index j<k such that n divides k!!-j!!, where k is the least index (A204982) for which such j exists.
 
 The programs for A205100, there is no canonical definition to state claims against.
 -/
@@ -223,7 +225,7 @@ end
 end A205100.P11571251987497698236
 
 /-!
-# A205101: Least k!! such that n divides k!!-j!! for some j
+# A205101: Least k!! such that n divides k!!-j!! for some j<k.
 
 The programs for A205101, there is no canonical definition to state claims against.
 -/
@@ -600,7 +602,7 @@ end
 end A205105.P7166717765106544325
 
 /-!
-# A205107: The index j
+# A205107: The least index j < k such that n divides s(k) - s(j), where s(m) = 3^m - 2^m = A001047(m) and k = A205000(n) is the least index for which such j exists.
 
 The programs for A205107, there is no canonical definition to state claims against.
 -/
@@ -696,7 +698,7 @@ end
 end A205107.P16247356840943808483
 
 /-!
-# A205108: Least s(k) such that n divides s(k)-s(j) for some j
+# A205108: Least s(k) such that n divides s(k)-s(j) for some j<k, where s(j) = 3^j-2^j = A001047(j).
 
 The programs for A205108, there is no canonical definition to state claims against.
 -/
@@ -1346,7 +1348,7 @@ def P13279632829552957143.Spec : Prop :=
 end A205112
 
 /-!
-# A205114: Least k such that n divides L(k)-L(j) for some j satisfying 1<=j
+# A205114: Least k such that n divides L(k)-L(j) for some j satisfying 1<=j<k, where L(j) is the j-th Lucas number (A000032).
 
 The programs for A205114, there is no canonical definition to state claims against.
 -/
@@ -1502,7 +1504,7 @@ end
 end A205114.P4833035735856531376
 
 /-!
-# A205115: The index j
+# A205115: The index j<k such that n divides s(k)-s(j), where k is the least index (A205114) for which such j exists, and s=(1,3,4,7,11,18...), the Lucas numbers.
 
 The programs for A205115, there is no canonical definition to state claims against.
 -/
@@ -1658,7 +1660,7 @@ end
 end A205115.P10405706870461876928
 
 /-!
-# A205116: Least s(k) such that n divides s(k)-s(j) for some j
+# A205116: Least s(k) such that n divides s(k)-s(j) for some j<k, where s(j)=is the j-th Lucas number.
 
 The programs for A205116, there is no canonical definition to state claims against.
 -/
@@ -1769,7 +1771,7 @@ end
 end A205116.P17073055880426096348
 
 /-!
-# A205117: The number s(j) such that n divides s(k)-s(j), where s(j) is the j-th Lucas number and k is the least positive integer for which such a j with 0
+# A205117: The number s(j) such that n divides s(k)-s(j), where s(j) is the j-th Lucas number and k is the least positive integer for which such a j with 0<j<k exists.
 
 The programs for A205117, there is no canonical definition to state claims against.
 -/
@@ -2178,7 +2180,7 @@ def P11242390809042850593.Spec : Prop :=
 end A205120
 
 /-!
-# A205122: Least k such that n divides s(k)-s(j) for some j satisfying 1<=j
+# A205122: Least k such that n divides s(k)-s(j) for some j satisfying 1<=j<k, where s(j)=j*(2^(j-1)).
 
 The programs for A205122, there is no canonical definition to state claims against.
 -/
@@ -2274,7 +2276,7 @@ end
 end A205122.P12234672162893245208
 
 /-!
-# A205123: The index j
+# A205123: The index j<k such that n divides s(k)-s(j), where k is the least index (A205122) for which such j exists, and s(k)=k*(2^(k-1)).
 
 The programs for A205123, there is no canonical definition to state claims against.
 -/
@@ -2385,7 +2387,7 @@ end
 end A205123.P1350735716229993429
 
 /-!
-# A205124: Least s(k) such that n divides s(k)-s(j) for some j
+# A205124: Least s(k) such that n divides s(k)-s(j) for some j<k, where s(j)= j*(2^(j-1)).
 
 The programs for A205124, there is no canonical definition to state claims against.
 -/
@@ -3285,7 +3287,7 @@ def P9185006469422140793.Spec : Prop :=
 end A205128
 
 /-!
-# A205130: Least k such that n divides s(k)-s(j) for some j satisfying 1<=j
+# A205130: Least k such that n divides s(k)-s(j) for some j satisfying 1<=j<k, where s(j)=2*j^2-j, the j-th hexagonal number.
 
 The programs for A205130, there is no canonical definition to state claims against.
 -/
@@ -3411,7 +3413,7 @@ end
 end A205130.P10096419208540390588
 
 /-!
-# A205131: The index j
+# A205131: The index j<k such that n divides s(k)-s(j), where k is the least index (A205130) for which such j exists, and s(k)=2*k^2-k, the k-th hexagonal number.
 
 The programs for A205131, there is no canonical definition to state claims against.
 -/
@@ -3582,7 +3584,7 @@ end
 end A205131.P12961981793080718371
 
 /-!
-# A205132: Least s(k) such that n divides s(k)-s(j) for some j
+# A205132: Least s(k) such that n divides s(k)-s(j) for some j<k, where s(j)=2*j^2-j, the j-th hexagonal number.
 
 The programs for A205132, there is no canonical definition to state claims against.
 -/
@@ -4450,7 +4452,7 @@ def P14872546454145667574.Spec : Prop :=
 end A205136
 
 /-!
-# A205138: Least k such that n divides s(k)-s(j) for some j satisfying 1<=j
+# A205138: Least k such that n divides s(k)-s(j) for some j satisfying 1<=j<k, where s(j)=j(3j-1)/2, the j-th pentagonal number.
 
 The programs for A205138, there is no canonical definition to state claims against.
 -/
@@ -4666,7 +4668,7 @@ end
 end A205138.P10123485270839573390
 
 /-!
-# A205139: The index j
+# A205139: The index j<k such that n divides s(k)-s(j), where k is the least index (A205138) for which such j exists, and s(k)=k*(3k-1)/2, the k-th pentagonal number.
 
 The programs for A205139, there is no canonical definition to state claims against.
 -/
@@ -4822,7 +4824,7 @@ end
 end A205139.P9454399886057922910
 
 /-!
-# A205140: Least s(k) such that n divides s(k)-s(j) for some j
+# A205140: Least s(k) such that n divides s(k)-s(j) for some j<k, where s(j)=j(3j-1)/2, the j-th pentagonal number.
 
 The programs for A205140, there is no canonical definition to state claims against.
 -/
@@ -5243,7 +5245,7 @@ def P16963923775049468228.Spec : Prop :=
 end A205144
 
 /-!
-# A205146: Least k such that n divides s(k)-s(j) for some j satisfying 1<=j
+# A205146: Least k such that n divides s(k)-s(j) for some j satisfying 1<=j<k, where s(j)=prime(j)*prime(j+1).
 
 The programs for A205146, there is no canonical definition to state claims against.
 -/
@@ -5339,7 +5341,7 @@ end
 end A205146.P14159787106936914925
 
 /-!
-# A205147: The index j
+# A205147: The index j<k such that n divides s(k)-s(j), where k is the least index (A205146) for which such j exists, and s(k)=prime(k)*prime(k+1).
 
 The programs for A205147, there is no canonical definition to state claims against.
 -/
@@ -5600,7 +5602,7 @@ end
 end A205147.P2166270551378716935
 
 /-!
-# A205148: Least s(k) such that n divides s(k)-s(j) for some j
+# A205148: Least s(k) such that n divides s(k)-s(j) for some j<k, where s(j)=prime(j)*prime(j+1).
 
 The programs for A205148, there is no canonical definition to state claims against.
 -/
@@ -5971,7 +5973,7 @@ end
 end A205151.P17383876084385993208
 
 /-!
-# A205153: Least k such that n divides s(k)-s(j) for some j
+# A205153: Least k such that n divides s(k)-s(j) for some j<k, where s(j)=(prime(j+1) + prime(j+2))/2.
 
 The programs for A205153, there is no canonical definition to state claims against.
 -/
@@ -6067,7 +6069,7 @@ end
 end A205153.P1310446784504455414
 
 /-!
-# A205154: The index j
+# A205154: The index j<k such that n divides s(k)-s(j) for some j, where s(j)=(prime(j+1) + prime(j+2))/2.
 
 The programs for A205154, there is no canonical definition to state claims against.
 -/
@@ -6924,7 +6926,7 @@ end A205171.P15975636100477481946
 /-!
 # A205172: Primes p == 5 (mod 8) such that p + 2 is also prime.
 
-The programs for A205172, the canonical program `A205172.P2675708022056930992` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205172 has offset 1).
+The programs for A205172, the canonical program `A205172.P2675708022056930992` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A205172 has offset 1).
 
 The definition of A205172 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2055 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6933,7 +6935,7 @@ The definition of A205172 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A001359(n+1), A107003(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A205172

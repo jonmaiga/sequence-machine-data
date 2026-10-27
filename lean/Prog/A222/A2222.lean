@@ -39,16 +39,14 @@ import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B002.C001
-import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B005.C000
-import Seq.B010.C000
+import Seq.B007.C000
+import Seq.B009.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -158,7 +156,7 @@ end
 end A222200.P3086243692943043062
 
 /-!
-# A222201: Write n=3i+j, 0<=j
+# A222201: Write n=3i+j, 0<=j<3; a(n) = number of Hamiltonian cycles on square grid of points of size 2i+2 X 2i+2 (if j=0), 2i+2 X 2i+3 (j=1) or 2i+3 X 2i+4 (j=2).
 
 The programs for A222201, there is no canonical definition to state claims against.
 -/
@@ -302,7 +300,7 @@ end
 end A222203.P372108703816616303
 
 /-!
-# A222204: Write n=3i+j, 0<=j
+# A222204: Write n=3i+j, 0<=j<3; a(n) = number of ways to cover the r X s grid graph by vertex disjoint cycles, where (r,s) = (2i+2, 2i+2) (if j=0), (2i+2, 2i+3) (if j=1) or (2i+3, 2i+4) (if j=2).
 
 The programs for A222204, there is no canonical definition to state claims against.
 -/
@@ -8609,7 +8607,7 @@ end A222282.P5313243367523212966
 /-!
 # A222283: Number of nX1 0..1 arrays with exactly floor(nX1/2) elements unequal to at least one horizontal or vertical neighbor, with new values introduced in row major 0..1 order.
 
-The programs for A222283, the canonical program `A222283.P5441497307895474527` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222283 has offset 1).
+The programs for A222283, the canonical program `A222283.P5441497307895474527` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222283 has offset 1).
 
 The definition of A222283 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 140 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8618,7 +8616,7 @@ The definition of A222283 is `conjectured`: the Lean definition is a formula tha
 
 `A105422(∑[or(1, n)+1])`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A222283

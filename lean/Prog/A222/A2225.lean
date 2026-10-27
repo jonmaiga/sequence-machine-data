@@ -37,35 +37,33 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1968,7 +1966,7 @@ end
 end A222525.P10283917150005050027
 
 /-!
-# A222532: a(1)=2; for n >= 1, a(n+1) is the least prime p_m such that a(n)=p_m-p_{m-1}+...+(-1)^{m-k}p_k for some 0
+# A222532: a(1)=2; for n >= 1, a(n+1) is the least prime p_m such that a(n)=p_m-p_{m-1}+...+(-1)^{m-k}p_k for some 0<k<m.
 
 The programs for A222532, there is no canonical definition to state claims against.
 -/
@@ -3959,7 +3957,7 @@ end A222557.P3837998172132892414
 /-!
 # A222559: a(0) = 0. If n is odd, a(n) = a(n-1) * n, otherwise a(n) = a(n-1) + n.
 
-The programs for A222559, the canonical program `A222559.P7406129077156502269` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222559 has offset 0).
+The programs for A222559, the canonical program `A222559.P7406129077156502269` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222559 has offset 0).
 
 The definition of A222559 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 121 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3968,7 +3966,7 @@ The definition of A222559 is `conjectured`: the Lean definition is a formula tha
 
 `A047905(n+1)-∏[A093178(n)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A222559
@@ -4523,7 +4521,7 @@ end A222563.P4533043701719113632
 /-!
 # A222565: Primes that are the largest anti-divisor of primes.
 
-The programs for A222565, the canonical program `A222565.P1816382862273423881` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222565 has offset 1).
+The programs for A222565, the canonical program `A222565.P1816382862273423881` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222565 has offset 1).
 
 The definition of A222565 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4532,7 +4530,7 @@ The definition of A222565 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A158708(n+1), A158709(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A222565
@@ -5792,7 +5790,7 @@ end
 end A222578.P4874558343133193222
 
 /-!
-# A222580: Number of ways to write n=p_m-p_{m-1}+...+(-1)^{m-k}p_k with k
+# A222580: Number of ways to write n=p_m-p_{m-1}+...+(-1)^{m-k}p_k with k<m and p_m<=3n, and p_m+1 and p_k-1 both practical, where p_j denotes the j-th prime.
 
 The programs for A222580, there is no canonical definition to state claims against.
 -/

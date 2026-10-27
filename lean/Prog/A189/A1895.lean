@@ -39,7 +39,6 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -47,17 +46,19 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,7 +69,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -1135,7 +1135,7 @@ end A189514.P11749452084531780763
 /-!
 # A189515: a(n) = n + [ns] + [nt]; s=Pi/2, t=2/Pi.
 
-The programs for A189515, the canonical program `A189515.P13768782672039770676` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189515 has offset 1).
+The programs for A189515, the canonical program `A189515.P13768782672039770676` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189515 has offset 1).
 
 The definition of A189515 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1144,7 +1144,7 @@ The definition of A189515 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+1+A140758(n+1)+floor(2*(n+1)/π)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A189515
@@ -1420,7 +1420,7 @@ end A189517.P18387400816771123683
 /-!
 # A189518: n+[ns/r]+[nt/r]; r=1, s=1/e, t=1/(e+1).
 
-The programs for A189518, the canonical program `A189518.P2913336897340290057` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189518 has offset 1).
+The programs for A189518, the canonical program `A189518.P2913336897340290057` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189518 has offset 1).
 
 The definition of A189518 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1475,7 +1475,7 @@ end A189518
 
 `A006594(n+1)+∑[char[A000572(n+1)]]`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A189518
@@ -1562,7 +1562,7 @@ end A189518
 /-!
 # A189519: n+[nr/s]+[nt/s]; r=1, s=1/e, t=1/(e+1).
 
-The programs for A189519, the canonical program `A189519.P16295478537119731584` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189519 has offset 1).
+The programs for A189519, the canonical program `A189519.P16295478537119731584` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189519 has offset 1).
 
 The definition of A189519 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1620,7 +1620,7 @@ end A189519
 
 `A000572(n+1)+∑[char[A006594(n+1)]]`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A189519
@@ -2914,7 +2914,7 @@ end A189529
 /-!
 # A189530: n+[ns/r]+[nt/r]; r=1, s=2^(1/3), t=2^(2/3).
 
-The programs for A189530, the canonical program `A189530.P1009789247220490105` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189530 has offset 1).
+The programs for A189530, the canonical program `A189530.P1009789247220490105` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189530 has offset 1).
 
 The definition of A189530 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2972,7 +2972,7 @@ end A189530
 
 `A182773(n+1)+∑[A081117(n)]`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A189530
@@ -3169,7 +3169,7 @@ end A189531.P10673263339237449090
 /-!
 # A189532: n+[nr/t]+[ns/t]; r=1, s=2^(1/3), t=2^(2/3).
 
-The programs for A189532, the canonical program `A189532.P5408323124899786761` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189532 has offset 1).
+The programs for A189532, the canonical program `A189532.P5408323124899786761` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A189532 has offset 1).
 
 The definition of A189532 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6299 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3207,7 +3207,7 @@ end A189532
 
 `A182774(n+1)+A004526(A347792(n+1))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A189532

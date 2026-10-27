@@ -48,16 +48,14 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -73,10 +71,8 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3197,7 +3193,7 @@ end A172242
 /-!
 # A172243: Partial sums of A080076.
 
-The programs for A172243, the canonical program `A172243.P15321904317358311032` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172243 has offset 1).
+The programs for A172243, the canonical program `A172243.P15321904317358311032` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172243 has offset 1).
 
 The definition of A172243 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3206,7 +3202,7 @@ The definition of A172243 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A080076(n+1)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A172243
@@ -4728,7 +4724,7 @@ end A172255.P14736771292176367132
 /-!
 # A172256: Primes p such that 2*p+-3 are both nonprimes.
 
-The programs for A172256, the canonical program `A172256.P3636128237648149891` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172256 has offset 1).
+The programs for A172256, the canonical program `A172256.P3636128237648149891` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172256 has offset 1).
 
 The definition of A172256 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 738 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4737,7 +4733,7 @@ The definition of A172256 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A153043(n+1), A163769(n+1)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A172256
@@ -8878,7 +8874,7 @@ end A172281.P4775147345713981676
 /-!
 # A172282: Squares of Bernoulli number denominators A027642.
 
-The programs for A172282, the canonical program `A172282.P2389526718549998927` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172282 has offset 0).
+The programs for A172282, the canonical program `A172282.P2389526718549998927` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172282 has offset 0).
 
 The definition of A172282 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A027642, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8887,7 +8883,7 @@ The definition of A172282 is `conditional`: the Lean definition is an OEIS formu
 
 `A027642(n)²`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A172282
@@ -11316,7 +11312,7 @@ end A172293.P4180643653003189471
 /-!
 # A172295: Partial sums of A023201.
 
-The programs for A172295, the canonical program `A172295.P9584074146213077135` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172295 has offset 1).
+The programs for A172295, the canonical program `A172295.P9584074146213077135` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172295 has offset 1).
 
 The definition of A172295 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9993 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11525,7 +11521,7 @@ end A172295
 
 `∑[p?[A015914(n+1)]]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A172295

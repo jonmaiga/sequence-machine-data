@@ -35,11 +35,12 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,6 +53,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -59,11 +61,9 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -428,7 +428,7 @@ end A275201.P428261771445367964
 /-!
 # A275202: Subword complexity (number of distinct blocks of length n) of the period doubling sequence A096268.
 
-The programs for A275202, the canonical program `A275202.P2888438390454499260` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A275202 has offset 1).
+The programs for A275202, the canonical program `A275202.P2888438390454499260` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A275202 has offset 1).
 
 The definition of A275202 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005942, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -437,7 +437,7 @@ The definition of A275202 is `conditional`: the Lean definition is an OEIS formu
 
 `A005942(n+2)/2`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A275202
@@ -1147,12 +1147,6 @@ namespace A275205
 def P1212340969316574656.Spec : Prop :=
   ∀ n, P1212340969316574656.a n = A275205 (n + 1)
 
-theorem P1212340969316574656.correct : P1212340969316574656.Spec := by
-  intro n
-  simp only [A275205, Nat.add_sub_cancel, A275205.P1212340969316574656.f1, A275205.P1212340969316574656.a, A275205.P10350862978894728865.f2, A275205.P10350862978894728865.f1, A275205.P10350862978894728865.a, A318833, A318833.P15994994677912991465.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A275205
 
 /-! ## A275205.P11615703366519332537
@@ -1563,7 +1557,7 @@ end A275205
 /-!
 # A275206: Expansion of (A(x)^2 - A(x^2))/2 where A(x) = A000108(x) - 1.
 
-The programs for A275206, the canonical program `A275206.P3060918531879445442` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A275206 has offset 0).
+The programs for A275206, the canonical program `A275206.P3060918531879445442` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A275206 has offset 0).
 
 The definition of A275206 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 172 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1641,7 +1635,7 @@ end A275206
 
 `Δ[(4-6/(n+1))*a(n-1)]%A007595(n+1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A275206
@@ -3286,7 +3280,7 @@ end A275221.P358631204563354027
 /-!
 # A275222: Number of n X 2 0..2 arrays with no element equal to any value at offset (-2,-1) (-2,1) or (-1,0) and new values introduced in order 0..2.
 
-The programs for A275222, the canonical program `A275222.P2051820910365035933` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A275222 has offset 1).
+The programs for A275222, the canonical program `A275222.P2051820910365035933` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A275222 has offset 1).
 
 The definition of A275222 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 252 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3295,7 +3289,7 @@ The definition of A275222 is `conjectured`: the Lean definition is a formula tha
 
 `A196630(n+2)-A057428(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A275222
@@ -7146,7 +7140,7 @@ end A275286.P1102561503865258995
 /-!
 # A275289: Number of set partitions of [n] with symmetric block size list of length three.
 
-The programs for A275289, the canonical program `A275289.P10625359432271309099` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A275289 has offset 3).
+The programs for A275289, the canonical program `A275289.P10625359432271309099` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A275289 has offset 3).
 
 The definition of A275289 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 212 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7155,7 +7149,7 @@ The definition of A275289 is `conjectured`: the Lean definition is a formula tha
 
 `A026165(n)+a(n-2)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A275289

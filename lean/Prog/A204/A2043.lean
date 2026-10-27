@@ -1,5 +1,4 @@
 import SequenceMachineLib
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -29,25 +28,23 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B003.C000
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -71,10 +68,6 @@ import Seq.Opaque.C020
 import Seq.Opaque.C021
 import Seq.Opaque.C022
 import Seq.Opaque.C024
-
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
 
 /-!
 # A204300: Number of nX7 0..3 arrays with every element neighboring horizontally or vertically both a 0 and a 1, and 2 introduced before 3 in row major order.
@@ -1456,7 +1449,7 @@ end
 end A204324.P13948781129788829849
 
 /-!
-# A204326: Number of cubic graphs on 2n nodes with chromatic number 3.
+# A204326: Number of connected cubic graphs on 2n nodes with chromatic number 3.
 
 The programs for A204326, there is no canonical definition to state claims against.
 -/
@@ -2406,7 +2399,7 @@ end A204341.P12405482135502271765
 /-!
 # A204342: a(n) = (-1)^n * Sum_{2*m + 1 | 2*n + 1} (-1)^m (2*m + 1)^4.
 
-The programs for A204342, the canonical program `A204342.P2124445064722088541` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204342 has offset 0).
+The programs for A204342, the canonical program `A204342.P2124445064722088541` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204342 has offset 0).
 
 The definition of A204342 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A050468, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2415,7 +2408,7 @@ The definition of A204342 is `conditional`: the Lean definition is an OEIS formu
 
 `A050468(2*n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A204342
@@ -2473,12 +2466,6 @@ namespace A204342
 /-- `A050463(2*n+1)-A050467(2*n+1)` -/
 def P4193527478541508227.Spec : Prop :=
   ∀ n, P4193527478541508227.a n = A204342 n
-
-theorem P4193527478541508227.correct : P4193527478541508227.Spec := by
-  intro n
-  simp only [A204342, Nat.add_sub_cancel, A204342.P4193527478541508227.a, A204342.P2124445064722088541.a, A050463, A050463.P239937787475028521.a, A050467, A050467.P9462411974454207442.a, A050468, A050468.P11011477730524257504.f1, A050468.P11011477730524257504.a, A002654, A002654.P11574922253888480122.a, A059377, A059377.P4346818254889849577.f1, A059377.P4346818254889849577.a, A285989, A285989.P13600926277969307102.f1, A285989.P13600926277969307102.a, A001159, A001159.P9898895530264138649.f1, A001159.P9898895530264138649.a, A001826, A001826.P1518250824516108745.a, A001842, A001842.P7208978678147038563.f1, A001842.P7208978678147038563.a, A007427, A007427.P16363569186413612215.f1, A007427.P16363569186413612215.a, A001227, A001227.P17291574635237243988.f1, A001227.P17291574635237243988.a, A008683, A008683.P18254306604665478110.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A204342
 
@@ -5289,7 +5276,7 @@ end A204385.P16459702961316820145
 /-!
 # A204386: Expansion of (theta_2(q)^8 + 4 * theta_2(q^2)^8) / 256 in powers of q^2.
 
-The programs for A204386, the canonical program `A204386.P12533597244492937321` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204386 has offset 1).
+The programs for A204386, the canonical program `A204386.P12533597244492937321` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204386 has offset 1).
 
 The definition of A204386 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5324,7 +5311,7 @@ end A204386
 
 `∑{d}[n+1, A133657(#)*A208895((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A204386

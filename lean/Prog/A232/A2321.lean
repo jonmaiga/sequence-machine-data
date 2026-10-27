@@ -14,7 +14,6 @@ import Seq.B000.C011
 import Seq.B000.C012
 import Seq.B000.C014
 import Seq.B000.C015
-import Seq.B000.C016
 import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
@@ -34,19 +33,22 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -54,10 +56,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -455,21 +453,6 @@ end A232106.P3741491775651039890
 
 The programs for A232108, there is no canonical definition to state claims against.
 -/
-
-/-! ## A232108.P8400206255371734362
-
-`A286180(A101357(n)+A069778(n))`
--/
-
-namespace A232108.P8400206255371734362
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A286180 (A101357 n + A069778 n).toNat
-
-end
-
-end A232108.P8400206255371734362
 
 /-! ## A232108.P8311475419315771686
 
@@ -4522,7 +4505,7 @@ end A232170.P9863535144441284031
 /-!
 # A232172: Partial sums of second arithmetic derivative of natural numbers.
 
-The programs for A232172, the canonical program `A232172.P5206875052303947786` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232172 has offset 1).
+The programs for A232172, the canonical program `A232172.P5206875052303947786` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232172 has offset 1).
 
 The definition of A232172 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4531,7 +4514,7 @@ The definition of A232172 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A068346(n+1)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A232172
@@ -5126,7 +5109,7 @@ end A232179.P17509785147268957440
 /-!
 # A232180: First bisection of harmonic numbers (numerators).
 
-The programs for A232180, the canonical program `A232180.P7403348615314962087` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232180 has offset 1).
+The programs for A232180, the canonical program `A232180.P7403348615314962087` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232180 has offset 1).
 
 The definition of A232180 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 116 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5135,7 +5118,7 @@ The definition of A232180 is `conjectured`: the Lean definition is a formula tha
 
 `A001008(Δ[n²])`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A232180
@@ -5360,7 +5343,7 @@ end A232180
 /-!
 # A232181: First bisection of harmonic numbers (denominators).
 
-The programs for A232181, the canonical program `A232181.P8852575731093556452` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232181 has offset 1).
+The programs for A232181, the canonical program `A232181.P8852575731093556452` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232181 has offset 1).
 
 The definition of A232181 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 116 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5369,7 +5352,7 @@ The definition of A232181 is `conjectured`: the Lean definition is a formula tha
 
 `A002805(Δ[n²])`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A232181

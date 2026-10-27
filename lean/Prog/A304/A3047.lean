@@ -40,18 +40,19 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -61,8 +62,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5416,7 +5415,7 @@ end A304767.P6461603356964042158
 /-!
 # A304768: Augmented integer conjugate of n. a(n) = (1/n) * A007947(n)^(1 + A051903(n)) where A007947 is squarefree kernel and A051903 is maximum prime exponent.
 
-The programs for A304768, the canonical program `A304768.P12049838083210092088` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304768 has offset 1).
+The programs for A304768, the canonical program `A304768.P12049838083210092088` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304768 has offset 1).
 
 The definition of A304768 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051903, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5425,7 +5424,7 @@ The definition of A304768 is `conditional`: the Lean definition is an OEIS formu
 
 `1/(n+1)*A007947(n+1)^(1+A051903(n+1))`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A304768
@@ -6358,7 +6357,7 @@ end A304775.P1385558966686586443
 /-!
 # A304776: A weakening function. a(n) = n / A007947(n)^(A051904(n) - 1) where A007947 is squarefree kernel and A051904 is minimum prime exponent.
 
-The programs for A304776, the canonical program `A304776.P16093337773244760738` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304776 has offset 1).
+The programs for A304776, the canonical program `A304776.P16093337773244760738` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304776 has offset 1).
 
 The definition of A304776 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051904, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6390,7 +6389,7 @@ end A304776
 
 `(n+1)/A007947(n+1)^(A051904(n+1)-1)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A304776

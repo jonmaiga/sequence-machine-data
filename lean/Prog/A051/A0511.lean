@@ -47,18 +47,20 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -73,8 +75,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -8043,7 +8043,7 @@ end A051143.P17684594949971028708
 /-!
 # A051144: Nonsquarefree nonsquares: each term has a square factor but is not a perfect square itself.
 
-The programs for A051144, the canonical program `A051144.P15705721184741371757` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051144 has offset 1).
+The programs for A051144, the canonical program `A051144.P15705721184741371757` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051144 has offset 1).
 
 The definition of A051144 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8052,7 +8052,7 @@ The definition of A051144 is `conjectured`: the Lean definition is a formula tha
 
 `comp[∪[A005117(n+1), n²]]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A051144
@@ -14549,7 +14549,7 @@ end A051189
 /-!
 # A051190: a(n) = Product_{k=1..n-1} gcd(k,n).
 
-The programs for A051190, the canonical program `A051190.P4423942636353166915` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051190 has offset 1).
+The programs for A051190, the canonical program `A051190.P4423942636353166915` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051190 has offset 1).
 
 The definition of A051190 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A067911, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -14558,7 +14558,7 @@ The definition of A051190 is `conditional`: the Lean definition is an OEIS formu
 
 `A067911(n+1)/(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A051190
@@ -15167,7 +15167,7 @@ end A051192
 /-!
 # A051193: a(n) = Sum_{k=1..n} lcm(n,k).
 
-The programs for A051193, the canonical program `A051193.P1309256294605873635` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051193 has offset 1).
+The programs for A051193, the canonical program `A051193.P1309256294605873635` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A051193 has offset 1).
 
 The definition of A051193 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A057661, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -15176,7 +15176,7 @@ The definition of A051193 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+1)*A057661(n+1)`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A051193
@@ -15234,12 +15234,6 @@ namespace A051193
 /-- `(n+1)*(A332049(n+1)+1)` -/
 def P9079603177316320361.Spec : Prop :=
   ∀ n, P9079603177316320361.a n = A051193 (n + 1)
-
-theorem P9079603177316320361.correct : P9079603177316320361.Spec := by
-  intro n
-  simp only [A051193, Nat.add_sub_cancel, A051193.P9079603177316320361.a, A051193.P1309256294605873635.a, A057661, A057661.P8562176095648835282.a, A332049, A332049.P9341534089412861099.a, A057660, A057660.P308819105178745283.a, A000290, A000290.P12206242496348924484.a, A001157, A001157.P6892814788348726787.a, A065764, A065764.P16236740945723656355.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A035316, A035316.P17845884678165723091.f1, A035316.P17845884678165723091.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A051193
 

@@ -36,37 +36,38 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2164,7 +2165,7 @@ end A145608
 /-!
 # A145609: Numerator of the polynomial A_l(x) = sum_{d=1..l-1} x^(l-d)/d for index l=2n+1 evaluated at x=1.
 
-The programs for A145609, the canonical program `A145609.P11425567724915738602` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145609 has offset 1).
+The programs for A145609, the canonical program `A145609.P11425567724915738602` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145609 has offset 1).
 
 The definition of A145609 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 116 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2337,7 +2338,7 @@ end A145609
 
 `A025529(2*(n+1))/gcd(A003418(n+1), A025529(2*(n+1)))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A145609
@@ -3926,7 +3927,7 @@ end
 end A145638.P13328936622813722405
 
 /-!
-# A145640: Denominator the polynomial A_l(x) = sum_{d=1..l-1} x^(l-d)/d for index l=2n+1 evaluated at x=16.
+# A145640: Denominator of the polynomial A_l(x) = sum_{d=1..l-1} x^(l-d)/d for index l=2n+1 evaluated at x=16.
 
 The programs for A145640, there is no canonical definition to state claims against.
 -/
@@ -4289,32 +4290,6 @@ namespace A145641
 /-- `lcm(A000051(2*(n+1)), A000225(n+1))` -/
 def P4303227552177150054.Spec : Prop :=
   ∀ n, (P4303227552177150054.a n : ℤ) = A145641 (n + 1)
-
-end A145641
-
-/-! ## A145641.P2045634727396334818
-
-`∑[A135092(3*n+1)-A135098(2*n+1)]`
--/
-
-namespace A145641.P2045634727396334818
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A135092 (3 * n + 1) - A135098 (2 * n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A145641.P2045634727396334818
-
-namespace A145641
-
-/-- `∑[A135092(3*n+1)-A135098(2*n+1)]` -/
-def P2045634727396334818.Spec : Prop :=
-  ∀ n, P2045634727396334818.a n = A145641 (n + 1)
 
 end A145641
 
@@ -6582,32 +6557,6 @@ namespace A145655
 /-- `∑[A080674(n+1)]` -/
 def P10850878453354126649.Spec : Prop :=
   ∀ n, P10850878453354126649.a n = A145655 (n + 1)
-
-end A145655
-
-/-! ## A145655.P17020479846448978780
-
-`∑[A155721(n+1)]`
--/
-
-namespace A145655.P17020479846448978780
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A155721 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ∑ j ∈ Finset.range (n + 1), f1 j
-
-end
-
-end A145655.P17020479846448978780
-
-namespace A145655
-
-/-- `∑[A155721(n+1)]` -/
-def P17020479846448978780.Spec : Prop :=
-  ∀ n, P17020479846448978780.a n = A145655 (n + 1)
 
 end A145655
 

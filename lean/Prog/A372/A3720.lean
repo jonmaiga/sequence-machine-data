@@ -42,36 +42,34 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
-import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
-import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B008.C000
+import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -152,21 +150,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A372000.P29530492387924862
-
-/-! ## A372000.P12007898980779583985
-
-`A083907(n+1)/A372007(n+1)`
--/
-
-namespace A372000.P12007898980779583985
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A083907 (n + 1) : ℚ) / (A372007 (n + 1) : ℚ)
-
-end
-
-end A372000.P12007898980779583985
 
 /-! ## A372000.P6718442354254182830
 
@@ -356,21 +339,6 @@ end
 
 end A372007.P15394199513994924187
 
-/-! ## A372007.P3529694881613632585
-
-`A083907(n+1)/A372000(n+1)`
--/
-
-namespace A372007.P3529694881613632585
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A083907 (n + 1) : ℚ) / (A372000 (n + 1) : ℚ)
-
-end
-
-end A372007.P3529694881613632585
-
 /-! ## A372007.P7583340581486745163
 
 `A007913(∏[A334085(n+1)])`
@@ -539,7 +507,7 @@ end A372011.P2802504201434097873
 /-!
 # A372015: Product of Fibonacci and self-convolution of Fibonacci numbers: a(n) = A000045(n+1)*A001629(n+1).
 
-The programs for A372015, the canonical program `A372015.P9509441470734535511` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372015 has offset 0).
+The programs for A372015, the canonical program `A372015.P9509441470734535511` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372015 has offset 0).
 
 The definition of A372015 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -548,7 +516,7 @@ The definition of A372015 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000045(n+1)*A001629(n+1)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A372015
@@ -2704,7 +2672,7 @@ end A372058.P5867465979737142271
 /-!
 # A372059: Indices of record high-points in A280741.
 
-The programs for A372059, the canonical program `A372059.P3781003696721754099` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372059 has offset 1).
+The programs for A372059, the canonical program `A372059.P3781003696721754099` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372059 has offset 1).
 
 The definition of A372059 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5177 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2788,7 +2756,7 @@ end A372059
 
 `filter[A117285(n+1), A355937(#)]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A372059
@@ -4596,7 +4564,7 @@ end A372075.P11259862994036207817
 /-!
 # A372076: The sequence T_{3,1}(n,3).
 
-The programs for A372076, the canonical program `A372076.P11698522728107779967` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372076 has offset 0).
+The programs for A372076, the canonical program `A372076.P11698522728107779967` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372076 has offset 0).
 
 The definition of A372076 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 258 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4677,7 +4645,7 @@ end A372076
 
 `Δ[Δ[A097122(n)/3]]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A372076

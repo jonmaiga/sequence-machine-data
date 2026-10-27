@@ -34,19 +34,21 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -58,7 +60,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1442,21 +1443,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A146926.P18418096198668772860
-
-/-! ## A146926.P8362049300933836385
-
-`or(1, A003007(A130083(n+1)))`
--/
-
-namespace A146926.P8362049300933836385
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor 1 (A003007 (A130083 (n + 1)).toNat)
-
-end
-
-end A146926.P8362049300933836385
 
 /-! ## A146926.P5649793225350932212
 
@@ -4460,7 +4446,7 @@ end A146967.P17805188358556521407
 /-!
 # A146969: a(1)=3, a(2)=1, a(n) = (n+1)/2 if n is an odd prime, and a(n) = a(floor(n/2)) otherwise.
 
-The programs for A146969, the canonical program `A146969.P259206880826924078` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146969 has offset 1).
+The programs for A146969, the canonical program `A146969.P259206880826924078` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146969 has offset 1).
 
 The definition of A146969 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4492,7 +4478,7 @@ end A146969
 
 `A000463(A039634(n+1))+A000038(n)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A146969

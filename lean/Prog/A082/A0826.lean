@@ -51,24 +51,23 @@ import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -76,9 +75,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5124,7 +5120,7 @@ def P8249336432661870779.Spec : Prop :=
 end A082649
 
 /-!
-# A082650: Number of primes < n of form 1+k*spf(n), where spf(n) is the smallest prime factor of n (A020639).
+# A082650: Number of primes < n of the form 1 + k*lpf(n), where lpf(n) is the least prime factor of n (A020639).
 
 The programs for A082650, there is no canonical definition to state claims against.
 -/
@@ -7871,7 +7867,7 @@ end
 end A082664.P12386156003570360145
 
 /-!
-# A082666: a(1) = 0, for n > 1 if n = prime(k), then a(n) = k, otherwise a(n) = Sum_{d|n, d
+# A082666: a(1) = 0, for n > 1 if n = prime(k), then a(n) = k, otherwise a(n) = Sum_{d|n, d<n} a(d).
 
 The programs for A082666, there is no canonical definition to state claims against.
 -/
@@ -8512,7 +8508,7 @@ end A082668.P11692656537130553285
 /-!
 # A082669: a(n) = p(n)*(p(n)-1)/2 where p(n) = upper member of n-th pair of twin primes.
 
-The programs for A082669, the canonical program `A082669.P14570956005503308455` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082669 has offset 1).
+The programs for A082669, the canonical program `A082669.P14570956005503308455` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082669 has offset 1).
 
 The definition of A082669 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006512, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8521,7 +8517,7 @@ The definition of A082669 is `conditional`: the Lean definition is an OEIS formu
 
 `A006512(n+1)*(A006512(n+1)-1)/2`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A082669
@@ -10614,7 +10610,7 @@ end A082685
 /-!
 # A082686: Odd nonprime integers n which have an odd number of proper divisors.
 
-The programs for A082686, the canonical program `A082686.P7085759963606305548` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082686 has offset 1).
+The programs for A082686, the canonical program `A082686.P7085759963606305548` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082686 has offset 1).
 
 The definition of A082686 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10623,7 +10619,7 @@ The definition of A082686 is `conjectured`: the Lean definition is a formula tha
 
 `2*A226567(n+1)+1`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A082686

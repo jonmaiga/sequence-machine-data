@@ -41,17 +41,18 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B002.C000
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B006.C000
+import Seq.B005.C001
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.Opaque.C000
@@ -1859,7 +1860,7 @@ end A221042
 /-!
 # A221048: The odd semiprime numbers (A046315) which are orders of a non-Abelian group.
 
-The programs for A221048, the canonical program `A221048.P1295286946370857410` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221048 has offset 1).
+The programs for A221048, the canonical program `A221048.P1295286946370857410` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221048 has offset 1).
 
 The definition of A221048 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2236,7 +2237,7 @@ end A221048
 
 `filter[A068919(n+1), A353676(#)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A221048
@@ -2965,7 +2966,7 @@ end A221055.P674430793653995667
 /-!
 # A221056: Numbers k such that there is no square between prime(k) and prime(k+1).
 
-The programs for A221056, the canonical program `A221056.P8997916471508641174` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221056 has offset 1).
+The programs for A221056, the canonical program `A221056.P8997916471508641174` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221056 has offset 1).
 
 The definition of A221056 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9678 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3115,7 +3116,7 @@ end A221056
 
 `eq[1, A061265(n+1)+1]+1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A221056
@@ -3438,7 +3439,7 @@ end A221057.P1861165541798043983
 /-!
 # A221058: Number of inversions in all Dyck prefixes of length n.
 
-The programs for A221058, the canonical program `A221058.P9952034035264355000` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221058 has offset 0).
+The programs for A221058, the canonical program `A221058.P9952034035264355000` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221058 has offset 0).
 
 The definition of A221058 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 324 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3447,7 +3448,7 @@ The definition of A221058 is `conjectured`: the Lean definition is a formula tha
 
 `A004526(n)*A107373(A028310(n))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A221058

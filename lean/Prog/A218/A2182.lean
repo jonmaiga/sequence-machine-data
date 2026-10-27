@@ -42,28 +42,30 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2654,7 +2656,7 @@ end A218233.P14884585534122478253
 /-!
 # A218234: Infinitesimal generator for padded Pascal matrix A097805 (as lower triangular matrices).
 
-The programs for A218234, the canonical program `A218234.P3405762265077975232` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218234 has offset 0).
+The programs for A218234, the canonical program `A218234.P3405762265077975232` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218234 has offset 0).
 
 The definition of A218234 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2882,7 +2884,7 @@ end A218234
 
 `A028310(A132440(n))-1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A218234
@@ -4694,7 +4696,7 @@ end A218256.P7761399033279593421
 /-!
 # A218257: a(n) = |{m : multiplicative order of n mod m = 8}|.
 
-The programs for A218257, the canonical program `A218257.P16517323974653770966` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218257 has offset 1).
+The programs for A218257, the canonical program `A218257.P16517323974653770966` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218257 has offset 1).
 
 The definition of A218257 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4703,7 +4705,7 @@ The definition of A218257 is `conjectured`: the Lean definition is a formula tha
 
 `A059909((n+1)²)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A218257
@@ -5516,7 +5518,7 @@ end A218262.P14183974865021560149
 /-!
 # A218263: Number of standard Young tableaux of n cells and height >= 3.
 
-The programs for A218263, the canonical program `A218263.P8946944429989455353` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218263 has offset 3).
+The programs for A218263, the canonical program `A218263.P8946944429989455353` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218263 has offset 3).
 
 The definition of A218263 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5525,7 +5527,7 @@ The definition of A218263 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000085(n+3)-A001405(n+3)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A218263
@@ -5635,7 +5637,7 @@ end A218263
 /-!
 # A218264: Number of standard Young tableaux of n cells and height >= 4.
 
-The programs for A218264, the canonical program `A218264.P18402228888344710293` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218264 has offset 4).
+The programs for A218264, the canonical program `A218264.P18402228888344710293` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218264 has offset 4).
 
 The definition of A218264 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5644,7 +5646,7 @@ The definition of A218264 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000085(n+4)-A001006(n+4)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A218264
@@ -7533,7 +7535,7 @@ end A218289.P3651961462154568275
 /-!
 # A218290: Multiples of 5 such that the sum of their digits is also a multiple of 5.
 
-The programs for A218290, the canonical program `A218290.P1011226508361504062` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218290 has offset 1).
+The programs for A218290, the canonical program `A218290.P1011226508361504062` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218290 has offset 1).
 
 The definition of A218290 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7542,7 +7544,7 @@ The definition of A218290 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A227793(n+1), A008706(n)]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A218290
@@ -7763,7 +7765,7 @@ end A218290
 /-!
 # A218291: Multiples of 6 such that the sum of their digits is also a multiple of 6.
 
-The programs for A218291, the canonical program `A218291.P17440105116101161052` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218291 has offset 1).
+The programs for A218291, the canonical program `A218291.P17440105116101161052` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218291 has offset 1).
 
 The definition of A218291 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7802,7 +7804,7 @@ end A218291
 
 `filter[A274319(n+2), A079979(#)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A218291

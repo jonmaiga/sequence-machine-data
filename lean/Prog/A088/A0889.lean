@@ -45,6 +45,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -60,20 +61,17 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -447,7 +445,7 @@ end
 end A088903.P7443922346401614253
 
 /-!
-# A088904: Number of ways to write n = x^i + x^j with 1
+# A088904: Number of ways to write n = x^i + x^j with 1<x<=n and 0<=i<=j.
 
 The programs for A088904, there is no canonical definition to state claims against.
 -/
@@ -528,7 +526,7 @@ end
 end A088904.P9530958044918029097
 
 /-!
-# A088905: Numbers m having exactly one representation m = x^i + x^j with 1
+# A088905: Numbers m having exactly one representation m = x^i + x^j with 1<x<=m and 0<=i<=j.
 
 The programs for A088905, the canonical program `A088905.P6975458775948714409` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088905 has offset 1).
 
@@ -1447,7 +1445,7 @@ end A088915.P11027817654564519067
 /-!
 # A088917: Central Delannoy numbers (mod 3); Characteristic function for Cantor set.
 
-The programs for A088917, the canonical program `A088917.P10709094076665346594` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088917 has offset 0).
+The programs for A088917, the canonical program `A088917.P10709094076665346594` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088917 has offset 0).
 
 The definition of A088917 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1514,7 +1512,7 @@ end A088917
 
 `A001850(n)-3*floor(A001850(n)/3)`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A088917
@@ -10093,12 +10091,6 @@ namespace A088982
 def P1563282986706166479.Spec : Prop :=
   ∀ n, P1563282986706166479.a n = A088982 (n + 1)
 
-theorem P1563282986706166479.correct : P1563282986706166479.Spec := by
-  intro n
-  simp only [A088982, Nat.add_sub_cancel, A088982.P1563282986706166479.a, A088982.P4156197862445489170.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A002808, A002808.P8130888830651501259.f1, A002808.P8130888830651501259.f2, A002808.P8130888830651501259.a, A275991, A275991.P2384493440369064135.a, A082023, A082023.P820682903743471019.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A088982
 
 /-! ## A088982.P16692708329095828691
@@ -10749,7 +10741,7 @@ end A088984.P1542547924735892051
 /-!
 # A088985: Numbers of the form prime(prime(n)+1), with n satisfying prime(n)+2 = prime(n+1).
 
-The programs for A088985, the canonical program `A088985.P11937650626503658584` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088985 has offset 1).
+The programs for A088985, the canonical program `A088985.P11937650626503658584` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088985 has offset 1).
 
 The definition of A088985 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10758,7 +10750,7 @@ The definition of A088985 is `conjectured`: the Lean definition is a formula tha
 
 `A072677(A029707(n+1))`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A088985
@@ -10839,12 +10831,6 @@ namespace A088985
 /-- `A072677(A155752(n+1)+1)` -/
 def P6785586950790237518.Spec : Prop :=
   ∀ n, P6785586950790237518.a n = A088985 (n + 1)
-
-theorem P6785586950790237518.correct : P6785586950790237518.Spec := by
-  intro n
-  simp only [A088985, Nat.add_sub_cancel, A088985.P6785586950790237518.a, A088985.P11937650626503658584.a, A029707, A029707.P9157915946838587551.f1, A029707.P9157915946838587551.a, A072677, A072677.P15673832818154318701.a, A155752, A155752.P6228689506561445427.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A242767, A242767.P6276449245007787369.a, A027833, A027833.P2673229578852313683.f2, A027833.P2673229578852313683.f3, A027833.P2673229578852313683.f1, A027833.P2673229578852313683.a, A001223, A001223.P5034056745985311719.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A088985
 

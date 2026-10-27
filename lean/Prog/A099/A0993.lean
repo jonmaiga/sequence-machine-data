@@ -48,6 +48,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -61,6 +62,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -74,9 +76,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -111,7 +111,7 @@ set_option linter.unreachableTactic false
 /-!
 # A099301: Arithmetic derivative of d(n), the number of divisors of n.
 
-The programs for A099301, the canonical program `A099301.P14401203387381183199` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A099301 has offset 1).
+The programs for A099301, the canonical program `A099301.P14401203387381183199` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A099301 has offset 1).
 
 The definition of A099301 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003415, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -120,7 +120,7 @@ The definition of A099301 is `conditional`: the Lean definition is an OEIS formu
 
 `A003415(A000005(n+1))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A099301
@@ -773,7 +773,7 @@ end A099305.P10567702654115856049
 /-!
 # A099306: n''', the third arithmetic derivative of n.
 
-The programs for A099306, the canonical program `A099306.P5435718104509617446` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A099306 has offset 0).
+The programs for A099306, the canonical program `A099306.P5435718104509617446` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A099306 has offset 0).
 
 The definition of A099306 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003415, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -782,7 +782,7 @@ The definition of A099306 is `conditional`: the Lean definition is an OEIS formu
 
 `A003415(A003415(A003415(n)))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A099306
@@ -1968,7 +1968,7 @@ end A099309.P17829898532354763447
 /-!
 # A099310: Arithmetic derivative of Euler's totient function phi(n).
 
-The programs for A099310, the canonical program `A099310.P8040982866439105394` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A099310 has offset 1).
+The programs for A099310, the canonical program `A099310.P8040982866439105394` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A099310 has offset 1).
 
 The definition of A099310 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A003415, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1977,7 +1977,7 @@ The definition of A099310 is `conditional`: the Lean definition is an OEIS formu
 
 `A003415(A000010(n+1))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A099310

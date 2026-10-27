@@ -37,35 +37,35 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2107,7 +2107,7 @@ end A308338.P16676730557606560023
 /-!
 # A308339: Sphenic number indices of A215217.
 
-The programs for A308339, the canonical program `A308339.P12363408473159488480` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308339 has offset 1).
+The programs for A308339, the canonical program `A308339.P12363408473159488480` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308339 has offset 1).
 
 The definition of A308339 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 200 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2116,7 +2116,7 @@ The definition of A308339 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A239656(n+1)]+1`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A308339
@@ -2659,7 +2659,7 @@ end A308343.P5634282682068084008
 /-!
 # A308344: a(n) = (A001359(n+1)^2 - 1)/24, where A001359 = lesser of twin primes; or: pentagonal numbers (A000326) whose indices are twin ranks (A002822).
 
-The programs for A308344, the canonical program `A308344.P13252436012893602881` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308344 has offset 1).
+The programs for A308344, the canonical program `A308344.P13252436012893602881` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308344 has offset 1).
 
 The definition of A308344 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002822, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2693,7 +2693,7 @@ end A308344
 
 `A000326(A002822(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A308344
@@ -3166,7 +3166,7 @@ theorem P169935265698401224.correct : P169935265698401224.Spec := by
 end A308347
 
 /-!
-# A308349: Number of minimal unit-distance forbidden graph minors on n vertices.
+# A308349: Number of minimal forbidden subgraphs for unit-distance graphs on n vertices.
 
 The programs for A308349, there is no canonical definition to state claims against.
 -/
@@ -5627,12 +5627,6 @@ namespace A308375
 def P596349261115318344.Spec : Prop :=
   ∀ n, P596349261115318344.a n = A308375 (n + 1)
 
-theorem P596349261115318344.correct : P596349261115318344.Spec := by
-  intro n
-  simp only [A308375, Nat.add_sub_cancel, A308375.P596349261115318344.a, A308375.P5312636960333740944.a, A002808, A002808.P8130888830651501259.f1, A002808.P8130888830651501259.f2, A002808.P8130888830651501259.a, A007953, A007953.P3472751987379697826.a, A072668, A072668.P5648318357023435289.a, A054899, A054899.P10770181254942084517.a, A082023, A082023.P820682903743471019.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A308375
 
 /-! ## A308375.P14874570390516083022
@@ -5655,12 +5649,6 @@ namespace A308375
 /-- `A007953(A079696(n+1)-1)` -/
 def P14874570390516083022.Spec : Prop :=
   ∀ n, P14874570390516083022.a n = A308375 (n + 1)
-
-theorem P14874570390516083022.correct : P14874570390516083022.Spec := by
-  intro n
-  simp only [A308375, Nat.add_sub_cancel, A308375.P14874570390516083022.a, A308375.P5312636960333740944.a, A002808, A002808.P8130888830651501259.f1, A002808.P8130888830651501259.f2, A002808.P8130888830651501259.a, A007953, A007953.P3472751987379697826.a, A079696, A079696.P2621453534582977077.a, A054899, A054899.P10770181254942084517.a, A082023, A082023.P820682903743471019.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A308375
 

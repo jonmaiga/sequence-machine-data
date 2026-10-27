@@ -36,11 +36,13 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
+import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -48,11 +50,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -66,9 +70,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -548,7 +549,7 @@ end A075406.P12683767595141810049
 /-!
 # A075408: Perfect powers pp such that pp+1 is prime.
 
-The programs for A075408, the canonical program `A075408.P15345791535842021127` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075408 has offset 1).
+The programs for A075408, the canonical program `A075408.P15345791535842021127` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075408 has offset 1).
 
 The definition of A075408 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002496, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -557,7 +558,7 @@ The definition of A075408 is `conditional`: the Lean definition is an OEIS formu
 
 `A002496(n+1)-1`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A075408
@@ -4480,7 +4481,7 @@ end A075428.P9355546333035399155
 /-!
 # A075430: Primes with a squarefree neighbor.
 
-The programs for A075430, the canonical program `A075430.P13262603035968120871` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075430 has offset 1).
+The programs for A075430, the canonical program `A075430.P13262603035968120871` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075430 has offset 1).
 
 The definition of A075430 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7171 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4601,7 +4602,7 @@ end A075430
 
 `p?[(n+1)*A008683(or(2, n))²]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A075430
@@ -4669,7 +4670,7 @@ def P4977187145213656169.Spec : Prop :=
 end A075430
 
 /-!
-# A075431: Primes of the form n+mu(n), where mu is the Moebius function (A008683).
+# A075431: Primes of the form k+mu(k), where mu is the Moebius function (A008683).
 
 The programs for A075431, there is no canonical definition to state claims against.
 -/
@@ -4930,7 +4931,7 @@ end A075431.P13324188863158883343
 /-!
 # A075432: Primes with no squarefree neighbors.
 
-The programs for A075432, the canonical program `A075432.P9727196206046157024` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075432 has offset 1).
+The programs for A075432, the canonical program `A075432.P9727196206046157024` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A075432 has offset 1).
 
 The definition of A075432 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3093 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4969,7 +4970,7 @@ end A075432
 
 `p?[gcd(2*(n+1), A067856(or(1, n)))-1]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A075432

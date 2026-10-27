@@ -46,23 +46,26 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -73,9 +76,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7563,7 +7563,7 @@ end A020935
 /-!
 # A020936: Greatest k such that (k-th prime) < (6 times n-th prime).
 
-The programs for A020936, the canonical program `A020936.P1853754602566167102` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020936 has offset 1).
+The programs for A020936, the canonical program `A020936.P1853754602566167102` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A020936 has offset 1).
 
 The definition of A020936 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1928 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7618,7 +7618,7 @@ end A020936
 
 `A100637(A076274(n+2))`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A020936
@@ -13935,7 +13935,7 @@ def P5201238528751566899.Spec : Prop :=
 end A020963
 
 /-!
-# A020964: Sum of Floor[ 3*(1+sqrt(2))^(n-k) ] for k from 1 to infinity.
+# A020964: a(n) = Sum_{k>=1} floor( 3*(1+sqrt(2))^(n-k) ).
 
 The programs for A020964, there is no canonical definition to state claims against.
 -/

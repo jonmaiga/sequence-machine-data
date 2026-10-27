@@ -46,13 +46,16 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -60,6 +63,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -67,14 +71,12 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4842,12 +4844,6 @@ namespace A178350
 def P12754962941478668849.Spec : Prop :=
   ∀ n, P12754962941478668849.a n = A178350 (n + 1)
 
-theorem P12754962941478668849.correct : P12754962941478668849.Spec := by
-  intro n
-  simp only [A178350, Nat.add_sub_cancel, A178350.P12754962941478668849.a, A178350.P4195520603327523384.f1, A178350.P4195520603327523384.f2, A178350.P4195520603327523384.a, A088707, A088707.P7291141647877559993.a, A144214, A144214.P6525772958191010318.f1, A144214.P6525772958191010318.f2, A144214.P6525772958191010318.a, A169817, A169817.P582197871743041052.a, A343258, A343258.P4371836176800830808.f1, A343258.P4371836176800830808.f2, A343258.P4371836176800830808.a, A052294, A052294.P11560629231918074628.f1, A052294.P11560629231918074628.f2, A052294.P11560629231918074628.a, A081092, A081092.P1250874932712895324.f1, A081092.P1250874932712895324.a, A100493, A100493.P3342029395979233194.f1, A100493.P3342029395979233194.a, A144213, A144213.P11436118161922588227.f1, A144213.P11436118161922588227.a, A144754, A144754.P1139666669672371896.f1, A144754.P1139666669672371896.f3, A144754.P1139666669672371896.f2, A144754.P1139666669672371896.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A001316, A001316.P6850078358198232129.a, A010051, A010051.P15078252821583414300.a, A014499, A014499.P9770580101482900462.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A072000, A072000.P3706059858088101648.a, A080791, A080791.P6131873509789506769.a, A000120, A000120.P2816527436160941581.a, A007814, A007814.P13537437864234730737.a, A036987, A036987.P1789601236562705309.a, A056811, A056811.P3378557342044572151.a, A072613, A072613.P13158909735510187267.f1, A072613.P13158909735510187267.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
-
 end A178350
 
 /-! ## A178350.P15306422902933708928
@@ -5322,7 +5318,7 @@ end A178358.P3913316485857751514
 /-!
 # A178359: Rounded up arithmetic mean of digits of n appended to n, cf. A004427.
 
-The programs for A178359, the canonical program `A178359.P15358575876907738801` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178359 has offset 0).
+The programs for A178359, the canonical program `A178359.P15358575876907738801` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178359 has offset 0).
 
 The definition of A178359 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004427, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5331,7 +5327,7 @@ The definition of A178359 is `conditional`: the Lean definition is an OEIS formu
 
 `A008592(n)+A004427(n)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A178359
@@ -5550,7 +5546,7 @@ end A178360.P855911733502536404
 /-!
 # A178361: Numbers with rounded up arithmetic mean of digits = 1.
 
-The programs for A178361, the canonical program `A178361.P8231128193257540818` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178361 has offset 1).
+The programs for A178361, the canonical program `A178361.P8231128193257540818` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178361 has offset 1).
 
 The definition of A178361 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 154 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5559,7 +5555,7 @@ The definition of A178361 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A004427(n)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A178361
@@ -5699,7 +5695,7 @@ end A178361
 /-!
 # A178362: Numbers with rounded up arithmetic mean of digits = 2.
 
-The programs for A178362, the canonical program `A178362.P9238834026581198290` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178362 has offset 1).
+The programs for A178362, the canonical program `A178362.P9238834026581198290` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178362 has offset 1).
 
 The definition of A178362 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1420 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5708,7 +5704,7 @@ The definition of A178362 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2, A004427(n)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A178362
@@ -5999,7 +5995,7 @@ end A178362
 /-!
 # A178363: Numbers with rounded up arithmetic mean of digits = 3.
 
-The programs for A178363, the canonical program `A178363.P6844550535724786784` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178363 has offset 1).
+The programs for A178363, the canonical program `A178363.P6844550535724786784` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178363 has offset 1).
 
 The definition of A178363 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4511 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6008,7 +6004,7 @@ The definition of A178363 is `conjectured`: the Lean definition is a formula tha
 
 `eq[3, A004427(n)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A178363
@@ -6345,7 +6341,7 @@ end A178363
 /-!
 # A178364: Numbers with rounded up arithmetic mean of digits = 4.
 
-The programs for A178364, the canonical program `A178364.P433863543401046388` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178364 has offset 1).
+The programs for A178364, the canonical program `A178364.P433863543401046388` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178364 has offset 1).
 
 The definition of A178364 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7140 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6354,7 +6350,7 @@ The definition of A178364 is `conjectured`: the Lean definition is a formula tha
 
 `eq[4, A004427(n)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A178364
@@ -6691,7 +6687,7 @@ end A178364
 /-!
 # A178365: Numbers with rounded up arithmetic mean of digits = 5.
 
-The programs for A178365, the canonical program `A178365.P3974075218934298230` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178365 has offset 1).
+The programs for A178365, the canonical program `A178365.P3974075218934298230` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178365 has offset 1).
 
 The definition of A178365 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6441 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6700,7 +6696,7 @@ The definition of A178365 is `conjectured`: the Lean definition is a formula tha
 
 `eq[5, A004427(n)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A178365
@@ -7049,7 +7045,7 @@ end A178365
 /-!
 # A178366: Numbers with rounded up arithmetic mean of digits = 6.
 
-The programs for A178366, the canonical program `A178366.P7518788595640063131` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178366 has offset 1).
+The programs for A178366, the canonical program `A178366.P7518788595640063131` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178366 has offset 1).
 
 The definition of A178366 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3585 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7058,7 +7054,7 @@ The definition of A178366 is `conjectured`: the Lean definition is a formula tha
 
 `eq[6, A004427(n)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A178366
@@ -7337,7 +7333,7 @@ end A178366
 /-!
 # A178367: Numbers with rounded up arithmetic mean of digits = 7.
 
-The programs for A178367, the canonical program `A178367.P10805478532378323265` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178367 has offset 1).
+The programs for A178367, the canonical program `A178367.P10805478532378323265` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178367 has offset 1).
 
 The definition of A178367 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1346 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7346,7 +7342,7 @@ The definition of A178367 is `conjectured`: the Lean definition is a formula tha
 
 `eq[7, A004427(n)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A178367
@@ -7625,7 +7621,7 @@ end A178367
 /-!
 # A178368: Numbers with rounded up arithmetic mean of digits = 8.
 
-The programs for A178368, the canonical program `A178368.P9202168423804180073` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178368 has offset 1).
+The programs for A178368, the canonical program `A178368.P9202168423804180073` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178368 has offset 1).
 
 The definition of A178368 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 354 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7634,7 +7630,7 @@ The definition of A178368 is `conjectured`: the Lean definition is a formula tha
 
 `eq[8, A004427(n)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A178368
@@ -12178,7 +12174,7 @@ end A178397
 /-!
 # A178398: a(n) = p(p+1)^2, where p is the n-th prime.
 
-The programs for A178398, the canonical program `A178398.P3235956670070315682` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178398 has offset 1).
+The programs for A178398, the canonical program `A178398.P3235956670070315682` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A178398 has offset 1).
 
 The definition of A178398 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12187,7 +12183,7 @@ The definition of A178398 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A008864(n+1)*A036690(n+1)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A178398

@@ -39,6 +39,7 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -47,21 +48,22 @@ import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B005.C000
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -250,7 +252,7 @@ end A188901.P2439517070486922311
 /-!
 # A188902: Numerator of the base n logarithm of the product of the divisors of n.
 
-The programs for A188902, the canonical program `A188902.P4940289484515000086` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A188902 has offset 2).
+The programs for A188902, the canonical program `A188902.P4940289484515000086` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A188902 has offset 2).
 
 The definition of A188902 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -328,7 +330,7 @@ end A188902
 
 `A030065(A131089(n+2))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A188902
@@ -2299,7 +2301,7 @@ end A188915
 /-!
 # A188916: Where squares occur in the union of squares and powers of 2.
 
-The programs for A188916, the canonical program `A188916.P11571620703163945745` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A188916 has offset 0).
+The programs for A188916, the canonical program `A188916.P11571620703163945745` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A188916 has offset 0).
 
 The definition of A188916 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2404,7 +2406,7 @@ end A188916
 
 `A004257(A028310(n))+n`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A188916
@@ -2663,7 +2665,7 @@ end A188916
 /-!
 # A188917: Where powers of 2 occur in the union of squares and powers of 2.
 
-The programs for A188917, the canonical program `A188917.P11121832098210832002` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A188917 has offset 0).
+The programs for A188917, the canonical program `A188917.P11121832098210832002` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A188917 has offset 0).
 
 The definition of A188917 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 665 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2695,7 +2697,7 @@ end A188917
 
 `ceil(A017910(n)+n/2)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A188917

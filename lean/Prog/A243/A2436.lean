@@ -32,7 +32,7 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C006
+import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
@@ -42,10 +42,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -56,10 +58,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1615,7 +1614,7 @@ end A243616
 /-!
 # A243617: Numbers whose sum of digits equals the number of bits in its binary expansion. No zeros allowed in the digital expansion.
 
-The programs for A243617, the canonical program `A243617.P13077696560610616016` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243617 has offset 1).
+The programs for A243617, the canonical program `A243617.P13077696560610616016` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243617 has offset 1).
 
 The definition of A243617 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 387 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1624,7 +1623,7 @@ The definition of A243617 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A052382(n+1), A243615(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A243617
@@ -1929,7 +1928,7 @@ end A243618.P2825735899179854172
 /-!
 # A243619: Prime numbers n whose digital sum equals the number of bits in its binary expansion.
 
-The programs for A243619, the canonical program `A243619.P16873152795867746307` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243619 has offset 1).
+The programs for A243619, the canonical program `A243619.P16873152795867746307` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243619 has offset 1).
 
 The definition of A243619 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 575 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1938,7 +1937,7 @@ The definition of A243619 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A243615(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A243619
@@ -3099,7 +3098,7 @@ end A243620
 /-!
 # A243621: Numbers whose digital sum equals the number of bits in its binary expansion. Repeated digits in decimal expansion are not allowed.
 
-The programs for A243621, the canonical program `A243621.P1145434379709672563` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243621 has offset 1).
+The programs for A243621, the canonical program `A243621.P1145434379709672563` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243621 has offset 1).
 
 The definition of A243621 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 440 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3108,7 +3107,7 @@ The definition of A243621 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A010784(n+1), A243615(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A243621
@@ -3508,7 +3507,7 @@ end A243626.P9501417710706602213
 /-!
 # A243627: Primes which are the sum of two consecutive squarefree numbers.
 
-The programs for A243627, the canonical program `A243627.P2516176984596093208` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243627 has offset 1).
+The programs for A243627, the canonical program `A243627.P2516176984596093208` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A243627 has offset 1).
 
 The definition of A243627 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3517,7 +3516,7 @@ The definition of A243627 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A240603(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A243627

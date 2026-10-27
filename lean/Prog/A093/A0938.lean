@@ -50,15 +50,17 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -70,7 +72,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1801,7 +1802,7 @@ end A093817
 /-!
 # A093818: a(n) = gcd(A001008(n), n!).
 
-The programs for A093818, the canonical program `A093818.P17790798542643971304` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A093818 has offset 1).
+The programs for A093818, the canonical program `A093818.P17790798542643971304` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A093818 has offset 1).
 
 The definition of A093818 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 232 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1925,7 +1926,7 @@ end A093818
 
 `gcd(∑[1/(n+1)]*A002805(n+1), A027457(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A093818
@@ -2127,7 +2128,7 @@ end A093818
 /-!
 # A093819: Algebraic degree of sin(2*Pi/n).
 
-The programs for A093819, the canonical program `A093819.P10904425845107863521` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A093819 has offset 1).
+The programs for A093819, the canonical program `A093819.P10904425845107863521` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A093819 has offset 1).
 
 The definition of A093819 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2306,7 +2307,7 @@ end A093819
 
 `A055034(A225975(n+1))`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A093819
@@ -7044,7 +7045,7 @@ end A093872.P17388987909626768547
 /-!
 # A093873: Numerators in Kepler's tree of harmonic fractions.
 
-The programs for A093873, the canonical program `A093873.P2224361996583993977` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A093873 has offset 1).
+The programs for A093873, the canonical program `A093873.P2224361996583993977` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A093873 has offset 1).
 
 The definition of A093873 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9215 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7214,7 +7215,7 @@ end A093873
 
 `A295515(A233279(n+1)+1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A093873
@@ -7513,7 +7514,7 @@ end A093874.P16870664371206852770
 /-!
 # A093875: Denominators in Kepler's tree of harmonic fractions.
 
-The programs for A093875, the canonical program `A093875.P1175573544664429257` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A093875 has offset 1).
+The programs for A093875, the canonical program `A093875.P1175573544664429257` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A093875 has offset 1).
 
 The definition of A093875 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A093873, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7522,7 +7523,7 @@ The definition of A093875 is `conditional`: the Lean definition is an OEIS formu
 
 `A093873(2*(n+1)+1)`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A093875

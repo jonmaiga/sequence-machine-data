@@ -52,14 +52,14 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -71,8 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -267,7 +265,7 @@ def P13612008059725546205.Spec : Prop :=
 end A103904
 
 /-!
-# A103905: Square array T(n,k) read by antidiagonals: number of tilings of an hexagon.
+# A103905: Square array T(n,k) read by antidiagonals: number of tilings of an <n,k,n> hexagon.
 
 The programs for A103905, there is no canonical definition to state claims against.
 -/
@@ -3943,7 +3941,7 @@ end A103945
 /-!
 # A103946: Indices of icosahedral numbers (A006564) which are semiprimes.
 
-The programs for A103946, the canonical program `A103946.P5505250988808602755` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A103946 has offset 1).
+The programs for A103946, the canonical program `A103946.P5505250988808602755` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A103946 has offset 1).
 
 The definition of A103946 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 669 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3952,7 +3950,7 @@ The definition of A103946 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A145837(n+1)+1]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A103946
@@ -5059,7 +5057,7 @@ end
 end A103965.P1994414140438601058
 
 /-!
-# A103966: Let p(k) = k-th prime. a(n) = smallest prime p(j) such that number of solutions to p(k)-p(k-1)=m is n, where 1
+# A103966: Let p(k) = k-th prime. a(n) = smallest prime p(j) such that number of solutions to p(k)-p(k-1)=m is n, where 1<k<=j.
 
 The programs for A103966, there is no canonical definition to state claims against.
 -/

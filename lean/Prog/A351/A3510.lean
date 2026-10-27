@@ -30,32 +30,33 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C006
+import Seq.B002.C003
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
-import Seq.B006.C001
+import Seq.B005.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2093,7 +2094,7 @@ end
 end A351030.P7838141901430324008
 
 /-!
-# A351032: a(n) = Product_{d|n, d
+# A351032: a(n) = Product_{d|n, d<n} A019565(A291759(d)).
 
 The programs for A351032, there is no canonical definition to state claims against.
 -/
@@ -2820,7 +2821,7 @@ end A351042.P14856076200190318726
 /-!
 # A351046: a(1)=1; a(2)=4; for n>2, a(n) = a(n-1) + A000217(n)*a(n-2).
 
-The programs for A351046, the canonical program `A351046.P679532529453061544` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A351046 has offset 1).
+The programs for A351046, the canonical program `A351046.P679532529453061544` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A351046 has offset 1).
 
 The definition of A351046 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `a(n-1)+A000217(n+1)*a(n-2)` (program `A351046.P679532529453061544`, by `A351046.P679532529453061544.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2852,7 +2853,7 @@ end A351046
 
 `a(n-1)+A000217(n+1)*a(n-2)` with `a(0)=1, a(1)=4`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A351046
@@ -5611,7 +5612,7 @@ end
 end A351086.P14222109965126210615
 
 /-!
-# A351087: After initial 0, numbers k such that A327860(k) is a multiple of k.
+# A351087: Numbers k such that A327860(k) is a multiple of k, where A327860 is the arithmetic derivative of the primorial base exp-function.
 
 The programs for A351087, there is no canonical definition to state claims against.
 -/

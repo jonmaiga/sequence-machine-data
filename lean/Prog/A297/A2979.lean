@@ -35,30 +35,31 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2369,7 +2370,7 @@ end A297924.P14560895019552018998
 /-!
 # A297925: Even numbers k such that k - 5 is prime but k - 3 is not prime.
 
-The programs for A297925, the canonical program `A297925.P18079423066294423131` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A297925 has offset 1).
+The programs for A297925, the canonical program `A297925.P18079423066294423131` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A297925 has offset 1).
 
 The definition of A297925 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A049591, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2378,7 +2379,7 @@ The definition of A297925 is `conditional`: the Lean definition is an OEIS formu
 
 `A049591(n+1)+5`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A297925
@@ -3922,7 +3923,7 @@ end A297936.P7284435375668343915
 /-!
 # A297937: Number of nX2 0..1 arrays with every element equal to 0, 2, 3 or 5 king-move adjacent elements, with upper left element zero.
 
-The programs for A297937, the canonical program `A297937.P16781275991554241127` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A297937 has offset 1).
+The programs for A297937, the canonical program `A297937.P16781275991554241127` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A297937 has offset 1).
 
 The definition of A297937 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3961,7 +3962,7 @@ end A297937
 
 `A057427(n)+∑[A297870(n+2)]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A297937
@@ -6154,7 +6155,7 @@ end A297964.P1813165971437901161
 /-!
 # A297965: a(n) = Fibonacci(binomial(n+3, 3)).
 
-The programs for A297965, the canonical program `A297965.P18425207488395800533` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A297965 has offset 0).
+The programs for A297965, the canonical program `A297965.P18425207488395800533` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A297965 has offset 0).
 
 The definition of A297965 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000045(C(n+3, 3))` (program `A297965.P18425207488395800533`, by `A297965.P18425207488395800533.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6163,7 +6164,7 @@ The definition of A297965 is `verified`: the Lean definition is proven equivalen
 
 `A000045(C(n+3, 3))`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A297965
@@ -6265,7 +6266,7 @@ end A297965
 /-!
 # A297966: a(n) = 3^n mod prime(n).
 
-The programs for A297966, the canonical program `A297966.P17815373166594511634` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A297966 has offset 1).
+The programs for A297966, the canonical program `A297966.P17815373166594511634` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A297966 has offset 1).
 
 The definition of A297966 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(3^(n+1))%A000040(n+1)` (program `A297966.P17815373166594511634`, by `A297966.P17815373166594511634.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6274,7 +6275,7 @@ The definition of A297966 is `verified`: the Lean definition is proven equivalen
 
 `(3^(n+1))%A000040(n+1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A297966
@@ -6529,7 +6530,7 @@ end A297966
 /-!
 # A297967: a(n) = 5^n mod prime(n).
 
-The programs for A297967, the canonical program `A297967.P1346066263123891918` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A297967 has offset 1).
+The programs for A297967, the canonical program `A297967.P1346066263123891918` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A297967 has offset 1).
 
 The definition of A297967 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(5^(n+1))%A000040(n+1)` (program `A297967.P1346066263123891918`, by `A297967.P1346066263123891918.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6538,7 +6539,7 @@ The definition of A297967 is `verified`: the Lean definition is proven equivalen
 
 `(5^(n+1))%A000040(n+1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A297967

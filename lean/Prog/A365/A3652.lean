@@ -41,17 +41,16 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
@@ -63,13 +62,12 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B007.C001
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -193,28 +191,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A365200.P4289542681616552131
-
-/-! ## A365200.P8718088100440573906
-
-`∩[A084997(n+1), A213025(n+1)]`
--/
-
-namespace A365200.P8718088100440573906
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A084997 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A213025 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A365200.P8718088100440573906
 
 /-!
 # A365204: Centered icositetrachoral numbers.
@@ -711,9 +687,9 @@ end A365206
 /-!
 # A365207: The number of divisors d of n such that gcd(d, n/d) is a power of 2 (A000079).
 
-The programs for A365207, the canonical program `A365207.P8652609855473738591` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365207 has offset 1).
+The programs for A365207, the canonical program `A365207.P8652609855473738591` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365207 has offset 1).
 
-The definition of A365207 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000265, A034444, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A365207 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034444, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A365207.P10299007590882295504
@@ -743,7 +719,7 @@ end A365207
 
 `A000005(A006519(n+1))*A034444(A000265(n+1))`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A365207
@@ -1373,7 +1349,7 @@ end A365208
 /-!
 # A365209: The sum of divisors d of n such that gcd(d, n/d) is a 3-smooth number (A003586).
 
-The programs for A365209, the canonical program `A365209.P13908009698300430813` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365209 has offset 1).
+The programs for A365209, the canonical program `A365209.P13908009698300430813` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365209 has offset 1).
 
 The definition of A365209 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034448, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1382,7 +1358,7 @@ The definition of A365209 is `conditional`: the Lean definition is an OEIS formu
 
 `A000203(A065331(n+1))*A034448(A065330(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A365209
@@ -1623,7 +1599,7 @@ end A365210
 /-!
 # A365211: The sum of divisors d of n such that gcd(d, n/d) is a 5-rough number (A007310).
 
-The programs for A365211, the canonical program `A365211.P17121976784440689824` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365211 has offset 1).
+The programs for A365211, the canonical program `A365211.P17121976784440689824` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365211 has offset 1).
 
 The definition of A365211 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034448, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1632,7 +1608,7 @@ The definition of A365211 is `conditional`: the Lean definition is an OEIS formu
 
 `A000203(A065330(n+1))*A034448(A065331(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A365211
@@ -1976,7 +1952,7 @@ def P4817930810276505115.Spec : Prop :=
 end A365216
 
 /-!
-# A365218: G.f. satisfies A(x) = 1 + x*A(x)^6 / (1 + x*A(x)^6).
+# A365218: G.f. A(x) satisfies A(x) = 1 + x*A(x)^6 / (1 + x*A(x)^6).
 
 The programs for A365218, there is no canonical definition to state claims against.
 -/

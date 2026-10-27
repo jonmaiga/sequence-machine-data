@@ -39,25 +39,27 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -65,8 +67,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3035,7 +3035,7 @@ end A094221.P5600793910735810301
 /-!
 # A094222: a(n+1) = a(n) + (number of distinct prime factors of a(n)) for n>1; a(1)=1, a(2)=2.
 
-The programs for A094222, the canonical program `A094222.P17658668068491929979` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094222 has offset 1).
+The programs for A094222, the canonical program `A094222.P17658668068491929979` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094222 has offset 1).
 
 The definition of A094222 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3044,7 +3044,7 @@ The definition of A094222 is `conditional`: the Lean definition is an OEIS formu
 
 `a(n-1)+A001221(a(n-1))` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A094222
@@ -3233,7 +3233,7 @@ end
 end A094223.P16506063903882768921
 
 /-!
-# A094226: Let s=(Log[Prime[n]]-Log[n])/Log[n-1], then a(n) = Floor[n*(n-1)^s.
+# A094226: 
 
 The programs for A094226, there is no canonical definition to state claims against.
 -/
@@ -4009,7 +4009,7 @@ end A094236.P10822049128863578963
 /-!
 # A094247: Expansion of (phi(-q^5)^2 - phi(-q)^2) / 4 in powers of q where phi() is a Ramanujan theta function.
 
-The programs for A094247, the canonical program `A094247.P8277394697734993563` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094247 has offset 1).
+The programs for A094247, the canonical program `A094247.P8277394697734993563` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094247 has offset 1).
 
 The definition of A094247 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A053694, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4018,7 +4018,7 @@ The definition of A094247 is `conditional`: the Lean definition is an OEIS formu
 
 `(-1)^n*A053694(n)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A094247

@@ -49,25 +49,23 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1294,7 +1292,7 @@ end A330408.P18394930747380168226
 /-!
 # A330409: Semiprimes of the form p(6p - 1).
 
-The programs for A330409, the canonical program `A330409.P9787691834635988053` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330409 has offset 1).
+The programs for A330409, the canonical program `A330409.P9787691834635988053` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330409 has offset 1).
 
 The definition of A330409 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A158015, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1303,7 +1301,7 @@ The definition of A330409 is `conditional`: the Lean definition is an OEIS formu
 
 `A049452(A158015(n+1))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A330409
@@ -1655,7 +1653,7 @@ end A330409
 /-!
 # A330410: a(n) = 6*prime(n) - 1.
 
-The programs for A330410, the canonical program `A330410.P2415443686084045229` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330410 has offset 1).
+The programs for A330410, the canonical program `A330410.P2415443686084045229` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330410 has offset 1).
 
 The definition of A330410 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `6*A000040(n+1)-1` (program `A330410.P2415443686084045229`, by `A330410.P2415443686084045229.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1664,7 +1662,7 @@ The definition of A330410 is `verified`: the Lean definition is proven equivalen
 
 `6*A000040(n+1)-1`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A330410
@@ -2236,7 +2234,7 @@ end A330413.P6686232244171543918
 /-!
 # A330415: Coefficient of h(y) in Sum_{k > 0, i > 0} x_i^k = p(1) + p(2) + p(3) + ..., where h is the basis of homogeneous symmetric functions, p is the basis of power-sum symmetric functions, and y is the integer partition with Heinz number n.
 
-The programs for A330415, the canonical program `A330415.P2332703762766219287` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330415 has offset 1).
+The programs for A330415, the canonical program `A330415.P2332703762766219287` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330415 has offset 1).
 
 The definition of A330415 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2245,7 +2243,7 @@ The definition of A330415 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A049084(#)*A355939((n+1)/#)]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A330415
@@ -2379,7 +2377,7 @@ def P13447244742131563011.Spec : Prop :=
 end A330415
 
 /-!
-# A330416: a(n) = (number of times a(n-2) has already appeared) + (number of times a(n-3) has already appeared), starting with a(n) = n for n
+# A330416: a(n) = (number of times a(n-2) has already appeared) + (number of times a(n-3) has already appeared), starting with a(n) = n for n<3.
 
 The programs for A330416, there is no canonical definition to state claims against.
 -/
@@ -2402,7 +2400,7 @@ end A330416.P15018458327923380774
 /-!
 # A330417: Coefficient of e(y) in Sum_{k > 0, i > 0} x_i^k = p(1) + p(2) + p(3) + ..., where e is the basis of elementary symmetric functions, p is the basis of power-sum symmetric functions, and y is the integer partition with Heinz number n.
 
-The programs for A330417, the canonical program `A330417.P10781931345175970852` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330417 has offset 1).
+The programs for A330417, the canonical program `A330417.P10781931345175970852` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A330417 has offset 1).
 
 The definition of A330417 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2411,7 +2409,7 @@ The definition of A330417 is `conjectured`: the Lean definition is a formula tha
 
 `abs(A330415(n+1))*A321753(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A330417

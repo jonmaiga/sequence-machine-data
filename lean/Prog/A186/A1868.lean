@@ -35,7 +35,6 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
@@ -44,22 +43,20 @@ import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
-import Seq.B003.C000
+import Seq.B002.C007
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -755,7 +752,7 @@ end A186812
 /-!
 # A186813: a(n) = n if n odd, a(2n) = 3n if n odd, a(4n) = 2n.
 
-The programs for A186813, the canonical program `A186813.P16316920745608396461` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186813 has offset 0).
+The programs for A186813, the canonical program `A186813.P16316920745608396461` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186813 has offset 0).
 
 The definition of A186813 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -787,7 +784,7 @@ end A186813
 
 `A134172(n)+A134172(n+1)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A186813
@@ -2218,7 +2215,7 @@ end A186824.P3269270748904418237
 /-!
 # A186826: Riordan array (s(x),x*S(x)) where s(x) is the g.f. of the little Schroeder numbers A001003, and S(x) is the g.f. of the large Schroeder numbers A006318.
 
-The programs for A186826, the canonical program `A186826.P6773412279720560038` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186826 has offset 0).
+The programs for A186826, the canonical program `A186826.P6773412279720560038` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186826 has offset 0).
 
 The definition of A186826 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2227,7 +2224,7 @@ The definition of A186826 is `conjectured`: the Lean definition is a formula tha
 
 `A144944(A061579(n))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A186826
@@ -4180,7 +4177,7 @@ end A186849.P18093494536348153686
 /-!
 # A186852: Number of 3-step knight's tours on an (n+2) X (n+2) board summed over all starting positions.
 
-The programs for A186852, the canonical program `A186852.P18054438384369363332` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186852 has offset 1).
+The programs for A186852, the canonical program `A186852.P18054438384369363332` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186852 has offset 1).
 
 The definition of A186852 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2500 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4189,7 +4186,7 @@ The definition of A186852 is `conjectured`: the Lean definition is a formula tha
 
 `A022144(4*n+2)²%A054275(4*n+2)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A186852

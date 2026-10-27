@@ -46,34 +46,33 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3340,9 +3339,9 @@ end A274138.P10545586195536437715
 /-!
 # A274139: a(n) = 2^A000265(n) = 2^numerator(n/2^n), a sequence related to Oresme numbers.
 
-The programs for A274139, the canonical program `A274139.P8346514154262221856` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274139 has offset 1).
+The programs for A274139, the canonical program `A274139.P8346514154262221856` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274139 has offset 1).
 
-The definition of A274139 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000265, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A274139 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A274139.P6829965133111296719
@@ -3372,7 +3371,7 @@ end A274139
 
 `2^A000265(n+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A274139
@@ -4229,7 +4228,7 @@ end A274140
 /-!
 # A274141: Positive numbers divisible by 3^3 or by the square of some other prime.
 
-The programs for A274141, the canonical program `A274141.P9075115195362516254` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274141 has offset 1).
+The programs for A274141, the canonical program `A274141.P9075115195362516254` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274141 has offset 1).
 
 The definition of A274141 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4267,7 +4266,7 @@ end A274141
 
 `eq[1, A294619(A336551(n+1))]+1`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A274141
@@ -6272,7 +6271,7 @@ end A274171.P6350730130357833750
 /-!
 # A274172: Nonsquare composites with all prime factors larger than 5.
 
-The programs for A274172, the canonical program `A274172.P8360577516930396545` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274172 has offset 1).
+The programs for A274172, the canonical program `A274172.P8360577516930396545` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274172 has offset 1).
 
 The definition of A274172 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9936 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6281,7 +6280,7 @@ The definition of A274172 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A038510(n+1), A049240(#)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A274172

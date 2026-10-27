@@ -38,9 +38,9 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
@@ -51,6 +51,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -62,14 +63,15 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6155,7 +6157,7 @@ end A105133
 /-!
 # A105134: Numbers n such that 16n+9 is prime.
 
-The programs for A105134, the canonical program `A105134.P12641584828989390445` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A105134 has offset 1).
+The programs for A105134, the canonical program `A105134.P12641584828989390445` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A105134 has offset 1).
 
 The definition of A105134 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6164,7 +6166,7 @@ The definition of A105134 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A105126(n+1)/16)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A105134
@@ -6736,7 +6738,7 @@ end A105134
 /-!
 # A105135: Numbers n such that 32n+17 is prime.
 
-The programs for A105135, the canonical program `A105135.P7438831623917599193` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A105135 has offset 1).
+The programs for A105135, the canonical program `A105135.P7438831623917599193` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A105135 has offset 1).
 
 The definition of A105135 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 589 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6745,7 +6747,7 @@ The definition of A105135 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A101264(4*(4*n+2))]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A105135
@@ -6850,12 +6852,6 @@ namespace A105135
 /-- `eq[1, A010051(8*(4*n+2)+1)]` -/
 def P7646434139917261355.Spec : Prop :=
   ∀ n, (P7646434139917261355.a n : ℤ) = A105135 (n + 1)
-
-theorem P7646434139917261355.correct : P7646434139917261355.Spec := by
-  intro n
-  simp only [A105135, Nat.add_sub_cancel, A105135.P7646434139917261355.f1, A105135.P7646434139917261355.f2, A105135.P7646434139917261355.a, A105135.P7438831623917599193.f1, A105135.P7438831623917599193.f2, A105135.P7438831623917599193.a, A010051, A010051.P15078252821583414300.a, A101264, A101264.P9977125953316836564.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A105135
 

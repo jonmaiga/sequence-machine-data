@@ -30,10 +30,13 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -43,11 +46,13 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -61,9 +66,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -505,7 +507,7 @@ end A363311.P757030613072761872
 /-!
 # A363316: Sum of divisors of 4*n-2 of form 4*k+1.
 
-The programs for A363316, the canonical program `A363316.P139402600971360063` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363316 has offset 1).
+The programs for A363316, the canonical program `A363316.P139402600971360063` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363316 has offset 1).
 
 The definition of A363316 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A050449, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -514,7 +516,7 @@ The definition of A363316 is `conditional`: the Lean definition is an OEIS formu
 
 `A050449(4*(n+1)-2)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A363316
@@ -958,7 +960,7 @@ end A363316
 /-!
 # A363317: Sum of divisors of 4*n-3 of form 4*k+1.
 
-The programs for A363317, the canonical program `A363317.P7308368219269641597` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363317 has offset 1).
+The programs for A363317, the canonical program `A363317.P7308368219269641597` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363317 has offset 1).
 
 The definition of A363317 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A050449, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -967,7 +969,7 @@ The definition of A363317 is `conditional`: the Lean definition is an OEIS formu
 
 `A050449(4*n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A363317
@@ -2780,7 +2782,7 @@ end A363338.P7232177733395921416
 /-!
 # A363340: a(n) is the smallest positive integer such that a(n) * n is the sum of two squares.
 
-The programs for A363340, the canonical program `A363340.P2606073215060787245` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363340 has offset 1).
+The programs for A363340, the canonical program `A363340.P2606073215060787245` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A363340 has offset 1).
 
 The definition of A363340 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A097706, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2812,7 +2814,7 @@ end A363340
 
 `A097706(A007913(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A363340

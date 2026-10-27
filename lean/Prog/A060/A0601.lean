@@ -66,8 +66,10 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -78,7 +80,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -12626,7 +12627,7 @@ end A060175
 /-!
 # A060176: Square array A(n,k) = the largest power of k-th prime which divides n, read by falling antidiagonals.
 
-The programs for A060176, the canonical program `A060176.P5757415201403961736` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060176 has offset 1).
+The programs for A060176, the canonical program `A060176.P5757415201403961736` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060176 has offset 1).
 
 The definition of A060176 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12635,7 +12636,7 @@ The definition of A060176 is `conjectured`: the Lean definition is a formula tha
 
 `A104887(n+1)^A060175(n+1)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A060176
@@ -15644,7 +15645,7 @@ end A060191
 /-!
 # A060192: Union_i p(4i+2), p(4i+3), where p(k) = k-th prime.
 
-The programs for A060192, the canonical program `A060192.P8871710138267274484` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060192 has offset 0).
+The programs for A060192, the canonical program `A060192.P8871710138267274484` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060192 has offset 0).
 
 The definition of A060192 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15653,7 +15654,7 @@ The definition of A060192 is `conjectured`: the Lean definition is a formula tha
 
 `A100479(n+1)-A060191(n)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A060192

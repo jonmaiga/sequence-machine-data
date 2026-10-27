@@ -37,32 +37,34 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B005.C000
+import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2982,7 +2984,7 @@ end A347633
 /-!
 # A347636: Number of ways to tile an n X n square with 1 X 1 squares and (n-2) X 2 vertical or horizontal rectangles.
 
-The programs for A347636, the canonical program `A347636.P10474376451140062624` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347636 has offset 5).
+The programs for A347636, the canonical program `A347636.P10474376451140062624` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347636 has offset 5).
 
 The definition of A347636 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2991,7 +2993,7 @@ The definition of A347636 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A006130(n+5)+12*A000045(n+6)+16*A000045(n+4)-31`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A347636
@@ -3979,7 +3981,7 @@ end A347649.P2785777756995979240
 /-!
 # A347650: Number of minimum total dominating sets in the n-pan graph (for n > 2).
 
-The programs for A347650, the canonical program `A347650.P6970328061649287344` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347650 has offset 1).
+The programs for A347650, the canonical program `A347650.P6970328061649287344` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347650 has offset 1).
 
 The definition of A347650 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3988,7 +3990,7 @@ The definition of A347650 is `conjectured`: the Lean definition is a formula tha
 
 `A056594(n)+2*A302654(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A347650
@@ -5415,7 +5417,7 @@ end A347666.P1374958142220835346
 /-!
 # A347667: Triangle read by rows: T(n,k) = Sum_{j=0..k} binomial(n,j) * j! (0 <= k <= n).
 
-The programs for A347667, the canonical program `A347667.P8486897740066909917` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347667 has offset 0).
+The programs for A347667, the canonical program `A347667.P8486897740066909917` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347667 has offset 0).
 
 The definition of A347667 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2483 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5457,7 +5459,7 @@ end A347667
 
 `floor(A285268(n+1)/A002024(n+1))`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A347667
@@ -6167,7 +6169,7 @@ end A347676.P12800933433732784886
 /-!
 # A347677: Number of Baxter matrices of size 3 X n that contain n+2 1's.
 
-The programs for A347677, the canonical program `A347677.P654563737045806307` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347677 has offset 1).
+The programs for A347677, the canonical program `A347677.P654563737045806307` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347677 has offset 1).
 
 The definition of A347677 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6298,7 +6300,7 @@ end A347677
 
 `abs(A074764(n+1)+n*(6*n-2))`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A347677
@@ -7410,7 +7412,7 @@ end A347696.P15741979428860634936
 /-!
 # A347697: a(n) = max_{k <= n} A347696(k).
 
-The programs for A347697, the canonical program `A347697.P9868901146358314070` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347697 has offset 0).
+The programs for A347697, the canonical program `A347697.P9868901146358314070` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347697 has offset 0).
 
 The definition of A347697 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8192 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7419,7 +7421,7 @@ The definition of A347697 is `conjectured`: the Lean definition is a formula tha
 
 `∑[char[∑[A137688(n+1)]]]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A347697

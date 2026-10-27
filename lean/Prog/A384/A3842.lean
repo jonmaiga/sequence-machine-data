@@ -37,35 +37,35 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C007
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
-import Seq.B006.C000
-import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -424,7 +424,7 @@ end A384204.P14691830649381705664
 /-!
 # A384210: Number of numbers <= n of the form p * m^2, where p is a prime and m is an integer >= 1.
 
-The programs for A384210, the canonical program `A384210.P9000503329095324649` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384210 has offset 1).
+The programs for A384210, the canonical program `A384210.P9000503329095324649` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384210 has offset 1).
 
 The definition of A384210 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -433,7 +433,7 @@ The definition of A384210 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A358769(n+1)]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A384210
@@ -830,7 +830,7 @@ end A384218.P1662220862618453914
 /-!
 # A384219: Areas of triangles whose three vertices are consecutive ordered pairs of consecutive odd Fibonacci numbers such that an ordered pair's y-value is the next ordered pair's x-value.
 
-The programs for A384219, the canonical program `A384219.P9210733678085374232` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384219 has offset 1).
+The programs for A384219, the canonical program `A384219.P9210733678085374232` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384219 has offset 1).
 
 The definition of A384219 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 160 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -862,7 +862,7 @@ end A384219
 
 `A070550(3*n+1)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A384219
@@ -2342,7 +2342,7 @@ end
 end A384254.P12639826178545756180
 
 /-!
-# A384255: Integers k such that there exists an integer 0
+# A384255: Integers k such that there exists an integer 0<m<k such that sigma(m)^2 + sigma(k)^2 = 2*(m^2+k^2).
 
 The programs for A384255, there is no canonical definition to state claims against.
 -/

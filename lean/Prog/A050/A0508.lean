@@ -38,26 +38,24 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4614,7 +4612,7 @@ end A050870.P5485391556612040892
 /-!
 # A050871: Row sums of even numbered rows of array T in A050870 (periodic binary words).
 
-The programs for A050871, the canonical program `A050871.P14178361783424697463` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050871 has offset 0).
+The programs for A050871, the canonical program `A050871.P14178361783424697463` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050871 has offset 0).
 
 The definition of A050871 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4649,7 +4647,7 @@ end A050871
 
 `2*A050872(n)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A050871
@@ -5087,7 +5085,7 @@ end A050871
 /-!
 # A050872: a(n) = (1/2)*A050871 (row sums of array T in A050870, periodic binary words).
 
-The programs for A050872, the canonical program `A050872.P5272709891617421659` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050872 has offset 0).
+The programs for A050872, the canonical program `A050872.P5272709891617421659` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050872 has offset 0).
 
 The definition of A050872 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5346,12 +5344,6 @@ namespace A050872
 def P12287318608727336308.Spec : Prop :=
   ∀ n, P12287318608727336308.a n = (A050872 n : ℚ)
 
-theorem P12287318608727336308.correct : P12287318608727336308.Spec := by
-  intro n
-  simp only [A050872, Nat.add_sub_cancel, A050872.P12287318608727336308.a, A050872.P5272709891617421659.f1, A050872.P5272709891617421659.a, A000740, A000740.P14835443835842648949.a, A050871, A050871.P14178361783424697463.a, A027375, A027375.P9636017658255068744.f1, A027375.P9636017658255068744.a, A008683, A008683.P18254306604665478110.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A050872
 
 /-! ## A050872.P14335346012957050027
@@ -5407,7 +5399,7 @@ end A050872
 
 `record[2^n-A000740(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A050872

@@ -39,36 +39,38 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3722,7 +3724,7 @@ end A085637.P17611714899307074722
 /-!
 # A085639: Ramanujan sum c_n(5).
 
-The programs for A085639, the canonical program `A085639.P17609147585121979124` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085639 has offset 1).
+The programs for A085639, the canonical program `A085639.P17609147585121979124` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085639 has offset 1).
 
 The definition of A085639 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A008683, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3731,7 +3733,7 @@ The definition of A085639 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(n+1)*A008683((n+1)/gcd(n+1, 5))/A000010((n+1)/gcd(n+1, 5))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A085639
@@ -4368,21 +4370,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A085643.P3409228793985976774
-
-/-! ## A085643.P9466093942569342152
-
-`A305309(floor(1/(n+1))+n)`
--/
-
-namespace A085643.P9466093942569342152
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A305309 (⌊1 / (n + 1 : ℚ)⌋ + (n : ℤ)).toNat
-
-end
-
-end A085643.P9466093942569342152
 
 /-! ## A085643.P2668709711242455384
 
@@ -5604,7 +5591,7 @@ end A085680.P12128286554964820947
 /-!
 # A085681: Integers of the form 2^k*p where p is a prime > 2^k.
 
-The programs for A085681, the canonical program `A085681.P2453027393435325629` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085681 has offset 1).
+The programs for A085681, the canonical program `A085681.P2453027393435325629` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085681 has offset 1).
 
 The definition of A085681 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3363 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5821,7 +5808,7 @@ end A085681
 
 `filter[A225241(n+3), A353670(#)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A085681

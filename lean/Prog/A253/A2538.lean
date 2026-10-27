@@ -38,12 +38,14 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
@@ -6105,7 +6107,7 @@ end A253882.P4563196587327411652
 /-!
 # A253883: Permutation of natural numbers: a(n) = A243505(A122111(n)).
 
-The programs for A253883, the canonical program `A253883.P1510395040157826416` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253883 has offset 1).
+The programs for A253883, the canonical program `A253883.P1510395040157826416` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253883 has offset 1).
 
 The definition of A253883 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A122111, A243505, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6114,7 +6116,7 @@ The definition of A253883 is `conditional`: the Lean definition is an OEIS formu
 
 `A243505(A122111(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A253883
@@ -8477,7 +8479,7 @@ end A253893
 /-!
 # A253894: a(1) = 1, for n > 1, a(n) = 1 + a(A253889(n)).
 
-The programs for A253894, the canonical program `A253894.P10317478115399007742` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253894 has offset 1).
+The programs for A253894, the canonical program `A253894.P10317478115399007742` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253894 has offset 1).
 
 The definition of A253894 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A253893, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8486,7 +8488,7 @@ The definition of A253894 is `conditional`: the Lean definition is an OEIS formu
 
 `A253893(n+1)+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A253894

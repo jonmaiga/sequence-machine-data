@@ -50,19 +50,21 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -70,10 +72,8 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -8349,7 +8349,7 @@ end A027373.P16589482233625760666
 /-!
 # A027375: Number of aperiodic binary strings of length n; also number of binary sequences with primitive period n.
 
-The programs for A027375, the canonical program `A027375.P9636017658255068744` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027375 has offset 0).
+The programs for A027375, the canonical program `A027375.P9636017658255068744` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027375 has offset 0).
 
 The definition of A027375 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8381,7 +8381,7 @@ end A027375
 
 `∑{d}[n, A008683(n/#)*2^#]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A027375
@@ -11330,7 +11330,7 @@ end A027384.P6878438693765143645
 /-!
 # A027385: Number of primitive polynomials of degree n over GF(3).
 
-The programs for A027385, the canonical program `A027385.P17711023550772300041` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027385 has offset 1).
+The programs for A027385, the canonical program `A027385.P17711023550772300041` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027385 has offset 1).
 
 The definition of A027385 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11339,7 +11339,7 @@ The definition of A027385 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(3^(n+1)-1)/(n+1)`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A027385

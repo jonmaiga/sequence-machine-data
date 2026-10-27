@@ -25,25 +25,29 @@ import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B005.C000
+import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -449,7 +453,7 @@ end A372111.P868611335405180442
 /-!
 # A372112: Rad-transform of the squarefree numbers A005117 (see Comments).
 
-The programs for A372112, the canonical program `A372112.P1502568326743945115` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372112 has offset 1).
+The programs for A372112, the canonical program `A372112.P1502568326743945115` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372112 has offset 1).
 
 The definition of A372112 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6083 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -504,7 +508,7 @@ end A372112
 
 `A014963(record[∏{p}[n, #]])`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A372112
@@ -2002,7 +2006,7 @@ end A372147.P10326122450778179423
 /-!
 # A372148: a(n) = A371764(n, 2).
 
-The programs for A372148, the canonical program `A372148.P507033719497536603` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372148 has offset 1).
+The programs for A372148, the canonical program `A372148.P507033719497536603` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A372148 has offset 1).
 
 The definition of A372148 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 207 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2011,7 +2015,7 @@ The definition of A372148 is `conjectured`: the Lean definition is a formula tha
 
 `A091344(n)+A383910(n)+A091344(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A372148

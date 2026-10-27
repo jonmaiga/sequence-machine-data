@@ -28,6 +28,7 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -37,27 +38,28 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
+import Seq.B010.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -445,7 +447,7 @@ end A392402
 /-!
 # A392403: a(n) = Sum_{k=0..floor(2*n/7)} binomial(2*n-4*k,3*k).
 
-The programs for A392403, the canonical program `A392403.P11128076169223223160` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392403 has offset 0).
+The programs for A392403, the canonical program `A392403.P11128076169223223160` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392403 has offset 0).
 
 The definition of A392403 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 263 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -454,7 +456,7 @@ The definition of A392403 is `conjectured`: the Lean definition is a formula tha
 
 `A370722(2*n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A392403
@@ -2589,7 +2591,7 @@ end A392432
 /-!
 # A392433: a(n) = Sum_{k=0..floor(n/2)} binomial(3*k,2*n-4*k).
 
-The programs for A392433, the canonical program `A392433.P7928443320864027511` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392433 has offset 0).
+The programs for A392433, the canonical program `A392433.P7928443320864027511` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392433 has offset 0).
 
 The definition of A392433 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 299 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2598,7 +2600,7 @@ The definition of A392433 is `conjectured`: the Lean definition is a formula tha
 
 `A369815(6*n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A392433
@@ -3245,7 +3247,7 @@ end A392448.P14047052493889345344
 /-!
 # A392449: The number of exponential unitary (or e-unitary) divisors of n that are squares.
 
-The programs for A392449, the canonical program `A392449.P4738503714353542258` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392449 has offset 1).
+The programs for A392449, the canonical program `A392449.P4738503714353542258` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392449 has offset 1).
 
 The definition of A392449 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3283,7 +3285,7 @@ end A392449
 
 `A000007(A344616(n+1))*A367516(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A392449
@@ -3472,7 +3474,7 @@ end A392450
 /-!
 # A392451: The number of infinitary divisors of n that are numbers whose prime factorization exponents are all powers of 2 (A138302).
 
-The programs for A392451, the canonical program `A392451.P8918691439076179572` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392451 has offset 1).
+The programs for A392451, the canonical program `A392451.P8918691439076179572` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392451 has offset 1).
 
 The definition of A392451 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3507,7 +3509,7 @@ end A392451
 
 `∏{e}[n+1, A000120(#)+1]`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A392451

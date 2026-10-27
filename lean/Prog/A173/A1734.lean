@@ -51,7 +51,6 @@ import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
@@ -61,7 +60,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -74,8 +73,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3405,7 +3402,7 @@ end A173437.P13584971701351627911
 /-!
 # A173438: Number of divisors d of number n such that d does not divide sigma(n).
 
-The programs for A173438, the canonical program `A173438.P11158591540045006980` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173438 has offset 1).
+The programs for A173438, the canonical program `A173438.P11158591540045006980` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173438 has offset 1).
 
 The definition of A173438 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3414,7 +3411,7 @@ The definition of A173438 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000005(n+1)-A073802(n+1)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A173438
@@ -3901,12 +3898,6 @@ namespace A173439
 def P12748719977996695462.Spec : Prop :=
   ∀ n, P12748719977996695462.a n = A173439 (n + 1)
 
-theorem P12748719977996695462.correct : P12748719977996695462.Spec := by
-  intro n
-  simp only [A173439, Nat.add_sub_cancel, A173439.P12748719977996695462.a, A173439.P5321888796491362127.f1, A173439.P5321888796491362127.a, A000007, A000007.P6599383543502402472.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001221, A001221.P10258181745752134128.a, A033273, A033273.P18420659424697249895.a, A173440, A173440.P13536661902646311987.a, A000005, A000005.P16091521709108585461.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P7264174615531153985.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A173439
 
 /-! ## A173439.P13623800057399708937
@@ -4273,12 +4264,6 @@ namespace A173440
 /-- `A001221(n+1)+A033273(n+1)-A173439(n+1)` -/
 def P14504964794718404319.Spec : Prop :=
   ∀ n, P14504964794718404319.a n = A173440 (n + 1)
-
-theorem P14504964794718404319.correct : P14504964794718404319.Spec := by
-  intro n
-  simp only [A173440, Nat.add_sub_cancel, A173440.P14504964794718404319.a, A173440.P13536661902646311987.a, A000005, A000005.P16091521709108585461.a, A001221, A001221.P10258181745752134128.a, A033273, A033273.P18420659424697249895.a, A173439, A173439.P5321888796491362127.f1, A173439.P5321888796491362127.a, A000007, A000007.P6599383543502402472.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A059841, A059841.P7264174615531153985.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A173440
 

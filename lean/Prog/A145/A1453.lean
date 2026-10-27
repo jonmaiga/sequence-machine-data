@@ -41,6 +41,7 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,7 +54,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -62,13 +63,13 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3326,7 +3327,7 @@ end A145350.P9394513251700264655
 /-!
 # A145351: Prime-indexed composites k such that lpf(k) + gpf(k) is a prime.
 
-The programs for A145351, the canonical program `A145351.P718792965962728334` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145351 has offset 1).
+The programs for A145351, the canonical program `A145351.P718792965962728334` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145351 has offset 1).
 
 The definition of A145351 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 146 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3335,7 +3336,7 @@ The definition of A145351 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A022449(n+1), A119689(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A145351
@@ -6103,7 +6104,7 @@ end A145377
 /-!
 # A145378: a(n) = Sum_{d|n} sigma(d) - 2*Sum_{2c|n} sigma(c) + 4*Sum_{4b|n} sigma(b).
 
-The programs for A145378, the canonical program `A145378.P6152489767625416770` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145378 has offset 1).
+The programs for A145378, the canonical program `A145378.P6152489767625416770` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145378 has offset 1).
 
 The definition of A145378 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6112,7 +6113,7 @@ The definition of A145378 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A113184(#)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A145378
@@ -7580,7 +7581,7 @@ end A145387
 /-!
 # A145388: Sum of (k,n)_* for k=1,2,...,n, where (k,n)_* is the greatest divisor of k which is a unitary divisor of n.
 
-The programs for A145388, the canonical program `A145388.P5432194978496946212` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145388 has offset 1).
+The programs for A145388, the canonical program `A145388.P5432194978496946212` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145388 has offset 1).
 
 The definition of A145388 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7641,7 +7642,7 @@ end A145388
 
 `∑{d}[A003557(n+1), A078439((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A145388
@@ -9732,7 +9733,7 @@ end A145397
 /-!
 # A145398: a(n) = Sum_{d|n} sigma(d) - Sum_{2c|n} sigma(c) + 4*Sum_{4b|n} sigma(b).
 
-The programs for A145398, the canonical program `A145398.P13757038828564537059` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145398 has offset 1).
+The programs for A145398, the canonical program `A145398.P13757038828564537059` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A145398 has offset 1).
 
 The definition of A145398 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9764,7 +9765,7 @@ end A145398
 
 `A007429(n+1)+A145378(n+1)-A327096(n+1)`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A145398

@@ -40,6 +40,7 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
@@ -47,15 +48,20 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -64,14 +70,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2510,7 +2513,7 @@ end A360426.P6555296614628141710
 /-!
 # A360428: Inverse Mobius transformation of A338164.
 
-The programs for A360428, the canonical program `A360428.P9068250880525305499` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360428 has offset 1).
+The programs for A360428, the canonical program `A360428.P9068250880525305499` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360428 has offset 1).
 
 The definition of A360428 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2519,7 +2522,7 @@ The definition of A360428 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A338164(#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A360428
@@ -3136,7 +3139,7 @@ end A360429
 /-!
 # A360430: Dirichlet convolution of Dedekind psi by A038040.
 
-The programs for A360430, the canonical program `A360430.P11552111043147388928` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360430 has offset 1).
+The programs for A360430, the canonical program `A360430.P11552111043147388928` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360430 has offset 1).
 
 The definition of A360430 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3457,7 +3460,7 @@ end A360430
 
 `∑{d}[n+1, A174466(#)*A271102((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A360430
@@ -6239,7 +6242,7 @@ end A360475.P12724232828796017877
 /-!
 # A360477: Numbers whose product of distinct prime factors is greater than or equal to the sum of its prime factors (with repetition).
 
-The programs for A360477, the canonical program `A360477.P935886871947782901` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360477 has offset 1).
+The programs for A360477, the canonical program `A360477.P935886871947782901` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360477 has offset 1).
 
 The definition of A360477 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6248,7 +6251,7 @@ The definition of A360477 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A359869(n+1)-1]+1`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A360477

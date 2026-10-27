@@ -47,7 +47,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -57,8 +57,9 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -71,7 +72,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1792,7 +1792,7 @@ end A167610.P15648359641931589550
 /-!
 # A167611: Nonprimes that are the sum of two consecutive nonprimes.
 
-The programs for A167611, the canonical program `A167611.P18150780174357713727` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167611 has offset 1).
+The programs for A167611, the canonical program `A167611.P18150780174357713727` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167611 has offset 1).
 
 The definition of A167611 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7872 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2004,7 +2004,7 @@ end A167611
 
 `filter[A166037(n+1), A005171(#)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A167611
@@ -4110,7 +4110,7 @@ end A167622
 /-!
 # A167623: a(n) = n^3 mod (n-th prime squared).
 
-The programs for A167623, the canonical program `A167623.P17572008884092007140` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167623 has offset 1).
+The programs for A167623, the canonical program `A167623.P17572008884092007140` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167623 has offset 1).
 
 The definition of A167623 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4119,7 +4119,7 @@ The definition of A167623 is `conjectured`: the Lean definition is a formula tha
 
 `((n+1)^3)%A001248(n+1)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A167623
@@ -4436,7 +4436,7 @@ end A167625.P5407022581407755263
 /-!
 # A167626: Prime numbers ending in the prime number 101.
 
-The programs for A167626, the canonical program `A167626.P6697217771751986165` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167626 has offset 1).
+The programs for A167626, the canonical program `A167626.P6697217771751986165` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167626 has offset 1).
 
 The definition of A167626 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A105106, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4445,7 +4445,7 @@ The definition of A167626 is `conditional`: the Lean definition is an OEIS formu
 
 `1000*A105106(n+1)+101`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A167626
@@ -8709,7 +8709,7 @@ end A167683
 /-!
 # A167684: Triangle read by rows given by [2,-1,1,-2,0,0,0,0,0,0,0,...] DELTA [1,0,1,-1,0,0,0,0,0,0,0,...] where DELTA is the operator defined in A084938.
 
-The programs for A167684, the canonical program `A167684.P2154934591697718303` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167684 has offset 0).
+The programs for A167684, the canonical program `A167684.P2154934591697718303` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167684 has offset 0).
 
 The definition of A167684 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8787,7 +8787,7 @@ end A167684
 
 `A097806(n)+A046698(n)*A097806(n+1)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A167684
@@ -9291,7 +9291,7 @@ end A167690.P18055713673905796321
 /-!
 # A167692: The even nonisolated nonprimes.
 
-The programs for A167692, the canonical program `A167692.P14273374061267607574` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167692 has offset 1).
+The programs for A167692, the canonical program `A167692.P14273374061267607574` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A167692 has offset 1).
 
 The definition of A167692 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9350,7 +9350,7 @@ end A167692
 
 `filter[2*n, A292438(#)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A167692

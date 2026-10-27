@@ -38,14 +38,15 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B005.C000
-import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B006.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -2079,7 +2080,7 @@ end A250819.P4147932160171974887
 /-!
 # A250820: Number of (n+2) X (1+2) 0..1 arrays with nondecreasing maximum minus minimum of every three consecutive values in every row and column.
 
-The programs for A250820, the canonical program `A250820.P13041496644950716169` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250820 has offset 1).
+The programs for A250820, the canonical program `A250820.P13041496644950716169` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250820 has offset 1).
 
 The definition of A250820 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 155 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2114,7 +2115,7 @@ end A250820
 
 `(2*A020732(n))^3`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A250820
@@ -5295,7 +5296,7 @@ end A250869.P1177433675968635096
 /-!
 # A250870: Number of (n+1) X (1+1) 0..3 arrays with nondecreasing x(i,j)-x(i,j-1) in the i direction and nondecreasing x(i,j)+x(i-1,j) in the j direction.
 
-The programs for A250870, the canonical program `A250870.P6673347047517117770` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250870 has offset 1).
+The programs for A250870, the canonical program `A250870.P6673347047517117770` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250870 has offset 1).
 
 The definition of A250870 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 163 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5304,7 +5305,7 @@ The definition of A250870 is `conjectured`: the Lean definition is a formula tha
 
 `2*A016208(n+2)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A250870

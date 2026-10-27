@@ -32,20 +32,24 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -53,16 +57,14 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -848,7 +850,7 @@ end
 end A380806.P12402671530205237589
 
 /-!
-# A380807: Numbers not of form a*(b+1) + b*(c+1) + c*(a+1) for 0
+# A380807: Numbers not of form a*(b+1) + b*(c+1) + c*(a+1) for 0<a<b<c.
 
 The programs for A380807, there is no canonical definition to state claims against.
 -/
@@ -2046,9 +2048,9 @@ theorem P1959966200863480418.correct : P1959966200863480418.Spec := by
 end A380820
 
 /-!
-# A380821: Length of the shorts leg in the unique primitive Pythagorean triple whose inradius is A000032(n) and such that its long leg and its hypotenuse are consecutive natural numbers.
+# A380821: Length of the short leg in the unique primitive Pythagorean triple whose inradius is A000032(n) and such that its long leg and its hypotenuse are consecutive natural numbers.
 
-The programs for A380821, the canonical program `A380821.P10996316985306517664` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380821 has offset 0).
+The programs for A380821, the canonical program `A380821.P10996316985306517664` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380821 has offset 0).
 
 The definition of A380821 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2057,7 +2059,7 @@ The definition of A380821 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A000032(n)+1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A380821
@@ -2614,7 +2616,7 @@ end A380822.P1812351247132807644
 /-!
 # A380823: Semiperimeter of the unique primitive Pythagorean triple whose inradius is A000032(n) and such that its long leg and its hypotenuse are consecutive natural numbers.
 
-The programs for A380823, the canonical program `A380823.P15923719920850826478` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380823 has offset 0).
+The programs for A380823, the canonical program `A380823.P15923719920850826478` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380823 has offset 0).
 
 The definition of A380823 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2623,7 +2625,7 @@ The definition of A380823 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(A000032(n)+1)*(2*A000032(n)+1)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A380823
@@ -2935,7 +2937,7 @@ end A380823
 /-!
 # A380824: Area of the unique primitive Pythagorean triple whose inradius is A000032(n) and such that its long leg and its hypotenuse are consecutive natural numbers.
 
-The programs for A380824, the canonical program `A380824.P12530804268031175926` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380824 has offset 0).
+The programs for A380824, the canonical program `A380824.P12530804268031175926` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380824 has offset 0).
 
 The definition of A380824 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2944,7 +2946,7 @@ The definition of A380824 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000032(n)*(A000032(n)+1)*(2*A000032(n)+1)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A380824
@@ -3904,7 +3906,7 @@ end A380837.P18250067191945291626
 /-!
 # A380839: Numerators of J(n) = Product_{p|n, p odd prime} (p - 1)/(p - 2).
 
-The programs for A380839, the canonical program `A380839.P1105865872776131656` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380839 has offset 1).
+The programs for A380839, the canonical program `A380839.P1105865872776131656` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380839 has offset 1).
 
 The definition of A380839 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3913,7 +3915,7 @@ The definition of A380839 is `conjectured`: the Lean definition is a formula tha
 
 `A173557(n+1)/A305444(n+1)*A307410(n+1)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A380839
@@ -4310,7 +4312,7 @@ end A380852.P8875249601271653463
 /-!
 # A380855: The unique sequence starting with a(0) = 1, a(1) = 0 and partial sums are 1 followed by the sequence terms themselves repeated in successive blocks a(0..2^k-1) for k >= 0.
 
-The programs for A380855, the canonical program `A380855.P12946928765439253338` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380855 has offset 0).
+The programs for A380855, the canonical program `A380855.P12946928765439253338` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380855 has offset 0).
 
 The definition of A380855 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4319,7 +4321,7 @@ The definition of A380855 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(A053645(n))-a(A053645(n-1))` with `a(0)=1, a(1)=0`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A380855
@@ -4474,7 +4476,7 @@ end A380856.P6729015692825955191
 /-!
 # A380857: Squares of numbers that are neither squarefree nor prime powers.
 
-The programs for A380857, the canonical program `A380857.P17828759353417711251` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380857 has offset 1).
+The programs for A380857, the canonical program `A380857.P17828759353417711251` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380857 has offset 1).
 
 The definition of A380857 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A126706, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4483,7 +4485,7 @@ The definition of A380857 is `conditional`: the Lean definition is an OEIS formu
 
 `A126706(n+1)²`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A380857
@@ -4656,12 +4658,6 @@ namespace A380857
 /-- `(A126706(n+2)-A358089(n+1))*A126706(n+1)` -/
 def P18078453922145185582.Spec : Prop :=
   ∀ n, P18078453922145185582.a n = A380857 (n + 1)
-
-theorem P18078453922145185582.correct : P18078453922145185582.Spec := by
-  intro n
-  simp only [A380857, Nat.add_sub_cancel, A380857.P18078453922145185582.a, A380857.P17828759353417711251.a, A126706, A126706.P11121898802900401573.f1, A126706.P11121898802900401573.f2, A126706.P11121898802900401573.a, A358089, A358089.P6226920074506255654.f1, A358089.P6226920074506255654.a, A355447, A355447.P2177856951054736842.a, A008966, A008966.P884693903657889754.a, A010055, A010055.P13747394931985969733.f1, A010055.P13747394931985969733.a, A013928, A013928.P12891540521727461604.f2, A013928.P12891540521727461604.f1, A013928.P12891540521727461604.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A380857
 

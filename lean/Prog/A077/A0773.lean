@@ -37,6 +37,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -45,22 +46,18 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B004.C000
-import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3600,7 +3597,7 @@ end A077352.P18030495664139521810
 /-!
 # A077353: a(n) = (concatenation in ascending order of divisors of 5^n)/5^n.
 
-The programs for A077353, the canonical program `A077353.P7669968731459567172` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077353 has offset 0).
+The programs for A077353, the canonical program `A077353.P7669968731459567172` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077353 has offset 0).
 
 The definition of A077353 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3609,7 +3606,7 @@ The definition of A077353 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1+10^A055642(5^n)/5*a(n-1)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A077353
@@ -5347,7 +5344,7 @@ end A077378.P14294583769794318151
 /-!
 # A077381: Number of squarefree numbers between successive squares (exclusive).
 
-The programs for A077381, the canonical program `A077381.P14666678183193705887` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077381 has offset 1).
+The programs for A077381, the canonical program `A077381.P14666678183193705887` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077381 has offset 1).
 
 The definition of A077381 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5382,7 +5379,7 @@ end A077381
 
 `Δ[A278100(n+1)+A000007(n)]`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A077381
@@ -5638,7 +5635,7 @@ end A077384.P4329595178685829977
 /-!
 # A077385: Triangle read by rows in which n-th row contains 2n-1 terms starting from n^0 to n^(n-1) in increasing order and then in decreasing order to n^0.
 
-The programs for A077385, the canonical program `A077385.P17331936456348378182` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077385 has offset 1).
+The programs for A077385, the canonical program `A077385.P17331936456348378182` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077385 has offset 1).
 
 The definition of A077385 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3306 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5647,7 +5644,7 @@ The definition of A077385 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(ceil(sqrt(n))^(A004737(n+1)-1))`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A077385

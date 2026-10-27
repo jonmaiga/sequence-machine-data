@@ -41,25 +41,26 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C009
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
@@ -67,8 +68,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -102,7 +101,7 @@ set_option linter.unreachableTactic false
 /-!
 # A294300: Sum of the fifth powers of the parts in the partitions of n into two distinct parts.
 
-The programs for A294300, the canonical program `A294300.P13627915974501025542` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294300 has offset 1).
+The programs for A294300, the canonical program `A294300.P13627915974501025542` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294300 has offset 1).
 
 The definition of A294300 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -111,7 +110,7 @@ The definition of A294300 is `conjectured`: the Lean definition is a formula tha
 
 `A000539(n)-Δ[A000539(floor(n/2))]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A294300
@@ -207,7 +206,7 @@ end A294300
 /-!
 # A294301: Sum of the sixth powers of the parts in the partitions of n into two distinct parts.
 
-The programs for A294301, the canonical program `A294301.P12374898961323151880` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294301 has offset 1).
+The programs for A294301, the canonical program `A294301.P12374898961323151880` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294301 has offset 1).
 
 The definition of A294301 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -216,7 +215,7 @@ The definition of A294301 is `conjectured`: the Lean definition is a formula tha
 
 `A259109(n)-A294273(n+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A294301
@@ -341,7 +340,7 @@ end A294301
 /-!
 # A294302: Sum of the seventh powers of the parts in the partitions of n into two distinct parts.
 
-The programs for A294302, the canonical program `A294302.P921645264619134672` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294302 has offset 1).
+The programs for A294302, the canonical program `A294302.P921645264619134672` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294302 has offset 1).
 
 The definition of A294302 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -350,7 +349,7 @@ The definition of A294302 is `conjectured`: the Lean definition is a formula tha
 
 `2*A000541(n)-A294274(n+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A294302
@@ -504,7 +503,7 @@ end A294302
 /-!
 # A294303: Sum of the eighth powers of the parts in the partitions of n into two distinct parts.
 
-The programs for A294303, the canonical program `A294303.P18417890988148803670` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294303 has offset 1).
+The programs for A294303, the canonical program `A294303.P18417890988148803670` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294303 has offset 1).
 
 The definition of A294303 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -513,7 +512,7 @@ The definition of A294303 is `conjectured`: the Lean definition is a formula tha
 
 `2*A000542(n)-A294275(n+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A294303
@@ -589,7 +588,7 @@ end A294303
 /-!
 # A294304: Sum of the ninth powers of the parts of the partitions of n into two distinct parts.
 
-The programs for A294304, the canonical program `A294304.P10188443853695734833` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294304 has offset 1).
+The programs for A294304, the canonical program `A294304.P10188443853695734833` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294304 has offset 1).
 
 The definition of A294304 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -598,7 +597,7 @@ The definition of A294304 is `conjectured`: the Lean definition is a formula tha
 
 `∑[2*n^9]-A294276(n+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A294304
@@ -2813,7 +2812,7 @@ end A294326.P15683235980082125516
 /-!
 # A294327: a(n) = ((9*n + 8)*10^n - 8)/9.
 
-The programs for A294327, the canonical program `A294327.P10054156691128495151` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294327 has offset 0).
+The programs for A294327, the canonical program `A294327.P10054156691128495151` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294327 has offset 0).
 
 The definition of A294327 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2868,7 +2867,7 @@ end A294327
 
 `A126431(n)+A002282(n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A294327
@@ -3267,7 +3266,7 @@ end A294328
 /-!
 # A294329: a(n) = 8*((9*n + 8)*10^n - 8)/81.
 
-The programs for A294329, the canonical program `A294329.P3098759154680546285` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294329 has offset 0).
+The programs for A294329, the canonical program `A294329.P3098759154680546285` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294329 has offset 0).
 
 The definition of A294329 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3276,7 +3275,7 @@ The definition of A294329 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `8*A294328(n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A294329
@@ -6224,7 +6223,7 @@ end A294363.P2124417621981203694
 /-!
 # A294364: Linear recurrence with signature (1,1,-1,1,1), where the first terms are powers of 2 (1,2,4,8,16).
 
-The programs for A294364, the canonical program `A294364.P10284434815774838734` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294364 has offset 0).
+The programs for A294364, the canonical program `A294364.P10284434815774838734` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294364 has offset 0).
 
 The definition of A294364 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 478 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6233,7 +6232,7 @@ The definition of A294364 is `conjectured`: the Lean definition is a formula tha
 
 `A033999(n)+3*A286311(n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A294364

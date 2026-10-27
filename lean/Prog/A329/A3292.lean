@@ -32,21 +32,27 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C006
+import Seq.B002.C004
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -58,9 +64,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1063,7 +1066,7 @@ end A329226.P2664311915598831689
 /-!
 # A329227: Products of consecutive terms of the Padovan sequence A000931.
 
-The programs for A329227, the canonical program `A329227.P5060117533590298669` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329227 has offset 0).
+The programs for A329227, the canonical program `A329227.P5060117533590298669` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329227 has offset 0).
 
 The definition of A329227 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1072,7 +1075,7 @@ The definition of A329227 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000931(n)*A000931(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A329227
@@ -2044,7 +2047,7 @@ end A329241.P9613651425961694782
 /-!
 # A329242: a(n) = Pi(8,3)(n) + Pi(8,5)(n) + Pi(8,7)(n) - 3*Pi(8,1)(n), where Pi(a,b)(x) denotes the number of primes in the arithmetic progression a*k + b less than or equal to x.
 
-The programs for A329242, the canonical program `A329242.P1185710204891356265` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329242 has offset 1).
+The programs for A329242, the canonical program `A329242.P1185710204891356265` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329242 has offset 1).
 
 The definition of A329242 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2164,7 +2167,7 @@ end A329242
 
 `A033270(n+1)-4*A071839(n+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A329242
@@ -2753,7 +2756,7 @@ end A329243
 /-!
 # A329244: Sum of every third term of the Padovan sequence A000931.
 
-The programs for A329244, the canonical program `A329244.P4010248767116107399` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329244 has offset 0).
+The programs for A329244, the canonical program `A329244.P4010248767116107399` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329244 has offset 0).
 
 The definition of A329244 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2762,7 +2765,7 @@ The definition of A329244 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000931(3*n+2)+1`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A329244
@@ -4310,7 +4313,7 @@ end A329268.P7016575745433231157
 /-!
 # A329269: Integers k such that 8*k + 1 is a prime or a square.
 
-The programs for A329269, the canonical program `A329269.P8670205406742667654` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329269 has offset 1).
+The programs for A329269, the canonical program `A329269.P8670205406742667654` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329269 has offset 1).
 
 The definition of A329269 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4319,7 +4322,7 @@ The definition of A329269 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A005123(n+1), ∑[n]]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A329269
@@ -5110,7 +5113,7 @@ end A329277.P6595437128107204145
 /-!
 # A329278: Irregular table read by rows. The n-th row is the permutation of {0, 1, 2, ..., 2^n-1} given by T(n,k) = k(k+1)/2 (mod 2^n).
 
-The programs for A329278, the canonical program `A329278.P202766685788889312` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329278 has offset 0).
+The programs for A329278, the canonical program `A329278.P202766685788889312` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A329278 has offset 0).
 
 The definition of A329278 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8191 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5188,7 +5191,7 @@ end A329278
 
 `A000217(A053644(n+1)+n+1)%A053644(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A329278

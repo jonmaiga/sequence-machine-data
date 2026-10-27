@@ -33,22 +33,21 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -56,9 +55,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1095,7 +1092,7 @@ end A217125.P12504487360828277476
 /-!
 # A217128: Numbers n such that (2n)^4 + 1 is not prime.
 
-The programs for A217128, the canonical program `A217128.P10561566557455975693` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217128 has offset 1).
+The programs for A217128, the canonical program `A217128.P10561566557455975693` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217128 has offset 1).
 
 The definition of A217128 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1104,7 +1101,7 @@ The definition of A217128 is `conjectured`: the Lean definition is a formula tha
 
 `lt[1, A193929(2*n)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A217128
@@ -1323,7 +1320,7 @@ end A217128
 /-!
 # A217129: Numbers n such that n^4 + 1 is not prime.
 
-The programs for A217129, the canonical program `A217129.P6626584089061769423` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217129 has offset 1).
+The programs for A217129, the canonical program `A217129.P6626584089061769423` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217129 has offset 1).
 
 The definition of A217129 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1332,7 +1329,7 @@ The definition of A217129 is `conjectured`: the Lean definition is a formula tha
 
 `lt[1, A193929(n)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A217129
@@ -2023,7 +2020,7 @@ end A217138.P984661712699346702
 /-!
 # A217139: Numbers n such that phi(n) = phi(n+12), with Euler's totient function phi = A000010.
 
-The programs for A217139, the canonical program `A217139.P16840314535765683681` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217139 has offset 1).
+The programs for A217139, the canonical program `A217139.P16840314535765683681` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217139 has offset 1).
 
 The definition of A217139 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 543 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2032,7 +2029,7 @@ The definition of A217139 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A000010(C(3, n)+n), A000010(n+12)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A217139

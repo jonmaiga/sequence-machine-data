@@ -34,13 +34,16 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -50,20 +53,20 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3138,7 +3141,7 @@ end A179442
 /-!
 # A179443: Numbers m such that m and 10*m + 1 are both composites.
 
-The programs for A179443, the canonical program `A179443.P2342233495432170048` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179443 has offset 1).
+The programs for A179443, the canonical program `A179443.P2342233495432170048` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179443 has offset 1).
 
 The definition of A179443 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8693 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3170,7 +3173,7 @@ end A179443
 
 `filter[A153275(n+2), A005171(#)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A179443
@@ -3443,7 +3446,7 @@ end A179443
 /-!
 # A179444: Composite numbers m of the form m = 10k + 1 where k is also composite.
 
-The programs for A179444, the canonical program `A179444.P17490353298524779514` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179444 has offset 1).
+The programs for A179444, the canonical program `A179444.P17490353298524779514` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179444 has offset 1).
 
 The definition of A179444 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6591 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3452,7 +3455,7 @@ The definition of A179444 is `conjectured`: the Lean definition is a formula tha
 
 `A017281(A179443(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A179444
@@ -3758,7 +3761,7 @@ end A179444
 /-!
 # A179445: Nonprimes m such that 10m + 1 are primes.
 
-The programs for A179445, the canonical program `A179445.P5484428261871917909` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179445 has offset 1).
+The programs for A179445, the canonical program `A179445.P5484428261871917909` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179445 has offset 1).
 
 The definition of A179445 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3816,7 +3819,7 @@ end A179445
 
 `floor(p?[A005171(n+1)+10*(n+1)]/10)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A179445
@@ -4054,7 +4057,7 @@ end A179445
 /-!
 # A179446: Primes p of form p = 10k + 1, where k is nonprime.
 
-The programs for A179446, the canonical program `A179446.P7289325605206415384` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179446 has offset 1).
+The programs for A179446, the canonical program `A179446.P7289325605206415384` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179446 has offset 1).
 
 The definition of A179446 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4063,7 +4066,7 @@ The definition of A179446 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A005171(n+1)+10*(n+1)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A179446
@@ -5388,7 +5391,7 @@ end A179463.P7756101956013818952
 /-!
 # A179464: a(n) = min(nextprime(n),nextsemiprime(n)).
 
-The programs for A179464, the canonical program `A179464.P11553537071304704805` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179464 has offset 1).
+The programs for A179464, the canonical program `A179464.P11553537071304704805` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A179464 has offset 1).
 
 The definition of A179464 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5397,7 +5400,7 @@ The definition of A179464 is `conjectured`: the Lean definition is a formula tha
 
 `A037143(A101041(n+1)+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A179464

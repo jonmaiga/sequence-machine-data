@@ -34,9 +34,10 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -44,10 +45,13 @@ import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -59,11 +63,8 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2953,7 +2954,7 @@ end A365074.P8206797851253450281
 /-!
 # A365076: Number of length-n binary words x such that the infinite word xxxx... is balanced.
 
-The programs for A365076, the canonical program `A365076.P14072161056249924003` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365076 has offset 1).
+The programs for A365076, the canonical program `A365076.P14072161056249924003` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365076 has offset 1).
 
 The definition of A365076 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A057660, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2962,7 +2963,7 @@ The definition of A365076 is `conditional`: the Lean definition is an OEIS formu
 
 `A057660(n+1)+1`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A365076
@@ -3072,12 +3073,6 @@ namespace A365076
 /-- `A086148(n+1)-Δ[n²]` -/
 def P15020025804112509170.Spec : Prop :=
   ∀ n, P15020025804112509170.a n = A365076 (n + 1)
-
-theorem P15020025804112509170.correct : P15020025804112509170.Spec := by
-  intro n
-  simp only [A365076, Nat.add_sub_cancel, A365076.P15020025804112509170.f1, A365076.P15020025804112509170.a, A365076.P14072161056249924003.a, A057660, A057660.P308819105178745283.a, A086148, A086148.P694323764726545804.a, A000290, A000290.P12206242496348924484.a, A001157, A001157.P6892814788348726787.a, A065764, A065764.P16236740945723656355.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A035316, A035316.P17845884678165723091.f1, A035316.P17845884678165723091.a, A037213, A037213.P7544062464691828526.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A365076
 
@@ -4131,7 +4126,7 @@ end A365083
 /-!
 # A365089: The Thue-Morse sequence along the sequence of cubes.
 
-The programs for A365089, the canonical program `A365089.P12422093480538307180` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365089 has offset 0).
+The programs for A365089, the canonical program `A365089.P12422093480538307180` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A365089 has offset 0).
 
 The definition of A365089 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4140,7 +4135,7 @@ The definition of A365089 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A010060(n^3)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A365089

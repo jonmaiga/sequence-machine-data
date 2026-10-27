@@ -36,7 +36,7 @@ import Seq.B001.C003
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -44,6 +44,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -54,12 +55,12 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3267,7 +3268,7 @@ end A300150.P16454031577250335292
 /-!
 # A300154: Consider a spiral on an infinite hexagonal grid. a(n) is the number of cells in the part of the spiral from 1st to n-th cell that are on the same column or diagonal (in any of three directions) as the n-th cell along the spiral, including that cell itself.
 
-The programs for A300154, the canonical program `A300154.P12598035812061489662` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300154 has offset 1).
+The programs for A300154, the canonical program `A300154.P12598035812061489662` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300154 has offset 1).
 
 The definition of A300154 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3276,7 +3277,7 @@ The definition of A300154 is `conjectured`: the Lean definition is a formula tha
 
 `n+1-A069905(∑[char[A001399(n)]])`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A300154
@@ -4390,27 +4391,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A300163.P11394028725121198635
-
-/-! ## A300163.P13523662512571278655
-
-`lt[A075656(n+1), A198032(A181819(n+1))]`
--/
-
-namespace A300163.P13523662512571278655
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A075656 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A198032 (A181819 (n + 1)).toNat
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun j => f1 j < f2 j) n
-
-end
-
-end A300163.P13523662512571278655
 
 /-! ## A300163.P1326595220414804527
 
@@ -6781,7 +6761,7 @@ end A300188.P9474761684322149763
 /-!
 # A300190: Number of solutions to 1 +- 2 +- 3 +- ... +- n == 0 (mod n).
 
-The programs for A300190, the canonical program `A300190.P933532925247640132` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300190 has offset 1).
+The programs for A300190, the canonical program `A300190.P933532925247640132` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300190 has offset 1).
 
 The definition of A300190 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 341 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6813,7 +6793,7 @@ end A300190
 
 `(A096010(n+1)-1)*Δ[A098180(n)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A300190

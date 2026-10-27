@@ -34,14 +34,17 @@ import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C003
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B003.C003
+import Seq.B002.C005
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -50,9 +53,6 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4178,7 +4178,7 @@ end A121173
 /-!
 # A121176: Union of {8, 9, 18}, S, 2S and 4S, where S = squarefree numbers (A005117).
 
-The programs for A121176, the canonical program `A121176.P2548896837835999624` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121176 has offset 1).
+The programs for A121176, the canonical program `A121176.P2548896837835999624` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A121176 has offset 1).
 
 The definition of A121176 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4187,7 +4187,7 @@ The definition of A121176 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A003657(n+1), A121684(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A121176

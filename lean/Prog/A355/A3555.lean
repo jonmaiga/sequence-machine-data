@@ -34,26 +34,32 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -62,7 +68,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2927,7 +2932,7 @@ end A355537.P15604694611056172002
 /-!
 # A355538: Partial sum of A001221 (number of distinct prime factors) minus 1, ranging from 2 to n.
 
-The programs for A355538, the canonical program `A355538.P14887925225814743849` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355538 has offset 1).
+The programs for A355538, the canonical program `A355538.P14887925225814743849` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355538 has offset 1).
 
 The definition of A355538 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A013939, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2936,7 +2941,7 @@ The definition of A355538 is `conditional`: the Lean definition is an OEIS formu
 
 `A013939(n+1)-n`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A355538
@@ -3810,7 +3815,7 @@ end A355551
 /-!
 # A355552: Number of ways to select 3 or more collinear points from a 4 X n grid.
 
-The programs for A355552, the canonical program `A355552.P2723832558211808872` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355552 has offset 1).
+The programs for A355552, the canonical program `A355552.P2723832558211808872` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355552 has offset 1).
 
 The definition of A355552 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 330 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3819,7 +3824,7 @@ The definition of A355552 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A366619(n+1)+A125128(n+1)]`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A355552
@@ -5438,7 +5443,7 @@ end A355581.P17885851388934127256
 /-!
 # A355582: a(n) is the largest 5-smooth divisor of n.
 
-The programs for A355582, the canonical program `A355582.P2103007522092691824` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355582 has offset 1).
+The programs for A355582, the canonical program `A355582.P2103007522092691824` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355582 has offset 1).
 
 The definition of A355582 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5470,7 +5475,7 @@ end A355582
 
 `A006519(n+1)*A038500(n+1)*A060904(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A355582
@@ -6810,7 +6815,7 @@ end A355588.P6935780044336206860
 /-!
 # A355590: a(n) = (product of the first n primes) - (sum of the first n primes).
 
-The programs for A355590, the canonical program `A355590.P1276271810179045554` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355590 has offset 0).
+The programs for A355590, the canonical program `A355590.P1276271810179045554` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A355590 has offset 0).
 
 The definition of A355590 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6819,7 +6824,7 @@ The definition of A355590 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A002110(n)-A007504(n)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A355590

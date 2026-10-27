@@ -41,26 +41,28 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -77,6 +79,7 @@ import Seq.Opaque.C012
 import Seq.Opaque.C015
 import Seq.Opaque.C016
 import Seq.Opaque.C017
+import Seq.Opaque.C018
 import Seq.Opaque.C019
 import Seq.Opaque.C020
 import Seq.Opaque.C021
@@ -1382,7 +1385,7 @@ end A301272.P2591931210741937612
 /-!
 # A301273: Numerator of mean of first n primes.
 
-The programs for A301273, the canonical program `A301273.P17395654707237324989` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301273 has offset 1).
+The programs for A301273, the canonical program `A301273.P17395654707237324989` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301273 has offset 1).
 
 The definition of A301273 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1391,7 +1394,7 @@ The definition of A301273 is `conjectured`: the Lean definition is a formula tha
 
 `lcm(n+1, A007504(n+1))/(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A301273
@@ -1497,7 +1500,7 @@ end A301273
 /-!
 # A301274: Denominator of mean of first n primes.
 
-The programs for A301274, the canonical program `A301274.P9797032890744289852` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301274 has offset 1).
+The programs for A301274, the canonical program `A301274.P9797032890744289852` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301274 has offset 1).
 
 The definition of A301274 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1575,7 +1578,7 @@ end A301274
 
 `(n+1)/gcd(∑[A006093(n+1)], A005843(n+1))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A301274
@@ -2449,7 +2452,7 @@ end A301284.P10459955975661128714
 /-!
 # A301285: Coordination sequence for node of type V2 in "car" 2-D tiling (or net).
 
-The programs for A301285, the canonical program `A301285.P11128293698623168490` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301285 has offset 0).
+The programs for A301285, the canonical program `A301285.P11128293698623168490` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301285 has offset 0).
 
 The definition of A301285 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2458,7 +2461,7 @@ The definition of A301285 is `conjectured`: the Lean definition is a formula tha
 
 `A077814(n)+A301293(n)-A008854(n+1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A301285
@@ -2577,7 +2580,7 @@ end A301285
 /-!
 # A301286: Partial sums of A301285.
 
-The programs for A301286, the canonical program `A301286.P8785182498257756954` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301286 has offset 0).
+The programs for A301286, the canonical program `A301286.P8785182498257756954` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A301286 has offset 0).
 
 The definition of A301286 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2586,7 +2589,7 @@ The definition of A301286 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A301285(n)]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A301286

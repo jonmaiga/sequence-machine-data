@@ -37,26 +37,26 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,7 +70,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1750,7 +1749,7 @@ end A248807.P8103532585864680691
 /-!
 # A248808: Irregular triangle read by rows: row n gives golden ratio base representation of Fibonacci number F_n.
 
-The programs for A248808, the canonical program `A248808.P11257078540313990282` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248808 has offset 1).
+The programs for A248808, the canonical program `A248808.P11257078540313990282` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248808 has offset 1).
 
 The definition of A248808 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2550 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1759,7 +1758,7 @@ The definition of A248808 is `conjectured`: the Lean definition is a formula tha
 
 `A084346(n+1)-(A000267(n)+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A248808
@@ -1972,7 +1971,7 @@ end A248809.P16062231751738623266
 /-!
 # A248810: Signed version of A164984.
 
-The programs for A248810, the canonical program `A248810.P14696073370493351190` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248810 has offset 0).
+The programs for A248810, the canonical program `A248810.P14696073370493351190` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248810 has offset 0).
 
 The definition of A248810 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1981,7 +1980,7 @@ The definition of A248810 is `conjectured`: the Lean definition is a formula tha
 
 `A097807(n)*A164984(n+1)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A248810
@@ -6600,21 +6599,6 @@ end A248870.P993750578617578152
 The programs for A248871, there is no canonical definition to state claims against.
 -/
 
-/-! ## A248871.P487387645493291322
-
-`A036669(n)+A028310(A199746(n))`
--/
-
-namespace A248871.P487387645493291322
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A036669 n + A028310 (A199746 n).toNat
-
-end
-
-end A248871.P487387645493291322
-
 /-! ## A248871.P8645908809832431462
 
 `A199746(n)+A167383(A145270(n))`
@@ -6811,7 +6795,7 @@ end A248873
 /-!
 # A248875: First n elements of the Kolakoski sequence read as a ternary number.
 
-The programs for A248875, the canonical program `A248875.P14786987382872610295` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248875 has offset 0).
+The programs for A248875, the canonical program `A248875.P14786987382872610295` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248875 has offset 0).
 
 The definition of A248875 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6843,7 +6827,7 @@ end A248875
 
 `gcd(2, A156253(n))+3*a(n-1)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A248875

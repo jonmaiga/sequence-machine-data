@@ -41,14 +41,17 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -65,7 +68,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -527,7 +529,7 @@ end A207004.P972412309993066289
 /-!
 # A207005: Numbers k such that omega(k) = omega(k - omega(k)) where omega(k) is the number of distinct primes dividing k.
 
-The programs for A207005, the canonical program `A207005.P8295083017489759373` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A207005 has offset 1).
+The programs for A207005, the canonical program `A207005.P8295083017489759373` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A207005 has offset 1).
 
 The definition of A207005 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -536,7 +538,7 @@ The definition of A207005 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A001221(n+1-A001221(n+1)), A001221(n+1)]+1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A207005
@@ -738,7 +740,7 @@ end A207005
 /-!
 # A207006: Numbers n such that omega(n) = omega(n + omega(n)) where omega(n) is the number of distinct primes dividing n.
 
-The programs for A207006, the canonical program `A207006.P17524923869019092889` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A207006 has offset 1).
+The programs for A207006, the canonical program `A207006.P17524923869019092889` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A207006 has offset 1).
 
 The definition of A207006 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -747,7 +749,7 @@ The definition of A207006 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A001221(A001221(n+1)+n+1), A001221(n+1)]+1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A207006
@@ -1738,7 +1740,7 @@ end
 end A207016.P16339533408701247957
 
 /-!
-# A207017: Numbers m for which there exists a number 1k, where operation <+> is defined in A206853.
+# A207017: Numbers m for which there exists a number 1<k=k(m)<m, such that m is in the sequence: b_1 = k, b_(n+1) = b_n<+>k, where operation <+> is defined in A206853.
 
 The programs for A207017, there is no canonical definition to state claims against.
 -/

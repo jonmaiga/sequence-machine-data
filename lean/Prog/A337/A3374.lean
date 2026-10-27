@@ -43,17 +43,19 @@ import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -2102,7 +2104,7 @@ end A337449.P16709775661779187265
 /-!
 # A337450: Number of relatively prime compositions of n with no 1's.
 
-The programs for A337450, the canonical program `A337450.P988308958090563321` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337450 has offset 0).
+The programs for A337450, the canonical program `A337450.P988308958090563321` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337450 has offset 0).
 
 The definition of A337450 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 482 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2111,7 +2113,7 @@ The definition of A337450 is `conjectured`: the Lean definition is a formula tha
 
 `A212804(A028310(n))-A178472(A028310(n))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A337450
@@ -2683,7 +2685,7 @@ end A337454.P1234931179659119560
 /-!
 # A337455: Numbers of the form m + bigomega(m) with m a positive integer.
 
-The programs for A337455, the canonical program `A337455.P10298766276073300443` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337455 has offset 1).
+The programs for A337455, the canonical program `A337455.P10298766276073300443` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337455 has offset 1).
 
 The definition of A337455 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2692,7 +2694,7 @@ The definition of A337455 is `conjectured`: the Lean definition is a formula tha
 
 `comp[abs(comp[A001222(2*(n+1))+n]-n)+n]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A337455
@@ -4500,7 +4502,7 @@ end A337479.P6186472384651754840
 /-!
 # A337480: Numbers k such that exactly one of 6*k + 5 and 12*k + 5 is prime.
 
-The programs for A337480, the canonical program `A337480.P8362700632099792972` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337480 has offset 1).
+The programs for A337480, the canonical program `A337480.P8362700632099792972` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337480 has offset 1).
 
 The definition of A337480 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3196 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4509,7 +4511,7 @@ The definition of A337480 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A075743(2*n+1)+A075743(4*n+1)]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A337480
@@ -5882,7 +5884,7 @@ end A337489.P7381713592218483966
 /-!
 # A337491: Numbers k such that exactly one of 2*k + 3 and 4*k + 3 is prime.
 
-The programs for A337491, the canonical program `A337491.P12360132993066818082` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337491 has offset 1).
+The programs for A337491, the canonical program `A337491.P12360132993066818082` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337491 has offset 1).
 
 The definition of A337491 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5891,7 +5893,7 @@ The definition of A337491 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A101264(2*n+1)+A101264(n+1)]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A337491
@@ -6370,7 +6372,7 @@ end A337498.P6759476361405949857
 /-!
 # A337499: a(n) is the number of ballot sequences of length n tied or won by at most 2 votes.
 
-The programs for A337499, the canonical program `A337499.P6194766648493342182` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337499 has offset 0).
+The programs for A337499, the canonical program `A337499.P6194766648493342182` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A337499 has offset 0).
 
 The definition of A337499 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6379,7 +6381,7 @@ The definition of A337499 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A128014(n+1)+(n+1)%2*2*A001791(ceil(n/2))`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A337499

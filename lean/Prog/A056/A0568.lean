@@ -42,6 +42,7 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
@@ -52,6 +53,7 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -60,17 +62,15 @@ import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3804,7 +3804,7 @@ end A056817.P14778230143962865974
 /-!
 # A056818: A number n is included if n^2 divides n-th term of A056855.
 
-The programs for A056818, the canonical program `A056818.P10951133536727049415` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056818 has offset 1).
+The programs for A056818, the canonical program `A056818.P10951133536727049415` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056818 has offset 1).
 
 The definition of A056818 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1603 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3839,7 +3839,7 @@ end A056818
 
 `record[gcd(n+2, A334628(n+2))]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A056818
@@ -4066,7 +4066,7 @@ end A056819
 /-!
 # A056820: Euler totient function of Cullen numbers (A002064), n*2^n +1.
 
-The programs for A056820, the canonical program `A056820.P12441751021229562647` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056820 has offset 0).
+The programs for A056820, the canonical program `A056820.P12441751021229562647` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056820 has offset 0).
 
 The definition of A056820 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4075,7 +4075,7 @@ The definition of A056820 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(n*2^n+1)`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A056820
@@ -4162,7 +4162,7 @@ end A056820
 /-!
 # A056821: Totient of the Woodall numbers (A003261), n*2^n -1.
 
-The programs for A056821, the canonical program `A056821.P16707184168052195583` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056821 has offset 1).
+The programs for A056821, the canonical program `A056821.P16707184168052195583` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A056821 has offset 1).
 
 The definition of A056821 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4171,7 +4171,7 @@ The definition of A056821 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010((n+1)*2^(n+1)-1)`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A056821
@@ -11714,7 +11714,7 @@ end
 end A056860.P10093317402830491621
 
 /-!
-# A056861: Triangle T(n,k) is the number of restricted growth strings (RGS) of set partitions of {1..n} that have an increase at index k (1<=k
+# A056861: Triangle T(n,k) is the number of restricted growth strings (RGS) of set partitions of {1..n} that have an increase at index k (1<=k<n).
 
 The programs for A056861, there is no canonical definition to state claims against.
 -/
@@ -11802,7 +11802,7 @@ end
 end A056861.P6636845269369492975
 
 /-!
-# A056862: Triangle T(n,k) is the number of restricted growth strings (RGS) of set partitions of {1..n} that have a decrease at index k (1<=k
+# A056862: Triangle T(n,k) is the number of restricted growth strings (RGS) of set partitions of {1..n} that have a decrease at index k (1<=k<n).
 
 The programs for A056862, there is no canonical definition to state claims against.
 -/

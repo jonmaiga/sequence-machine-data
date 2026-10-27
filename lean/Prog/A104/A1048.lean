@@ -37,10 +37,10 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -48,17 +48,17 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -66,9 +66,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -8883,7 +8880,7 @@ end A104893.P15145355000959024679
 /-!
 # A104894: Binary array, related to the Thue-Morse sequence A010060, read by downward antidiagonals.
 
-The programs for A104894, the canonical program `A104894.P7075308143591686238` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104894 has offset 0).
+The programs for A104894, the canonical program `A104894.P7075308143591686238` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104894 has offset 0).
 
 The definition of A104894 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8892,7 +8889,7 @@ The definition of A104894 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A010060((row(n)-col(n))%(2^(col(n)+1)))`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A104894
@@ -9116,12 +9113,6 @@ namespace A104895
 def P12048893683978829349.Spec : Prop :=
   ∀ n, P12048893683978829349.a n = A104895 n
 
-theorem P12048893683978829349.correct : P12048893683978829349.Spec := by
-  intro n
-  simp only [A104895, Nat.add_sub_cancel, A104895.P12048893683978829349.a, A104895.P16075429497420938870.a, A065620, A065620.P132964274324401119.a, A246159, A246159.P1140588628071788846.a, A246160, A246160.P12838974675095138970.a, A006068, A006068.P16534033749009019403.a, A010059, A010059.P6338678923093357896.a, A010060, A010060.P3080921269106500717.a, A245710, A245710.P15631509805562168488.a, A265263, A265263.P13560857298709796040.a, A000035, A000035.P2023072528413494694.a, A000120, A000120.P2816527436160941581.a, A066194, A066194.P17197319264784136366.a, A377404, A377404.P15784403255783113757.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A104895
 
 /-! ## A104895.P7971029097051210997
@@ -9245,12 +9236,6 @@ namespace A104895
 /-- `A065620(n)/A057428(n+1)` -/
 def P13991815573619378722.Spec : Prop :=
   ∀ n, P13991815573619378722.a n = (A104895 n : ℚ)
-
-theorem P13991815573619378722.correct : P13991815573619378722.Spec := by
-  intro n
-  simp only [A104895, Nat.add_sub_cancel, A104895.P13991815573619378722.a, A104895.P16075429497420938870.a, A057428, A057428.P2999489532230392221.a, A065620, A065620.P132964274324401119.a, A010060, A010060.P3080921269106500717.a, A057427, A057427.P3058147525557661423.a, A265263, A265263.P13560857298709796040.a, A000007, A000007.P6599383543502402472.a, A000035, A000035.P2023072528413494694.a, A000120, A000120.P2816527436160941581.a, A066194, A066194.P17197319264784136366.a, A005187, A005187.P3874015513960485494.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A104895
 

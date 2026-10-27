@@ -40,33 +40,33 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -100,7 +100,7 @@ set_option linter.unreachableTactic false
 /-!
 # A273401: Numbers n such that n and n + 1 have exactly the same number of odd divisors.
 
-The programs for A273401, the canonical program `A273401.P1165814043605019566` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273401 has offset 1).
+The programs for A273401, the canonical program `A273401.P1165814043605019566` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273401 has offset 1).
 
 The definition of A273401 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -109,7 +109,7 @@ The definition of A273401 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A054844(n+2), A054844(n+1)]+1`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A273401
@@ -7759,7 +7759,7 @@ end A273459.P14318302710748445092
 /-!
 # A273460: Numbers n such that sum of the divisors of n (except 1 and n) is equal to the product of the digits of n.
 
-The programs for A273460, the canonical program `A273460.P16091352189442865612` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273460 has offset 1).
+The programs for A273460, the canonical program `A273460.P16091352189442865612` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273460 has offset 1).
 
 The definition of A273460 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 225 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7768,7 +7768,7 @@ The definition of A273460 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A007954(n+1), A048050(n+1)]+1`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A273460
@@ -9894,7 +9894,7 @@ end A273492.P14798064323144932742
 /-!
 # A273493: a(n) = A245327(n) + A245328(n).
 
-The programs for A273493, the canonical program `A273493.P5527288234539708389` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273493 has offset 1).
+The programs for A273493, the canonical program `A273493.P5527288234539708389` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A273493 has offset 1).
 
 The definition of A273493 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A245327, A245328, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9903,7 +9903,7 @@ The definition of A273493 is `conditional`: the Lean definition is an OEIS formu
 
 `A245327(n+1)+A245328(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A273493

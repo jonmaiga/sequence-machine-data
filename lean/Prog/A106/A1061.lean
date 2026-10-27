@@ -43,6 +43,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -54,8 +55,9 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -66,12 +68,11 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -984,7 +985,7 @@ end A106101.P2560319757821826247
 /-!
 # A106102: Primes with smallest digit 2.
 
-The programs for A106102, the canonical program `A106102.P3375998700621158916` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106102 has offset 1).
+The programs for A106102, the canonical program `A106102.P3375998700621158916` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106102 has offset 1).
 
 The definition of A106102 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6541 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -993,7 +994,7 @@ The definition of A106102 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A084373(n+1)]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A106102
@@ -1561,7 +1562,7 @@ end A106102
 /-!
 # A106103: Primes with minimal digit = 3.
 
-The programs for A106103, the canonical program `A106103.P12542325979256717480` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106103 has offset 1).
+The programs for A106103, the canonical program `A106103.P12542325979256717480` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106103 has offset 1).
 
 The definition of A106103 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1206 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1779,7 +1780,7 @@ end A106103
 
 `p?[A284064(n+1)]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A106103
@@ -6287,7 +6288,7 @@ end A106116.P11699585314533465505
 /-!
 # A106118: Primes with maximal digit > 1.
 
-The programs for A106118, the canonical program `A106118.P5269121123413051575` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106118 has offset 1).
+The programs for A106118, the canonical program `A106118.P5269121123413051575` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106118 has offset 1).
 
 The definition of A106118 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1229 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6296,7 +6297,7 @@ The definition of A106118 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A136399(n+1)]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A106118
@@ -8248,7 +8249,7 @@ end A106136.P6359954337235588923
 /-!
 # A106137: N-th semiprime mod n.
 
-The programs for A106137, the canonical program `A106137.P8983848219571593236` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106137 has offset 1).
+The programs for A106137, the canonical program `A106137.P8983848219571593236` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106137 has offset 1).
 
 The definition of A106137 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8280,7 +8281,7 @@ end A106137
 
 `A100493(n+1)%(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A106137
@@ -13724,7 +13725,7 @@ end A106147
 /-!
 # A106149: Number of prime factors with multiplicity of the difference between consecutive primes.
 
-The programs for A106149, the canonical program `A106149.P10430392262573295880` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106149 has offset 1).
+The programs for A106149, the canonical program `A106149.P10430392262573295880` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106149 has offset 1).
 
 The definition of A106149 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -13733,7 +13734,7 @@ The definition of A106149 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(A000040(n+2)-A000040(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A106149

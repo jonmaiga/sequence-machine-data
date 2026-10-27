@@ -44,18 +44,18 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -65,7 +65,6 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3606,31 +3605,28 @@ end
 end A026816.P14147147698785257271
 
 /-!
-# A026817: Number of sets which can be obtained by selecting unique elements from two sets with 2n and 3n elements respectively and n common elements.
+# A026817: 
 
-The programs for A026817, the canonical program `A026817.P12054409485250161144` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A026817 has offset 1).
-
-The definition of A026817 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
+The programs for A026817, there is no canonical definition to state claims against.
 -/
 
 /-! ## A026817.P12054409485250161144
 
 `∑[11*n+6]`
-
-The canonical program, it is in `Seq.B000.C005`.
 -/
 
-namespace A026817
+namespace A026817.P12054409485250161144
+noncomputable section
 
-/-- `∑[11*n+6]` -/
-def P12054409485250161144.Spec : Prop :=
-  ∀ n, (P12054409485250161144.a n : ℤ) = A026817 (n + 1)
+def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  11 * n + 6
 
-theorem P12054409485250161144.correct : P12054409485250161144.Spec := by
-  intro n
-  simp only [A026817, Nat.add_sub_cancel]
+def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
+  ∑ j ∈ Finset.range (n + 1), f1 j
 
-end A026817
+end
+
+end A026817.P12054409485250161144
 
 /-! ## A026817.P10318279355795855599
 
@@ -3646,14 +3642,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A026817.P10318279355795855599
-
-namespace A026817
-
-/-- `ogf((6+5x)/(1-3x+3x^2-x^3))` -/
-def P10318279355795855599.Spec : Prop :=
-  ∀ n, P10318279355795855599.a n = A026817 (n + 1)
-
-end A026817
 
 /-! ## A026817.P13075373243145141603
 
@@ -3672,14 +3660,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A026817.P13075373243145141603
-
-namespace A026817
-
-/-- `abs(∑[a(n-1)+11])` -/
-def P13075373243145141603.Spec : Prop :=
-  ∀ n, (P13075373243145141603.a n : ℤ) = A026817 (n + 1)
-
-end A026817
 
 /-! ## A026817.P14551885191140759127
 
@@ -3701,14 +3681,6 @@ end
 
 end A026817.P14551885191140759127
 
-namespace A026817
-
-/-- `floor(∑[a(n-1)+11])` -/
-def P14551885191140759127.Spec : Prop :=
-  ∀ n, (P14551885191140759127.a n : ℤ) = A026817 (n + 1)
-
-end A026817
-
 /-! ## A026817.P8747297977368689026
 
 `ceil(∑[a(n-1)+11])` with `a(0)=6`
@@ -3729,14 +3701,6 @@ end
 
 end A026817.P8747297977368689026
 
-namespace A026817
-
-/-- `ceil(∑[a(n-1)+11])` -/
-def P8747297977368689026.Spec : Prop :=
-  ∀ n, (P8747297977368689026.a n : ℤ) = A026817 (n + 1)
-
-end A026817
-
 /-! ## A026817.P877357034067392300
 
 `round(∑[a(n-1)+11])` with `a(0)=6`
@@ -3756,14 +3720,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A026817.P877357034067392300
-
-namespace A026817
-
-/-- `round(∑[a(n-1)+11])` -/
-def P877357034067392300.Spec : Prop :=
-  ∀ n, (P877357034067392300.a n : ℤ) = A026817 (n + 1)
-
-end A026817
 
 /-! ## A026817.P17164811461085241274
 
@@ -3786,14 +3742,6 @@ end
 
 end A026817.P17164811461085241274
 
-namespace A026817
-
-/-- `∑[a(n-1)+10]+∑[n]` -/
-def P17164811461085241274.Spec : Prop :=
-  ∀ n, (P17164811461085241274.a n : ℤ) = A026817 (n + 1)
-
-end A026817
-
 /-! ## A026817.P2527694217003187801
 
 `C(n+2, 2)+5*(n+1)²`
@@ -3808,14 +3756,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A026817.P2527694217003187801
-
-namespace A026817
-
-/-- `C(n+2, 2)+5*(n+1)²` -/
-def P2527694217003187801.Spec : Prop :=
-  ∀ n, (P2527694217003187801.a n : ℤ) = A026817 (n + 1)
-
-end A026817
 
 /-! ## A026817.P2755676564524391800
 
@@ -3835,14 +3775,6 @@ end
 
 end A026817.P2755676564524391800
 
-namespace A026817
-
-/-- `A160749(n)+Δ[n²]` -/
-def P2755676564524391800.Spec : Prop :=
-  ∀ n, P2755676564524391800.a n = A026817 (n + 1)
-
-end A026817
-
 /-! ## A026817.P17406444464857067362
 
 `A145910(n)+(n+2)²`
@@ -3857,14 +3789,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A026817.P17406444464857067362
-
-namespace A026817
-
-/-- `A145910(n)+(n+2)²` -/
-def P17406444464857067362.Spec : Prop :=
-  ∀ n, P17406444464857067362.a n = A026817 (n + 1)
-
-end A026817
 
 /-! ## A026817.P10366559376120523476
 
@@ -3884,14 +3808,6 @@ end
 
 end A026817.P10366559376120523476
 
-namespace A026817
-
-/-- `A033581(n+1)-∑[n]` -/
-def P10366559376120523476.Spec : Prop :=
-  ∀ n, P10366559376120523476.a n = A026817 (n + 1)
-
-end A026817
-
 /-! ## A026817.P7680455595910817132
 
 `n²+A235332(n)-n`
@@ -3907,14 +3823,6 @@ end
 
 end A026817.P7680455595910817132
 
-namespace A026817
-
-/-- `n²+A235332(n)-n` -/
-def P7680455595910817132.Spec : Prop :=
-  ∀ n, P7680455595910817132.a n = A026817 (n + 1)
-
-end A026817
-
 /-! ## A026817.P101453442644093257
 
 `A017461(n)+a(n-1)` with `a(0)=6`
@@ -3929,14 +3837,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [6] fun n a =>
 end
 
 end A026817.P101453442644093257
-
-namespace A026817
-
-/-- `A017461(n)+a(n-1)` -/
-def P101453442644093257.Spec : Prop :=
-  ∀ n, P101453442644093257.a n = A026817 (n + 1)
-
-end A026817
 
 /-! ## A026817.P17355069686422920742
 
@@ -3955,14 +3855,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A026817.P17355069686422920742
-
-namespace A026817
-
-/-- `∑[A017221(n)]+(n+1)²` -/
-def P17355069686422920742.Spec : Prop :=
-  ∀ n, P17355069686422920742.a n = A026817 (n + 1)
-
-end A026817
 
 /-! ## A026817.P6078719618178882963
 
@@ -3985,14 +3877,6 @@ end
 
 end A026817.P6078719618178882963
 
-namespace A026817
-
-/-- `∑[n]+∑[A017329(n)+1]` -/
-def P6078719618178882963.Spec : Prop :=
-  ∀ n, P6078719618178882963.a n = A026817 (n + 1)
-
-end A026817
-
 /-! ## A026817.P17533014198489762765
 
 `A022267(n+1)+(n+1)²`
@@ -4007,14 +3891,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A026817.P17533014198489762765
-
-namespace A026817
-
-/-- `A022267(n+1)+(n+1)²` -/
-def P17533014198489762765.Spec : Prop :=
-  ∀ n, P17533014198489762765.a n = A026817 (n + 1)
-
-end A026817
 
 /-! ## A026817.P52337416856239559
 
@@ -4034,14 +3910,6 @@ end
 
 end A026817.P52337416856239559
 
-namespace A026817
-
-/-- `A201279(n)-(∑[n-2]+1)` -/
-def P52337416856239559.Spec : Prop :=
-  ∀ n, P52337416856239559.a n = A026817 (n + 1)
-
-end A026817
-
 /-! ## A026817.P15093748815853257641
 
 `(A017509(n)/2+1)*(n+1)`
@@ -4056,14 +3924,6 @@ def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
 end
 
 end A026817.P15093748815853257641
-
-namespace A026817
-
-/-- `(A017509(n)/2+1)*(n+1)` -/
-def P15093748815853257641.Spec : Prop :=
-  ∀ n, P15093748815853257641.a n = (A026817 (n + 1) : ℚ)
-
-end A026817
 
 /-! ## A026817.P15081344203187524809
 
@@ -4080,14 +3940,6 @@ end
 
 end A026817.P15081344203187524809
 
-namespace A026817
-
-/-- `a(n-1)+A017341(n)+n` -/
-def P15081344203187524809.Spec : Prop :=
-  ∀ n, P15081344203187524809.a n = A026817 (n + 1)
-
-end A026817
-
 /-! ## A026817.P6337114198919112481
 
 `a(n-1)+A017593(n)-n` with `a(0)=6`
@@ -4102,14 +3954,6 @@ def a : ℕ → ℤ := SequenceMachineLib.rec [6] fun n a =>
 end
 
 end A026817.P6337114198919112481
-
-namespace A026817
-
-/-- `a(n-1)+A017593(n)-n` -/
-def P6337114198919112481.Spec : Prop :=
-  ∀ n, P6337114198919112481.a n = A026817 (n + 1)
-
-end A026817
 
 /-!
 # A026818: Largest digit of n concatenated with smallest digit of n is prime.

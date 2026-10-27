@@ -43,22 +43,23 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,10 +71,7 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1173,7 +1171,7 @@ end A137147.P13398496729908976927
 /-!
 # A137148: a(n) = k*phi(k), where k is the n-th nonprime number.
 
-The programs for A137148, the canonical program `A137148.P10281140447083490938` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A137148 has offset 1).
+The programs for A137148, the canonical program `A137148.P10281140447083490938` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A137148 has offset 1).
 
 The definition of A137148 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002618, A018252, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1182,7 +1180,7 @@ The definition of A137148 is `conditional`: the Lean definition is an OEIS formu
 
 `A002618(A018252(n+1))`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A137148
@@ -1674,7 +1672,7 @@ end A137148
 /-!
 # A137149: a(n) = (prime(n)-2)!.
 
-The programs for A137149, the canonical program `A137149.P496306204645943279` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A137149 has offset 1).
+The programs for A137149, the canonical program `A137149.P496306204645943279` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A137149 has offset 1).
 
 The definition of A137149 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `(A000040(n+1)-2)!` (program `A137149.P496306204645943279`, by `A137149.P496306204645943279.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1683,7 +1681,7 @@ The definition of A137149 is `verified`: the Lean definition is proven equivalen
 
 `(A000040(n+1)-2)!`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A137149

@@ -6,7 +6,6 @@ import Seq.B000.C002
 import Seq.B000.C004
 import Seq.B000.C008
 import Seq.B000.C009
-import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C013
 import Seq.B000.C014
@@ -32,21 +31,22 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -60,8 +60,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2117,7 +2115,7 @@ end
 end A392852.P1305650201632925011
 
 /-!
-# A392858: a(n) = A028234(A276086(n)), where the A276086 is the primorial base exp-function, and A028234 completely removes the smallest prime factor of its argument.
+# A392858: a(n) = A028234(A276086(n)), where A276086 is the primorial base exp-function, and A028234 completely removes the smallest prime factor of its argument.
 
 The programs for A392858, there is no canonical definition to state claims against.
 -/
@@ -2922,27 +2920,17 @@ end A392871
 /-!
 # A392872: a(n) = A122111(n) mod prime(1+bigomega(n)).
 
-The programs for A392872, the canonical program `A392872.P17011526918379499434` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392872 has offset 1).
+The programs for A392872, the canonical program `A392872.P9743280895304921278` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392872 has offset 1).
 
-The definition of A392872 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A122111, A392865, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A392872 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A122111, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A392872.P9743280895304921278
 
 `A122111(n+1)%A000040(1+A001222(n+1))`
 
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+The canonical program, it is in `Seq.B009.C000`.
 -/
-
-namespace A392872.P9743280895304921278
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A122111 (n + 1)) (A000040 (1 + A001222 (n + 1)).toNat)
-
-end
-
-end A392872.P9743280895304921278
 
 namespace A392872
 
@@ -2950,24 +2938,32 @@ namespace A392872
 def P9743280895304921278.Spec : Prop :=
   ∀ n, P9743280895304921278.a n = A392872 (n + 1)
 
+theorem P9743280895304921278.correct : P9743280895304921278.Spec := by
+  intro n
+  simp only [A392872, Nat.add_sub_cancel]
+
 end A392872
 
 /-! ## A392872.P17011526918379499434
 
 `A392865(A122111(n+1))`
-
-The canonical program, it is in `Seq.B009.C000`.
 -/
+
+namespace A392872.P17011526918379499434
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A392865 (A122111 (n + 1)).toNat
+
+end
+
+end A392872.P17011526918379499434
 
 namespace A392872
 
 /-- `A392865(A122111(n+1))` -/
 def P17011526918379499434.Spec : Prop :=
   ∀ n, P17011526918379499434.a n = A392872 (n + 1)
-
-theorem P17011526918379499434.correct : P17011526918379499434.Spec := by
-  intro n
-  simp only [A392872, Nat.add_sub_cancel]
 
 end A392872
 
@@ -3093,7 +3089,7 @@ end A392873.P13131537799796155500
 /-!
 # A392874: a(n) = A005940(1+n) mod A117366(A005940(1+n)), where A117366 gives the smallest prime greater than the largest prime dividing n, and A005940 is Doudna-sequence.
 
-The programs for A392874, the canonical program `A392874.P4495398404350110704` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392874 has offset 0).
+The programs for A392874, the canonical program `A392874.P4495398404350110704` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A392874 has offset 0).
 
 The definition of A392874 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A005940, A117366, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3148,7 +3144,7 @@ end A392874
 
 `A005940(1+n)%A117366(A005940(1+n))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A392874

@@ -45,27 +45,29 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -74,8 +76,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2533,7 +2533,7 @@ end
 end A119315.P4177044693601710173
 
 /-!
-# A119316: Complement of A119315.
+# A119316: Noncomposites and numbers whose 3rd smallest divisor is prime; complement of A119315.
 
 The programs for A119316, there is no canonical definition to state claims against.
 -/
@@ -7070,7 +7070,7 @@ end
 end A119352.P146887962665979742
 
 /-!
-# A119354: Smallest number which does not use digit n-1 written in base n, but does use digit b-1 written in base b for any 1
+# A119354: Smallest number which does not use digit n-1 written in base n, but does use digit b-1 written in base b for any 1<b<n.
 
 The programs for A119354, there is no canonical definition to state claims against.
 -/
@@ -7157,7 +7157,7 @@ end A119355.P10607216693869624393
 /-!
 # A119356: Numbers k such that A000330(k) is squarefree.
 
-The programs for A119356, the canonical program `A119356.P3406510715932935683` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119356 has offset 1).
+The programs for A119356, the canonical program `A119356.P3406510715932935683` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A119356 has offset 1).
 
 The definition of A119356 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5029 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7166,7 +7166,7 @@ The definition of A119356 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A375970(n+1)]+1`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A119356

@@ -43,8 +43,9 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,11 +53,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,9 +73,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2930,7 +2930,7 @@ end A053318.P9149834216226716816
 /-!
 # A053319: Distance between the smaller members of successive twin prime pairs.
 
-The programs for A053319, the canonical program `A053319.P1938654990887452238` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053319 has offset 1).
+The programs for A053319, the canonical program `A053319.P1938654990887452238` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053319 has offset 1).
 
 The definition of A053319 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2939,7 +2939,7 @@ The definition of A053319 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A001359(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A053319
@@ -6187,7 +6187,7 @@ end A053338.P14157894291859825109
 /-!
 # A053339: Squarefree terms of A050530 with 3 prime divisors.
 
-The programs for A053339, the canonical program `A053339.P2634023277679372817` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053339 has offset 1).
+The programs for A053339, the canonical program `A053339.P2634023277679372817` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053339 has offset 1).
 
 The definition of A053339 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2170 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6196,7 +6196,7 @@ The definition of A053339 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A046389(n+1), A050530(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A053339
@@ -6800,7 +6800,7 @@ end A053341.P10045719741271886746
 /-!
 # A053343: Semiprimes of the form pq where p < q and p + q - 1 is prime.
 
-The programs for A053343, the canonical program `A053343.P17206480047150833733` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053343 has offset 1).
+The programs for A053343, the canonical program `A053343.P17206480047150833733` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053343 has offset 1).
 
 The definition of A053343 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6357 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6809,7 +6809,7 @@ The definition of A053343 is `conjectured`: the Lean definition is a formula tha
 
 `A050530(eq[2, ∑{e}[A050530(n+1), #²]]+1)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A053343

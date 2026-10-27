@@ -40,30 +40,27 @@ import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C006
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
-import Seq.B004.C000
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B005.C001
+import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3057,7 +3054,7 @@ end A185541
 /-!
 # A185542: a(n) = m*(m+1)/2, where m = floor(n^(5/2)).
 
-The programs for A185542, the canonical program `A185542.P16826996703818466053` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185542 has offset 1).
+The programs for A185542, the canonical program `A185542.P16826996703818466053` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185542 has offset 1).
 
 The definition of A185542 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3066,7 +3063,7 @@ The definition of A185542 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000217(A155013(n+1))`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A185542
@@ -6528,7 +6525,7 @@ end A185586.P18131433106404037470
 /-!
 # A185587: Irregular triangle read by rows: row n gives a list of the lengths of the free spaces at the n-th stage in a Rule 18 cellular automaton.
 
-The programs for A185587, the canonical program `A185587.P7291945286253065846` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185587 has offset 1).
+The programs for A185587, the canonical program `A185587.P7291945286253065846` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185587 has offset 1).
 
 The definition of A185587 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6305 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6537,7 +6534,7 @@ The definition of A185587 is `conjectured`: the Lean definition is a formula tha
 
 `2*A348647(n)-1`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A185587
@@ -6934,7 +6931,7 @@ end A185589.P15953884606242851984
 /-!
 # A185590: Iterate the map in A006369 starting at 44.
 
-The programs for A185590, the canonical program `A185590.P1060238962198747214` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185590 has offset 1).
+The programs for A185590, the canonical program `A185590.P1060238962198747214` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A185590 has offset 1).
 
 The definition of A185590 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6943,7 +6940,7 @@ The definition of A185590 is `conjectured`: the Lean definition is a formula tha
 
 `A006369(a(n-1))` with `a(0)=44`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A185590

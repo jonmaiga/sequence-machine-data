@@ -49,6 +49,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -56,23 +57,21 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1806,7 +1805,7 @@ end A108814.P16792621357602217122
 /-!
 # A108815: Indices of triangular numbers which are products of 3 primes.
 
-The programs for A108815, the canonical program `A108815.P2471550598880521513` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108815 has offset 1).
+The programs for A108815, the canonical program `A108815.P2471550598880521513` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108815 has offset 1).
 
 The definition of A108815 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1815,7 +1814,7 @@ The definition of A108815 is `conjectured`: the Lean definition is a formula tha
 
 `floor(sqrt(2*A075875(n+1)))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A108815
@@ -3952,7 +3951,7 @@ end A108853.P6187311053303397887
 /-!
 # A108854: Numbers k such that 10*k - 127 is prime.
 
-The programs for A108854, the canonical program `A108854.P15242187199517262810` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108854 has offset 1).
+The programs for A108854, the canonical program `A108854.P15242187199517262810` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108854 has offset 1).
 
 The definition of A108854 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3961,7 +3960,7 @@ The definition of A108854 is `conjectured`: the Lean definition is a formula tha
 
 `A108584(n+1)+3`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A108854
@@ -4705,7 +4704,7 @@ end A108856
 /-!
 # A108857: Numbers n such that 10*n + 131 is prime.
 
-The programs for A108857, the canonical program `A108857.P2974898687329617496` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108857 has offset 1).
+The programs for A108857, the canonical program `A108857.P2974898687329617496` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108857 has offset 1).
 
 The definition of A108857 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A024912, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4714,7 +4713,7 @@ The definition of A108857 is `conditional`: the Lean definition is an OEIS formu
 
 `A024912(n+7)-13`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A108857
@@ -6453,7 +6452,7 @@ end A108873.P12697428608938310717
 /-!
 # A108874: Numbers k such that 41*k + 43 is prime.
 
-The programs for A108874, the canonical program `A108874.P4436473570880356935` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108874 has offset 1).
+The programs for A108874, the canonical program `A108874.P4436473570880356935` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A108874 has offset 1).
 
 The definition of A108874 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 233 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6462,7 +6461,7 @@ The definition of A108874 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A001222(41*(n+1)+2)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A108874

@@ -35,33 +35,34 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
-import Seq.B003.C000
+import Seq.B002.C008
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B009.C000
+import Seq.B005.C002
+import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -597,7 +598,7 @@ end A394215.P7262913554751692763
 /-!
 # A394217: Earliest monotonic sequence satisfying a(1)=1 and a(a(n)+a(n-1))=n for n>=1 (with a(k)=0 for k<=0).
 
-The programs for A394217, the canonical program `A394217.P17364854151603139210` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394217 has offset 1).
+The programs for A394217, the canonical program `A394217.P17364854151603139210` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394217 has offset 1).
 
 The definition of A394217 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -640,7 +641,7 @@ end A394217
 
 `n+1-A060973(a(n-1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A394217
@@ -1584,7 +1585,7 @@ end A394239.P10612757144733996511
 /-!
 # A394240: Number of regions formed by extending the faces of a regular n-gonal pyramid.
 
-The programs for A394240, the canonical program `A394240.P15634924062511509081` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394240 has offset 3).
+The programs for A394240, the canonical program `A394240.P15634924062511509081` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394240 has offset 3).
 
 The definition of A394240 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1593,7 +1594,7 @@ The definition of A394240 is `conjectured`: the Lean definition is a formula tha
 
 `A241199(n+1)+A194073(n+1)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A394240
@@ -1661,7 +1662,7 @@ end A394245
 /-!
 # A394246: Upper (1/3,2/3) midsequence of (floor[n/2]^2) and (ceiling[n/2]^2); see Comments.
 
-The programs for A394246, the canonical program `A394246.P12221301581339972486` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394246 has offset 0).
+The programs for A394246, the canonical program `A394246.P12221301581339972486` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394246 has offset 0).
 
 The definition of A394246 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1670,7 +1671,7 @@ The definition of A394246 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(A397107(n)/3)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A394246
@@ -2480,7 +2481,7 @@ end A394265.P16231918944500921189
 /-!
 # A394266: Number of induced cubes in the n-odd graph.
 
-The programs for A394266, the canonical program `A394266.P11615888605151437702` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394266 has offset 1).
+The programs for A394266, the canonical program `A394266.P11615888605151437702` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A394266 has offset 1).
 
 The definition of A394266 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 165 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2489,7 +2490,7 @@ The definition of A394266 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[n²]*A189176(n)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A394266

@@ -40,7 +40,6 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
@@ -53,10 +52,12 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -65,8 +66,6 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -102,7 +101,7 @@ set_option linter.unreachableTactic false
 /-!
 # A209301: Table T(n,k) n, k > 0, T(n,k)=n-k+1, if n>=k, T(n,k)=k-n+2, if n < k. Table read by sides of squares from T(1,n) to T(n,n), then from T(n,n) to T(n,1).
 
-The programs for A209301, the canonical program `A209301.P14437856871989843362` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209301 has offset 1).
+The programs for A209301, the canonical program `A209301.P14437856871989843362` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209301 has offset 1).
 
 The definition of A209301 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9870 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -134,7 +133,7 @@ end A209301
 
 `A053615(n)+2-A118175(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A209301
@@ -569,7 +568,7 @@ end A209301
 /-!
 # A209302: Table T(n,k) = max{n+k-1, n+k-1} n, k > 0, read by sides of squares from T(1,n) to T(n,n), then from T(n,n) to T(n,1).
 
-The programs for A209302, the canonical program `A209302.P13662665736240309991` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209302 has offset 1).
+The programs for A209302, the canonical program `A209302.P13662665736240309991` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209302 has offset 1).
 
 The definition of A209302 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A053188, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -578,7 +577,7 @@ The definition of A209302 is `conditional`: the Lean definition is an OEIS formu
 
 `A000194(n+1)+A053188(n+1)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A209302
@@ -5701,7 +5700,7 @@ end
 end A209353.P9758666450289767670
 
 /-!
-# A209354: Triangular array: T(n,k) = number of partitions of n for which (maximal term)-(minimal term)=k, if 0<=k
+# A209354: Triangular array: T(n,k) = number of partitions of n for which (maximal term)-(minimal term)=k, if 0<=k<n, and T(n,n)=1.
 
 The programs for A209354, there is no canonical definition to state claims against.
 -/
@@ -9535,7 +9534,7 @@ end A209397.P12050902449486046594
 /-!
 # A209398: Number of subsets of {1,...,n} containing two elements whose difference is 2.
 
-The programs for A209398, the canonical program `A209398.P6254359366101448643` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209398 has offset 0).
+The programs for A209398, the canonical program `A209398.P6254359366101448643` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209398 has offset 0).
 
 The definition of A209398 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9544,7 +9543,7 @@ The definition of A209398 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^n-A006498(n+2)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A209398
@@ -9735,7 +9734,7 @@ end A209398
 /-!
 # A209399: Number of subsets of {1,...,n} containing two elements whose difference is 3.
 
-The programs for A209399, the canonical program `A209399.P16508817293797723669` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209399 has offset 0).
+The programs for A209399, the canonical program `A209399.P16508817293797723669` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A209399 has offset 0).
 
 The definition of A209399 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9767,7 +9766,7 @@ end A209399
 
 `2^n-A000045(floor(n/3)+2)*A000045(floor((n+1)/3)+2)*A000045(floor((n+2)/3)+2)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A209399

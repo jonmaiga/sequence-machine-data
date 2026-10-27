@@ -43,17 +43,21 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -67,8 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4162,7 +4164,7 @@ def P9104155058087043546.Spec : Prop :=
 end A288534
 
 /-!
-# A288536: The eventual period of the RATS sequence in base n starting from 1; 0 is for infinity.
+# A288536: Eventual period of the RATS sequence in base n starting from 1; 0 is for infinity.
 
 The programs for A288536, there is no canonical definition to state claims against.
 -/
@@ -7608,7 +7610,7 @@ end A288571
 /-!
 # A288572: a(n) = smallest positive integer k such that (n^3)^k == 1 mod (n+1)^3.
 
-The programs for A288572, the canonical program `A288572.P7014901530328764659` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288572 has offset 1).
+The programs for A288572, the canonical program `A288572.P7014901530328764659` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288572 has offset 1).
 
 The definition of A288572 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7617,7 +7619,7 @@ The definition of A288572 is `conjectured`: the Lean definition is a formula tha
 
 `A145064(A028310(n))*A145979(n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A288572
@@ -8629,7 +8631,7 @@ end A288579.P11807948111405921888
 /-!
 # A288581: a(0)=1, a(1)=0; thereafter a(n) = 2^Fibonacci(n-1)*a(n-1) + a(n-2).
 
-The programs for A288581, the canonical program `A288581.P701209086511978342` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288581 has offset 0).
+The programs for A288581, the canonical program `A288581.P701209086511978342` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A288581 has offset 0).
 
 The definition of A288581 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8638,7 +8640,7 @@ The definition of A288581 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^A000045(n-1)*a(n-1)+a(n-2)` with `a(0)=1, a(1)=0`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A288581

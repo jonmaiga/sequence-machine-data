@@ -37,34 +37,32 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1539,7 +1537,7 @@ def P2081066617402577208.Spec : Prop :=
 end A135133
 
 /-!
-# A135135: Numbers n such that A111426(n) is even.
+# A135135: Numbers k such that A111426(k) is even.
 
 The programs for A135135, there is no canonical definition to state claims against.
 -/
@@ -7173,7 +7171,7 @@ theorem P14182867187768277157.correct : P14182867187768277157.Spec := by
 end A135169
 
 /-!
-# A135170: Primes equal to a sum c1+c2 of two consecutive composite numbers such that lpf(c1)-spf(c1)+lpf(c2)-spf(c2) from their largest and smallest prime factors is prime.
+# A135170: Primes equal to a sum c1+c2 of two consecutive composite numbers such that gpf(c1) - lpf(c1) + gpf(c2) - lpf(c2) from their greatest and least prime factors is prime.
 
 The programs for A135170, there is no canonical definition to state claims against.
 -/
@@ -7399,7 +7397,7 @@ end A135171
 /-!
 # A135172: a(n) = 3^prime(n) + 2^prime(n).
 
-The programs for A135172, the canonical program `A135172.P17366594049466022931` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A135172 has offset 1).
+The programs for A135172, the canonical program `A135172.P17366594049466022931` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A135172 has offset 1).
 
 The definition of A135172 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7408,7 +7406,7 @@ The definition of A135172 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3^A000040(n+1)+2^A000040(n+1)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A135172
@@ -7652,7 +7650,7 @@ end A135173
 /-!
 # A135174: a(n) = 5^prime(n) - 3^prime(n) + 2^prime(n).
 
-The programs for A135174, the canonical program `A135174.P17089642035438683001` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A135174 has offset 1).
+The programs for A135174, the canonical program `A135174.P17089642035438683001` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A135174 has offset 1).
 
 The definition of A135174 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7661,7 +7659,7 @@ The definition of A135174 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5^A000040(n+1)-3^A000040(n+1)+2^A000040(n+1)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A135174

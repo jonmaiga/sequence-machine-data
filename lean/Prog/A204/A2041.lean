@@ -45,20 +45,21 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -66,14 +67,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B007.C000
+import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -107,7 +105,7 @@ set_option linter.unreachableTactic false
 /-!
 # A204100: Number of integers between successive twin primes, divided by 3.
 
-The programs for A204100, the canonical program `A204100.P17943832057395780298` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204100 has offset 1).
+The programs for A204100, the canonical program `A204100.P17943832057395780298` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204100 has offset 1).
 
 The definition of A204100 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A204099, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -116,7 +114,7 @@ The definition of A204100 is `conditional`: the Lean definition is an OEIS formu
 
 `A204099(n+1)/3`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A204100
@@ -5104,7 +5102,7 @@ end A204133
 /-!
 # A204136: Number of composites between successive twin prime pairs.
 
-The programs for A204136, the canonical program `A204136.P1811365136690881817` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204136 has offset 1).
+The programs for A204136, the canonical program `A204136.P1811365136690881817` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A204136 has offset 1).
 
 The definition of A204136 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048614, A204099, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5113,7 +5111,7 @@ The definition of A204136 is `conditional`: the Lean definition is an OEIS formu
 
 `A204099(n+1)-A048614(n+1)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A204136

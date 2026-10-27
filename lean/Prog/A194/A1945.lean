@@ -39,13 +39,14 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -57,19 +58,20 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4117,7 +4119,7 @@ end A194531.P11191131550911079025
 /-!
 # A194532: Jordan function ratio J_6(n)/J_2(n).
 
-The programs for A194532, the canonical program `A194532.P2568676926494303915` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194532 has offset 1).
+The programs for A194532, the canonical program `A194532.P2568676926494303915` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194532 has offset 1).
 
 The definition of A194532 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007434, A069091, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4126,7 +4128,7 @@ The definition of A194532 is `conditional`: the Lean definition is an OEIS formu
 
 `A069091(n+1)/A007434(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A194532
@@ -4238,7 +4240,7 @@ end A194532
 /-!
 # A194533: Jordan function ratio J_8(n)/J_2(n).
 
-The programs for A194533, the canonical program `A194533.P12707079005043601207` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194533 has offset 1).
+The programs for A194533, the canonical program `A194533.P12707079005043601207` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194533 has offset 1).
 
 The definition of A194533 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A065958, A065960, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4247,7 +4249,7 @@ The definition of A194533 is `conditional`: the Lean definition is an OEIS formu
 
 `A065960(n+1)*A065958(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A194533
@@ -7094,7 +7096,7 @@ end A194575.P4588775300088944120
 /-!
 # A194579: Numbers whose sum of the their nonprime divisors is prime.
 
-The programs for A194579, the canonical program `A194579.P6279070803059388328` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194579 has offset 1).
+The programs for A194579, the canonical program `A194579.P6279070803059388328` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194579 has offset 1).
 
 The definition of A194579 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1555 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7103,7 +7105,7 @@ The definition of A194579 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A010051(A023890(n+1))]+1`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A194579
@@ -9614,7 +9616,7 @@ end A194593
 /-!
 # A194594: Numbers such that the sum of the their nonprime divisors and the sum of their prime divisors are both primes.
 
-The programs for A194594, the canonical program `A194594.P725981934005079011` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194594 has offset 1).
+The programs for A194594, the canonical program `A194594.P725981934005079011` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A194594 has offset 1).
 
 The definition of A194594 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1632 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9623,7 +9625,7 @@ The definition of A194594 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A114522(n+1), A194579(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A194594

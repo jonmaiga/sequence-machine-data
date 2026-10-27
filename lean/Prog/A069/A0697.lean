@@ -45,9 +45,11 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -55,10 +57,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -71,8 +75,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3747,7 +3749,7 @@ end A069730.P14637402686303912623
 /-!
 # A069731: Number of unicursal planar maps with n edges rooted at a vertex of odd valency (unicursal means that exactly two vertices are of odd valency; there is an Eulerian path).
 
-The programs for A069731, the canonical program `A069731.P5511356938192013011` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069731 has offset 1).
+The programs for A069731, the canonical program `A069731.P5511356938192013011` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069731 has offset 1).
 
 The definition of A069731 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3756,7 +3758,7 @@ The definition of A069731 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^(n-1)*A000108(n+2)`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A069731
@@ -5752,7 +5754,7 @@ end A069738.P7411621113819297157
 /-!
 # A069739: Size of the key space for isomorphism verification of circulant graphs of order n.
 
-The programs for A069739, the canonical program `A069739.P7899335367046661581` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069739 has offset 1).
+The programs for A069739, the canonical program `A069739.P7899335367046661581` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069739 has offset 1).
 
 The definition of A069739 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5807,7 +5809,7 @@ end A069739
 
 `∏{e}[n+1, A000108(#)]`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A069739
@@ -6844,7 +6846,7 @@ end A069752.P14100893204921822178
 /-!
 # A069754: Counts transitions between prime and nonprime to reach the number n.
 
-The programs for A069754, the canonical program `A069754.P3749326683592309517` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069754 has offset 1).
+The programs for A069754, the canonical program `A069754.P3749326683592309517` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069754 has offset 1).
 
 The definition of A069754 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6994,19 +6996,13 @@ namespace A069754
 def P16426458437725738245.Spec : Prop :=
   ∀ n, P16426458437725738245.a n = A069754 (n + 1)
 
-theorem P16426458437725738245.correct : P16426458437725738245.Spec := by
-  intro n
-  simp only [A069754, Nat.add_sub_cancel, A069754.P16426458437725738245.f1, A069754.P16426458437725738245.a, A069754.P3749326683592309517.f1, A069754.P3749326683592309517.a, A005171, A005171.P15860856746370777121.a, A010051, A010051.P15078252821583414300.a, A028310, A028310.P18130301328277559831.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
-
 end A069754
 
 /-! ## A069754.P3749326683592309517
 
 `∑[(A010051(n+1)-A010051(A028310(n)))²]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A069754
@@ -7284,7 +7280,7 @@ end A069754
 /-!
 # A069755: Frobenius number of the numerical semigroup generated by 3 consecutive triangular numbers.
 
-The programs for A069755, the canonical program `A069755.P3214116244876995295` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069755 has offset 2).
+The programs for A069755, the canonical program `A069755.P3214116244876995295` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069755 has offset 2).
 
 The definition of A069755 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9997 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7293,7 +7289,7 @@ The definition of A069755 is `conjectured`: the Lean definition is a formula tha
 
 `(A004526(n)+1)*A045943(n+3)-1`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A069755
@@ -8258,7 +8254,7 @@ end A069763
 /-!
 # A069764: Frobenius number of the numerical semigroup generated by consecutive octahedral numbers.
 
-The programs for A069764, the canonical program `A069764.P8811235578831581179` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069764 has offset 2).
+The programs for A069764, the canonical program `A069764.P8811235578831581179` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A069764 has offset 2).
 
 The definition of A069764 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9997 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8267,7 +8263,7 @@ The definition of A069764 is `conjectured`: the Lean definition is a formula tha
 
 `A005900(n+2)*A005900(n+3)-A001845(n+2)`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A069764

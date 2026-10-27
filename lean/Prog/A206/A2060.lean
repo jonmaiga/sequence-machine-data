@@ -25,35 +25,37 @@ import Seq.B000.C033
 import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C002
+import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2727,7 +2729,7 @@ end A206030.P17521812624570129760
 /-!
 # A206032: a(n) = Product_{d|n} sigma(d) where sigma = A000203.
 
-The programs for A206032, the canonical program `A206032.P15818663996432524408` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206032 has offset 1).
+The programs for A206032, the canonical program `A206032.P15818663996432524408` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206032 has offset 1).
 
 The definition of A206032 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3359 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2788,7 +2790,7 @@ end A206032
 
 `∏{d}[n+1, A001065(#)+#]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A206032
@@ -6820,21 +6822,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A206080.P4482458306746837615
-
-/-! ## A206080.P3901553565423602114
-
-`and(A206085(A167614(n+1)), A339791(n+1))`
--/
-
-namespace A206080.P3901553565423602114
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A206085 (A167614 (n + 1)).toNat) (A339791 (n + 1))
-
-end
-
-end A206080.P3901553565423602114
 
 /-!
 # A206081: Number of (n+1)X5 0..3 arrays with the number of clockwise edge increases in every 2X2 subblock equal to one.

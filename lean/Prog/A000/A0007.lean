@@ -49,19 +49,21 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -71,9 +73,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5679,7 +5678,7 @@ end A000739.P1869051578329494575
 /-!
 # A000740: Number of 2n-bead balanced binary necklaces of fundamental period 2n, equivalent to reversed complement; also Dirichlet convolution of b_n=2^(n-1) with mu(n); also number of components of Mandelbrot set corresponding to Julia sets with an attractive n-cycle.
 
-The programs for A000740, the canonical program `A000740.P14835443835842648949` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000740 has offset 1).
+The programs for A000740, the canonical program `A000740.P14835443835842648949` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000740 has offset 1).
 
 The definition of A000740 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A027375, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5688,7 +5687,7 @@ The definition of A000740 is `conditional`: the Lean definition is an OEIS formu
 
 `A027375(n+1)/2`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A000740
@@ -6455,7 +6454,7 @@ end A000741
 /-!
 # A000742: Number of compositions of n into 4 ordered relatively prime parts.
 
-The programs for A000742, the canonical program `A000742.P13490306228597101565` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000742 has offset 4).
+The programs for A000742, the canonical program `A000742.P13490306228597101565` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000742 has offset 4).
 
 The definition of A000742 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1017 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6464,7 +6463,7 @@ The definition of A000742 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A015627(n+3)+∑[∑[n]]]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A000742
@@ -6612,7 +6611,7 @@ end A000742
 /-!
 # A000743: Number of compositions of n into 5 ordered relatively prime parts.
 
-The programs for A000743, the canonical program `A000743.P6553726784885921065` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000743 has offset 5).
+The programs for A000743, the canonical program `A000743.P6553726784885921065` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000743 has offset 5).
 
 The definition of A000743 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 358 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6621,7 +6620,7 @@ The definition of A000743 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A015640(n+4)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A000743
@@ -8850,7 +8849,7 @@ def P14382154696302830648.Spec : Prop :=
 end A000757
 
 /-!
-# A000758: Related to cumulative height of rooted plane trees.
+# A000758: Sum over rooted plane trees with n edges of (height - 1); height = measured edges.
 
 The programs for A000758, there is no canonical definition to state claims against.
 -/
@@ -15605,12 +15604,6 @@ namespace A000799
 /-- `A114699(n)+A064355(n+1)` -/
 def P4498873731031775068.Spec : Prop :=
   ∀ n, P4498873731031775068.a n = A000799 (n + 1)
-
-theorem P4498873731031775068.correct : P4498873731031775068.Spec := by
-  intro n
-  simp only [A000799, Nat.add_sub_cancel, A000799.P4498873731031775068.a, A000799.P3070027340421669471.a, A064355, A064355.P15803301992756024606.a, A114699, A114699.P8287388229855982445.a, A011946, A011946.P13849652241662667985.f1, A011946.P13849652241662667985.a, A001511, A001511.P17146462531039486101.a, A296302, A296302.P8637239320253714587.f1, A296302.P8637239320253714587.a, A006519, A006519.P10435570611646570274.a, A034771, A034771.P14136708575511469544.f1, A034771.P14136708575511469544.a, A247343, A247343.P16054937885260863727.f1, A247343.P16054937885260863727.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A000799
 

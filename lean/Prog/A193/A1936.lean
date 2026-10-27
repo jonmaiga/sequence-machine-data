@@ -40,6 +40,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -53,6 +54,7 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -60,10 +62,7 @@ import Seq.B005.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3424,7 +3423,7 @@ end A193640.P7777865122332202829
 /-!
 # A193641: Number of arrays of -1..1 integers x(1..n) with every x(i) in a subsequence of length 1 or 2 with sum zero.
 
-The programs for A193641, the canonical program `A193641.P3318899875766667403` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193641 has offset 1).
+The programs for A193641, the canonical program `A193641.P3318899875766667403` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193641 has offset 0).
 
 The definition of A193641 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 291 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3448,7 +3447,7 @@ namespace A193641
 
 /-- `ogf((1+x+x^2)/(1-2x-x^3))` -/
 def P17367874026408732483.Spec : Prop :=
-  ∀ n, P17367874026408732483.a n = A193641 (n + 1)
+  ∀ n, P17367874026408732483.a n = A193641 n
 
 end A193641
 
@@ -3463,11 +3462,11 @@ namespace A193641
 
 /-- `2*a(n-1)+a(n-3)` -/
 def P3318899875766667403.Spec : Prop :=
-  ∀ n, (P3318899875766667403.a n : ℤ) = A193641 (n + 1)
+  ∀ n, (P3318899875766667403.a n : ℤ) = A193641 n
 
 theorem P3318899875766667403.correct : P3318899875766667403.Spec := by
   intro n
-  simp only [A193641, Nat.add_sub_cancel]
+  simp only [A193641]
 
 end A193641
 
@@ -3490,7 +3489,7 @@ namespace A193641
 
 /-- `a(n-3)+lcm(2, a(n-1))` -/
 def P12170907382141216293.Spec : Prop :=
-  ∀ n, (P12170907382141216293.a n : ℤ) = A193641 (n + 1)
+  ∀ n, (P12170907382141216293.a n : ℤ) = A193641 n
 
 end A193641
 
@@ -3513,13 +3512,7 @@ namespace A193641
 
 /-- `a(n-1)+a(n-1)+a(n-3)` -/
 def P3137933960971653028.Spec : Prop :=
-  ∀ n, (P3137933960971653028.a n : ℤ) = A193641 (n + 1)
-
-theorem P3137933960971653028.correct : P3137933960971653028.Spec := by
-  intro n
-  simp only [A193641, Nat.add_sub_cancel, A193641.P3137933960971653028.a, A193641.P3318899875766667403.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  try (first | ring1 | ring_nf)
+  ∀ n, (P3137933960971653028.a n : ℤ) = A193641 n
 
 end A193641
 
@@ -3545,7 +3538,7 @@ namespace A193641
 
 /-- `∑[A052910(n)]` -/
 def P5770961143313691779.Spec : Prop :=
-  ∀ n, P5770961143313691779.a n = A193641 (n + 1)
+  ∀ n, P5770961143313691779.a n = A193641 n
 
 end A193641
 
@@ -3568,7 +3561,7 @@ namespace A193641
 
 /-- `or(1, A232230(n+1))` -/
 def P17538861444740180095.Spec : Prop :=
-  ∀ n, P17538861444740180095.a n = A193641 (n + 1)
+  ∀ n, P17538861444740180095.a n = A193641 n
 
 end A193641
 
@@ -3591,7 +3584,7 @@ namespace A193641
 
 /-- `2*A190512(n)-a(n-1)` -/
 def P8750196785700851571.Spec : Prop :=
-  ∀ n, P8750196785700851571.a n = A193641 (n + 1)
+  ∀ n, P8750196785700851571.a n = A193641 n
 
 end A193641
 
@@ -3614,7 +3607,7 @@ namespace A193641
 
 /-- `A214260(n)+A008998(n)` -/
 def P10760440129377058551.Spec : Prop :=
-  ∀ n, P10760440129377058551.a n = A193641 (n + 1)
+  ∀ n, P10760440129377058551.a n = A193641 n
 
 end A193641
 
@@ -3640,7 +3633,7 @@ namespace A193641
 
 /-- `A008998(n)+Δ[A052980(n)]` -/
 def P707968074429667548.Spec : Prop :=
-  ∀ n, P707968074429667548.a n = A193641 (n + 1)
+  ∀ n, P707968074429667548.a n = A193641 n
 
 end A193641
 
@@ -3663,7 +3656,7 @@ namespace A193641
 
 /-- `A008998(n+1)-A052980(n)` -/
 def P539503715992242137.Spec : Prop :=
-  ∀ n, P539503715992242137.a n = A193641 (n + 1)
+  ∀ n, P539503715992242137.a n = A193641 n
 
 end A193641
 
@@ -3686,7 +3679,7 @@ namespace A193641
 
 /-- `A190512(n+1)-A008998(n)` -/
 def P15156986034292996052.Spec : Prop :=
-  ∀ n, P15156986034292996052.a n = A193641 (n + 1)
+  ∀ n, P15156986034292996052.a n = A193641 n
 
 end A193641
 
@@ -3709,7 +3702,7 @@ namespace A193641
 
 /-- `A280193(2*n)+A232230(n+1)-1` -/
 def P8032841105427095180.Spec : Prop :=
-  ∀ n, P8032841105427095180.a n = A193641 (n + 1)
+  ∀ n, P8032841105427095180.a n = A193641 n
 
 end A193641
 
@@ -3732,7 +3725,7 @@ namespace A193641
 
 /-- `A052980(n+1)+A332647(n)-A332491(n)` -/
 def P15419702656219848189.Spec : Prop :=
-  ∀ n, P15419702656219848189.a n = A193641 (n + 1)
+  ∀ n, P15419702656219848189.a n = A193641 n
 
 end A193641
 
@@ -3755,7 +3748,7 @@ namespace A193641
 
 /-- `A008998(n+1)+A008998(n+1)-A285184(n+1)` -/
 def P8356671640639945840.Spec : Prop :=
-  ∀ n, P8356671640639945840.a n = A193641 (n + 1)
+  ∀ n, P8356671640639945840.a n = A193641 n
 
 end A193641
 
@@ -3778,7 +3771,7 @@ namespace A193641
 
 /-- `A280193(2*n+1)+A280193(2*n)+A232230(n+1)` -/
 def P11838166711246188754.Spec : Prop :=
-  ∀ n, P11838166711246188754.a n = A193641 (n + 1)
+  ∀ n, P11838166711246188754.a n = A193641 n
 
 end A193641
 
@@ -3801,7 +3794,7 @@ namespace A193641
 
 /-- `A233583(2*(n+1))+A232230(n+1)-A233583(2*n+1)` -/
 def P10715268210244089369.Spec : Prop :=
-  ∀ n, P10715268210244089369.a n = A193641 (n + 1)
+  ∀ n, P10715268210244089369.a n = A193641 n
 
 end A193641
 
@@ -3824,7 +3817,7 @@ namespace A193641
 
 /-- `A232059(n+1)/2` -/
 def P11941165197183828770.Spec : Prop :=
-  ∀ n, P11941165197183828770.a n = (A193641 (n + 1) : ℚ)
+  ∀ n, P11941165197183828770.a n = (A193641 n : ℚ)
 
 end A193641
 
@@ -3850,7 +3843,7 @@ namespace A193641
 
 /-- `Δ[A285184(n+1)/2]` -/
 def P13620196739652125744.Spec : Prop :=
-  ∀ n, P13620196739652125744.a n = (A193641 (n + 1) : ℚ)
+  ∀ n, P13620196739652125744.a n = (A193641 n : ℚ)
 
 end A193641
 
@@ -3876,7 +3869,7 @@ namespace A193641
 
 /-- `Δ[A077852(n)]-A052980(n)` -/
 def P3413470337371404562.Spec : Prop :=
-  ∀ n, P3413470337371404562.a n = A193641 (n + 1)
+  ∀ n, P3413470337371404562.a n = A193641 n
 
 end A193641
 

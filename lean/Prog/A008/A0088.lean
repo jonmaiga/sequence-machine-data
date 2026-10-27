@@ -51,17 +51,19 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -74,10 +76,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -8489,9 +8488,9 @@ end A008832.P14836315930743453156
 /-!
 # A008833: Largest square dividing n.
 
-The programs for A008833, the canonical program `A008833.P18388074464065390543` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008833 has offset 1).
+The programs for A008833, the canonical program `A008833.P11016767941717339701` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008833 has offset 1).
 
-The definition of A008833 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A008833 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
 
 /-! ## A008833.P5515188948271298231
@@ -8520,9 +8519,17 @@ end A008833
 /-! ## A008833.P18388074464065390543
 
 `(n+1)/A007913(n+1)`
-
-The canonical program, it is in `Seq.B002.C000`.
 -/
+
+namespace A008833.P18388074464065390543
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℚ) / (A007913 (n + 1) : ℚ)
+
+end
+
+end A008833.P18388074464065390543
 
 namespace A008833
 
@@ -8558,26 +8565,19 @@ end A008833
 /-! ## A008833.P11016767941717339701
 
 `∏{p}[n+1, #^val(n+1, #²)]²`
+
+The canonical program, it is in `Seq.B000.C001`.
 -/
-
-namespace A008833.P11016767941717339701
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n + 1
-
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (∏ p ∈ Nat.primeFactors (f1 n), p ^ SequenceMachineLib.valuation (n + 1) (p ^ 2)) ^ 2
-
-end
-
-end A008833.P11016767941717339701
 
 namespace A008833
 
 /-- `∏{p}[n+1, #^val(n+1, #²)]²` -/
 def P11016767941717339701.Spec : Prop :=
   ∀ n, (P11016767941717339701.a n : ℤ) = A008833 (n + 1)
+
+theorem P11016767941717339701.correct : P11016767941717339701.Spec := by
+  intro n
+  simp only [A008833, Nat.add_sub_cancel]
 
 end A008833
 
@@ -9415,9 +9415,9 @@ end A008834
 /-!
 # A008835: Largest 4th power dividing n.
 
-The programs for A008835, the canonical program `A008835.P15108577995653560625` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008835 has offset 1).
+The programs for A008835, the canonical program `A008835.P7771124106947273383` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008835 has offset 1).
 
-The definition of A008835 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A053165, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A008835 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000188, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A008835.P14671041504740576390
@@ -9446,9 +9446,17 @@ end A008835
 /-! ## A008835.P15108577995653560625
 
 `(n+1)/A053165(n+1)`
-
-The canonical program, it is in `Seq.B012.C000`.
 -/
+
+namespace A008835.P15108577995653560625
+noncomputable section
+
+def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
+  (n + 1 : ℚ) / (A053165 (n + 1) : ℚ)
+
+end
+
+end A008835.P15108577995653560625
 
 namespace A008835
 
@@ -9461,23 +9469,19 @@ end A008835
 /-! ## A008835.P7771124106947273383
 
 `A000188(A000188(n+1))^4`
+
+The canonical program, it is in `Seq.B001.C000`.
 -/
-
-namespace A008835.P7771124106947273383
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A000188 (A000188 (n + 1)).toNat ^ 4
-
-end
-
-end A008835.P7771124106947273383
 
 namespace A008835
 
 /-- `A000188(A000188(n+1))^4` -/
 def P7771124106947273383.Spec : Prop :=
   ∀ n, P7771124106947273383.a n = A008835 (n + 1)
+
+theorem P7771124106947273383.correct : P7771124106947273383.Spec := by
+  intro n
+  simp only [A008835, Nat.add_sub_cancel]
 
 end A008835
 
@@ -9832,7 +9836,7 @@ end A008835
 /-!
 # A008836: Liouville's function lambda(n) = (-1)^k, where k is number of primes dividing n (counted with multiplicity).
 
-The programs for A008836, the canonical program `A008836.P691704047226663751` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008836 has offset 1).
+The programs for A008836, the canonical program `A008836.P691704047226663751` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A008836 has offset 1).
 
 The definition of A008836 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9933,7 +9937,7 @@ end A008836
 
 `A033999(A001222(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C000`.
 -/
 
 namespace A008836

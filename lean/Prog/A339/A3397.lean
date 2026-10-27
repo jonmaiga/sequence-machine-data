@@ -41,7 +41,6 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
@@ -52,10 +51,11 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -66,11 +66,10 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3006,7 +3005,7 @@ end A339743.P9006874618156892155
 /-!
 # A339744: Numbers k such that rad(k)^2 < sigma(k), where rad(k) is the squarefree kernel of k (A007947) and sigma(k) is the sum of divisors of k (A000203).
 
-The programs for A339744, the canonical program `A339744.P17340039082296367057` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339744 has offset 1).
+The programs for A339744, the canonical program `A339744.P17340039082296367057` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339744 has offset 1).
 
 The definition of A339744 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1192 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3015,7 +3014,7 @@ The definition of A339744 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A007947(n+1)², A000203(n+1)]+1`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A339744
@@ -4573,7 +4572,7 @@ end A339759.P9526342440621483833
 /-!
 # A339760: Number of (undirected) Hamiltonian paths in the 2 X n king graph.
 
-The programs for A339760, the canonical program `A339760.P4038209715128270755` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339760 has offset 1).
+The programs for A339760, the canonical program `A339760.P4038209715128270755` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A339760 has offset 1).
 
 The definition of A339760 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 195 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4582,7 +4581,7 @@ The definition of A339760 is `conjectured`: the Lean definition is a formula tha
 
 `2^n*A177282(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A339760
@@ -6970,7 +6969,7 @@ end
 end A339789.P4050891228236428383
 
 /-!
-# A339790: First coefficient of the lindep transform of sigma(n).
+# A339790: 
 
 The programs for A339790, there is no canonical definition to state claims against.
 -/
@@ -7036,7 +7035,7 @@ end
 end A339790.P16375848680453192520
 
 /-!
-# A339791: Second coefficient of the lindep transform of sigma(n).
+# A339791: 
 
 The programs for A339791, there is no canonical definition to state claims against.
 -/

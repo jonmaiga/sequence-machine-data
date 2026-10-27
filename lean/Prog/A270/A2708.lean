@@ -44,17 +44,20 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -67,7 +70,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -195,7 +197,7 @@ end A270802.P5079254458398392181
 /-!
 # A270803: Formal inverse of Thue-Morse sequence A010060.
 
-The programs for A270803, the canonical program `A270803.P9719610015116545739` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270803 has offset 0).
+The programs for A270803, the canonical program `A270803.P9719610015116545739` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270803 has offset 0).
 
 The definition of A270803 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -281,7 +283,7 @@ end A270803
 
 `and(A151666(ceil(n/2)), A251720(n+1))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A270803
@@ -3085,7 +3087,7 @@ end A270827.P5740527937251662031
 /-!
 # A270828: a(n) = (Sum_{k=1..2n-1} prime(k)) mod prime(n).
 
-The programs for A270828, the canonical program `A270828.P17164903374292891255` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270828 has offset 1).
+The programs for A270828, the canonical program `A270828.P17164903374292891255` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270828 has offset 1).
 
 The definition of A270828 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3094,7 +3096,7 @@ The definition of A270828 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A007504(2*(n+1)-1)%A000040(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A270828
@@ -4004,7 +4006,7 @@ end
 end A270839.P9390627361952664552
 
 /-!
-# A270840: Numbers n such that n^3 + 1 is a 2-pseudoprime (or Sarrus number).
+# A270840: Numbers k such that k^3 + 1 is a 2-pseudoprime (or Sarrus number).
 
 The programs for A270840, there is no canonical definition to state claims against.
 -/

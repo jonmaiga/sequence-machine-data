@@ -7,7 +7,6 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
-import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
@@ -40,28 +39,30 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -95,7 +96,7 @@ set_option linter.unreachableTactic false
 /-!
 # A061900: Triangular numbers that are not squarefree.
 
-The programs for A061900, the canonical program `A061900.P16677403483452273551` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061900 has offset 1).
+The programs for A061900, the canonical program `A061900.P16677403483452273551` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061900 has offset 1).
 
 The definition of A061900 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -104,7 +105,7 @@ The definition of A061900 is `conjectured`: the Lean definition is a formula tha
 
 `A000217(A067197(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A061900
@@ -4105,7 +4106,7 @@ end A061927
 /-!
 # A061928: Array T(n,m) = 1/beta(n+1,m+1) read by antidiagonals.
 
-The programs for A061928, the canonical program `A061928.P7626325743492745551` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061928 has offset 1).
+The programs for A061928, the canonical program `A061928.P7626325743492745551` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A061928 has offset 1).
 
 The definition of A061928 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4275,7 +4276,7 @@ end A061928
 
 `A014410(n+2)*A133196(n+1)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A061928
@@ -4632,7 +4633,7 @@ end
 end A061930.P18062241161752183652
 
 /-!
-# A061931: Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 2 (most significant digit on right).
+# A061931: Numbers k such that k divides the (right) concatenation of all numbers <= k written in base 2 (most significant digit on right).
 
 The programs for A061931, there is no canonical definition to state claims against.
 -/
@@ -4836,7 +4837,7 @@ end
 end A061944.P1184535239241889179
 
 /-!
-# A061955: Numbers n such that n divides the (left) concatenation of all numbers <= n written in base 2 (most significant digit on right).
+# A061955: Numbers k such that k divides the (left) concatenation of all numbers <= k written in base 2 (most significant digit on right).
 
 The programs for A061955, there is no canonical definition to state claims against.
 -/

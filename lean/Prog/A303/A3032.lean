@@ -43,30 +43,33 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B005.C000
+import Seq.B004.C003
 import Seq.B005.C001
-import Seq.B006.C000
+import Seq.B005.C002
+import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -918,7 +921,7 @@ end A303211.P16616231730813182615
 /-!
 # A303212: Number of minimum total dominating sets in the n X n rook complement graph.
 
-The programs for A303212, the canonical program `A303212.P12818442115741467514` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303212 has offset 1).
+The programs for A303212, the canonical program `A303212.P12818442115741467514` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303212 has offset 1).
 
 The definition of A303212 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1038,7 +1041,7 @@ end A303212
 
 `xor(A063524(n), A179058(n+1))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A303212
@@ -1732,7 +1735,7 @@ end A303221.P1376696028636671079
 /-!
 # A303223: Sum of the perimeters of the family of rectangles with dimensions p and q such that |q - p| is prime, n = p + q and p < q.
 
-The programs for A303223, the canonical program `A303223.P3139631308333533051` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303223 has offset 1).
+The programs for A303223, the canonical program `A303223.P3139631308333533051` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303223 has offset 1).
 
 The definition of A303223 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1741,7 +1744,7 @@ The definition of A303223 is `conjectured`: the Lean definition is a formula tha
 
 `2*(n+1)*A084360(n+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A303223
@@ -2247,7 +2250,7 @@ end A303225.P18381331992101547977
 /-!
 # A303226: Number of minimal total dominating sets in the n-gear graph.
 
-The programs for A303226, the canonical program `A303226.P6762589886093325207` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303226 has offset 1).
+The programs for A303226, the canonical program `A303226.P6762589886093325207` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303226 has offset 1).
 
 The definition of A303226 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 409 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2256,7 +2259,7 @@ The definition of A303226 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A193744(n)]+Δ[A193744(n)]²`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A303226
@@ -4584,7 +4587,7 @@ end A303258.P216090488655215935
 /-!
 # A303259: Number of ordered rooted trees with n non-root nodes such that the maximal outdegree equals ceiling(n/2).
 
-The programs for A303259, the canonical program `A303259.P6745834928257893132` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303259 has offset 0).
+The programs for A303259, the canonical program `A303259.P6745834928257893132` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303259 has offset 0).
 
 The definition of A303259 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 152 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4593,7 +4596,7 @@ The definition of A303259 is `conjectured`: the Lean definition is a formula tha
 
 `A046899(A007590(n))-A142150(n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A303259
@@ -4864,7 +4867,7 @@ end A303264.P16196846227556363260
 /-!
 # A303269: Sum of squares of odd digits minus sum of squares of even digits of n.
 
-The programs for A303269, the canonical program `A303269.P14236862448181407010` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303269 has offset 0).
+The programs for A303269, the canonical program `A303269.P14236862448181407010` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303269 has offset 0).
 
 The definition of A303269 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4873,7 +4876,7 @@ The definition of A303269 is `conjectured`: the Lean definition is a formula tha
 
 `∑{digits}[n, A181983(#²)]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A303269
@@ -5749,7 +5752,7 @@ end A303273
 /-!
 # A303277: If n = Product (p_j^k_j) then a(n) = (Sum (k_j))^(Sum (p_j)).
 
-The programs for A303277, the canonical program `A303277.P7597357755535033035` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303277 has offset 1).
+The programs for A303277, the canonical program `A303277.P7597357755535033035` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303277 has offset 1).
 
 The definition of A303277 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A008472, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5758,7 +5761,7 @@ The definition of A303277 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(n+1)^A008472(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A303277

@@ -36,37 +36,40 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C001
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1280,7 +1283,7 @@ end A343004.P10425952811875255427
 /-!
 # A343005: a(n) is the number of dihedral symmetries D_{2m} (m >= 3) that configurations of n non-overlapping equal circles can possess.
 
-The programs for A343005, the canonical program `A343005.P12079463249334117776` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343005 has offset 2).
+The programs for A343005, the canonical program `A343005.P12079463249334117776` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343005 has offset 2).
 
 The definition of A343005 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A274010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1312,7 +1315,7 @@ end A343005
 
 `A274010(n+2)-1`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A343005
@@ -2390,7 +2393,7 @@ end A343007
 /-!
 # A343008: a(n) = F(n+5) * F(n+2) - 12 * (-1)^n where F(n) = A000045(n) are the Fibonacci numbers.
 
-The programs for A343008, the canonical program `A343008.P1435139032358656035` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343008 has offset 1).
+The programs for A343008, the canonical program `A343008.P1435139032358656035` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343008 has offset 1).
 
 The definition of A343008 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000045(n+6)*A000045(n+3)-12*(-1)^(n+1)` (program `A343008.P1435139032358656035`, by `A343008.P1435139032358656035.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2399,7 +2402,7 @@ The definition of A343008 is `verified`: the Lean definition is proven equivalen
 
 `A000045(n+6)*A000045(n+3)-12*(-1)^(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A343008
@@ -2610,7 +2613,7 @@ end A343009.P16069251902897136807
 /-!
 # A343010: Integers k for which there exist three consecutive Fibonacci numbers a, b, and c such that a*b*c = k*(a+b+c).
 
-The programs for A343010, the canonical program `A343010.P18443827266205599969` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343010 has offset 1).
+The programs for A343010, the canonical program `A343010.P18443827266205599969` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343010 has offset 1).
 
 The definition of A343010 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 161 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2619,7 +2622,7 @@ The definition of A343010 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(A077259(n)/sqrt(5))`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A343010
@@ -3437,7 +3440,7 @@ end A343021.P3284734054093826681
 /-!
 # A343022: Discriminants with exactly 1 associated cyclic cubic field.
 
-The programs for A343022, the canonical program `A343022.P16274586819737777029` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343022 has offset 1).
+The programs for A343022, the canonical program `A343022.P16274586819737777029` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343022 has offset 1).
 
 The definition of A343022 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 922 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3922,7 +3925,7 @@ end A343022
 
 `(eq[1, A343023(n+1)]+1)²`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A343022
@@ -3995,7 +3998,7 @@ end A343022
 /-!
 # A343023: Number of cyclic cubic fields with discriminant n^2.
 
-The programs for A343023, the canonical program `A343023.P3905545394748964052` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343023 has offset 1).
+The programs for A343023, the canonical program `A343023.P3905545394748964052` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343023 has offset 1).
 
 The definition of A343023 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4004,7 +4007,7 @@ The definition of A343023 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A160498(n+1)/2)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A343023
@@ -6194,12 +6197,6 @@ namespace A343030
 def P10929459800464117575.Spec : Prop :=
   ∀ n, P10929459800464117575.a n = A343030 n
 
-theorem P10929459800464117575.correct : P10929459800464117575.Spec := by
-  intro n
-  simp only [A343030, Nat.add_sub_cancel, A343030.P10929459800464117575.a, A343030.P6588649687182581724.a, A004718, A004718.P18113542795219450323.a, A014081, A014081.P14878370479040452879.a, A154437, A154437.P11607465258887740319.a, A343029, A343029.P9025480771425565583.a, A000120, A000120.P2816527436160941581.a, A056539, A056539.P17406113578210965747.a, A069010, A069010.P14932719103722593844.a, A335858, A335858.P3204271633163649755.a, A003188, A003188.P10544524695508875182.a, A005187, A005187.P3874015513960485494.a, A005811, A005811.P8696411420205566785.a, A180200, A180200.P2958972076606443306.a, A341916, A341916.P17753814801162057676.a, A003817, A003817.P16251594020616633079.a, A006068, A006068.P16534033749009019403.a, A145342, A145342.P11180459690303212781.a, A292600, A292600.P3914548694480041296.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A343030
 
 /-! ## A343030.P5243194101840521843
@@ -7176,7 +7173,7 @@ end A343036.P5888940402931184540
 /-!
 # A343037: Triangle T(n,k), n >= 2, 1 <= k <= n-1, read by rows, where T(n,k) is the difference between smallest square >= binomial(n,k) and binomial(n,k).
 
-The programs for A343037, the canonical program `A343037.P13066724117359512998` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343037 has offset 2).
+The programs for A343037, the canonical program `A343037.P13066724117359512998` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343037 has offset 2).
 
 The definition of A343037 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9870 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7185,7 +7182,7 @@ The definition of A343037 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(sqrt(A014410(n+2)))²-A014410(n+2)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A343037
@@ -7581,7 +7578,7 @@ end A343039.P16699527375614269498
 /-!
 # A343041: a(0) = 0 and for any n > 0, a(n) = A343040(a(n-1), n).
 
-The programs for A343041, the canonical program `A343041.P18075580334422087876` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343041 has offset 0).
+The programs for A343041, the canonical program `A343041.P18075580334422087876` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343041 has offset 0).
 
 The definition of A343041 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5040 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7590,7 +7587,7 @@ The definition of A343041 is `conjectured`: the Lean definition is a formula tha
 
 `A200748(∑[char[A162608(n)]])`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A343041
@@ -8096,7 +8093,7 @@ end A343044.P5990149857503558233
 /-!
 # A343045: a(0) = 0 and for any n > 0, a(n) = A343044(a(n-1), n).
 
-The programs for A343045, the canonical program `A343045.P12551922503893661666` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343045 has offset 0).
+The programs for A343045, the canonical program `A343045.P12551922503893661666` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343045 has offset 0).
 
 The definition of A343045 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8105,7 +8102,7 @@ The definition of A343045 is `conjectured`: the Lean definition is a formula tha
 
 `A343048(∑[char[A060735(n+1)]])`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A343045
@@ -8371,7 +8368,7 @@ end A343047.P3426116519367052358
 /-!
 # A343048: a(n) is the least number whose sum of digits in primorial base equals n.
 
-The programs for A343048, the canonical program `A343048.P14684247122874373269` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343048 has offset 0).
+The programs for A343048, the canonical program `A343048.P14684247122874373269` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343048 has offset 0).
 
 The definition of A343048 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8380,7 +8377,7 @@ The definition of A343048 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A060735(n+1)-1`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A343048
@@ -9193,7 +9190,7 @@ end A343067.P8035184819504798077
 /-!
 # A343070: a(1) = 1, for n > 1, a(n) is the smallest positive integer for which a(n-1) + n + a(n) is a prime.
 
-The programs for A343070, the canonical program `A343070.P18243399081581127892` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343070 has offset 1).
+The programs for A343070, the canonical program `A343070.P18243399081581127892` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A343070 has offset 1).
 
 The definition of A343070 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9202,7 +9199,7 @@ The definition of A343070 is `conjectured`: the Lean definition is a formula tha
 
 `A013632(a(n-1)+1+n)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A343070

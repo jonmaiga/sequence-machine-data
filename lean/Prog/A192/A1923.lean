@@ -48,8 +48,8 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -61,17 +61,17 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -877,7 +877,7 @@ end A192304
 /-!
 # A192305: 0-sequence of reduction of (2n) by x^2 -> x+1.
 
-The programs for A192305, the canonical program `A192305.P9314614046236981238` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192305 has offset 1).
+The programs for A192305, the canonical program `A192305.P9314614046236981238` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192305 has offset 1).
 
 The definition of A192305 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -886,7 +886,7 @@ The definition of A192305 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A190062(n+1)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A192305
@@ -1848,7 +1848,7 @@ end A192306
 /-!
 # A192307: 0-sequence of reduction of (3n) by x^2 -> x+1.
 
-The programs for A192307, the canonical program `A192307.P2714161128456340537` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192307 has offset 1).
+The programs for A192307, the canonical program `A192307.P2714161128456340537` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192307 has offset 1).
 
 The definition of A192307 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1857,7 +1857,7 @@ The definition of A192307 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `3*A190062(n+1)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A192307
@@ -2936,7 +2936,7 @@ end A192309
 /-!
 # A192310: 1-sequence of reduction of (3n-1) by x^2 -> x+1.
 
-The programs for A192310, the canonical program `A192310.P2475868322072867542` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192310 has offset 1).
+The programs for A192310, the canonical program `A192310.P2475868322072867542` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192310 has offset 1).
 
 The definition of A192310 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 464 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2971,7 +2971,7 @@ end A192310
 
 `A192306(n+1)+A014286(n)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A192310

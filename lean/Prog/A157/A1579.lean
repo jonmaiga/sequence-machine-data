@@ -43,18 +43,20 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -66,9 +68,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7209,7 +7208,7 @@ end
 end A157938.P15150135300522685793
 
 /-!
-# A157940: Numbers n divisible by the largest prime <= sqrt(n) which are not in A001248 (primes squared) or A006094 (product of two consecutive primes).
+# A157940: Numbers m divisible by the largest prime <= sqrt(m) which are not in A001248 (primes squared) or A006094 (product of two consecutive primes).
 
 The programs for A157940, there is no canonical definition to state claims against.
 -/
@@ -8877,7 +8876,7 @@ end A157961
 /-!
 # A157963: Triangle T(n,k), 0<=k<=n, read by rows given by [1,q-1,q^2,q^3-q,q^4,q^5-q^2,q^6,q^7-q^3,q^8,...] DELTA [ -1,0,-q,0,-q^2,0,-q^3,0,-q^4,0,-q^5,0,...] (for q=2) = [1,1,4,6,16,28,64,...] DELTA [ -1,0,-2,0,-4,0,-8,0,-16,0,...] where DELTA is the operator defined in A084938.
 
-The programs for A157963, the canonical program `A157963.P1390622902840465952` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157963 has offset 0).
+The programs for A157963, the canonical program `A157963.P1390622902840465952` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157963 has offset 0).
 
 The definition of A157963 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 351 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8978,7 +8977,7 @@ end A157963
 
 `A108085(n)/A130321(n)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A157963
@@ -9798,7 +9797,7 @@ end A157970
 /-!
 # A157971: Odious twin locations: first members of pairs of consecutive odious numbers.
 
-The programs for A157971, the canonical program `A157971.P3473186245332457378` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157971 has offset 1).
+The programs for A157971, the canonical program `A157971.P3473186245332457378` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157971 has offset 1).
 
 The definition of A157971 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9863,7 +9862,7 @@ end A157971
 
 `2*A091855(n+1)-1`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A157971
@@ -10342,7 +10341,7 @@ end
 end A157972.P10371773050698797227
 
 /-!
-# A157973: Numbers n > 1 with spf(n) < n such that there is a number k, n < k <= 2*n, with k - spf(k) = n - spf(n).
+# A157973: Numbers m > 1 with sopfr(m) < m such that there is a number k, m < k <= 2*m, with k - sopfr(k) = m - sopfr(m), where sopfr = A001414.
 
 The programs for A157973, there is no canonical definition to state claims against.
 -/
@@ -11392,7 +11391,7 @@ end A157975
 /-!
 # A157976: Primes p such that 18*p + 17 is also prime.
 
-The programs for A157976, the canonical program `A157976.P13573726974064683333` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157976 has offset 1).
+The programs for A157976, the canonical program `A157976.P13573726974064683333` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157976 has offset 1).
 
 The definition of A157976 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1008 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11401,7 +11400,7 @@ The definition of A157976 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A138918(n+1)-1]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A157976
@@ -11607,7 +11606,7 @@ end A157976
 /-!
 # A157977: Primes p such that 20*p + 19 is also prime.
 
-The programs for A157977, the canonical program `A157977.P1664850103235532340` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157977 has offset 1).
+The programs for A157977, the canonical program `A157977.P1664850103235532340` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157977 has offset 1).
 
 The definition of A157977 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 429 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11616,7 +11615,7 @@ The definition of A157977 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A102700(n+1)-A014682(A105042(n+1))]`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A157977
@@ -13074,7 +13073,7 @@ end A157994.P10852795360841161083
 /-!
 # A157995: Primes which are the sum of 1 plus two consecutive not-twin primes, p1 and p2, (p2-p1)>2.
 
-The programs for A157995, the canonical program `A157995.P10964348106611654498` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157995 has offset 1).
+The programs for A157995, the canonical program `A157995.P10964348106611654498` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157995 has offset 1).
 
 The definition of A157995 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2296 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13083,7 +13082,7 @@ The definition of A157995 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A136799(n+1)+A107987(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A157995

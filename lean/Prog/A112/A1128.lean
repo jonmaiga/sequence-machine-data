@@ -21,6 +21,7 @@ import Seq.B000.C017
 import Seq.B000.C018
 import Seq.B000.C019
 import Seq.B000.C020
+import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
@@ -39,6 +40,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C011
 import Seq.B001.C012
@@ -54,7 +56,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -63,10 +65,8 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -961,7 +961,7 @@ end A112811.P15308271670266105207
 /-!
 # A112813: Numbers k such that lcm(1,2,3,...,k)/3 equals the denominator of the k-th harmonic number H(k).
 
-The programs for A112813, the canonical program `A112813.P6439457678955944330` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112813 has offset 1).
+The programs for A112813, the canonical program `A112813.P6439457678955944330` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112813 has offset 1).
 
 The definition of A112813 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 588 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -970,7 +970,7 @@ The definition of A112813 is `conjectured`: the Lean definition is a formula tha
 
 `eq[3, A110566(n+1)]+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A112813
@@ -1183,7 +1183,7 @@ end A112815.P15097476556392709580
 /-!
 # A112816: Numbers k such that lcm(1,2,3,...,k)/9 equals the denominator of the k-th harmonic number H(k).
 
-The programs for A112816, the canonical program `A112816.P6858448339143821751` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112816 has offset 1).
+The programs for A112816, the canonical program `A112816.P6858448339143821751` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112816 has offset 1).
 
 The definition of A112816 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 446 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1192,7 +1192,7 @@ The definition of A112816 is `conjectured`: the Lean definition is a formula tha
 
 `eq[9, A110566(n+1)]+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A112816
@@ -1384,7 +1384,7 @@ end A112816
 /-!
 # A112817: Numbers k such that lcm(1,2,3,...,k)/11 equals the denominator of the k-th harmonic number H(k).
 
-The programs for A112817, the canonical program `A112817.P8263414269983312733` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112817 has offset 1).
+The programs for A112817, the canonical program `A112817.P8263414269983312733` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112817 has offset 1).
 
 The definition of A112817 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 614 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1393,7 +1393,7 @@ The definition of A112817 is `conjectured`: the Lean definition is a formula tha
 
 `eq[11, A110566(A028310(n))]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A112817
@@ -4161,7 +4161,7 @@ end A112847.P3924930258690391507
 /-!
 # A112848: Expansion of eta(q)*eta(q^2)*eta(q^18)^2/(eta(q^6)*eta(q^9)) in powers of q.
 
-The programs for A112848, the canonical program `A112848.P9414413279454382001` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112848 has offset 1).
+The programs for A112848, the canonical program `A112848.P9414413279454382001` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112848 has offset 1).
 
 The definition of A112848 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4288,7 +4288,7 @@ end A112848
 
 `∑{d}[n+1, A049347(#-1)*A117188((n+1)/#-1)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A112848
@@ -4990,7 +4990,7 @@ end A112849
 /-!
 # A112850: Number of graph endomorphisms of undirected cycles of even length: |End(C_2n)|.
 
-The programs for A112850, the canonical program `A112850.P878508428398291890` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112850 has offset 1).
+The programs for A112850, the canonical program `A112850.P878508428398291890` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112850 has offset 1).
 
 The definition of A112850 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 164 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4999,7 +4999,7 @@ The definition of A112850 is `conjectured`: the Lean definition is a formula tha
 
 `2*A112849(n+1)*A103517(n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A112850
@@ -6771,7 +6771,7 @@ end A112864.P6011674030452401408
 /-!
 # A112865: a(n) = (-1)^(n + floor(n/4) + floor(n/4^2) + ...).
 
-The programs for A112865, the canonical program `A112865.P9931685587358820780` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112865 has offset 0).
+The programs for A112865, the canonical program `A112865.P9931685587358820780` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112865 has offset 0).
 
 The definition of A112865 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6780,7 +6780,7 @@ The definition of A112865 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1-2*A341389(n)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A112865

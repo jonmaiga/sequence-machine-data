@@ -10,6 +10,7 @@ import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
+import Seq.B000.C012
 import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
@@ -37,19 +38,20 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -63,8 +65,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -969,7 +969,7 @@ end A356828
 /-!
 # A356829: Number of vertex cuts in the n-Möbius ladder.
 
-The programs for A356829, the canonical program `A356829.P17230402961984168518` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356829 has offset 1).
+The programs for A356829, the canonical program `A356829.P17230402961984168518` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356829 has offset 1).
 
 The definition of A356829 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A286185, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -978,7 +978,7 @@ The definition of A356829 is `conditional`: the Lean definition is an OEIS formu
 
 `2^(2*(n+1))-A286185(n+1)-1`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A356829
@@ -1129,7 +1129,7 @@ end A356829
 /-!
 # A356830: Number of vertex cuts in the n-prism graph.
 
-The programs for A356830, the canonical program `A356830.P9176712600671338645` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356830 has offset 1).
+The programs for A356830, the canonical program `A356830.P9176712600671338645` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356830 has offset 1).
 
 The definition of A356830 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A286182, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1138,7 +1138,7 @@ The definition of A356830 is `conditional`: the Lean definition is an OEIS formu
 
 `2^(2*(n+1))-A286182(n+1)-1`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A356830
@@ -3715,7 +3715,7 @@ end A356850.P10129341348556766300
 /-!
 # A356852: Minimum over all order two bases for the interval [1, n] of the maximum number of ways some number in the interval [1, n] can be written as a sum of at most two elements of the basis.
 
-The programs for A356852, the canonical program `A356852.P6348023218238720434` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356852 has offset 1).
+The programs for A356852, the canonical program `A356852.P6348023218238720434` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356852 has offset 1).
 
 The definition of A356852 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 301 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3747,7 +3747,7 @@ end A356852
 
 `A055642(A245920(n)+A053738(n+1))`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A356852
@@ -6067,7 +6067,7 @@ end A356875
 /-!
 # A356876: Binary weight of the composite numbers (A002808).
 
-The programs for A356876, the canonical program `A356876.P10198726897312415874` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356876 has offset 1).
+The programs for A356876, the canonical program `A356876.P10198726897312415874` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356876 has offset 1).
 
 The definition of A356876 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002808, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6076,7 +6076,7 @@ The definition of A356876 is `conditional`: the Lean definition is an OEIS formu
 
 `A000120(A002808(n+1))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A356876
@@ -6450,12 +6450,6 @@ namespace A356876
 /-- `A000120(A161537(n+1)-(n+1))` -/
 def P8787432198153733824.Spec : Prop :=
   ∀ n, P8787432198153733824.a n = A356876 (n + 1)
-
-theorem P8787432198153733824.correct : P8787432198153733824.Spec := by
-  intro n
-  simp only [A356876, Nat.add_sub_cancel, A356876.P8787432198153733824.a, A356876.P10198726897312415874.a, A000120, A000120.P2816527436160941581.a, A002808, A002808.P8130888830651501259.f1, A002808.P8130888830651501259.f2, A002808.P8130888830651501259.a, A161537, A161537.P5701896001486132994.a, A005187, A005187.P3874015513960485494.a, A082023, A082023.P820682903743471019.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A356876
 

@@ -23,22 +23,22 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C012
+import Seq.B001.C010
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -46,14 +46,12 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -353,7 +351,7 @@ end A385312.P18194525181900815324
 /-!
 # A385313: a(n) = c(n) + Sum_{d|n} d * phi(n/d) * (1 - c(d)), where c = A010051.
 
-The programs for A385313, the canonical program `A385313.P2090871860569150372` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385313 has offset 1).
+The programs for A385313, the canonical program `A385313.P2090871860569150372` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385313 has offset 1).
 
 The definition of A385313 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -362,7 +360,7 @@ The definition of A385313 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A008683(#)*A380447((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A385313
@@ -2322,7 +2320,7 @@ end A385377.P15949030390351981749
 /-!
 # A385378: The maximum possible number of distinct factors in the factorization of n into prime powers (A246655).
 
-The programs for A385378, the canonical program `A385378.P16507919324572335447` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385378 has offset 1).
+The programs for A385378, the canonical program `A385378.P16507919324572335447` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385378 has offset 1).
 
 The definition of A385378 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2331,7 +2329,7 @@ The definition of A385378 is `conjectured`: the Lean definition is a formula tha
 
 `∑{e}[n+1, A003056(#)]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A385378
@@ -2476,7 +2474,7 @@ end A385378
 /-!
 # A385379: The maximum possible number of distinct composite prime powers (A246547) in the factorization of n into prime powers.
 
-The programs for A385379, the canonical program `A385379.P147877078255257721` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385379 has offset 1).
+The programs for A385379, the canonical program `A385379.P147877078255257721` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385379 has offset 1).
 
 The definition of A385379 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2511,7 +2509,7 @@ end A385379
 
 `A029837(A368978(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A385379
@@ -2899,7 +2897,7 @@ end A385392.P2875469479794678213
 /-!
 # A385393: a(n) = (Sum_{k=0..n} (binomial(n, k) mod 4)) / 2^bitcount(n).
 
-The programs for A385393, the canonical program `A385393.P12160656990847827648` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385393 has offset 0).
+The programs for A385393, the canonical program `A385393.P12160656990847827648` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385393 has offset 0).
 
 The definition of A385393 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A384715, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2908,7 +2906,7 @@ The definition of A385393 is `conditional`: the Lean definition is an OEIS formu
 
 `A384715(n)/A001316(n)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A385393

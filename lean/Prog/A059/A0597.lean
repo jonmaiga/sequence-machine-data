@@ -40,6 +40,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -52,6 +53,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -64,8 +66,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3610,7 +3610,7 @@ end
 end A059718.P17285943180941195663
 
 /-!
-# A059720: Triangle T(n,k), 0<=k<=n, formed from coefficients when formula for n-th diagonal of triangle in A059718 is written as a sum of binomial coefficients.
+# A059720: Triangle T(n,k) with 0<=k<=n, formed from coefficients when formula for n-th diagonal of triangle in A059718 is written as a sum of binomial coefficients.
 
 The programs for A059720, there is no canonical definition to state claims against.
 -/
@@ -5639,7 +5639,7 @@ end A059735.P3752854870273757519
 /-!
 # A059736: A class of polytopal spheres.
 
-The programs for A059736, the canonical program `A059736.P7369905162504597381` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059736 has offset 1).
+The programs for A059736, the canonical program `A059736.P7369905162504597381` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059736 has offset 1).
 
 The definition of A059736 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007147, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5648,7 +5648,7 @@ The definition of A059736 is `conditional`: the Lean definition is an OEIS formu
 
 `A007147(n+1)-floor((n+1)²/12)-1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A059736

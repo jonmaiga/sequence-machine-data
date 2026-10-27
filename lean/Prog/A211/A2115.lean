@@ -49,17 +49,18 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
+import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
-import Seq.B004.C002
+import Seq.B005.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B013.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -858,7 +859,7 @@ end A211515.P4923256552413083823
 /-!
 # A211516: Number of ordered triples (w,x,y) with all terms in {1,...,n} and w^2=x+y.
 
-The programs for A211516, the canonical program `A211516.P14176206433691756358` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211516 has offset 0).
+The programs for A211516, the canonical program `A211516.P14176206433691756358` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211516 has offset 0).
 
 The definition of A211516 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 971 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -893,7 +894,7 @@ end A211516
 
 `A022554(2*n)-2*A022554(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211516
@@ -1009,7 +1010,7 @@ end A211516
 /-!
 # A211517: Number of ordered triples (w,x,y) with all terms in {1,...,n} and w^3=(x+y)^2.
 
-The programs for A211517, the canonical program `A211517.P17636450596556737059` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211517 has offset 0).
+The programs for A211517, the canonical program `A211517.P17636450596556737059` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211517 has offset 0).
 
 The definition of A211517 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1007 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1018,7 +1019,7 @@ The definition of A211517 is `conjectured`: the Lean definition is a formula tha
 
 `A031876(2*n)-A005843(A031876(n))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A211517
@@ -3497,7 +3498,7 @@ end A211524
 /-!
 # A211525: Number of -1..1 arrays x(i) of n+1 elements i=1..n+1 with set{t,u,v in 0,1}((x[i+t]+x[j+u]+x[k+v])*(-1)^(t+u+v)) having two or four distinct values for every i,j,k<=n.
 
-The programs for A211525, the canonical program `A211525.P1490740995944717665` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211525 has offset 1).
+The programs for A211525, the canonical program `A211525.P1490740995944717665` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211525 has offset 1).
 
 The definition of A211525 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3529,7 +3530,7 @@ end A211525
 
 `A183978(n+3)-1`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211525
@@ -3982,7 +3983,7 @@ end A211525
 /-!
 # A211526: Number of -1..1 arrays x(i) of n+1 elements i=1..n+1 with set{t,u,v in 0,1}((x[i+t]+x[j+u]+x[k+v])*(-1)^(t+u+v)) having two, four or five distinct values for every i,j,k<=n.
 
-The programs for A211526, the canonical program `A211526.P11396501206578348479` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211526 has offset 1).
+The programs for A211526, the canonical program `A211526.P11396501206578348479` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211526 has offset 1).
 
 The definition of A211526 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3991,7 +3992,7 @@ The definition of A211526 is `conjectured`: the Lean definition is a formula tha
 
 `A095121(n+1)+A061776(n+2)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211526
@@ -4173,7 +4174,7 @@ end A211526
 /-!
 # A211528: Number of -1..1 arrays x(i) of n+1 elements i=1..n+1 with set{t,u,v in 0,1}((x[i+t]+x[j+u]+x[k+v])*(-1)^(t+u+v)) having two, four or six distinct values for every i,j,k<=n.
 
-The programs for A211528, the canonical program `A211528.P14625012457903362307` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211528 has offset 1).
+The programs for A211528, the canonical program `A211528.P14625012457903362307` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211528 has offset 1).
 
 The definition of A211528 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4182,7 +4183,7 @@ The definition of A211528 is `conjectured`: the Lean definition is a formula tha
 
 `A211525(n+1)+2*A006327(n+4)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A211528
@@ -4298,7 +4299,7 @@ end A211528
 /-!
 # A211529: Number of -1..1 arrays x(i) of n+1 elements i=1..n+1 with set{t,u,v in 0,1}((x[i+t]+x[j+u]+x[k+v])*(-1)^(t+u+v)) having two, four, five or six distinct values for every i,j,k<=n.
 
-The programs for A211529, the canonical program `A211529.P292426756212088253` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211529 has offset 1).
+The programs for A211529, the canonical program `A211529.P292426756212088253` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211529 has offset 1).
 
 The definition of A211529 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 331 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4307,7 +4308,7 @@ The definition of A211529 is `conjectured`: the Lean definition is a formula tha
 
 `A211526(n+1)+2*A006327(n+4)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A211529
@@ -4492,7 +4493,7 @@ end A211532.P12671297353698467628
 /-!
 # A211533: Number of ordered triples (w,x,y) with all terms in {1,...,n} and w=3x-5y.
 
-The programs for A211533, the canonical program `A211533.P6081768175336036254` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211533 has offset 0).
+The programs for A211533, the canonical program `A211533.P6081768175336036254` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211533 has offset 0).
 
 The definition of A211533 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4501,7 +4502,7 @@ The definition of A211533 is `conjectured`: the Lean definition is a formula tha
 
 `A001840(n)+Δ[A011858(n)]-n`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211533
@@ -7166,7 +7167,7 @@ end A211540
 /-!
 # A211541: Number of ordered triples (w,x,y) with all terms in {1,...,n} and 2w=3x-4y.
 
-The programs for A211541, the canonical program `A211541.P6364008902973407762` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211541 has offset 0).
+The programs for A211541, the canonical program `A211541.P6364008902973407762` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211541 has offset 0).
 
 The definition of A211541 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7175,7 +7176,7 @@ The definition of A211541 is `conjectured`: the Lean definition is a formula tha
 
 `A211521(n)-A069905(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211541
@@ -7570,7 +7571,7 @@ end A211541
 /-!
 # A211542: Number of ordered triples (w,x,y) with all terms in {1,...,n} and 2w=4y-3x.
 
-The programs for A211542, the canonical program `A211542.P7607861162328610110` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211542 has offset 0).
+The programs for A211542, the canonical program `A211542.P7607861162328610110` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211542 has offset 0).
 
 The definition of A211542 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7579,7 +7580,7 @@ The definition of A211542 is `conjectured`: the Lean definition is a formula tha
 
 `A004652(n)-A069905(A052938(n))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211542
@@ -8180,7 +8181,7 @@ end A211543
 /-!
 # A211544: Number of ordered triples (w,x,y) with all terms in {1,...,n} and 2w=3x-5y.
 
-The programs for A211544, the canonical program `A211544.P17142035383738019160` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211544 has offset 0).
+The programs for A211544, the canonical program `A211544.P17142035383738019160` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211544 has offset 0).
 
 The definition of A211544 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8225,7 +8226,7 @@ end A211544
 
 `∑[A047560(n+1)%A042968(n+1)]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211544

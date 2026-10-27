@@ -62,7 +62,6 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -73,8 +72,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -190,7 +187,7 @@ end A131100.P14184193070171764901
 /-!
 # A131101: Numbers that when added it to their prime factors +1 the result is a prime number, member of A131102.
 
-The programs for A131101, the canonical program `A131101.P10777830498562902323` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131101 has offset 1).
+The programs for A131101, the canonical program `A131101.P10777830498562902323` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131101 has offset 1).
 
 The definition of A131101 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -199,7 +196,7 @@ The definition of A131101 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A001222(A075254(n+1)+1)]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A131101
@@ -13575,7 +13572,7 @@ end A131187
 /-!
 # A131188: Indices of products of twin primes in the semiprimes.
 
-The programs for A131188, the canonical program `A131188.P11898817700448959080` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131188 has offset 1).
+The programs for A131188, the canonical program `A131188.P11898817700448959080` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131188 has offset 1).
 
 The definition of A131188 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 205 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13584,7 +13581,7 @@ The definition of A131188 is `conjectured`: the Lean definition is a formula tha
 
 `A038108(A014574(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A131188

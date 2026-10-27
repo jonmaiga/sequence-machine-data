@@ -31,21 +31,24 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C002
+import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -59,9 +62,6 @@ import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1108,7 +1108,7 @@ end A390223.P292797537194643483
 /-!
 # A390225: Positive numbers whose base-3, base-5, and base-7 expansions have the same digit sum.
 
-The programs for A390225, the canonical program `A390225.P7477734311538200322` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390225 has offset 1).
+The programs for A390225, the canonical program `A390225.P7477734311538200322` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390225 has offset 1).
 
 The definition of A390225 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 934 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1117,7 +1117,7 @@ The definition of A390225 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A037310(n+1), A037312(n+1)]`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A390225
@@ -2146,7 +2146,7 @@ end A390250.P608551104614566812
 /-!
 # A390251: Numbers k such that sigma(k) = psi(k) + omega(k)^2.
 
-The programs for A390251, the canonical program `A390251.P1811341755956368526` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390251 has offset 1).
+The programs for A390251, the canonical program `A390251.P1811341755956368526` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390251 has offset 1).
 
 The definition of A390251 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 107 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2155,7 +2155,7 @@ The definition of A390251 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A286228(n+1), A373585(#)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B005.C002`.
 -/
 
 namespace A390251
@@ -2392,7 +2392,7 @@ end A390253.P269280958135937004
 /-!
 # A390254: a(0) = 2, thereafter a(n+1) is the nearest integer to 4*a(n)/3.
 
-The programs for A390254, the canonical program `A390254.P15560212173112391131` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390254 has offset 0).
+The programs for A390254, the canonical program `A390254.P15560212173112391131` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390254 has offset 0).
 
 The definition of A390254 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2401,7 +2401,7 @@ The definition of A390254 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A087192(n+1)+1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A390254
@@ -3194,7 +3194,7 @@ end A390256.P1410586492211364098
 /-!
 # A390258: Multiplicative sequence a(n) with a(p^e) = p^(e-1) * (e + 1) * (p * (2 + e) - e) / 2 for prime p and e > 0.
 
-The programs for A390258, the canonical program `A390258.P5353601345552815747` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390258 has offset 1).
+The programs for A390258, the canonical program `A390258.P5353601345552815747` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390258 has offset 1).
 
 The definition of A390258 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3359,7 +3359,7 @@ end A390258
 
 `∑{d}[n+1, A007427(#)*A174466((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A390258
@@ -3799,16 +3799,16 @@ end A390259
 /-!
 # A390260: Expansion of Sum_{k>=1} (-1)^(k+1)*x^(k^4)/(1-x^(k^4)).
 
-The programs for A390260, the canonical program `A390260.P12756077447559123677` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390260 has offset 1).
+The programs for A390260, the canonical program `A390260.P12756077447559123677` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390260 has offset 1).
 
-The definition of A390260 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A390260 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A063775, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A390260.P12756077447559123677
 
 `2*A063775(16*(n+1))-3*A063775(n+1)`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A390260
@@ -3969,7 +3969,7 @@ end A390261.P11951146886338797078
 /-!
 # A390262: Multiplicative sequence a(n) with a(p^e) = ((p + 1)^2 * p^(e-1) - 2) * p^(e-1) for prime p and e > 0.
 
-The programs for A390262, the canonical program `A390262.P9624603092470050995` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390262 has offset 1).
+The programs for A390262, the canonical program `A390262.P9624603092470050995` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390262 has offset 1).
 
 The definition of A390262 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3978,7 +3978,7 @@ The definition of A390262 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A140697((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A390262
@@ -5803,93 +5803,6 @@ end
 end A390290.P9715211048852074046
 
 /-!
-# A390291: Number of "iterative" minimally rigid n X n adjacency matrices of sphere packings in R^3.
-
-The programs for A390291, there is no canonical definition to state claims against.
--/
-
-/-! ## A390291.P15921308180248838455
-
-`A174423(∑[A063265(n)])`
--/
-
-namespace A390291.P15921308180248838455
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A063265 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A174423 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A390291.P15921308180248838455
-
-/-! ## A390291.P5572887932166164949
-
-`A174423(A073526(n+1))`
--/
-
-namespace A390291.P5572887932166164949
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A174423 (A073526 (n + 1)).toNat
-
-end
-
-end A390291.P5572887932166164949
-
-/-! ## A390291.P13272287840941436316
-
-`A174423(A239090(n+1))`
--/
-
-namespace A390291.P13272287840941436316
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A174423 (A239090 (n + 1)).toNat
-
-end
-
-end A390291.P13272287840941436316
-
-/-! ## A390291.P8291251341297977228
-
-`A174423(A063265(n)+n)`
--/
-
-namespace A390291.P8291251341297977228
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A174423 (A063265 n + (n : ℤ)).toNat
-
-end
-
-end A390291.P8291251341297977228
-
-/-! ## A390291.P11228429173698365784
-
-`A174423(∑[A186006(n+1)])`
--/
-
-namespace A390291.P11228429173698365784
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A186006 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A174423 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A390291.P11228429173698365784
-
-/-!
 # A390292: Number of "non-iterative" minimally rigid n X n adjacency matrices of sphere packings in R^3.
 
 The programs for A390292, there is no canonical definition to state claims against.
@@ -6204,7 +6117,7 @@ end A390298.P15841337680835116628
 /-!
 # A390299: Number of positive z <= n such that z^2 - 9^g is relatively prime to n (for any particular positive integer g).
 
-The programs for A390299, the canonical program `A390299.P12960639858912194523` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390299 has offset 1).
+The programs for A390299, the canonical program `A390299.P12960639858912194523` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390299 has offset 1).
 
 The definition of A390299 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6236,7 +6149,7 @@ end A390299
 
 `A002472(n+1)*A177702(n)`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A390299

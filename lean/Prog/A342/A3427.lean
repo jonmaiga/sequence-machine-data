@@ -41,9 +41,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
@@ -55,24 +53,25 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -833,7 +832,7 @@ end A342708.P4858558862357267191
 /-!
 # A342709: 12-gonal (dodecagonal) square numbers.
 
-The programs for A342709, the canonical program `A342709.P10944230336865583226` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342709 has offset 1).
+The programs for A342709, the canonical program `A342709.P10944230336865583226` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342709 has offset 1).
 
 The definition of A342709 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -865,7 +864,7 @@ end A342709
 
 `9*A161582(n+1)+1`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A342709
@@ -2043,7 +2042,7 @@ end A342711
 /-!
 # A342712: Partial sums of A248333.
 
-The programs for A342712, the canonical program `A342712.P9390913467101347232` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342712 has offset 1).
+The programs for A342712, the canonical program `A342712.P9390913467101347232` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342712 has offset 1).
 
 The definition of A342712 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A342711, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2052,7 +2051,7 @@ The definition of A342712 is `conditional`: the Lean definition is an OEIS formu
 
 `A000217(n+1)-A342711(n)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A342712
@@ -6149,7 +6148,7 @@ end A342765.P17912322401587322735
 /-!
 # A342766: a(1) = 1, for any n > 1, a(n) = A342765(a(n-1), n).
 
-The programs for A342766, the canonical program `A342766.P12175838294366118229` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342766 has offset 1).
+The programs for A342766, the canonical program `A342766.P12175838294366118229` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342766 has offset 1).
 
 The definition of A342766 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6158,7 +6157,7 @@ The definition of A342766 is `conjectured`: the Lean definition is a formula tha
 
 `∏[A014963(n+1)/A252463(A014963(n+1))]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A342766

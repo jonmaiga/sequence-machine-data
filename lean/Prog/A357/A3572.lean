@@ -42,7 +42,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
+import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
@@ -54,13 +54,14 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -73,8 +74,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -431,7 +430,7 @@ end A357212.P6055052193169422802
 /-!
 # A357213: Triangular array read by rows: T(n, k) = number of subsets s of {1, 2, ..., n} such max(s) - min(s) = k, for n >= 1, 0 <= k <= n-1.
 
-The programs for A357213, the canonical program `A357213.P15462031759184962589` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357213 has offset 1).
+The programs for A357213, the canonical program `A357213.P15462031759184962589` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357213 has offset 1).
 
 The definition of A357213 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -523,7 +522,7 @@ end A357213
 
 `A004736(n+1)*A232089(n)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A357213
@@ -699,7 +698,7 @@ end A357213
 /-!
 # A357214: a(n) = number of subsets S of {1, 2, ..., n} such that every number in S is a composite.
 
-The programs for A357214, the canonical program `A357214.P17117338288475535915` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357214 has offset 1).
+The programs for A357214, the canonical program `A357214.P17117338288475535915` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357214 has offset 1).
 
 The definition of A357214 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -708,7 +707,7 @@ The definition of A357214 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^A065855(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A357214
@@ -3886,7 +3885,7 @@ end A357252.P17047076463113786355
 /-!
 # A357253: a(n) is the largest prime < 6*n.
 
-The programs for A357253, the canonical program `A357253.P3258899309952835822` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357253 has offset 1).
+The programs for A357253, the canonical program `A357253.P3258899309952835822` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357253 has offset 1).
 
 The definition of A357253 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3895,7 +3894,7 @@ The definition of A357253 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A007917(6*(n+1))`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A357253
@@ -5544,7 +5543,7 @@ end A357281
 /-!
 # A357282: a(n) = number of subsets S of {1,2,...,n} having more than 1 element such that (difference between least two elements of S) = difference between greatest two elements of S.
 
-The programs for A357282, the canonical program `A357282.P13157617072613635839` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357282 has offset 0).
+The programs for A357282, the canonical program `A357282.P13157617072613635839` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357282 has offset 0).
 
 The definition of A357282 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 334 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5579,7 +5578,7 @@ end A357282
 
 `∑[A340849(A057428(n)+n)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A357282
@@ -5672,7 +5671,7 @@ end A357282
 /-!
 # A357283: a(n) = number of subsets S of {1,2,...,n} having more than 1 element such that (sum of least two elements of S) < max(S).
 
-The programs for A357283, the canonical program `A357283.P17984273283071694433` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357283 has offset 0).
+The programs for A357283, the canonical program `A357283.P17984273283071694433` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357283 has offset 0).
 
 The definition of A357283 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5704,7 +5703,7 @@ end A357283
 
 `∑[A027556(abs(1-n))]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A357283
@@ -5973,7 +5972,7 @@ end A357283
 /-!
 # A357284: a(n) = (1/2)*A357283(n).
 
-The programs for A357284, the canonical program `A357284.P2693136668523446039` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357284 has offset 0).
+The programs for A357284, the canonical program `A357284.P2693136668523446039` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357284 has offset 0).
 
 The definition of A357284 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A357283, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5982,7 +5981,7 @@ The definition of A357284 is `conditional`: the Lean definition is an OEIS formu
 
 `1/2*A357283(n)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A357284
@@ -6523,7 +6522,7 @@ end A357289.P2294089025887545607
 /-!
 # A357290: a(n) = number of subsets S of {1,2,...,n} having more than 2 elements such that (sum of least two elements of S) > difference between greatest two elements of S.
 
-The programs for A357290, the canonical program `A357290.P18279799306496443475` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357290 has offset 0).
+The programs for A357290, the canonical program `A357290.P18279799306496443475` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357290 has offset 0).
 
 The definition of A357290 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6532,7 +6531,7 @@ The definition of A357290 is `conjectured`: the Lean definition is a formula tha
 
 `A002662(n)-A357291(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A357290
@@ -6759,7 +6758,7 @@ end A357291
 /-!
 # A357292: a(n) = number of subsets S of {1,2,...,n} having more than 2 elements such that (sum of least two elements of S) = difference between greatest two elements of S.
 
-The programs for A357292, the canonical program `A357292.P7346233877380800263` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357292 has offset 0).
+The programs for A357292, the canonical program `A357292.P7346233877380800263` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A357292 has offset 0).
 
 The definition of A357292 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 337 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6768,7 +6767,7 @@ The definition of A357292 is `conjectured`: the Lean definition is a formula tha
 
 `A357291(n)+A211540(n)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A357292

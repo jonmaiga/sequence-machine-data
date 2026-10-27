@@ -37,24 +37,24 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -67,8 +67,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2672,7 +2670,7 @@ end A324726
 /-!
 # A324727: Odd numbers such that 2n is equal to A318466(n), bitor(2*n,sigma(n)), where bitor is A003986.
 
-The programs for A324727, the canonical program `A324727.P4614541480028550780` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324727 has offset 1).
+The programs for A324727, the canonical program `A324727.P4614541480028550780` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324727 has offset 1).
 
 The definition of A324727 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2681,7 +2679,7 @@ The definition of A324727 is `conjectured`: the Lean definition is a formula tha
 
 `A324726(eq[1, A324726(n+1)%2]+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A324727
@@ -4643,7 +4641,7 @@ end A324742.P12387926989546323051
 /-!
 # A324745: Numbers k with exactly two distinct prime factors and such that phi(k) is a square.
 
-The programs for A324745, the canonical program `A324745.P1964975310352198901` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324745 has offset 1).
+The programs for A324745, the canonical program `A324745.P1964975310352198901` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324745 has offset 1).
 
 The definition of A324745 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 207 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4652,7 +4650,7 @@ The definition of A324745 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A007774(n+1), A039770(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A324745
@@ -4885,7 +4883,7 @@ end A324746.P4866021601205688539
 /-!
 # A324747: Numbers k with exactly two distinct prime factors and such that phi(k) is a square, when: k = p^(2s) * q^(2t+1) with s >= 1, t >= 0, p <> q primes.
 
-The programs for A324747, the canonical program `A324747.P5695930881138329308` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324747 has offset 1).
+The programs for A324747, the canonical program `A324747.P5695930881138329308` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324747 has offset 1).
 
 The definition of A324747 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 103 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4894,7 +4892,7 @@ The definition of A324747 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A187039(n+1), A324745(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A324747
@@ -5307,7 +5305,7 @@ end A324757.P14135805109077296221
 /-!
 # A324758: Heinz numbers of integer partitions containing no prime indices of the parts.
 
-The programs for A324758, the canonical program `A324758.P290710550398794177` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324758 has offset 1).
+The programs for A324758, the canonical program `A324758.P290710550398794177` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324758 has offset 1).
 
 The definition of A324758 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4949 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5371,7 +5369,7 @@ end A324758
 
 `eq[1, gcd(n+1, A003963(n+1))]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A324758

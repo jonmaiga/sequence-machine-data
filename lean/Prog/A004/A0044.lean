@@ -5,7 +5,6 @@ import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C003
 import Seq.B000.C004
-import Seq.B000.C005
 import Seq.B000.C006
 import Seq.B000.C008
 import Seq.B000.C009
@@ -41,6 +40,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -49,10 +49,10 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -62,7 +62,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3081,7 +3080,7 @@ end
 end A004432.P15853905063769585564
 
 /-!
-# A004433: Numbers that are the sum of 4 distinct nonzero squares: of form w^2+x^2+y^2+z^2 with 0
+# A004433: Numbers that are the sum of 4 distinct nonzero squares: of form w^2+x^2+y^2+z^2 with 0<w<x<y<z.
 
 The programs for A004433, there is no canonical definition to state claims against.
 -/
@@ -24172,7 +24171,7 @@ end
 end A004489.P16109973487300220192
 
 /-!
-# A004490: Colossally abundant numbers: m for which there is a positive exponent epsilon such that sigma(m)/m^{1 + epsilon} >= sigma(k)/k^{1 + epsilon} for all k > 1, so that m attains the maximum value of sigma(m)/m^{1 + epsilon}.
+# A004490: Colossally abundant numbers: integers m > 1 for which there is a positive exponent epsilon such that sigma(m)/m^{1 + epsilon} >= sigma(k)/k^{1 + epsilon} for all k > 1, so that m attains the maximum value of sigma(m)/m^{1 + epsilon}.
 
 The programs for A004490, there is no canonical definition to state claims against.
 -/

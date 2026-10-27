@@ -30,14 +30,16 @@ import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -49,22 +51,20 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -99,7 +99,7 @@ set_option linter.unreachableTactic false
 /-!
 # A253203: The least square larger than n with same parity as n.
 
-The programs for A253203, the canonical program `A253203.P13303616197894554342` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253203 has offset 1).
+The programs for A253203, the canonical program `A253203.P13303616197894554342` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253203 has offset 1).
 
 The definition of A253203 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -108,7 +108,7 @@ The definition of A253203 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A256244(n+1)²`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A253203
@@ -543,7 +543,7 @@ end A253205.P16482535831076194200
 /-!
 # A253206: Coefficients of the Dirichlet series for zeta(5*s)/zeta(s).
 
-The programs for A253206, the canonical program `A253206.P16651869948344728529` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253206 has offset 1).
+The programs for A253206, the canonical program `A253206.P16651869948344728529` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253206 has offset 1).
 
 The definition of A253206 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -656,7 +656,7 @@ end A253206
 
 `A117444(A007426(n+1))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A253206
@@ -2538,7 +2538,7 @@ end A253231.P12773280475485366055
 /-!
 # A253235: Numbers k such that the k-th cyclotomic polynomial has no root mod p for all primes p <= k.
 
-The programs for A253235, the canonical program `A253235.P7507897381358703633` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253235 has offset 1).
+The programs for A253235, the canonical program `A253235.P7507897381358703633` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253235 has offset 1).
 
 The definition of A253235 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2547,7 +2547,7 @@ The definition of A253235 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A342256(n+1)-1]+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A253235
@@ -2730,7 +2730,7 @@ end A253235
 /-!
 # A253236: The unique prime p <= n such that n-th cyclotomic polynomial has a root mod p, or 0 if no such p exists.
 
-The programs for A253236, the canonical program `A253236.P9116711881590204222` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253236 has offset 1).
+The programs for A253236, the canonical program `A253236.P9116711881590204222` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253236 has offset 1).
 
 The definition of A253236 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2811,7 +2811,7 @@ end A253236
 
 `∑{p}[A014963((n+1)/gcd(n+1, 1-A006530(n+1))), #]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A253236
@@ -3198,7 +3198,7 @@ end A253241.P934189264578036778
 /-!
 # A253243: Expansion of phi(-x^2) * psi(x^3) * chi(x^3) in powers of x where phi(), psi(), chi() are Ramanujan theta functions.
 
-The programs for A253243, the canonical program `A253243.P16913495343360513967` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253243 has offset 0).
+The programs for A253243, the canonical program `A253243.P16913495343360513967` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253243 has offset 0).
 
 The definition of A253243 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A123530, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3207,7 +3207,7 @@ The definition of A253243 is `conditional`: the Lean definition is an OEIS formu
 
 `A123530(2*n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A253243
@@ -5476,7 +5476,7 @@ end A253259.P11460095823594080171
 /-!
 # A253260: Brazilian squares.
 
-The programs for A253260, the canonical program `A253260.P9231036617430178530` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253260 has offset 1).
+The programs for A253260, the canonical program `A253260.P9231036617430178530` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A253260 has offset 1).
 
 The definition of A253260 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 405 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5485,7 +5485,7 @@ The definition of A253260 is `conjectured`: the Lean definition is a formula tha
 
 `eq[n, A135684(A233583(n+1))]²`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A253260

@@ -31,21 +31,24 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C010
+import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -59,9 +62,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4147,7 +4147,7 @@ end A144549.P573538815227828321
 /-!
 # A144550: Largest non-twin prime < n-th and (n+1)-th twin primes.
 
-The programs for A144550, the canonical program `A144550.P9654867779263600629` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A144550 has offset 1).
+The programs for A144550, the canonical program `A144550.P9654867779263600629` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A144550 has offset 1).
 
 The definition of A144550 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4156,7 +4156,7 @@ The definition of A144550 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A007510(n+1), A088175(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A144550
@@ -4294,7 +4294,7 @@ end A144550
 /-!
 # A144551: a(n) = nonprime(n)*nonprime(n+1)/2, where nonprime(n) = A141468(n).
 
-The programs for A144551, the canonical program `A144551.P9471989750803673522` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A144551 has offset 1).
+The programs for A144551, the canonical program `A144551.P9471989750803673522` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A144551 has offset 1).
 
 The definition of A144551 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A141468, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4303,7 +4303,7 @@ The definition of A144551 is `conditional`: the Lean definition is an OEIS formu
 
 `A141468(n+1)*A141468(n+2)/2`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A144551
@@ -6609,7 +6609,7 @@ end A144569.P12047160476311384874
 /-!
 # A144570: Nonprime(prime(n)).
 
-The programs for A144570, the canonical program `A144570.P11118034758568014224` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A144570 has offset 1).
+The programs for A144570, the canonical program `A144570.P11118034758568014224` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A144570 has offset 1).
 
 The definition of A144570 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A141468, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6618,7 +6618,7 @@ The definition of A144570 is `conditional`: the Lean definition is an OEIS formu
 
 `A141468(A000040(n+1))`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A144570
@@ -6653,12 +6653,6 @@ namespace A144570
 /-- `A007821(n+1)-A168271(n+1)` -/
 def P2602753272453203260.Spec : Prop :=
   ∀ n, P2602753272453203260.a n = A144570 (n + 1)
-
-theorem P2602753272453203260.correct : P2602753272453203260.Spec := by
-  intro n
-  simp only [A144570, Nat.add_sub_cancel, A144570.P2602753272453203260.a, A144570.P11118034758568014224.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A007821, A007821.P9323765795172173596.a, A141468, A141468.P11281748312058034280.a, A168271, A168271.P11427339168696885429.a, A018252, A018252.P16557407491482004301.f1, A018252.P16557407491482004301.a, A054546, A054546.P12235855701833693749.a, A000038, A000038.P13734959004655594922.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A065310, A065310.P13031903484145223612.f1, A065310.P13031903484145223612.a, A000007, A000007.P6599383543502402472.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A144570
 
@@ -7364,7 +7358,7 @@ end A144572.P6090701365732010493
 /-!
 # A144573: Smallest prime greater than nonprime(prime(n)).
 
-The programs for A144573, the canonical program `A144573.P389422865237897508` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A144573 has offset 1).
+The programs for A144573, the canonical program `A144573.P389422865237897508` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A144573 has offset 1).
 
 The definition of A144573 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007918, A141468, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7373,7 +7367,7 @@ The definition of A144573 is `conditional`: the Lean definition is an OEIS formu
 
 `A007918(A141468(A000040(n+1)))`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A144573
@@ -8710,7 +8704,7 @@ end A144586.P16684703362214412944
 /-!
 # A144589: Prime(n-th "prime nonprime").
 
-The programs for A144589, the canonical program `A144589.P2941130942787243636` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A144589 has offset 1).
+The programs for A144589, the canonical program `A144589.P2941130942787243636` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A144589 has offset 1).
 
 The definition of A144589 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A144570, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8719,7 +8713,7 @@ The definition of A144589 is `conditional`: the Lean definition is an OEIS formu
 
 `A000040(A144570(n+1))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A144589

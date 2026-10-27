@@ -45,20 +45,22 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -72,9 +74,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3195,7 +3194,7 @@ end A057637.P15163258615658655942
 /-!
 # A057639: First differences of zero-sites (A028442) of Mertens's function A002321.
 
-The programs for A057639, the canonical program `A057639.P1267725815179592104` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057639 has offset 1).
+The programs for A057639, the canonical program `A057639.P1267725815179592104` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057639 has offset 1).
 
 The definition of A057639 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A028442, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3204,7 +3203,7 @@ The definition of A057639 is `conditional`: the Lean definition is an OEIS formu
 
 `A028442(n+2)-A028442(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A057639
@@ -3273,12 +3272,6 @@ namespace A057639
 def P4711107865890623485.Spec : Prop :=
   ∀ n, P4711107865890623485.a n = A057639 (n + 1)
 
-theorem P4711107865890623485.correct : P4711107865890623485.Spec := by
-  intro n
-  simp only [A057639, Nat.add_sub_cancel, A057639.P4711107865890623485.f1, A057639.P4711107865890623485.a, A057639.P1267725815179592104.a, A028442, A028442.P16090401491980094714.a, A100306, A100306.P659555459822025134.f1, A100306.P659555459822025134.f2, A100306.P659555459822025134.a, A008683, A008683.P18254306604665478110.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A085357, A085357.P3258697467278337073.a, A106400, A106400.P11201390576172776043.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A057639
 
 /-! ## A057639.P15190238520333592758
@@ -3301,12 +3294,6 @@ namespace A057639
 /-- `A100306(n+3)-A100306(n+2)` -/
 def P15190238520333592758.Spec : Prop :=
   ∀ n, P15190238520333592758.a n = A057639 (n + 1)
-
-theorem P15190238520333592758.correct : P15190238520333592758.Spec := by
-  intro n
-  simp only [A057639, Nat.add_sub_cancel, A057639.P15190238520333592758.a, A057639.P1267725815179592104.a, A028442, A028442.P16090401491980094714.a, A100306, A100306.P659555459822025134.f1, A100306.P659555459822025134.f2, A100306.P659555459822025134.a, A008683, A008683.P18254306604665478110.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A085357, A085357.P3258697467278337073.a, A106400, A106400.P11201390576172776043.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A057639
 
@@ -6412,7 +6399,7 @@ end A057659.P4769588509736771863
 /-!
 # A057660: a(n) = Sum_{k=1..n} n/gcd(n,k).
 
-The programs for A057660, the canonical program `A057660.P308819105178745283` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057660 has offset 1).
+The programs for A057660, the canonical program `A057660.P308819105178745283` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057660 has offset 1).
 
 The definition of A057660 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001157, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6444,7 +6431,7 @@ end A057660
 
 `A001157(A000290(n+1))/A065764(n+1)`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A057660
@@ -6905,7 +6892,7 @@ end A057660
 /-!
 # A057661: a(n) = Sum_{k=1..n} lcm(n,k)/n.
 
-The programs for A057661, the canonical program `A057661.P8562176095648835282` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057661 has offset 1).
+The programs for A057661, the canonical program `A057661.P8562176095648835282` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A057661 has offset 1).
 
 The definition of A057661 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A057660, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6914,7 +6901,7 @@ The definition of A057661 is `conditional`: the Lean definition is an OEIS formu
 
 `(1+A057660(n+1))/2`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A057661

@@ -41,11 +41,10 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
@@ -53,10 +52,10 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -64,10 +63,8 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -103,7 +100,7 @@ set_option linter.unreachableTactic false
 /-!
 # A298300: Analog of Motzkin numbers for Coxeter type D.
 
-The programs for A298300, the canonical program `A298300.P9978731445362915200` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298300 has offset 2).
+The programs for A298300, the canonical program `A298300.P9978731445362915200` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298300 has offset 2).
 
 The definition of A298300 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 212 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -141,7 +138,7 @@ end A298300
 
 `A002026(n)+∑[A026165(n)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A298300
@@ -6252,7 +6249,7 @@ end A298365.P18031166488623317626
 /-!
 # A298366: Even numbers n such that n-5 and n-3 are both composite.
 
-The programs for A298366, the canonical program `A298366.P16780955431485269286` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298366 has offset 1).
+The programs for A298366, the canonical program `A298366.P16780955431485269286` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298366 has offset 1).
 
 The definition of A298366 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A061673, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6261,7 +6258,7 @@ The definition of A298366 is `conditional`: the Lean definition is an OEIS formu
 
 `A061673(n+1)+4`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A298366
@@ -7192,7 +7189,7 @@ end A298374.P3178785817878911911
 /-!
 # A298375: Partial sums of A230584.
 
-The programs for A298375, the canonical program `A298375.P7387057598630148626` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298375 has offset 1).
+The programs for A298375, the canonical program `A298375.P7387057598630148626` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298375 has offset 1).
 
 The definition of A298375 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7201,7 +7198,7 @@ The definition of A298375 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A230584(n+1)]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A298375

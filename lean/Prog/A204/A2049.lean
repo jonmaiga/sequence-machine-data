@@ -39,8 +39,8 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -50,20 +50,19 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -303,7 +302,7 @@ end
 end A204900.P15910630644202972253
 
 /-!
-# A204901: The index j
+# A204901: The index j<k such that n divides s(k)-s(j), where k is the least index (A204900) for which such j exists, and s(k) denotes the k-th odd prime.
 
 The programs for A204901, there is no canonical definition to state claims against.
 -/
@@ -462,7 +461,7 @@ end
 end A204901.P3643513624945610959
 
 /-!
-# A204902: Least prime p such that n divides p-q for some odd prime q
+# A204902: Least prime p such that n divides p-q for some odd prime q<p.
 
 The programs for A204902, there is no canonical definition to state claims against.
 -/
@@ -1161,7 +1160,7 @@ end
 end A204904.P1895806550344666165
 
 /-!
-# A204905: Least k such that n divides k^2-j^2 for some j satisfying 1<=j
+# A204905: Least k such that n divides k^2-j^2 for some j satisfying 1<=j<k.
 
 The programs for A204905, there is no canonical definition to state claims against.
 -/
@@ -1813,7 +1812,7 @@ end
 end A204908.P13437199822085737994
 
 /-!
-# A204909: The index j
+# A204909: The index j<k such that n divides s(k)-s(j), where k is the least index (A204908) for which such j exists.
 
 The programs for A204909, there is no canonical definition to state claims against.
 -/
@@ -1942,7 +1941,7 @@ end
 end A204909.P10437571371624692971
 
 /-!
-# A204910: Least prime p such that n divides p-q for some prime q satisfying 5<=q
+# A204910: Least prime p such that n divides p-q for some prime q satisfying 5<=q<p.
 
 The programs for A204910, there is no canonical definition to state claims against.
 -/
@@ -2621,7 +2620,7 @@ end
 end A204916.P14633467849583331188
 
 /-!
-# A204917: Least j such that n divides s(k)-s(j) for some k>j, where s(j)=(prime(j))^2.
+# A204917: Least j such that n divides s(A204916(n))-s(j), where s(j)=(prime(j))^2.
 
 The programs for A204917, there is no canonical definition to state claims against.
 -/
@@ -2804,7 +2803,7 @@ end
 end A204917.P4853116231153301648
 
 /-!
-# A204918: Least prime p^2 such that n divides p^2-q^2 for some prime q satisfying q
+# A204918: Square of the least prime p such that n divides p^2-q^2 for some prime q satisfying q<p.
 
 The programs for A204918, there is no canonical definition to state claims against.
 -/
@@ -4387,7 +4386,7 @@ def P9231831875967386048.Spec : Prop :=
 end A204930
 
 /-!
-# A204932: Least k such that n divides k!-j! for some j satisfying 1<=j
+# A204932: Least k such that n divides k!-j! for some j satisfying 1<=j<k.
 
 The programs for A204932, there is no canonical definition to state claims against.
 -/
@@ -4498,7 +4497,7 @@ end
 end A204932.P4597100140542370904
 
 /-!
-# A204933: The index j
+# A204933: The index j<k such that n divides k!-j!, where k is the least index (A204932) for which such j exists.
 
 The programs for A204933, there is no canonical definition to state claims against.
 -/
@@ -4639,7 +4638,7 @@ end
 end A204933.P7988799710201833416
 
 /-!
-# A204934: Least k! such that n divides k!-j! for some j
+# A204934: Least k! such that n divides k!-j! for some j<k.
 
 The programs for A204934, there is no canonical definition to state claims against.
 -/
@@ -7527,7 +7526,7 @@ end
 end A204977.P16232536701235413107
 
 /-!
-# A204979: Least k such that n divides 2^(k-1)-2^(j-1) for some j satisfying 1<=j
+# A204979: Least k such that n divides 2^(k-1)-2^(j-1) for some j satisfying 1<=j<k.
 
 The programs for A204979, there is no canonical definition to state claims against.
 -/
@@ -8168,7 +8167,7 @@ def P15708578112495230729.Spec : Prop :=
 end A204980
 
 /-!
-# A204981: Least 2^(k-1) such that n divides 2^(k-1)-2^(j-1) for some j
+# A204981: Least 2^(k-1) such that n divides 2^(k-1)-2^(j-1) for some j<k.
 
 The programs for A204981, there is no canonical definition to state claims against.
 -/
@@ -10503,7 +10502,7 @@ def P4174333538051429424.Spec : Prop :=
 end A204988
 
 /-!
-# A204989: Least 2^k such that n divides 2^k-2^j for some j
+# A204989: Least 2^k such that n divides 2^k-2^j for some j<k.
 
 The programs for A204989, there is no canonical definition to state claims against.
 -/
@@ -11504,7 +11503,7 @@ def P18303660348349272058.Spec : Prop :=
 end A204993
 
 /-!
-# A204995: The index j
+# A204995: The index j<k such that n divides k^2-j^2, where k is the least index (A204905) for which such j exists.
 
 The programs for A204995, there is no canonical definition to state claims against.
 -/
@@ -11678,7 +11677,7 @@ end
 end A204995.P11103393966536526602
 
 /-!
-# A204996: Least k^2 such that n divides k^2-j^2 for some j
+# A204996: Least k^2 such that n divides k^2-j^2 for some j<k.
 
 The programs for A204996, there is no canonical definition to state claims against.
 -/

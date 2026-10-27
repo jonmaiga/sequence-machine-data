@@ -38,7 +38,6 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -51,22 +50,21 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1827,7 +1825,7 @@ end A193138
 /-!
 # A193139: Number of symmetric satins of order n.
 
-The programs for A193139, the canonical program `A193139.P1676092991408974637` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193139 has offset 3).
+The programs for A193139, the canonical program `A193139.P1676092991408974637` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193139 has offset 3).
 
 The definition of A193139 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A157230, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1836,7 +1834,7 @@ The definition of A193139 is `conditional`: the Lean definition is an OEIS formu
 
 `A157230(n+3)-1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A193139
@@ -2061,7 +2059,7 @@ end A193139
 /-!
 # A193140: Number of isonemal satins of exact period n.
 
-The programs for A193140, the canonical program `A193140.P15573877660645811182` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193140 has offset 2).
+The programs for A193140, the canonical program `A193140.P15573877660645811182` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A193140 has offset 2).
 
 The definition of A193140 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A086669, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2070,7 +2068,7 @@ The definition of A193140 is `conditional`: the Lean definition is an OEIS formu
 
 `A086669(n+2)-1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A193140

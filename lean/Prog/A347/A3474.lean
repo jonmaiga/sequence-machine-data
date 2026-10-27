@@ -36,7 +36,6 @@ import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -45,28 +44,30 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -460,7 +461,7 @@ end A347403.P10104470209816909185
 /-!
 # A347405: a(n) = Sum_{d|n} 2^(tau(d) - 1).
 
-The programs for A347405, the canonical program `A347405.P7591125680275529693` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347405 has offset 1).
+The programs for A347405, the canonical program `A347405.P7591125680275529693` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347405 has offset 1).
 
 The definition of A347405 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -495,7 +496,7 @@ end A347405
 
 `∑{d}[n+1, 2^A032741(#)]`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A347405
@@ -3815,7 +3816,7 @@ end A347449.P2811939045541034609
 /-!
 # A347450: Numbers whose multiset of prime indices has alternating product <= 1.
 
-The programs for A347450, the canonical program `A347450.P17431101381661842723` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347450 has offset 1).
+The programs for A347450, the canonical program `A347450.P17431101381661842723` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347450 has offset 1).
 
 The definition of A347450 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3824,7 +3825,7 @@ The definition of A347450 is `conjectured`: the Lean definition is a formula tha
 
 `∪[∪[2*(n+1)², (n+1)²], A028260(n+1)]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A347450
@@ -7433,7 +7434,7 @@ end A347478
 /-!
 # A347481: Number of total dominating sets in the n-dipyramidal graph.
 
-The programs for A347481, the canonical program `A347481.P17034281102152807160` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347481 has offset 1).
+The programs for A347481, the canonical program `A347481.P17034281102152807160` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A347481 has offset 1).
 
 The definition of A347481 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7442,7 +7443,7 @@ The definition of A347481 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000032(n+1)+2*cos((n+1)*π/2)+3*2^(n+1)-3`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A347481

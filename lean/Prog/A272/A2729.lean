@@ -49,7 +49,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -57,11 +57,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -73,9 +75,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -110,7 +109,7 @@ set_option linter.unreachableTactic false
 /-!
 # A272900: Fibonacci-products fractal sequence.
 
-The programs for A272900, the canonical program `A272900.P12902754051628015523` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272900 has offset 1).
+The programs for A272900, the canonical program `A272900.P12902754051628015523` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272900 has offset 1).
 
 The definition of A272900 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -119,7 +118,7 @@ The definition of A272900 is `conjectured`: the Lean definition is a formula tha
 
 `A008967(4*n+5)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A272900
@@ -592,7 +591,7 @@ end A272901.P2011668445324803687
 /-!
 # A272902: Numbers k such that 6*k - 5 is not prime.
 
-The programs for A272902, the canonical program `A272902.P2391986581813364604` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272902 has offset 1).
+The programs for A272902, the canonical program `A272902.P2391986581813364604` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272902 has offset 1).
 
 The definition of A272902 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -617,12 +616,6 @@ namespace A272902
 /-- `A046954(n+1)+1` -/
 def P4797091897060797173.Spec : Prop :=
   ∀ n, P4797091897060797173.a n = A272902 (n + 1)
-
-theorem P4797091897060797173.correct : P4797091897060797173.Spec := by
-  intro n
-  simp only [A272902, Nat.add_sub_cancel, A272902.P4797091897060797173.a, A272902.P2391986581813364604.f1, A272902.P2391986581813364604.f2, A272902.P2391986581813364604.a, A046954, A046954.P3746753794890301022.a, A101264, A101264.P9977125953316836564.a, A010051, A010051.P15078252821583414300.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A272902
 
@@ -680,7 +673,7 @@ end A272902
 
 `eq[0, A101264(3*n)]+1`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A272902
@@ -4024,7 +4017,7 @@ end A272927.P14205857946947879170
 /-!
 # A272928: Partial sums of A147562.
 
-The programs for A272928, the canonical program `A272928.P5031657854594105114` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272928 has offset 0).
+The programs for A272928, the canonical program `A272928.P5031657854594105114` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272928 has offset 0).
 
 The definition of A272928 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3808 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4059,7 +4052,7 @@ end A272928
 
 `∑[floor(A160410(n)/3)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A272928
@@ -4687,7 +4680,7 @@ end A272931
 /-!
 # A272933: Numbers of the form x^2 + 12*y^2.
 
-The programs for A272933, the canonical program `A272933.P1769940145584880595` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272933 has offset 1).
+The programs for A272933, the canonical program `A272933.P1769940145584880595` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272933 has offset 1).
 
 The definition of A272933 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6625 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4696,7 +4689,7 @@ The definition of A272933 is `conjectured`: the Lean definition is a formula tha
 
 `lt[and(2, n), A353816(n)]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A272933

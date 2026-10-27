@@ -44,9 +44,10 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -60,6 +61,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -73,8 +75,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2386,21 +2386,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039217.P17565657747757333838
-
-/-! ## A039217.P17607684534869333481
-
-`A039268(n+1)+A001222(A173176(n+1))`
--/
-
-namespace A039217.P17607684534869333481
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039268 (n + 1) + A001222 (A173176 (n + 1)).toNat
-
-end
-
-end A039217.P17607684534869333481
 
 /-!
 # A039218: Numbers whose base-12 representation has the same number of 0's and 9's.
@@ -5318,21 +5303,6 @@ end
 
 end A039263.P2398686296833338164
 
-/-! ## A039263.P4252893698331060315
-
-`A039217(n+2)-A000005(A173176(n+1))`
--/
-
-namespace A039263.P4252893698331060315
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039217 (n + 2) - A000005 (A173176 (n + 1)).toNat
-
-end
-
-end A039263.P4252893698331060315
-
 /-! ## A039263.P9085742199750977719
 
 `A039268(n+2)-A001222(A195602(n+1))`
@@ -5452,21 +5422,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A039263.P15315194256874613510
-
-/-! ## A039263.P6038645882588641305
-
-`A039268(n+2)-A001222(A173176(n+2))`
--/
-
-namespace A039263.P6038645882588641305
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A039268 (n + 2) - A001222 (A173176 (n + 2)).toNat
-
-end
-
-end A039263.P6038645882588641305
 
 /-!
 # A039264: Numbers whose base-12 representation has the same number of 6's and 11's.
@@ -8363,7 +8318,7 @@ end A039284.P13713271436178364387
 /-!
 # A039285: Numbers whose base-5 representation has the same nonzero number of 0's and 3's.
 
-The programs for A039285, the canonical program `A039285.P4990860470344623038` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039285 has offset 1).
+The programs for A039285, the canonical program `A039285.P4990860470344623038` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A039285 has offset 1).
 
 The definition of A039285 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3096 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8372,7 +8327,7 @@ The definition of A039285 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A039009(n+1), A382415(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A039285

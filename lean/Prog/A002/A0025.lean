@@ -48,8 +48,10 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -57,13 +59,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
@@ -71,9 +73,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5098,7 +5097,7 @@ def P7775359653041642966.Spec : Prop :=
 end A002537
 
 /-!
-# A002538: Second-order Eulerian numbers <>.
+# A002538: Second-order Eulerian numbers <<n+1,n-1>>.
 
 The programs for A002538, the canonical program `A002538.P17904586890087023713` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002538 has offset 1).
 
@@ -5356,7 +5355,7 @@ def P15258754850165699538.Spec : Prop :=
 end A002538
 
 /-!
-# A002539: Eulerian numbers of the second kind: <>.
+# A002539: Eulerian numbers of the second kind: <<n+3, n>>.
 
 The programs for A002539, the canonical program `A002539.P16612726421466139855` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002539 has offset 0).
 
@@ -10582,7 +10581,7 @@ end A002584
 /-!
 # A002585: Largest prime factor of 1 + (product of first n primes).
 
-The programs for A002585, the canonical program `A002585.P16335040184898859705` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002585 has offset 1).
+The programs for A002585, the canonical program `A002585.P16335040184898859705` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002585 has offset 0).
 
 The definition of A002585 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006530, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10598,11 +10597,11 @@ namespace A002585
 
 /-- `A006530(A006862(n+1))` -/
 def P16335040184898859705.Spec : Prop :=
-  ∀ n, P16335040184898859705.a n = A002585 (n + 1)
+  ∀ n, P16335040184898859705.a n = A002585 n
 
 theorem P16335040184898859705.correct : P16335040184898859705.Spec := by
   intro n
-  simp only [A002585, Nat.add_sub_cancel]
+  simp only [A002585]
 
 end A002585
 
@@ -10625,7 +10624,7 @@ namespace A002585
 
 /-- `A395052(A073582(n+2))` -/
 def P7181039042365178959.Spec : Prop :=
-  ∀ n, P7181039042365178959.a n = A002585 (n + 1)
+  ∀ n, P7181039042365178959.a n = A002585 n
 
 end A002585
 
@@ -10648,7 +10647,7 @@ namespace A002585
 
 /-- `A395052(A100484(n+2))` -/
 def P4053946978099710486.Spec : Prop :=
-  ∀ n, P4053946978099710486.a n = A002585 (n + 1)
+  ∀ n, P4053946978099710486.a n = A002585 n
 
 end A002585
 
@@ -10671,7 +10670,7 @@ namespace A002585
 
 /-- `A395052(2*A000040(n+2))` -/
 def P8496978347590094837.Spec : Prop :=
-  ∀ n, P8496978347590094837.a n = A002585 (n + 1)
+  ∀ n, P8496978347590094837.a n = A002585 n
 
 end A002585
 
@@ -10694,7 +10693,7 @@ namespace A002585
 
 /-- `A395052(A196226(n+1))` -/
 def P16612246737643422068.Spec : Prop :=
-  ∀ n, P16612246737643422068.a n = A002585 (n + 1)
+  ∀ n, P16612246737643422068.a n = A002585 n
 
 end A002585
 

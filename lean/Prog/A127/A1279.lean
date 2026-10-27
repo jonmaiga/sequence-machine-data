@@ -45,17 +45,20 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,7 +71,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -6948,7 +6950,7 @@ end
 end A127938.P11601214516866243870
 
 /-!
-# A127942: a(n) = denominator of b(n), where b(1)=1, b(n) = Sum_{1<=k
+# A127942: a(n) = denominator of b(n), where b(1)=1, b(n) = Sum_{1<=k<n, gcd(k,n)=1} 1/b(k).
 
 The programs for A127942, there is no canonical definition to state claims against.
 -/
@@ -18108,7 +18110,7 @@ end A127991
 /-!
 # A127992: Number of distinct prime factors of 2*n^3 - 2*n + 9.
 
-The programs for A127992, the canonical program `A127992.P8707308965457283916` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127992 has offset 1).
+The programs for A127992, the canonical program `A127992.P8707308965457283916` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127992 has offset 1).
 
 The definition of A127992 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -18117,7 +18119,7 @@ The definition of A127992 is `conditional`: the Lean definition is an OEIS formu
 
 `A001221(2*(n+1)^3-2*(n+1)+9)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A127992

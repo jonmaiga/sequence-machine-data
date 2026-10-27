@@ -25,23 +25,24 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
+import Seq.B002.C000
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
@@ -3924,7 +3925,7 @@ end
 end A184246.P11983829509426339249
 
 /-!
-# A184247: Primes, q, such that for three consecutive primes, p, q & r, with p
+# A184247: Primes, q, such that for three consecutive primes, p, q & r, with p<q<r, (q - p)/(r - q) is an integer.
 
 The programs for A184247, the canonical program `A184247.P435976798172402380` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184247 has offset 1).
 
@@ -4085,7 +4086,7 @@ def P90638041153021981.Spec : Prop :=
 end A184247
 
 /-!
-# A184248: Primes, q, such that for three consecutive primes, p, q & r, with p
+# A184248: Primes, q, such that for three consecutive primes, p, q & r, with p<q<r, (r - q)/(q - p) is an integer.
 
 The programs for A184248, the canonical program `A184248.P3384310769192450285` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A184248 has offset 1).
 

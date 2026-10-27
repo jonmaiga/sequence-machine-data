@@ -39,35 +39,34 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7634,7 +7633,7 @@ end A304561.P4766238890294780929
 /-!
 # A304569: Triangle read by rows: T(n,k) = 1 if k | n^e with e >= 0, otherwise T(n,k) = 0 (1 <= k <= n).
 
-The programs for A304569, the canonical program `A304569.P1317992739176579829` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304569 has offset 1).
+The programs for A304569, the canonical program `A304569.P1317992739176579829` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304569 has offset 1).
 
 The definition of A304569 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7643,7 +7642,7 @@ The definition of A304569 is `conjectured`: the Lean definition is a formula tha
 
 `C(2, A096133(n+1))`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A304569
@@ -8116,7 +8115,7 @@ end A304569
 /-!
 # A304570: Triangle read by rows: T(n,k) = 1 if k | n^e with e > 1 and n mod k != 0, T(n,k) = 0 otherwise (1 <= k <= n).
 
-The programs for A304570, the canonical program `A304570.P4550797118024341307` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304570 has offset 1).
+The programs for A304570, the canonical program `A304570.P4550797118024341307` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304570 has offset 1).
 
 The definition of A304570 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8125,7 +8124,7 @@ The definition of A304570 is `conjectured`: the Lean definition is a formula tha
 
 `A304569(n+1)-A051731(n+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A304570
@@ -9154,7 +9153,7 @@ end
 end A304575.P7955763894370530374
 
 /-!
-# A304576: a(n) = Sum_{k < n, k squarefree and relatively prime to n} (-1)^(k-1).
+# A304576: a(n) = Sum_{k = 1..n, k squarefree and relatively prime to n} (-1)^(k-1).
 
 The programs for A304576, there is no canonical definition to state claims against.
 -/
@@ -9888,7 +9887,7 @@ end A304582.P3568050674022197417
 /-!
 # A304583: Period 18: repeat 1,8,3,6,5,4,7,2,9,0,9,2,7,4,5,6,3,8.
 
-The programs for A304583, the canonical program `A304583.P6719767480601290813` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304583 has offset 1).
+The programs for A304583, the canonical program `A304583.P6719767480601290813` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304583 has offset 1).
 
 The definition of A304583 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1249 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9897,7 +9896,7 @@ The definition of A304583 is `conjectured`: the Lean definition is a formula tha
 
 `A199264(8*n+9)+A000035(n+1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A304583
@@ -9915,7 +9914,7 @@ end A304583
 /-!
 # A304584: A linear mapping a(n) = x + d*n of pairs of nonnegative integers (x,d), where the pairs are enumerated by antidiagonals.
 
-The programs for A304584, the canonical program `A304584.P17978480796387460377` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304584 has offset 0).
+The programs for A304584, the canonical program `A304584.P17978480796387460377` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304584 has offset 0).
 
 The definition of A304584 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9924,7 +9923,7 @@ The definition of A304584 is `conjectured`: the Lean definition is a formula tha
 
 `A025581(n)+n*A002262(n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A304584
@@ -10380,7 +10379,7 @@ end A304585.P11696271748139469132
 /-!
 # A304586: A linear mapping a(n) = x + d*n of pairs of integers (x,d), where the pairs are enumerated by the counterclockwise square spiral (an axis-parallel number spiral) starting at 0.
 
-The programs for A304586, the canonical program `A304586.P17678521593836003710` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304586 has offset 0).
+The programs for A304586, the canonical program `A304586.P17678521593836003710` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304586 has offset 0).
 
 The definition of A304586 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10389,7 +10388,7 @@ The definition of A304586 is `conjectured`: the Lean definition is a formula tha
 
 `A174344(n+1)+n*A274923(n+1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A304586
@@ -10775,7 +10774,7 @@ end A304586
 /-!
 # A304588: Length of shortest prefix of the Thue-Morse word (A010060) such that some length-n block appears twice.
 
-The programs for A304588, the canonical program `A304588.P15314905550837807375` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304588 has offset 1).
+The programs for A304588, the canonical program `A304588.P15314905550837807375` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A304588 has offset 1).
 
 The definition of A304588 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4096 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10784,7 +10783,7 @@ The definition of A304588 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A099892(n)+1]+2`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A304588

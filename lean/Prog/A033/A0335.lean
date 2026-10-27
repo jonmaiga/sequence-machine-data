@@ -46,21 +46,25 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -69,8 +73,7 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B012.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -218,7 +221,7 @@ def P18207186383125382328.Spec : Prop :=
 end A033500
 
 /-!
-# A033501: Almost-squares: m such that m/p(m) >= k/p(k) for all k
+# A033501: Almost-squares: m such that m/p(m) >= k/p(k) for all k<m, where p(m) is the least perimeter of a rectangle with integer side lengths and area m.
 
 The programs for A033501, there is no canonical definition to state claims against.
 -/
@@ -6605,7 +6608,7 @@ end A033557
 /-!
 # A033558: a(n) = 2n - {smallest prime > n}.
 
-The programs for A033558, the canonical program `A033558.P5355527907000063137` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033558 has offset 1).
+The programs for A033558, the canonical program `A033558.P5355527907000063137` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A033558 has offset 1).
 
 The definition of A033558 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6706,12 +6709,6 @@ namespace A033558
 def P9291478303888572642.Spec : Prop :=
   ∀ n, P9291478303888572642.a n = A033558 (n + 1)
 
-theorem P9291478303888572642.correct : P9291478303888572642.Spec := by
-  intro n
-  simp only [A033558, Nat.add_sub_cancel, A033558.P9291478303888572642.a, A033558.P5355527907000063137.f1, A033558.P5355527907000063137.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A010051, A010051.P15078252821583414300.a, A066169, A066169.P16801772389171406171.a, A103517, A103517.P5904106709824261984.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
-
 end A033558
 
 /-! ## A033558.P7821967905651631988
@@ -6734,12 +6731,6 @@ namespace A033558
 /-- `A308022(n+2)+A238737(n)` -/
 def P7821967905651631988.Spec : Prop :=
   ∀ n, P7821967905651631988.a n = A033558 (n + 1)
-
-theorem P7821967905651631988.correct : P7821967905651631988.Spec := by
-  intro n
-  simp only [A033558, Nat.add_sub_cancel, A033558.P7821967905651631988.a, A033558.P5355527907000063137.f1, A033558.P5355527907000063137.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A010051, A010051.P15078252821583414300.a, A238737, A238737.P4243855582569951164.a, A308022, A308022.P12381398611717644389.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A175851, A175851.P13592010490707745070.a, A193056, A193056.P6449544040074946363.a, A061007, A061007.P1649170130193805129.f1, A061007.P1649170130193805129.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A033558
 
@@ -6908,7 +6899,7 @@ end A033558
 
 `2*(n+1)-A000040(∑[A010051(n+1)]+1)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A033558

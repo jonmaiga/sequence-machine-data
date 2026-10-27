@@ -41,26 +41,28 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2081,7 +2083,7 @@ end A268126.P4748491525118476806
 /-!
 # A268127: a(n) = (A005704(n)-A006047(n))/3.
 
-The programs for A268127, the canonical program `A268127.P12853289484081754662` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268127 has offset 0).
+The programs for A268127, the canonical program `A268127.P12853289484081754662` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268127 has offset 0).
 
 The definition of A268127 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006047, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2090,7 +2092,7 @@ The definition of A268127 is `conditional`: the Lean definition is an OEIS formu
 
 `(A005704(n)-A006047(n))/3`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A268127
@@ -2320,7 +2322,7 @@ end A268127
 /-!
 # A268128: a(n) = (A000123(n) - A001316)/2.
 
-The programs for A268128, the canonical program `A268128.P3789248238406704639` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268128 has offset 0).
+The programs for A268128, the canonical program `A268128.P3789248238406704639` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268128 has offset 0).
 
 The definition of A268128 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2329,7 +2331,7 @@ The definition of A268128 is `conjectured`: the Lean definition is a formula tha
 
 `(A000123(n)-A001316(n))/2`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A268128
@@ -2751,7 +2753,7 @@ end A268133.P15189879801286182140
 /-!
 # A268135: Numbers n such that the digit sum of n^2 is a divisor of the digit sum of n.
 
-The programs for A268135, the canonical program `A268135.P792278026408180777` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268135 has offset 1).
+The programs for A268135, the canonical program `A268135.P792278026408180777` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268135 has offset 1).
 
 The definition of A268135 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 248 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2760,7 +2762,7 @@ The definition of A268135 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A007953(n+1)%A004159(n+1)]+1`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A268135

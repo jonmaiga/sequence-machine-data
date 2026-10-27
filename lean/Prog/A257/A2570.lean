@@ -44,10 +44,9 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -60,10 +59,10 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -73,7 +72,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1292,7 +1290,7 @@ end A257016.P8455220768692953060
 /-!
 # A257019: Numbers whose quarter-square representation consists of two terms.
 
-The programs for A257019, the canonical program `A257019.P1728863138039502506` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257019 has offset 1).
+The programs for A257019, the canonical program `A257019.P1728863138039502506` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257019 has offset 1).
 
 The definition of A257019 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1301,7 +1299,7 @@ The definition of A257019 is `conjectured`: the Lean definition is a formula tha
 
 `eq[3, a(A055087(n))+1]` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A257019
@@ -1938,7 +1936,7 @@ end A257022.P2787937159030430177
 /-!
 # A257023: Number of terms in the quarter-sum representation of n.
 
-The programs for A257023, the canonical program `A257023.P5149314278277772350` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257023 has offset 0).
+The programs for A257023, the canonical program `A257023.P5149314278277772350` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257023 has offset 0).
 
 The definition of A257023 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1947,7 +1945,7 @@ The definition of A257023 is `conjectured`: the Lean definition is a formula tha
 
 `∏{e}[2*a(A055087(n)), #]` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A257023

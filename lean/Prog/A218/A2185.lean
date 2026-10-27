@@ -37,30 +37,30 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -604,7 +604,7 @@ end A218504.P3452384258404490745
 /-!
 # A218506: Number of partitions of n in which any two parts differ by at most 4.
 
-The programs for A218506, the canonical program `A218506.P14739239847812447530` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218506 has offset 0).
+The programs for A218506, the canonical program `A218506.P14739239847812447530` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218506 has offset 0).
 
 The definition of A218506 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3242 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -613,7 +613,7 @@ The definition of A218506 is `conjectured`: the Lean definition is a formula tha
 
 `A308733(n+4)-char[4*(n+1)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A218506
@@ -1230,7 +1230,7 @@ end A218515.P8075314436582280392
 /-!
 # A218516: Number of n X 2 arrays of the minimum value of corresponding elements and their horizontal or antidiagonal neighbors in a random 0..3 n X 2 array.
 
-The programs for A218516, the canonical program `A218516.P9593290001197156008` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218516 has offset 1).
+The programs for A218516, the canonical program `A218516.P9593290001197156008` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218516 has offset 1).
 
 The definition of A218516 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 123 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1239,7 +1239,7 @@ The definition of A218516 is `conjectured`: the Lean definition is a formula tha
 
 `A218051(2*(n+1))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A218516
@@ -3167,7 +3167,7 @@ end A218539.P1563900335573841793
 /-!
 # A218540: Reduced third-order Patalan numbers.
 
-The programs for A218540, the canonical program `A218540.P16836144759603430934` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218540 has offset 0).
+The programs for A218540, the canonical program `A218540.P16836144759603430934` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218540 has offset 0).
 
 The definition of A218540 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A025748, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3176,7 +3176,7 @@ The definition of A218540 is `conditional`: the Lean definition is an OEIS formu
 
 `A025748(n)/A108411(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A218540
@@ -4543,7 +4543,7 @@ end A218561.P5407711159299654762
 /-!
 # A218562: Numbers k such that k^2 + 1 is divisible by a cube.
 
-The programs for A218562, the canonical program `A218562.P10071960240153483260` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218562 has offset 1).
+The programs for A218562, the canonical program `A218562.P10071960240153483260` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A218562 has offset 1).
 
 The definition of A218562 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 174 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4552,7 +4552,7 @@ The definition of A218562 is `conjectured`: the Lean definition is a formula tha
 
 `eq[and(6, A278162(n)), A000007(n)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A218562
@@ -6588,7 +6588,7 @@ end
 end A218584.P16894864535654300620
 
 /-!
-# A218585: Number of ways to write n as x+y with 0
+# A218585: Number of ways to write n as x+y with 0<x<=y and x^2+xy+y^2 prime.
 
 The programs for A218585, there is no canonical definition to state claims against.
 -/

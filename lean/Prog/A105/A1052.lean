@@ -46,8 +46,8 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -55,25 +55,25 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -926,7 +926,7 @@ end
 end A105204.P16093680098375707976
 
 /-!
-# A105205: G.f.: Sum((1-x)^(2*l)*Sum(x^((2*l-1)*k)/(1-2*x+x^k)^(2*l),k=1..infinity),l=1..infinity).
+# A105205: Number of compositions of n such that the greatest part occurs with odd multiplicity.
 
 The programs for A105205, there is no canonical definition to state claims against.
 -/
@@ -2344,7 +2344,7 @@ end A105220
 /-!
 # A105221: a(n) is the sum of n's distinct prime factors below n.
 
-The programs for A105221, the canonical program `A105221.P17719623874901943766` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A105221 has offset 1).
+The programs for A105221, the canonical program `A105221.P17719623874901943766` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A105221 has offset 1).
 
 The definition of A105221 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008472, A010051, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2353,7 +2353,7 @@ The definition of A105221 is `conditional`: the Lean definition is an OEIS formu
 
 `A008472(n+1)-A010051(n+1)*(n+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A105221
@@ -2841,12 +2841,6 @@ namespace A105221
 /-- `A008472(n+1)-A061397(n+1)` -/
 def P10616849269079083958.Spec : Prop :=
   ∀ n, P10616849269079083958.a n = A105221 (n + 1)
-
-theorem P10616849269079083958.correct : P10616849269079083958.Spec := by
-  intro n
-  simp only [A105221, Nat.add_sub_cancel, A105221.P10616849269079083958.a, A105221.P17719623874901943766.a, A008472, A008472.P6567490011312877583.f1, A008472.P6567490011312877583.a, A010051, A010051.P15078252821583414300.a, A061397, A061397.P17730824645895443051.a, A000027, A000027.P10331202704469894836.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A105221
 
@@ -8382,7 +8376,7 @@ end
 end A105265.P13477258691942267455
 
 /-!
-# A105266: a(1)=1 and, for n>1, a(n) is the smallest integer greater than a(n-1) such that no three terms x,y,z of the sequence, with x
+# A105266: a(1)=1 and, for n>1, a(n) is the smallest integer greater than a(n-1) such that no three terms x,y,z of the sequence, with x<y<z, satisfy z-y=y-x+1.
 
 The programs for A105266, there is no canonical definition to state claims against.
 -/
@@ -10866,7 +10860,7 @@ def P1467701238562789540.Spec : Prop :=
 end A105283
 
 /-!
-# A105284: a(n)/4^n is the measure of the subset of [0,1] remaining when all intervals of the form [b/2^m - 1/2^(2m+1), b/2^m + 1/2^(2m+1)] have been removed, with b and m positive integers, b
+# A105284: a(n)/4^n is the measure of the subset of [0,1] remaining when all intervals of the form [b/2^m - 1/2^(2m+1), b/2^m + 1/2^(2m+1)] have been removed, with b and m positive integers, b<2^m and m<=n.
 
 The programs for A105284, the canonical program `A105284.P487824979078133755` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A105284 has offset 0).
 

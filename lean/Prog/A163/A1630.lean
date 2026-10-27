@@ -46,28 +46,30 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B013.C000
+import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3531,7 +3533,7 @@ end A163055.P18071112798540194437
 /-!
 # A163057: An alternating sum from the n-th odd number up to the n-th odd prime.
 
-The programs for A163057, the canonical program `A163057.P717677212788905023` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163057 has offset 1).
+The programs for A163057, the canonical program `A163057.P717677212788905023` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163057 has offset 1).
 
 The definition of A163057 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3540,7 +3542,7 @@ The definition of A163057 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n-A130472(A065091(n+1))`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A163057
@@ -3999,7 +4001,7 @@ end A163057
 /-!
 # A163058: Primes in A163057.
 
-The programs for A163058, the canonical program `A163058.P17793405762297747335` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163058 has offset 1).
+The programs for A163058, the canonical program `A163058.P17793405762297747335` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163058 has offset 1).
 
 The definition of A163058 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1004 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4008,7 +4010,7 @@ The definition of A163058 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A163057(n+1)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A163058
@@ -4526,7 +4528,7 @@ end A163058
 /-!
 # A163059: An alternating sum from 4*n-3 up to the smaller of the n-th twin primes.
 
-The programs for A163059, the canonical program `A163059.P8481546915683529169` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163059 has offset 1).
+The programs for A163059, the canonical program `A163059.P8481546915683529169` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163059 has offset 1).
 
 The definition of A163059 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001359, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4558,7 +4560,7 @@ end A163059
 
 `A001057(A001359(n+1))-A001057(4*n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A163059
@@ -4985,7 +4987,7 @@ end A163059
 /-!
 # A163061: Sum of the first n primes plus the first n nonprimes.
 
-The programs for A163061, the canonical program `A163061.P15581848910612517848` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163061 has offset 1).
+The programs for A163061, the canonical program `A163061.P15581848910612517848` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163061 has offset 1).
 
 The definition of A163061 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051349, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4994,7 +4996,7 @@ The definition of A163061 is `conditional`: the Lean definition is an OEIS formu
 
 `A007504(n+1)+A051349(n)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A163061
@@ -6016,7 +6018,7 @@ end A163062
 /-!
 # A163063: Lucas(3n+2) = Fibonacci(3n+1) + Fibonacci(3n+3).
 
-The programs for A163063, the canonical program `A163063.P6713968383257800032` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163063 has offset 0).
+The programs for A163063, the canonical program `A163063.P6713968383257800032` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163063 has offset 0).
 
 The definition of A163063 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000032(3*n+2)` (program `A163063.P6713968383257800032`, by `A163063.P6713968383257800032.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6048,7 +6050,7 @@ end A163063
 
 `A000032(3*n+2)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A163063
@@ -9871,7 +9873,7 @@ end A163086.P14813450252032647404
 /-!
 # A163087: Product{k|n} k$. Here '$' denotes the swinging factorial function (A056040).
 
-The programs for A163087, the canonical program `A163087.P13228092064453547001` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163087 has offset 0).
+The programs for A163087, the canonical program `A163087.P13228092064453547001` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163087 has offset 0).
 
 The definition of A163087 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 144 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9880,7 +9882,7 @@ The definition of A163087 is `conjectured`: the Lean definition is a formula tha
 
 `∏{d}[n, A056040(#)]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A163087
@@ -10016,7 +10018,7 @@ end A163087
 /-!
 # A163088: (Product{k|n} k$) / n$. Here '$' denotes the swinging factorial function (A056040).
 
-The programs for A163088, the canonical program `A163088.P2830907696303753989` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163088 has offset 0).
+The programs for A163088, the canonical program `A163088.P2830907696303753989` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163088 has offset 0).
 
 The definition of A163088 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A163087, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10025,7 +10027,7 @@ The definition of A163088 is `conditional`: the Lean definition is an OEIS formu
 
 `A163087(n)/A056040(n)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A163088
@@ -10141,7 +10143,7 @@ end A163088
 /-!
 # A163089: n! / (Product{k|n} k$). Here '$' denotes the swinging factorial function (A056040).
 
-The programs for A163089, the canonical program `A163089.P10666734151274875849` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163089 has offset 0).
+The programs for A163089, the canonical program `A163089.P10666734151274875849` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163089 has offset 0).
 
 The definition of A163089 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A163087, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10150,7 +10152,7 @@ The definition of A163089 is `conditional`: the Lean definition is an OEIS formu
 
 `n!/A163087(n)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A163089
@@ -10397,7 +10399,7 @@ end A163094.P16822734962146528576
 /-!
 # A163095: a(n) = A000788(n)^2.
 
-The programs for A163095, the canonical program `A163095.P4667298633254708483` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163095 has offset 0).
+The programs for A163095, the canonical program `A163095.P4667298633254708483` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A163095 has offset 0).
 
 The definition of A163095 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000788, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10406,7 +10408,7 @@ The definition of A163095 is `conditional`: the Lean definition is an OEIS formu
 
 `A000788(n)²`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A163095

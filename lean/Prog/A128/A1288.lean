@@ -42,25 +42,25 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B006.C001
@@ -69,8 +69,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1475,7 +1473,7 @@ end A128805.P4836808817428387480
 /-!
 # A128806: a(n) = A001316(n) + A046092(n).
 
-The programs for A128806, the canonical program `A128806.P9737040730051066089` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128806 has offset 0).
+The programs for A128806, the canonical program `A128806.P9737040730051066089` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128806 has offset 0).
 
 The definition of A128806 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1484,7 +1482,7 @@ The definition of A128806 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001316(n)+A046092(n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A128806
@@ -6686,7 +6684,7 @@ end A128852.P11213651962891568230
 /-!
 # A128853: a(n) is the number of positive divisors of n which are coprime to phi(n) = A000010(n).
 
-The programs for A128853, the canonical program `A128853.P13378743803710917072` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128853 has offset 1).
+The programs for A128853, the canonical program `A128853.P13378743803710917072` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128853 has offset 1).
 
 The definition of A128853 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6718,7 +6716,7 @@ end A128853
 
 `A034444(n+1)/A034444(A009195(n+1))`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A128853
@@ -10080,7 +10078,7 @@ end A128895.P2951183119592538363
 /-!
 # A128896: Triangular numbers that are products of three distinct primes.
 
-The programs for A128896, the canonical program `A128896.P15378370626665157583` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128896 has offset 1).
+The programs for A128896, the canonical program `A128896.P15378370626665157583` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128896 has offset 1).
 
 The definition of A128896 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10176,7 +10174,7 @@ end A128896
 
 `∩[A061304(n+1), A075875(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A128896

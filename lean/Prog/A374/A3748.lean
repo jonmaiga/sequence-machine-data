@@ -31,26 +31,26 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C006
-import Seq.B002.C000
+import Seq.B001.C007
+import Seq.B001.C012
 import Seq.B002.C001
-import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -328,7 +328,7 @@ end A374821.P13274497664599041150
 /-!
 # A374823: Primes p such that p-1 is refactorable.
 
-The programs for A374823, the canonical program `A374823.P1311388547321898954` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374823 has offset 1).
+The programs for A374823, the canonical program `A374823.P1311388547321898954` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374823 has offset 1).
 
 The definition of A374823 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 438 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -337,7 +337,7 @@ The definition of A374823 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A377121(n+1)]`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A374823
@@ -1771,7 +1771,7 @@ end A374850.P6817649900371565387
 /-!
 # A374852: a(n) = (1/3)*A054640(n) for n >= 1.
 
-The programs for A374852, the canonical program `A374852.P11494953044033864477` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374852 has offset 1).
+The programs for A374852, the canonical program `A374852.P11494953044033864477` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A374852 has offset 1).
 
 The definition of A374852 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1780,7 +1780,7 @@ The definition of A374852 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1/3*A054640(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A374852

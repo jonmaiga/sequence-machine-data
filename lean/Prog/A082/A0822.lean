@@ -39,17 +39,18 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C007
+import Seq.B001.C005
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -62,12 +63,12 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4247,7 +4248,7 @@ end
 end A082254.P13730441754568948415
 
 /-!
-# A082258: In the following triangular array the n-th row contains n primes (wherever possible) with digit sum n. Sequence contains the leading diagonal with a zero if no number exists.
+# A082258: 
 
 The programs for A082258, there is no canonical definition to state claims against.
 -/
@@ -7624,7 +7625,7 @@ end A082292.P6881774559477449256
 /-!
 # A082293: Numbers having exactly one square divisor > 1.
 
-The programs for A082293, the canonical program `A082293.P11384794704887734198` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082293 has offset 1).
+The programs for A082293, the canonical program `A082293.P11384794704887734198` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082293 has offset 1).
 
 The definition of A082293 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7662,7 +7663,7 @@ end A082293
 
 `eq[2, A050377(n+1)]+1`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A082293
@@ -8204,7 +8205,7 @@ end A082293
 /-!
 # A082294: Numbers having exactly two square divisors > 1.
 
-The programs for A082294, the canonical program `A082294.P3187455701052448076` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082294 has offset 1).
+The programs for A082294, the canonical program `A082294.P3187455701052448076` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082294 has offset 1).
 
 The definition of A082294 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 472 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8213,7 +8214,7 @@ The definition of A082294 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2, A071325(n+1)]+1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A082294
@@ -9227,7 +9228,7 @@ end A082297
 /-!
 # A082298: Expansion of (1-3*x-sqrt(9*x^2-10*x+1))/(2*x).
 
-The programs for A082298, the canonical program `A082298.P14318922144743099037` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082298 has offset 0).
+The programs for A082298, the canonical program `A082298.P14318922144743099037` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A082298 has offset 0).
 
 The definition of A082298 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 108 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9458,7 +9459,7 @@ end A082298
 
 `(A057427(n)+1)²*A059231(n)`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A082298

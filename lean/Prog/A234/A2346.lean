@@ -37,16 +37,20 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -54,11 +58,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -171,7 +175,7 @@ end
 end A234600.P14516573580583944754
 
 /-!
-# A234601: Total counts of distinct (undirected) cycles for all simple graphs of order n.
+# A234601: Total number of (undirected) cycles for all simple graphs of order n.
 
 The programs for A234601, there is no canonical definition to state claims against.
 -/
@@ -1117,7 +1121,7 @@ end A234637.P821742279937168403
 /-!
 # A234638: Numbers n for which sigma(sigma(n)) is odd.
 
-The programs for A234638, the canonical program `A234638.P1618051015318160246` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234638 has offset 1).
+The programs for A234638, the canonical program `A234638.P1618051015318160246` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234638 has offset 1).
 
 The definition of A234638 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1121 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1126,7 +1130,7 @@ The definition of A234638 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A007913(A000203(n+1)), 3]+1`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A234638
@@ -2455,7 +2459,7 @@ end A234645
 /-!
 # A234646: Sum of the distinct prime divisors of n^3 + 1.
 
-The programs for A234646, the canonical program `A234646.P14047031751974978695` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234646 has offset 0).
+The programs for A234646, the canonical program `A234646.P14047031751974978695` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234646 has offset 0).
 
 The definition of A234646 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2464,7 +2468,7 @@ The definition of A234646 is `conjectured`: the Lean definition is a formula tha
 
 `A005070((1-n)²+n)+∑{p}[n+1, #]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A234646
@@ -6186,7 +6190,7 @@ end A234694.P5381034834913490967
 /-!
 # A234695: Primes p with prime(p) - p + 1 also prime.
 
-The programs for A234695, the canonical program `A234695.P11730189554864400723` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234695 has offset 1).
+The programs for A234695, the canonical program `A234695.P11730189554864400723` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234695 has offset 1).
 
 The definition of A234695 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2160 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6218,7 +6222,7 @@ end A234695
 
 `p?[A234851(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A234695

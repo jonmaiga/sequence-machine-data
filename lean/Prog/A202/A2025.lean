@@ -12,6 +12,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -41,8 +42,9 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -50,18 +52,19 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
-import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2311,17 +2314,25 @@ end A202534.P3446165001748364062
 /-!
 # A202535: a(n) = n*phi(n)*abs( mobius(n) ).
 
-The programs for A202535, the canonical program `A202535.P2093204726395157723` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202535 has offset 1).
+The programs for A202535, the canonical program `A202535.P8089479057580425171` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A202535 has offset 1).
 
-The definition of A202535 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002618, A008966, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A202535 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A008683, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A202535.P2093204726395157723
 
 `A002618(n+1)*A008966(n+1)`
-
-The canonical program, it is in `Seq.B005.C001`.
 -/
+
+namespace A202535.P2093204726395157723
+noncomputable section
+
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  A002618 (n + 1) * A008966 (n + 1)
+
+end
+
+end A202535.P2093204726395157723
 
 namespace A202535
 
@@ -2329,34 +2340,24 @@ namespace A202535
 def P2093204726395157723.Spec : Prop :=
   ∀ n, P2093204726395157723.a n = A202535 (n + 1)
 
-theorem P2093204726395157723.correct : P2093204726395157723.Spec := by
-  intro n
-  simp only [A202535, Nat.add_sub_cancel]
-
 end A202535
 
 /-! ## A202535.P8089479057580425171
 
 `(n+1)*A000010(n+1)*abs(A008683(n+1))`
 
-The name formula of the sequence (the formula in its OEIS name, parsed automatically).
+The canonical program, it is in `Seq.B003.C003`.
 -/
-
-namespace A202535.P8089479057580425171
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  (n + 1 : ℤ) * A000010 (n + 1) * |A008683 (n + 1)|
-
-end
-
-end A202535.P8089479057580425171
 
 namespace A202535
 
 /-- `(n+1)*A000010(n+1)*abs(A008683(n+1))` -/
 def P8089479057580425171.Spec : Prop :=
   ∀ n, P8089479057580425171.a n = A202535 (n + 1)
+
+theorem P8089479057580425171.correct : P8089479057580425171.Spec := by
+  intro n
+  simp only [A202535, Nat.add_sub_cancel]
 
 end A202535
 

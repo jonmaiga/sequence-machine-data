@@ -37,22 +37,26 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -65,8 +69,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1048,7 +1050,7 @@ end A281113.P17832288003501720481
 /-!
 # A281114: Parity of the n-th squarefree triangular number.
 
-The programs for A281114, the canonical program `A281114.P8895505097088031617` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281114 has offset 1).
+The programs for A281114, the canonical program `A281114.P8895505097088031617` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281114 has offset 1).
 
 The definition of A281114 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A061304, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1057,7 +1059,7 @@ The definition of A281114 is `conditional`: the Lean definition is an OEIS formu
 
 `A061304(n+1)%2`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A281114
@@ -1845,7 +1847,7 @@ end A281121.P5298271268537219428
 /-!
 # A281122: Triangle T read by rows: n-th row (n>=0) gives the non-vanishing coefficients of the polynomial q(n,x) = ((x+1)^(2^n) - (x-1)^(2^n))/2.
 
-The programs for A281122, the canonical program `A281122.P114872565162045204` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281122 has offset 0).
+The programs for A281122, the canonical program `A281122.P114872565162045204` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281122 has offset 0).
 
 The definition of A281122 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 299 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1854,7 +1856,7 @@ The definition of A281122 is `conjectured`: the Lean definition is a formula tha
 
 `A345135(Δ[n²])`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A281122
@@ -3730,7 +3732,7 @@ end A281147.P12432524380116955295
 /-!
 # A281149: Elias gamma code (EGC) for n.
 
-The programs for A281149, the canonical program `A281149.P12904850799090773250` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281149 has offset 1).
+The programs for A281149, the canonical program `A281149.P12904850799090773250` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281149 has offset 1).
 
 The definition of A281149 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 255 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3739,7 +3741,7 @@ The definition of A281149 is `conjectured`: the Lean definition is a formula tha
 
 `A007088(A171885(n+1))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A281149
@@ -7275,7 +7277,7 @@ end A281190.P16803143447566628354
 /-!
 # A281192: Numbers with no squarefree neighbors.
 
-The programs for A281192, the canonical program `A281192.P15044802621846119533` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281192 has offset 1).
+The programs for A281192, the canonical program `A281192.P15044802621846119533` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A281192 has offset 1).
 
 The definition of A281192 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5342 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7314,7 +7316,7 @@ end A281192
 
 `eq[2*A008683(n+1), A008683(n+3)]+2`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A281192

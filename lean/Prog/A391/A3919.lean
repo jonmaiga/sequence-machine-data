@@ -33,38 +33,41 @@ import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C012
+import Seq.B001.C009
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -99,7 +102,7 @@ set_option linter.unreachableTactic false
 /-!
 # A391900: The total number of prime factors (counted with multiplicity) of the prime factorization exponents of n.
 
-The programs for A391900, the canonical program `A391900.P11135445181283333301` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391900 has offset 1).
+The programs for A391900, the canonical program `A391900.P11135445181283333301` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391900 has offset 1).
 
 The definition of A391900 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -108,7 +111,7 @@ The definition of A391900 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(A005361(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A391900
@@ -550,7 +553,7 @@ end A391907.P17432992496663554578
 /-!
 # A391909: Numbers k such that -1 <= A195017(k) <= 1.
 
-The programs for A391909, the canonical program `A391909.P11414189018115501503` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391909 has offset 1).
+The programs for A391909, the canonical program `A391909.P11414189018115501503` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391909 has offset 1).
 
 The definition of A391909 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -559,7 +562,7 @@ The definition of A391909 is `conjectured`: the Lean definition is a formula tha
 
 `record[(n+1)*A391747(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A391909
@@ -686,7 +689,7 @@ end A391914.P14178725363081318800
 /-!
 # A391917: Number of irredundant sets in the n-double cone graph.
 
-The programs for A391917, the canonical program `A391917.P17410970912518672552` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391917 has offset 1).
+The programs for A391917, the canonical program `A391917.P17410970912518672552` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391917 has offset 1).
 
 The definition of A391917 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -695,7 +698,7 @@ The definition of A391917 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A290493(n+1)²+1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A391917
@@ -3007,7 +3010,7 @@ end A391961.P8706558254266844703
 /-!
 # A391962: a(n) = Sum_{k=0..n} (k+1) * binomial(k,2*(n-k)).
 
-The programs for A391962, the canonical program `A391962.P2553170299100446233` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391962 has offset 0).
+The programs for A391962, the canonical program `A391962.P2553170299100446233` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391962 has offset 0).
 
 The definition of A391962 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 401 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3016,7 +3019,7 @@ The definition of A391962 is `conjectured`: the Lean definition is a formula tha
 
 `A228577(Δ[n²])`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A391962
@@ -4257,7 +4260,7 @@ end A391990
 /-!
 # A391991: Triangle read by rows: T(n,k) = number of digits in decimal representation of binomial(n,k), 0<=k<=n.
 
-The programs for A391991, the canonical program `A391991.P1337276639088855244` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391991 has offset 0).
+The programs for A391991, the canonical program `A391991.P1337276639088855244` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391991 has offset 0).
 
 The definition of A391991 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4266,7 +4269,7 @@ The definition of A391991 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A055642(A007318(n))`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A391991
@@ -4584,7 +4587,7 @@ end A391991
 /-!
 # A391992: Number of digits in the decimal expansion of binomial(2*n,n).
 
-The programs for A391992, the canonical program `A391992.P8143672549398333328` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391992 has offset 0).
+The programs for A391992, the canonical program `A391992.P8143672549398333328` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391992 has offset 0).
 
 The definition of A391992 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 169 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4645,7 +4648,7 @@ end A391992
 
 `∑{digits}[A000984(n), A055642(#)]`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A391992
@@ -6332,7 +6335,7 @@ end A391997
 /-!
 # A391998: Composite numbers k such that k + 1 is not a power of an odd prime and 2*k + 1 is not a prime power.
 
-The programs for A391998, the canonical program `A391998.P12404897570496427759` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391998 has offset 1).
+The programs for A391998, the canonical program `A391998.P12404897570496427759` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A391998 has offset 1).
 
 The definition of A391998 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8535 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6341,7 +6344,7 @@ The definition of A391998 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A392001(n+1), A005171(#)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A391998

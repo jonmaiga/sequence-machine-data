@@ -59,26 +59,29 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2976,7 +2979,7 @@ end A227127
 /-!
 # A227128: The twisted Euler phi-function for the non-principal Dirichlet character mod 3.
 
-The programs for A227128, the canonical program `A227128.P9558132721139232292` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227128 has offset 1).
+The programs for A227128, the canonical program `A227128.P9558132721139232292` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227128 has offset 1).
 
 The definition of A227128 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3008,7 +3011,7 @@ end A227128
 
 `∑{d}[n+1, #*A365428((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A227128
@@ -3266,7 +3269,7 @@ def P4662432757075423618.Spec : Prop :=
 end A227128
 
 /-!
-# A227129: Semiprimes n = p*q, p
+# A227129: Semiprimes n = p*q, p<q, such that both numbers n + p - 1 and n + q - 1 are prime.
 
 The programs for A227129, there is no canonical definition to state claims against.
 -/
@@ -3618,7 +3621,7 @@ end A227130
 /-!
 # A227131: Sum of divisors of n that are not divisible by 25. a(0) = 1.
 
-The programs for A227131, the canonical program `A227131.P12309905687250345847` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227131 has offset 0).
+The programs for A227131, the canonical program `A227131.P12309905687250345847` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227131 has offset 0).
 
 The definition of A227131 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3627,7 +3630,7 @@ The definition of A227131 is `conjectured`: the Lean definition is a formula tha
 
 `gcd(∑{d}[A091703(n), #], A028887(n))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A227131
@@ -10343,7 +10346,7 @@ end A227178.P17498574590387256310
 /-!
 # A227179: After initial 0, integers from 0 to n(n-1) followed by integers from 0 to n(n+1) and so on.
 
-The programs for A227179, the canonical program `A227179.P15689747325054342099` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227179 has offset 0).
+The programs for A227179, the canonical program `A227179.P15689747325054342099` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227179 has offset 0).
 
 The definition of A227179 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9952 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10352,7 +10355,7 @@ The definition of A227179 is `conjectured`: the Lean definition is a formula tha
 
 `A227181(n)-A227177(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A227179
@@ -13313,7 +13316,7 @@ end A227192
 /-!
 # A227193: Difference of (product of runlengths of 1-bits) and (product of runlengths of 0-bits) in binary representation of n.
 
-The programs for A227193, the canonical program `A227193.P11723890042645240906` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227193 has offset 0).
+The programs for A227193, the canonical program `A227193.P11723890042645240906` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A227193 has offset 0).
 
 The definition of A227193 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A227349, A227350, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -13322,7 +13325,7 @@ The definition of A227193 is `conditional`: the Lean definition is an OEIS formu
 
 `A227349(n)-A227350(n)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A227193

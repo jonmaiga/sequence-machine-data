@@ -49,14 +49,15 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -68,12 +69,12 @@ import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B006.C001
+import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1126,7 +1127,7 @@ end A192418
 /-!
 # A192419: Smallest k such that 1^3, 2^3, 3^3,... n^3 are distinct modulo k.
 
-The programs for A192419, the canonical program `A192419.P5479684826348337317` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192419 has offset 1).
+The programs for A192419, the canonical program `A192419.P5479684826348337317` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192419 has offset 1).
 
 The definition of A192419 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1135,7 +1136,7 @@ The definition of A192419 is `conjectured`: the Lean definition is a formula tha
 
 `A074243(∑[char[A074243(n+1)]]+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A192419
@@ -2969,7 +2970,7 @@ end A192438.P9833959415417693738
 /-!
 # A192439: a(n) = a(n-1) - a(n-2) if n is prime or a(n-1) + a(n-2) otherwise. a(1) = a(2) = 1.
 
-The programs for A192439, the canonical program `A192439.P16826612195742642164` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192439 has offset 1).
+The programs for A192439, the canonical program `A192439.P16826612195742642164` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192439 has offset 1).
 
 The definition of A192439 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010051, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2978,7 +2979,7 @@ The definition of A192439 is `conditional`: the Lean definition is an OEIS formu
 
 `a(n-1)+(1-2*A010051(n+1))*a(n-2)` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A192439
@@ -3710,7 +3711,7 @@ end A192449.P9236030950323296628
 /-!
 # A192450: Numbers k such that -1 is not a square mod k.
 
-The programs for A192450, the canonical program `A192450.P13811939200402364126` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192450 has offset 1).
+The programs for A192450, the canonical program `A192450.P13811939200402364126` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192450 has offset 1).
 
 The definition of A192450 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3839,7 +3840,7 @@ end A192450
 
 `∪[A059267(n+1), A187811(n+1)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A192450
@@ -8237,7 +8238,7 @@ end A192472
 /-!
 # A192473: Coefficient of x in the reduction by x^2->x+1 of the polynomial p(n,x)=1+x^n+x^(2n+2).
 
-The programs for A192473, the canonical program `A192473.P18018568247263992611` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192473 has offset 1).
+The programs for A192473, the canonical program `A192473.P18018568247263992611` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A192473 has offset 1).
 
 The definition of A192473 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 239 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8246,7 +8247,7 @@ The definition of A192473 is `conjectured`: the Lean definition is a formula tha
 
 `A192471(n+2)-1`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A192473

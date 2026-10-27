@@ -46,16 +46,17 @@ import Seq.B002.C000
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B007.C000
-import Seq.B009.C000
-import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -590,7 +591,7 @@ end
 end A266003.P5844503289857706803
 
 /-!
-# A266005: Numbers n = p_1^s_1...p_m^s_m such that (p_i^s_i - 1) | n for all 0
+# A266005: Numbers n = p_1^s_1...p_m^s_m such that (p_i^s_i - 1) | n for all 0<i<=m.
 
 The programs for A266005, there is no canonical definition to state claims against.
 -/
@@ -1044,7 +1045,7 @@ end A266007
 /-!
 # A266008: Number of n X 4 integer arrays with each element equal to the number of horizontal and antidiagonal neighbors equal to itself.
 
-The programs for A266008, the canonical program `A266008.P4738884288798729973` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A266008 has offset 1).
+The programs for A266008, the canonical program `A266008.P4738884288798729973` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A266008 has offset 1).
 
 The definition of A266008 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 449 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1076,7 +1077,7 @@ end A266008
 
 `Δ[A180046(2*n+3)]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A266008
@@ -7351,7 +7352,7 @@ end A266073
 /-!
 # A266074: Total number of OFF (white) cells after n iterations of the "Rule 3" elementary cellular automaton starting with a single ON (black) cell.
 
-The programs for A266074, the canonical program `A266074.P13498364541412967355` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A266074 has offset 0).
+The programs for A266074, the canonical program `A266074.P13498364541412967355` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A266074 has offset 0).
 
 The definition of A266074 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7360,7 +7361,7 @@ The definition of A266074 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A135276(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A266074

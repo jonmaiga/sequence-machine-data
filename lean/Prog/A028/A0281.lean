@@ -13887,7 +13887,7 @@ def P6148542065326156878.Spec : Prop :=
 end A028188
 
 /-!
-# A028189: Expansion of 1/((1-5x)(1-7x)(1-11x)(1-12x)).
+# A028189: Expansion of 1/((1-5*x)*(1-7*x)*(1-11*x)*(1-12*x)).
 
 The programs for A028189, there is no canonical definition to state claims against.
 -/
@@ -14001,7 +14001,7 @@ end
 end A028189.P8643833629874479966
 
 /-!
-# A028190: Expansion of 1/((1-5x)(1-8x)(1-9x)(1-10x)).
+# A028190: Expansion of 1/((1-5*x)*(1-8*x)*(1-9*x)*(1-10*x)).
 
 The programs for A028190, the canonical program `A028190.P7603972782725480464` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028190 has offset 0).
 
@@ -14346,7 +14346,7 @@ def P11121771858134090906.Spec : Prop :=
 end A028191
 
 /-!
-# A028192: Expansion of 1/((1-5x)(1-8x)(1-9x)(1-12x)).
+# A028192: Expansion of 1/((1-5*x)*(1-8*x)*(1-9*x)*(1-12*x)).
 
 The programs for A028192, the canonical program `A028192.P17776363312188535164` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028192 has offset 0).
 
@@ -14507,7 +14507,7 @@ def P17442959325399698143.Spec : Prop :=
 end A028192
 
 /-!
-# A028193: Expansion of 1/((1-5x)(1-8x)(1-10x)(1-11x)).
+# A028193: Expansion of 1/((1-5*x)*(1-8*x)*(1-10*x)*(1-11*x)).
 
 The programs for A028193, the canonical program `A028193.P16880149396847578633` is in `Seq.B000.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A028193 has offset 0).
 

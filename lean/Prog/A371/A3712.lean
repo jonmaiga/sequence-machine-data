@@ -31,22 +31,27 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -57,12 +62,11 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -515,7 +519,7 @@ end A371209.P972600323922688718
 /-!
 # A371210: Number of minimum vertex colorings in the complement of the path graph on n nodes.
 
-The programs for A371210, the canonical program `A371210.P12332570680869873613` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371210 has offset 1).
+The programs for A371210, the canonical program `A371210.P12332570680869873613` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371210 has offset 1).
 
 The definition of A371210 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 136 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -524,7 +528,7 @@ The definition of A371210 is `conjectured`: the Lean definition is a formula tha
 
 `A324225(A087811(n+2))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A371210
@@ -1090,7 +1094,7 @@ end A371218.P2257258966052508516
 /-!
 # A371222: Product of digits of (n written in base 3) mod 3.
 
-The programs for A371222, the canonical program `A371222.P12633540139532149241` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371222 has offset 0).
+The programs for A371222, the canonical program `A371222.P12633540139532149241` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371222 has offset 0).
 
 The definition of A371222 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A309953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1099,7 +1103,7 @@ The definition of A371222 is `conditional`: the Lean definition is an OEIS formu
 
 `A309953(n)%3`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A371222
@@ -1798,7 +1802,7 @@ end A371238
 /-!
 # A371239: Squarefree numbers that are zeroless in base 3 (A032924).
 
-The programs for A371239, the canonical program `A371239.P1240619195337993519` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371239 has offset 1).
+The programs for A371239, the canonical program `A371239.P1240619195337993519` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371239 has offset 1).
 
 The definition of A371239 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1703 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1833,7 +1837,7 @@ end A371239
 
 `filter[A032924(n+1), A359377(#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A371239
@@ -2500,7 +2504,7 @@ end A371241
 /-!
 # A371242: The sum of the unitary divisors of n that are cubefree numbers (A004709).
 
-The programs for A371242, the canonical program `A371242.P9923243435576560346` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371242 has offset 1).
+The programs for A371242, the canonical program `A371242.P9923243435576560346` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371242 has offset 1).
 
 The definition of A371242 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2509,7 +2513,7 @@ The definition of A371242 is `conjectured`: the Lean definition is a formula tha
 
 `A034448(A360539(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A371242
@@ -3450,7 +3454,7 @@ end A371255.P1499265109452706420
 /-!
 # A371256: The run lengths transform of the ternary expansion of n corresponds to the run lengths transform of the binary expansion of a(n).
 
-The programs for A371256, the canonical program `A371256.P3370008578592475256` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371256 has offset 0).
+The programs for A371256, the canonical program `A371256.P3370008578592475256` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371256 has offset 0).
 
 The definition of A371256 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6562 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3459,7 +3463,7 @@ The definition of A371256 is `conjectured`: the Lean definition is a formula tha
 
 `A006068(A060585(n))`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A371256
@@ -5254,7 +5258,7 @@ end
 end A371289.P17070974698110570888
 
 /-!
-# A371290: Numbers whose product of binary indices is a prime power > 1.
+# A371290: Numbers whose product of binary indices is a prime power.
 
 The programs for A371290, there is no canonical definition to state claims against.
 -/
@@ -5409,7 +5413,7 @@ end A371291.P11114845283178036154
 /-!
 # A371292: Numbers whose binary indices have prime indices covering an initial interval of positive integers.
 
-The programs for A371292, the canonical program `A371292.P4011090379698081621` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371292 has offset 0).
+The programs for A371292, the canonical program `A371292.P4011090379698081621` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A371292 has offset 0).
 
 The definition of A371292 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 856 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5418,7 +5422,7 @@ The definition of A371292 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A079068(A271410(n)), 2]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A371292

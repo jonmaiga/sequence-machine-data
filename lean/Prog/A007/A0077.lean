@@ -52,33 +52,33 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3114,21 +3114,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A007721.P16093819860320583985
-
-/-! ## A007721.P14777328022377146373
-
-`or(A008621(A000984(n)), A051068(n))`
--/
-
-namespace A007721.P14777328022377146373
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A008621 (A000984 n).toNat) (A051068 n)
-
-end
-
-end A007721.P14777328022377146373
 
 /-! ## A007721.P17253764668650171267
 
@@ -10952,7 +10937,7 @@ end A007772.P11063566774637646846
 /-!
 # A007774: Numbers that are divisible by exactly 2 different primes; numbers n with omega(n) = A001221(n) = 2.
 
-The programs for A007774, the canonical program `A007774.P15607117293274533101` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007774 has offset 1).
+The programs for A007774, the canonical program `A007774.P15607117293274533101` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A007774 has offset 1).
 
 The definition of A007774 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7705 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11103,7 +11088,7 @@ end A007774
 
 `eq[2, A259936(n+1)]+1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A007774

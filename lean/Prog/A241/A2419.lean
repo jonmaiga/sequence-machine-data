@@ -41,11 +41,13 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -62,8 +64,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -9918,27 +9918,6 @@ def P11007206746219698306.Spec : Prop :=
   ∀ n, (P11007206746219698306.a n : ℤ) = A241989 (n + 1)
 
 end A241989
-
-/-!
-# A241991: Decimal expansion of the infinite product for n >= 1 of (1+1/n^2)^(n^2)/e.
-
-The programs for A241991, there is no canonical definition to state claims against.
--/
-
-/-! ## A241991.P3496793049177250046
-
-`A245018(n)`
--/
-
-namespace A241991.P3496793049177250046
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A245018 n
-
-end
-
-end A241991.P3496793049177250046
 
 /-!
 # A241996: G.f. satisfies: A(x)^2 = x + A(x*A(x)^4).

@@ -41,26 +41,27 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -68,8 +69,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -9778,21 +9777,6 @@ end
 
 end A085587.P5346542197593739034
 
-/-! ## A085587.P15876471706852003726
-
-`A010760(n+1)`
--/
-
-namespace A085587.P15876471706852003726
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010760 (n + 1)
-
-end
-
-end A085587.P15876471706852003726
-
 /-!
 # A085588: Eventual period of a single cell in rule 150 cellular automaton in a cyclic universe of width n.
 
@@ -10436,7 +10420,7 @@ def P8427826617378860952.Spec : Prop :=
 end A085598
 
 /-!
-# A085599: Number of pairs of coprimes (n-i,n+i), 1
+# A085599: Number of pairs of coprimes (n-i,n+i), 1<i<n.
 
 The programs for A085599, the canonical program `A085599.P12695590577999882424` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085599 has offset 1).
 

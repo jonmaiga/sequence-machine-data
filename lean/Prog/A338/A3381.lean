@@ -39,16 +39,18 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
-import Seq.B001.C008
+import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -57,20 +59,20 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2583,7 +2585,7 @@ end A338127.P8735238587901759017
 /-!
 # A338129: Positive numbers k such that the binary representation of k^k ends with that of k.
 
-The programs for A338129, the canonical program `A338129.P8432619252608053204` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338129 has offset 1).
+The programs for A338129, the canonical program `A338129.P8432619252608053204` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338129 has offset 1).
 
 The definition of A338129 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2592,7 +2594,7 @@ The definition of A338129 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A080075(n+1), A126646(n)]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A338129
@@ -2717,7 +2719,7 @@ end A338129
 /-!
 # A338130: Positive numbers k such that the ternary representation of k^k ends with that of k.
 
-The programs for A338130, the canonical program `A338130.P9338611160572617900` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338130 has offset 1).
+The programs for A338130, the canonical program `A338130.P9338611160572617900` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338130 has offset 1).
 
 The definition of A338130 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2825,7 +2827,7 @@ end A338130
 
 `∑[3*a(A004524(A004396(n)))]` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A338130
@@ -4938,7 +4940,7 @@ end A338163.P8145108802133001071
 /-!
 # A338164: Dirichlet g.f.: (zeta(s-2) / zeta(s))^2.
 
-The programs for A338164, the canonical program `A338164.P17006398966591208624` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338164 has offset 1).
+The programs for A338164, the canonical program `A338164.P17006398966591208624` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338164 has offset 1).
 
 The definition of A338164 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4996,7 +4998,7 @@ end A338164
 
 `∑{d}[n+1, A007427(#)*A034714((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A338164
@@ -5196,7 +5198,7 @@ end A338164
 /-!
 # A338165: Dirichlet g.f.: (zeta(s-3) / zeta(s))^2.
 
-The programs for A338165, the canonical program `A338165.P14176460917609793064` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338165 has offset 1).
+The programs for A338165, the canonical program `A338165.P14176460917609793064` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338165 has offset 1).
 
 The definition of A338165 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5205,7 +5207,7 @@ The definition of A338165 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A059376(#)*A059376((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A338165
@@ -6350,7 +6352,7 @@ end
 end A338185.P5935932727957675944
 
 /-!
-# A338186: Expansion of (2-6*x-12*x^2)/((1-x)^2*(1-9*x)).
+# A338186: Expansion of g.f. 2*(1-3*x-6*x^2)/((1-x)^2*(1-9*x)).
 
 The programs for A338186, the canonical program `A338186.P9868952434657706430` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338186 has offset 0).
 
@@ -7207,7 +7209,7 @@ end A338191.P6908764948472232176
 /-!
 # A338192: Sum of Fibonacci and tribonacci numbers: a(n) = A000073(n) + A000045(n).
 
-The programs for A338192, the canonical program `A338192.P8906844135182273752` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338192 has offset 0).
+The programs for A338192, the canonical program `A338192.P8906844135182273752` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A338192 has offset 0).
 
 The definition of A338192 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000073(n)+A000045(n)` (program `A338192.P8906844135182273752`, by `A338192.P8906844135182273752.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7239,7 +7241,7 @@ end A338192
 
 `A000073(n)+A000045(n)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A338192

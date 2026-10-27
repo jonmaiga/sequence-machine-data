@@ -42,19 +42,19 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -64,9 +64,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -99,7 +96,7 @@ set_option linter.unreachableTactic false
 /-!
 # A065200: Numbers of the form m * p^k, with p prime, k >= 0, m squarefree and p > any prime factor of m.
 
-The programs for A065200, the canonical program `A065200.P4369247061633192074` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065200 has offset 1).
+The programs for A065200, the canonical program `A065200.P4369247061633192074` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065200 has offset 1).
 
 The definition of A065200 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -108,7 +105,7 @@ The definition of A065200 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A065202(n+1)]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A065200
@@ -264,7 +261,7 @@ end A065200
 /-!
 # A065201: Numbers having a non-maximal prime-factor with exponent greater than 1.
 
-The programs for A065201, the canonical program `A065201.P6736131531723427940` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065201 has offset 1).
+The programs for A065201, the canonical program `A065201.P6736131531723427940` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065201 has offset 1).
 
 The definition of A065201 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -273,7 +270,7 @@ The definition of A065201 is `conjectured`: the Lean definition is a formula tha
 
 `lt[0, A065202(n+1)]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A065201
@@ -3665,7 +3662,7 @@ end A065224.P6671409189916964003
 /-!
 # A065227: Fill a triangular array by rows by writing numbers 1 up to b(0), 1 up to b(1), etc., where b(n) are the triangular numbers. The first elements of the rows form a(n).
 
-The programs for A065227, the canonical program `A065227.P6933920780390560153` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065227 has offset 0).
+The programs for A065227, the canonical program `A065227.P6933920780390560153` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065227 has offset 0).
 
 The definition of A065227 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 152 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3674,7 +3671,7 @@ The definition of A065227 is `conjectured`: the Lean definition is a formula tha
 
 `A332663(∑[n])+1`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A065227
@@ -3796,7 +3793,7 @@ end A065227
 /-!
 # A065228: Fill a triangular array by rows by writing numbers 1 up to b(0), 1 up to b(1), etc., where b(n) are the square numbers. The first elements of the rows form a(n).
 
-The programs for A065228, the canonical program `A065228.P11115784030113203353` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065228 has offset 0).
+The programs for A065228, the canonical program `A065228.P11115784030113203353` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065228 has offset 0).
 
 The definition of A065228 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3805,7 +3802,7 @@ The definition of A065228 is `conjectured`: the Lean definition is a formula tha
 
 `A064866(∑[n]+1)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A065228

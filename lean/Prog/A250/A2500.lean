@@ -41,6 +41,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -48,13 +49,14 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -65,8 +67,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1869,7 +1869,7 @@ end A250024
 /-!
 # A250025: Lesser of twin prime pairs of the form (40n - 21, 40n - 19).
 
-The programs for A250025, the canonical program `A250025.P7718321545328011715` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250025 has offset 1).
+The programs for A250025, the canonical program `A250025.P7718321545328011715` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250025 has offset 1).
 
 The definition of A250025 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1361 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1908,7 +1908,7 @@ end A250025
 
 `∩[A060229(n+1), A142190(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A250025
@@ -4646,7 +4646,7 @@ end A250058.P9748265698435164118
 /-!
 # A250060: Number of length 1+6 0..n arrays with no seven consecutive terms having the maximum of any two terms equal to the minimum of the remaining five terms.
 
-The programs for A250060, the canonical program `A250060.P12003600613952037620` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250060 has offset 1).
+The programs for A250060, the canonical program `A250060.P12003600613952037620` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250060 has offset 1).
 
 The definition of A250060 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4655,7 +4655,7 @@ The definition of A250060 is `conjectured`: the Lean definition is a formula tha
 
 `∑[∑[21*A008515(n)]]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A250060
@@ -7912,7 +7912,7 @@ end A250090.P8966099664756191449
 /-!
 # A250092: a(n) = binomial( prime(n+4), prime(n) ).
 
-The programs for A250092, the canonical program `A250092.P12769020912072488549` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250092 has offset 1).
+The programs for A250092, the canonical program `A250092.P12769020912072488549` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250092 has offset 1).
 
 The definition of A250092 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(A000040(n+5), A000040(n+1))` (program `A250092.P12769020912072488549`, by `A250092.P12769020912072488549.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -7921,7 +7921,7 @@ The definition of A250092 is `verified`: the Lean definition is proven equivalen
 
 `C(A000040(n+5), A000040(n+1))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A250092
@@ -8173,7 +8173,7 @@ end A250092
 /-!
 # A250093: Squarefree part of Fibonacci(n^2).
 
-The programs for A250093, the canonical program `A250093.P5831941036718819745` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250093 has offset 1).
+The programs for A250093, the canonical program `A250093.P5831941036718819745` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250093 has offset 1).
 
 The definition of A250093 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8182,7 +8182,7 @@ The definition of A250093 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A069110((n+1)²)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A250093
@@ -8304,7 +8304,7 @@ end A250093
 /-!
 # A250094: Positive integers k such that the numerator of the harmonic mean of the divisors of k is equal to k.
 
-The programs for A250094, the canonical program `A250094.P12324605883810777152` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250094 has offset 1).
+The programs for A250094, the canonical program `A250094.P12324605883810777152` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250094 has offset 1).
 
 The definition of A250094 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8109 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8373,7 +8373,7 @@ end A250094
 
 `eq[0, A348510(n+1)]+1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A250094

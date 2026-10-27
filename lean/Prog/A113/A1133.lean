@@ -33,10 +33,13 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,11 +56,11 @@ import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -1084,7 +1087,7 @@ def P15997627399514876662.Spec : Prop :=
 end A113301
 
 /-!
-# A113302: Number of k such that prime(n) divides T(k), the central trinomial coefficient A002426(k), with 0
+# A113302: Number of k such that prime(n) divides T(k), the central trinomial coefficient A002426(k), with 0<k<prime(n).
 
 The programs for A113302, there is no canonical definition to state claims against.
 -/
@@ -3137,21 +3140,6 @@ end
 
 end A113323.P4590219629321105469
 
-/-! ## A113323.P15724952494512946676
-
-`A339791(A014963(n+1))+A072061(A072061(n+2))`
--/
-
-namespace A113323.P15724952494512946676
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A339791 (A014963 (n + 1)).toNat + A072061 (A072061 (n + 2)).toNat
-
-end
-
-end A113323.P15724952494512946676
-
 /-! ## A113323.P12322560491057430621
 
 `A099837(A014963(2*(n+1)))+A072061(A072061(n+2))`
@@ -4487,7 +4475,7 @@ end A113338
 /-!
 # A113339: Integers n such that prime(n+1)-prime(n) is nonprime, squarefree. Except for the initial term of 1, the terms are k-semiprime for some k>=2.
 
-The programs for A113339, the canonical program `A113339.P13837044038281480743` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113339 has offset 1).
+The programs for A113339, the canonical program `A113339.P13837044038281480743` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A113339 has offset 1).
 
 The definition of A113339 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4496,7 +4484,7 @@ The definition of A113339 is `conjectured`: the Lean definition is a formula tha
 
 `record[(n+1)*A069158(A001223(n+1))]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A113339

@@ -36,23 +36,26 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -5546,7 +5549,7 @@ end A191025.P9084465083452653417
 /-!
 # A191026: Primes p that have Jacobi symbol (p|35) = 1.
 
-The programs for A191026, the canonical program `A191026.P14743048384192298842` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191026 has offset 1).
+The programs for A191026, the canonical program `A191026.P14743048384192298842` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191026 has offset 1).
 
 The definition of A191026 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 606 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5555,7 +5558,7 @@ The definition of A191026 is `conjectured`: the Lean definition is a formula tha
 
 `p?[eq[2, A035155(n+1)]+1]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A191026
@@ -6457,7 +6460,7 @@ end A191028.P10493877402537557877
 /-!
 # A191029: Primes p with Jacobi symbol (p|39) = 1.
 
-The programs for A191029, the canonical program `A191029.P9038524740072031153` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191029 has offset 1).
+The programs for A191029, the canonical program `A191029.P9038524740072031153` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191029 has offset 1).
 
 The definition of A191029 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 606 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6466,7 +6469,7 @@ The definition of A191029 is `conjectured`: the Lean definition is a formula tha
 
 `p?[eq[2, A035151(n+1)]+1]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A191029
@@ -15647,7 +15650,7 @@ end A191067.P16640077021990217813
 /-!
 # A191068: Primes p that have Kronecker symbol (p|35) = -1.
 
-The programs for A191068, the canonical program `A191068.P6506479572961148821` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191068 has offset 1).
+The programs for A191068, the canonical program `A191068.P6506479572961148821` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191068 has offset 1).
 
 The definition of A191068 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 621 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15656,7 +15659,7 @@ The definition of A191068 is `conjectured`: the Lean definition is a formula tha
 
 `p?[(n+1)*(1-A035155(n+1))]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A191068
@@ -15970,7 +15973,7 @@ end A191069.P13754344097636314816
 /-!
 # A191070: Primes p that have Kronecker symbol (p|39) = -1.
 
-The programs for A191070, the canonical program `A191070.P10123948899731297363` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191070 has offset 1).
+The programs for A191070, the canonical program `A191070.P10123948899731297363` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191070 has offset 1).
 
 The definition of A191070 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 621 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15979,7 +15982,7 @@ The definition of A191070 is `conjectured`: the Lean definition is a formula tha
 
 `p?[(n+1)*(1-A035151(n+1))]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A191070

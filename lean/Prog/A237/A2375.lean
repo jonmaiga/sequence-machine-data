@@ -32,36 +32,32 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -97,7 +93,7 @@ set_option linter.unreachableTactic false
 /-!
 # A237500: Number of binary strings of length 2n which contain the ones' complement of each of their two halves.
 
-The programs for A237500, the canonical program `A237500.P16062265895415662057` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237500 has offset 1).
+The programs for A237500, the canonical program `A237500.P16062265895415662057` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A237500 has offset 1).
 
 The definition of A237500 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -132,7 +128,7 @@ end A237500
 
 `∑[2*A011946(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A237500
@@ -6601,12 +6597,6 @@ namespace A237588
 /-- `1-A033879(n+1)` -/
 def P5944547503012990422.Spec : Prop :=
   ∀ n, P5944547503012990422.a n = A237588 (n + 1)
-
-theorem P5944547503012990422.correct : P5944547503012990422.Spec := by
-  intro n
-  simp only [A237588, Nat.add_sub_cancel, A237588.P5944547503012990422.a, A237588.P10590847318200798620.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A033879, A033879.P11735613842914743111.a, A033880, A033880.P6005875780263802708.a, A001065, A001065.P4097147489331274860.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A237588
 

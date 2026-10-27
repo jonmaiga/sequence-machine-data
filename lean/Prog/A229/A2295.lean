@@ -48,24 +48,24 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1545,7 +1545,7 @@ end A229510.P7872312515685502048
 /-!
 # A229511: Numbers k whose arithmetic derivative (k') is a triangular number.
 
-The programs for A229511, the canonical program `A229511.P11562683010761712362` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229511 has offset 0).
+The programs for A229511, the canonical program `A229511.P11562683010761712362` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229511 has offset 0).
 
 The definition of A229511 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 468 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1641,7 +1641,7 @@ end A229511
 
 `eq[1, A002260(A003415(n)+1)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A229511
@@ -2624,7 +2624,7 @@ end A229522
 /-!
 # A229523: Partial sum of the arithmetic derivative A003415 (A190121) up to 10^n.
 
-The programs for A229523, the canonical program `A229523.P13832945066902845341` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229523 has offset 0).
+The programs for A229523, the canonical program `A229523.P13832945066902845341` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229523 has offset 0).
 
 The definition of A229523 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A190121, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2633,7 +2633,7 @@ The definition of A229523 is `conditional`: the Lean definition is an OEIS formu
 
 `A190121(10^n)`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A229523

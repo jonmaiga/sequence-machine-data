@@ -41,11 +41,11 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -68,9 +68,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -131,7 +129,7 @@ end A296300.P14193555646220279091
 /-!
 # A296302: Number of aperiodic compositions of n with relatively prime parts. Number of compositions of n with relatively prime parts and relatively prime run-lengths.
 
-The programs for A296302, the canonical program `A296302.P8637239320253714587` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296302 has offset 1).
+The programs for A296302, the canonical program `A296302.P8637239320253714587` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296302 has offset 1).
 
 The definition of A296302 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -244,7 +242,7 @@ end A296302
 
 `∑{d}[n+1, A034771(#)*A247343((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A296302
@@ -1356,7 +1354,7 @@ end A296306
 /-!
 # A296307: Array read by upwards antidiagonals: f(n,k) = (n+1)*ceiling(n/(k-1)) - 1.
 
-The programs for A296307, the canonical program `A296307.P1006250162034138500` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296307 has offset 1).
+The programs for A296307, the canonical program `A296307.P1006250162034138500` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296307 has offset 1).
 
 The definition of A296307 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1365,7 +1363,7 @@ The definition of A296307 is `conjectured`: the Lean definition is a formula tha
 
 `(A004736(n+1)+1)*A010766(n+1)-1`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A296307
@@ -6007,7 +6005,7 @@ end A296348.P684303639965724146
 /-!
 # A296349: Position where the row corresponding to the binary expansion of n starts in the (flattened) binary Champernowne triangle A030190.
 
-The programs for A296349, the canonical program `A296349.P12407460171033777792` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296349 has offset 0).
+The programs for A296349, the canonical program `A296349.P12407460171033777792` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296349 has offset 0).
 
 The definition of A296349 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6229,7 +6227,7 @@ end A296349
 
 `A083652(n)-A070939(n)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A296349
@@ -6751,7 +6749,7 @@ end A296352.P11135387366131606903
 /-!
 # A296354: Official position where binary expansion of n starts in the list of binary numbers in the binary Champernowne sequence A076478.
 
-The programs for A296354, the canonical program `A296354.P8428607164020722342` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296354 has offset 0).
+The programs for A296354, the canonical program `A296354.P8428607164020722342` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296354 has offset 0).
 
 The definition of A296354 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6783,7 +6781,7 @@ end A296354
 
 `∑{d}[A011782(A029837(n+1)), A003314(#)+n]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A296354
@@ -8334,7 +8332,7 @@ end A296365.P701309817317779957
 /-!
 # A296367: Number of triangles on a 4 X n grid.
 
-The programs for A296367, the canonical program `A296367.P5203125828263086518` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296367 has offset 1).
+The programs for A296367, the canonical program `A296367.P5203125828263086518` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A296367 has offset 1).
 
 The definition of A296367 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2500 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8343,7 +8341,7 @@ The definition of A296367 is `conjectured`: the Lean definition is a formula tha
 
 `A000292(4*n+2)-A334706(n+1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A296367

@@ -39,21 +39,21 @@ import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -63,12 +63,12 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1618,7 +1618,7 @@ end A379420.P184450728805412579
 /-!
 # A379421: a(n) = n + floor(n*r/s) + floor(n*t/s), where r = 5^(1/4), s = 5^(1/2), t = 5^(3/4).
 
-The programs for A379421, the canonical program `A379421.P17566647080812889774` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379421 has offset 1).
+The programs for A379421, the canonical program `A379421.P17566647080812889774` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379421 has offset 1).
 
 The definition of A379421 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1627,7 +1627,7 @@ The definition of A379421 is `conjectured`: the Lean definition is a formula tha
 
 `A133872(A005563(n))+A063247(n+1)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A379421
@@ -3217,7 +3217,7 @@ end A379472.P16159139529659408350
 /-!
 # A379473: a(n) is the highest power of 3 dividing the sum of divisors of n.
 
-The programs for A379473, the canonical program `A379473.P11357118703739175544` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379473 has offset 1).
+The programs for A379473, the canonical program `A379473.P11357118703739175544` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379473 has offset 1).
 
 The definition of A379473 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3249,7 +3249,7 @@ end A379473
 
 `A038500(A000203(n+1))`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A379473
@@ -3690,7 +3690,7 @@ end A379473
 /-!
 # A379474: Number of prime factors of the form p^e || n : [p == 1 (mod 8), e == 1 (mod 4)] or [p == 5 (mod 8), e == -1 (mod 4)].
 
-The programs for A379474, the canonical program `A379474.P1393438401902086563` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379474 has offset 1).
+The programs for A379474, the canonical program `A379474.P1393438401902086563` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A379474 has offset 1).
 
 The definition of A379474 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 118 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3814,7 +3814,7 @@ end A379474
 
 `A331671(A170818(n+1)^A331671(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A379474
@@ -4312,12 +4312,6 @@ namespace A379476
 /-- `A379478(n+1)+A379475(n+1)` -/
 def P9166987053099188106.Spec : Prop :=
   ∀ n, P9166987053099188106.a n = A379476 (n + 1)
-
-theorem P9166987053099188106.correct : P9166987053099188106.Spec := by
-  intro n
-  simp only [A379476, Nat.add_sub_cancel, A379476.P9166987053099188106.a, A379476.P18000588626381920064.a, A008949, A008949.P1107392530545470892.a, A048298, A048298.P9490304024005855538.a, A326057, A326057.P4093988284064827048.a, A379475, A379475.P17972878585057408840.a, A379478, A379478.P7624876134946239236.a, A008454, A008454.P6486498320967950731.a, A033879, A033879.P11735613842914743111.a, A209229, A209229.P14119267658822519212.f1, A209229.P14119267658822519212.a, A252748, A252748.P16209281916487994805.a, A372565, A372565.P13754156096294323452.a, A033880, A033880.P6005875780263802708.a, A156552, A156552.P4268073137713085227.a, A252750, A252750.P12930142929614438506.a, A001065, A001065.P4097147489331274860.a, A005940, A005940.P5942875842694471387.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A379476
 

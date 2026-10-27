@@ -45,7 +45,9 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -59,6 +61,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -71,8 +74,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4573,7 +4574,7 @@ end A109441.P6802077335651563321
 /-!
 # A109442: Cumulative sum of smallest prime power >= n.
 
-The programs for A109442, the canonical program `A109442.P14114175381241493679` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109442 has offset 1).
+The programs for A109442, the canonical program `A109442.P14114175381241493679` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109442 has offset 1).
 
 The definition of A109442 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4640,7 +4641,7 @@ end A109442
 
 `∑[A097106(n+1)+A031218(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A109442
@@ -5530,7 +5531,7 @@ end A109445.P9838077730483570899
 /-!
 # A109446: Binomial coefficients C(n,k) with n-k even, read by rows.
 
-The programs for A109446, the canonical program `A109446.P3378163357748068415` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109446 has offset 0).
+The programs for A109446, the canonical program `A109446.P3378163357748068415` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109446 has offset 0).
 
 The definition of A109446 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5112 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5539,7 +5540,7 @@ The definition of A109446 is `conjectured`: the Lean definition is a formula tha
 
 `A007318(comp[comp[n²+n]+n])`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A109446
@@ -7005,7 +7006,7 @@ end A109452.P10699120751177752851
 /-!
 # A109453: Cumulative sum of initial digits of n.
 
-The programs for A109453, the canonical program `A109453.P3348527290827092913` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109453 has offset 1).
+The programs for A109453, the canonical program `A109453.P3348527290827092913` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109453 has offset 1).
 
 The definition of A109453 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7014,7 +7015,7 @@ The definition of A109453 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A000030(n+1)]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A109453
@@ -8843,7 +8844,7 @@ end A109469.P4900619854943193742
 /-!
 # A109470: Sum of first n noncubes.
 
-The programs for A109470, the canonical program `A109470.P4624820433429419724` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109470 has offset 1).
+The programs for A109470, the canonical program `A109470.P4624820433429419724` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A109470 has offset 1).
 
 The definition of A109470 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8852,7 +8853,7 @@ The definition of A109470 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000217(A007412(n+1))-A000217(floor(A007412(n+1)^(1/3)))²`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A109470

@@ -44,8 +44,8 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -62,12 +62,9 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2618,7 +2615,7 @@ end A305149.P11607583203294860293
 /-!
 # A305150: Number of factorizations of n into distinct, pairwise indivisible factors greater than 1.
 
-The programs for A305150, the canonical program `A305150.P11651088542396370948` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305150 has offset 1).
+The programs for A305150, the canonical program `A305150.P11651088542396370948` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305150 has offset 1).
 
 The definition of A305150 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 119 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2627,7 +2624,7 @@ The definition of A305150 is `conjectured`: the Lean definition is a formula tha
 
 `A348182(∑{p}[n+1, gcd(n, #)]^A262202(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A305150
@@ -8850,7 +8847,7 @@ end A305188.P14498918929019058914
 /-!
 # A305189: a(n) = 1*2 + 3 + 4*5 + 6 + 7*8 + 9 + 10*11 + 12 + ... + (up to n).
 
-The programs for A305189, the canonical program `A305189.P521679482728346287` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305189 has offset 1).
+The programs for A305189, the canonical program `A305189.P521679482728346287` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A305189 has offset 1).
 
 The definition of A305189 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8859,7 +8856,7 @@ The definition of A305189 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A117571(n)^abs(A057079(n))]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A305189

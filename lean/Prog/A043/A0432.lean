@@ -34,7 +34,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
@@ -47,7 +47,8 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -60,8 +61,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7505,7 +7504,7 @@ end A043277
 /-!
 # A043278: Maximal run length in base 4 representation of n.
 
-The programs for A043278, the canonical program `A043278.P7875337536898136716` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043278 has offset 1).
+The programs for A043278, the canonical program `A043278.P7875337536898136716` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043278 has offset 1).
 
 The definition of A043278 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3071 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7560,7 +7559,7 @@ end A043278
 
 `A043279(A023733(n+2))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A043278
@@ -10226,7 +10225,7 @@ end A043288.P17437556732744661045
 /-!
 # A043289: Maximal run length in base-15 representation of n.
 
-The programs for A043289, the canonical program `A043289.P2676077445732993452` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043289 has offset 1).
+The programs for A043289, the canonical program `A043289.P2676077445732993452` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043289 has offset 1).
 
 The definition of A043289 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 224 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10336,7 +10335,7 @@ end A043289
 
 `A014709(51*A336642(n+1))`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A043289
@@ -12098,7 +12097,7 @@ end A043295.P706568708501756712
 /-!
 # A043296: Sum of digits of denominator of Bernoulli number B(2n).
 
-The programs for A043296, the canonical program `A043296.P1256347733658503674` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043296 has offset 1).
+The programs for A043296, the canonical program `A043296.P1256347733658503674` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043296 has offset 1).
 
 The definition of A043296 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002445, A007953, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -12107,7 +12106,7 @@ The definition of A043296 is `conditional`: the Lean definition is an OEIS formu
 
 `A007953(A002445(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A043296
@@ -12333,7 +12332,7 @@ end A043296
 /-!
 # A043297: Primes p such that B(4*p) has denominator 30 where B(2n) are the Bernoulli numbers.
 
-The programs for A043297, the canonical program `A043297.P1803761097073732209` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043297 has offset 1).
+The programs for A043297, the canonical program `A043297.P1803761097073732209` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A043297 has offset 1).
 
 The definition of A043297 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12342,7 +12341,7 @@ The definition of A043297 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A119480(n+1)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A043297

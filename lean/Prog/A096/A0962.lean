@@ -37,12 +37,11 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -50,21 +49,21 @@ import Seq.B002.C002
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4351,7 +4350,7 @@ end A096268
 /-!
 # A096269: a(n) = number of distinct palindromes of length n that occur in A096268.
 
-The programs for A096269, the canonical program `A096269.P7324626192486647762` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096269 has offset 1).
+The programs for A096269, the canonical program `A096269.P7324626192486647762` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096269 has offset 1).
 
 The definition of A096269 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8833 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4413,7 +4412,7 @@ end A096269
 
 `char[A038558(n)]+3-a(n-1)` with `a(0)=2`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A096269
@@ -6868,7 +6867,7 @@ end A096280.P10827950156491244825
 /-!
 # A096281: Sums of successive twin primes of order 1.
 
-The programs for A096281, the canonical program `A096281.P9870488552655544131` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096281 has offset 1).
+The programs for A096281, the canonical program `A096281.P9870488552655544131` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096281 has offset 1).
 
 The definition of A096281 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6907,7 +6906,7 @@ end A096281
 
 `A014574(A008619(n+1))+A014574(A008619(n))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A096281
@@ -7063,7 +7062,7 @@ end A096281
 /-!
 # A096282: Sums of successive twin primes of order 2.
 
-The programs for A096282, the canonical program `A096282.P4841603875118736759` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096282 has offset 1).
+The programs for A096282, the canonical program `A096282.P4841603875118736759` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096282 has offset 1).
 
 The definition of A096282 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7072,7 +7071,7 @@ The definition of A096282 is `conjectured`: the Lean definition is a formula tha
 
 `A096281(n+1)+A096281(n+2)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A096282

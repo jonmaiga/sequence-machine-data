@@ -37,18 +37,19 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -56,23 +57,18 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3400,7 +3396,7 @@ end A340452.P566720520921803549
 /-!
 # A340453: G.f.: Product_{n>=0} (1 - x^(5*n+5))^2 / ( (1 - x^(5*n+1))*(1 - x^(5*n+4)) ).
 
-The programs for A340453, the canonical program `A340453.P332786434363878656` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340453 has offset 0).
+The programs for A340453, the canonical program `A340453.P332786434363878656` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340453 has offset 0).
 
 The definition of A340453 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3409,7 +3405,7 @@ The definition of A340453 is `conjectured`: the Lean definition is a formula tha
 
 `A359237(n+1)-A359270(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A340453
@@ -3597,7 +3593,7 @@ end A340453
 /-!
 # A340454: G.f.: Product_{n>=0} (1 - x^(5*n+5))^2 / ( (1 - x^(5*n+2))*(1 - x^(5*n+3)) ).
 
-The programs for A340454, the canonical program `A340454.P12418673259723293615` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340454 has offset 0).
+The programs for A340454, the canonical program `A340454.P12418673259723293615` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340454 has offset 0).
 
 The definition of A340454 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3606,7 +3602,7 @@ The definition of A340454 is `conjectured`: the Lean definition is a formula tha
 
 `A359236(n+1)-A359269(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A340454
@@ -3745,7 +3741,7 @@ end A340454
 /-!
 # A340455: G.f.: Sum_{n>=0} x^(2*n)/(1 - x^(5*n+2)) - x*Sum_{n>=0} x^(3*n)/(1 - x^(5*n+3)).
 
-The programs for A340455, the canonical program `A340455.P8978882349512610872` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340455 has offset 0).
+The programs for A340455, the canonical program `A340455.P8978882349512610872` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340455 has offset 0).
 
 The definition of A340455 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3754,7 +3750,7 @@ The definition of A340455 is `conjectured`: the Lean definition is a formula tha
 
 `A359287(n+1)-A359288(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A340455
@@ -3968,7 +3964,7 @@ end A340455
 /-!
 # A340456: G.f.: Sum_{n>=0} x^n/(1 - x^(5*n+1)) - x^3*Sum_{n>=0} x^(4*n)/(1 - x^(5*n+4)).
 
-The programs for A340456, the canonical program `A340456.P11012612934613790888` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340456 has offset 0).
+The programs for A340456, the canonical program `A340456.P11012612934613790888` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340456 has offset 0).
 
 The definition of A340456 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3977,7 +3973,7 @@ The definition of A340456 is `conjectured`: the Lean definition is a formula tha
 
 `A359238(n+1)-A359241(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A340456
@@ -4565,7 +4561,7 @@ end A340460.P13290456590906225793
 /-!
 # A340461: a(n) = 2*sigma(phi(n)) - n.
 
-The programs for A340461, the canonical program `A340461.P4637614112348525884` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340461 has offset 1).
+The programs for A340461, the canonical program `A340461.P4637614112348525884` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340461 has offset 1).
 
 The definition of A340461 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4597,7 +4593,7 @@ end A340461
 
 `2*A000203(A000010(n+1))-(n+1)`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A340461
@@ -6426,7 +6422,7 @@ end A340479.P13927397687224687697
 /-!
 # A340480: Primes p such that (p^8 + 1)/2 is prime.
 
-The programs for A340480, the canonical program `A340480.P2809983349207958310` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340480 has offset 1).
+The programs for A340480, the canonical program `A340480.P2809983349207958310` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A340480 has offset 1).
 
 The definition of A340480 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 190 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6435,7 +6431,7 @@ The definition of A340480 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A105066(n+1)]`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A340480

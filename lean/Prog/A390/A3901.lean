@@ -35,20 +35,24 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C006
+import Seq.B001.C005
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -60,7 +64,6 @@ import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -366,7 +369,7 @@ end A390114.P15990573875573601208
 /-!
 # A390115: a(n) is the total number of vertices of degree 2 in Catalan word grid graphs with n parts.
 
-The programs for A390115, the canonical program `A390115.P15101073239205051047` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390115 has offset 2).
+The programs for A390115, the canonical program `A390115.P15101073239205051047` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390115 has offset 2).
 
 The definition of A390115 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 167 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -375,7 +378,7 @@ The definition of A390115 is `conjectured`: the Lean definition is a formula tha
 
 `A246574(n+1)+A002057(n)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A390115
@@ -583,7 +586,7 @@ end A390124.P830905012240841209
 /-!
 # A390126: Powers k^m, m = 2..3, of squarefree composite k.
 
-The programs for A390126, the canonical program `A390126.P4203344648687792492` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390126 has offset 1).
+The programs for A390126, the canonical program `A390126.P4203344648687792492` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390126 has offset 1).
 
 The definition of A390126 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -592,7 +595,7 @@ The definition of A390126 is `conjectured`: the Lean definition is a formula tha
 
 `∪[A177492(n+1), A177493(n+1)]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A390126
@@ -946,7 +949,7 @@ end A390127.P17389616934295180375
 /-!
 # A390128: Biquadratefree numbers that are neither cubefree nor squareful.
 
-The programs for A390128, the canonical program `A390128.P3065140226531891146` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390128 has offset 1).
+The programs for A390128, the canonical program `A390128.P3065140226531891146` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390128 has offset 1).
 
 The definition of A390128 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5907 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -955,7 +958,7 @@ The definition of A390128 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A375072(n+1), A389905(#)]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A390128
@@ -1606,7 +1609,7 @@ end A390136.P18118183607679520239
 /-!
 # A390137: Expansion of 1/((1-5*x) * sqrt(1+4*x)).
 
-The programs for A390137, the canonical program `A390137.P6598231683345126993` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390137 has offset 0).
+The programs for A390137, the canonical program `A390137.P6598231683345126993` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390137 has offset 0).
 
 The definition of A390137 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1615,7 +1618,7 @@ The definition of A390137 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5*a(n-1)+(-1)^n*A000984(n)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A390137
@@ -2599,7 +2602,7 @@ end A390170.P17510110522126420714
 /-!
 # A390173: Smallest integer k with exactly n distinct prime factors such that the sum of those primes equals the sum of the exponents in its prime factorization.
 
-The programs for A390173, the canonical program `A390173.P4997777104451970628` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390173 has offset 1).
+The programs for A390173, the canonical program `A390173.P4997777104451970628` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A390173 has offset 1).
 
 The definition of A390173 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2608,7 +2611,7 @@ The definition of A390173 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A002110(n+1)*2^(A007504(n+1)-(n+1))`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A390173

@@ -40,16 +40,19 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C002
+import Seq.B003.C001
 import Seq.B003.C003
-import Seq.B003.C005
+import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -61,8 +64,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -593,7 +594,7 @@ def P14061078315011252283.Spec : Prop :=
 end A235700
 
 /-!
-# A235701: Number of n step walks (each step +/ - 1 starting from 0) which are never more than 6 or less than -6.
+# A235701: Number of n step walks (each step +- 1 starting from 0) which are never more than 6 or less than -6.
 
 The programs for A235701, there is no canonical definition to state claims against.
 -/
@@ -1887,7 +1888,7 @@ end A235708.P17436326117639092191
 /-!
 # A235711: Arithmetic derivative of quarter squares.
 
-The programs for A235711, the canonical program `A235711.P5553264463072486028` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235711 has offset 0).
+The programs for A235711, the canonical program `A235711.P5553264463072486028` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A235711 has offset 0).
 
 The definition of A235711 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003415, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1896,7 +1897,7 @@ The definition of A235711 is `conditional`: the Lean definition is an OEIS formu
 
 `A003415(A002620(n))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A235711
@@ -8494,12 +8495,6 @@ namespace A235796
 def P10282550748648679139.Spec : Prop :=
   ∀ n, P10282550748648679139.a n = A235796 (n + 1)
 
-theorem P10282550748648679139.correct : P10282550748648679139.Spec := by
-  intro n
-  simp only [A235796, Nat.add_sub_cancel, A235796.P10282550748648679139.a, A235796.P5769590272751401819.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A033879, A033879.P11735613842914743111.a, A033880, A033880.P6005875780263802708.a, A001065, A001065.P4097147489331274860.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A235796
 
 /-! ## A235796.P7795080801203084284
@@ -9298,12 +9293,6 @@ namespace A235799
 /-- `A033879(n+1)+n²-1` -/
 def P1470367721031692786.Spec : Prop :=
   ∀ n, P1470367721031692786.a n = A235799 (n + 1)
-
-theorem P1470367721031692786.correct : P1470367721031692786.Spec := by
-  intro n
-  simp only [A235799, Nat.add_sub_cancel, A235799.P1470367721031692786.a, A235799.P7816509240272329688.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A033879, A033879.P11735613842914743111.a, A033880, A033880.P6005875780263802708.a, A001065, A001065.P4097147489331274860.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A235799
 

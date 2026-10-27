@@ -38,7 +38,9 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -46,11 +48,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -66,9 +70,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2455,7 +2456,7 @@ def P10137068456858455581.Spec : Prop :=
 end A106022
 
 /-!
-# A106029: a(n) is the number of orbits under the action of GL_2[Z] on the primitive binary quadratic forms of discriminant D, where D=m if m=1 (mod 4), D=4*m otherwise and m
+# A106029: a(n) is the number of orbits under the action of GL_2[Z] on the primitive binary quadratic forms of discriminant D, where D=m if m=1 (mod 4), D=4*m otherwise and m<0 is the n-th squarefree number.
 
 The programs for A106029, there is no canonical definition to state claims against.
 -/
@@ -6726,7 +6727,7 @@ end A106059
 /-!
 # A106060: Primes p such that 1*p + 8 and 8*p + 1 are primes.
 
-The programs for A106060, the canonical program `A106060.P15162970793732190485` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106060 has offset 1).
+The programs for A106060, the canonical program `A106060.P15162970793732190485` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106060 has offset 1).
 
 The definition of A106060 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1868 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6735,7 +6736,7 @@ The definition of A106060 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A015915(n+1), A023228(n+1)]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A106060
@@ -8165,7 +8166,7 @@ end A106067.P11343133485644849570
 /-!
 # A106068: Primes p such that 3p + 4 and 4p + 3 are primes.
 
-The programs for A106068, the canonical program `A106068.P13422155209439487144` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106068 has offset 1).
+The programs for A106068, the canonical program `A106068.P13422155209439487144` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106068 has offset 1).
 
 The definition of A106068 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1955 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8204,7 +8205,7 @@ end A106068
 
 `p?[A124855(n+1)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A106068
@@ -10080,7 +10081,7 @@ end A106079
 /-!
 # A106080: Primes p such that 5*p+8 and 8*p+5 are primes.
 
-The programs for A106080, the canonical program `A106080.P13440203208369835731` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106080 has offset 1).
+The programs for A106080, the canonical program `A106080.P13440203208369835731` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106080 has offset 1).
 
 The definition of A106080 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2493 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10089,7 +10090,7 @@ The definition of A106080 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A023220(n+1), A023230(n+1)]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A106080
@@ -10744,7 +10745,7 @@ end A106087
 /-!
 # A106088: Primes p such that 7*p + 6 and 6*p + 7 are primes.
 
-The programs for A106088, the canonical program `A106088.P8246779572440490493` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106088 has offset 1).
+The programs for A106088, the canonical program `A106088.P8246779572440490493` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106088 has offset 1).
 
 The definition of A106088 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2138 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10753,7 +10754,7 @@ The definition of A106088 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A023222(n+1), A023225(n+1)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A106088

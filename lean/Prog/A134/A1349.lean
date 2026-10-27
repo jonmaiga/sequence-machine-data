@@ -44,8 +44,9 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
-import Seq.B001.C012
+import Seq.B001.C008
+import Seq.B001.C010
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -55,20 +56,19 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -181,7 +181,7 @@ end A134900
 /-!
 # A134901: a(n) = floor(n*exp(csc(n))).
 
-The programs for A134901, the canonical program `A134901.P11339671350657562159` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134901 has offset 1).
+The programs for A134901, the canonical program `A134901.P11339671350657562159` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134901 has offset 1).
 
 The definition of A134901 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 709 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -213,7 +213,7 @@ end A134901
 
 `A134900(n+1)-1`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A134901
@@ -2923,7 +2923,7 @@ end A134919
 /-!
 # A134920: Expansion of (1-x+sqrt(1-2x+5x^2))/(2(1-x)^2).
 
-The programs for A134920, the canonical program `A134920.P13300017598810764662` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134920 has offset 0).
+The programs for A134920, the canonical program `A134920.P13300017598810764662` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134920 has offset 0).
 
 The definition of A134920 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 297 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2958,7 +2958,7 @@ end A134920
 
 `∑[∑[A100223(n)]]-n`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A134920
@@ -6529,7 +6529,7 @@ end A134941.P7419756372279369829
 /-!
 # A134942: Numbers m such that there exists no number k with k-P(k) = m, where P(k) is the product of digits of k written in base 10.
 
-The programs for A134942, the canonical program `A134942.P17759659551335477911` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134942 has offset 1).
+The programs for A134942, the canonical program `A134942.P17759659551335477911` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134942 has offset 1).
 
 The definition of A134942 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 961 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6538,7 +6538,7 @@ The definition of A134942 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A070565(n)]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A134942
@@ -7940,7 +7940,7 @@ end A134959.P6471444560948899195
 /-!
 # A134960: a(n) = n*453060.
 
-The programs for A134960, the canonical program `A134960.P9973488464711806881` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134960 has offset 0).
+The programs for A134960, the canonical program `A134960.P9973488464711806881` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134960 has offset 0).
 
 The definition of A134960 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7949,7 +7949,7 @@ The definition of A134960 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `540*A135639(n)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A134960
@@ -10784,7 +10784,7 @@ end
 end A134981.P9594032067194449096
 
 /-!
-# A134982: Number of elements in the n-th column of Medeleiev's periodic system of elements.
+# A134982: Number of elements in the n-th column of Mendeleev's periodic system of elements.
 
 The programs for A134982, there is no canonical definition to state claims against.
 -/

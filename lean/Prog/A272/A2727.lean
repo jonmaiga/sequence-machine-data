@@ -42,18 +42,19 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -65,8 +66,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7905,7 +7904,7 @@ end
 end A272773.P5478022846970078248
 
 /-!
-# A272774: Triangle read by rows, T(n, k) = (n-k)*T(n-1, k-1) + k*T(n-1, k+1) except that T(n, k) = 0 if kn and T(n, n) = 1, for n>=0 and 0<=k<=n.
+# A272774: Triangle read by rows, T(n, k) = (n-k)*T(n-1, k-1) + k*T(n-1, k+1) except that T(n, k) = 0 if k<1 or k>n and T(n, n) = 1, for n>=0 and 0<=k<=n.
 
 The programs for A272774, there is no canonical definition to state claims against.
 -/
@@ -9659,7 +9658,7 @@ end A272796.P10784289754867502027
 /-!
 # A272799: Numbers k such that 2*k - 1 and 2*k + 1 are squarefree.
 
-The programs for A272799, the canonical program `A272799.P16823547657693806826` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272799 has offset 1).
+The programs for A272799, the canonical program `A272799.P16823547657693806826` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272799 has offset 1).
 
 The definition of A272799 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A069977, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9668,7 +9667,7 @@ The definition of A272799 is `conditional`: the Lean definition is an OEIS formu
 
 `(A069977(n+1)+1)/2`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A272799

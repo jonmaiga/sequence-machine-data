@@ -41,32 +41,35 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5489,7 +5492,7 @@ end A173827
 /-!
 # A173828: Primes p such that p-+(floor(Sqrt(p)))^2 are primes.
 
-The programs for A173828, the canonical program `A173828.P5328705190027313365` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173828 has offset 1).
+The programs for A173828, the canonical program `A173828.P5328705190027313365` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173828 has offset 1).
 
 The definition of A173828 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 985 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5498,7 +5501,7 @@ The definition of A173828 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A135932(n+1), A173827(n+1)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A173828
@@ -10928,7 +10931,7 @@ end A173875
 /-!
 # A173881: Triangle T(n,k) = k*binomial(n,k)*binomial(n-1,k) with T(n,0) = T(n,n) = 1, read by rows.
 
-The programs for A173881, the canonical program `A173881.P1893856933433499034` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173881 has offset 0).
+The programs for A173881, the canonical program `A173881.P1893856933433499034` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A173881 has offset 0).
 
 The definition of A173881 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1326 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10937,7 +10940,7 @@ The definition of A173881 is `conjectured`: the Lean definition is a formula tha
 
 `A007318(n)*A155865(n)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A173881

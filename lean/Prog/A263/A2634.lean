@@ -40,7 +40,8 @@ import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -57,8 +58,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1191,7 +1190,7 @@ end A263419.P5403826790376214869
 /-!
 # A263420: Number of n X 2 arrays of permutations of 0..n*2-1 with each element moved a city block distance of 0 or 2.
 
-The programs for A263420, the canonical program `A263420.P4549048011631068532` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263420 has offset 1).
+The programs for A263420, the canonical program `A263420.P4549048011631068532` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A263420 has offset 1).
 
 The definition of A263420 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 136 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1252,7 +1251,7 @@ end A263420
 
 `Δ[A002525(n+1)]²`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A263420
@@ -7838,7 +7837,7 @@ def P14843153326212706086.Spec : Prop :=
 end A263483
 
 /-!
-# A263484: Triangle read by rows: T(n,k) (n>=1, 0<=k
+# A263484: Triangle read by rows: T(n,k) (n>=1, 0<=k<n) is the number of permutations of n elements with n-k elements in its connectivity set.
 
 The programs for A263484, there is no canonical definition to state claims against.
 -/

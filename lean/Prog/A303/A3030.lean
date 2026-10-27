@@ -37,31 +37,31 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C002
+import Seq.B003.C001
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3525,7 +3525,7 @@ end A303051.P15810294137450688206
 /-!
 # A303052: Total area of all squares with squarefree side length |s - t|, such that n = s + t, and s < t, where s and t are positive integers.
 
-The programs for A303052, the canonical program `A303052.P4381286405031386687` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303052 has offset 1).
+The programs for A303052, the canonical program `A303052.P4381286405031386687` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303052 has offset 1).
 
 The definition of A303052 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3534,7 +3534,7 @@ The definition of A303052 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-2)+((n-1)*A008683(n-1))²` with `a(0)=0, a(1)=0`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A303052
@@ -3552,7 +3552,7 @@ end A303052
 /-!
 # A303054: Number of minimum total dominating sets in the n-ladder graph.
 
-The programs for A303054, the canonical program `A303054.P5112954172130356619` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303054 has offset 1).
+The programs for A303054, the canonical program `A303054.P5112954172130356619` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303054 has offset 1).
 
 The definition of A303054 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3561,7 +3561,7 @@ The definition of A303054 is `conjectured`: the Lean definition is a formula tha
 
 `A347633(n+1)²`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A303054
@@ -4654,7 +4654,7 @@ end A303071.P2702243611338068543
 /-!
 # A303072: Number of minimal total dominating sets in the n-ladder graph.
 
-The programs for A303072, the canonical program `A303072.P14683285584780554309` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303072 has offset 1).
+The programs for A303072, the canonical program `A303072.P14683285584780554309` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A303072 has offset 1).
 
 The definition of A303072 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4663,7 +4663,7 @@ The definition of A303072 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A253412(n+1)²`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A303072

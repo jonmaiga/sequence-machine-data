@@ -36,15 +36,14 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,8 +52,8 @@ import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -65,9 +64,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1105,7 +1102,7 @@ theorem P9116872778778491633.correct : P9116872778778491633.Spec := by
 end A144110
 
 /-!
-# A144111: Number of different pairs of primes p and q with p
+# A144111: Number of different pairs of primes p and q with p<q such that 6*r(n)=p+q with r(i)=i-th prime.
 
 The programs for A144111, there is no canonical definition to state claims against.
 -/
@@ -6075,7 +6072,7 @@ end
 end A144144.P3148133843936385405
 
 /-!
-# A144145: A positive integer n is included if n contains the same number of 0's as 1's when represented in binary and the number of 0's (or the number of 1's) divides n.
+# A144145: A positive integer k is included if n contains the same number of 0's as 1's when represented in binary and the number of 0's (or the number of 1's) divides k.
 
 The programs for A144145, there is no canonical definition to state claims against.
 -/
@@ -6424,7 +6421,7 @@ def P9882992369504890156.Spec : Prop :=
 end A144146
 
 /-!
-# A144147: A positive integer n is included if every exponent in the prime-factorization of n is coprime to n and if the sum of these prime-factorization exponents divides n.
+# A144147: A positive integer k is included if every exponent in the prime factorization of k is coprime to k and if the sum of these prime-factorization exponents divides k.
 
 The programs for A144147, there is no canonical definition to state claims against.
 -/
@@ -6544,172 +6541,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A144147.P7637708636261807804
-
-/-!
-# A144148: Weight array W={w(i,j)} of the Wythoff array A035513.
-
-The programs for A144148, there is no canonical definition to state claims against.
--/
-
-/-! ## A144148.P4322561320987742025
-
-`A185736(n+1)%(4*n+3)`
--/
-
-namespace A144148.P4322561320987742025
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A185736 (n + 1)) (4 * n + 3 : ℤ)
-
-end
-
-end A144148.P4322561320987742025
-
-/-! ## A144148.P10285763846651935953
-
-`filter[A185736(n+1), A071024(#)]`
--/
-
-namespace A144148.P10285763846651935953
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185736 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A071024 (f1 j).toNat = 1) n)
-
-end
-
-end A144148.P10285763846651935953
-
-/-! ## A144148.P8357084380040638769
-
-`filter[A185736(n+1), A118102(#)]`
--/
-
-namespace A144148.P8357084380040638769
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185736 (n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (SequenceMachineLib.nth (fun j => A118102 (f1 j).toNat = 1) n)
-
-end
-
-end A144148.P8357084380040638769
-
-/-! ## A144148.P1060984870168085070
-
-`A185736(n+1)+char[A185763(n+1)]`
--/
-
-namespace A144148.P1060984870168085070
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185763 (n + 1)
-
-open Classical in
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185736 (n + 1) + ((if ∃ j, f1 j = (n : ℤ) then 1 else 0 : ℕ) : ℤ)
-
-end
-
-end A144148.P1060984870168085070
-
-/-! ## A144148.P16287745934086393960
-
-`A185736(n+1)+A003982(A008527(n))`
--/
-
-namespace A144148.P16287745934086393960
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185736 (n + 1) + A003982 (A008527 n).toNat
-
-end
-
-end A144148.P16287745934086393960
-
-/-! ## A144148.P18228799632598387797
-
-`A185736(n+1)*A257463(A057435(n))`
--/
-
-namespace A144148.P18228799632598387797
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185736 (n + 1) * A257463 (A057435 n).toNat
-
-end
-
-end A144148.P18228799632598387797
-
-/-! ## A144148.P7356348740854628196
-
-`A185736(n+1)+A105519(A046027(n+1))`
--/
-
-namespace A144148.P7356348740854628196
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185736 (n + 1) + A105519 (A046027 (n + 1)).toNat
-
-end
-
-end A144148.P7356348740854628196
-
-/-! ## A144148.P10042273444276374907
-
-`A187795(A026793(n+1))+A185736(n+1)`
--/
-
-namespace A144148.P10042273444276374907
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A187795 (A026793 (n + 1)).toNat + A185736 (n + 1)
-
-end
-
-end A144148.P10042273444276374907
-
-/-! ## A144148.P10116976493799626059
-
-`A185736(n+1)+A105519(A283671(n+1))`
--/
-
-namespace A144148.P10116976493799626059
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185736 (n + 1) + A105519 (A283671 (n + 1)).toNat
-
-end
-
-end A144148.P10116976493799626059
-
-/-! ## A144148.P7843077090716255954
-
-`A185736(n+1)+A185706(A223770(n+1))`
--/
-
-namespace A144148.P7843077090716255954
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A185736 (n + 1) + A185706 (A223770 (n + 1)).toNat
-
-end
-
-end A144148.P7843077090716255954
 
 /-!
 # A144150: Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where the e.g.f. of column k is 1+g^(k+1)(x) with g = x-> exp(x)-1.
@@ -6912,21 +6743,6 @@ end A144151.P9171319661300280045
 The programs for A144152, there is no canonical definition to state claims against.
 -/
 
-/-! ## A144152.P8993691976322862237
-
-`A002487(A156667(n)%A138335(n+1))`
--/
-
-namespace A144152.P8993691976322862237
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002487 (Int.tmod (A156667 n) (A138335 (n + 1))).toNat
-
-end
-
-end A144152.P8993691976322862237
-
 /-! ## A144152.P18262755249926427246
 
 `A125203(A117137(n)²)+A005206(A128618(n+1))`
@@ -7079,7 +6895,7 @@ end
 end A144154.P17631662246372864065
 
 /-!
-# A144155: Bell convolution triangle, T(n,k) = A000110(n-k)*A000110(k).
+# A144155: Bell convolution triangle, T(n,k) = A000110(n-k) * A000110(k).
 
 The programs for A144155, there is no canonical definition to state claims against.
 -/
@@ -8835,7 +8651,7 @@ end A144185.P1851200147793550127
 /-!
 # A144186: Numerators of series expansion of the e.g.f. for the Catalan numbers.
 
-The programs for A144186, the canonical program `A144186.P103456975638940015` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A144186 has offset 0).
+The programs for A144186, the canonical program `A144186.P103456975638940015` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A144186 has offset 0).
 
 The definition of A144186 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 232 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8913,7 +8729,7 @@ end A144186
 
 `A055773(2*n)/gcd(A055773(2*n), A055773(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A144186

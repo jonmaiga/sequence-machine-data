@@ -34,18 +34,20 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C006
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -57,9 +59,8 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -262,7 +263,7 @@ end A386706.P14657897816587161446
 /-!
 # A386707: a(n) = Lucas(n) + 6.
 
-The programs for A386707, the canonical program `A386707.P16068764112324631990` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386707 has offset 1).
+The programs for A386707, the canonical program `A386707.P16068764112324631990` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386707 has offset 1).
 
 The definition of A386707 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000032(n+1)+6` (program `A386707.P16068764112324631990`, by `A386707.P16068764112324631990.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -294,7 +295,7 @@ end A386707
 
 `A000032(n+1)+6`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A386707
@@ -968,7 +969,7 @@ end A386721.P14694505674808511291
 /-!
 # A386724: Twin primes p such that 6p+1, 6p-1 is a twin prime pair.
 
-The programs for A386724, the canonical program `A386724.P5852504740196687615` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386724 has offset 1).
+The programs for A386724, the canonical program `A386724.P5852504740196687615` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386724 has offset 1).
 
 The definition of A386724 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 180 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1007,7 +1008,7 @@ end A386724
 
 `∩[A001097(n+1), A283809(n+1)]`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A386724
@@ -5012,7 +5013,7 @@ end A386793.P16744296546065851205
 /-!
 # A386796: Numbers that have exactly one exponent in their prime factorization that is equal to 2.
 
-The programs for A386796, the canonical program `A386796.P17260301346217221759` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386796 has offset 1).
+The programs for A386796, the canonical program `A386796.P17260301346217221759` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386796 has offset 1).
 
 The definition of A386796 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2263 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5021,7 +5022,7 @@ The definition of A386796 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2, A368885(n+1)]+1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A386796

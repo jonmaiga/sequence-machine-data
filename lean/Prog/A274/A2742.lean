@@ -49,6 +49,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -56,9 +57,9 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -71,8 +72,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2756,7 +2755,7 @@ end A274222.P8401815258886726323
 /-!
 # A274224: Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 22", based on the 5-celled von Neumann neighborhood.
 
-The programs for A274224, the canonical program `A274224.P8691790841403696657` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274224 has offset 0).
+The programs for A274224, the canonical program `A274224.P8691790841403696657` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274224 has offset 0).
 
 The definition of A274224 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2765,7 +2764,7 @@ The definition of A274224 is `conjectured`: the Lean definition is a formula tha
 
 `lcm(A273972(A052928(n)), A274473(n))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A274224
@@ -2907,7 +2906,7 @@ end A274224
 /-!
 # A274225: Denominator of the ratio of consecutive prime gaps.
 
-The programs for A274225, the canonical program `A274225.P17980933963953125294` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274225 has offset 1).
+The programs for A274225, the canonical program `A274225.P17980933963953125294` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274225 has offset 1).
 
 The definition of A274225 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2916,7 +2915,7 @@ The definition of A274225 is `conjectured`: the Lean definition is a formula tha
 
 `A001223(n+1)/A057467(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A274225
@@ -5060,7 +5059,7 @@ end A274239.P14057143763504864600
 /-!
 # A274242: Numbers whose factorization contains only the greater members of twin prime pairs.
 
-The programs for A274242, the canonical program `A274242.P14150804800791898491` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274242 has offset 1).
+The programs for A274242, the canonical program `A274242.P14150804800791898491` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274242 has offset 1).
 
 The definition of A274242 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 524 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5124,7 +5123,7 @@ end A274242
 
 `eq[A064989(n+1), A166586(n+1)]+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A274242
@@ -6849,7 +6848,7 @@ end A274262.P9660757740841737011
 /-!
 # A274263: Integer part of the ratio of consecutive prime gaps.
 
-The programs for A274263, the canonical program `A274263.P9426455071173877905` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274263 has offset 1).
+The programs for A274263, the canonical program `A274263.P9426455071173877905` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274263 has offset 1).
 
 The definition of A274263 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6858,7 +6857,7 @@ The definition of A274263 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(A001223(n+2)/A001223(n+1))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A274263

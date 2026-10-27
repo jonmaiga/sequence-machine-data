@@ -47,7 +47,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -55,10 +55,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -71,10 +74,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -109,7 +109,7 @@ set_option linter.unreachableTactic false
 /-!
 # A071000: Numbers m such that the denominator of Sum_{k=1..m} 1/gcd(m,k) equals m.
 
-The programs for A071000, the canonical program `A071000.P4044688624235870522` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071000 has offset 1).
+The programs for A071000, the canonical program `A071000.P4044688624235870522` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071000 has offset 1).
 
 The definition of A071000 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -118,7 +118,7 @@ The definition of A071000 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A070999(n+1)-1]+1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A071000
@@ -476,7 +476,7 @@ end
 end A071002.P4057689592323129120
 
 /-!
-# A071004: Binary expansion of AGM(1,sqrt(2)) where AGM(x,y) denote the arithmetic-geometric mean of (x,y).
+# A071004: Binary expansion of AGM(1,sqrt(2)) where AGM(x,y) denotes the arithmetic-geometric mean of (x,y).
 
 The programs for A071004, there is no canonical definition to state claims against.
 -/
@@ -713,7 +713,7 @@ end A071006.P14580104728625350142
 /-!
 # A071007: Number of permutations in the symmetric group S_n such that the maximal cycle has length exactly 3.
 
-The programs for A071007, the canonical program `A071007.P3643576512482097279` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071007 has offset 0).
+The programs for A071007, the canonical program `A071007.P3643576512482097279` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071007 has offset 0).
 
 The definition of A071007 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -722,7 +722,7 @@ The definition of A071007 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A057693(n)-A000085(n)`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A071007
@@ -836,7 +836,7 @@ def P305880802703360771.Spec : Prop :=
 end A071007
 
 /-!
-# A071008: Numbers n such that uphi(uphi(n)) = n/2.
+# A071008: Numbers k such that uphi(uphi(k)) = k/2.
 
 The programs for A071008, there is no canonical definition to state claims against.
 -/
@@ -1857,7 +1857,7 @@ end A071016.P4034870031548812501
 /-!
 # A071017: Moebius transform of A002487.
 
-The programs for A071017, the canonical program `A071017.P7489268746479520871` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071017 has offset 0).
+The programs for A071017, the canonical program `A071017.P7489268746479520871` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071017 has offset 0).
 
 The definition of A071017 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1866,7 +1866,7 @@ The definition of A071017 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A007427(#)*A071018((n+1)/#-1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A071017
@@ -3354,7 +3354,7 @@ end A071026
 /-!
 # A071027: Triangle read by rows giving successive states of cellular automaton generated by "Rule 230".
 
-The programs for A071027, the canonical program `A071027.P14267633991690043163` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071027 has offset 0).
+The programs for A071027, the canonical program `A071027.P14267633991690043163` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071027 has offset 0).
 
 The definition of A071027 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3363,7 +3363,7 @@ The definition of A071027 is `conjectured`: the Lean definition is a formula tha
 
 `char[(∏{p}[A139600(n+1), #]-1)%2+n]`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A071027
@@ -3770,7 +3770,7 @@ end A071027
 /-!
 # A071028: Triangle read by rows giving successive states of cellular automaton generated by "Rule 50".
 
-The programs for A071028, the canonical program `A071028.P9767808195763007383` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071028 has offset 0).
+The programs for A071028, the canonical program `A071028.P9767808195763007383` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071028 has offset 0).
 
 The definition of A071028 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3779,7 +3779,7 @@ The definition of A071028 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(1+(-1)^A028392(n))/2`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A071028
@@ -4527,7 +4527,7 @@ end A071029
 /-!
 # A071030: Triangle read by rows giving successive states of cellular automaton generated by "Rule 54".
 
-The programs for A071030, the canonical program `A071030.P11714086120576198242` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071030 has offset 0).
+The programs for A071030, the canonical program `A071030.P11714086120576198242` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071030 has offset 0).
 
 The definition of A071030 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4536,7 +4536,7 @@ The definition of A071030 is `conjectured`: the Lean definition is a formula tha
 
 `(A000196(n)+∑[∑[n+1]])%2`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A071030
@@ -9350,7 +9350,7 @@ end A071046
 /-!
 # A071047: Number of 1's in n-th row of triangle in A071031, cellular automaton "rule 62".
 
-The programs for A071047, the canonical program `A071047.P5402524198042241896` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071047 has offset 0).
+The programs for A071047, the canonical program `A071047.P5402524198042241896` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A071047 has offset 0).
 
 The definition of A071047 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9998 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9414,7 +9414,7 @@ end A071047
 
 `A267453(n+2)-2`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B001.C003`.
 -/
 
 namespace A071047
@@ -14491,7 +14491,7 @@ end
 end A071090.P14602653347558630912
 
 /-!
-# A071092: Moments of inertia of a certain configuration of hexagons.
+# A071092: 
 
 The programs for A071092, there is no canonical definition to state claims against.
 -/

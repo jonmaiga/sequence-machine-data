@@ -31,19 +31,24 @@ import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -51,14 +56,14 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -917,7 +922,7 @@ end A381711.P15539405608773253942
 /-!
 # A381713: a(n) = J_9(n)/J_3(n), where J_k is the k-th Jordan totient function.
 
-The programs for A381713, the canonical program `A381713.P7553467801404850531` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381713 has offset 1).
+The programs for A381713, the canonical program `A381713.P7553467801404850531` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381713 has offset 1).
 
 The definition of A381713 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A059376, A069094, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -926,7 +931,7 @@ The definition of A381713 is `conditional`: the Lean definition is an OEIS formu
 
 `A069094(n+1)/A059376(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A381713
@@ -1289,7 +1294,7 @@ end A381720.P12265524442020448021
 /-!
 # A381721: Sum of the legs of the unique primitive Pythagorean triple whose inradius is A000032(n) and such that its long leg and its hypotenuse are consecutive natural numbers.
 
-The programs for A381721, the canonical program `A381721.P9195889644798697899` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381721 has offset 0).
+The programs for A381721, the canonical program `A381721.P9195889644798697899` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381721 has offset 0).
 
 The definition of A381721 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1298,7 +1303,7 @@ The definition of A381721 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A000032(n)²+4*A000032(n)+1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A381721
@@ -2656,7 +2661,7 @@ end A381738.P16271783490956391371
 /-!
 # A381740: Squarefree numbers k such that k^2 is abundant.
 
-The programs for A381740, the canonical program `A381740.P15547761009824729862` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381740 has offset 1).
+The programs for A381740, the canonical program `A381740.P15547761009824729862` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381740 has offset 1).
 
 The definition of A381740 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3068 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2665,7 +2670,7 @@ The definition of A381740 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A363171(n+1), A008966(#)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A381740
@@ -5428,7 +5433,7 @@ end A381793.P11291264305256540815
 /-!
 # A381794: Number of connected dominating sets in the n-trapezohedral graph.
 
-The programs for A381794, the canonical program `A381794.P7718667864799923666` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381794 has offset 1).
+The programs for A381794, the canonical program `A381794.P7718667864799923666` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381794 has offset 1).
 
 The definition of A381794 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5437,7 +5442,7 @@ The definition of A381794 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4^(n+1)-A000032(2*(n+1))+2*(2^(n+1)-1)*A000032(n+1)+1+4*(n+1)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A381794

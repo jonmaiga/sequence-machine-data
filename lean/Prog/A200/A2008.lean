@@ -37,21 +37,22 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B003.C000
-import Seq.B003.C002
+import Seq.B003.C001
 import Seq.B003.C003
-import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C000
+import Seq.B006.C000
+import Seq.B007.C000
+import Seq.B008.C000
+import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -480,7 +481,7 @@ end A200808.P14011453835781068726
 /-!
 # A200810: Iterate k -> d(k) until an odd prime is reached.
 
-The programs for A200810, the canonical program `A200810.P3059771621700014501` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200810 has offset 3).
+The programs for A200810, the canonical program `A200810.P3059771621700014501` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200810 has offset 3).
 
 The definition of A200810 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9998 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -515,7 +516,7 @@ end A200810
 
 `p?[a(A032741(n+1))+n*A010051(n+1)]` with `a(0)=1, a(1)=1`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A200810
@@ -611,7 +612,7 @@ end A200810
 /-!
 # A200811: Iterate k -> d(k) until an odd prime is reached, starting from the n-th composite.
 
-The programs for A200811, the canonical program `A200811.P737774431781934220` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200811 has offset 1).
+The programs for A200811, the canonical program `A200811.P737774431781934220` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A200811 has offset 1).
 
 The definition of A200811 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -620,7 +621,7 @@ The definition of A200811 is `conjectured`: the Lean definition is a formula tha
 
 `A200810(A035004(n+2))`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A200811

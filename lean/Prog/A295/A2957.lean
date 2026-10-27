@@ -38,26 +38,26 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B003.C000
-import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C001
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -269,7 +269,7 @@ end A295704.P13620036463137007515
 /-!
 # A295705: The first of a pair of alternate primes the difference between which is twice a prime.
 
-The programs for A295705, the canonical program `A295705.P1140010899799709872` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A295705 has offset 1).
+The programs for A295705, the canonical program `A295705.P1140010899799709872` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A295705 has offset 1).
 
 The definition of A295705 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3154 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -304,7 +304,7 @@ end A295705
 
 `p?[A000040(n+2)*A001222(A052288(n+1))]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A295705
@@ -11264,24 +11264,6 @@ end
 
 end A295783.P14509212439125618391
 
-/-! ## A295783.P3395119488049650985
-
-`Δ[A294443(n)]`
--/
-
-namespace A295783.P3395119488049650985
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A294443 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  f1 (n + 1) - f1 n
-
-end
-
-end A295783.P3395119488049650985
-
 /-! ## A295783.P5607870530339485299
 
 `Δ[A293165(n+1)]`
@@ -11314,21 +11296,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A295783.P15859380784732400896
-
-/-! ## A295783.P7704550998553886446
-
-`A294443(n+1)-A294443(n)`
--/
-
-namespace A295783.P7704550998553886446
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A294443 (n + 1) - A294443 n
-
-end
-
-end A295783.P7704550998553886446
 
 /-!
 # A295784: Length of the longest arithmetic progression in squares mod n with slope coprime to n.

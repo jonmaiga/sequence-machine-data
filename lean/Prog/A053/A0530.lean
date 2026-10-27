@@ -46,10 +46,10 @@ import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -58,8 +58,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6174,7 +6173,7 @@ end A053044
 /-!
 # A053045: a(n) is the number of powers of 2 among the iterates of the Euler phi function when it is iterated with initial value n!.
 
-The programs for A053045, the canonical program `A053045.P10567594955266095024` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053045 has offset 1).
+The programs for A053045, the canonical program `A053045.P10567594955266095024` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053045 has offset 1).
 
 The definition of A053045 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6212,7 +6211,7 @@ end A053045
 
 `∑[A054725(n+1)]-A053046(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A053045
@@ -6667,7 +6666,7 @@ end A053046
 /-!
 # A053047: a(n) is the first (and maximal) power of 2 arising during iterations of the Euler phi function with initial value n!.
 
-The programs for A053047, the canonical program `A053047.P4059544056433008088` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053047 has offset 1).
+The programs for A053047, the canonical program `A053047.P4059544056433008088` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053047 has offset 1).
 
 The definition of A053047 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A053048, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6676,7 +6675,7 @@ The definition of A053047 is `conditional`: the Lean definition is an OEIS formu
 
 `2^A053048(n+1)`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A053047
@@ -10737,7 +10736,7 @@ end A053095.P18178193528166757878
 /-!
 # A053096: When the Euler phi function is iterated with initial value A002110(n) = primorial, a(n) = number of iterations required to reach the fixed number = 1.
 
-The programs for A053096, the canonical program `A053096.P15007582045720351273` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053096 has offset 1).
+The programs for A053096, the canonical program `A053096.P15007582045720351273` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A053096 has offset 1).
 
 The definition of A053096 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10746,7 +10745,7 @@ The definition of A053096 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A060607(n+1)]-n`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A053096

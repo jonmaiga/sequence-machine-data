@@ -52,32 +52,31 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7915,7 +7914,7 @@ end A005727.P18298635284281629497
 /-!
 # A005728: Number of fractions in Farey series of order n.
 
-The programs for A005728, the canonical program `A005728.P12032251568510858139` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005728 has offset 0).
+The programs for A005728, the canonical program `A005728.P12032251568510858139` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A005728 has offset 0).
 
 The definition of A005728 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002088, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7924,7 +7923,7 @@ The definition of A005728 is `conditional`: the Lean definition is an OEIS formu
 
 `1+A002088(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A005728
@@ -8006,12 +8005,6 @@ namespace A005728
 def P11306514271742134019.Spec : Prop :=
   ∀ n, P11306514271742134019.a n = (A005728 n : ℚ)
 
-theorem P11306514271742134019.correct : P11306514271742134019.Spec := by
-  intro n
-  simp only [A005728, Nat.add_sub_cancel, A005728.P11306514271742134019.a, A005728.P12032251568510858139.a, A002088, A002088.P8962335469571691680.f2, A002088.P8962335469571691680.f1, A002088.P8962335469571691680.a, A049696, A049696.P12004431397855860570.a, A007431, A007431.P16849793818733668455.f1, A007431.P16849793818733668455.a, A007432, A007432.P16663120023730915232.f1, A007432.P16663120023730915232.a, A007428, A007428.P12532017655611739201.f1, A007428.P12532017655611739201.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A005728
 
 /-! ## A005728.P12560865732286767954
@@ -8034,12 +8027,6 @@ namespace A005728
 /-- `A140466(n)/4+1` -/
 def P12560865732286767954.Spec : Prop :=
   ∀ n, P12560865732286767954.a n = (A005728 n : ℚ)
-
-theorem P12560865732286767954.correct : P12560865732286767954.Spec := by
-  intro n
-  simp only [A005728, Nat.add_sub_cancel, A005728.P12560865732286767954.a, A005728.P12032251568510858139.a, A002088, A002088.P8962335469571691680.f2, A002088.P8962335469571691680.f1, A002088.P8962335469571691680.a, A140466, A140466.P2617124052483112329.a, A007431, A007431.P16849793818733668455.f1, A007431.P16849793818733668455.a, A007432, A007432.P16663120023730915232.f1, A007432.P16663120023730915232.a, A007428, A007428.P12532017655611739201.f1, A007428.P12532017655611739201.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A005728
 

@@ -46,6 +46,7 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -56,7 +57,8 @@ import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C004
+import Seq.B003.C002
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,7 +72,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6889,7 +6890,7 @@ end
 end A002967.P6189928724191177101
 
 /-!
-# A002968: Number of pairings {(b(1), c(1)), (b(2), c(2)), ..., (b(n), c(n))} of the first 2n positive integers satisfying b(i) < c(i) and such that the 2n numbers c(i)+b(i) and c(i)-b(i) are all distinct.
+# A002968: Number of pairings {(b(1), c(1)), (b(2), c(2)), ..., (b(n), c(n))} of the first 2*n positive integers satisfying b(i) < c(i) and such that the 2*n numbers c(i)+b(i) and c(i)-b(i) are all distinct.
 
 The programs for A002968, there is no canonical definition to state claims against.
 -/
@@ -10345,7 +10346,7 @@ end A002995.P6323809873314395024
 /-!
 # A002996: a(n) = Sum_{k|n} mu(k)*Catalan(n/k) (mu = Moebius function A008683).
 
-The programs for A002996, the canonical program `A002996.P4447293613268570062` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002996 has offset 1).
+The programs for A002996, the canonical program `A002996.P4447293613268570062` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A002996 has offset 1).
 
 The definition of A002996 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 172 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10380,7 +10381,7 @@ end A002996
 
 `∑{d}[n+1, A007427(#)*A237670((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A002996

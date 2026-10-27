@@ -40,30 +40,31 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -98,7 +99,7 @@ set_option linter.unreachableTactic false
 /-!
 # A353900: a(n) is the sum of divisors of n whose exponents in their prime factorizations are all powers of 2 (A138302).
 
-The programs for A353900, the canonical program `A353900.P14141472895883448700` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353900 has offset 1).
+The programs for A353900, the canonical program `A353900.P14141472895883448700` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353900 has offset 1).
 
 The definition of A353900 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -107,7 +108,7 @@ The definition of A353900 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A355823(#)]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A353900
@@ -494,7 +495,7 @@ end A353904.P16614121875718110422
 /-!
 # A353906: a(n) is the {alternating sum of the digits of n} raised to the power {number of digits of n}.
 
-The programs for A353906, the canonical program `A353906.P15322443910608635693` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353906 has offset 1).
+The programs for A353906, the canonical program `A353906.P15322443910608635693` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353906 has offset 1).
 
 The definition of A353906 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A055017, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -503,7 +504,7 @@ The definition of A353906 is `conditional`: the Lean definition is an OEIS formu
 
 `A055017(n+1)^A055642(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A353906
@@ -969,7 +970,7 @@ end
 end A353921.P13700667630219515041
 
 /-!
-# A353922: Number of distinct pairs of partially ordered sets and legal permutations on labeled directed acyclic graphs (DAGs) with n nodes.
+# A353922: Number of distinct pairs of partially ordered sets and legal permutations on labeled directed acyclic graphs (DAGs) with n nodes and up to n edges.
 
 The programs for A353922, there is no canonical definition to state claims against.
 -/
@@ -2092,7 +2093,7 @@ end A353945.P16398178877182181593
 /-!
 # A353946: a(n) = (pi(2n-1) - pi(n-1))^pi(n) for n > 1, a(1) = 0.
 
-The programs for A353946, the canonical program `A353946.P10018284100613643832` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353946 has offset 1).
+The programs for A353946, the canonical program `A353946.P10018284100613643832` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353946 has offset 1).
 
 The definition of A353946 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 285 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2101,7 +2102,7 @@ The definition of A353946 is `conjectured`: the Lean definition is a formula tha
 
 `A035250(n+1)^A000720(n+1)-C(2, n+2)`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A353946
@@ -3185,7 +3186,7 @@ end A353958
 /-!
 # A353959: a(n) = Sum_{d|n} d * (-1)^(d'), where d' is the arithmetic derivative of d (A003415).
 
-The programs for A353959, the canonical program `A353959.P15648512991217701478` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353959 has offset 1).
+The programs for A353959, the canonical program `A353959.P15648512991217701478` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353959 has offset 1).
 
 The definition of A353959 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3194,7 +3195,7 @@ The definition of A353959 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A359792(#)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A353959
@@ -4856,7 +4857,7 @@ end A353985.P7867035948384387946
 /-!
 # A353986: Numbers k such that Fibonacci(k) and Fibonacci(k+1) have the same binary weight (A000120).
 
-The programs for A353986, the canonical program `A353986.P12545540184002527554` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353986 has offset 1).
+The programs for A353986, the canonical program `A353986.P12545540184002527554` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353986 has offset 1).
 
 The definition of A353986 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 135 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4865,7 +4866,7 @@ The definition of A353986 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, Δ[A011373(n)]]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A353986
@@ -5201,7 +5202,7 @@ end A353996.P12248809277965240888
 /-!
 # A353997: Partial sums of A078473.
 
-The programs for A353997, the canonical program `A353997.P833302072008211621` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353997 has offset 1).
+The programs for A353997, the canonical program `A353997.P833302072008211621` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A353997 has offset 1).
 
 The definition of A353997 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5305,7 +5306,7 @@ end A353997
 
 `∑[∑{d}[n+1, A053723(#-1)*A109091((n+1)/#)]]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A353997

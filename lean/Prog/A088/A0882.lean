@@ -40,17 +40,19 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -61,7 +63,6 @@ import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
@@ -69,8 +70,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5295,7 +5294,7 @@ end
 end A088230.P7011490817792982131
 
 /-!
-# A088231: Triangle read by rows: T(n,k) = number of squares not less than n-k and not greater n+k, 0<=k
+# A088231: Triangle read by rows: T(n,k) = number of squares not less than n-k and not greater n+k, 0<=k<n.
 
 The programs for A088231, the canonical program `A088231.P16919889853487200307` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088231 has offset 1).
 
@@ -5416,7 +5415,7 @@ end A088231
 /-!
 # A088232: Numbers k such that 3 does not divide phi(k).
 
-The programs for A088232, the canonical program `A088232.P18376775273542459675` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088232 has offset 1).
+The programs for A088232, the canonical program `A088232.P18376775273542459675` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088232 has offset 1).
 
 The definition of A088232 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5425,7 +5424,7 @@ The definition of A088232 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A354099(n+1), 1]+1`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A088232
@@ -6709,7 +6708,7 @@ def P14186828979173162800.Spec : Prop :=
 end A088236
 
 /-!
-# A088239: Triangle read by rows: T(n,k) is the number of primes not less than n-k and not greater than n+k, 0<=k
+# A088239: Triangle read by rows: T(n,k) is the number of primes not less than n-k and not greater than n+k, 0<=k<n.
 
 The programs for A088239, there is no canonical definition to state claims against.
 -/
@@ -6925,7 +6924,7 @@ end
 end A088240.P13925452234614451673
 
 /-!
-# A088241: Values of y, where x^2 + xy + y^2 = p (x
+# A088241: Values of y, where x^2 + xy + y^2 = p (x<y) is a prime of the form 6n + 1 (A002476).
 
 The programs for A088241, there is no canonical definition to state claims against.
 -/
@@ -7042,7 +7041,7 @@ end
 end A088241.P8183435063032777019
 
 /-!
-# A088242: Values of x, where x^2 + xy + y^2 = p (x
+# A088242: Values of x, where x^2 + xy + y^2 = p (x<y) is a prime of the form 6n + 1 (A002476).
 
 The programs for A088242, there is no canonical definition to state claims against.
 -/
@@ -7159,7 +7158,7 @@ end
 end A088242.P3750458956131508889
 
 /-!
-# A088243: Values of x + y, where x^2 + xy + y^2=p (x
+# A088243: Values of x + y, where x^2 + xy + y^2=p (x<y) is a prime of the form 6n + 1 (=A002476).
 
 The programs for A088243, there is no canonical definition to state claims against.
 -/
@@ -7338,7 +7337,7 @@ end A088243.P15387192727085637893
 /-!
 # A088244: Number of 3-smooth divisors of n!.
 
-The programs for A088244, the canonical program `A088244.P13253093722585621890` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088244 has offset 0).
+The programs for A088244, the canonical program `A088244.P13253093722585621890` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088244 has offset 0).
 
 The definition of A088244 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7347,7 +7346,7 @@ The definition of A088244 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(A011371(n)+1)*(A054861(n)+1)`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A088244
@@ -10843,7 +10842,7 @@ end
 end A088291.P597102374646472446
 
 /-!
-# A088296: Values of y - x, where x^2 + xy + y^2=p (x
+# A088296: Values of y - x, where x^2 + xy + y^2=p (x<y) is a prime of the form 6n + 1 (=A002476).
 
 The programs for A088296, there is no canonical definition to state claims against.
 -/
@@ -11008,7 +11007,7 @@ end
 end A088297.P17310987096871715265
 
 /-!
-# A088298: Values of 2x + y, where x^2 + xy + y^2=p (x
+# A088298: Values of 2x + y, where x^2 + xy + y^2=p (x<y) is a prime of the form 6n + 1 (=A002476).
 
 The programs for A088298, there is no canonical definition to state claims against.
 -/
@@ -11134,7 +11133,7 @@ end
 end A088298.P9903211108792239842
 
 /-!
-# A088299: Values of x + 2y, where x^2 + xy + y^2=p (x
+# A088299: Values of x + 2y, where x^2 + xy + y^2=p (x<y) is a prime of the form 6n + 1 (=A002476).
 
 The programs for A088299, there is no canonical definition to state claims against.
 -/

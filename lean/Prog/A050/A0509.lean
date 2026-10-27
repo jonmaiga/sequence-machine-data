@@ -40,7 +40,6 @@ import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -55,14 +54,16 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -72,10 +73,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3312,7 +3309,7 @@ end A050931
 /-!
 # A050932: Denominator of (n+1)*Bernoulli(n).
 
-The programs for A050932, the canonical program `A050932.P58494450188003610` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050932 has offset 0).
+The programs for A050932, the canonical program `A050932.P58494450188003610` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050932 has offset 0).
 
 The definition of A050932 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3321,7 +3318,7 @@ The definition of A050932 is `conjectured`: the Lean definition is a formula tha
 
 `A326579(n+1)/(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A050932
@@ -6055,7 +6052,7 @@ end A050943.P2762399432560933602
 /-!
 # A050944: Numbers k such that sigma(k) > sigma(k+1) > sigma(k+2) > sigma(k+3).
 
-The programs for A050944, the canonical program `A050944.P6983789930678344606` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050944 has offset 1).
+The programs for A050944, the canonical program `A050944.P6983789930678344606` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050944 has offset 1).
 
 The definition of A050944 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 348 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6117,7 +6114,7 @@ end A050944
 
 `∩[A066507(n+1), A364657(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A050944
@@ -7638,7 +7635,7 @@ end
 end A050970.P2344376461918712910
 
 /-!
-# A050971: 4*Denominator of S(n)/Pi^n, where S(n) = Sum_{k=-inf..+inf} ((4k+1)^(-n)).
+# A050971: Denominator of 4*S(n)/Pi^n, where S(n) = Sum_{k=-inf..+inf} ((4k+1)^(-n)).
 
 The programs for A050971, there is no canonical definition to state claims against.
 -/
@@ -11662,7 +11659,7 @@ end A050997
 /-!
 # A050999: Sum of squares of odd divisors of n.
 
-The programs for A050999, the canonical program `A050999.P18306880422002560695` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050999 has offset 1).
+The programs for A050999, the canonical program `A050999.P18306880422002560695` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050999 has offset 1).
 
 The definition of A050999 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001157, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11671,7 +11668,7 @@ The definition of A050999 is `conditional`: the Lean definition is an OEIS formu
 
 `A001157(2*(n+1))-4*A001157(n+1)`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A050999
@@ -12133,12 +12130,6 @@ namespace A050999
 /-- `A050453(n+1)+A050450(n+1)` -/
 def P8234955535773083018.Spec : Prop :=
   ∀ n, P8234955535773083018.a n = A050999 (n + 1)
-
-theorem P8234955535773083018.correct : P8234955535773083018.Spec := by
-  intro n
-  simp only [A050999, Nat.add_sub_cancel, A050999.P8234955535773083018.a, A050999.P18306880422002560695.a, A001157, A001157.P6892814788348726787.a, A050450, A050450.P4021675749699126775.a, A050453, A050453.P6605765519543064582.f1, A050453.P6605765519543064582.a, A035316, A035316.P17845884678165723091.f1, A035316.P17845884678165723091.a, A062828, A062828.P6719252676437091402.a, A037213, A037213.P7544062464691828526.a, A000196, A000196.P15434771586934192083.a, A010052, A010052.P917763524850441347.f1, A010052.P917763524850441347.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A050999
 

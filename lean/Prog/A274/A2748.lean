@@ -43,31 +43,31 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2081,7 +2081,7 @@ end A274826.P9774887862194077031
 /-!
 # A274828: Integer part of the alternating n-th partial sum of the reciprocals of the successive prime gaps.
 
-The programs for A274828, the canonical program `A274828.P10579815518661466708` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274828 has offset 1).
+The programs for A274828, the canonical program `A274828.P10579815518661466708` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274828 has offset 1).
 
 The definition of A274828 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2090,7 +2090,7 @@ The definition of A274828 is `conjectured`: the Lean definition is a formula tha
 
 `floor(∑[(-1)^n/A001223(n+1)])`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A274828
@@ -3881,7 +3881,7 @@ end A274848.P2869440209126387540
 /-!
 # A274849: Isolated deficient numbers.
 
-The programs for A274849, the canonical program `A274849.P9410595466255153933` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274849 has offset 1).
+The programs for A274849, the canonical program `A274849.P9410595466255153933` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274849 has offset 1).
 
 The definition of A274849 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 822 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3920,7 +3920,7 @@ end A274849
 
 `∩[A005101(n+1)-1, A160007(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A274849
@@ -6501,7 +6501,7 @@ end A274882.P7233966225829611042
 /-!
 # A274883: Triangle read by rows, T(n,k) = 2^k*binomial(n,k)*A057977(n-k) for n>=0 and 0<=k<=n.
 
-The programs for A274883, the canonical program `A274883.P490056159256726624` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274883 has offset 0).
+The programs for A274883, the canonical program `A274883.P490056159256726624` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A274883 has offset 0).
 
 The definition of A274883 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^col(n)*C(row(n), col(n))*A057977(row(n)-col(n))` (program `A274883.P490056159256726624`, by `A274883.P490056159256726624.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6510,7 +6510,7 @@ The definition of A274883 is `verified`: the Lean definition is proven equivalen
 
 `2^col(n)*C(row(n), col(n))*A057977(row(n)-col(n))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A274883

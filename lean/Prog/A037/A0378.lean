@@ -36,7 +36,9 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
@@ -50,7 +52,7 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -58,13 +60,10 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -518,7 +517,7 @@ def P14922369711577549277.Spec : Prop :=
 end A037800
 
 /-!
-# A037801: Number of i such that d(i)
+# A037801: Number of i such that d(i)<d(i-1), where Sum{d(i)*3^i: i=0,1,...,m} is base 3 representation of n.
 
 The programs for A037801, there is no canonical definition to state claims against.
 -/
@@ -8820,7 +8819,7 @@ end A037839
 /-!
 # A037840: a(n)=Sum{|d(i)-d(i-1)|: i=1,...,m}, where Sum{d(i)*8^i: i=0,1,...,m} is the base 8 representation of n.
 
-The programs for A037840, the canonical program `A037840.P2762222455671273177` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037840 has offset 1).
+The programs for A037840, the canonical program `A037840.P2762222455671273177` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037840 has offset 1).
 
 The definition of A037840 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6561 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8852,7 +8851,7 @@ end A037840
 
 `A037841(A037477(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A037840
@@ -9366,7 +9365,7 @@ end
 end A037843.P9258333400660033487
 
 /-!
-# A037844: Sum{d(i-1)-d(i): d(i)
+# A037844: Sum{d(i-1)-d(i): d(i)<d(i-1), i=1,...,m}, where Sum{d(i)*3^i: i=0,1,...,m} is base 3 representation of n.
 
 The programs for A037844, there is no canonical definition to state claims against.
 -/
@@ -9522,7 +9521,7 @@ end
 end A037844.P433641237997368014
 
 /-!
-# A037845: a(n) = Sum_{i=1..m, d(i)
+# A037845: a(n) = Sum_{i=1..m, d(i)<d(i-1)} d(i-1)-d(i), where Sum_{i=0..m} d(i)*4^i is the base 4 representation of n.
 
 The programs for A037845, there is no canonical definition to state claims against.
 -/
@@ -9678,7 +9677,7 @@ end
 end A037845.P11609005641740842794
 
 /-!
-# A037846: a(n)=Sum{d(i-1)-d(i): d(i)
+# A037846: a(n)=Sum{d(i-1)-d(i): d(i)<d(i-1), i=1,...,m}, where Sum{d(i)*5^i: i=0,1,...,m} is the base 5 representation of n.
 
 The programs for A037846, there is no canonical definition to state claims against.
 -/
@@ -9924,7 +9923,7 @@ end
 end A037846.P3988630067480629735
 
 /-!
-# A037847: a(n)=Sum{d(i-1)-d(i): d(i)
+# A037847: a(n)=Sum{d(i-1)-d(i): d(i)<d(i-1), i=0,1,...,m}, where Sum{d(i)*6^i: i=0,1,...,m} is the base 6 representation of n.
 
 The programs for A037847, there is no canonical definition to state claims against.
 -/
@@ -10020,7 +10019,7 @@ end
 end A037847.P4630263386819812775
 
 /-!
-# A037848: a(n)=Sum{d(i-1)-d(i): d(i)
+# A037848: a(n)=Sum{d(i-1)-d(i): d(i)<d(i-1), i=1,...,m}, where Sum{d(i)*7^i: i=0,1,...,m} is the base 7 representation of n.
 
 The programs for A037848, there is no canonical definition to state claims against.
 -/
@@ -10197,7 +10196,7 @@ end
 end A037849.P4604510580102382879
 
 /-!
-# A037850: a(n)=Sum{d(i-1)-d(i): d(i)
+# A037850: a(n)=Sum{d(i-1)-d(i): d(i)<d(i-1), i=1,...,m}, where Sum{d(i)*9^i: i=0,1,...,m} is the base 9 representation of n.
 
 The programs for A037850, there is no canonical definition to state claims against.
 -/
@@ -10299,7 +10298,7 @@ end
 end A037850.P11910867556157026118
 
 /-!
-# A037851: a(n)=Sum{d(i-1)-d(i): d(i)
+# A037851: a(n)=Sum{d(i-1)-d(i): d(i)<d(i-1), i=1,...,m}, where Sum{d(i)*10^i: i=0,1,...,m} is the base 10 representation of n.
 
 The programs for A037851, there is no canonical definition to state claims against.
 -/
@@ -15731,7 +15730,7 @@ end A037895.P15760508292249192577
 /-!
 # A037896: Primes of the form k^4 + 1.
 
-The programs for A037896, the canonical program `A037896.P17461005331305696964` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037896 has offset 1).
+The programs for A037896, the canonical program `A037896.P17461005331305696964` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037896 has offset 1).
 
 The definition of A037896 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 790 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15763,7 +15762,7 @@ end A037896
 
 `A002523(eq[1, A193929(n)])`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A037896
@@ -16599,7 +16598,7 @@ end A037898.P1918899058728142684
 /-!
 # A037899: a(n) = (greatest base 5 digit of n) - (least base 5 digit of n).
 
-The programs for A037899, the canonical program `A037899.P9572021388177074239` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037899 has offset 0).
+The programs for A037899, the canonical program `A037899.P9572021388177074239` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A037899 has offset 0).
 
 The definition of A037899 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2655 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16677,7 +16676,7 @@ end A037899
 
 `A037901(A037466(n))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A037899

@@ -49,17 +49,21 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -72,8 +76,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -926,7 +928,7 @@ end A106313.P120896341400495125
 /-!
 # A106314: Triangle T(n,k) composed of the squares min(n,k)^2.
 
-The programs for A106314, the canonical program `A106314.P15491378883024418281` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106314 has offset 1).
+The programs for A106314, the canonical program `A106314.P15491378883024418281` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106314 has offset 1).
 
 The definition of A106314 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1056,7 +1058,7 @@ end A106314
 
 `(val(A036561(n), 6)+1)²`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A106314
@@ -1412,7 +1414,7 @@ end A106314
 /-!
 # A106315: Harmonic residue of n.
 
-The programs for A106315, the canonical program `A106315.P16848816282834775010` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106315 has offset 1).
+The programs for A106315, the canonical program `A106315.P6417438308466386050` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106315 has offset 1).
 
 The definition of A106315 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1443,28 +1445,9 @@ end A106315
 /-! ## A106315.P16848816282834775010
 
 `∑{d}[n+1, 1-#+n]%∑{d}[n+1, #]`
-
-The canonical program, it is in `Seq.B000.C016`.
 -/
 
-namespace A106315
-
-/-- `∑{d}[n+1, 1-#+n]%∑{d}[n+1, #]` -/
-def P16848816282834775010.Spec : Prop :=
-  ∀ n, P16848816282834775010.a n = A106315 (n + 1)
-
-theorem P16848816282834775010.correct : P16848816282834775010.Spec := by
-  intro n
-  simp only [A106315, Nat.add_sub_cancel]
-
-end A106315
-
-/-! ## A106315.P6417438308466386050
-
-`((n+1)*∏{e}[n+1, #+1])%∑{d}[n+1, #]`
--/
-
-namespace A106315.P6417438308466386050
+namespace A106315.P16848816282834775010
 noncomputable section
 
 def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
@@ -1473,18 +1456,37 @@ def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 def f2 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
   n + 1
 
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  (n + 1) * (∏ p ∈ Nat.primeFactors (f1 n), (Nat.factorization (f1 n) p + 1)) % (∑ d ∈ Nat.divisors (f2 n), d)
+def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
+  Int.tmod (∑ d ∈ Nat.divisors (f1 n), (1 - (d : ℤ) + (n : ℤ))) ((∑ d ∈ Nat.divisors (f2 n), d : ℕ) : ℤ)
 
 end
 
-end A106315.P6417438308466386050
+end A106315.P16848816282834775010
+
+namespace A106315
+
+/-- `∑{d}[n+1, 1-#+n]%∑{d}[n+1, #]` -/
+def P16848816282834775010.Spec : Prop :=
+  ∀ n, P16848816282834775010.a n = A106315 (n + 1)
+
+end A106315
+
+/-! ## A106315.P6417438308466386050
+
+`((n+1)*∏{e}[n+1, #+1])%∑{d}[n+1, #]`
+
+The canonical program, it is in `Seq.B000.C016`.
+-/
 
 namespace A106315
 
 /-- `((n+1)*∏{e}[n+1, #+1])%∑{d}[n+1, #]` -/
 def P6417438308466386050.Spec : Prop :=
   ∀ n, (P6417438308466386050.a n : ℤ) = A106315 (n + 1)
+
+theorem P6417438308466386050.correct : P6417438308466386050.Spec := by
+  intro n
+  simp only [A106315, Nat.add_sub_cancel]
 
 end A106315
 
@@ -8045,7 +8047,7 @@ end
 end A106355.P346054488666071874
 
 /-!
-# A106356: Triangle T(n,k) 0<=k
+# A106356: Triangle T(n,k) 0<=k<n : Number of compositions of n with k adjacent equal parts.
 
 The programs for A106356, there is no canonical definition to state claims against.
 -/
@@ -8886,7 +8888,7 @@ end A106364.P5020951472356161636
 /-!
 # A106365: Number of necklaces with n beads of 3 colors, no 2 adjacent beads the same color.
 
-The programs for A106365, the canonical program `A106365.P1754909470558632243` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106365 has offset 1).
+The programs for A106365, the canonical program `A106365.P1754909470558632243` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106365 has offset 1).
 
 The definition of A106365 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8941,7 +8943,7 @@ end A106365
 
 `A306896(A254667(n+1))/A254667(n+1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A106365
@@ -9482,7 +9484,7 @@ end
 end A106371.P13169031213725013623
 
 /-!
-# A106372: Smallest number m containing no zeros in base n representation but at least one zero in all base b representations with 1
+# A106372: Smallest number m containing no zeros in base n representation but at least one zero in all base b representations with 1<b<n.
 
 The programs for A106372, there is no canonical definition to state claims against.
 -/
@@ -11067,7 +11069,7 @@ end A106390
 /-!
 # A106391: A "cosh transform" of binomial(2n,n-1).
 
-The programs for A106391, the canonical program `A106391.P13549094547017150546` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106391 has offset 0).
+The programs for A106391, the canonical program `A106391.P13549094547017150546` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A106391 has offset 0).
 
 The definition of A106391 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 146 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11076,7 +11078,7 @@ The definition of A106391 is `conjectured`: the Lean definition is a formula tha
 
 `A102319(n)-A102318(n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A106391

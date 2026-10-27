@@ -47,30 +47,29 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C003
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -5535,7 +5534,7 @@ def P8524130333228158113.Spec : Prop :=
 end A143648
 
 /-!
-# A143649: Consider numbers m,n such that UnitaryPhi(m)=UnitaryPhi(n)=3*(m*n)^(1/2)/4, m <= n; sequence gives values of n.
+# A143649: Greater of pairs of numbers k <= m such that uphi(k) = uphi(m) = 3*(k*m)^(1/2)/4, where uphi = A047994.
 
 The programs for A143649, there is no canonical definition to state claims against.
 -/
@@ -9723,7 +9722,7 @@ end
 end A143694.P6303544924126480151
 
 /-!
-# A143697: Least square k^2 such that n^2-k^2 = p*q with p and q odd primes and p= 4.
+# A143697: Least square k^2 such that n^2-k^2 = p*q with p and q odd primes and p<q for n>= 4.
 
 The programs for A143697, there is no canonical definition to state claims against.
 -/

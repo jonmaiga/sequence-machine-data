@@ -35,28 +35,25 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5090,7 +5087,7 @@ end A032357
 /-!
 # A032358: Number of iterations of phi(n) needed to reach 2.
 
-The programs for A032358, the canonical program `A032358.P8457793188510615298` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032358 has offset 2).
+The programs for A032358, the canonical program `A032358.P8457793188510615298` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A032358 has offset 2).
 
 The definition of A032358 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A003434, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5122,7 +5119,7 @@ end A032358
 
 `A003434(n+2)-1`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A032358
@@ -5157,12 +5154,6 @@ namespace A032358
 /-- `A049108(n+2)-2` -/
 def P781773057253630745.Spec : Prop :=
   ∀ n, P781773057253630745.a n = A032358 (n + 2)
-
-theorem P781773057253630745.correct : P781773057253630745.Spec := by
-  intro n
-  simp only [A032358, Nat.add_sub_cancel, A032358.P781773057253630745.a, A032358.P8457793188510615298.a, A003434, A003434.P4346144669055339103.a, A049108, A049108.P3374025278854896554.a, A000010, A000010.P4673923239450215316.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A032358
 

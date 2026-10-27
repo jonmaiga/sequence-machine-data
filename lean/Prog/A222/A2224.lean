@@ -43,29 +43,29 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B007.C000
+import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -340,7 +340,7 @@ end A222402.P12449569531808072847
 /-!
 # A222403: Triangle read by rows: left and right edges are A000217, interior entries are filled in using the Pascal triangle rule.
 
-The programs for A222403, the canonical program `A222403.P3020155544965014607` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222403 has offset 0).
+The programs for A222403, the canonical program `A222403.P3020155544965014607` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222403 has offset 0).
 
 The definition of A222403 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -378,7 +378,7 @@ end A222403
 
 `A194121(n)-A028327(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A222403
@@ -1446,7 +1446,7 @@ end A222406.P11333632808724851270
 /-!
 # A222407: Digital roots of tribonacci numbers A000073.
 
-The programs for A222407, the canonical program `A222407.P11853468899913562210` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222407 has offset 0).
+The programs for A222407, the canonical program `A222407.P11853468899913562210` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222407 has offset 0).
 
 The definition of A222407 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1455,7 +1455,7 @@ The definition of A222407 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A010888(A000073(n))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A222407
@@ -2825,7 +2825,7 @@ end A222415.P7800981826625028473
 /-!
 # A222416: If n = Product (p_j^k_j) then a(n) = Sum (p_j^k_j) (a(1) = 1 by convention).
 
-The programs for A222416, the canonical program `A222416.P10129870324317811238` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222416 has offset 1).
+The programs for A222416, the canonical program `A222416.P10129870324317811238` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222416 has offset 1).
 
 The definition of A222416 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2857,7 +2857,7 @@ end A222416
 
 `A008475(C(a(n-2), n)+n+1)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A222416

@@ -40,34 +40,38 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1454,7 +1458,7 @@ end A244213
 /-!
 # A244214: a(n) = binomial(2*c-1, c-1) (mod c^3), where c is the n-th composite.
 
-The programs for A244214, the canonical program `A244214.P1769933716108538170` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244214 has offset 1).
+The programs for A244214, the canonical program `A244214.P1769933716108538170` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244214 has offset 1).
 
 The definition of A244214 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8770 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1463,7 +1467,7 @@ The definition of A244214 is `conjectured`: the Lean definition is a formula tha
 
 `A099907(A002808(n+1))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A244214
@@ -1572,12 +1576,6 @@ namespace A244214
 def P17879013711401970045.Spec : Prop :=
   ∀ n, P17879013711401970045.a n = A244214 (n + 1)
 
-theorem P17879013711401970045.correct : P17879013711401970045.Spec := by
-  intro n
-  simp only [A244214, Nat.add_sub_cancel, A244214.P17879013711401970045.a, A244214.P1769933716108538170.a, A002808, A002808.P8130888830651501259.f1, A002808.P8130888830651501259.f2, A002808.P8130888830651501259.a, A072668, A072668.P5648318357023435289.a, A099907, A099907.P4159503057111996153.a, A082023, A082023.P820682903743471019.a, A016035, A016035.P3669285434667491181.f1, A016035.P3669285434667491181.f2, A016035.P3669285434667491181.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | (qify; simp only [Nat.cast_choose_eq_descPochhammer_div, descPochhammer_succ_right, descPochhammer_zero, Polynomial.eval_mul, Polynomial.eval_sub, Polynomial.eval_X, Polynomial.eval_natCast, Polynomial.eval_ofNat, Polynomial.eval_one, Nat.factorial]; (try push_cast); (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A244214
 
 /-! ## A244214.P118635846502988875
@@ -1606,7 +1604,7 @@ end A244214
 /-!
 # A244215: a(0)=0, and for n>=1, if n is the k-th Catalan number (A000108(k)), a(n) = k, otherwise the difference of the indices of the two largest Catalan numbers whose sum is less than or equal to n: a(n) = A244160(n) - A244160(n-A081290(n)).
 
-The programs for A244215, the canonical program `A244215.P17054345626323859306` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244215 has offset 0).
+The programs for A244215, the canonical program `A244215.P17054345626323859306` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244215 has offset 0).
 
 The definition of A244215 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A081290, A244160, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1615,7 +1613,7 @@ The definition of A244215 is `conditional`: the Lean definition is an OEIS formu
 
 `A244160(n)-A244160(n-A081290(n))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A244215
@@ -2605,7 +2603,7 @@ end A244218
 /-!
 # A244219: The starting points of runs of consecutive terms with the same parity in A014418 (n represented in Greedy Catalan Base).
 
-The programs for A244219, the canonical program `A244219.P3223793585254741010` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244219 has offset 0).
+The programs for A244219, the canonical program `A244219.P3223793585254741010` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244219 has offset 0).
 
 The definition of A244219 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4122 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2722,7 +2720,7 @@ end A244219
 
 `record[A110654(n+1)*A244221(A110654(n))]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A244219
@@ -2838,7 +2836,7 @@ end A244219
 /-!
 # A244220: Binary complement of Greedy Catalan Base reduced modulo 2: a(n) = 1 - (A014418(n) modulo 2).
 
-The programs for A244220, the canonical program `A244220.P6843507714044978338` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244220 has offset 0).
+The programs for A244220, the canonical program `A244220.P6843507714044978338` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244220 has offset 0).
 
 The definition of A244220 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A244221, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2847,7 +2845,7 @@ The definition of A244220 is `conditional`: the Lean definition is an OEIS formu
 
 `1-A244221(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A244220
@@ -3712,7 +3710,7 @@ end A244221
 /-!
 # A244222: Numbers k which have even representation in Greedy Catalan Base, i.e., where A014418(k) ends with zero.
 
-The programs for A244222, the canonical program `A244222.P5228230116540986536` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244222 has offset 0).
+The programs for A244222, the canonical program `A244222.P5228230116540986536` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244222 has offset 0).
 
 The definition of A244222 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5763 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3832,7 +3830,7 @@ end A244222
 
 `record[n*(1-A244221(n))]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A244222
@@ -4726,7 +4724,7 @@ end A244223
 /-!
 # A244224: a(n) = Number of nonnegative integers 0 <= k <= n, which have an even representation in Greedy Catalan Base (A014418).
 
-The programs for A244224, the canonical program `A244224.P3371671429758605766` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244224 has offset 0).
+The programs for A244224, the canonical program `A244224.P3371671429758605766` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A244224 has offset 0).
 
 The definition of A244224 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4820,7 +4818,7 @@ end A244224
 
 `∑[1-A244221(n)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A244224

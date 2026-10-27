@@ -38,7 +38,6 @@ import Seq.B000.C035
 import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
@@ -46,20 +45,20 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,13 +67,11 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1968,7 +1965,7 @@ end A104410.P3929515149495473972
 /-!
 # A104411: Number of prime factors, with multiplicity, of the tetranacci numbers A000078.
 
-The programs for A104411, the canonical program `A104411.P9702985753244307808` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104411 has offset 3).
+The programs for A104411, the canonical program `A104411.P9702985753244307808` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104411 has offset 3).
 
 The definition of A104411 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1977,7 +1974,7 @@ The definition of A104411 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(A000078(n+3))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A104411
@@ -2108,7 +2105,7 @@ end A104411
 /-!
 # A104412: Number of prime factors, with multiplicity, of the pentanacci numbers A001591.
 
-The programs for A104412, the canonical program `A104412.P17284963174005014146` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104412 has offset 4).
+The programs for A104412, the canonical program `A104412.P17284963174005014146` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104412 has offset 4).
 
 The definition of A104412 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2117,7 +2114,7 @@ The definition of A104412 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(A001591(n+4))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A104412
@@ -2251,7 +2248,7 @@ end A104412
 /-!
 # A104413: Number of prime factors, with multiplicity, of the hexanacci numbers A001592.
 
-The programs for A104413, the canonical program `A104413.P15549275769069144348` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104413 has offset 5).
+The programs for A104413, the canonical program `A104413.P15549275769069144348` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104413 has offset 5).
 
 The definition of A104413 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2260,7 +2257,7 @@ The definition of A104413 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(A001592(n+5))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A104413
@@ -2394,7 +2391,7 @@ end A104413
 /-!
 # A104414: Number of prime factors, with multiplicity, of the heptanacci numbers A066178.
 
-The programs for A104414, the canonical program `A104414.P8215569169422538008` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104414 has offset 0).
+The programs for A104414, the canonical program `A104414.P8215569169422538008` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104414 has offset 0).
 
 The definition of A104414 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2403,7 +2400,7 @@ The definition of A104414 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(A066178(n))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A104414
@@ -2531,7 +2528,7 @@ end A104414
 /-!
 # A104415: Number of prime factors, with multiplicity, of the nonzero octanacci numbers A079262.
 
-The programs for A104415, the canonical program `A104415.P4240638088064684004` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104415 has offset 1).
+The programs for A104415, the canonical program `A104415.P4240638088064684004` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104415 has offset 1).
 
 The definition of A104415 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2540,7 +2537,7 @@ The definition of A104415 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(A079262(n+7))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A104415
@@ -5997,7 +5994,7 @@ end A104460.P13804570090552076775
 /-!
 # A104461: Number of instances of nonprimes m in Pythagorean triples x,y,z such that x^2 + y^2 = z^2. Except for 1, the number of instances of composite numbers m in Pythagorean triples.
 
-The programs for A104461, the canonical program `A104461.P3569709191651872692` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104461 has offset 1).
+The programs for A104461, the canonical program `A104461.P3569709191651872692` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104461 has offset 1).
 
 The definition of A104461 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6006,7 +6003,7 @@ The definition of A104461 is `conjectured`: the Lean definition is a formula tha
 
 `A046081(Δ[A051349(n)])`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A104461
@@ -8375,7 +8372,7 @@ end A104476
 /-!
 # A104477: Number of successive squarefree intervals between primes.
 
-The programs for A104477, the canonical program `A104477.P14182491758873467040` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104477 has offset 1).
+The programs for A104477, the canonical program `A104477.P14182491758873467040` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104477 has offset 1).
 
 The definition of A104477 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8384,7 +8381,7 @@ The definition of A104477 is `conjectured`: the Lean definition is a formula tha
 
 `and(1, n+1)*A104481(A008619(n))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A104477
@@ -8932,7 +8929,7 @@ end A104480.P11557819851498486344
 /-!
 # A104481: Bisection of A104477.
 
-The programs for A104481, the canonical program `A104481.P11972793429433204995` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104481 has offset 1).
+The programs for A104481, the canonical program `A104481.P11972793429433204995` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104481 has offset 1).
 
 The definition of A104481 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8964,7 +8961,7 @@ end A104481
 
 `A180304(n+1)/(n+1)-1`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A104481
@@ -11652,7 +11649,7 @@ end A104495.P17507200380451593720
 /-!
 # A104496: Expansion of 2*(2*x+1)/((x+1)*(sqrt(4*x+1)+1)).
 
-The programs for A104496, the canonical program `A104496.P18327460265736652066` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104496 has offset 0).
+The programs for A104496, the canonical program `A104496.P18327460265736652066` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104496 has offset 0).
 
 The definition of A104496 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 173 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11661,7 +11658,7 @@ The definition of A104496 is `conjectured`: the Lean definition is a formula tha
 
 `A099324(n)+A168491(n)-A033999(n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A104496

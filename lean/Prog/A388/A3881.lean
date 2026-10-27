@@ -16,9 +16,9 @@ import Seq.B000.C029
 import Seq.B000.C033
 import Seq.B000.C040
 import Seq.B001.C002
-import Seq.B002.C004
+import Seq.B002.C005
+import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003

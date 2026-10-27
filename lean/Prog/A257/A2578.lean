@@ -42,33 +42,32 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
-import Seq.B004.C000
+import Seq.B003.C004
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1514,7 +1513,7 @@ end A257806
 /-!
 # A257807: a(n) = number of odd numbers in range 0 .. n of A233271, the infinite trunk of inverted binary beanstalk.
 
-The programs for A257807, the canonical program `A257807.P15241754971067141480` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257807 has offset 0).
+The programs for A257807, the canonical program `A257807.P15241754971067141480` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257807 has offset 0).
 
 The definition of A257807 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1523,7 +1522,7 @@ The definition of A257807 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A257800(n)+a(n-1)` with `a(0)=0, a(1)=1`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A257807
@@ -1765,7 +1764,7 @@ end A257807
 /-!
 # A257808: a(n) = number of nonzero even numbers in range 0 .. n of A233271, the infinite trunk of inverted binary beanstalk.
 
-The programs for A257808, the canonical program `A257808.P5584975749564527316` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257808 has offset 0).
+The programs for A257808, the canonical program `A257808.P5584975749564527316` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257808 has offset 0).
 
 The definition of A257808 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1774,7 +1773,7 @@ The definition of A257808 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1-A257800(n)+a(n-1)` with `a(0)=0, a(1)=0, a(2)=1`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A257808
@@ -2665,7 +2664,7 @@ end A257831.P10033647652100628447
 /-!
 # A257832: Squarefree numbers that are k*A005117(k) for some k.
 
-The programs for A257832, the canonical program `A257832.P15250859016171194730` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257832 has offset 1).
+The programs for A257832, the canonical program `A257832.P15250859016171194730` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257832 has offset 1).
 
 The definition of A257832 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 106 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2674,7 +2673,7 @@ The definition of A257832 is `conjectured`: the Lean definition is a formula tha
 
 `∩[(n+1)*A005117(n+1), A005117(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A257832
@@ -8127,7 +8126,7 @@ end A257887.P9895442108675842290
 /-!
 # A257888: Number of nonintersecting (or self-avoiding) rook paths of length 2n+2 joining opposite corners of an n X n grid.
 
-The programs for A257888, the canonical program `A257888.P17485197680427452743` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257888 has offset 3).
+The programs for A257888, the canonical program `A257888.P17485197680427452743` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A257888 has offset 3).
 
 The definition of A257888 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8136,7 +8135,7 @@ The definition of A257888 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `4*A002055(n+5)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A257888

@@ -1,5 +1,4 @@
 import SequenceMachineLib
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C004
@@ -36,18 +35,16 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -59,8 +56,7 @@ import Seq.B005.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -87,10 +83,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
 
 /-!
 # A297700: Number of 7Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0, 2 or 4 neighboring 1s.
@@ -421,7 +413,7 @@ end A297707.P10951348485818650037
 /-!
 # A297708: Number of permutations p of [n] such that p(p(i)) = i for all i or p(n+1-p(i)) = n+1-i for all i.
 
-The programs for A297708, the canonical program `A297708.P854593747947966794` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A297708 has offset 0).
+The programs for A297708, the canonical program `A297708.P854593747947966794` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A297708 has offset 0).
 
 The definition of A297708 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A135401, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -430,7 +422,7 @@ The definition of A297708 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A000085(n)-A135401(n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A297708
@@ -8480,12 +8472,6 @@ namespace A297792
 /-- `2*A001157(n+1)-A297841(n+1)` -/
 def P17098240409634780521.Spec : Prop :=
   ∀ n, P17098240409634780521.a n = A297792 (n + 1)
-
-theorem P17098240409634780521.correct : P17098240409634780521.Spec := by
-  intro n
-  simp only [A297792, Nat.add_sub_cancel, A297792.P17098240409634780521.a, A297792.P16865252261443119111.f1, A297792.P16865252261443119111.a, A001157, A001157.P6892814788348726787.a, A297841, A297841.P6793829861847375659.a, A035316, A035316.P17845884678165723091.f1, A035316.P17845884678165723091.a, A037213, A037213.P7544062464691828526.a, A000196, A000196.P15434771586934192083.a, A010052, A010052.P917763524850441347.f1, A010052.P917763524850441347.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A297792
 

@@ -45,15 +45,15 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -61,6 +61,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -71,9 +72,6 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1212,12 +1210,6 @@ namespace A027423
 /-- `A337257(n)+A336940(n)` -/
 def P5882748127241253286.Spec : Prop :=
   ∀ n, P5882748127241253286.a n = A027423 n
-
-theorem P5882748127241253286.correct : P5882748127241253286.Spec := by
-  intro n
-  simp only [A027423, Nat.add_sub_cancel, A027423.P5882748127241253286.a, A027423.P14066705804803784298.a, A000005, A000005.P16091521709108585461.a, A000142, A000142.P3272619076580183195.a, A336940, A336940.P4983532060712905772.a, A337257, A337257.P14876870470645707118.a, A011371, A011371.P8892659874704383252.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A027423
 
@@ -5293,7 +5285,7 @@ end A027448.P5274832811456149667
 /-!
 # A027449: Second diagonal of A027446.
 
-The programs for A027449, the canonical program `A027449.P7596124845904246112` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027449 has offset 2).
+The programs for A027449, the canonical program `A027449.P7596124845904246112` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027449 has offset 2).
 
 The definition of A027449 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 135 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5397,7 +5389,7 @@ end A027449
 
 `A002944(n+2)+A002944(n+1)*A014963(n+2)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A027449
@@ -6607,7 +6599,7 @@ end A027456.P1430431364823309521
 /-!
 # A027457: a(n) = (H(n) - 1)*lcm{1,...,n}, where H(n) is the n-th harmonic number.
 
-The programs for A027457, the canonical program `A027457.P5210784852604014020` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027457 has offset 1).
+The programs for A027457, the canonical program `A027457.P5210784852604014020` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027457 has offset 1).
 
 The definition of A027457 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 232 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6616,7 +6608,7 @@ The definition of A027457 is `conjectured`: the Lean definition is a formula tha
 
 `A025529(n+1)-Δ[A173185(n)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A027457
@@ -6654,12 +6646,6 @@ namespace A027457
 /-- `A025529(n+1)-Δ[A236856(n)]` -/
 def P13752284360463909101.Spec : Prop :=
   ∀ n, P13752284360463909101.a n = A027457 (n + 1)
-
-theorem P13752284360463909101.correct : P13752284360463909101.Spec := by
-  intro n
-  simp only [A027457, Nat.add_sub_cancel, A027457.P13752284360463909101.f1, A027457.P13752284360463909101.a, A027457.P5210784852604014020.f1, A027457.P5210784852604014020.a, A025529, A025529.P10152674282350827364.f1, A025529.P10152674282350827364.f2, A025529.P10152674282350827364.a, A173185, A173185.P11378797572863628532.f1, A173185.P11378797572863628532.a, A236856, A236856.P12242245037929288109.a, A014963, A014963.P5975177236000282614.a, A166140, A166140.P17649384582351937107.f1, A166140.P17649384582351937107.a, A166142, A166142.P10122674445425206392.f1, A166142.P10122674445425206392.a, A080304, A080304.P9910366703239988167.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A027457
 

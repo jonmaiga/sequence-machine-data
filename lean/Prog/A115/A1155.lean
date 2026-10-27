@@ -35,36 +35,37 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C004
+import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -634,7 +635,7 @@ end A115511.P17269352053514241317
 /-!
 # A115512: Number triangle (1,x)+(x,x^3) expressed in terms of Riordan arrays.
 
-The programs for A115512, the canonical program `A115512.P17971829937860406712` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115512 has offset 0).
+The programs for A115512, the canonical program `A115512.P17971829937860406712` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115512 has offset 0).
 
 The definition of A115512 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9859 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -712,7 +713,7 @@ end A115512
 
 `A117198(A183572(n+1))`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A115512
@@ -4853,7 +4854,7 @@ end A115565
 /-!
 # A115566: Numbers k such that 2^k, 2^(k+1) and 2^(k+2) have the same number of digits.
 
-The programs for A115566, the canonical program `A115566.P8073929608010892039` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115566 has offset 1).
+The programs for A115566, the canonical program `A115566.P8073929608010892039` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115566 has offset 1).
 
 The definition of A115566 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5693 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4862,7 +4863,7 @@ The definition of A115566 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A066344(n+1)-1, A066344(n+1)]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A115566
@@ -5651,7 +5652,7 @@ def P2210555486568276218.Spec : Prop :=
 end A115567
 
 /-!
-# A115568: Maximal Fibonacci exponent in prime factorization of n, or 1 if there is no Fibonacci exponent.
+# A115568: Maximum Fibonacci exponent in prime factorization of n, or 1 if there is no Fibonacci exponent.
 
 The programs for A115568, the canonical program `A115568.P5208286302951981102` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115568 has offset 1).
 
@@ -7263,7 +7264,7 @@ end A115584.P8713611112612634124
 /-!
 # A115585: Semiprimes with a semiprime sum of factors.
 
-The programs for A115585, the canonical program `A115585.P17184382420706630801` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115585 has offset 1).
+The programs for A115585, the canonical program `A115585.P17184382420706630801` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A115585 has offset 1).
 
 The definition of A115585 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7432,7 +7433,7 @@ end A115585
 
 `∩[A001358(n+1), A085711(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A115585

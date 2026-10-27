@@ -45,10 +45,11 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -56,11 +57,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,13 +71,12 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1691,7 +1693,7 @@ end A247112
 /-!
 # A247114: Primes sandwiched between 4-almost primes (A014613).
 
-The programs for A247114, the canonical program `A247114.P1905435717442076473` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247114 has offset 1).
+The programs for A247114, the canonical program `A247114.P1905435717442076473` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247114 has offset 1).
 
 The definition of A247114 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1638 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1700,7 +1702,7 @@ The definition of A247114 is `conjectured`: the Lean definition is a formula tha
 
 `p?[2*A259504(n+1)+1]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A247114
@@ -3372,7 +3374,7 @@ end A247128
 /-!
 # A247129: Semiprimes n such that phi(n) is a square.
 
-The programs for A247129, the canonical program `A247129.P9398303988228665836` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247129 has offset 1).
+The programs for A247129, the canonical program `A247129.P9398303988228665836` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247129 has offset 1).
 
 The definition of A247129 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1565 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3381,7 +3383,7 @@ The definition of A247129 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A262406(n+1), A324745(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A247129
@@ -5235,7 +5237,7 @@ end A247142.P2471449777571893454
 /-!
 # A247146: As a binary numeral, the bit 2^(m-1) of a(n) is 1 iff m is a proper divisor of n.
 
-The programs for A247146, the canonical program `A247146.P7652991668944919018` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247146 has offset 1).
+The programs for A247146, the canonical program `A247146.P7652991668944919018` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247146 has offset 1).
 
 The definition of A247146 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A034729, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5244,7 +5246,7 @@ The definition of A247146 is `conditional`: the Lean definition is an OEIS formu
 
 `A034729(n+1)-2^n`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A247146

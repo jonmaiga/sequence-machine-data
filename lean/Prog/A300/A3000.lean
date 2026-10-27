@@ -3,7 +3,7 @@ import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
 import Seq.B000.C004
-import Seq.B000.C005
+import Seq.B000.C006
 import Seq.B000.C007
 import Seq.B000.C008
 import Seq.B000.C009
@@ -32,29 +32,29 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
+import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B005.C000
+import Seq.B005.C001
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2333,7 +2333,7 @@ end A300060.P4077957232816789137
 /-!
 # A300061: Heinz numbers of integer partitions of even numbers.
 
-The programs for A300061, the canonical program `A300061.P17707229997706710883` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300061 has offset 1).
+The programs for A300061, the canonical program `A300061.P17707229997706710883` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300061 has offset 1).
 
 The definition of A300061 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5011 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2398,7 +2398,7 @@ end A300061
 
 `eq[0, A056239(n+1)%2]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A300061
@@ -2637,7 +2637,7 @@ end A300061
 /-!
 # A300063: Heinz numbers of integer partitions of odd numbers.
 
-The programs for A300063, the canonical program `A300063.P18376216019794990187` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300063 has offset 1).
+The programs for A300063, the canonical program `A300063.P18376216019794990187` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300063 has offset 1).
 
 The definition of A300063 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9993 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2704,7 +2704,7 @@ end A300063
 
 `eq[1, A257991(n+1)%2]+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A300063
@@ -3408,7 +3408,7 @@ end A300067
 /-!
 # A300068: A sequence based on the period 6 sequence A300067.
 
-The programs for A300068, the canonical program `A300068.P14212122279735515571` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300068 has offset 0).
+The programs for A300068, the canonical program `A300068.P14212122279735515571` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300068 has offset 0).
 
 The definition of A300068 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A300067, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3417,7 +3417,7 @@ The definition of A300068 is `conditional`: the Lean definition is an OEIS formu
 
 `A300067(n)+3*floor(n/6)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A300068
@@ -4020,7 +4020,7 @@ end A300075
 /-!
 # A300076: A sequence based on the period 6 sequence A300075.
 
-The programs for A300076, the canonical program `A300076.P1900940538167367687` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300076 has offset 0).
+The programs for A300076, the canonical program `A300076.P1900940538167367687` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A300076 has offset 0).
 
 The definition of A300076 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A300075, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4029,7 +4029,7 @@ The definition of A300076 is `conditional`: the Lean definition is an OEIS formu
 
 `A300075(n)+3*floor(n/6)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A300076

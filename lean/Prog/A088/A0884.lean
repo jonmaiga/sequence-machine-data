@@ -41,6 +41,7 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -51,6 +52,8 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -67,8 +70,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1938,7 +1939,7 @@ end A088419.P11729512597932064028
 /-!
 # A088420: Number of primes in arithmetic progression starting with 3 and with d = 2n.
 
-The programs for A088420, the canonical program `A088420.P1927350733136831084` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088420 has offset 1).
+The programs for A088420, the canonical program `A088420.P1927350733136831084` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088420 has offset 1).
 
 The definition of A088420 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1947,7 +1948,7 @@ The definition of A088420 is `conjectured`: the Lean definition is a formula tha
 
 `or(A101264(n+2)+1, A101264(2*n+3))`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A088420
@@ -3253,7 +3254,7 @@ end
 end A088432.P8804924733501225803
 
 /-!
-# A088433: Number of ways to write n as n = u*v*w with 1<=u<=v
+# A088433: Number of ways to write n as n = u*v*w with 1<=u<=v<w.
 
 The programs for A088433, there is no canonical definition to state claims against.
 -/
@@ -6855,7 +6856,7 @@ end A088459
 /-!
 # A088460: Lower twin primes with lower twin prime index.
 
-The programs for A088460, the canonical program `A088460.P1171392433221047609` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088460 has offset 1).
+The programs for A088460, the canonical program `A088460.P1171392433221047609` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088460 has offset 1).
 
 The definition of A088460 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001359, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6864,7 +6865,7 @@ The definition of A088460 is `conditional`: the Lean definition is an OEIS formu
 
 `A001359(A001359(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A088460
@@ -7837,7 +7838,7 @@ end A088462
 /-!
 # A088463: Upper twin primes of upper twin prime index.
 
-The programs for A088463, the canonical program `A088463.P14000469329680495360` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088463 has offset 1).
+The programs for A088463, the canonical program `A088463.P14000469329680495360` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A088463 has offset 1).
 
 The definition of A088463 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006512, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7846,7 +7847,7 @@ The definition of A088463 is `conditional`: the Lean definition is an OEIS formu
 
 `A006512(A006512(n+1))`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A088463

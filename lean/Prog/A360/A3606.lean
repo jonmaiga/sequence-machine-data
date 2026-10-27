@@ -41,19 +41,21 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -66,9 +68,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1407,7 +1406,7 @@ end A360615.P8527651235405182557
 /-!
 # A360616: Half the number of prime factors of n (counted with multiplicity, A001222), rounded down.
 
-The programs for A360616, the canonical program `A360616.P5671857912814472833` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360616 has offset 1).
+The programs for A360616, the canonical program `A360616.P5671857912814472833` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360616 has offset 1).
 
 The definition of A360616 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1416,7 +1415,7 @@ The definition of A360616 is `conditional`: the Lean definition is an OEIS formu
 
 `floor(A001222(n+1)/2)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A360616
@@ -1889,7 +1888,7 @@ end A360616
 /-!
 # A360617: Half the number of prime factors of n (counted with multiplicity, A001222), rounded up.
 
-The programs for A360617, the canonical program `A360617.P3890021096937118540` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360617 has offset 1).
+The programs for A360617, the canonical program `A360617.P3890021096937118540` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360617 has offset 1).
 
 The definition of A360617 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1898,7 +1897,7 @@ The definition of A360617 is `conditional`: the Lean definition is an OEIS formu
 
 `ceil(A001222(n+1)/2)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A360617
@@ -4787,7 +4786,7 @@ end A360657.P10194305361317807969
 /-!
 # A360658: a(1) = 1; a(n) = -Sum_{k=2..n} k^3 * a(floor(n/k)).
 
-The programs for A360658, the canonical program `A360658.P8856125276444949721` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360658 has offset 1).
+The programs for A360658, the canonical program `A360658.P8856125276444949721` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A360658 has offset 1).
 
 The definition of A360658 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4796,7 +4795,7 @@ The definition of A360658 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A359531(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A360658

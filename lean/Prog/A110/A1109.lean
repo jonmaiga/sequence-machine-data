@@ -41,14 +41,13 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
@@ -66,9 +65,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -222,7 +218,7 @@ end A110901.P3456622301754081844
 /-!
 # A110903: Difference between the factorial of n and the double factorial of n.
 
-The programs for A110903, the canonical program `A110903.P17200263053275712768` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110903 has offset 0).
+The programs for A110903, the canonical program `A110903.P17200263053275712768` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110903 has offset 0).
 
 The definition of A110903 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -231,7 +227,7 @@ The definition of A110903 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000142(n)-A006882(n)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A110903
@@ -2011,7 +2007,7 @@ end A110922.P8666238105282986420
 /-!
 # A110923: Final two digits of prime(n), with leading zero omitted.
 
-The programs for A110923, the canonical program `A110923.P1372603751271317505` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110923 has offset 1).
+The programs for A110923, the canonical program `A110923.P1372603751271317505` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110923 has offset 1).
 
 The definition of A110923 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2020,7 +2016,7 @@ The definition of A110923 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000040(n+1)%100`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A110923
@@ -2426,7 +2422,7 @@ end
 end A110927.P11452902443732783112
 
 /-!
-# A110929: The common value of sigma_2 for square-amicable numbers, sigma_2(m)=sigma_2(n), m
+# A110929: The common value of sigma_2 for square-amicable numbers, sigma_2(m)=sigma_2(n), m<n.
 
 The programs for A110929, there is no canonical definition to state claims against.
 -/
@@ -3236,7 +3232,7 @@ end
 end A110951.P14334590342035043047
 
 /-!
-# A110952: Triangle read by rows: T(n,k) = number of permutations of [n] where the first increasing run has length k and the last increasing run has length n-k-1, 0
+# A110952: Triangle read by rows: T(n,k) = number of permutations of [n] where the first increasing run has length k and the last increasing run has length n-k-1, 0<k<n-1.
 
 The programs for A110952, the canonical program `A110952.P12434457606571142706` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110952 has offset 3).
 
@@ -4154,7 +4150,7 @@ end A110957.P4767775311011263699
 /-!
 # A110958: a(n) = floor(e^(n+1) - e^n) - Fibonacci(n).
 
-The programs for A110958, the canonical program `A110958.P1247205546048520944` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110958 has offset 0).
+The programs for A110958, the canonical program `A110958.P1247205546048520944` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110958 has offset 0).
 
 The definition of A110958 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4163,7 +4159,7 @@ The definition of A110958 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A248873(n)-A000045(n)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A110958
@@ -5290,7 +5286,7 @@ end A110968.P6446453702236468905
 /-!
 # A110969: Length of the runs of ones in A014963.
 
-The programs for A110969, the canonical program `A110969.P16632424768012697550` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110969 has offset 1).
+The programs for A110969, the canonical program `A110969.P16632424768012697550` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110969 has offset 1).
 
 The definition of A110969 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9689 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5351,7 +5347,7 @@ end A110969
 
 `Δ[record[A008475(n+1)-A025528(n+1)]]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A110969

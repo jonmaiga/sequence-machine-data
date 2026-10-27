@@ -38,30 +38,32 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C005
+import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
+import Seq.B004.C002
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -93,7 +95,7 @@ set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
 
 /-!
-# A212000: Triangle read by rows: T(n,k) = total number of parts in the last n-k+1 shells of n.
+# A212000: Triangle read by rows: T(n,k) is the total number of parts in the last n-k+1 section of the modular table of partitions of n.
 
 The programs for A212000, there is no canonical definition to state claims against.
 -/
@@ -259,7 +261,7 @@ end
 end A212000.P16119191691439727922
 
 /-!
-# A212001: Triangle read by rows: T(n,k) = sum of all parts of the last n-k+1 shells of n.
+# A212001: Triangle read by rows: T(n,k) is the sum of all parts of the last n-k+1 sections of the modular table of partitions of n.
 
 The programs for A212001, there is no canonical definition to state claims against.
 -/
@@ -543,7 +545,7 @@ end
 end A212009.P450431378985404713
 
 /-!
-# A212010: Triangle read by rows: T(n,k) = total number of parts in the last k shells of n.
+# A212010: Triangle read by rows: T(n,k) is the total number of parts in the last k sections of the modular table of partitions of n.
 
 The programs for A212010, there is no canonical definition to state claims against.
 -/
@@ -685,7 +687,7 @@ end
 end A212010.P3344635048158768561
 
 /-!
-# A212011: Triangle read by rows: T(n,k) = sum of all parts of the last k shells of n.
+# A212011: Triangle read by rows: T(n,k) is the sum of all parts of the last k sections of the modular table of partitions of n.
 
 The programs for A212011, there is no canonical definition to state claims against.
 -/
@@ -856,7 +858,7 @@ end A212011.P8882161030601559766
 /-!
 # A212012: Triangle read by rows in which row n lists the number of states of the subshells of the n-th shell of the nuclear shell model ordered by energy level in increasing order.
 
-The programs for A212012, the canonical program `A212012.P10131555541362374622` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212012 has offset 1).
+The programs for A212012, the canonical program `A212012.P10131555541362374622` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212012 has offset 1).
 
 The definition of A212012 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -865,7 +867,7 @@ The definition of A212012 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A004736(n+1)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A212012
@@ -1964,7 +1966,7 @@ end A212013
 /-!
 # A212014: Total number of states of the first n subshells of the nuclear shell model in which the subshells are ordered by energy level in increasing order.
 
-The programs for A212014, the canonical program `A212014.P14698386297870251282` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212014 has offset 1).
+The programs for A212014, the canonical program `A212014.P14698386297870251282` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212014 has offset 1).
 
 The definition of A212014 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A212013, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1973,7 +1975,7 @@ The definition of A212014 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A212013(n+1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A212014
@@ -6661,7 +6663,7 @@ end
 end A212056.P14215122550344327654
 
 /-!
-# A212057: Number of (w,x,y,z) with all terms in {1,...,n} and w
+# A212057: Number of (w,x,y,z) with all terms in {1,...,n} and w<x*y*z.
 
 The programs for A212057, the canonical program `A212057.P1990269898064689927` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212057 has offset 0).
 
@@ -7895,7 +7897,7 @@ end A212059
 /-!
 # A212060: Number of (w,x,y,z) with all terms in {1,...,n} and w=x*y*z-2.
 
-The programs for A212060, the canonical program `A212060.P8765471735473838760` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212060 has offset 0).
+The programs for A212060, the canonical program `A212060.P8765471735473838760` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212060 has offset 0).
 
 The definition of A212060 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7904,7 +7906,7 @@ The definition of A212060 is `conjectured`: the Lean definition is a formula tha
 
 `A007425(n+2)+a(n-1)` with `a(0)=0, a(1)=0, a(2)=3`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A212060
@@ -8114,7 +8116,7 @@ end
 end A212062.P16225053393472336055
 
 /-!
-# A212063: Number of (w,x,y,z) with all terms in {1,...,n} and w^2
+# A212063: Number of (w,x,y,z) with all terms in {1,...,n} and w^2<x*y*z.
 
 The programs for A212063, there is no canonical definition to state claims against.
 -/
@@ -10823,7 +10825,7 @@ end
 end A212087.P12341438453653814759
 
 /-!
-# A212088: Number of (w,x,y,z) with all terms in {1,...,n} and w
+# A212088: Number of (w,x,y,z) with all terms in {1,...,n} and w<average{x,y,z}.
 
 The programs for A212088, the canonical program `A212088.P11123097717644683192` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212088 has offset 0).
 
@@ -11130,7 +11132,7 @@ def P7293171231457917023.Spec : Prop :=
 end A212089
 
 /-!
-# A212090: Number of (w,x,y,z) with all terms in {1,...,n} and w
+# A212090: Number of (w,x,y,z) with all terms in {1,...,n} and w<x+y+z.
 
 The programs for A212090, the canonical program `A212090.P14385314295040635438` is in `Seq.B000.C029`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A212090 has offset 0).
 
@@ -11537,7 +11539,7 @@ end
 end A212091.P8277278219153973126
 
 /-!
-# A212092: Number of (w,x,y,z) with all terms in {1,...,n} and w^2
+# A212092: Number of (w,x,y,z) with all terms in {1,...,n} and w^2<x^2+y^2+z^2.
 
 The programs for A212092, there is no canonical definition to state claims against.
 -/
@@ -12947,7 +12949,7 @@ end
 end A212096.P6850860900388640658
 
 /-!
-# A212097: Number of (w,x,y,z) with all terms in {1,...,n} and w^3
+# A212097: Number of (w,x,y,z) with all terms in {1,...,n} and w^3<x^3+y^3+z^3.
 
 The programs for A212097, there is no canonical definition to state claims against.
 -/

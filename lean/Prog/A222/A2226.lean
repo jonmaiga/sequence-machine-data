@@ -32,29 +32,31 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2676,7 +2678,7 @@ end A222636.P3878654872325725927
 /-!
 # A222637: Squarefree part of the total number of arrangements of a set with n elements.
 
-The programs for A222637, the canonical program `A222637.P13679431788888405413` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222637 has offset 0).
+The programs for A222637, the canonical program `A222637.P13679431788888405413` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222637 has offset 0).
 
 The definition of A222637 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2685,7 +2687,7 @@ The definition of A222637 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A007913(A000522(n))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A222637
@@ -3278,7 +3280,7 @@ end A222641.P1268431152297828951
 /-!
 # A222642: Integer nearest to (Li(n) - Li(sqrt(n))), where Li(x) = integral(0..x, dt/log(t)).
 
-The programs for A222642, the canonical program `A222642.P4256283084777248805` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222642 has offset 2).
+The programs for A222642, the canonical program `A222642.P4256283084777248805` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222642 has offset 2).
 
 The definition of A222642 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3287,7 +3289,7 @@ The definition of A222642 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A103128(∑[A319951(n+2)])/2)+1`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A222642

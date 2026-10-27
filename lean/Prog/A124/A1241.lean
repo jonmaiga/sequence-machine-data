@@ -48,6 +48,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -55,24 +56,26 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -296,7 +299,7 @@ end
 end A124102.P2157067867978927438
 
 /-!
-# A124103: C(2*n,n)*stirling2(2*n,n).
+# A124103: a(n) = C(2*n,n) * Stirling2(2*n,n).
 
 The programs for A124103, there is no canonical definition to state claims against.
 -/
@@ -3902,7 +3905,7 @@ end
 end A124135.P5374705366702459646
 
 /-!
-# A124136: The list of primes p such that the number of primes in the open interval (p,2*p) is larger than the number of primes in the open interval (q,2*q) for all q
+# A124136: The list of primes p such that the number of primes in the open interval (p,2*p) is larger than the number of primes in the open interval (q,2*q) for all q<p.
 
 The programs for A124136, there is no canonical definition to state claims against.
 -/
@@ -4154,18 +4157,18 @@ end
 end A124137.P4917850819648266675
 
 /-!
-# A124138: a(n)= A000265(3*(a(n-1)+a(n-2))/2 +1) starting at a(1)=1, a(2)=3.
+# A124138: a(n) = A000265(3*(a(n-1)+a(n-2))/2 +1) starting at a(1)=1, a(2)=3.
 
-The programs for A124138, the canonical program `A124138.P11165280805295753658` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124138 has offset 1).
+The programs for A124138, the canonical program `A124138.P11165280805295753658` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124138 has offset 1).
 
-The definition of A124138 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000265, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A124138 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A124138.P11165280805295753658
 
 `A000265(3*(a(n-1)+a(n-2))/2+1)` with `a(0)=1, a(1)=3`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A124138
@@ -4206,16 +4209,16 @@ end A124138
 /-!
 # A124139: a(n) = A000265(3*(a(n-1) + a(n-2))/2 + 1) starting at a(1)=1, a(2)=11.
 
-The programs for A124139, the canonical program `A124139.P14164421175524936398` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124139 has offset 1).
+The programs for A124139, the canonical program `A124139.P14164421175524936398` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124139 has offset 1).
 
-The definition of A124139 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000265, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
+The definition of A124139 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
 
 /-! ## A124139.P14164421175524936398
 
 `A000265(3*(a(n-1)+a(n-2))/2+1)` with `a(0)=1, a(1)=11`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A124139
@@ -8389,7 +8392,7 @@ end A124191
 /-!
 # A124192: Numbers k for which 8*k + 3 and 8*k + 5 are twin primes.
 
-The programs for A124192, the canonical program `A124192.P10155367062783563682` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124192 has offset 1).
+The programs for A124192, the canonical program `A124192.P10155367062783563682` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124192 has offset 1).
 
 The definition of A124192 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1147 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8398,7 +8401,7 @@ The definition of A124192 is `conjectured`: the Lean definition is a formula tha
 
 `floor(p?[A186301(n+1)]/8)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A124192
@@ -8993,7 +8996,7 @@ def P8671590363911847719.Spec : Prop :=
 end A124195
 
 /-!
-# A124197: Number of subsets S of {1,2,3,...,n}, including the empty subset, such that if x and y are in S with x
+# A124197: Number of subsets S of {1,2,3,...,n}, including the empty subset, such that if x and y are in S with x<y and x+y even, then (x+y)/2 is also in S.
 
 The programs for A124197, there is no canonical definition to state claims against.
 -/

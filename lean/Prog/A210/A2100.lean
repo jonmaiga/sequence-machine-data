@@ -42,26 +42,26 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B009.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -94,7 +94,7 @@ set_option linter.unreachableTactic false
 /-!
 # A210000: Number of unimodular 2 X 2 matrices having all terms in {0,1,...,n}.
 
-The programs for A210000, the canonical program `A210000.P5435968868787770991` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210000 has offset 0).
+The programs for A210000, the canonical program `A210000.P5435968868787770991` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210000 has offset 0).
 
 The definition of A210000 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A171503, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -103,7 +103,7 @@ The definition of A210000 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A171503(n)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A210000
@@ -2471,7 +2471,7 @@ end A210031
 /-!
 # A210032: a(n)=n for n=1,2,3 and 4; a(n)=5 for n >= 5.
 
-The programs for A210032, the canonical program `A210032.P11148988425945671977` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210032 has offset 1).
+The programs for A210032, the canonical program `A210032.P11148988425945671977` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210032 has offset 1).
 
 The definition of A210032 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A158411, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2480,7 +2480,7 @@ The definition of A210032 is `conditional`: the Lean definition is an OEIS formu
 
 `1+A158411(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A210032
@@ -2823,7 +2823,7 @@ end A210036.P2490325689228261510
 /-!
 # A210038: Triangle of coefficients of polynomials v(n,x) jointly generated with A210037; see the Formula section.
 
-The programs for A210038, the canonical program `A210038.P6945943439187959457` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210038 has offset 1).
+The programs for A210038, the canonical program `A210038.P6945943439187959457` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210038 has offset 1).
 
 The definition of A210038 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2832,7 +2832,7 @@ The definition of A210038 is `conjectured`: the Lean definition is a formula tha
 
 `2*A106195(n)-A055587(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A210038
@@ -3279,7 +3279,7 @@ end A210038
 /-!
 # A210039: Array of coefficients of polynomials u(n,x) jointly generated with A210040; see the Formula section.
 
-The programs for A210039, the canonical program `A210039.P13325331133632388062` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210039 has offset 1).
+The programs for A210039, the canonical program `A210039.P13325331133632388062` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210039 has offset 1).
 
 The definition of A210039 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9801 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3311,7 +3311,7 @@ end A210039
 
 `A034839(A049068(n+1))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A210039
@@ -3819,7 +3819,7 @@ end A210039
 /-!
 # A210040: Array of coefficients of polynomials v(n,x) jointly generated with A210039; see the Formula section.
 
-The programs for A210040, the canonical program `A210040.P8255258809295094256` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210040 has offset 1).
+The programs for A210040, the canonical program `A210040.P8255258809295094256` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210040 has offset 1).
 
 The definition of A210040 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3828,7 +3828,7 @@ The definition of A210040 is `conjectured`: the Lean definition is a formula tha
 
 `A034867(Δ[A055087(n)]+n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A210040
@@ -4910,7 +4910,7 @@ end A210053.P12902006129120735113
 /-!
 # A210054: Number of (n+1) X 2 0..3 arrays with every 2 X 2 subblock having one, two or four distinct values, and new values 0..3 introduced in row major order.
 
-The programs for A210054, the canonical program `A210054.P10732365589404489648` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210054 has offset 1).
+The programs for A210054, the canonical program `A210054.P10732365589404489648` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210054 has offset 1).
 
 The definition of A210054 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 114 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4919,7 +4919,7 @@ The definition of A210054 is `conjectured`: the Lean definition is a formula tha
 
 `A094286(2*(n+2))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A210054
@@ -6169,7 +6169,7 @@ end A210063.P7847473798959354397
 /-!
 # A210064: Total number of 231 patterns in the set of permutations avoiding 123.
 
-The programs for A210064, the canonical program `A210064.P5749393447975860566` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210064 has offset 1).
+The programs for A210064, the canonical program `A210064.P5749393447975860566` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A210064 has offset 1).
 
 The definition of A210064 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 163 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6178,7 +6178,7 @@ The definition of A210064 is `conjectured`: the Lean definition is a formula tha
 
 `A038806(n)-A018218(n)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A210064

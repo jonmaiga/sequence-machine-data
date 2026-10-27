@@ -33,28 +33,28 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C001
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -242,7 +242,7 @@ end A387403.P1168173729822473423
 /-!
 # A387404: Numbers of the form 12*k + 1 that satisfy Euler's condition for odd perfect numbers (A228058).
 
-The programs for A387404, the canonical program `A387404.P10009179576430722639` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387404 has offset 1).
+The programs for A387404, the canonical program `A387404.P10009179576430722639` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387404 has offset 1).
 
 The definition of A387404 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 287 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -367,7 +367,7 @@ end A387404
 
 `∩[A091300(n+1), A191218(n+1)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A387404
@@ -2905,7 +2905,7 @@ end A387462.P3156164740716597633
 /-!
 # A387463: Total number of 3's in the decimal digits of the divisors of n.
 
-The programs for A387463, the canonical program `A387463.P7935693683231435009` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387463 has offset 1).
+The programs for A387463, the canonical program `A387463.P7935693683231435009` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387463 has offset 1).
 
 The definition of A387463 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2914,7 +2914,7 @@ The definition of A387463 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A316864(#)]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A387463
@@ -3106,7 +3106,7 @@ end A387469
 /-!
 # A387470: a(n) = n*(Omega(n) - 1), where Omega = A001222.
 
-The programs for A387470, the canonical program `A387470.P15457309630766544785` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387470 has offset 1).
+The programs for A387470, the canonical program `A387470.P15457309630766544785` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387470 has offset 1).
 
 The definition of A387470 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3138,7 +3138,7 @@ end A387470
 
 `(n+1)*(A001222(n+1)-1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A387470

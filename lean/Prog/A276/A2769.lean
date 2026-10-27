@@ -51,11 +51,11 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
@@ -63,6 +63,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -75,11 +76,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1471,7 +1468,7 @@ end A276915
 /-!
 # A276916: Subsequence of centered square numbers obtained by adding four triangles from A276914 and a central element, a(n) = 4*A276914(n) + 1.
 
-The programs for A276916, the canonical program `A276916.P396322178884957613` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276916 has offset 0).
+The programs for A276916, the canonical program `A276916.P396322178884957613` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276916 has offset 0).
 
 The definition of A276916 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `4*A276914(n)+1` (program `A276916.P396322178884957613`, by `A276916.P396322178884957613.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1503,7 +1500,7 @@ end A276916
 
 `4*A276914(n)+1`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A276916
@@ -5390,7 +5387,7 @@ end A276935
 /-!
 # A276936: Numbers m with at least one distinct prime factor prime(k) such that prime(k)^k divides, but prime(k)^(k+1) does not divide m.
 
-The programs for A276936, the canonical program `A276936.P4504177896743748025` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276936 has offset 1).
+The programs for A276936, the canonical program `A276936.P4504177896743748025` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276936 has offset 1).
 
 The definition of A276936 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3103 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5399,7 +5396,7 @@ The definition of A276936 is `conjectured`: the Lean definition is a formula tha
 
 `eq[char[A325130(n+1)], A000007(n)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A276936
@@ -5767,7 +5764,7 @@ end A276938.P282958715869729168
 /-!
 # A276939: Row 2 of A276945: a(n) = A002110(n) + A002110(n+1).
 
-The programs for A276939, the canonical program `A276939.P10839818542998394330` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276939 has offset 0).
+The programs for A276939, the canonical program `A276939.P10839818542998394330` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276939 has offset 0).
 
 The definition of A276939 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5776,7 +5773,7 @@ The definition of A276939 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A002110(n)+A002110(n+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A276939
@@ -13748,7 +13745,7 @@ end A276983
 /-!
 # A276984: Sum of squares of numbers less than n that do not divide n.
 
-The programs for A276984, the canonical program `A276984.P12000769543562231146` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276984 has offset 1).
+The programs for A276984, the canonical program `A276984.P12000769543562231146` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276984 has offset 1).
 
 The definition of A276984 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001157, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -13757,7 +13754,7 @@ The definition of A276984 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+1)*(n+2)*(2*(n+1)+1)/6-A001157(n+1)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A276984
@@ -13893,7 +13890,7 @@ def P7781956374030490757.Spec : Prop :=
 end A276984
 
 /-!
-# A276985: Triangle read by rows: T(n,k) = number of k-dimensional elements in an n-dimensional cross-polytope, n>=1, 0<=k
+# A276985: Triangle read by rows: T(n,k) = number of k-dimensional elements in an n-dimensional cross-polytope, n>=1, 0<=k<n.
 
 The programs for A276985, the canonical program `A276985.P13607945102415289488` is in `Seq.B000.C034`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A276985 has offset 1).
 

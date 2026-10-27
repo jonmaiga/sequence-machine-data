@@ -40,26 +40,27 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3623,7 +3624,7 @@ end
 end A320360.P10345641583682630477
 
 /-!
-# A320361: Number of nX5 0..1 arrays with every element unequal to 2, 3, 4 or 6 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
+# A320361: Number of n X 5 0..1 arrays with every element unequal to 2, 3, 4 or 6 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.
 
 The programs for A320361, there is no canonical definition to state claims against.
 -/
@@ -6672,7 +6673,7 @@ namespace A320387.P12143754499574652261
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A304707 n - A326499 ((A000068 (n + 1)).toNat + 50)
+  A304707 n - A326499 ((A000068 (n + 1)).toNat + 51)
 
 end
 
@@ -6687,7 +6688,7 @@ namespace A320387.P11401593251303557849
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A304707 n - A326499 ((A084345 (2 * (n + 2))).toNat + 50)
+  A304707 n - A326499 ((A084345 (2 * (n + 2))).toNat + 51)
 
 end
 

@@ -20,6 +20,7 @@ import Seq.B000.C019
 import Seq.B000.C020
 import Seq.B000.C021
 import Seq.B000.C022
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C027
 import Seq.B000.C030
@@ -36,7 +37,7 @@ import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C009
+import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B002.C000
@@ -48,11 +49,12 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -61,8 +63,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -705,7 +705,7 @@ end A309415.P7459487263419026620
 /-!
 # A309416: a(n) = Sum_{k > 0} d^k(n), where d^k corresponds to the k-th iterate of A296239.
 
-The programs for A309416, the canonical program `A309416.P13966311176528186971` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309416 has offset 0).
+The programs for A309416, the canonical program `A309416.P13966311176528186971` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309416 has offset 0).
 
 The definition of A309416 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1001 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -714,7 +714,7 @@ The definition of A309416 is `conjectured`: the Lean definition is a formula tha
 
 `A296239(n)+a(A296239(n))` with `a(0)=0`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A309416
@@ -1809,7 +1809,7 @@ end A309431.P8592063858152558354
 /-!
 # A309432: Number of distinct digits in decimal representation of n^2.
 
-The programs for A309432, the canonical program `A309432.P7805551934272391300` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309432 has offset 0).
+The programs for A309432, the canonical program `A309432.P7805551934272391300` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A309432 has offset 0).
 
 The definition of A309432 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1841,7 +1841,7 @@ end A309432
 
 `A043537(C(2, n)+n²)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A309432

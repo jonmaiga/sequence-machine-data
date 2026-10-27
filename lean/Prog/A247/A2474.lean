@@ -37,35 +37,36 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1604,7 +1605,7 @@ end A247417.P12901910780900765577
 /-!
 # A247418: a(n) = Sum_{i=1..n} mu(i)*(-1)^(i+1).
 
-The programs for A247418, the canonical program `A247418.P2117262707560324076` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247418 has offset 1).
+The programs for A247418, the canonical program `A247418.P2117262707560324076` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247418 has offset 1).
 
 The definition of A247418 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1613,7 +1614,7 @@ The definition of A247418 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A067856(n+1)%2]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A247418
@@ -6433,7 +6434,7 @@ end A247461.P12315670109511302508
 /-!
 # A247462: Number of iterations needed in A058977 to reach a result.
 
-The programs for A247462, the canonical program `A247462.P12776908162959564945` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247462 has offset 1).
+The programs for A247462, the canonical program `A247462.P12776908162959564945` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247462 has offset 1).
 
 The definition of A247462 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 163 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6566,7 +6567,7 @@ end A247462
 
 `A000005(A323172(n+2)^A019425(n))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A247462
@@ -8368,7 +8369,7 @@ end A247491.P15346296723615926391
 /-!
 # A247492: Triangle read by rows: T(n, k) = binomial(k-1, n-k)*(n+1)/(n+1-k), 0 <= k <= n.
 
-The programs for A247492, the canonical program `A247492.P9749959557379015816` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247492 has offset 0).
+The programs for A247492, the canonical program `A247492.P9749959557379015816` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A247492 has offset 0).
 
 The definition of A247492 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9860 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8407,7 +8408,7 @@ end A247492
 
 `and(-1, A098599(A007401(n+1)))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A247492

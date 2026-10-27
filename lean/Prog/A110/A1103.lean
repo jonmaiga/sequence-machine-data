@@ -45,16 +45,17 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -66,8 +67,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4391,7 +4390,7 @@ end A110326
 /-!
 # A110327: Triangle read by rows: T(n,k) = n!*Pell(n-k+1)/k!, where Pell(n)=A000129(n).
 
-The programs for A110327, the canonical program `A110327.P7325511659857302858` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110327 has offset 0).
+The programs for A110327, the canonical program `A110327.P7325511659857302858` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110327 has offset 0).
 
 The definition of A110327 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4400,7 +4399,7 @@ The definition of A110327 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `row(n)!*A000129(row(n)-col(n)+1)/col(n)!`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A110327
@@ -9931,7 +9930,7 @@ end A110371
 /-!
 # A110372: a(n) = F(n+1)!/F(n)! where F(n) = n-th Fibonacci number.
 
-The programs for A110372, the canonical program `A110372.P8850386384184537482` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110372 has offset 1).
+The programs for A110372, the canonical program `A110372.P8850386384184537482` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110372 has offset 1).
 
 The definition of A110372 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9940,7 +9939,7 @@ The definition of A110372 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000045(n+2)!/A000045(n+1)!`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A110372
@@ -10386,7 +10385,7 @@ end A110379.P5503168407100046802
 /-!
 # A110380: a(n) = min{p + q + r + ...} where p,q,r,... are distinct unary numbers - containing only ones, i.e., of the form (10^k - 1)/9 - formed by using a total of n ones.
 
-The programs for A110380, the canonical program `A110380.P5136329825465001748` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110380 has offset 1).
+The programs for A110380, the canonical program `A110380.P5136329825465001748` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110380 has offset 1).
 
 The definition of A110380 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10535,7 +10534,7 @@ end A110380
 
 `∑[A011557(A025581(n))]`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A110380
@@ -11260,7 +11259,7 @@ end A110389
 /-!
 # A110390: a(n) = F(n) mod s(n) where s(n) is the sum of the digits of the n-th Fibonacci number F(n).
 
-The programs for A110390, the canonical program `A110390.P9353818697883513779` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110390 has offset 7).
+The programs for A110390, the canonical program `A110390.P9353818697883513779` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110390 has offset 7).
 
 The definition of A110390 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A004090, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -11269,7 +11268,7 @@ The definition of A110390 is `conditional`: the Lean definition is an OEIS formu
 
 `A000045(n+7)%A004090(n+7)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A110390
@@ -12051,7 +12050,7 @@ end A110396.P7267936938565520390
 /-!
 # A110397: a(n) = (10^k - n)(10^k + n), where k is the number of digits in n.
 
-The programs for A110397, the canonical program `A110397.P12959332454578711254` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110397 has offset 1).
+The programs for A110397, the canonical program `A110397.P12959332454578711254` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A110397 has offset 1).
 
 The definition of A110397 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12083,7 +12082,7 @@ end A110397
 
 `(A061601(n+1)+n+2)²-(n+1)²`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A110397

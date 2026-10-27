@@ -32,28 +32,30 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C006
-import Seq.B001.C009
+import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C004
+import Seq.B003.C002
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1805,7 +1807,7 @@ end
 end A332349.P8140114187336835638
 
 /-!
-# A332350: Triangle read by rows: T(m,n) = Sum_{-m= n >= 1.
+# A332350: Triangle read by rows: T(m,n) = Sum_{-m<i<m, -n<j<n, gcd{i,j}=1} (m-|i|)*(n-|j|), m >= n >= 1.
 
 The programs for A332350, there is no canonical definition to state claims against.
 -/
@@ -1946,7 +1948,7 @@ end
 end A332350.P4413262837253321630
 
 /-!
-# A332351: Triangle read by rows: T(m,n) = Sum_{-m= n >= 1.
+# A332351: Triangle read by rows: T(m,n) = Sum_{-m<i<m, -n<j<n, gcd{i,j}=1} (m-|i|)*(n-|j|)/2, m >= n >= 1.
 
 The programs for A332351, there is no canonical definition to state claims against.
 -/
@@ -2102,7 +2104,7 @@ end
 end A332351.P14573608540361424370
 
 /-!
-# A332352: Triangle read by rows: T(m,n) = Sum_{-m= n >= 1.
+# A332352: Triangle read by rows: T(m,n) = Sum_{-m<i<m, -n<j<n, gcd{i,j}=2} (m-|i|)*(n-|j|), m >= n >= 1.
 
 The programs for A332352, there is no canonical definition to state claims against.
 -/
@@ -2258,7 +2260,7 @@ end
 end A332352.P10847349792032494218
 
 /-!
-# A332353: Triangle read by rows: T(m,n) = Sum_{-m= n >= 1.
+# A332353: Triangle read by rows: T(m,n) = Sum_{-m<i<m, -n<j<n, gcd{i,j}=2} (m-|i|)*(n-|j|)/2, m >= n >= 1.
 
 The programs for A332353, there is no canonical definition to state claims against.
 -/
@@ -5449,7 +5451,7 @@ end A332381.P13669008495904521001
 /-!
 # A332382: If n = Sum (2^e_k) then a(n) = Product (prime(e_k + 2)).
 
-The programs for A332382, the canonical program `A332382.P10140371250986470604` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332382 has offset 0).
+The programs for A332382, the canonical program `A332382.P10140371250986470604` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332382 has offset 0).
 
 The definition of A332382 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5458,7 +5460,7 @@ The definition of A332382 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000040(floor(log2(n))+2)*a(n-2^floor(log2(n)))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A332382
@@ -5919,7 +5921,7 @@ end A332382
 /-!
 # A332383: a(n) is the X-coordinate of the n-th point of the dragon curve. Sequence A332384 gives Y-coordinates.
 
-The programs for A332383, the canonical program `A332383.P7920587963328072283` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332383 has offset 0).
+The programs for A332383, the canonical program `A332383.P7920587963328072283` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332383 has offset 0).
 
 The definition of A332383 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4097 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5977,7 +5979,7 @@ end A332383
 
 `A268383(2*n)-A268383(4*n)+n`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A332383
@@ -6070,7 +6072,7 @@ end A332383
 /-!
 # A332384: a(n) is the Y-coordinate of the n-th point of the dragon curve. Sequence A332383 gives X-coordinates.
 
-The programs for A332384, the canonical program `A332384.P15273066766290011889` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332384 has offset 0).
+The programs for A332384, the canonical program `A332384.P15273066766290011889` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332384 has offset 0).
 
 The definition of A332384 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8193 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6106,7 +6108,7 @@ end A332384
 
 `n-(A268411(n)+A268383(2*n))`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A332384
@@ -6239,7 +6241,7 @@ end A332384
 /-!
 # A332385: Sum of squares of indices of distinct prime factors of n.
 
-The programs for A332385, the canonical program `A332385.P11219704881884823919` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332385 has offset 1).
+The programs for A332385, the canonical program `A332385.P11219704881884823919` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332385 has offset 1).
 
 The definition of A332385 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6248,7 +6250,7 @@ The definition of A332385 is `conjectured`: the Lean definition is a formula tha
 
 `∑{p}[n+1, A289506(#)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A332385
@@ -6676,7 +6678,7 @@ end A332385
 /-!
 # A332386: Numbers k such that k and k + 1 have the same number of divisors in Eisenstein integers.
 
-The programs for A332386, the canonical program `A332386.P12576416511398998806` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332386 has offset 1).
+The programs for A332386, the canonical program `A332386.P12576416511398998806` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A332386 has offset 1).
 
 The definition of A332386 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 280 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6685,7 +6687,7 @@ The definition of A332386 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A319442(n+1), A319442(n+2)]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A332386

@@ -46,6 +46,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -57,20 +58,21 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3122,7 +3124,7 @@ end A230723.P16268915184985691853
 /-!
 # A230724: Digital sum of tribonacci numbers with a(0)=a(1)=0, a(2)=1.
 
-The programs for A230724, the canonical program `A230724.P11052356802034479438` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230724 has offset 0).
+The programs for A230724, the canonical program `A230724.P11052356802034479438` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230724 has offset 0).
 
 The definition of A230724 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3131,7 +3133,7 @@ The definition of A230724 is `conditional`: the Lean definition is an OEIS formu
 
 `A007953(A000073(n))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A230724
@@ -3308,7 +3310,7 @@ end A230724
 /-!
 # A230725: Digital sum of tribonacci numbers with a(0)=a(1)=a(2)=1.
 
-The programs for A230725, the canonical program `A230725.P18115786073558631145` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230725 has offset 0).
+The programs for A230725, the canonical program `A230725.P18115786073558631145` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230725 has offset 0).
 
 The definition of A230725 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3317,7 +3319,7 @@ The definition of A230725 is `conditional`: the Lean definition is an OEIS formu
 
 `A007953(A000213(n))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A230725
@@ -4730,7 +4732,7 @@ end A230741.P3008945621472107620
 /-!
 # A230745: Odious Loeschian numbers.
 
-The programs for A230745, the canonical program `A230745.P17335340068142128914` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230745 has offset 1).
+The programs for A230745, the canonical program `A230745.P17335340068142128914` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230745 has offset 1).
 
 The definition of A230745 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3697 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4765,7 +4767,7 @@ end A230745
 
 `filter[A091855(n+1), A353816(#)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A230745
@@ -7251,7 +7253,7 @@ end A230774
 /-!
 # A230775: Smallest prime number greater than or equal to the square root of n.
 
-The programs for A230775, the canonical program `A230775.P17462288336970000234` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230775 has offset 1).
+The programs for A230775, the canonical program `A230775.P17462288336970000234` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230775 has offset 1).
 
 The definition of A230775 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A230774, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7260,7 +7262,7 @@ The definition of A230775 is `conditional`: the Lean definition is an OEIS formu
 
 `A000040(A230774(n+1))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A230775
@@ -8217,7 +8219,7 @@ end A230779
 /-!
 # A230780: Positive numbers without a prime factor congruent to 1 (mod 6).
 
-The programs for A230780, the canonical program `A230780.P4087628453053372881` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230780 has offset 1).
+The programs for A230780, the canonical program `A230780.P4087628453053372881` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230780 has offset 1).
 
 The definition of A230780 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7431 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8286,7 +8288,7 @@ end A230780
 
 `lt[gcd(3, A023900(n+1)), 2]+1`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A230780
@@ -8788,7 +8790,7 @@ end A230780
 /-!
 # A230781: Squared radii of circles centered at a grid point in a triangular lattice hitting exactly 6 points. Squares or triple of squares that are not expressible as x^2+xy+y^2 with y > x > 0.
 
-The programs for A230781, the canonical program `A230781.P11223862249852391792` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230781 has offset 1).
+The programs for A230781, the canonical program `A230781.P11223862249852391792` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230781 has offset 1).
 
 The definition of A230781 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 156 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9016,7 +9018,7 @@ end A230781
 
 `filter[A230780(n+1), A353815(#)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A230781

@@ -39,21 +39,22 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -63,12 +64,12 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -246,7 +247,7 @@ end A387704.P9528860399266458733
 /-!
 # A387707: a(n) = A337345(A023196(n)), where A337345 is the number of divisors d of n for which A003961(d) > 2*d, and A023196 lists the nondeficient numbers, numbers k such that sigma(k) >= 2*k.
 
-The programs for A387707, the canonical program `A387707.P1369852853517030567` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387707 has offset 1).
+The programs for A387707, the canonical program `A387707.P1369852853517030567` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387707 has offset 1).
 
 The definition of A387707 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A023196, A337345, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -255,7 +256,7 @@ The definition of A387707 is `conditional`: the Lean definition is an OEIS formu
 
 `A337345(A023196(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A387707
@@ -296,7 +297,7 @@ end A387708.P456126070693026510
 /-!
 # A387710: Numbers k for which A003959(k) < 2*k, where A003959 is multiplicative with a(p^e) = (p+1)^e.
 
-The programs for A387710, the canonical program `A387710.P1843881796241010643` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387710 has offset 1).
+The programs for A387710, the canonical program `A387710.P1843881796241010643` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387710 has offset 1).
 
 The definition of A387710 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -305,7 +306,7 @@ The definition of A387710 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A003959(n+1), 2*(n+1)]+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A387710
@@ -439,7 +440,7 @@ end A387710
 /-!
 # A387711: Numbers k for which A003959(k) > 2*k, where A003959 is multiplicative with a(p^e) = (p+1)^e.
 
-The programs for A387711, the canonical program `A387711.P8670169942287001865` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387711 has offset 1).
+The programs for A387711, the canonical program `A387711.P8670169942287001865` is in `Seq.B007.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387711 has offset 1).
 
 The definition of A387711 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -448,7 +449,7 @@ The definition of A387711 is `conjectured`: the Lean definition is a formula tha
 
 `lt[2*(n+1), A003959(n+1)]+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C001`.
 -/
 
 namespace A387711
@@ -611,7 +612,7 @@ def P3529832508438141091.Spec : Prop :=
 end A387711
 
 /-!
-# A387712: Primitive terms of A387711: numbers k for which A003959(k) > 2*k, but for all whose proper divisors d|k, d
+# A387712: Primitive terms of A387711: numbers k for which A003959(k) > 2*k, but for all whose proper divisors d|k, d<k, A003959(d) <= 2*d.
 
 The programs for A387712, there is no canonical definition to state claims against.
 -/
@@ -1406,32 +1407,10 @@ end
 end A387721.P12114449903140460454
 
 /-!
-# A387722: Numbers k for which A107758(k) > 2*k, but for all whose proper divisors d|k, d
+# A387722: Numbers k for which A107758(k) > 2*k, but for all whose proper divisors d|k, d<k, A107758(d) <= 2*d.
 
 The programs for A387722, there is no canonical definition to state claims against.
 -/
-
-/-! ## A387722.P4243922338054030084
-
-`∩[A084997(n+1), A387721(n+1)]`
--/
-
-namespace A387722.P4243922338054030084
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A084997 (n + 1)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A387721 (n + 1)
-
-open Classical in
-def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  SequenceMachineLib.nth (fun x => (∃ j, f1 j = (x : ℤ)) ∧ ∃ j, f2 j = (x : ℤ)) n
-
-end
-
-end A387722.P4243922338054030084
 
 /-! ## A387722.P16491684574101815730
 
@@ -1522,7 +1501,7 @@ end
 end A387722.P123348680895329450
 
 /-!
-# A387723: Numbers k for which A107758(k) > 2*k, and also for some of the proper divisors d|k, d 2*d.
+# A387723: Numbers k for which A107758(k) > 2*k, and also for some of the proper divisors d|k, d<k, A107758(d) > 2*d.
 
 The programs for A387723, there is no canonical definition to state claims against.
 -/
@@ -1721,7 +1700,7 @@ end A387725.P12266226157417205858
 /-!
 # A387726: Powerful part of the sum of divisors of n: a(n) = A057521(A000203(n)).
 
-The programs for A387726, the canonical program `A387726.P10728749570483671412` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387726 has offset 1).
+The programs for A387726, the canonical program `A387726.P10728749570483671412` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A387726 has offset 1).
 
 The definition of A387726 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1753,7 +1732,7 @@ end A387726
 
 `A057521(A000203(n+1))`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A387726

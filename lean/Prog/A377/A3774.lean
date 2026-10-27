@@ -20,13 +20,12 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -36,21 +35,17 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -177,7 +172,7 @@ end A377403.P12800114772793598658
 /-!
 # A377404: In the binary expansion of n, replace the first, third, fifth, etc. 1's by 0's.
 
-The programs for A377404, the canonical program `A377404.P15784403255783113757` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377404 has offset 0).
+The programs for A377404, the canonical program `A377404.P15784403255783113757` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377404 has offset 0).
 
 The definition of A377404 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A265263, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -186,7 +181,7 @@ The definition of A377404 is `conditional`: the Lean definition is an OEIS formu
 
 `n-A265263(n)`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A377404
@@ -1116,7 +1111,7 @@ end A377413.P10404109582324414674
 /-!
 # A377414: a(n) is the largest term of A126684, say b, such that n AND b = b (where AND denotes the bitwise AND operator).
 
-The programs for A377414, the canonical program `A377414.P9376123289896213115` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377414 has offset 0).
+The programs for A377414, the canonical program `A377414.P9376123289896213115` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377414 has offset 0).
 
 The definition of A377414 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8192 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1154,7 +1149,7 @@ end A377414
 
 `and(n, xor(n, A002264(2^ceil(log2(n+1)))))`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A377414
@@ -1514,7 +1509,7 @@ end A377423.P3980464636662362677
 /-!
 # A377430: Numbers k such that there is exactly one squarefree number between prime(k)+1 and prime(k+1)-1.
 
-The programs for A377430, the canonical program `A377430.P4255043940740327153` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377430 has offset 1).
+The programs for A377430, the canonical program `A377430.P4255043940740327153` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377430 has offset 1).
 
 The definition of A377430 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1038 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1587,7 +1582,7 @@ end A377430
 
 `eq[2, Δ[A112930(n+1)]]+1`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A377430
@@ -3025,7 +3020,7 @@ def P10069197855517949158.Spec : Prop :=
 end A377461
 
 /-!
-# A377462: a(n) is the size of the central part of the symmetric representation of sigma(n), or 0 if such a part does not exits.
+# A377462: a(n) is the size of the central part of the symmetric representation of sigma(n), or 0 if such a part does not exist.
 
 The programs for A377462, there is no canonical definition to state claims against.
 -/

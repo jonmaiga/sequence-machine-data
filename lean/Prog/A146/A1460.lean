@@ -33,16 +33,14 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
@@ -50,14 +48,15 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4530,16 +4529,16 @@ end A146075.P11876660774790922518
 /-!
 # A146076: Sum of even divisors of n.
 
-The programs for A146076, the canonical program `A146076.P5513778411624192836` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146076 has offset 1).
+The programs for A146076, the canonical program `A146076.P5513778411624192836` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A146076 has offset 1).
 
-The definition of A146076 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A146076 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000593, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A146076.P5513778411624192836
 
 `A000203(n+1)-A000593(n+1)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A146076
@@ -4970,12 +4969,6 @@ namespace A146076
 def P1543185905992943913.Spec : Prop :=
   ∀ n, P1543185905992943913.a n = A146076 (n + 1)
 
-theorem P1543185905992943913.correct : P1543185905992943913.Spec := by
-  intro n
-  simp only [A146076, Nat.add_sub_cancel, A146076.P1543185905992943913.a, A146076.P5513778411624192836.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A000593, A000593.P13640346029616979906.a, A326050, A326050.P4515014402688933711.a, A326052, A326052.P4438226606935639787.a, A038712, A038712.P3404197303190209645.a, A050452, A050452.P8848155708238405563.a, A082052, A082052.P17956952017327585217.f1, A082052.P17956952017327585217.a, A050449, A050449.P3812122387069373176.f1, A050449.P3812122387069373176.a, A166486, A166486.P13501783531280266850.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A146076
 
 /-! ## A146076.P9518379735627848015
@@ -4998,12 +4991,6 @@ namespace A146076
 /-- `A000593(n+1)-A002129(n+1)` -/
 def P9518379735627848015.Spec : Prop :=
   ∀ n, P9518379735627848015.a n = A146076 (n + 1)
-
-theorem P9518379735627848015.correct : P9518379735627848015.Spec := by
-  intro n
-  simp only [A146076, Nat.add_sub_cancel, A146076.P9518379735627848015.a, A146076.P5513778411624192836.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A000593, A000593.P13640346029616979906.a, A002129, A002129.P14132575705783117531.a, A038712, A038712.P3404197303190209645.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A146076
 

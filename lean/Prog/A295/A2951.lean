@@ -37,24 +37,23 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
@@ -63,8 +62,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2550,7 +2547,7 @@ end A295125.P16695431524780598654
 /-!
 # A295126: Denominator of Sum_{d|n} mu(n/d)/d, where mu is the Möbius function A008683.
 
-The programs for A295126, the canonical program `A295126.P8603545562454549646` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A295126 has offset 1).
+The programs for A295126, the canonical program `A295126.P8603545562454549646` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A295126 has offset 1).
 
 The definition of A295126 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2559,7 +2556,7 @@ The definition of A295126 is `conjectured`: the Lean definition is a formula tha
 
 `(n+1)/A126864(n+1)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A295126
@@ -2780,7 +2777,7 @@ end A295126
 /-!
 # A295127: Numerator of Sum_{d|n} mu(n/d)/d, where mu is the Möbius function A008683.
 
-The programs for A295127, the canonical program `A295127.P883789148021260298` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A295127 has offset 1).
+The programs for A295127, the canonical program `A295127.P883789148021260298` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A295127 has offset 1).
 
 The definition of A295127 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2789,7 +2786,7 @@ The definition of A295127 is `conjectured`: the Lean definition is a formula tha
 
 `A023900(n+1)/A126864(n+1)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A295127
@@ -3042,7 +3039,7 @@ end A295131.P8041337753956078984
 /-!
 # A295132: a(n) = (2/n)*Sum_{k=1..n} (2k+1)*M(k)^2 where M(k) is the Motzkin number A001006(k).
 
-The programs for A295132, the canonical program `A295132.P17976459601710744624` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A295132 has offset 1).
+The programs for A295132, the canonical program `A295132.P17976459601710744624` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A295132 has offset 1).
 
 The definition of A295132 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3051,7 +3048,7 @@ The definition of A295132 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A005043(n+2)*((6+6/(n+1))*A005043(n+1)+(2+1/(n+1))*A005043(n+2))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A295132

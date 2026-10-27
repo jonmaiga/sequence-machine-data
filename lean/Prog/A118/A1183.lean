@@ -13,7 +13,6 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
-import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -41,11 +40,11 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C008
-import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -56,6 +55,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -63,15 +63,11 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1829,7 +1825,7 @@ end A118318.P8467828469241587777
 /-!
 # A118319: a(n) = (highest power of 2 dividing n)th integer among those positive integers not occurring in {a(1),a(2),a(3),...,a(n-1)}.
 
-The programs for A118319, the canonical program `A118319.P11823910758880960408` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118319 has offset 1).
+The programs for A118319, the canonical program `A118319.P11823910758880960408` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118319 has offset 1).
 
 The definition of A118319 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1838,7 +1834,7 @@ The definition of A118319 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `n+1+A006519(n+1)-A000120(n+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A118319
@@ -2405,7 +2401,7 @@ end
 end A118325.P12112443930590904015
 
 /-!
-# A118330: a(n-1)*a(n-4) + a(n-2)*a(n-5) + a(n-3)*a(n-6), with a(k
+# A118330: a(n-1)*a(n-4) + a(n-2)*a(n-5) + a(n-3)*a(n-6), with a(k<6) = 1.
 
 The programs for A118330, the canonical program `A118330.P5503239162497670201` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118330 has offset 0).
 
@@ -2605,7 +2601,7 @@ end
 end A118333.P12658641725970703889
 
 /-!
-# A118334: a(n-1)*a(n-6) + a(n-2)*a(n-7) + a(n-3)*a(n-8) + a(n-4)*a(n-9), with a(k
+# A118334: a(n-1)*a(n-6) + a(n-2)*a(n-7) + a(n-3)*a(n-8) + a(n-4)*a(n-9), with a(k<8) = 1.
 
 The programs for A118334, there is no canonical definition to state claims against.
 -/
@@ -3080,7 +3076,7 @@ def P12531992360765948825.Spec : Prop :=
 end A118337
 
 /-!
-# A118339: Number of simple chains with n-1 edges strongly embedded in a simple cubic lattice.
+# A118339: Number of fixed linear polycubes with n cells.
 
 The programs for A118339, there is no canonical definition to state claims against.
 -/
@@ -7431,7 +7427,7 @@ end A118380.P4984805219500500172
 /-!
 # A118381: Largest 3-smooth number dividing n!.
 
-The programs for A118381, the canonical program `A118381.P10574708668957501424` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118381 has offset 1).
+The programs for A118381, the canonical program `A118381.P10574708668957501424` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A118381 has offset 1).
 
 The definition of A118381 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A060828, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7440,7 +7436,7 @@ The definition of A118381 is `conditional`: the Lean definition is an OEIS formu
 
 `A060818(n+1)*A060828(n+1)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A118381

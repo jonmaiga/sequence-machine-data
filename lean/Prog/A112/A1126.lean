@@ -46,7 +46,6 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -60,6 +59,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -73,8 +73,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -381,7 +379,7 @@ end A112603
 /-!
 # A112604: Number of representations of n as a sum of three times a square and two times a triangular number.
 
-The programs for A112604, the canonical program `A112604.P7169979849370553245` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112604 has offset 0).
+The programs for A112604, the canonical program `A112604.P7169979849370553245` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112604 has offset 0).
 
 The definition of A112604 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A033762, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -390,7 +388,7 @@ The definition of A112604 is `conditional`: the Lean definition is an OEIS formu
 
 `A033762(2*n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A112604
@@ -2800,7 +2798,7 @@ end A112609
 /-!
 # A112610: Number of representations of n as a sum of two squares and two triangular numbers.
 
-The programs for A112610, the canonical program `A112610.P6377481796722771847` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112610 has offset 0).
+The programs for A112610, the canonical program `A112610.P6377481796722771847` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112610 has offset 0).
 
 The definition of A112610 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2809,7 +2807,7 @@ The definition of A112610 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000203(1+4*n)`
 
-The canonical program, it is in `Seq.B001.C004`.
+The canonical program, it is in `Seq.B001.C005`.
 -/
 
 namespace A112610
@@ -10430,7 +10428,7 @@ end A112659.P12427345208116169508
 /-!
 # A112660: a(n) = (p-1)! mod p^2 where p = n-th prime.
 
-The programs for A112660, the canonical program `A112660.P11454736749846847626` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112660 has offset 1).
+The programs for A112660, the canonical program `A112660.P11454736749846847626` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112660 has offset 1).
 
 The definition of A112660 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5367 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10439,7 +10437,7 @@ The definition of A112660 is `conjectured`: the Lean definition is a formula tha
 
 `A330526(n+1)%A001248(n+1)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A112660
@@ -11869,7 +11867,7 @@ end A112680.P12750732913187148950
 /-!
 # A112681: Primes such that the sum of the predecessor and successor primes is divisible by 3.
 
-The programs for A112681, the canonical program `A112681.P2005893278622678890` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112681 has offset 1).
+The programs for A112681, the canonical program `A112681.P2005893278622678890` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A112681 has offset 1).
 
 The definition of A112681 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11907,7 +11905,7 @@ end A112681
 
 `A000040(eq[1, A106671(n+2)]+3)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A112681

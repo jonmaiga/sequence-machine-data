@@ -51,6 +51,7 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -61,15 +62,18 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C002
+import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B009.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -5535,7 +5539,7 @@ end A128052
 /-!
 # A128053: a(n)=A128056(n)/A128055(n).
 
-The programs for A128053, the canonical program `A128053.P4874709391304098829` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128053 has offset 0).
+The programs for A128053, the canonical program `A128053.P4874709391304098829` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128053 has offset 0).
 
 The definition of A128053 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A128056, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5544,7 +5548,7 @@ The definition of A128053 is `conditional`: the Lean definition is an OEIS formu
 
 `A128056(n)/A128055(n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A128053
@@ -7208,7 +7212,7 @@ end A128058
 /-!
 # A128059: a(n) = numerator((2*n-1)^2/(2*(2*n)!)).
 
-The programs for A128059, the canonical program `A128059.P6275643782124807022` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128059 has offset 0).
+The programs for A128059, the canonical program `A128059.P6275643782124807022` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128059 has offset 0).
 
 The definition of A128059 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5002 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7315,7 +7319,7 @@ end A128059
 
 `A110560(A325168(n+1))`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A128059
@@ -8122,7 +8126,7 @@ def P9012386437115411375.Spec : Prop :=
 end A128063
 
 /-!
-# A128064: Triangle T with T(n,n)=n, T(n,n-1)=-(n-1) and otherwise T(n,k)=0; 0
+# A128064: Triangle T with T(n,n)=n, T(n,n-1)=-(n-1) and otherwise T(n,k)=0; 0<k<=n.
 
 The programs for A128064, the canonical program `A128064.P17736054850047196674` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A128064 has offset 1).
 

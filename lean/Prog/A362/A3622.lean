@@ -31,23 +31,25 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
-import Seq.B002.C007
+import Seq.B002.C006
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -58,9 +60,7 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -533,7 +533,7 @@ end A362224.P2246857437393870447
 /-!
 # A362225: Primes of the form (2*p^2 + 1)/3 where p is a prime > 3.
 
-The programs for A362225, the canonical program `A362225.P17099261379294199932` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362225 has offset 1).
+The programs for A362225, the canonical program `A362225.P17099261379294199932` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362225 has offset 1).
 
 The definition of A362225 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A175255, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -542,7 +542,7 @@ The definition of A362225 is `conditional`: the Lean definition is an OEIS formu
 
 `(2*A175255(n+2)+1)/3`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A362225
@@ -660,7 +660,7 @@ end A362225
 /-!
 # A362227: a(n) = Product_{k=1..w(n)} p(k)^(S(n,k)-1), where set S(n,k) = row n of A272011 and w(n) = A000120(n) is the binary weight of n.
 
-The programs for A362227, the canonical program `A362227.P57805626971450803` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362227 has offset 0).
+The programs for A362227, the canonical program `A362227.P57805626971450803` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362227 has offset 0).
 
 The definition of A362227 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -669,7 +669,7 @@ The definition of A362227 is `conjectured`: the Lean definition is a formula tha
 
 `lcm(-a(and(n, n-1)), A057335(n))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A362227
@@ -2872,7 +2872,7 @@ end A362265.P3965933550882182662
 /-!
 # A362266: Triangle read by rows: T(n,k) = LCM({p_j-1 : j=1..n})/(p_k-1) for prime p.
 
-The programs for A362266, the canonical program `A362266.P13006912141537441528` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362266 has offset 1).
+The programs for A362266, the canonical program `A362266.P13006912141537441528` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362266 has offset 1).
 
 The definition of A362266 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A058254, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2881,7 +2881,7 @@ The definition of A362266 is `conditional`: the Lean definition is an OEIS formu
 
 `A058254(row(n)+1)/A006093(col(n)+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A362266
@@ -3971,7 +3971,7 @@ end A362295.P12746861266708618383
 /-!
 # A362296: Greatest common divisor of composite numbers between the n-th and (n+1)st primes.
 
-The programs for A362296, the canonical program `A362296.P9810890298712702943` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362296 has offset 2).
+The programs for A362296, the canonical program `A362296.P9810890298712702943` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A362296 has offset 2).
 
 The definition of A362296 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9600 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3980,7 +3980,7 @@ The definition of A362296 is `conjectured`: the Lean definition is a formula tha
 
 `A000010(gcd(p?[2*n+1]+2, p?[2*n+5]))`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A362296

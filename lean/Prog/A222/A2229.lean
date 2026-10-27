@@ -36,20 +36,23 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -57,8 +60,7 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2953,7 +2955,7 @@ end A222938.P7379360317856093948
 /-!
 # A222939: Number of n X 1 0..4 arrays with no element equal to another at a city block distance of exactly two, and new values 0..4 introduced in row major order.
 
-The programs for A222939, the canonical program `A222939.P2381887297888790042` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222939 has offset 1).
+The programs for A222939, the canonical program `A222939.P2381887297888790042` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222939 has offset 1).
 
 The definition of A222939 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 169 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2988,7 +2990,7 @@ end A222939
 
 `A087440(n-2)+a(n-1)` with `a(0)=1, a(1)=2`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A222939
@@ -3607,7 +3609,7 @@ end A222945
 /-!
 # A222946: Triangle for hypotenuses of primitive Pythagorean triangles.
 
-The programs for A222946, the canonical program `A222946.P18161529280472622073` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222946 has offset 2).
+The programs for A222946, the canonical program `A222946.P18161529280472622073` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222946 has offset 2).
 
 The definition of A222946 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7260 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3639,7 +3641,7 @@ end A222946
 
 `and(A054431(n+1), A103217(n))*A055096(n+2)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A222946
@@ -5528,7 +5530,7 @@ end A222962.P5350738366086664378
 /-!
 # A222963: a(n) = (p-3)*(p+3)/4 where p is the n-th prime.
 
-The programs for A222963, the canonical program `A222963.P1582244053247490446` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222963 has offset 2).
+The programs for A222963, the canonical program `A222963.P1582244053247490446` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222963 has offset 2).
 
 The definition of A222963 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5537,7 +5539,7 @@ The definition of A222963 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A166011(n+2)/2`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A222963
@@ -8734,7 +8736,7 @@ end A222992.P14462779919438691184
 /-!
 # A222993: Number of n X 2 0..2 arrays with successive rows and columns fitting to straight lines with nondecreasing slope, with a single point array taken as having zero slope.
 
-The programs for A222993, the canonical program `A222993.P8408352810680705070` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222993 has offset 1).
+The programs for A222993, the canonical program `A222993.P8408352810680705070` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A222993 has offset 1).
 
 The definition of A222993 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 206 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8743,7 +8745,7 @@ The definition of A222993 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A112502(n)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A222993

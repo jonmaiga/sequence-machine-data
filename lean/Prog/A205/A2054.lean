@@ -36,11 +36,12 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B003.C001
+import Seq.B002.C007
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
@@ -50,7 +51,6 @@ import Seq.B006.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2640,7 +2640,7 @@ end
 end A205438.P2250543852746999191
 
 /-!
-# A205442: Least k such that n divides s(k)-s(j) for some j
+# A205442: Least k such that n divides s(k)-s(j) for some j<k, where s(j) is the (2j-1)-st Fibonacci number.
 
 The programs for A205442, there is no canonical definition to state claims against.
 -/
@@ -2751,7 +2751,7 @@ end
 end A205442.P12034037033008477644
 
 /-!
-# A205443: The index j
+# A205443: The index j<k such that n divides s(k)-s(j) for some j, where s(j)=Fibonacci(2j-1), and k is the least index for which such a j exists.
 
 The programs for A205443, there is no canonical definition to state claims against.
 -/
@@ -2877,7 +2877,7 @@ end
 end A205443.P5675151916873116411
 
 /-!
-# A205444: Least s(k) such that n divides s(k)-s(j) for some j
+# A205444: Least s(k) such that n divides s(k)-s(j) for some j<k, where s(j)=Fibonacci(2j-1).
 
 The programs for A205444, there is no canonical definition to state claims against.
 -/
@@ -3551,7 +3551,7 @@ end
 end A205448.P11088151827589837086
 
 /-!
-# A205450: Least k such that n divides s(k) - s(j) for some j
+# A205450: Least k such that n divides s(k) - s(j) for some j<k, where s(j) is the 2j-th Fibonacci number.
 
 The programs for A205450, there is no canonical definition to state claims against.
 -/
@@ -3677,7 +3677,7 @@ end
 end A205450.P16652084451659753029
 
 /-!
-# A205451: The index j
+# A205451: The index j<k such that n divides s(k)-s(j) for some j, where s(j)=Fibonacci(2j), and k is the least index for which such a j exists.
 
 The programs for A205451, there is no canonical definition to state claims against.
 -/
@@ -3818,7 +3818,7 @@ end
 end A205451.P5613472370486377331
 
 /-!
-# A205452: Least s(k) such that n divides s(k)-s(j) for some j
+# A205452: Least s(k) such that n divides s(k)-s(j) for some j<k, where s(j)=Fibonacci(2j).
 
 The programs for A205452, there is no canonical definition to state claims against.
 -/

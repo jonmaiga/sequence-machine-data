@@ -26,19 +26,18 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
 import Seq.B001.C012
-import Seq.B002.C002
+import Seq.B001.C013
+import Seq.B002.C003
 import Seq.B002.C006
+import Seq.B002.C007
+import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C004
-import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B007.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C002
 import Seq.Opaque.C003
@@ -1096,7 +1095,7 @@ end A396148.P10747465323521187422
 /-!
 # A396151: a(n) = 2^(n+1) + 1 - 2*Re((1+i)^n), where i is the imaginary unit.
 
-The programs for A396151, the canonical program `A396151.P82576254118047464` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396151 has offset 0).
+The programs for A396151, the canonical program `A396151.P82576254118047464` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396151 has offset 0).
 
 The definition of A396151 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1128,7 +1127,7 @@ end A396151
 
 `2*A000749(n+2)+1`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A396151
@@ -2228,7 +2227,7 @@ end A396196.P8246686820176984410
 /-!
 # A396197: Triangle read by rows: T(n, k) = (-1)^k*binomial(n, k) * (2*F(n - k) + F(n - k + 2)) where F(n) are the Fibonacci numbers.
 
-The programs for A396197, the canonical program `A396197.P11192290453794693208` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396197 has offset 0).
+The programs for A396197, the canonical program `A396197.P11192290453794693208` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A396197 has offset 0).
 
 The definition of A396197 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2237,7 +2236,7 @@ The definition of A396197 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(-1)^col(n)*C(row(n), col(n))*A000285(row(n)-col(n))`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A396197

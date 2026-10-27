@@ -42,10 +42,10 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -57,9 +57,10 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -67,9 +68,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1165,7 +1163,7 @@ end A346301
 /-!
 # A346302: Positions of words in A076478 such that first digit != last digit.
 
-The programs for A346302, the canonical program `A346302.P10648476138040848442` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A346302 has offset 1).
+The programs for A346302, the canonical program `A346302.P10648476138040848442` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A346302 has offset 1).
 
 The definition of A346302 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1174,7 +1172,7 @@ The definition of A346302 is `conjectured`: the Lean definition is a formula tha
 
 `2*n+5-A079882(n)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A346302
@@ -2108,7 +2106,7 @@ end A346303
 /-!
 # A346304: Positions of words in A076478 that start with 1 and end with 0.
 
-The programs for A346304, the canonical program `A346304.P13208104467639866605` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A346304 has offset 1).
+The programs for A346304, the canonical program `A346304.P13208104467639866605` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A346304 has offset 1).
 
 The definition of A346304 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2117,7 +2115,7 @@ The definition of A346304 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A062383(n+1)+2*(n+1)-1`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A346304
@@ -2727,7 +2725,7 @@ end A346305.P9675226931645471150
 /-!
 # A346306: Position in A076478 of the binary complement of the n-th word in A076478.
 
-The programs for A346306, the canonical program `A346306.P6319894371181344972` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A346306 has offset 1).
+The programs for A346306, the canonical program `A346306.P6319894371181344972` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A346306 has offset 1).
 
 The definition of A346306 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2759,7 +2757,7 @@ end A346306
 
 `A004756(n+2)-2*(n+3)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A346306
@@ -3356,7 +3354,7 @@ end A346307.P9276551101701040759
 /-!
 # A346308: Intersection of Beatty sequences for sqrt(2) and sqrt(3).
 
-The programs for A346308, the canonical program `A346308.P15982199701162537741` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A346308 has offset 1).
+The programs for A346308, the canonical program `A346308.P15982199701162537741` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A346308 has offset 1).
 
 The definition of A346308 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5772 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3365,7 +3363,7 @@ The definition of A346308 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A001951(n+1), floor(n*sqrt(3))]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A346308
@@ -3615,7 +3613,7 @@ def P7186605359856198272.Spec : Prop :=
 end A346308
 
 /-!
-# A346309: Positions of words in A076478 such that #0's - #1's is odd.
+# A346309: Positions of words in A076478 such that number of 0's - number of 1's is odd.
 
 The programs for A346309, there is no canonical definition to state claims against.
 -/

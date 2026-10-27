@@ -33,10 +33,9 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C005
-import Seq.B003.C000
-import Seq.B003.C001
+import Seq.B002.C006
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
@@ -48,7 +47,7 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B009.C000
-import Seq.B013.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1743,7 +1742,7 @@ end A197217.P12586446211559682557
 /-!
 # A197218: a(n) = phi(Lucas(n)).
 
-The programs for A197218, the canonical program `A197218.P5916423780579939464` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197218 has offset 0).
+The programs for A197218, the canonical program `A197218.P5916423780579939464` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197218 has offset 0).
 
 The definition of A197218 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1752,7 +1751,7 @@ The definition of A197218 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A000032(n))`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A197218
@@ -1862,7 +1861,7 @@ end A197218
 /-!
 # A197219: a(0) = 2, a(n) = Lucas(phi(n)) for n > 0.
 
-The programs for A197219, the canonical program `A197219.P1176045312080678236` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197219 has offset 0).
+The programs for A197219, the canonical program `A197219.P1176045312080678236` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A197219 has offset 0).
 
 The definition of A197219 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 487 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1871,7 +1870,7 @@ The definition of A197219 is `conjectured`: the Lean definition is a formula tha
 
 `A000032(floor(A000010(n)+a(n-1))-a(n-1))` with `a(0)=2`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A197219

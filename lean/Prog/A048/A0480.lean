@@ -39,12 +39,12 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,24 +52,25 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1353,24 +1354,6 @@ end A048012.P196800516674880202
 
 The programs for A048013, there is no canonical definition to state claims against.
 -/
-
-/-! ## A048013.P4317823096027778089
-
-`A051068(n)*A117138(∑[A326531(n)])`
--/
-
-namespace A048013.P4317823096027778089
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A326531 n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A051068 n * A117138 (∑ j ∈ Finset.range (n + 1), f1 j).toNat
-
-end
-
-end A048013.P4317823096027778089
 
 /-! ## A048013.P10633033374449637794
 
@@ -6282,7 +6265,7 @@ end A048070.P8378597008116812164
 /-!
 # A048071: Number of nonempty subsets of {1,2,...,n} in which exactly 1/2 of the elements are <= (n+2)/3.
 
-The programs for A048071, the canonical program `A048071.P15483674784596925337` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048071 has offset 1).
+The programs for A048071, the canonical program `A048071.P15483674784596925337` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048071 has offset 1).
 
 The definition of A048071 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 328 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6321,7 +6304,7 @@ end A048071
 
 `abs(1-C(n+1, A103221(2*n)))`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A048071
@@ -8977,7 +8960,7 @@ end A048098
 /-!
 # A048099: Number of degree-n even permutations of order exactly 2.
 
-The programs for A048099, the canonical program `A048099.P9392881477138269526` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048099 has offset 1).
+The programs for A048099, the canonical program `A048099.P9392881477138269526` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A048099 has offset 1).
 
 The definition of A048099 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8986,7 +8969,7 @@ The definition of A048099 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(A001189(n+1)+A051684(n+1))/2`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A048099

@@ -44,31 +44,33 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -18274,7 +18276,7 @@ end A074582
 /-!
 # A074583: Numbers k such that sopfr(k) = S(k), where sopfr = A001414 and S = A002034.
 
-The programs for A074583, the canonical program `A074583.P15123226653629379694` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074583 has offset 1).
+The programs for A074583, the canonical program `A074583.P15123226653629379694` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074583 has offset 1).
 
 The definition of A074583 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000961, A192188, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -18283,7 +18285,7 @@ The definition of A074583 is `conditional`: the Lean definition is an OEIS formu
 
 `A000961(A192188(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A074583
@@ -21612,7 +21614,7 @@ end A074594
 /-!
 # A074595: Number of prime factors of numbers that are not prime powers (with multiplicity).
 
-The programs for A074595, the canonical program `A074595.P16093768430276289458` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074595 has offset 1).
+The programs for A074595, the canonical program `A074595.P16093768430276289458` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A074595 has offset 1).
 
 The definition of A074595 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A024619, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -21621,7 +21623,7 @@ The definition of A074595 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(A024619(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A074595

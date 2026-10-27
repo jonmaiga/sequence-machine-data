@@ -50,31 +50,31 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C005
+import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B006.C000
+import Seq.B005.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -863,7 +863,7 @@ end A091110.P17324955282008493609
 /-!
 # A091113: Nonprimes of the form 4*k+1.
 
-The programs for A091113, the canonical program `A091113.P2066234327924851190` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091113 has offset 1).
+The programs for A091113, the canonical program `A091113.P2066234327924851190` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091113 has offset 1).
 
 The definition of A091113 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -898,7 +898,7 @@ end A091113
 
 `4*A045751(n+1)+1`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A091113
@@ -2794,7 +2794,7 @@ end A091136.P14389668756207234230
 /-!
 # A091137: The Hirzebruch numbers. a(n) = Product_{2 <= p <= n+1, p prime} p^floor(n / (p - 1)).
 
-The programs for A091137, the canonical program `A091137.P5644376634537276402` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091137 has offset 0).
+The programs for A091137, the canonical program `A091137.P5644376634537276402` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091137 has offset 0).
 
 The definition of A091137 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A363596, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2803,7 +2803,7 @@ The definition of A091137 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+1)!*A363596(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A091137
@@ -8742,7 +8742,7 @@ end A091186.P3534654178437162404
 /-!
 # A091187: Triangle read by rows: T(n,k) is the number of ordered trees with n edges and k branches.
 
-The programs for A091187, the canonical program `A091187.P5641360087202149170` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091187 has offset 1).
+The programs for A091187, the canonical program `A091187.P5641360087202149170` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091187 has offset 1).
 
 The definition of A091187 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8784,7 +8784,7 @@ end A091187
 
 `A001006(A002262(n))*A007318(n)`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A091187

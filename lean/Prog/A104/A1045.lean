@@ -52,6 +52,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -59,11 +60,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -75,9 +78,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3396,7 +3396,7 @@ end A104525.P6321781848722338273
 /-!
 # A104530: Expansion of (1+sqrt(1-4x))/(4sqrt(1-4x)-2).
 
-The programs for A104530, the canonical program `A104530.P10775864358818668256` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104530 has offset 0).
+The programs for A104530, the canonical program `A104530.P10775864358818668256` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104530 has offset 0).
 
 The definition of A104530 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 138 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3428,7 +3428,7 @@ end A104530
 
 `lcm(2, A076035(n))-A076025(n)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A104530
@@ -5439,7 +5439,7 @@ end A104548
 /-!
 # A104550: Number of horizontal segments in all Schroeder paths of length 2n (a horizontal segment is a maximal string of horizontal steps).
 
-The programs for A104550, the canonical program `A104550.P11450034910284479824` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104550 has offset 1).
+The programs for A104550, the canonical program `A104550.P11450034910284479824` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104550 has offset 1).
 
 The definition of A104550 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 132 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5448,7 +5448,7 @@ The definition of A104550 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A002002(n)]`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A104550
@@ -9392,7 +9392,7 @@ end A104567
 /-!
 # A104568: Triangle of numbers that are 0 or 1 mod 3.
 
-The programs for A104568, the canonical program `A104568.P1447854330914790321` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104568 has offset 0).
+The programs for A104568, the canonical program `A104568.P1447854330914790321` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A104568 has offset 0).
 
 The definition of A104568 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9567,7 +9567,7 @@ end A104568
 
 `A037915(A099375(n))`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A104568
@@ -14463,29 +14463,6 @@ namespace A104588
 /-- `A300951(A060018(n+3))` -/
 def P9791896696242099743.Spec : Prop :=
   ∀ n, P9791896696242099743.a n = A104588 (n + 1)
-
-end A104588
-
-/-! ## A104588.P13133070477002973434
-
-`A083907(floor(sqrt(n+1)))`
--/
-
-namespace A104588.P13133070477002973434
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A083907 (Nat.sqrt (n + 1))
-
-end
-
-end A104588.P13133070477002973434
-
-namespace A104588
-
-/-- `A083907(floor(sqrt(n+1)))` -/
-def P13133070477002973434.Spec : Prop :=
-  ∀ n, P13133070477002973434.a n = A104588 (n + 1)
 
 end A104588
 

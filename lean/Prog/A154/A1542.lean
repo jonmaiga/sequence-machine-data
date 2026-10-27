@@ -43,36 +43,36 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1881,7 +1881,7 @@ end A154233
 /-!
 # A154234: Triangle read by rows: T(n,k) = (n mod d(k)), where d(i) is the number of divisors of i.
 
-The programs for A154234, the canonical program `A154234.P10923171375270971651` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154234 has offset 1).
+The programs for A154234, the canonical program `A154234.P10923171375270971651` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154234 has offset 1).
 
 The definition of A154234 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1890,7 +1890,7 @@ The definition of A154234 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(row(n)+1)%A000005(col(n)+1)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A154234
@@ -5080,7 +5080,7 @@ end
 end A154256.P9726267010156222477
 
 /-!
-# A154257: Number of triples such that p+F_s+F_t=n, where p is an odd prime, s and t are greater than one and the Fibonacci number F_s or F_t is odd.
+# A154257: Number of triples <p,s,t> such that p+F_s+F_t=n, where p is an odd prime, s and t are greater than one and the Fibonacci number F_s or F_t is odd.
 
 The programs for A154257, there is no canonical definition to state claims against.
 -/
@@ -5242,7 +5242,7 @@ end
 end A154257.P17728271479889993877
 
 /-!
-# A154258: Number of triples such that p+F_s+(F_t)^2=n, where p is an odd prime, s and t are greater than one and the Fibonacci number F_s or F_t is odd.
+# A154258: Number of triples <p,s,t> such that p+F_s+(F_t)^2=n, where p is an odd prime, s and t are greater than one and the Fibonacci number F_s or F_t is odd.
 
 The programs for A154258, there is no canonical definition to state claims against.
 -/
@@ -5342,21 +5342,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A154259.P1270573814903957144
-
-/-! ## A154259.P10576711812038731985
-
-`A277796(2*n+1)+abs(A323620(n+2))`
--/
-
-namespace A154259.P10576711812038731985
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A277796 (2 * n + 1) + |A323620 (n + 2)|
-
-end
-
-end A154259.P10576711812038731985
 
 /-!
 # A154260: Numbers of the form m*(4*m +- 1)/2.
@@ -6231,7 +6216,7 @@ def P2517740149214550708.Spec : Prop :=
 end A154262
 
 /-!
-# A154263: Number of triples such that p+F_s+(F_t)^3=n, where p is an odd prime, s and t are greater than one and F_s or F_t is odd.
+# A154263: Number of triples <p, s,t> such that p+F_s+(F_t)^3=n, where p is an odd prime, s and t are greater than one and F_s or F_t is odd.
 
 The programs for A154263, there is no canonical definition to state claims against.
 -/
@@ -9858,7 +9843,7 @@ end
 end A154289.P5095363157099170416
 
 /-!
-# A154291: Primes of the form 4x^3 + 27y^2, with x
+# A154291: Primes of the form 4x^3 + 27y^2, with x<0.
 
 The programs for A154291, there is no canonical definition to state claims against.
 -/
@@ -9884,27 +9869,6 @@ def a : ℕ → ℕ := SequenceMachineLib.memo fun n =>
 end
 
 end A154291.P7250589938976026480
-
-/-! ## A154291.P15086401683741771018
-
-`A153635(lt[A153637(3*n+4), A153664(2*n+1)])`
--/
-
-namespace A154291.P15086401683741771018
-noncomputable section
-
-def f1 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153637 (3 * n + 4)
-
-def f2 : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153664 (2 * n + 1)
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A153635 (SequenceMachineLib.nth (fun j => f1 j < f2 j) n)
-
-end
-
-end A154291.P15086401683741771018
 
 /-! ## A154291.P10745772657721941486
 
@@ -10436,7 +10400,7 @@ end A154292
 /-!
 # A154293: Integers of the form t/6, where t is a triangular number (A000217).
 
-The programs for A154293, the canonical program `A154293.P10379766137476135061` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154293 has offset 1).
+The programs for A154293, the canonical program `A154293.P10379766137476135061` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154293 has offset 1).
 
 The definition of A154293 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -10445,7 +10409,7 @@ The definition of A154293 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A069497(n+1)/6`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A154293

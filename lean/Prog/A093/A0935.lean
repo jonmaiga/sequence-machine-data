@@ -39,37 +39,37 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C011
+import Seq.B001.C008
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
+import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -409,29 +409,6 @@ namespace A093500
 /-- `A269457(n)+A062786(n+1)` -/
 def P17066160843637282052.Spec : Prop :=
   ∀ n, P17066160843637282052.a n = A093500 (n + 1)
-
-end A093500
-
-/-! ## A093500.P8866902265493122354
-
-`A099776(n+1)+A026817(n+1)`
--/
-
-namespace A093500.P8866902265493122354
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A099776 (n + 1) + A026817 (n + 1)
-
-end
-
-end A093500.P8866902265493122354
-
-namespace A093500
-
-/-- `A099776(n+1)+A026817(n+1)` -/
-def P8866902265493122354.Spec : Prop :=
-  ∀ n, P8866902265493122354.a n = A093500 (n + 1)
 
 end A093500
 
@@ -5155,7 +5132,7 @@ end
 end A093528.P7300790117368926274
 
 /-!
-# A093529: Pi*denominators of odd raw moments in the distribution of line lengths for lines picked at random in the unit disk.
+# A093529: Denominators of Pi times the odd raw moments in the distribution of line lengths for lines picked at random in the unit disk.
 
 The programs for A093529, there is no canonical definition to state claims against.
 -/
@@ -6543,7 +6520,7 @@ end A093554.P1604618336845040206
 /-!
 # A093555: Number of non-prime-powers between consecutive prime-powers.
 
-The programs for A093555, the canonical program `A093555.P5658840311924976903` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A093555 has offset 1).
+The programs for A093555, the canonical program `A093555.P5658840311924976903` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A093555 has offset 1).
 
 The definition of A093555 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6734,7 +6711,7 @@ end A093555
 
 `Δ[record[A100994(n+1)]]-1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A093555
@@ -10995,7 +10972,7 @@ end
 end A093594.P15047662185737651270
 
 /-!
-# A093596: a(n) = Pi^(2n)*denominator of Sum_{k in A030059} 1/k^(2n).
+# A093596: Denominators of Pi^(2*n)*Sum_{k in A030059} 1/k^(2*n).
 
 The programs for A093596, there is no canonical definition to state claims against.
 -/
@@ -11016,7 +10993,7 @@ end
 end A093596.P10058799906611422047
 
 /-!
-# A093597: Numerator of Sum_{k in A026424} 1/k^(2n).
+# A093597: Numerators of (Sum_{k in A026424} 1/k^(2*n))/Pi^(2*n).
 
 The programs for A093597, there is no canonical definition to state claims against.
 -/

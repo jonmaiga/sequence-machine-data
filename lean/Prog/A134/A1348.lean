@@ -50,23 +50,25 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
@@ -74,8 +76,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2737,7 +2737,7 @@ end A134831.P17333070788567332898
 /-!
 # A134832: Triangle of succession numbers for circular permutations.
 
-The programs for A134832, the canonical program `A134832.P13040656617122990359` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134832 has offset 0).
+The programs for A134832, the canonical program `A134832.P13040656617122990359` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134832 has offset 0).
 
 The definition of A134832 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2628 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2746,7 +2746,7 @@ The definition of A134832 is `conjectured`: the Lean definition is a formula tha
 
 `A007318(n)*A000757(A025581(n))`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A134832
@@ -6092,7 +6092,7 @@ end A134859
 /-!
 # A134860: Wythoff AAB numbers; also, Fib101 numbers: those n for which the Zeckendorf expansion A014417(n) ends with 1,0,1.
 
-The programs for A134860, the canonical program `A134860.P10022107940659207837` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134860 has offset 1).
+The programs for A134860, the canonical program `A134860.P10022107940659207837` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134860 has offset 1).
 
 The definition of A134860 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6157,7 +6157,7 @@ end A134860
 
 `abs(xor(-1, A035337(n)))`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A134860
@@ -7185,7 +7185,7 @@ end A134862.P4266585746862424744
 /-!
 # A134863: Wythoff BAB numbers.
 
-The programs for A134863, the canonical program `A134863.P11100616616193240304` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134863 has offset 1).
+The programs for A134863, the canonical program `A134863.P11100616616193240304` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134863 has offset 1).
 
 The definition of A134863 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7334,7 +7334,7 @@ end A134863
 
 `abs(6-A101870(n+1))`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A134863
@@ -7678,7 +7678,7 @@ end A134863
 /-!
 # A134864: Wythoff BBB numbers.
 
-The programs for A134864, the canonical program `A134864.P10998116107234469360` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134864 has offset 1).
+The programs for A134864, the canonical program `A134864.P10998116107234469360` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134864 has offset 1).
 
 The definition of A134864 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7739,7 +7739,7 @@ end A134864
 
 `A101870(A000201(n+1))`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A134864
@@ -8285,7 +8285,7 @@ end A134865.P750024165652792445
 /-!
 # A134866: Table read by antidiagonals: T(n,k) = sigma(gcd(n,k)).
 
-The programs for A134866, the canonical program `A134866.P15611518655142408243` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134866 has offset 1).
+The programs for A134866, the canonical program `A134866.P15611518655142408243` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134866 has offset 1).
 
 The definition of A134866 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000203(gcd(col(n)+1, row(n)-col(n)+1))` (program `A134866.P15611518655142408243`, by `A134866.P15611518655142408243.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -8294,7 +8294,7 @@ The definition of A134866 is `verified`: the Lean definition is proven equivalen
 
 `A000203(gcd(col(n)+1, row(n)-col(n)+1))`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A134866
@@ -10089,7 +10089,7 @@ end A134870
 /-!
 # A134871: a(1) = 1, a(n) = tau(n) + n - 2 for n > 1.
 
-The programs for A134871, the canonical program `A134871.P9338139683703064561` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134871 has offset 1).
+The programs for A134871, the canonical program `A134871.P9338139683703064561` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A134871 has offset 1).
 
 The definition of A134871 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10173,7 +10173,7 @@ end A134871
 
 `A070824(n+1)+1+n`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A134871

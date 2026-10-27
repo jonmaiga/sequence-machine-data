@@ -51,14 +51,18 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,9 +72,6 @@ import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -156,7 +157,7 @@ end A213800.P3371238094246657589
 /-!
 # A213801: Number of 3 X 3 0..n symmetric arrays with all rows summing to floor(n*3/2).
 
-The programs for A213801, the canonical program `A213801.P10196525806075667594` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213801 has offset 1).
+The programs for A213801, the canonical program `A213801.P10196525806075667594` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213801 has offset 1).
 
 The definition of A213801 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A064412, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -165,7 +166,7 @@ The definition of A213801 is `conditional`: the Lean definition is an OEIS formu
 
 `A064412(n+2)-A077043((2*(n+1)+1-(-1)^(n+1))/4)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A213801
@@ -499,7 +500,7 @@ end
 end A213805.P10205648135800936261
 
 /-!
-# A213807: a(n) = Sum_{0<=i
+# A213807: a(n) = Sum_{0<=i<j<k<=n} L(i)*L(j)*L(k), where L(m) is the m-th Lucas number A000032(m).
 
 The programs for A213807, there is no canonical definition to state claims against.
 -/
@@ -9059,7 +9060,7 @@ end A213835
 /-!
 # A213836: Rectangular array: (row n) = b**c, where b(h) = 4*h-3, c(h) = n-1+h, n>=1, h>=1, and ** = convolution.
 
-The programs for A213836, the canonical program `A213836.P1472070259988033542` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213836 has offset 1).
+The programs for A213836, the canonical program `A213836.P1472070259988033542` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213836 has offset 1).
 
 The definition of A213836 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9091,7 +9092,7 @@ end A213836
 
 `2*A213751(n+1)-A049777(n+1)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A213836

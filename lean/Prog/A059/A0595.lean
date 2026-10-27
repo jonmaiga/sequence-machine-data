@@ -52,11 +52,13 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -64,21 +66,19 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -113,7 +113,7 @@ set_option linter.unreachableTactic false
 /-!
 # A059500: Primes p such that both q=(p-1)/2 and 2p + 1 = 4q + 3 are composite numbers. Intersection of A059456 and A053176.
 
-The programs for A059500, the canonical program `A059500.P3268541981243603628` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059500 has offset 1).
+The programs for A059500, the canonical program `A059500.P3268541981243603628` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059500 has offset 1).
 
 The definition of A059500 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8844 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -122,7 +122,7 @@ The definition of A059500 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A053176(n+1), A099184(n+2)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A059500
@@ -8830,7 +8830,7 @@ end A059546
 /-!
 # A059547: Beatty sequence for 1 + 1/log(3).
 
-The programs for A059547, the canonical program `A059547.P4129407123688766189` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059547 has offset 1).
+The programs for A059547, the canonical program `A059547.P4129407123688766189` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059547 has offset 1).
 
 The definition of A059547 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8839,7 +8839,7 @@ The definition of A059547 is `conjectured`: the Lean definition is a formula tha
 
 `comp[floor(n*(log(3)+1))]`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A059547
@@ -9285,7 +9285,7 @@ end A059548
 /-!
 # A059549: Beatty sequence for 1 + 1/log(10).
 
-The programs for A059549, the canonical program `A059549.P2048707006367111027` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059549 has offset 1).
+The programs for A059549, the canonical program `A059549.P2048707006367111027` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059549 has offset 1).
 
 The definition of A059549 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9294,7 +9294,7 @@ The definition of A059549 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((n+1)*(1+1/log(10)))`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A059549
@@ -10364,7 +10364,7 @@ end A059555
 /-!
 # A059556: Beatty sequence for 1 + 1/gamma.
 
-The programs for A059556, the canonical program `A059556.P10830699761153476002` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059556 has offset 1).
+The programs for A059556, the canonical program `A059556.P10830699761153476002` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059556 has offset 1).
 
 The definition of A059556 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10373,7 +10373,7 @@ The definition of A059556 is `conjectured`: the Lean definition is a formula tha
 
 `comp[floor(n*(γ+1))]`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A059556
@@ -11054,7 +11054,7 @@ end A059558
 /-!
 # A059559: Beatty sequence for 1 + log(1/gamma), (gamma is the Euler-Mascheroni constant A001620).
 
-The programs for A059559, the canonical program `A059559.P8854853141262480161` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059559 has offset 1).
+The programs for A059559, the canonical program `A059559.P8854853141262480161` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059559 has offset 1).
 
 The definition of A059559 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11063,7 +11063,7 @@ The definition of A059559 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((n+1)*(1+log(1/γ)))`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A059559
@@ -11261,7 +11261,7 @@ end A059559
 /-!
 # A059560: Beatty sequence for 1 - 1/log(gamma).
 
-The programs for A059560, the canonical program `A059560.P3209679035830817320` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059560 has offset 1).
+The programs for A059560, the canonical program `A059560.P3209679035830817320` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059560 has offset 1).
 
 The definition of A059560 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11270,7 +11270,7 @@ The definition of A059560 is `conjectured`: the Lean definition is a formula tha
 
 `n-floor((n+1)/log(γ))`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A059560
@@ -11450,7 +11450,7 @@ end A059560
 /-!
 # A059561: Beatty sequence for log(Pi).
 
-The programs for A059561, the canonical program `A059561.P1979222872294667062` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059561 has offset 1).
+The programs for A059561, the canonical program `A059561.P1979222872294667062` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059561 has offset 1).
 
 The definition of A059561 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11459,7 +11459,7 @@ The definition of A059561 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((n+1)*log(π))`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A059561
@@ -11752,7 +11752,7 @@ end A059561
 /-!
 # A059562: Beatty sequence for log(Pi)/(log(Pi)-1).
 
-The programs for A059562, the canonical program `A059562.P124344613896043799` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059562 has offset 1).
+The programs for A059562, the canonical program `A059562.P124344613896043799` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059562 has offset 1).
 
 The definition of A059562 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11761,7 +11761,7 @@ The definition of A059562 is `conjectured`: the Lean definition is a formula tha
 
 `comp[floor(n*log(π))]`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A059562
@@ -11967,7 +11967,7 @@ end A059562
 /-!
 # A059563: Beatty sequence for e + 1/e.
 
-The programs for A059563, the canonical program `A059563.P4467332134516133379` is in `Seq.B000.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059563 has offset 1).
+The programs for A059563, the canonical program `A059563.P4467332134516133379` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059563 has offset 1).
 
 The definition of A059563 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -11976,7 +11976,7 @@ The definition of A059563 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((n+1)*(e+1/e))`
 
-The canonical program, it is in `Seq.B000.C009`.
+The canonical program, it is in `Seq.B000.C010`.
 -/
 
 namespace A059563
@@ -15727,16 +15727,16 @@ end A059591
 /-!
 # A059592: Square-full part of n^2 + 1.
 
-The programs for A059592, the canonical program `A059592.P18336560042415151975` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059592 has offset 0).
+The programs for A059592, the canonical program `A059592.P18336560042415151975` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059592 has offset 0).
 
-The definition of A059592 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A059592 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000188, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A059592.P18336560042415151975
 
 `A000188(A002522(n))`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A059592
@@ -17132,7 +17132,7 @@ end
 end A059598.P11077018294466805811
 
 /-!
-# A059599: Expansion of (3+x)/(1-x)^6.
+# A059599: Expansion of g.f. (3+x)/(1-x)^6.
 
 The programs for A059599, the canonical program `A059599.P10772236887406018189` is in `Seq.B000.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A059599 has offset 0).
 

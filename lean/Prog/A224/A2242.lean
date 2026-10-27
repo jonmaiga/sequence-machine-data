@@ -33,9 +33,10 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B002.C000
@@ -44,9 +45,10 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -56,10 +58,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2279,7 +2277,7 @@ end A224226.P2661769919759885008
 /-!
 # A224227: a(n) = (1/50)*((15*n^2-20*n+4)*Fibonacci(n) - (5*n^2-6*n)*A000032(n)).
 
-The programs for A224227, the canonical program `A224227.P8919765967966025148` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224227 has offset 0).
+The programs for A224227, the canonical program `A224227.P8919765967966025148` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224227 has offset 0).
 
 The definition of A224227 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2288,7 +2286,7 @@ The definition of A224227 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `1/50*((15*n²-20*n+4)*A000045(n)-(5*n²-6*n)*A000032(n))`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A224227
@@ -4869,7 +4867,7 @@ end A224271.P12614136798096842178
 /-!
 # A224274: a(n) = binomial(4*n,n)/4.
 
-The programs for A224274, the canonical program `A224274.P7526504996366702607` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224274 has offset 1).
+The programs for A224274, the canonical program `A224274.P7526504996366702607` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224274 has offset 1).
 
 The definition of A224274 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4878,7 +4876,7 @@ The definition of A224274 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A005810(n+1)/4`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A224274

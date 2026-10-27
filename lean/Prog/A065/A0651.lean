@@ -46,18 +46,22 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -78,8 +82,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -790,7 +792,7 @@ end A065102
 /-!
 # A065103: A level 11 weight 5 form.
 
-The programs for A065103, the canonical program `A065103.P2718440150372070482` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065103 has offset 1).
+The programs for A065103, the canonical program `A065103.P2718440150372070482` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065103 has offset 1).
 
 The definition of A065103 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -799,7 +801,7 @@ The definition of A065103 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A035179(#)*A059377((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A065103
@@ -2360,7 +2362,7 @@ end A065116.P17120732049174863991
 /-!
 # A065117: Primes such that prime(p) +- pi(p) are simultaneously prime.
 
-The programs for A065117, the canonical program `A065117.P11982239824885181912` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065117 has offset 1).
+The programs for A065117, the canonical program `A065117.P11982239824885181912` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065117 has offset 1).
 
 The definition of A065117 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 814 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2369,7 +2371,7 @@ The definition of A065117 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A065059(n+1), A065060(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A065117
@@ -3497,7 +3499,7 @@ end A065125.P8491070040279278319
 /-!
 # A065126: Numbers n for which sigma_2(n^2) == 3 (mod 10).
 
-The programs for A065126, the canonical program `A065126.P13933962713951851804` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065126 has offset 1).
+The programs for A065126, the canonical program `A065126.P13933962713951851804` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065126 has offset 1).
 
 The definition of A065126 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 114 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3535,7 +3537,7 @@ end A065126
 
 `eq[3, A065803((n+1)²)]+1`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A065126
@@ -6853,9 +6855,9 @@ def P16755301546296079847.Spec : Prop :=
 end A065151
 
 /-!
-# A065152: Cototient(totient(n)) - totient(cototient(n)).
+# A065152: a(n) = cototient(totient(n)) - totient(cototient(n)).
 
-The programs for A065152, the canonical program `A065152.P5975500746502698895` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065152 has offset 1).
+The programs for A065152, the canonical program `A065152.P5975500746502698895` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065152 has offset 1).
 
 The definition of A065152 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6864,7 +6866,7 @@ The definition of A065152 is `conjectured`: the Lean definition is a formula tha
 
 `A070556(n+1)-A054571(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A065152
@@ -6995,12 +6997,6 @@ namespace A065152
 def P18078644797675260973.Spec : Prop :=
   ∀ n, P18078644797675260973.a n = A065152 (n + 1)
 
-theorem P18078644797675260973.correct : P18078644797675260973.Spec := by
-  intro n
-  simp only [A065152, Nat.add_sub_cancel, A065152.P18078644797675260973.a, A065152.P5975500746502698895.a, A051953, A051953.P11179276897610979764.a, A054571, A054571.P8375509208684838660.a, A070556, A070556.P18359578650946582400.a, A000010, A000010.P4673923239450215316.a, A343912, A343912.P17867153873116999387.f1, A343912.P17867153873116999387.f2, A343912.P17867153873116999387.a, A003557, A003557.P6364735403900941810.a, A053470, A053470.P13253634805606382182.f2, A053470.P13253634805606382182.f1, A053470.P13253634805606382182.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A062790, A062790.P5415624989759604668.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A065152
 
 /-! ## A065152.P5452992731698905980
@@ -7029,7 +7025,7 @@ end A065152
 /-!
 # A065153: Numbers for which the cototient of the totient is equal to the totient of the cototient.
 
-The programs for A065153, the canonical program `A065153.P9728212256497454356` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065153 has offset 1).
+The programs for A065153, the canonical program `A065153.P9728212256497454356` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065153 has offset 1).
 
 The definition of A065153 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 286 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7038,7 +7034,7 @@ The definition of A065153 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A065152(n+1)]+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A065153
@@ -7195,7 +7191,7 @@ end A065153
 /-!
 # A065154: Numbers for which the cototient of the totient is strictly less than the totient of the cototient.
 
-The programs for A065154, the canonical program `A065154.P12619907100534345672` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065154 has offset 1).
+The programs for A065154, the canonical program `A065154.P12619907100534345672` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065154 has offset 1).
 
 The definition of A065154 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1553 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7204,7 +7200,7 @@ The definition of A065154 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A065152(n+1), 0]+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A065154
@@ -7338,7 +7334,7 @@ end A065154
 /-!
 # A065155: Numbers whose cototient of totient is strictly greater than totient of cototient.
 
-The programs for A065155, the canonical program `A065155.P2388054126612955149` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065155 has offset 1).
+The programs for A065155, the canonical program `A065155.P2388054126612955149` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A065155 has offset 1).
 
 The definition of A065155 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8161 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7347,7 +7343,7 @@ The definition of A065155 is `conjectured`: the Lean definition is a formula tha
 
 `lt[0, A065152(n+1)]+1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A065155

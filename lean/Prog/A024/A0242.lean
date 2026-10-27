@@ -42,12 +42,11 @@ import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B003.C000
 import Seq.B003.C002
+import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -235,7 +234,7 @@ end A024200.P4142137529423756909
 /-!
 # A024201: [ (2nd elementary symmetric function of S(n))/(first elementary symmetric function of S(n)) ], where S(n) = {first n+1 odd positive integers}.
 
-The programs for A024201, the canonical program `A024201.P10877723346840984007` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024201 has offset 1).
+The programs for A024201, the canonical program `A024201.P10877723346840984007` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024201 has offset 1).
 
 The definition of A024201 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -267,7 +266,7 @@ end A024201
 
 `floor(A024196(n+1)/(1+n+1)²)`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A024201
@@ -2410,7 +2409,7 @@ end A024213
 /-!
 # A024214: a(n) = 4th elementary symmetric function of first n+3 positive integers congruent to 1 mod 3.
 
-The programs for A024214, the canonical program `A024214.P16151933790795133523` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024214 has offset 1).
+The programs for A024214, the canonical program `A024214.P16151933790795133523` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024214 has offset 1).
 
 The definition of A024214 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2419,7 +2418,7 @@ The definition of A024214 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A024213(n+1)*A112414(n+1)]`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A024214
@@ -3770,7 +3769,7 @@ end A024219
 /-!
 # A024220: a(n) = [ (3rd elementary symmetric function of S(n))/(first elementary symmetric function of S(n)) ], where S(n) = {first n+2 positive integers congruent to 1 mod 3}.
 
-The programs for A024220, the canonical program `A024220.P7609330145407247552` is in `Seq.B001.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024220 has offset 1).
+The programs for A024220, the canonical program `A024220.P7609330145407247552` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A024220 has offset 1).
 
 The definition of A024220 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3779,7 +3778,7 @@ The definition of A024220 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor(A024213(n+1)/A000326(n+3))`
 
-The canonical program, it is in `Seq.B001.C000`.
+The canonical program, it is in `Seq.B001.C001`.
 -/
 
 namespace A024220

@@ -39,28 +39,31 @@ import Seq.B001.C000
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
-import Seq.B002.C000
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C001
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
-import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1406,7 +1409,7 @@ end A248209.P2362257939825324521
 /-!
 # A248211: First differences of omega(n), the number of distinct prime factors function (A001221).
 
-The programs for A248211, the canonical program `A248211.P6041066512751082017` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248211 has offset 1).
+The programs for A248211, the canonical program `A248211.P6041066512751082017` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248211 has offset 1).
 
 The definition of A248211 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1415,7 +1418,7 @@ The definition of A248211 is `conditional`: the Lean definition is an OEIS formu
 
 `A001221(n+2)-A001221(n+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A248211
@@ -1958,12 +1961,6 @@ namespace A248211
 /-- `Δ[A083399(n+1)]` -/
 def P1721267356524839709.Spec : Prop :=
   ∀ n, P1721267356524839709.a n = A248211 (n + 1)
-
-theorem P1721267356524839709.correct : P1721267356524839709.Spec := by
-  intro n
-  simp only [A248211, Nat.add_sub_cancel, A248211.P1721267356524839709.f1, A248211.P1721267356524839709.a, A248211.P6041066512751082017.a, A001221, A001221.P10258181745752134128.a, A083399, A083399.P16148020281325742632.a, A000005, A000005.P16091521709108585461.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A055212, A055212.P14412881054625885538.a, A059841, A059841.P7264174615531153985.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A033273, A033273.P18420659424697249895.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A248211
 

@@ -37,35 +37,33 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2048,7 +2046,7 @@ end A293818.P902988348656077695
 /-!
 # A293820: Number of integer-sided polygons having perimeter n, modulo rotations but not reflections.
 
-The programs for A293820, the canonical program `A293820.P14058606410134119236` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293820 has offset 3).
+The programs for A293820, the canonical program `A293820.P14058606410134119236` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293820 has offset 3).
 
 The definition of A293820 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 338 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2057,7 +2055,7 @@ The definition of A293820 is `conjectured`: the Lean definition is a formula tha
 
 `A052823(n+3)-A052551(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A293820
@@ -3730,7 +3728,7 @@ end A293831.P10263121698481047218
 /-!
 # A293833: Number of primes p with A020330(n) < p < A020330(n+1).
 
-The programs for A293833, the canonical program `A293833.P17653983058469119188` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293833 has offset 1).
+The programs for A293833, the canonical program `A293833.P17653983058469119188` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293833 has offset 1).
 
 The definition of A293833 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 254 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3739,7 +3737,7 @@ The definition of A293833 is `conjectured`: the Lean definition is a formula tha
 
 `Δ[A000720(A020330(n+1))]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A293833
@@ -7873,7 +7871,7 @@ end A293894.P15767010743089640023
 /-!
 # A293895: Number of proper divisors of n of the form 3k+1.
 
-The programs for A293895, the canonical program `A293895.P5570247358903279074` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293895 has offset 1).
+The programs for A293895, the canonical program `A293895.P5570247358903279074` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293895 has offset 1).
 
 The definition of A293895 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8052,7 +8050,7 @@ end A293895
 
 `∑{d}[n+1, A057427(#-1)*A079978((n+1)/#-1)]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A293895
@@ -8139,7 +8137,7 @@ end A293895
 /-!
 # A293896: Number of proper divisors of n of the form 3k+2.
 
-The programs for A293896, the canonical program `A293896.P8621911693602830936` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293896 has offset 1).
+The programs for A293896, the canonical program `A293896.P8621911693602830936` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293896 has offset 1).
 
 The definition of A293896 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8254,7 +8252,7 @@ end A293896
 
 `A293895(2*(n+1))-A279060(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A293896
@@ -8390,7 +8388,7 @@ end A293896
 /-!
 # A293897: Sum of proper divisors of n of the form 3k+1.
 
-The programs for A293897, the canonical program `A293897.P15372755132286244762` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293897 has offset 1).
+The programs for A293897, the canonical program `A293897.P15372755132286244762` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293897 has offset 1).
 
 The definition of A293897 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8425,7 +8423,7 @@ end A293897
 
 `A078181(n+1)%A080031(n)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A293897
@@ -8596,7 +8594,7 @@ end A293897
 /-!
 # A293898: Sum of proper divisors of n of the form 3k+2.
 
-The programs for A293898, the canonical program `A293898.P15182913839119431634` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293898 has offset 1).
+The programs for A293898, the canonical program `A293898.P15182913839119431634` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A293898 has offset 1).
 
 The definition of A293898 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8605,7 +8603,7 @@ The definition of A293898 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A078182(#)*A157658((n+1)/#)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A293898

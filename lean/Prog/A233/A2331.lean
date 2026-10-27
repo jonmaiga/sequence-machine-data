@@ -31,7 +31,7 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -43,21 +43,20 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C002
+import Seq.B003.C001
+import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2155,7 +2154,7 @@ end A233130.P436269010906265572
 /-!
 # A233131: Sum of remainders of n modulo all smaller composite numbers.
 
-The programs for A233131, the canonical program `A233131.P11554169254893934889` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233131 has offset 0).
+The programs for A233131, the canonical program `A233131.P11554169254893934889` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233131 has offset 0).
 
 The definition of A233131 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2210,7 +2209,7 @@ end A233131
 
 `A004125(A028310(n))-(n*A230980(n)-A024924(n))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A233131
@@ -3192,7 +3191,7 @@ end A233148.P5991878592662518924
 /-!
 # A233149: a(n) = ((n^2+1)^3) - s, where s is the nearest square to (n^2+1)^3.
 
-The programs for A233149, the canonical program `A233149.P1830884297999285355` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233149 has offset 1).
+The programs for A233149, the canonical program `A233149.P1830884297999285355` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233149 has offset 1).
 
 The definition of A233149 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3230,7 +3229,7 @@ end A233149
 
 `-A077119((n+1)²+1)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A233149
@@ -5476,7 +5475,7 @@ end A233181.P6683507166699960846
 /-!
 # A233182: Numbers that are not the product of a prime and a square.
 
-The programs for A233182, the canonical program `A233182.P15043265348537409818` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233182 has offset 1).
+The programs for A233182, the canonical program `A233182.P15043265348537409818` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233182 has offset 1).
 
 The definition of A233182 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5518,7 +5517,7 @@ end A233182
 
 `comp[(n+1)*A358769(n+1)]`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A233182

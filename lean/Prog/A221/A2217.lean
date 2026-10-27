@@ -39,6 +39,7 @@ import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B003.C000
@@ -48,9 +49,6 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1713,7 +1711,7 @@ end A221718
 /-!
 # A221719: a(n) = 3*2^n - Fibonacci(n+3) - 1.
 
-The programs for A221719, the canonical program `A221719.P12211535061211735157` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221719 has offset 0).
+The programs for A221719, the canonical program `A221719.P12211535061211735157` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221719 has offset 0).
 
 The definition of A221719 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `3*2^n-A000045(n+3)-1` (program `A221719.P12211535061211735157`, by `A221719.P12211535061211735157.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1745,7 +1743,7 @@ end A221719
 
 `3*2^n-A000045(n+3)-1`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A221719
@@ -4630,7 +4628,7 @@ end A221762
 /-!
 # A221763: Numbers m such that 11*m^2 - 7 is a square.
 
-The programs for A221763, the canonical program `A221763.P1213117035241420343` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221763 has offset 1).
+The programs for A221763, the canonical program `A221763.P1213117035241420343` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A221763 has offset 1).
 
 The definition of A221763 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 154 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4639,7 +4637,7 @@ The definition of A221763 is `conjectured`: the Lean definition is a formula tha
 
 `2*A041015(n)-A221762(n+1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A221763

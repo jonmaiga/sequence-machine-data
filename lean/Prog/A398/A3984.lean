@@ -10,21 +10,22 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C009
 import Seq.B001.C012
-import Seq.B002.C001
-import Seq.B002.C006
-import Seq.B003.C004
-import Seq.B005.C000
+import Seq.B001.C013
+import Seq.B002.C002
+import Seq.B002.C007
+import Seq.B004.C000
+import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
 import Seq.Opaque.C004
@@ -936,7 +937,7 @@ end A398453.P7639948180159108014
 /-!
 # A398470: Number of increasing 3-term arithmetic progressions in an n^3 cube.
 
-The programs for A398470, the canonical program `A398470.P15258585584443073451` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398470 has offset 1).
+The programs for A398470, the canonical program `A398470.P15258585584443073451` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398470 has offset 1).
 
 The definition of A398470 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 141 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -945,7 +946,7 @@ The definition of A398470 is `conjectured`: the Lean definition is a formula tha
 
 `A036486(A000982(n+1))-A036486(n+1)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A398470
@@ -1087,7 +1088,7 @@ end
 end A398472.P933031046536253884
 
 /-!
-# A398477: Triangle read by rows: T(n, k + 1) = T(n, k) * (n + k + 1) / (n * (k + 2)) for k < n, starting at T(n, 0) = n^n, (row recurrence).
+# A398477: Triangle read by rows: T(n, k + 1) = T(n, k) * (n + k) / (n * (k + 1)) for k <= n, starting at T(n, 0) = n^n, (row recurrence).
 
 The programs for A398477, the canonical program `A398477.P18378234332377890742` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A398477 has offset 0).
 

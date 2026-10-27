@@ -45,10 +45,12 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -62,6 +64,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -76,8 +79,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3087,7 +3088,7 @@ end A035108.P3171300665011300212
 /-!
 # A035109: Numerators in the expansion of the Dirichlet series zeta(s) * Product((1+p^-s) / (1-p^(1-s))), p > 2.
 
-The programs for A035109, the canonical program `A035109.P3286072140509272248` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035109 has offset 0).
+The programs for A035109, the canonical program `A035109.P3286072140509272248` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035109 has offset 1).
 
 The definition of A035109 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3111,7 +3112,7 @@ namespace A035109
 
 /-- `A309324(n+1)/gcd(2, n+1)` -/
 def P2082479024486149617.Spec : Prop :=
-  ∀ n, P2082479024486149617.a n = (A035109 n : ℚ)
+  ∀ n, P2082479024486149617.a n = (A035109 (n + 1) : ℚ)
 
 end A035109
 
@@ -3137,7 +3138,7 @@ namespace A035109
 
 /-- `∑{d}[(n+1)/and(n+1, -(n+1)), A001615(#)]` -/
 def P3713594159641789092.Spec : Prop :=
-  ∀ n, P3713594159641789092.a n = A035109 n
+  ∀ n, P3713594159641789092.a n = A035109 (n + 1)
 
 end A035109
 
@@ -3160,7 +3161,7 @@ namespace A035109
 
 /-- `A060648(A000265(n+1))` -/
 def P5286779301189871819.Spec : Prop :=
-  ∀ n, P5286779301189871819.a n = A035109 n
+  ∀ n, P5286779301189871819.a n = A035109 (n + 1)
 
 end A035109
 
@@ -3183,7 +3184,7 @@ namespace A035109
 
 /-- `A060648(A153733(n)+1)` -/
 def P15071387213125465657.Spec : Prop :=
-  ∀ n, P15071387213125465657.a n = A035109 n
+  ∀ n, P15071387213125465657.a n = A035109 (n + 1)
 
 end A035109
 
@@ -3206,7 +3207,7 @@ namespace A035109
 
 /-- `A000265(A309324(n+1))` -/
 def P10717676348042630329.Spec : Prop :=
-  ∀ n, P10717676348042630329.a n = A035109 n
+  ∀ n, P10717676348042630329.a n = A035109 (n + 1)
 
 end A035109
 
@@ -3229,7 +3230,7 @@ namespace A035109
 
 /-- `A309324(n+1)/A000034(n)` -/
 def P7469605571242762600.Spec : Prop :=
-  ∀ n, P7469605571242762600.a n = (A035109 n : ℚ)
+  ∀ n, P7469605571242762600.a n = (A035109 (n + 1) : ℚ)
 
 end A035109
 
@@ -3237,18 +3238,18 @@ end A035109
 
 `∑{d}[n+1, A068068(#)*A193356((n+1)/#)]`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A035109
 
 /-- `∑{d}[n+1, A068068(#)*A193356((n+1)/#)]` -/
 def P3286072140509272248.Spec : Prop :=
-  ∀ n, P3286072140509272248.a n = A035109 n
+  ∀ n, P3286072140509272248.a n = A035109 (n + 1)
 
 theorem P3286072140509272248.correct : P3286072140509272248.Spec := by
   intro n
-  simp only [A035109]
+  simp only [A035109, Nat.add_sub_cancel]
 
 end A035109
 
@@ -3274,7 +3275,7 @@ namespace A035109
 
 /-- `∑{d}[n+1, A000593(#)*A323239((n+1)/#)]` -/
 def P5645630582424892904.Spec : Prop :=
-  ∀ n, P5645630582424892904.a n = A035109 n
+  ∀ n, P5645630582424892904.a n = A035109 (n + 1)
 
 end A035109
 
@@ -3300,7 +3301,7 @@ namespace A035109
 
 /-- `∑{d}[n+1, A088705(#)*A253629((n+1)/#)]` -/
 def P4154565197190932947.Spec : Prop :=
-  ∀ n, P4154565197190932947.a n = A035109 n
+  ∀ n, P4154565197190932947.a n = A035109 (n + 1)
 
 end A035109
 
@@ -3326,7 +3327,7 @@ namespace A035109
 
 /-- `∑{d}[n+1, A045771(#)*A349343((n+1)/#)]` -/
 def P14847458846426885354.Spec : Prop :=
-  ∀ n, P14847458846426885354.a n = A035109 n
+  ∀ n, P14847458846426885354.a n = A035109 (n + 1)
 
 end A035109
 
@@ -3352,7 +3353,7 @@ namespace A035109
 
 /-- `∑{d}[n+1, A078644(#)*A319997((n+1)/#)]` -/
 def P13094155513337234117.Spec : Prop :=
-  ∀ n, P13094155513337234117.a n = A035109 n
+  ∀ n, P13094155513337234117.a n = A035109 (n + 1)
 
 end A035109
 
@@ -3378,7 +3379,7 @@ namespace A035109
 
 /-- `∑{d}[n+1, A154269(#)*A309324((n+1)/#)]` -/
 def P5251534789253655238.Spec : Prop :=
-  ∀ n, P5251534789253655238.a n = A035109 n
+  ∀ n, P5251534789253655238.a n = A035109 (n + 1)
 
 end A035109
 
@@ -3404,7 +3405,7 @@ namespace A035109
 
 /-- `∑{d}[n+1, A264740(#)*A359155((n+1)/#)]` -/
 def P2150325712518188246.Spec : Prop :=
-  ∀ n, P2150325712518188246.a n = A035109 n
+  ∀ n, P2150325712518188246.a n = A035109 (n + 1)
 
 end A035109
 
@@ -3430,7 +3431,7 @@ namespace A035109
 
 /-- `∑{d}[n+1, A288417(#)*A359548((n+1)/#)]` -/
 def P17254266885078025948.Spec : Prop :=
-  ∀ n, P17254266885078025948.a n = A035109 n
+  ∀ n, P17254266885078025948.a n = A035109 (n + 1)
 
 end A035109
 
@@ -3456,7 +3457,7 @@ namespace A035109
 
 /-- `∑{d}[n+1, A317528(#)*A335115((n+1)/#)]` -/
 def P12046331813977187467.Spec : Prop :=
-  ∀ n, P12046331813977187467.a n = A035109 n
+  ∀ n, P12046331813977187467.a n = A035109 (n + 1)
 
 end A035109
 
@@ -3482,7 +3483,7 @@ namespace A035109
 
 /-- `∑{d}[n+1, A033999(#-1)*A159634((n+1)/#)]` -/
 def P11496542161118293162.Spec : Prop :=
-  ∀ n, P11496542161118293162.a n = A035109 n
+  ∀ n, P11496542161118293162.a n = A035109 (n + 1)
 
 end A035109
 
@@ -3508,7 +3509,7 @@ namespace A035109
 
 /-- `∑{d}[n+1, A059841(#-1)*A347385((n+1)/#)]` -/
 def P18365114854182511780.Spec : Prop :=
-  ∀ n, P18365114854182511780.a n = A035109 n
+  ∀ n, P18365114854182511780.a n = A035109 (n + 1)
 
 end A035109
 
@@ -3531,7 +3532,7 @@ namespace A035109
 
 /-- `A309324(2*(n+1))/2` -/
 def P12311554678050147763.Spec : Prop :=
-  ∀ n, P12311554678050147763.a n = (A035109 n : ℚ)
+  ∀ n, P12311554678050147763.a n = (A035109 (n + 1) : ℚ)
 
 end A035109
 
@@ -3554,7 +3555,7 @@ namespace A035109
 
 /-- `A060648(A028234(2*(n+1)))` -/
 def P1873961375952124608.Spec : Prop :=
-  ∀ n, P1873961375952124608.a n = A035109 n
+  ∀ n, P1873961375952124608.a n = A035109 (n + 1)
 
 end A035109
 
@@ -3577,7 +3578,7 @@ namespace A035109
 
 /-- `A309335(A309324(n+1))%A309324(2*(n+1))` -/
 def P5031839665047553630.Spec : Prop :=
-  ∀ n, P5031839665047553630.a n = A035109 n
+  ∀ n, P5031839665047553630.a n = A035109 (n + 1)
 
 end A035109
 
@@ -6919,7 +6920,7 @@ end A035144.P17509069896442061794
 /-!
 # A035145: Coefficients in expansion of Dirichlet series Product_p (1-(Kronecker(m,p)+1)*p^(-s)+Kronecker(m,p)*p^(-2s))^(-1) for m = -45.
 
-The programs for A035145, the canonical program `A035145.P5586715811141425784` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035145 has offset 1).
+The programs for A035145, the canonical program `A035145.P5586715811141425784` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035145 has offset 1).
 
 The definition of A035145 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6928,7 +6929,7 @@ The definition of A035145 is `conjectured`: the Lean definition is a formula tha
 
 `A035183(A038502(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A035145
@@ -7038,7 +7039,7 @@ end A035145
 /-!
 # A035146: Coefficients in expansion of Dirichlet series Product_p (1-(Kronecker(m,p)+1)*p^(-s)+Kronecker(m,p)*p^(-2s))^(-1) for m = -44.
 
-The programs for A035146, the canonical program `A035146.P2109457745238657454` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035146 has offset 1).
+The programs for A035146, the canonical program `A035146.P2109457745238657454` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035146 has offset 1).
 
 The definition of A035146 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7093,7 +7094,7 @@ end A035146
 
 `A035179(A000265(n+1))`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A035146
@@ -7128,12 +7129,6 @@ namespace A035146
 /-- `A035179(A153733(n)+1)` -/
 def P9787842378145982826.Spec : Prop :=
   ∀ n, P9787842378145982826.a n = A035146 (n + 1)
-
-theorem P9787842378145982826.correct : P9787842378145982826.Spec := by
-  intro n
-  simp only [A035146, Nat.add_sub_cancel, A035146.P9787842378145982826.a, A035146.P2109457745238657454.a, A000265, A000265.P2772582252347773295.a, A035179, A035179.P2839605348435704659.f1, A035179.P2839605348435704659.a, A153733, A153733.P10755713114946739736.a, A003602, A003602.P7612175048291952394.a, A011582, A011582.P16106722350450749318.a, A331739, A331739.P457850794578440847.a, A110963, A110963.P3344771894533151408.a, A025480, A025480.P15873863116418380882.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A035146
 
@@ -9765,7 +9760,7 @@ end A035164.P6196792539591912511
 /-!
 # A035165: Coefficients in expansion of Dirichlet series Product_p (1-(Kronecker(m,p)+1)*p^(-s)+Kronecker(m,p)*p^(-2s))^(-1) for m = -25.
 
-The programs for A035165, the canonical program `A035165.P18414371456217248996` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035165 has offset 1).
+The programs for A035165, the canonical program `A035165.P18414371456217248996` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035165 has offset 1).
 
 The definition of A035165 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9797,7 +9792,7 @@ end A035165
 
 `Δ[A005187(n)]*A053694(n)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A035165
@@ -10361,7 +10356,7 @@ end A035169.P9965497678076330665
 /-!
 # A035170: Coefficients in expansion of Dirichlet series Product_p (1-(Kronecker(m,p)+1)*p^(-s)+Kronecker(m,p)*p^(-2s))^(-1) for m = -20.
 
-The programs for A035170, the canonical program `A035170.P11485514388961379659` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035170 has offset 1).
+The programs for A035170, the canonical program `A035170.P11485514388961379659` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035170 has offset 1).
 
 The definition of A035170 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A124233, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10370,7 +10365,7 @@ The definition of A035170 is `conditional`: the Lean definition is an OEIS formu
 
 `A124233(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A035170
@@ -13775,7 +13770,7 @@ end A035182
 /-!
 # A035183: Coefficients in expansion of Dirichlet series Product_p (1-(Kronecker(m,p)+1)*p^(-s)+Kronecker(m,p)*p^(-2s))^(-1) for m = -5.
 
-The programs for A035183, the canonical program `A035183.P7352895301479017186` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035183 has offset 1).
+The programs for A035183, the canonical program `A035183.P7352895301479017186` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035183 has offset 1).
 
 The definition of A035183 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13784,7 +13779,7 @@ The definition of A035183 is `conjectured`: the Lean definition is a formula tha
 
 `A035170(n+1)*A035263(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A035183
@@ -15823,7 +15818,7 @@ end A035188.P3226347628842764786
 /-!
 # A035189: Coefficients in expansion of Dirichlet series Product_p (1-(Kronecker(m,p)+1)*p^(-s)+Kronecker(m,p)*p^(-2s))^(-1) for m = 7.
 
-The programs for A035189, the canonical program `A035189.P17313188979383133820` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035189 has offset 1).
+The programs for A035189, the canonical program `A035189.P17313188979383133820` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035189 has offset 1).
 
 The definition of A035189 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -15832,7 +15827,7 @@ The definition of A035189 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A089509(#)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A035189

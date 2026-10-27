@@ -39,27 +39,27 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -756,7 +756,7 @@ end A335708.P13023730784976724142
 /-!
 # A335711: The number of free polyominoes of width 2 and height n.
 
-The programs for A335711, the canonical program `A335711.P9401535491849578910` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335711 has offset 2).
+The programs for A335711, the canonical program `A335711.P9401535491849578910` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335711 has offset 2).
 
 The definition of A335711 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 261 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -765,7 +765,7 @@ The definition of A335711 is `conjectured`: the Lean definition is a formula tha
 
 `A193530(n+3)-1`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A335711
@@ -1071,7 +1071,7 @@ end A335713.P14937472851067818948
 /-!
 # A335714: The sum of the sizes (positions) of fixed points over all compositions of n.
 
-The programs for A335714, the canonical program `A335714.P6562929556570060848` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335714 has offset 1).
+The programs for A335714, the canonical program `A335714.P6562929556570060848` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335714 has offset 1).
 
 The definition of A335714 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1080,7 +1080,7 @@ The definition of A335714 is `conjectured`: the Lean definition is a formula tha
 
 `2^(n+1)-A206268(n+2)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A335714
@@ -1251,7 +1251,7 @@ end A335714
 /-!
 # A335716: a(n) = pi(pi(n)) - pi(Sum_{k=1..n-1} a(k)) with a(1) = 0.
 
-The programs for A335716, the canonical program `A335716.P5178440708128976525` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335716 has offset 1).
+The programs for A335716, the canonical program `A335716.P5178440708128976525` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335716 has offset 1).
 
 The definition of A335716 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1260,7 +1260,7 @@ The definition of A335716 is `conjectured`: the Lean definition is a formula tha
 
 `char[A095116(A007918(n))-n]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A335716
@@ -2288,7 +2288,7 @@ end A335735.P14998800888112009302
 /-!
 # A335738: Factorize each integer m >= 2 as the product of powers of nonunit squarefree numbers with distinct exponents that are powers of 2. The sequence lists m such that the factor with the largest exponent is a power of 2.
 
-The programs for A335738, the canonical program `A335738.P7632343520013467693` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335738 has offset 1).
+The programs for A335738, the canonical program `A335738.P7632343520013467693` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335738 has offset 1).
 
 The definition of A335738 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2141 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2297,7 +2297,7 @@ The definition of A335738 is `conjectured`: the Lean definition is a formula tha
 
 `lt[n*a(A057918(n+1))/(n-1), 2]+1` with `a(0)=2, a(1)=0`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A335738
@@ -2452,7 +2452,7 @@ end A335739.P908916728008413819
 /-!
 # A335740: Factorize each integer m >= 2 as the product of powers of nonunit squarefree numbers with distinct exponents that are powers of 2. The sequence lists m such that the factor with the largest exponent is not a power of 2.
 
-The programs for A335740, the canonical program `A335740.P3229018989197612016` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335740 has offset 1).
+The programs for A335740, the canonical program `A335740.P3229018989197612016` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335740 has offset 1).
 
 The definition of A335740 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2461,7 +2461,7 @@ The definition of A335740 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A335738(n+1)-2]+2`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A335740
@@ -2595,7 +2595,7 @@ end A335740
 /-!
 # A335741: Number of Pell numbers (A000129) <= n.
 
-The programs for A335741, the canonical program `A335741.P3669595014707314813` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335741 has offset 0).
+The programs for A335741, the canonical program `A335741.P3669595014707314813` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A335741 has offset 0).
 
 The definition of A335741 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2873,7 +2873,7 @@ end A335741
 
 `a(A189574(n))+1` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A335741

@@ -49,7 +49,8 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C007
+import Seq.B002.C006
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -67,8 +68,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4610,7 +4609,7 @@ end A027741.P18172401112167975722
 /-!
 # A027742: a(n) = phi(4^n-1)/(2*n).
 
-The programs for A027742, the canonical program `A027742.P15524387088752407227` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027742 has offset 1).
+The programs for A027742, the canonical program `A027742.P15524387088752407227` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027742 has offset 1).
 
 The definition of A027742 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A295501, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4642,7 +4641,7 @@ end A027742
 
 `A295501(n+1)/(2*(n+1))`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A027742
@@ -5088,7 +5087,7 @@ end A027743.P5540971991549161191
 /-!
 # A027744: Number of primitive polynomials of degree n over GF(8).
 
-The programs for A027744, the canonical program `A027744.P4838682014144095258` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027744 has offset 0).
+The programs for A027744, the canonical program `A027744.P4838682014144095258` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027744 has offset 0).
 
 The definition of A027744 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 111 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5097,7 +5096,7 @@ The definition of A027744 is `conjectured`: the Lean definition is a formula tha
 
 `A053287(A008486(n))/A028310(n)`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A027744
@@ -5249,7 +5248,7 @@ end A027744
 /-!
 # A027745: Number of primitive polynomials of degree n over GF(9).
 
-The programs for A027745, the canonical program `A027745.P14601779731189882620` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027745 has offset 0).
+The programs for A027745, the canonical program `A027745.P14601779731189882620` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027745 has offset 0).
 
 The definition of A027745 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 108 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5258,7 +5257,7 @@ The definition of A027745 is `conjectured`: the Lean definition is a formula tha
 
 `A027385(A004277(n))*A036453(n+1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A027745
@@ -7868,7 +7867,7 @@ end A027759.P6991739261498787525
 /-!
 # A027760: Denominator of Sum_{p prime, p-1 divides n} 1/p.
 
-The programs for A027760, the canonical program `A027760.P284501517253735648` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027760 has offset 1).
+The programs for A027760, the canonical program `A027760.P284501517253735648` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027760 has offset 1).
 
 The definition of A027760 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A091137, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7877,7 +7876,7 @@ The definition of A027760 is `conditional`: the Lean definition is an OEIS formu
 
 `A091137(n+1)/A091137(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A027760
@@ -8448,7 +8447,7 @@ end A027761.P15145431569388660006
 /-!
 # A027762: Denominator of Sum_{p prime, p-1 divides 2*n} 1/p.
 
-The programs for A027762, the canonical program `A027762.P18246507595659144078` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027762 has offset 1).
+The programs for A027762, the canonical program `A027762.P18246507595659144078` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A027762 has offset 1).
 
 The definition of A027762 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A027760, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8480,7 +8479,7 @@ end A027762
 
 `A027760(2*(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A027762

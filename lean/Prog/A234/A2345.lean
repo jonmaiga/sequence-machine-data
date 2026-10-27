@@ -32,7 +32,6 @@ import Seq.B000.C033
 import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
@@ -41,12 +40,13 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
@@ -59,13 +59,13 @@ import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -936,7 +936,7 @@ def P3119452035174331306.Spec : Prop :=
 end A234513
 
 /-!
-# A234517: Sequence of numbers from A234515 such that A234515(n) > A234515(k) for all k < n.
+# A234517: Numbers k > 1 such that for all m >= k, e(m) <= e(k), where e(m) = log_m(sigma(m)), the exponent such that m^e(m) = sigma(m), and sigma is the sum of divisors function, A000203.
 
 The programs for A234517, there is no canonical definition to state claims against.
 -/
@@ -6044,7 +6044,7 @@ end A234585.P4992703511860305212
 /-!
 # A234586: Odd-indexed terms are absolute values of differences.
 
-The programs for A234586, the canonical program `A234586.P10206095258370351874` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234586 has offset 1).
+The programs for A234586, the canonical program `A234586.P10206095258370351874` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A234586 has offset 1).
 
 The definition of A234586 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6053,7 +6053,7 @@ The definition of A234586 is `conjectured`: the Lean definition is a formula tha
 
 `n+2-A234587(C(or(1, n), n))`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A234586

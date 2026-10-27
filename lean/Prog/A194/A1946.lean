@@ -42,19 +42,18 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
@@ -65,8 +64,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4397,7 +4394,7 @@ end
 end A194659.P9797961271386479328
 
 /-!
-# A194661: Triangular array: T(n,k)=[+], where [ ] = floor, < > = fractional part, and r = (1+sqrt(5))/2 (the golden ratio).
+# A194661: Triangular array: T(n,k)=[<n*r>+<k*r>], where [ ] = floor, < > = fractional part, and r = (1+sqrt(5))/2 (the golden ratio).
 
 The programs for A194661, there is no canonical definition to state claims against.
 -/
@@ -4478,7 +4475,7 @@ end
 end A194661.P528688378209912691
 
 /-!
-# A194663: Number of k in [1,n] for which + > 1, where < > = fractional part and r = sqrt(2).
+# A194663: Number of k in [1,n] for which <r^n>+<r^k> > 1, where < > = fractional part and r = sqrt(2).
 
 The programs for A194663, there is no canonical definition to state claims against.
 -/
@@ -4559,7 +4556,7 @@ end
 end A194663.P17460564386546806629
 
 /-!
-# A194664: Triangular array: T(n,k)=[+], where [ ] = floor, < > = fractional part, and r = sqrt(2).
+# A194664: Triangular array: T(n,k)=[<n*r>+<k*r>], where [ ] = floor, < > = fractional part, and r = sqrt(2).
 
 The programs for A194664, there is no canonical definition to state claims against.
 -/
@@ -4748,7 +4745,7 @@ end
 end A194664.P7486547557642568340
 
 /-!
-# A194665: Number of k in [1,n] for which + > 1, where < > = fractional part and r = sqrt(2); row sums of A164664.
+# A194665: Number of k in [1,n] for which <n*r>+<k*r> > 1, where < > = fractional part and r = sqrt(2); row sums of A164664.
 
 The programs for A194665, there is no canonical definition to state claims against.
 -/
@@ -4859,7 +4856,7 @@ end
 end A194665.P2266546996219791718
 
 /-!
-# A194666: Number of k in [1,n] for which + > 1, where < > = fractional part and r = sqrt(3).
+# A194666: Number of k in [1,n] for which <r^n>+<r^k> > 1, where < > = fractional part and r = sqrt(3).
 
 The programs for A194666, there is no canonical definition to state claims against.
 -/
@@ -4940,7 +4937,7 @@ end
 end A194666.P18076617540677167963
 
 /-!
-# A194667: Triangular array: T(n,k)=[+], where [ ] = floor, < > = fractional part, and r = sqrt(3).
+# A194667: Triangular array: T(n,k)=[<n*r>+<k*r>], where [ ] = floor, < > = fractional part, and r = sqrt(3).
 
 The programs for A194667, there is no canonical definition to state claims against.
 -/
@@ -4991,7 +4988,7 @@ end
 end A194667.P13352432680826117512
 
 /-!
-# A194669: Number of k in [1,n] for which + > 1, where < > = fractional part and r = sqrt(5).
+# A194669: Number of k in [1,n] for which <r^n>+<r^k> > 1, where < > = fractional part and r = sqrt(5).
 
 The programs for A194669, there is no canonical definition to state claims against.
 -/
@@ -5075,7 +5072,7 @@ end
 end A194669.P7379337334376590139
 
 /-!
-# A194670: Triangular array: T(n,k)=[+], where [ ] = floor, < > = fractional part, and r = sqrt(5).
+# A194670: Triangular array: T(n,k)=[<n*r>+<k*r>], where [ ] = floor, < > = fractional part, and r = sqrt(5).
 
 The programs for A194670, there is no canonical definition to state claims against.
 -/
@@ -5258,7 +5255,7 @@ end
 end A194673.P2366079259967566147
 
 /-!
-# A194675: Triangular array: T(n,k)=[+], where [ ] = floor, < > = fractional part.
+# A194675: Triangular array: T(n,k)=[<e^n>+<e^k>], where [ ] = floor, < > = fractional part.
 
 The programs for A194675, there is no canonical definition to state claims against.
 -/
@@ -5348,7 +5345,7 @@ end
 end A194675.P8486762539398388623
 
 /-!
-# A194677: Triangular array: T(n,k)=[+], where [ ] = floor, < > = fractional part.
+# A194677: Triangular array: T(n,k)=[<n*e>+<k*e>], where [ ] = floor, < > = fractional part.
 
 The programs for A194677, there is no canonical definition to state claims against.
 -/
@@ -5417,7 +5414,7 @@ end
 end A194677.P13999917575266836610
 
 /-!
-# A194679: Triangular array: T(n,k)=[+], where [ ] = floor, < > = fractional part, and r=3-sqrt(2).
+# A194679: Triangular array: T(n,k)=[<r^n>+<r^k>], where [ ] = floor, < > = fractional part, and r=3-sqrt(2).
 
 The programs for A194679, there is no canonical definition to state claims against.
 -/
@@ -5507,7 +5504,7 @@ end
 end A194679.P2788429602374978501
 
 /-!
-# A194681: Triangular array: T(n,k)=[+], where [ ] = floor, < > = fractional part, and r=3-sqrt(2).
+# A194681: Triangular array: T(n,k)=[<n*r>+<k*r>], where [ ] = floor, < > = fractional part, and r=3-sqrt(2).
 
 The programs for A194681, there is no canonical definition to state claims against.
 -/
@@ -5729,7 +5726,7 @@ end
 end A194681.P693420925359320022
 
 /-!
-# A194682: Number of k in [1,n] for which + > 1, where < > = fractional part, and r=3-sqrt(2); row sums of A164681.
+# A194682: Number of k in [1,n] for which <n*r>+<k*r> > 1, where < > = fractional part, and r=3-sqrt(2); row sums of A164681.
 
 The programs for A194682, there is no canonical definition to state claims against.
 -/
@@ -5810,7 +5807,7 @@ end
 end A194682.P11611318266838925477
 
 /-!
-# A194683: Triangular array: T(n,k)=[+], where [ ] = floor, < > = fractional part, and r=(1+sqrt(3))/2.
+# A194683: Triangular array: T(n,k)=[<r^n>+<r^k>], where [ ] = floor, < > = fractional part, and r=(1+sqrt(3))/2.
 
 The programs for A194683, there is no canonical definition to state claims against.
 -/
@@ -5891,7 +5888,7 @@ end
 end A194683.P18133614706514347840
 
 /-!
-# A194685: Triangular array: T(n,k)=[+], where [ ] = floor, < > = fractional part, and r=(1+sqrt(3))/2.
+# A194685: Triangular array: T(n,k)=[<n*r>+<k*r>], where [ ] = floor, < > = fractional part, and r=(1+sqrt(3))/2.
 
 The programs for A194685, there is no canonical definition to state claims against.
 -/

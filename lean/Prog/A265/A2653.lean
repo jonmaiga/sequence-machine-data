@@ -39,11 +39,13 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -51,11 +53,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,8 +72,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -494,7 +496,7 @@ end A265314.P1414631078394471545
 /-!
 # A265316: First row of A262057.
 
-The programs for A265316, the canonical program `A265316.P6661828198078736164` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265316 has offset 1).
+The programs for A265316, the canonical program `A265316.P6661828198078736164` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265316 has offset 1).
 
 The definition of A265316 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1065 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -503,7 +505,7 @@ The definition of A265316 is `conjectured`: the Lean definition is a formula tha
 
 `A261691(2*n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A265316
@@ -3396,7 +3398,7 @@ end A265333
 /-!
 # A265334: Numbers that are >= k! but < 2*k! for some k; numbers whose factorial base representation (A007623) begins with digit "1".
 
-The programs for A265334, the canonical program `A265334.P10828477990969834378` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265334 has offset 1).
+The programs for A265334, the canonical program `A265334.P10828477990969834378` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265334 has offset 1).
 
 The definition of A265334 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4024 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3428,7 +3430,7 @@ end A265334
 
 `eq[A038712(A038712(n+1)), A099563(n)]`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A265334
@@ -12245,7 +12247,7 @@ end A265379.P3481006821672992183
 /-!
 # A265380: Binary representation of the middle column of the "Rule 158" elementary cellular automaton starting with a single ON (black) cell.
 
-The programs for A265380, the canonical program `A265380.P382037928076372946` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265380 has offset 0).
+The programs for A265380, the canonical program `A265380.P382037928076372946` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265380 has offset 0).
 
 The definition of A265380 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12254,7 +12256,7 @@ The definition of A265380 is `conjectured`: the Lean definition is a formula tha
 
 `or(10*a(n-1), A010121(n+1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A265380
@@ -13890,7 +13892,7 @@ end A265389.P1875451689829634102
 /-!
 # A265390: a(n) = lcm_{d|n} tau(d) * Sum_{d|n} 1/tau(d), where tau(d) represents the number of divisors of d (A000005(d)).
 
-The programs for A265390, the canonical program `A265390.P4023659624816682128` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265390 has offset 1).
+The programs for A265390, the canonical program `A265390.P4023659624816682128` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265390 has offset 1).
 
 The definition of A265390 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13922,7 +13924,7 @@ end A265390
 
 `∏{e}[n+1, A025529(#+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A265390

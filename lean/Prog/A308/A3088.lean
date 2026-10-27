@@ -40,7 +40,7 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
+import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
@@ -49,6 +49,7 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
@@ -60,15 +61,12 @@ import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1501,7 +1499,7 @@ end A308818
 /-!
 # A308819: Product of prime powers <= n.
 
-The programs for A308819, the canonical program `A308819.P18189255110465373061` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308819 has offset 0).
+The programs for A308819, the canonical program `A308819.P18189255110465373061` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308819 has offset 0).
 
 The definition of A308819 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 197 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1510,7 +1508,7 @@ The definition of A308819 is `conjectured`: the Lean definition is a formula tha
 
 `a(n-1)*A100994(n)` with `a(0)=1`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A308819
@@ -2656,7 +2654,7 @@ end A308832.P15908100708355120371
 /-!
 # A308833: Numbers r such that the r-th tetrahedral number A000292(r) divides r!.
 
-The programs for A308833, the canonical program `A308833.P17401601876213426740` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308833 has offset 1).
+The programs for A308833, the canonical program `A308833.P17401601876213426740` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A308833 has offset 1).
 
 The definition of A308833 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2709,12 +2707,6 @@ namespace A308833
 def P7433546169989971874.Spec : Prop :=
   ∀ n, P7433546169989971874.a n = A308833 (n + 1)
 
-theorem P7433546169989971874.correct : P7433546169989971874.Spec := by
-  intro n
-  simp only [A308833, Nat.add_sub_cancel, A308833.P7433546169989971874.a, A308833.P17401601876213426740.f1, A308833.P17401601876213426740.f2, A308833.P17401601876213426740.a, A010051, A010051.P15078252821583414300.a, A057427, A057427.P3058147525557661423.a, A171153, A171153.P4763760712593806838.a, A000007, A000007.P6599383543502402472.a, A057428, A057428.P2999489532230392221.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
-
 end A308833
 
 /-! ## A308833.P7252416338629258635
@@ -2737,12 +2729,6 @@ namespace A308833
 /-- `A171153(n+1)-A057428(n)` -/
 def P7252416338629258635.Spec : Prop :=
   ∀ n, P7252416338629258635.a n = A308833 (n + 1)
-
-theorem P7252416338629258635.correct : P7252416338629258635.Spec := by
-  intro n
-  simp only [A308833, Nat.add_sub_cancel, A308833.P7252416338629258635.a, A308833.P17401601876213426740.f1, A308833.P17401601876213426740.f2, A308833.P17401601876213426740.a, A010051, A010051.P15078252821583414300.a, A057428, A057428.P2999489532230392221.a, A171153, A171153.P4763760712593806838.a, A057427, A057427.P3058147525557661423.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A000007, A000007.P6599383543502402472.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A308833
 
@@ -2866,7 +2852,7 @@ end A308833
 
 `eq[A010051(n+1), A010051(n+2)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A308833

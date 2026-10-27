@@ -40,19 +40,18 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B002.C000
-import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7125,7 +7124,7 @@ end
 end A199143.P2704466070365815706
 
 /-!
-# A199144: Number of nX3 0..3 arrays with values 0..3 introduced in row major order and each element equal to one or two horizontal and vertical neighbors.
+# A199144: Number of n X 3 0..3 arrays with values 0..3 introduced in row major order and each element equal to one or two horizontal and vertical neighbors.
 
 The programs for A199144, there is no canonical definition to state claims against.
 -/

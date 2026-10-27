@@ -53,9 +53,10 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
@@ -66,9 +67,6 @@ import Seq.B005.C000
 import Seq.B006.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1125,7 +1123,7 @@ end A081110.P9539921471989269156
 /-!
 # A081113: Number of paths of length n-1 a king can take from one side of an n X n chessboard to the opposite side.
 
-The programs for A081113, the canonical program `A081113.P7576906969708490497` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081113 has offset 1).
+The programs for A081113, the canonical program `A081113.P7576906969708490497` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081113 has offset 1).
 
 The definition of A081113 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 205 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1180,7 +1178,7 @@ end A081113
 
 `A288834(n+1)-(A132894(n+1)+A132894(n))`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A081113
@@ -1924,7 +1922,7 @@ end A081117
 /-!
 # A081118: Triangle of first n numbers per row having exactly n 1's in binary representation.
 
-The programs for A081118, the canonical program `A081118.P6487108056144640916` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081118 has offset 1).
+The programs for A081118, the canonical program `A081118.P6487108056144640916` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081118 has offset 1).
 
 The definition of A081118 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1933,7 +1931,7 @@ The definition of A081118 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(2^A002260(n+1)-1)*2^A004736(n+1)-1`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A081118
@@ -5223,7 +5221,7 @@ end A081133
 /-!
 # A081134: Distance to nearest power of 3.
 
-The programs for A081134, the canonical program `A081134.P5939115943637325282` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081134 has offset 1).
+The programs for A081134, the canonical program `A081134.P5939115943637325282` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A081134 has offset 1).
 
 The definition of A081134 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A006166, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5261,7 +5259,7 @@ end A081134
 
 `n+1-A006166(n+1)`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A081134

@@ -29,10 +29,12 @@ import Seq.B000.C035
 import Seq.B000.C038
 import Seq.B000.C039
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
@@ -49,6 +51,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
@@ -56,12 +59,10 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1894,7 +1895,7 @@ end A294925.P13603206970988956073
 /-!
 # A294926: Number of proper divisors of n that are deficient (A005100).
 
-The programs for A294926, the canonical program `A294926.P4076781104688311516` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294926 has offset 1).
+The programs for A294926, the canonical program `A294926.P4076781104688311516` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294926 has offset 1).
 
 The definition of A294926 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A080226, A294934, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1903,7 +1904,7 @@ The definition of A294926 is `conditional`: the Lean definition is an OEIS formu
 
 `A080226(n+1)-A294934(n+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A294926
@@ -2487,7 +2488,7 @@ end A294927
 /-!
 # A294928: Number of proper divisors of n that are nonabundant (A263837).
 
-The programs for A294928, the canonical program `A294928.P2809866523533724411` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294928 has offset 1).
+The programs for A294928, the canonical program `A294928.P2809866523533724411` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294928 has offset 1).
 
 The definition of A294928 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2565,7 +2566,7 @@ end A294928
 
 `∑{d}[n+1, A057427(#-1)*A294935((n+1)/#)]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A294928
@@ -2652,7 +2653,7 @@ end A294928
 /-!
 # A294929: Number of proper divisors of n that are abundant (A005101).
 
-The programs for A294929, the canonical program `A294929.P2023919567513394110` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294929 has offset 1).
+The programs for A294929, the canonical program `A294929.P2023919567513394110` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294929 has offset 1).
 
 The definition of A294929 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A080224, A294937, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2661,7 +2662,7 @@ The definition of A294929 is `conditional`: the Lean definition is an OEIS formu
 
 `A080224(n+1)-A294937(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A294929
@@ -2909,7 +2910,7 @@ end A294929
 /-!
 # A294930: Characteristic function for A091191, primitive abundant numbers: abundant numbers (A005101) having no abundant proper divisor.
 
-The programs for A294930, the canonical program `A294930.P12845745568245124402` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294930 has offset 1).
+The programs for A294930, the canonical program `A294930.P12845745568245124402` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294930 has offset 1).
 
 The definition of A294930 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2972,7 +2973,7 @@ end A294930
 
 `A245552(A080224(n+1)²)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A294930
@@ -4709,7 +4710,7 @@ end A294935
 /-!
 # A294936: Characteristic function for nondeficient numbers (A023196): a(n) = 1 if A001065(n) >= n, 0 otherwise.
 
-The programs for A294936, the canonical program `A294936.P10769920400480544505` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294936 has offset 1).
+The programs for A294936, the canonical program `A294936.P10769920400480544505` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294936 has offset 1).
 
 The definition of A294936 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A294934, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4718,7 +4719,7 @@ The definition of A294936 is `conditional`: the Lean definition is an OEIS formu
 
 `1-A294934(n+1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A294936
@@ -5230,7 +5231,7 @@ end A294936
 /-!
 # A294937: Characteristic function for abundant numbers (A005101): a(n) = 1 if A001065(n) > n, 0 otherwise.
 
-The programs for A294937, the canonical program `A294937.P16064831210993750001` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294937 has offset 1).
+The programs for A294937, the canonical program `A294937.P16064831210993750001` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A294937 has offset 1).
 
 The definition of A294937 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A294935, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5239,7 +5240,7 @@ The definition of A294937 is `conditional`: the Lean definition is an OEIS formu
 
 `1-A294935(n+1)`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A294937

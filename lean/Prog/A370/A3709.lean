@@ -37,29 +37,28 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
-import Seq.B004.C000
+import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -853,7 +852,7 @@ end A370904.P7653287710194575094
 /-!
 # A370905: Partial sums of the alternating sum of divisors function (A206369).
 
-The programs for A370905, the canonical program `A370905.P18397358388152539286` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370905 has offset 1).
+The programs for A370905, the canonical program `A370905.P18397358388152539286` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370905 has offset 1).
 
 The definition of A370905 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -862,7 +861,7 @@ The definition of A370905 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A206369(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A370905
@@ -956,12 +955,6 @@ namespace A370905
 def P5470210777853028968.Spec : Prop :=
   ∀ n, P5470210777853028968.a n = A370905 (n + 1)
 
-theorem P5470210777853028968.correct : P5470210777853028968.Spec := by
-  intro n
-  simp only [A370905, Nat.add_sub_cancel, A370905.P5470210777853028968.f1, A370905.P5470210777853028968.a, A370905.P18397358388152539286.f1, A370905.P18397358388152539286.a, A206369, A206369.P2534442500048428716.a, A344439, A344439.P15144765631107196480.a, A061020, A061020.P8856517168126816648.f1, A061020.P8856517168126816648.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A298473, A298473.P4129261461603736948.a, A001221, A001221.P10258181745752134128.a, A001222, A001222.P11318177267732088261.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A370905
 
 /-! ## A370905.P14100105313456123689
@@ -984,12 +977,6 @@ namespace A370905
 /-- `A392341(n+1)+A000196(n+1)` -/
 def P14100105313456123689.Spec : Prop :=
   ∀ n, P14100105313456123689.a n = A370905 (n + 1)
-
-theorem P14100105313456123689.correct : P14100105313456123689.Spec := by
-  intro n
-  simp only [A370905, Nat.add_sub_cancel, A370905.P14100105313456123689.a, A370905.P18397358388152539286.f1, A370905.P18397358388152539286.a, A000196, A000196.P15434771586934192083.a, A206369, A206369.P2534442500048428716.a, A392341, A392341.P17720603421166545301.a, A061020, A061020.P8856517168126816648.f1, A061020.P8856517168126816648.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A298473, A298473.P4129261461603736948.a, A001221, A001221.P10258181745752134128.a, A001222, A001222.P11318177267732088261.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A370905
 
@@ -1019,7 +1006,7 @@ end A370905
 /-!
 # A370906: Partial alternating sums of the alternating sum of divisors function (A206369).
 
-The programs for A370906, the canonical program `A370906.P14316792219775904459` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370906 has offset 1).
+The programs for A370906, the canonical program `A370906.P14316792219775904459` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370906 has offset 1).
 
 The definition of A370906 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1028,7 +1015,7 @@ The definition of A370906 is `conjectured`: the Lean definition is a formula tha
 
 `∑[(-1)^n*A206369(n+1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A370906
@@ -2999,7 +2986,7 @@ end
 end A370940.P12566566921639032184
 
 /-!
-# A370942: Irregular triangle read by rows: T(n,k) is the number of nonempty, longest nonoverlapping properly nested substrings into which the k-th string of parentheses of length n can be split into, where strings within a row are in reverse lexicographical order.
+# A370942: Irregular triangle read by rows: T(n,k) is the number of nonempty, longest nonoverlapping properly nested substrings into which the k-th string of parentheses of length n can be split, where strings within a row are in reverse lexicographical order.
 
 The programs for A370942, there is no canonical definition to state claims against.
 -/

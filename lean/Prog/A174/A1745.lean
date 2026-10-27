@@ -45,18 +45,20 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,7 +72,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2241,7 +2242,7 @@ end A174519.P12795291621741249922
 /-!
 # A174520: Sum of all composite numbers in-between prime numbers p(n) and p(n+2).
 
-The programs for A174520, the canonical program `A174520.P16860900759774181259` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174520 has offset 1).
+The programs for A174520, the canonical program `A174520.P16860900759774181259` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174520 has offset 1).
 
 The definition of A174520 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2296,7 +2297,7 @@ end A174520
 
 `A045717(n+3)-A045717(n+1)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A174520
@@ -2505,7 +2506,7 @@ end A174520
 /-!
 # A174521: Primes that are the sum of all composite numbers in-between prime numbers p(n) and p(n+2).
 
-The programs for A174521, the canonical program `A174521.P15415351291785473139` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174521 has offset 1).
+The programs for A174521, the canonical program `A174521.P15415351291785473139` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174521 has offset 1).
 
 The definition of A174521 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 176 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2540,7 +2541,7 @@ end A174521
 
 `p?[A045717(n+3)-A045717(n+1)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A174521
@@ -7185,7 +7186,7 @@ end A174573.P14808032645336869068
 /-!
 # A174574: Partial sums of A065363.
 
-The programs for A174574, the canonical program `A174574.P9281296430949688215` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174574 has offset 0).
+The programs for A174574, the canonical program `A174574.P9281296430949688215` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A174574 has offset 0).
 
 The definition of A174574 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7194,7 +7195,7 @@ The definition of A174574 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `a(n-1)+A065363(n)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A174574

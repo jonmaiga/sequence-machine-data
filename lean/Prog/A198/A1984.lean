@@ -40,18 +40,17 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C012
+import Seq.B001.C010
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B003.C000
+import Seq.B002.C006
 import Seq.B003.C003
+import Seq.B006.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3460,7 +3459,7 @@ end
 end A198452.P14253252080957682114
 
 /-!
-# A198453: Consider triples a<=b
+# A198453: Consider triples a<=b<c where (a^2+b^2-c^2)/(c-a-b) = 1, ordered by a and then b; sequence gives a, b and c values in that order.
 
 The programs for A198453, there is no canonical definition to state claims against.
 -/
@@ -3619,7 +3618,7 @@ end
 end A198453.P1734144155100645010
 
 /-!
-# A198454: Consider triples a<=b
+# A198454: Consider triples a<=b<c where (a^2+b^2-c^2)/(c-a-b) =1, ordered by a and then b; sequence gives a values.
 
 The programs for A198454, there is no canonical definition to state claims against.
 -/
@@ -3785,7 +3784,7 @@ end
 end A198454.P11450363779373003275
 
 /-!
-# A198455: Consider triples a<=b
+# A198455: Consider triples a<=b<c where (a^2+b^2-c^2)/(c-a-b) = 1, ordered by a and then b; sequence gives b values.
 
 The programs for A198455, there is no canonical definition to state claims against.
 -/
@@ -3941,7 +3940,7 @@ end
 end A198455.P58101991844448504
 
 /-!
-# A198456: Consider triples a<=b
+# A198456: Consider triples a<=b<c where (a^2+b^2-c^2)/(c-a-b) = 1, ordered by a and then b; sequence gives c values.
 
 The programs for A198456, there is no canonical definition to state claims against.
 -/
@@ -4097,7 +4096,7 @@ end
 end A198456.P14206597473313241865
 
 /-!
-# A198458: Consider triples a<=b
+# A198458: Consider triples a<=b<c where (a^2+b^2-c^2)/(c-a-b) = 2, ordered by a and then b; sequence gives a values.
 
 The programs for A198458, there is no canonical definition to state claims against.
 -/
@@ -4241,7 +4240,7 @@ end
 end A198458.P9423428250014341958
 
 /-!
-# A198459: Consider triples a<=b
+# A198459: Consider triples a<=b<c where (a^2+b^2-c^2)/(c-a-b) = 2, ordered by a and then b; sequence gives b values.
 
 The programs for A198459, there is no canonical definition to state claims against.
 -/
@@ -4367,7 +4366,7 @@ end
 end A198459.P12047581660692991619
 
 /-!
-# A198460: Consider triples a<=b
+# A198460: Consider triples a<=b<c where (a^2+b^2-c^2)/(c-a-b) = 2, ordered by a and then b; sequence gives c values.
 
 The programs for A198460, there is no canonical definition to state claims against.
 -/
@@ -4511,7 +4510,7 @@ end
 end A198460.P18089603794606265419
 
 /-!
-# A198462: Consider triples a<=b
+# A198462: Consider triples a<=b<c where (a^2+b^2-c^2)/(c-a-b) = 3, ordered by a and then b; sequence gives a values.
 
 The programs for A198462, there is no canonical definition to state claims against.
 -/
@@ -4589,7 +4588,7 @@ end
 end A198462.P17150474216503647541
 
 /-!
-# A198463: Consider triples a<=b
+# A198463: Consider triples a<=b<c where (a^2+b^2-c^2)/(c-a-b) = 3, ordered by a and then b; sequence gives b values.
 
 The programs for A198463, there is no canonical definition to state claims against.
 -/
@@ -4673,7 +4672,7 @@ end
 end A198463.P9555577369622996547
 
 /-!
-# A198464: Consider triples a<=b
+# A198464: Consider triples a<=b<c where (a^2+b^2-c^2)/(c-a-b) = 3, ordered by a and then b; sequence gives c values.
 
 The programs for A198464, there is no canonical definition to state claims against.
 -/
@@ -4694,7 +4693,7 @@ end
 end A198464.P6494763601494812511
 
 /-!
-# A198465: Consider triples a<=b
+# A198465: Consider triples a<=b<c where (a^2+b^2-c^2)/(c-a-b) = -1, ordered by a and then b; sequence gives a, b and c values in that order.
 
 The programs for A198465, there is no canonical definition to state claims against.
 -/
@@ -4730,7 +4729,7 @@ end
 end A198465.P15856275821753828562
 
 /-!
-# A198466: Consider triples a<=b
+# A198466: Consider triples a<=b<c where (a^2+b^2-c^2)/(c-a-b) = -1, ordered by a and then b; sequence gives a values.
 
 The programs for A198466, there is no canonical definition to state claims against.
 -/
@@ -4811,7 +4810,7 @@ end
 end A198466.P11993936504911916691
 
 /-!
-# A198467: Consider triples a<=b
+# A198467: Consider triples a<=b<c where (a^2+b^2-c^2)/(c-a-b) = -1, ordered by a and then b; sequence gives b values.
 
 The programs for A198467, there is no canonical definition to state claims against.
 -/
@@ -4877,7 +4876,7 @@ end
 end A198467.P7988243445476853733
 
 /-!
-# A198468: Consider triples a<=b
+# A198468: Consider triples a<=b<c where (a^2+b^2-c^2)/(c-a-b) = -1, ordered by a and then b; sequence gives c values.
 
 The programs for A198468, there is no canonical definition to state claims against.
 -/

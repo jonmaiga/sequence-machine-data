@@ -41,11 +41,13 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,11 +55,12 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,8 +73,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -402,7 +403,7 @@ end A352201.P7972652999329740178
 /-!
 # A352202: a(n) = binary weight of A115510(n).
 
-The programs for A352202, the canonical program `A352202.P16382500020271687373` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352202 has offset 1).
+The programs for A352202, the canonical program `A352202.P16382500020271687373` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352202 has offset 1).
 
 The definition of A352202 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 116 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -503,7 +504,7 @@ end A352202
 
 `A111113(n+1)+A000120(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A352202
@@ -3219,7 +3220,7 @@ end A352241.P15674056680348410026
 /-!
 # A352242: Regular triangle T(n,k) = (n-k)*(n^3-k^3) for n>=2 and 1 <= k <= n-1, read by rows.
 
-The programs for A352242, the canonical program `A352242.P5962883400353177970` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352242 has offset 2).
+The programs for A352242, the canonical program `A352242.P5962883400353177970` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352242 has offset 2).
 
 The definition of A352242 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3228,7 +3229,7 @@ The definition of A352242 is `conjectured`: the Lean definition is a formula tha
 
 `(A133819(n+1)+A001283(n+2))*A055461(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A352242
@@ -6521,7 +6522,7 @@ end A352288.P6403038862667543952
 /-!
 # A352289: a(1) = 1 and thereafter a(n) = 2*prime(a(n-1)).
 
-The programs for A352289, the canonical program `A352289.P31542329096907047` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352289 has offset 1).
+The programs for A352289, the canonical program `A352289.P31542329096907047` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A352289 has offset 1).
 
 The definition of A352289 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*A000040(a(n-1))` (program `A352289.P31542329096907047`, by `A352289.P31542329096907047.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6530,7 +6531,7 @@ The definition of A352289 is `verified`: the Lean definition is proven equivalen
 
 `2*A000040(a(n-1))` with `a(0)=1`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A352289

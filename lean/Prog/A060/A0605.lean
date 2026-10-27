@@ -46,7 +46,8 @@ import Seq.B001.C005
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -58,20 +59,18 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -12444,29 +12443,6 @@ def P1033684506882370569.Spec : Prop :=
 
 end A060582
 
-/-! ## A060582.P8139467264929758646
-
-`(2*A051068(n))%3`
--/
-
-namespace A060582.P8139467264929758646
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (2 * A051068 n) 3
-
-end
-
-end A060582.P8139467264929758646
-
-namespace A060582
-
-/-- `(2*A051068(n))%3` -/
-def P8139467264929758646.Spec : Prop :=
-  ∀ n, P8139467264929758646.a n = A060582 n
-
-end A060582
-
 /-! ## A060582.P10354615189473813336
 
 `(2*A065361(n))%3`
@@ -12542,29 +12518,6 @@ theorem P15303663378848161911.correct : P15303663378848161911.Spec := by
 
 end A060582
 
-/-! ## A060582.P13645231652272072492
-
-`A080425(A051068(n))`
--/
-
-namespace A060582.P13645231652272072492
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A080425 (A051068 n).toNat
-
-end
-
-end A060582.P13645231652272072492
-
-namespace A060582
-
-/-- `A080425(A051068(n))` -/
-def P13645231652272072492.Spec : Prop :=
-  ∀ n, P13645231652272072492.a n = A060582 n
-
-end A060582
-
 /-! ## A060582.P5795488228123277829
 
 `A080425(A065361(n))`
@@ -12611,29 +12564,6 @@ def P7219135272493930408.Spec : Prop :=
 
 end A060582
 
-/-! ## A060582.P9854411341953521258
-
-`2-A010872(A051068(n)+2)`
--/
-
-namespace A060582.P9854411341953521258
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  2 - A010872 (A051068 n + 2).toNat
-
-end
-
-end A060582.P9854411341953521258
-
-namespace A060582
-
-/-- `2-A010872(A051068(n)+2)` -/
-def P9854411341953521258.Spec : Prop :=
-  ∀ n, P9854411341953521258.a n = A060582 n
-
-end A060582
-
 /-! ## A060582.P4963780095263679178
 
 `2-A010872(A065361(n)+2)`
@@ -12654,29 +12584,6 @@ namespace A060582
 /-- `2-A010872(A065361(n)+2)` -/
 def P4963780095263679178.Spec : Prop :=
   ∀ n, P4963780095263679178.a n = A060582 n
-
-end A060582
-
-/-! ## A060582.P2919755095389493651
-
-`A010872(2*A051068(n))`
--/
-
-namespace A060582.P2919755095389493651
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A010872 (2 * A051068 n).toNat
-
-end
-
-end A060582.P2919755095389493651
-
-namespace A060582
-
-/-- `A010872(2*A051068(n))` -/
-def P2919755095389493651.Spec : Prop :=
-  ∀ n, P2919755095389493651.a n = A060582 n
 
 end A060582
 
@@ -14523,7 +14430,7 @@ end A060593
 /-!
 # A060594: Number of solutions to x^2 == 1 (mod n), that is, square roots of unity modulo n.
 
-The programs for A060594, the canonical program `A060594.P2818484457649056228` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060594 has offset 1).
+The programs for A060594, the canonical program `A060594.P2818484457649056228` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060594 has offset 1).
 
 The definition of A060594 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14584,7 +14491,7 @@ end A060594
 
 `∑{d}[n+1, A114643(#)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A060594

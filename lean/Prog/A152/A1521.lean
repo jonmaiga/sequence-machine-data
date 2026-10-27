@@ -44,35 +44,33 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4196,7 +4194,7 @@ end
 end A152126.P14271356094919909523
 
 /-!
-# A152128: Arises in enumerating irreducible polynomials and pairs of relatively prime polynomials in several variables over finite fields, q = 2 case.
+# A152128: 
 
 The programs for A152128, there is no canonical definition to state claims against.
 -/
@@ -4277,7 +4275,7 @@ end
 end A152128.P17060994356790175241
 
 /-!
-# A152129: Arises in enumerating irreducible polynomials and pairs of relatively prime polynomials in several variables over finite fields, q = 3 case.
+# A152129: 
 
 The programs for A152129, there is no canonical definition to state claims against.
 -/
@@ -4358,7 +4356,7 @@ end
 end A152129.P17147295986460360417
 
 /-!
-# A152131: Arises in enumerating irreducible polynomials and pairs of relatively prime polynomials in several variables over finite fields, q = 5 case.
+# A152131: 
 
 The programs for A152131, there is no canonical definition to state claims against.
 -/

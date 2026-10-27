@@ -43,33 +43,33 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C006
+import Seq.B002.C004
+import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4498,7 +4498,7 @@ end A055131
 /-!
 # A055132: Moebius function (A008683) applied to each term in the triangle A055096.
 
-The programs for A055132, the canonical program `A055132.P3135174846840580053` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A055132 has offset 1).
+The programs for A055132, the canonical program `A055132.P3135174846840580053` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A055132 has offset 1).
 
 The definition of A055132 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4507,7 +4507,7 @@ The definition of A055132 is `conjectured`: the Lean definition is a formula tha
 
 `A008683(A055096(n+2))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A055132
@@ -4565,12 +4565,6 @@ namespace A055132
 /-- `A008683(A256560(n+2)-A256497(n+1))` -/
 def P17724065309881413150.Spec : Prop :=
   ∀ n, P17724065309881413150.a n = A055132 (n + 1)
-
-theorem P17724065309881413150.correct : P17724065309881413150.Spec := by
-  intro n
-  simp only [A055132, Nat.add_sub_cancel, A055132.P17724065309881413150.a, A055132.P3135174846840580053.a, A008683, A008683.P18254306604665478110.a, A055096, A055096.P17819275564351292767.a, A256497, A256497.P16786419377573326686.a, A256560, A256560.P10189218502537202963.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A085357, A085357.P3258697467278337073.a, A106400, A106400.P11201390576172776043.a, A005940, A005940.P5942875842694471387.a, A008966, A008966.P884693903657889754.a, A010060, A010060.P3080921269106500717.a, A364557, A364557.P16113127302810243144.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A055132
 
@@ -10794,7 +10788,7 @@ end A055196.P6805956623773223618
 /-!
 # A055197: Numbers k such that A005728(k) is not prime.
 
-The programs for A055197, the canonical program `A055197.P16609682820262287136` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A055197 has offset 1).
+The programs for A055197, the canonical program `A055197.P16609682820262287136` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A055197 has offset 1).
 
 The definition of A055197 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 439 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10832,7 +10826,7 @@ end A055197
 
 `A038567(A061560(n+2))-1`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A055197

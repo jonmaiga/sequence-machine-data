@@ -27,9 +27,10 @@ import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C003
 import Seq.B001.C005
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B003.C000
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
@@ -39,7 +40,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2287,7 +2287,7 @@ end A003833.P13888654747341112296
 /-!
 # A003841: Order of universal Chevalley group D_2(q), q = prime power.
 
-The programs for A003841, the canonical program `A003841.P6958147360462621523` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003841 has offset 1).
+The programs for A003841, the canonical program `A003841.P6958147360462621523` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003841 has offset 1).
 
 The definition of A003841 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2296,7 +2296,7 @@ The definition of A003841 is `conjectured`: the Lean definition is a formula tha
 
 `A329119(n+1)²`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A003841

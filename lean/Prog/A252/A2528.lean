@@ -34,32 +34,35 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -1270,7 +1273,7 @@ end A252814
 /-!
 # A252815: Number of n X 3 nonnegative integer arrays with upper left 0 and every value within 2 of its city block distance from the upper left and every value increasing by 0 or 1 with every step right or down.
 
-The programs for A252815, the canonical program `A252815.P8172004683234130111` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252815 has offset 1).
+The programs for A252815, the canonical program `A252815.P8172004683234130111` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252815 has offset 1).
 
 The definition of A252815 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1386,7 +1389,7 @@ end A252815
 
 `A202752(n+2)+C(n, 2)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A252815
@@ -2359,7 +2362,7 @@ end A252821.P6543445760880806621
 /-!
 # A252822: Number of n X 2 nonnegative integer arrays with upper left 0 and every value within 3 of its city block distance from the upper left and every value increasing by 0 or 1 with every step right or down.
 
-The programs for A252822, the canonical program `A252822.P3302283567831736258` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252822 has offset 1).
+The programs for A252822, the canonical program `A252822.P3302283567831736258` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252822 has offset 1).
 
 The definition of A252822 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2368,7 +2371,7 @@ The definition of A252822 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A056078(n+1)+∑[∑[n+1]]]+1`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A252822
@@ -8642,7 +8645,7 @@ end A252893
 /-!
 # A252895: Numbers with an odd number of square divisors.
 
-The programs for A252895, the canonical program `A252895.P12324510163407338421` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252895 has offset 1).
+The programs for A252895, the canonical program `A252895.P12324510163407338421` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A252895 has offset 1).
 
 The definition of A252895 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8784 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8729,7 +8732,7 @@ end A252895
 
 `filter[A337050(n+1), A353519(#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A252895
@@ -9136,7 +9139,7 @@ def P15459962389062305398.Spec : Prop :=
 end A252895
 
 /-!
-# A252898: Decimal expansion of lim_{n->infinity} -FractionalPart[Zeta'(1+1/n)] or -FractionalPart[Zeta'(1-1/n)], where Zeta' is the first derivative of the Riemann zeta function.
+# A252898: Decimal expansion of 1 + gamma_1, where gamma_1 is the first Stieltjes constant.
 
 The programs for A252898, there is no canonical definition to state claims against.
 -/

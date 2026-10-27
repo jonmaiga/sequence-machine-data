@@ -29,25 +29,27 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C010
+import Seq.B001.C007
+import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
-import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -56,8 +58,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -198,7 +198,7 @@ end A393906.P1385617862490475171
 /-!
 # A393907: Number of planar embedding isomorphism classes of the n-Hanoi graph.
 
-The programs for A393907, the canonical program `A393907.P7757244301669931271` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393907 has offset 1).
+The programs for A393907, the canonical program `A393907.P7757244301669931271` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393907 has offset 1).
 
 The definition of A393907 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 112 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -230,7 +230,7 @@ end A393907
 
 `floor((A092055(n)+1)/2)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A393907
@@ -491,7 +491,7 @@ end A393914.P11316506940158254649
 /-!
 # A393917: Number of primes strictly between (prime(n) + prime(n+1)) and (prime(n) * prime(n+1)).
 
-The programs for A393917, the canonical program `A393917.P7977796838059119531` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393917 has offset 1).
+The programs for A393917, the canonical program `A393917.P7977796838059119531` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393917 has offset 1).
 
 The definition of A393917 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -500,7 +500,7 @@ The definition of A393917 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000720(A006094(n+1))-A000720(A001043(n+1))`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A393917
@@ -1317,7 +1317,7 @@ end A393944.P1681833052140324049
 /-!
 # A393945: Number of binary words of length n with an even number of occurrences of subword 101.
 
-The programs for A393945, the canonical program `A393945.P2240198450366095358` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393945 has offset 0).
+The programs for A393945, the canonical program `A393945.P2240198450366095358` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393945 has offset 0).
 
 The definition of A393945 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 334 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1326,7 +1326,7 @@ The definition of A393945 is `conjectured`: the Lean definition is a formula tha
 
 `A104767(n)+A011782(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A393945
@@ -2216,7 +2216,7 @@ end A393975.P3768269043122126000
 /-!
 # A393976: a(n) = phi(n)^2 + phi(n) + 1, where phi is Euler's totient function.
 
-The programs for A393976, the canonical program `A393976.P13235993701100155495` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393976 has offset 1).
+The programs for A393976, the canonical program `A393976.P13235993701100155495` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393976 has offset 1).
 
 The definition of A393976 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2248,7 +2248,7 @@ end A393976
 
 `A000010(n+1)²+A000010(n+1)+1`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A393976
@@ -2330,12 +2330,6 @@ namespace A393976
 def P998687767704649649.Spec : Prop :=
   ∀ n, P998687767704649649.a n = A393976 (n + 1)
 
-theorem P998687767704649649.correct : P998687767704649649.Spec := by
-  intro n
-  simp only [A393976, Nat.add_sub_cancel, A393976.P998687767704649649.a, A393976.P13235993701100155495.a, A000010, A000010.P4673923239450215316.a, A039649, A039649.P16717312505280968063.a, A127473, A127473.P9698007400369304439.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P7264174615531153985.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A393976
 
 /-! ## A393976.P3931720818035561458
@@ -2358,12 +2352,6 @@ namespace A393976
 /-- `A039649(n+1)+A000010(n+1)*A000010(n+1)` -/
 def P3931720818035561458.Spec : Prop :=
   ∀ n, P3931720818035561458.a n = A393976 (n + 1)
-
-theorem P3931720818035561458.correct : P3931720818035561458.Spec := by
-  intro n
-  simp only [A393976, Nat.add_sub_cancel, A393976.P3931720818035561458.a, A393976.P13235993701100155495.a, A000010, A000010.P4673923239450215316.a, A039649, A039649.P16717312505280968063.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P7264174615531153985.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A393976
 
@@ -3162,7 +3150,7 @@ end A393994.P1188576189041115875
 /-!
 # A393995: Difference between the numbers of binary words of length n with an even and with an odd number of occurrences of subword 101.
 
-The programs for A393995, the canonical program `A393995.P5611640221726888957` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393995 has offset 0).
+The programs for A393995, the canonical program `A393995.P5611640221726888957` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A393995 has offset 0).
 
 The definition of A393995 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A393945, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3171,7 +3159,7 @@ The definition of A393995 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A393945(n)-2^n`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A393995

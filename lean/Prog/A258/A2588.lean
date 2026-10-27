@@ -30,42 +30,40 @@ import Seq.B000.C033
 import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4293,7 +4291,7 @@ end A258831
 /-!
 # A258832: Expansion of psi(-x^3) * f(-x, x^2) in powers of x where psi(), f(,) are Ramanujan theta functions.
 
-The programs for A258832, the canonical program `A258832.P14663651183616388296` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258832 has offset 0).
+The programs for A258832, the canonical program `A258832.P14663651183616388296` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258832 has offset 0).
 
 The definition of A258832 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A121444, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4302,7 +4300,7 @@ The definition of A258832 is `conditional`: the Lean definition is an OEIS formu
 
 `(-1)^n*A121444(n)`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A258832
@@ -5180,7 +5178,7 @@ end A258834
 /-!
 # A258835: Expansion of psi(x)^3 * psi(x^4) in powers of x where psi() is a Ramanujan theta function.
 
-The programs for A258835, the canonical program `A258835.P18240519772885468394` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258835 has offset 0).
+The programs for A258835, the canonical program `A258835.P18240519772885468394` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258835 has offset 0).
 
 The definition of A258835 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5189,7 +5187,7 @@ The definition of A258835 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000203(8*n+7)/8`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A258835
@@ -10523,7 +10521,7 @@ end A258875
 /-!
 # A258876: Integers k such that both k and prime(k) have the same digital root.
 
-The programs for A258876, the canonical program `A258876.P5938820012190541234` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258876 has offset 1).
+The programs for A258876, the canonical program `A258876.P5938820012190541234` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A258876 has offset 1).
 
 The definition of A258876 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1145 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10532,7 +10530,7 @@ The definition of A258876 is `conjectured`: the Lean definition is a formula tha
 
 `eq[8, dr(A162177(n+1))]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A258876

@@ -21,29 +21,28 @@ import Seq.B000.C036
 import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
-import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C002
-import Seq.B002.C005
+import Seq.B002.C003
+import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
-import Seq.B006.C000
-import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
@@ -169,7 +168,7 @@ end A388008.P7179225962045703478
 /-!
 # A388011: Numbers k such that sigma(k)/k < 5/3.
 
-The programs for A388011, the canonical program `A388011.P2434188042193603591` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388011 has offset 1).
+The programs for A388011, the canonical program `A388011.P2434188042193603591` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388011 has offset 1).
 
 The definition of A388011 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -207,7 +206,7 @@ end A388011
 
 `comp[A388012(n+1)-1]+1`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A388011
@@ -317,7 +316,7 @@ end A388011
 /-!
 # A388012: Numbers k such that sigma(k)/k >= 5/3.
 
-The programs for A388012, the canonical program `A388012.P15688760804591210700` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388012 has offset 1).
+The programs for A388012, the canonical program `A388012.P15688760804591210700` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388012 has offset 1).
 
 The definition of A388012 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4196 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -360,7 +359,7 @@ end A388012
 
 `lt[A277573(n+1), A000203(n+1)]+1`
 
-The canonical program, it is in `Seq.B002.C007`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A388012
@@ -547,7 +546,7 @@ end
 end A388013.P7447437482989331243
 
 /-!
-# A388014: Primitive terms of A388012: Numbers k such that sigma(k)/k >= 5/3, but for all whose proper divisors d|k, d
+# A388014: Primitive terms of A388012: Numbers k such that sigma(k)/k >= 5/3, but for all whose proper divisors d|k, d<k, sigma(d)/d < 5/3.
 
 The programs for A388014, there is no canonical definition to state claims against.
 -/
@@ -886,7 +885,7 @@ end
 end A388018.P8263227786389747681
 
 /-!
-# A388019: Primitive terms of A023197: numbers k such that sigma(k)/k >= 3, but for every proper divisor, d|k, d
+# A388019: Primitive terms of A023197: numbers k such that sigma(k)/k >= 3, but for every proper divisor, d|k, d<k, sigma(d)/d < 3.
 
 The programs for A388019, there is no canonical definition to state claims against.
 -/
@@ -2939,7 +2938,7 @@ end A388070.P1850613314472611700
 /-!
 # A388072: a(n) = Kronecker symbol (-10/n).
 
-The programs for A388072, the canonical program `A388072.P14779318985125589135` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388072 has offset 0).
+The programs for A388072, the canonical program `A388072.P14779318985125589135` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388072 has offset 0).
 
 The definition of A388072 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2948,7 +2947,7 @@ The definition of A388072 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A080891(n)*A188510(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A388072
@@ -2966,7 +2965,7 @@ end A388072
 /-!
 # A388073: a(n) = Kronecker symbol (-39/n) = (n/39).
 
-The programs for A388073, the canonical program `A388073.P2282890064848621379` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388073 has offset 0).
+The programs for A388073, the canonical program `A388073.P2282890064848621379` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388073 has offset 0).
 
 The definition of A388073 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A011583, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2975,7 +2974,7 @@ The definition of A388073 is `conditional`: the Lean definition is an OEIS formu
 
 `A102283(n)*A011583(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A388073
@@ -3020,7 +3019,7 @@ end A388076.P8075986898476901876
 /-!
 # A388077: Complement of A000332.
 
-The programs for A388077, the canonical program `A388077.P17750427128830897830` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388077 has offset 1).
+The programs for A388077, the canonical program `A388077.P17750427128830897830` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A388077 has offset 1).
 
 The definition of A388077 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3092,7 +3091,7 @@ end A388077
 
 `eq[0, A256436(n)]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A388077

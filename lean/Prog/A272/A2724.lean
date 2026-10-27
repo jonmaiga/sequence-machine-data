@@ -48,7 +48,8 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -56,23 +57,26 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -106,7 +110,7 @@ set_option linter.unreachableTactic false
 /-!
 # A272400: Square array read by antidiagonals upwards in which T(n,k) is the product of the n-th noncomposite number and the sum of the divisors of k, n>=1, k>=1.
 
-The programs for A272400, the canonical program `A272400.P14985379741189153101` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272400 has offset 1).
+The programs for A272400, the canonical program `A272400.P14985379741189153101` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272400 has offset 1).
 
 The definition of A272400 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008578, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -115,7 +119,7 @@ The definition of A272400 is `conditional`: the Lean definition is an OEIS formu
 
 `A008578(row(n)-col(n)+1)*A000203(col(n)+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A272400
@@ -3252,7 +3256,7 @@ end A272439
 /-!
 # A272441: Primes with a prime number of binary digits.
 
-The programs for A272441, the canonical program `A272441.P11204430094904168973` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272441 has offset 1).
+The programs for A272441, the canonical program `A272441.P11204430094904168973` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272441 has offset 1).
 
 The definition of A272441 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1052 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3261,7 +3265,7 @@ The definition of A272441 is `conjectured`: the Lean definition is a formula tha
 
 `filter[A380788(n+1), A010051(#)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A272441
@@ -6818,7 +6822,7 @@ end A272475
 /-!
 # A272476: a(n) = n if n is prime, a(n) = 2*n+3 otherwise.
 
-The programs for A272476, the canonical program `A272476.P12077626384774782464` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272476 has offset 0).
+The programs for A272476, the canonical program `A272476.P12077626384774782464` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A272476 has offset 0).
 
 The definition of A272476 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6876,7 +6880,7 @@ end A272476
 
 `(n+3)%(A007918(n)+3)+n`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A272476

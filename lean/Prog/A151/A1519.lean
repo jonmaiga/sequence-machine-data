@@ -49,20 +49,21 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -71,9 +72,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6451,7 +6449,7 @@ end A151947
 /-!
 # A151948: a(n) = tau(sigma(phi(n))).
 
-The programs for A151948, the canonical program `A151948.P4452451718552002337` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151948 has offset 1).
+The programs for A151948, the canonical program `A151948.P4452451718552002337` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151948 has offset 1).
 
 The definition of A151948 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6506,7 +6504,7 @@ end A151948
 
 `A000005(A000203(A000010(n+1)))`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A151948
@@ -16182,7 +16180,7 @@ end A151989
 /-!
 # A151990: If p and q are (odd) twin primes and q > p then p*q^2 + (p + q) + 1 is divisible by 6; a(n) = (p*q^2 + (p + q) + 1)/6.
 
-The programs for A151990, the canonical program `A151990.P1661502081810729062` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151990 has offset 1).
+The programs for A151990, the canonical program `A151990.P1661502081810729062` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151990 has offset 1).
 
 The definition of A151990 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 342 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16214,7 +16212,7 @@ end A151990
 
 `A110451(A040040(n+1))/3`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A151990
@@ -16885,7 +16883,7 @@ end A151997
 /-!
 # A151998: Directed genus of the binary de Bruijn graph D_n.
 
-The programs for A151998, the canonical program `A151998.P17606877049655075883` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151998 has offset 0).
+The programs for A151998, the canonical program `A151998.P17606877049655075883` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A151998 has offset 0).
 
 The definition of A151998 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -16894,7 +16892,7 @@ The definition of A151998 is `conjectured`: the Lean definition is a formula tha
 
 `(A000051(n)-A008965(n+2))/2`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A151998

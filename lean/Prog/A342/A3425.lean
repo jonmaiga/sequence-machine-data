@@ -33,22 +33,20 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -60,8 +58,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3241,7 +3237,7 @@ end A342533.P15443144610151667394
 /-!
 # A342534: a(n) = Sum_{k=1..n} phi(gcd(k, n))^2.
 
-The programs for A342534, the canonical program `A342534.P14977343384539830503` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342534 has offset 1).
+The programs for A342534, the canonical program `A342534.P14977343384539830503` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342534 has offset 1).
 
 The definition of A342534 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3250,7 +3246,7 @@ The definition of A342534 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n+1, A000010((n+1)/#)*A000010(#)²]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A342534
@@ -3346,7 +3342,7 @@ end A342534
 /-!
 # A342535: a(n) = Sum_{k=1..n} phi(gcd(k, n))^3.
 
-The programs for A342535, the canonical program `A342535.P13268357458306932432` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342535 has offset 1).
+The programs for A342535, the canonical program `A342535.P13268357458306932432` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342535 has offset 1).
 
 The definition of A342535 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3355,7 +3351,7 @@ The definition of A342535 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n+1, A000010((n+1)/#)*A000010(#)^3]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A342535
@@ -3566,7 +3562,7 @@ end A342538.P1477343748010045484
 /-!
 # A342539: a(n) = Sum_{k=1..n} phi(gcd(k, n))^n.
 
-The programs for A342539, the canonical program `A342539.P15134519083303666003` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342539 has offset 1).
+The programs for A342539, the canonical program `A342539.P15134519083303666003` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342539 has offset 1).
 
 The definition of A342539 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3575,7 +3571,7 @@ The definition of A342539 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n+1, A000010((n+1)/#)*A000010(#)^(n+1)]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A342539
@@ -3642,7 +3638,7 @@ end A342539
 /-!
 # A342540: a(n) = Sum_{k=1..n} phi(gcd(k, n))^(n-1).
 
-The programs for A342540, the canonical program `A342540.P5508283151527662987` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342540 has offset 1).
+The programs for A342540, the canonical program `A342540.P5508283151527662987` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342540 has offset 1).
 
 The definition of A342540 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3651,7 +3647,7 @@ The definition of A342540 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n+1, A000010((n+1)/#)*A000010(#)^n]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A342540
@@ -3669,7 +3665,7 @@ end A342540
 /-!
 # A342541: a(n) = Sum_{k=1..n} phi(gcd(k, n))^(n/gcd(k, n)).
 
-The programs for A342541, the canonical program `A342541.P5724264600942304568` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342541 has offset 1).
+The programs for A342541, the canonical program `A342541.P5724264600942304568` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342541 has offset 1).
 
 The definition of A342541 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3678,7 +3674,7 @@ The definition of A342541 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n+1, A000010((n+1)/#)*A000010(#)^((n+1)/#)]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A342541
@@ -3692,7 +3688,7 @@ end A342541
 /-!
 # A342542: a(n) = Sum_{k=1..n} phi(gcd(k, n))^(n/gcd(k, n) - 1).
 
-The programs for A342542, the canonical program `A342542.P12561197941591774611` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342542 has offset 1).
+The programs for A342542, the canonical program `A342542.P12561197941591774611` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342542 has offset 1).
 
 The definition of A342542 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3701,7 +3697,7 @@ The definition of A342542 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n+1, A000010((n+1)/#)*A000010(#)^((n+1)/#-1)]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A342542
@@ -3715,7 +3711,7 @@ end A342542
 /-!
 # A342543: a(n) = Sum_{k=1..n} phi(gcd(k, n))^gcd(k, n).
 
-The programs for A342543, the canonical program `A342543.P938359411798834154` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342543 has offset 1).
+The programs for A342543, the canonical program `A342543.P938359411798834154` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342543 has offset 1).
 
 The definition of A342543 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3724,7 +3720,7 @@ The definition of A342543 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n+1, A000010((n+1)/#)*A000010(#)^#]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A342543
@@ -3817,7 +3813,7 @@ end A342543
 /-!
 # A342544: a(n) = Sum_{k=1..n} phi(gcd(k, n))^(gcd(k, n) - 1).
 
-The programs for A342544, the canonical program `A342544.P4850078711706310498` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342544 has offset 1).
+The programs for A342544, the canonical program `A342544.P4850078711706310498` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342544 has offset 1).
 
 The definition of A342544 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3826,7 +3822,7 @@ The definition of A342544 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n+1, A000010((n+1)/#)*A000010(#)^(#-1)]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A342544
@@ -4898,7 +4894,7 @@ end A342566.P13717816533461076045
 /-!
 # A342567: a(n) = (prime(n)^2 - prime(n-1)*prime(n+1))/2, n >= 3.
 
-The programs for A342567, the canonical program `A342567.P15885445761304597193` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342567 has offset 3).
+The programs for A342567, the canonical program `A342567.P15885445761304597193` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342567 has offset 3).
 
 The definition of A342567 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4907,7 +4903,7 @@ The definition of A342567 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A056221(n+2)/2`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A342567

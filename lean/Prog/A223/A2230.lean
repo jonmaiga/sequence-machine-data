@@ -28,7 +28,7 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C005
+import Seq.B001.C003
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -36,9 +36,12 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -48,9 +51,6 @@ import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2607,7 +2607,7 @@ end A223034.P18019879820340780169
 /-!
 # A223035: Prime numbers whose digits squared sum to a square.
 
-The programs for A223035, the canonical program `A223035.P17125103435558196622` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223035 has offset 1).
+The programs for A223035, the canonical program `A223035.P17125103435558196622` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A223035 has offset 1).
 
 The definition of A223035 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 901 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2616,7 +2616,7 @@ The definition of A223035 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A175396(n+1)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A223035
@@ -3167,7 +3167,7 @@ end
 end A223043.P10265501596989235926
 
 /-!
-# A223044: Number of nX1 0..2 arrays with every row and column least squares fitting to a nonnegative slope straight line, with a single point array taken as having zero slope.
+# A223044: Number of n X 1 0..2 arrays with every row and column least squares fitting to a nonnegative slope straight line, with a single point array taken as having zero slope.
 
 The programs for A223044, there is no canonical definition to state claims against.
 -/

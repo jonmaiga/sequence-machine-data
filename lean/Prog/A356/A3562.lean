@@ -46,10 +46,10 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
@@ -59,12 +59,14 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -74,7 +76,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1070,7 +1071,7 @@ def P1742279384932353408.Spec : Prop :=
 end A356218
 
 /-!
-# A356219: Intersection of A001952 and A003151.
+# A356219: 
 
 The programs for A356219, there is no canonical definition to state claims against.
 -/
@@ -4517,7 +4518,7 @@ end A356248
 /-!
 # A356249: a(n) = Sum_{k=1..n} (k * floor(n/k))^3.
 
-The programs for A356249, the canonical program `A356249.P5630374803264959714` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356249 has offset 1).
+The programs for A356249, the canonical program `A356249.P5630374803264959714` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356249 has offset 1).
 
 The definition of A356249 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A064603, A319086, A356125, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4526,7 +4527,7 @@ The definition of A356249 is `conditional`: the Lean definition is an OEIS formu
 
 `A064603(n+1)-3*A356125(n+1)+3*A319086(n+1)`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A356249
@@ -5248,7 +5249,7 @@ end A356254.P13382706400304794236
 /-!
 # A356256: The lesser of the 2^n-th twin prime pair (A001359).
 
-The programs for A356256, the canonical program `A356256.P1374019322612265406` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356256 has offset 0).
+The programs for A356256, the canonical program `A356256.P1374019322612265406` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356256 has offset 0).
 
 The definition of A356256 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001359, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5257,7 +5258,7 @@ The definition of A356256 is `conditional`: the Lean definition is an OEIS formu
 
 `A001359(2^n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A356256
@@ -7065,7 +7066,7 @@ end A356287.P5596392882123169634
 /-!
 # A356288: Sum of numbers in n-th upward diagonal of triangle the sum of {1; 2,3; 4,5,6; 7,8,9,10; ...} and {1; 2,3; 3,4,5; 4,5,6,7; ...}.
 
-The programs for A356288, the canonical program `A356288.P582442813498813054` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356288 has offset 1).
+The programs for A356288, the canonical program `A356288.P582442813498813054` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356288 has offset 1).
 
 The definition of A356288 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A079824, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7074,7 +7075,7 @@ The definition of A356288 is `conditional`: the Lean definition is an OEIS formu
 
 `A079824(n+1)+A093005(n+1)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A356288

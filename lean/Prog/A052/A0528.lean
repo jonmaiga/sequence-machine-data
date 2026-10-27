@@ -42,8 +42,9 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,16 +54,17 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B004.C000
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1893,7 +1895,7 @@ end A052822.P1559773290182822641
 /-!
 # A052823: A simple grammar: cycles of pairs of sequences.
 
-The programs for A052823, the canonical program `A052823.P12858488528447412848` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052823 has offset 0).
+The programs for A052823, the canonical program `A052823.P12858488528447412848` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052823 has offset 0).
 
 The definition of A052823 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 341 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1925,7 +1927,7 @@ end A052823
 
 `A008965(A028310(n))-1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A052823
@@ -1960,12 +1962,6 @@ namespace A052823
 /-- `A262232(n)+A004526(n)` -/
 def P6646241520141447297.Spec : Prop :=
   ∀ n, P6646241520141447297.a n = A052823 n
-
-theorem P6646241520141447297.correct : P6646241520141447297.Spec := by
-  intro n
-  simp only [A052823, Nat.add_sub_cancel, A052823.P6646241520141447297.a, A052823.P12858488528447412848.a, A004526, A004526.P10084182425416171735.a, A008965, A008965.P16924218572130557635.a, A028310, A028310.P18130301328277559831.a, A262232, A262232.P26849987353357547.a, A000031, A000031.P16543801865445953573.f1, A000031.P16543801865445953573.a, A059966, A059966.P16360813507758205577.f1, A059966.P16360813507758205577.a, A008683, A008683.P18254306604665478110.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A052823
 
@@ -2434,7 +2430,7 @@ end A052824.P9082225565593906273
 /-!
 # A052825: A simple grammar: partial sums of A008965.
 
-The programs for A052825, the canonical program `A052825.P1042105182767021070` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052825 has offset 0).
+The programs for A052825, the canonical program `A052825.P1042105182767021070` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A052825 has offset 0).
 
 The definition of A052825 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 341 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2443,7 +2439,7 @@ The definition of A052825 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A000031(A004273(n)-n)-1]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A052825

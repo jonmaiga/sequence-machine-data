@@ -49,10 +49,12 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -60,15 +62,13 @@ import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -693,7 +693,7 @@ end A199512
 /-!
 # A199514: Numerators of zeros to a symmetric polynomial. Numerators of mu(n)^2*(n/(n - phi(n))).
 
-The programs for A199514, the canonical program `A199514.P11177618966910493986` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199514 has offset 2).
+The programs for A199514, the canonical program `A199514.P11177618966910493986` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199514 has offset 2).
 
 The definition of A199514 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -840,7 +840,7 @@ end A199514
 
 `(A066779(n+2)-A066779(n+1))/A009195(n+2)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A199514
@@ -877,7 +877,7 @@ end A199514
 /-!
 # A199515: Denominators of: MoebiusMu(n)^2*(n/(n - EulerPhi(n))).
 
-The programs for A199515, the canonical program `A199515.P17592746396209562418` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199515 has offset 2).
+The programs for A199515, the canonical program `A199515.P17592746396209562418` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199515 has offset 2).
 
 The definition of A199515 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -886,7 +886,7 @@ The definition of A199515 is `conjectured`: the Lean definition is a formula tha
 
 `A076511(lcm(n, A008683(n+2))+2)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A199515
@@ -13409,7 +13409,7 @@ end A199592.P17718779850530507071
 /-!
 # A199593: Numbers n such that 3n-2, 3n-1 and 3n are all composite.
 
-The programs for A199593, the canonical program `A199593.P322643745458318063` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199593 has offset 1).
+The programs for A199593, the canonical program `A199593.P322643745458318063` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199593 has offset 1).
 
 The definition of A199593 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13468,7 +13468,7 @@ end A199593
 
 `lt[A075743(n+1), 1]+2`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A199593
@@ -14099,7 +14099,7 @@ end A199594
 /-!
 # A199595: Numbers n such that 3n+6, 3n+7 and 3n+8 are all composite.
 
-The programs for A199595, the canonical program `A199595.P3367410599700455446` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199595 has offset 1).
+The programs for A199595, the canonical program `A199595.P3367410599700455446` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199595 has offset 1).
 
 The definition of A199595 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A199593, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -14108,7 +14108,7 @@ The definition of A199595 is `conditional`: the Lean definition is an OEIS formu
 
 `A199593(n+1)-8`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A199595
@@ -14369,7 +14369,7 @@ end A199595
 /-!
 # A199596: a(n) = floor(phi(2*n+1)/phi(2*n+2)).
 
-The programs for A199596, the canonical program `A199596.P10862457242794547760` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199596 has offset 0).
+The programs for A199596, the canonical program `A199596.P10862457242794547760` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A199596 has offset 0).
 
 The definition of A199596 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -14378,7 +14378,7 @@ The definition of A199596 is `conditional`: the Lean definition is an OEIS formu
 
 `floor(A000010(2*n+1)/A000010(2*n+2))`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A199596

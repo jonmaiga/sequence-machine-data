@@ -33,10 +33,12 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C006
+import Seq.B001.C005
+import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -45,6 +47,7 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -52,14 +55,12 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -2560,7 +2561,7 @@ end A160242
 /-!
 # A160243: a(n) = Lucas(n+1) + prime(n).
 
-The programs for A160243, the canonical program `A160243.P10253795621175619433` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160243 has offset 1).
+The programs for A160243, the canonical program `A160243.P10253795621175619433` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160243 has offset 1).
 
 The definition of A160243 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000032(n+2)+A000040(n+1)` (program `A160243.P10253795621175619433`, by `A160243.P10253795621175619433.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2569,7 +2570,7 @@ The definition of A160243 is `verified`: the Lean definition is proven equivalen
 
 `A000032(n+2)+A000040(n+1)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A160243
@@ -3075,7 +3076,7 @@ end A160243
 /-!
 # A160244: A104449(n+1)+prime(n), sum of a Lucas and the prime sequence.
 
-The programs for A160244, the canonical program `A160244.P937113562606224493` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160244 has offset 1).
+The programs for A160244, the canonical program `A160244.P937113562606224493` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160244 has offset 1).
 
 The definition of A160244 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -3107,7 +3108,7 @@ end A160244
 
 `A104449(n+2)+A000040(n+1)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A160244
@@ -3646,7 +3647,7 @@ end A160254.P14238209160759896277
 /-!
 # A160255: The sum of all the entries in an n X n Cayley table for multiplication in Z_n.
 
-The programs for A160255, the canonical program `A160255.P16099810821214577880` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160255 has offset 1).
+The programs for A160255, the canonical program `A160255.P16099810821214577880` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160255 has offset 1).
 
 The definition of A160255 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A018804, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3655,7 +3656,7 @@ The definition of A160255 is `conditional`: the Lean definition is an OEIS formu
 
 `(A000578(n+1)-(n+1)*A018804(n+1))/2`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A160255
@@ -4281,7 +4282,7 @@ end A160272.P12654145459560079263
 /-!
 # A160273: Successive differences (divided by 3) of the average of twin prime pairs divided by 2 (A040040).
 
-The programs for A160273, the canonical program `A160273.P2420458124321654118` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160273 has offset 1).
+The programs for A160273, the canonical program `A160273.P2420458124321654118` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A160273 has offset 1).
 
 The definition of A160273 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4339,7 +4340,7 @@ end A160273
 
 `A008615(A053319(n+2))`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A160273

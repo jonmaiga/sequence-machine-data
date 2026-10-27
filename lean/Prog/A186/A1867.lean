@@ -43,20 +43,23 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -67,9 +70,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2227,7 +2227,7 @@ end A186722.P16819363000792326041
 /-!
 # A186723: a(n) = n^n! (mod 10).
 
-The programs for A186723, the canonical program `A186723.P8199349779263166728` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186723 has offset 0).
+The programs for A186723, the canonical program `A186723.P8199349779263166728` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186723 has offset 0).
 
 The definition of A186723 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 666 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2236,7 +2236,7 @@ The definition of A186723 is `conjectured`: the Lean definition is a formula tha
 
 `(n^gcd(4, A016116(n)))%10`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A186723
@@ -5653,7 +5653,7 @@ end A186748.P13280367744259990477
 /-!
 # A186749: a(n) = phi(n - phi(n) + 3).
 
-The programs for A186749, the canonical program `A186749.P8755394519025797091` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186749 has offset 1).
+The programs for A186749, the canonical program `A186749.P8755394519025797091` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186749 has offset 1).
 
 The definition of A186749 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5685,7 +5685,7 @@ end A186749
 
 `A000010(n+1-A000010(n+1)+3)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A186749
@@ -5775,12 +5775,6 @@ namespace A186749
 def P13126207031672428925.Spec : Prop :=
   ∀ n, P13126207031672428925.a n = A186749 (n + 1)
 
-theorem P13126207031672428925.correct : P13126207031672428925.Spec := by
-  intro n
-  simp only [A186749, Nat.add_sub_cancel, A186749.P13126207031672428925.a, A186749.P8755394519025797091.a, A000010, A000010.P4673923239450215316.a, A219428, A219428.P9184341513320465947.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P7264174615531153985.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A186749
 
 /-! ## A186749.P10126163869138156891
@@ -5803,12 +5797,6 @@ namespace A186749
 /-- `A109606(A051953(n+1)+3)+1` -/
 def P10126163869138156891.Spec : Prop :=
   ∀ n, P10126163869138156891.a n = A186749 (n + 1)
-
-theorem P10126163869138156891.correct : P10126163869138156891.Spec := by
-  intro n
-  simp only [A186749, Nat.add_sub_cancel, A186749.P10126163869138156891.a, A186749.P8755394519025797091.a, A000010, A000010.P4673923239450215316.a, A051953, A051953.P11179276897610979764.a, A109606, A109606.P2415810041766612210.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P7264174615531153985.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A186749
 
@@ -5833,12 +5821,6 @@ namespace A186749
 def P3933302013666039893.Spec : Prop :=
   ∀ n, P3933302013666039893.a n = A186749 (n + 1)
 
-theorem P3933302013666039893.correct : P3933302013666039893.Spec := by
-  intro n
-  simp only [A186749, Nat.add_sub_cancel, A186749.P3933302013666039893.a, A186749.P8755394519025797091.a, A000010, A000010.P4673923239450215316.a, A020705, A020705.P1213730512334166827.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P7264174615531153985.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A186749
 
 /-! ## A186749.P17470306606172459912
@@ -5861,12 +5843,6 @@ namespace A186749
 /-- `A000010(A000005(n+1)+A046640(n+1)+1)` -/
 def P17470306606172459912.Spec : Prop :=
   ∀ n, P17470306606172459912.a n = A186749 (n + 1)
-
-theorem P17470306606172459912.correct : P17470306606172459912.Spec := by
-  intro n
-  simp only [A186749, Nat.add_sub_cancel, A186749.P17470306606172459912.a, A186749.P8755394519025797091.a, A000005, A000005.P16091521709108585461.a, A000010, A000010.P4673923239450215316.a, A046640, A046640.P10355392584185486359.a, A003557, A003557.P6364735403900941810.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A045763, A045763.P9156243808986750239.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P7264174615531153985.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A186749
 
@@ -6769,7 +6745,7 @@ end
 end A186754.P1321693399984351227
 
 /-!
-# A186755: Number of permutations of {1,2,...,n} having no increasing cycles. A cycle (b(1), b(2), ...) is said to be increasing if, when written with its smallest element in the first position, it satisfies b(1)
+# A186755: Number of permutations of {1,2,...,n} having no increasing cycles. A cycle (b(1), b(2), ...) is said to be increasing if, when written with its smallest element in the first position, it satisfies b(1)<b(2)<b(3)<... .
 
 The programs for A186755, there is no canonical definition to state claims against.
 -/
@@ -6919,7 +6895,7 @@ end
 end A186757.P7587850707956273015
 
 /-!
-# A186758: Number of permutations of {1,2,...,n} with no increasing cycles of length >=2. A cycle (b(1), b(2), ...) is said to be increasing if, when written with its smallest element in the first position, it satisfies b(1)
+# A186758: Number of permutations of {1,2,...,n} with no increasing cycles of length >=2. A cycle (b(1), b(2), ...) is said to be increasing if, when written with its smallest element in the first position, it satisfies b(1)<b(2)<b(3)<... .
 
 The programs for A186758, there is no canonical definition to state claims against.
 -/
@@ -7171,7 +7147,7 @@ end
 end A186759.P12286687201091933328
 
 /-!
-# A186760: Number of cycles that are either nonincreasing or of length 1 in all permutations of {1,2,...,n}. A cycle (b(1), b(2), ...) is said to be increasing if, when written with its smallest element in the first position, it satisfies b(1)
+# A186760: Number of cycles that are either nonincreasing or of length 1 in all permutations of {1,2,...,n}. A cycle (b(1), b(2), ...) is said to be increasing if, when written with its smallest element in the first position, it satisfies b(1)<b(2)<b(3)<... .
 
 The programs for A186760, there is no canonical definition to state claims against.
 -/
@@ -7267,7 +7243,7 @@ end
 end A186760.P4218436803854620475
 
 /-!
-# A186761: Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having k increasing odd cycles (0<=k<=n). A cycle (b(1), b(2), ...) is said to be increasing if, when written with its smallest element in the first position, it satisfies b(1)
+# A186761: Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having k increasing odd cycles (0<=k<=n). A cycle (b(1), b(2), ...) is said to be increasing if, when written with its smallest element in the first position, it satisfies b(1)<b(2)<b(3)<... . A cycle is said to be odd if it has an odd number of entries. For example, the permutation (152)(347)(6)(8) has 3 increasing odd cycles.
 
 The programs for A186761, there is no canonical definition to state claims against.
 -/
@@ -7351,7 +7327,7 @@ end
 end A186761.P11502516275302576239
 
 /-!
-# A186762: Number of permutations of {1,2,...,n} having no increasing odd cycles. A cycle (b(1), b(2), ...) is said to be increasing if, when written with its smallest element in the first position, it satisfies b(1)
+# A186762: Number of permutations of {1,2,...,n} having no increasing odd cycles. A cycle (b(1), b(2), ...) is said to be increasing if, when written with its smallest element in the first position, it satisfies b(1)<b(2)<b(3)<... . A cycle is said to be odd if it has an odd number of entries.
 
 The programs for A186762, there is no canonical definition to state claims against.
 -/
@@ -7437,7 +7413,7 @@ end A186762.P4515628178985574388
 /-!
 # A186763: Number of increasing odd cycles in all permutations of {1,2,...,n}.
 
-The programs for A186763, the canonical program `A186763.P4441082643897295989` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186763 has offset 0).
+The programs for A186763, the canonical program `A186763.P4441082643897295989` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186763 has offset 0).
 
 The definition of A186763 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7446,7 +7422,7 @@ The definition of A186763 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(A000522(n)-A000166(n))/2`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A186763
@@ -7665,7 +7641,7 @@ def P10343403253839104508.Spec : Prop :=
 end A186763
 
 /-!
-# A186765: Number of permutations of {1,2,...,n} having no increasing even cycles. A cycle (b(1), b(2), ...) is said to be increasing if, when written with its smallest element in the first position, it satisfies b(1)
+# A186765: Number of permutations of {1,2,...,n} having no increasing even cycles. A cycle (b(1), b(2), ...) is said to be increasing if, when written with its smallest element in the first position, it satisfies b(1)<b(2)<b(3)<... . A cycle is said to be even if it has an even number of entries.
 
 The programs for A186765, there is no canonical definition to state claims against.
 -/
@@ -7770,7 +7746,7 @@ end
 end A186765.P3535208484391600323
 
 /-!
-# A186767: Number of permutations of {1,2,...,n} having no nonincreasing odd cycles. A cycle (b(1), b(2), ...) is said to be increasing if, when written with its smallest element in the first position, it satisfies b(1)
+# A186767: Number of permutations of {1,2,...,n} having no nonincreasing odd cycles. A cycle (b(1), b(2), ...) is said to be increasing if, when written with its smallest element in the first position, it satisfies b(1)<b(2)<b(3)<... . A cycle is said to be odd if it has an odd number of entries.
 
 The programs for A186767, there is no canonical definition to state claims against.
 -/
@@ -7869,7 +7845,7 @@ end
 end A186767.P2853671330397969647
 
 /-!
-# A186768: Number of nonincreasing odd cycles in all permutations of {1,2,...,n}. A cycle (b(1), b(2), ...) is said to be increasing if, when written with its smallest element in the first position, it satisfies b(1)
+# A186768: Number of nonincreasing odd cycles in all permutations of {1,2,...,n}. A cycle (b(1), b(2), ...) is said to be increasing if, when written with its smallest element in the first position, it satisfies b(1)<b(2)<b(3)<... . A cycle is said to be odd if it has an odd number of entries.
 
 The programs for A186768, there is no canonical definition to state claims against.
 -/
@@ -7965,7 +7941,7 @@ end
 end A186768.P5775249605450532514
 
 /-!
-# A186770: Number of permutations of {1,2,...,n} having no nonincreasing even cycles. A cycle (b(1), b(2), ...) is said to be increasing if, when written with its smallest element in the first position, it satisfies b(1)
+# A186770: Number of permutations of {1,2,...,n} having no nonincreasing even cycles. A cycle (b(1), b(2), ...) is said to be increasing if, when written with its smallest element in the first position, it satisfies b(1)<b(2)<b(3)<... . A cycle is said to be even if it has an even number of entries.
 
 The programs for A186770, there is no canonical definition to state claims against.
 -/
@@ -8626,7 +8602,7 @@ end A186774.P18334863635457317164
 /-!
 # A186775: Numbers k such that digitsum(2^k) > digitsum(2^(k+1)).
 
-The programs for A186775, the canonical program `A186775.P3396256789162687716` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186775 has offset 1).
+The programs for A186775, the canonical program `A186775.P3396256789162687716` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A186775 has offset 1).
 
 The definition of A186775 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4919 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8635,7 +8611,7 @@ The definition of A186775 is `conjectured`: the Lean definition is a formula tha
 
 `lt[Δ[A001370(n)], 0]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A186775

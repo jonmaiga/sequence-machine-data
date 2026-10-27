@@ -44,18 +44,20 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
@@ -64,8 +66,6 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4777,21 +4777,6 @@ end A151497.P3881163084597769459
 
 The programs for A151498, there is no canonical definition to state claims against.
 -/
-
-/-! ## A151498.P9825049819329472010
-
-`ceil((2*n+1)*(3*n+1)^(n-2)*4^n/A195762(n+1))`
--/
-
-namespace A151498.P9825049819329472010
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  ⌈(2 * n + 1 : ℚ) * (3 * n + 1 : ℚ) ^ ((n : ℤ) - 2 : ℤ) * (4 ^ n : ℚ) / (A195762 (n + 1) : ℚ)⌉
-
-end
-
-end A151498.P9825049819329472010
 
 /-! ## A151498.P9236968323130817768
 

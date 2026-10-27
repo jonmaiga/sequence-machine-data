@@ -42,6 +42,7 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
@@ -55,8 +56,9 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C002
+import Seq.B003.C001
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,9 +70,8 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1746,7 +1747,7 @@ end
 end A194209.P1258823883715143952
 
 /-!
-# A194210: a(n) = floor(Sum_{k=1..n} ), where < > denotes fractional part.
+# A194210: a(n) = floor(Sum_{k=1..n} <k*Pi/3>), where < > denotes fractional part.
 
 The programs for A194210, there is no canonical definition to state claims against.
 -/
@@ -1992,7 +1993,7 @@ end
 end A194211.P9768569244235785342
 
 /-!
-# A194212: a(n) = floor(Sum_{k=1..n} ), where < > = fractional part.
+# A194212: a(n) = floor(Sum_{k=1..n} <2*k*Pi>), where < > = fractional part.
 
 The programs for A194212, there is no canonical definition to state claims against.
 -/
@@ -2169,7 +2170,7 @@ end
 end A194213.P13811479157250336723
 
 /-!
-# A194214: a(n) = floor(Sum_{k=1..n} ), where < > = fractional part.
+# A194214: a(n) = floor(Sum_{k=1..n} <2*k*Pi/3>), where < > = fractional part.
 
 The programs for A194214, there is no canonical definition to state claims against.
 -/

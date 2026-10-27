@@ -42,18 +42,19 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
-import Seq.B003.C000
+import Seq.B002.C007
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -64,7 +65,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -949,7 +950,7 @@ end A271908.P234781865021932224
 /-!
 # A271909: Numbers k such that k and 3*k+1 have the same number of prime divisors (including multiplicities).
 
-The programs for A271909, the canonical program `A271909.P8657958613654984230` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271909 has offset 1).
+The programs for A271909, the canonical program `A271909.P8657958613654984230` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271909 has offset 1).
 
 The definition of A271909 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4796 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -958,7 +959,7 @@ The definition of A271909 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A001222(3*n+4), A001222(n+1)]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A271909
@@ -9314,7 +9315,7 @@ end A271998
 /-!
 # A271999: Halogen sequence: a(n) = A018227(n)-1.
 
-The programs for A271999, the canonical program `A271999.P7167033125042987843` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271999 has offset 1).
+The programs for A271999, the canonical program `A271999.P7167033125042987843` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A271999 has offset 1).
 
 The definition of A271999 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9418,7 +9419,7 @@ end A271999
 
 `A018227(n+1)-A033999(A159461(n+1))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A271999

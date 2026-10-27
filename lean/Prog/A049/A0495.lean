@@ -22,6 +22,7 @@ import Seq.B000.C021
 import Seq.B000.C022
 import Seq.B000.C023
 import Seq.B000.C024
+import Seq.B000.C025
 import Seq.B000.C026
 import Seq.B000.C028
 import Seq.B000.C029
@@ -39,10 +40,11 @@ import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -51,6 +53,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -62,9 +65,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -8788,7 +8789,7 @@ end A049558.P18154848728258712928
 /-!
 # A049559: a(n) = gcd(n - 1, phi(n)).
 
-The programs for A049559, the canonical program `A049559.P6342530742529976710` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049559 has offset 1).
+The programs for A049559, the canonical program `A049559.P6342530742529976710` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049559 has offset 1).
 
 The definition of A049559 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8820,7 +8821,7 @@ end A049559
 
 `gcd(n, A000010(n+1))`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A049559
@@ -9857,7 +9858,7 @@ end A049562.P16208278562590651549
 /-!
 # A049563: a(n) = ((prime(n)-1)! + 1) mod (prime(n) + 2).
 
-The programs for A049563, the canonical program `A049563.P8325218319628296000` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049563 has offset 1).
+The programs for A049563, the canonical program `A049563.P8325218319628296000` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049563 has offset 1).
 
 The definition of A049563 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9866,7 +9867,7 @@ The definition of A049563 is `conjectured`: the Lean definition is a formula tha
 
 `gcd(A175217(n+1), A179546(n+1))`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A049563
@@ -14706,7 +14707,7 @@ end A049584.P6371069431255161870
 /-!
 # A049585: Primes p such that x^53 = 2 has a solution mod p.
 
-The programs for A049585, the canonical program `A049585.P15303328923356932988` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049585 has offset 1).
+The programs for A049585, the canonical program `A049585.P15303328923356932988` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049585 has offset 1).
 
 The definition of A049585 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 113 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14744,7 +14745,7 @@ end A049585
 
 `eq[A003415(A097605(2*n+5)), A003415(n)]`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A049585
@@ -14950,7 +14951,7 @@ end A049585
 /-!
 # A049586: a(n) is the GCD of the cototients (A051953) of n and n+1.
 
-The programs for A049586, the canonical program `A049586.P5434218238322190531` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049586 has offset 0).
+The programs for A049586, the canonical program `A049586.P5434218238322190531` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049586 has offset 0).
 
 The definition of A049586 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -14959,7 +14960,7 @@ The definition of A049586 is `conditional`: the Lean definition is an OEIS formu
 
 `gcd(A051953(n+2), A051953(n+1))`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A049586
@@ -18056,7 +18057,7 @@ end A049598
 /-!
 # A049599: Number of (1+e)-divisors of n: if n = Product p(i)^r(i), d = Product p(i)^s(i) and s(i) = 0 or s(i) divides r(i), then d is a (1+e)-divisor of n.
 
-The programs for A049599, the canonical program `A049599.P10458558030046678201` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049599 has offset 1).
+The programs for A049599, the canonical program `A049599.P10458558030046678201` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049599 has offset 1).
 
 The definition of A049599 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -18143,7 +18144,7 @@ end A049599
 
 `∏{e}[n+1, A032741(#)+2]`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A049599

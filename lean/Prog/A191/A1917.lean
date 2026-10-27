@@ -36,23 +36,24 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C005
+import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -65,10 +66,8 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1708,7 +1707,7 @@ end A191745
 /-!
 # A191746: Partial sums of product of twin primes.
 
-The programs for A191746, the canonical program `A191746.P13832320004408315635` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191746 has offset 1).
+The programs for A191746, the canonical program `A191746.P13832320004408315635` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191746 has offset 1).
 
 The definition of A191746 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1717,7 +1716,7 @@ The definition of A191746 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A037074(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A191746
@@ -2585,7 +2584,7 @@ end A191748.P15398364858372951523
 /-!
 # A191750: Dirichlet convolution of A000012 with A007947.
 
-The programs for A191750, the canonical program `A191750.P1006708974149694787` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191750 has offset 1).
+The programs for A191750, the canonical program `A191750.P1006708974149694787` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191750 has offset 1).
 
 The definition of A191750 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2724,7 +2723,7 @@ end A191750
 
 `∑{d}[n+1, A130054(#)*A176345((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A191750
@@ -6464,7 +6463,7 @@ end A191789.P5311146384981020373
 /-!
 # A191790: Number of base pyramids in all length n left factors of Dyck paths.
 
-The programs for A191790, the canonical program `A191790.P8584163521288311520` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191790 has offset 0).
+The programs for A191790, the canonical program `A191790.P8584163521288311520` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A191790 has offset 0).
 
 The definition of A191790 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 338 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6473,7 +6472,7 @@ The definition of A191790 is `conjectured`: the Lean definition is a formula tha
 
 `A086905(n)-char[2*n]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A191790

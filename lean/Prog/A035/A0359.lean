@@ -37,34 +37,34 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2658,7 +2658,7 @@ end A035929.P6958994323904158812
 /-!
 # A035930: Maximal product of any two numbers whose concatenation is n.
 
-The programs for A035930, the canonical program `A035930.P13238734123454317446` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035930 has offset 0).
+The programs for A035930, the canonical program `A035930.P13238734123454317446` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035930 has offset 0).
 
 The definition of A035930 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 104 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2972,7 +2972,7 @@ end A035930
 
 `A088116(n)-A257297(n)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A035930
@@ -3082,7 +3082,7 @@ end A035930
 /-!
 # A035931: Number of steps to reach 0 under "k->max product of two numbers whose concatenation is k".
 
-The programs for A035931, the canonical program `A035931.P9216625433156157235` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035931 has offset 0).
+The programs for A035931, the canonical program `A035931.P9216625433156157235` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A035931 has offset 0).
 
 The definition of A035931 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3091,7 +3091,7 @@ The definition of A035931 is `conjectured`: the Lean definition is a formula tha
 
 `a(A035930(n))+1` with `a(0)=0`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A035931

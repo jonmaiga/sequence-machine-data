@@ -52,25 +52,24 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.Opaque.C000
@@ -7022,7 +7021,7 @@ def P9138419332850489018.Spec : Prop :=
 end A006454
 
 /-!
-# A006455: Number of partial orders on {1,2,...,n} that are contained in the usual linear order (i.e., xRy => x
+# A006455: Number of partial orders on {1,2,...,n} that are contained in the usual linear order (i.e., xRy => x<y).
 
 The programs for A006455, there is no canonical definition to state claims against.
 -/

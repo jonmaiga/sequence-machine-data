@@ -51,6 +51,7 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -60,23 +61,22 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5137,7 +5137,7 @@ end A176230
 /-!
 # A176231: Coefficient array of orthogonal polynomials whose moment sequence is the double factorial numbers A001147.
 
-The programs for A176231, the canonical program `A176231.P2236781922509874742` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176231 has offset 0).
+The programs for A176231, the canonical program `A176231.P2236781922509874742` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176231 has offset 0).
 
 The definition of A176231 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1773 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5208,7 +5208,7 @@ end A176231
 
 `A096713(lt[0, floor(sqrt(4*n+1))%2])`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A176231
@@ -6892,12 +6892,6 @@ namespace A176241
 def P2875856748627150236.Spec : Prop :=
   ∀ n, (P2875856748627150236.a n : ℤ) = A176241 (n + 1)
 
-theorem P2875856748627150236.correct : P2875856748627150236.Spec := by
-  intro n
-  simp only [A176241, Nat.add_sub_cancel, A176241.P2875856748627150236.f1, A176241.P2875856748627150236.f2, A176241.P2875856748627150236.a, A176241.P3332778446777319815.f1, A176241.P3332778446777319815.f2, A176241.P3332778446777319815.a, A001222, A001222.P11318177267732088261.a, A001358, A001358.P632087320844056370.a, A175708, A175708.P9200072279870982.a, A000027, A000027.P10331202704469894836.a, A061395, A061395.P8431317036300486107.a, A088707, A088707.P7291141647877559993.a, A122111, A122111.P18124015185857335041.a, A029837, A029837.P1050578713049589.a, A064989, A064989.P13349672914146769936.a, A087207, A087207.P12536008426233777954.a, A100493, A100493.P3342029395979233194.f1, A100493.P3342029395979233194.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A008578, A008578.P3639467937083264764.a, A048675, A048675.P15792214674053257917.f1, A048675.P15792214674053257917.a, A052126, A052126.P1944428405920482243.a, A072000, A072000.P3706059858088101648.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A176241
 
 /-! ## A176241.P6052452619281519933
@@ -8342,7 +8336,7 @@ end
 end A176248.P1167434618716789751
 
 /-!
-# A176252: Smallest primes in growing order where the parts of compositions of integer 7 used as decimal digits enable primes.
+# A176252: 
 
 The programs for A176252, there is no canonical definition to state claims against.
 -/
@@ -8540,7 +8534,7 @@ end
 end A176253.P10398565303139462052
 
 /-!
-# A176254: Smallest primes in growing order where the parts of compositions of integer 8 = 2^3 used as decimal digits enable primes.
+# A176254: 
 
 The programs for A176254, there is no canonical definition to state claims against.
 -/
@@ -13467,7 +13461,7 @@ end A176288
 /-!
 # A176289: Denominators of the rational sequence with e.g.f. (x/2)*(1+exp(-x))/(1-exp(-x)).
 
-The programs for A176289, the canonical program `A176289.P5972869027486302748` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176289 has offset 0).
+The programs for A176289, the canonical program `A176289.P5972869027486302748` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176289 has offset 0).
 
 The definition of A176289 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4097 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13503,7 +13497,7 @@ end A176289
 
 `A141056(n)-n%2`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A176289
@@ -14091,7 +14085,7 @@ end A176291
 /-!
 # A176292: Numbers k such that the prime factorizations of composite(k) and composite(k+1) have the same number of primes (including multiplicities).
 
-The programs for A176292, the canonical program `A176292.P6728800770954373532` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176292 has offset 1).
+The programs for A176292, the canonical program `A176292.P6728800770954373532` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A176292 has offset 1).
 
 The definition of A176292 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -14100,7 +14094,7 @@ The definition of A176292 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, Δ[A062502(n+1)]]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A176292

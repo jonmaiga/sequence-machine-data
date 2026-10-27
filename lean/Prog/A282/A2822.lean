@@ -34,7 +34,6 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -46,12 +45,13 @@ import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -60,9 +60,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -2334,7 +2331,7 @@ end A282238
 /-!
 # A282239: a(n) = Fibonacci(n) represented in bijective base-8 numeration.
 
-The programs for A282239, the canonical program `A282239.P9293021840617921034` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282239 has offset 1).
+The programs for A282239, the canonical program `A282239.P9293021840617921034` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282239 has offset 1).
 
 The definition of A282239 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A214678, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2343,7 +2340,7 @@ The definition of A282239 is `conditional`: the Lean definition is an OEIS formu
 
 `A214678(A000045(n+1))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A282239
@@ -2439,7 +2436,7 @@ end A282239
 /-!
 # A282240: a(n) = Fibonacci(n) represented in bijective base-9 numeration.
 
-The programs for A282240, the canonical program `A282240.P17605542633411655101` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282240 has offset 1).
+The programs for A282240, the canonical program `A282240.P17605542633411655101` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282240 has offset 1).
 
 The definition of A282240 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A052382, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2448,7 +2445,7 @@ The definition of A282240 is `conditional`: the Lean definition is an OEIS formu
 
 `A052382(A000045(n+1))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A282240
@@ -2542,7 +2539,7 @@ def P12123112276665974558.Spec : Prop :=
 end A282240
 
 /-!
-# A282241: Numbers that are the sum of 3 distinct nonzero squares in two ways with symmetrical differences: a(n) = (p-a)^2+p^2+(p+b)^2 = (q-b)^2+q^2+(q+a)^2, p, q, a, b, positive integer, a
+# A282241: Numbers that are the sum of 3 distinct nonzero squares in two ways with symmetrical differences: a(n) = (p-a)^2+p^2+(p+b)^2 = (q-b)^2+q^2+(q+a)^2, p, q, a, b, positive integer, a<b, p<q.
 
 The programs for A282241, there is no canonical definition to state claims against.
 -/
@@ -5066,7 +5063,7 @@ end A282281.P13310222391041332871
 /-!
 # A282282: Remainder when sum of squares of the first n primes is divided by n-th square pyramidal number.
 
-The programs for A282282, the canonical program `A282282.P3169685430802513097` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282282 has offset 1).
+The programs for A282282, the canonical program `A282282.P3169685430802513097` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A282282 has offset 1).
 
 The definition of A282282 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5075,7 +5072,7 @@ The definition of A282282 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A024450(n+1)%A000330(n+1)`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A282282

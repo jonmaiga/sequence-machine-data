@@ -38,12 +38,12 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -55,11 +55,11 @@ import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4352,7 +4352,7 @@ end A050529.P727297852001074497
 /-!
 # A050530: Numbers k such that k - phi(k) is prime.
 
-The programs for A050530, the canonical program `A050530.P8340804989317235602` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050530 has offset 1).
+The programs for A050530, the canonical program `A050530.P8340804989317235602` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A050530 has offset 1).
 
 The definition of A050530 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3742 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4361,7 +4361,7 @@ The definition of A050530 is `conjectured`: the Lean definition is a formula tha
 
 `eq[1, A001222(n+2-A000010(n+2))]+2`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A050530
@@ -5729,32 +5729,6 @@ namespace A050534
 /-- `∑[A060354(n)-n]` -/
 def P3864513841834637964.Spec : Prop :=
   ∀ n, P3864513841834637964.a n = A050534 n
-
-end A050534
-
-/-! ## A050534.P5765320156124480468
-
-`A101357(n)-∑[n]`
--/
-
-namespace A050534.P5765320156124480468
-noncomputable section
-
-def f1 : ℕ → ℕ := SequenceMachineLib.memo fun n =>
-  n
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A101357 n - ((∑ j ∈ Finset.range (n + 1), f1 j : ℕ) : ℤ)
-
-end
-
-end A050534.P5765320156124480468
-
-namespace A050534
-
-/-- `A101357(n)-∑[n]` -/
-def P5765320156124480468.Spec : Prop :=
-  ∀ n, P5765320156124480468.a n = A050534 n
 
 end A050534
 

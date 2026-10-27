@@ -42,14 +42,14 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -61,7 +61,7 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B007.C000
 import Seq.B009.C000
-import Seq.B010.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -849,7 +849,7 @@ end A233312.P9487244042372141942
 /-!
 # A233314: Primes p such that p+6 and p+12 are composite.
 
-The programs for A233314, the canonical program `A233314.P11642887588606614742` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233314 has offset 1).
+The programs for A233314, the canonical program `A233314.P11642887588606614742` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233314 has offset 1).
 
 The definition of A233314 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 532 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -858,7 +858,7 @@ The definition of A233314 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A005843(A191558(n+2))-A191558(n+8)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A233314
@@ -4267,7 +4267,7 @@ end A233347.P14698866913442844524
 /-!
 # A233348: Numbers n such that 3*n+2 and 3*n-2 are both prime for n multiple of 5 (A008587).
 
-The programs for A233348, the canonical program `A233348.P14961469874671804838` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233348 has offset 1).
+The programs for A233348, the canonical program `A233348.P14961469874671804838` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233348 has offset 1).
 
 The definition of A233348 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4276,7 +4276,7 @@ The definition of A233348 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(A289413(n+2)/3)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A233348
@@ -6643,7 +6643,7 @@ end A233386.P17840097476209158084
 /-!
 # A233388: Odious numbers that are the sum of 2 consecutive odious numbers.
 
-The programs for A233388, the canonical program `A233388.P9376784371074079915` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233388 has offset 1).
+The programs for A233388, the canonical program `A233388.P9376784371074079915` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A233388 has offset 1).
 
 The definition of A233388 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6710,7 +6710,7 @@ end A233388
 
 `4*A091785(n+1)-1`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A233388

@@ -42,7 +42,8 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,9 +53,10 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -64,7 +66,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -519,7 +520,7 @@ end A157103.P4642860075670158223
 /-!
 # A157104: Arithmetic derivative of cubefree numbers.
 
-The programs for A157104, the canonical program `A157104.P9758464400275007178` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157104 has offset 1).
+The programs for A157104, the canonical program `A157104.P9758464400275007178` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157104 has offset 1).
 
 The definition of A157104 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8319 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -528,7 +529,7 @@ The definition of A157104 is `conjectured`: the Lean definition is a formula tha
 
 `A003415(A004709(n+1))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A157104
@@ -1356,7 +1357,7 @@ end A157114
 /-!
 # A157116: Numbers k such that k^2 + 1 == 0 (mod 41^2).
 
-The programs for A157116, the canonical program `A157116.P3367610532658477289` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157116 has offset 1).
+The programs for A157116, the canonical program `A157116.P3367610532658477289` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157116 has offset 1).
 
 The definition of A157116 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 244 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1365,7 +1366,7 @@ The definition of A157116 is `conjectured`: the Lean definition is a formula tha
 
 `A155098(A005408(A155098(n+1))-A000035(n))`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A157116
@@ -2669,7 +2670,7 @@ end A157131.P9565662967400674382
 /-!
 # A157132: Factorial of primes divided by prime numbers' respective places in the sequence of primes.
 
-The programs for A157132, the canonical program `A157132.P16596166563225403584` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157132 has offset 1).
+The programs for A157132, the canonical program `A157132.P16596166563225403584` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A157132 has offset 1).
 
 The definition of A157132 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2678,7 +2679,7 @@ The definition of A157132 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A000040(n+1)!/(n+1)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A157132

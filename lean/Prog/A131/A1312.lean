@@ -46,19 +46,22 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -73,8 +76,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -131,7 +132,7 @@ end A131201.P14354102368368056516
 /-!
 # A131203: Number of cycles of length n under the mapping x -> x^2-2 modulo Fermat prime 2^(2^m)+1, where m is any fixed integer such that n divides 2^m-1.
 
-The programs for A131203, the canonical program `A131203.P3578267669090281606` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131203 has offset 0).
+The programs for A131203, the canonical program `A131203.P3578267669090281606` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131203 has offset 0).
 
 The definition of A131203 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001037, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -140,7 +141,7 @@ The definition of A131203 is `conditional`: the Lean definition is an OEIS formu
 
 `A001037(2*n+1)/2`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A131203
@@ -1110,7 +1111,7 @@ def P15779820172835723721.Spec : Prop :=
 end A131205
 
 /-!
-# A131206: a(n)=(A002866(n+1) - A036691(n))/192.
+# A131206: a(n) = (A002866(n+1) - A036691(n))/192.
 
 The programs for A131206, there is no canonical definition to state claims against.
 -/
@@ -5480,7 +5481,7 @@ end A131231
 /-!
 # A131232: a(n) is the number of positive integers < n that do not have 2 or more distinct prime divisors in common with n.
 
-The programs for A131232, the canonical program `A131232.P4039545971167659637` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131232 has offset 1).
+The programs for A131232, the canonical program `A131232.P4039545971167659637` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131232 has offset 1).
 
 The definition of A131232 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010055, A131233, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5489,7 +5490,7 @@ The definition of A131232 is `conditional`: the Lean definition is an OEIS formu
 
 `A131233(n+1)-A010055(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A131232
@@ -5632,7 +5633,7 @@ end A131232
 /-!
 # A131233: a(n) is the number of positive integers <= n that do not have 2 or more distinct prime divisors in common with n.
 
-The programs for A131233, the canonical program `A131233.P6976848366218910666` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131233 has offset 1).
+The programs for A131233, the canonical program `A131233.P6976848366218910666` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131233 has offset 1).
 
 The definition of A131233 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A116512, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5641,7 +5642,7 @@ The definition of A131233 is `conditional`: the Lean definition is an OEIS formu
 
 `A116512(n+1)+A000010(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A131233
@@ -5702,12 +5703,6 @@ namespace A131233
 /-- `A131232(n+1)+A010055(n+1)` -/
 def P10129897385233702079.Spec : Prop :=
   ∀ n, P10129897385233702079.a n = A131233 (n + 1)
-
-theorem P10129897385233702079.correct : P10129897385233702079.Spec := by
-  intro n
-  simp only [A131233, Nat.add_sub_cancel, A131233.P10129897385233702079.a, A131233.P6976848366218910666.a, A000010, A000010.P4673923239450215316.a, A010055, A010055.P13747394931985969733.f1, A010055.P13747394931985969733.a, A116512, A116512.P13906908477700417415.f1, A116512.P13906908477700417415.a, A131232, A131232.P4039545971167659637.a, A001222, A001222.P11318177267732088261.a, A003557, A003557.P6364735403900941810.a, A007431, A007431.P16849793818733668455.f1, A007431.P16849793818733668455.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007432, A007432.P16663120023730915232.f1, A007432.P16663120023730915232.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A061395, A061395.P8431317036300486107.a, A122111, A122111.P18124015185857335041.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A007428, A007428.P12532017655611739201.f1, A007428.P12532017655611739201.a, A029837, A029837.P1050578713049589.a, A059841, A059841.P7264174615531153985.a, A064989, A064989.P13349672914146769936.a, A087207, A087207.P12536008426233777954.a, A105560, A105560.P7897608420550643844.f1, A105560.P7897608420550643844.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A131233
 

@@ -41,19 +41,24 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -63,7 +68,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1269,7 +1273,7 @@ end
 end A120209.P456011902783900391
 
 /-!
-# A120221: Continued fraction expansion of one of four fixed points (mod 1) of Minkowski's question mark function (specifically, the only positive fixed point (mod 1) greater than 1/2).
+# A120221: Continued fraction expansion of one minus the Minkowski-Bower constant.
 
 The programs for A120221, there is no canonical definition to state claims against.
 -/
@@ -2191,7 +2195,7 @@ end A120225.P15464682327911520879
 /-!
 # A120226: Numbers k such that 4+k and 4*k+1 are prime.
 
-The programs for A120226, the canonical program `A120226.P13386215019223714269` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120226 has offset 1).
+The programs for A120226, the canonical program `A120226.P13386215019223714269` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120226 has offset 1).
 
 The definition of A120226 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3021 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2200,7 +2204,7 @@ The definition of A120226 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A172367(n+1), A230076(n+1)]`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A120226
@@ -2814,7 +2818,7 @@ end A120227
 /-!
 # A120228: Numbers k such that 8+k and 8*k+1 are prime.
 
-The programs for A120228, the canonical program `A120228.P4195300899045194626` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120228 has offset 1).
+The programs for A120228, the canonical program `A120228.P4195300899045194626` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120228 has offset 1).
 
 The definition of A120228 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 446 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2823,7 +2827,7 @@ The definition of A120228 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A001222(n+8), A101264(4*n)]`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A120228
@@ -3516,7 +3520,7 @@ end A120242.P1641300828001639334
 /-!
 # A120243: Numbers k such that {k*sqrt(2)} < 1/2, where { } = fractional part.
 
-The programs for A120243, the canonical program `A120243.P8412210091431713488` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120243 has offset 1).
+The programs for A120243, the canonical program `A120243.P8412210091431713488` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120243 has offset 1).
 
 The definition of A120243 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3817,7 +3821,7 @@ end A120243
 
 `eq[1, A019426(A001951(2*n))]`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A120243
@@ -5224,7 +5228,7 @@ end A120254.P13978324600325531362
 /-!
 # A120256: a(n) = number of terms in the n-th row of A120255(n) = number of terms in A001177 equal to n.
 
-The programs for A120256, the canonical program `A120256.P10376864766072904395` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120256 has offset 1).
+The programs for A120256, the canonical program `A120256.P10376864766072904395` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120256 has offset 1).
 
 The definition of A120256 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 300 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5233,7 +5237,7 @@ The definition of A120256 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A008683(#)*A063375((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A120256
@@ -5608,7 +5612,7 @@ end A120260.P8257656301731222958
 /-!
 # A120263: Ratio of the numerator of n*HarmonicNumber[n] to the numerator of HarmonicNumber[n]: A096617(n)/A001008(n).
 
-The programs for A120263, the canonical program `A120263.P6050525716603868642` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120263 has offset 1).
+The programs for A120263, the canonical program `A120263.P6050525716603868642` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120263 has offset 1).
 
 The definition of A120263 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A096617, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5617,7 +5621,7 @@ The definition of A120263 is `conditional`: the Lean definition is an OEIS formu
 
 `A096617(n+1)/A001008(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A120263
@@ -7755,7 +7759,7 @@ end A120284.P11216956928519906555
 /-!
 # A120285: Numerator of harmonic number H(p-1) = Sum_{k=1..p-1} 1/k for prime p.
 
-The programs for A120285, the canonical program `A120285.P11971560500796594752` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120285 has offset 1).
+The programs for A120285, the canonical program `A120285.P11971560500796594752` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A120285 has offset 1).
 
 The definition of A120285 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7764,7 +7768,7 @@ The definition of A120285 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A001008(A000040(n+1)-1)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A120285

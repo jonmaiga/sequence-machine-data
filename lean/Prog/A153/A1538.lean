@@ -37,6 +37,7 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
@@ -48,25 +49,23 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2771,12 +2770,6 @@ namespace A153823
 /-- `A336940(n)+A337257(n)-1` -/
 def P1764785616181400538.Spec : Prop :=
   ∀ n, P1764785616181400538.a n = A153823 n
-
-theorem P1764785616181400538.correct : P1764785616181400538.Spec := by
-  intro n
-  simp only [A153823, Nat.add_sub_cancel, A153823.P1764785616181400538.a, A153823.P12958428199370976494.a, A027423, A027423.P14066705804803784298.a, A336940, A336940.P4983532060712905772.a, A337257, A337257.P14876870470645707118.a, A000005, A000005.P16091521709108585461.a, A000142, A000142.P3272619076580183195.a, A011371, A011371.P8892659874704383252.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A153823
 
@@ -5801,7 +5794,7 @@ end A153868.P5410775425724306659
 /-!
 # A153869: Triangle read by rows, A129186 * A128064(unsigned).
 
-The programs for A153869, the canonical program `A153869.P16225442478312210075` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153869 has offset 1).
+The programs for A153869, the canonical program `A153869.P16225442478312210075` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A153869 has offset 1).
 
 The definition of A153869 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5945,7 +5938,7 @@ end A153869
 
 `A132440(abs(A132440(n+1)-n))`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A153869

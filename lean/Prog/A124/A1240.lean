@@ -50,14 +50,18 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
@@ -1970,7 +1974,7 @@ theorem P10808439546098973034.correct : P10808439546098973034.Spec := by
 end A124024
 
 /-!
-# A124025: Recursive polynomial from a tridiagonal matrix version of A123965: p(k, x) = ((x - b(k - 1))*p(k - 1, x) - a(k - 2) *p(k - 2, x))/a(n - 1); a(n)=-1;b(n)=3;.
+# A124025: 
 
 The programs for A124025, there is no canonical definition to state claims against.
 -/
@@ -2387,7 +2391,7 @@ end A124027.P12790439954579167926
 /-!
 # A124029: Triangle T(n,k) with the coefficient [x^k] of the characteristic polynomial of the following n X n triangular matrix: 4 on the main diagonal, -1 of the two adjacent subdiagonals, 0 otherwise.
 
-The programs for A124029, the canonical program `A124029.P7271807952739011343` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124029 has offset 0).
+The programs for A124029, the canonical program `A124029.P7271807952739011343` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124029 has offset 0).
 
 The definition of A124029 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2488,7 +2492,7 @@ end A124029
 
 `Δ[A010751(n)]*A159764(n)`
 
-The canonical program, it is in `Seq.B002.C002`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A124029
@@ -3199,7 +3203,7 @@ end A124038
 /-!
 # A124041: Numbers k such that 2*k+1, 4*k+1 and 8*k+1 are primes.
 
-The programs for A124041, the canonical program `A124041.P16176855552741418478` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124041 has offset 1).
+The programs for A124041, the canonical program `A124041.P16176855552741418478` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124041 has offset 1).
 
 The definition of A124041 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3208,7 +3212,7 @@ The definition of A124041 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A057326(n+2)/2)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A124041
@@ -4262,7 +4266,7 @@ end A124056.P6298604371107016166
 /-!
 # A124057: Numbers n such that n, n+1, n+2 and n+3 are products of exactly 3 primes.
 
-The programs for A124057, the canonical program `A124057.P16684972214532472139` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124057 has offset 1).
+The programs for A124057, the canonical program `A124057.P16684972214532472139` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A124057 has offset 1).
 
 The definition of A124057 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1741 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4301,7 +4305,7 @@ end A124057
 
 `∩[A113789(n+2)-1, A113789(n+2)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A124057

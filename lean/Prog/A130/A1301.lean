@@ -47,6 +47,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -58,22 +59,23 @@ import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1515,7 +1517,7 @@ end A130105.P13180631189919652599
 /-!
 # A130106: A051731 * diagonalized matrix of A063659.
 
-The programs for A130106, the canonical program `A130106.P5653707462542104831` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130106 has offset 1).
+The programs for A130106, the canonical program `A130106.P5653707462542104831` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130106 has offset 1).
 
 The definition of A130106 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1550,7 +1552,7 @@ end A130106
 
 `A051731(n+1)*A063659(A002260(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A130106
@@ -1660,7 +1662,7 @@ end A130106
 /-!
 # A130107: Möbius transform of A063659.
 
-The programs for A130107, the canonical program `A130107.P1988406999421660602` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130107 has offset 1).
+The programs for A130107, the canonical program `A130107.P1988406999421660602` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130107 has offset 1).
 
 The definition of A130107 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1799,7 +1801,7 @@ end A130107
 
 `∑{d}[n+1, A007428(#)*A060648((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A130107
@@ -2512,7 +2514,7 @@ end A130115.P10068876951134518859
 /-!
 # A130116: Inverse Moebius transform of a diagonalized matrix of A007436.
 
-The programs for A130116, the canonical program `A130116.P11405849371930154849` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130116 has offset 1).
+The programs for A130116, the canonical program `A130116.P11405849371930154849` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130116 has offset 1).
 
 The definition of A130116 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2521,7 +2523,7 @@ The definition of A130116 is `conjectured`: the Lean definition is a formula tha
 
 `A007436(A002260(n+1))*A051731(n+1)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C003`.
 -/
 
 namespace A130116
@@ -2556,12 +2558,6 @@ namespace A130116
 /-- `A007436(A002262(n)+1)*A051731(n+1)` -/
 def P7764437204944875639.Spec : Prop :=
   ∀ n, P7764437204944875639.a n = A130116 (n + 1)
-
-theorem P7764437204944875639.correct : P7764437204944875639.Spec := by
-  intro n
-  simp only [A130116, Nat.add_sub_cancel, A130116.P7764437204944875639.a, A130116.P11405849371930154849.a, A002260, A002260.P9170571874073898642.a, A002262, A002262.P17823619022233514403.a, A007436, A007436.P2979354749986900040.f1, A007436.P2979354749986900040.a, A051731, A051731.P11318043630102858095.a, A000007, A000007.P6599383543502402472.a, A000045, A000045.P11838749114346432762.a, A008683, A008683.P18254306604665478110.a, A048158, A048158.P1757030368331788429.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A085357, A085357.P3258697467278337073.a, A106400, A106400.P11201390576172776043.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A130116
 
@@ -2654,12 +2650,6 @@ namespace A130116
 /-- `A000007(A048158(n+1))*A007436(A002260(n+1))` -/
 def P17781766916243213888.Spec : Prop :=
   ∀ n, P17781766916243213888.a n = A130116 (n + 1)
-
-theorem P17781766916243213888.correct : P17781766916243213888.Spec := by
-  intro n
-  simp only [A130116, Nat.add_sub_cancel, A130116.P17781766916243213888.a, A130116.P11405849371930154849.a, A000007, A000007.P6599383543502402472.a, A002260, A002260.P9170571874073898642.a, A007436, A007436.P2979354749986900040.f1, A007436.P2979354749986900040.a, A048158, A048158.P1757030368331788429.a, A051731, A051731.P11318043630102858095.a, A000045, A000045.P11838749114346432762.a, A008683, A008683.P18254306604665478110.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A085357, A085357.P3258697467278337073.a, A106400, A106400.P11201390576172776043.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A130116
 
@@ -7810,7 +7800,7 @@ end A130158.P18259532289561988890
 /-!
 # A130159: A054525 * A000069.
 
-The programs for A130159, the canonical program `A130159.P6657811149609093730` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130159 has offset 1).
+The programs for A130159, the canonical program `A130159.P6657811149609093730` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130159 has offset 1).
 
 The definition of A130159 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7819,7 +7809,7 @@ The definition of A130159 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000069(#)*A008683((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A130159
@@ -7886,7 +7876,7 @@ end A130159
 /-!
 # A130160: A051731 * A130159 as a diagonalized matrix.
 
-The programs for A130160, the canonical program `A130160.P15806770847118490500` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130160 has offset 1).
+The programs for A130160, the canonical program `A130160.P15806770847118490500` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130160 has offset 1).
 
 The definition of A130160 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7895,7 +7885,7 @@ The definition of A130160 is `conjectured`: the Lean definition is a formula tha
 
 `A051731(n+1)*A130159(A002260(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A130160

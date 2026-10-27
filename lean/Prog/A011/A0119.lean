@@ -49,21 +49,26 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
+import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -72,8 +77,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7513,7 +7516,7 @@ end A011945
 /-!
 # A011946: Number of Barlow packings with group P63/mmc(S) that repeat after 4n layers.
 
-The programs for A011946, the canonical program `A011946.P13849652241662667985` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011946 has offset 1).
+The programs for A011946, the canonical program `A011946.P13849652241662667985` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011946 has offset 1).
 
 The definition of A011946 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7643,7 +7646,7 @@ end A011946
 
 `∑{d}[n+1, A001511(#)*A296302((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A011946
@@ -7973,7 +7976,7 @@ end A011946
 /-!
 # A011947: Number of Barlow packings with group P63/mmc(O) that repeat after 4n+2 layers.
 
-The programs for A011947, the canonical program `A011947.P14935983523207937062` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011947 has offset 0).
+The programs for A011947, the canonical program `A011947.P14935983523207937062` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011947 has offset 0).
 
 The definition of A011947 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8083,7 +8086,7 @@ end A011947
 
 `A179781(Δ[n²])`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A011947
@@ -8449,7 +8452,7 @@ end A011947
 /-!
 # A011948: Number of Barlow packings with group P63mc that repeat after 2n layers.
 
-The programs for A011948, the canonical program `A011948.P16276404241743664324` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011948 has offset 6).
+The programs for A011948, the canonical program `A011948.P16276404241743664324` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011948 has offset 6).
 
 The definition of A011948 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000046, A056513, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8458,7 +8461,7 @@ The definition of A011948 is `conditional`: the Lean definition is an OEIS formu
 
 `A000046(n+6)-A056513(n+6)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A011948
@@ -8571,7 +8574,7 @@ end A011948
 /-!
 # A011949: Number of Barlow packings with group P6(bar)m2 that repeat after 2n layers.
 
-The programs for A011949, the canonical program `A011949.P6544439330995346585` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011949 has offset 1).
+The programs for A011949, the canonical program `A011949.P6544439330995346585` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A011949 has offset 1).
 
 The definition of A011949 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 334 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8580,7 +8583,7 @@ The definition of A011949 is `conjectured`: the Lean definition is a formula tha
 
 `A056336(n+1)-A056518(n+1)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A011949

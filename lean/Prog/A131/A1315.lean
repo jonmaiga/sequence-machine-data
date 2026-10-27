@@ -43,10 +43,12 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
+import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
@@ -54,7 +56,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -64,11 +66,7 @@ import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3682,7 +3680,7 @@ end
 end A131511.P11725182340751493721
 
 /-!
-# A131512: Iterated golden sieve: Iterate indefinitively the procedure giving A099267 (S2) from the natural numbers (S1) with the single difference that the rank of the deleted terms is f(n) + (p-2) to get Sp from Sp-1.
+# A131512: Iterated golden sieve: Iterate indefinitely the procedure giving A099267 (S2) from the natural numbers (S1) with the single difference that the rank of the deleted terms is f(n) + (p-2) to get Sp from Sp-1.
 
 The programs for A131512, there is no canonical definition to state claims against.
 -/
@@ -7914,7 +7912,7 @@ end A131573.P2583371635255434172
 /-!
 # A131574: Numbers k that are the product of two distinct odd primes and x^2 + y^2 = k has integer solutions.
 
-The programs for A131574, the canonical program `A131574.P9398401731055651863` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131574 has offset 1).
+The programs for A131574, the canonical program `A131574.P9398401731055651863` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131574 has offset 1).
 
 The definition of A131574 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 7319 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7923,7 +7921,7 @@ The definition of A131574 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A024409(n+1), A121387(n+1)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A131574
@@ -8495,7 +8493,7 @@ end A131574
 /-!
 # A131575: First differences of A131572.
 
-The programs for A131575, the canonical program `A131575.P55044588801403838` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131575 has offset 0).
+The programs for A131575, the canonical program `A131575.P55044588801403838` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131575 has offset 0).
 
 The definition of A131575 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8504,7 +8502,7 @@ The definition of A131575 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A131572(n+1)-A131572(n)`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A131575
@@ -9890,7 +9888,7 @@ end A131578.P259036186937985603
 /-!
 # A131579: Period 10: repeat 0, 3, 6, 9, 2, 5, 8, 1, 4, 7.
 
-The programs for A131579, the canonical program `A131579.P13033701108995345530` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131579 has offset 0).
+The programs for A131579, the canonical program `A131579.P13033701108995345530` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A131579 has offset 0).
 
 The definition of A131579 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -9899,7 +9897,7 @@ The definition of A131579 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A008585(n)%10`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A131579

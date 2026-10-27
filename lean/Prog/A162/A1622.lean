@@ -46,17 +46,20 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -66,16 +69,14 @@ import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1756,7 +1757,7 @@ end A162234.P6844537023000015747
 /-!
 # A162237: Primes p such that p^2+3*p+1 is not prime.
 
-The programs for A162237, the canonical program `A162237.P16848246924117746447` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162237 has offset 1).
+The programs for A162237, the canonical program `A162237.P16848246924117746447` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162237 has offset 1).
 
 The definition of A162237 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1855,7 +1856,7 @@ end A162237
 
 `p?[2*A241266(n+1)-1]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A162237
@@ -3450,7 +3451,7 @@ end A162249.P7369644521759080108
 /-!
 # A162250: Values of the form prime(prime(i)) with a prime digital sum.
 
-The programs for A162250, the canonical program `A162250.P8437384254444543652` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162250 has offset 1).
+The programs for A162250, the canonical program `A162250.P8437384254444543652` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A162250 has offset 1).
 
 The definition of A162250 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3459,7 +3460,7 @@ The definition of A162250 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A006450(n+1), A046704(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A162250
@@ -13804,7 +13805,7 @@ theorem P10052786377731373576.correct : P10052786377731373576.Spec := by
 end A162289
 
 /-!
-# A162290: Let A087788(n) = p*q*r, where p
+# A162290: Let A087788(n) = p*q*r, where p<q<r, be the n-th 3-Carmichael number. Then a(n) = (p-1)*(p*q*r-1)/((q-1)*(r-1)).
 
 The programs for A162290, there is no canonical definition to state claims against.
 -/
@@ -14815,12 +14816,6 @@ namespace A162296
 def P2327949355231452001.Spec : Prop :=
   ∀ n, P2327949355231452001.a n = A162296 (n + 1)
 
-theorem P2327949355231452001.correct : P2327949355231452001.Spec := by
-  intro n
-  simp only [A162296, Nat.add_sub_cancel, A162296.P2327949355231452001.a, A162296.P7435316520163346199.f1, A162296.P7435316520163346199.f2, A162296.P7435316520163346199.a, A048250, A048250.P6137918235727910070.a, A388994, A388994.P3930905186296382464.a, A001615, A001615.P12078511981713404634.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
-
 end A162296
 
 /-! ## A162296.P10842985867148485011
@@ -15025,21 +15020,6 @@ end A162297.P7139353310425712299
 
 The programs for A162298, there is no canonical definition to state claims against.
 -/
-
-/-! ## A162298.P8327585035227487230
-
-`A196840(n)`
--/
-
-namespace A162298.P8327585035227487230
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A196840 n
-
-end
-
-end A162298.P8327585035227487230
 
 /-! ## A162298.P367763799582011421
 

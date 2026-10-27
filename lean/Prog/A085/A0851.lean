@@ -33,15 +33,14 @@ import Seq.B000.C035
 import Seq.B000.C037
 import Seq.B000.C039
 import Seq.B001.C000
-import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -51,6 +50,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -59,14 +59,13 @@ import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2020,7 +2019,7 @@ end A085121.P17903197181696163521
 /-!
 # A085122: a(n) = PrimePi(sigma(n)-phi(n)) - (PrimePi(sigma(n)) - PrimePi(phi(n))), where PrimePi = A000720, sigma = A000203 and phi = A000010.
 
-The programs for A085122, the canonical program `A085122.P1768509895098590735` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085122 has offset 1).
+The programs for A085122, the canonical program `A085122.P1768509895098590735` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085122 has offset 1).
 
 The definition of A085122 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3239 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2029,7 +2028,7 @@ The definition of A085122 is `conjectured`: the Lean definition is a formula tha
 
 `A230980(A051612(n+1))-A085343(n+1)`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A085122
@@ -4647,7 +4646,7 @@ end
 end A085134.P11071191932148305752
 
 /-!
-# A085136: Members of A068863 which retain their position in the rearrangement. Or members of A068863 with A068863(n) = prime(n).
+# A085136: 
 
 The programs for A085136, there is no canonical definition to state claims against.
 -/
@@ -6831,7 +6830,7 @@ end A085155
 /-!
 # A085156: Powers of primes or powers of semiprimes.
 
-The programs for A085156, the canonical program `A085156.P15156798092046619024` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085156 has offset 1).
+The programs for A085156, the canonical program `A085156.P15156798092046619024` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A085156 has offset 1).
 
 The definition of A085156 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6169 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6840,7 +6839,7 @@ The definition of A085156 is `conjectured`: the Lean definition is a formula tha
 
 `lt[C(A328830(n+1), 3), 3]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A085156

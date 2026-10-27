@@ -38,33 +38,36 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
+import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -98,7 +101,7 @@ set_option linter.unreachableTactic false
 /-!
 # A136702: Final nonzero digit of n! in base 16.
 
-The programs for A136702, the canonical program `A136702.P11278385412180144797` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136702 has offset 0).
+The programs for A136702, the canonical program `A136702.P11278385412180144797` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136702 has offset 0).
 
 The definition of A136702 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 183 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -107,7 +110,7 @@ The definition of A136702 is `conjectured`: the Lean definition is a formula tha
 
 `A248766(floor(sqrt(n²+1)))%16`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A136702
@@ -3290,7 +3293,7 @@ end A136746.P3249172391800169577
 /-!
 # A136748: Expansion of (a(q) - a(q^2) - 4*a(q^4) + 4*a(q^8)) / 6 in powers of q where a() is a cubic AGM theta function.
 
-The programs for A136748, the canonical program `A136748.P10554759567997370342` is in `Seq.B001.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136748 has offset 1).
+The programs for A136748, the canonical program `A136748.P10554759567997370342` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136748 has offset 1).
 
 The definition of A136748 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3397,7 +3400,7 @@ end A136748
 
 `∑{d}[n+1, A010892(#-1)*A230074((n+1)/#)]`
 
-The canonical program, it is in `Seq.B001.C005`.
+The canonical program, it is in `Seq.B001.C006`.
 -/
 
 namespace A136748
@@ -5390,7 +5393,7 @@ def P2005894629617919500.Spec : Prop :=
 end A136774
 
 /-!
-# A136775: Number of multiplex juggling sequences of length n, base state and hand capacity 2.
+# A136775: Number of multiplex juggling sequences of length n, base state <1,1> and hand capacity 2.
 
 The programs for A136775, the canonical program `A136775.P1216090559687480111` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136775 has offset 1).
 
@@ -5751,7 +5754,7 @@ def P4783074351204777146.Spec : Prop :=
 end A136775
 
 /-!
-# A136776: Number of primitive multiplex juggling sequences of length n, base state and hand capacity 2.
+# A136776: Number of primitive multiplex juggling sequences of length n, base state <1,1> and hand capacity 2.
 
 The programs for A136776, the canonical program `A136776.P984565126646447848` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136776 has offset 1).
 
@@ -6020,7 +6023,7 @@ def P11855779363529731648.Spec : Prop :=
 end A136776
 
 /-!
-# A136777: Number of multiplex juggling sequences of length n, base state and hand capacity 2.
+# A136777: Number of multiplex juggling sequences of length n, base state <2,1> and hand capacity 2.
 
 The programs for A136777, the canonical program `A136777.P4156242041862846096` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136777 has offset 1).
 
@@ -6070,7 +6073,7 @@ def P5925884432289610830.Spec : Prop :=
 end A136777
 
 /-!
-# A136778: Number of primitive multiplex juggling sequences of length n, base state and hand capacity 2.
+# A136778: Number of primitive multiplex juggling sequences of length n, base state <2,1> and hand capacity 2.
 
 The programs for A136778, the canonical program `A136778.P6204640341777275251` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136778 has offset 1).
 
@@ -6120,7 +6123,7 @@ def P3023423161778738508.Spec : Prop :=
 end A136778
 
 /-!
-# A136779: Number of multiplex juggling sequences of length n, base state and hand capacity 2.
+# A136779: Number of multiplex juggling sequences of length n, base state <1,1,1> and hand capacity 2.
 
 The programs for A136779, the canonical program `A136779.P13068966823199195913` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136779 has offset 1).
 
@@ -6216,7 +6219,7 @@ def P4154056367189934388.Spec : Prop :=
 end A136779
 
 /-!
-# A136780: Number of primitive multiplex juggling sequences of length n, base state and hand capacity 2.
+# A136780: Number of primitive multiplex juggling sequences of length n, base state <1,1,1> and hand capacity 2.
 
 The programs for A136780, the canonical program `A136780.P11237905581207468351` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136780 has offset 1).
 
@@ -6266,7 +6269,7 @@ def P13891607726835924641.Spec : Prop :=
 end A136780
 
 /-!
-# A136781: Number of multiplex juggling sequences of length n, base state and hand capacity 2.
+# A136781: Number of multiplex juggling sequences of length n, base state <2,2> and hand capacity 2.
 
 The programs for A136781, the canonical program `A136781.P17229268344111475744` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136781 has offset 1).
 
@@ -6293,7 +6296,7 @@ theorem P17229268344111475744.correct : P17229268344111475744.Spec := by
 end A136781
 
 /-!
-# A136782: Number of primitive multiplex juggling sequences of length n, base state and hand capacity 2.
+# A136782: Number of primitive multiplex juggling sequences of length n, base state <2,2> and hand capacity 2.
 
 The programs for A136782, the canonical program `A136782.P6951865335218545512` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136782 has offset 1).
 
@@ -6320,7 +6323,7 @@ theorem P6951865335218545512.correct : P6951865335218545512.Spec := by
 end A136782
 
 /-!
-# A136783: Number of multiplex juggling sequences of length n, base state and hand capacity 3.
+# A136783: Number of multiplex juggling sequences of length n, base state <3> and hand capacity 3.
 
 The programs for A136783, the canonical program `A136783.P12716832717790608740` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136783 has offset 1).
 
@@ -6347,7 +6350,7 @@ theorem P12716832717790608740.correct : P12716832717790608740.Spec := by
 end A136783
 
 /-!
-# A136784: Number of primitive multiplex juggling sequences of length n, base state and hand capacity 3.
+# A136784: Number of primitive multiplex juggling sequences of length n, base state <3> and hand capacity 3.
 
 The programs for A136784, the canonical program `A136784.P10864623646059846194` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136784 has offset 1).
 
@@ -6466,7 +6469,7 @@ def P8764688993317036399.Spec : Prop :=
 end A136784
 
 /-!
-# A136785: Number of multiplex juggling sequences of length n, base state and hand capacity 3.
+# A136785: Number of multiplex juggling sequences of length n, base state <2,1> and hand capacity 3.
 
 The programs for A136785, the canonical program `A136785.P1633656810903922168` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136785 has offset 1).
 
@@ -6493,7 +6496,7 @@ theorem P1633656810903922168.correct : P1633656810903922168.Spec := by
 end A136785
 
 /-!
-# A136786: Number of primitive multiplex juggling sequences of length n, base state and hand capacity 3.
+# A136786: Number of primitive multiplex juggling sequences of length n, base state <2,1> and hand capacity 3.
 
 The programs for A136786, the canonical program `A136786.P18082061863873361448` is in `Seq.B000.C020`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136786 has offset 1).
 
@@ -7764,7 +7767,7 @@ end A136798
 /-!
 # A136799: Last term in a sequence of at least 3 consecutive composite integers.
 
-The programs for A136799, the canonical program `A136799.P12211769734399561323` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136799 has offset 1).
+The programs for A136799, the canonical program `A136799.P12211769734399561323` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A136799 has offset 1).
 
 The definition of A136799 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A025584, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7773,7 +7776,7 @@ The definition of A136799 is `conditional`: the Lean definition is an OEIS formu
 
 `A025584(n+3)-1`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A136799

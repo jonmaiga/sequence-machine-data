@@ -38,34 +38,35 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3850,7 +3851,7 @@ end A248366.P11714737632224349679
 /-!
 # A248367: Initial members of prime quadruples (n, n+2, n+36, n+38).
 
-The programs for A248367, the canonical program `A248367.P14823438803111161390` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248367 has offset 1).
+The programs for A248367, the canonical program `A248367.P14823438803111161390` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248367 has offset 1).
 
 The definition of A248367 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 121 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3859,7 +3860,7 @@ The definition of A248367 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A156104(n+1)-2, A156104(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A248367
@@ -5470,7 +5471,7 @@ end A248377.P13355941007274131009
 /-!
 # A248378: a(2n) = concatenation of n+1 with n+2, a(2n+1) = concatenation of n+2 with n+1.
 
-The programs for A248378, the canonical program `A248378.P15567605782667338999` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248378 has offset 0).
+The programs for A248378, the canonical program `A248378.P15567605782667338999` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A248378 has offset 0).
 
 The definition of A248378 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 140 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5479,7 +5480,7 @@ The definition of A248378 is `conjectured`: the Lean definition is a formula tha
 
 `A066686(A247375(n+2))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A248378

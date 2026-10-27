@@ -13,6 +13,7 @@ import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
 import Seq.B000.C012
+import Seq.B000.C013
 import Seq.B000.C014
 import Seq.B000.C015
 import Seq.B000.C016
@@ -46,30 +47,32 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
+import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
-import Seq.B007.C000
+import Seq.B006.C001
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -130,7 +133,7 @@ end A229800.P14319865184242754112
 /-!
 # A229802: Expansion of q * f(-q, -q^4)^5 / f(-q)^3 in powers of q where f() is a Ramanujan theta function.
 
-The programs for A229802, the canonical program `A229802.P2100397921254206650` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229802 has offset 1).
+The programs for A229802, the canonical program `A229802.P2100397921254206650` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229802 has offset 1).
 
 The definition of A229802 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -162,7 +165,7 @@ end A229802
 
 `A227216(2*(n+1))-A227216(A000265(n+1))`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A229802
@@ -1179,7 +1182,7 @@ end
 end A229816.P6463599065484835991
 
 /-!
-# A229820: Even bisection gives sequence a itself, n->a(2*(5*n+k)-1) gives k-th differences of a for k=1..5 with a(n)=n for n
+# A229820: Even bisection gives sequence a itself, n->a(2*(5*n+k)-1) gives k-th differences of a for k=1..5 with a(n)=n for n<2.
 
 The programs for A229820, there is no canonical definition to state claims against.
 -/
@@ -1275,7 +1278,7 @@ end
 end A229820.P9179177890036202951
 
 /-!
-# A229821: Even bisection gives sequence a itself, n->a(2*(6*n+k)-1) gives k-th differences of a for k=1..6 with a(n)=n for n
+# A229821: Even bisection gives sequence a itself, n->a(2*(6*n+k)-1) gives k-th differences of a for k=1..6 with a(n)=n for n<2.
 
 The programs for A229821, there is no canonical definition to state claims against.
 -/
@@ -1359,7 +1362,7 @@ end
 end A229821.P12312896930234963968
 
 /-!
-# A229822: Even bisection gives sequence a itself, n->a(2*(7*n+k)-1) gives k-th differences of a for k=1..7 with a(n)=n for n
+# A229822: Even bisection gives sequence a itself, n->a(2*(7*n+k)-1) gives k-th differences of a for k=1..7 with a(n)=n for n<2.
 
 The programs for A229822, there is no canonical definition to state claims against.
 -/
@@ -1440,7 +1443,7 @@ end
 end A229822.P7192508053170350680
 
 /-!
-# A229823: Even bisection gives sequence a itself, n->a(2*(8*n+k)-1) gives k-th differences of a for k=1..8 with a(n)=n for n
+# A229823: Even bisection gives sequence a itself, n->a(2*(8*n+k)-1) gives k-th differences of a for k=1..8 with a(n)=n for n<2.
 
 The programs for A229823, there is no canonical definition to state claims against.
 -/
@@ -1527,7 +1530,7 @@ end
 end A229823.P4573979545351991817
 
 /-!
-# A229824: Even bisection gives sequence a itself, n->a(2*(9*n+k)-1) gives k-th differences of a for k=1..9 with a(n)=n for n
+# A229824: Even bisection gives sequence a itself, n->a(2*(9*n+k)-1) gives k-th differences of a for k=1..9 with a(n)=n for n<2.
 
 The programs for A229824, there is no canonical definition to state claims against.
 -/
@@ -4314,7 +4317,7 @@ end A229849.P14253194087029662589
 /-!
 # A229852: 3*h^2, where h is an odd integer not divisible by 3.
 
-The programs for A229852, the canonical program `A229852.P573498570990364365` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229852 has offset 1).
+The programs for A229852, the canonical program `A229852.P573498570990364365` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229852 has offset 1).
 
 The definition of A229852 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4346,7 +4349,7 @@ end A229852
 
 `3*A104777(n+1)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A229852
@@ -4835,7 +4838,7 @@ end A229853
 /-!
 # A229854: Primes of the form 384*k + 1.
 
-The programs for A229854, the canonical program `A229854.P2402401608803055440` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229854 has offset 1).
+The programs for A229854, the canonical program `A229854.P2402401608803055440` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229854 has offset 1).
 
 The definition of A229854 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1241 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4904,7 +4907,7 @@ end A229854
 
 `∩[A142398(n+1), A229853(n)]`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A229854
@@ -7437,7 +7440,7 @@ end A229881.P12234768189990176097
 /-!
 # A229882: Squarefree oblong numbers.
 
-The programs for A229882, the canonical program `A229882.P2075050429214835395` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229882 has offset 1).
+The programs for A229882, the canonical program `A229882.P2075050429214835395` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229882 has offset 1).
 
 The definition of A229882 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007674, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7446,7 +7449,7 @@ The definition of A229882 is `conditional`: the Lean definition is an OEIS formu
 
 `A007674(n+1)²+A007674(n+1)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A229882

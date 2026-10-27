@@ -43,31 +43,34 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C009
+import Seq.B001.C007
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4787,7 +4790,7 @@ end A091440.P9559498191068862947
 /-!
 # A091441: Table (by antidiagonals) of permutations of two types of objects such that each cycle contains at least one object of each type. Each type of object is labeled from its own label set.
 
-The programs for A091441, the canonical program `A091441.P8017669790093699685` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091441 has offset 1).
+The programs for A091441, the canonical program `A091441.P8017669790093699685` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091441 has offset 1).
 
 The definition of A091441 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2415 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4911,7 +4914,7 @@ end A091441
 
 `A003056(n)!*A003991(n+1)`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A091441
@@ -5717,7 +5720,7 @@ end A091452.P13100726894076227075
 /-!
 # A091453: Triangular array T(n,k) read by rows in which row n consists of the numbers floor(2n/k), k=1,2,...,2n+1.
 
-The programs for A091453, the canonical program `A091453.P13154820347663244878` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091453 has offset 0).
+The programs for A091453, the canonical program `A091453.P13154820347663244878` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091453 has offset 0).
 
 The definition of A091453 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5749,7 +5752,7 @@ end A091453
 
 `ceil(A068527(n)/A028310(A053186(n)))`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A091453
@@ -5839,7 +5842,7 @@ end A091453
 /-!
 # A091454: Integers k such that 3*phi(k) < k.
 
-The programs for A091454, the canonical program `A091454.P11422470773491775725` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091454 has offset 1).
+The programs for A091454, the canonical program `A091454.P11422470773491775725` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091454 has offset 1).
 
 The definition of A091454 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8432 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5848,7 +5851,7 @@ The definition of A091454 is `conjectured`: the Lean definition is a formula tha
 
 `lt[3*A000010(n+1), n]+1`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A091454
@@ -6459,21 +6462,6 @@ end
 
 end A091456.P11837396467520794218
 
-/-! ## A091456.P9306464871108525473
-
-`A002110(A256969(n+1))`
--/
-
-namespace A091456.P9306464871108525473
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A002110 (A256969 (n + 1)).toNat
-
-end
-
-end A091456.P9306464871108525473
-
 /-! ## A091456.P17760439477814503687
 
 `A034386(A061556(n+1)+1)`
@@ -6805,7 +6793,7 @@ end A091460.P4614966293158507860
 /-!
 # A091462: a(n) is the smallest j such that 1/3 + 1/6 + 1/9 + ... + 1/j exceeds n.
 
-The programs for A091462, the canonical program `A091462.P5675951581171116121` is in `Seq.B001.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091462 has offset 0).
+The programs for A091462, the canonical program `A091462.P5675951581171116121` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A091462 has offset 0).
 
 The definition of A091462 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002387, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6814,7 +6802,7 @@ The definition of A091462 is `conditional`: the Lean definition is an OEIS formu
 
 `3*A002387(3*n)`
 
-The canonical program, it is in `Seq.B001.C003`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A091462

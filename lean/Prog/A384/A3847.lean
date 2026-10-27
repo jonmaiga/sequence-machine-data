@@ -32,25 +32,27 @@ import Seq.B001.C002
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -355,7 +357,7 @@ end A384709.P10039141921225988847
 /-!
 # A384710: a(n) = Sum_{k=0..n} [gcd(k, n) = 1], where [.] are the Iverson brackets.
 
-The programs for A384710, the canonical program `A384710.P17192466185515351844` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384710 has offset 0).
+The programs for A384710, the canonical program `A384710.P17192466185515351844` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384710 has offset 0).
 
 The definition of A384710 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -364,7 +366,7 @@ The definition of A384710 is `conjectured`: the Lean definition is a formula tha
 
 `1-A062830(n)+n`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A384710
@@ -1514,7 +1516,7 @@ end A384715
 /-!
 # A384716: The totient of the product of unitary divisors of n.
 
-The programs for A384716, the canonical program `A384716.P11863616275653796637` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384716 has offset 1).
+The programs for A384716, the canonical program `A384716.P11863616275653796637` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384716 has offset 1).
 
 The definition of A384716 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A061537, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1546,7 +1548,7 @@ end A384716
 
 `A000010(A061537(n+1))`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A384716
@@ -2145,7 +2147,7 @@ end
 end A384727.P10085938223770454358
 
 /-!
-# A384728: The number of different shuffle square roots of the prefix of length 2n of the infinte word 00110011001100...
+# A384728: The number of different shuffle square roots of the prefix of length 2n of the infinite word 00110011001100...
 
 The programs for A384728, there is no canonical definition to state claims against.
 -/
@@ -3161,7 +3163,7 @@ end A384760.P9235732238321056335
 /-!
 # A384763: Product of the Euler totients of the unitary divisors of n.
 
-The programs for A384763, the canonical program `A384763.P13786111190154472342` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384763 has offset 1).
+The programs for A384763, the canonical program `A384763.P13786111190154472342` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A384763 has offset 1).
 
 The definition of A384763 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A034444, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3170,7 +3172,7 @@ The definition of A384763 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(n+1)^(A034444(n+1)/2)`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A384763
@@ -3393,7 +3395,7 @@ def P10756866219163343894.Spec : Prop :=
 end A384763
 
 /-!
-# A384764: Number of uniquely solveable n X m nonograms (hanjie), read by antidiagonals.
+# A384764: Number of uniquely solvable n X m nonograms (hanjie), read by antidiagonals.
 
 The programs for A384764, there is no canonical definition to state claims against.
 -/

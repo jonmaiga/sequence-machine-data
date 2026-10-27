@@ -37,13 +37,12 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -54,17 +53,19 @@ import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
+import Seq.B005.C001
+import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1388,7 +1389,7 @@ end A298611.P17916225526643040843
 /-!
 # A298612: The number of concave polygon classes.
 
-The programs for A298612, the canonical program `A298612.P5426295925633337968` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298612 has offset 3).
+The programs for A298612, the canonical program `A298612.P5426295925633337968` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298612 has offset 3).
 
 The definition of A298612 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A262232, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1397,7 +1398,7 @@ The definition of A298612 is `conditional`: the Lean definition is an OEIS formu
 
 `A262232(n+3)-1`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A298612
@@ -3607,7 +3608,7 @@ end A298636.P14654368998438425846
 /-!
 # A298637: Triangular array of a Catalan number variety: T(n,k) is the number of words consisting of n parentheses containing k well-balanced pairs.
 
-The programs for A298637, the canonical program `A298637.P8725967472440177117` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298637 has offset 0).
+The programs for A298637, the canonical program `A298637.P8725967472440177117` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298637 has offset 0).
 
 The definition of A298637 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3616,7 +3617,7 @@ The definition of A298637 is `conjectured`: the Lean definition is a formula tha
 
 `(A082375(n)+1)*A008315(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A298637
@@ -3936,7 +3937,7 @@ end A298637
 /-!
 # A298638: Numbers k such that the digital sum of k and the digital root of k have opposite parity.
 
-The programs for A298638, the canonical program `A298638.P11624616744762784382` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298638 has offset 1).
+The programs for A298638, the canonical program `A298638.P11624616744762784382` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298638 has offset 1).
 
 The definition of A298638 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5115 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4001,7 +4002,7 @@ end A298638
 
 `eq[1, A179081(n)+A113217(n)]`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A298638
@@ -4454,7 +4455,7 @@ end A298638
 /-!
 # A298639: Numbers k such that the digital sum of k and the digital root of k have the same parity.
 
-The programs for A298639, the canonical program `A298639.P12281402705215784674` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298639 has offset 1).
+The programs for A298639, the canonical program `A298639.P12281402705215784674` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298639 has offset 1).
 
 The definition of A298639 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4463,7 +4464,7 @@ The definition of A298639 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A298638(n+1)]`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A298639
@@ -6725,7 +6726,7 @@ end A298667.P9777741171522028456
 /-!
 # A298668: Number T(n,k) of set partitions of [n] into k blocks such that the absolute difference between least elements of consecutive blocks is always > 1; triangle T(n,k), n>=0, 0<=k<=ceiling(n/2), read by rows.
 
-The programs for A298668, the canonical program `A298668.P7922596898981763490` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298668 has offset 0).
+The programs for A298668, the canonical program `A298668.P7922596898981763490` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298668 has offset 0).
 
 The definition of A298668 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1155 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6734,7 +6735,7 @@ The definition of A298668 is `conjectured`: the Lean definition is a formula tha
 
 `A142071(A056536(n+2)-A057427(n))`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A298668

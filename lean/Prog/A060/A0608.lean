@@ -52,6 +52,7 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -64,7 +65,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -74,12 +75,11 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -111,7 +111,7 @@ set_option linter.unreachableTactic false
 /-!
 # A060800: a(n) = p^2 + p + 1 where p runs through the primes.
 
-The programs for A060800, the canonical program `A060800.P2009094709202359605` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060800 has offset 1).
+The programs for A060800, the canonical program `A060800.P2009094709202359605` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060800 has offset 1).
 
 The definition of A060800 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -120,7 +120,7 @@ The definition of A060800 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A036690(n+1)+1`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A060800
@@ -2573,7 +2573,7 @@ end A060817.P16189864976425022177
 /-!
 # A060818: a(n) = 2^(n - HammingWeight(n)) = 2^(n - BitCount(n)) = 2^(n - A000120(n)).
 
-The programs for A060818, the canonical program `A060818.P15252789731358603356` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060818 has offset 0).
+The programs for A060818, the canonical program `A060818.P15252789731358603356` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060818 has offset 0).
 
 The definition of A060818 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2582,7 +2582,7 @@ The definition of A060818 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2^A011371(n)`
 
-The canonical program, it is in `Seq.B001.C002`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A060818
@@ -6471,7 +6471,7 @@ end A060831
 /-!
 # A060832: a(n) = Sum_{k>0} floor(n/k!).
 
-The programs for A060832, the canonical program `A060832.P6221694055297476933` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060832 has offset 0).
+The programs for A060832, the canonical program `A060832.P6221694055297476933` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060832 has offset 0).
 
 The definition of A060832 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A055881, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6480,7 +6480,7 @@ The definition of A060832 is `conditional`: the Lean definition is an OEIS formu
 
 `a(n-1)+A055881(n)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A060832
@@ -7920,7 +7920,7 @@ end A060838.P13433120240502629930
 /-!
 # A060839: Number of solutions to x^3 == 1 (mod n).
 
-The programs for A060839, the canonical program `A060839.P16883216215693058205` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060839 has offset 1).
+The programs for A060839, the canonical program `A060839.P16883216215693058205` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060839 has offset 1).
 
 The definition of A060839 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7978,7 +7978,7 @@ end A060839
 
 `A000265(A319100(n+1))`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A060839
@@ -12043,7 +12043,7 @@ end A060864.P5657921600321021835
 /-!
 # A060865: a(n) is the exact power of 2 that divides the n-th Fibonacci number (A000045).
 
-The programs for A060865, the canonical program `A060865.P5933490346264711898` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060865 has offset 1).
+The programs for A060865, the canonical program `A060865.P5933490346264711898` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060865 has offset 1).
 
 The definition of A060865 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -12098,7 +12098,7 @@ end A060865
 
 `A006519(A000045(n+1))`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A060865
@@ -12863,12 +12863,6 @@ namespace A060866
 /-- `A037213(n+1)+A345320(n+1)+A069290(n+1)` -/
 def P12754012169099624953.Spec : Prop :=
   ∀ n, P12754012169099624953.a n = A060866 (n + 1)
-
-theorem P12754012169099624953.correct : P12754012169099624953.Spec := by
-  intro n
-  simp only [A060866, Nat.add_sub_cancel, A060866.P12754012169099624953.a, A060866.P6702575079618569107.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A037213, A037213.P7544062464691828526.a, A069290, A069290.P6266587800206818294.a, A345320, A345320.P2768063189840868714.a, A000188, A000188.P7486858720566838181.a, A000196, A000196.P15434771586934192083.a, A010052, A010052.P917763524850441347.f1, A010052.P917763524850441347.a, A008833, A008833.P18388074464065390543.a, A007913, A007913.P8131970495124731496.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A060866
 
@@ -15684,7 +15678,7 @@ end
 end A060880.P14348277348128402739
 
 /-!
-# A060881: n-th primorial (A002110) + prime(n + 1).
+# A060881: a(n) = primorial(n) + prime(n + 1), where primorial(n) = A002110(n).
 
 The programs for A060881, the canonical program `A060881.P16432498397085267069` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A060881 has offset 0).
 

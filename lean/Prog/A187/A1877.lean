@@ -49,28 +49,31 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -317,7 +320,7 @@ end
 end A187706.P15671074375921692267
 
 /-!
-# A187707: Number of 4X4 0..n arrays with each 2X2 subblock off diagonal and antidiagonal nonsingular and the array of 2X2 subblock determinants antisymmetric about the diagonal and antidiagonal.
+# A187707: Number of 4 X 4 0..n arrays with each 2 X 2 subblock off diagonal and antidiagonal nonsingular and the array of 2 X 2 subblock determinants antisymmetric about the diagonal and antidiagonal.
 
 The programs for A187707, there is no canonical definition to state claims against.
 -/
@@ -5804,7 +5807,7 @@ end A187755.P9649720988745731920
 /-!
 # A187756: a(n) = n^2 * (4*n^2 - 1) / 3.
 
-The programs for A187756, the canonical program `A187756.P2037243805529063286` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187756 has offset 0).
+The programs for A187756, the canonical program `A187756.P2037243805529063286` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187756 has offset 0).
 
 The definition of A187756 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -5838,7 +5841,7 @@ end A187756
 
 `n*A000447(n)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A187756
@@ -6295,7 +6298,7 @@ theorem P14527293725838274165.correct : P14527293725838274165.Spec := by
 end A187756
 
 /-!
-# A187759: Number of ways to write n=x+y (0
+# A187759: Number of ways to write n=x+y (0<x<y<n) with 6x-1, 6x+1, 6y-1 and 6y+1 all prime.
 
 The programs for A187759, there is no canonical definition to state claims against.
 -/
@@ -6438,7 +6441,7 @@ end A187759.P9885207098301432005
 /-!
 # A187760: Table T(n,k) read by antidiagonals. T(n,k)=n-k+1, if n>=k, T(n,k)=k-n+2, if n < k.
 
-The programs for A187760, the canonical program `A187760.P14445012374948674786` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187760 has offset 1).
+The programs for A187760, the canonical program `A187760.P14445012374948674786` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187760 has offset 1).
 
 The definition of A187760 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6447,7 +6450,7 @@ The definition of A187760 is `conjectured`: the Lean definition is a formula tha
 
 `A143182(n)+1-A101688(n)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A187760
@@ -7235,7 +7238,7 @@ end A187765.P760649100505008133
 /-!
 # A187767: Number of bicolored cyclic patterns n X n.
 
-The programs for A187767, the canonical program `A187767.P2032594768100003987` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187767 has offset 1).
+The programs for A187767, the canonical program `A187767.P2032594768100003987` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187767 has offset 1).
 
 The definition of A187767 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 200 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7244,7 +7247,7 @@ The definition of A187767 is `conjectured`: the Lean definition is a formula tha
 
 `A127804(n)-1`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A187767
@@ -9118,7 +9121,7 @@ end A187792.P15818920584036650675
 /-!
 # A187793: Sum of the deficient divisors of n.
 
-The programs for A187793, the canonical program `A187793.P5149541496451924796` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187793 has offset 1).
+The programs for A187793, the canonical program `A187793.P5149541496451924796` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187793 has offset 1).
 
 The definition of A187793 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9156,7 +9159,7 @@ end A187793
 
 `∑{d}[n+1, #*A294934(#)]`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A187793
@@ -9284,7 +9287,7 @@ end A187793
 /-!
 # A187794: Sum of the perfect divisors of n.
 
-The programs for A187794, the canonical program `A187794.P17499645583050046868` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187794 has offset 1).
+The programs for A187794, the canonical program `A187794.P17499645583050046868` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187794 has offset 1).
 
 The definition of A187794 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9293,7 +9296,7 @@ The definition of A187794 is `conjectured`: the Lean definition is a formula tha
 
 `A000203(n+1)-(A187795(n+1)+A187793(n+1))`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A187794

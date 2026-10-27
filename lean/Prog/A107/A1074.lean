@@ -40,20 +40,21 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -64,10 +65,9 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5525,7 +5525,7 @@ end
 end A107451.P8106740269336889256
 
 /-!
-# A107452: Number of nonisomorphic bipartite generalized Petersen graphs P(2n,k) on 4n vertices for 1<=k
+# A107452: Number of nonisomorphic bipartite generalized Petersen graphs P(2n,k) on 4n vertices for 1<=k<n.
 
 The programs for A107452, there is no canonical definition to state claims against.
 -/
@@ -6116,7 +6116,7 @@ def P10037178400897721326.Spec : Prop :=
 end A107458
 
 /-!
-# A107459: Number of nonisomorphic bipartite generalized Petersen graphs P(2n,k) with girth 6 on 4n vertices for 1<=k
+# A107459: Number of nonisomorphic bipartite generalized Petersen graphs P(2n,k) with girth 6 on 4n vertices for 1<=k<n.
 
 The programs for A107459, there is no canonical definition to state claims against.
 -/
@@ -6137,7 +6137,7 @@ end
 end A107459.P4615200325237928270
 
 /-!
-# A107460: Number of nonisomorphic bipartite generalized Petersen graphs P(2n,k) with girth 8 on 4n vertices for 1<=k
+# A107460: Number of nonisomorphic bipartite generalized Petersen graphs P(2n,k) with girth 8 on 4n vertices for 1<=k<n.
 
 The programs for A107460, there is no canonical definition to state claims against.
 -/
@@ -7260,7 +7260,7 @@ end A107471
 /-!
 # A107472: Composite numbers in sequence A107323.
 
-The programs for A107472, the canonical program `A107472.P3955423761168080437` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107472 has offset 1).
+The programs for A107472, the canonical program `A107472.P3955423761168080437` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107472 has offset 1).
 
 The definition of A107472 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4822 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7292,7 +7292,7 @@ end A107472
 
 `filter[A107323(n+3), A005171(#)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A107472
@@ -7799,7 +7799,7 @@ end A107472
 /-!
 # A107473: Sum of numerator and denominator of Product_{p|n, p prime} (1 - 1/p).
 
-The programs for A107473, the canonical program `A107473.P616088054207537606` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107473 has offset 1).
+The programs for A107473, the canonical program `A107473.P616088054207537606` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107473 has offset 1).
 
 The definition of A107473 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7808,7 +7808,7 @@ The definition of A107473 is `conjectured`: the Lean definition is a formula tha
 
 `lcm(n+1, A121048(n+1))/(n+1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A107473

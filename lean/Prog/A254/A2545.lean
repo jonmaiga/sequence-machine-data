@@ -40,22 +40,27 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -64,7 +69,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -125,7 +129,7 @@ end A254500.P10607894295529125027
 /-!
 # A254503: Möbius transform of A034448.
 
-The programs for A254503, the canonical program `A254503.P16877197465467938331` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254503 has offset 1).
+The programs for A254503, the canonical program `A254503.P16877197465467938331` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254503 has offset 1).
 
 The definition of A254503 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002618, A384050, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -134,7 +138,7 @@ The definition of A254503 is `conditional`: the Lean definition is an OEIS formu
 
 `A002618(n+1)/A384050(n+1)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A254503
@@ -1853,7 +1857,7 @@ end A254519.P15254746364082813688
 /-!
 # A254520: Möbius transform of A034676.
 
-The programs for A254520, the canonical program `A254520.P14622412056457031035` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254520 has offset 1).
+The programs for A254520, the canonical program `A254520.P14622412056457031035` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254520 has offset 1).
 
 The definition of A254520 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A063659, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1862,7 +1866,7 @@ The definition of A254520 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+1)*A063659(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A254520
@@ -2322,7 +2326,7 @@ end A254521.P2594841458770258225
 /-!
 # A254522: Numerators of (2^n - 1 + (-1)^n)/(2*n), n > 0.
 
-The programs for A254522, the canonical program `A254522.P18432962942992038742` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254522 has offset 1).
+The programs for A254522, the canonical program `A254522.P18432962942992038742` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A254522 has offset 1).
 
 The definition of A254522 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2331,7 +2335,7 @@ The definition of A254522 is `conjectured`: the Lean definition is a formula tha
 
 `A166920(n)/gcd(n+1, A166920(n))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A254522

@@ -40,18 +40,16 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
-import Seq.B001.C011
+import Seq.B001.C009
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
-import Seq.B003.C000
+import Seq.B002.C007
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
@@ -66,9 +64,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1395,7 +1390,7 @@ end A158012.P10268269129909843980
 /-!
 # A158014: Primes p such that (p-1)/8 is also prime.
 
-The programs for A158014, the canonical program `A158014.P12413246959562192546` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158014 has offset 1).
+The programs for A158014, the canonical program `A158014.P12413246959562192546` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158014 has offset 1).
 
 The definition of A158014 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A023228, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1404,7 +1399,7 @@ The definition of A158014 is `conditional`: the Lean definition is an OEIS formu
 
 `8*A023228(n+1)+1`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A158014
@@ -1931,7 +1926,7 @@ end A158014
 /-!
 # A158015: Primes p such that 6*p-1 is also prime.
 
-The programs for A158015, the canonical program `A158015.P7047536618919471622` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158015 has offset 1).
+The programs for A158015, the canonical program `A158015.P7047536618919471622` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158015 has offset 1).
 
 The definition of A158015 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 959 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1940,7 +1935,7 @@ The definition of A158015 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A024898(n+1)]`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A158015
@@ -2489,7 +2484,7 @@ end A158015
 /-!
 # A158016: Primes p such that 8*p-1 is also prime.
 
-The programs for A158016, the canonical program `A158016.P9281002551474068050` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158016 has offset 1).
+The programs for A158016, the canonical program `A158016.P9281002551474068050` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158016 has offset 1).
 
 The definition of A158016 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 676 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2498,7 +2493,7 @@ The definition of A158016 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A005122(n+1)]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A158016
@@ -3036,7 +3031,7 @@ end A158016
 /-!
 # A158017: Primes p such that 10*p-1 is also prime.
 
-The programs for A158017, the canonical program `A158017.P9242020065271411351` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158017 has offset 1).
+The programs for A158017, the canonical program `A158017.P9242020065271411351` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158017 has offset 1).
 
 The definition of A158017 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 717 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3045,7 +3040,7 @@ The definition of A158017 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A105042(n+1)]`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A158017
@@ -4112,7 +4107,7 @@ end A158018
 /-!
 # A158019: Numbers such that (n-1)/2 and 10*n-1 are both prime.
 
-The programs for A158019, the canonical program `A158019.P16095416846168074272` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158019 has offset 1).
+The programs for A158019, the canonical program `A158019.P16095416846168074272` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158019 has offset 1).
 
 The definition of A158019 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 805 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4121,7 +4116,7 @@ The definition of A158019 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A072055(n+1), A105042(n+1)]`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A158019
@@ -4321,7 +4316,7 @@ end A158019
 /-!
 # A158020: Triangle of coefficients in expansion of (-1-x)^floor(n/2)(1-x)^ceiling(n/2).
 
-The programs for A158020, the canonical program `A158020.P16120457712402033176` is in `Seq.B001.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158020 has offset 0).
+The programs for A158020, the canonical program `A158020.P16120457712402033176` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158020 has offset 0).
 
 The definition of A158020 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4330,7 +4325,7 @@ The definition of A158020 is `conjectured`: the Lean definition is a formula tha
 
 `A033999(A083920(n))*A051160(n)`
 
-The canonical program, it is in `Seq.B001.C006`.
+The canonical program, it is in `Seq.B001.C007`.
 -/
 
 namespace A158020
@@ -4440,7 +4435,7 @@ end A158020
 /-!
 # A158021: Primes such that p, 10*p-1 and (p-1)/2 are all prime.
 
-The programs for A158021, the canonical program `A158021.P9448806863383179494` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158021 has offset 1).
+The programs for A158021, the canonical program `A158021.P9448806863383179494` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158021 has offset 1).
 
 The definition of A158021 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1036 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4479,7 +4474,7 @@ end A158021
 
 `∩[A065966(n+1), A158017(n+1)]`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A158021
@@ -6203,7 +6198,7 @@ end A158037.P5382427806810154782
 /-!
 # A158038: Difference between n-th prime and next cube.
 
-The programs for A158038, the canonical program `A158038.P9757458246362349300` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158038 has offset 1).
+The programs for A158038, the canonical program `A158038.P9757458246362349300` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158038 has offset 1).
 
 The definition of A158038 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6212,7 +6207,7 @@ The definition of A158038 is `conjectured`: the Lean definition is a formula tha
 
 `A333884(A000040(n+1))`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A158038
@@ -10646,7 +10641,7 @@ end A158075.P10951326475695575938
 /-!
 # A158077: Denominator of Bernoulli(n, 1/6).
 
-The programs for A158077, the canonical program `A158077.P7790536716201207724` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158077 has offset 0).
+The programs for A158077, the canonical program `A158077.P7790536716201207724` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A158077 has offset 0).
 
 The definition of A158077 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 120 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10655,7 +10650,7 @@ The definition of A158077 is `conjectured`: the Lean definition is a formula tha
 
 `lcm(3^n, A157782(n))`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A158077

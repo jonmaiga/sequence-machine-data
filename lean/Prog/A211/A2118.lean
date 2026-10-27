@@ -35,30 +35,28 @@ import Seq.B000.C038
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
-import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B003.C000
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -176,7 +174,7 @@ end
 end A211800.P17907720601566162111
 
 /-!
-# A211801: Number of ordered triples (w,x,y) with all terms in {1,...,n} and 2w^3
+# A211801: Number of ordered triples (w,x,y) with all terms in {1,...,n} and 2w^3<x^3+y^3.
 
 The programs for A211801, there is no canonical definition to state claims against.
 -/
@@ -578,7 +576,7 @@ end
 end A211804.P1457365792298847165
 
 /-!
-# A211805: Rectangular array: R(k,n) = number of ordered triples (w,x,y) with all terms in {1,...,n} and 2w^k>=x^k+y
+# A211805: Rectangular array: R(k,n) = number of ordered triples (w,x,y) with all terms in {1,...,n} and 2w^k>=x^k+y<k.
 
 The programs for A211805, there is no canonical definition to state claims against.
 -/
@@ -875,7 +873,7 @@ end
 end A211807.P16693766946650473206
 
 /-!
-# A211808: Rectangular array: R(k,n) = number of ordered triples (w,x,y) with all terms in {1,...,n} and 2w^k<=x^k+y
+# A211808: Rectangular array: R(k,n) = number of ordered triples (w,x,y) with all terms in {1,...,n} and 2w^k<=x^k+y<k.
 
 The programs for A211808, there is no canonical definition to state claims against.
 -/
@@ -3654,7 +3652,7 @@ end A211837
 /-!
 # A211838: Number of nonnegative integer arrays of length n+5 with new values 0 upwards introduced in order, no three adjacent elements equal, and containing the value n+1.
 
-The programs for A211838, the canonical program `A211838.P8340850666101725983` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211838 has offset 1).
+The programs for A211838, the canonical program `A211838.P8340850666101725983` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211838 has offset 1).
 
 The definition of A211838 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9996 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3663,7 +3661,7 @@ The definition of A211838 is `conjectured`: the Lean definition is a formula tha
 
 `A001297(n+3)+A002817(n+3)+A000292(n+5)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211838
@@ -6903,7 +6901,7 @@ end A211871.P9094190504670218207
 /-!
 # A211872: For each triprime (A014612) less than or equal to n, sum the positive integers less than or equal to the number of divisors of the triprime.
 
-The programs for A211872, the canonical program `A211872.P2233114170905546091` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211872 has offset 1).
+The programs for A211872, the canonical program `A211872.P2233114170905546091` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A211872 has offset 1).
 
 The definition of A211872 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6964,7 +6962,7 @@ end A211872
 
 `∑[A000217(∏{e}[n+1, #+1])*A101605(n+1)]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A211872

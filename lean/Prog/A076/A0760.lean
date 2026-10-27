@@ -39,28 +39,27 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C002
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -8774,7 +8773,7 @@ end A076076.P3074048067515323948
 /-!
 # A076078: a(n) is the number of nonempty sets of distinct positive integers that have a least common multiple of n.
 
-The programs for A076078, the canonical program `A076078.P3842631660775757890` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076078 has offset 1).
+The programs for A076078, the canonical program `A076078.P3842631660775757890` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A076078 has offset 1).
 
 The definition of A076078 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8823,19 +8822,13 @@ namespace A076078
 def P713741061354617346.Spec : Prop :=
   ∀ n, P713741061354617346.a n = A076078 (n + 1)
 
-theorem P713741061354617346.correct : P713741061354617346.Spec := by
-  intro n
-  simp only [A076078, Nat.add_sub_cancel, A076078.P713741061354617346.a, A076078.P3842631660775757890.a, A000007, A000007.P6599383543502402472.a, A069626, A069626.P14114950081823336595.f1, A069626.P14114950081823336595.a, A100587, A100587.P4523483955726030569.a, A339667, A339667.P11239473250096639083.a, A000005, A000005.P16091521709108585461.a, A007427, A007427.P16363569186413612215.f1, A007427.P16363569186413612215.a, A347405, A347405.P7591125680275529693.f1, A347405.P7591125680275529693.a, A008683, A008683.P18254306604665478110.a, A032741, A032741.P3022166995030670566.f1, A032741.P3022166995030670566.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A076078
 
 /-! ## A076078.P3842631660775757890
 
 `2*A069626(n+1)-A000007(n)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A076078

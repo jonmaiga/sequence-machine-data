@@ -25,6 +25,7 @@ import Seq.B000.C033
 import Seq.B000.C036
 import Seq.B000.C039
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C005
 import Seq.B001.C006
@@ -35,23 +36,24 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C004
+import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C002
+import Seq.B004.C001
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -797,7 +799,7 @@ end A062619.P14660485610129290083
 /-!
 # A062624: Number of integers less than A000108(n) relatively prime to A000108(n).
 
-The programs for A062624, the canonical program `A062624.P14204432833030423673` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062624 has offset 0).
+The programs for A062624, the canonical program `A062624.P14204432833030423673` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062624 has offset 0).
 
 The definition of A062624 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -829,7 +831,7 @@ end A062624
 
 `A000010(A000108(n))`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A062624
@@ -916,7 +918,7 @@ end A062624
 /-!
 # A062627: a(n) = mu(n) * Catalan(n).
 
-The programs for A062627, the canonical program `A062627.P16947834308808858695` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062627 has offset 0).
+The programs for A062627, the canonical program `A062627.P16947834308808858695` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062627 has offset 0).
 
 The definition of A062627 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 139 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1109,7 +1111,7 @@ end A062627
 
 `A000108(n)*A054527(A034856(n+1))`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C001`.
 -/
 
 namespace A062627
@@ -4747,7 +4749,7 @@ end A062691.P15938868821891422882
 /-!
 # A062692: Number of irreducible polynomials over F_2 of degree at most n.
 
-The programs for A062692, the canonical program `A062692.P12181960848858303464` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062692 has offset 1).
+The programs for A062692, the canonical program `A062692.P12181960848858303464` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A062692 has offset 1).
 
 The definition of A062692 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5010,7 +5012,7 @@ end A062692
 
 `a(n-1)+A038199(n+1)/(n+1)` with `a(0)=2`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A062692
@@ -5545,7 +5547,7 @@ end
 end A062698.P3093507701615627095
 
 /-!
-# A062699: Numbers n such that sigma(n) = 2*phi(n).
+# A062699: Numbers k such that sigma(k) = 2*phi(k).
 
 The programs for A062699, there is no canonical definition to state claims against.
 -/

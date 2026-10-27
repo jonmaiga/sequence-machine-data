@@ -31,19 +31,21 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
-import Seq.B001.C008
+import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C004
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
@@ -52,10 +54,10 @@ import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B011.C000
-import Seq.B012.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -679,7 +681,7 @@ end
 end A380202.P2115501461669585178
 
 /-!
-# A380203: With given points 0,1 on the x-axis, a(n) is the number of ways to construct n with m circles where 2^(m-1)
+# A380203: With given points 0,1 on the x-axis, a(n) is the number of ways to construct n with m circles where 2^(m-1)<n<=2^m.
 
 The programs for A380203, there is no canonical definition to state claims against.
 -/
@@ -1610,7 +1612,7 @@ end A380229.P1807685694360299580
 /-!
 # A380230: a(n) = n*A070939(n).
 
-The programs for A380230, the canonical program `A380230.P9860135547969315712` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380230 has offset 0).
+The programs for A380230, the canonical program `A380230.P9860135547969315712` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380230 has offset 0).
 
 The definition of A380230 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `n*A070939(n)` (program `A380230.P9860135547969315712`, by `A380230.P9860135547969315712.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -1619,7 +1621,7 @@ The definition of A380230 is `verified`: the Lean definition is proven equivalen
 
 `n*A070939(n)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A380230
@@ -4587,7 +4589,7 @@ end A380287.P8919475376642652100
 /-!
 # A380288: a(n) is the number of divisors d of n such that 2^d - 1 is not prime.
 
-The programs for A380288, the canonical program `A380288.P9721759158945038093` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380288 has offset 1).
+The programs for A380288, the canonical program `A380288.P9721759158945038093` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A380288 has offset 1).
 
 The definition of A380288 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A379590, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4596,7 +4598,7 @@ The definition of A380288 is `conditional`: the Lean definition is an OEIS formu
 
 `A000005(n+1)-A379590(n+1)`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A380288

@@ -33,26 +33,29 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B000.C040
 import Seq.B001.C000
+import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C012
+import Seq.B001.C010
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C005
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -60,9 +63,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -124,7 +124,7 @@ end A381100.P6088820709702082981
 /-!
 # A381101: Allouche-Johnson binary sequence based on the Narayana's cows sequence A000930.
 
-The programs for A381101, the canonical program `A381101.P6112073308414063635` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381101 has offset 0).
+The programs for A381101, the canonical program `A381101.P6112073308414063635` is in `Seq.B003.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381101 has offset 0).
 
 The definition of A381101 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 130 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -228,7 +228,7 @@ end A381101
 
 `A010060(eq[0, A048730(n)])`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C006`.
 -/
 
 namespace A381101
@@ -1581,7 +1581,7 @@ end A381121.P8713538519635749391
 /-!
 # A381122: Numbers k such that k^(k+1) == k (mod k+2).
 
-The programs for A381122, the canonical program `A381122.P9181683385261929794` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381122 has offset 1).
+The programs for A381122, the canonical program `A381122.P9181683385261929794` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381122 has offset 1).
 
 The definition of A381122 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 703 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1590,7 +1590,7 @@ The definition of A381122 is `conjectured`: the Lean definition is a formula tha
 
 `eq[n, A110146(n)]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A381122
@@ -3848,7 +3848,7 @@ end A381193
 /-!
 # A381194: Number of equal-length matchings of 2n uniformly spaced points on a circle.
 
-The programs for A381194, the canonical program `A381194.P16466113372331178624` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381194 has offset 1).
+The programs for A381194, the canonical program `A381194.P16466113372331178624` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381194 has offset 1).
 
 The definition of A381194 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3857,7 +3857,7 @@ The definition of A381194 is `conjectured`: the Lean definition is a formula tha
 
 `A306905(n+1)-A000225(n)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A381194
@@ -3892,12 +3892,6 @@ namespace A381194
 /-- `A306905(n+1)+1-A000079(n)` -/
 def P9076999267802851527.Spec : Prop :=
   ∀ n, P9076999267802851527.a n = A381194 (n + 1)
-
-theorem P9076999267802851527.correct : P9076999267802851527.Spec := by
-  intro n
-  simp only [A381194, Nat.add_sub_cancel, A381194.P9076999267802851527.a, A381194.P16466113372331178624.a, A000079, A000079.P10855139691139572931.a, A000225, A000225.P6535533121115206393.a, A306905, A306905.P16718704859846573319.a, A000013, A000013.P13330308426199228881.f1, A000013.P13330308426199228881.a, A056303, A056303.P18308971732008802848.f1, A056303.P18308971732008802848.a, A008683, A008683.P18254306604665478110.a, A056295, A056295.P9438402425658344231.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A381194
 
@@ -4399,51 +4393,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A381198.P13054040410529629544
-
-/-! ## A381198.P15160821908803282250
-
-`A110256(A053229(n+1))`
--/
-
-namespace A381198.P15160821908803282250
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110256 (A053229 (n + 1)).toNat
-
-end
-
-end A381198.P15160821908803282250
-
-/-! ## A381198.P2852241984346404817
-
-`A110256(A089684(n+1))`
--/
-
-namespace A381198.P2852241984346404817
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110256 (A089684 (n + 1)).toNat
-
-end
-
-end A381198.P2852241984346404817
-
-/-! ## A381198.P5932229083469227800
-
-`A110256(A105356(n+1))`
--/
-
-namespace A381198.P5932229083469227800
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A110256 (A105356 (n + 1)).toNat
-
-end
-
-end A381198.P5932229083469227800
 
 /-!
 # A381199: a(n) = (4*n)!/((n!)^2*(2*n)!)*Sum_{k=0..n} binomial(n,k)^2*binomial(2*k,k).

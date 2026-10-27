@@ -46,6 +46,7 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,12 +54,14 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -73,7 +76,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -639,12 +641,6 @@ namespace A004709
 /-- `A160813(n+1)-A005117(n+1)` -/
 def P9031126826759373507.Spec : Prop :=
   ∀ n, P9031126826759373507.a n = A004709 (n + 1)
-
-theorem P9031126826759373507.correct : P9031126826759373507.Spec := by
-  intro n
-  simp only [A004709, Nat.add_sub_cancel, A004709.P9031126826759373507.a, A004709.P11605199300458361357.f1, A004709.P11605199300458361357.f2, A004709.P11605199300458361357.a, A005117, A005117.P6531558222696957500.a, A113061, A113061.P11150295760055610552.f1, A113061.P11150295760055610552.a, A160813, A160813.P14776211626939802739.a, A010057, A010057.P3441922768549040012.a, A161203, A161203.P4346863006830516735.f1, A161203.P4346863006830516735.a, A055615, A055615.P8993130195977213181.a, A008683, A008683.P18254306604665478110.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A004709
 
@@ -3872,7 +3868,7 @@ end
 end A004723.P6349078589350620413
 
 /-!
-# A004729: Divisors of 2^32 - 1 (for a(1) to a(31), the 31 regular polygons with an odd number of sides constructible with ruler and compass).
+# A004729: Divisors of 2^32 - 1 (for a(1) to a(31), the 31 known regular polygons with an odd number of sides constructible with ruler and compass).
 
 The programs for A004729, there is no canonical definition to state claims against.
 -/
@@ -4913,29 +4909,6 @@ def P5302531551978956282.Spec : Prop :=
 theorem P5302531551978956282.correct : P5302531551978956282.Spec := by
   intro n
   simp only [A004733]
-
-end A004733
-
-/-! ## A004733.P5991010108581542787
-
-`sqrt(lcm(A110256(n+2), A110256(n+4)))`
--/
-
-namespace A004733.P5991010108581542787
-noncomputable section
-
-def a : ℕ → ℝ := SequenceMachineLib.memo fun n =>
-  Real.sqrt (Int.lcm (A110256 (n + 2)) (A110256 (n + 4)) : ℝ)
-
-end
-
-end A004733.P5991010108581542787
-
-namespace A004733
-
-/-- `sqrt(lcm(A110256(n+2), A110256(n+4)))` -/
-def P5991010108581542787.Spec : Prop :=
-  ∀ n, P5991010108581542787.a n = (A004733 n : ℝ)
 
 end A004733
 
@@ -23987,7 +23960,7 @@ end A004787.P14646252571419886302
 /-!
 # A004788: Number of distinct prime divisors of the numbers in row n of Pascal's triangle.
 
-The programs for A004788, the canonical program `A004788.P5157892371252489899` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004788 has offset 0).
+The programs for A004788, the canonical program `A004788.P5157892371252489899` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004788 has offset 0).
 
 The definition of A004788 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1141 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -24222,7 +24195,7 @@ end A004788
 
 `A000720(n+1)-A341642(A243074(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A004788

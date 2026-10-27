@@ -58,26 +58,21 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -110,7 +105,7 @@ set_option linter.unreachableTactic false
 /-!
 # A265100: a(n) = 9*A005836(n) + 5, n >= 1.
 
-The programs for A265100, the canonical program `A265100.P11859098700391126980` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265100 has offset 1).
+The programs for A265100, the canonical program `A265100.P11859098700391126980` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265100 has offset 1).
 
 The definition of A265100 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -119,7 +114,7 @@ The definition of A265100 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `9*A005836(n+1)+5`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A265100
@@ -2909,7 +2904,7 @@ end A265125.P3305088870629663436
 /-!
 # A265127: a(n) = prime(n) * 2^n.
 
-The programs for A265127, the canonical program `A265127.P15305230278930108679` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265127 has offset 1).
+The programs for A265127, the canonical program `A265127.P15305230278930108679` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265127 has offset 1).
 
 The definition of A265127 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `A000040(n+1)*2^(n+1)` (program `A265127.P15305230278930108679`, by `A265127.P15305230278930108679.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -2941,7 +2936,7 @@ end A265127
 
 `A000040(n+1)*2^(n+1)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A265127
@@ -4245,7 +4240,7 @@ end A265132
 /-!
 # A265133: Beatty sequence for log(2).
 
-The programs for A265133, the canonical program `A265133.P11312818710983088858` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265133 has offset 1).
+The programs for A265133, the canonical program `A265133.P11312818710983088858` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265133 has offset 1).
 
 The definition of A265133 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4277,7 +4272,7 @@ end A265133
 
 `A059541(n+1)-(n+1)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A265133
@@ -5466,7 +5461,7 @@ end
 end A265144.P8947709287669177503
 
 /-!
-# A265145: Number of lambda-parking functions of the unique strict partition lambda with parts i_1
+# A265145: Number of lambda-parking functions of the unique strict partition lambda with parts i_1<i_2<...<i_m and encoding n = Product_{j=1..m} prime(i_j-j+1).
 
 The programs for A265145, there is no canonical definition to state claims against.
 -/
@@ -5487,7 +5482,7 @@ end
 end A265145.P14800225948408299157
 
 /-!
-# A265146: Triangle T(n,k) in which n-th row lists the parts i_1=1, 1<=k<=A001222(n).
+# A265146: Triangle T(n,k) in which n-th row lists the parts i_1<i_2<...<i_m of the unique strict partition with encoding n = Product_{j=1..m} prime(i_j-j+1); n>=1, 1<=k<=A001222(n).
 
 The programs for A265146, there is no canonical definition to state claims against.
 -/
@@ -6045,7 +6040,7 @@ end A265157
 /-!
 # A265159: Rectangular array A read by upward antidiagonals in which the entry in row n and column k is defined by A(n,k) = 5 + 9*A005836(2^(k - 1)*(2 n - 1)), n,k >= 1.
 
-The programs for A265159, the canonical program `A265159.P15883052362179902397` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265159 has offset 1).
+The programs for A265159, the canonical program `A265159.P15883052362179902397` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265159 has offset 1).
 
 The definition of A265159 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6054,7 +6049,7 @@ The definition of A265159 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `5+9*A005836(2^col(n)*(2*(row(n)-col(n)+1)-1))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A265159
@@ -6164,7 +6159,7 @@ end A265159
 /-!
 # A265160: a(n) = 2^n + prime(n).
 
-The programs for A265160, the canonical program `A265160.P10322053366351731000` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265160 has offset 1).
+The programs for A265160, the canonical program `A265160.P10322053366351731000` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265160 has offset 1).
 
 The definition of A265160 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2^(n+1)+A000040(n+1)` (program `A265160.P10322053366351731000`, by `A265160.P10322053366351731000.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6173,7 +6168,7 @@ The definition of A265160 is `verified`: the Lean definition is proven equivalen
 
 `2^(n+1)+A000040(n+1)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A265160
@@ -6527,12 +6522,6 @@ namespace A265160
 /-- `A062777(n+1)+A014193(n+1)` -/
 def P18056348942857936961.Spec : Prop :=
   ∀ n, P18056348942857936961.a n = A265160 (n + 1)
-
-theorem P18056348942857936961.correct : P18056348942857936961.Spec := by
-  intro n
-  simp only [A265160, Nat.add_sub_cancel, A265160.P18056348942857936961.a, A265160.P10322053366351731000.a, A000040, A000040.P3917089138138407011.f1, A000040.P3917089138138407011.a, A014193, A014193.P13203047333368208104.a, A062777, A062777.P8405652242778700290.a, A008683, A008683.P18254306604665478110.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A085357, A085357.P3258697467278337073.a, A106400, A106400.P11201390576172776043.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A265160
 
@@ -7942,7 +7931,7 @@ end A265184.P2654325467722912940
 /-!
 # A265185: Non-vanishing traces of the powers of the adjacency matrix for the simple Lie algebra B_4: 2 * ((2 + sqrt(2))^n + (2 - sqrt(2))^n).
 
-The programs for A265185, the canonical program `A265185.P13911797425153417806` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265185 has offset 0).
+The programs for A265185, the canonical program `A265185.P13911797425153417806` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A265185 has offset 0).
 
 The definition of A265185 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -7951,7 +7940,7 @@ The definition of A265185 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `2*A056236(n)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A265185

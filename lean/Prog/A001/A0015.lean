@@ -54,29 +54,29 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C005
+import Seq.B003.C004
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
-import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6116,7 +6116,7 @@ end
 end A001528.P1623828802088813686
 
 /-!
-# A001529: NPN-equivalence classes of threshold functions of n or fewer variables.
+# A001529: Number of NPN-equivalence classes of threshold functions of n or fewer variables.
 
 The programs for A001529, there is no canonical definition to state claims against.
 -/
@@ -14219,7 +14219,7 @@ def P11328648798188870301.Spec : Prop :=
 end A001561
 
 /-!
-# A001562: Numbers n such that (10^n + 1)/11 is a prime.
+# A001562: Numbers k such that (10^k + 1)/11 is a prime.
 
 The programs for A001562, there is no canonical definition to state claims against.
 -/

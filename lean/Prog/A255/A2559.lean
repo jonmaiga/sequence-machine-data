@@ -44,20 +44,23 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -68,9 +71,6 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -166,7 +166,7 @@ namespace A255903.P15100672716064037526
 noncomputable section
 
 def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.lor (A326499 ((A092453 (3 * n + 1)).toNat + 50)) (A326500 n)
+  Int.lor (A326499 ((A092453 (3 * n + 1)).toNat + 51)) (A326500 n)
 
 end
 
@@ -930,7 +930,7 @@ end A255916.P5823702618387326391
 /-!
 # A255919: Gray code of Fibonacci(n).
 
-The programs for A255919, the canonical program `A255919.P10709878845704174550` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255919 has offset 0).
+The programs for A255919, the canonical program `A255919.P10709878845704174550` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255919 has offset 0).
 
 The definition of A255919 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -939,7 +939,7 @@ The definition of A255919 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A003188(A000045(n))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A255919
@@ -2006,7 +2006,7 @@ end A255931.P1700797411647471680
 /-!
 # A255932: a(n) is the denominator of Gamma(n+1/2)^2/(2*n*Pi), the value of an integral with sinh in the denominator.
 
-The programs for A255932, the canonical program `A255932.P1020379480356809158` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255932 has offset 1).
+The programs for A255932, the canonical program `A255932.P1020379480356809158` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255932 has offset 1).
 
 The definition of A255932 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -2038,7 +2038,7 @@ end A255932
 
 `2^A292608(n+1)`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B001.C010`.
 -/
 
 namespace A255932
@@ -2634,7 +2634,7 @@ end A255934.P7516209670351099320
 /-!
 # A255935: Triangle read by rows: a(n) = Pascal's triangle A007318(n) + A197870(n+1).
 
-The programs for A255935, the canonical program `A255935.P3423858100455783659` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255935 has offset 0).
+The programs for A255935, the canonical program `A255935.P3423858100455783659` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A255935 has offset 0).
 
 The definition of A255935 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A197870, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2643,7 +2643,7 @@ The definition of A255935 is `conditional`: the Lean definition is an OEIS formu
 
 `A007318(n)+A197870(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A255935

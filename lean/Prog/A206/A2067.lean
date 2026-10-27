@@ -7,6 +7,7 @@ import Seq.B000.C003
 import Seq.B000.C004
 import Seq.B000.C005
 import Seq.B000.C006
+import Seq.B000.C008
 import Seq.B000.C009
 import Seq.B000.C010
 import Seq.B000.C011
@@ -44,8 +45,8 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -53,23 +54,24 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -778,7 +780,7 @@ end
 end A206711.P4944646356079549968
 
 /-!
-# A206713: Number of solutions (n,k) of s(k)=s(n) (mod n), where 1<=k
+# A206713: Number of solutions (n,k) of s(k)=s(n) (mod n), where 1<=k<n and s(k)=A000045(k+1) (Fibonacci numbers).
 
 The programs for A206713, there is no canonical definition to state claims against.
 -/
@@ -847,7 +849,7 @@ end
 end A206713.P7376987538059083448
 
 /-!
-# A206714: Number of solutions (n,k) of s(k)=s(n) (mod n), where 1<=k
+# A206714: Number of solutions (n,k) of s(k)=s(n) (mod n), where 1<=k<n and s(k)=2^(k-1).
 
 The programs for A206714, there is no canonical definition to state claims against.
 -/
@@ -6379,7 +6381,7 @@ end A206772
 /-!
 # A206773: Sum of the nonprime proper divisors (or nonprime aliquot parts) of n.
 
-The programs for A206773, the canonical program `A206773.P1039150232301474807` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206773 has offset 1).
+The programs for A206773, the canonical program `A206773.P1039150232301474807` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206773 has offset 1).
 
 The definition of A206773 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A105221, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6388,7 +6390,7 @@ The definition of A206773 is `conditional`: the Lean definition is an OEIS formu
 
 `A001065(n+1)-A105221(n+1)`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A206773
@@ -6493,12 +6495,6 @@ namespace A206773
 def P17228496545799246996.Spec : Prop :=
   ∀ n, P17228496545799246996.a n = A206773 (n + 1)
 
-theorem P17228496545799246996.correct : P17228496545799246996.Spec := by
-  intro n
-  simp only [A206773, Nat.add_sub_cancel, A206773.P17228496545799246996.a, A206773.P1039150232301474807.a, A001065, A001065.P4097147489331274860.a, A023890, A023890.P4514850295399263827.a, A105221, A105221.P17719623874901943766.a, A191558, A191558.P14009675995309042097.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A008472, A008472.P6567490011312877583.f1, A008472.P6567490011312877583.a, A010051, A010051.P15078252821583414300.a, A061397, A061397.P17730824645895443051.a, A000027, A000027.P10331202704469894836.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
-
 end A206773
 
 /-! ## A206773.P8340087625220016383
@@ -6590,12 +6586,6 @@ namespace A206773
 /-- `A023890(n+1)-(n+1)*A005171(n+1)` -/
 def P15906996853464000032.Spec : Prop :=
   ∀ n, P15906996853464000032.a n = A206773 (n + 1)
-
-theorem P15906996853464000032.correct : P15906996853464000032.Spec := by
-  intro n
-  simp only [A206773, Nat.add_sub_cancel, A206773.P15906996853464000032.a, A206773.P1039150232301474807.a, A001065, A001065.P4097147489331274860.a, A005171, A005171.P15860856746370777121.a, A023890, A023890.P4514850295399263827.a, A105221, A105221.P17719623874901943766.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A008472, A008472.P6567490011312877583.f1, A008472.P6567490011312877583.a, A010051, A010051.P15078252821583414300.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A206773
 
@@ -6697,12 +6687,6 @@ namespace A206773
 /-- `A001065(n+1)+A061397(n+1)-A008472(n+1)` -/
 def P6100264157148700922.Spec : Prop :=
   ∀ n, P6100264157148700922.a n = A206773 (n + 1)
-
-theorem P6100264157148700922.correct : P6100264157148700922.Spec := by
-  intro n
-  simp only [A206773, Nat.add_sub_cancel, A206773.P6100264157148700922.a, A206773.P1039150232301474807.a, A001065, A001065.P4097147489331274860.a, A008472, A008472.P6567490011312877583.f1, A008472.P6567490011312877583.a, A061397, A061397.P17730824645895443051.a, A105221, A105221.P17719623874901943766.a, A000027, A000027.P10331202704469894836.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A010051, A010051.P15078252821583414300.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A206773
 
@@ -7936,9 +7920,9 @@ end A206785.P5377560585832657493
 /-!
 # A206787: Sum of the odd squarefree divisors of n.
 
-The programs for A206787, the canonical program `A206787.P5835391057460083436` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206787 has offset 1).
+The programs for A206787, the canonical program `A206787.P5835391057460083436` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A206787 has offset 1).
 
-The definition of A206787 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A206787 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A048250, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A206787.P4541120778110416751
@@ -7991,7 +7975,7 @@ end A206787
 
 `A048250(n+1)/A010684(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A206787

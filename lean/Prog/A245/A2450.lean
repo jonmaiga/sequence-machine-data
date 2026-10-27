@@ -39,18 +39,20 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -8715,7 +8717,7 @@ end A245086
 /-!
 # A245087: Largest number such that 2^a(n) is a divisor of (n!)!.
 
-The programs for A245087, the canonical program `A245087.P13752011406387249506` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245087 has offset 0).
+The programs for A245087, the canonical program `A245087.P13752011406387249506` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245087 has offset 0).
 
 The definition of A245087 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8747,7 +8749,7 @@ end A245087
 
 `A011371(A000142(n))`
 
-The canonical program, it is in `Seq.B001.C009`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A245087
@@ -9129,7 +9131,7 @@ end A245091.P17764953635816335082
 /-!
 # A245092: The even numbers (A005843) and the values of sigma function (A000203) interleaved.
 
-The programs for A245092, the canonical program `A245092.P5629512681857718136` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245092 has offset 0).
+The programs for A245092, the canonical program `A245092.P5629512681857718136` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A245092 has offset 0).
 
 The definition of A245092 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9138,7 +9140,7 @@ The definition of A245092 is `conjectured`: the Lean definition is a formula tha
 
 `A033880(A152271(n))+n+1`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A245092

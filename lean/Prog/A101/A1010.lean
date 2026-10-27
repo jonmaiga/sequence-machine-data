@@ -41,28 +41,32 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -70,8 +74,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2178,7 +2180,7 @@ end A101034.P6930399492991171197
 /-!
 # A101035: Dirichlet inverse of the gcd-sum function (A018804).
 
-The programs for A101035, the canonical program `A101035.P3462403393033249231` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101035 has offset 1).
+The programs for A101035, the canonical program `A101035.P3462403393033249231` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101035 has offset 1).
 
 The definition of A101035 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2213,7 +2215,7 @@ end A101035
 
 `∑{d}[n+1, #*A007427(#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A101035
@@ -2248,12 +2250,6 @@ namespace A101035
 /-- `A347095(n+1)-A018804(n+1)` -/
 def P6848211619483654109.Spec : Prop :=
   ∀ n, P6848211619483654109.a n = A101035 (n + 1)
-
-theorem P6848211619483654109.correct : P6848211619483654109.Spec := by
-  intro n
-  simp only [A101035, Nat.add_sub_cancel, A101035.P6848211619483654109.a, A101035.P3462403393033249231.f1, A101035.P3462403393033249231.a, A007427, A007427.P16363569186413612215.f1, A007427.P16363569186413612215.a, A018804, A018804.P15177010680010264719.f1, A018804.P15177010680010264719.a, A347095, A347095.P13848354769774225057.a, A007429, A007429.P3226404755406933578.f1, A007429.P3226404755406933578.a, A007432, A007432.P16663120023730915232.f1, A007432.P16663120023730915232.a, A008683, A008683.P18254306604665478110.a, A001065, A001065.P4097147489331274860.a, A007428, A007428.P12532017655611739201.f1, A007428.P12532017655611739201.a, A132971, A132971.P9197609016375066540.a, A156552, A156552.P4268073137713085227.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A005941, A005941.P9595689460679922607.f1, A005941.P9595689460679922607.a, A085357, A085357.P3258697467278337073.a, A106400, A106400.P11201390576172776043.a, A247343, A247343.P16054937885260863727.f1, A247343.P16054937885260863727.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A101035
 
@@ -2584,7 +2580,7 @@ end
 end A101036.P6152629572380660811
 
 /-!
-# A101037: Triangle read by rows: T(n,1) = T(n,n) = n and for 1
+# A101037: Triangle read by rows: T(n,1) = T(n,n) = n and for 1<k<n: T(n,k) = floor((T(n-1,k-1)+T(n-1,k))/2).
 
 The programs for A101037, the canonical program `A101037.P18398048409852730149` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101037 has offset 1).
 

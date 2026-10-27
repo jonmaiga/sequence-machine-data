@@ -41,22 +41,23 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
-import Seq.B003.C002
+import Seq.B003.C001
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -67,9 +68,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4005,7 +4004,7 @@ end A213242.P14527928678231864302
 /-!
 # A213243: Number of nonzero elements in GF(2^n) that are cubes.
 
-The programs for A213243, the canonical program `A213243.P233757969064694131` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213243 has offset 1).
+The programs for A213243, the canonical program `A213243.P233757969064694131` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213243 has offset 1).
 
 The definition of A213243 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4037,7 +4036,7 @@ end A213243
 
 `A051176(2^(n+1)-1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A213243
@@ -5962,7 +5961,7 @@ end A213257.P15326467039506174962
 /-!
 # A213258: Positive integers that are not in A213257.
 
-The programs for A213258, the canonical program `A213258.P18308358314319043973` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213258 has offset 1).
+The programs for A213258, the canonical program `A213258.P18308358314319043973` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213258 has offset 1).
 
 The definition of A213258 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A067368, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5971,7 +5970,7 @@ The definition of A213258 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A067368(n+1)`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A213258
@@ -10450,7 +10449,7 @@ end A213298.P4463332128093580466
 /-!
 # A213299: Partial sums of A211681.
 
-The programs for A213299, the canonical program `A213299.P7352330318747567761` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213299 has offset 1).
+The programs for A213299, the canonical program `A213299.P7352330318747567761` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A213299 has offset 1).
 
 The definition of A213299 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 398 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10459,7 +10458,7 @@ The definition of A213299 is `conjectured`: the Lean definition is a formula tha
 
 `∑[A211681(n+1)]`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A213299

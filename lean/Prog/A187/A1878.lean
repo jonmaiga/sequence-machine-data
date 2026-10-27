@@ -35,11 +35,12 @@ import Seq.B000.C036
 import Seq.B000.C037
 import Seq.B001.C000
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
@@ -48,25 +49,25 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -410,7 +411,7 @@ end
 end A187806.P9042670009976213027
 
 /-!
-# A187808: a(n) = |{0<=k
+# A187808: a(n) = |{0<=k<n: 2k+3, n(n-k)-1, n(n+k)-1 are all prime}|.
 
 The programs for A187808, there is no canonical definition to state claims against.
 -/
@@ -496,7 +497,7 @@ end A187808.P3918636025240591144
 /-!
 # A187811: Numbers having at least one prime factor of form 4*k+3.
 
-The programs for A187811, the canonical program `A187811.P10596766044350093657` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187811 has offset 1).
+The programs for A187811, the canonical program `A187811.P10596766044350093657` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187811 has offset 1).
 
 The definition of A187811 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -505,7 +506,7 @@ The definition of A187811 is `conjectured`: the Lean definition is a formula tha
 
 `lt[A091379(n+1), 1]+1`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A187811
@@ -6218,7 +6219,7 @@ end A187879.P12530920706635948677
 /-!
 # A187881: Triangle read by rows: the n-th column consists of n n's followed by 0's.
 
-The programs for A187881, the canonical program `A187881.P17144407328644083593` is in `Seq.B001.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187881 has offset 1).
+The programs for A187881, the canonical program `A187881.P17144407328644083593` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A187881 has offset 1).
 
 The definition of A187881 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6250,7 +6251,7 @@ end A187881
 
 `floor((2*A002260(n+1)+1)/(A003056(n)+3))*A002260(n+1)`
 
-The canonical program, it is in `Seq.B001.C007`.
+The canonical program, it is in `Seq.B001.C008`.
 -/
 
 namespace A187881

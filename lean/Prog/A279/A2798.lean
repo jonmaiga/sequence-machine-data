@@ -46,16 +46,17 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C002
+import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -65,8 +66,6 @@ import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2780,7 +2779,7 @@ end A279845.P18304576847562033703
 /-!
 # A279847: a(n) = Sum_{k=1..n} k^2*(floor(n/k) - 1).
 
-The programs for A279847, the canonical program `A279847.P3049102735898826477` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279847 has offset 1).
+The programs for A279847, the canonical program `A279847.P3049102735898826477` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279847 has offset 1).
 
 The definition of A279847 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A064602, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2789,7 +2788,7 @@ The definition of A279847 is `conditional`: the Lean definition is an OEIS formu
 
 `A064602(n+1)-A000330(n+1)`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A279847
@@ -5207,7 +5206,7 @@ end A279876.P6205704624960586284
 /-!
 # A279877: Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 213", based on the 5-celled von Neumann neighborhood.
 
-The programs for A279877, the canonical program `A279877.P16277548362096035639` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279877 has offset 0).
+The programs for A279877, the canonical program `A279877.P16277548362096035639` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279877 has offset 0).
 
 The definition of A279877 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 101 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5316,7 +5315,7 @@ end A279877
 
 `A279879(n)+A282415(n)-A282417(n)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A279877
@@ -6051,7 +6050,7 @@ end A279881.P9251948550607519617
 /-!
 # A279882: a(n) = 2^(prime(n) + 1) - 1.
 
-The programs for A279882, the canonical program `A279882.P5085618674870066561` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279882 has offset 1).
+The programs for A279882, the canonical program `A279882.P5085618674870066561` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A279882 has offset 1).
 
 The definition of A279882 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -6108,7 +6107,7 @@ end A279882
 
 `A000225(A008864(n+1))`
 
-The canonical program, it is in `Seq.B002.C005`.
+The canonical program, it is in `Seq.B002.C006`.
 -/
 
 namespace A279882

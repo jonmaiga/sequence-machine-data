@@ -45,6 +45,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
 import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -52,11 +53,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -69,9 +72,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -479,7 +479,7 @@ end A141514.P16863376438397905513
 /-!
 # A141515: a(n) = phi(A067774(n)) where phi is Euler totient function.
 
-The programs for A141515, the canonical program `A141515.P7322677319686946413` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141515 has offset 1).
+The programs for A141515, the canonical program `A141515.P7322677319686946413` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141515 has offset 1).
 
 The definition of A141515 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A067774, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -488,7 +488,7 @@ The definition of A141515 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A067774(n+1))`
 
-The canonical program, it is in `Seq.B006.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A141515
@@ -973,7 +973,7 @@ end A141515
 /-!
 # A141517: A141498(n)/A027760(n).
 
-The programs for A141517, the canonical program `A141517.P8902521936123961455` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141517 has offset 1).
+The programs for A141517, the canonical program `A141517.P8902521936123961455` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141517 has offset 1).
 
 The definition of A141517 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A027760, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -982,7 +982,7 @@ The definition of A141517 is `conditional`: the Lean definition is an OEIS formu
 
 `A141498(n+1)/A027760(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A141517
@@ -7368,7 +7368,7 @@ end A141564.P3176336746826018967
 /-!
 # A141565: Add 1 to all bases and exponents which are greater than 1 in the prime number decomposition of n.
 
-The programs for A141565, the canonical program `A141565.P5722058412581182413` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141565 has offset 1).
+The programs for A141565, the canonical program `A141565.P5722058412581182413` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A141565 has offset 1).
 
 The definition of A141565 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9999 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7446,7 +7446,7 @@ end A141565
 
 `A048250(A003557(n+1))*A064478(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A141565

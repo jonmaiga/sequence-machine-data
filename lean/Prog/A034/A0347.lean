@@ -39,9 +39,9 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -55,22 +55,20 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -102,7 +100,7 @@ set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
 
 /-!
-# A034700: a(n) = smallest prime == 1 (mod 4) such that a(n) is a square mod a(i), all i
+# A034700: a(n) = smallest prime == 1 (mod 4) such that a(n) is a square mod a(i), all i<n.
 
 The programs for A034700, there is no canonical definition to state claims against.
 -/
@@ -5462,7 +5460,7 @@ end A034733
 /-!
 # A034734: Dirichlet convolution of b_n=2^(n-1) with Fibonacci numbers.
 
-The programs for A034734, the canonical program `A034734.P15721239827703422834` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034734 has offset 1).
+The programs for A034734, the canonical program `A034734.P15721239827703422834` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034734 has offset 1).
 
 The definition of A034734 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5471,7 +5469,7 @@ The definition of A034734 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000740(#)*A007435((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A034734
@@ -5909,7 +5907,7 @@ end A034735
 /-!
 # A034736: Dirichlet convolution of b_n=2^(n-1) with Primes (with 1).
 
-The programs for A034736, the canonical program `A034736.P10113879758376514175` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034736 has offset 1).
+The programs for A034736, the canonical program `A034736.P10113879758376514175` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034736 has offset 1).
 
 The definition of A034736 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 333 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5918,7 +5916,7 @@ The definition of A034736 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A000740(#)*A030014((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A034736
@@ -6483,7 +6481,7 @@ end A034737
 /-!
 # A034738: Dirichlet convolution of b_n = 2^(n-1) with phi(n).
 
-The programs for A034738, the canonical program `A034738.P13091520895152506623` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034738 has offset 1).
+The programs for A034738, the canonical program `A034738.P13091520895152506623` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034738 has offset 1).
 
 The definition of A034738 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A053635, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6492,7 +6490,7 @@ The definition of A034738 is `conditional`: the Lean definition is an OEIS formu
 
 `A053635(n+1)/2`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A034738
@@ -7346,7 +7344,7 @@ end A034740.P7792657982700350975
 /-!
 # A034741: Dirichlet convolution of mu(n) with 3^(n-1).
 
-The programs for A034741, the canonical program `A034741.P4749384178526345619` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034741 has offset 1).
+The programs for A034741, the canonical program `A034741.P4749384178526345619` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034741 has offset 1).
 
 The definition of A034741 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7450,7 +7448,7 @@ end A034741
 
 `∑{d}[n+1, A034754(#)*A055615((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A034741
@@ -7664,7 +7662,7 @@ end A034741
 /-!
 # A034742: Dirichlet convolution of Moebius function mu(n) (A008683) with Catalan numbers (A000108).
 
-The programs for A034742, the canonical program `A034742.P15572167906451431055` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034742 has offset 1).
+The programs for A034742, the canonical program `A034742.P15572167906451431055` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034742 has offset 1).
 
 The definition of A034742 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 173 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7673,7 +7671,7 @@ The definition of A034742 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A007427(#)*A034731((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A034742
@@ -8039,7 +8037,7 @@ end A034744
 /-!
 # A034745: Dirichlet convolution of Fibonacci numbers with 3^(n-1).
 
-The programs for A034745, the canonical program `A034745.P1976367546847420112` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034745 has offset 1).
+The programs for A034745, the canonical program `A034745.P1976367546847420112` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034745 has offset 1).
 
 The definition of A034745 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8074,7 +8072,7 @@ end A034745
 
 `∑{d}[n+1, A007435(#)*A034741((n+1)/#)]`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A034745
@@ -8458,7 +8456,7 @@ end A034747
 /-!
 # A034748: Dirichlet convolution of Fibonacci numbers with phi(n).
 
-The programs for A034748, the canonical program `A034748.P1038499301982470669` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034748 has offset 1).
+The programs for A034748, the canonical program `A034748.P1038499301982470669` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034748 has offset 1).
 
 The definition of A034748 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 480 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8467,7 +8465,7 @@ The definition of A034748 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A007436((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A034748
@@ -8615,7 +8613,7 @@ end A034748
 /-!
 # A034749: Dirichlet convolution of Fibonacci numbers with Catalan numbers.
 
-The programs for A034749, the canonical program `A034749.P16979121441155564528` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034749 has offset 1).
+The programs for A034749, the canonical program `A034749.P16979121441155564528` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034749 has offset 1).
 
 The definition of A034749 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 173 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -8624,7 +8622,7 @@ The definition of A034749 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A007436(#)*A034731((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A034749
@@ -9281,7 +9279,7 @@ end A034753
 /-!
 # A034754: Dirichlet convolution of 3^(n-1) with phi(n).
 
-The programs for A034754, the canonical program `A034754.P850414589168933379` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034754 has offset 1).
+The programs for A034754, the canonical program `A034754.P850414589168933379` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034754 has offset 1).
 
 The definition of A034754 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 210 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -9362,7 +9360,7 @@ end A034754
 
 `∑{d}[n+1, A007427(#)*A034753((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A034754
@@ -10016,7 +10014,7 @@ end A034759
 /-!
 # A034760: Dirichlet convolution of primes (with 1) with phi(n).
 
-The programs for A034760, the canonical program `A034760.P11851512362780914640` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034760 has offset 1).
+The programs for A034760, the canonical program `A034760.P11851512362780914640` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034760 has offset 1).
 
 The definition of A034760 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10025,7 +10023,7 @@ The definition of A034760 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A030013((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A034760
@@ -10773,7 +10771,7 @@ end A034762
 /-!
 # A034763: Dirichlet convolution of primes (with 1) with Catalan numbers.
 
-The programs for A034763, the canonical program `A034763.P16998395620027400134` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034763 has offset 1).
+The programs for A034763, the canonical program `A034763.P16998395620027400134` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034763 has offset 1).
 
 The definition of A034763 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 173 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -10808,7 +10806,7 @@ end A034763
 
 `∑{d}[n+1, A030014(#)*A034742((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A034763
@@ -11149,7 +11147,7 @@ end A034765.P3993901591577229427
 /-!
 # A034766: Dirichlet convolution of phi(n) with Catalan numbers.
 
-The programs for A034766, the canonical program `A034766.P9231521320511394635` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034766 has offset 1).
+The programs for A034766, the canonical program `A034766.P9231521320511394635` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034766 has offset 1).
 
 The definition of A034766 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 173 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11158,7 +11156,7 @@ The definition of A034766 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, #*A034742((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A034766
@@ -11384,7 +11382,7 @@ end A034767.P1166648733449077917
 /-!
 # A034768: Dirichlet convolution of Catalan numbers with themselves.
 
-The programs for A034768, the canonical program `A034768.P13889137241695126334` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034768 has offset 1).
+The programs for A034768, the canonical program `A034768.P13889137241695126334` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034768 has offset 1).
 
 The definition of A034768 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 172 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -11393,7 +11391,7 @@ The definition of A034768 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A034731(#)*A034742((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A034768
@@ -13566,7 +13564,7 @@ end A034783.P16823056317488553730
 /-!
 # A034784: Numbers n such that A034693(n) = 2.
 
-The programs for A034784, the canonical program `A034784.P9791422119006832211` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034784 has offset 1).
+The programs for A034784, the canonical program `A034784.P9791422119006832211` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034784 has offset 1).
 
 The definition of A034784 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 8919 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -13591,12 +13589,6 @@ namespace A034784
 /-- `A174166(n+1)-1` -/
 def P3586020738295780818.Spec : Prop :=
   ∀ n, P3586020738295780818.a n = A034784 (n + 1)
-
-theorem P3586020738295780818.correct : P3586020738295780818.Spec := by
-  intro n
-  simp only [A034784, Nat.add_sub_cancel, A034784.P3586020738295780818.a, A034784.P9791422119006832211.f1, A034784.P9791422119006832211.f2, A034784.P9791422119006832211.a, A010051, A010051.P15078252821583414300.a, A101264, A101264.P9977125953316836564.a, A174166, A174166.P8885773317569641825.a, A100995, A100995.P9596901243079307024.f1, A100995.P9596901243079307024.a, A193056, A193056.P6449544040074946363.a, A157658, A157658.P9261385800012601708.f1, A157658.P9261385800012601708.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf; (try simp (disch := positivity) only [Real.sq_sqrt, SequenceMachineLib.sqrt_pow_three, SequenceMachineLib.sqrt_pow_four, SequenceMachineLib.sqrt_pow_five, SequenceMachineLib.sqrt_pow_six]); (try ring_nf))
 
 end A034784
 
@@ -13680,7 +13672,7 @@ end A034784
 
 `lt[A010051(n+1), A101264(n)]`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A034784

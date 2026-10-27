@@ -43,6 +43,7 @@ import Seq.B001.C004
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -50,12 +51,14 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
@@ -66,8 +69,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -99,7 +100,7 @@ set_option linter.unusedTactic false
 set_option linter.unreachableTactic false
 
 /-!
-# A036700: Number of Gaussian integers z=a+bi satisfying |z|<=n, a>=0, 0<=b
+# A036700: Number of Gaussian integers z=a+bi satisfying |z|<=n, a>=0, 0<=b<a.
 
 The programs for A036700, there is no canonical definition to state claims against.
 -/
@@ -405,7 +406,7 @@ end
 end A036700.P16772166495552227599
 
 /-!
-# A036701: a(n)=number of Gaussian integers z=a+bi satisfying n-1<|z|<=n, a>=0, 0<=b
+# A036701: a(n)=number of Gaussian integers z=a+bi satisfying n-1<|z|<=n, a>=0, 0<=b<a.
 
 The programs for A036701, there is no canonical definition to state claims against.
 -/
@@ -4324,7 +4325,7 @@ def P13638804201547431129.Spec : Prop :=
 end A036711
 
 /-!
-# A036713: a(n)=number of Gaussian integers z=a+bi satisfying |z|<=n+1/2, a>=0, 0<=b
+# A036713: a(n)=number of Gaussian integers z=a+bi satisfying |z|<=n+1/2, a>=0, 0<=b<a.
 
 The programs for A036713, there is no canonical definition to state claims against.
 -/
@@ -4579,7 +4580,7 @@ end
 end A036713.P2948114665579675016
 
 /-!
-# A036714: a(n)=number of Gaussian integers z=a+bi satisfying n-1/2<|z|<=n+1/2, a>=0, 0<=b
+# A036714: a(n)=number of Gaussian integers z=a+bi satisfying n-1/2<|z|<=n+1/2, a>=0, 0<=b<a.
 
 The programs for A036714, there is no canonical definition to state claims against.
 -/

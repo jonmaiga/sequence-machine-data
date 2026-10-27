@@ -40,19 +40,21 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
-import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -65,9 +67,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2405,7 +2404,7 @@ end A130312
 /-!
 # A130313: A000012 * A054523.
 
-The programs for A130313, the canonical program `A130313.P12971682947885630253` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130313 has offset 1).
+The programs for A130313, the canonical program `A130313.P12971682947885630253` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130313 has offset 1).
 
 The definition of A130313 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2414,7 +2413,7 @@ The definition of A130313 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(A242114(n+1)/2)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A130313
@@ -3000,7 +2999,7 @@ end A130318.P7349026289787456470
 /-!
 # A130319: Numbers k for which k!!/S(k) is an integer, where S(k) is the sum of all odd numbers less than or equal to k, if k is odd, or the sum of all even numbers less than or equal to k, if k is even.
 
-The programs for A130319, the canonical program `A130319.P11129835434070302658` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130319 has offset 0).
+The programs for A130319, the canonical program `A130319.P11129835434070302658` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A130319 has offset 0).
 
 The definition of A130319 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6164 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3009,7 +3008,7 @@ The definition of A130319 is `conjectured`: the Lean definition is a formula tha
 
 `record[A191558(A080513(n))+A004524(n)]`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A130319

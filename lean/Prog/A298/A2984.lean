@@ -39,8 +39,8 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -48,10 +48,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C003
+import Seq.B003.C002
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
@@ -62,8 +65,6 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5160,7 +5161,7 @@ end A298472.P8952600186309628288
 /-!
 # A298473: a(n) = n * lambda(n) * 2^omega(n).
 
-The programs for A298473, the canonical program `A298473.P4129261461603736948` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298473 has offset 1).
+The programs for A298473, the canonical program `A298473.P4129261461603736948` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298473 has offset 1).
 
 The definition of A298473 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, A001222, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5169,7 +5170,7 @@ The definition of A298473 is `conditional`: the Lean definition is an OEIS formu
 
 `(n+1)*(-1)^A001222(n+1)*2^A001221(n+1)`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A298473
@@ -5601,7 +5602,7 @@ end A298473
 /-!
 # A298474: a(n) is the least k such that A090701(k) = n.
 
-The programs for A298474, the canonical program `A298474.P2356451179476190984` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298474 has offset 1).
+The programs for A298474, the canonical program `A298474.P2356451179476190984` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A298474 has offset 1).
 
 The definition of A298474 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5633,7 +5634,7 @@ end A298474
 
 `A008486(n)-(A035336(n+1)%A002522(n))%2`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A298474

@@ -35,19 +35,24 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C006
+import Seq.B002.C004
+import Seq.B002.C007
 import Seq.B003.C000
-import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
@@ -61,7 +66,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -783,7 +787,7 @@ end A331513.P135766433084638745
 /-!
 # A331515: Expansion of 1/(1 - 8*x + 4*x^2)^(3/2).
 
-The programs for A331515, the canonical program `A331515.P3171371485173106526` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331515 has offset 0).
+The programs for A331515, the canonical program `A331515.P3171371485173106526` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331515 has offset 0).
 
 The definition of A331515 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -792,7 +796,7 @@ The definition of A331515 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `C(n+2, 2)*A007564(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A331515
@@ -1026,7 +1030,7 @@ end A331515
 /-!
 # A331516: Expansion of 1/(1 - 10*x + 9*x^2)^(3/2).
 
-The programs for A331516, the canonical program `A331516.P10548894907357545297` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331516 has offset 0).
+The programs for A331516, the canonical program `A331516.P10548894907357545297` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331516 has offset 0).
 
 The definition of A331516 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1035,7 +1039,7 @@ The definition of A331516 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `C(n+2, 2)*A059231(n+1)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A331516
@@ -3436,7 +3440,7 @@ end A331551.P13462283355620500686
 /-!
 # A331552: Expansion of (1 + 2*x)/(1 + 4*x^2)^(3/2).
 
-The programs for A331552, the canonical program `A331552.P3785117520877040863` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331552 has offset 0).
+The programs for A331552, the canonical program `A331552.P3785117520877040863` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331552 has offset 0).
 
 The definition of A331552 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 329 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3491,7 +3495,7 @@ end A331552
 
 `A063886(n)*A127630(n)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A331552
@@ -3815,7 +3819,7 @@ end A331554.P15825793512933363666
 /-!
 # A331555: Prime numbers p_k such that p_k == 1 (mod 10) and p_(k+1) == 3 (mod 10).
 
-The programs for A331555, the canonical program `A331555.P4693125471245912202` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331555 has offset 1).
+The programs for A331555, the canonical program `A331555.P4693125471245912202` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331555 has offset 1).
 
 The definition of A331555 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2991 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3884,7 +3888,7 @@ end A331555
 
 `∩[A129809(n+1), A327752(n+1)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A331555
@@ -4990,7 +4994,7 @@ end A331570.P6822225769856239931
 /-!
 # A331574: a(n) is the number of subsets of {1..n} that contain 3 even and 3 odd numbers.
 
-The programs for A331574, the canonical program `A331574.P14794275585014647613` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331574 has offset 0).
+The programs for A331574, the canonical program `A331574.P14794275585014647613` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331574 has offset 0).
 
 The definition of A331574 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5048,7 +5052,7 @@ end A331574
 
 `A007531(floor((n+1)/2))/6*A007531(floor(n/2))/6`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A331574
@@ -5108,7 +5112,7 @@ end A331574
 /-!
 # A331575: a(n) is the number of subsets of {1..n} that contain 4 even and 4 odd numbers.
 
-The programs for A331575, the canonical program `A331575.P9808497871265616019` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331575 has offset 0).
+The programs for A331575, the canonical program `A331575.P9808497871265616019` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331575 has offset 0).
 
 The definition of A331575 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5140,7 +5144,7 @@ end A331575
 
 `A000332(A004526(n))*A000332(A065033(n))`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A331575
@@ -5250,7 +5254,7 @@ end A331575
 /-!
 # A331576: a(n) is the number of subsets of {1..n} that contain 5 even and 5 odd numbers.
 
-The programs for A331576, the canonical program `A331576.P7474989431527191840` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331576 has offset 0).
+The programs for A331576, the canonical program `A331576.P7474989431527191840` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A331576 has offset 0).
 
 The definition of A331576 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5259,7 +5263,7 @@ The definition of A331576 is `conjectured`: the Lean definition is a formula tha
 
 `A000389(floor(n/2))*A000389(A065033(n))`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A331576

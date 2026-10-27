@@ -39,19 +39,22 @@ import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -67,7 +70,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -186,7 +188,7 @@ end A324500.P12832961893244895903
 /-!
 # A324501: a(n) = numerator of Sum_{d|n} (1/pod(d)) where pod(k) = the product of the divisors of k (A007955).
 
-The programs for A324501, the canonical program `A324501.P1716032831025346766` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324501 has offset 1).
+The programs for A324501, the canonical program `A324501.P1716032831025346766` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324501 has offset 1).
 
 The definition of A324501 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 5039 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -195,7 +197,7 @@ The definition of A324501 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A007955(n+1)/A007955(#)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A324501
@@ -5528,7 +5530,7 @@ end A324551.P4690953486657534259
 /-!
 # A324552: a(n) = A324542(2*prime(n)).
 
-The programs for A324552, the canonical program `A324552.P10145515765642831646` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324552 has offset 1).
+The programs for A324552, the canonical program `A324552.P10145515765642831646` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A324552 has offset 1).
 
 The definition of A324552 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5680,7 +5682,7 @@ end A324552
 
 `A324549(n+1)+2*A000225(n)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A324552
@@ -6561,7 +6563,7 @@ def P178016857475673408.Spec : Prop :=
 end A324562
 
 /-!
-# A324563: Number T(n,k) of permutations p of [n] such that k is the maximum of 0 and the number of elements in any integer interval [p(i)..i+n*[i=0, 0<=k<=n, read by rows.
+# A324563: Number T(n,k) of permutations p of [n] such that k is the maximum of 0 and the number of elements in any integer interval [p(i)..i+n*[i<p(i)]]; triangle T(n,k), n>=0, 0<=k<=n, read by rows.
 
 The programs for A324563, there is no canonical definition to state claims against.
 -/
@@ -6672,7 +6674,7 @@ end
 end A324563.P17190977450975435475
 
 /-!
-# A324564: Number T(n,k) of permutations p of [n] such that n-k is the maximum of 0 and the number of elements in any integer interval [p(i)..i+n*[i=0, 0<=k<=n, read by rows.
+# A324564: Number T(n,k) of permutations p of [n] such that n-k is the maximum of 0 and the number of elements in any integer interval [p(i)..i+n*[i<p(i)]]; triangle T(n,k), n>=0, 0<=k<=n, read by rows.
 
 The programs for A324564, there is no canonical definition to state claims against.
 -/

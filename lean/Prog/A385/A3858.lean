@@ -38,13 +38,13 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -58,6 +58,7 @@ import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -70,8 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -1732,7 +1731,7 @@ end A385821
 /-!
 # A385822: Numbers k such that phi(k) is not a perfect square.
 
-The programs for A385822, the canonical program `A385822.P7363694969260658902` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385822 has offset 1).
+The programs for A385822, the canonical program `A385822.P7363694969260658902` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385822 has offset 1).
 
 The definition of A385822 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1741,7 +1740,7 @@ The definition of A385822 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A039770(n+1)-1]+1`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A385822
@@ -1964,7 +1963,7 @@ end A385823.P7446402421393049113
 /-!
 # A385827: a(n) is the unique k such that 2^k is closest to 5^n.
 
-The programs for A385827, the canonical program `A385827.P17938306064123805802` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385827 has offset 0).
+The programs for A385827, the canonical program `A385827.P17938306064123805802` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385827 has offset 0).
 
 The definition of A385827 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 144 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1973,7 +1972,7 @@ The definition of A385827 is `conjectured`: the Lean definition is a formula tha
 
 `ceil(log2(A082685(n)))`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A385827
@@ -3387,7 +3386,7 @@ end A385877.P730141194003011015
 /-!
 # A385879: Values of u in triples (u, v, w) such that the polynomial x^3 + u*x^2 + v*x + w has 3 (possibly repeated) negative integer zeros; the triples are ordered by the inequality u < v.
 
-The programs for A385879, the canonical program `A385879.P5429911478239775443` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385879 has offset 1).
+The programs for A385879, the canonical program `A385879.P5429911478239775443` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A385879 has offset 1).
 
 The definition of A385879 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3425,7 +3424,7 @@ end A385879
 
 `∑[char[∑[A069905(n)]]]+2`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A385879
@@ -3882,7 +3881,7 @@ end
 end A385881.P10388876058226596621
 
 /-!
-# A385882: Values of v in the (1,3)-quartals (m,u,v,w) having m=1; i.e., values of v for solutions to m^1 + u^3 = v^1 + w^3, in positive integers, with m
+# A385882: Values of v in the (1,3)-quartals (m,u,v,w) having m=1; i.e., values of v for solutions to m^1 + u^3 = v^1 + w^3, in positive integers, with m<v, sorted by u, then v.
 
 The programs for A385882, there is no canonical definition to state claims against.
 -/

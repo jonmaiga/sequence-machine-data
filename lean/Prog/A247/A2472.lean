@@ -40,35 +40,33 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
-import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -6395,21 +6393,6 @@ end A247296.P7622369828341267046
 The programs for A247297, there is no canonical definition to state claims against.
 -/
 
-/-! ## A247297.P13136901239628071937
-
-`and(A003007(n+1), A195980(n))`
--/
-
-namespace A247297.P13136901239628071937
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A003007 (n + 1)) (A195980 n)
-
-end
-
-end A247297.P13136901239628071937
-
 /-! ## A247297.P7142140417678216350
 
 `A309785(A079960(n))+A182900(n)`
@@ -6454,21 +6437,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A247297.P8622641641603583935
-
-/-! ## A247297.P5078777462296594701
-
-`and(A003007(n+1), A045979(A190939(n)))`
--/
-
-namespace A247297.P5078777462296594701
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.land (A003007 (n + 1)) (A045979 (A190939 n).toNat)
-
-end
-
-end A247297.P5078777462296594701
 
 /-!
 # A247298: Number of weighted lattice paths B(n) having no uudd strings.

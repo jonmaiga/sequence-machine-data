@@ -43,33 +43,33 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
+import Seq.B001.C010
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
-import Seq.B005.C002
-import Seq.B006.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5327,7 +5327,7 @@ end A127845.P4317521079764194925
 /-!
 # A127846: Series reversion of x/(1+5x+4x^2).
 
-The programs for A127846, the canonical program `A127846.P14279537381663799616` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127846 has offset 0).
+The programs for A127846, the canonical program `A127846.P14279537381663799616` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127846 has offset 0).
 
 The definition of A127846 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 109 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5336,7 +5336,7 @@ The definition of A127846 is `conjectured`: the Lean definition is a formula tha
 
 `floor(A086871(n)/2)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A127846
@@ -7226,7 +7226,7 @@ end
 end A127855.P5539192964041305752
 
 /-!
-# A127856: Positive integers n such that if n is a square, then so is r(n), where r(n) is the nonnegative integer defined by cyclic replacement of the digits d of n in base 12, that is, d->d+1 if d0 if d=11.
+# A127856: Positive integers n such that if n is a square, then so is r(n), where r(n) is the nonnegative integer defined by cyclic replacement of the digits d of n in base 12, that is, d->d+1 if d<11 and d->0 if d=11.
 
 The programs for A127856, there is no canonical definition to state claims against.
 -/
@@ -7474,7 +7474,7 @@ end
 end A127857.P8151955094102082246
 
 /-!
-# A127858: Positive integers n such that r(n^2)=r(n)^2, where r is the cyclic replacement map of the digits d of n in base 12, that is, d->d+1 if d0 if d=11.
+# A127858: Positive integers n such that r(n^2)=r(n)^2, where r is the cyclic replacement map of the digits d of n in base 12, that is, d->d+1 if d<11 and d->0 if d=11.
 
 The programs for A127858, the canonical program `A127858.P788571475711600778` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127858 has offset 1).
 
@@ -7638,7 +7638,7 @@ def P901940145567370965.Spec : Prop :=
 end A127858
 
 /-!
-# A127859: a(n) = r(A127858(n)), where r if the cyclic replacement map of the digits d of n in base 12 defined by d->d+1 if d0 if d=11.
+# A127859: a(n) = r(A127858(n)), where r if the cyclic replacement map of the digits d of n in base 12 defined by d->d+1 if d<11 and d->0 if d=11.
 
 The programs for A127859, the canonical program `A127859.P5425215383355288262` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A127859 has offset 1).
 

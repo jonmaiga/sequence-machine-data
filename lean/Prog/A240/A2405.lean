@@ -45,7 +45,7 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
@@ -54,11 +54,13 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -71,9 +73,7 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -476,7 +476,7 @@ end A240501
 /-!
 # A240502: Product of primes appearing in the factorization of n! with even exponents.
 
-The programs for A240502, the canonical program `A240502.P14660137439257369676` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240502 has offset 0).
+The programs for A240502, the canonical program `A240502.P14660137439257369676` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240502 has offset 0).
 
 The definition of A240502 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 251 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -531,7 +531,7 @@ end A240502
 
 `A034386(n)/A055204(A028310(n))`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A240502
@@ -760,7 +760,7 @@ end A240504.P11744602083207516418
 /-!
 # A240505: Products of primes the squares of which are Fermi-Dirac divisors of n!
 
-The programs for A240505, the canonical program `A240505.P9700052559506088263` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240505 has offset 1).
+The programs for A240505, the canonical program `A240505.P9700052559506088263` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240505 has offset 1).
 
 The definition of A240505 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 182 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -769,7 +769,7 @@ The definition of A240505 is `conjectured`: the Lean definition is a formula tha
 
 `sqrt(A248766(n+1)/A055204(n+1))`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C002`.
 -/
 
 namespace A240505
@@ -4454,7 +4454,7 @@ end A240530
 /-!
 # A240531: Numbers n such that 24*n + 19 is not prime.
 
-The programs for A240531, the canonical program `A240531.P5748887671920028653` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240531 has offset 1).
+The programs for A240531, the canonical program `A240531.P5748887671920028653` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240531 has offset 1).
 
 The definition of A240531 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4463,7 +4463,7 @@ The definition of A240531 is `conjectured`: the Lean definition is a formula tha
 
 `comp[A139532(n+1)]`
 
-The canonical program, it is in `Seq.B008.C000`.
+The canonical program, it is in `Seq.B007.C000`.
 -/
 
 namespace A240531
@@ -8464,7 +8464,7 @@ end A240567.P16802103644172472416
 /-!
 # A240568: Difference between n times the n-th prime and twice the sum of the first n primes.
 
-The programs for A240568, the canonical program `A240568.P14315675564415486684` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240568 has offset 1).
+The programs for A240568, the canonical program `A240568.P14315675564415486684` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A240568 has offset 1).
 
 The definition of A240568 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8473,7 +8473,7 @@ The definition of A240568 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `(n+1)*A000040(n+1)-2*A007504(n+1)`
 
-The canonical program, it is in `Seq.B003.C003`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A240568

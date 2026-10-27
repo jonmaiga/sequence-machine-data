@@ -47,19 +47,23 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -71,8 +75,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2132,7 +2134,7 @@ end A105031.P5921859991070931638
 /-!
 # A105032: Binary equivalents of A103745.
 
-The programs for A105032, the canonical program `A105032.P9866371612079488807` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A105032 has offset 1).
+The programs for A105032, the canonical program `A105032.P9866371612079488807` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A105032 has offset 1).
 
 The definition of A105032 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007088, A103745, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2141,7 +2143,7 @@ The definition of A105032 is `conditional`: the Lean definition is an OEIS formu
 
 `A007088(A103745(n+1))`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A105032
@@ -4506,7 +4508,7 @@ end
 end A105048.P3938603234864444937
 
 /-!
-# A105049: a(n) is the smallest prime p such that p+n! is prime and p differs from all a(i), i
+# A105049: a(n) is the smallest prime p such that p+n! is prime and p differs from all a(i), i<n.
 
 The programs for A105049, there is no canonical definition to state claims against.
 -/
@@ -6457,7 +6459,7 @@ end A105064.P6246324241151598652
 /-!
 # A105066: Positive integers n such that n^8 + 1 is semiprime.
 
-The programs for A105066, the canonical program `A105066.P14854898115589847885` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A105066 has offset 1).
+The programs for A105066, the canonical program `A105066.P14854898115589847885` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A105066 has offset 1).
 
 The definition of A105066 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1467 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6466,7 +6468,7 @@ The definition of A105066 is `conjectured`: the Lean definition is a formula tha
 
 `eq[2, A194003(n)]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A105066
@@ -9458,7 +9460,7 @@ end A105082
 /-!
 # A105083: Trajectory of 1 under the morphism 1 -> 12, 2 -> 3, 3 -> 1.
 
-The programs for A105083, the canonical program `A105083.P6544863876120215470` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A105083 has offset 0).
+The programs for A105083, the canonical program `A105083.P6544863876120215470` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A105083 has offset 0).
 
 The definition of A105083 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A202340, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -9467,7 +9469,7 @@ The definition of A105083 is `conditional`: the Lean definition is an OEIS formu
 
 `A005374(n+1)-A005374(n)-2*(A202340(n+1)-2)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B003.C002`.
 -/
 
 namespace A105083

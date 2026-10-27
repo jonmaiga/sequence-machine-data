@@ -36,30 +36,31 @@ import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3135,87 +3136,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A197928.P11014011901839199324
-
-/-!
-# A197929: Number of distinct residues of x^(n-1) (mod n), x=0..n-1.
-
-The programs for A197929, there is no canonical definition to state claims against.
--/
-
-/-! ## A197929.P17347616459300446096
-
-`A075656(n+1)/A020639(A077168(n))`
--/
-
-namespace A197929.P17347616459300446096
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A075656 (n + 1) : ℚ) / (A020639 (A077168 n).toNat : ℚ)
-
-end
-
-end A197929.P17347616459300446096
-
-/-! ## A197929.P14674716279343072898
-
-`A075656(n+1)/A020639(A220416(n+1))`
--/
-
-namespace A197929.P14674716279343072898
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A075656 (n + 1) : ℚ) / (A020639 (A220416 (n + 1)).toNat : ℚ)
-
-end
-
-end A197929.P14674716279343072898
-
-/-! ## A197929.P6863216188786292069
-
-`A075656(A077168(n))/A014963(A028233(n+1))`
--/
-
-namespace A197929.P6863216188786292069
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A075656 (A077168 n).toNat : ℚ) / (A014963 (A028233 (n + 1)).toNat : ℚ)
-
-end
-
-end A197929.P6863216188786292069
-
-/-! ## A197929.P15253056641954319667
-
-`A075656(A077168(n))/A014963(A068794(n+1))`
--/
-
-namespace A197929.P15253056641954319667
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A075656 (A077168 n).toNat : ℚ) / (A014963 (A068794 (n + 1)).toNat : ℚ)
-
-end
-
-end A197929.P15253056641954319667
-
-/-! ## A197929.P16793208273727112340
-
-`A075656(n+1)/(A006530(n+1)-A046665(A077168(n)))`
--/
-
-namespace A197929.P16793208273727112340
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A075656 (n + 1) : ℚ) / (A006530 (n + 1) - A046665 (A077168 n).toNat : ℚ)
-
-end
-
-end A197929.P16793208273727112340
 
 /-!
 # A197930: Numbers n such that the number of distinct residues in x^(n-1) (mod n), x=0..n-1, equals n.

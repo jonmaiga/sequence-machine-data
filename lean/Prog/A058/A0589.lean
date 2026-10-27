@@ -46,24 +46,29 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
+import Seq.B001.C009
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
@@ -664,7 +669,7 @@ end
 end A058912.P12525077264898327734
 
 /-!
-# A058914: Continued fraction expansion of one of four fixed points (mod 1) of Minkowski's question mark function (specifically, the only positive fixed point (mod 1) less than 1/2).
+# A058914: Continued fraction expansion of the Minkowski-Bower constant.
 
 The programs for A058914, there is no canonical definition to state claims against.
 -/
@@ -7110,7 +7115,7 @@ end A058979.P4006060183837530456
 /-!
 # A058980: Positive numbers of form 4*k such that card(invphi(4*k)) = 0 (the nontotients congruent to 0 modulo 4).
 
-The programs for A058980, the canonical program `A058980.P1253605902020111693` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058980 has offset 1).
+The programs for A058980, the canonical program `A058980.P1253605902020111693` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A058980 has offset 1).
 
 The definition of A058980 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9593 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7119,7 +7124,7 @@ The definition of A058980 is `conjectured`: the Lean definition is a formula tha
 
 `∩[4*n, A005277(n+1)]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A058980

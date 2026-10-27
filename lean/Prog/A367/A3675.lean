@@ -35,13 +35,16 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -49,12 +52,11 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
@@ -63,9 +65,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C003
@@ -171,7 +170,7 @@ end A367502.P18433129424494347492
 /-!
 # A367503: Sum of the final digits of the squarefree divisors of n.
 
-The programs for A367503, the canonical program `A367503.P786170616663257089` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367503 has offset 1).
+The programs for A367503, the canonical program `A367503.P786170616663257089` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367503 has offset 1).
 
 The definition of A367503 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A008683, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -180,7 +179,7 @@ The definition of A367503 is `conditional`: the Lean definition is an OEIS formu
 
 `∑{d}[n+1, A008683(#)²*#%10]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A367503
@@ -2311,87 +2310,6 @@ end
 end A367552.P8331390767164683533
 
 /-!
-# A367554: a(n) is the number of 2n-regular circulant graphs of order 53.
-
-The programs for A367554, there is no canonical definition to state claims against.
--/
-
-/-! ## A367554.P210377647625932508
-
-`A121932(n-A063524(n))`
--/
-
-namespace A367554.P210377647625932508
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A121932 ((n : ℤ) - A063524 n).toNat
-
-end
-
-end A367554.P210377647625932508
-
-/-! ## A367554.P16831320606204065835
-
-`A121932(n)%A121892(A121946(n))`
--/
-
-namespace A367554.P16831320606204065835
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  Int.tmod (A121932 n) (A121892 (A121946 n).toNat)
-
-end
-
-end A367554.P16831320606204065835
-
-/-! ## A367554.P5469185298937744645
-
-`A121932(n)^A307016(A121900(3*n))`
--/
-
-namespace A367554.P5469185298937744645
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A121932 n : ℚ) ^ (A307016 (A121900 (3 * n)).toNat : ℤ)
-
-end
-
-end A367554.P5469185298937744645
-
-/-! ## A367554.P6474986113358612425
-
-`A121932(n*A238352(n))`
--/
-
-namespace A367554.P6474986113358612425
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A121932 ((n : ℤ) * A238352 n).toNat
-
-end
-
-end A367554.P6474986113358612425
-
-/-! ## A367554.P16460356634917988645
-
-`A121932(lcm(n, A238352(n)))`
--/
-
-namespace A367554.P16460356634917988645
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A121932 (Int.lcm (n : ℤ) (A238352 n))
-
-end
-
-end A367554.P16460356634917988645
-
-/-!
 # A367556: Comma transform of the Fibonacci numbers.
 
 The programs for A367556, the canonical program `A367556.P8034528816821162778` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367556 has offset 0).
@@ -3050,7 +2968,7 @@ end A367564
 /-!
 # A367566: a(n) is the product of the primes p <= n+1 such that n * k^n == +-1 (mod p) for every k that is not a multiple of p.
 
-The programs for A367566, the canonical program `A367566.P1160178644607421999` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367566 has offset 1).
+The programs for A367566, the canonical program `A367566.P1160178644607421999` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367566 has offset 1).
 
 The definition of A367566 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 647 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3059,7 +2977,7 @@ The definition of A367566 is `conjectured`: the Lean definition is a formula tha
 
 `gcd(A061037(2*(n+1)), A166120(2*n+3))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A367566
@@ -3188,7 +3106,7 @@ end A367572.P6450265519176454769
 /-!
 # A367573: Long legs of the only primitive Pythagorean triple whose inradius is the n-th prime and whose short leg is an odd number.
 
-The programs for A367573, the canonical program `A367573.P17333785257537184699` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367573 has offset 1).
+The programs for A367573, the canonical program `A367573.P17333785257537184699` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367573 has offset 1).
 
 The definition of A367573 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3197,7 +3115,7 @@ The definition of A367573 is `conjectured`: the Lean definition is a formula tha
 
 `∑[4*A138383(n)]`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A367573

@@ -52,17 +52,17 @@ import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
@@ -74,9 +74,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -5789,7 +5786,7 @@ end A289139
 /-!
 # A289142: Numbers whose sum of prime factors (taken with multiplicity) is divisible by 3.
 
-The programs for A289142, the canonical program `A289142.P11077449046936920695` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289142 has offset 1).
+The programs for A289142, the canonical program `A289142.P11077449046936920695` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289142 has offset 1).
 
 The definition of A289142 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5798,7 +5795,7 @@ The definition of A289142 is `conjectured`: the Lean definition is a formula tha
 
 `eq[0, A001414(n+1)%3]+1`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A289142
@@ -6938,7 +6935,7 @@ end A289148.P14777720137494338609
 /-!
 # A289150: Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 597", based on the 5-celled von Neumann neighborhood.
 
-The programs for A289150, the canonical program `A289150.P17860079283463340798` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289150 has offset 0).
+The programs for A289150, the canonical program `A289150.P17860079283463340798` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289150 has offset 0).
 
 The definition of A289150 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6947,7 +6944,7 @@ The definition of A289150 is `conjectured`: the Lean definition is a formula tha
 
 `∑[10^n]-A056830(∑[n%2])`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A289150
@@ -12125,7 +12122,7 @@ end A289198.P13597781061206560057
 /-!
 # A289199: a(n) is the number of odd integers divisible by 13 in the open interval (12*(n-1)^2, 12*n^2).
 
-The programs for A289199, the canonical program `A289199.P15088153983146951858` is in `Seq.B001.C010`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289199 has offset 0).
+The programs for A289199, the canonical program `A289199.P15088153983146951858` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A289199 has offset 0).
 
 The definition of A289199 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 9998 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -12134,7 +12131,7 @@ The definition of A289199 is `conjectured`: the Lean definition is a formula tha
 
 `n-Δ[round(A155212(n+1)/13)]`
 
-The canonical program, it is in `Seq.B001.C010`.
+The canonical program, it is in `Seq.B001.C011`.
 -/
 
 namespace A289199

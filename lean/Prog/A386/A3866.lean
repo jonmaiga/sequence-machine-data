@@ -25,30 +25,30 @@ import Seq.B000.C039
 import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C002
-import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C011
+import Seq.B001.C009
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C003
-import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C003
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B007.C000
+import Seq.B007.C001
 import Seq.B008.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -561,7 +561,7 @@ end A386622
 /-!
 # A386624: a(n) = Sum_{d|n} sigma(d) * phi(d) * mu(n/d).
 
-The programs for A386624, the canonical program `A386624.P17245005643228662318` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386624 has offset 1).
+The programs for A386624, the canonical program `A386624.P17245005643228662318` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386624 has offset 1).
 
 The definition of A386624 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -570,7 +570,7 @@ The definition of A386624 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A007427(#)*A062952((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A386624
@@ -722,7 +722,7 @@ end
 end A386626.P3926906683489556157
 
 /-!
-# A386628: Values of v in the (2,3)-quartals (m,u,v,w) having m=1; i.e., values of v for solutions to 1 + u^3 = v^2 + w^3, in positive integers, with m
+# A386628: Values of v in the (2,3)-quartals (m,u,v,w) having m=1; i.e., values of v for solutions to 1 + u^3 = v^2 + w^3, in positive integers, with m<v; see A386217.
 
 The programs for A386628, there is no canonical definition to state claims against.
 -/
@@ -2874,7 +2874,7 @@ end A386684
 /-!
 # A386685: Classification of the interval [4*n+1, 4*n+2, 4*n+3] according to positions of primes.
 
-The programs for A386685, the canonical program `A386685.P10921872709597016548` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386685 has offset 0).
+The programs for A386685, the canonical program `A386685.P10921872709597016548` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386685 has offset 0).
 
 The definition of A386685 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010051, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2883,7 +2883,7 @@ The definition of A386685 is `conditional`: the Lean definition is an OEIS formu
 
 `4*A010051(4*n+1)+2*A010051(4*n+2)+A010051(4*n+3)`
 
-The canonical program, it is in `Seq.B003.C005`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A386685

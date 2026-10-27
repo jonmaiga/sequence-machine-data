@@ -38,16 +38,19 @@ import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C010
+import Seq.B001.C009
+import Seq.B001.C011
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -61,9 +64,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4125,21 +4125,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A036038.P2316016073473689651
-
-/-! ## A036038.P10978645382694613271
-
-`A182779(n+1)/A305309(n+1)`
--/
-
-namespace A036038.P10978645382694613271
-noncomputable section
-
-def a : ℕ → ℚ := SequenceMachineLib.memo fun n =>
-  (A182779 (n + 1) : ℚ) / (A305309 (n + 1) : ℚ)
-
-end
-
-end A036038.P10978645382694613271
 
 /-!
 # A036039: Irregular triangle of multinomial coefficients of integer partitions read by rows (in Abramowitz and Stegun ordering) giving the coefficients of the cycle index polynomials for the symmetric groups S_n.

@@ -20,30 +20,35 @@ import Seq.B000.C040
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C003
-import Seq.B001.C005
+import Seq.B001.C004
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C012
-import Seq.B002.C001
+import Seq.B001.C013
 import Seq.B002.C002
-import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C008
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
+import Seq.B004.C004
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -764,7 +769,7 @@ end A397711.P1442832148510990887
 /-!
 # A397713: Triangle read by rows: T(n,k) is the number of binary digits in binomial(n,k).
 
-The programs for A397713, the canonical program `A397713.P732737537006810765` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397713 has offset 0).
+The programs for A397713, the canonical program `A397713.P732737537006810765` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397713 has offset 0).
 
 The definition of A397713 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -773,7 +778,7 @@ The definition of A397713 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `A070939(A007318(n))`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A397713
@@ -1899,7 +1904,7 @@ end A397752.P7189558769517088392
 /-!
 # A397754: Numbers that don't contain digit 0 but have a divisor that does.
 
-The programs for A397754, the canonical program `A397754.P18151342160138794166` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397754 has offset 1).
+The programs for A397754, the canonical program `A397754.P18151342160138794166` is in `Seq.B004.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397754 has offset 1).
 
 The definition of A397754 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3190 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1908,7 +1913,7 @@ The definition of A397754 is `conjectured`: the Lean definition is a formula tha
 
 `∩[A209932(n+1), A259315(n+1)]`
 
-The canonical program, it is in `Seq.B004.C003`.
+The canonical program, it is in `Seq.B004.C004`.
 -/
 
 namespace A397754
@@ -2522,7 +2527,7 @@ end A397779
 /-!
 # A397787: Number of even primitive Dirichlet characters modulo n.
 
-The programs for A397787, the canonical program `A397787.P9925276150095344826` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397787 has offset 1).
+The programs for A397787, the canonical program `A397787.P9925276150095344826` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397787 has offset 1).
 
 The definition of A397787 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2603,7 +2608,7 @@ end A397787
 
 `∑{d}[n+1, A007427(#)*A080513((n+1)/#-1)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A397787
@@ -2647,7 +2652,7 @@ end A397787
 /-!
 # A397788: Number of odd primitive Dirichlet characters modulo n.
 
-The programs for A397788, the canonical program `A397788.P10557389323205216915` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397788 has offset 1).
+The programs for A397788, the canonical program `A397788.P10557389323205216915` is in `Seq.B002.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A397788 has offset 1).
 
 The definition of A397788 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2728,7 +2733,7 @@ end A397788
 
 `∑{d}[n+1, A004526(#-1)*A007427((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C008`.
 -/
 
 namespace A397788
@@ -2954,7 +2959,7 @@ def P15546778771765710076.Spec : Prop :=
 end A397793
 
 /-!
-# A397794: a(n) is the decimal encoding of the unique snowball numeral having value n.
+# A397794: a(n) is the decimal encoding of the unique snowball numeral <d_k...d_1> having value n.
 
 The programs for A397794, there is no canonical definition to state claims against.
 -/

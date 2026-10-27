@@ -35,33 +35,34 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C006
-import Seq.B001.C007
+import Seq.B001.C008
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C004
+import Seq.B002.C003
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B003.C006
 import Seq.B004.C000
+import Seq.B004.C001
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
 import Seq.B006.C000
+import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2637,7 +2638,7 @@ end A034675.P7835937509476929189
 /-!
 # A034676: Sum of squares of unitary divisors of n.
 
-The programs for A034676, the canonical program `A034676.P6152504972780352585` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034676 has offset 1).
+The programs for A034676, the canonical program `A034676.P6152504972780352585` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034676 has offset 1).
 
 The definition of A034676 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2646,7 +2647,7 @@ The definition of A034676 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A254520(#)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A034676
@@ -3253,7 +3254,7 @@ end A034677
 /-!
 # A034678: Sum of fourth powers of unitary divisors.
 
-The programs for A034678, the canonical program `A034678.P2173923683494407018` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034678 has offset 1).
+The programs for A034678, the canonical program `A034678.P2173923683494407018` is in `Seq.B002.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034678 has offset 1).
 
 The definition of A034678 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3262,7 +3263,7 @@ The definition of A034678 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A065827(#)*A334657((n+1)/#)]`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B002.C000`.
 -/
 
 namespace A034678
@@ -3822,7 +3823,7 @@ end A034681.P3295821525005577684
 /-!
 # A034682: Sum of eighth powers of unitary divisors.
 
-The programs for A034682, the canonical program `A034682.P3549804314413141181` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034682 has offset 1).
+The programs for A034682, the canonical program `A034682.P3549804314413141181` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A034682 has offset 1).
 
 The definition of A034682 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3831,7 +3832,7 @@ The definition of A034682 is `conjectured`: the Lean definition is a formula tha
 
 `A034678((n+1)²)`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C000`.
 -/
 
 namespace A034682

@@ -37,26 +37,28 @@ import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -64,9 +66,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -346,7 +345,7 @@ end A370409.P3375730849069096475
 /-!
 # A370410: Number of length-n binary strings that are the concatenation of two nonempty palindromes.
 
-The programs for A370410, the canonical program `A370410.P7118795628727837074` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370410 has offset 1).
+The programs for A370410, the canonical program `A370410.P7118795628727837074` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370410 has offset 1).
 
 The definition of A370410 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007055, A056458, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -355,7 +354,7 @@ The definition of A370410 is `conditional`: the Lean definition is an OEIS formu
 
 `A007055(n+1)-A056458(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C001`.
 -/
 
 namespace A370410
@@ -1024,7 +1023,7 @@ end A370425.P7582952114446106247
 /-!
 # A370427: a(n) is the least k >= 0 such that n OR k is a binary palindrome (where OR denotes the bitwise OR operator).
 
-The programs for A370427, the canonical program `A370427.P3544381458467413037` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370427 has offset 0).
+The programs for A370427, the canonical program `A370427.P3544381458467413037` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370427 has offset 0).
 
 The definition of A370427 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1033,7 +1032,7 @@ The definition of A370427 is `conjectured`: the Lean definition is a formula tha
 
 `A175298(n)-n`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A370427
@@ -3707,7 +3706,7 @@ end A370476.P10432950315583489698
 /-!
 # A370477: G.f. satisfies A(x) = ( 1 + x * (A(x)^(1/2) / (1-x))^(3/2) )^2.
 
-The programs for A370477, the canonical program `A370477.P17615523648201337073` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370477 has offset 0).
+The programs for A370477, the canonical program `A370477.P17615523648201337073` is in `Seq.B003.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370477 has offset 0).
 
 The definition of A370477 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 171 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -3716,7 +3715,7 @@ The definition of A370477 is `conjectured`: the Lean definition is a formula tha
 
 `A000588(n)+A071718(n)-A000245(n)`
 
-The canonical program, it is in `Seq.B003.C004`.
+The canonical program, it is in `Seq.B003.C005`.
 -/
 
 namespace A370477
@@ -4454,7 +4453,7 @@ end A370481
 /-!
 # A370482: Characteristic function of primes plus characteristic function of even numbers.
 
-The programs for A370482, the canonical program `A370482.P9499058320465952393` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370482 has offset 0).
+The programs for A370482, the canonical program `A370482.P9499058320465952393` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370482 has offset 0).
 
 The definition of A370482 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4490,7 +4489,7 @@ end A370482
 
 `A059841(n)+∑{p}[n, val(#, n)]`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A370482
@@ -5081,7 +5080,7 @@ end A370493.P15281469398978035080
 /-!
 # A370494: Oblong numbers of the form (k-1)*k where k is the product of an odd number of distinct primes.
 
-The programs for A370494, the canonical program `A370494.P10899196163276954018` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370494 has offset 1).
+The programs for A370494, the canonical program `A370494.P10899196163276954018` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370494 has offset 1).
 
 The definition of A370494 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A030059, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5090,7 +5089,7 @@ The definition of A370494 is `conditional`: the Lean definition is an OEIS formu
 
 `A002378(A030059(n+1)-1)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A370494
@@ -5229,7 +5228,7 @@ end A370494
 /-!
 # A370495: Oblong numbers of the form (k-1)*k where k is the product of an even number of distinct primes.
 
-The programs for A370495, the canonical program `A370495.P17576673129975267883` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370495 has offset 1).
+The programs for A370495, the canonical program `A370495.P17576673129975267883` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A370495 has offset 1).
 
 The definition of A370495 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A030229, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5238,7 +5237,7 @@ The definition of A370495 is `conditional`: the Lean definition is an OEIS formu
 
 `A002378(A030229(n+1)-1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A370495

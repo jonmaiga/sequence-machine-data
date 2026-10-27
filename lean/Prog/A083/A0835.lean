@@ -60,25 +60,23 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
-import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -480,7 +478,7 @@ end A083509.P1278815758568184063
 /-!
 # A083510: Members of A000124 which are the arithmetic mean of two other members.
 
-The programs for A083510, the canonical program `A083510.P3512523966846881467` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083510 has offset 1).
+The programs for A083510, the canonical program `A083510.P3512523966846881467` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083510 has offset 1).
 
 The definition of A083510 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6762 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -558,7 +556,7 @@ end A083510
 
 `C(lt[2, A046110(n)]+1, 2)+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A083510
@@ -2979,7 +2977,7 @@ end A083533.P5762657321184468738
 /-!
 # A083534: First difference sequence of A007617. Difference between consecutive values not being in the range of phi (A000010).
 
-The programs for A083534, the canonical program `A083534.P14032247145257894732` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083534 has offset 1).
+The programs for A083534, the canonical program `A083534.P14032247145257894732` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083534 has offset 1).
 
 The definition of A083534 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007617, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2988,7 +2986,7 @@ The definition of A083534 is `conditional`: the Lean definition is an OEIS formu
 
 `A007617(n+2)-A007617(n+1)`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A083534
@@ -4597,7 +4595,7 @@ end A083541.P10102977100045444927
 /-!
 # A083542: a(n) = phi(n+1)*phi(n), product of totients of two consecutive integers.
 
-The programs for A083542, the canonical program `A083542.P8177668363377895964` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083542 has offset 1).
+The programs for A083542, the canonical program `A083542.P8177668363377895964` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083542 has offset 1).
 
 The definition of A083542 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4658,7 +4656,7 @@ end A083542
 
 `A000010(n+2)*A000010(n+1)`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A083542
@@ -4944,12 +4942,6 @@ namespace A083542
 /-- `(A109606(n+1)+1)*(A039649(n+2)-1)` -/
 def P14301671145465437769.Spec : Prop :=
   ∀ n, P14301671145465437769.a n = A083542 (n + 1)
-
-theorem P14301671145465437769.correct : P14301671145465437769.Spec := by
-  intro n
-  simp only [A083542, Nat.add_sub_cancel, A083542.P14301671145465437769.a, A083542.P8177668363377895964.a, A000010, A000010.P4673923239450215316.a, A039649, A039649.P16717312505280968063.a, A109606, A109606.P2415810041766612210.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P7264174615531153985.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A083542
 
@@ -5262,7 +5254,7 @@ end A083546.P17151032237012993946
 /-!
 # A083548: Least common multiple of cototient values of consecutive integers.
 
-The programs for A083548, the canonical program `A083548.P10089117968042998981` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083548 has offset 1).
+The programs for A083548, the canonical program `A083548.P10089117968042998981` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083548 has offset 1).
 
 The definition of A083548 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5288,19 +5280,13 @@ namespace A083548
 def P15553026466042676037.Spec : Prop :=
   ∀ n, (P15553026466042676037.a n : ℤ) = A083548 (n + 1)
 
-theorem P15553026466042676037.correct : P15553026466042676037.Spec := by
-  intro n
-  simp only [A083548, Nat.add_sub_cancel, A083548.P15553026466042676037.a, A083548.P10089117968042998981.a, A000010, A000010.P4673923239450215316.a, A051953, A051953.P11179276897610979764.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P7264174615531153985.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
-
 end A083548
 
 /-! ## A083548.P10089117968042998981
 
 `lcm(A051953(n+1), A051953(n+2))`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C000`.
 -/
 
 namespace A083548
@@ -5387,7 +5373,7 @@ end A083548
 /-!
 # A083549: Quotient if least common multiple (lcm) of cototient values of consecutive integers is divided by the greatest common divisor (gcd) of the same pair of consecutive numbers.
 
-The programs for A083549, the canonical program `A083549.P10383271468232548209` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083549 has offset 1).
+The programs for A083549, the canonical program `A083549.P10383271468232548209` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A083549 has offset 1).
 
 The definition of A083549 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A051953, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -5396,7 +5382,7 @@ The definition of A083549 is `conditional`: the Lean definition is an OEIS formu
 
 `lcm(A051953(n+1), A051953(n+2))/gcd(A051953(n+1), A051953(n+2))`
 
-The canonical program, it is in `Seq.B005.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A083549

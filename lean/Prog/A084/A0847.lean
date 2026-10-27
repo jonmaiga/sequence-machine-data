@@ -36,15 +36,15 @@ import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
-import Seq.B001.C006
+import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -57,11 +57,10 @@ import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B005.C002
+import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4872,7 +4871,7 @@ theorem P510161900835662351.correct : P510161900835662351.Spec := by
 end A084765
 
 /-!
-# A084766: Sum of numbers of prime-factors {2*n-p: 2
+# A084766: Sum of numbers of prime-factors {2*n-p: 2<p<2*n, p prime}, with repetitions.
 
 The programs for A084766, there is no canonical definition to state claims against.
 -/
@@ -4893,7 +4892,7 @@ end
 end A084766.P8264255950177845474
 
 /-!
-# A084767: Number of distinct prime-factors of {2*n-p: 2
+# A084767: Number of distinct prime-factors of {2*n-p: 2<p<2*n, p prime}.
 
 The programs for A084767, there is no canonical definition to state claims against.
 -/

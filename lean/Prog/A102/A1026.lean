@@ -38,9 +38,8 @@ import Seq.B001.C004
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -48,13 +47,15 @@ import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B006.C000
@@ -63,7 +64,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -551,7 +551,7 @@ end A102605.P15877579157661418291
 /-!
 # A102609: a(n) = 1 iff n^2-n+41 is prime (else 0).
 
-The programs for A102609, the canonical program `A102609.P5262779225458545555` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102609 has offset 0).
+The programs for A102609, the canonical program `A102609.P5262779225458545555` is in `Seq.B001.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102609 has offset 0).
 
 The definition of A102609 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A010051, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -560,7 +560,7 @@ The definition of A102609 is `conditional`: the Lean definition is an OEIS formu
 
 `A010051(n²-n+41)`
 
-The canonical program, it is in `Seq.B003.C001`.
+The canonical program, it is in `Seq.B001.C004`.
 -/
 
 namespace A102609
@@ -13247,7 +13247,7 @@ end A102687.P7532953006478278134
 /-!
 # A102688: a(n) = (1/n)*Sum_{k=1..n} k*2^gcd(n,k).
 
-The programs for A102688, the canonical program `A102688.P13779856742604042101` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102688 has offset 1).
+The programs for A102688, the canonical program `A102688.P13779856742604042101` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A102688 has offset 1).
 
 The definition of A102688 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000031, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -13256,7 +13256,7 @@ The definition of A102688 is `conditional`: the Lean definition is an OEIS formu
 
 `(A000079(n+1)+(n+1)*A000031(n+1))/2`
 
-The canonical program, it is in `Seq.B011.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A102688

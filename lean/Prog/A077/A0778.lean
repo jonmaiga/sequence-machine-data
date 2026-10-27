@@ -51,18 +51,19 @@ import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
-import Seq.B002.C006
 import Seq.B002.C007
+import Seq.B002.C008
 import Seq.B003.C000
 import Seq.B003.C001
-import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B005.C000
 import Seq.B005.C001
@@ -70,8 +71,7 @@ import Seq.B006.C000
 import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
-import Seq.B012.C000
-import Seq.B013.C000
+import Seq.B010.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -98,7 +98,7 @@ set_option linter.unreachableTactic false
 /-!
 # A077800: List of twin primes {p, p+2}.
 
-The programs for A077800, the canonical program `A077800.P16009445446139691322` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077800 has offset 1).
+The programs for A077800, the canonical program `A077800.P16009445446139691322` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077800 has offset 1).
 
 The definition of A077800 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -153,7 +153,7 @@ end A077800
 
 `A096281(n)-a(n-1)` with `a(0)=3`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A077800
@@ -1392,7 +1392,7 @@ end A077806
 /-!
 # A077807: Number of distinct prime factors of numbers containing in their decimal representation only the digits 0 and 1.
 
-The programs for A077807, the canonical program `A077807.P2572054208741145495` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077807 has offset 1).
+The programs for A077807, the canonical program `A077807.P2572054208741145495` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077807 has offset 1).
 
 The definition of A077807 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001221, A007088, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1401,7 +1401,7 @@ The definition of A077807 is `conditional`: the Lean definition is an OEIS formu
 
 `A001221(A007088(n+1))`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A077807
@@ -1627,7 +1627,7 @@ end A077807
 /-!
 # A077808: Number of prime factors of numbers containing in their decimal representation only the digits 0 and 1 (counted with multiplicity).
 
-The programs for A077808, the canonical program `A077808.P6672535155909729965` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077808 has offset 1).
+The programs for A077808, the canonical program `A077808.P6672535155909729965` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077808 has offset 1).
 
 The definition of A077808 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001222, A007088, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1636,7 +1636,7 @@ The definition of A077808 is `conditional`: the Lean definition is an OEIS formu
 
 `A001222(A007088(n+1))`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A077808
@@ -1848,7 +1848,7 @@ end A077808
 /-!
 # A077809: Number of divisors of numbers containing in their decimal representation only the digits 0 and 1.
 
-The programs for A077809, the canonical program `A077809.P14212101923891153479` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077809 has offset 1).
+The programs for A077809, the canonical program `A077809.P14212101923891153479` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077809 has offset 1).
 
 The definition of A077809 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007088, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1857,7 +1857,7 @@ The definition of A077809 is `conditional`: the Lean definition is an OEIS formu
 
 `A000005(A007088(n+1))`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A077809
@@ -1985,7 +1985,7 @@ end A077809
 /-!
 # A077810: Sum of divisors of numbers containing in their decimal representation only the digits 0 and 1.
 
-The programs for A077810, the canonical program `A077810.P10946061899893420603` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077810 has offset 1).
+The programs for A077810, the canonical program `A077810.P10946061899893420603` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077810 has offset 1).
 
 The definition of A077810 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007088, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1994,7 +1994,7 @@ The definition of A077810 is `conditional`: the Lean definition is an OEIS formu
 
 `A000203(A007088(n+1))`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A077810
@@ -2255,7 +2255,7 @@ end A077810
 /-!
 # A077811: Euler's totient of numbers containing in their decimal representation only the digits 0 and 1.
 
-The programs for A077811, the canonical program `A077811.P9629137586577371590` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077811 has offset 1).
+The programs for A077811, the canonical program `A077811.P9629137586577371590` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077811 has offset 1).
 
 The definition of A077811 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, A007088, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2264,7 +2264,7 @@ The definition of A077811 is `conditional`: the Lean definition is an OEIS formu
 
 `A000010(A007088(n+1))`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A077811
@@ -2383,7 +2383,7 @@ end A077811
 /-!
 # A077812: Squarefree kernel of numbers containing in their decimal representation only the digits 0 and 1.
 
-The programs for A077812, the canonical program `A077812.P18266462485263755102` is in `Seq.B002.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077812 has offset 1).
+The programs for A077812, the canonical program `A077812.P18266462485263755102` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077812 has offset 1).
 
 The definition of A077812 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007088, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2392,7 +2392,7 @@ The definition of A077812 is `conditional`: the Lean definition is an OEIS formu
 
 `A007947(A007088(n+1))`
 
-The canonical program, it is in `Seq.B002.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A077812
@@ -3216,7 +3216,7 @@ end A077814
 /-!
 # A077815: 2^phi(n) mod n^2, where phi is Euler's totient function A000010.
 
-The programs for A077815, the canonical program `A077815.P4388261198569135926` is in `Seq.B004.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077815 has offset 1).
+The programs for A077815, the canonical program `A077815.P4388261198569135926` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A077815 has offset 1).
 
 The definition of A077815 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -3225,7 +3225,7 @@ The definition of A077815 is `conditional`: the Lean definition is an OEIS formu
 
 `(2^A000010(n+1))%(n+1)²`
 
-The canonical program, it is in `Seq.B004.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A077815

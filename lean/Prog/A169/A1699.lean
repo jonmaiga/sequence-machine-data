@@ -63,14 +63,14 @@ import Seq.B003.C003
 import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
-import Seq.B009.C000
+import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -104,7 +104,7 @@ set_option linter.unreachableTactic false
 /-!
 # A169900: Earliest sequence such that xy | a(x+y) for all x>=1, y>=1.
 
-The programs for A169900, the canonical program `A169900.P3190041805646799674` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169900 has offset 1).
+The programs for A169900, the canonical program `A169900.P3190041805646799674` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169900 has offset 1).
 
 The definition of A169900 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 229 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -113,7 +113,7 @@ The definition of A169900 is `conjectured`: the Lean definition is a formula tha
 
 `A003418(n)*A048671(n+1)`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A169900
@@ -6581,7 +6581,7 @@ end A169963
 /-!
 # A169964: Numbers whose decimal expansion contains only 0's and 5's.
 
-The programs for A169964, the canonical program `A169964.P5476345950802300353` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169964 has offset 1).
+The programs for A169964, the canonical program `A169964.P5476345950802300353` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169964 has offset 1).
 
 The definition of A169964 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007088, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6590,7 +6590,7 @@ The definition of A169964 is `conditional`: the Lean definition is an OEIS formu
 
 `5*A007088(n)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A169964
@@ -7105,7 +7105,7 @@ end A169964
 /-!
 # A169965: Numbers whose decimal expansion contains only 0's and 2's.
 
-The programs for A169965, the canonical program `A169965.P4332122273764269296` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169965 has offset 1).
+The programs for A169965, the canonical program `A169965.P4332122273764269296` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169965 has offset 1).
 
 The definition of A169965 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007088, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7114,7 +7114,7 @@ The definition of A169965 is `conditional`: the Lean definition is an OEIS formu
 
 `2*A007088(n)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A169965
@@ -7647,7 +7647,7 @@ end A169965
 /-!
 # A169966: Numbers whose decimal expansion contains only 0's and 3's.
 
-The programs for A169966, the canonical program `A169966.P17934816075476850432` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169966 has offset 1).
+The programs for A169966, the canonical program `A169966.P17934816075476850432` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169966 has offset 1).
 
 The definition of A169966 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007088, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -7656,7 +7656,7 @@ The definition of A169966 is `conditional`: the Lean definition is an OEIS formu
 
 `3*A007088(n)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A169966
@@ -8195,7 +8195,7 @@ end A169966
 /-!
 # A169967: Numbers whose decimal expansion contains only 0's and 4's.
 
-The programs for A169967, the canonical program `A169967.P11381469564767287368` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169967 has offset 1).
+The programs for A169967, the canonical program `A169967.P11381469564767287368` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A169967 has offset 1).
 
 The definition of A169967 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A007088, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -8204,7 +8204,7 @@ The definition of A169967 is `conditional`: the Lean definition is an OEIS formu
 
 `4*A007088(n)`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A169967

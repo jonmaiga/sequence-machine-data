@@ -44,17 +44,15 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B005.C001
 import Seq.B006.C000
@@ -4635,7 +4633,7 @@ end A219389
 /-!
 # A219390: Numbers k such that 14*k+1 is a square.
 
-The programs for A219390, the canonical program `A219390.P17150077939141016358` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219390 has offset 1).
+The programs for A219390, the canonical program `A219390.P17150077939141016358` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219390 has offset 1).
 
 The definition of A219390 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -4667,7 +4665,7 @@ end A219390
 
 `2*A219191(n+1)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A219390
@@ -5147,7 +5145,7 @@ end A219390
 /-!
 # A219391: Numbers k such that 21*k + 1 is a square.
 
-The programs for A219391, the canonical program `A219391.P9876836619374613419` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219391 has offset 1).
+The programs for A219391, the canonical program `A219391.P9876836619374613419` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A219391 has offset 1).
 
 The definition of A219391 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5156,7 +5154,7 @@ The definition of A219391 is `conjectured`: the Lean definition is a formula tha
 
 `∑[lcm(2, n)]+A057353(n+1)²`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A219391

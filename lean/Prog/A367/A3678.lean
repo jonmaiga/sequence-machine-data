@@ -29,26 +29,26 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
-import Seq.B001.C006
+import Seq.B001.C005
 import Seq.B001.C007
-import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -60,8 +60,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -3842,7 +3840,7 @@ end A367869.P974649134376746096
 
 The programs for A367870, the canonical program `A367870.P3261918350467240858` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A367870 has offset 1).
 
-The definition of A367870 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A367870 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000593, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
 
 /-! ## A367870.P3261918350467240858
@@ -4063,12 +4061,6 @@ namespace A367870
 /-- `A086670(n+1)+A245579(n+1)-A286015(n+1)` -/
 def P17578413511266846813.Spec : Prop :=
   ∀ n, P17578413511266846813.a n = A367870 (n + 1)
-
-theorem P17578413511266846813.correct : P17578413511266846813.Spec := by
-  intro n
-  simp only [A367870, Nat.add_sub_cancel, A367870.P17578413511266846813.a, A367870.P3261918350467240858.a, A000593, A000593.P13640346029616979906.a, A086670, A086670.P715310048333815188.a, A245579, A245579.P1038564678599800465.a, A286015, A286015.P16729021585373301699.f1, A286015.P16729021585373301699.a, A000203, A000203.P15001602795509372896.f1, A000203.P15001602795509372896.a, A001227, A001227.P17291574635237243988.f1, A001227.P17291574635237243988.a, A038712, A038712.P3404197303190209645.a, A123684, A123684.P10917051134979273385.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A367870
 

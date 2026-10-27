@@ -40,17 +40,16 @@ import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
+import Seq.B002.C002
 import Seq.B002.C004
-import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -58,9 +57,9 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
-import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
@@ -72,8 +71,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -278,7 +275,7 @@ end A377803.P10483764484316409233
 /-!
 # A377809: k*(k+3)/2 appears k times.
 
-The programs for A377809, the canonical program `A377809.P6328072400551004124` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377809 has offset 1).
+The programs for A377809, the canonical program `A377809.P6328072400551004124` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377809 has offset 1).
 
 The definition of A377809 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -310,7 +307,7 @@ end A377809
 
 `A002024(n+1)*(A002024(n+1)+3)/2`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A377809
@@ -2497,7 +2494,7 @@ end
 end A377837.P6713841571892625791
 
 /-!
-# A377840: Cogrowth sequence of the 16-element group C8 X C2 = .
+# A377840: Cogrowth sequence of the 16-element group C8 X C2 = <S,T | S^8, T^2, [S,T]>.
 
 The programs for A377840, there is no canonical definition to state claims against.
 -/
@@ -2704,7 +2701,7 @@ end
 end A377842.P13010544335864854323
 
 /-!
-# A377843: Cogrowth sequence of the 16-element group C4 X C2 X C2 = .
+# A377843: Cogrowth sequence of the 16-element group C4 X C2 X C2 = <S,T,U | S^4, T^2, U^2, [S,T], [S,U], [T,U]>.
 
 The programs for A377843, there is no canonical definition to state claims against.
 -/
@@ -3987,7 +3984,7 @@ end
 end A377854.P18080556877450159349
 
 /-!
-# A377855: Cogrowth sequence of the 16-element group C4:C4 = .
+# A377855: Cogrowth sequence of the 16-element group C4:C4 = <S,T | S^4, T^4, STST^3>.
 
 The programs for A377855, there is no canonical definition to state claims against.
 -/
@@ -5025,7 +5022,7 @@ end A377865.P7510293297445724719
 /-!
 # A377866: Number of subwords of the form DUUD or DDUUD in nondecreasing Dyck paths of length 2n.
 
-The programs for A377866, the canonical program `A377866.P11288015747233166131` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377866 has offset 0).
+The programs for A377866, the canonical program `A377866.P11288015747233166131` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377866 has offset 0).
 
 The definition of A377866 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 238 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5034,7 +5031,7 @@ The definition of A377866 is `conjectured`: the Lean definition is a formula tha
 
 `A010049(2*A289207(n))`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A377866
@@ -6371,7 +6368,7 @@ end A377877.P12275863317508223304
 /-!
 # A377879: Deficiency of squares: a(n) = 2n^2 - sigma(n^2).
 
-The programs for A377879, the canonical program `A377879.P1126299264812417651` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377879 has offset 1).
+The programs for A377879, the canonical program `A377879.P1126299264812417651` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377879 has offset 1).
 
 The definition of A377879 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `2*(n+1)²-A000203((n+1)²)` (program `A377879.P1126299264812417651`, by `A377879.P1126299264812417651.correct`, the sequences it uses are verified). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -6380,7 +6377,7 @@ The definition of A377879 is `verified`: the Lean definition is proven equivalen
 
 `2*(n+1)²-A000203((n+1)²)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A377879
@@ -6784,7 +6781,7 @@ end A377879
 /-!
 # A377880: Nonprime cubefree numbers.
 
-The programs for A377880, the canonical program `A377880.P16509850841699067558` is in `Seq.B006.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377880 has offset 1).
+The programs for A377880, the canonical program `A377880.P16509850841699067558` is in `Seq.B004.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377880 has offset 1).
 
 The definition of A377880 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6871,7 +6868,7 @@ end A377880
 
 `∪[A000469(n+1), A067259(n+1)]`
 
-The canonical program, it is in `Seq.B006.C001`.
+The canonical program, it is in `Seq.B004.C003`.
 -/
 
 namespace A377880
@@ -7178,7 +7175,7 @@ end
 end A377882.P13656651572936774118
 
 /-!
-# A377883: Cogrowth sequence of the 16-element modular group M4(2) = .
+# A377883: Cogrowth sequence of the 16-element modular group M4(2) = <S,T | S^8, T^2, STS^3T>.
 
 The programs for A377883, the canonical program `A377883.P11929721113300965405` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377883 has offset 0).
 
@@ -7420,7 +7417,7 @@ end
 end A377884.P13674415865034710216
 
 /-!
-# A377885: Cogrowth sequence of the 16-element quasihedral group SD16 = .
+# A377885: Cogrowth sequence of the 16-element quasihedral group SD16 = <S,T | S^8, T^2, STS^5T>.
 
 The programs for A377885, there is no canonical definition to state claims against.
 -/
@@ -7997,7 +7994,7 @@ end A377898.P12675501117359320018
 /-!
 # A377899: a(n) = number of composite numbers c_{2*k+1} <= n, where c_m = A002808(m) is the m-th composite number.
 
-The programs for A377899, the canonical program `A377899.P15230961924577883064` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377899 has offset 1).
+The programs for A377899, the canonical program `A377899.P15230961924577883064` is in `Seq.B001.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A377899 has offset 1).
 
 The definition of A377899 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -8006,7 +8003,7 @@ The definition of A377899 is `assumedProven` (OEIS-proven): the Lean definition 
 
 `floor((n+1-A000720(n+1))/2)`
 
-The canonical program, it is in `Seq.B001.C012`.
+The canonical program, it is in `Seq.B001.C013`.
 -/
 
 namespace A377899

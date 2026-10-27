@@ -42,19 +42,20 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
-import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
+import Seq.B001.C008
 import Seq.B001.C010
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -65,8 +66,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -7136,7 +7135,7 @@ end A068669.P1010320491754364992
 /-!
 # A068670: Number of digits in the concatenation of first n primes.
 
-The programs for A068670, the canonical program `A068670.P3265398196871764790` is in `Seq.B003.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068670 has offset 0).
+The programs for A068670, the canonical program `A068670.P3265398196871764790` is in `Seq.B003.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A068670 has offset 0).
 
 The definition of A068670 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7178,7 +7177,7 @@ end A068670
 
 `∑[A097944(n+1)]-A097944(n+1)`
 
-The canonical program, it is in `Seq.B003.C000`.
+The canonical program, it is in `Seq.B003.C001`.
 -/
 
 namespace A068670
@@ -8251,7 +8250,7 @@ end
 end A068680.P12773865007664569632
 
 /-!
-# A068684: Primes obtained as a concatenation p,q,p where p and q are successive primes and p
+# A068684: Primes obtained as a concatenation p,q,p where p and q are successive primes and p<q.
 
 The programs for A068684, there is no canonical definition to state claims against.
 -/

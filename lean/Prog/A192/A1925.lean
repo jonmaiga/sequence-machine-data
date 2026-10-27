@@ -34,13 +34,12 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
-import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
@@ -48,12 +47,13 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
-import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -61,8 +61,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -4063,7 +4061,7 @@ end
 end A192541.P1738904003178465962
 
 /-!
-# A192542: Numbers n such that the interval [2^n-n, 2^n] is prime-free.
+# A192542: Positive numbers k such that the interval [2^k-k, 2^k] is prime-free.
 
 The programs for A192542, there is no canonical definition to state claims against.
 -/
@@ -8250,7 +8248,7 @@ end
 end A192598.P5945687725231698254
 
 /-!
-# A192599: Let N = pq (p
+# A192599: Let N = pq (p<q) = A006881(n). Then a(n) = | (p^2-q)(q-1)/2 |.
 
 The programs for A192599, there is no canonical definition to state claims against.
 -/

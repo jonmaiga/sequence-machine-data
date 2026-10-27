@@ -48,28 +48,30 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
+import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C005
+import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
-import Seq.B003.C004
+import Seq.B003.C003
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
+import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1513,7 +1515,7 @@ end A099608.P16269059713120136164
 /-!
 # A099609: Naive list of twin primes (A077800 prefixed by 2, 3).
 
-The programs for A099609, the canonical program `A099609.P11416934499486676669` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A099609 has offset 1).
+The programs for A099609, the canonical program `A099609.P11416934499486676669` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A099609 has offset 1).
 
 The definition of A099609 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2502 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1522,7 +1524,7 @@ The definition of A099609 is `conjectured`: the Lean definition is a formula tha
 
 `A171821(A008621(record[A195019(n+1)]))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A099609
@@ -6931,7 +6933,7 @@ end A099641.P9393742555782132116
 /-!
 # A099644: a[n]=Mod[q(n),PrimePi[q(n)]]=Mod[A001359(n), A000720(A001359(n))] where q(n) is the n-th lesser-twin-prime. A004648 restricted to lesser twins.
 
-The programs for A099644, the canonical program `A099644.P15863311159365486932` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A099644 has offset 1).
+The programs for A099644, the canonical program `A099644.P15863311159365486932` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A099644 has offset 1).
 
 The definition of A099644 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A001359, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6940,7 +6942,7 @@ The definition of A099644 is `conditional`: the Lean definition is an OEIS formu
 
 `A001359(n+1)%A000720(A001359(n+1))`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A099644
@@ -7535,7 +7537,7 @@ end
 end A099647.P9941189569226167458
 
 /-!
-# A099649: Solutions to A099648(k) > k, i.e., numbers such that the largest term in the iteration of the A003132() function strictly exceeds the initial value.
+# A099649: Solutions to A099648(k) > k; i.e., numbers such that the largest term in the iteration of the A003132() function strictly exceeds the initial value.
 
 The programs for A099649, there is no canonical definition to state claims against.
 -/

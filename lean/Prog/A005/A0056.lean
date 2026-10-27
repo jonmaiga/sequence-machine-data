@@ -43,13 +43,16 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C011
+import Seq.B001.C009
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
+import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C006
 import Seq.B003.C000
@@ -57,6 +60,7 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -69,7 +73,6 @@ import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -11953,29 +11956,6 @@ namespace A005685
 /-- `A068928(n+1)-(a(n-2)-a(n-1))` -/
 def P6353726345953158934.Spec : Prop :=
   ∀ n, P6353726345953158934.a n = A005685 (n + 4)
-
-end A005685
-
-/-! ## A005685.P1062352542582976481
-
-`A102526(n+1)+a(n-1)-a(n-2)` with `a(0)=1, a(1)=2`
--/
-
-namespace A005685.P1062352542582976481
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.rec [1, 2] fun n a =>
-  A102526 (n + 1) + a (n - 1) - a (n - 2)
-
-end
-
-end A005685.P1062352542582976481
-
-namespace A005685
-
-/-- `A102526(n+1)+a(n-1)-a(n-2)` -/
-def P1062352542582976481.Spec : Prop :=
-  ∀ n, P1062352542582976481.a n = A005685 (n + 4)
 
 end A005685
 

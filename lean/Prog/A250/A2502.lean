@@ -1,5 +1,4 @@
 import SequenceMachineLib
-import Mathlib.Tactic
 import Seq.B000.C000
 import Seq.B000.C001
 import Seq.B000.C002
@@ -35,7 +34,7 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
-import Seq.B001.C004
+import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
@@ -44,24 +43,24 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
-import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -88,10 +87,6 @@ import Seq.Opaque.C022
 import Seq.Opaque.C023
 import Seq.Opaque.C024
 import Seq.Opaque.C025
-
-set_option linter.unusedSimpArgs false
-set_option linter.unusedTactic false
-set_option linter.unreachableTactic false
 
 /-!
 # A250204: Sierpiński problem in base 6: Least k > 0 such that n*6^k+1 is prime, or 0 if no such k exists.
@@ -1471,7 +1466,7 @@ end A250220.P1996749207724793873
 /-!
 # A250222: a(n) = phi(2n+1) - phi(2n), where phi is A000010.
 
-The programs for A250222, the canonical program `A250222.P7138023212861486806` is in `Seq.B004.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250222 has offset 1).
+The programs for A250222, the canonical program `A250222.P7138023212861486806` is in `Seq.B003.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A250222 has offset 1).
 
 The definition of A250222 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A000010, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1503,7 +1498,7 @@ end A250222
 
 `A000010(2*(n+1)+1)-A000010(2*(n+1))`
 
-The canonical program, it is in `Seq.B004.C002`.
+The canonical program, it is in `Seq.B003.C004`.
 -/
 
 namespace A250222
@@ -1610,12 +1605,6 @@ namespace A250222
 /-- `A000010(2*n+3)-A062570(n+1)` -/
 def P4542053732526046920.Spec : Prop :=
   ∀ n, P4542053732526046920.a n = A250222 (n + 1)
-
-theorem P4542053732526046920.correct : P4542053732526046920.Spec := by
-  intro n
-  simp only [A250222, Nat.add_sub_cancel, A250222.P4542053732526046920.a, A250222.P7138023212861486806.a, A000010, A000010.P4673923239450215316.a, A062570, A062570.P5428503589991079502.a, A003557, A003557.P6364735403900941810.a, A173557, A173557.P15666735857375843373.a, A001221, A001221.P10258181745752134128.a, A007947, A007947.P6860725317735988916.f1, A007947.P6860725317735988916.a, A023900, A023900.P6802385856234332486.f1, A023900.P6802385856234332486.a, A005089, A005089.P4329807401814625450.f1, A005089.P4329807401814625450.a, A005091, A005091.P2802037195389751204.f1, A005091.P2802037195389751204.a, A059841, A059841.P7264174615531153985.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | (simp (disch := norm_num) only [zpow_add₀, zpow_sub₀, zpow_mul, zpow_natCast, zpow_ofNat, zpow_one, zpow_neg]; (try field_simp); ring1) | ((try field_simp); ring_nf)
 
 end A250222
 
@@ -8314,7 +8303,7 @@ end
 end A250287.P6672284696745296669
 
 /-!
-# A250288: Numbers n such that the duodecimal repunit (12^n - 1)/11 is a semiprime.
+# A250288: Numbers k such that the duodecimal repunit (12^k - 1)/11 is a semiprime.
 
 The programs for A250288, there is no canonical definition to state claims against.
 -/

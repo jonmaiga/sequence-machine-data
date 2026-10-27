@@ -45,9 +45,11 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -55,6 +57,7 @@ import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
@@ -68,10 +71,8 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B009.C000
+import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -856,7 +857,7 @@ end A208508
 /-!
 # A208509: Triangle of coefficients of polynomials v(n,x) jointly generated with A208508; see the Formula section.
 
-The programs for A208509, the canonical program `A208509.P2453513182842311180` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208509 has offset 1).
+The programs for A208509, the canonical program `A208509.P2453513182842311180` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208509 has offset 1).
 
 The definition of A208509 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -865,7 +866,7 @@ The definition of A208509 is `conjectured`: the Lean definition is a formula tha
 
 `2*A034867(n)-A034839(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A208509
@@ -2760,7 +2761,7 @@ end A208517.P14759594297834927729
 /-!
 # A208519: Triangle of coefficients of polynomials v(n,x) jointly generated with A208518; see the Formula section.
 
-The programs for A208519, the canonical program `A208519.P8400931654513594547` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208519 has offset 1).
+The programs for A208519, the canonical program `A208519.P8400931654513594547` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208519 has offset 1).
 
 The definition of A208519 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2792,7 +2793,7 @@ end A208519
 
 `A094435(n+1)+A094437(n)-A094436(n)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A208519
@@ -5880,7 +5881,7 @@ end A208538.P6628446842406727103
 /-!
 # A208539: Number of n-bead necklaces of 3 colors allowing reversal, with no adjacent beads having the same color.
 
-The programs for A208539, the canonical program `A208539.P8659955523163642094` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208539 has offset 1).
+The programs for A208539, the canonical program `A208539.P8659955523163642094` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A208539 has offset 1).
 
 The definition of A208539 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 100 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5889,7 +5890,7 @@ The definition of A208539 is `conjectured`: the Lean definition is a formula tha
 
 `A330632(n+1)+A010674(A028310(n))`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A208539

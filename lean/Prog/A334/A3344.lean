@@ -39,8 +39,8 @@ import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C007
 import Seq.B001.C008
-import Seq.B001.C009
-import Seq.B001.C011
+import Seq.B001.C010
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
@@ -50,13 +50,16 @@ import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
+import Seq.B003.C001
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
+import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C002
+import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
@@ -65,7 +68,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1572,7 +1574,7 @@ end A334414
 /-!
 # A334415: Nearest integer to n*(2-phi), where phi is the golden ratio (A001622).
 
-The programs for A334415, the canonical program `A334415.P14383701703113336650` is in `Seq.B001.C011`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334415 has offset 0).
+The programs for A334415, the canonical program `A334415.P14383701703113336650` is in `Seq.B001.C012`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334415 has offset 0).
 
 The definition of A334415 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
 -/
@@ -1604,7 +1606,7 @@ end A334415
 
 `n-A101803(n)`
 
-The canonical program, it is in `Seq.B001.C011`.
+The canonical program, it is in `Seq.B001.C012`.
 -/
 
 namespace A334415
@@ -2247,7 +2249,7 @@ end A334418.P15175092401715130932
 /-!
 # A334420: Numbers m such that sigma(d)/tau(d) is an integer for all divisors d of m.
 
-The programs for A334420, the canonical program `A334420.P13131574615811348760` is in `Seq.B005.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334420 has offset 1).
+The programs for A334420, the canonical program `A334420.P13131574615811348760` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334420 has offset 1).
 
 The definition of A334420 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2256,7 +2258,7 @@ The definition of A334420 is `conjectured`: the Lean definition is a formula tha
 
 `eq[A000005(n+1), A338170(n+1)]+1`
 
-The canonical program, it is in `Seq.B005.C002`.
+The canonical program, it is in `Seq.B005.C001`.
 -/
 
 namespace A334420
@@ -6435,7 +6437,7 @@ end A334489.P1911139407881413482
 /-!
 # A334490: a(n) = Sum_{d|n} gcd(d, sigma(d)).
 
-The programs for A334490, the canonical program `A334490.P3091106705763769539` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334490 has offset 1).
+The programs for A334490, the canonical program `A334490.P3091106705763769539` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334490 has offset 1).
 
 The definition of A334490 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6444,7 +6446,7 @@ The definition of A334490 is `conjectured`: the Lean definition is a formula tha
 
 `∑{d}[n+1, A009194(#)]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A334490
@@ -6566,7 +6568,7 @@ end A334490
 /-!
 # A334491: a(n) = Product_{d|n} gcd(d, sigma(d)).
 
-The programs for A334491, the canonical program `A334491.P9359923496953105000` is in `Seq.B002.C006`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334491 has offset 1).
+The programs for A334491, the canonical program `A334491.P9359923496953105000` is in `Seq.B002.C007`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A334491 has offset 1).
 
 The definition of A334491 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6575,7 +6577,7 @@ The definition of A334491 is `conjectured`: the Lean definition is a formula tha
 
 `∏{d}[n+1, A009194(#)]`
 
-The canonical program, it is in `Seq.B002.C006`.
+The canonical program, it is in `Seq.B002.C007`.
 -/
 
 namespace A334491
@@ -6692,7 +6694,7 @@ def P17405185317820855542.Spec : Prop :=
 end A334491
 
 /-!
-# A334494: Positions k of addition steps in Recamán's sequence A005132 where A005132(k-1)
+# A334494: Positions k of addition steps in Recamán's sequence A005132 where A005132(k-1)<k.
 
 The programs for A334494, there is no canonical definition to state claims against.
 -/

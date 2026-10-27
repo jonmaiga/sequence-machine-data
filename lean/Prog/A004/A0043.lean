@@ -51,16 +51,17 @@ import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C011
 import Seq.B001.C012
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
-import Seq.B002.C005
+import Seq.B002.C006
 import Seq.B003.C000
 import Seq.B003.C001
+import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B004.C000
 import Seq.B004.C001
@@ -71,11 +72,6 @@ import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
-import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -139,7 +135,7 @@ end
 end A004300.P3117174467667824530
 
 /-!
-# A004301: Second-order Eulerian numbers <>.
+# A004301: Second-order Eulerian numbers <<n,2>>.
 
 The programs for A004301, the canonical program `A004301.P3156273819323077127` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004301 has offset 2).
 
@@ -12219,7 +12215,7 @@ end A004382
 /-!
 # A004383: Binomial coefficient C(8n,n-2).
 
-The programs for A004383, the canonical program `A004383.P17894317105755686182` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004383 has offset 2).
+The programs for A004383, the canonical program `A004383.P17894317105755686182` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004383 has offset 2).
 
 The definition of A004383 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(8*(n+2), n)` (program `A004383.P17894317105755686182`, by `A004383.P17894317105755686182.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12228,7 +12224,7 @@ The definition of A004383 is `verified`: the Lean definition is proven equivalen
 
 `C(8*(n+2), n)`
 
-The canonical program, it is in `Seq.B000.C000`.
+The canonical program, it is in `Seq.B000.C001`.
 -/
 
 namespace A004383
@@ -12338,7 +12334,7 @@ end A004383
 /-!
 # A004384: Binomial coefficient C(8n,n-3).
 
-The programs for A004384, the canonical program `A004384.P11943856500237417020` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004384 has offset 3).
+The programs for A004384, the canonical program `A004384.P11943856500237417020` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004384 has offset 3).
 
 The definition of A004384 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(8*(n+3), n)` (program `A004384.P11943856500237417020`, by `A004384.P11943856500237417020.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12347,7 +12343,7 @@ The definition of A004384 is `verified`: the Lean definition is proven equivalen
 
 `C(8*(n+3), n)`
 
-The canonical program, it is in `Seq.B000.C000`.
+The canonical program, it is in `Seq.B000.C001`.
 -/
 
 namespace A004384
@@ -12460,7 +12456,7 @@ end A004384
 /-!
 # A004385: Binomial coefficient C(8n,n-4).
 
-The programs for A004385, the canonical program `A004385.P17572947944838007094` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004385 has offset 4).
+The programs for A004385, the canonical program `A004385.P17572947944838007094` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004385 has offset 4).
 
 The definition of A004385 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(8*(n+4), n)` (program `A004385.P17572947944838007094`, by `A004385.P17572947944838007094.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12469,7 +12465,7 @@ The definition of A004385 is `verified`: the Lean definition is proven equivalen
 
 `C(8*(n+4), n)`
 
-The canonical program, it is in `Seq.B000.C000`.
+The canonical program, it is in `Seq.B000.C001`.
 -/
 
 namespace A004385
@@ -12536,7 +12532,7 @@ end A004385
 /-!
 # A004386: Binomial coefficient C(8n,n-5).
 
-The programs for A004386, the canonical program `A004386.P10481130152473127584` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004386 has offset 5).
+The programs for A004386, the canonical program `A004386.P10481130152473127584` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004386 has offset 5).
 
 The definition of A004386 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(8*(n+5), n)` (program `A004386.P10481130152473127584`, by `A004386.P10481130152473127584.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12545,7 +12541,7 @@ The definition of A004386 is `verified`: the Lean definition is proven equivalen
 
 `C(8*(n+5), n)`
 
-The canonical program, it is in `Seq.B000.C000`.
+The canonical program, it is in `Seq.B000.C001`.
 -/
 
 namespace A004386
@@ -12563,7 +12559,7 @@ end A004386
 /-!
 # A004387: Binomial coefficient C(8n,n-6).
 
-The programs for A004387, the canonical program `A004387.P2853275005124151464` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004387 has offset 6).
+The programs for A004387, the canonical program `A004387.P2853275005124151464` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004387 has offset 6).
 
 The definition of A004387 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(8*(n+6), n)` (program `A004387.P2853275005124151464`, by `A004387.P2853275005124151464.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12572,7 +12568,7 @@ The definition of A004387 is `verified`: the Lean definition is proven equivalen
 
 `C(8*(n+6), n)`
 
-The canonical program, it is in `Seq.B000.C000`.
+The canonical program, it is in `Seq.B000.C001`.
 -/
 
 namespace A004387
@@ -12590,7 +12586,7 @@ end A004387
 /-!
 # A004388: Binomial coefficient C(8n,n-7).
 
-The programs for A004388, the canonical program `A004388.P5283370793401022930` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004388 has offset 7).
+The programs for A004388, the canonical program `A004388.P5283370793401022930` is in `Seq.B000.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A004388 has offset 7).
 
 The definition of A004388 is `verified`: the Lean definition is proven equivalent to the name formula of the sequence (the formula in its OEIS name, parsed automatically): `C(8*(n+7), n)` (program `A004388.P5283370793401022930`, by `A004388.P5283370793401022930.correct`). Lean does not check the parsing of the name. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
@@ -12599,7 +12595,7 @@ The definition of A004388 is `verified`: the Lean definition is proven equivalen
 
 `C(8*(n+7), n)`
 
-The canonical program, it is in `Seq.B000.C000`.
+The canonical program, it is in `Seq.B000.C001`.
 -/
 
 namespace A004388

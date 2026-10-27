@@ -48,10 +48,13 @@ import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
+import Seq.B002.C004
 import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B005.C000
@@ -63,7 +66,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -316,7 +318,7 @@ end A138501
 /-!
 # A138502: Expansion of q^(-1/2) * (eta(q)^4 * eta(q^4)^2 / eta(q^2)^3)^2 in powers of q.
 
-The programs for A138502, the canonical program `A138502.P2698045557476506495` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138502 has offset 0).
+The programs for A138502, the canonical program `A138502.P2698045557476506495` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138502 has offset 0).
 
 The definition of A138502 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002173, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -348,7 +350,7 @@ end A138502
 
 `A002173(2*n+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A138502
@@ -1224,7 +1226,7 @@ end A138504.P16333292813362470232
 /-!
 # A138505: Expansion of ((phi(q) * phi(-q^2)^2)^2 - 1) / 4 in powers of q where phi() is a Ramanujan theta function.
 
-The programs for A138505, the canonical program `A138505.P14452217802365060205` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138505 has offset 1).
+The programs for A138505, the canonical program `A138505.P14452217802365060205` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138505 has offset 1).
 
 The definition of A138505 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A002173, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -1233,7 +1235,7 @@ The definition of A138505 is `conditional`: the Lean definition is an OEIS formu
 
 `(-1)^n*A002173(n+1)`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A138505
@@ -1291,12 +1293,6 @@ namespace A138505
 /-- `A002173(n+1)*A033999(n)` -/
 def P16172487415259507755.Spec : Prop :=
   ∀ n, P16172487415259507755.a n = A138505 (n + 1)
-
-theorem P16172487415259507755.correct : P16172487415259507755.Spec := by
-  intro n
-  simp only [A138505, Nat.add_sub_cancel, A138505.P16172487415259507755.a, A138505.P14452217802365060205.a, A002173, A002173.P7206352416500240550.a, A033999, A033999.P17703899380244199787.a, A050450, A050450.P4021675749699126775.a, A050453, A050453.P6605765519543064582.f1, A050453.P6605765519543064582.a, A050999, A050999.P18306880422002560695.a, A062828, A062828.P6719252676437091402.a, A001157, A001157.P6892814788348726787.a, SequenceMachineLib.memo_apply]
-  try push_cast
-  first | ring1 | ((try field_simp); ring_nf)
 
 end A138505
 
@@ -2748,7 +2744,7 @@ end A138511.P13813971320111245850
 /-!
 # A138512: Expansion of q * f(q^5)^5 / f(q) in powers of q where f() is a Ramanujan theta function.
 
-The programs for A138512, the canonical program `A138512.P8340756777299700199` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138512 has offset 1).
+The programs for A138512, the canonical program `A138512.P8340756777299700199` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138512 has offset 1).
 
 The definition of A138512 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A053723, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2757,7 +2753,7 @@ The definition of A138512 is `conditional`: the Lean definition is an OEIS formu
 
 `(-1)^n*A053723(n)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B009.C000`.
 -/
 
 namespace A138512
@@ -6260,7 +6256,7 @@ end A138554.P3498752216203889092
 /-!
 # A138557: Expansion of eta(q)^2 * eta(q^4)^2 * eta(q^10)^7 / (eta(q^2)^3 * eta(q^5)^2 * eta(q^20)^2) in powers of q.
 
-The programs for A138557, the canonical program `A138557.P2808803708478524220` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138557 has offset 1).
+The programs for A138557, the canonical program `A138557.P2808803708478524220` is in `Seq.B008.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A138557 has offset 1).
 
 The definition of A138557 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A129303, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -6269,7 +6265,7 @@ The definition of A138557 is `conditional`: the Lean definition is an OEIS formu
 
 `(-1)^n*A129303(n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B008.C000`.
 -/
 
 namespace A138557

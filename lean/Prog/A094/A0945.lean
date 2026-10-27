@@ -59,6 +59,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -72,8 +73,6 @@ import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
-import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1326,7 +1325,7 @@ end A094516
 /-!
 # A094517: Primes p such that 6p+11 is not a prime.
 
-The programs for A094517, the canonical program `A094517.P18314110436842178638` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094517 has offset 1).
+The programs for A094517, the canonical program `A094517.P18314110436842178638` is in `Seq.B002.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094517 has offset 1).
 
 The definition of A094517 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1413,7 +1412,7 @@ end A094517
 
 `p?[n*(1-A075743(2*n+3))]`
 
-The canonical program, it is in `Seq.B004.C001`.
+The canonical program, it is in `Seq.B002.C002`.
 -/
 
 namespace A094517
@@ -1597,7 +1596,7 @@ def P1283809140051259238.Spec : Prop :=
 end A094517
 
 /-!
-# A094518: Number of pairs (x,y) of divisors of n with x
+# A094518: Number of pairs (x,y) of divisors of n with x<y such that also x+y is a divisor of n.
 
 The programs for A094518, there is no canonical definition to state claims against.
 -/
@@ -1684,7 +1683,7 @@ end
 end A094518.P5143961137142316240
 
 /-!
-# A094519: Numbers having at least one pair (x,y) of divisors with x
+# A094519: Numbers having at least one pair (x,y) of divisors with x<y such that x+y is also a divisor.
 
 The programs for A094519, there is no canonical definition to state claims against.
 -/
@@ -5821,7 +5820,7 @@ end A094550
 /-!
 # A094551: Numbers k such that there are integers a < b with a+(a+1)+...+(k-1) = k+(k+1)+...+b.
 
-The programs for A094551, the canonical program `A094551.P6308246149469362134` is in `Seq.B009.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094551 has offset 1).
+The programs for A094551, the canonical program `A094551.P6308246149469362134` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A094551 has offset 1).
 
 The definition of A094551 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6762 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -5859,7 +5858,7 @@ end A094551
 
 `lt[2, A046110(n)]+1`
 
-The canonical program, it is in `Seq.B009.C000`.
+The canonical program, it is in `Seq.B010.C000`.
 -/
 
 namespace A094551
@@ -7953,7 +7952,7 @@ def P17858956197377895320.Spec : Prop :=
 end A094562
 
 /-!
-# A094564: Triple products of distinct Fibonacci numbers: F(i)F(j)F(k), 2<=i
+# A094564: Triple products of distinct Fibonacci numbers: F(i)F(j)F(k), 2<=i<j<k.
 
 The programs for A094564, there is no canonical definition to state claims against.
 -/

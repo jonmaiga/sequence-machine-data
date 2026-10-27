@@ -48,11 +48,13 @@ import Seq.B001.C008
 import Seq.B001.C009
 import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B002.C006
 import Seq.B002.C007
 import Seq.B003.C000
@@ -60,21 +62,21 @@ import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B004.C003
 import Seq.B005.C000
-import Seq.B005.C001
+import Seq.B005.C002
 import Seq.B006.C000
 import Seq.B006.C001
 import Seq.B007.C000
+import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -421,7 +423,7 @@ end A172403.P8554474247265674220
 /-!
 # A172404: Numbers k such that 3 is the first digit of 2^k.
 
-The programs for A172404, the canonical program `A172404.P17113833198951984415` is in `Seq.B002.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172404 has offset 1).
+The programs for A172404, the canonical program `A172404.P17113833198951984415` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172404 has offset 1).
 
 The definition of A172404 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 6247 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -430,7 +432,7 @@ The definition of A172404 is `conjectured`: the Lean definition is a formula tha
 
 `eq[3, A008952(n)]`
 
-The canonical program, it is in `Seq.B002.C003`.
+The canonical program, it is in `Seq.B002.C004`.
 -/
 
 namespace A172404
@@ -6204,7 +6206,7 @@ end A172457.P9466301086867015239
 /-!
 # A172458: Nonprimes n such that exactly one of 2n-1 and 2n+1 is prime.
 
-The programs for A172458, the canonical program `A172458.P6857060045200463812` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172458 has offset 1).
+The programs for A172458, the canonical program `A172458.P6857060045200463812` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172458 has offset 1).
 
 The definition of A172458 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -6239,7 +6241,7 @@ end A172458
 
 `record[A191558(A174047(n+1))]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A172458
@@ -7389,7 +7391,7 @@ end A172467.P11112649792500187278
 /-!
 # A172469: Primes congruent to +/ -1 or +/ -7 modulo 25.
 
-The programs for A172469, the canonical program `A172469.P4342047015468027813` is in `Seq.B003.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172469 has offset 1).
+The programs for A172469, the canonical program `A172469.P4342047015468027813` is in `Seq.B003.C003`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A172469 has offset 1).
 
 The definition of A172469 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2332 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7398,7 +7400,7 @@ The definition of A172469 is `conjectured`: the Lean definition is a formula tha
 
 `p?[A376506(n+1)]`
 
-The canonical program, it is in `Seq.B003.C002`.
+The canonical program, it is in `Seq.B003.C003`.
 -/
 
 namespace A172469

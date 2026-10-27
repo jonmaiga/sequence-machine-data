@@ -36,6 +36,7 @@ import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
 import Seq.B001.C003
+import Seq.B001.C004
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C008
@@ -46,24 +47,23 @@ import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
-import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C002
-import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
+import Seq.B004.C003
 import Seq.B005.C000
 import Seq.B005.C001
 import Seq.B006.C000
 import Seq.B006.C001
+import Seq.B007.C000
 import Seq.B008.C000
-import Seq.B009.C000
-import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -1725,7 +1725,7 @@ end A049318.P14501942444922319880
 /-!
 # A049319: Number of 3-dimensional integer direction vectors (a,b,c) towards grid points at squared integer distance 2n-1.
 
-The programs for A049319, the canonical program `A049319.P9182740163463165320` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049319 has offset 1).
+The programs for A049319, the canonical program `A049319.P9182740163463165320` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049319 has offset 1).
 
 The definition of A049319 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 3224 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1806,7 +1806,7 @@ end A049319
 
 `6*A395768(2*n+1)`
 
-The canonical program, it is in `Seq.B012.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A049319
@@ -1965,7 +1965,7 @@ end A049319
 /-!
 # A049320: Non-primitive Chacon sequence: fixed under 0->0010, 1->1.
 
-The programs for A049320, the canonical program `A049320.P14632860694169210248` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049320 has offset 1).
+The programs for A049320, the canonical program `A049320.P14632860694169210248` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049320 has offset 1).
 
 The definition of A049320 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2112,7 +2112,7 @@ end A049320
 
 `char[A026179(n+2)+n]`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A049320
@@ -2665,7 +2665,7 @@ end A049321
 /-!
 # A049323: Triangle of coefficients of certain polynomials (exponents in increasing order), equivalent to A033842.
 
-The programs for A049323, the canonical program `A049323.P2092163580346850062` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049323 has offset 0).
+The programs for A049323, the canonical program `A049323.P2092163580346850062` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049323 has offset 0).
 
 The definition of A049323 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 1766 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2674,7 +2674,7 @@ The definition of A049323 is `conjectured`: the Lean definition is a formula tha
 
 `A001263(n+1)/A007318(n)*A058127(n+1)`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A049323
@@ -4203,7 +4203,7 @@ end A049341
 /-!
 # A049342: a(n) = A049341(n)/3.
 
-The programs for A049342, the canonical program `A049342.P7627898145282061471` is in `Seq.B001.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049342 has offset 0).
+The programs for A049342, the canonical program `A049342.P7627898145282061471` is in `Seq.B001.C002`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A049342 has offset 0).
 
 The definition of A049342 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A049341, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -4212,7 +4212,7 @@ The definition of A049342 is `conditional`: the Lean definition is an OEIS formu
 
 `A049341(n)/3`
 
-The canonical program, it is in `Seq.B001.C001`.
+The canonical program, it is in `Seq.B001.C002`.
 -/
 
 namespace A049342

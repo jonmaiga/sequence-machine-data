@@ -51,11 +51,10 @@ import Seq.B001.C006
 import Seq.B001.C007
 import Seq.B001.C008
 import Seq.B001.C009
-import Seq.B001.C010
 import Seq.B001.C011
+import Seq.B001.C012
 import Seq.B002.C000
 import Seq.B002.C001
-import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
 import Seq.B002.C005
@@ -65,6 +64,7 @@ import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C001
 import Seq.B004.C002
@@ -76,9 +76,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -868,7 +866,7 @@ end A139502
 /-!
 # A139503: Primes of the form x^2 + 23x*y + y^2 for x and y nonnegative.
 
-The programs for A139503, the canonical program `A139503.P5463424210265189612` is in `Seq.B005.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139503 has offset 1).
+The programs for A139503, the canonical program `A139503.P5463424210265189612` is in `Seq.B005.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139503 has offset 1).
 
 The definition of A139503 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4958 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -907,7 +905,7 @@ end A139503
 
 `∩[A033212(n+1), A106881(n+1)]`
 
-The canonical program, it is in `Seq.B005.C001`.
+The canonical program, it is in `Seq.B005.C000`.
 -/
 
 namespace A139503
@@ -7388,7 +7386,7 @@ end A139531.P5905830172682034314
 /-!
 # A139532: Numbers k such that 24*k + 19 is prime.
 
-The programs for A139532, the canonical program `A139532.P2108094528252457204` is in `Seq.B007.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139532 has offset 1).
+The programs for A139532, the canonical program `A139532.P2108094528252457204` is in `Seq.B006.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139532 has offset 1).
 
 The definition of A139532 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 2663 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -7424,7 +7422,7 @@ end A139532
 
 `eq[1, A245838(2*A004767(n))]`
 
-The canonical program, it is in `Seq.B007.C000`.
+The canonical program, it is in `Seq.B006.C000`.
 -/
 
 namespace A139532
@@ -9596,7 +9594,7 @@ def P2275781078118373703.Spec : Prop :=
 end A139548
 
 /-!
-# A139549: Triangle read by rows: T(n,k) = if n>=2*k and n
+# A139549: Triangle read by rows: T(n,k) = if n>=2*k and n<2*k*A014963(k-1) then k else 1 T(n,0)=1.
 
 The programs for A139549, there is no canonical definition to state claims against.
 -/
@@ -9877,7 +9875,7 @@ def P6539184295386079447.Spec : Prop :=
 end A139550
 
 /-!
-# A139551: Triangle read by rows: T(n,k) = if n>=3*k and n
+# A139551: Triangle read by rows: T(n,k) = if n>=3*k and n<3*k*A014963(k-1) then k else 1 T(n,0)=1.
 
 The programs for A139551, there is no canonical definition to state claims against.
 -/
@@ -10065,7 +10063,7 @@ end
 end A139552.P885631940039377149
 
 /-!
-# A139553: Triangle read by rows: T(n,k) = if n>=4*k and n
+# A139553: Triangle read by rows: T(n,k) = if n>=4*k and n<4*k*A014963(k) then k else 1; T(n,0)=1.
 
 The programs for A139553, there is no canonical definition to state claims against.
 -/
@@ -10532,7 +10530,7 @@ end A139554
 /-!
 # A139555: a(n) = number of prime-powers (including 1) that each are <= n and are coprime to n.
 
-The programs for A139555, the canonical program `A139555.P14310044146815000922` is in `Seq.B010.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139555 has offset 1).
+The programs for A139555, the canonical program `A139555.P14310044146815000922` is in `Seq.B004.C001`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A139555 has offset 1).
 
 The definition of A139555 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A038610, A073093, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -10564,7 +10562,7 @@ end A139555
 
 `A073093(A038610(n+1))`
 
-The canonical program, it is in `Seq.B010.C000`.
+The canonical program, it is in `Seq.B004.C001`.
 -/
 
 namespace A139555

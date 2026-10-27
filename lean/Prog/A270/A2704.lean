@@ -42,22 +42,25 @@ import Seq.B001.C002
 import Seq.B001.C003
 import Seq.B001.C004
 import Seq.B001.C005
+import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C009
 import Seq.B001.C010
-import Seq.B001.C012
+import Seq.B001.C011
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
 import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C005
+import Seq.B002.C006
+import Seq.B002.C007
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
 import Seq.B003.C003
 import Seq.B003.C004
+import Seq.B003.C005
 import Seq.B004.C000
-import Seq.B004.C001
 import Seq.B004.C002
 import Seq.B005.C000
 import Seq.B005.C001
@@ -70,7 +73,6 @@ import Seq.B009.C000
 import Seq.B010.C000
 import Seq.B011.C000
 import Seq.B012.C000
-import Seq.B013.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -2157,7 +2159,7 @@ end A270430
 /-!
 # A270431: Numbers n such that A048673(n) and A064216(n) are of opposite parity.
 
-The programs for A270431, the canonical program `A270431.P6980226587388956771` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270431 has offset 1).
+The programs for A270431, the canonical program `A270431.P6980226587388956771` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270431 has offset 1).
 
 The definition of A270431 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 4928 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2166,7 +2168,7 @@ The definition of A270431 is `conjectured`: the Lean definition is a formula tha
 
 `eq[char[A270430(n+1)], A000007(n)]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A270431
@@ -2341,7 +2343,7 @@ end A270431
 /-!
 # A270432: a(n) = number of terms A270430 <= n; least monotonic left inverse of A270430.
 
-The programs for A270432, the canonical program `A270432.P16128433384081149087` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270432 has offset 1).
+The programs for A270432, the canonical program `A270432.P16128433384081149087` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270432 has offset 1).
 
 The definition of A270432 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -2379,7 +2381,7 @@ end A270432
 
 `∑[char[A270430(n+1)-1]]`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A270432
@@ -2479,7 +2481,7 @@ end A270432
 /-!
 # A270433: a(n) = number of terms A270431 <= n; least monotonic left inverse of A270431.
 
-The programs for A270433, the canonical program `A270433.P15401219787460768616` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270433 has offset 1).
+The programs for A270433, the canonical program `A270433.P15401219787460768616` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270433 has offset 1).
 
 The definition of A270433 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A270432, whose definition is only conditional or conjectured, so it is only correct if that one is. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2488,7 +2490,7 @@ The definition of A270433 is `conditional`: the Lean definition is an OEIS formu
 
 `n+1-A270432(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A270433
@@ -2669,7 +2671,7 @@ end A270433
 /-!
 # A270434: a(n) = A270432(n) - A270433(n).
 
-The programs for A270434, the canonical program `A270434.P10423559976014811217` is in `Seq.B013.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270434 has offset 1).
+The programs for A270434, the canonical program `A270434.P10423559976014811217` is in `Seq.B012.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A270434 has offset 1).
 
 The definition of A270434 is `conditional`: the Lean definition is an OEIS formula that is not marked as a conjecture, but it uses A270432, A270433, whose definitions are only conditional or conjectured, so it is only correct if theirs are. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: conditional.
 -/
@@ -2678,7 +2680,7 @@ The definition of A270434 is `conditional`: the Lean definition is an OEIS formu
 
 `A270432(n+1)-A270433(n+1)`
 
-The canonical program, it is in `Seq.B013.C000`.
+The canonical program, it is in `Seq.B012.C000`.
 -/
 
 namespace A270434
@@ -5011,21 +5013,6 @@ def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
 end
 
 end A270453.P13915233941382342779
-
-/-! ## A270453.P15316606565762847044
-
-`A270450(n+1)+A270450(n)*A339791(A055377(n+4))`
--/
-
-namespace A270453.P15316606565762847044
-noncomputable section
-
-def a : ℕ → ℤ := SequenceMachineLib.memo fun n =>
-  A270450 (n + 1) + A270450 n * A339791 (A055377 (n + 4)).toNat
-
-end
-
-end A270453.P15316606565762847044
 
 /-! ## A270453.P3824544831787439738
 

@@ -34,18 +34,22 @@ import Seq.B000.C039
 import Seq.B001.C000
 import Seq.B001.C001
 import Seq.B001.C002
+import Seq.B001.C003
 import Seq.B001.C005
 import Seq.B001.C006
 import Seq.B001.C007
-import Seq.B001.C008
-import Seq.B001.C012
+import Seq.B001.C009
+import Seq.B001.C013
 import Seq.B002.C000
 import Seq.B002.C001
+import Seq.B002.C002
 import Seq.B002.C003
 import Seq.B002.C004
+import Seq.B002.C005
 import Seq.B003.C000
 import Seq.B003.C001
 import Seq.B003.C002
+import Seq.B003.C004
 import Seq.B004.C000
 import Seq.B004.C002
 import Seq.B005.C000
@@ -55,9 +59,7 @@ import Seq.B007.C000
 import Seq.B008.C000
 import Seq.B009.C000
 import Seq.B010.C000
-import Seq.B012.C000
-import Seq.B013.C000
-import Seq.B014.C000
+import Seq.B011.C000
 import Seq.Opaque.C000
 import Seq.Opaque.C001
 import Seq.Opaque.C002
@@ -769,7 +771,7 @@ end A224507.P13790599428414277702
 /-!
 # A224508: a(n+2) = a(n+1) + a(n) + A*t^n, with A = 1 and t = -2.
 
-The programs for A224508, the canonical program `A224508.P101396537568610900` is in `Seq.B001.C008`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224508 has offset 0).
+The programs for A224508, the canonical program `A224508.P101396537568610900` is in `Seq.B001.C009`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224508 has offset 0).
 
 The definition of A224508 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 335 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -824,7 +826,7 @@ end A224508
 
 `A104449(n)-2*a(n-1)` with `a(0)=0`
 
-The canonical program, it is in `Seq.B001.C008`.
+The canonical program, it is in `Seq.B001.C009`.
 -/
 
 namespace A224508
@@ -1810,7 +1812,7 @@ end A224514
 /-!
 # A224516: Number of solutions to x^4 - x == 0 (mod n).
 
-The programs for A224516, the canonical program `A224516.P4254981347655587293` is in `Seq.B014.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224516 has offset 1).
+The programs for A224516, the canonical program `A224516.P4254981347655587293` is in `Seq.B011.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224516 has offset 1).
 
 The definition of A224516 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 10000 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -1819,7 +1821,7 @@ The definition of A224516 is `conjectured`: the Lean definition is a formula tha
 
 `A002487(A060839(n+1))*A034444(n+1)`
 
-The canonical program, it is in `Seq.B014.C000`.
+The canonical program, it is in `Seq.B011.C000`.
 -/
 
 namespace A224516
@@ -4347,7 +4349,7 @@ end A224543.P2717215292192148966
 /-!
 # A224544: Number of (n+1) X 3 0..1 matrices with each 2 X 2 subblock idempotent.
 
-The programs for A224544, the canonical program `A224544.P4555445662633383526` is in `Seq.B002.C004`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224544 has offset 1).
+The programs for A224544, the canonical program `A224544.P4555445662633383526` is in `Seq.B002.C005`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A224544 has offset 1).
 
 The definition of A224544 is `conjectured`: the Lean definition is a formula that matches the known terms it was checked against, but it is not proven. The canonical program matched 473 terms. A proof of the Spec of a program (its theorem correct) only shows that the program equals the Lean definition, which is conjectured.
 -/
@@ -4356,7 +4358,7 @@ The definition of A224544 is `conjectured`: the Lean definition is a formula tha
 
 `A055998(n)+A022124(n+2)`
 
-The canonical program, it is in `Seq.B002.C004`.
+The canonical program, it is in `Seq.B002.C005`.
 -/
 
 namespace A224544
