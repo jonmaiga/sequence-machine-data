@@ -4203,7 +4203,7 @@ end A132117
 
 The programs for A132118, the canonical program `A132118.P1363662735479864841` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132118 has offset 1).
 
-The definition of A132118 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A132118 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A132118.anchor (n : ℕ) : (A132118 (n + 1) : ℚ) = ((SequenceMachineLib.triRow n + 1) * SequenceMachineLib.triRow n : ℚ) / 2 + (2 * (SequenceMachineLib.triCol n + 1) : ℚ) - 1` in `Proof.A132.A132118`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A132118.P1363662735479864841
@@ -4940,7 +4940,7 @@ end A132119
 
 The programs for A132121, the canonical program `A132121.P4850799735873907847` is in `Seq.B000.C019`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A132121 has offset 0).
 
-The definition of A132121 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A132121 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A132121.anchor (n : ℕ) : (A132121 n : ℚ) = (SequenceMachineLib.triRow n * (SequenceMachineLib.triRow n + 1) * ((3 * SequenceMachineLib.triCol n + 2) * SequenceMachineLib.triRow n + 1) : ℚ) / 6` in `Proof.A132.A132121`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A132121.P4850799735873907847

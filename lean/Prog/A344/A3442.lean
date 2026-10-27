@@ -541,7 +541,7 @@ end A344214.P9021402299150461536
 
 The programs for A344215, the canonical program `A344215.P4496065287303426731` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A344215 has offset 0).
 
-The definition of A344215 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A344215 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A344215.anchor (n : ℕ) : (A344215 n : ℚ) = (n : ℚ) * ((3 : ℚ) ^ ((n : ℤ) - 1 : ℤ) - (2 : ℚ) ^ ((n : ℤ) - 1 : ℤ))` in `Proof.A344.A344215`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A344215.P4496065287303426731

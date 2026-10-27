@@ -17203,7 +17203,7 @@ end A086090
 
 The programs for A086091, the canonical program `A086091.P3154457619635186415` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086091 has offset 0).
 
-The definition of A086091 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A086091 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A086091.anchor (n : ℕ) : (A086091 n : ℚ) = (3 ^ n : ℚ) + (3 * n : ℚ) * (4 : ℚ) ^ ((n : ℤ) - 1 : ℤ)` in `Proof.A086.A086091`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A086091.P3154457619635186415
@@ -17373,7 +17373,7 @@ end A086092
 
 The programs for A086093, the canonical program `A086093.P6734917064426738367` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086093 has offset 0).
 
-The definition of A086093 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A086093 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A086093.anchor (n : ℕ) : (A086093 n : ℚ) = (3 ^ n : ℚ) + (2 * n : ℚ) * (4 : ℚ) ^ ((n : ℤ) - 1 : ℤ)` in `Proof.A086.A086093`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A086093.P6734917064426738367

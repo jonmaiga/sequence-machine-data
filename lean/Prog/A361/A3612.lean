@@ -2352,7 +2352,7 @@ end A361225.P11210020895212857382
 
 The programs for A361226, the canonical program `A361226.P7781671185256553747` is in `Seq.B000.C039`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A361226 has offset 0).
 
-The definition of A361226 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A361226 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A361226.anchor (n : ℕ) : (A361226 n : ℚ) = ((SequenceMachineLib.triCol n : ℤ) * ((1 + 2 * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ))) * (SequenceMachineLib.triCol n : ℤ) - 1) : ℚ) / 2` in `Proof.A361.A361226`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A361226.P7781671185256553747

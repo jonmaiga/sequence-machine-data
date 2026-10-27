@@ -4691,7 +4691,7 @@ end A196676
 
 The programs for A196678, the canonical program `A196678.P4349142180906617688` is in `Seq.B000.C028`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A196678 has offset 0).
 
-The definition of A196678 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A196678 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A196678.anchor (n : ℕ) : (A196678 n : ℚ) = (5 * Nat.choose (4 * n + 5) n : ℚ) / (4 * n + 5 : ℚ)` in `Proof.A196.A196678`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A196678.P4349142180906617688

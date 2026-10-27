@@ -3520,7 +3520,7 @@ end A230545.P7555209311104835585
 
 The programs for A230547, the canonical program `A230547.P6627728339677918992` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A230547 has offset 0).
 
-The definition of A230547 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A230547 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A230547.anchor (n : ℕ) : (A230547 n : ℚ) = (3 * Nat.choose (3 * n + 9) n : ℚ) / (n + 3 : ℚ)` in `Proof.A230.A230547`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A230547.P6627728339677918992

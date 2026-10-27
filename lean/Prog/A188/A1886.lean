@@ -2742,7 +2742,7 @@ end A188625.P8216813241366206792
 
 The programs for A188626, the canonical program `A188626.P11523270679829309453` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A188626 has offset 1).
 
-The definition of A188626 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A188626 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A188626.anchor (n : ℕ) : (A188626 (n + 1) : ℚ) = (n + 1 : ℚ) + (n : ℚ) * (2 : ℚ) ^ ((n : ℤ) - 1 : ℤ)` in `Proof.A188.A188626`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A188626.P11523270679829309453
@@ -11811,7 +11811,7 @@ end A188680.P3207561340634834485
 
 The programs for A188681, the canonical program `A188681.P12853465770159147176` is in `Seq.B000.C027`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A188681 has offset 0).
 
-The definition of A188681 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A188681 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A188681.anchor (n : ℕ) : (A188681 n : ℚ) = (Nat.choose (3 * n) n ^ 2 : ℚ) / (2 * n + 1 : ℚ)` in `Proof.A188.A188681`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A188681.P12853465770159147176

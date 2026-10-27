@@ -8148,7 +8148,7 @@ end A090748.P12891127796672551153
 
 The programs for A090749, the canonical program `A090749.P3173448819452688393` is in `Seq.B000.C014`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A090749 has offset 5).
 
-The definition of A090749 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A090749 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A090749.anchor (n : ℕ) : (A090749 (n + 5) : ℚ) = (12 * Nat.choose (2 * (n + 5) + 1) n : ℚ) / (n + 12 : ℚ)` in `Proof.A090.A090749`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A090749.P3173448819452688393

@@ -3240,7 +3240,7 @@ end A097628.P10027334500074518914
 
 The programs for A097629, the canonical program `A097629.P14300978744868495827` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A097629 has offset 1).
 
-The definition of A097629 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A097629 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A097629.anchor (n : ℕ) : (A097629 (n + 1) : ℚ) = 2 * (2 * (n + 1) : ℚ) ^ ((n : ℤ) - 1 : ℤ)` in `Proof.A097.A097629`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A097629.P14300978744868495827

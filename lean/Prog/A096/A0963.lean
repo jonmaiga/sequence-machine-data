@@ -7136,7 +7136,7 @@ end A096363
 
 The programs for A096364, the canonical program `A096364.P6771774350481292813` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096364 has offset 1).
 
-The definition of A096364 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A096364 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A096364.anchor (n : ℕ) : (A096364 (n + 1) : ℚ) = ((3 * (n + 1) : ℤ) - 4 : ℚ) * ((n : ℤ) - 1 : ℚ) ^ ((n : ℤ) - 1 : ℤ) - (n ^ n : ℚ)` in `Proof.A096.A096364`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A096364.P6771774350481292813

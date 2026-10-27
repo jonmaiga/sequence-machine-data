@@ -4281,7 +4281,7 @@ end A003518
 
 The programs for A003519, the canonical program `A003519.P8748030535205218975` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A003519 has offset 4).
 
-The definition of A003519 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A003519 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A003519.anchor (n : ℕ) : (A003519 (n + 4) : ℚ) = (10 * Nat.choose (2 * (n + 4) + 1) n : ℚ) / (n + 10 : ℚ)` in `Proof.A003.A003519`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A003519.P8748030535205218975

@@ -4128,7 +4128,7 @@ end A215539.P1959284803210455415
 
 The programs for A215541, the canonical program `A215541.P16899933526223234158` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215541 has offset 0).
 
-The definition of A215541 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A215541 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A215541.anchor (n : ℕ) : (A215541 n : ℚ) = (Nat.choose (5 * n) n * (3 * n + 1) : ℚ) / (4 * n + 1 : ℚ)` in `Proof.A215.A215541`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A215541.P16899933526223234158
@@ -4358,7 +4358,7 @@ end A215541
 
 The programs for A215542, the canonical program `A215542.P1797211264771751813` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215542 has offset 0).
 
-The definition of A215542 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A215542 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A215542.anchor (n : ℕ) : (A215542 n : ℚ) = (Nat.choose (6 * n) n * (4 * n + 1) : ℚ) / (5 * n + 1 : ℚ)` in `Proof.A215.A215542`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A215542.P1797211264771751813
@@ -5818,7 +5818,7 @@ end A215550.P14449258963813033044
 
 The programs for A215551, the canonical program `A215551.P4011766139144104992` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215551 has offset 0).
 
-The definition of A215551 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A215551 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A215551.anchor (n : ℕ) : (A215551 n : ℚ) = (Nat.choose (7 * n) n * (5 * n + 1) : ℚ) / (6 * n + 1 : ℚ)` in `Proof.A215.A215551`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A215551.P4011766139144104992
@@ -5991,7 +5991,7 @@ end A215551
 
 The programs for A215552, the canonical program `A215552.P6560176284433690345` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215552 has offset 0).
 
-The definition of A215552 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A215552 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A215552.anchor (n : ℕ) : (A215552 n : ℚ) = (Nat.choose (8 * n) n * (6 * n + 1) : ℚ) / (7 * n + 1 : ℚ)` in `Proof.A215.A215552`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A215552.P6560176284433690345
@@ -6135,7 +6135,7 @@ end A215552
 
 The programs for A215553, the canonical program `A215553.P3250685475462951818` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215553 has offset 0).
 
-The definition of A215553 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A215553 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A215553.anchor (n : ℕ) : (A215553 n : ℚ) = (Nat.choose (9 * n) n * (7 * n + 1) : ℚ) / (8 * n + 1 : ℚ)` in `Proof.A215.A215553`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A215553.P3250685475462951818
@@ -6245,7 +6245,7 @@ end A215553
 
 The programs for A215554, the canonical program `A215554.P17245933821415830049` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215554 has offset 0).
 
-The definition of A215554 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A215554 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A215554.anchor (n : ℕ) : (A215554 n : ℚ) = (Nat.choose (10 * n) n * (8 * n + 1) : ℚ) / (9 * n + 1 : ℚ)` in `Proof.A215.A215554`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A215554.P17245933821415830049
@@ -6407,7 +6407,7 @@ end A215554
 
 The programs for A215555, the canonical program `A215555.P12095238688622758741` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A215555 has offset 0).
 
-The definition of A215555 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A215555 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A215555.anchor (n : ℕ) : (A215555 n : ℚ) = (Nat.choose (11 * n) n * (9 * n + 1) : ℚ) / (10 * n + 1 : ℚ)` in `Proof.A215.A215555`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A215555.P12095238688622758741

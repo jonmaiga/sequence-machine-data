@@ -5133,7 +5133,7 @@ end A229961.P13388431552580297042
 
 The programs for A229963, the canonical program `A229963.P15987772240577070665` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229963 has offset 0).
 
-The definition of A229963 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A229963 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A229963.anchor (n : ℕ) : (A229963 n : ℚ) = (11 * Nat.choose (10 * n + 11) n : ℚ) / (10 * n + 11 : ℚ)` in `Proof.A229.A229963`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A229963.P15987772240577070665

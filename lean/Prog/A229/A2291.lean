@@ -4441,7 +4441,7 @@ end A229134
 
 The programs for A229135, the canonical program `A229135.P12108909619783335073` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A229135 has offset 0).
 
-The definition of A229135 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A229135 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A229135.anchor (n : ℕ) : (A229135 n : ℚ) = (n : ℚ) * (2 + (2 : ℚ) ^ ((2 * n : ℤ) - 1 : ℤ))` in `Proof.A229.A229135`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A229135.P12108909619783335073

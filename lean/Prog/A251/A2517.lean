@@ -99,7 +99,7 @@ set_option linter.unreachableTactic false
 
 The programs for A251700, the canonical program `A251700.P4266059864923752673` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251700 has offset 0).
 
-The definition of A251700 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A251700 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A251700.anchor (n : ℕ) : (A251700 n : ℚ) = (8 * n + 1 : ℚ) * (9 * n + 1 : ℚ) ^ ((n : ℤ) - 2 : ℤ) * (10 ^ n : ℚ)` in `Proof.A251.A251700`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A251700.P4266059864923752673

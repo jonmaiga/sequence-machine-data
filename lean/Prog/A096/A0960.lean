@@ -7344,7 +7344,7 @@ end A096037
 
 The programs for A096038, the canonical program `A096038.P12589696669190235938` is in `Seq.B000.C015`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A096038 has offset 1).
 
-The definition of A096038 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A096038 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A096038.anchor (n : ℕ) : (A096038 (n + 1) : ℚ) = ((3 * (SequenceMachineLib.triRow n + 1) ^ 2 : ℤ) - (3 * (SequenceMachineLib.triCol n + 1) ^ 2 : ℤ) + (5 * (SequenceMachineLib.triCol n + 1) : ℤ) - 4 + (SequenceMachineLib.triRow n + 1 : ℤ) : ℚ) / 2` in `Proof.A096.A096038`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A096038.P12589696669190235938

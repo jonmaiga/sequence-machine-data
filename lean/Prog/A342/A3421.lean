@@ -3557,7 +3557,7 @@ end A342135.P9000422297322956304
 
 The programs for A342138, the canonical program `A342138.P15793587741709844545` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A342138 has offset 0).
 
-The definition of A342138 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A342138 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A342138.anchor (n : ℕ) : (A342138 n : ℚ) = (((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + (SequenceMachineLib.triCol n : ℤ)) * (3 * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)) + (3 * SequenceMachineLib.triCol n : ℤ) - 5) : ℚ) / 2 + (3 * SequenceMachineLib.triCol n + 1 : ℚ)` in `Proof.A342.A342138`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A342138.P15793587741709844545

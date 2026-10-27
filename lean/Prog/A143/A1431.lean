@@ -12247,7 +12247,7 @@ end A143196
 
 The programs for A143198, the canonical program `A143198.P3772274350902887636` is in `Seq.B000.C022`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A143198 has offset 0).
 
-The definition of A143198 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A143198 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A143198.anchor (n : ℕ) : (A143198 n : ℚ) = (SequenceMachineLib.triRow n : ℚ) + ((SequenceMachineLib.triRow n + 1 : ℤ) * ((SequenceMachineLib.triCol n : ℤ) - 1) * (SequenceMachineLib.triCol n + 2 : ℤ) : ℚ) / 2` in `Proof.A143.A143198`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A143198.P3772274350902887636

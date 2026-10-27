@@ -4615,7 +4615,7 @@ end A232264.P17115324227430015431
 
 The programs for A232265, the canonical program `A232265.P13228310085095729745` is in `Seq.B000.C031`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A232265 has offset 0).
 
-The definition of A232265 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A232265 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A232265.anchor (n : ℕ) : (A232265 n : ℚ) = (10 * Nat.choose (9 * n + 10) n : ℚ) / (9 * n + 10 : ℚ)` in `Proof.A232.A232265`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A232265.P13228310085095729745

@@ -796,14 +796,14 @@ noncomputable section
 
 /-- A060226: a(n) = n^n - n*(n-1)^(n-1).
 
-Offset 0, canonical program `A060226.P609599655644722523`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 0, canonical program `A060226.P609599655644722523`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A060226.anchor (n : ℕ) : (A060226 n : ℚ) = (n ^ n : ℚ) - (n : ℚ) * ((n : ℤ) - 1 : ℚ) ^ ((n : ℤ) - 1 : ℤ)` in `Proof.A060.A060226`. -/
 def A060226 (n : ℕ) : ℤ :=
   SequenceMachineLib.roundAway (A060226.P609599655644722523.a n)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A060226.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A060226.anchor (n : ℕ) : (A060226 n : ℚ) = (n ^ n : ℚ) - (n : ℚ) * ((n : ℤ) - 1 : ℚ) ^ ((n : ℤ) - 1 : ℤ)` in `Proof.A060.A060226`. -/
+def A060226.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A060242.P628711798503248840
 

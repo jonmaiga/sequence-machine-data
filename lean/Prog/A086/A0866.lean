@@ -1478,7 +1478,7 @@ end A086603
 
 The programs for A086604, the canonical program `A086604.P2981504429464282202` is in `Seq.B000.C013`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A086604 has offset 0).
 
-The definition of A086604 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A086604 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A086604.anchor (n : ℕ) : (A086604 n : ℚ) = (2 : ℚ) ^ ((n : ℤ) - 3 : ℤ) * (n : ℚ) * ((9 * n ^ 2 : ℤ) - (9 * n : ℤ) + 4 : ℚ)` in `Proof.A086.A086604`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A086604.P2981504429464282202

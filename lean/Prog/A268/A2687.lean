@@ -8200,7 +8200,7 @@ end A268758.P14140335222393824455
 
 The programs for A268759, the canonical program `A268759.P11190224258568772249` is in `Seq.B000.C033`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A268759 has offset 0).
 
-The definition of A268759 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A268759 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A268759.anchor (n : ℕ) : (A268759 n : ℚ) = (1 : ℚ) / 4 * (1 + SequenceMachineLib.triCol n : ℚ) * (2 + SequenceMachineLib.triCol n : ℚ) * ((SequenceMachineLib.triCol n : ℤ) - (SequenceMachineLib.triRow n : ℤ) : ℚ) * ((1 + SequenceMachineLib.triCol n : ℤ) - (SequenceMachineLib.triRow n : ℤ) : ℚ)` in `Proof.A268.A268759`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A268759.P11190224258568772249

@@ -5203,7 +5203,7 @@ end A217363
 
 The programs for A217364, the canonical program `A217364.P14074586151424103035` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217364 has offset 0).
 
-The definition of A217364 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A217364 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A217364.anchor (n : ℕ) : (A217364 n : ℚ) = (2 ^ n * Nat.choose (5 * n) n : ℚ) / (4 * n + 1 : ℚ)` in `Proof.A217.A217364`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A217364.P14074586151424103035

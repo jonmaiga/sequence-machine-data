@@ -12353,7 +12353,7 @@ end A154681
 
 The programs for A154682, the canonical program `A154682.P13971398578774464545` is in `Seq.B000.C023`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A154682 has offset 0).
 
-The definition of A154682 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A154682 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A154682.anchor (n : ℕ) : (A154682 n : ℚ) = (((2 * n : ℤ) - 1) ^ (2 * n + 1) : ℚ) + (2 * n + 1 : ℚ) ^ ((2 * n : ℤ) - 1 : ℤ)` in `Proof.A154.A154682`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A154682.P13971398578774464545

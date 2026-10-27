@@ -2778,14 +2778,14 @@ noncomputable section
 
 /-- A196678: a(n) = 5*binomial(4*n+5,n)/(4*n+5).
 
-Offset 0, canonical program `A196678.P4349142180906617688`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 0, canonical program `A196678.P4349142180906617688`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A196678.anchor (n : ℕ) : (A196678 n : ℚ) = (5 * Nat.choose (4 * n + 5) n : ℚ) / (4 * n + 5 : ℚ)` in `Proof.A196.A196678`. -/
 def A196678 (n : ℕ) : ℤ :=
   SequenceMachineLib.roundAway (A196678.P4349142180906617688.a n)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A196678.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A196678.anchor (n : ℕ) : (A196678 n : ℚ) = (5 * Nat.choose (4 * n + 5) n : ℚ) / (4 * n + 5 : ℚ)` in `Proof.A196.A196678`. -/
+def A196678.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A196731.P3109153784564114331
 

@@ -1877,7 +1877,7 @@ end A217527
 
 The programs for A217528, the canonical program `A217528.P11059898023563823371` is in `Seq.B000.C030`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A217528 has offset 1).
 
-The definition of A217528 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A217528 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A217528.anchor (n : ℕ) : (A217528 (n + 1) : ℚ) = (((n : ℤ) - 1) * ((n : ℤ) - 2) : ℚ) * (2 : ℚ) ^ ((n : ℤ) - 1 : ℤ) + (2 ^ (n + 1) : ℚ) - 2` in `Proof.A217.A217528`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A217528.P11059898023563823371

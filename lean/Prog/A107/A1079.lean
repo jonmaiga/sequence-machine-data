@@ -10404,7 +10404,7 @@ end A107971
 
 The programs for A107972, the canonical program `A107972.P2706246706227756376` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107972 has offset 0).
 
-The definition of A107972 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A107972 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A107972.anchor (n : ℕ) : (A107972 n : ℚ) = (((SequenceMachineLib.triCol n + 1) * (SequenceMachineLib.triCol n + 2) * (SequenceMachineLib.triRow n + 2) : ℤ) * ((3 * SequenceMachineLib.triRow n : ℤ) - (2 * SequenceMachineLib.triCol n : ℤ) + 3) : ℚ) / 12` in `Proof.A107.A107972`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A107972.P2706246706227756376
@@ -11673,7 +11673,7 @@ end A107982.P17157323052002216821
 
 The programs for A107983, the canonical program `A107983.P4272307694213375682` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107983 has offset 0).
 
-The definition of A107983 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A107983 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A107983.anchor (n : ℕ) : (A107983 n : ℚ) = (((SequenceMachineLib.triCol n + 1) * (SequenceMachineLib.triRow n + 2) * (SequenceMachineLib.triRow n + 3) : ℤ) * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 2) * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1) : ℚ) / 12` in `Proof.A107.A107983`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A107983.P4272307694213375682
@@ -11696,7 +11696,7 @@ end A107983
 
 The programs for A107984, the canonical program `A107984.P13511054363555275004` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107984 has offset 0).
 
-The definition of A107984 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A107984 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A107984.anchor (n : ℕ) : (A107984 n : ℚ) = (((SequenceMachineLib.triCol n + 1) * (SequenceMachineLib.triRow n + 2) : ℤ) * ((2 * SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 3) * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1) : ℚ) / 6` in `Proof.A107.A107984`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A107984.P13511054363555275004
@@ -11775,7 +11775,7 @@ end A107984
 
 The programs for A107985, the canonical program `A107985.P18009679851518096281` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A107985 has offset 0).
 
-The definition of A107985 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A107985 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A107985.anchor (n : ℕ) : (A107985 n : ℚ) = (((SequenceMachineLib.triCol n + 1) * (SequenceMachineLib.triRow n + 2) : ℤ) * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1) : ℚ) / 2` in `Proof.A107.A107985`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A107985.P18009679851518096281

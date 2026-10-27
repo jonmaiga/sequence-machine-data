@@ -2132,7 +2132,7 @@ end A381642.P8009294321911921470
 
 The programs for A381643, the canonical program `A381643.P15251747161541549725` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381643 has offset 0).
 
-The definition of A381643 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A381643 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A381643.anchor (n : ℕ) : (A381643 n : ℚ) = (4 ^ n : ℚ) - (n + 6 : ℚ) * (3 : ℚ) ^ ((n : ℤ) - 1 : ℤ) + (n + 2 : ℚ) * (2 : ℚ) ^ ((n : ℤ) - 1 : ℤ)` in `Proof.A381.A381643`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A381643.P15251747161541549725
@@ -2217,7 +2217,7 @@ end A381645.P16854008701617866081
 
 The programs for A381646, the canonical program `A381646.P15911829975580760538` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A381646 has offset 0).
 
-The definition of A381646 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A381646 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A381646.anchor (n : ℕ) : (A381646 n : ℚ) = (4 ^ n : ℚ) - 2 * (3 : ℚ) ^ ((n : ℤ) - 1 : ℤ) * (n + 3 : ℚ) + (2 : ℚ) ^ ((n : ℤ) - 2 : ℤ) * (n ^ 2 + 3 * n + 4 : ℚ)` in `Proof.A381.A381646`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A381646.P15911829975580760538

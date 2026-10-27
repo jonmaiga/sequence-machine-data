@@ -17966,7 +17966,7 @@ end A386391.P17341898983164636275
 
 The programs for A386392, the canonical program `A386392.P12680172549557109250` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A386392 has offset 0).
 
-The definition of A386392 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A386392 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A386392.anchor (n : ℕ) : (A386392 n : ℚ) = (4 * Nat.choose (7 * n + 4) n : ℚ) / (7 * n + 4 : ℚ)` in `Proof.A386.A386392`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A386392.P7765239543539702279

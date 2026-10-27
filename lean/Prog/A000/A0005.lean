@@ -17475,7 +17475,7 @@ end A000588
 
 The programs for A000589, the canonical program `A000589.P13450582615708353823` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000589 has offset 5).
 
-The definition of A000589 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A000589 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A000589.anchor (n : ℕ) : (A000589 (n + 5) : ℚ) = (11 * Nat.choose (2 * (n + 5)) n : ℚ) / (n + 11 : ℚ)` in `Proof.A000.A000589`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A000589.P13450582615708353823
@@ -17717,7 +17717,7 @@ end A000589
 
 The programs for A000590, the canonical program `A000590.P9708195866616479349` is in `Seq.B000.C000`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A000590 has offset 6).
 
-The definition of A000590 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A000590 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A000590.anchor (n : ℕ) : (A000590 (n + 6) : ℚ) = (13 * Nat.choose (2 * (n + 6)) n : ℚ) / (n + 13 : ℚ)` in `Proof.A000.A000590`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A000590.P9708195866616479349

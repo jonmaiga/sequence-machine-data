@@ -5066,7 +5066,7 @@ end A356753.P16867499252440948488
 
 The programs for A356754, the canonical program `A356754.P15553405362605267409` is in `Seq.B000.C038`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A356754 has offset 1).
 
-The definition of A356754 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A356754 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A356754.anchor (n : ℕ) : (A356754 (n + 1) : ℚ) = (SequenceMachineLib.triRow n * (SequenceMachineLib.triRow n + 3) : ℚ) / 2 + (2 * (SequenceMachineLib.triCol n + 1) : ℚ)` in `Proof.A356.A356754`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A356754.P15553405362605267409

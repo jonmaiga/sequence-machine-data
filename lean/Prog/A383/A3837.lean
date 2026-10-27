@@ -5686,7 +5686,7 @@ end A383776
 
 The programs for A383778, the canonical program `A383778.P11699419562034053400` is in `Seq.B000.C040`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A383778 has offset 0).
 
-The definition of A383778 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A383778 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A383778.anchor (n : ℕ) : (A383778 n : ℚ) = ((n : ℤ) * ((n ^ 2 : ℤ) - (3 * n : ℤ) + 10) : ℚ) * (2 : ℚ) ^ ((n : ℤ) - 4 : ℤ)` in `Proof.A383.A383778`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A383778.P11699419562034053400

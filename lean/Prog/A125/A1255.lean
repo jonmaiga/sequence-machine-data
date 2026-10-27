@@ -7464,7 +7464,7 @@ end A125585
 
 The programs for A125586, the canonical program `A125586.P10093926589923412362` is in `Seq.B000.C018`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A125586 has offset 1).
 
-The definition of A125586 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A125586 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A125586.anchor (n : ℕ) : (A125586 (n + 1) : ℚ) = (2 : ℚ) ^ ((2 * (n + 1) : ℤ) - 1 : ℤ) - (n + 3 : ℚ) * (3 : ℚ) ^ ((n : ℤ) - 1 : ℤ)` in `Proof.A125.A125586`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A125586.P10093926589923412362

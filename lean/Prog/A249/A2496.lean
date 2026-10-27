@@ -7397,7 +7397,7 @@ end A249688.P6909823589159340086
 
 The programs for A249691, the canonical program `A249691.P15060400557879782247` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A249691 has offset 0).
 
-The definition of A249691 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A249691 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A249691.anchor (n : ℕ) : (A249691 n : ℚ) = (Nat.choose (3 * n) n * (5 * n + 2) : ℚ) / (2 * n + 1 : ℚ)` in `Proof.A249.A249691`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A249691.P15060400557879782247

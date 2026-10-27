@@ -2820,14 +2820,14 @@ noncomputable section
 
 /-- A134169: a(n) = 2^(n-1)*(2^n - 1) + 1.
 
-Offset 0, canonical program `A134169.P4806546088313490847`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 0, canonical program `A134169.P4806546088313490847`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A134169.anchor (n : ℕ) : (A134169 n : ℚ) = (2 : ℚ) ^ ((n : ℤ) - 1 : ℤ) * ((2 ^ n : ℤ) - 1 : ℚ) + 1` in `Proof.A134.A134169`. -/
 def A134169 (n : ℕ) : ℤ :=
   SequenceMachineLib.roundAway (A134169.P4806546088313490847.a n)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A134169.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A134169.anchor (n : ℕ) : (A134169 n : ℚ) = (2 : ℚ) ^ ((n : ℤ) - 1 : ℤ) * ((2 ^ n : ℤ) - 1 : ℚ) + 1` in `Proof.A134.A134169`. -/
+def A134169.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A134171.P14887031206563154770
 
@@ -7930,14 +7930,14 @@ noncomputable section
 
 /-- A136524: a(n) = 2^n*(2^n + n)^(n-1).
 
-Offset 0, canonical program `A136524.P11682882297783830628`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 0, canonical program `A136524.P11682882297783830628`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A136524.anchor (n : ℕ) : (A136524 n : ℚ) = (2 ^ n : ℚ) * (2 ^ n + n : ℚ) ^ ((n : ℤ) - 1 : ℤ)` in `Proof.A136.A136524`. -/
 def A136524 (n : ℕ) : ℤ :=
   SequenceMachineLib.roundAway (A136524.P11682882297783830628.a n)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A136524.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A136524.anchor (n : ℕ) : (A136524 n : ℚ) = (2 ^ n : ℚ) * (2 ^ n + n : ℚ) ^ ((n : ℤ) - 1 : ℤ)` in `Proof.A136.A136524`. -/
+def A136524.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A136525.P17908962188976068384
 
@@ -7960,14 +7960,14 @@ noncomputable section
 
 /-- A136525: a(n) = (2^n + 1)*(2^n + n + 1)^(n-1).
 
-Offset 0, canonical program `A136525.P17908962188976068384`. OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
+Offset 0, canonical program `A136525.P17908962188976068384`. Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A136525.anchor (n : ℕ) : (A136525 n : ℚ) = (2 ^ n + 1 : ℚ) * (2 ^ n + n + 1 : ℚ) ^ ((n : ℤ) - 1 : ℤ)` in `Proof.A136.A136525`. -/
 def A136525 (n : ℕ) : ℤ :=
   SequenceMachineLib.roundAway (A136525.P17908962188976068384.a n)
 
 end
 
-/-- OEIS-proven: the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. -/
-def A136525.provenance : SequenceMachineLib.Provenance := .assumedProven
+/-- Verified: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A136525.anchor (n : ℕ) : (A136525 n : ℚ) = (2 ^ n + 1 : ℚ) * (2 ^ n + n + 1 : ℚ) ^ ((n : ℤ) - 1 : ℤ)` in `Proof.A136.A136525`. -/
+def A136525.provenance : SequenceMachineLib.Provenance := .verified
 
 /-! ## A136530.P1380055559147098285
 

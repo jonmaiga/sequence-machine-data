@@ -3196,7 +3196,7 @@ end A101318.P2596242768389249354
 
 The programs for A101321, the canonical program `A101321.P14393802291670128662` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101321 has offset 0).
 
-The definition of A101321 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A101321 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A101321.anchor (n : ℕ) : (A101321 n : ℚ) = 1 + ((SequenceMachineLib.triCol n : ℤ) * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ)) * ((SequenceMachineLib.triRow n : ℤ) - (SequenceMachineLib.triCol n : ℤ) + 1) : ℚ) / 2` in `Proof.A101.A101321`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A101321.P14393802291670128662
@@ -4916,7 +4916,7 @@ end A101333.P4287085064129005876
 
 The programs for A101334, the canonical program `A101334.P5724577027891316913` is in `Seq.B000.C016`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A101334 has offset 0).
 
-The definition of A101334 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A101334 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A101334.anchor (n : ℕ) : (A101334 n : ℚ) = (n ^ n : ℚ) - (n + 1 : ℚ) ^ ((n : ℤ) - 1 : ℤ)` in `Proof.A101.A101334`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A101334.P5724577027891316913

@@ -7254,7 +7254,7 @@ end A251692.P10260825308160638378
 
 The programs for A251693, the canonical program `A251693.P18292720667471138471` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251693 has offset 0).
 
-The definition of A251693 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A251693 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A251693.anchor (n : ℕ) : (A251693 n : ℚ) = (n + 1 : ℚ) * (2 * n + 1 : ℚ) ^ ((n : ℤ) - 2 : ℤ) * (3 ^ n : ℚ)` in `Proof.A251.A251693`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A251693.P18292720667471138471
@@ -7277,7 +7277,7 @@ end A251693
 
 The programs for A251694, the canonical program `A251694.P6875443956432066648` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251694 has offset 0).
 
-The definition of A251694 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A251694 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A251694.anchor (n : ℕ) : (A251694 n : ℚ) = (2 * n + 1 : ℚ) * (3 * n + 1 : ℚ) ^ ((n : ℤ) - 2 : ℤ) * (4 ^ n : ℚ)` in `Proof.A251.A251694`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A251694.P6875443956432066648
@@ -7300,7 +7300,7 @@ end A251694
 
 The programs for A251695, the canonical program `A251695.P10996144173858362134` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251695 has offset 0).
 
-The definition of A251695 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A251695 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A251695.anchor (n : ℕ) : (A251695 n : ℚ) = (3 * n + 1 : ℚ) * (4 * n + 1 : ℚ) ^ ((n : ℤ) - 2 : ℤ) * (5 ^ n : ℚ)` in `Proof.A251.A251695`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A251695.P10996144173858362134
@@ -7323,7 +7323,7 @@ end A251695
 
 The programs for A251696, the canonical program `A251696.P18173526120907609129` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251696 has offset 0).
 
-The definition of A251696 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A251696 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A251696.anchor (n : ℕ) : (A251696 n : ℚ) = (4 * n + 1 : ℚ) * (5 * n + 1 : ℚ) ^ ((n : ℤ) - 2 : ℤ) * (6 ^ n : ℚ)` in `Proof.A251.A251696`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A251696.P18173526120907609129
@@ -7346,7 +7346,7 @@ end A251696
 
 The programs for A251697, the canonical program `A251697.P8173683680015876824` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251697 has offset 0).
 
-The definition of A251697 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A251697 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A251697.anchor (n : ℕ) : (A251697 n : ℚ) = (5 * n + 1 : ℚ) * (6 * n + 1 : ℚ) ^ ((n : ℤ) - 2 : ℤ) * (7 ^ n : ℚ)` in `Proof.A251.A251697`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A251697.P8173683680015876824
@@ -7369,7 +7369,7 @@ end A251697
 
 The programs for A251698, the canonical program `A251698.P2757666679304069960` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251698 has offset 0).
 
-The definition of A251698 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A251698 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A251698.anchor (n : ℕ) : (A251698 n : ℚ) = (6 * n + 1 : ℚ) * (7 * n + 1 : ℚ) ^ ((n : ℤ) - 2 : ℤ) * (8 ^ n : ℚ)` in `Proof.A251.A251698`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A251698.P2757666679304069960
@@ -7392,7 +7392,7 @@ end A251698
 
 The programs for A251699, the canonical program `A251699.P866515338596510768` is in `Seq.B000.C032`. Each `Spec` is the claim that a program equals the definition of its sequence at every index (A251699 has offset 0).
 
-The definition of A251699 is `assumedProven` (OEIS-proven): the Lean definition is an OEIS formula that is not marked as a conjecture, and every sequence it uses is verified or OEIS-proven. Lean has not checked the formula. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: OEIS-proven.
+The definition of A251699 is `verified`: an anchor theorem with a hand-written proof shows that the Lean definition equals an independent definition of the sequence: the theorem `A251699.anchor (n : ℕ) : (A251699 n : ℚ) = (7 * n + 1 : ℚ) * (8 * n + 1 : ℚ) ^ ((n : ℤ) - 2 : ℤ) * (9 ^ n : ℚ)` in `Proof.A251.A251699`. A proof of the Spec of a program (its theorem correct) shows that the program equals the Lean definition, so it is as trusted as the definition: verified.
 -/
 
 /-! ## A251699.P866515338596510768
